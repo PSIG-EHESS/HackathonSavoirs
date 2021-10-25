@@ -43,7 +43,7 @@ Note : si vous êtes intéressé(e) et étudiant(e) dans un cursus en lien avec 
 * Tablette d'écriture numérique            
 * Webcam et casque avec microphone intégré        
 
-Lieu : Centre de colloques du Campus Condorcet (Aubervilliers)
+Lieu : Centre de colloques du Campus Condorcet (Aubervilliers), 21-22 janv. 2022.
 
 Site Web : https://github.com/PSIG-EHESS/HackathonSavoirs
  
