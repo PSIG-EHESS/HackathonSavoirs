@@ -1,7 +1,7 @@
 ### Ressources numériques disponibles pour le hackaton
 
 # Thésaurus *Savoirs* 
-   - Disponible en format RDF/Turtle via https://datu.ehess.fr/rest/v1/savoirs/data?format=text/turtle 
+   - [Disponible en format RDF/Turtle](https://datu.ehess.fr/rest/v1/savoirs/data?format=text/turtle) 
    - [Squelette de script de parsing RDF](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/parse_rdf_thesaurus.py)
    - squelette pour interroger skosmos (thésaurus *Savoirs*)
 
