@@ -1,7 +1,7 @@
 ### Ressources numériques disponibles pour le hackaton
 
 # Thésaurus *Savoirs* 
-   - [En RDF](https://datu.ehess.fr/savoirs/fr/)
+   - Disponible en format RDF/Turtle via https://datu.ehess.fr/rest/v1/savoirs/data?format=text/turtle 
    - [Squelette de script de parsing RDF](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/parse_rdf_thesaurus.py)
    - squelette pour interroger skosmos (thésaurus *Savoirs*)
 
@@ -29,7 +29,7 @@
 ### Outils 
 - Mockups
 - tal et analyse textuelle
-- Analyse réseau : gephi
+- Analyse réseau : [Gephi] (https://gephi.org/)
 - Librairies Python de *topological data analysis* (TDA) :
       - [giotto-tda](https://github.com/giotto-ai/giotto-tda)
       - [scikit-tda](https://github.com/scikit-tda/scikit-tda)
