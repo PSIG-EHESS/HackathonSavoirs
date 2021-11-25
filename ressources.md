@@ -17,6 +17,7 @@
   - Pour l'analyse de parcours :
       - Exemples de parcours
       - Logs serveurs de *Savoirs* sur demande
+      - [Wiki sur le format des logs serveurs](https://gitlab.com/ehess/savoirs/-/wikis/références/Api)
       - [Résumé d'un pipeline de clustering morphologique de parcours de navigation par *topological data analysis* (TDA)](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/Overview%20of%20TDA%20Pipeline%20for%20Path%20Clustering.pdf)
       - [Github d'un projet sur Gallica](https://github.com/LHST-EPFL/TDA-Gallica)
 
