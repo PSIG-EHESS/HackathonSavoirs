@@ -22,10 +22,10 @@
 
 
 ### Outils 
-mockups
-tal et analyse textuelle
-analyse réseau : gephi
-   Librairies Python de *topological data analysis* (TDA) :
+- Mockups
+- tal et analyse textuelle
+- Analyse réseau : gephi
+- Librairies Python de *topological data analysis* (TDA) :
       - [giotto-tda](https://github.com/giotto-ai/giotto-tda)
       - [scikit-tda](https://github.com/scikit-tda/scikit-tda)
       - [GUDHI](https://gudhi.inria.fr)
