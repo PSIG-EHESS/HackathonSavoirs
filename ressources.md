@@ -10,6 +10,7 @@
   - jupyter notebook pour charger les textes et leurs annotations sur Spacy via python
   
 # Codes sources et algorithmes
+  - [Vidéo de présentation générale de l'appli](https://drive.protonmail.com/urls/MVADPDEESC#Hl4evDhz3rwQ)
   - Pour l'étude de l'interface :
       - [Brouillon de cahier des charges pour un espace personnel](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/CdCF_Savoirs_espaceperso.pdf)
   - [Extrait du CdCF des algorithmes de suggestion actuels](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/CdCF_suggestion.pdf)
