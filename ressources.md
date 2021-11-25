@@ -3,8 +3,7 @@
 # Thésaurus *Savoirs* 
    - [Disponible en format RDF/Turtle](https://datu.ehess.fr/rest/v1/savoirs/data?format=text/turtle) 
    - [Squelette de script de parsing RDF](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/parse_rdf_thesaurus.py)
-   - squelette pour interroger skosmos (thésaurus *Savoirs*)
-
+  
 # Corpus de textes *Savoirs*
   - textes en TEI, dump XML
   - completer balisage EN, en plusieurs formats via NerBeyond (http://nerbeyond.jerteh.rs/) -> CONLL
