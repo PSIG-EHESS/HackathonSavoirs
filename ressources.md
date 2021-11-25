@@ -13,7 +13,10 @@
 # Codes sources et algorithmes
   - Pour l'étude de l'interface :
       - [Brouillon de cahier des charges pour un espace personnel](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/CdCF_Savoirs_espaceperso.pdf)
-  - [Code des algorithmes de suggestion actuels](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/strategies.rb)
+  - Code des algorithmes de suggestion actuels
+      - [strategies.rb](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/strategies.rb)
+      - [strategies_spec.rb](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/strategies_spec.rb)
+      - [entry.rb](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/entry.rb)
   - Pour l'analyse de parcours :
       - Exemples de parcours
       - Logs serveurs de *Savoirs* sur demande
