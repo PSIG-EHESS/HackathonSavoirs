@@ -6,8 +6,7 @@
   
 # Corpus de textes *Savoirs*
   - [Corpus d'articles encodés en XML/TEI avec enrichissement (termes, entités nommées)](https://github.com/PSIG-EHESS/HackathonSavoirs/tree/main/CorpusTEI)
-  - [Résultats du travail de stage d'Alex Soares sur le projet](https://github.com/PSIG-EHESS/SavoirsEN), vous trouverez des jupyter notebook avec des exemples de code en Python vous permettant charger les textes et leurs annotations sur Spacy via python
-  -  
+  - [Résultats du travail de stage d'Alex Soares sur le projet](https://github.com/PSIG-EHESS/SavoirsEN), vous trouverez des jupyter notebook avec des exemples de code en Python vous permettant charger les textes et leurs annotations.
   
 # Codes sources et algorithmes
   - [Vidéo de présentation générale de l'appli](https://drive.protonmail.com/urls/MVADPDEESC#Hl4evDhz3rwQ)
