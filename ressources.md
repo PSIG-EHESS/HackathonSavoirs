@@ -5,7 +5,7 @@
    - [téléchargéable en format RDF/Turtle](https://datu.ehess.fr/rest/v1/savoirs/data?format=text/turtle) 
   
 # Corpus de textes *Savoirs*
-  - [Corpus d'articles encodés en XML/TEI avec enrichissement (termes, entités nommées)](https://github.com/PSIG-EHESS/HackathonSavoirs/tree/main/CorpusTEI)
+  - [Corpus d'articles encodés en XML/TEI avec enrichissement (termes, entités nommées)](https://github.com/PSIG-EHESS/HackathonSavoirs/tree/main/CorpusTEI), version du 26/11/2021
   - [Résultats du travail de stage d'Alex Soares sur le projet](https://github.com/PSIG-EHESS/SavoirsEN), vous trouverez des jupyter notebook avec des exemples de code en Python vous permettant charger les textes et leurs annotations.
   
 # Codes sources et algorithmes
