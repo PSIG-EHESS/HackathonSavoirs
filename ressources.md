@@ -30,6 +30,7 @@
 - TAL et analyse textuelle
       - [TXM](http://textometrie.ens-lyon.fr/?lang=en)
       - [Voyants-Tools](https://voyant-tools.org/)
+      - [GarganText](https://gargantext.org/)
       - [Spacy](https://spacy.io/)
       - [NERBeyond](http://nerbeyond.jerteh.rs/)
 - Analyse réseau : [Gephi] (https://gephi.org/)
