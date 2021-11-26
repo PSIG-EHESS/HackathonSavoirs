@@ -1,7 +1,7 @@
 ### Ressources numériques disponibles pour le hackaton
 
 # Thésaurus *Savoirs* 
-   - [Accéssible sur datu.ehess.fr] (https://datu.ehess.fr/savoirs/fr/)
+   - [Accéssible sur datu.ehess.fr](https://datu.ehess.fr/savoirs/fr/)
    - [téléchargéable en format RDF/Turtle](https://datu.ehess.fr/rest/v1/savoirs/data?format=text/turtle) 
   
 # Corpus de textes *Savoirs*
