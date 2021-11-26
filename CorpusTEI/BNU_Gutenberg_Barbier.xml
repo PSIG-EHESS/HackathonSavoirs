@@ -1,0 +1,828 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-19T15:43:06.211+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_Gutenberg_Barbier">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La révolution progressive du livre imprimé</title>
+        <author role="aut">
+          <forename>Frédéric</forename>
+          <surname>Barbier</surname>
+          <idno type="IDREF">026704560</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/5MGBHPCV" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">La révolution progressive du livre
+            imprimé</title>
+            <author>
+              <forename>Frédéric</forename>
+              <surname>Barbier</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="volume">Gutenberg 1468-2018</biblScope>
+              <biblScope unit="issue">Hors-série</biblScope>
+              <biblScope unit="page">62-71</biblScope>
+              <date>2018</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire<term ref="doi:10.34817/sv-zpuctrgq">histoire des
+          techniques</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-t5ioxzdk">innovation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-tb4ozbc3">papier</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-ytvep88b">page</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-3ryxnaxd">style<term ref="doi:10.34817/sv-vaxflqnz">lisibilité</term>
+              </term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName>
+          </term>
+          <term>
+            <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1300" to="1399" type="_temp">14<hi rend="sup">e</hi>
+            siècle</date>
+          </term>
+          <term>
+            <date from="1454" to="1455" type="_temp">1454-1455</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-09-01T06:55:00" who="Jeanne FLAMANT">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">La révolution progressive du livre
+          imprimé</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Frédéric Barbier</docAuthor>
+        </byline>
+      </titlePage>
+      <argument>
+        <p xml:id="d1e278">Notre propos vise à présenter brièvement les
+        logiques de la révolution gutenbergienne du point de vue de la
+        typologie de l’innovation, et à envisager comment l’invention de
+        l’imprimerie ne s’articule pas nécessairement avec celle du livre
+        imprimé.</p>
+      </argument>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <div type="section1" xml:id="d1e103">
+          <head subtype="level1" xml:id="d1e289">La prototypographie, les
+          débuts de l’imprimerie</head>
+          <p xml:id="d1e292">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-tb4ozbc3">papier</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-t5ioxzdk">innovation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire<term ref="doi:10.34817/sv-zpuctrgq">histoire des
+          techniques</term>
+                  </term>
+                </term>
+              </term>
+            </term>Nous sommes, surtout
+          depuis le <date from="1300" to="1399" type="_temp">14<hi rend="sup">e</hi> siècle</date>, dans une phase de profonds
+          changements au niveau du « système technique d’ensemble » (<persName ref="032441401" type="idref" xml:base="https://www.idref.fr/">Bertrand Gille</persName>),
+          concernant notamment le domaine des mines et de la métallurgie<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>Gille, Bertrand (dir.), <hi rend="italic">Histoire des
+              techniques : technique et civilisations, technique et
+              sciences</hi>, Paris, Gallimard, 1978 (Bibliothèque de la
+              Pléiade)</p>
+            </note>. Les investissements massifs engagés dans ces branches
+          doivent être rentabilisés par la production en nombre d’objets
+          manufacturés nouveaux – des pièces d’orfèvrerie, de petits objets
+          métalliques pour la vie quotidienne (couverts, boîtes, pièges), sans
+          oublier les armes, les armures et l’artillerie, tout cela étant la
+          spécialité des artisans de <placeName ref="6556832" type="geonames" xml:base="https://www.geonames.org/">Nuremberg</placeName>. La
+          révolution gutenbergienne s’insère dans ce schéma d’ensemble qui,
+          seul, la rend possible. De même, on sait que l’innovation de <date type="_temp" when="1450">1450</date> prend appui sur des changements
+          techniques antérieurs, avec l’invention du papier et l’essor de la
+          xylographie<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>Barbier, Frédéric, <hi rend="italic">L’Europe de Gutenberg.
+              Le livre et l’invention de la modernité occidentale</hi>, Paris,
+              Belin, 2006</p>
+            </note>.</p>
+          <p xml:id="d1e329">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-e3qbnqtq">invention</term>
+              </term>
+            </term>Malgré
+          tout ce qui a été dit, le principal responsable de l’invention de la
+          typographie à caractères mobiles peut à bon droit être identifié
+          comme le Mayençais <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Johannes Gensfleisch zur
+          Laden</persName>, dit <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName>
+            <note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Baechtel Guy, <hi rend="italic">Gutenberg et l’invention de
+              l’imprimerie : une enquête</hi>, Paris, Fayard, 1992 ; Widmann,
+              Hans, <hi rend="italic">Der gegenwärtige Stand der
+              Gutenberg-Forschung</hi>, Stuttgart, Hiersemann, 1972
+              (Bibliothek des Buchwesens) ; <hi rend="italic">Gutenberg :
+              Aventur und Kunst</hi>, Mainz, Stadt Mainz, 2000 ; Lotte
+              Hellinga, « Gutenberg et ses premiers successeurs », in <hi rend="italic">Les Trois révolutions du livre : actes du colloque
+              international tenu à Lyon/Villeurbanne</hi>, dir. Frédéric
+              Barbier, Genève, Droz, 2001.</p>
+            </note>. Mais, selon la formule élégante d’<persName ref="027012913" type="idref" xml:base="https://www.idref.fr/">Henri-Jean Martin</persName>, à
+          compter des années <date from="1420" to="1430" type="_temp">1420-1430</date>, « l’invention [de l’imprimerie] est
+          dans l’air ». Dans un certain nombre de villes d’Europe occidentale,
+          de petits groupes d’inventeurs entreprennent d’explorer les voies
+          d’une technique qui permettrait de produire en nombre des
+          exemplaires d’un texte donné, et de répondre ainsi à la poussée de
+          la demande en livres. Différents procédés sont mis au point
+          parallèlement, sur lesquels nous restons en général très mal
+          informés et dont seuls les plus efficaces s’imposeront à terme : on
+          désigne ces techniques sous l’épithète de
+          « prototypographiques »<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Febvre, Lucien et Martin, Henri-Jean, <hi rend="italic">L’Apparition du livre</hi>, postface Frédéric
+              Barbier, nouv. éd., Paris, Albin Michel, 1999 (L’Évolution de
+              l’humanité)</p>
+            </note>.</p>
+          <p xml:id="d1e372">À <placeName ref="6455379" type="geonames" xml:base="https://www.geonames.org/">Avignon</placeName>, nous
+          retrouvons un Pragois émigré, <persName type="_temp">Prokop
+          Waldvogel</persName>, qui a sans doute travaillé à <placeName ref="6556832" type="geonames" xml:base="https://www.geonames.org/">Nuremberg</placeName>, à
+          <placeName ref="2885679" type="geonames" xml:base="https://www.geonames.org/">Constance</placeName> et à
+          <placeName ref="2659811" type="geonames" xml:base="https://www.geonames.org/">Lucerne</placeName>. Il est
+          connu, entre <date from="1444" to="1446" type="_temp">1444 et
+          1446</date>, pour ses recherches dans le domaine de la métallurgie,
+          et pour son procédé permettant de reproduire de courts textes en
+          langue hébraïque. Il est notamment associé, dans ces affaires, avec
+          un certain <persName type="_temp">Girard Yzsenrosse</persName>, de
+          <placeName ref="2886946" type="geonames" xml:base="https://www.geonames.org/">Coblence</placeName>. D’autres
+          techniques sont mises au point dans les « anciens <placeName ref="2750405" type="geonames" xml:base="https://www.geonames.org/">Pays-Bas</placeName> »,
+          techniques dont on connaît l’existence soit par des sources
+          d’archives, soit par des exemplaires de prototypographie
+          éventuellement conservés. La formule usuelle est celle de « jeté en
+          moule », qui désigne sans doute une méthode dérivée de la
+          xylographie – voire de techniques métallurgiques primitives.
+          <persName type="_temp">Jean Le Robert</persName>, abbé de <placeName ref="6438465" type="geonames" xml:base="https://www.geonames.org/">Saint-Aubert</placeName> de
+          <placeName ref="6454400" type="geonames" xml:base="https://www.geonames.org/">Cambrai</placeName>, écrit dans
+          ses <hi rend="italic">Mémoriaux </hi>en <date type="_temp" when="1446">1446</date> puis en <date type="_temp" when="1451">1451</date> :</p>
+          <quote rend="quotation" xml:id="d1e422">« Item pour I Doctrinal
+          getté en molle envoyet querre à <placeName ref="2800931" type="geonames" xml:base="https://www.geonames.org/">Bruges</placeName> par
+          <persName type="_temp">Marquet</persName>, I escripvain de
+          <placeName ref="6438532" type="geonames" xml:base="https://www.geonames.org/">Vallenciennes</placeName>, ou
+          mois de janvier XLV [vieux style] pour Jaquet, XX s.t. S’en heult
+          sandrins I pareil que l’église paia (…). Item, envoiet [à]
+          <placeName ref="6618442" type="geonames" xml:base="https://www.geonames.org/">Arras</placeName> I Doctrinal
+          pour apprendre led. dampt Grard, qui fu accatez a <placeName ref="6438532" type="geonames" xml:base="https://www.geonames.org/">Vallenciennes</placeName>, et
+          estoit jettez en molle, et cousta XXIIII gros. Se me renvoia led.
+          Doctrinal le jour de Toussains l’an LI, disant qu’il ne falloit [=
+          valoit] rien estoit tout faulx. S’en avoit accaté IX patars en
+          papier »<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Archives départementales du Nord, 36 H 431*, fol. 158 et 161
+              v° (cité par Hélène Servant, <hi rend="italic">Artistes et gens
+              de lettres à Valenciennes à la fin du Moyen Äge (vers
+              1440-1507)</hi>, Paris, 1998, p. 258). L’auteur discute la
+              signification possible de l’expression de « jetté en
+              moule ».</p>
+            </note>.</quote>
+          <p xml:id="d1e451">Aucun de ces volumes ne semble malheureusement
+          avoir été conservé. De même, dans la <hi rend="italic">Chronique de
+          Cologne </hi>imprimée par <persName ref="13283328X" type="idref" xml:base="https://www.idref.fr/">Ulrich Zell</persName> en <date type="_temp" when="1499">1499</date>, l’auteur précise :</p>
+          <quote rend="quotation" xml:id="d1e463">« Quoique cet art [de
+          l’imprimerie] ait été trouvé à <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName>, (…) la
+          première ébauche en a cependant été réalisée en <placeName ref="8285549" type="geonames" xml:base="https://www.geonames.org/">Hollande</placeName>, dans les
+          Donat qu’on y imprimait avant ce temps. De ces livres datent donc
+          les commencements de l’art en question ; actuellement, il est
+          beaucoup plus magistral et subtil qu’il ne l’était d’abord, avec le
+          temps il s’est perfectionné de plus en plus… »<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Johann Koelhoff d. J<hi rend="italic">., Kölnische
+              Chronik</hi>, 23 VIII, 2°, Köln, 1499 (GW 6688 ; traduit par
+              nous).</p>
+            </note>.</quote>
+          <p xml:id="d1e486">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-nhh8kfyy">ligne</term>
+              </term>
+            </term>On conserve
+          de très rares exemples de prototypographies témoignant des
+          recherches poursuivies : le <hi rend="italic">Catholicon </hi>de
+          <date type="_temp" when="1460">1460</date> (cette date reste
+          discutée) a apparemment été composé à partir non pas de caractères
+          mobiles, mais de blocs de deux lignes – préfigurant ainsi la future
+          stéréotypie. Voici encore un <hi rend="italic">Speculum humanae
+          salvationis </hi>apparemment imprimé, dans les <date from="1480" to="1489" type="_temp">années 1480</date>, avec des caractères
+          métalliques probablement en étain<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Bibliothèque municipale de Lille, Inc. D-45.</p>
+            </note>.<term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-nhh8kfyy">ligne</term>
+              </term>
+            </term> Le procédé
+          même de la fonderie typographique fait problème : <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> a financé et
+          mis au point sa technique en produisant d’abord de courtes pièces
+          imprimées, notamment des indulgences, mais la question posée est de
+          savoir si, pour la Bible à 42 lignes de <date from="1454" to="1455" type="_temp">1454-1455</date>, il a utilisé ou non des caractères
+          typographiques produits à partir de matrices en métal. La tradition
+          souligne au demeurant le rôle de <persName ref="034949216" type="idref" xml:base="https://www.idref.fr/">Peter
+          Schöffer</persName>, voire de <persName type="_temp">Nicolas
+          Jenson</persName>, dans la mise au point définitive du protocole de
+          fabrication des caractères typographiques à partir de poinçons en
+          acier et de matrices en cuivre.</p>
+          <figure>
+            <graphic url="https://didomena.ehess.fr/downloads/zs25x915k.jpg"/>
+            <head>Figure 1 - Die Cronica van der hilliger Stat van Coellen,
+            Cologne, Johann Koehlhoff, 1499, page de titre (coll. Bibliothèque
+            nationale et universitaire de Strasbourg)</head>
+            <figure>
+              <graphic url="https://didomena.ehess.fr/downloads/00000060f.jpg"/>
+              <head>Figure 2 - Un texte en langue vernaculaire, avec des
+              illustrations : Epistolae et Evangelia, Strasbourg, Martin
+              Schott, 1483 (coll. Bibliothèque nationale et universitaire de
+              Strasbourg)</head>
+            </figure>
+          </figure>
+          <p xml:id="d1e528">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture<term ref="doi:10.34817/sv-v6afogym">lettre</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-twfupys5">bois</term>
+              </term>
+            </term>Enfin, le
+          premier imprimeur strasbourgeois effectivement documenté, <persName ref="027644731" type="idref" xml:base="https://www.idref.fr/">Johann
+          Mentelin</persName>, aurait commencé à travailler avec des
+          caractères gravés sur bois. <persName type="_temp">Specklin</persName> écrit en effet, dans sa <hi rend="italic">Chronique universelle :</hi>
+          </p>
+          <quote rend="quotation" xml:id="d1e540">« J’ai vu la première presse
+          [de <persName ref="027644731" type="idref" xml:base="https://www.idref.fr/">Mentelin</persName>] ainsi que les
+          caractères : ils étaient taillés dans le bois, ainsi que des mots ou
+          des syllabes ; ils étaient troués, on les enfilait sur une ficelle à
+          l’aide d’une aiguille, puis on les étalait sur les lignes. Il est
+          dommage qu’on ait laissé se perdre une telle installation, la toute
+          première en son genre dans le monde entier… »<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Ritter, François, <hi rend="italic">Histoire de l’imprimerie
+              alsacienne aux XV</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> et XVI</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> siècles</hi>, Strasbourg-Paris, Le Roux, 1955, p.
+              27</p>
+            </note>.</quote>
+          <p xml:id="d1e567">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-l5osw33j">capitalisme</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-unufqjx4">financement</term>
+              </term>
+            </term>Sur
+          le Rhin et en <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>
+          méridionale, à <placeName ref="6455379" type="geonames" xml:base="https://www.geonames.org/">Avignon</placeName>, aux
+          <placeName ref="2750405" type="geonames" xml:base="https://www.geonames.org/">Pays-Bas</placeName>, les
+          recherches se poursuivent donc parallèlement, grâce au soutien de
+          capitalistes qui investissent dans la « recherche-développement » en
+          espérant toujours, si le procédé mis au point se révélait viable,
+          « faire la culbute ». Ces recherches ne se limitent pas à une seule
+          direction, mais explorent parallèlement différents types de
+          problèmes : <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> a travaillé, à
+          <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, à la
+          mise au point d’une technique permettant d’améliorer le polissage
+          des pierres précieuses, mais aussi à la fabrication en très grand
+          nombre de miroirs destinés à être vendus aux pèlerins qui se
+          rendaient à <placeName ref="3247449" type="geonames" xml:base="https://www.geonames.org/">Aix-la-Chapelle</placeName>. Le
+          caractère hautement capitalistique de l’imprimerie explique la place
+          tenue par les grands négociants et financiers dans la nouvelle
+          branche d’activité – à l’image de <persName ref="134382625" type="idref" xml:base="https://www.idref.fr/">Johann Fust</persName>
+          à <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName>, de
+          <persName ref="120652390" type="idref" xml:base="https://www.idref.fr/">Peter Drach</persName> à <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Spire</placeName> ou encore de
+          <persName type="_temp">Koberger</persName> à <placeName ref="6556832" type="geonames" xml:base="https://www.geonames.org/">Nuremberg</placeName>, voire
+          des <persName ref="168117002" type="idref" xml:base="https://www.idref.fr/">Buyer</persName> à <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName>.</p>
+        </div>
+        <div type="section1" xml:id="d1e270">
+          <head subtype="level1" xml:id="d1e617">L’incunable, un potentiel
+          d’impression non exploité</head>
+          <p xml:id="d1e620">Une filière s’impose pourtant à partir des années
+          <date from="1452" to="1455" type="_temp">1452-1455</date> au sein de
+          cet ensemble de procédés techniques, celle de la typographie à
+          caractères mobiles. Son invention recouvre un processus d’innovation
+          que nous pouvons à bon droit présenter comme « idéaltypique ».</p>
+          <p xml:id="d1e626">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-rkp2ctq5">pratique manuelle<term ref="doi:10.34817/sv-2gfcysnm">savoir-faire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-tb4ozbc3">papier</term>
+              </term>
+            </term>Tout
+          d’abord, elle suppose de s’insérer dans un changement d’ensemble du
+          système technique qui la rendra possible. Puis elle met en jeu un
+          processus d’innovation classique : en premier lieu, l’innovation
+          technique, alias l’innovation de procédé. Toutefois, l’innovation
+          technique n’est pas tout : imprimer met en jeu un savoir-faire
+          spécialisé, qui relève de la technique et de l’organisation du
+          travail dans l’atelier. Considérons la gestion des
+          approvisionnements en matières premières (en premier lieu le papier)
+          et la disponibilité d’un personnel spécialisé : on conçoit que
+          l’imprimerie suppose de maîtriser le mieux possible un protocole de
+          fabrication très complexe. L’étude matérielle des incunables montre
+          au demeurant que les erreurs ne manquent pas, au niveau du calibrage
+          des textes et de la composition des cahiers – sans parler des
+          coquilles…<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Taurant-Boulicaut, Annie, « <hi rend="italic">Vacat nec vitio
+              nec defectu :</hi> du blanc et de l’excès dans l’incunable », in
+              <hi rend="italic">Le Berceau du livre : autour des
+              incunables</hi>, dir. Frédéric Barbier, Genève, Droz, 2004, p.
+              105-124.</p>
+            </note> Enfin, la réussite de la publication suppose de maîtriser
+          aussi une forme d’innovation organisationnelle, s’agissant de la
+          planification de la production, du budget prévisionnel et de la mise
+          en place de la diffusion. La mise au point de cette procédure prend
+          bien évidemment des années.</p>
+          <p xml:id="d1e641">Mais quel était l’objectif des inventeurs,
+          <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> et ses
+          épigones ? Il s’agissait pour eux de mettre au point un procédé qui
+          permette de reproduire en nombre ce qui existait déjà, à savoir des
+          manuscrits<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>La forme des premiers caractères typographiques suit
+              d’ailleurs le modèle des écritures manuscrites.</p>
+            </note>. C’est pour reproduire ce qui existe, et ce à quoi la
+          clientèle est habituée, que <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> et ses
+          premiers successeurs ne tirent nullement toutes les conséquences de
+          l’invention au niveau de la fabrication.</p>
+          <p xml:id="d1e656">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-fwaqchgf">filigrane</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-p5aiheda">incipit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-92wdfrr5">copiste</term>
+              </term>
+            </term>Quelques
+          observations démontrent le fait :</p>
+          <list type="unordered" xml:id="d1e660">
+            <item>La technique typographique permet, avec un très petit nombre
+            de signes, de reproduire en principe tous les discours
+            imaginables. Or, pour sa Bible à 42 lignes, <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> fabrique un
+            alphabet intégrant un grand nombre de lettres liées ou
+            d’abréviations. Au total, quelque 240 poinçons différents, à
+            partir desquels on fondra un ensemble de caractères très lourd et
+            onéreux : c’est que le modèle réside toujours dans les pratiques
+            des copistes.</item>
+            <item>Même observation avec la rubrication. Dans un manuscrit
+            soigné, l’habitude du scribe est de copier en rouge l’incipit.
+            <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> s’emploie
+            donc, pour un certain nombre d’exemplaires de sa Bible, à imprimer
+            l’incipit en rouge, ce qui alourdit le travail et pose des
+            problèmes de repérage. De même encore, il imprimera plusieurs
+            dizaines d’exemplaires sur un parchemin d’excellente
+            qualité – alors que celui-ci est plus cher et qu’il se prête moins
+            bien que le papier au travail de la presse. Malgré le coût,
+            l’objectif reste celui d’aboutir à un produit pratiquement
+            identique au manuscrit.</item>
+            <item>Nous retrouvons la problématique de la reproduction avec
+            l’exemple du <hi rend="italic">Psautier de Mayence</hi>, premier
+            livre imprimé portant une date (<date type="_temp" when="1457">1457</date>). <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> (sans doute
+            s’agit-il de lui)<note n="11" place="foot" type="standard" xml:id="ftn11">
+                <p>Voir aussi, au sujet du <hi rend="italic">Psautier de
+                Mayence</hi>, l’article de Stephan Füssel p. 18</p>
+              </note> a en effet mis au point une technique très délicate
+            permettant d’imprimer en une seule fois les lettres filigranées en
+            deux couleurs (rouge et bleu). Celles-ci sont en métal et
+            comportent deux parties démontables<note n="12" place="foot" type="standard" xml:id="ftn12">
+                <p>Ce qui est prouvé par le fait que l’on retrouve certaines
+                de ces initiales (sans le fond filigrané) dans des impressions
+                postérieures.</p>
+              </note> : on encre séparément la lettre elle-même et le
+            filigrane<note n="13" place="foot" type="standard" xml:id="ftn13">
+                <p>Wallau, Heinrich, « Die zweifarbigen Initialen der
+                Psalterdrucke von Johannes Fust und Peter Schoeffer », in <hi rend="italic">Festschrift zum fünfhundertjährigen Geburtstage
+                von Johannes Gutenberg</hi>, Mainz-Leipzig, Harrassowitz,
+                1900.</p>
+              </note>. Le procédé est spectaculaire, mais trop onéreux, et il
+            sera rapidement abandonné.</item>
+            <item>Enfin, la forme même des imprimés incunables suit longtemps
+            le modèle du manuscrit : la Bible à 42 lignes n’a pas de page de
+            titre, ni d’éléments paratextuels comme la foliotation, et lorsque
+            les indications relatives à l’œuvre (titre) et à l’impression
+            (ville, atelier, date) figurent dans le volume, elles sont
+            généralement données au colophon.</item>
+          </list>
+          <p xml:id="d1e715">En somme, toutes les potentialités de
+          l’imprimerie ne sont pas tirées, bien au contraire. Elles ne le
+          seront que très progressivement, à échéance d’une génération au
+          moins, et sous l’influence d’une logique complètement différente de
+          celle de la technique elle-même.</p>
+        </div>
+        <div type="section1" xml:id="d1e337">
+          <head subtype="level1" xml:id="d1e721">Le livre imprimé, une
+          révolution en marche</head>
+          <p xml:id="d1e724">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-m6tdpkvp">imprimé</term>
+              </term>
+            </term>Il peut
+          sembler paradoxal de dire que, si l’imprimerie est inventée au début
+          de la <date from="1450" to="1459" type="_temp">décennie 1450</date>,
+          le livre imprimé en tant qu’objet innovant ne le sera en fait qu’une
+          trentaine d’années plus tard – donc autour des <date from="1480" to="1489" type="_temp">années 1480</date>. Nous sommes pleinement
+          dans le schéma classique de l’innovation telle qu’elle a été
+          théorisée par <persName ref="02676797X" type="idref" xml:base="https://www.idref.fr/">François Caron</persName> sur la
+          base de la distinction entre innovation de procédé (donc mise au
+          point d’un nouveau procédé de fabrication) et innovation de produit
+          (l’invention d’un produit qui n’existait pas antérieurement et qui
+          sera proposé au public)<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Caron, François, <hi rend="italic">Le Résistible déclin des
+              sociétés industrielles</hi>, 1ère éd., Perrin, Paris, 1985</p>
+            </note>. Dans le monde du livre, cette dernière ne se développe
+          que peu à peu, suite à la saturation du marché traditionnel et sous
+          la poussée de la concurrence. Le lectorat était d’abord celui des
+          clercs – les ecclésiastiques, mais aussi le « petit monde » des
+          universités, enseignants et docteurs, étudiants et anciens
+          étudiants, personnel des collèges, etc. Il convient d’y ajouter une
+          partie du personnel des administrations et de l’Église, les membres
+          des professions libérales et des représentants de la bourgeoisie
+          urbaine. Enfin, les souverains et les grands seigneurs étaient
+          amateurs de livres et constituaient des bibliothèques souvent
+          célèbres. Même si les évaluations quantitatives relèvent toujours de
+          l’hypothèse, on conçoit qu’il s’agit d’un public à la fois concentré
+          dans les villes, et très minoritaire par rapport à la population
+          globale. À <placeName ref="6557107" type="geonames" xml:base="https://www.geonames.org/">Augsbourg</placeName>, on
+          estime alors le public des lecteurs susceptibles de connaître le
+          latin à quelques seize cents personnes…<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Künast, Hans-Jörg, <hi rend="italic">Getruckt zu Augspurg:
+              Buchdruck und Buchhandel in Augsburg zwischen 1468 und
+              1555</hi>, Tübingen, Niemeyer, 1997, p. 11.</p>
+            </note>
+          </p>
+          <p xml:id="d1e758">Dès lors, avec la typographie à caractères
+          mobiles, la production de livres s’accroît dans des proportions
+          jusque-là inconnues et le surplus ne pourra pas être absorbé par le
+          marché traditionnel, beaucoup trop limité et au taux d’élasticité
+          trop faible. Les prototypographes italiens sont appelés à <placeName ref="6540526" type="geonames" xml:base="https://www.geonames.org/">Subiaco</placeName> en <date type="_temp" when="1465">1465</date> par le <persName ref="069708207" type="idref" xml:base="https://www.idref.fr/">cardinal Torquemada</persName>,
+          mais dès <date type="_temp" when="1467">1467</date>, ils quittent le
+          monastère pour aller à <placeName ref="3169069" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, où quelques
+          années plus tard ils se tourneront vers le pape en vue d’obtenir une
+          aide financière leur permettant de tenir face à la mévente. La
+          réponse viendra pourtant non d’un système de subventions, mais bien
+          du développement d’une innovation de produit – s’agissant tant du
+          contenu que de la « mise en livre » – qui permettra d’élargir la
+          clientèle potentielle. Est-il possible de proposer une typologie
+          sommaire de l’innovation de produit, concernant le domaine de
+          l’imprimé ? Il s’agira d’abord du contenu : peut-être dès <date type="_temp" when="1459">1459</date>, <persName ref="030830656" type="idref" xml:base="https://www.idref.fr/">Albrecht
+          Pfister</persName> explore à <placeName ref="6556725" type="geonames" xml:base="https://www.geonames.org/">Bamberg</placeName> les voies
+          d’une innovation qui lui permettrait de s’imposer face à l’atelier
+          de <persName ref="163695318" type="idref" xml:base="https://www.idref.fr/">Fust</persName> et <persName type="_temp">Schöffer</persName> à <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName>. Du coup,
+          il s’oriente vers la production en vernaculaire, avec son <hi rend="italic">Ackermann aus Böhmen </hi>et son édition de l’<hi rend="italic">Edelstein </hi>d’<persName ref="067057829" type="idref" xml:base="https://www.idref.fr/">Ulrich
+          Boner</persName> (<date type="_temp" when="1461">1461</date>). Puis
+          ce seront les <hi rend="italic">Vier </hi>
+            <hi rend="italic">Historien </hi>(<date type="_temp" when="1462-05">mai
+          1462</date>) et la première édition de la <hi rend="italic">Bible
+          des pauvres </hi>en allemand (<foreign xml:lang="deu">
+              <hi rend="italic">Armenbibel</hi>
+            </foreign>), ainsi que, plus tard, la traduction allemande du <hi rend="italic">Belial</hi> de <persName ref="030818982" type="idref" xml:base="https://www.idref.fr/">Jacobus de Teramo</persName>. La
+          liste, relativement courte, est très probablement incomplète, un
+          certain nombre d’éditions n’ayant sans doute pas été conservées
+          jusqu’à aujourd’hui. L’innovation du contenu des textes publiés se
+          manifeste à plus long terme par la montée en puissance de la
+          production en vernaculaire, par le déplacement des équilibres entre
+          les différents champs de la systématique bibliographique, et par le
+          recours en nombre croissant à des textes d’auteurs
+          contemporains.</p>
+          <figure>
+            <graphic url="https://didomena.ehess.fr/downloads/2514nm355.jpg"/>
+            <head>Figure 3 - Un exemple de placard imprimé : Ausschreiben des
+            Bischofs Johannes (von Werdenberg) von Augsburg, worin er die
+            misslichen Verhältnisse des Klosters Ottobeuren darlegt...,
+            Augsbourg, Jodocus Pflanzmann, 1480 (coll. Bibliothèque nationale
+            et universitaire de Strasbourg)</head>
+          </figure>
+          <p xml:id="d1e838">Mais <persName ref="030830656" type="idref" xml:base="https://www.idref.fr/">Pfister</persName> innove aussi
+          dans la « mise en livre », en introduisant des xylographies dans ses
+          éditions. Après lui, l’illustration ne sera à nouveau introduite
+          dans les imprimés qu’avec <persName ref="12027406X" type="idref" xml:base="https://www.idref.fr/">Günther Zainer</persName>, le
+          prototypographe d’<placeName ref="6557107" type="geonames" xml:base="https://www.geonames.org/">Augsbourg</placeName>, avec une
+          édition de la <hi rend="italic">Légende dorée </hi>en allemand
+          (<date type="_temp" when="1471">1471</date>) et un <hi rend="italic">Belial </hi>(<date type="_temp" when="1472">1472</date>). Même schéma, quelques années plus tard à
+          <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName>, où
+          l’imprimerie est introduite en <date type="_temp" when="1473">1473</date> mais où elle ne bénéficie pas des conditions
+          très favorables qui sont celles de <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>. Les Lyonnais
+          chercheront donc à s’imposer en explorant de nouvelles voies, pour
+          lesquelles ils s’inspirent des expériences faites en <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>. Le
+          prototypographe <persName ref="183503953" type="idref" xml:base="https://www.idref.fr/">Guillaume Le Roy</persName>
+          commence avec le <hi rend="italic">Compendium</hi>
+            <hi rend="italic">
+          breve</hi> du futur <persName ref="028098552" type="idref" xml:base="https://www.idref.fr/">Innocent III</persName>
+            <note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Innocentius III (Lothario de Conti), <hi rend="italic">Compendium breve, quinque libros continens</hi>,
+              Guillaume Le Roy pour Barthélemy Buyer, Lyon, 17 septembre 1473
+              (H 10215)</p>
+            </note>, mais il passe très vite à autre chose, et à
+          l’exploitation d’un autre marché : le premier livre imprimé en
+          français, le livre des <hi rend="italic">Merveilles du monde
+          </hi>(vers <date from="1473" to="1474" type="_temp">1473-1474</date>)<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>
+                <hi rend="italic">Les Merveilles du monde</hi>, Guillaume Le
+              Roy, Lyon, vers 1473-1474 (C 3626)</p>
+            </note>, puis l’adaptation française de l’<hi rend="italic">Ancien
+          </hi>
+            <hi rend="italic">Testament </hi>(vers <date from="1473" to="1475" type="_temp">1473-1475</date>)<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>
+                <hi rend="italic">Biblia. Vetus Testamentum
+              </hi>[Français]<hi rend="italic">. Ancien Testament
+              partiel</hi>, Guillaume Le Roy, Lyon, vers 1473-1475 (Pellechet
+              2358)</p>
+            </note> et le récit anonyme de <hi rend="italic">Pierre de
+          Provence et la belle Maguelonne </hi>(vers <date type="_temp" when="1475">1475</date>)<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>
+                <hi rend="italic">Pierre de Provence et la belle
+              Maguelonne</hi>, Guillaume Le Roy pour Barthélemy Buyer, Lyon,
+              vers 1475 (C 3762)</p>
+            </note>, suivis par le <hi rend="italic">Nouveau </hi>
+            <hi rend="italic">Testament </hi>en français (<date type="_temp" when="1476">1476</date>)<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>
+                <hi rend="italic">Biblia. Novum Testamentum
+              </hi>[Français]<hi rend="italic">. Cy commence la table du
+              nouveau testament</hi>, Guillaume Le Roy pour Barthélemy Buyer,
+              Lyon, vers 1476 (H[ pas C] 3144, II et III)</p>
+            </note> et par le <hi rend="italic">Livre</hi>
+            <hi rend="italic">
+          de </hi>
+            <hi rend="italic">Baudoin,</hi>
+            <hi rend="italic">
+          comte</hi>
+            <hi rend="italic"> de</hi>
+            <hi rend="italic">
+          Flandre</hi>
+            <hi rend="italic"> et</hi>
+            <hi rend="italic"> de</hi>
+            <hi rend="italic"> Ferrant, </hi>
+            <hi rend="italic">fils </hi>
+            <hi rend="italic">du</hi>
+            <hi rend="italic"> roi</hi>
+            <hi rend="italic">
+          de</hi>
+            <hi rend="italic"> Portugal</hi>
+            <hi rend="italic"/> (<date type="_temp" when="1478">1478</date>)<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>
+                <hi rend="italic">Livre de Baudoin, comte de Flandre, et de
+              Ferrant, fils du roi de Portugal</hi>, Guillaume Le Roy pour
+              Barthélemy Buyer, Lyon, 12 novembre 1478 (HC 2709)</p>
+            </note>.</p>
+          <p xml:id="d1e1031">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-gagwc8zs">dédicace</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-xzypndjr">marge</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-3ryxnaxd">style<term ref="doi:10.34817/sv-vaxflqnz">lisibilité</term>
+                </term>
+              </term>
+            </term>L’innovation
+          majeure concerne pourtant la « mise en livre », sous deux dimensions
+          spécifiques. Le travail porte, d’une part, sur l’organisation du
+          texte de manière à en faciliter la lisibilité. Mais apparaît,
+          d’autre part, le développement d’un paratexte remplissant des
+          fonctions d’ordre social (dédicaces, préfaces, etc.), réglementaire
+          (privilèges et autres autorisations) ou informatif. Sur ce dernier
+          point, il s’agira notamment de la page de titre : à trois années
+          d’intervalle, la page de titre de la première édition allemande du
+          <hi rend="italic">Narrenschiff</hi>, en <date type="_temp" when="1494">1494</date>, et celle de sa traduction latine (<hi rend="italic">Stultifera navis</hi>), en <date type="_temp" when="1497">1497</date>, illustrent de manière spectaculaire le
+          chemin parcouru.</p>
+          <figure>
+            <graphic url="https://didomena.ehess.fr/downloads/2j62s561s.jpg"/>
+            <head>Figure 4 - Un exemple de page de titre : Johannes Schram,
+            Quaestio fabulosa, Leipzig, Martin Landsberg, 1494 (coll.
+            Bibliothèque nationale et universitaire de Strasbourg)</head>
+          </figure>
+          <p xml:id="d1e1051">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jfjqgyqr">page de titre</term>
+              </term>
+            </term>Les
+          pages de titre des trois éditions latines incunables du <hi rend="italic">Narrenschiff </hi>données à <placeName ref="2661604" type="geonames" xml:base="https://www.geonames.org/">Bâle</placeName> sont conçues
+          dans un objectif de traçabilité : identifier le contenu de l’édition
+          comme le meilleur et le plus récent, et barrer la route à des
+          « contrefaçons » effectivement nombreuses, mais présentées comme
+          moins bonnes. La publicité pour l’atelier d’imprimerie ou pour la
+          maison de librairie n’est pas absente de ces dispositifs, avec la
+          présence éventuelle d’une marque typographique plus ou moins
+          spectaculaire, et de ce que l’on appelle l’« adresse » de
+          l’ouvrage – l’indication du nom du libraire ou de l’éditeur,
+          éventuellement sa devise, son adresse en ville, et la date de
+          publication, laquelle fonctionne aussi comme un argument
+          publicitaire, dans la mesure où le caractère plus ou moins nouveau
+          d’un texte ou d’une édition est de plus en plus présenté comme un
+          facteur devant inciter à l’achat.</p>
+          <p xml:id="d1e1060">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-vy25598r">numéro de
+          page</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-ytvep88b">page</term>
+              </term>
+            </term>Le dernier
+          bloc d’innovations vise à faciliter la manipulation du texte – et il
+          croise en partie l’impératif de lisibilité. Nous pensons à la
+          foliotation ou à la pagination imprimée, ou encore aux titres
+          courants (avec leur organisation parfois complexe) et aux systèmes
+          de repérage, table des matières et index. Même si elles n’ont pas de
+          page de titre, les célébrissimes <hi rend="italic">Chroniques de
+          Nuremberg </hi>(<hi rend="italic">
+              <foreign xml:lang="lat">Liber chronicarum</foreign>
+            </hi>), imprimées par <persName ref="133270815" type="idref" xml:base="https://www.idref.fr/">Anton Koberger</persName> en <date type="_temp" when="1493">1493</date>, constituent comme un
+          compendium de cet objet nouveau que constitue désormais le livre
+          imprimé moderne. La mise en page en est tout particulièrement
+          soignée, et le volume possède un index alphabétique renvoyant à la
+          foliotation imprimée<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>La présence de l’index est considérée par l’éditeur comme un
+              argument publicitaire, comme le souligne la formule initiale :
+              <hi rend="italic">Registrum huius operis libri cronicarum cū
+              figuris et ymagībus ab inicio mūdi</hi>.</p>
+            </note>.</p>
+          <p xml:id="d1e1087">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-qyzckmpa">mémorisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation</term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-biruakve">feuille</term>
+                </term>
+              </term>
+            </term>Contrairement
+          aux pratiques médiévales, où le repérage se fait par rapport au
+          contenu du texte lui-même en tant que contenu mémorisé (l’exemple le
+          plus accompli est celui de la scolastique), nous sommes désormais
+          devant une toute autre logique : les éléments d’information sont
+          repérés par rapport aux séquences successives, les feuillets, qui
+          constituent leur support matériel. Par suite, il n’est plus
+          nécessaire de connaître a priori la structure interne du texte pour
+          pouvoir le consulter, ni de le mémoriser pour pouvoir l’utiliser. Au
+          début du <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi> siècle</date>, l’innovation de produit est
+          accomplie, et le livre imprimé est désormais en place, avec la
+          généralisation du nouvel « espace visuel » (<persName ref="026968541" type="idref" xml:base="https://www.idref.fr/">Roger
+          Laufer</persName>) qui sera le sien à l’époque moderne.</p>
+          <figure>
+            <graphic url="https://didomena.ehess.fr/downloads/gx41mj590.jpg"/>
+            <head>Figure 5 - Un exemple de livre « moderne » : Novum
+            Testamentum omne, multo quam antehac diligentius ab Erasmo
+            Roterodamo recognitum..., [s. l.], Froben, 1519 (coll.
+            Bibliothèque nationale et universitaire de Strasbourg)</head>
+          </figure>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

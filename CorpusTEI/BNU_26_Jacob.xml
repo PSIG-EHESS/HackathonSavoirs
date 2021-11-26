@@ -1,0 +1,758 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-19T14:26:49.788+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_26_Jacob">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Livres vivants</title>
+        <author role="aut">
+          <forename>Christian</forename>
+          <surname>Jacob</surname>
+          <idno type="IDREF">026932563</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/WW2H9KI3" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Livres vivants</title>
+            <idno type="DOI">https://doi.org/10.4000/rbnu.2919</idno>
+            <author>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <imprint>
+              <biblScope unit="issue">11</biblScope>
+              <biblScope unit="page">8-18</biblScope>
+              <date>2015</date>
+              <note type="url">https://journals.openedition.org/rbnu/2919</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-hcnypq2u">oralité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-wwbkzdwu">note</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6167865" type="geonames" xml:base="https://www.geonames.org/">Toronto</placeName>
+          </term>
+          <term>
+            <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="2010">2010</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-01-23T15:09:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Livres vivants</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Christian Jacob</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e49">
+          <graphic url="https://didomena.ehess.fr/downloads/tb09j849m.png"/>
+          <head xml:id="d1e51">Figure 1 – (de haut en bas) :<lb/>Une personne
+          handicapée et ses « lecteurs » (Limassol, Chypre, 2009)<lb/>Une
+          religieuse et son « lecteur » (Terni, Italie, 2010)<lb/>Une rappeuse
+          et sa « lectrice » (Copenhague, 2010)</head>
+        </figure>
+        <p xml:id="d1e59">
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-zlvpt6y6">ardoise</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-pgaatgp9">livre
+        numérique</term>
+            </term>
+          </term>C’est un article du <hi rend="italic">Monde</hi>, en date du <date type="_temp" when="2010-12-29">29 décembre 2010</date>, qui a attiré mon attention
+        sur l’une des innovations les plus marquantes de ces dernières années
+        dans le domaine des bibliothèques, du livre et de la lecture. Bien
+        au-delà du web, même du web 2.0, il s’agit d’une technologie inédite
+        de la communication et de la transmission des savoirs et des pensées.
+        Ce dispositif expérimental, tout juste devenu public, répond à un défi
+        majeur, car il a réussi à transcender la critique platonicienne de
+        l’écrit et du livre, jugés décevants car ils ne font que répéter la
+        même chose à tous leurs lecteurs, et ne répondent pas à leurs
+        questions dans ce qu’elles ont de personnel et d’imprévisible.
+        L’e-book, dans la diversité de ses formats, entre e-pub, mobi et pdf,
+        est d’ores et déjà dépassé. Les Kindle, Ipads et autres liseuses
+        redeviennent les ardoises magiques de notre enfance.</p>
+        <p xml:id="d1e64">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-vcekvhrh">utopie</term>
+            </term>
+          </term>Qui est à
+        l’origine de ce livre de la prochaine génération ? Ce n’est ni Apple
+        ni Google, ni Amazon ni Microsoft. Ce n’est pas le MIT ni une start-up
+        de la Silicon Valley. Ce sont des organisations non-gouvernementales,
+        relayées par des bibliothécaires, qui ont travaillé longuement pour
+        imaginer, matérialiser et tester ce qui promet de révolutionner le
+        monde de la lecture contemporaine et de donner envie de lire même à
+        ceux qui sont les plus réfractaires au monde de l’écrit. Ces utopistes
+        ont en effet réussi à concevoir un nouveau modèle de livre, basé sur
+        un concept révolutionnaire, un livre intelligent, fluide, évolutif,
+        autonome, personnalisable, en métamorphose perpétuelle. Ce nouveau
+        livre fonde aussi un nouveau mode de lecture, allant bien au-delà du
+        parcours silencieux ou murmuré de notre regard sur la surface d’une
+        page, manuscrite ou imprimée. Ce magnifique dispositif offre au
+        lecteur une expérience inédite, complexe, multisensorielle et
+        véritablement interactive.</p>
+        <p xml:id="d1e66">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>Comme
+        ceux que nous connaissons aujourd’hui, ces livres d’un nouveau genre
+        ont un titre et ils ont des histoires à raconter, des savoirs à
+        transmettre. Comme les livres de nos bibliothèques, on peut les
+        réserver et les emprunter pour un temps, même si la consultation, pour
+        le moment, doit se faire en bibliothèque ou dans d’autres lieux où le
+        dispositif est provisoirement installé. Ce sont en effet
+        principalement des bibliothèques qui permettent de tester cette
+        nouvelle technologie, et on ne trouve pas encore ces livres de
+        nouvelle génération dans nos librairies réelles ou virtuelles. Ces
+        livres s’empruntent, se partagent, mais ne s’achètent pas. On ne peut
+        pas non plus les télécharger, que ce soit sur des sites de streaming,
+        des plateformes légales ou les réseaux « <foreign xml:lang="eng">peer
+        to peer</foreign> ». Ce sont des prototypes, des livres d’une nouvelle
+        génération tant ils renouvellent les pratiques de la lecture, le
+        dialogue du lecteur avec ce qu’il lit. Ils permettent une forme
+        d’interactivité inédite, un processus d’où le lecteur et le livre
+        lui-même ne sortiront pas tout à fait indemnes, ou en tout cas pas
+        semblables à ce qu’ils étaient avant de se rencontrer.</p>
+        <p xml:id="d1e68">Les premières expérimentations remontent à
+        l’an <date type="_temp" when="2000">2000</date>, au <placeName ref="2623032" type="geonames" xml:base="https://www.geonames.org/">Danemark</placeName>, où le
+        concept est né dans des milieux alternatifs et des organisations
+        non-gouvernementales. Le succès fut immédiat, et on importa le
+        dispositif en <placeName ref="719819" type="geonames" xml:base="https://www.geonames.org/">Hongrie</placeName> et en
+        <placeName ref="3144096" type="geonames" xml:base="https://www.geonames.org/">Norvège</placeName>. Ce nouveau
+        genre de livre reçut alors un soutien officiel du Conseil européen, et
+        commença à être diffusé largement dans les bibliothèques publiques,
+        les salons du livre et les lieux d’enseignement.</p>
+        <p xml:id="d1e70">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jcqq7vil">collection
+        éditoriale</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-m6tdpkvp">imprimé</term>
+            </term>
+          </term>En <date type="_temp" when="2011">2011</date>, après une première
+        expérimentation couronnée de succès, la bibliothèque publique de
+        <placeName ref="6167865" type="geonames" xml:base="https://www.geonames.org/">Toronto</placeName>, dans la
+        province de l’<placeName ref="6093943" type="geonames" xml:base="https://www.geonames.org/">Ontario</placeName>, au
+        <placeName ref="6251999" type="geonames" xml:base="https://www.geonames.org/">Canada</placeName>, créa le
+        premier département dédié à ce nouveau support, à côté des livres
+        imprimés, des e-books, des DVD et des magazines. <placeName ref="6167865" type="geonames" xml:base="https://www.geonames.org/">Toronto</placeName> représente le
+        plus grand système de bibliothèques publiques de l’Amérique du Nord,
+        avec quatre-vingt-dix-neuf succursales dans l’agglomération. Elle met
+        à disposition de ses lecteurs onze millions de documents, dans cent
+        langues différentes. Parmi ses collections, on trouve désormais ces
+        livres inédits que je voudrais vous faire découvrir dans ces quelques
+        lignes.</p>
+        <p xml:id="d1e72">Peut-être avez-vous déjà reconnu les livres humains,
+        ces hommes et ces femmes-livres dont la conception et la mise au point
+        sont à mettre au crédit de l’organisation « <foreign xml:lang="eng">The Human Library</foreign> ».</p>
+        <p xml:id="d1e74">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-e7z6hamw">dialogue</term>
+              </term>
+            </term>
+          </term>Permettez-moi
+        de citer la description qu’en donne cette ONG : « La bibliothèque
+        vivante fonctionne exactement de la même façon qu’une bibliothèque
+        classique. Les lecteurs viennent y emprunter un livre pour une durée
+        limitée ; quand ils ont fini de le lire, ils le ramènent à la
+        bibliothèque et peuvent en emprunter un autre, s’ils le désirent. Mais
+        il y a une petite différence : les livres de la bibliothèque vivante
+        sont des êtres humains. Entre eux et leurs lecteurs, un dialogue va
+        s’installer. Les livres sont des personnes qui représentent des
+        groupes fréquemment confrontés à des préjugés et à des stéréotypes,
+        souvent victimes de discrimination et/ou d’exclusion sociale. Le
+        lecteur peut être n’importe qui désirant dialoguer avec son propre
+        préjugé ou stéréotype et étant prêt à consacrer une heure à cette
+        expérience. Dans la bibliothèque vivante, les livres ont la parole :
+        ils sont en mesure de répondre aux questions du lecteur, voire de lui
+        poser des questions et ainsi d’apprendre, eux aussi ».</p>
+        <p xml:id="d1e76">Lors des premiers tests menés à la Bibliothèque
+        publique de <placeName ref="6167865" type="geonames" xml:base="https://www.geonames.org/">Toronto</placeName>, deux cents
+        lecteurs ont été sélectionnés, pour une collection de soixante livres
+        humains. Chaque lecteur pouvait emprunter un livre humain pour une
+        durée de 30 minutes et converser avec lui, avant de le restituer au
+        service du prêt pour qu’un autre lecteur puisse l’emprunter à son
+        tour. <persName ref="161874967" type="idref" xml:base="https://www.idref.fr/">Anne Pélouas</persName>,
+        correspondante du <hi rend="italic">Monde </hi>à <placeName ref="6077246" type="geonames" xml:base="https://www.geonames.org/">Montréal</placeName>, nous
+        indique qu’un moine bouddhiste tibétain, réfugié au <placeName ref="6251999" type="geonames" xml:base="https://www.geonames.org/">Canada</placeName>, comptait
+        parmi les titres les plus demandés, de même qu’un ancien membre d’un
+        gang devenu guitariste dans un groupe à succès.</p>
+        <p xml:id="d1e81">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>C’est
+        sur cette nouvelle pratique lettrée, qui a été expérimentée à
+        <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, à la Cité
+        internationale universitaire et au Collège des Bernardins, notamment
+        par l’artiste <persName ref="158555074" type="idref" xml:base="https://www.idref.fr/">Fanny de Chaillé</persName>, que je
+        voudrais poursuivre ma réflexion. Qu’est-ce qu’un livre, qu’est-ce
+        qu’un lecteur, qu’est-ce que lire ?</p>
+        <p xml:id="d1e83">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion<term ref="doi:10.34817/sv-nz49agmg">curiosité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+            </term>
+          </term>La lecture
+        est une rencontre, la rencontre entre un lecteur et un texte. Cette
+        rencontre peut être aléatoire ou élective, répondre à la logique d’un
+        projet intellectuel ou spirituel comme à l’impulsion d’une curiosité,
+        s’inscrire dans une activité professionnelle ou dans le loisir, dans
+        l’apprentissage ou dans une quête, ou encore dans un désir d’horizons,
+        un désir d’évasion. Comment et pourquoi choisissons-nous de lire un
+        livre ? Il y aurait sans doute un parallèle à établir entre le
+        rayonnage de la bibliothèque, la table de présentation de la
+        librairie, l’écran des bookstores virtuels, qui se prêtent à la
+        recherche raisonnée comme au libre vagabondage. Qu’est-ce qui nous
+        conduit à choisir un livre ? Est-ce un nom d’auteur, un titre,
+        l’estampille d’une collection ou encore le design d’une couverture ?
+        Comme l’indique non sans malice le projet Human Library, « la
+        couverture ne fait pas le livre ! » Il faut aller au-delà des
+        apparences, aller au-delà d’un visage ou d’une silhouette pour entrer
+        dans l’univers d’un autre. Choisir un livre est affirmer une attente,
+        un désir, une confiance : on fait le premier pas d’un voyage dont on
+        ignore la destination finale. La lecture est une rencontre de l’autre,
+        une parenthèse où se redessinent la distance et la proximité,
+        l’identité et l’altérité. Lire, c’est parler, penser, sentir,
+        imaginer, se souvenir du point de vue d’un autre, sans que jamais la
+        différence entre l’un et l’autre ne s’abolisse tout à fait.</p>
+        <p xml:id="d1e86">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-6gbj5sz8">succès</term>
+            </term>
+          </term>Même si les
+        livres humains ne sont pas à vendre, on trouve cependant parmi eux des
+        best-sellers : ce sont les livres les plus demandés par les lecteurs,
+        qui ne restent jamais très longtemps sur le rayonnage et qui sont en
+        permanence empruntés. Qu’est-ce qui fait le succès d’un livre humain ?
+        Le bouche à oreille, sans aucun doute, et la prescription d’une
+        communauté de lecteurs, des voix qui y font autorité. Dans la belle
+        expérience de l’organisation des bibliothèques humaines, on a remarqué
+        que les best-sellers étaient les livres s’inscrivant dans l’actualité
+        de leur milieu de réception, apportant une expérience, un point de vue
+        particuliers à des questions cruciales, la violence, le droit, la
+        cité, le racisme, la pauvreté, le handicap, le combat politique. Ce
+        qui dans le best-seller touche à l’universalité est précisément ce qui
+        en lui est le plus singulier, le plus personnel, ici et
+        maintenant.</p>
+        <p xml:id="d1e88">À la bibliothèque de <placeName ref="6167865" type="geonames" xml:base="https://www.geonames.org/">Toronto</placeName>, la
+        temporalité de la lecture d’un livre humain est singulièrement
+        condensée : trente minutes, pas une de plus, pour ne pas fatiguer le
+        livre, pour satisfaire d’autres lecteurs. Pour ne pas fatiguer le
+        livre, car il doit pouvoir se reposer entre deux lecteurs, avant de
+        parler à nouveau à d’autres oreilles et de s’ouvrir à d’autres
+        regards. Une lecture continue trop longue peut rendre le livre muet,
+        de même que <persName ref="026739917" type="idref" xml:base="https://www.idref.fr/">Borges</persName> rêve à des livres
+        imprimés dont les pages s’effaceraient progressivement comme des
+        lettres sur le sable, usées par les regards comme une plage balayée
+        par les vents. Trente minutes seulement, donc, pour ne pas faire
+        attendre trop longtemps les autres lecteurs, car tout livre d’une
+        bibliothèque passe de main en main, d’un lecteur à l’autre. Le lecteur
+        est un maillon dans une chaîne d’attente et de désir et il me plaît
+        d’imaginer que tout livre d’une bibliothèque se prête à ce que nous
+        appellerions aujourd’hui une « lecture enrichie », car entre les pages
+        et les lignes, il garde trace des regards, des imaginaires, des
+        intelligences qui l’ont lu avant moi, et qui ajoutent des couches
+        sédimentées d’interprétation et de rêve. De ce point de vue, les
+        livres des bibliothèques sont des palimpsestes.</p>
+        <figure xml:id="d1e90">
+          <graphic url="https://didomena.ehess.fr/downloads/v979v386z.jpg"/>
+          <head xml:id="d1e92">Figure 2 – <hi rend="italic">Les Essais</hi>,
+          « livre vivant » de Montaigne : page annotée de la main de l’auteur
+          (exemplaire dit de Bordeaux ; coll. Bibliothèque municipale de
+          Bordeaux)</head>
+        </figure>
+        <figure xml:id="d1e97">
+          <graphic url="https://didomena.ehess.fr/downloads/rn3012238.jpg"/>
+          <head xml:id="d1e99">Figure 3 – Entrée principale de la première
+          bibliothèque vivante, tenue lors du festival Roskilde en 2000. La
+          bannière dit : Bibliothèque vivante « Stop à la violence ».</head>
+        </figure>
+        <p xml:id="d1e101">Il est difficile d’établir une typologie des
+        lecteurs qui fréquentent les bibliothèques. Pour un observateur fin,
+        sans doute, chaque lecteur serait une catégorie en soi, et on serait
+        tenté d’adopter une taxonomie aussi fine que celle des naturalistes
+        travaillant sur les insectes ou sur les plantes. On pourrait aussi
+        déployer la plus complète des analyses ethnographiques et éthologiques
+        sur la communauté des lecteurs et des conservateurs de bibliothèques,
+        en nous attachant aux rituels sociaux, aux codes de comportement, aux
+        gestes et aux instruments, aux technique du corps, aux classes d’âge
+        et à la division des sexes. Je me contenterai ici de dresser le
+        tableau à grands traits, et de répartir les lecteurs de nos
+        bibliothèques en deux grandes catégories, les lecteurs intensifs et
+        les lecteurs extensifs. Les premiers choisissent un livre et cheminent
+        mot à mot, lisent pas à pas, creusent sous la surface du texte et
+        regardent même entre les lignes, tant ils cherchent à creuser la
+        stratigraphie du sens, à déployer le réseau des liens qui rattachent
+        tout texte à une bibliothèque synchronique et diachronique. Les
+        lecteurs extensifs, quant à eux, passent d’un livre à l’autre, font
+        jouer les livres entre eux par de multiples liens de correspondances,
+        de complémentarité, de présupposition. Ce sont des voyageurs, des
+        nomades, et les meilleurs lecteurs sont ceux qui partent à l’aventure
+        sans préjuger de leur destination. Ce qui compte pour eux est
+        l’itinéraire de livre en livre autant que l’arrêt sur la page. Cet
+        itinéraire peut traverser un paysage continu ou provoquer un
+        dépaysement brutal : en ouvrant un livre, le lecteur peut choisir de
+        poursuivre un voyage et de changer d’univers ou de rebrousser
+        chemin.</p>
+        <p xml:id="d1e103">Les bibliothèques humaines croisent les deux types
+        d’expériences. Elles invitent à un face à face intensif avec un livre
+        particulier dont on tentera d’explorer l’univers, de capter le savoir
+        et d’écouter la musique propres. Mais l’expérience fait sens également
+        par le parcours auquel elle invite d’un livre à l’autre, par les échos
+        et les contrastes, la continuité ou les ellipses que le lecteur peut
+        ressentir. Un lecteur méthodique peut ainsi emprunter plusieurs livres
+        humains pendant une même journée.</p>
+        <p xml:id="d1e105">La lecture se déroule selon une temporalité
+        linéaire non réversible, même si le lecteur peut contrôler le rythme :
+        arrêter, ralentir, accélérer, aller en arrière, sauter des pages… Mais
+        toute lecture a une fin, qu’il s’agisse d’un livre manuscrit, imprimé,
+        numérique ou d’un livre humain. Comment prend-on congé d’un livre ? La
+        séparation fait partie de l’expérience de la bibliothèque. Et tout
+        lecteur doit dire au revoir, et parfois adieu, au livre qu’il
+        restitue. Le lecteur n’a qu’un droit d’usage temporaire, un droit de
+        passage, le livre ne fait que passer entre ses mains et sous ses yeux.
+        Si la lecture est une expérience inscrite dans un temps plus ou moins
+        circonscrit, elle laisse cependant une trace durable dans la mémoire
+        du lecteur : au fond, que retient-on d’un livre ? Un ensemble
+        d’impressions sur les tablettes de la mémoire, des impressions qui
+        s’échelonnent de l’affectif à l’analytique, du halo imaginaire aux
+        idées et aux informations mémorisées. Cette trace peut être durable ou
+        évanescente, elle peut accompagner le lecteur sa vie durant ou
+        s’effacer peu à peu.</p>
+        <p xml:id="d1e107">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-3946vxze">oubli</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-wwbkzdwu">note</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-qyzckmpa">mémorisation</term>
+            </term>
+          </term>Tout
+        lecteur doit affronter ce dilemme : que retenir de ses parcours dans
+        un livre, dans une bibliothèque ? Comment les archiver et les
+        préserver dans sa mémoire ? La question est particulièrement aiguë
+        pour les livres que l’on lit ou emprunte dans une bibliothèque.
+        Certains lecteurs acceptent de vivre pleinement le temps de la lecture
+        sans songer à son au-delà. D’autres en revanche essaient de renforcer
+        leur mémoire vive par une mémoire externe et matérialisée : notes de
+        lecture, photocopies, voire numérisation partielle, lorsque c’est
+        possible. On tente de capter l’essentiel d’une réflexion, les jalons
+        d’un récit, les articulations d’un savoir, ou simplement des mots-clés
+        qui permettront plus tard de réveiller la mémoire, ou encore quelques
+        harmoniques subjectives qui feront renaître la musique du texte lu.
+        Lire, c’est lutter contre la perte et l’oubli, mais aussi pour la
+        possibilité du sens et de la mémoire, qui reposent sur la sélection,
+        sur des grilles de tamisage et de filtrage qui retiendront des objets
+        de langage et de savoir particuliers, en laissant filer la poussière
+        du texte. Dans la bibliothèque humaine, le lecteur peut enregistrer le
+        livre qui parle, prendre des notes sténographiques, le filmer, le
+        photographier, le dessiner, autant de traces analogiques qui capteront
+        des pans singuliers de l’expérience vécue sans jamais en restituer la
+        totalité.</p>
+        <figure xml:id="d1e109">
+          <graphic url="https://didomena.ehess.fr/downloads/vt150k16q.jpg"/>
+          <head xml:id="d1e111">Figure 4 – Lecture intensive, lutte contre la
+          perte et l'oubli ou livre rendu muet car « usé par les regards » ?
+          Page d'un ouvrage de la Bibliothèque nationale et universitaire de
+          Strasbourg annoté par ses lecteurs (coll. BNU)</head>
+        </figure>
+        <p xml:id="d1e113">Il faudrait réfléchir aux métaphores économiques
+        qui structurent certains imaginaires de la lecture : celui de la
+        capitalisation, de l’accumulation, de la thésaurisation en
+        particulier, où l’on est hanté par le risque de la perte et de
+        l’oubli, où l’on fait fructifier ses lectures en accumulant les notes,
+        les photocopies, les fiches, les traces analogiques ou numériques qui
+        préservent de l’oubli des fragments de textes, qui les réorganisent
+        selon des rationalités nouvelles. Certains lecteurs acceptent
+        d’oublier. D’autres sont obsédés par la perte de la totalité. Ils
+        rêvent de devenir eux-mêmes le livre.</p>
+        <p xml:id="d1e115">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-espxuzip">lettré</term>
+            </term>
+          </term>Je pense en
+        particulier à la topique du lettré pauvre dans la tradition chinoise,
+        analysée par <persName ref="026836971" type="idref" xml:base="https://www.idref.fr/">Jean-Pierre Drège</persName> dans son
+        beau livre sur l’histoire des bibliothèques en <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> ancienne :</p>
+        <p xml:id="d1e118">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+            </term>
+          </term>« La
+        famille de <persName ref="081569971" type="idref" xml:base="https://www.idref.fr/">Wang Chong</persName> (<date from="0027" to="0097" type="_temp">27-vers 97</date>) était pauvre et
+        n’avait pas de livres. Aussi se promenait-il souvent dans les
+        boutiques du marché de <placeName ref="8624776" type="geonames" xml:base="https://www.geonames.org/">Luoyang</placeName> pour y
+        regarder les livres qui y étaient en vente. Ce qu’il avait vu une
+        fois, il pouvait le réciter par coeur ; c’est pourquoi il connaissait
+        parfaitement les propos des divers courants et des cent écoles ».</p>
+        <p xml:id="d1e120">Ou encore à propos de <persName ref="165905964" type="idref" xml:base="https://www.idref.fr/">Xun Yue</persName>
+        (<date from="0148" to="0209" type="_temp">148-209</date>) : « À l’âge
+        de douze ans, il pouvait expliquer le Chunqiu. Sa famille était pauvre
+        et n’avait pas de livres. Chaque fois qu’il allait chez quelqu’un et
+        qu’il y regardait des livres (tablettes…), il lui suffisait de les
+        voir une fois pour qu’il puisse la plupart du temps les réciter et les
+        noter ».</p>
+        <p xml:id="d1e122">Ces lecteurs s’approprient la totalité des textes
+        qu’ils balayent du regard. Ils deviennent des livres humains. La seule
+        solution pour eux est de devenir le livre, de l’incorporer et de
+        s’identifier à lui, de l’écrire sur les tablettes de leur mémoire.</p>
+        <p xml:id="d1e124">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-vdg9xj5e">pratique rituelle<term ref="doi:10.34817/sv-hkonf3xb">prière</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-hcnypq2u">oralité</term>
+            </term>
+          </term>Mais
+        revenons aux bibliothèques humaines et à leur service du prêt. La
+        lecture peut être individuelle ou collective et partagée. Elle devient
+        alors une activité sociale, où différentes écoutes se croisent pour
+        partager un texte lu. Si un livre humain peut s’adresser à son lecteur
+        en tête-à-tête, il peut aussi s’offrir à un auditoire plus large.
+        L’historien de la culture écrite se rappellera les multiples formes
+        sociales de la lecture oralisée, voire théâtralisée, sa place dans le
+        quotidien comme dans le festif, dans le profane comme dans le sacré :
+        lecture des textes révélés dans les lieux de la prière, lecture des
+        contes dans les veillées familiales, lecture des classiques dans les
+        écoles, lecture d’une conférence dans un amphithéâtre de la
+        Bibliothèque nationale de France.</p>
+        <p xml:id="d1e126">Le livre humain est une voix et un corps autant
+        qu’un texte. Les trois composantes sont indissociablement liées, et
+        contribuent à la production d’un sens global, reposant sur les
+        intonations et les rythmes, sur les gestes et les postures comme sur
+        la langue. La compréhension du texte n’est possible que dans la
+        maîtrise des codes mélodiques et chorégraphiques qui en accompagnent
+        la diction. En <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> ancienne, la
+        lecture oralisée était prédominante, que l’on lise un texte pour
+        soi-même ou pour un cercle d’auditeurs. C’est la voix qui construisait
+        les phrases et séparait les mots, qui marquait la ponctuation et les
+        accents dans le fil continu d’une écriture qui ne présentait aucun
+        trait de structuration visuelle, sinon la superposition des lignes en
+        colonnes, sur le ruban du papyrus. C’est en lisant à haute voix que
+        l’on rendait un texte intelligible, pour soi-même comme pour les
+        autres. Mais ce n’est pas tout. La lecture à haute voix impliquait
+        aussi l’interprétation vocale du texte selon des codes adaptés à
+        chaque genre littéraire, à chaque registre de discours, qu’il s’agisse
+        d’un texte en prose, d’un poème lyrique ou d’un chant d’épopée, d’une
+        comédie ou d’une tragédie. Cette interprétation reposait aussi bien
+        sur le ton de la voix que sur la ligne mélodique et différents
+        registres expressifs qui contribuaient à l’intelligibilité même du
+        texte. Une telle pratique de lecture supposait la maîtrise de
+        différents codes littéraires et culturels, appris dans une tradition
+        de performances orales ancrées dans des cadres sociaux et rituels
+        particuliers. Se tromper dans les codes de la vocalisation comme au
+        niveau plus élémentaire de la transformation de la séquence continue
+        des lettres en phrases découpées en mots trahissait immédiatement
+        l’incompétence et l’ignorance du lecteur en l’exposant aux sarcasmes
+        de ses auditeurs. À un moment donné de la transmission de la
+        littérature grecque, depuis les performances du monde des cités vers
+        les bibliothèques des royaumes hellénistiques, les œuvres ont perdu
+        leurs codes d’interprétation, les textes ont été dépouillés des clés
+        de leur vocalisation et de leur expressivité. Il revint aux
+        bibliothécaires alexandrins de superposer à certains textes, en
+        particulier ceux de la poésie lyrique, des signes conventionnels,
+        comme une méta-écriture, qui pourraient aider à réinventer leur
+        lecture à haute voix, à rétablir leur musicalité : ces signes étaient
+        la ponctuation, les accents mélodiques, ainsi que le découpage des
+        poèmes en strophes faisant ressortir visuellement les unités
+        rythmiques.</p>
+        <p xml:id="d1e128">Avec les livres humains également, le texte est
+        indissociable d’une voix, le sens est tissé dans les mots et les sons,
+        dans tous les registres de l’expressivité des gestes et du visage. Le
+        texte y est mis en voix et en corps, les silences et les intonations,
+        les sourires comme les regards enrichissent les mots des mille
+        subtilités de la communication non verbale, dans le face-à-face du
+        livre et de son lecteur. Celui-ci doit savoir lire entre les mots, et
+        l’essentiel du texte se laisse saisir dans le corps qui le porte.</p>
+        <p xml:id="d1e130">Poursuivons notre réflexion sur les enjeux de ces
+        bibliothèques humaines. L’un des traits fondamentaux des cultures du
+        livre est que la reproduction écrite des textes permet leur diffusion,
+        leur multiplication, sans qu’ils perdent leur sens, leur pouvoir, leur
+        efficacité. Étonnant processus que celui qui conduit à reproduire un
+        texte en de multiples exemplaires, manuscrits ou imprimés, ou encore
+        fichiers numériques pouvant être téléchargés par un nombre indéterminé
+        d’utilisateurs. On admet que le texte reste identique d’un exemplaire
+        à l’autre, qu’il conserve ses effets, sa forme et son sens, et qu’il
+        pourra livrer le même enseignement, le même savoir à tous ses
+        lecteurs, qu’ils se comptent sur les doigts d’une main ou qu’ils
+        soient des centaines de milliers. La reproduction des textes,
+        manuscrite ou imprimée, leur inscription sur un support matériel qui
+        peut faire l’objet d’une reproduction centralisée ou centrifuge, sont
+        parmi les conditions nécessaires pour faire circuler un savoir, une
+        spiritualité, une littérature dans une société donnée.</p>
+        <p xml:id="d1e132">Or chaque livre humain est une pièce unique, non
+        reproductible. C’est un objet singulier, qui fait de la lecture une
+        expérience intense, ancrée dans le temps et le lieu d’une rencontre.
+        Les collections des bibliothèques humaines sont composées de livres
+        uniques, qui ont été écrits au cours d’un long processus, d’un temps
+        de vie, d’une trajectoire à nulle autre pareille. Le lecteur ne peut
+        partager sa lecture que dans le cercle minuscule de ceux qui ont eu
+        accès à ce livre, dans un lieu et un temps déterminés. Ce mode de
+        lecture est extraordinairement intime et singulier. Mais même dans ce
+        cercle, l’expérience que lui a offerte le livre humain est d’une
+        singularité absolue : car le texte du livre est fluide, évolutif, en
+        métamorphose perpétuelle, et il change d’un lecteur à l’autre.</p>
+        <p xml:id="d1e134">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-j2qwt5pl">catégorie sociale<term ref="doi:10.34817/sv-mmnyqfyc">esclave</term>
+            </term>
+          </term>Les
+        bibliothèques humaines de ce <date from="2000" to="2099" type="_temp">21<hi rend="sup">e</hi> siècle</date> semblent s’inscrire
+        dans une longue généalogie. Déjà, au <date from="0001" to="0099" type="_temp">1<hi rend="sup">er</hi> siècle</date> de notre ère,
+        <persName ref="026670984" type="idref" xml:base="https://www.idref.fr/">Sénèque</persName> (<hi rend="italic">Lettres</hi>, 27, 5-8) évoquait un contemporain,
+        <persName ref="242220959" type="idref" xml:base="https://www.idref.fr/">Calvisius Sabinus</persName>, qui
+        avait acheté au prix fort des esclaves entraînés à être des livres
+        vivants : chacun avait mémorisé un classique – <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>, <persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> ou les poètes
+        lyriques. Pour se constituer une bibliothèque, il fallait donc
+        commander des esclaves-livres auprès de fournisseurs spécialisés. Ces
+        esclaves-livres ne connaissaient qu’un texte, et peut-être les
+        appelait-on par le titre de ce texte, « Iliade », « Odyssée »,
+        « Théogonie », ou par son auteur. À la différence des livres sur
+        rouleaux de papyrus, ces livres vivants n’exigeaient pas l’exercice
+        pénible du déchiffrement visuel et de l’interprétation vocale. Ces
+        livres se lisaient d’eux-mêmes à haute voix. Comment ce Romain
+        utilisait-il sa bibliothèque humaine ? Ces livres-esclaves
+        fournissaient à leur maître sans mémoire les citations appropriées
+        lors des conversations de banquet. Ils étaient pour ainsi dire des
+        bases de données vivantes où l’on pouvait naviguer librement et mener
+        des recherches en texte intégral, selon des algorithmes culturels
+        sophistiqués, régis par des critères de pertinence de manière à
+        s’adapter à tout moment d’une interaction sociale. Comme dans <hi rend="italic">Fahrenheit 451 </hi>de <persName ref="026749327" type="idref" xml:base="https://www.idref.fr/">Ray Bradbury</persName>,
+        les esclaves lettrés de <persName ref="026670984" type="idref" xml:base="https://www.idref.fr/">Sénèque</persName>, ces hommes-livres
+        à défaut d’être libres, sont porteurs d’un texte fixe, d’une œuvre
+        littéraire associée à un nom d’auteur, régie par l’exigence de la
+        littéralité.</p>
+        <p xml:id="d1e148">La littéralité est aussi régulée par des normes
+        culturelles particulières, qui définiront, pour chaque catégorie de
+        textes, la marge de variation, de changement tolérable dans la
+        reproduction pour que son sens et sa forme ne soient pas considérés
+        comme dénaturés. Ces normes définiront le degré de stabilité des
+        textes dans le processus de reproduction : littéralité stricte,
+        paraphrase, résumé, traduction, transcription, mise à jour,
+        réécriture ; ces différents degrés d’écart peuvent être acceptables ou
+        non, préserver le sens originel d’un texte ou l’adapter à de nouvelles
+        pratiques de lecture, à de nouveaux horizons de réception. Il ne
+        s’agit pas seulement de technique de production des livres, mais des
+        formes d’autorité sociale, politique et religieuse qui régulent leur
+        circulation.</p>
+        <p xml:id="d1e150">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités personnelles<term ref="doi:10.34817/sv-k6ajzcts">créativité</term>
+            </term>
+          </term>Dans le
+        cas des livres humains, le texte change à chaque lecture. Le texte se
+        configure lors de l’opération même de la lecture, dans la rencontre
+        avec un lecteur, en fonction de son attente, de ses questions et de sa
+        curiosité. L’historien des pratiques lettrées sur la longue durée
+        retrouve ici comme un avatar de la virtuosité narrative et poétique
+        des aèdes qui s’adaptaient à leur auditoire et pouvaient conter
+        différemment les mêmes histoires, selon les circonstances de
+        l’improvisation. Dans l’« <foreign xml:lang="eng">oral
+        poetry</foreign> », chaque version est autosuffisante, autonome, elle
+        actualise une forme et un récit dans un répertoire de motifs
+        combinables à volonté. De même, dans les bibliothèques contemporaines
+        qui proposent les livres humains, chaque lecteur « lit » un texte
+        différent, même lorsqu’il lit le même livre que les autres. Le livre
+        humain est à la fois le medium et le message, le texte et l’auteur, et
+        ce texte est indissolublement lié à son support, il ne peut pas être
+        objectivé indépendamment de l’humain qui le porte. D’autre part, ce
+        livre humain est unique, non reproductible, irremplaçable. Une
+        transcription, un enregistrement vidéo ou audio ne conserveront qu’une
+        infime fraction de cette textualité fluide et infinie qu’il déroule
+        lors de chaque lecture. Avec le livre humain, le texte s’écrit par la
+        voix, la lecture croise le regard et l’écoute. On pourrait même dire
+        que c’est le livre lui-même qui se lit à haute voix. Il est aussi son
+        propre auteur. En fait, le livre vivant choisit son début et sa fin,
+        découpe ses chapitres, s’écrit lui-même, ou plutôt se réécrit sans fin
+        en fonction du lecteur qui l’écoute. À moins que ce ne soit
+        précisément cette écoute qui déroule le fil du récit, des confidences,
+        et écrive une version éminemment personnelle et intime, unique et non
+        reproductible dans ce libre espace de variance et de fluidité.</p>
+        <p xml:id="d1e153">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture<term ref="doi:10.34817/sv-tratluaw">sémiologie
+        graphique</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-vh4rb2gf">annotation</term>
+            </term>
+          </term>On sait
+        que tout lecteur laisse des traces, visibles ou invisibles, sur les
+        livres : annotations marginales, surlignements, traits et croix,
+        signes de ponctuation du parcours de l’oeil et de l’esprit. Cette
+        sémiologie des marges et des interlignes contribue à baliser le texte,
+        à indiquer des carrefours, des lignes de fuite ou d’errance. Le
+        lecteur peut-il marquer, annoter et surligner un livre humain ? Il le
+        modifie par sa lecture et son écoute, ses questions, ses réactions. Il
+        participe au processus d’une écriture de soi, d’une écriture du moi,
+        par laquelle le livre humain écrit sa propre histoire au moment même
+        où il la raconte à son lecteur. Chaque livre vivant garde peut-être la
+        mémoire des lectures antérieures qui ont contribué à la stratigraphie
+        de ses niveaux d’écriture. Le livre humain serait-il un
+        palimpseste ?</p>
+      </div>
+    </body>
+  </text>
+</TEI>

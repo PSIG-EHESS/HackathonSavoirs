@@ -1,0 +1,903 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-19T16:19:02.601+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_22_Waldhoff">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Leibniz bibliothécaire</title>
+        <author role="aut">
+          <forename>Stephan</forename>
+          <surname>Waldhoff</surname>
+          <idno type="IDREF">07669125X</idno>
+        </author>
+        <editor role="translator                     ">
+          <forename>Jean-Louis</forename>
+          <surname>Elloy</surname>
+          <idno type="IDREF">087681250</idno>
+        </editor>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/KRAW9MCP" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Leibniz Bibliothécaire</title>
+            <idno type="DOI">https://doi.org/10.4000/rbnu.1612</idno>
+            <author>
+              <forename>Stephan</forename>
+              <surname>Waldhoff</surname>
+            </author>
+            <respStmt>
+              <resp>translator</resp>
+              <persName>
+                <forename>Jean-Louis</forename>
+                <surname>Elloy</surname>
+              </persName>
+            </respStmt>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <imprint>
+              <biblScope unit="issue">10</biblScope>
+              <biblScope unit="page">22-32</biblScope>
+              <date>2014</date>
+              <note type="url">https://journals.openedition.org/rbnu/1612</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-mublpqmd">achat</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-iaa8ssx7">savoir de
+          cour</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-h24ux4bz">bibliothécaire</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1646" to="1716" type="_temp">1646-1716</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-01-23T14:44:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Leibniz bibliothécaire</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Stephan Waldhoff</docAuthor>
+        </byline>
+        <byline>Jean-Louis Elloy</byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e54">
+          <graphic url="https://didomena.ehess.fr/downloads/z029p5261.jpeg"/>
+          <head xml:id="d1e56">Figure 1 – Vue du dernier lieu de résidence de
+          Leibniz à Hanovre. Dans cette maison se trouvait aussi la
+          bibliothèque princière (in <hi rend="italic">Leben und Werk von
+          Gottfried Wilhelm Leibniz. Eine Chronik</hi>, éd. par Kurt Müller et
+          Gisela Krönert, Francfort/M., 1969)</head>
+        </figure>
+        <p xml:id="d1e61">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+            </term>
+          </term>Qu’un érudit
+        comme <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Gottfried Wilhelm Leibniz</persName>
+        (<date from="1646" to="1716" type="_temp">1646-1716</date>) ait eu
+        affaire aux livres et aux bibliothèques, c’est l’évidence même. Tout
+        intellectuel à son époque était nécessairement homme de livres ;
+        chacun se constituait de riches collections, les lisait, en tirait des
+        extraits, et pouvait échanger une correspondance ou même entreprendre
+        un voyage dans le seul but de dénicher quelque édition rare. Rien
+        d’étonnant donc à ce qu’un esprit aussi universel que celui de
+        <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> réponde à ce
+        profil. Mais en réalité son lien avec le monde des bibliothèques était
+        bien plus étroit et concret que chez nombre des érudits de son temps,
+        et ce d’un point de vue aussi bien pratique que théorique. Peu s’en
+        faut que nous ne citions à ce propos la devise bien connue de
+        <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> selon laquelle la
+        théorie doit être liée à la pratique (« <foreign xml:lang="lat">theoria cum praxi</foreign> »). Mais ce serait faire
+        appel à une formule déjà trop ressassée, et s’y référer reviendrait à
+        se contenter d’un cliché au lieu d’expliquer le rapport contrasté et
+        parfois disharmonieux entre les conditions pratiques d’un côté et la
+        réflexion théorique de l’autre.</p>
+        <div type="section1" xml:id="d1e63">
+          <head subtype="level1" xml:id="d1e64">Premières expériences</head>
+          <p xml:id="d1e66">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-olmyobmt">latin</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> fit très tôt
+          l’expérience des livres et des bibliothèques. Dès son jeune âge
+          – comme il s’en souviendra plus tard – il consultait la bibliothèque
+          érudite de son père, un professeur de Leipzig mort précocement, et
+          c’est avec l’aide d’une édition illustrée de <persName ref="026662019" type="idref" xml:base="https://www.idref.fr/">Tite
+          Live</persName> qu’il s’initia lui-même aux fondements de la langue
+          latine. Ce fils de professeur voyait s’ouvrir devant lui une voie
+          académique toute tracée pour le reste de son existence. Mais
+          <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> refusa cette
+          carrière certes sûre, mais sans grand lustre. Il ne voulait pas que
+          ses capacités et ses connaissances fussent contraintes par
+          l’étroitesse du monde universitaire et souhaitait plutôt les mettre
+          au service du bien-être général.</p>
+          <p xml:id="d1e68">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-qquf8qxp">catalogue</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion<term ref="doi:10.34817/sv-qgdxlfpw">christianisme<term ref="doi:10.34817/sv-keykmqvh">protestantisme</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-iaa8ssx7">savoir de
+          cour</term>
+              </term>
+            </term>Pour satisfaire cette ambition, il lui
+          fallait entrer dans une cour princière. Il commença sa carrière à
+          celle de l’archevêque de <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName>, qui joua
+          en tant que prince électeur et archichancelier impérial un rôle
+          déterminant dans l’organisation politique de l’Empire. Si <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> put, comme
+          protestant, entrer au service du plus important prince
+          ecclésiastique de l’Empire, c’est parce qu’un homme qui avait
+          accompli à peu près le même parcours lui en avait frayé le chemin :
+          <persName ref="229877087" type="idref" xml:base="https://www.idref.fr/">Johann Christian von
+          Boineburg</persName> (mort en <date type="_temp" when="1672">1672</date>). C’est grâce à ce bienfaiteur que le jeune
+          érudit fut pour la première fois confronté à la réalité pratique du
+          travail de bibliothécaire. À la fin de sa période mayençaise (<date from="1669" to="1672" type="_temp">1669-1672</date>), il se consacra
+          en effet au catalogage de la très riche bibliothèque privée de
+          Boineburg. Sa structuration du catalogue établit des entrées d’abord
+          selon les langues puis selon les matières. Dans le cadre des
+          matières, la classification s’organisait alphabétiquement en partie
+          par mots clés, en partie par noms d’auteurs. Comme de nombreux
+          livres pouvaient être recherchés à partir de plusieurs mots clés,
+          <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> tenta de
+          résoudre le problème en indexant les titres plusieurs fois, ou tout
+          au moins une partie d’entre eux.</p>
+          <p xml:id="d1e70">Lorsqu’il quitta <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName>, il se
+          rendit à <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> pour y
+          résider quatre années. Si ces années parisiennes n’ont rien apporté
+          à son expérience de bibliothécaire, elles ont été absolument
+          déterminantes pour son développement intellectuel. Quoiqu’il ait
+          affirmé plus tard que c’était par patriotisme qu’il était revenu en
+          <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>, il
+          serait en réalité volontiers resté dans la capitale française s’il
+          avait pu y trouver une source de revenus. De fait, il prit tout son
+          temps pour s’installer dans ses fonctions de conseiller aulique et
+          bibliothécaire à <placeName ref="2910831" type="geonames" xml:base="https://www.geonames.org/">Hanovre</placeName>, alors que
+          ce poste lui avait déjà été proposé assez longtemps auparavant.</p>
+        </div>
+        <div type="section1" xml:id="d1e72">
+          <head subtype="level1" xml:id="d1e73">À Hanovre</head>
+          <p xml:id="d1e75">Si après quelque hésitation <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> choisit de
+          s’installer à <placeName ref="2910831" type="geonames" xml:base="https://www.geonames.org/">Hanovre</placeName>, où il
+          parvint à la fin de l’année <date type="_temp" when="1676">1676</date> après un détour par l’<placeName ref="6269131" type="geonames" xml:base="https://www.geonames.org/">Angleterre</placeName> et les
+          <placeName ref="2750405" type="geonames" xml:base="https://www.geonames.org/">Pays-Bas</placeName>, ce n’est
+          pas parce qu’il aurait été particulièrement séduit par la force
+          d’attraction de cette petite ville résidentielle de l’<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> du Nord.
+          Il espérait bien plutôt, chez son nouvel employeur, le duc <persName ref="172047331" type="idref" xml:base="https://www.idref.fr/">Johann
+          Friedrich</persName>, entrer en relation avec un prince tel qu’il se
+          l’était imaginé : un intellectuel d’une grande curiosité d’esprit,
+          et donc ouvert aux idées novatrices susceptibles de contribuer au
+          bien-être général. Ces idées lui viendraient de son conseiller,
+          homme de confiance et d’érudition, en l’occurrence de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> lui-même. Cette
+          fonction à laquelle il aspirait ne correspondait toutefois que très
+          partiellement à l’emploi d’un bibliothécaire aulique. Face au duc,
+          il s’était exprimé en termes clairs : cet emploi en tant que tel ne
+          lui suffisait pas car « ceux qui ont commerce avec les livres sont
+          bien peu considérés et tenus communément pour impropres à d’autres
+          tâches » (A I, 2, p. 20)<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>Ce renvoi, ainsi que ceux qui suivent, se rapporte à
+              l’édition de référence, encore en cours de publication :
+              Gottfried Wilhelm Leibniz, Sämtliche Schriften und Briefe,
+              Darmstadt, 1923-, Berlin, 1950-. Le chiffre romain désigne la
+              série, le chiffre arabe le volume ; ils sont suivis d’un numéro
+              d’exemplaire ou d’une indication de page. Les réflexions de
+              Leibniz sur les bibliothèques se retrouvent disséminées dans des
+              lettres et dans des écrits divers (voir la note suivante). Les
+              textes traitant de ce sujet appartiennent surtout aux séries I
+              (Allgemeiner, politischer und historischer Briefwechsel) et IV
+              (Politische Schriften).</p>
+            </note>. Sa charge devait, pensait-il, lui ouvrir un accès au
+          prince et non le limiter dans son efficacité et sa sphère
+          d’influence.</p>
+          <p xml:id="d1e81">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-unufqjx4">financement</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-h24ux4bz">bibliothécaire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>En
+          pratique, <persName ref="172047331" type="idref" xml:base="https://www.idref.fr/">Johann Friedrich</persName> semble
+          avoir presque répondu à l’idéal rêvé par <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>. En
+          tout cas, le duc chérissait sa bibliothèque, de dimension encore
+          modeste au départ : dans les trois années qui suivirent l’arrivée de
+          <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>, il lui consacra
+          en moyenne plus de 1 000 thalers par an (en comparaison, le
+          financement que ses successeurs daignèrent lui accorder paraît bien
+          ridicule). Plus significatif encore : les salles de la bibliothèque
+          se trouvaient à proximité de ses appartements privés, et ainsi
+          quelques enjambées séparaient <persName ref="172047331" type="idref" xml:base="https://www.idref.fr/">Johann Friedrich</persName> de ses
+          livres, et le bibliothécaire de son prince. Cette situation était de
+          nature à concrétiser le rêve de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> :
+          contourner la cour et sa hiérarchie pour pouvoir, en tant que
+          conseiller personnel du souverain, mettre en œuvre ses idées. Dans
+          quelle mesure ce rêve a-t-il pu véritablement se réaliser ? Il est
+          difficile de le dire. Il est tout aussi difficile d’établir, à
+          partir des documents nombreux et bien attestés qui furent acquis
+          pour la bibliothèque, un profil qui reflète de façon distincte les
+          centres d’intérêt de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> et ceux du
+          prince. Quoi qu’il en soit, le nombre proportionnellement élevé
+          d’ouvrages mathématiques ou de sciences naturelles ne passe pas
+          inaperçu. Pour renforcer ces domaines, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>
+          avait proposé avec succès l’achat de la bibliothèque privée de
+          l’érudit hambourgeois <persName ref="082092834" type="idref" xml:base="https://www.idref.fr/">Martin Fogel</persName> (mort
+          en <date type="_temp" when="1675">1675</date>), qui comptait
+          3 600 volumes de plus que la bibliothèque ducale au moment où
+          <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> entra dans sa
+          charge. Il semble évident que le duc a été également intéressé par
+          ces matières, si bien que l’on peut à bon droit parler d’une
+          convergence d’intérêt entre le prince et le bibliothécaire.</p>
+        </div>
+        <div type="section1" xml:id="d1e83">
+          <head subtype="level1" xml:id="d1e84">Un nouvel employeur</head>
+          <p xml:id="d1e86">Mais le temps que <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>
+          passa au service de <persName ref="172047331" type="idref" xml:base="https://www.idref.fr/">Johann Friedrich</persName> fut
+          bref. Le duc mourut à la fin de l’année <date type="_temp" when="1679">1679</date> et son successeur, son frère <persName ref="163704376" type="idref" xml:base="https://www.idref.fr/">Ernst
+          August</persName>, ne lui ressemblait guère. Il ne manifestait aucun
+          intérêt pour les questions intellectuelles (à moins de pouvoir en
+          tirer quelque bénéfice politique) ; son caractère ambitieux,
+          calculateur et dépourvu de scrupules lui assura bien des succès.</p>
+          <p xml:id="d1e88">Au <date>siècle de <persName ref="027328848" type="idref" xml:base="https://www.idref.fr/">Louis XIV</persName>
+            </date>, on se
+          devait d’afficher son ambition politique de façon voyante. Ainsi au
+          cours de la construction du château, une décennie à peine après le
+          changement de souverain, on décida d’une mesure qui illustre de
+          façon très emblématique le bouleversement de situation pour le
+          bibliothécaire <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>. Pendant que ce
+          dernier, dans le cadre de ses recherches historiques, entreprenait
+          un voyage en <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> du Sud,
+          en <placeName ref="2782113" type="geonames" xml:base="https://www.geonames.org/">Autriche</placeName> et en
+          <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName> (de <date from="1688" to="1690" type="_temp">1688 à 1690</date>), on fit
+          détruire à <placeName ref="2910831" type="geonames" xml:base="https://www.geonames.org/">Hanovre</placeName> l’aile du
+          château qui comportait la bibliothèque ; on voulait libérer un
+          espace pour la construction d’un opéra. Les livres, et avec eux le
+          bibliothécaire, furent expulsés du château et trouvèrent refuge dans
+          une maison bourgeoise louée pour l’occasion (figure 1).</p>
+          <p xml:id="d1e90">Dans le château déjà, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>
+          avait eu bien du mal à maîtriser l’afflux des documents provenant de
+          la bibliothèque de <persName ref="082092834" type="idref" xml:base="https://www.idref.fr/">Fogel</persName> ; il parvint
+          d’autant moins à installer correctement la bibliothèque princière
+          dans son nouveau domicile pendant les décennies qui suivirent.
+          Depuis qu’il avait été chargé en <date type="_temp" when="1685">1685</date> de rédiger l’histoire de la maison des Welf,
+          la dynastie des princes de <placeName ref="2910831" type="geonames" xml:base="https://www.geonames.org/">Hanovre</placeName>, il se
+          servait surtout de ces livres pour mener à bien ses recherches,
+          comme s’il s’agissait d’une bibliothèque personnelle. Aussi
+          finirent-ils par se mêler à ses propres livres. Comme il avait
+          progressivement délaissé le travail de catalogage, il devint
+          impossible après sa mort de distinguer quels étaient les livres du
+          prince et quels étaient les siens. Aujourd’hui encore l’incertitude
+          demeure car le problème fut résolu alors de la façon suivante : le
+          souverain dédommagea les héritiers et devint propriétaire de toute
+          la succession, dont la bibliothèque privée de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>. De son vivant
+          encore, ce dernier avait fini par interdire aux visiteurs l’accès
+          aux fonds en raison de leur état de désordre. Ce fait révèle
+          clairement qu’il ne se souciait plus guère de se montrer exemplaire
+          dans la gestion de la bibliothèque.</p>
+          <figure xml:id="d1e92">
+            <graphic url="https://didomena.ehess.fr/downloads/w3763754x.jpeg"/>
+            <head xml:id="d1e94">Figure 2 – Le duc Auguste dans sa
+            bibliothèque. On notera la grande précision de la représentation,
+            dont les détails sont confirmés par une description réalisée par
+            Leibniz (in Martin Gosky, <hi rend="italic">Arbustum vel Arboretum
+            Augustæum</hi>, 1650)</head>
+          </figure>
+          <p xml:id="d1e99">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+              </term>
+            </term>Mais nous
+          avons un peu trop anticipé. Revenons-en une fois encore à
+          l’année <date type="_temp" when="1680">1680</date>, l’année du
+          changement de souverain. Le poste de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>
+          était alors remis en question, comme tous les autres emplois
+          équivalents. Quoiqu’il ait été prévenu assez tôt qu’il y serait
+          maintenu, il réagit rapidement face à cette nouvelle situation. Ce
+          n’est pas un hasard s’il rédigea en cette même année toute une série
+          de mémoires sur l’administration de l’État, dont un sur
+          l’organisation d’une bibliothèque. Celui-ci commence en ces termes :
+          « Une Bibliotheque doit estre un inventaire general, un soulagement
+          de la memoire, un Archif imprimé » (A IV, 3, p. 350). Cette dernière
+          expression que <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> a répétée à de
+          nombreuses reprises ne doit pas être comprise à tort. Le terme
+          d’« archif » ne signifie pas ici le lieu dépositaire d’un savoir
+          historiographique érudit, mais désigne bien plutôt un ensemble
+          d’instruments grâce auxquels on se prépare à un exercice légitime du
+          pouvoir politique. C’est pourquoi <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>
+          centre sa réflexion sur des sujets comme les entreprises de
+          fortification, l’économie et les manufactures, les cérémonies, les
+          fêtes et l’architecture, sujets tous en rapport étroit avec le
+          pouvoir princier et le déploiement de ses fastes.</p>
+          <p xml:id="d1e101">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-kpbl3dgr">bureau</term>
+              </term>
+            </term>Il va sans
+          dire que ce discours va dans le sens des intérêts de son nouveau
+          maître et employeur. Il serait faux cependant de n’y voir qu’une
+          manifestation d’opportunisme. Une réflexion sur le statut des
+          bibliothèques s’y dessine partiellement et il ne conviendrait pas de
+          la négliger. <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> voulait que la
+          science, tout comme les instruments dont elle avait besoin, serve la
+          politique et le bien commun. Il fallait, à ses yeux, que la
+          politique fût bien informée pour pouvoir être rationnelle et
+          génératrice de prospérité pour les sujets du souverain. Une
+          bibliothèque bien pourvue, comme le montrent les expressions qui
+          précèdent, ne constituait qu’un des rouages participant au
+          rassemblement des informations, à leur ordonnancement et à leur
+          enregistrement. De véritables archives et un cabinet de curiosités
+          devaient seconder l’« Archif imprimé ».</p>
+          <figure xml:id="d1e103">
+            <graphic url="https://didomena.ehess.fr/downloads/p5547s18h.jpeg"/>
+            <head xml:id="d1e105">Figure 3 – La « rotonde » a été construite
+            de 1706 à 1710 ; c’est l’un des premiers bâtiments, au nord des
+            Alpes, spécifiquement construits pour abriter une bibliothèque (in
+            Jacob Burckhard, <hi rend="italic">Historia bibliothecae
+            Augustae</hi> [pars 1], Wolfenbüttel, s. d.)</head>
+          </figure>
+          <p xml:id="d1e110">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-gznzb4bl">divisions historiques des
+          savoirs<term ref="doi:10.34817/sv-gxatb4hf">encyclopédisme</term>
+                </term>
+              </term>
+            </term>
+            <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> se montre ainsi
+          moins novateur dans sa conception de la bibliothèque que dans celle
+          des archives et du cabinet de curiosités. Ces derniers avaient pour
+          vocation d’accueillir et de rassembler les informations et les
+          données de tout un territoire, et ce non seulement pour des faits
+          pouvant intéresser les juristes ou des données statistiques, mais
+          aussi pour ce qui concernait les techniques artisanales anciennes ou
+          les nouvelles technologies. Sur ce point, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>
+          allait au-delà de la science traditionnelle du livre et annonçait
+          déjà d’une certaine façon les objectifs de l’Encyclopédie. Le trésor
+          de connaissances, constitué par la convergence des informations
+          provenant du pays tout entier, devait ensuite être à nouveau diffusé
+          à travers ce même pays afin que le progrès gagnât tous les niveaux
+          du savoir. C’était le point central d’un grand nombre de ses projets
+          de réforme.</p>
+          <p xml:id="d1e112">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-qquf8qxp">catalogue</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jcqq7vil">collection
+          éditoriale</term>
+              </term>
+            </term>Mais il ne s’en tint pas là : il ne
+          s’intéressa pas qu’à la constitution de collections, mais aussi à
+          l’organisation et à la concentration des informations. Les archives
+          devaient, comme une pyramide, être coiffées d’une pointe, d’un
+          ouvrage de référence, qu’il désigne par l’expression de « tables de
+          l’État », et qui aurait été destiné à offrir au prince un aperçu
+          rapide sur les informations essentielles (A IV, 3, n<hi rend="sup">o</hi> 29). On retrouve une préoccupation semblable dans
+          le domaine du livre et de l’édition quelque temps auparavant, avec
+          ses considérations pour l’établissement d’un répertoire semestriel
+          des publications essentielles (<hi rend="italic">Nucleus librarius
+          semestralis</hi> ; A I, 1, n<hi rend="sup">o</hi> 2), une sorte de
+          catalogue périodique destiné à paraître avant chaque foire de
+          <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort</placeName>, le
+          rendez-vous le plus important pour le commerce du livre. Par de
+          telles innovations dans l’organisation et la transmission
+          synthétique du savoir, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> tentait de
+          contenir le flot des informations, qu’à son époque déjà un esprit
+          universel comme le sien ne pouvait plus embrasser d’un seul
+          regard.</p>
+        </div>
+        <div type="section1" xml:id="d1e123">
+          <head subtype="level1" xml:id="d1e124">Wolfenbüttel</head>
+          <p xml:id="d1e126">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-h24ux4bz">bibliothécaire</term>
+              </term>
+            </term>À
+          sa charge de bibliothécaire à <placeName ref="2910831" type="geonames" xml:base="https://www.geonames.org/">Hanovre</placeName> s’ajouta
+          en <date type="_temp" when="1691">1691</date> celle de <placeName ref="6557395" type="geonames" xml:base="https://www.geonames.org/">Wolfenbüttel</placeName>, où
+          résidait une autre branche de la maison des Welf. La petite ville
+          résidentielle hébergeait l’une des plus importantes bibliothèques
+          d’Europe, la Bibliotheca Augusta, ainsi nommée en mémoire de son
+          fondateur, le <persName ref="067261574" type="idref" xml:base="https://www.idref.fr/">duc Auguste le Jeune</persName>
+          (mort en <date type="_temp" when="1666">1666</date> ; figure 2).
+          <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> en fit l’égale
+          de la Bibliothèque impériale de <placeName ref="2761369" type="geonames" xml:base="https://www.geonames.org/">Vienne</placeName> ou de la
+          Bibliothèque royale de <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>. S’il obtint
+          l’autorisation d’avoir cette charge, cela tient certainement au fait
+          qu’il n’était pas contraint d’être constamment présent à <placeName ref="6557395" type="geonames" xml:base="https://www.geonames.org/">Wolfenbüttel</placeName>, mais
+          aussi à la tâche qu’on lui avait confiée depuis <date type="_temp" when="1685">1685</date>, la rédaction de l’histoire dynastique.
+          Comme bibliothécaire, il pouvait plus efficacement exploiter ces
+          riches trésors livresques dans le cadre de ses études
+          historiques.</p>
+          <p xml:id="d1e128">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-tb4ozbc3">papier</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-mublpqmd">achat</term>
+              </term>
+            </term>Certes, à
+          <placeName ref="6557395" type="geonames" xml:base="https://www.geonames.org/">Wolfenbüttel</placeName>
+          également, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> dut essuyer
+          quelques déceptions. En se préparant à son emploi, il avait imaginé
+          d’ambitieux projets pour le développement futur de la bibliothèque.
+          Ces derniers n’étaient possibles qu’à condition de disposer d’un
+          budget régulier d’acquisition, dont <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>
+          avait fixé le montant à 1 000 thalers. Cette condition s’avéra bien
+          vite illusoire. Son budget d’achat se limita à 100 thalers qui
+          furent d’ailleurs versés de manière fort irrégulière. <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> pouvait craindre
+          que la postérité associât le déclin de la Bibliotheca Augusta,
+          autrefois si glorieuse, à la période de son mandat de
+          bibliothécaire. Il ne faudrait pas s’imaginer cependant que face à
+          ces moyens modestes il se soit contenté de gémir sur son sort. Bien
+          au contraire : le manque de ressources financières l’incita à
+          découvrir d’autres sources de revenus pour la bibliothèque. Il
+          proposa ainsi l’introduction de papier estampillé (une forme de taxe
+          administrative) puis quand cette idée fut refusée, il suggéra de
+          planter des mûriers destinés à la sériculture. En tout cas, quand il
+          eut pris la mesure du caractère illusoire de ses ambitieux projets
+          initiaux, il se recentra sur des tâches nécessaires et concrètement
+          réalisables... non sans succès : on lui doit le catalogue
+          alphabétique des auteurs qui aujourd’hui encore sert de fondement au
+          catalogue informatique.</p>
+          <p xml:id="d1e130">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l’information<term ref="doi:10.34817/sv-mdyztjtq">globe</term>
+                </term>
+              </term>
+            </term>Pendant
+          la période où <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> exerça son
+          emploi, on édifia à <placeName ref="6557395" type="geonames" xml:base="https://www.geonames.org/">Wolfenbüttel</placeName> l’un
+          des premiers bâtiments au nord des Alpes exclusivement réservés à la
+          fonction de bibliothèque. Mais la célèbre rotonde (figure 3), un
+          bâtiment central couronné d’un globe céleste, avait été construite
+          en colombage, et elle se délabra rapidement, au point qu’elle dut
+          être détruite au <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi> siècle</date>. La tentation est grande d’établir
+          un lien entre cette conception architecturale et le savant universel
+          qu’était <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>, de retrouver la
+          représentation de ses idéaux dans les plans de construction.
+          <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> a-t-il eu une
+          influence dans l’érection de ce nouveau bâtiment ? Si oui, dans
+          quelle mesure ? La question est controversée. Il n’existe pas de
+          preuves avérées selon lesquelles il aurait participé à
+          l’établissement des plans.</p>
+          <p xml:id="d1e135">Ce qui est certain, c’est qu’il n’a pas été
+          impliqué dans la commande visant à acheter une bonne centaine de
+          manuscrits, presque tous médiévaux, en provenance du monastère
+          alsacien de <placeName ref="6454559" type="geonames" xml:base="https://www.geonames.org/">Wissembourg</placeName>. C’est
+          son prédécesseur qui en <date type="_temp" when="1689">1689</date>
+          l’avait engagée. Cela n’empêcha pas <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> de
+          réclamer pour la bibliothèque l’un des « codices » de ce fonds, qui
+          avait fait l’objet d’un prêt de la part de son propriétaire ; et il
+          parvint à l’obtenir. Il établit par ailleurs des notices pour
+          quelques manuscrits provenant de <placeName ref="6454559" type="geonames" xml:base="https://www.geonames.org/">Wissembourg</placeName>, ce qui
+          témoigne aussi de son vif intérêt pour ces derniers.</p>
+          <p xml:id="d1e137">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>Le
+          fonds précieux des manuscrits de <placeName ref="6557395" type="geonames" xml:base="https://www.geonames.org/">Wolfenbüttel</placeName> ne
+          l’aida pas seulement dans ses recherches historiques : il y trouva
+          matière à publications pour les plus grands profit et rayonnement de
+          la bibliothèque (l’un de ses plus célèbres successeurs, <persName ref="027328457" type="idref" xml:base="https://www.idref.fr/">Gotthold Ephraim
+          Lessing</persName>, bibliothécaire à <placeName ref="6557395" type="geonames" xml:base="https://www.geonames.org/">Wolfenbüttel</placeName> à
+          partir de <date type="_temp" when="1770">1770</date>, le suivit dans
+          cette voie). La moitié des pièces au moins de son <hi rend="italic">Codex juris gentium diplomaticus </hi>provient de
+          cette source (voir figure 4). Aussi a-t-il spécifié à bon droit sur
+          la page de titre : « A partir avant tout des manuscrits de la
+          Bibliotheca Augusta de <placeName ref="6557395" type="geonames" xml:base="https://www.geonames.org/">Wolfenbüttel</placeName> ».
+          Pour la rédaction de ce <hi rend="italic">Codex</hi>, il s’appuya
+          surtout sur le fonds des manuscrits dits « mazarins ». Il s’agit de
+          presque 400 volumes de textes reproduisant des papiers du <persName ref="027400646" type="idref" xml:base="https://www.idref.fr/">cardinal Mazarin</persName> et
+          d’autres hommes d’État français ; le <persName ref="067261574" type="idref" xml:base="https://www.idref.fr/">duc Auguste</persName>
+          avait obtenu l’autorisation d’établir ces copies à <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, pour la
+          somme énorme de 24 000 thalers. D’un point de vue moderne, ces
+          sources restent douteuses, mais pour <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>
+          elles étaient riches en contenus scientifique et politique. Sous ce
+          double rapport, il sut tirer profit de cette abondante documentation
+          (en principe très confidentielle) sur les puissances
+          gouvernantes.</p>
+        </div>
+        <div type="section1" xml:id="d1e145">
+          <head subtype="level1" xml:id="d1e146">La bibliothèque comme
+          « cosmos du savoir »</head>
+          <p xml:id="d1e148">Si l’activité de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> à
+          <placeName ref="6557395" type="geonames" xml:base="https://www.geonames.org/">Wolfenbüttel</placeName>
+          consista avant tout en une gestion pratique de la bibliothèque et
+          s’il utilisa les fonds pour approfondir ses connaissances
+          historico-juridiques, l’abondance des livres qui s’y trouvaient
+          l’inspira cependant pour d’autres projets. Toute une série d’essais
+          pour l’organisation systématique d’une bibliothèque universelle (A
+          IV, 5, n<hi rend="sup">os</hi> 70-80 ; A IV, 6, n<hi rend="sup">os</hi> 65-70, 72, 77-78) datent pour l’essentiel des
+          <date from="1690" to="1699" type="_temp">années 1690</date>,
+          c’est-à-dire suivent sa prise de fonction en tant que bibliothécaire
+          à <placeName ref="6557395" type="geonames" xml:base="https://www.geonames.org/">Wolfenbüttel</placeName>. Ces
+          essais furent d’ailleurs souvent rédigés sur le papier que <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> utilisait
+          là-bas.</p>
+          <p xml:id="d1e156">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+              </term>
+            </term>Deux
+          d’entre eux, consacrés à la conception d’un classement systématique
+          des bibliothèques, furent publiés dès <date type="_temp" when="1718">1718</date> ; de façon décisive et durable, ils
+          donnèrent de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> l’image d’un
+          théoricien de la bibliothèque – et dans le même temps gauchirent la
+          réalité. Leur premier éditeur les définit comme présentant « l’idée
+          leibnizienne d’une bibliothèque publique structurée selon les
+          catégories du savoir » et vit dans ces deux essais une version
+          longue, plus détaillée (A IV, 5, n<hi rend="sup">o</hi> 81), et une
+          version courte, abrégée (A IV, 6, n<hi rend="sup">o</hi> 72), d’un
+          même projet et système. Cette façon de voir ne fut pas remise en
+          question par la suite, quoique l’essai le plus court ne puisse en
+          aucune façon être compris comme un simple résumé de l’essai le plus
+          long, et qu’il s’en écarte au contraire sur bien des points. Que
+          l’on mette ces deux textes en perspective avec les autres essais :
+          ils apparaissent alors comme deux instantanés fixant deux phases de
+          cette longue lutte menée par <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> pour
+          l’élaboration d’un classement des bibliothèques, deux instantanés
+          qui se rapportent d’ailleurs à des moments bien distincts de cette
+          élaboration.</p>
+          <p xml:id="d1e164">Trompée par cette interprétation, la postérité a
+          souvent été amenée à établir un lien trop étroit entre les essais de
+          <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> et la pensée du
+          fameux théoricien des bibliothèques <persName ref="027272605" type="idref" xml:base="https://www.idref.fr/">Gabriel
+          Naudé</persName>
+            <note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>L’éditeur de l’ouvrage de Naudé, Advis pour dresser une
+              bibliothèque (paru pour la première fois à Paris en 1627),
+              signale dans l’édition de Leipzig publiée en 1963 (p. 125) que
+              les textes de Leibniz l’avaient tout d’abord intéressé. Mais
+              comme « ses pensées relatives à une réforme du statut des
+              bibliothèques allemandes se dispersaient au gré des
+              contributions, considérations et lettres diverses », il n’avait
+              pas jugé bon de les éditer, préférant jeter son dévolu sur « un
+              autre classique plus ancien parmi les théoriciens des
+              bibliothèques – sur Gabriel Naudé. De toute évidence l’œuvre de
+              Leibniz lui était redevable sur de nombreux points [...] ».</p>
+            </note>. Certes <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> s’en est parfois
+          inspiré. On peut même, dans leur conception respective du classement
+          systématique, trouver d’importantes convergences, à première vue en
+          tout cas. <persName ref="027272605" type="idref" xml:base="https://www.idref.fr/">Naudé</persName> avait précisé :
+          « ie croy que le meuilleur [ordre] est tousjours celuy qui est le
+          plus facile, le moins intrigué, le plus naturel, vsité, &amp; qui
+          suit les Facultez de Theologie, Medecine, Iurisprudence, Histoire,
+          Philosophie, Mathematiques, Humanitez, &amp; autres […] »<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Ibid., chap. 7, p. 100</p>
+            </note>. <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> lui aussi s’est
+          référé au classement traditionnel des facultés universitaires. Ce
+          qui différencie sa conception de celle de <persName ref="027272605" type="idref" xml:base="https://www.idref.fr/">Naudé</persName> tient
+          aux deux mots « et autres » en fin de citation. Jamais il n’aurait
+          pu les faire figurer ainsi, comme clausule, dans l’énoncé de son
+          projet. S’il avait seulement importé à <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>,
+          comme à <persName ref="027272605" type="idref" xml:base="https://www.idref.fr/">Naudé</persName>, de construire un
+          classement simple, communément connu et reconnu, il n’aurait sans
+          doute rien trouvé à y redire ; mais son ambition allait au-delà. Ses
+          essais tentent d’édifier le « cosmos du savoir »<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Uwe Jochum, Kleine Bibliotheksgeschichte, Stuttgart, 2<hi rend="sup">e</hi> éd., 1999, p. 187</p>
+            </note> au plein sens du terme : un ordonnancement autonome et
+          pleinement signifiant.</p>
+          <p xml:id="d1e181">Deux tentatives témoignent de ces efforts. Pour
+          commencer, il prend soin de classer et de désigner les territoires
+          du savoir qui échappaient aux trois facultés supérieures, la
+          théologie, la jurisprudence et la médecine. Or c’est dans ces
+          domaines, pendant les temps modernes, que les connaissances se
+          développèrent le plus, sur un rythme toujours plus rapide. Il
+          devenait de plus en plus difficile de placer sous la tutelle de la
+          faculté de philosophie ces nouvelles branches du savoir qui
+          aspiraient à l’indépendance. Au <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi> siècle</date>, elles feront
+          éclater, surtout les sciences de la nature, la classification
+          traditionnelle de l’université. C’est précisément dans les sciences
+          que les considérations de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> sur les
+          bibliothèques et leur classement s’avèrent les plus intéressantes ;
+          on peut y suivre l’évolution de sa pensée, continuellement en quête
+          de terminologies nouvelles et d’autres configurations
+          disciplinaires.</p>
+          <figure xml:id="d1e186">
+            <graphic url="https://didomena.ehess.fr/downloads/vm40xs19n.jpeg"/>
+            <head xml:id="d1e188">Figure 4 – Page de titre du <hi rend="italic">Codex juris gentium diplomaticus</hi> de 1693 (coll.
+            Berlin – Brandenburgische Akademie der Wissenschaften)</head>
+          </figure>
+          <p xml:id="d1e193">A l’intérieur de chaque discipline, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> affine toujours
+          plus la distinction des subdivisions catégorielles, en définissant
+          les différentes branches et sous-branches d’un même savoir. Par
+          ailleurs, dans l’un des essais (voir figure 5), on retrouve une des
+          préoccupations que nous avons eu déjà l’occasion de mentionner
+          précédemment : offrir le tableau synthétique non bien sûr du savoir
+          tout entier, mais de son ordonnancement général, de manière à ce
+          qu’il puisse être embrassé et compris d’un seul regard.</p>
+          <p xml:id="d1e195">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-zwmqzkgw">abstraction</term>
+              </term>
+            </term>De
+          telles représentations finissent par s’éloigner sensiblement du
+          domaine des livres. Ainsi dans ces essais presque aucun titre
+          d’ouvrage n’est cité. Ce n’est pas très étonnant : si l’on suit ces
+          réflexions jusque dans leurs ultimes et leurs plus subtiles
+          ramifications, on ne peut s’empêcher de penser que <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> a quelque peu
+          perdu de vue son but initial, la classification systématique des
+          livres, et qu’il a fini par décrire le « cosmos du savoir » dans une
+          perspective purement abstraite.</p>
+          <p xml:id="d1e197">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l’information<term ref="doi:10.34817/sv-qcvnt7ns">liste</term>
+                </term>
+              </term>
+            </term>Parallèlement
+          à ces essais d’une grande sophistication, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>
+          rédigea à plusieurs reprises des répertoires bibliographiques,
+          structurés de manière bien plus simple et qui, eux, contiennent dans
+          chacune de leurs rubriques de véritables listes de livres. Le
+          premier exemple se rencontre assez tôt, dans l’opuscule <hi rend="italic">Nova methodus discendae docendaeque jurisprudentiae
+          </hi>de <date type="_temp" when="1667">1667</date> (A VI, 1, n<hi rend="sup">o</hi> 10). Cet écrit, qui envisage une réorganisation de
+          l’étude des sciences juridiques, propose également une liste de
+          lectures ordonnées thématiquement, centrée bien évidemment sur le
+          domaine du droit mais qui, dans sa thématique, va bien au-delà de ce
+          que l’on pourrait exiger d’un étudiant d’aujourd’hui. Deux décennies
+          plus tard, il catalogua une liste de titres pour un homme d’État
+          viennois qui cherchait à se constituer une bibliothèque privée à
+          vocation universelle (A I, 5, n<hi rend="sup">o</hi> 247). Et dans
+          la dernière année de son existence, vraisemblablement peu de temps
+          avant sa mort, il commença un projet similaire mais dont nous ne
+          connaissons ni les circonstances, ni le destinataire. Une main
+          étrangère a porté sur ce texte l’indication suivante :
+          « Recommandations de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">G. W. Leibniz</persName> pour la
+          classification d’une bibliothèque ». Il en existe un brouillon
+          autographe et une copie faite par un secrétaire. Ces deux documents
+          s’interrompent soudainement. La mort a-t-elle surpris le
+          bibliothécaire <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> en pleine
+          rédaction ?</p>
+          <figure xml:id="d1e208">
+            <graphic url="https://didomena.ehess.fr/downloads/qn59q476k.jpeg"/>
+            <head xml:id="d1e210">Figure 5 – Cette esquisse d’un classement
+            systématique de bibliothèque, sous la forme d’un tableau et de
+            sections (A IV, 6, n<hi rend="sup">o</hi> 77) permettait
+            d’englober pour ainsi dire en un regard le « cosmos du savoir »
+            (coll. Niedersächsische Landesbibliothek).</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e215">
+          <head subtype="level1" xml:id="d1e216">En guise de conclusion</head>
+          <p xml:id="d1e218">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-h24ux4bz">bibliothécaire</term>
+              </term>
+            </term>Le
+          <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> bibliothécaire
+          et théoricien des bibliothèques est toujours resté présent dans les
+          mémoires. Mais le fait qu’il ait consigné ses réflexions dans des
+          lettres, des mémoires et des essais, sans systématiquement les
+          rassembler ni les publier, a tout d’abord empêché leur réception
+          auprès de ses contemporains et de la postérité. La science des
+          bibliothèques a toutefois plus que compensé cette lacune. Eu égard à
+          son influence réelle, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> y occupe une
+          place historique excessivement importante. Qui plus est,
+          l’insuffisance des sources textuelles a pendant longtemps faussé les
+          perspectives. Tantôt ses réflexions ont été considérées comme
+          simplement tributaires des théoriciens qui l’avaient précédé ;
+          tantôt – et cela se justifie encore moins – on a exagéré sa
+          modernité, on en a même fait un précurseur de la classification
+          décimale de <persName ref="026829886" type="idref" xml:base="https://www.idref.fr/">Melvil Dewey</persName>
+            <note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Heinrich Lackmann, Leibniz’ bibliothekarische Tätigkeit in
+              Hannover, in Leibniz, sein Leben – sein Wirken – seine Welt, éd.
+              par Wilhelm Totok et Carl Hasse, Hannover, 1966, p. 321-348, ici
+              p. 335</p>
+            </note>. En réalité, l’apport significatif de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> en tant que
+          théoricien des bibliothèques tient peu à l’originalité présumée de
+          ses positions – presque toutes avaient déjà été imaginées et
+          formulées çà et là. Il se distingue bien plutôt pour s’être saisi de
+          la notion de « cosmos du savoir », emblématique de son époque, afin
+          de bâtir une classification systématique des bibliothèques. Mais le
+          plus remarquable demeure l’exceptionnelle pertinence de vue dont il
+          fait preuve pour concevoir une institution qui, associant la
+          bibliothèque dépositaire du savoir avec les archives et les cabinets
+          de curiosités, devait permettre à l’État d’assurer une
+          administration rationnelle et éclairée, au service de l’amélioration
+          du genre humain. Il posait par là les fondations d’une « société de
+          la connaissance », pour reprendre une notion bien en vogue
+          aujourd’hui, et que nous croyons être d’invention récente.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e225">
+        <head xml:id="d1e226">ORIENTATIONS BIBLIOGRAPHIQUES</head>
+        <p>Pour ce qui concerne la bibliographie critique sur Leibniz, on
+        trouvera les références essentielles dans les ouvrages suivants : <hi rend="italic">Leibniz-Bibliographie. Die Literatur über Leibniz bis
+        1980</hi>, Frankfurt/M., 2<hi rend="sup">e</hi> éd., 1984, p. 99-103,
+        et <hi rend="italic">Leibniz-Bibliographie. Band 2: Die Literatur über
+        Leibniz 1981-1990</hi>, Frankfurt/M., 1996, p. 23-24.</p>
+        <p>Pour les années suivantes, on pourra trouver des compléments
+        d’information sur le site : <ref target="http://www.leibniz-bibliographie.de/">
+            <hi rend="underline">http://www.leibniz-bibliographie.de</hi>
+          </ref>
+        </p>
+        <p>On ne mentionnera ici que quelque parutions récentes :</p>
+        <listBibl xml:id="d1e228">
+          <bibl xml:id="d1e247">Karin Hartbecke (éd.), <hi rend="italic">Zwischen Fürstenwillkür und Menschheitswohl –
+          Gottfried Wilhelm Leibniz als Bibliothekar</hi>, Frankfurt/M.,
+          2008</bibl>
+          <bibl xml:id="d1e252">À propos de l’activité de Leibniz à
+          Wolfenbüttel, qui n’est pas traitée dans le précédent ouvrage :
+          Günter Scheel, <hi rend="italic">Leibniz</hi>’ <hi rend="italic">Beziehungen zur Bibliotheca Augusta in Wolfenbüttel
+          (1678-1716)</hi>, in <hi rend="italic">Braunschweigisches
+          Jahrbuch</hi>, 54, 1973, p. 172-199.</bibl>
+          <bibl xml:id="d1e263">Sur ses positions par rapport à la librairie
+          et sur des sujets analogues : Annegret Stein-Karbach, <hi rend="italic">Leibniz und der Buchhandel</hi>, in <hi rend="italic">Archiv für Geschichte des Buchwesens</hi>, 23, 1982,
+          p. 1189-1418 (disponible également dans une édition séparée parue en
+          1983).</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

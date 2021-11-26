@@ -1,0 +1,907 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-19T14:23:19.871+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_30_Mouren">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">De la bibliothèque de Warburg à la bibliothèque
+        Warburg</title>
+        <title type="sub">L'institutionnalisation d'une idée</title>
+        <author role="aut">
+          <forename>Raphaële</forename>
+          <surname>Mouren</surname>
+          <idno type="IDREF">074587331</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Seconde édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/KLF6N2MP" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">De la bibliothèque de Warburg à la bibliothèque
+            Warburg</title>
+            <idno type="DOI">https://doi.org/10.4000/rbnu.1376</idno>
+            <author>
+              <forename>Raphaele</forename>
+              <surname>Mouren</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <imprint>
+              <biblScope unit="issue">12</biblScope>
+              <biblScope unit="page">50-60</biblScope>
+              <date>2015</date>
+              <note type="url">https://journals.openedition.org/rbnu/1376</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-ue8ksi5j">institutionnalisation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-ceuycosd">réputation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jcqq7vil">collection
+          éditoriale</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2911298" type="geonames" xml:base="https://www.geonames.org/">Hambourg</placeName>
+          </term>
+          <term>
+            <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1950" to="1999" type="_temp">seconde moitié du 20<hi rend="sup">e</hi> siècle</date>
+          </term>
+          <term>
+            <date type="_temp" when="1944">1944</date>
+          </term>
+          <term>
+            <date type="_temp" when="1929">1929</date>
+          </term>
+          <term/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-02-03T16:11:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">De la bibliothèque de Warburg à la
+          bibliothèque Warburg</titlePart>
+          <titlePart type="sub">L'institutionnalisation des idées<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>Je remercie Jill Kraye, mon prédécesseur à la direction de la
+              bibliothèque, pour sa relecture attentive et ses
+              suggestions.</p>
+            </note>
+          </titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Raphaële Mouren</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e52">
+          <graphic url="https://didomena.ehess.fr/downloads/w66344235.jpg"/>
+          <head xml:id="d1e54">Figure 1 – La bibliothèque de l’Institut
+          Warburg, vue de Byng Place.</head>
+        </figure>
+        <p xml:id="d1e56">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-ue8ksi5j">institutionnalisation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>La
+        Bibliothèque Warburg, créée à <placeName ref="2911298" type="geonames" xml:base="https://www.geonames.org/">Hambourg</placeName> il y a un
+        peu plus d’un siècle, a fait couler beaucoup d’encre. Mais
+        paradoxalement, ceux qui ont étudié son histoire sur le long terme ont
+        toujours insisté sur la continuité : le changement n’est pas ce que
+        l’on s’attend à trouver quand on étudie cette bibliothèque. Aucune
+        étude sur le sujet, si technique soit-elle, ne commence sans refaire
+        l’histoire de l’établissement depuis sa création, et il serait
+        difficile de faire autrement<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Comme par exemple celle de Mari Friman, Päivi Jansson, Vesa
+            Suominen (Department of Information Studies and Sociology,
+            University of Oulu, Oulu, Finland, « Chaos or order ? Aby
+            Warburg’s library of cultural history and its classification », in
+            <hi rend="italic">Knowledge organization</hi>, 22, 1, 1995,
+            p. 23-29.</p>
+          </note>.</p>
+        <p xml:id="d1e65">Si les utilisateurs de la bibliothèque aujourd’hui
+        en connaissent bien les contours, ceux qui ne la fréquentent pas ne
+        font souvent pas la différence entre la bibliothèque de 50 000 volumes
+        telle qu’elle était à la mort d’<persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Aby Warburg</persName> en <date type="_temp" when="1929">1929</date> et celle de 360 000 volumes
+        ouverte aujourd’hui aux chercheurs. En <date type="_temp" when="2002">2002</date>, <persName ref="027110583" type="idref" xml:base="https://www.idref.fr/">Jacques Roubaud</persName> publiait
+        un ouvrage de « composition en prose », consacré – entre autres – à un
+        projet qu’il a porté pendant très longtemps<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Jacques Roubaud, <hi rend="italic">La Bibliothèque de
+            Warburg</hi>, Paris, Seuil, 2002.</p>
+          </note>. Il y racontait, sur un peu moins d’une page, comment il
+        était venu à l’Institut Warburg un jour acheter la biographie
+        d’<persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Aby Warburg</persName> par <persName ref="031045375" type="idref" xml:base="https://www.idref.fr/">Ernst
+        Gombrich</persName>. Cette anecdote donne son titre au livre, <hi rend="italic">La Bibliothèque de Warburg </hi>: c’est à la fois un
+        endroit si important que la simple visite du hall d’entrée peut
+        englober tout le reste de l’ouvrage et lui donner son titre, mais
+        c’est aussi la bibliothèque de l’homme, et pas seulement la
+        bibliothèque de l’Institut : en d’autres termes, la bibliothèque de
+        <persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Warburg</persName> et pas la
+        Bibliothèque Warburg.</p>
+        <p xml:id="d1e77">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-wxtpa7cz">biographie</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+            </term>
+          </term>
+          <persName ref="028510399" type="idref" xml:base="https://www.idref.fr/">Salvatore Settis</persName> donnait
+        aussi pour titre à un article de <date type="_temp" when="1985">1985</date>, consacré à l’histoire de la bibliothèque et à
+        l’évolution de sa classification depuis sa création jusqu’à son
+        installation en <date type="_temp" when="1958">1958</date> dans son
+        bâtiment actuel : « Warburg <hi rend="italic">continuatus.
+        </hi>Descrizione di una biblioteca » ; en ajoutant une postface à la
+        traduction française de <date type="_temp" when="1995">1995</date>, il
+        posait ainsi l’histoire de la bibliothèque, et plus précisément de sa
+        classification : « Après la mort de <persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Warburg</persName>
+        (<date type="_temp" when="1929">1929</date>), le processus de
+        systématisation et de classification, engagé en son absence et
+        poursuivi après son retour, a continué, s’étendant même après le
+        transfert de la bibliothèque à <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>, suivant des
+        lignes qui – tout au moins jusqu’à la mort de <persName ref="061334723" type="idref" xml:base="https://www.idref.fr/">Mme
+        Bing</persName> (<date type="_temp" when="1964">1964</date>) –
+        continuaient celles qui avaient été discutées avec <persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Warburg</persName> lui-même »<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Salvatore Settis, « Warburg <hi rend="italic">continuatus.
+            </hi>Descrizione di una biblioteca », in <hi rend="italic">Quaderni storici</hi>, 58, 1, 1985, p. 5-38 ;
+            traduction française avec une postface : « Warburg <hi rend="italic">continuatus :</hi> description d’une bibliothèque »,
+            in <hi rend="italic">Le pouvoir des bibliothèques : la mémoire des
+            livres en Occident</hi>, sous la direction de Marc Baratin et
+            Christian Jacob, Paris, Albin Michel, 1996, p. 122-173 (153).</p>
+          </note>. Les choses ont beaucoup changé depuis qu’en <date type="_temp" when="1970">1970</date>
+          <persName ref="031045375" type="idref" xml:base="https://www.idref.fr/">Ernst
+        Gombrich</persName>, désabusé, écrivait dans sa biographie de
+        <persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Warburg</persName> : « Pour nombre
+        des étudiants, membres et usagers de l’Institut, qui œuvrent
+        aujourd’hui dans des directions forcément très éloignées des intérêts
+        originels du fondateur, <persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Warburg</persName> n’est qu’un nom.
+        Beaucoup ne l’associent qu’à un établissement bancaire et considèrent
+        l’institut comme l’une des nombreuses fondations financées pour
+        perpétuer la mémoire d’un riche mécène »<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>Ernst Gombrich, <hi rend="italic">Aby Warburg: an intellectual
+            biography</hi>, Londres, The Warburg Institute, 1970 ; <hi rend="italic">Aby Warburg, une biographie intellectuelle,
+            </hi>traduction Lucien d’Azay (je corrige quelques erreurs
+            factuelles), Paris, Klincksieck, 2015, p. 39.</p>
+          </note>.</p>
+        <p xml:id="d1e108">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-mwscptqe">guerre</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jcqq7vil">collection
+        éditoriale</term>
+            </term>
+          </term>Pourtant, nécessairement, son histoire
+        mouvementée a façonné la bibliothèque. <persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Aby Warburg</persName>
+        (<date from="1866" to="1929" type="_temp">1866-1929</date>), destiné à
+        reprendre la banque familiale à <placeName ref="2911298" type="geonames" xml:base="https://www.geonames.org/">Hambourg</placeName> mais décidé
+        à collectionner des livres dès <date type="_temp" when="1879">1879</date>, conçoit le projet de créer une véritable
+        bibliothèque de recherche. Il s’inspire de l’organisation de la
+        Kaiserliche Universitäts und Landesbibliothek zu Strassburg
+        (l’actuelle Bibliothèque nationale et universitaire de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>), mise en
+        place après <date type="_temp" when="1870">1870</date>, et de ses
+        collections de recherche spécialisées<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>Fritz Saxl, « L’histoire de la bibliothèque de Warburg », in
+            Ernst Gombrich, <hi rend="italic">Aby Warburg: an intellectual
+            biography</hi>, Londres, The Warburg Institute, 1970, traduction
+            Lucien d’Azay (avec quelques corrections d’erreurs factuelles),
+            Paris, Klincksieck, 2015, p. 300.</p>
+          </note>. En <date type="_temp" when="1913">1913</date>, il est déjà
+        décidé à rendre la bibliothèque semi-publique. En <date type="_temp" when="1921">1921</date>, celle-ci, qui a déménagé entretemps, devient
+        la « Kulturwissenschaftliche Bibliothek Warburg » et est plus ou moins
+        rattachée à la toute nouvelle université de <placeName ref="2911298" type="geonames" xml:base="https://www.geonames.org/">Hambourg</placeName>. En <date type="_temp" when="1933">1933</date>, après l’arrivée au pouvoir du
+        parti nazi, la décision est prise de déménager la bibliothèque de peur
+        qu’elle ne soit démantelée, la famille Warburg étant juive. À
+        <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>, la
+        bibliothèque est déplacée plusieurs fois<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>Entre 1944 et 1958 elle est d’abord logée à Thames House
+            (Millbank), dans l’Imperial Institute (South Kensington), et mise
+            à l’abri entre 1939 et 1945.</p>
+          </note> – un bibliothécaire, <persName type="_temp">Hans
+        Meier</persName>, meurt sous les bombes pendant le <foreign xml:lang="deu">Blitz</foreign> – avant d’être finalement installée
+        dans les locaux construits pour elle dans le centre universitaire de
+        la ville. Entretemps, en <date type="_temp" when="1944">1944</date>,
+        elle a été donnée par la famille Warburg à l’Université de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> (University
+        of <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">London</placeName>).</p>
+        <p xml:id="d1e121">Les déménagements successifs ont forcément entraîné
+        des changements. Le classement de la bibliothèque, conçu par <persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Warburg</persName> et peu à peu
+        enrichi par son premier responsable, <persName ref="02876823X" type="idref" xml:base="https://www.idref.fr/">Fritz Saxl</persName>, a
+        dû s’adapter aux locaux qu’elle occupait. Mais quelles ont été les
+        conséquences du changement de statut de <date type="_temp" when="1944">1944</date>, du don à l’Université de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> ? Pour
+        <persName ref="028831357" type="idref" xml:base="https://www.idref.fr/">Jill Kraye</persName>, « malgré les
+        changements inévitables, bien qu’elle ait été emballée et déballée
+        plusieurs fois, la Bibliothèque Warburg a réussi, par le biais de ses
+        différentes voies d’acquisition, à préserver “le caractère original
+        d’instrument de recherche de cette collection” »<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>Jill Kraye, « Unpacking the Warburg Library », in <hi rend="italic">The Warburg Institute:</hi>
+              <hi rend="italic">A
+            special issue on the library and its readers</hi>, <hi rend="italic">Common Knowledege, </hi>18, 1, 2012, p. 127 : « Yet
+            despite inevitable changes, and despite the numerous times it has
+            had to be packed and unpacked, the Warburg Library has managed,
+            through the various ways it has acquired books, to preserve the
+            original character of the collection as an instrument of
+            research ».</p>
+          </note>. Le déménagement de <date type="_temp" when="1958">1958</date> a même été l’occasion de revenir à un
+        classement des livres plus proche de ce qu’il était à <placeName ref="2911298" type="geonames" xml:base="https://www.geonames.org/">Hambourg</placeName>. C’est
+        certainement l’enrichissement des collections, les acquisitions,
+        qu’elles soient onéreuses ou gracieuses, qui était le meilleur moyen
+        d’assurer la continuité au fil des décennies. Mais quelles ont été les
+        conséquences d’un nouvel environnement, au moment où les bibliothèques
+        s’apprêtaient à connaître une modernisation qui modifierait
+        partiellement leurs missions, où les techniques et les outils étaient
+        sur le point d’être complètement renouvelés ?</p>
+        <p xml:id="d1e136">À son court mémoire consacré à la bibliothèque de
+        <persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Warburg</persName>, rédigé vers <date type="_temp" when="1943">1943</date> et probablement inachevé,
+        <persName ref="02876823X" type="idref" xml:base="https://www.idref.fr/">Fritz Saxl</persName> donnait la
+        conclusion suivante :</p>
+        <quote rend="quotation" xml:id="d1e138">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des savoirs<term ref="doi:10.34817/sv-unufqjx4">financement</term>
+            </term>
+          </term>« En
+        <date type="_temp" when="1936">1936</date>, l’Université de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> accepta
+        d’accueillir l’institut jusqu’en <date type="_temp" when="1943">1943</date>, année où toutes ses ressources de financement
+        devaient être épuisées. Ce qui adviendrait par la suite restait
+        incertain, mais nous avions bon espoir. Quand la guerre éclata, les
+        livres furent évacués. Un des membres de l’équipe d’origine fut tué
+        lors d’un raid aérien et il devint de plus en plus difficile de
+        continuer à publier. Quelqu’un serait-il disposé en <date type="_temp" when="1943">1943</date> à soutenir encore ce squelette ?<note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>Fritz Saxl, « L’histoire de la bibliothèque de Warburg », op.
+            cit., p. 311.</p>
+          </note> »</quote>
+        <p xml:id="d1e144">Le premier directeur de la Kulturwissenschaftliche
+        Bibliothek Warburg à <placeName ref="2911298" type="geonames" xml:base="https://www.geonames.org/">Hambourg</placeName>, qui avait
+        mis en œuvre son déménagement à <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> en <date type="_temp" when="1933">1933</date>, semblait alors bien pessimiste
+        sur son avenir. Bien des années plus tard, <persName ref="031045375" type="idref" xml:base="https://www.idref.fr/">Ernst
+        Gombrich</persName> commentait ainsi ce paragraphe dans sa biographie
+        d’<persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Aby Warburg</persName> :</p>
+        <quote rend="quotation" xml:id="d1e146">« <persName ref="02876823X" type="idref" xml:base="https://www.idref.fr/">Fritz Saxl</persName>
+        n’aurait certes pas envisagé de conclure son mémoire par cette
+        question rhétorique s’il n’avait pas su à l’époque qu’une réponse se
+        profilait déjà à l’horizon. Le plus généreux de tous les mécènes était
+        prêt à assumer l’entière responsabilité de l’héritage de <persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Warburg</persName> : le contribuable
+        britannique. Un des facteurs qui conduisirent à ce tournant décisif
+        fut une étude comparative que l’on effectua sur la base de
+        vérifications ponctuelles entre la bibliothèque de l’institut et celle
+        du British Museum. Elle révéla que trente pour cent environ des titres
+        des livres et des périodiques qui provenaient de <placeName ref="2911298" type="geonames" xml:base="https://www.geonames.org/">Hambourg</placeName> ne se
+        trouvaient pas dans ce fabuleux trésor de volumes imprimés. Le <date type="_temp" when="1944-11-28">28 novembre 1944</date>, l’Institut
+        Warburg fut incorporé à l’Université de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> »<note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>Ibid., p. 313.</p>
+          </note>.</quote>
+        <p xml:id="d1e152">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-ceuycosd">réputation</term>
+            </term>
+          </term>Cette
+        dernière accepta donc en <date type="_temp" when="1944">1944</date> de
+        prendre en charge la bibliothèque, et signa avec les donateurs un
+        document dans lequel elle prenait divers engagements. L’esprit général
+        de cette convention de don était de maintenir et de préserver les
+        principes fondateurs de la bibliothèque, « l’université reconnaissant
+        la réputation internationale dans les domaines spécifiques de la
+        culture et de la recherche dans lesquels la Bibliothèque Warburg
+        s’était spécialisée »<note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>« The university recognising the world wide reputation in its
+            special fields of culture and research which the Warburg Library
+            has already established » : <hi rend="italic">Major E. M. Warburg
+            and Another and University of London Trust Deed</hi>, 28 November
+            1944. Le texte complet est disponible sur le site de l’Institut :
+            &lt;<ref target="http://warburg.sas.ac.uk/">
+                <hi rend="underline">http://warburg.sas.ac.uk</hi>
+              </ref>&gt;</p>
+          </note>. La donation précisait ainsi que « <foreign xml:lang="eng">The University will maintain and preserve the Warburg
+        Library in perpetuity in accordance with this Deed and will
+        accordingly as soon as possible house the same in a suitable building
+        in close proximity to the University centre at Bloomsbury and will
+        keep it adequately equipped and staffed as an independent unit the
+        whole to be known as “The Warburg Institute” </foreign>[…] »<note n="12" place="foot" type="standard" xml:id="ftn12">
+            <p>
+              <hi rend="italic">Major E. M. Warburg and Another and
+            University of London Trust Deed</hi>, op. cit. L’interprétation de
+            cette phrase ayant fait l’objet de longs désaccords, réglés par
+            une décision de justice, l’auteur a choisi de ne pas la traduire
+            ici pour éviter tout risque d’interprétation faussée.</p>
+          </note>. Il y avait là clairement un écho de ce que la bibliothèque
+        avait déjà été par le passé : un institut de recherches.</p>
+        <figure xml:id="d1e172">
+          <graphic url="https://didomena.ehess.fr/downloads/td96k338w.jpg"/>
+          <head xml:id="d1e174">Figure 2 – La bibliothèque de l'Institut
+          Warburg : les collections en accès libre.</head>
+        </figure>
+        <figure xml:id="d1e176">
+          <graphic url="https://didomena.ehess.fr/downloads/n296wz918.jpg"/>
+          <head xml:id="d1e178">Figure 3 – La salle de lecture de la
+          Bibliothèque Warburg.</head>
+        </figure>
+        <p xml:id="d1e180">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+            </term>
+          </term>Car en
+        réalité, le don de <date type="_temp" when="1944">1944</date> ne
+        consistait pas dans la transmission d’une bibliothèque privée.
+        Dès <date type="_temp" when="1920">1920</date>, au moment de la
+        création de l’Université de <placeName ref="2911298" type="geonames" xml:base="https://www.geonames.org/">Hambourg</placeName>, alors que
+        <persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Warburg</persName>, malade, ne
+        pouvait plus s’occuper de sa bibliothèque et qu’il envisageait de
+        l’intégrer à cette université, il était apparu « qu’il ne suffisait
+        plus de sauvegarder ce qu’il avait fait, et qu’il faudrait transformer
+        une création éminemment personnelle en une institution publique, même
+        s’il était dès le début manifeste que quantité de choses seraient
+        perdues par cette initiative »<note n="13" place="foot" type="standard" xml:id="ftn13">
+            <p>Fritz Saxl, « L’histoire de la bibliothèque de Warburg », op.
+            cit., p. 304.</p>
+          </note>. La bibliothèque, une fois devenue publique d’une manière ou
+        d’une autre, devrait se « normaliser » : normaliser les contenus,
+        normaliser la classification, ce que mirent en œuvre <persName ref="02876823X" type="idref" xml:base="https://www.idref.fr/">Fritz
+        Saxl</persName> et son assistante, <persName ref="061334723" type="idref" xml:base="https://www.idref.fr/">Gertrud
+        Bing</persName>
+          <note n="14" place="foot" type="standard" xml:id="ftn14">
+            <p>Ibid., p. 305.</p>
+          </note>. Elle devient alors davantage qu’une collection de livres.
+        Elle accueille des chercheurs, comme elle le faisait auparavant, mais
+        elle héberge aussi des séminaires d’histoire de l’art de
+        l’université ; <persName ref="02876823X" type="idref" xml:base="https://www.idref.fr/">Fritz Saxl</persName> transforme la
+        bibliothèque en institut en établissant un cycle de conférences
+        annuelles, en invitant des chercheurs dont il rembourse les frais de
+        déplacement et de séjour et en lançant deux programmes d’édition : la
+        série <hi rend="italic">
+            <foreign xml:lang="deu">Vorträge</foreign>
+          </hi>à partir de <date type="_temp" when="1921">1921</date>, et les
+        <hi rend="italic">
+            <foreign xml:lang="deu">Studien der Bibliothek
+        Warburg</foreign>, </hi>toutes deux publiées par <persName ref="098024418" type="idref" xml:base="https://www.idref.fr/">B. G.
+        Teubner</persName> à <placeName ref="6548737" type="geonames" xml:base="https://www.geonames.org/">Leipzig</placeName>
+          <note n="15" place="foot" type="standard" xml:id="ftn15">
+            <p>Dorothea McEwan, « A tale of one institute and two cities: The
+            Warburg Institute », dans <hi rend="italic">German-speaking exiles
+            in Great Britain</hi>, ed. Ian Wallace, in <hi rend="italic">The
+            Yearbook of the Research Centre for German and Austrian Exile
+            Studies</hi>, 1, 1999, p. 25-39 (29).</p>
+          </note>. Le même processus est mis en œuvre à <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>, par le même
+        homme, car <persName ref="02876823X" type="idref" xml:base="https://www.idref.fr/">Saxl</persName> est directeur de la
+        bibliothèque/institut jusqu’en <date type="_temp" when="1949">1949</date> ; dès <date type="_temp" when="1934">1934</date> il organise des conférences, en <date type="_temp" when="1937">1937</date> est lancé le <hi rend="italic">Journal of the Warburg Institute</hi>, devenu en <date type="_temp" when="1939">1939</date> le <hi rend="italic">Journal of
+        the Warburg and Courtauld Institutes ;</hi> plus tard, ce seront les
+        <hi rend="italic">Medieval and Renaissance Studies. </hi>Il est
+        impossible de différencier la bibliothèque du reste de l’institut :
+        ils sont une seule et même unité. Ils l’étaient déjà à <placeName ref="2911298" type="geonames" xml:base="https://www.geonames.org/">Hambourg</placeName>, et l’acte
+        de donation signé en <date type="_temp" when="1944">1944</date> par la
+        famille Warburg et l’Université de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> conservent
+        cette unité : « <foreign xml:lang="eng">The University will maintain
+        and preserve the Warburg Library […] as an independant unit the whole
+        being known as “The Warburg Institute”</foreign> »<note n="16" place="foot" type="standard" xml:id="ftn16">
+            <p>
+              <hi rend="italic">Trust Deed</hi>.</p>
+          </note>. Ce principe, s’il n’était pas fondateur à <placeName ref="2911298" type="geonames" xml:base="https://www.geonames.org/">Hambourg</placeName>, le fut à
+        <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> : non
+        seulement dès <date type="_temp" when="1944">1944</date>, mais plus
+        encore quelques années plus tard, lorsque l’université construisit un
+        nouveau bâtiment pour l’ensemble, destiné à traduire dans l’espace
+        cette volonté, en imbriquant étroitement la bibliothèque dans
+        l’institut et vice versa. La continuité fut assurée par <persName ref="061334723" type="idref" xml:base="https://www.idref.fr/">Gertrud
+        Bing</persName>, qui devint directrice après avoir été l’adjointe de
+        <persName ref="02876823X" type="idref" xml:base="https://www.idref.fr/">Saxl</persName> depuis <date type="_temp" when="1922">1922</date>.</p>
+        <p xml:id="d1e222">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-ltqipeyj">cercle</term>
+            </term>
+          </term>Mais comment
+        cette bibliothèque allemande, fréquentée essentiellement par des
+        Allemands au moment de son arrivée à <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>, s’est-elle
+        transformée en ce qu’elle est aujourd’hui ? Tout d’abord par la
+        volonté du cercle qui en assurait le fonctionnement et de ses
+        utilisateurs, arrivés eux aussi d’<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> à la même
+        époque, et qui ont mis beaucoup d’énergie à aider autant que possible
+        leurs compatriotes réfugiés comme eux en <placeName ref="2635167" type="geonames" xml:base="https://www.geonames.org/">Grande-Bretagne</placeName>,
+        Juifs ou non, socialistes, catholiques…<note n="17" place="foot" type="standard" xml:id="ftn17">
+            <p>Voir Dorothea McEwan, qui a lu les correspondances, op. cit.,
+            p. 34.</p>
+          </note> Mais il y eut aussi la volonté de Britanniques comme
+        <persName type="_temp">Walter Adams</persName>, secrétaire général de
+        l’Academic Assistance Council de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>, qui
+        écrivait : « <foreign xml:lang="eng">We feel that as far as possible
+        the German scholars have got to be absorbed into the ordinary
+        university and research world in this country</foreign> »<note n="18" place="foot" type="standard" xml:id="ftn18">
+            <p>Cit. D. McEwan, op. cit., p. 35.</p>
+          </note>. Liées à l’intégration à l’Université de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>, ce sont
+        enfin l’évolution des missions et surtout l’évolution de la conception
+        des bibliothèques de recherche et d’enseignement supérieur au fil des
+        ans qui entraînèrent des modifications dans la vie et l’organisation
+        de la bibliothèque.</p>
+        <p xml:id="d1e232">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-hq2y7va8">histoire de
+        l’art</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et
+        sociales</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+            </term>
+          </term>Celle-ci,
+        conçue dès l’origine par <persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Warburg</persName> pour offrir un
+        accès libre à tous ses utilisateurs, sur le modèle des bibliothèques
+        d’instituts (<foreign xml:lang="deu">Seminarbibliotheken</foreign>) de
+        l’Université de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, a résisté
+        au mouvement de clôture qu’ont connu certaines bibliothèques (pour
+        ensuite revenir, pour quelques-unes d’entre elles, à un accès direct),
+        non sans mal parfois, tant dans le centre de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> plus
+        qu’ailleurs le mètre linéaire reste ce qui coûte le plus cher aux
+        institutions. Donner le libre accès aux livres de la bibliothèque
+        n’avait pas pour objectif, à sa création, de faire gagner du temps :
+        c’était respecter un principe fondateur, celui de la « loi de bon
+        voisinage » établie par <persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Warburg</persName>, qui veut que le
+        livre dont on a besoin n’est pas celui que l’on cherche, mais que
+        « celui qui se trouve à côté sur le rayon, dont on ignorait
+        l’existence, contient l’information indispensable, même si son titre
+        ne le laissait pas deviner »<note n="19" place="foot" type="standard" xml:id="ftn19">
+            <p>Fritz Saxl, « L’histoire de la bibliothèque de Warburg », op.
+            cit., p. 301.</p>
+          </note>. Le libre accès, dont les jeunes chercheurs qui n’ont pas
+        connu l’ère des catalogues sur papier mesurent sans doute
+        difficilement l’intérêt, reste encore aujourd’hui le modèle des
+        bibliothèques de recherche : rappelons, pour la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, la
+        bibliothèque de sciences humaines de l’École normale supérieure de
+        <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, rue d’Ulm,
+        celle de l’École française de <placeName ref="3169069" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> (conçue sur le
+        même modèle), mais aussi celle de la Casa de Velázquez à <placeName ref="3117735" type="geonames" xml:base="https://www.geonames.org/">Madrid</placeName>. En histoire
+        de l’art, la bibliothèque de la Villa I Tatti (Harvard University) à
+        <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName> ou la
+        Biblioteca Hertziana à <placeName ref="3169069" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> sont elles
+        aussi, autant que faire se peut, disponibles en libre accès pour les
+        lecteurs. Souvent ces institutions ne prêtent pas leurs livres, ou
+        très peu. Les chercheurs en connaissent tout le prix pour leurs
+        travaux. Pourtant, ce modèle a été remis en question un moment par
+        l’organisme de tutelle de l’Institut Warburg.</p>
+        <p xml:id="d1e238">Pour le pire comme pour le meilleur, la
+        bibliothèque a préservé d’autres principes qui ont présidé à son
+        développement depuis sa création : la gratuité d’accès par exemple.
+        Elle a connu bien entendu des évolutions et des transformations, mais
+        on peut penser que celles-ci sont davantage liées à l’évolution des
+        bibliothèques de recherche depuis un demi-siècle qu’à la nouvelle
+        situation administrative de la Bibliothèque Warburg. Depuis longtemps,
+        les collections sont mieux surveillées ; la libéralité dont <persName ref="02876823X" type="idref" xml:base="https://www.idref.fr/">Saxl</persName> et la bibliothèque
+        faisaient parfois preuve envers les chercheurs ou même des inconnus a
+        fait place à des règles d’entrée et d’usage clairement établies<note n="20" place="foot" type="standard" xml:id="ftn20">
+            <p>Voir Jill Kraye, « Unpacking the Warburg Library », op. cit.,
+            p. 122. Le règlement de la bibliothèque est accessible sur le site
+            de l’Institut. Sauf rares exceptions, les ouvrages de la
+            Bibliothèque Warburg ne sortent pas du bâtiment – conditions
+            drastiques compensées par les heures d’ouvertures élargies et les
+            possibilités de reproduction, ainsi que par la numérisation.</p>
+          </note> ; les passe-droits sont évités autant qu’ailleurs. Intégrée
+        dans les réseaux des instituts et bibliothèques de recherche, la
+        Bibliothèque Warburg profite désormais du confort que cela peut
+        apporter, aussi bien pour le prêt inter-bibliothèques que pour les
+        échanges, permis par les publications régulières de l’Institut : le
+        <hi rend="italic">Journal of the Warburg and Courtauld
+        Institutes</hi>, les collections des <hi rend="italic">Warburg
+        Institute Studies and Texts </hi>et des <hi rend="italic">Warburg
+        Institute Colloquia</hi>. La donation à l’Université de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> a permis
+        essentiellement le développement de la collection, passée de 60 000 à
+        360 000 volumes grâce à un budget d’acquisitions annuel. La loi de bon
+        voisinage est aujourd’hui démultipliée, car les cotes utilisées dans
+        la classification sont assez courtes, et il faut parfois regarder de
+        près plusieurs rayonnages avant de trouver l’ouvrage que l’on
+        cherchait<note n="21" place="foot" type="standard" xml:id="ftn21">
+            <p>À l’inverse, certains ont pu regretter l’enrichissement des
+            collections, contraire pour eux à l’idée d’une collection choisie
+            et donc forcément réduite, forçant le chercheur à des connexions
+            mentales qui naissent en parcourant les rayonnages : voir Michael
+            Baxandall, « Is durability itself not also a moral quality ? », in
+            <hi rend="italic">The Warburg Institute: A special issue on the
+            library and its readers</hi>, <hi rend="italic">Common Knowledege,
+            </hi>18, 1, 2012, p. 22-31 (30-31) (réédition de Id., <hi rend="italic">Episodes : A memorybook, </hi>Londres, Frances
+            Lincoln, 2010, p. 111-123).</p>
+          </note>. La bibliothèque a été confiée depuis longtemps à des
+        personnels formés.</p>
+        <p xml:id="d1e266">La politique d’acquisition a bien évidemment changé
+        depuis qu’<persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Aby Warburg</persName> a créé sa
+        collection, mais avait sans doute commencé à changer avant le
+        déménagement à <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>, quand les
+        acquisitions n’ont plus été décidées uniquement par son fondateur : la
+        bibliothèque n’achèterait plus aujourd’hui six éditions anciennes du
+        même livre<note n="22" place="foot" type="standard" xml:id="ftn22">
+            <p>Comme le raconte Jill Kraye à propos du <hi rend="italic">Chronicon Carionis</hi>, op. cit., p. 123.</p>
+          </note>, elle dispose d’une politique d’acquisitions stable qui
+        tient nécessairement compte de son emplacement géographique. En plein
+        coeur de <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Bloomsbury</placeName>, ses
+        collections recoupent partiellement celles de plusieurs bibliothèques
+        se trouvant à moins de dix minutes de marche : la British Library bien
+        sûr, mais aussi la Senate House Library, la bibliothèque centrale de
+        l’Université de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>, les
+        bibliothèques de l’Institute of Classical Studies, de l’Institute of
+        Historical Research, de la School of Oriental and African Studies, la
+        Wellcome Library… Ainsi, pour prendre quelques exemples, le rayon
+        Shakespeare a cessé d’être enrichi depuis que la bibliothèque est à
+        <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>, et les
+        livres consacrés à l’étude des manuscrits médiévaux et à la
+        codicologie, achetés systématiquement par la Senate House Library,
+        n’entrent souvent dans les collections que par don ou échange.
+        L’histoire européenne fait partie des domaines d’excellence de
+        l’Institute of Historical Research ; l’histoire, la religion, la
+        littérature anciennes, de ceux de l’Institute of Classical Studies ;
+        l’archéologie, de celui de l’Institute of Archeology (UCL). L’art
+        contemporain se trouvera à l’Institut Courtauld plutôt qu’à l’Institut
+        Warburg ; l’histoire de la médecine, à la Wellcome Library.</p>
+        <p xml:id="d1e275">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et
+        sociales</term>
+            </term>
+          </term>La bibliothèque reflète aussi l’évolution
+        des sciences humaines, qui s’est accélérée dans la <date from="1950" to="1999" type="_temp">seconde moitié du 20<hi rend="sup">e</hi> siècle</date>. <persName ref="028510399" type="idref" xml:base="https://www.idref.fr/">Salvatore
+        Settis</persName>, dans un article paru en <date type="_temp" when="1985">1985</date>, avait relevé quelques-unes de ces évolutions,
+        comme la classe « Formes sociales », devenue « Histoire sociale » au
+        début des <date from="1970" to="1979" type="_temp">années 1970</date>.
+        L’histoire des timbres, qui intéressait <persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Warburg</persName>, a
+        été abandonnée depuis longtemps<note n="23" place="foot" type="standard" xml:id="ftn23">
+            <p>Nicholas Mann, in <hi rend="italic">Porträt aus Büchern:
+            Bibliothek Warburg und</hi>
+              <hi rend="italic">Warburg Institute,
+            Hamburg-1933-London</hi>, Hamburg, Dölling &amp; Galitz Verlag,
+            1993, cit. Francesca Cernia Slovin, « La vita per una biblioteca,
+            una biblioteca oltre la vita », in <hi rend="italic">La
+            bibliofilia</hi>, 99, 1, 1997, p. 47-75 (74).</p>
+          </note>. En sociologie (en particulier pour ce qui concerne le
+        pacifisme, le pangermanisme, le racisme), la collection n’est plus
+        enrichie, sauf peut-être pour l’histoire de l’éthique (DHF) ; la
+        psychologie elle aussi a été pratiquement abandonnée, à part quelques
+        sections comme « <foreign xml:lang="eng">Imagination, memory and
+        will</foreign> » (DAD) ou « <foreign xml:lang="eng">Genius,
+        physiognomony and gesture</foreign> » (DAC). Il en est de même pour
+        les transports, l’anthropologie, les religions teutonnes ou slavonnes,
+        la philosophie contemporaine (hormis lorsqu’elle fait écho au domaine
+        principal de la bibliothèque comme « <persName ref="086200038" type="idref" xml:base="https://www.idref.fr/">Nietzsche</persName>
+          <foreign xml:lang="eng">on classical Antiquity</foreign> »). Certains domaines
+        n’ont plus intéressé les chercheurs, les publications se sont taries,
+        et cela se voit lorsque l’on consulte le catalogue par cotes. En
+        revanche, d’autres classes, originellement très modestes, ont été
+        considérablement augmentées, en écho à l’intérêt des chercheurs pour
+        les domaines concernés : « <foreign xml:lang="eng">Cultural
+        exchange</foreign> », « <foreign xml:lang="eng">Position of
+        women</foreign> », « <foreign xml:lang="eng">History of art
+        collecting</foreign> », « <foreign xml:lang="eng">Islam and the
+        West</foreign> ». Peu de classes ont été créées, malgré tout, à
+        l’exception de l’histoire étrusque.</p>
+        <p xml:id="d1e293">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-ue8ksi5j">institutionnalisation</term>
+            </term>
+          </term>Les
+        modifications intervenues entre <placeName ref="2911298" type="geonames" xml:base="https://www.geonames.org/">Hambourg</placeName> et
+        <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> sont, pour
+        beaucoup, dues moins à l’institutionnalisation qu’aux réflexions de
+        <persName ref="02876823X" type="idref" xml:base="https://www.idref.fr/">Fritz Saxl</persName> et <persName ref="061334723" type="idref" xml:base="https://www.idref.fr/">Gertrud
+        Bing</persName>, qui n’ont jamais cessé après la mort d’<persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Aby
+        Warburg</persName> et qui ont entraîné une évolution continue de la
+        classification qu’il avait créée, ainsi qu’à celles des directeurs
+        successifs de la bibliothèque, qui ont suivi l’évolution des domaines
+        de la recherche en sciences humaines.</p>
+        <p xml:id="d1e295">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-xmjgnjyk">université</term>
+            </term>
+          </term>Une fois
+        la bibliothèque (re)devenue un institut de l’université (dans un monde
+        universitaire bien plus normalisé qu’il ne l’était au moment de la
+        création de l’Université de <placeName ref="2911298" type="geonames" xml:base="https://www.geonames.org/">Hambourg</placeName>), hébergeant
+        des chercheurs de grand renom qui dirigeaient des thèses et des
+        travaux d’étudiants, la politique d’acquisition s’est bien sûr
+        orientée, à la marge ou parfois plus franchement, vers les intérêts de
+        ces chercheurs : les champs de recherche de <persName ref="028456467" type="idref" xml:base="https://www.idref.fr/">Frances A.
+        Yates</persName>, <persName ref="028403932" type="idref" xml:base="https://www.idref.fr/">Charles B. Schmitt</persName> ou
+        <persName ref="031628028" type="idref" xml:base="https://www.idref.fr/">Henri Frankfort</persName> sont
+        visibles dans les collections – plus encore parce qu’ils ont légué à
+        l’Institut leurs bibliothèques. Alors que jusque-là, l’histoire de la
+        philosophie avait été consacrée essentiellement au platonisme,
+        <persName ref="028403932" type="idref" xml:base="https://www.idref.fr/">Charles Schmitt</persName> a orienté
+        les acquisitions sur l’aristotélisme, en lien avec ses propres
+        recherches et publications. <persName ref="028456467" type="idref" xml:base="https://www.idref.fr/">Frances Yates</persName> a largement
+        contribué à la constitution des riches ensembles consacrés à <persName ref="027344010" type="idref" xml:base="https://www.idref.fr/">Giordano
+        Bruno</persName> ou <persName ref="027400018" type="idref" xml:base="https://www.idref.fr/">Ramón Llull</persName>
+          <note n="24" place="foot" type="standard" xml:id="ftn24">
+            <p>Jill Kraye, op. cit., p. 126.</p>
+          </note>. Le tout nouveau directeur de l’Institut, <persName ref="030524083" type="idref" xml:base="https://www.idref.fr/">David
+        Freedberg</persName>, nommé le <date type="_temp" when="2015-07-01">1er juillet 2015</date>, a déjà demandé
+        l’acquisition de livres consacrés aux neurosciences, qui s’intégreront
+        sans difficulté dans la classification de la bibliothèque.</p>
+        <p xml:id="d1e301">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-h24ux4bz">bibliothécaire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-qquf8qxp">catalogue</term>
+            </term>
+          </term>Parmi les
+        limites que met – ou pourrait mettre – à la bibliothèque sa situation
+        administrative, on pourrait parler du catalogue, partagé avec les
+        autres bibliothèques de l’université centrale ; pour certains
+        bibliothécaires, le système de classification et la recherche par
+        cote, applications du principe de bon voisinage, sont une pratique qui
+        peut paraître désuète et il faut parfois insister pour obtenir cette
+        dernière, sans jamais de garantie de pouvoir l’obtenir. Pour intégrer
+        ce catalogue collectif, la bibliothèque a dû aussi abandonner, au
+        début des <date from="1990" to="1999" type="_temp">années 1990</date>,
+        les règles de catalogage prussiennes, publiées en <date type="_temp" when="1899">1899</date>, pour se plier aux AACR, les <foreign xml:lang="eng">Anglo-American Cataloguing rules</foreign>
+          <note n="25" place="foot" type="standard" xml:id="ftn25">
+            <p>
+              <hi rend="italic">Instruktionen für die alphabetischen Kataloge
+            der preussischen Bibliotheken</hi>
+              <hi rend="italic">vom 10. Mai
+            1899. </hi>Traduction anglaise : <hi rend="italic">The Prussian
+            instructions : rules for the alphabetical catalogs of the Prussian
+            libraries</hi>, Ann Arbor, University of Michigan Press, 1938.</p>
+          </note>. Soixante ans après son déménagement, la bibliothèque
+        achevait symboliquement sa naturalisation, devenant à tous points de
+        vue une bibliothèque anglo-saxonne.</p>
+        <p xml:id="d1e316">Il ne faudrait pas en conclure qu’au fond, le don
+        de la bibliothèque n’ait pas entraîné de changement. Son intégration
+        dans la toute nouvelle École des hautes études de l’Université de
+        <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> (School of
+        Advanced Study) il y a tout juste vingt ans a semblé à l’époque un
+        renforcement de sa position<note n="26" place="foot" type="standard" xml:id="ftn26">
+            <p>Voir Dorothea McEwan, op. cit., p. 39.</p>
+          </note> –  et sans doute elle le fut, si on la compare à la période
+        malheureuse où elle fut par la suite intégrée dans un réseau dirigé
+        par la bibliothèque universitaire centrale. Le projet conçu au début
+        du <date from="2000" to="2099" type="_temp">21<hi rend="sup">e</hi> siècle</date> était d’intégrer simplement la
+        bibliothèque dans la bibliothèque universitaire centrale et de réunir
+        leurs collections, au mépris du « <foreign xml:lang="eng">trust
+        deed</foreign> » cité plus haut ; suivant des habitudes
+        bibliothéconomiques pourtant abandonnées autant que possible par les
+        bibliothèques universitaires, du moins en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, depuis les
+        <date from="1980" to="1989" type="_temp">années 1980</date>, le libre
+        accès n’était plus considéré comme faisant partie intrinsèque de cette
+        bibliothèque jusqu’à ce qu’en <date type="_temp" when="2014-11">novembre 2014</date>, un juge de la Haute Cour de
+        justice de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> rappelle
+        qu’il en était bien ainsi. Une aberration bibliothéconomique
+        conduisait à confondre la bibliothèque universitaire centrale et une
+        bibliothèque de recherche spécialisée<note n="27" place="foot" type="standard" xml:id="ftn27">
+            <p>Voir Charles Hope, « Charles Hope writes about the battle over
+            the Warburg Institute », in <hi rend="italic">London Review of
+            Books</hi>, 4 décembre 2014, p. 32-34</p>
+          </note>. Si l’on observe les collections, il est manifeste que
+        pendant les <date from="1980" to="1989" type="_temp">années 1980</date>, le budget de la bibliothèque,
+        attribué par l’université, a été insuffisant et nombre de livres
+        importants dans ses disciplines d’excellence manquent cruellement.</p>
+        <p xml:id="d1e332">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des savoirs<term ref="doi:10.34817/sv-wxzmnyfr">libre
+        accès</term>
+            </term>
+          </term>Aujourd’hui les questions qui se posent sont
+        les mêmes qu’ailleurs. En l’absence d’une politique partagée de
+        conservation des périodiques, faut-il arrêter un abonnement ou un
+        autre ? Faut-il acheter les accès électroniques lorsqu’ils existent,
+        au risque de réduire le budget d’acquisition des monographies, alors
+        que les conditions d’accès de certaines bibliothèques proches ne
+        garantissent pas forcément un accès aisé aux lecteurs de la
+        Bibliothèque Warburg, qui accueille généreusement des chercheurs du
+        monde entier, même lorsqu’ils ne sont pas rattachés à un établissement
+        universitaire ? La tradition qui se maintient est celle de
+        l’interdisciplinarité et de l’histoire culturelle, d’un effort soutenu
+        pour acheter les sources historiques éditées, de privilégier la langue
+        originale et les livres écrits dans d’autres langues que l’anglais et
+        souvent rares, voire absents, dans les bibliothèques britanniques.
+        Décrire les champs d’intérêt de la bibliothèque prend toujours
+        plusieurs minutes, car comme l’a écrit <persName ref="031045375" type="idref" xml:base="https://www.idref.fr/">E. Gombrich</persName>,
+        il est difficile de traduire l’expression utilisée par <persName ref="028582446" type="idref" xml:base="https://www.idref.fr/">Warburg</persName> lui-même,
+        « <foreign xml:lang="deu">das Nachleben der Antike</foreign> » :
+        « <foreign xml:lang="deu">afterlife</foreign> » est devenu aujourd’hui
+        un mot courant à l’Institut, et la traduction française reste
+        difficile. « <foreign xml:lang="deu">Die kulturwissenschaftliche
+        Bibliothek Warburg</foreign> » reste aussi à peu près intraduisible,
+        et il est encore plus difficile d’exprimer en français qu’en anglais
+        ce que l’expression recouvre, tant « érudition » et « savoir » sont
+        trop vagues ou trop connotés<note n="28" place="foot" type="standard" xml:id="ftn28">
+            <p>E. Gombrich, <hi rend="italic">Aby Warburg, une biographie
+            intellectuelle</hi>, op. cit., p. 37.</p>
+          </note> ; histoire des idées, histoire intellectuelle, histoire
+        culturelle sont ce qui s’en approche le plus<note n="29" place="foot" type="standard" xml:id="ftn29">
+            <p>Dorothea McEwan, op. cit., p. 25.</p>
+          </note>. « <foreign xml:lang="eng">History of
+        scholarship</foreign> », titre du séminaire longtemps tenu par
+        <persName ref="030676436" type="idref" xml:base="https://www.idref.fr/">Christopher Ligota</persName> à
+        l’Institut, décrit un domaine qu’on peinerait à nommer en français.
+        Pour illustrer les centres d’intérêt de ce dernier, on peut dire par
+        exemple que sa proche voisine, la bibliothèque de l’Institute of
+        Historical Research, s’intéresse elle aussi à l’hagiographie : mais
+        elle limitera probablement cet intérêt aux saints qui ont existé,
+        quand la bibliothèque Warburg sera intéressée tout autant, ou même
+        davantage, par les saints imaginaires. La Wellcome Library achète tout
+        ce qui concerne l’histoire de la médecine, mais on trouvera à
+        l’Institut ce qui se rattache à l’histoire de la médecine médiévale et
+        à la médecine astrologique.</p>
+        <p xml:id="d1e345">Certes, la bibliothèque a connu des remous et s’est
+        retrouvée, il y a peu, en grand danger ; dans une <placeName ref="2635167" type="geonames" xml:base="https://www.geonames.org/">Grande-Bretagne</placeName> où
+        depuis quelques années, des bibliothèques institutionnelles sont
+        régulièrement fermées car trop onéreuses à maintenir, il s’agit bien
+        d’un risque inhérent à sa situation administrative. En <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> même, au
+        moment où s’écrivent les dernières lignes de cet article, une femme
+        politique pourtant respectée et expérimentée se demande si les
+        médiathèques ont encore un sens au <date from="2000" to="2099" type="_temp">21<hi rend="sup">e</hi> siècle</date>
+          <note n="30" place="foot" type="standard" xml:id="ftn30">
+            <p>Marylise Lebranchu, entretien avec Mathieu Quiret, <hi rend="italic">Les Échos</hi>, 18 septembre 2015, consulté sur <ref target="http://www.lesechos.fr/">
+                <hi rend="underline">http://www.lesechos.fr</hi>
+              </ref> : « Les médiathèques sont-elles un équipement toujours
+            d’actualité au XXI<hi rend="sup">e</hi> siècle ? »</p>
+          </note>. Mais l’évolution du monde universitaire, celui de la
+        bibliothéconomie et des techniques ont sans doute joué un rôle plus
+        grand dans les modifications qu’a connues la bibliothèque que le don
+        fondateur de <date type="_temp" when="1944">1944</date>. C’est
+        précisément parce qu’elle était devenue partie d’une institution que
+        ces évolutions y ont été si sensibles. Un personnel professionnel,
+        spécialisé, employé par l’Université de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>, a géré la
+        bibliothèque, financée par les deniers publics désormais, bien
+        différemment d’une institution privée exclusivement financée par son
+        propriétaire. Mais la force de la bibliothèque a bien été de devenir
+        un institut, dont elle est le coeur aussi bien intellectuellement que
+        matériellement dans son immeuble de Woburn Square. Pendant l’année
+        universitaire, chercheurs, étudiants inscrits dans ses différentes
+        formations, visiteurs, boursiers de l’Institut ou d’autres
+        institutions internationales la font vivre, en contrepoint du
+        personnel de la bibliothèque qui en prend soin. Son avenir est balisé
+        par son acte de donation, par un jugement et par une négociation menée
+        avec la présidence de l’Université de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>. Pour autant,
+        cet avenir est étroitement lié à celui de cette dernière et plus
+        généralement, à celui du monde universitaire britannique ; sans nul
+        doute, il connaîtra à nouveau des remous et des dangers. Le concept
+        qui a présidé à sa création, celui de la bibliothèque de recherche
+        spécialisée, organisée tout entière pour satisfaire les besoins des
+        chercheurs, peut être vu comme désuet ou dépassé. Il attire pourtant
+        chaque année un nombre remarquablement stable de chercheurs ; il
+        reproduit un modèle bien présent dans les pays occidentaux, et c’est
+        ce modèle qui voit se heurter les besoins des chercheurs et
+        l’évolution récente de l’enseignement supérieur et des financements
+        publics. Il y a, et il y aura sans doute toujours, une faille, qui
+        s’élargit ou se rétrécit au gré des politiques publiques de
+        l’enseignement supérieur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

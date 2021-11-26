@@ -1,0 +1,958 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-13T10:36:09.567+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_19_Laboulais">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La bibliothèque de l’Ecole des mines, lieu de
+        savoir et lieu de mémoire pour les ingénieurs</title>
+        <author role="aut">
+          <forename>Isabelle</forename>
+          <surname>Laboulais</surname>
+          <idno type="IDREF">034417796</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/24W9RLAU" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">La bibliothèque de l’Ecole des mines, lieu de
+            savoir et lieu de mémoire pour les ingénieurs</title>
+            <idno type="DOI">https://doi.org/10.4000/rbnu.1627</idno>
+            <author>
+              <forename>Isabelle</forename>
+              <surname>Laboulais</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <imprint>
+              <biblScope unit="issue">10</biblScope>
+              <biblScope unit="page">44-56</biblScope>
+              <date>2014</date>
+              <note type="url">https://journals.openedition.org/rbnu/1627</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-9kxmpfs2">salle de lecture</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-xv6joxtp">ingénieur</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jcqq7vil">collection
+          éditoriale</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-xv6joxtp">ingénieur</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2975517" type="geonames" xml:base="https://www.geonames.org/">Savoie</placeName>
+          </term>
+          <term>
+            <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1850" to="1950" type="_temp">1850-1950</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-01-16T14:46:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">La bibliothèque de l’École des mines, lieu de
+          savoir et lieu de mémoire pour les ingénieurs</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Isabelle Laboulais</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e49">
+          <graphic url="https://didomena.ehess.fr/downloads/8623hz494.jpg"/>
+          <head xml:id="d1e51">Figure 1 – Salle des périodiques de la
+          bibliothèque de l’École des mines, s. d. (fin du 19<hi rend="sup">e</hi> siècle ; coll. bibliothèque de l’École des mines
+          de Paris)</head>
+        </figure>
+        <p xml:id="d1e56">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jcqq7vil">collection
+        éditoriale</term>
+            </term>
+          </term>Depuis la fin de l’<date>Ancien
+        Régime</date>, l’École chargée de la formation des membres du corps
+        des Mines a investi successivement trois hôtels parisiens – à partir
+        de <date type="_temp" when="1778">1778</date>, l’hôtel de la Monnaie,
+        quai Conti, à partir de <date type="_temp" when="1794">1794</date>,
+        l’hôtel de Mouchy, rue de l’Université, enfin, à partir de <date type="_temp" when="1815">1815</date>, l’hôtel de Vendôme, rue d’Enfer
+        – ; entre <date from="1802" to="1814" type="_temp">1802
+        et 1814</date>, elle a été temporairement installée en <placeName ref="2975517" type="geonames" xml:base="https://www.geonames.org/">Savoie</placeName>, à proximité
+        de la mine de Pesey. C’est à partir de la <date>Révolution</date> que
+        le souci de constituer, au sein de l’École des mines, une collection
+        publique de livres utiles à la formation des ingénieurs s’est affirmé
+        et a suscité une réflexion sur la forme que devait prendre le lieu
+        propre à la conservation de ces ouvrages et à leur consultation<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Si l’École royale des mines est créée en 1783 à l’hôtel de la
+            Monnaie, il n’existe aucune continuité entre les collections de
+            livres et de spécimens qui s’y trouvent et celles constituées à
+            partir de 1794 pour les besoins des professeurs et des élèves des
+            Mines. Sous l’Ancien Régime, les collections conservées à la
+            Monnaie sont celles de Sage, titulaire de la chaire de
+            minéralogie.</p>
+          </note>. Les livres utilisés par les ingénieurs des Mines, les lieux
+        qui leur sont consacrés, les pratiques qui s’y déploient regardent la
+        culture professionnelle et l’identité de ce corps d’ingénieurs civils,
+        autant que l’histoire institutionnelle des bibliothèques.</p>
+        <p xml:id="d1e62">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-vdg9xj5e">pratique rituelle</term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté</term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>La
+        bibliothèque de l’École des mines permet de questionner le rapport
+        d’un corps d’ingénieurs civils aux livres en général, aux livres de
+        science en particulier. Depuis la création de la Maison des mines et
+        la nomination des premiers ingénieurs en <date type="_temp" when="1794">1794</date>, la bibliothèque joue un rôle central dans le
+        fonctionnement de l’École, non seulement parce qu’elle abrite les
+        ouvrages dont les professeurs et les élèves ont besoin, mais aussi
+        parce que les livres mettent en scène une sorte de communauté de
+        savoir à laquelle accède tout nouvel élève, puis à laquelle est agrégé
+        tout nouvel ingénieur. La genèse des collections de livres laisse
+        entrevoir les configurations de savoirs qui jalonnent l’histoire du
+        corps des Mines. Les pratiques à l’œuvre au sein de la bibliothèque de
+        l’École permettent de retrouver les deux formes que peut prendre une
+        communauté : le cercle et la lignée<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>« Ce lien communautaire dans la longue durée de la lignée ou
+            dans le présent où s’actualise le cercle, se traduit dans les
+            gestes et dans les savoir-faire, dans les codes d’interaction et
+            les rythmes du quotidien aussi bien que dans les doctrines et les
+            connaissances partagées » (Jacob, Christian, <hi rend="italic">Le
+            cercle et la lignée</hi>, in C. Jacob (dir.), <hi rend="italic">Lieux de savoir. Espaces</hi>
+              <hi rend="italic">et
+            communautés</hi>, Paris, Albin Michel, 2007, p. 132).</p>
+          </note>. Espace où se déploient des pratiques collectives de travail
+        intellectuel, la bibliothèque suscite des signes de reconnaissance et
+        d’appartenance. Les dons de livres effectués par les descendants de
+        certains ingénieurs des Mines à la bibliothèque de l’École témoignent
+        quant à eux d’un lien identitaire très marqué avec le corps et
+        expriment la volonté de l’inscrire dans la durée. Ils peuvent être
+        examinés comme des « rites d’institution », c’est-à-dire comme une
+        procédure « visant à produire un groupe séparé et sacré »<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Bourdieu, Pierre, <hi rend="italic">La Noblesse d’État</hi>,
+            Paris, 1989, p. 101-102</p>
+          </note>. On peut se demander si l’on ne touche pas là « l’aura
+        symbolique » dont <persName ref="027049582" type="idref" xml:base="https://www.idref.fr/">Pierre Nora</persName> juge
+        l’intervention nécessaire pour donner à un lieu d’apparence purement
+        matériel, comme un dépôt d’archives, le statut de lieu de mémoire<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Nora, Pierre, <hi rend="italic">Entre Mémoire et Histoire. La
+            problématique des lieux</hi>, in P. Nora (dir.), <hi rend="italic">Les lieux de mémoire</hi>, vol. 1, Paris, Gallimard,
+            coll. Quarto, réédition 1997, p. 37</p>
+          </note>.</p>
+        <div type="section1" xml:id="d1e94">
+          <head subtype="level1" xml:id="d1e95">Créer une « bibliothèque
+          nationale des Mines » : la construction et l’essor d’une collection
+          spécialisée</head>
+          <p xml:id="d1e97">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-mublpqmd">achat</term>
+              </term>
+            </term>Les sources
+          qui permettent de suivre la constitution de cette collection sont
+          éparses et fragmentaires. Les listes d’achats n’ont que très
+          rarement été conservées, de même que les budgets annuels de la
+          bibliothèque. Les catalogues constituent une source importante pour
+          reconstituer le contenu des collections, même si tous n’ont pas été
+          conservés<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>En l’an VII, Clouet est chargé par le Conseil des mines de
+              rédiger le « catalogue par ordre alphabétique des auteurs
+              contenus », en se conformant aux indications de l’instruction du
+              ministre de l’Intérieur. Ce catalogue n’a malheureusement pas
+              été conservé, il n’existe pas non plus d’inventaire global. Cf.
+              bibliothèque de l’École des mines de Paris, ms 78, V 7a, Lettre
+              du Conseil des mines au citoyen Clouet, le 8 fructidor an VII
+              (25 août 1799).</p>
+            </note>. En dépit des limites qu’impose la documentation, il est
+          possible de saisir l’ampleur des collections, ainsi que la manière
+          dont les grands domaines de savoirs y sont représentés et s’y
+          côtoient.</p>
+          <p xml:id="d1e103">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jcqq7vil">collection
+          éditoriale</term>
+              </term>
+            </term>Comme pour la bibliothèque des Ponts
+          et Chaussées ou celle de l’École polytechnique, les confiscations
+          révolutionnaires, qui constituent l’origine principale des premiers
+          ouvrages rassemblés dans la bibliothèque aménagée rue de
+          l’Université<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Bradley, Margaret M., <hi rend="italic">An early science
+              library and the provision of textbooks:</hi>
+                <hi rend="italic">the École polytechnique, 1794-1815</hi>, in <hi rend="italic">Libri</hi>, t. 26, 1976, p. 166</p>
+            </note>, ont contrarié les volontés de spécialisation. En dépit du
+          souhait explicite de créer une « bibliothèque nationale des
+          mines »<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Bibliothèque de l'École des mines de Paris (Bib. EMP), ms 78,
+              If, Lettre du Conseil des mines de la République aux citoyens
+              conservateurs des Dépôts littéraires de la Commission temporaire
+              des arts, le 21 brumaire an IV (12 novembre 1795).</p>
+            </note>, les premiers ouvrages à entrer dans les collections
+          furent des volumes de l’<hi rend="italic">Encyclopédie
+          méthodique</hi>, des ouvrages de physique et de chimie, quelques
+          autres d’histoire naturelle<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Bib. EMP, ms 78, VII 2, « Copie de l’arrêté de la Commission
+              des armes et poudres de la République une et indivisible du
+              6 floréal an III ».</p>
+            </note>. Rares étaient les volumes qui concernaient la « science
+          des mines », si bien qu’à la fin de l’<date from="1795-09-22" to="1795-12-21" type="_temp">automne 1795</date>, alors que les
+          cours étaient sur le point de commencer, aucun des livres
+          nécessaires aux professeurs n’était disponible<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Bib. EMP, ms 78, Ik, Note de l’Agence des mines, Maison
+              d’instruction, bibliothèque, s. d.</p>
+            </note>. L’enseignement constituait l’une des raisons d’être de
+          cette bibliothèque et la collection devait disposer des ouvrages de
+          référence pour la discipline. Pour y parvenir, le Conseil des mines
+          demanda en <date type="_temp" when="1796">1796</date> que son
+          bibliothécaire, <persName type="_temp">Clouet</persName>, soit
+          autorisé à prendre connaissance « des livres relatifs à la science
+          des mines qui peuvent exister dans les dépôts »<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Bib. EMP, ms 78, If, Lettre du Conseil des mines de la
+              République aux citoyens conservateurs des Dépôts littéraires de
+              la Commission temporaire des arts, le 21 brumaire an IV
+              (12 novembre 1795).</p>
+            </note>. <persName type="_temp">Clouet</persName> retint
+          630 titres qu’il répertoria dans un registre en les classant par
+          rubrique et par ordre alphabétique d’auteurs<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Bib. EMP, ms 78, IV 10, « Notice des livres extraits des
+              dépôts nationaux, utiles et nécessaires à la Bibliothèque de la
+              Maison d’instruction pour l’exploitation des mines de la
+              République ».</p>
+            </note>. À l’exception des usuels, seuls des ouvrages de science
+          furent retenus. Les équilibres restent pourtant surprenants : la
+          minéralogie (15%) arrive loin derrière les mathématiques et les
+          voyages (chacun constituant 28% de l’ensemble). La plupart de ces
+          ouvrages étaient publiés à <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, quelques-uns
+          à <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> ou dans le
+          monde germanique, mais cette collection restait assez généraliste.
+          Pour parvenir à constituer un fonds spécialisé, l’appropriation de
+          collections spécifiques sembla plus prometteuse. La bibliothèque de
+          <persName type="_temp">P.-F. de Dietrich</persName> le montre bien.
+          Composée de 1 030 volumes dont la majeure partie était en allemand,
+          cette collection fut d’abord confisquée, puis restituée à la
+          famille, enfin rachetée par le ministère de l’Intérieur aux
+          héritiers de <persName type="_temp">Dietrich</persName>. Grâce à
+          cette collection, le Conseil des mines put revendiquer la
+          spécificité de sa bibliothèque au sein de l’espace parisien.
+          En <date type="_temp" when="1799">1799</date>, elle rassemblait
+          environ 1 800 monographies et plus de 20 titres de périodiques. Si
+          le nombre de volumes n’était pas considérable, la recherche de
+          spécialisation restait néanmoins perceptible. L’ancrage de la
+          « science des mines » du côté de l’histoire naturelle et de la
+          physique s’impose. Contrairement aux usages que l’on peut observer
+          dans l’espace germanique, le droit et l’économie n’étaient pas
+          représentés. Cette collection confirme l’ambiguïté de ce lieu,
+          tiraillé entre les savoirs savants qui fondaient la culture du corps
+          des Mines et les savoirs de gouvernement qui constituaient son champ
+          d’intervention<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Laboulais, Isabelle, <hi rend="italic">La Maison des mines.
+              La genèse révolutionnaire d’un corps</hi>
+                <hi rend="italic">d’ingénieurs civils (1794-1814)</hi>, Rennes,
+              Presses universitaires de Rennes, 2012</p>
+            </note>.</p>
+          <p xml:id="d1e152">En <date type="_temp" when="1802">1802</date>,
+          lors de l’installation de l’École sur la mine de Pesey, la nécessité
+          de disposer d’une bibliothèque fut réaffirmée. Les collections
+          rassemblées à <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> restèrent
+          dans les locaux de la Maison des mines. En <date type="_temp" when="1803">1803</date>, le préfet, le sous-préfet et le maire de
+          <placeName ref="6432772" type="geonames" xml:base="https://www.geonames.org/">Moutiers</placeName>
+          proposèrent que les livres de la bibliothèque de la ville soient
+          réquisitionnés pour constituer le fonds de la bibliothèque
+          spécialisée de l’École de Pesey<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Archives nationales, F 14 1053, Lettre de Schreiber au
+              Conseil des Mines, Pesey, le 2 nivôse an XII (24 décembre
+              1803).</p>
+            </note>. Une bibliothèque généraliste qui ne disposait d’aucun
+          équipement, ni d’aucun personnel, fut donc réunie à une bibliothèque
+          spécialisée qui ne possédait aucun livre. La collection était alors
+          composée de 1 570 volumes provenant de la bibliothèque municipale de
+          <placeName ref="6432772" type="geonames" xml:base="https://www.geonames.org/">Moutiers</placeName> et de
+          208 autres appartenant à l’École des mines<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>AN, F 14 1047, « Inventaire général et estimatif des
+              immeubles, meubles et autres objets, existant dans les
+              établissements dépendants de l'École pratique des mines du Mont
+              Blanc, au 1<hi rend="sup">er</hi> janvier 1813 ».</p>
+            </note>. En <date type="_temp" when="1808">1808</date>, cette
+          collection, destinée aux élèves et aux professeurs, fut installée
+          dans l’ancien séminaire de <placeName ref="6432772" type="geonames" xml:base="https://www.geonames.org/">Moutiers</placeName>, à une
+          vingtaine de kilomètres de Pesey. C’est là que les cours théoriques
+          étaient dispensés et que les spécimens des collections
+          minéralogiques étaient disposés. Lorsque la <placeName ref="2975517" type="geonames" xml:base="https://www.geonames.org/">Savoie</placeName> revint au
+          <placeName ref="3170831" type="geonames" xml:base="https://www.geonames.org/">Piémont</placeName>, l’École
+          pratique dut quitter Pesey et <placeName ref="6432772" type="geonames" xml:base="https://www.geonames.org/">Moutiers</placeName>. Les
+          livres, peu nombreux et trop peu spécialisés aux yeux des
+          professeurs et des élèves, furent rapatriés à <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>.</p>
+          <p xml:id="d1e165">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-h8lq96u4">école</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-xv6joxtp">ingénieur</term>
+              </term>
+            </term>En <date type="_temp" when="1816">1816</date>, une ordonnance royale
+          officialisa le retour de l’École des mines à <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>. La
+          bibliothèque aménagée dans les locaux de l’École ne chercha plus à
+          apparaître comme un lieu de savoir au sein de l’espace savant
+          parisien, mais plutôt comme un outil de travail adapté aux besoins
+          des professeurs et des élèves ; les collections d’imprimés
+          constituées au <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi> siècle</date> en témoignent. L’École procéda à
+          l’achat de grandes collections de périodiques et d’ouvrages utiles
+          aux professeurs comme aux élèves, un fonds technique orienté vers
+          les mines et la métallurgie fut constitué. Les échanges perdurèrent,
+          notamment pour les périodiques. Comme c’était déjà le cas pendant la
+          <date>Révolution</date> et l’<date>Empire</date> avec le <hi rend="italic">Journal des mines</hi>, les numéros des <hi rend="italic">Annales des mines </hi>étaient échangés avec d’autres
+          périodiques publiés ailleurs en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> ou à
+          l’étranger, et consacrés à l’exploitation des mines et à la
+          géologie. La bibliothèque recevait également des dons venus d’autres
+          institutions publiques (l’École des ponts, le ministère du Commerce
+          à l’occasion de l’exposition universelle de <date type="_temp" when="1883">1883</date>). La liste des ouvrages qui, à ces
+          occasions, arrivaient dans les collections de l’École des mines
+          témoigne de l’identité acquise par cette bibliothèque. On y retrouve
+          une forte emprise de la culture technique, de la science de
+          l’ingénieur.</p>
+          <figure xml:id="d1e176">
+            <graphic url="https://didomena.ehess.fr/downloads/2z10wq99k.jpg"/>
+            <head xml:id="d1e178">Figure 2 – Page du catalogue de la
+            bibliothèque de Philippe-Frédéric de Dietrich (coll. bibliothèque
+            de l'Ecole des mines de Paris)</head>
+          </figure>
+          <figure xml:id="d1e180">
+            <graphic url="https://didomena.ehess.fr/downloads/6108vb97v.jpg"/>
+            <head xml:id="d1e182">Figure 3 – (Haut) Grande salle de lecture de
+            la bibliothèque de l’École des mines (vers 1925 ; coll.
+            bibliothèque de l’École des mines de Paris)<lb/>(Bas) Nouvelle
+            salle des périodiques de la bibliothèque de l’École des mines,
+            inaugurée en 1926 (coll. bibliothèque de l’École des mines de
+            Paris)</head>
+          </figure>
+          <p xml:id="d1e186">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-xkacvuqd">géologie</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-sazqdugr">minéralogie</term>
+                  </term>
+                </term>
+              </term>
+            </term>Passée
+          la difficile spécialisation des premiers temps, les collections de
+          la bibliothèque de l’École des mines ont suivi l’élargissement des
+          disciplines enseignées. L’emprise de la minéralogie et plus encore
+          de la géologie est restée forte ; cependant la statistique,
+          l’économie, le droit ou la sociologie se sont progressivement
+          immiscés dans les collections. Les acquisitions, les échanges et les
+          dons ont assuré leur accroissement régulier au cours des <date from="1800" to="1999" type="_temp">19<hi rend="sup">e</hi> et 20<hi rend="sup">e</hi> siècles</date>. En <date type="_temp" when="1904">1904</date>, la bibliothèque de l’École des mines
+          conservait environ 42 000 volumes<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Notice imprimée par le Conseil de perfectionnement de
+              l’École, 1904.</p>
+            </note>. En <date type="_temp" when="1953">1953</date>, elle en
+          contenait 250 000, et plus de 2 000 collections de revues.
+          Aujourd’hui la bibliothèque possède 200 000 documents sur support
+          papier dont 40 000 antérieurs à <date type="_temp" when="1900">1900</date>, 62 000 publiés entre <date from="1900" to="1975" type="_temp">1900 et 1975</date> et 81 500 postérieurs
+          à <date type="_temp" when="1975">1975</date>.</p>
+        </div>
+        <div type="section1" xml:id="d1e198">
+          <head subtype="level1" xml:id="d1e199">Aménager un lieu de travail :
+          les enjeux d’une salle de lecture</head>
+          <p xml:id="d1e201">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-9kxmpfs2">salle de
+          lecture</term>
+              </term>
+            </term>L’existence d’une collection de livres
+          constituée par et pour une grande école ne suffit pas à mettre au
+          jour les usages que les professeurs et les élèves ont eus de ces
+          imprimés. Il faut les resituer dans l’espace qui leur était
+          consacré. L’existence d’un local dévolu au rangement des volumes n’a
+          pas la même portée que la création d’une salle de lecture.
+          L’existence d’un personnel spécifiquement assigné à cet espace et
+          les fonctions qui lui sont confiées apparaissent aussi comme un
+          paramètre déterminant pour saisir les pratiques. Les sources sont
+          parfois lacunaires (les plans, par exemple, n’ont pas toujours été
+          conservés), de sorte qu’il est difficile de savoir à partir de quand
+          la bibliothèque a impliqué l’aménagement d’un espace propre à la
+          consultation des ouvrages du fonds. D’autres documents – des lettres
+          notamment – font allusion aux pratiques à l’œuvre en son sein.</p>
+          <p xml:id="d1e203">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-sbnvxjra">mobilier<term ref="doi:10.34817/sv-xhrysonn">table</term>
+              </term>
+            </term>Pendant la
+          <date>Révolution</date> et l’<date>Empire</date>, la bibliothèque
+          créée au sein de la Maison des mines fut installée au premier étage
+          du bâtiment de la rue de l’Université, et elle y resta jusqu’au
+          déménagement de <date type="_temp" when="1814">1814</date>
+            <note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Dans les locaux occupés par l’École des ponts et chaussées
+              entre la fin du 18<hi rend="sup">e</hi> et le début du 19<hi rend="sup">e</hi> siècle, il n’existe aucune pièce faisant
+              office de bibliothèque ou de lieu d’étude pour les élèves. Voir
+              Montel, Nathalie, <hi rend="italic">Une revue des savoirs
+              d’État</hi>. <hi rend="italic">De la genèse à la fabrique des
+              </hi>Annales des ponts et chaussées <hi rend="italic">au
+              XIX</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> siècle</hi>, Habilitation à diriger des
+              recherches, Université de Paris I, 2008, p. 534.</p>
+            </note>. Aucune donnée ne permet de connaître sa superficie, ni
+          son ameublement. Certains témoignages suggèrent pourtant que des
+          tables de travail étaient disposées dans cette pièce. Elle était
+          ouverte « tous les jours impairs depuis 10 heures jusqu’à
+          4 heures »<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Bib. EMP, ms 78, Ig</p>
+            </note>. Les registres de prêts montrent qu’elle était fréquemment
+          utilisée, tant par les membres du Conseil et de l’inspection des
+          mines que par certains chefs de bureau, ainsi que par les
+          élèves<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Bib. EMP, ms 78, V 3 et V 8, ensemble de fiches nominatives
+              classées par ordre alphabétique et répertoriant tous les
+              ouvrages empruntés par une même personne. Voir aussi ms 78, V 6,
+              Liste des ouvrages empruntés.</p>
+            </note>. Ce lieu était conçu pour faciliter le travail des membres
+          du corps ainsi que celui des employés de bureau et celui des savants
+          attachés à cette institution. Plus qu’un espace de travail, la
+          bibliothèque apparaît comme un espace <hi rend="italic">pour </hi>le
+          travail. En <date type="_temp" when="1802">1802</date>, lorsque
+          l’École pratique des mines fut créée en <placeName ref="2975517" type="geonames" xml:base="https://www.geonames.org/">Savoie</placeName>, plus aucun
+          cours n’était dispensé à <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> ; cependant
+          la bibliothèque réunie au premier étage de la Maison des mines y fut
+          maintenue. Ces ensembles documentaires furent utilisés par les
+          employés de bureau et les ingénieurs qui travaillaient dans les
+          locaux parisiens. Lorsqu’en <date type="_temp" when="1814">1814</date> l’administration des mines dut quitter la
+          rue de l’Université, les collections furent déplacées à deux
+          reprises en moins d’un an, d’abord vers le palais du Petit
+          Luxembourg où elles se trouvèrent « entassées confusément et sans
+          ordre<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>AN, F 14 11059, « Rapport à Monsieur le directeur général »,
+              le 23 juillet 1817, f<hi rend="sup">o</hi> 1</p>
+            </note> » puis, quelques mois plus tard, à l’hôtel de Vendôme où
+          la bibliothèque de l’École des mines se trouve encore
+          aujourd’hui<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Maisonneuve, Marie-Noëlle, Masson, Francine, <hi rend="italic">L'École des mines : histoire</hi>
+                <hi rend="italic">de sa bibliothèque et de ses collections</hi>, in
+              <hi rend="italic">Arts et métiers du livre</hi>, mars-avril
+              2008, p. 30-43</p>
+            </note>.</p>
+          <p xml:id="d1e261">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-9kxmpfs2">salle de
+          lecture</term>
+              </term>
+            </term>En <date type="_temp" when="1816">1816</date>, trois membres du corps des Mines, <persName type="_temp">Baillet</persName>, <persName type="_temp">Duhamel</persName> et <persName type="_temp">Lefroy</persName>, furent chargés par le conseil de
+          l’École de formuler quelques propositions sur la meilleure manière
+          d’aménager dans l’hôtel de Vendôme les espaces nécessaires au bon
+          fonctionnement de l’établissement. Dès <date type="_temp" when="1816">1816</date>, la bibliothèque prit possession de trois
+          salles au rez-de-chaussée. Trois fonds furent identifiés : celui des
+          livres destinés aux ingénieurs et aux élèves, celui conservant les
+          plans et dessins, celui regroupant les ouvrages et journaux ; mais
+          il apparut très vite que la place manquait<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>AN, F 14 11059, ibidem, f<hi rend="sup">o</hi> 10</p>
+            </note>. En <date type="_temp" when="1819">1819</date>, la
+          bibliothèque fut dotée d’une pièce supplémentaire, et l’on put
+          songer à mettre un peu d’ordre dans les collections, notamment
+          celles des statistiques départementales. En <date type="_temp" when="1837">1837</date>, l’État se porta acquéreur du bâtiment, ce
+          qui permit d’entreprendre des travaux de grande ampleur pour adapter
+          cet ancien hôtel particulier aux besoins d’une école. Le corps
+          central du bâtiment fut préservé et complété par deux ailes achevées
+          en <date type="_temp" when="1852">1852</date>. Toutefois, dès <date type="_temp" when="1860">1860</date>, le percement du boulevard
+          Saint-Michel obligea à détruire une partie des nouveaux bâtiments.
+          Une nouvelle série de travaux intervint à partir de <date type="_temp" when="1866">1866</date>. La bibliothèque fut maintenue
+          au rez-de-chaussée de l’École. Elle disposa d’une salle de lecture
+          qui était parfois utilisée pour les réunions du Conseil général des
+          mines, ainsi que d’une salle des périodiques (figure 1). Mais les
+          espaces dévolus à la bibliothèque furent de nouveau modifiés à
+          partir de <date type="_temp" when="1924">1924</date>. La grande
+          salle de lecture fut construite sur une galerie réunissant deux
+          bâtiments (figure 3). Cette nouvelle bibliothèque, inaugurée
+          en <date type="_temp" when="1926">1926</date> par le <persName ref="030092019" type="idref" xml:base="https://www.idref.fr/">maréchal Foch</persName>, disposait
+          de trois salles : une salle des périodiques où se trouvait le bureau
+          de prêt (figure 3), une salle des catalogues, enfin une salle de
+          lecture. Les derniers travaux de grande ampleur furent entrepris
+          en <date type="_temp" when="1992">1992</date> lorsque des magasins
+          furent construits au sous-sol, afin d’assurer des conditions de
+          conservation meilleures que celles offertes par les mansardes.</p>
+          <figure xml:id="d1e270">
+            <graphic url="https://didomena.ehess.fr/downloads/mw22v632q.jpg"/>
+            <head xml:id="d1e272">Figure 4 – Lettre de Gaston Bachelard au
+            directeur de la bibliothèque, sollicitant l’autorisation (qui lui
+            fut refusée) d’emprunter des ouvrages du fonds (coll. bibliothèque
+            de l’École des mines de Paris)</head>
+          </figure>
+          <p xml:id="d1e274">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-akkzqof3">règlement</term>
+              </term>
+            </term>Aucun
+          document ne permet de suivre le circuit des emprunts existant aux
+          <date from="1800" to="1999" type="_temp">19<hi rend="sup">e</hi> et
+          20<hi rend="sup">e</hi> siècles</date>, de retrouver les usages de
+          certains professeurs, ou ceux des élèves. Les règlements successifs
+          témoignent en revanche de l’élargissement des horaires d’ouverture
+          et de l’évolution des règles qui régissaient le fonctionnement des
+          prêts. En <date type="_temp" when="1912">1912</date>, les
+          professeurs, les chefs de travaux pratiques et les préparateurs
+          pouvaient emprunter des ouvrages pour un mois ; les élèves devaient
+          se contenter d’une journée, ou huit jours à titre exceptionnel ;
+          quant aux anciens élèves, ils pouvaient emprunter des ouvrages « au
+          titre de faveur ». En <date type="_temp" when="1921">1921</date>, un
+          nouveau règlement interdit que les livres sortent de la
+          bibliothèque ; il imposait aux lecteurs de ranger eux-mêmes les
+          volumes qu’ils avaient consultés. Les prêts reprirent dans les <date from="1940" to="1949" type="_temp">années 1940</date>, mais ils
+          restaient toutefois strictement réservés aux membres du corps. Il
+          n’était vraisemblablement pas dans les habitudes du directeur de
+          tolérer des exceptions puisque même la demande de <persName ref="026699710" type="idref" xml:base="https://www.idref.fr/">Gaston
+          Bachelard</persName> (figure 4) qui, en <date type="_temp" when="1944">1944</date>, espérait emprunter des ouvrages de chimie,
+          essuya un refus catégorique. La fréquentation de la salle de lecture
+          progressa : le conservateur indique 12 000 lecteurs en salle de
+          travail pour <date type="_temp" when="1953">1953</date>, et
+          6 000 volumes prêtés à des personnes extérieures au corps, ce qui
+          suggère l’attractivité grandissante de cette bibliothèque.</p>
+        </div>
+        <div type="section1" xml:id="d1e282">
+          <head subtype="level1" xml:id="d1e283">Les travaux de catalogage et
+          le signalement des collections</head>
+          <p xml:id="d1e285">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-plnrdjgu">support de conservation<term ref="doi:10.34817/sv-tfbzewmd">boîte</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-qquf8qxp">catalogue</term>
+              </term>
+            </term>Au
+          cours du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi> siècle</date>, au moment où les collections
+          bénéficièrent d’un accroissement régulier et furent stockées dans
+          des espaces stabilisés, la tenue de registres et la réalisation de
+          catalogues se généralisèrent, faisant écho à l’augmentation du
+          nombre de lecteurs. À partir des <date from="1840" to="1849" type="_temp">années 1840</date>, les titres des ouvrages qui
+          entraient dans les collections de la bibliothèque furent consignés
+          dans un registre. C’est vraisemblablement à la même période qu’un
+          premier catalogue sur fiches fut constitué (figure 5), les
+          monographies y étant répertoriées par ordre alphabétique d’auteurs
+          et les périodiques présentés, dans une boîte particulière, par ordre
+          alphabétique de titres.</p>
+          <p xml:id="d1e290">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-qquf8qxp">catalogue</term>
+              </term>
+            </term>En <date from="1899" to="1900" type="_temp">1899-1900</date>, quelques années
+          après l’École polytechnique<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>
+                <hi rend="italic">Catalogue des livres composant la
+              bibliothèque de l’École royale polytechnique</hi>, Paris,
+              Bachelier, 1840, 2 vol. ; Catalogue de la bibliothèque de
+              l’École polytechnique, Paris, Gauthier-Villars, 1881.</p>
+            </note> et l’École des ponts et chaussées<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>
+                <hi rend="italic">Catalogue des livres composant la
+              bibliothèque de l’École nationale des ponts</hi>
+                <hi rend="italic">et chaussées</hi>, Paris, Imprimerie nationale,
+              1894</p>
+            </note>, le premier catalogue imprimé de la bibliothèque de
+          l’École des mines fut publié en deux volumes. Il s’agit d’un
+          catalogue systématique, complété par un index par nom d’auteurs. Il
+          recensait environ 30 000 titres répartis par disciplines<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>
+                <hi rend="italic">Bibliothèque de l’École nationale
+              supérieure des mines :</hi> catalogue, Paris, Imprimerie
+              nationale, 1899, 2 volumes</p>
+            </note>. Le premier volume était consacré aux sciences exactes
+          (mathématiques, physique, minéralogie et géologie qui représente un
+          quart du fonds), le second aux sciences appliquées (métallurgie,
+          machines, chemins de fer, statistique, expositions industrielles,
+          commerce, c’est-à-dire une rubrique très englobante qui intègre
+          l’économie politique, la sociologie, les finances et le budget)<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>Masson, Francine, <hi rend="italic">La bibliothèque de
+              l’École des mines de Paris comme source</hi>
+                <hi rend="italic">de
+              (re)connaissance d’un enseignement, </hi>in <hi rend="italic">Documents pour l’histoire des</hi>
+                <hi rend="italic">techniques</hi>, n<hi rend="sup">o</hi> 16, 2008,
+              p. 75</p>
+            </note>. C’est une commission de professeurs qui établit le
+          classement pragmatique retenu dans le catalogue<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Masson, Francine, <hi rend="italic">Per piacer di porle in
+              lista. Réflexions désordonnées sur</hi>
+                <hi rend="italic">quelques catalogues de bibliothèques scientifiques
+              au XIX</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> siècle</hi>, in <hi rend="italic">Bulletin des
+              bibliothèques de France</hi>, n<hi rend="sup">o</hi> 1, 2001,
+              p. 33-36</p>
+            </note>. Il devait fournir aux enseignants et aux élèves un outil
+          pour trouver les documents dont ils avaient besoin, en fonction de
+          leurs connaissances scientifiques et de leur façon d’appréhender les
+          disciplines. Il devait aussi faire connaître les fonds de l’École
+          des mines, comme en témoigne la liste des institutions ou des
+          personnes auxquelles les deux volumes du premier catalogue imprimé
+          de l’École ont été envoyés (ministères, Sénat, Chambre des députés,
+          Conseil d’État, membres du corps des Ponts et Chaussées, membres du
+          corps des Mines, correspondants étrangers de l’École des mines).</p>
+          <p xml:id="d1e352">En <date type="_temp" when="1943">1943</date>, la
+          version manuscrite de l’ancien catalogue méthodique, qui était posée
+          sur les tables de la salle de lecture, fut convertie sur des fiches
+          cartonnées de 15 sur 10 cm. Cette entreprise suggère que les fonds
+          conservés à l’École des mines étaient l’objet de recherches précises
+          et que le personnel de la bibliothèque s’efforçait de mettre à la
+          disposition de ses lecteurs des instruments de recherche adaptés.
+          Quelques années plus tard, les travaux de catalogage s’attachèrent à
+          des collections spécifiques pour répondre à l’accroissement des
+          recherches constaté depuis la fin de la <date>Seconde Guerre
+          mondiale</date>. En <date type="_temp" when="1949">1949</date>,
+          l’inventaire des 2 000 périodiques conservés à la bibliothèque fut
+          réalisé dans des fichiers kardex. Les fiches, rangées par ordre
+          alphabétique, précisaient l’état détaillé de chaque collection ; un
+          catalogue géographique vint compléter cet inventaire<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Bib. EMP, Archives de la bibliothèque, Discours du directeur
+              prononcé en juin 1949.</p>
+            </note>. Les <date from="1940" to="1949" type="_temp">années 1940</date> furent également marquées par la
+          constitution d’un catalogue spécifiquement consacré aux livres
+          anciens. En <date type="_temp" when="1941">1941</date>, ce fonds fut
+          de nouveau inventorié et numéroté<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>Quelques années plus tard, en 1948, le Département de la
+              réserve a été créé.</p>
+            </note>, puis, entre <date from="1950" to="1955" type="_temp">1950
+          et 1955</date>, le catalogue des auteurs anciens fut recopié à
+          partir des registres, afin de disposer d’une connaissance plus
+          précise de ce fonds qui n’était que partiellement répertorié dans le
+          tout premier catalogue sur fiches dressé au cours des <date from="1840" to="1849" type="_temp">années 1840</date>.</p>
+          <p xml:id="d1e362">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-sbnvxjra">mobilier<term ref="doi:10.34817/sv-m5epjdee">étagère</term>
+              </term>
+            </term>Du <date from="1850" to="1949" type="_temp">milieu du 19<hi rend="sup">e</hi>
+          au milieu du 20<hi rend="sup">e</hi> siècle</date>, la bibliothèque
+          de l’École des mines s’est vue dotée de salles spécifiques et
+          d’instruments de recherche censés donner corps à ses collections.
+          Les catalogues sur fiches mis à la disposition des lecteurs dans une
+          salle particulière apportèrent une existence nouvelle à la
+          collection, les logiques d’indexation créèrent des parcours qui se
+          détachaient de la topographie des rayonnages. Toutefois, l’absence
+          d’archives qui auraient gardé la trace des demandes de consultations
+          et d’emprunts ne permet malheureusement pas d’aller plus loin dans
+          l’identification des usages développés au sein de la collection.
+          Certains documents permettent en revanche de mesurer l’attachement
+          symbolique des ingénieurs des Mines à leur bibliothèque.</p>
+        </div>
+        <div type="section1" xml:id="d1e370">
+          <head subtype="level1" xml:id="d1e371">Enrichir une collection
+          d’ouvrages scientifiques pour construire la mémoire du corps des
+          Mines</head>
+          <p xml:id="d1e373">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-6sjmkx2q">archivage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+          matériel</term>
+              </term>
+            </term>Parmi les missions actuelles de la
+          bibliothèque figure la responsabilité du patrimoine écrit de
+          l’École<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>Maisonneuve, Marie-Noëlle, <hi rend="italic">Les sources
+              manuscrites de l’histoire des mines</hi>
+                <hi rend="italic">à la
+              Bibliothèque de l’École des mines de Paris</hi>, in <hi rend="italic">Documents pour l’histoire des techniques</hi>,
+              n<hi rend="sup">o</hi> 16, décembre 2008, p. 67-73</p>
+            </note>. Progressivement, à partir du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi> siècle</date>, la bibliothèque
+          n’a plus seulement été vue comme une collection d’ouvrages
+          scientifiques et techniques censés répondre aux besoins immédiats
+          des professeurs et des élèves, elle est devenue le lieu où étaient
+          versées les archives administratives de l’établissement, ou celles
+          produites par d’anciens chercheurs de l’École ou par des élèves<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>Benoît, Serge, Maisonneuve, Marie-Noëlle, <hi rend="italic">Un gisement iconographique</hi>
+                <hi rend="italic">de premier ordre : les relations de voyages
+              d’élèves-ingénieurs à l’École nationale supérieure des mines de
+              Paris</hi>, in <hi rend="italic">Actes de la table ronde du
+              groupe d’histoire des mines, Pierres et terre</hi>, n<hi rend="sup">o</hi> 33, 1990, p. 109-132</p>
+            </note>, si bien que ses magasins abritent aujourd’hui 310 mètres
+          linéaires de telles archives.</p>
+          <p xml:id="d1e410">Outre les versements auxquels l’École a procédé,
+          elle a, dès le <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi> siècle</date>, effectué des acquisitions à
+          l’occasion de ventes de livres ou de papiers laissés par de
+          prestigieux ingénieurs. Le premier registre de la bibliothèque
+          indique par exemple que 35 ouvrages, pour la plupart en allemand, en
+          anglais ou en italien, ont été achetés en <date type="_temp" when="1841">1841</date> lors de la vente des livres de <persName ref="069449821" type="idref" xml:base="https://www.idref.fr/">Brochant de Villiers</persName>,
+          ingénieur puis inspecteur général du corps des Mines, professeur de
+          minéralogie et de géologie à l’École de Pesey, puis à l’École royale
+          des mines de <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+            <note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Bib. EMP, Registre n<hi rend="sup">o</hi> 1,
+              décembre 1841</p>
+            </note>. Pour certains ensembles de manuscrits – le fonds
+          <persName type="_temp">Monnet</persName> ou le fonds <persName ref="10248497X" type="idref" xml:base="https://www.idref.fr/">Gillet-Laumont</persName> –, aucune
+          source ne permet de déterminer les modalités de leur entrée dans les
+          collections. Cependant, la manière dont les mémoires et récits de
+          voyage du premier ou la correspondance du second sont présentés
+          laisse penser que ces ensembles ont été vendus par un libraire. Le
+          choix de l’École n’est pas anodin puisque <persName type="_temp">Monnet</persName> fait partie des tout premiers
+          inspecteurs des Mines nommés par le contrôle général en <date type="_temp" when="1776">1776</date> ; quant à <persName ref="10248497X" type="idref" xml:base="https://www.idref.fr/">Gillet-Laumont</persName>, d’abord
+          nommé inspecteur des Mines en <date type="_temp" when="1784">1784</date>, il a animé la direction collégiale de
+          l’Agence puis du Conseil des mines jusqu’en <date type="_temp" when="1810">1810</date>. L’acquisition par l’École de ces documents
+          témoigne de la volonté d’en préserver la mémoire et de conserver des
+          indices de l’ancienneté du corps.</p>
+          <p xml:id="d1e422">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>En <date type="_temp" when="1907">1907</date>, l’École fait l’acquisition du
+          lot de manuscrits baptisé aujourd’hui « fonds <persName ref="035040823" type="idref" xml:base="https://www.idref.fr/">Élie
+          de Beaumont</persName> »<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>
+                <ref target="https://patrimoine.mines-paristech.fr/">
+                  <hi rend="underline">https://patrimoine.mines-paristech.fr/</hi>
+                </ref>
+              </p>
+            </note>. Il s’agit essentiellement de lettres que l’un des auteurs
+          de la carte géologique de <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> a échangées
+          avec ses correspondants, de carnets de terrain, du brouillon de
+          l’explication de la carte géologique de <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, etc.
+          Quelques années auparavant, <persName ref="035040823" type="idref" xml:base="https://www.idref.fr/">Élie de Beaumont</persName> avait
+          donné 167 ouvrages (plus de 300 volumes) de sa bibliothèque à
+          l’École. La liste présente 100 titres d’ouvrages – périodiques et
+          monographies – publiés en français, 46 en allemand, 15 en anglais,
+          6 en italien, enfin on y trouve une vingtaine de cartes ou
+          d’atlas<note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>Bib. EMP, ms 78 VII, « Liste des ouvrages provenant de la
+              bibliothèque de M. Élie de Beaumont et donnés à l’École des
+              mines ».</p>
+            </note>. Il s’agit pour l’essentiel d’ouvrages publiés au <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi> siècle</date>, dont un certain nombre de tirés à
+          part, peut-être envoyés par leurs auteurs respectifs à <persName ref="035040823" type="idref" xml:base="https://www.idref.fr/">Élie
+          de Beaumont</persName> ; plusieurs contributions majeures à la
+          cartographie géologique européenne s’y trouvent aussi. <persName ref="035040823" type="idref" xml:base="https://www.idref.fr/">Élie
+          de Beaumont</persName> a vraisemblablement donné à l’École les
+          ouvrages, ou du moins une partie de ceux qui constituaient sa
+          bibliothèque de travail personnelle. Au cours des dernières
+          décennies du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi> siècle</date>, certains ingénieurs prennent
+          l’habitude de faire don d’une partie de leurs livres à la
+          bibliothèque de l’École où ils ont été formés, voire où ils ont
+          enseigné. En <date type="_temp" when="1885">1885</date>, la
+          bibliothèque reçoit ainsi 439 des ouvrages de <persName ref="156704994" type="idref" xml:base="https://www.idref.fr/">Louis
+          Le Chatelier</persName>
+            <note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>Bib. EMP, ms 78 VII, « Liste des ouvrages donnés à la
+              Bibliothèque de l’École des mines par M. Le Chatelier (H. L.),
+              ingénieur des Mines », 22 octobre 1882.</p>
+            </note>. Il s’agit pour l’essentiel d’ouvrages de travail qu’il
+          conservait dans les locaux de l’École. D’autres lèguent une partie
+          de leur bibliothèque personnelle, comme c’est le cas avec le don de
+          la « bibliothèque géologique » de <persName ref="03204982X" type="idref" xml:base="https://www.idref.fr/">Lucien
+          Cayeux</persName>, effectué par sa veuve en <date type="_temp" when="1951">1951</date>. L’ampleur de ce don est telle – 1 051
+          entrées figurent dans le registre où sont répertoriés les dons – que
+          le personnel de la bibliothèque ne peut, à lui seul, cataloguer les
+          ouvrages donnés et les intégrer à la collection. Il faut attendre
+          une subvention obtenue en <date type="_temp" when="1956">1956</date>
+          et <date type="_temp" when="1957">1957</date> pour que ce fonds
+          rejoigne les collections de l’École.</p>
+          <p xml:id="d1e444">À partir du <date type="_temp" when="1850">milieu
+          du 19<hi rend="sup">e</hi> siècle</date>, les dons deviennent de
+          plus en plus fréquents. Ils sont souvent partiels et éclairent une
+          partie de l’activité professionnelle du donateur : il peut s’agir
+          par exemple de notes de cours prises par le défunt pendant sa
+          scolarité à l’École, de carnets de terrain ou encore de minutes de
+          cartes géologiques. Certains ingénieurs des Mines font le choix de
+          léguer à la bibliothèque, à la fin de leur carrière, tout ou partie
+          des travaux qu’ils ont publiés. C’est le cas d’<persName ref="07272658X" type="idref" xml:base="https://www.idref.fr/">Edmond
+          Friedel</persName>, qui a été sous-directeur de l’École et qui, en
+          <date type="_temp" when="1943-06">juin 1943</date>, annonce avoir
+          rassemblé les notes qu’il a publiées sur les insectes et plantes
+          fossiles de la potasse d’<placeName ref="3038033" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName>, pour en
+          faire don à la bibliothèque.</p>
+          <p xml:id="d1e449">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+          matériel</term>
+              </term>
+            </term>À la même période, on voit se
+          développer des dons de livres anciens, supposés renforcer le
+          caractère patrimonial de la bibliothèque de l’École des mines.
+          <persName type="_temp">Daubrée</persName>, qui a dirigé
+          l’établissement entre <date from="1872" to="1884" type="_temp">1872
+          et 1884</date>, a par exemple fait don de son exemplaire du <hi rend="italic">Bergbüchlein </hi>(<date type="_temp" when="1505">1505</date>) et d’autres ouvrages anciens sur la mine et
+          la métallurgie<note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>Maisonneuve, Marie-Noëlle, Masson, Francine, op. cit.,
+              p. 40</p>
+            </note>. Un ex-dono identifie ses ouvrages. En <date type="_temp" when="1960">1960</date>, la veuve de <persName type="_temp">Maurice
+          Pesson-Didion</persName> lègue à la bibliothèque 41 ouvrages anciens
+          ayant appartenu à son époux. On trouve parmi eux : le <hi rend="italic">De re metallica </hi>d’<persName type="_temp">Agricola</persName> dans une réédition de <date type="_temp" when="1912">1912</date>, les traités de <persName type="_temp">Cardan</persName>, la première partie de <hi rend="italic">L’Histoire entière des poissons </hi>de <persName type="_temp">Rondelet</persName> ou encore le <hi rend="italic">Grand lapidaire </hi>de <persName ref="027005534" type="idref" xml:base="https://www.idref.fr/">Jean de
+          Mandeville</persName>, dans des éditions du <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi> siècle</date>, les
+          œuvres de <persName ref="027271862" type="idref" xml:base="https://www.idref.fr/">Palissy</persName> dans une
+          réédition de <date type="_temp" when="1888">1888</date>. Dans l’une
+          des lettres de remerciements qu'il lui adressa, le directeur de la
+          bibliothèque lui proposa d’exposer quelques-uns de ces volumes dans
+          le hall de cette dernière, en donnant pour sujet à cette exposition
+          « <persName ref="027271862" type="idref" xml:base="https://www.idref.fr/">Bernard Palissy</persName> et son
+          temps ». De telles initiatives individuelles rejaillissent à la fois
+          sur la notoriété du donateur et sur le prestige de l’École. Elles
+          ont été complétées depuis quelques années par l’association ABC
+          Mines qui se donne comme objectif de promouvoir la connaissance de
+          l’École et de contribuer à l’enrichissement de ses collections. La
+          liste des acquisitions effectuées depuis <date type="_temp" when="1992">1992</date> regroupe des ouvrages anciens, dont
+          l’ancrage épistémologique questionne l’identité du corps des
+          Mines.</p>
+          <figure xml:id="d1e471">
+            <graphic url="https://didomena.ehess.fr/downloads/fq977v404.jpg"/>
+            <head xml:id="d1e473">Figure 5 – Premier catalogue sur fiches
+            conservé dans les magasins de la bibliothèque de l’École des mines
+            de Paris (coll. bibliothèque de l’École des mines de Paris)</head>
+          </figure>
+          <p xml:id="d1e475">Si les grands domaines de savoirs représentés
+          dans la bibliothèque de l’École des mines ont évolué à mesure que
+          les programmes d’enseignement ont été repensés et que la culture
+          professionnelle des ingénieurs s’est transformée, ce n’est
+          probablement pas l’évolution la plus significative de ce lieu de
+          savoir qui, progressivement, s’est vu doté d’un personnel
+          spécifique, de fonds de mieux en mieux identifiés et répertoriés.
+          L’attachement symbolique des ingénieurs à cette bibliothèque à la
+          vocation patrimoniale croissante – l’ouverture de la bibliothèque
+          patrimoniale numérique le montre<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>
+                <ref target="https://patrimoine.mines-paristech.fr/">
+                  <hi rend="underline">https://patrimoine.mines-paristech.fr/</hi>
+                </ref>
+              </p>
+            </note> – éclaire la place tenue par la science dans la culture
+          professionnelle des membres du corps. Le statut privilégié
+          qu’occupent encore aujourd’hui la minéralogie et la géologie dans la
+          valorisation des collections patrimoniales illustre bien
+          l’attachement des ingénieurs des Mines à cette identité originelle
+          du corps.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

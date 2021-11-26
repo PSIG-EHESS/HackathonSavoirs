@@ -1,0 +1,1015 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-19T16:09:42.954+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_24_Ricard">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">« De jeunes mémoires s’emparent des morceaux les
+        plus frappants… » : textes oraux et « bibliothèques vivantes »</title>
+        <author role="aut">
+          <forename>Alain</forename>
+          <surname>Ricard</surname>
+          <idno type="IDREF">027098095</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/BQNFDJ22" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">« De jeunes mémoires s’emparent des morceaux les
+            plus frappants… » : textes oraux et « bibliothèques vivantes
+            »</title>
+            <idno type="DOI">https://doi.org/10.4000/rbnu.2935</idno>
+            <author>
+              <forename>Alain</forename>
+              <surname>Ricard</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <imprint>
+              <biblScope unit="issue">11</biblScope>
+              <biblScope unit="page">27-39</biblScope>
+              <date>2015</date>
+              <note type="url">https://journals.openedition.org/rbnu/2935</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-w2ckzlem">anthropologie</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-hcnypq2u">oralité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="953987" type="geonames" xml:base="https://www.geonames.org/">Afrique du Sud</placeName>
+          </term>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi> siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-01-16T15:51:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">« De jeunes mémoires s’emparent des morceaux
+          les plus frappants… » : textes oraux et « bibliothèques
+          vivantes »</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Alain Ricard</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e49">
+          <graphic url="https://didomena.ehess.fr/downloads/j6731456z.jpg"/>
+          <head xml:id="d1e51">Figure 1 – Guerrier zoulou. Aquarelle de David
+          Canty (coll. Museum Africa, Johannesburg)</head>
+        </figure>
+        <quote rend="quotation" xml:id="d1e53">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-uw9mnivd">chant</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+            </term>
+          </term>L’artifice
+        des vers est inconnu aux Africains. Leurs poésies, sans être
+        entièrement dépourvues de cadence, n’offrent aucun arrangement
+        mélodique des pieds et mesures, encore moins y trouverait-on la rime.
+        Elles se distinguent du discours ordinaire par l’élévation des
+        sentiments, les métaphores, l’ellipse, et par ce tour tantôt vif et
+        énergique, tantôt mélancolique et naïf qui est propre au langage des
+        passions… Le héros de la pièce en est presque toujours l’auteur. De
+        retour des combats, il se purifie à la rivière voisine, puis il va
+        déposer religieusement, au fond de sa hutte, sa lance et son bouclier.
+        Ses amis l’entourent et lui demandent le récit de ses exploits. Il les
+        raconte avec emphase ; la chaleur du sentiment l’entraîne, son
+        expression devient poétique. De jeunes mémoires s’emparent des
+        morceaux les plus frappants ; on les répète à l’auteur enchanté, qui
+        les retravaille et les lie ensemble dans ses longues heures de
+        loisir ; au bout de deux ou trois lunes, ses enfants savent
+        parfaitement le toko [chant de louange en sesotho], qui sera désormais
+        déclamé aux fêtes solennelles de la tribu<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Casalis, 1841, p. 52 (pour cette référence et les suivantes,
+            voir la bibliographie)</p>
+          </note>.</quote>
+        <p xml:id="d1e59">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-fpnfpat6">épopée</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-jrgqczb7">récitation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-hcnypq2u">oralité</term>
+            </term>
+          </term>Une telle
+        compréhension anthropologique de la littérature, celle d’<persName ref="026770059" type="idref" xml:base="https://www.idref.fr/">Eugène
+        Casalis</persName> cité ici, n’a pas été fréquente au <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi> siècle</date>. Rares ont été les chercheurs de
+        terrain, recueillant in situ, sous la dictée, des poésies orales, les
+        traduisant et donnant des clés pour les interpréter. Admettre que des
+        déclamations, débitées à toute vitesse, relèvent de la poésie et sont
+        analogues aux odes de notre tradition classique demande un sens du
+        relativisme culturel à l’époque peu fréquent, et rare encore
+        aujourd’hui. Le sujet, la mémoire, le rythme, tout cela compose un
+        assemblage unique : celui de l’épopée, celui d’un discours qui ne sort
+        pas des pages d’un livre, mais de la chaleur du sentiment (<persName ref="026770059" type="idref" xml:base="https://www.idref.fr/">Casalis</persName>). Le propre du
+        discours poétique est justement le rythme, c’est-à-dire l’implication
+        du sujet dans son discours. Cette conscience de la nécessité d’une
+        nouvelle respiration est au coeur de la compréhension poétique de
+        <persName ref="026770059" type="idref" xml:base="https://www.idref.fr/">Casalis</persName> face aux
+        déclamations sotho. Il a tout de suite compris l’essentiel, à savoir
+        que c’est « l’exécution du poème qui est le poème » (Paul Valéry, <hi rend="italic">Première leçon du cours de poétique</hi>).</p>
+        <p xml:id="d1e67">La vision romantique de <persName ref="026770059" type="idref" xml:base="https://www.idref.fr/">Casalis</persName> est
+        née sur le terrain et nourrit notre désir d’entendre des textes
+        héroïques, que nous voulons issus d’une chaîne ininterrompue. Mais la
+        chaîne a des noeuds…</p>
+        <div type="section1" xml:id="d1e69">
+          <head subtype="level1" xml:id="d1e70">Où sont les bibliothèques
+          vivantes ? Qui a rencontré Chaka ?</head>
+          <p xml:id="d1e72">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-gxq8nbkj">marchand</term>
+              </term>
+            </term>
+            <persName ref="081537530" type="idref" xml:base="https://www.idref.fr/">Henry-Francis Fynn</persName>, un
+          marchand anglais, avait longtemps séjourné à la cour de <persName ref="029245230" type="idref" xml:base="https://www.idref.fr/">Chaka</persName>, le Napoléon
+          zoulou, mort, rappelons-le, en <date type="_temp" when="1828">1828</date> et toujours présent dans la mémoire
+          sud-africaine. Il se plaisait à en rapporter les aspects les plus
+          barbares, et il a laissé un volume de souvenirs qui est encore la
+          première des sources directes sur le monarque zoulou<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>Fynn, 2004</p>
+            </note>. Il avait pu observer de façon systématique le
+          fonctionnement du royaume. Il nous donna quelques exemples des
+          éloges de <persName ref="029245230" type="idref" xml:base="https://www.idref.fr/">Chaka</persName>.</p>
+          <p xml:id="d1e78">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-j53sa3ek">intertextualité</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-qyzckmpa">mémorisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+              </term>
+            </term>Cette
+          poésie est bien une célébration des hauts faits des chefs, dont la
+          mémoire (la leur, d’abord) s’est emparée ; elle cesse en partie
+          quand les chefs sont destitués, exilés, voire humiliés. Ce fut le
+          cas de la maison royale zouloue. Difficile pour les colonisés d’être
+          les sujets d’une histoire épique ! Qui garde le souvenir ? De
+          quelles mémoires s’est-il emparé ? L’exemple zoulou, beaucoup étudié
+          depuis près de deux siècles, offre à notre réflexion de beaux
+          exemples de bibliothèques vivantes. Les méthodes de conservation et
+          de transmission ne laissent pas de poser quelques problèmes. Les
+          odes zouloues ont été recueillies par <persName ref="098462571" type="idref" xml:base="https://www.idref.fr/">James
+          Stuart</persName>, magistrat au <placeName ref="972062" type="geonames" xml:base="https://www.geonames.org/">Natal</placeName> à la fin du
+          <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi> siècle</date>. Son entreprise commencée, par
+          écrit, en <date type="_temp" when="1882">1882</date> en Afrique,
+          s’est poursuivie en <placeName ref="6269131" type="geonames" xml:base="https://www.geonames.org/">Angleterre</placeName> en <date type="_temp" when="1927">1927</date>, et cela sous deux formes : des
+          enregistrements de disques et une série de textes écrits chez
+          <persName type="_temp">Longmans</persName>. <persName ref="098462571" type="idref" xml:base="https://www.idref.fr/">Stuart</persName> a enregistré
+          lui-même, sur des rouleaux, les textes qu’il avait « <foreign xml:lang="eng">collated</foreign> » (collationnés), ce qui veut dire
+          qu’il avait « tissé » ensemble des textes différents, de différents
+          <hi rend="italic">imbongi :</hi> mais en fonction de quelle
+          représentation de la poésie ?</p>
+          <quote rend="quotation" xml:id="d1e86">
+            <persName type="_temp">Harry
+          Lugg</persName> qui avait bien connu <persName ref="098462571" type="idref" xml:base="https://www.idref.fr/">Stuart</persName>
+          rappelait que ce dernier invitait chez lui des vieux et des bardes
+          et restait tard dans la nuit assis avec eux en s’acharnant à
+          transcrire les éloges. Le problème était qu’ils ne pouvaient les
+          réciter que dans le style traditionnel, sans s’arrêter, sans
+          ralentir… La seule méthode était de les faire sans cesse
+          répéter…<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Rycroft, Ngcobo, 1988, p. 50</p>
+            </note>.</quote>
+          <p xml:id="d1e92">
+            <persName ref="098462571" type="idref" xml:base="https://www.idref.fr/">Stuart</persName> notait, notait
+          sans se lasser, et il eut l’idée de s’enregistrer, faute de pouvoir
+          compter sur un <hi rend="italic">imbongi </hi>en <placeName ref="2635167" type="geonames" xml:base="https://www.geonames.org/">Grande-Bretagne</placeName>… Il
+          voulait s’inscrire dans la chaîne des <hi rend="italic">imbongi</hi>, en somme devenir à bon droit un poète
+          zoulou, « exécutant » lui-même le poème… Mais nous savons les
+          difficultés qu’il avait eues à noter. Peut-on suggérer que s’il
+          manquait une phrase, il l’ajoutait, fort de sa connaissance
+          approfondie du style de la poésie orale<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Ricard, 2011</p>
+            </note> ?</p>
+          <p xml:id="d1e104">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-myedpthg">éditeur</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-uvsahivj">transcription</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-4ew878p7">instrument d’enregistrement<term ref="doi:10.34817/sv-vla8msr9">enregistreur</term>
+                </term>
+              </term>
+            </term>Son
+          volume comprend en annexe un répertoire des enregistrements de
+          studio des odes, les <hi rend="italic">izibongo :</hi> ils datent
+          de <date type="_temp" when="1927">1927</date> (réalisés en studio
+          par <persName ref="098462571" type="idref" xml:base="https://www.idref.fr/">Stuart</persName> lui-même). Les
+          premiers enregistrements sonores de terrain sont de <date type="_temp" when="1964">1964</date> : le magnétophone est devenu
+          portable<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Rycroft, Ngcobo, 1988, p. 245</p>
+            </note>. L’intervention de « l’éditeur » – au sens de l’éditeur
+          scientifique – est perçue comme légitime. La construction de textes,
+          voire leur restauration, est une contribution à la défense et à
+          l’illustration de leur culture. Mais interrogeons-nous sur ce que
+          recouvre, voire cache, la notion de restauration… Les textes ont été
+          notés, enregistrés, retranscrits et publiés. Chaque étape s’est
+          produite à une époque différente et a fait intervenir des acteurs
+          différents. La réactivation de ce patrimoine, sa circulation, son
+          intervention dans la vie sociale dépendent de la mémoire de certains
+          poètes, mais aussi de leur capacité à composer et donc à poursuivre
+          le genre. Poursuivre, c’est-à-dire adapter les formules, voire en
+          créer de nouvelles ; nous restons dans la logique de la création de
+          poésie orale, mais de quel « souvenir » les bibliothèques vivantes
+          sont-elles porteuses ? <persName ref="098462660" type="idref" xml:base="https://www.idref.fr/">Trevor Cope</persName> (en <date type="_temp" when="1988">1988</date>) rédigea une note d’errata très
+          significative dans le volume d’<hi rend="italic">izibongo</hi> que
+          j’ai acquis à la librairie universitaire de l’UNISA :</p>
+          <quote rend="quotation" xml:id="d1e116">À l’époque de la publication
+          (en <date type="_temp" when="1968">1968</date>) je n’étais pas au
+          courant de la théorie de l’utilisation des formules orales, proposée
+          par <persName type="_temp">Parry</persName> et <persName ref="030174546" type="idref" xml:base="https://www.idref.fr/">Lord</persName> (<hi rend="italic">The Singer of Tales</hi>, 1960). Jusqu’en <date type="_temp" when="1970">1970</date>, cette théorie n’était pas
+          courante chez les spécialistes des littératures africaines, mais
+          <persName ref="124494072" type="idref" xml:base="https://www.idref.fr/">Opland</persName>, dans plusieurs
+          articles, après <date type="_temp" when="1970">1970</date>, a
+          reconnu que ce que je nomme des phrases d’une circulation très
+          commune étaient en fait des formules orales. Le gué aux pierres
+          glissantes (izibuko elimadwal’ abuleshelezi) par exemple, mais il y
+          en a beaucoup d’autres… Le ciel qui tonne à certains endroits (izulu
+          eladuma e-)…</quote>
+          <p xml:id="d1e121">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-srjfaarx">sciences des
+          religions</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-tu296j9f">comparaison</term>
+              </term>
+            </term>Ces
+          débats historiques et philologiques ont des enjeux politiques :
+          parler de formules, renvoyer à <persName ref="030174546" type="idref" xml:base="https://www.idref.fr/">Albert
+          Lord</persName>, en <date type="_temp" when="1960">1960</date>,
+          aurait signifié comparer les Zoulous à un vieux peuple européen,
+          poète et guerrier : les Serbes. Les bardes zoulous n’ont certes rien
+          à envier à ceux des Balkans, mais ce genre de comparaison était
+          banni dans une situation de combat politique où les Européens
+          étaient censés représenter la haute culture. <persName ref="029039274" type="idref" xml:base="https://www.idref.fr/">Colenso</persName>, évêque anglican
+          du <placeName ref="972062" type="geonames" xml:base="https://www.geonames.org/">Natal</placeName>, avait bien
+          comparé les Zoulous aux Grecs, mais il avait failli être excommunié,
+          en raison d’une théologie qui s’appuyait trop sur un relativisme
+          culturel audacieux. Ce travail de collecte a été étendu à d’autres
+          secteurs de la société que ceux des maisons royales ; la poésie
+          orale célèbre toutes sortes d’acteurs sociaux.</p>
+          <p xml:id="d1e123">La question fondamentale est celle de la nature
+          de la poésie orale, tout entière du côté de la mémoire, d’une
+          mémoire héroïque en l’occurrence, mais qui peut migrer d’un
+          personnage à un autre. Les formules sont baladeuses et aujourd’hui
+          <persName ref="029245230" type="idref" xml:base="https://www.idref.fr/">Chaka</persName>, figure des
+          sculptures d’<persName ref="034012435" type="idref" xml:base="https://www.idref.fr/">Ousmane Sow</persName> en <date type="_temp" when="2000">2000</date> sur le pont des Arts à
+          <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, héros de
+          films à grand spectacle en <placeName ref="953987" type="geonames" xml:base="https://www.geonames.org/">Afrique du Sud</placeName>,
+          personnage de roman, référence d’une lutte africaine, est l’aimant
+          qui attire l’éclat des formules, même s’il s’agit d’un texte
+          original en prose, écrit en langue sotho (en sesotho)…</p>
+          <figure xml:id="d1e125">
+            <graphic url="https://didomena.ehess.fr/downloads/0v838127z.jpg"/>
+            <head xml:id="d1e127">Figure 2 – Chaka, roi des Zoulous (extrait
+            de Nathaniel Isaacs, <hi rend="italic">Travels and Aventures in
+            Eastern Africa</hi>, t. 1, 1836)</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e132">
+          <head subtype="level1" xml:id="d1e133">Thomas Mofolo, poète ou
+          écrivain (1876-1948) ?</head>
+          <p xml:id="d1e135">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-9gkicebm">auteur</term>
+              </term>
+            </term>La
+          question du statut du sujet, celle de l’auteur, est essentielle et
+          <persName ref="027032892" type="idref" xml:base="https://www.idref.fr/">Thomas Mofolo</persName>, auteur de
+          <hi rend="italic">Chaka</hi>, la pose avec acuité. Il a composé un
+          roman, c’est-à-dire un discours écrit, en sesotho, sur ce personnage
+          fluide, <persName ref="029245230" type="idref" xml:base="https://www.idref.fr/">Chaka</persName>. Il n’est pas un
+          poète oral, même si dans ses romans il introduit des poèmes
+          d’éloges, transcrits avec précision. Or cette idée simple a du mal à
+          s’imposer, comme si l’ampleur du projet littéraire, cette ampleur
+          épique, submergeait l’auteur : <persName ref="027593797" type="idref" xml:base="https://www.idref.fr/">J.-M. G. Le
+          Clézio</persName> célèbre plus l’épopée (venue du peuple ?…) que le
+          roman, produit par un individu solitaire.</p>
+          <p xml:id="d1e140">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-jbwfvubx">éloge</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-uvsahivj">transcription</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-jbwfvubx">éloge</term>
+              </term>
+            </term>
+            <persName ref="027032892" type="idref" xml:base="https://www.idref.fr/">Mofolo</persName> faisait une
+          grande place à la poésie d’éloges dans son premier roman. Les éloges
+          des vaches étaient des hymnes naturalistes, de magnifiques
+          panégyriques. Dans son roman <hi rend="italic">Chaka</hi>, il innove
+          en transcrivant le chant d’éloge de <persName ref="029245230" type="idref" xml:base="https://www.idref.fr/">Chaka</persName> dans
+          la langue d’origine. Cette situation est étrange. Le texte compte
+          une centaine de lignes et il est donné en zoulou, sans traduction.
+          Le traducteur français ne signale pas que le texte est en zoulou ;
+          en revanche <persName ref="085835110" type="idref" xml:base="https://www.idref.fr/">Daniel Kunene</persName>, dans sa
+          nouvelle traduction anglaise (<date type="_temp" when="1981">1981</date>), mentionne cet étrange emprunt qui fait
+          irruption dans le roman. <persName ref="162081774" type="idref" xml:base="https://www.idref.fr/">Limakatso Chaka</persName>
+          (communication personnelle) a trouvé dans un ouvrage de <persName type="_temp">Magema Fuze</persName> paru en <date type="_temp" when="1925">1925</date> une partie des formules utilisées dans ce
+          texte. <persName ref="027032892" type="idref" xml:base="https://www.idref.fr/">Mofolo</persName> les avait-il
+          notées lors de ses voyages ? A-t-il eu communication directe de
+          <persName type="_temp">Fuze</persName> ? Nous ne pouvons nous
+          prononcer sur la traçabilité de ces éloges, aujourd’hui figés dans
+          les pages du roman. Dans une édition sotho de <date type="_temp" when="1995">1995</date>, qui reprend le texte de <date type="_temp" when="1925">1925</date>, le chant est traduit en sesotho. Ne
+          traduisait-on pas avant l’apartheid ? Aujourd’hui les lecteurs de
+          <hi rend="italic">Chaka </hi>(les lycéens) ne savent-ils plus le
+          zoulou ? <persName ref="027032892" type="idref" xml:base="https://www.idref.fr/">Mofolo</persName> s’est fait
+          collecteur de la tradition orale. Comment interpréter cette présence
+          d’une autre langue ? Le texte crée un effet de distanciation qui
+          vient fort opportunément rappeler que le héros célébré est roi d’un
+          autre peuple, qui l’a chanté et loué dans sa langue.</p>
+          <quote rend="quotation" xml:id="d1e148">
+            <hi rend="italic">Mona re
+          kenya lithoko tsa Morena Chaka, ka Sezulu</hi>
+            <note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Mofolo, 1925, p. 120</p>
+            </note> (Voilà les paroles du chant de louange que l’on chantait
+          en l’honneur du grand souverain <persName ref="029245230" type="idref" xml:base="https://www.idref.fr/">Chaka</persName>…<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Mofolo, 1925, trad. Ellenberger, p. 192</p>
+            </note>).</quote>
+          <p xml:id="d1e159">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-fafetmry">traduction</term>
+              </term>
+            </term>En
+          zoulou, de nombreux volumes ont recueilli les traductions des
+          panégyriques regroupés en plusieurs catégories : les personnalités
+          nationales, comme <persName ref="174610866" type="idref" xml:base="https://www.idref.fr/">Albert Luthuli</persName> ou
+          <persName type="_temp">Mangosothu Buthelezi</persName> – qui joua
+          <persName ref="029245230" type="idref" xml:base="https://www.idref.fr/">Chaka</persName> à l’écran et fut
+          ministre de <persName ref="028570804" type="idref" xml:base="https://www.idref.fr/">Nelson Mandela</persName> – ; les
+          chefs et les lignages importants ; enfin des individus de diverses
+          catégories, des femmes et même des enfants. Comme les <hi rend="italic">oriki </hi>des Yoruba, les <hi rend="italic">izibongo
+          </hi>sont un genre fluide et malléable, occupé à nommer, à
+          identifier, à « donner sens et substance à la personne ou à la chose
+          nommée »<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Gunner, Gwala, 1991, p. 2</p>
+            </note>. La question est celle de sa pratique actuelle, à partir
+          des conditions de sa conservation et de sa transmission.</p>
+          <p xml:id="d1e171">L’exemple de <persName ref="027032892" type="idref" xml:base="https://www.idref.fr/">Mofolo</persName>,
+          dont la contribution n’est pas celle d’un collecteur ou d’un poète,
+          mais celle d’un écrivain, soucieux de la construction d’un récit,
+          montre bien le passage de la fluidité du montage des formules
+          d’éloge à l’organisation de morceaux choisis, dans lesquels le
+          romancier devient une sorte de poète épique, <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> sotho, mais
+          <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> écrivain…</p>
+        </div>
+        <div type="section1" xml:id="d1e173">
+          <head subtype="level1" xml:id="d1e174">Lire Amadou Hampâté Bâ
+          (1901-1991)</head>
+          <p xml:id="d1e176">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-hcnypq2u">oralité</term>
+              </term>
+            </term>
+            <persName ref="028160533" type="idref" xml:base="https://www.idref.fr/">Amadou
+          Hampâté Bâ</persName> est un homme-orchestre et pas seulement une
+          « bibliothèque vivante » : historien, poète, théologien, philosophe,
+          romancier. Il nous étonne par l’étendue de son savoir et surtout par
+          la difficulté à le classer dans une catégorie reçue. Le situer dans
+          le monde de l’entre-deux, de la transition, du passage de l’oral à
+          l’écrit est une piste féconde. Le catalogue de ses manuscrits, comme
+          celui établi par <persName type="_temp">A. I. Sow</persName>
+          en <date type="_temp" when="1970">1970</date>, surprend par le
+          nombre des inédits et la variété des sujets traités. Pendant des
+          décennies, <persName ref="028160533" type="idref" xml:base="https://www.idref.fr/">Amadou Hampâté Bâ</persName> a
+          produit des textes, transcrit, traduit, voire écrit directement en
+          français. Des millions de personnes parlent peul, c’est-à-dire
+          s’expriment dans un des dialectes de cette langue. La langue peule a
+          été beaucoup écrite et consignée dans des manuscrits. Chaque
+          écrivain, nous dit <persName ref="028160533" type="idref" xml:base="https://www.idref.fr/">Hampâté Bâ</persName>, avait sa
+          propre graphie ou presque ; chaque marabout adoptait son propre
+          système d’alphabétisation pour certains phonèmes. « Il en
+          résultait », je cite ici <persName ref="028160533" type="idref" xml:base="https://www.idref.fr/">Hampâté Bâ</persName>, « qu’un
+          compositeur ou un écrivain n’ayant pas son texte bien en tête ne
+          pouvait plus se relire au bout de six mois »<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Bâ, 1972</p>
+            </note>. Situation hautement paradoxale : d’un côté, une vaste
+          communauté linguistique de plusieurs millions de personnes, de
+          l’autre, une absence de standard écrit de référence, d’instrument
+          adéquat pour enregistrer une œuvre littéraire à laquelle on souhaite
+          donner une diffusion qui dépasse le cadre de la région pour
+          atteindre l’ensemble des locuteurs et des alphabétisés potentiels.
+          Notre écrivain peut écrire sa langue, mais personne ne pourra le
+          lire si les écoles n’apprennent pas à décoder la graphie qu’il
+          utilise…</p>
+          <figure xml:id="d1e182">
+            <graphic url="https://didomena.ehess.fr/downloads/3b591921b.jpg"/>
+            <head xml:id="d1e184">Figure 3 – Utimuni, neveu de Chaka.
+            Lithographie de Georges F. Angas, ca. 1840 (coll. Museum Africa,
+            Johannesburg)</head>
+          </figure>
+          <figure xml:id="d1e186">
+            <graphic url="https://didomena.ehess.fr/downloads/m326m245q.jpg"/>
+            <head xml:id="d1e188">Figure 4 – Amadou Hampâté Bâ (collection
+            particulière)</head>
+          </figure>
+          <p xml:id="d1e190">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-5wyh9eft">critique</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-3ryxnaxd">style</term>
+              </term>
+            </term>Il
+          s’établit aussi une ligne de clivage entre, d’une part, le travail
+          de l’écriture scientifique, inscrit dans des instances de
+          légitimation, avec tout son apparat critique et, d’autre part, le
+          travail de l’écriture proprement littéraire, qui garde cependant
+          certains traits de l’écriture scientifique, les notes par exemple
+          dans <hi rend="italic">Wangrin</hi>, ou dans l’autobiographie <hi rend="italic">Amkoullel</hi>. Il s’opère un passage de la mémoire et
+          du savoir au document censément scientifique : dans les deux
+          premiers types de textes, <persName ref="028160533" type="idref" xml:base="https://www.idref.fr/">Hampâté Bâ</persName> est soit un
+          chercheur local dans le cadre de l’ethnographie coloniale, tenu
+          d’authentifier son discours par la présence à ses côtés de
+          chercheurs métropolitains professionnels, soit l’interprète et le
+          véhicule d’une tradition condamnée à devenir objet de musée faute
+          d’un public autre que celui des ethnologues et des linguistes
+          professionnels.</p>
+          <p xml:id="d1e198">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-uk7cwxph">français</term>
+                </term>
+              </term>
+            </term>
+            <persName ref="028160533" type="idref" xml:base="https://www.idref.fr/">A.
+          Hampâté Bâ</persName> va plus loin. Le français ne reste pas
+          uniquement une métalangue scientifique utilisée pour enregistrer et
+          analyser des textes ; il devient la langue dans laquelle peut
+          s’exprimer une vision du monde marquée par l’expérience coloniale.
+          Cette langue est celle de l’expression autobiographique, du récit
+          des aventures d’une personne dans l’histoire de ce siècle. Ce n’est
+          pas en peul qu’il nous livre une telle expérience. Cela ne veut pas
+          dire que l’époque du récit romanesque ne viendra pas en peul, mais
+          simplement qu’il n’existe pas pour le moment de tradition d’écriture
+          de l’expérience personnelle, non lyrique, ni de tradition de
+          l’écriture « scientifique », du fait de l’absence d’instruments de
+          référence appropriés, comme par exemple un dictionnaire
+          unilingue.</p>
+          <p xml:id="d1e200">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-p4k7sokh">fiction</term>
+              </term>
+            </term>Le
+          dernier moment de cette réappropriation de la parole, de la
+          signature en nom propre, dont témoignent à la fois le récit
+          romanesque et la nouvelle édition de l’essai théologique, pourrait
+          être l’utilisation du peul comme langue à la fois de la théorie
+          linguistique, théologique et politique et aussi comme langue
+          d’expression de l’expérience personnelle, sans le recours aux codes
+          de la poésie lyrique. Cette trajectoire tendue vers la reconquête du
+          texte personnel, de la parole individuelle, fait bien d’<persName ref="028160533" type="idref" xml:base="https://www.idref.fr/">Amadou
+          Hampâté Bâ</persName> un écrivain malgré tous les déguisements qu’il
+          a empruntés. Son œuvre s’achève sur une autobiographie, <hi rend="italic">Amkoullel</hi>, pleine de vivacité, comme si, après
+          une vie aussi longue et aussi bien remplie, il fallait ici, à
+          travers le récit de l’enfance, donner une unité à ce corpus de
+          textes qui pourrait paraître disparate : la fiction donne la vérité
+          de la science, en ce qu’elle proclame que l’interprète ne peut
+          qu’être un traître ; à quoi nous pouvons ajouter ceci qu’avait
+          justement compris <persName ref="027123227" type="idref" xml:base="https://www.idref.fr/">Jean-Paul Sartre</persName>, que la
+          littérature commence, ici aussi, avec la trahison.</p>
+          <p xml:id="d1e205">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+            </term>La
+          « tradition » se présente directement à nous, en français. Une
+          pratique courante de l’ethnologie coloniale (de <persName ref="026658240" type="idref" xml:base="https://www.idref.fr/">Boubou
+          Hama</persName>, par exemple, communication personnelle) était de
+          recueillir directement en français les textes oraux des informateurs
+          africains : de multiples arguments justifiaient cette pratique (par
+          exemple l’absence de graphie de la langue, de système cohérent de
+          notation). Étrange évaporation de la parole africaine : le livre
+          vivant est « traduit », livré en une autre langue. Et il y a plus :
+          des écrivains de talent, d’origine africaine, ont cherché à donner
+          les tours de la langue d’origine, à les rendre en français, en somme
+          à donner une couleur locale, quitte à innover, voire à déconcerter,
+          comme le fit <persName ref="030303257" type="idref" xml:base="https://www.idref.fr/">Fily Dabo Sissoko</persName>. C’est
+          ce que j’appelle la traduction subliminale : écrire en français
+          « comme si » le texte était traduit directement<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Ricard, 2011, p. 377-395</p>
+            </note>. Mais est-ce traduit directement ? Non ! Et quand ce le
+          serait, ce n’est pas dit… Ainsi la couleur locale devient la
+          garantie d’authenticité de « bibliothèques vivantes » qui nous
+          transmettraient la tradition africaine… Disons que la chaîne du sens
+          s’est passablement emmêlée !…</p>
+          <p xml:id="d1e211">Ce mouvement passe à travers la langue
+          maternelle. Le français a d’abord été une sorte de métalangage fait
+          pour consigner le savoir dont <persName ref="028160533" type="idref" xml:base="https://www.idref.fr/">A. Hampâté Bâ</persName> était
+          dépositaire ; ensuite il est passé de l’écriture de l’enquête
+          historique à la notation de textes dont il était le rapporteur ;
+          puis il a traduit et annoté ces textes ; enfin il nous les livre
+          directement en français. Il a une conscience aiguë de ce que le
+          recueil de la tradition est une pratique scientifique et qu’il faut
+          à la fois un standard graphique et une langue de référence, tout ce
+          que mon collègue <persName ref="085700681" type="idref" xml:base="https://www.idref.fr/">Marcel Diki-Kidiri</persName> nomma
+          naguère fort à propos une « double distanciation ». Il pratique
+          alors avec sa langue une sorte de « ventriloquie scientifique »,
+          analogue à celle de <persName ref="030522080" type="idref" xml:base="https://www.idref.fr/">Wande Abimbola</persName> avec le
+          corpus des textes sacrés yorouba, le <hi rend="italic">fa</hi> ; le
+          chercheur est « déjà » le dépositaire des textes qu’il produit, mais
+          il ne les signe pas ; il les assigne à la tradition. Il
+          s’autoproclame maillon de la tradition et, fort de cette dignité,
+          s’autorise à mettre par écrit le texte… À cet égard, le travail de
+          <persName ref="067050522" type="idref" xml:base="https://www.idref.fr/">William Bascom</persName> et de
+          <persName ref="027018539" type="idref" xml:base="https://www.idref.fr/">Bernard Maupoil</persName>,
+          anthropologues, qui ont recueilli par écrit et analysé le corpus du
+          <hi rend="italic">fa </hi>est une référence dont le statut a
+          changé : aujourd’hui le succès de la religion yoruba et en
+          particulier des pratiques de divination liées au <hi rend="italic">fa </hi>fait de ces auteurs des références utiles. De
+          plus, comme le remarquait <persName ref="028413075" type="idref" xml:base="https://www.idref.fr/">Abiola Irele</persName>, professeur
+          à l’université d’<placeName ref="2339352" type="geonames" xml:base="https://www.geonames.org/">Ibadan</placeName>, en <date type="_temp" when="1981">1981</date> dans sa leçon inaugurale, <hi rend="italic">Éloge de l’aliénation</hi>, <persName ref="067050522" type="idref" xml:base="https://www.idref.fr/">William
+          Bascom</persName> nous donne les textes et le mode d’emploi, ce qui
+          est sans doute utile pour les nouveaux babalawo…</p>
+          <figure xml:id="d1e225">
+            <graphic url="https://didomena.ehess.fr/downloads/s7526d31k.jpg"/>
+            <head xml:id="d1e227">Figure 5 – Guerriers zoulous de l’armée du
+            roi Umpanda. Lithographie de Georges F. Angas, ca. 1840 (coll.
+            Museum Africa, Johannesburg)</head>
+          </figure>
+          <p xml:id="d1e229">Étrange fondu enchaîné, recadrage, qui nie le
+          travail de mise en forme propre à l’écriture, le jeu des effets
+          visuels et phoniques, et qui surtout évite la question gênante de la
+          traduction, en tant que traduction et non en tant que processus
+          « merveilleux » qui donne la parole africaine en français, dans une
+          transparence trompeuse.</p>
+          <p xml:id="d1e232">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-w2ckzlem">anthropologie</term>
+                </term>
+              </term>
+            </term>Ainsi,
+          on peut trouver dans une thèse d’anthropologie sur les Mandingues,
+          au jury de laquelle je participais voici quelques années, un
+          chapitre entier consacré à <persName ref="02833888X" type="idref" xml:base="https://www.idref.fr/">Ahmadou Kourouma</persName>,
+          porteur « francophone » de cette tradition… Ce mouvement s’observe
+          dans une œuvre, originale et dérangeante, qui déplace les termes du
+          débat et qui est celle de <persName ref="026763540" type="idref" xml:base="https://www.idref.fr/">Sory Camara</persName>, qui fut
+          longtemps le seul professeur d’anthropologie venu d’Afrique
+          subsaharienne dans une université française. Son œuvre est une
+          remarquable – et troublante ! – construction littéraire en français
+          à partir de la parole mandingue, dont il se constitue un interprète
+          avisé, du fait de ses nombreuses missions de terrain et de son
+          travail de collecte orale.</p>
+        </div>
+        <div type="section1" xml:id="d1e234">
+          <head subtype="level1" xml:id="d1e235">Écouter et lire Sory Camara
+          (1940-…)</head>
+          <p xml:id="d1e237">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-hcnypq2u">oralité</term>
+              </term>
+            </term>Après une
+          conférence de <persName ref="026763540" type="idref" xml:base="https://www.idref.fr/">Sory Camara</persName>, au Salon du
+          livre de <placeName ref="6455058" type="geonames" xml:base="https://www.geonames.org/">Bordeaux</placeName>, en <date type="_temp" when="2002">2002</date>, un collègue, éminent
+          spécialiste de la question de l’oralité, <persName ref="027167143" type="idref" xml:base="https://www.idref.fr/">Henry
+          Tourneux</persName>, a eu ce mot : c’est <persName ref="028160533" type="idref" xml:base="https://www.idref.fr/">Hampâté Bâ</persName>…
+          C’était un compliment, mais aussi une réflexion épistémologique. Je
+          n’avais pas pensé à <persName ref="026763540" type="idref" xml:base="https://www.idref.fr/">Sory</persName> en ces termes et
+          pourtant je le connaissais depuis longtemps, je travaillais avec
+          lui : il enseignait l’anthropologie de l’oralité, et moi celle du
+          passage de l’oral à l’écrit. Cela a duré une bonne dizaine d’années
+          et nous avons eu beaucoup d’étudiants. Pendant des années mon cours
+          suivait le sien, et j’ai pu apprécier combien son enseignement oral
+          était celui d’un « maître de la parole ». Mais il est aussi
+          écrivain, auteur de l’ouvrage de référence sur les griots, <hi rend="italic">Gens de la parole </hi>(1975, nouvelle édition 1992),
+          livre qui a obtenu le Grand prix littéraire de l’Afrique noire
+          en <date type="_temp" when="1976">1976</date>. Ce fait devrait déjà
+          nous interroger : un ouvrage scientifique, publié chez Mouton,
+          naguère la référence des éditeurs scientifiques, recevant un prix
+          « littéraire » : étrange…</p>
+          <p xml:id="d1e242">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-vdg9xj5e">pratique
+          rituelle</term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-gz4vv9sc">théâtre</term>
+              </term>
+            </term>Le point
+          de départ de nos entretiens a été le petit livre que j’ai publié
+          en <date type="_temp" when="1987">1987</date>, <hi rend="italic">L’Invention du théâtre</hi>. J’en avais offert un
+          exemplaire à <persName ref="026763540" type="idref" xml:base="https://www.idref.fr/">Sory</persName> qui l’a lu, bien
+          lu, et s’est senti provoqué à répondre. Le livre était écrit contre
+          ceux qui veulent voir dans les rites et les liturgies africaines des
+          formes de théâtre et ainsi empêchent de voir la vraie originalité de
+          la nouvelle littérature théâtrale africaine ; il me semblait au
+          contraire qu’il fallait indiquer en quoi le théâtre était une
+          pratique artistique spécifique, et montrer qu’il y avait eu en
+          Afrique aussi une invention du théâtre, mais seulement dans
+          certaines sociétés. Si <persName ref="026763540" type="idref" xml:base="https://www.idref.fr/">Sory</persName> était prêt à me
+          concéder ces points, il n’était en revanche pas d’accord avec ma
+          conception des rites et des liturgies, et ce qu’il considérait, sans
+          l’exprimer aussi nettement, comme une conception réductrice de
+          l’univers rituel. La réflexion de <persName ref="026763540" type="idref" xml:base="https://www.idref.fr/">Sory</persName> est
+          nourrie par un monde, celui des siens, les Mandenka. Ils sont les
+          héritiers de l’empire du <placeName ref="2453866" type="geonames" xml:base="https://www.geonames.org/">Mali</placeName> fondé au <date from="1200" to="1299" type="_temp">13<hi rend="sup">e</hi> siècle</date> par <persName ref="030400325" type="idref" xml:base="https://www.idref.fr/">Soundiata
+          Keita</persName>. Leur langue, sous diverses formes (bambara, dyula,
+          etc.), est parlée au <placeName ref="2453866" type="geonames" xml:base="https://www.geonames.org/">Mali</placeName>, en <placeName ref="2420477" type="geonames" xml:base="https://www.geonames.org/">Guinée</placeName>, en
+          <placeName ref="2287781" type="geonames" xml:base="https://www.geonames.org/">Côte-d’Ivoire</placeName> et
+          dans les pays voisins. La traduction et l’interprétation de la
+          tradition mandingue sont au coeur de son travail, de <hi rend="italic">Paroles très anciennes </hi>(1982) à <hi rend="italic">Vergers de l’aube </hi>(2001) où il écrit, page 10 :
+          « Je vais tenter de m’acquitter de ma dette de parole en préservant
+          le pagne du secret… »</p>
+          <p xml:id="d1e256">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+              </term>
+            </term>
+            <persName ref="026763540" type="idref" xml:base="https://www.idref.fr/">Sory</persName> a voulu mener le
+          dialogue, conscient qu’un approfondissement de nos diverses
+          perspectives révèlerait leur foyer originel commun, entre gens de la
+          parole et gens de la scène. Mais ce faisant, il se constitue
+          lui-même, et c’est ainsi que je comprends la remarque d’<persName ref="027167143" type="idref" xml:base="https://www.idref.fr/">Henry
+          Tourneux</persName>, en bibliothèque vivante, ou pour mieux dire :
+          en archive vivante de la parole mandingue… La parole « narrative »
+          fait de l’absence une présence ; elle appelle les choses virtuelles
+          à l’existence, rappelle les êtres absents à la souvenance, pour
+          reprendre les termes mêmes de <persName ref="026763540" type="idref" xml:base="https://www.idref.fr/">Sory</persName>.</p>
+          <p xml:id="d1e258">Celui-ci insiste à juste titre sur la notion de
+          temps, distingue la parole de l’image, le discours de la danse. Deux
+          règles régissent la pensée mandenka pour lui : le narrateur ne
+          détournera pas son regard de la contemplation intérieure, de
+          « l’intériorisation de la vision », et donc ne laissera place à
+          aucun geste ; le danseur, lui, ne parlera pas.</p>
+          <p xml:id="d1e260">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-gz4vv9sc">théâtre</term>
+              </term>
+            </term>À
+          l’inverse, ce que nous appelons théâtre fonctionne précisément à
+          partir de la conjugaison de la parole et de l’image. Notre vision
+          est donnée face à nous ; elle n’est pas d’abord intérieure, même si
+          tel est bien, en fin de compte, le propos du dramaturge. Il ne
+          parviendra au « grain de vision » que par la représentation, voire
+          le symbole, en tout cas par la matérialité de l’image. Tel est bien
+          en effet le propre du théâtre que de produire des images
+          matérielles ; mais la page est aussi une telle image. Toute culture
+          produit des signes et inscrit son existence sociale sur les objets,
+          elle a une écriture. L’accent peut être mis sur le caractère
+          dynamique de cette activité créatrice, ou au contraire sur les
+          résultats concrets de cette pratique. Dans le premier cas,
+          l’activité tout intérieure est d’abord de mémoire, de création
+          perpétuelle, alors que dans le second la matière est utilisée pour
+          conserver et faire circuler les signes de cette création. À la
+          mémorisation s’oppose alors la matérialisation ; la première
+          manipule du discours, c’est-à-dire du temps ; la seconde utilise des
+          signes, des objets, c’est-à-dire de l’espace. Une création fondée
+          sur la seconde est évidemment dépendante de son support et une
+          culture qui dispose des moyens économiques d’enregistrement visuel
+          de la parole aura tendance à accentuer la dimension spatiale, donc
+          visuelle, des signes qu’elle produit.</p>
+          <p xml:id="d1e262">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-uw9mnivd">chant</term>
+              </term>
+            </term>La parole
+          est bien un monde, et son usage une institution. Peut-on inviter des
+          bibliothèques vivantes à venir s’exprimer dans le cadre de nos
+          bibliothèques, et penser que nous avons accès à des témoignages,
+          voire à une connaissance ? L’immédiateté de notre rencontre est-elle
+          garantie de transparence, ou plutôt d’accès à une vérité de la
+          relation qui ne pourrait s’atteindre que par ce moyen ? Je ne le
+          sais mais, comme j’ai essayé de le montrer, nous rêvons de cet accès
+          direct, nous voudrions rencontrer des Homères dans nos parages,
+          comme <persName ref="026770059" type="idref" xml:base="https://www.idref.fr/">Casalis</persName> en a rencontré
+          dans les montagnes du <placeName ref="932692" type="geonames" xml:base="https://www.geonames.org/">Lesotho</placeName> vers <date type="_temp" when="1836">1836</date>. Ces chants anciens subsistent
+          dans les mémoires, d’autres histoires y existent aussi : celles des
+          guerres d’aujourd’hui, de ce qui n’est pas raconté, parce que
+          souvent trop difficile à raconter. Et c’est bien là le problème :
+          comment imaginer que cela pourra se dire dans notre langue, dans nos
+          mots ? Comment ne pas voir qu’il a fallu un demi-siècle à <persName ref="028160533" type="idref" xml:base="https://www.idref.fr/">Amadou
+          Hampâté Bâ</persName>, lettré musulman, écrivain fin lettré,
+          linguiste, diplomate devenu ambassadeur, pour finalement être
+          entendu ? <persName ref="026763540" type="idref" xml:base="https://www.idref.fr/">Sory Camara</persName> poursuit le
+          même chemin : l’Afrique de la tradition nous propose, selon lui, des
+          guides de sagesse individuelle. Que faire des multiples paroles et
+          des multiples chants que nous ne pouvons entendre, faute de les
+          traduire, faute de savoir écouter ce qu’ils nous disent ?</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e265">
+        <head xml:id="d1e266">BIBLIOGRAPHIE</head>
+        <bibl xml:id="d1e268">Abimbola, Wande, <hi rend="italic">Ifa, An
+        Exposition of Ifa Literary</hi>
+          <hi rend="italic">Corpus</hi>. Ibadan :
+        Oxford University press, 1976</bibl>
+        <bibl xml:id="d1e276">Bâ, Amadou Hampâté, <hi rend="italic">Aspects de
+        la civilisation</hi>
+          <hi rend="italic">africaine</hi>. Paris : Présence
+        Africaine, 1972</bibl>
+        <bibl xml:id="d1e284">Bâ, Amadou Hampâté, <hi rend="italic">L’étrange
+        destin de Wangrin</hi>. Paris : UGE, 1973</bibl>
+        <bibl xml:id="d1e289">Bâ, Amadou Hampâté, <hi rend="italic">Jésus vu
+        par un Musulman</hi>. Abidjan/Dakar : Nouvelles éditions africaines,
+        1976</bibl>
+        <bibl xml:id="d1e294">Bâ, Amadou Hampâté, <hi rend="italic">Kaydara</hi>. Abidjan/Dakar : Nouvelles éditions
+        africaines, 1978</bibl>
+        <bibl xml:id="d1e299">Bâ, Amadou Hampâté, <hi rend="italic">Vie et
+        enseignement de Tierno</hi>
+          <hi rend="italic">Bokar</hi>, <hi rend="italic">le sage de Bandiagara</hi>. Paris : Le Seuil,
+        1980</bibl>
+        <bibl xml:id="d1e310">Bâ, Amadou Hampâté, <hi rend="italic">Njeddo
+        Dewal</hi>, <hi rend="italic">mère de la</hi>
+          <hi rend="italic">calamité</hi>, <hi rend="italic">conte initiatique
+        peul</hi>. Abidjan/Dakar/Lomé : Nouvelles éditions africaines,
+        1985</bibl>
+        <bibl xml:id="d1e324">Bâ, Amadou Hampâté, <hi rend="italic">Amkoullel</hi>, <hi rend="italic">l’enfant peul</hi>,
+        <hi rend="italic">mémoires</hi>. Arles : Actes Sud, 1991</bibl>
+        <bibl xml:id="d1e335">Bâ, Amadou Hampâté et Cardaire, Marcel, <hi rend="italic">Tierno</hi>
+          <hi rend="italic">Bokar</hi>, <hi rend="italic">le sage de Bandiagara</hi>. Paris : Présence africaine,
+        1957</bibl>
+        <bibl xml:id="d1e346">Bâ, Amadou Hampâté et Daget, Jacques, <hi rend="italic">L’Empire</hi>
+          <hi rend="italic">peul du Macina</hi>.
+        Paris/La Haye : Mouton, 1962-1965</bibl>
+        <bibl xml:id="d1e355">Bâ, Amadou Hampâté et Dieterlen, Germaine, <hi rend="italic">Koumen</hi>, <hi rend="italic">texte initiatique des
+        pasteurs peuls</hi>. Paris/La Haye : Mouton, 1961</bibl>
+        <bibl xml:id="d1e363">Bâ, Amadou Hampâté et Kesteloot, Lilyan (éd.),
+        <hi rend="italic">Kaïdara</hi>, <hi rend="italic">récit initiatique
+        peul</hi>. Paris : Julliard (Les Classiques africains), 1968</bibl>
+        <bibl xml:id="d1e371">Bascom, William, <hi rend="italic">Ifa
+        Divination, communication</hi>
+          <hi rend="italic">between Gods and Men
+        in West Africa</hi>. Bloomington/Londres : Indiana University press,
+        1969</bibl>
+        <bibl xml:id="d1e379">Camara, Sory, <hi rend="italic">Gens de la
+        parole</hi>. La Haye/Paris : Mouton, 1975 (1992, Karthala)</bibl>
+        <bibl xml:id="d1e384">Camara, Sory, <hi rend="italic">Paroles très
+        anciennes. </hi>Grenoble : La Pensée sauvage, 1982</bibl>
+        <bibl xml:id="d1e389">Camara, Sory, <hi rend="italic">Les Vergers de
+        l’aube</hi>. Bordeaux : Confluences, 2001</bibl>
+        <bibl xml:id="d1e394">Casalis, Eugène, <hi rend="italic">Études sur la
+        langue séchuana</hi>, <hi rend="italic">précédées d’une introduction
+        sur l’origine et les progrès de la mission chez les Bassoutos</hi>.
+        Paris : Imprimerie royale, 1841</bibl>
+        <bibl xml:id="d1e402">Cope, Trevor, <hi rend="italic">Izibongo</hi>,
+        <hi rend="italic">Zulu Praise Poems</hi>. Oxford : Oxford University
+        press/Oxford Library of African literature, 1968, 2e éd. avec une
+        note, UNISA, 1988</bibl>
+        <bibl xml:id="d1e410">Coplan, David, <hi rend="italic">In the Time of
+        Cannibals</hi>. Chicago : University of Chicago press, 1994</bibl>
+        <bibl xml:id="d1e415">Gunner, Elizabeth et Gwala, Mafika (éd. et trad.
+        par), <hi rend="italic">Musho, Zulu Popular Praises</hi>. East
+        Lansing : Michigan State University press, 1991</bibl>
+        <bibl xml:id="d1e420">Fuze, Magema, <hi rend="italic">The Black People
+        and Whence They</hi>
+          <hi rend="italic">Came</hi>, Cope, Trevor (éd.),
+        trad. du zoulou par H. C. Lugg. Pietermaritzburg/Durban : University
+        of Natal press/Killie Campbell Africana Library, 1979 (1922)</bibl>
+        <bibl xml:id="d1e429">Fynn, Henry Francis, <hi rend="italic">The Diary
+        of Henry Francis Fynn</hi>. Petermaritzberg : Shuter and Shooter,
+        1986 ; trad. fr. <hi rend="italic">Chaka roi des Zoulous</hi>.
+        Toulouse : Anacharsis éditions, 2004</bibl>
+        <bibl xml:id="d1e437">Illich, Ivan, <hi rend="italic">Du lisible au
+        visible, la naissance du texte,</hi>
+          <hi rend="italic">un commentaire
+        du </hi>Didascalicon <hi rend="italic">de Hughes de Saint-Victor</hi>.
+        Paris : Éditions du Cerf, 1991</bibl>
+        <bibl xml:id="d1e448">Irele, Abiola, « Éloge de l’aliénation », in <hi rend="italic">Notre</hi>
+          <hi rend="italic">Librairie</hi>, 98, 1989,
+        p. 46-58</bibl>
+        <bibl xml:id="d1e456">Jordan, Archibald Campbell, <hi rend="italic">Towards an African</hi>
+          <hi rend="italic">Literature</hi>, <hi rend="italic">the Emergence of
+        Literary Form in Xhosa</hi>. Berkeley/Los Angeles : University of
+        California press, 1973</bibl>
+        <bibl xml:id="d1e467">Mandela, Nelson, <hi rend="italic">Long Walk to
+        Freedom. </hi>Londres : Abacus, 1994</bibl>
+        <bibl xml:id="d1e472">Maupoil, Bernard, <hi rend="italic">La Géomancie
+        à l’ancienne Côte</hi>
+          <hi rend="italic">des Esclaves</hi>. Paris :
+        Travaux et mémoires de l’Institut d’ethnologie, 1943</bibl>
+        <bibl xml:id="d1e480">Meschonnic, Henri, <hi rend="italic">Critique du
+        rythme, anthropologie</hi>
+          <hi rend="italic">historique du
+        langage</hi>. Lagrasse : Verdier, 1982</bibl>
+        <bibl xml:id="d1e488">Mofolo, Thomas, <hi rend="italic">Moeti oa
+        Bochabela</hi>. Morija : Morija Sesuto Book Depot, 1907. Trad. fr. par
+        V. Ellenberger, <hi rend="italic">L’homme qui marchait vers le soleil
+        levant</hi>. Bordeaux : Confluences, 2003</bibl>
+        <bibl xml:id="d1e496">Mofolo, Thomas, <hi rend="italic">Pitseng</hi>.
+        Morija : Morija Sesuto Book Depot, 1910, trad. R. Leenhardt revue par
+        V. et P. Ellenberger, <hi rend="italic">Pitseng</hi>, <hi rend="italic">l’heureuse vallée</hi>, ms.</bibl>
+        <bibl xml:id="d1e507">Mofolo, Thomas, <hi rend="italic">Chaka</hi>.
+        Morija : Morija Sesuto Book Depot, 1925. Trad. anglaise F. H. Dutton,
+        <hi rend="italic">Chaka</hi>, <hi rend="italic">an Historical
+        Romance</hi>. Londres : International African Institute/Oxford
+        University press, 1931. Trad. fr. V. Ellenberger, <hi rend="italic">Chaka</hi>, <hi rend="italic">une épopée bantoue.
+        </hi>Paris : Gallimard, 1940 (nouvelle édition en 1981 avec une
+        préface de J.-M. G. Le Clézio). Trad. anglaise D. Kunene, <hi rend="italic">Chaka</hi>, <hi rend="italic">a New Translation</hi>.
+        Londres : Heinemann, 1981. Trad. afrikaans C. Swanepoel, <hi rend="italic">Tjhaka</hi>. Elsiesrivier : Tafelberg, 1974</bibl>
+        <bibl xml:id="d1e534">Ricard, Alain, <hi rend="italic">Le Sable de
+        Babel, traduction et apartheid</hi>. Paris : CNRS éditions,
+        2011</bibl>
+        <bibl xml:id="d1e540">Rycroft, David et Ngcobo, A. B. (éd.), <hi rend="italic">The Praises of Dingana :</hi>
+          <hi rend="italic">Izibongo
+        zika Dingana</hi>. Durban/Pietermaritzburg : Killie Campbell Africana
+        Library/University of Natal press, 1988</bibl>
+        <bibl xml:id="d1e548">Valéry, Paul, <hi rend="italic">Première leçon
+        du cours de poétique. Variétés V</hi>. Paris : Gallimard, 1944</bibl>
+      </div>
+    </back>
+  </text>
+</TEI>

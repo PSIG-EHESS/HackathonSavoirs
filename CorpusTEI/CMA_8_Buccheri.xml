@@ -1,0 +1,1621 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:marcrel="http://www.loc.gov/loc.terms/relators" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-13T16:13:21.845+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="CMA_8_Buccheri">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Deiknūnai tēn phūsin : valider l’identité filiale
+        dans le Philoctète de Sophocle</title>
+        <title type="alt" xml:lang="en">Deiknūnai tēn phūsin: validating
+        filial identity in Sophocles’ Philoctetes</title>
+        <author role="aut">
+          <forename>Alessandro</forename>
+          <surname>Buccheri</surname>
+          <affiliation>ANHIMA – UMR 8210</affiliation>
+          <idno type="IDREF">230065759</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Seconde édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/2.0/fr/">Cahiers
+          mondes anciens BY-NC-ND Attribution - Pas d’Utilisation Commerciale
+          - Pas de Modification</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/VJ4GU2LZ" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Deiknūnai tēn phūsin : valider l’identité filiale
+            dans le Philoctète de Sophocle</title>
+            <idno type="DOI">https://doi.org/10.4000/mondesanciens.1671</idno>
+            <author>
+              <forename>Alessandro</forename>
+              <surname>Buccheri</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Cahiers « Mondes anciens ». Histoire et
+            anthropologie des mondes anciens</title>
+            <idno type="ISSN">2107-0199</idno>
+            <editor>
+              <forename>Élise</forename>
+              <surname>Lehoux</surname>
+            </editor>
+            <editor>
+              <forename>Nicolas</forename>
+              <surname>Siron</surname>
+            </editor>
+            <imprint>
+              <biblScope unit="volume">Montrer, démontrer</biblScope>
+              <biblScope unit="issue">8</biblScope>
+              <date>2016</date>
+              <note type="accessed">2020-04-01T11:52:00Z</note>
+              <note type="url">https://journals.openedition.org/mondesanciens/1671</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+        <language ident="grc"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item/>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item/>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-amozg2da">démonstration</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d'interaction<term ref="doi:10.34817/sv-raoluwcf">conflit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-hslaywqp">légitimation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-j8wact6u">preuve</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-k9wtnbmg">autorité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique
+          corporelle<term ref="doi:10.34817/sv-mwsdfb7t">perception<term ref="doi:10.34817/sv-fwsea2pm">vision</term>
+              </term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+          </term>
+          <term>
+            <placeName ref="298885" type="geonames" xml:base="https://www.geonames.org/">Troie</placeName>
+          </term>
+          <term>
+            <placeName ref="258293" type="geonames" xml:base="https://www.geonames.org/">Lemnos</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="-1200">-1200 av JC</date>
+          </term>
+          <term>
+            <date>- 409 av Jc</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2016-04-05T11:05:00" who="Centre Louis Gernet">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">
+            <hi rend="italic">Deiknūnai tēn phūsin </hi>:
+          valider l’identité filiale dans le <hi rend="italic">Philoctète</hi>
+          de Sophocle</titlePart>
+          <titlePart type="alt" xml:lang="en">
+            <hi rend="italic">Deiknūnai tēn
+          phūsin</hi>: validating filial identity in Sophocles’ <hi rend="italic">Philoctetes</hi>
+          </titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Alessandro Buccheri</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">Lorsque, dans le <hi rend="italic" style="typo_Italique">Philoctète</hi> de Sophocle, Néoptolème restitue
+        à Philoctète l’arc qu’il lui avait soustrait auparavant, Philoctète
+        certifie la continuité, sur le plan des valeurs, entre Achille et
+        Néoptolème : « J’en conviens, fils, tu nous a montré (edeixas) la <hi rend="italic" style="typo_Italique">phusis</hi> à partir de laquelle
+        tu as bourgeonné » (v. 1310-1311). Le personnage de Néoptolème s’avère
+        être construit autour d’un modèle culturel répandu en Grèce
+        ancienne (le fils doit être la réplique du père). Les modalités par
+        lesquelles Philoctète reconnaît et certifie la ressemblance entre
+        Néoptolème et Achille répondent à un schéma commun à d’autres récits
+        où l’identité filiale d’un héros est mise à l’épreuve et demande à
+        être validée par un tiers dans un contexte spécifique. L’étude
+        sémantique de l’expression <hi rend="italic" style="typo_Italique">ten
+        phusin d’edeixas </hi>suggère enfin l’impossibilité de départager,
+        dans ce cas, la notion de monstration directe et celle de
+        démonstration : <hi rend="italic" style="typo_Italique">phusis</hi>
+        indique à la fois un caractère moral, un lien généalogique et un
+        aspect visible.</p>
+        <p xml:lang="eng">When, in Sophocles’ <hi rend="italic" style="typo_Italique">Philoctetes</hi>, Neoptolemus returns
+        Philoctetes’ bow, which he had previously stolen, to him, Philoctetes
+        testifies to the sameness of Neoptolemus’ and Achilles’ moral
+        standards: “I agree, son: you showed (<hi rend="italic" style="typo_Italique">edeixas</hi>) the <hi rend="italic" style="typo_Italique">phusis</hi> from which you sprang” (1310-11).
+        The character of Neoptolemus is in fact built upon a cultural model
+        widespread in ancient Greek texts (a son is expected to resemble his
+        father to the utmost degree); the way in which Philoctetes confirms
+        the resemblance between Neoptolemus and Achilles fits into a schema
+        shared by other narratives: they center on the necessity for a hero to
+        prove his filial identity, which usually requires the validation of an
+        external judge in a precise setting. The semantic analysis of the
+        expression <hi rend="italic" style="typo_Italique">ten phusin d’
+        edeixas </hi>suggests that we should not differentiate, in this case,
+        between the idea of “showing” and that of “demonstrating”: <hi rend="italic" style="typo_Italique">phusis </hi>refers, at once, to a
+        moral character, a genealogical tie and a visible aspect.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="d1e186">
+        <p xml:id="d1e188">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-c5uj8lvn">modèle</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités
+        personnelles</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-amozg2da">démonstration</term>
+            </term>
+          </term>Le
+        rapport de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> au modèle de
+        vertu héroïque incarné par son père <persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> est
+        problématisé tout au long du <hi rend="italic">Philoctète </hi>de
+        <persName ref="027143619" type="idref" xml:base="https://www.idref.fr/">Sophocle</persName>, jusqu’au moment
+        où <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> affirme, une
+        fois pour toutes : <foreign xml:lang="grc">τὴν φύσιν δ'
+        ἔδειξας</foreign>, que l’on peut traduire provisoirement par « tu as
+        montré ton hérédité morale » – celle d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>, bien
+        entendu<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Nous ne traduirons pas le mot φύσις dans la suite de ce texte.
+            Un tel choix nous évitera d’estomper les contours de la riche
+            polysémie de ce mot par la superposition forcée d’un équivalent
+            moderne.</p>
+          </note>. Il s’agira ici d’explorer cet acte de validation de
+        l’identité filiale de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> accompli par
+        <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>, notamment à
+        travers l’étude des modèles culturels qu’il implique. D’abord, nous
+        situerons la séquence qui nous intéresse dans le développement du
+        drame et par rapport aux thèmes qui en modèlent la structure, en
+        particulier le thème du lien entre mots et actes, et celui de la
+        relation de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> au modèle
+        achiléen. Ensuite, nous analyserons la manière dont le mot <foreign xml:lang="grc">φύσις</foreign> est employé dans la construction de
+        l’opposition entre l’héritage paternel de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> et
+        les enseignements qu’il reçoit d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>,
+        opposition qui s’inscrit dans la lignée d’un modèle culturel – dont
+        nous retrouvons les traces dans plusieurs textes anciens – qui
+        présuppose et valorise la ressemblance entre pères et fils. À cette
+        fin, nous étudierons trois scènes centrées autour du débat sur la
+        <foreign xml:lang="grc">φύσις</foreign> de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> et
+        du vol/restitution de l’arc, qui constituent un parcours culminant
+        dans les vers 1308-1313. En outre, nous analyserons les unités qui
+        composent l’acte de validation – situation, agents, critères – et
+        mettrons en lumière d’un côté le lien qu’il entretient avec le thème
+        récurrent problématisant le rapport entre mots et actes et, de
+        l’autre, le fait qu’il est bâti à partir d’un modèle culturel
+        d’« épreuves de filiation juste » également répandu en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> ancienne.
+        Enfin, nous proposerons une analyse sémantique de l’expression
+        <foreign xml:lang="grc">τὴν φύσιν δ' ἔδειξας</foreign>, en argumentant
+        qu’il est nécessaire d’en garder la polysémie, sans imposer au texte
+        une partition entre monstration et démonstration, en d’autres mots,
+        sans réduire le verbe δείκνυμι à la seule expression métaphorique d’un
+        procédé d’ordre intellectuel.</p>
+        <div type="section1" xml:id="d1e203">
+          <head subtype="level1" xml:id="d1e205">En guise d’introduction : au
+          cœur du drame</head>
+          <p xml:id="d1e208">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-eryypuc6">expédition</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-mwscptqe">guerre</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-sujg5pnw">devin</term>
+              </term>
+            </term>Le <hi rend="italic">Philoctète </hi>de <persName ref="027143619" type="idref" xml:base="https://www.idref.fr/">Sophocle</persName>
+          met en scène un épisode lié à la fin de la guerre de <placeName ref="298885" type="geonames" xml:base="https://www.geonames.org/">Troie</placeName>
+            <note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>Pour les mises en discours plus anciennes, épiques et
+              tragiques, des faits concernant l’abandon de Philoctète à Lemnos
+              et sa réintégration au sein de l’armée grecque, voir maintenant
+              Brillante 2009, p. 60-67 (avec références). L’ouvrage d’Andreas
+              Schnebele (1988) est consacré à cette question. Néoptolème ne
+              figurait pas parmi les héros chargés de récupérer Philoctète
+              dans les récits antérieurs à Sophocle que nous connaissons.</p>
+            </note>. L’action se déroule sur l’île de <placeName ref="258293" type="geonames" xml:base="https://www.geonames.org/">Lemnos</placeName>, imaginée
+          comme un lieu désert. Le héros grec <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>
+          y a été abandonné lors de l’expédition achéenne qui avait ouvert le
+          conflit, dix ans auparavant. Mordu par un serpent sur l’île de
+          Chrysé, <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> est blessé.
+          Depuis, sa plaie ne se referme pas, il en émane une odeur terrible.
+          Les Achéens donc, et notamment <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>,
+          l’abandonnent, seul et malade, à <placeName ref="258293" type="geonames" xml:base="https://www.geonames.org/">Lemnos</placeName>. Dix ans
+          plus tard, la situation a changé. Le devin <persName type="_temp">Hélénos</persName> apprend à l’armée grecque que jamais
+          les Grecs ne pourront conquérir <placeName ref="298885" type="geonames" xml:base="https://www.geonames.org/">Troie</placeName> sans
+          <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> et son arc,
+          l’arme que le héros a reçue des mains d’<persName ref="027575055" type="idref" xml:base="https://www.idref.fr/">Héraclès</persName>.
+          Il est nécessaire aussi que <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName>, le fils
+          d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> (qui est mort
+          entre-temps), participe à la guerre. <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> et
+          <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> se rendent
+          donc à <placeName ref="_temp">Lemnos</placeName>, pour récupérer
+          <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> et son arme.
+          Plus précisément, <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> charge <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> de gagner la
+          confiance de <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> et de lui
+          soustraire l’arc<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Ulysse, au début du drame, ne fait pas de référence directe à
+              la prophétie ; elle n’est citée explicitement pour la première
+              fois qu’aux vers 603-619, par le personnage du « faux
+              marchand », dans des circonstances qui jettent une ombre de
+              soupçon sur sa précision et véridicité (Pucci 2003, p. 232-234
+              avec références). Jusqu’à la conclusion du drame, l’auditoire ne
+              peut pas savoir avec précision si Hélénos avait enjoint de
+              reconduire à Troie Philoctète et son arc – ce qui devait aussi
+              être volontaire de la part du héros ! (voir, par ex. : v.
+              610-613, 839-842, 1329-1335) – ou tout simplement de récupérer
+              l’arc (qui pourra par la suite être manœuvré par un autre
+              guerrier, voir par ex. les vers 68-69, 77-78, 113-115,
+              1054-1060). L’ambiguïté est voulue (Easterling 1978, p. 27-30) :
+              des morceaux d’information sont dévoilés à différents moments,
+              de telle sorte que les spectateurs doivent toujours supposer ce
+              que chaque personnage connaît et ce qui donc, motive ses
+              actions. Le vol de l’arc était en tout cas rendu indispensable.
+              Il n’aurait pas été possible de convaincre Philoctète, ni de le
+              vaincre au combat : le priver de son seul moyen de survie et de
+              combat aurait obligé le héros à réintégrer l’armée achéenne
+              (Kamerbeek 1980). La question de la prophétie, qui est le
+              ressort de l’action dramatique, est centrale et a été longuement
+              discutée par tous les interprètes : par souci de brièveté, nous
+              renvoyons au travail de Tamara Visser (1998), entièrement dédié
+              à ce problème, et à la bibliographie qui s’y trouve ; voir
+              aussi, plus récemment, les considérations de Carlo Brillante
+              (2009, p. 69-74).</p>
+            </note>. Le jeune homme est d’abord réticent : il ne veut pas
+          accomplir des actions qu’il juge déjà douloureuses à entendre. S’il
+          préférerait agir, se battre avec <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>,
+          plutôt que le séduire par des discours, il accomplit pourtant le
+          plan d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>. Cependant, la
+          turpitude de cet acte, qui ne correspond pas au modèle de vertu
+          incarné par son père <persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>, le pousse
+          finalement à affronter directement <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> et à
+          rendre l’objet volé à son propriétaire. Après la sortie définitive
+          d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> de la scène,
+          <persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> et <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> échangent les
+          vers suivants (1308-1313) :</p>
+          <quote rend="quotation italique" xml:id="d1e245" xml:lang="grc">Εἶἑν· τὰ μὲν δὴ τόξ' ἔχεις, κοὐκ ἔσθ' ὅτου<lb/>ὀργὴν
+          ἔχοις ἂν οὐδὲ μέμψιν εἰς ἐμέ. <lb/> Ξύμφημι, τὴν φύσιν δ' ἔδειξας, ὦ
+          τέκνον,<lb/>ἐξ ἧς ἔβλαστες, οὐχὶ Σισύφου πατρός,<lb/>ἀλλ' ἐξ
+          Ἀχιλλέως, ὃς μετὰ ζώντων ὅτ' ἦν<lb/>ἤκου' ἄριστα, νῦν δὲ τῶν
+          τεθνηκότων.</quote>
+          <quote rend="quotation" xml:id="d1e258">Bien ! Tu as ton arc, et il
+          n’y a pas de raisons pour que tu sois en colère ou aies blâme envers
+          moi.<lb/> J’en conviens, fils, tu nous a montré la <hi rend="italic">
+              <foreign xml:lang="grc">phusis</foreign>
+            </hi> à partir de laquelle tu as bourgeonné, qui n’est pas celle
+          d’un père comme <persName ref="078600707" type="idref" xml:base="https://www.idref.fr/">Sisyphe</persName>, mais celle
+          d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>, qui avait la
+          meilleure renommée quand il était parmi les vivants, et qui l’a
+          maintenant qu’il est parmi les morts.</quote>
+          <p xml:id="d1e266">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion<term ref="doi:10.34817/sv-mmhvkzgg">confiance</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-eqzly7gt">alliance</term>
+              </term>
+            </term>
+            <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> affirme que
+          la réparation de ses fautes est accomplie, et donc que <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> n’a plus de
+          raison de lui en vouloir, ni de le blâmer, ce à quoi acquiesce
+          <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>. C’est un
+          moment crucial : la reconnaissance de la valeur de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> permet la
+          création d’un nouveau lien entre les deux personnages, cette fois
+          sous une forme authentique, et non plus au sein d’une imposture,
+          comme il l’avait été auparavant. L’arc, objet que <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> avait reçu
+          des mains d’<persName ref="027575055" type="idref" xml:base="https://www.idref.fr/">Héraclès</persName> et qui témoigne
+          du lien noué autrefois entre ces deux figures héroïques, se fait le
+          symbole de l’association définitive de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName>
+          au monde des valeurs héroïques qui est celui de <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>
+            <note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>L’arc, l’objet dont la restitution motive la reconnaissance
+              de Néoptolème comme fils d’Achille, est fortement connoté au
+              niveau symbolique. Cet objet, en fait, a un rôle crucial dans le
+              drame (Segal 1986, p. 121-125 ; Taplin 1978, p. 89-93). Il est
+              au centre de l’intrigue (c’est pour récupérer l’arc qu'Ulysse et
+              Néoptolème se rendent à Lemnos), c’est l’arme qui rend
+              Philoctète invincible (ce qui motive la ruse d’Ulysse, cf. note
+              précédente), il est le seul moyen de survie de Philoctète
+              (Taplin 1978, p. 90). Surtout, l’arc est un puissant symbole du
+              rapport qui lie Philoctète à Héraclès, paradigme de confiance
+              entre personnages aux vertus et à la stature héroïques.
+              Philoctète tient l’arme d’Héraclès, qui la lui octroya comme
+              récompense pour avoir allumé le feu à son bûcher funéraire
+              (v. 669-670 ; v. 799-803). La certitude (qui se révélera
+              erronée) d’avoir noué un lien du même genre avec le fils
+              d’Achille motive la disponibilité de Philoctète à confier l’arc
+              à Néoptolème dans un premier temps (v. 667-670). Ce passage se
+              fait peu après, quand Philoctète, succombant temporairement à un
+              accès de sa maladie, confie l’arc à Néoptolème (v. 764-778) et
+              le prie d’être pour lui ce que lui-même, Philoctète, avait été
+              pour Héraclès (v. 796-805). La restitution de l’arc va donc de
+              pair avec la réalisation effective de ce lien que Philoctète
+              avait envisagé, non complètement à tort, dans un premier
+              temps.</p>
+            </note>. Ainsi, bannies la ruse et la violence, par lesquelles
+          <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> avait cherché à
+          avoir le dessus sur <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>, un rapport
+          de confiance s’instaure, ce qui constitue un point de départ pour
+          que le héros abandonné puisse enfin réintégrer la société, aux
+          marges de laquelle il avait été longtemps rejeté<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>A.F. Garvie (1972, p. 213-226) met en lumière la manière dont
+              tromperie, violence et persuasion organisent la structure de la
+              tragédie. Son analyse est à intégrer avec les remarques de P.E.
+              Easterling (1978, p. 31) sur le rôle du final. Pour une analyse
+              générale de ces modalités d’action dans le <hi rend="italic">Philoctète</hi>, voir Buxton 1982, p. 113-132.</p>
+            </note>. Fidèle à son nouvel engagement envers <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>, <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> met en œuvre
+          une dernière tentative pour persuader celui-ci de réintégrer la
+          guerre, mais, face à son refus, s’apprête à renoncer à sa gloire
+          future pour raccompagner <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> en Malide, sa
+          terre natale. C’est <persName ref="027575055" type="idref" xml:base="https://www.idref.fr/">Héraclès</persName>, <foreign xml:lang="lat">
+              <hi rend="italic">ex machina</hi>
+            </foreign>, qui peut, grâce à son autorité, persuader <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> de rejoindre
+          l’armée grecque à <placeName ref="298885" type="geonames" xml:base="https://www.geonames.org/">Troie</placeName>, où il sera
+          guéri et acquerra la renommée héroïque qui lui revient<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Voir Segal 1982, p. 315.</p>
+            </note>. Les vers 1308-1313 qui scellent l’alliance de <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> et <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> se placent
+          donc au croisement de plusieurs thématiques structurant le drame :
+          le rapport entre les paroles et les actes, l’éloignement initial
+          puis l’adhésion du jeune <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> au modèle
+          paternel, le rôle de la confiance et de la persuasion comme éléments
+          fondant la sociabilité humaine<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Plusieurs commentateurs considèrent le <hi rend="italic">Philoctète </hi>comme une exploration de la
+              nécessité de la confiance comme base de la sociabilité humaine.
+              Voir en ce sens Easterling 1978, p. 38 ; Segal 1981, p. 316 ;
+              dans une optique légèrement différente Rose 1976, p. 95-103.</p>
+            </note>. Pour analyser le moment marquant la réconciliation de
+          <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> et <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName>, il est donc
+          nécessaire de prendre en compte, tour à tour, le rôle de ces
+          thématiques, à partir du rapport entre la figure de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> et celle
+          d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>.</p>
+        </div>
+        <div type="section1" xml:id="d1e313">
+          <head subtype="level1" xml:id="d1e315">Ne pas être le fils de
+          Sisyphe : l’héritage paternel de Néoptolème</head>
+          <p xml:id="d1e318">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+            </term>Comme il l’a
+          déjà été mentionné, dans les mots de <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>,
+          la reconnaissance de la vertu de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName>,
+          et donc du nouveau lien qui s’établit entre les deux, se fait en
+          référence à son identité de fils d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>.
+          <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> s’est montré
+          noble tout comme son père l’était. Il a montré aussi qu’il n’était
+          pas « le fils de <persName ref="078600707" type="idref" xml:base="https://www.idref.fr/">Sisyphe</persName> ». Cette
+          remarque renvoie à une tradition qui fait de <persName ref="078600707" type="idref" xml:base="https://www.idref.fr/">Sisyphe</persName>, « le plus rusé
+          parmi les mortels », le vrai père d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>
+            <note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Homère, <hi rend="italic">Iliade</hi>, VI, 153. Voir aussi
+              Sophocle, <hi rend="italic">Philoctète</hi>, 417, où Philoctète
+              se réfère à Ulysse de manière injurieuse comme suit : « le fils
+              de Sisyphe acheté par Laërte » ; et v. 624-625 : « comme cela,
+              mort, serai-je convaincu aussi à revenir d’Hadès à lumière,
+              comme son (<hi rend="italic">scil</hi>. d’Ulysse) père » (c’est
+              le sarcasme, dont le sens n’est pas entièrement clair, par
+              lequel Philoctète commente l’éventualité qu’Ulysse puisse le
+              convaincre à réintégrer l’armée achéenne à Troie, cf.
+              v. 448-449). Cf. aussi Euripide, <hi rend="italic">Cyclope</hi>,<hi rend="italic"/>104 : « Je connais
+              cet homme, le bavard rusé, le fils de Sisyphe » (c’est le
+              commentaire du Cyclope face à Ulysse). Les scholies nous
+              informent plus diffusément sur cette tradition : Anticlée, la
+              mère d’Ulysse, aurait été mariée à Laërte quand elle était déjà
+              enceinte d’Ulysse par œuvre de Sisyphe (voir les <hi rend="italic">Scholies anciennes à l’Ajax</hi> de Sophocle, <hi rend="italic">ad </hi>190, avec deux versions, l’une très
+              synthétique l’autre plus développée ; voir aussi les <hi rend="italic">Scholies au Philoctète</hi>, <hi rend="italic">ad
+              </hi>417 et <hi rend="italic">TrGF</hi> 3.175, 4.567 Radt).</p>
+            </note>. Il a donc montré qu’il n’appartient pas à la dimension
+          morale de la ruse, celle d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, mais au monde de
+          l’<hi rend="italic">
+              <foreign xml:lang="grc">aristeia</foreign>
+            </hi>, auquel bien sûr appartient le même <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>, et dans
+          laquelle l’ascendance généalogique joue un rôle fondamental.</p>
+          <p xml:id="d1e363">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-hslaywqp">légitimation</term>
+              </term>
+            </term>À
+          l’arrière plan de la construction de la figure de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> – personnage
+          qui ne figurait pas parmi les héros chargés de récupérer <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> et son arc
+          dans les récits antérieurs à <persName ref="027143619" type="idref" xml:base="https://www.idref.fr/">Sophocle</persName> dont nous avons
+          connaissance<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Voir <hi rend="italic">supra</hi> note 2.</p>
+            </note> – se trouve donc un modèle culturel très répandu en
+          <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> ancienne, qui
+          fait du fils la réplique du père. Le fils est censé reproduire en
+          tout son père : physiquement, témoignant par ce moyen aussi en être
+          le fils légitime, aussi bien que moralement. Il s’agit d’un modèle
+          ubiquitaire, que nous pouvons reconstruire à partir d’un grand
+          nombre de textes grecs, dans les nombreuses déclinaisons qu’il
+          connaît<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Pour ce même modèle dans le monde romain, voir Bettini 1992,
+              p. 211-239 et Lentano 2007.</p>
+            </note>. Chez <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>, par exemple, la
+          ressemblance entre père et fils emprunte la forme du code héroïque :
+          ressembler au père (que l’on souligne ou non le côté physique de la
+          ressemblance) veut dire avant tout être à la hauteur de la renommée
+          du parent<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Dans les premiers chants de l’<hi rend="italic">Odyssée</hi>,
+              la ressemblance entre Télémaque et Ulysse est mise en avant en
+              plusieurs occasions. La ressemblance est pensée aussi bien dans
+              son côté physique (I, 206-212) qu’au niveau des capacités de
+              Télémaque. Comme le souligne la déesse Athéna si « peu de fils
+              sont les égaux de leurs pères, la plupart valent moins », ce
+              n’est pas le cas de Télémaque, qui se montrera à la hauteur
+              d’Ulysse, dont il tient la <hi rend="italic">metis</hi> (II,
+              276-280). À l’intérieur de ce même paradigme, où la ressemblance
+              se décline comme égalité de la valeur du fils par rapport au
+              père, apparaît aussi la figure de Néoptolème. Dans la <hi rend="italic">nekyia</hi>, Achille défunt s’empresse de demander
+              à Ulysse si Néoptolème a bien pris sa place au premier rang
+              parmi les guerriers grecs à Troie. La réponse affirmative
+              d’Ulysse, qui souligne chez Néoptolème une série de traits
+              typiquement achilléens, réjouit Achille : le héros défunt semble
+              alors oublier toutes les peines qu’il avait avouées auparavant
+              (XI, 488-537). Sur ces figures, voir Arrighetti 1991. Le même
+              modèle apparaît dans la problématisation du rapport entre
+              Diomède et le modèle guerrier représentée par son père Tydée au
+              chant V de l’<hi rend="italic">Iliade</hi> (V, 113-126 ;
+              793-824). On peut aussi rappeler que le rapport entre bonne
+              naissance et vertu était au centre du modèle aristocratique
+              chanté par Théognis et avait fait l’objet d’un dialogue
+              d’Aristote, le περὶ εὐγενείας, dont nous n’avons que quelques
+              fragments (fr. 91-94 Rose).</p>
+            </note>. Dans <hi rend="italic">Les </hi>
+            <hi rend="italic">Travaux
+          et les Jours</hi> d’<persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> la ressemblance
+          devient l’un des bienfaits dont peuvent se réjouir les habitants de
+          la cité administrée de manière juste<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Dans la cité administrée selon la justice, les femmes
+              « enfantent des fils ressemblant aux parents » (Hésiode, <hi rend="italic">Les Travaux et les Jours</hi>, 235). Cf. les vers
+              180-185 de la <hi rend="italic">Théogonie</hi>, où il est
+              question de la destruction de la race de fer de la part de Zeus.
+              Toute une série de renversements l’accompagnera : les enfants
+              naîtront avec les cheveux gris, les fils déshonoreront leurs
+              parents et ainsi de suite. Dans le cadre de ces inversions de
+              l’ordre des choses, nous lisons au vers 182 : οὐδὲ πατὴρ
+              παίδεσσιν ὁμοίιος οὐδέτι παῖδες. Son interprétation est
+              discutée. D’un côté le vers est compris comme « ni le père <hi rend="italic">ressemblera </hi>aux enfants, ni les enfants (au
+              père) » (trad. de P. Mazon, CUF) ; cependant, comme le remarque
+              M. L. West (1978), il est plus probable que ὁμοίιος soit à
+              entendre ὁμόφρων ; le vers sonnerait donc « le père ne sera pas
+              d’accord avec les enfants, ni les enfants avec le père » (voir
+              aussi en ce sens la trad. de G. Most, Loeb 2006). Cette deuxième
+              interprétation est la plus adaptée à la suite du texte, qui
+              porte justement sur le désaccord qui régnera entre hôtes, amis,
+              frères (v. 183-190) ; elle évite aussi la difficulté d’une
+              phrase où « le père ressemble aux fils », ce qui serait exprimé
+              de manière peut-être plus adaptée par « les fils ressemblent au
+              père » (en somme, avec la même syntaxe qu’au v. 235 ; West
+              1978).</p>
+            </note>. Chez <persName ref="085720917" type="idref" xml:base="https://www.idref.fr/">Hérodote</persName>, elle est la
+          base de la reconnaissance des liens de filiation chez la population
+          libyenne des Auses<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Les Auses, ne connaissant pas de mariage et ayant les femmes
+              en commun, attribuent les enfants à l’homme auxquels ils
+              ressemblent le plus (<hi rend="italic">Histoires</hi>, IV, 180).
+              Voir aussi la critique au modèle platonicien d’éducation
+              communautaire contenu dans la <hi rend="italic">Politique
+              </hi>d’Aristote, qui reprend l’anecdote d’Hérodote : « À vrai
+              dire, il n’est même pas possible d’éviter que certains ne
+              soupçonnent quels sont leurs frères, leurs enfants, leur père ou
+              leur mère ; car les ressemblances qui existent entre les enfants
+              et leur parents fourniront inévitablement aux uns et aux autres
+              des indices ; c’est d’ailleurs ce qui arrive au dire d’auteurs
+              de tours du monde : certains habitants de Haute-Libye ont en
+              commun leur femmes ; les enfants qui naissent sont cependant
+              répartis d’après les ressemblances » (1262a 14-21, trad.
+              Aubonnet, CUF).</p>
+            </note>. Elle occupait une place de choix dans des théories sur la
+          génération des pré-platoniciens – pour autant qu’on puisse les
+          reconstruire – et dans les théories biologiques hippocratiques et
+          aristotélicienne<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Bonnard 2006a. Plus diffusément, sur la question de la
+              ressemblance et la surévaluation de l’apport paternel dans la
+              procréation, autant dans les traités scientifiques, que dans les
+              récits fictionnels concernant dieux (naissances monoparentales
+              de divinités) et héros, voir la riche documentation recueillie
+              et commentée par Jean-Baptiste Bonnard (2004 ; plus brièvement
+              2006b).</p>
+            </note>. Elle trouve sa place dans la tragédie, comme l’exprime
+          d’une manière directe un fragment de l’<hi rend="italic">Antigone
+          </hi>d’<persName ref="026854775" type="idref" xml:base="https://www.idref.fr/">Euripide</persName> : « l’opinion
+          est en effet que les fils ressemblent aux pères<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Fr. 167 Kannicht, d’où l’article de J.-B. Bonnard (2006a)
+              tire son titre. Je tiens à remercier le relecteur anonyme de ce
+              texte aux <hi rend="italic">Cahiers « Mondes Anciens »</hi> pour
+              cette suggestion et pour d’autres remarques précieuses.</p>
+            </note> » et elle comptait parmi les modèles humains que les
+          auteurs grecs avaient projetés sur le monde animal<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Aristote cite à deux reprises une jument de Pharsale appelée
+              « la Juste » car elle mettait bas des petits ressemblant à leur
+              père (<hi rend="italic">Politique</hi>, 1262a, 21-24 et <hi rend="italic">Historia animalium</hi>, 586a, 12-14) ; Élien
+              attribue à l’aigle, modèle de masculinité, l’habitude d’imposer
+              à ses petits des épreuves destinées à en prouver la ressemblance
+              au père (<hi rend="italic">Sur la nature des animaux</hi>, II,
+              26).</p>
+            </note>. En somme, sans multiplier les exemples, la ressemblance
+          entre fils et père – que l’on peut souvent constater et qui fait
+          l’objet d’une expérience commune – était culturellement mise en
+          valeur en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> ancienne.
+          Elle ressort comme un trait saillant dans les manières de concevoir
+          ce qu’un fils était – ou devait être.</p>
+          <p xml:id="d1e479">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+              </term>
+            </term>La
+          notion clé autour de laquelle se joue l’affaire de la ressemblance
+          dans le texte du <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">
+              <hi rend="italic">Philoctète</hi>
+            </persName> est la notion de <foreign xml:lang="grc">φύσις</foreign>. Dès le début de la tragédie, une
+          opposition apparaît entre <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> et la figure
+          d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>, entre le
+          stratagème qu’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> finit par imposer
+          et cet « héritage paternel » de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName>,
+          c’est-à-dire tout ce que son père <persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>,
+          « le meilleur des Achéens », lui a légué en termes de
+          comportement<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Une dualité s’installe donc entre deux figures qui, dans
+              l’Athènes du <hi rend="small-caps">v</hi>
+                <hi rend="sup">e</hi> siècle, étaient devenues paradigmatiques.
+              Achille et Ulysse étaient « des prototypes mythiques et
+              littéraires de deux manières de penser et de sentir, de deux
+              mondes entièrement différents. Achille, le guerrier invincible,
+              était la figure idéale de la tradition aristocratique grecque
+              […]. Ulysse était au contraire un homme dont l’intelligence
+              régissait toutes les actions, un homme pour qui une tromperie
+              menée à bien était un point d’honneur. » (Knox 1964, p. 121,
+              notre traduction).</p>
+            </note>. C’est <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> lui-même qui le
+          reconnaît, aux vers 79-82, sur le mode de la <hi rend="italic">
+              <foreign xml:lang="lat">captatio
+          benevolentiae</foreign> </hi>: « Je sais, fils, que par ta <foreign xml:lang="grc">φύσις</foreign> tu n’est pas né pour dire de
+          pareilles choses, ni pour tendre des pièges, mais la victoire est
+          douce à obtenir. Sois patient, nous apparaîtrons justes par la
+          suite » (v. 79-82). Bien qu’il n’ait jamais connu son père,
+          <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> connaît bien
+          sa renommée. En tant qu’homme vaillant, <persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>
+          n’aurait jamais accepté de remporter une victoire par la ruse. Il
+          aurait choisi de convaincre honnêtement <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>,
+          ou bien de l’affronter et de le vaincre au combat (v. 86-91 ;
+          v. 102)<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Cf. un passage homérique signalé par Knox (1964, p. 121) :
+              « Achille aux pieds rapides alors ainsi répond : “Divin fils de
+              Laërte, industrieux Ulysse, je dois vous signifier brutalement
+              la chose, comme j’entends la faire, comme elle se fera. De la
+              sorte, vous n’aurez pas à roucouler l’un après l’autre, assis
+              là, à mes côtés. Celui-là m’est en horreur à l’égal des portes
+              d’Hadès, qui dans son cœur cache une chose et sur les lèvres en
+              a une autre” » (<hi rend="italic">Iliade</hi>, IX, 307-313,
+              trad. Mazon, CUF).</p>
+            </note>. Le thème de l’héritage paternel de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> en contraste
+          avec la ruse d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> est longuement
+          développé dans le drame et la mention de la <foreign xml:lang="grc">φύσις</foreign> marque les moments principaux de
+          l’évolution de ce contraste. Les vers 1308-1313, dont nous sommes
+          partis, constituent en fait le point culminant d’un parcours qui se
+          condense dans deux scènes précédentes<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>O. Taplin (1978, p. 131-133) identifie le parallélisme entre
+              la première tentative de restitution de l’arc (974 <hi rend="italic">sq.</hi>) et son effective restitution (1292 <hi rend="italic">sq.</hi>). En effet, les deux scènes ont la même
+              structure d’un point de vue dramaturgique, comme nous le
+              verrons. Cependant, d’un point de vue thématique, il est
+              possible de construire une série cohérente de trois scènes, qui
+              inclut aussi la fin du prologue.</p>
+            </note>. Nous devons donc nous intéresser au rapport entre les
+          vers 1308-1313, le passage final du prologue que nous avons déjà
+          évoqué et la scène qui suit l’obtention de l’arc par <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> (v. 875-1004,
+          et, en particulier, v. 901-905).</p>
+          <p xml:id="d1e527">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion<term ref="doi:10.34817/sv-mmhvkzgg">confiance</term>
+              </term>
+            </term>
+            <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> a gagné la
+          confiance de <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>, au point de
+          se voir confier son arc, pendant un accès de sa maladie. Il aurait
+          donc accompli le plan d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>. Cependant, en
+          reconnaissant la valeur de <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> et l’infâmie
+          de son propre comportement, <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> se résout à
+          révéler à <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> la tromperie
+          dont il a été la victime. Il commence par remarquer, en termes
+          généraux, l’éloignement de ses actions par rapport à sa <foreign xml:lang="grc">φύσις</foreign> : « Tout est difficile, quand
+          quelqu’un, en s’éloignant de sa <foreign xml:lang="grc">φύσις</foreign>, fait ce qui ne lui convient pas »
+          (v. 902-903). La <foreign xml:lang="grc">φύσις</foreign> de
+          <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> est encore
+          une fois ce qu’il a reçu de son père, comme on peut le déduire de la
+          réponse de <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>. En effet ce
+          dernier, qui ne voit pas où <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> veut en venir
+          et qui ne soupçonne pas être la victime de la ruse d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, le rassure. Son
+          comportement – sa (fausse) promesse d’aider <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> à regagner la
+          Malide – est bien dans le sillon du modèle paternel : « Mais tu ne
+          fais ni ne dis rien qui s’éloigne de celui qui t’a engendré
+          (<foreign xml:lang="grc">φυτεύσαντος</foreign>, litt. « planté »),
+          lorsque tu aides un homme noble » (v. 903-904)<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Philoctète avait déjà eu l’occasion de noter peu de vers
+              auparavant la ressemblance entre la φύσις de Néoptolème et celle
+              d’Achille : « fils, ta φύσις est noble et vient de gens nobles »
+              (v. 874-875).</p>
+            </note>. Mais <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> sait bien
+          qu’il va « apparaître infâme » (v. 905), lorsqu’il aura révélé le
+          plan d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> dont il s’est
+          fait le complice.</p>
+          <p xml:id="d1e537">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-fvmtxsgq">étymologie</term>
+                  </term>
+                </term>
+              </term>
+            </term>Ces
+          vers sont très proches, au niveau thématique, de la deuxième moitié
+          du prologue. Dans les deux cas, la <foreign xml:lang="grc">φύσις</foreign> est mise en avant comme ce qui
+          devrait éviter à <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> une action
+          honteuse. Ce rappel est renforcé par un jeu étymologique (<foreign xml:lang="grc">φύσει... πεφυκότα</foreign>, v. 79 prolongé par
+          <foreign xml:lang="grc">ἔφυν... οὑκφύσας</foreign>, v. 88-89 ;
+          <foreign xml:lang="grc">φύσιν... φυτεύσαντος</foreign>, v. 902-905).
+          Dans les deux cas, la discussion du comportement de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> est
+          construite en termes de rapport entre parole et action (v. 79-80 et
+          v. 86-87 ; v. 903-904). Se pose également la question de la
+          reconnaissance postérieure dont bénéficieront ses actes (« nous
+          apparaîtrons justes par la suite », v. 82 ; « j’apparaîtrai
+          infâme », v. 905). Nous reviendrons par la suite, sur ces
+          thématiques (mots/actes, reconnaissance publique). Il convient de
+          remarquer, pour l’instant, que les deux scènes débouchent sur des
+          décisions de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> concernant
+          l’arc de <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>. À la fin du
+          prologue <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> parvenait à
+          convaincre <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> de réaliser
+          la tromperie aux dépens de <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>. Dans la
+          suite des vers 901, <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> cède à
+          <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>, qui le
+          supplie de faire amende de son comportement : il est sur le point de
+          restituer l’arc volé, si ce n’est que l’intervention d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> l’en empêche et
+          le persuade facilement de persévérer dans leur plan.</p>
+          <p xml:id="d1e540">Cette scène apparaît donc comme une charnière
+          entre la première mention de la <foreign xml:lang="grc">φύσις</foreign> de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName>
+          dans le prologue du drame et sa validation définitive par <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> aux vers
+          1308-1313. Elle reprend les thèmes autant du prologue que des vers
+          1308-1313<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>Dans les deux cas il est question du rapport étroit entre la
+              φύσις de Néoptolème et celle de son père. La métaphore végétale
+              renforce cette idée de ressemblance entre père et fils.
+              Néoptolème est dit bourgeonner de son père (v. 1310) : comme un
+              bourgeon reproduit à l’identique la plante dont il naît,
+              Néoptolème ne peut que reproduire les qualités de son père. De
+              même, le père est dit φυτεύσας au v. 904 : il est celui qui « a
+              planté » le fils. Par ailleurs, la métaphore est filée tout au
+              long de la tragédie (voir, v. 346 ; 582 ; 1066). Nous pouvons
+              donc affirmer que cette métaphore de la filiation, orientée à
+              souligner la persistance d’un trait à travers les différentes
+              générations d’une famille, très richement analysée par Marine
+              Bretin-Chabrol (2012) en latin, est présente aussi en grec. Nos
+              remarques enrichissent donc la brève parenthèse que
+              Bretin-Chabrol dédie au monde grec (p. 235-243), en rajoutant un
+              aspect qui n’y était pas valorisé.</p>
+            </note>, dont elle est aussi le parallèle d’un point de vue
+          dramaturgique. Dans les deux cas, <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName>
+          est sur le point de restituer l’arc, <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>
+          rentre pour l’en empêcher. Cependant, dans la première scène il a
+          facilement le dessus sur <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> ; dans la
+          deuxième le jeune homme lui résiste, et l’arc revient vraiment entre
+          les mains de <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>
+            <note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Si le deux scènes sont parallèles, la deuxième inverse
+              pourtant l’ordre des éléments qui figuraient dans la première.
+              Dans l’une, à la reconnaissance de l’héritage paternel de
+              Néoptolème, opérée par un Philoctète ignare de la ruse, suit
+              l’échec de Néoptolème de s’en tenir à des critères moraux
+              achilléens en resituant l’arc ; dans l’autre, la restitution
+              effective de l’arc précède et motive la reconnaissance,
+              définitive, de Néoptolème comme le fils d’Achille.</p>
+            </note>.</p>
+          <p xml:id="d1e555">Les vers qui sont au centre de notre analyse se
+          posent donc comme troisième étape d’un parcours : dans un premier
+          temps <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> est
+          facilement dérouté par les enseignements d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>,
+          ensuite il échoue dans une première tentative d’agir en accord avec
+          l’hérédité morale d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>, enfin il montre
+          une fois pour toutes qu’il appartient au monde de l’<hi rend="italic">aristeia</hi>, tout comme <persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> et
+          <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>. La
+          reconnaissance de cette communauté de valeurs, symbolisée par
+          l’objet même que <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> restitue<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>Voir note 4<hi rend="italic"> supra</hi>.</p>
+            </note>, permet donc la réconciliation entre <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> et <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName>. C’est par le
+          biais de cette <hi rend="italic">aristeia </hi>pensée en termes
+          d’héritage paternel que la réconciliation entre les deux personnages
+          prend la forme de la reconnaissance de la ressemblance entre
+          <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> et <persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>.</p>
+          <div type="section2" xml:id="d1e573">
+            <head subtype="level1" xml:id="d1e575">Valider l’identité
+            filiale : critères et modalités</head>
+            <p xml:id="d1e578">
+              <term type="concept">
+                <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+                savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation</term>
+                </term>
+              </term>Les pages précédentes nous ont permis d’éclairer les
+            raisons qui donnent aux vers 1308-1313 la forme de la validation
+            d’une « filiation juste » ; il est temps de se tourner vers la
+            manière dont s’opère cet acte de validation. Ou, pour le dire
+            autrement, sur les raisons qui permettent à <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> d’affirmer
+            que <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> a montré
+            (le verbe employé est <foreign xml:lang="grc">δείκνυμι) la
+            φύσις</foreign> de son père, qui est aussi la sienne. Cela nous
+            permet aussi de préciser pourquoi nous inscrivons ce cas dans la
+            catégorie de « validation », à la fois d’un acte et d’un
+            statut.</p>
+            <p xml:id="d1e581">Comme il le rappelle plusieurs fois dans le
+            texte, <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> connaissait
+            bien <persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>, il le
+            considérait <foreign xml:lang="grc">φίλτατος</foreign> (v. 242),
+            il admirait sa valeur. Il a le sentiment de partager avec lui et
+            avec un cercle de personnages tels que <persName ref="029869382" type="idref" xml:base="https://www.idref.fr/">Ajax</persName>,
+            <persName ref="175366977" type="idref" xml:base="https://www.idref.fr/">Nestor</persName> ou <persName ref="078600677" type="idref" xml:base="https://www.idref.fr/">Patrocle</persName> (v. 410-452)
+            une moralité intacte, qui l’oppose à <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> et
+            aux Atrides<note n="24" place="foot" type="standard" xml:id="ftn24">
+                <p>Blundell 1989, p. 194.</p>
+              </note>. Il était donc en mesure de comparer <persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> et <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> et, par là,
+            de juger de la valeur de ce dernier, contre les influences
+            d’Ulysse. Sur quels paramètres se fondait ce jugement ?</p>
+            <p xml:id="d1e590">Si l’on considère le passage qui précède les
+            vers 1308-1313, il apparaît clairement que le jugement de
+            <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> porte sur
+            des actions. Lorsque <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> déclare
+            avoir l’intention de restituer l’arc à <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>, il
+            n’arrive pas à le convaincre par des mots. Le serment que prête
+            <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> n’est guère
+            plus efficace. Face au scepticisme inébranlable – et
+            compréhensible – de <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>, <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> affirme,
+            enfin (v. 1291-1292) :</p>
+            <quote rend="quotation italique" xml:id="d1e593" xml:lang="grc">Τοὔργον παρέσται φανερόν· ἀλλὰ δεξιὰν<lb/>πρότεινε
+            χεῖρα, καὶ κράτει τῶν σῶν ὅπλων.</quote>
+            <quote rend="quotation" xml:id="d1e599">L’acte le rendra clair
+            (<foreign xml:lang="grc">φανερόν</foreign>) ; étends donc ta main
+            droite et prends possession de tes armes.</quote>
+            <p xml:id="d1e602">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique
+            corporelle<term ref="doi:10.34817/sv-52ehd3pj">parole</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation</term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-j8wact6u">preuve</term>
+                </term>
+              </term>C’est le
+            fait de restituer l’arc et de ne pas céder aux menaces d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, comme il
+            l’avait fait lors de sa première et hésitante tentative de
+            restituer l’arc, qui peut enfin convaincre <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>. Nous avons
+            déjà souligné la portée symbolique de cette action. Cependant, du
+            point de vue de la construction de l’acte de validation que nous
+            adoptons dans ce paragraphe, une autre thématique, que nous avons
+            rapidement évoquée, est à prendre en compte. Dans la tragédie, un
+            jeu d’oppositions et de correspondances entre « mots » et
+            « faits » est présent à partir des premiers vers et il est
+            amplement développé par la suite. Deux mondes opposés se dessinent
+            dès le prologue : le monde d’une parole qui prévaut sur les
+            actions, qui est le monde d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> et de la ruse
+            (v. 50-55 ; 65-68 ; 96-99) ; et le monde où actes et mots se
+            correspondent, où les mots sont, pour ainsi dire, transparents,
+            qui est le monde de la vertu, ou tout au moins de la façon dont
+            elle est perçue par <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName>
+            (v. 85-86)<note n="25" place="foot" type="standard" xml:id="ftn25">
+                <p>Néoptolème : « Fils de Laërte, les choses qu’il me fait mal
+                d’entendre, ces mêmes choses je trouve répugnant les
+                accomplir » (v. 85-86) ; Ulysse : « Fils d’un noble père, moi
+                aussi, une fois, quand j’étais jeune, j’avais une langue
+                paresseuse, et la main prête à agir : mais, en en ayant fait
+                l’épreuve, je vois que la langue, et non pas les actes, est la
+                guide dans tout pour les hommes » (v. 95-99). Voir aussi les
+                vers 903-904, dans lesquels le « dire » et le « faire » de
+                Néoptolème apparaissent en consonance à Philoctète, au moment
+                où, encore ignare de la ruse d’Ulysse (voir <hi rend="italic">supra </hi>p. 4), il croît reconnaître chez le
+                jeune un comportement digne d’Achille.</p>
+              </note> et, par la suite, par <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>. C’est par
+            la parole que <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> captive
+            <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> – si grande
+            était son envie d’entendre la langue grecque à nouveau !
+            (v. 223-225 ; 234) – c’est par la parole qu’il le dupe : le thème
+            du <foreign xml:lang="grc">λόγος</foreign> revient avec une
+            fréquence « presque embarrassante » avant le vers 1308<note n="26" place="foot" type="standard" xml:id="ftn26">
+                <p>Podlecki 1966, p. 242. Et noter aussi le changement de
+                statut de la parole, à la fin du drame : les mots d’Héraclès
+                sont des μῦθοι – non plus des λόγοι – ils sont donc une parole
+                « particulièrement efficace » (voir Bettini 2008).</p>
+              </note>. <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> ne peut
+            donc se servir que des actes accomplis par <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> pour juger
+            de son identité de « fils d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> »<note n="27" place="foot" type="standard" xml:id="ftn27">
+                <p>En fait, c’est à partir de ce moment que la parole,
+                auparavant dévalorisée par son utilisation trompeuse, peut
+                reprendre ses droits (Winnington-Ingram 1980, p. 294-295). <hi rend="italic">Contra</hi> Podlecki (1966, p. 244), qui
+                soutient que la possibilité de communiquer a été compromise à
+                jamais par la ruse et que donc la situation ne serait pas
+                entièrement rétablie. La réaction de Philoctète aux mots de
+                Néoptolème nous semble contredire son interprétation :
+                « comment ne pas être convaincu par les mots de celui qui me
+                conseille en ayant à l’esprit mon bien ? » (v. 1350-1351) ; et
+                les raisons de Philoctète pour ne pas réintégrer l’armée
+                tiennent à son refus d’être associé à ses anciens ennemis,
+                voire de les aider (v. 1352-1366) ; voir aussi Blundell 1989,
+                p. 215-216.</p>
+              </note>.</p>
+            <p xml:id="d1e629">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-zndekhru">qualités
+            personnelles<term ref="doi:10.34817/sv-fplcj6sq">honnêteté</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-k9wtnbmg">autorité</term>
+                </term>
+              </term>Portons
+            maintenant notre attention sur le juge. On a vu que <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> possède des
+            critères lui permettant d’émettre son jugement grâce à sa
+            connaissance d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> et à sa
+            communauté de valeur avec lui et les autres héros grecs… Mais on
+            peut se demander pourquoi c’est à lui de juger de la « filiation
+            juste », pour ainsi dire, de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName>. Une
+            première réponse est simple : <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> s’adresse à
+            <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> et lui
+            demande de reconnaître qu’il a réparé ses fautes. C’est donc à
+            <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> d’en
+            convenir.</p>
+            <p xml:id="d1e632">Toutefois, on peut avancer une deuxième raison,
+            moins banale, la même qui nous a conduit à utiliser les catégories
+            de « juge » et de « validation ». Il est nécessaire de reprendre,
+            à ce sujet, le modèle culturel qui fait du fils une réplique
+            fidèle de son père. Or, la reconnaissance de la ressemblance entre
+            fils et père, que nous évoquions plus tôt, n’est pas un fait
+            personnel – ce n’est pas au fils de se reconnaître comme le vrai
+            descendant de son père : la ressemblance est soumise au regard
+            d’autrui.</p>
+            <p xml:id="d1e635">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-bnfzqbfz">test</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-j8wact6u">preuve</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté</term>
+              </term>
+              <persName ref="068666942" type="idref" xml:base="https://www.idref.fr/">Mario Lentano</persName> (2007),
+            qui a longuement travaillé sur la parenté à <placeName ref="3169069" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> – et en
+            particulier sur la filiation – a dégagé une structure commune aux
+            narrations qui mettent en scène ce modèle. Comme il l’explique,
+            dans les récits latins les fils sont normalement mis à l’épreuve
+            par rapport à une caractéristique typique de l’identité du parent
+            (ou de la lignée), qui vaut presque définition. L’épreuve est
+            encore plus contraignante, et sa validité encore plus forte, si
+            elle se déroule dans un contexte « marqué » : un contexte
+            similaire, voire identique, à celui où le père a acquis ou bien
+            mis en évidence une de ses caractéristiques. Et, surtout, elle se
+            déroule dans un espace public : c’est le père lui-même, sous les
+            yeux de la communauté, ou la communauté à défaut du père, qui
+            signale la réussite (ou l’échec) de l’épreuve (2007,
+            p. 119-125).</p>
+            <p xml:id="d1e641">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-bnfzqbfz">test</term>
+                </term>
+              </term>Le modèle
+            élaboré par <persName ref="068666942" type="idref" xml:base="https://www.idref.fr/">Lentano</persName> pour le monde
+            romain semble s’appliquer aussi à la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> ancienne.
+            En effet, nous retrouvons les mêmes thèmes dans les textes grecs.
+            Ainsi, par exemple, dans l’<hi rend="italic">Odyssée</hi>,
+            <persName ref="050475150" type="idref" xml:base="https://www.idref.fr/">Télémaque</persName> est reconnu
+            par <persName ref="175366977" type="idref" xml:base="https://www.idref.fr/">Nestor</persName> « fils
+            d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> » à sa manière
+            de parler, surprenante chez un jeune de son âge ; dans l’<hi rend="italic">Iliade</hi>
+              <persName type="_temp">Diomède</persName>
+            devrait montrer la même ardeur guerrière qui caractérisait son
+            père <persName ref="240571169" type="idref" xml:base="https://www.idref.fr/">Tydée</persName>
+              <note n="28" place="foot" type="standard" xml:id="ftn28">
+                <p>Homère, <hi rend="italic">Odyssée</hi>, III, 121-125. La
+                ressemblance entre Télémaque et Ulysse avait déjà été
+                remarquée par Athéna (I, 206-212 ; II, 276-280) mais elle
+                restait encore, en quelque sorte, à prouver : la déesse, en
+                fait, rappelle à Télémaque sa ressemblance avec Ulysse (dont
+                il ne peut pas être conscient) pour l’inciter à entreprendre
+                le voyage qui occupe les premiers chants. Pour Diomède, voir
+                <hi rend="italic">Iliade</hi> V, 811, 793-824. Voir aussi <hi rend="italic">supra </hi>note 11.</p>
+              </note>. L’<hi rend="italic">Ajax</hi> de <persName ref="027143619" type="idref" xml:base="https://www.idref.fr/">Sophocle</persName> nous donne un
+            cas exemplaire de contexte « marqué » et du caractère publique de
+            l’épreuve de légitimité : tout comme son père <persName ref="238337219" type="idref" xml:base="https://www.idref.fr/">Télamon</persName>, <persName ref="029869382" type="idref" xml:base="https://www.idref.fr/">Ajax</persName> est arrivé à
+            <placeName ref="298885" type="geonames" xml:base="https://www.geonames.org/">Troie</placeName>, où il a
+            accompli des gestes d’égal héroïsme. Cependant, non seulement il
+            s’est vu privé des armes d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> à la faveur
+            d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, mais, à cause
+            du massacre des troupeaux qu’il a accompli, il s’est couvert de
+            honte. De cet échec – la communauté des Argiens ne pourra pas
+            certifier qu’il a égalé la valeur de son père – vient sa
+            résolution funeste du suicide<note n="29" place="foot" type="standard" xml:id="ftn29">
+                <p>« De cette terre de l’<placeName ref="_temp">Ida</placeName> mon père est revenu ayant conquis
+                par sa bravoure le premier rang dans l’armée et rapportant
+                dans sa maison une gloire sans aucune ombre. Et moi, son fils,
+                j’ai abordé au même pays de <placeName ref="_temp">Troade</placeName>, doué d’une vigueur égale, et
+                mon bras y a fourni des exploits qui valent les siens – et me
+                voilà qui meurs ici méprisé par les Argiens ! […] Quel
+                spectacle offrirai-je ainsi, le jour où je paraîtrai devant
+                mon père Télamon ? Supportera-t-il ma vue, si je me montre à
+                lui, sans que rien me distingue, sans ce prix de la vaillance
+                dont il eut, lui, jadis la noble et glorieuse couronne ? […]
+                Il me faut bien plutôt trouver <hi rend="italic">une preuve
+                telle que je puisse montrer à mon vieux père que je ne suis
+                pas né de lui sans courage, quant à ma phusis</hi> »
+                (Sophocle, <hi rend="italic">Ajax</hi>, 434-440, 462-465 et
+                470-472 trad. Mazon CUF adaptée). Voir encore le cas du même
+                Néoptolème dans l’<hi rend="italic">Odyssée</hi> (<hi rend="italic">supra</hi> note 11).</p>
+              </note>.</p>
+            <p xml:id="d1e701">Ces aspects des épreuves de légitimité sont
+            bien présents aussi dans le <hi rend="italic">Philoctète</hi>. Le
+            jeune <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName>, dont
+            l’identité filiale doit encore être mise à l’épreuve – est-il ou
+            non le digne fils d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> ? – est appelé
+            à <placeName ref="298885" type="geonames" xml:base="https://www.geonames.org/">Troie</placeName>
+            immédiatement après la mort de son père, il prend part à la guerre
+            à laquelle le nom d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> est lié à tout
+            jamais ; il est même destiné à porter les Grecs à la victoire, ce
+            qui n’avait pas été permis à son père<note n="30" place="foot" type="standard" xml:id="ftn30">
+                <p>Comme le remarque B.M.W. Knox (1964, p. 123) même dans sa
+                présentation trompeuse comme guerrier outragé par les Atrides,
+                ruse destinée à gagner la confiance de Philoctète (v. <hi rend="italic">infra</hi>), Néoptolème dit avoir parcouru la
+                même trajectoire qu’Achille. Il se serait vu soustraire
+                quelque chose qui lui revenait de droit (les armes d’Achille
+                défunt, tout comme Achille s’était vu soustraire Briseïs), ce
+                qui l’aurait poussé à se tenir à l’écart du combat et à
+                nourrir une colère véhémente contre Agamemnon et Ménélas.</p>
+              </note>.</p>
+            <p xml:id="d1e719">L’aspect public est aussi présent, et ce dès le
+            prologue. La <hi rend="italic">rhesis</hi> par laquelle <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> tente de
+            convaincre <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> d’accomplir
+            son plan, se termine par des vers que l’on a déjà eu l’occasion
+            d’évoquer (v. 79-82) :</p>
+            <quote rend="quotation italique" xml:id="d1e725" xml:lang="grc">Ἔξοιδα, παῖ<note n="31" place="foot" type="standard" xml:id="ftn31">
+                <p>La conjecture παῖ avancée par Erfurt est préférée à καὶ des
+                mss. par de nombreux éditeurs. Comme le signale Pucci, « la
+                condescendance et le désir d’Ulysse d’acquérir Néoptolème à
+                son propre monde moral justifieraient la correction »
+                (Pucci<hi rend="small-caps"/>2003,<hi rend="italic"> ad
+                loc.</hi>) ; voir aussi Kamerbeek 1980, Jebb 1898<hi rend="italic">. </hi>La <hi rend="italic">lectio </hi>καὶ est
+                retenue par Campbell 1969 et Dain-Mazon 1960<hi rend="italic">.</hi>
+                </p>
+              </note>, φύσει σε μὴ πεφυκότα<lb/>τοιαῦτα φωνεῖν μηδὲ τεχνᾶσθαι
+            κακά·<lb/>ἀλλ' ἡδὺ γάρ τοι κτῆμα τῆς νίκης λαβεῖν,<lb/>τόλμα·
+            δίκαιοι δ' αὖθις ἐκφανούμεθα·</quote>
+            <quote rend="quotation" xml:id="d1e754">Je sais, fils, que par ta
+            φύσις tu n’es pas né pour dire des pareilles choses, ni pour
+            tendre des pièges, mais la victoire est douce à obtenir. Sois
+            patient, nous apparaîtrons justes par la suite.</quote>
+            <p xml:id="d1e757">Ici la référence à l’hérédité paternelle, qui
+            en principe devrait empêcher <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> de céder
+            aux propositions d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, se double de
+            la référence à une reconnaissance publique. Certes, le verbe
+            <foreign xml:lang="grc">ἐκφανούμεθα</foreign> est ambigu et
+            polysémique, il peut être interprété comme le signe du cynisme
+            d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, de son
+            relativisme moral, ou encore en référence à une nécessité d’ordre
+            supérieur (un plan divin qui se dévoilerait au cours du
+            drame)<note n="32" place="foot" type="standard" xml:id="ftn32">
+                <p>La première interprétation nous inviterait à gloser :
+                « nous apparaîtrons justes dans une autre occasion, il ne faut
+                pas se soucier de la justice maintenant » (Pucci 2003, <hi rend="italic">ad loc.</hi>). Dans le deuxième cas, Ulysse
+                formulerait une théorie morale relativiste, qui ferait de la
+                justice non pas un absolu, mais un principe flexible,
+                adaptable aux circonstances : en l’occurrence, la prise de
+                Troie justifierait bien un acte qui ne serait pas juste en soi
+                ou dans d’autres circonstances (Schein 2013, <hi rend="italic">ad loc.</hi>). Dans la lecture de Pucci, la
+                position relativiste d’Ulysse s’appuierait sur la nécessité
+                d’accomplir le dessin de Zeus : il est nécessaire que les
+                Grecs conquièrent Troie car Zeus en a établi ainsi, donc il
+                est tout aussi nécessaire de s’emparer de l’arc de Philoctète,
+                par quelque moyen que ce soit. La justice de l’action
+                apparaîtra par la suite (Pucci 2003, <hi rend="italic">ad
+                loc.</hi>).</p>
+              </note>. Quoi qu’il en soit – toute tentative de trancher par
+            rapport aux connotations de ce verbe impliquerait une évaluation
+            générale de la figure d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> et du rôle de
+            la prophétie<note n="33" place="foot" type="standard" xml:id="ftn33">
+                <p>Voir <hi rend="italic">supra</hi> note 3.</p>
+              </note>, et donc de la structure et du sens de la tragédie, ce
+            qui dépasse largement le but de cette démonstration – une idée
+            peut être soulignée : les actions, pensées en rapport avec le
+            modèle paternel, sont soumises à l’évaluation d’un regard
+            extérieur<note n="34" place="foot" type="standard" xml:id="ftn34">
+                <p>Donc, on n’est pas simplement face à une référence à des
+                termes rappelant une <hi rend="italic">shame culture
+                </hi>héroïque – quoique profondément complexe (sur la profonde
+                re-sémantisation des mots liés au code héroïque voir Blundell
+                1989, p. 199-200 ; Rose 1976, p. 76, p. 95-103).</p>
+              </note>. Ce fait est présent aussi aux vers 901-905, dont nous
+            avons déjà souligné la parenté avec les vers 79-82 :
+            « j’apparaîtrai infâme » (v. 905).</p>
+            <p xml:id="d1e796">On peut mesurer la portée de ce thème si l’on
+            considère la manière dont <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> met en
+            œuvre un détail du plan d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, à savoir, sa
+            présentation trompeuse comme un guerrier outragé par <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> et les Atrides,
+            à l’instar de <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>, une ruse
+            destinée à conquérir la sympathie de ce dernier (v. 319-390).
+            Ainsi raconte-t-il que, appelé à <placeName ref="298885" type="geonames" xml:base="https://www.geonames.org/">Troie</placeName> en tant que
+            fils d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>, une fois
+            arrivé sur le lieu les Atrides l’auraient privé des armes du père
+            en faveur d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, le dépossédant
+            ainsi, et publiquement, de la part qui lui revenait de droit.
+            Cela, en dépit du fait que l’armée entière l’avait salué, encore
+            une fois publiquement, comme le vrai fils d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> : « C’était
+            déjà le deuxième jour de ma navigation, et moi j’arrivais à l’âpre
+            Sigée grâce au vent favorable et à l’aviron ; de suite l’armée en
+            cercle autour de moi qui débarquais me fêtait, et ils juraient de
+            voir à nouveau <persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>, qui n’était
+            plus » (v. 354-358). Ce détail, emphatique, dans le récit de
+            <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> souligne
+            l’injustice de l’attribution des armes à <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>
+              <note n="35" place="foot" type="standard" xml:id="ftn35">
+                <p>Pour le caractère emphatique de la tournure voir Schein
+                2013, <hi rend="italic">ad loc.</hi>.</p>
+              </note>. Dans l’espace public, sur les champs de <placeName ref="298885" type="geonames" xml:base="https://www.geonames.org/">Troie</placeName>, <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> est reconnu
+            comme le fils d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>, comme
+            <persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> lui-même<note n="36" place="foot" type="standard" xml:id="ftn36">
+                <p>Un fragment non attribué : « tu n’es pas le fils d’Achille,
+                tu es Achille lui-même » (fr. 363 Kannicht).</p>
+              </note> : son statut est reconnu par le regard de la communauté,
+            ses droits devraient être respectés.</p>
+            <p xml:id="d1e821">À la lumière de ce détour, l’acte de <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> – « j’en
+            conviens, tu as montré la <foreign xml:lang="grc">φύσις</foreign>
+            dont tu as bourgeonné » – n’apparaît plus comme une simple
+            réconciliation entre deux personnes. <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName>, en tant
+            qu’homme qui partage les mêmes valeurs morales d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>, est le plus
+            adapté finalement à reconnaître, publiquement et de l’extérieur la
+            <foreign xml:lang="grc">φύσις</foreign>, la ressemblance de
+            <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> à son
+            père : non seulement en termes physiques, comme l’avait déjà fait
+            autrefois l’armée achéenne, mais à part entière<note n="37" place="foot" type="standard" xml:id="ftn37">
+                <p>Comme le souligne Vidal-Naquet, au cours de la tragédie,
+                Néoptolème change de statut, de παῖς – comme il est appelé un
+                grand nombre de fois – à ἀνήρ, terme qui le désigne deux
+                fois : une quand « il commence à avouer la ruse au moyen de
+                laquelle il avait piégé Philoctète, une seconde et dernière
+                fois par Hèraclès, à l’extrême fin de la pièce » (1972,
+                p. 172).</p>
+              </note>. C’est un acte de reconnaissance publique – peut-on
+            rappeler à cet égard que le chœur, formé par les marins qui ont
+            accompagné <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName>, est encore
+            sur scène ? – de l’identité filiale de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName>, qui fait
+            référence à un thème culturel plus large et qui est partie
+            prenante dans le tissu du drame sophocléen, au même titre que les
+            autres thématiques telle que l’opposition entre les paroles et les
+            actes qui interviennent dans la structuration de ce passage du
+            drame. C’est pour cela que nous avons proposé cet exemple comme
+            « un cas de validation de l’identité filiale ».</p>
+            <p xml:id="d1e830">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-amozg2da">démonstration</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique
+            corporelle<term ref="doi:10.34817/sv-mwsdfb7t">perception<term ref="doi:10.34817/sv-fwsea2pm">vision</term>
+                  </term>
+                </term>
+              </term>On
+            a vu donc comment se construit cet acte : qui en sont les acteurs,
+            quels sont les critères de jugement, quel contexte est requis.
+            Qu’en est-il de l’expression <foreign xml:lang="grc">τὴν φύσιν
+            δ’ἔδειξας</foreign>, sur laquelle le jugement s’appuie ? On
+            pourrait conclure que, dans ce contexte, le verbe <foreign xml:lang="grc">δείκνυμι</foreign> serait à comprendre sur le mode
+            de la métaphore, tout comme le verbe <foreign xml:lang="grc">ἐκφαίνω</foreign>. Dans la langue grecque – ainsi
+            qu’en français – plusieurs opérations intellectuelles se disent à
+            partir du lexique de la vision. « Savoir, connaître » peut se dire
+            « avoir vu », « faire savoir, faire connaître » c’est
+            « montrer »<note n="38" place="foot" type="standard" xml:id="ftn38">
+                <p>Naturellement on peut imaginer des situations où la
+                connaissance dérive d’une vision effective et des cas où le
+                sens est entièrement métaphorique, avec toute sorte de
+                situation intermédiaire : normalement, en fait, les
+                expressions tendent à se disposer à différents point du
+                continuum entre sens métaphorique et littéral, plutôt que à se
+                ranger nettement de l’un ou de l’autre côté. Certains cas sont
+                tout simplement ambigus, à cause de leur contexte : quand le
+                chœur de l’<hi rend="italic">Œdipe Roi se</hi> déclare
+                incapable d’indiquer (δεῖξαι, v. 278) à Œdipe le coupable du
+                meurtre de Laïos, par exemple, on ne peut pas savoir si le
+                verbe se réfèrerait à une argumentation ou à une monstration
+                directe, mais on peut soupçonner que les deux options auraient
+                été également viables.</p>
+              </note>. <foreign xml:lang="grc">Δείκνυμι</foreign> serait donc
+            une modalité de ce « montrer »/« faire savoir », une démonstration
+            particulièrement évidente, qui, métaphoriquement « met sous les
+            yeux »<note n="39" place="foot" type="standard" xml:id="ftn39">
+                <p>Les 29 occurrences du verbe δείκνυμι chez Sophocle (dans
+                les 7 tragédies qui nous sont parvenues dans leur intégralité)
+                montrent différentes sortes d’options. Là où le verbe indique
+                la source de connaissance qui permet d’étayer une affirmation
+                ou de valider un raisonnement, il fait référence à la
+                monstration d’un objet, d’un lieu ou d’une personne, ou bien à
+                l’observation d’un acte – qui est censé donner une évidence
+                plus solide à une démonstration conduite verbalement. Bien
+                rarement le verbe est utilisé en référence à une activité de
+                type principalement ou exclusivement verbale et ce n’est que
+                dans de circonstances particulières (cf. <hi rend="italic">Œdipe Roi</hi>, v.<hi rend="italic"> </hi>748 où
+                le discours est le seul moyen disponible de savoir ce qu’Œdipe
+                demande ; <hi rend="italic">Électre</hi>, v. 1366 où le
+                discours est suffisamment fiable pour valoir démonstration ;
+                dans les deux cas le verbe δείκνυμι insiste sur le dévoilement
+                d’une vérité longuement ignorée par un personnage, ou
+                difficile à comprendre). Par ailleurs, la monstration d’une
+                personne ou d’un objet peut avoir lieu en dehors de la
+                validation d’un raisonnement (voir Sophocle, <hi rend="italic">Ajax</hi>, v. 565-571 où Ajax, ayant l'intention
+                de mettre un terme à sa vie, demande que Teucros prenne soin
+                de son fils après sa mort et qu’il le montre (δείξει) aussi à
+                Télamon et Éribée, c’est-à-dire aux grands-parents du
+                petit).</p>
+              </note>. La métaphore se chargerait d’exprimer autant
+            l’opération intellectuelle que sa dimension publique. Quant à la
+            <foreign xml:lang="grc">φύσις</foreign>, même si le terme indique
+            très souvent l’aspect visible d’une personne, ici il ne serait pas
+            question de retenir ce sens du mot<note n="40" place="foot" type="standard" xml:id="ftn40">
+                <p>Par exemple : Sophocle, <hi rend="italic">Trachiniennes</hi>,<hi rend="italic"/>v. 375-379<hi rend="italic">.</hi>
+                </p>
+              </note>. Sorte d’hérédité morale, elle ne serait « visible » que
+            par le jeu de la métaphore de la connaissance comme vision.</p>
+          </div>
+        </div>
+        <div type="section1" xml:id="d1e876">
+          <head subtype="level1" xml:id="d1e878">La φύσις : une instance
+          visible de la personne ?</head>
+          <p xml:id="d1e881">Cependant, on peut se demander si cet effort de
+          répartir les sens des mots – vision métaphorique <hi rend="italic">versus</hi> vision réelle, <foreign xml:lang="grc">φύσις</foreign> « comportement » <hi rend="italic">versus </hi>une <foreign xml:lang="grc">φύσις</foreign> « aspect visible » – ne revient pas à
+          imposer aux textes des catégories qui ne lui appartiennent pas.</p>
+          <p xml:id="d1e890">Comme le remarque <persName type="_temp">Benveniste</persName> dans le <hi rend="italic">Vocabulaire des Institutions Indo-Européennes</hi>,
+          dans un passage qui reprend son article sur les mots latins <hi rend="italic">Liber</hi>/<hi rend="italic">liberi </hi>paru en 1936
+          dans la <hi rend="italic">Revue des Études Latines</hi>, plusieurs
+          mots qu’on peut faire remonter à des racines indo-européennes
+          indiquant la croissance d’une plante, finissent par signifier, par
+          la suite, la « figure », notamment l’apparence d’un être humain,
+          aussi bien qu'« une notion collective plus large telle que celle de
+          souche » (1966, p. 322-323). Il en est ainsi du mot <foreign xml:lang="grc">φύσις</foreign>, qui, dans la tragédie, se charge de
+          ces différents sens – et qui est issu d’une racine liée à la
+          croissance des êtres végétaux<note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>Le sens originaire de la racine indo-européenne *bhū, dont la
+              racine grecque φυ- dérive, fait l’objet de discussions. Les mots
+              issus de cette même racine et attestés dans les langues
+              indo-européennes appartiennent aux champs sémantiques du <hi rend="italic">devenir</hi> et du <hi rend="italic">développement
+              de la végétation</hi>, sans que l’on arrive à établir la
+              primauté de l’un sur l’autre (Burger 1925, p. 1 et Chantraine,
+              <hi rend="italic">s.v. </hi>soutiennent la primauté du sens
+              végétal ; Holwerda 1955, p. 108, est d’avis contraire). La
+              racine φυ- du grec nous met face à une situation du même ordre.
+              Plusieurs termes relatifs au monde de la végétation en
+              dérivent (φυτόν, φύλλη); en même temps, φύομαι semble se
+              superposer à εἰμὶ et γίγνομαι, avec le sens de « être » ou
+              « devenir ». Cependant, l’études des termes chez Homère permet
+              de soutenir que la racine φυ-, quel qu’ait été le sens de la
+              racine indo-européenne dont elle dérivait, était originairement
+              liée au monde de la croissance végétale.</p>
+            </note>. Il peut indiquer tout simplement l’aspect d’un
+          personnage, les traits par lesquels on peut le reconnaître. Il
+          indique aussi la naissance ou le lignage, un personnage peut dire
+          d’un autre qu’il est « de <foreign xml:lang="grc">φύσις</foreign>
+          royale »<note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>Voir par exemple Sophocle, <hi rend="italic">Œdipe Roi</hi>,
+              v. 740-743 (aspect) ; <hi rend="italic">Ajax</hi>, v. 1299-1300
+              (naissance/lignage).</p>
+            </note>. <foreign xml:lang="grc">Φύσις</foreign> est aussi un
+          caractère moral. Très souvent, <foreign xml:lang="grc">φύσις</foreign> se charge de plusieurs valeurs en
+          même temps. Dans les vers que nous venons de commenter, le sens de
+          caractère moral et de lien généalogique sont tout à fait évidents,
+          et impossibles à séparer. Qu’en est-il du troisième aspect, de la
+          visibilité directe, dans nos vers ? Un détour par un passage
+          homérique qui réunit le mot φύσις et le verbe <foreign xml:lang="grc">δείκνυμι</foreign> nous fournit des indices.</p>
+          <p xml:id="d1e936">Au chant X de l’<hi rend="italic">Odyssée</hi>,
+          <persName ref="027832309" type="idref" xml:base="https://www.idref.fr/">Hermès</persName> explique à
+          <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> la manière de se
+          protéger des pouvoirs de <persName type="_temp">Circée</persName>.
+          Ainsi qu’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> le raconte :</p>
+          <quote rend="quotation" xml:id="d1e942">Ayant parlé ainsi, <persName ref="027832309" type="idref" xml:base="https://www.idref.fr/">Hermès</persName> tueur d’<persName ref="238362280" type="idref" xml:base="https://www.idref.fr/">Argos</persName> me donna un
+          <foreign xml:lang="grc">φάρμακον</foreign>, après l’avoir arraché de
+          la terre, et il me montra (<foreign xml:lang="grc">ἔδειξε</foreign>) sa <foreign xml:lang="grc">φύσις</foreign>. Elle avait une racine noire, la
+          fleur ressemblait au lait : les dieux l’appellent <foreign xml:lang="grc">μῶλυ</foreign>, il est difficile à arracher pour les
+          hommes ; les dieux, au contraire, peuvent tout.</quote>
+          <p xml:id="d1e946">Qu’a donc montré <persName ref="027832309" type="idref" xml:base="https://www.idref.fr/">Hermès</persName> à
+          <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, quand il
+          lui montra la <foreign xml:lang="grc">φύσις</foreign> du <foreign xml:lang="grc">μῶλυ</foreign> ? Les commentateurs de ce texte se
+          partagent en général entre deux interprétations. Certains entendent
+          le passage comme « il m’a expliqué ses propriétés »<note n="43" place="foot" type="standard" xml:id="ftn43">
+              <p>C’est, par exemple, la position de Benvéniste, qui glose « il
+              me révéla la nature de cette plante » (1948, p. 78-79) ; de la
+              même opinion Heubeck 1989 <hi rend="italic"/>qui comprend
+              δείκνυμι au sens de « expliquer », et φύσις comme « le pouvoir
+              caché dans la plante ».</p>
+            </note> ; d’autres l’entendent comme « il m’en montra
+          l’apparence » – décrite au vers suivant, « elle avait une racine
+          noire et une fleur semblable au lait »<note n="44" place="foot" type="standard" xml:id="ftn44">
+              <p>W.B. Stanford (1984) assimile φύσις à φυή (qu’Homère utilise,
+              cependant, seulement en référence à des êtres humains) ;
+              D. Holwerda (1955, p. 68) traduit par le latin <hi rend="italic">species</hi>. Déjà Merry <hi rend="italic">et
+              al</hi>. (1886-1901) interprétaient la présence du verbe
+              δείκνυμι come preuve de l’aspect visible de la φύσις du μῶλυ.
+              M. Carastro (2006, p. 145) suggère de considérer que la φύσις du
+              μῶλυ est constituée par tous les éléments cités, à savoir « sa
+              racine, sa fleur et son nom ». Voir, dans le même sens,
+              M. Brouillet (2013) sur les rapports entre notation de la
+              couleur et emploi du nom que les dieux attribuent à la
+              plante.</p>
+            </note>. Comme dans les vers du <hi rend="italic">Philoctète</hi>,
+          on hésite entre deux sens différents : expliquer des propriétés <hi rend="italic">versus</hi> montrer une apparence. Dans les vers de
+          l’<hi rend="italic">Odyssée</hi>, cependant, on a de bonnes raisons
+          de penser que l’antithèse est mal placée. En effet, les notations de
+          couleur sont très rares chez <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>, elles
+          interviennent, normalement, pour signaler un aspect particulièrement
+          important ou saillant par rapport à la scène décrite<note n="45" place="foot" type="standard" xml:id="ftn45">
+              <p>Capponi 2009 ; cf. Vivante 1982, avec la recension d’Austin
+              1985.</p>
+            </note>. D’autre part, dans la tradition médicale grecque la
+          couleur joue un rôle fondamental. Non seulement elle permet
+          d’identifier correctement un remède aussi bien qu’une maladie, mais
+          même dans certains cas les propriétés d’un <foreign xml:lang="grc">φάρμακον</foreign> et sa couleur semblent
+          coïncider<note n="46" place="foot" type="standard" xml:id="ftn46">
+              <p>Le terme φάρμακον peut être employé directement pour indiquer
+              des couleurs, comme chez Hérodote, <hi rend="italic">Histoires</hi>, I, 98. Voir sur ce point Carastro
+              2006, p. 154-156 et Grand-Clément 2011, p. 43-44.</p>
+            </note>. C’est ainsi que l’auteur hippocratique du traité <hi rend="italic">Sur le régime</hi> peut conseiller des boissons
+          blanches pour le printemps et l’été, noires pour l’automne et
+          l’hiver (III, 68, 10, Joly). Ou encore l’auteur du <hi rend="italic">Mochlique</hi> peut formuler une liste d’attributs des
+          <foreign xml:lang="grc">φάρμακα</foreign> où propriétés et couleur
+          se mêlent : « secs, humides, rouges, noirs, blancs, astringents »
+          (IV, 380, Littré)<note n="47" place="foot" type="standard" xml:id="ftn47">
+              <p>Sur la couleur chez les médecins hippocratiques, voir Barra
+              2009, p. 160-161.</p>
+            </note>. Ici donc la <foreign xml:lang="grc">φύσις</foreign> du
+          <foreign xml:lang="grc">μῶλυ</foreign> est un aspect visible qui est
+          en rapport avec des propriétés essentielles, ou, plus précisément,
+          un aspect visible qui <hi rend="italic">est aussi</hi> des
+          propriétés essentielles que nous dirions d’ordre différent<note n="48" place="foot" type="standard" xml:id="ftn48">
+              <p>« Le soin dans la description de l’apparence chromatique de
+              la plante suggère qu’elle participe du pouvoir que la plante
+              recèle » : Grand-Clément 2011, p. 43.</p>
+            </note>.</p>
+          <p xml:id="d1e1016">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté</term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique
+          corporelle<term ref="doi:10.34817/sv-mwsdfb7t">perception<term ref="doi:10.34817/sv-fwsea2pm">vision</term>
+                </term>
+              </term>
+            </term>Ce
+          passage homérique nous amène à revenir sur le verbe <foreign xml:lang="grc">δείκνυμι</foreign>. Quoiqu’il ait une utilisation
+          plus large dans les sept tragédies de <persName ref="027143619" type="idref" xml:base="https://www.idref.fr/">Sophocle</persName>
+          qui nous sont parvenues entières, le verbe <foreign xml:lang="grc">δείκνυμι</foreign> apparaît dans le texte du <hi rend="italic">Philoctète</hi> dans des circonstances très précises,
+          trois fois, en plus des vers qui sont au centre de notre enquête. Il
+          est utilisé par <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> pour indiquer
+          son souhait d’être enfin rapatrié par <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName>
+          et de voir son père, ou plus précisément, d’« être montré à son
+          père » (v. 492). Plus tard, le verbe est employé par le faux
+          marchand – un des marins d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> – qui raconte
+          dans quelles circonstances les Grecs ont appris la prophétie
+          concernant l’arc de <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> : <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> avait fait
+          prisonnier le devin <persName type="_temp">Hélénos</persName>, en
+          l’exposant au milieu des Achéens comme une belle proie (<foreign xml:lang="grc">ἔδειξ' Ἀχαιοῖς ἐς μέσον, θήραν
+          καλήν</foreign> ; v. 609). <persName type="_temp">Hélénos</persName> avait alors prophétisé. C’est enfin
+          <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> qui reprend
+          peu après le verbe <foreign xml:lang="grc">δείκνυμι</foreign>, pour
+          exprimer la crainte de se voir pris lui aussi par <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> et « exposé... au
+          milieu des Grecs » (<foreign xml:lang="grc">δεῖξαι... ἐν
+          Ἀργείοις μέσοις</foreign>).</p>
+          <p xml:id="d1e1022">Dans les trois cas il s’agit d’un acte de
+          monstration directe et publique. C’est un être humain qui est exposé
+          au regard d’autrui. Dans les trois cas, l’enjeu est, au moins
+          partiellement, l’attribution d’un statut social : être réintégré à
+          sa place dans la maison familiale, être montré en tant que « belle
+          proie », être humilié au milieu des Grecs.</p>
+          <p xml:id="d1e1025">Pourrait-on voir, dans le vers 1310, un acte du
+          même ordre, c’est-à-dire une « vision directe » de la <foreign xml:lang="grc">φύσις</foreign> de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName> ? Si la
+          variété d’emplois du verbe <foreign xml:lang="grc">δείκνυμι</foreign> en dehors du <hi rend="italic">Philoctète </hi>ne permet pas d’étayer une telle
+          conclusion, son emploi dans la tragédie, l’occurrence homérique et
+          les particularités du mot <foreign xml:lang="grc">φύσις</foreign>
+          suggèrent tout de même de ne pas réduire, ou résoudre, la polysémie
+          de l’expression <foreign xml:lang="grc">ἔιδειξας τὴν
+          φύσιν</foreign>. Tout comme cela nous conduisait à saisir une
+          articulation de la visibilité propre au <foreign xml:lang="grc">φάρμακον</foreign>, différente de celle qu’on lui
+          aurait attribuée du premier abord, ne pas réduire la polysémie de
+          l’expression <foreign xml:lang="grc">τὴν φύσιν δ’ἔδειξας</foreign>
+          pourrait conduire à cerner une différente visibilité de la <foreign xml:lang="grc">φύσις</foreign> de <persName ref="074718460" type="idref" xml:base="https://www.idref.fr/">Néoptolème</persName>,
+          cette caractéristique qui semble le définir. On en revient ainsi à
+          ce que <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Jean-Pierre Vernant</persName> a
+          écrit au sujet de l’individu en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>. Dans l’essai
+          intitulé « L’individu dans la cité », qui clôt le recueil <hi rend="italic">L’individu, la mort, l’amour</hi>, <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Vernant</persName> rappelle que
+          l’expérience de l’individu grec, de son « moi », est autrement
+          appréhendée que la nôtre. « Surtout, cette expérience est orientée
+          vers le dehors, non vers le dedans. L’individu se cherche et se
+          trouve dans autrui, dans ces miroirs reflétant son image que sont
+          pour lui chaque <hi rend="italic">alter ego</hi>.... Le sujet est
+          extraverti »<note n="49" place="foot" type="standard" xml:id="ftn49">
+              <p>Vernant 1989, p. 224 ; 2007, p. 1465.</p>
+            </note>.</p>
+          <p xml:id="d1e1046">Cela ne remet pas en cause la structure de
+          l’acte de validation que <persName ref="027143619" type="idref" xml:base="https://www.idref.fr/">Sophocle</persName> construit dans
+          son <hi rend="italic">Philoctète</hi>, tel que nous l’avons analysé
+          dans les pages précédentes, en mettant en relief la manière dont il
+          se construit par rapport aux nœuds thématiques de la tragédie et au
+          modèle de validation de l’identité filiale. En ne réduisant pas
+          l’expression <foreign xml:lang="grc">τὴν φύσιν δ’ἔδειξας</foreign> à
+          la simple indication métaphorique d’une opération intellectuelle et
+          du contenu public de la validation de l’identité filiale – sans pour
+          autant nier que cela en soit un aspect fondamental – notre
+          compréhension de l’acte de validation accomplie par <persName ref="027572560" type="idref" xml:base="https://www.idref.fr/">Philoctète</persName> s’enrichit
+          d’un autre détail. Elle prend en compte aussi les caractéristiques
+          propres de ce qui est à valider, c’est-à-dire des idées grecques sur
+          ce que veut dire être un être humain.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e1057">
+        <head xml:id="d1e1059">Bibliographie</head>
+        <listBibl xml:id="d1e1062">
+          <bibl xml:id="d1e1064">Arrighetti G. (1991), « ΕΟΙΚΟΤΑ ΤΕΚΝΑ
+          ΓΟΝΕΥΣΙ. Etica eroica e continuità genealogica nell’epos greco »,
+          <hi rend="italic">SIFC </hi>84-2, p. 133-147.</bibl>
+          <bibl xml:id="d1e1070">Austin N. (1985), « Review : ‘The Epithets in
+          Homer : A Study in Poetic Values’ by Paolo Vivante », <hi rend="italic">CPh </hi>80-1, p. 67-69.</bibl>
+          <bibl xml:id="d1e1076">Barra E. (2009), « Des humeurs, des couleurs
+          et des remèdes dans le <hi rend="italic">Corpus
+          Hippocraticum</hi> », dans Carastro éd. 2009, p. 153-163.</bibl>
+          <bibl xml:id="d1e1082">Benveniste É. (1936), « Liber et Liberi »,
+          <hi rend="italic">REL</hi> 14, p. 51-58.</bibl>
+          <bibl xml:id="d1e1088">— (1948), <hi rend="italic">Noms d’agent et
+          noms d’action en indo-européen</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1095">— (1966), <hi rend="italic">Le Vocabulaire
+          des institutions indo-européennes</hi>, vol. 1, Paris.</bibl>
+          <bibl xml:id="d1e1101">Bettini M. (1992), <hi rend="italic">Il
+          ritratto dell’amante</hi>, Torino.</bibl>
+          <bibl xml:id="d1e1107">— (2008), « Il mito fra autorità e
+          discredito », <hi rend="italic">L’immagine riflessa</hi> 17,
+          p. 27-64.</bibl>
+          <bibl xml:id="d1e1113">Blundell M.W. (1989), <hi rend="italic">Helping Friends and Harming Enemies. A Study in
+          Sophocles and Greek Ethics</hi>, Cambridge.</bibl>
+          <bibl xml:id="d1e1119">Bonnard J.-B. (2004), <hi rend="italic">Le
+          Complexe de Zeus. Représentations de la paternité en Grèce
+          ancienne</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1125">— (2006a), « ‘Il paraît qu’en effet les fils
+          ressemblent aux pères’ », dans Prost F. et Wilgaux J. éd., <hi rend="italic">Penser et représenter le corps dans l’antiquité</hi>,
+          Rennes, p. 307-318.</bibl>
+          <bibl xml:id="d1e1132">— (2006b), « Représentations de la paternité
+          et de la filiation en Grèce ancienne », dans Bresson A. <hi rend="italic">et</hi>
+            <hi rend="italic">al.</hi> éd., <hi rend="italic">Parenté et société dans le monde grec de l’Antiquité à
+          l’âge moderne</hi>, Bordeaux, p. 121-130.</bibl>
+          <bibl xml:id="d1e1144">Bretin-Chabrol M. (2012), <hi rend="italic">L’Arbre et la Lignée. Métaphores végétales de la
+          filiation et de l’alliance en latin classique</hi>, Grenoble.</bibl>
+          <bibl xml:id="d1e1150">Brillante C. (2009), « Filottete : elementi
+          tradizionali, riprese e innovazioni sofoclee », <hi rend="italic">QUCC</hi> 93-3, p. 49-77.</bibl>
+          <bibl xml:id="d1e1156">Brouillet M. (2013), « Que disent les mots
+          des dieux ? », <hi rend="italic">Mètis</hi> N.S.11,
+          p. 147-181.</bibl>
+          <bibl xml:id="d1e1162">Burger A. (1925), <hi rend="italic">Les mots
+          de la famille de φύσις en grec ancien</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1168">Buxton R. (1982), <hi rend="italic">Persuasion in Greek Tragedy. A Study of Peitho</hi>,
+          Cambridge.</bibl>
+          <bibl xml:id="d1e1175">Campbell L. (1969), <hi rend="italic">Sophocles. The plays and the fragments</hi>,
+          Hildesheim.</bibl>
+          <bibl xml:id="d1e1181">Capponi M. (2009), « Lait blanc, vin rouge et
+          sang noir : l’utilisation stylistique des termes chromatiques »,
+          dans Carastro éd. 2009, p. 85-98.</bibl>
+          <bibl xml:id="d1e1184">Carastro M. (2006), <hi rend="italic">La Cité
+          des mages. Penser la magie en Grèce ancienne</hi>, Grenoble.</bibl>
+          <bibl xml:id="d1e1190">— éd. (2009), <hi rend="italic">L’Antiquité
+          en couleurs. Catégories, pratiques, représentations</hi>,
+          Grenoble.</bibl>
+          <bibl xml:id="d1e1196">Chantraine P. (1968-80), <hi rend="italic">Dictionnaire étymologique de la langue grecque</hi>,
+          Paris.</bibl>
+          <bibl xml:id="d1e1202">Dain A. et Mazon P. éd. (1960), <hi rend="italic">Sophocle. </hi>Tome 3 : <hi rend="italic">Philoctète
+          </hi>– <hi rend="italic">Œdipe à Colone</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1215">Easterling P.E. (1978), « <hi rend="italic">Philoctetes </hi>and modern criticism », <hi rend="italic">ICS</hi>, p. 27-39.</bibl>
+          <bibl xml:id="d1e1224">Garvie A.F. (1972), « Deceit, violence and
+          persuasion in the <hi rend="italic">Philoctetes</hi> », dans <hi rend="italic">Studi classici in onore di Quintino Cataudella</hi> 1,
+          Catania, p. 213-226.</bibl>
+          <bibl xml:id="d1e1233">Grand-Clément A. (2011), <hi rend="italic">La
+          Fabrique des couleurs</hi>. <hi rend="italic">Histoire du paysage
+          sensible des Grecs anciens, </hi>Paris.</bibl>
+          <bibl xml:id="d1e1242">Heubeck A. (1989), « Commentary on books
+          9-12 », dans Heubeck A., Hoekstra A. éd., <hi rend="italic">A
+          Commentary on Homer’s Odyssey</hi>, vol. 2, Oxford.</bibl>
+          <bibl xml:id="d1e1248">Holwerda D. (1955), <hi rend="italic">Commentatio de vocis quae est φύσις vi atque usu
+          praesertim in graecitate aristotele anteriore</hi>,
+          Groningae.</bibl>
+          <bibl xml:id="d1e1254">Kamerbeek J.C. (1980), <hi rend="italic">The
+          Plays of Sophocles : Commentaries</hi>.<hi rend="italic"> VI : The
+          Philoctetes</hi>, Leiden.</bibl>
+          <bibl xml:id="d1e1264">Knox B.M.W. (1964), <hi rend="italic">The
+          Heroic Temper</hi>, Berkeley-Los Angeles.</bibl>
+          <bibl xml:id="d1e1270">Jebb R.C. (1898), <hi rend="italic">Sophocles. The Plays and Fragments</hi>.<hi rend="italic"/>IV. <hi rend="italic">Philoctetes</hi>,
+          Cambridge.</bibl>
+          <bibl xml:id="d1e1281">Lentano M. (2007), <hi rend="italic">La prova
+          del sangue. Storie di identità e storie di legittimità nella cultura
+          latina</hi>, Bologna.</bibl>
+          <bibl xml:id="d1e1287">Merry W.W., Riddell J. et Monro D.B.
+          (1886-1901), <hi rend="italic">Homer’s Odyssey,</hi> Oxford.</bibl>
+          <bibl xml:id="d1e1293">Podlecki A.J. (1966), « The power of the word
+          in Sophocles’<hi rend="italic"> Philoctetes</hi> », <hi rend="italic">GRBS </hi>7, p. 233-250.</bibl>
+          <bibl xml:id="d1e1302">Pucci P. (2003), « Introduzione » et
+          « Commento » dans Avezzù G., Pucci P. et Cerri G., <hi rend="italic">Sofocle</hi>. <hi rend="italic">Filottete</hi>,
+          Milano.</bibl>
+          <bibl xml:id="d1e1312">Rose P. (1976), « Sophocles’<hi rend="italic"> Philoctetes</hi> and the teachings of the Sophists »,
+          <hi rend="italic">HSPh</hi> 80, p. 49-105.&#x2028;</bibl>
+          <bibl xml:id="d1e1321">Sahlins M. (2012), <hi rend="italic">What
+          Kinship Is – And Is Not</hi>, Chicago.</bibl>
+          <bibl xml:id="d1e1327">Schnebele A. (1988), <hi rend="italic">Die
+          epischen Quellen des sophokleischen Philoktet. Die Postiliaca im
+          frühgriechischen Epos</hi>, Karlsruhe.</bibl>
+          <bibl xml:id="d1e1333">Schein S. (2013), <hi rend="italic">Sophocles : Philoctetes</hi>, Cambridge.</bibl>
+          <bibl xml:id="d1e1339">Segal Ch. (1981), <hi rend="italic">Tragedy
+          and Civilization. An Interpretation of Sophocles</hi>, Cambridge
+          (Ma)-London.</bibl>
+          <bibl xml:id="d1e1345">— (1986), « Visual symbolism and visual
+          effects in Sophocles », dans <hi rend="italic">Interpreting Greek
+          Tragedy</hi>, Ithaca-London, p. 113-136.</bibl>
+          <bibl xml:id="d1e1352">Stanford W.B. (1984), <hi rend="italic">The
+          Odyssey of Homer</hi>, London-Melbourne-Toronto.</bibl>
+          <bibl xml:id="d1e1358">Taplin O. (1978), <hi rend="italic">Greek
+          Tragedy in Action</hi>, Cambridge.</bibl>
+          <bibl xml:id="d1e1364">Vernant J.-P. (1989), <hi rend="italic">L’individu, la mort, l’amour. Soi-même et l’autre en
+          Grèce ancienne</hi>,<hi rend="italic"/>Paris.</bibl>
+          <bibl xml:id="d1e1372">— (2007), <hi rend="italic">Œuvres</hi>,
+          Paris.</bibl>
+          <bibl xml:id="d1e1378">Vidal-Naquet P. (1972) « Le <hi rend="italic">Philoctète </hi>de Sophocle et l’éphébie », dans
+          Vernant J.-P. et Vidal-Naquet P., <hi rend="italic">Mythe et
+          tragédie en Grèce ancienne</hi>, Paris, pp. 159-184.&#x2028;</bibl>
+          <bibl xml:id="d1e1387">Visser T. (1998), <hi rend="italic">Untersuchungen zum sophokleieschen Philoktet</hi>,
+          Stuttgart-Leipzig.</bibl>
+          <bibl xml:id="d1e1394">Vivante P. (1982), <hi rend="italic">The
+          Epithets in Homer. A Study in Poetic Values,</hi>
+          New Haven-London.</bibl>
+          <bibl xml:id="d1e1400">West, M. L. (1978), <hi rend="italic">Hesiod.
+          </hi>Works and Days. <hi rend="italic">Edited with Prolegomena and
+          Commentary</hi>, Oxford.</bibl>
+          <bibl xml:id="d1e1409">Wilgaux J. (2006), « Corps et parenté en
+          Grèce ancienne », dans Prost F. et Wilgaux J. éd., <hi rend="italic">Penser et représenter le corps dans l’Antiquité</hi>,
+          Rennes, p. 333-349.</bibl>
+          <bibl xml:id="d1e1415">— (2010) « Consubstantiality, incest, and
+          kinship in ancient Greece », dans Rawson B. dir., <hi rend="italic">A Companion to Families in the Greek and Roman
+          Worlds</hi>, Oxford, p. 217-230.</bibl>
+          <bibl xml:id="d1e1421">Winnington-Ingram R.P. (1980), <hi rend="italic">Sophocles. </hi>
+            <hi rend="italic">An
+          Interpretation</hi>, Cambridge.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

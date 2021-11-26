@@ -1,0 +1,912 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-13T12:49:54.639+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_29_Bornemann">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Les legs de Julius Euting ou l’organisation
+        posthume d’un savoir</title>
+        <author role="aut">
+          <forename>Daniel</forename>
+          <surname>Bornemann</surname>
+          <idno type="IDREF">075198266</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Seconde édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/S7GHUWQB" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Les legs de Julius Euting ou l’organisation
+            posthume d’un savoir</title>
+            <idno type="DOI">https://doi.org/10.4000/rbnu.1351</idno>
+            <author>
+              <forename>Daniel</forename>
+              <surname>Bornemann</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <imprint>
+              <biblScope unit="issue">12</biblScope>
+              <biblScope unit="page">30-42</biblScope>
+              <date>2015</date>
+              <note type="url">https://journals.openedition.org/rbnu/1351</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-px4hzv7c">étiquette</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-h5xg2swx">collectionneur</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-qge35acp">collection
+          scientifique</term>
+              </term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>
+          </term>
+          <term>
+            <placeName ref="163808" type="geonames" xml:base="https://www.geonames.org/">Palmyre</placeName>
+          </term>
+          <term>
+            <placeName ref="293198" type="geonames" xml:base="https://www.geonames.org/">Jérusalem</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1870" to="1918" type="_temp">1870-1918</date>
+          </term>
+          <term>
+            <date type="_temp" when="1882-10">octobre 1882</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-01-23T16:03:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Les legs de Julius Euting ou l’organisation
+          posthume d’un savoir</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Daniel Bornemann</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e49">
+          <graphic url="https://didomena.ehess.fr/downloads/gb19f6506.jpg"/>
+          <head xml:id="d1e51">Figure 1 – Fragment d’inscription grecque de
+          Palmyre : dédicace d’un « bois sacré » en rapport avec les divinités
+          Aglibôl et Malakbel, avec mention de l’empereur Trajan. Début du
+          2<hi rend="sup">e</hi> siècle après J.-C. (coll. BNU)<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>Voir Jean-Baptiste Yon, in <hi rend="italic">Inscriptions
+              grecques et latines de la Syrie</hi>. Tome XVII, <hi rend="italic">Palmyre</hi>, p. 293.</p>
+            </note>.</head>
+        </figure>
+        <p xml:id="d1e66">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-h5xg2swx">collectionneur</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-dxrkz9am">papyrus</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-qge35acp">collection
+        scientifique</term>
+              </term>
+            </term>
+          </term>Les collections antiques de la
+        BNU sont une des facettes les plus marquantes de la bibliothèque et
+        déterminent une part de son aura. Le monde des sciences de
+        l’<date>Antiquité</date> ne peut ignorer l’existence de cette
+        institution, et les savants du monde entier fréquentent ses fonds
+        papyrologiques et égyptologiques. À l’origine de cette collection, on
+        trouve un mode de fonctionnement efficace, le « Cartel allemand des
+        papyrus », et associées à ce cartel, des personnalités comme <persName ref="061090697" type="idref" xml:base="https://www.idref.fr/">Wilhelm
+        Spiegelberg</persName>, <persName ref="06855074X" type="idref" xml:base="https://www.idref.fr/">Richard Reitzenstein</persName> ou
+        encore <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Julius Euting</persName>, animateur
+        de l’antenne strasbourgeoise qui allait devenir le centre de ce
+        groupement d’achats. <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Julius Euting</persName>, savant et
+        collectionneur, a aussi pourvu la Kaiserliche Universitäts-und
+        Landesbibliothek (KULB, ancêtre de la BNU), à côté de papyrus ou
+        d’ostraca en nombre, d’une importante collection de documents et
+        d’inscriptions en langues sémitiques anciennes. Nous tenterons ici de
+        retracer l’histoire de son legs, en en présentant le contenu et les
+        ambitions.</p>
+        <div type="section1" xml:id="d1e68">
+          <head subtype="level1" xml:id="d1e69">Trente ans de
+          réflexions</head>
+          <p xml:id="d1e71">Pour qui connaît un peu l’histoire de la BNU,
+          <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Julius Euting</persName> n’est pas
+          un inconnu. Toute présentation de la bibliothèque, tout écrit sur
+          ses collections précieuses, mentionnent ce personnage fondamental
+          pour l’institution. <hi rend="italic">La Revue de la BNU </hi>a
+          d’ailleurs, dans son second numéro et sous la plume de <persName ref="11185671X" type="idref" xml:base="https://www.idref.fr/">Christophe Didier</persName>,
+          dressé un portrait de ce fondateur<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>« Portrait d’un fondateur : Julius Euting », par Christophe
+              Didier, in <hi rend="italic">La Revue de la BNU</hi>, n<hi rend="sup">o</hi> 2, automne 2010, p. 104-115.</p>
+            </note>. Nommé conservateur à la bibliothèque dès sa création,
+          <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Julius Euting</persName> y fit une
+          carrière de près de quarante années. Et c’est après dix ans de
+          présence à la KULB que se fit jour en lui le projet de transmettre à
+          la bibliothèque une partie de ses collections. À partir d’<date type="_temp" when="1882-10">octobre 1882</date> débutèrent les
+          échanges épistolaires avec le directeur de l’institution, <persName ref="032828454" type="idref" xml:base="https://www.idref.fr/">Karl
+          August Barack</persName>, en vue de cette donation, idée qui évolua
+          vers un legs à la mort d’<persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName>. Les archives de
+          la bibliothèque, pour la période entre <date from="1870" to="1918" type="_temp">1870 et 1918</date>, contiennent le dossier de ce legs,
+          riche de 74 feuillets et dont l’amplitude temporelle va de <date from="1882" to="1917" type="_temp">1882 à 1917</date>
+            <note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Dossier AL 51,93, intitulé « Schenkung einer Inschriften
+              Sammlung durch prof. hon. Dr. Euting ». Anciennes cotes : XX C
+              13 et 104b-93.</p>
+            </note> – mais sans doute des échanges verbaux entre le directeur
+          <persName ref="032828454" type="idref" xml:base="https://www.idref.fr/">Barack</persName> et son adjoint
+          <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> avaient-ils déjà
+          eu lieu antérieurement.</p>
+          <p xml:id="d1e90">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+              </term>
+            </term>Le
+          projet de <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Julius Euting</persName> était de
+          donner, de son vivant, ses collections à la bibliothèque, afin de
+          leur garantir une survie. Mais il entendait dans un premier temps
+          qu’elles demeurent à sa disposition, entreposées chez lui jusqu’à sa
+          mort. Il résidait alors dans le Palais Rohan – dénommé « <foreign xml:lang="deu">Altes Schloss</foreign> » à l’époque – qui, jusqu’à
+          l’ouverture du nouveau bâtiment de la place de la République,
+          abritait également la bibliothèque et en partie l’Université de
+          <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>. Un acte
+          notarié, daté du <date type="_temp" when="1883-04-21">21 avril
+          1883</date>, fut établi en ce sens par le notaire <persName type="_temp">Constanz Schmitz</persName>
+            <note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Intitulé « Schenkung », de 7 pages sur papier timbré, f.
+              15-21 du dossier mentionné ci-dessus.</p>
+            </note> de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>.
+          <persName ref="032828454" type="idref" xml:base="https://www.idref.fr/">Barack</persName> en remercia son
+          ami par plusieurs lettres au cours des mois suivants, de mai à
+          juillet. Cette donation concernait « les copies d’inscriptions
+          sémitiques anciennes sur des monuments en pierre, les monnaies, les
+          gemmes, les estampages sur papier, les moulages en plâtre, les
+          empreintes sur étain, les photographies, les dessins », et l’acte
+          précisait que le Sénat académique avait donné son accord. En effet,
+          <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> était aussi
+          professeur honoraire à l’université et la question avait dû se poser
+          de la meilleure destination de sa collection. Les courriers et
+          documents des années <date from="1882" to="1883" type="_temp">1882
+          et 1883</date> reviennent sur la préoccupation d’une bonne
+          conservation d’objets de natures très diverses, et pour certains
+          d’une grande fragilité. C’est cet aspect qui détermina le choix de
+          la bibliothèque pour le don de la collection. <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> rédigea
+          d’importantes recommandations à l’intention de ses successeurs
+          concernant la préservation de ses trésors. L’université, par la voix
+          de son recteur, exigea quant à elle un certificat officiel
+          garantissant un droit d’accès et de consultation des collections.
+          <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> avait d’ailleurs
+          une conception ouverte de leur usage : les enseignants par exemple
+          pouvaient les emprunter pour les étudier.</p>
+          <p xml:id="d1e96">Les choses restèrent donc en l’état jusqu’au décès
+          du savant, qui survint le <date type="_temp" when="1913-01-02">2 janvier 1913</date> : <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName>
+          vivait environné de sa collection d’inscriptions et les éditait dans
+          le cadre du <hi rend="italic">Corpus inscriptionum
+          semiticarum</hi>
+            <note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Habituellement abrégé en « CIS », projeté par l’Académie des
+              inscriptions et belles lettres, depuis 1867, sous l’impulsion
+              d’Ernest Renan, et dont le premier volume parut en 1881.</p>
+            </note>. Cet ouvrage monumental envisageait de recueillir la
+          totalité des inscriptions en langues sémitiques anciennes encore
+          conservées et l’aire linguistique étudiée par <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> correspondait
+          parfaitement à son périmètre : le phénicien, le punique et le
+          néo-punique, l’araméen, le palmyrénien, le nabatéen, l’hébreu, le
+          sabéen, le lihyanite ou encore le safaïtique. Le même corpus éditait
+          également des inscriptions auprès de l’Académie des sciences de
+          <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>, dans la
+          série des <hi rend="italic">Mélanges épigraphiques</hi>
+            <note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>
+                <hi rend="italic">Epigraphische Miscellen</hi>, faisant
+              partie des <hi rend="italic">Sitzungsberichte der Berliner
+              Akademie</hi>.</p>
+            </note>.</p>
+          <p xml:id="d1e115">En <date type="_temp" when="1908">1908</date>,
+          bien après le décès de <persName ref="032828454" type="idref" xml:base="https://www.idref.fr/">Barack</persName> survenu en <date type="_temp" when="1900">1900</date>, et alors qu’<persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> prenait sa
+          retraite, il révisa une dernière fois son testament et prit
+          d’ultimes dispositions concernant ses biens. Il y confirma la
+          bibliothèque comme destinataire des estampages, photographies,
+          moulages en plâtre, copies de monnaies en plâtre, cire, métal. Les
+          archives institutionnelles de la BNU conservent une photographie de
+          ce testament<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Dossier AL 50,93, f. 73-74. Daté du 22 janvier 1898, révisé
+              en 1903, 1906, 1907 et 1908.</p>
+            </note>. À sa mort, c’est son frère <persName ref="232945659" type="idref" xml:base="https://www.idref.fr/">August</persName> qui
+          s’occupa de sa succession et du transfert des objets à la
+          bibliothèque.<hi rend="bold"/>
+          </p>
+          <figure xml:id="d1e123">
+            <graphic url="https://didomena.ehess.fr/downloads/qj72p775s.jpg"/>
+            <graphic url="https://didomena.ehess.fr/downloads/d217qq245.jpg"/>
+            <head xml:id="d1e125">Figure 2 – Copie d’un « Titulus »
+            carthaginois dont l’original se trouve à la British Library (coll.
+            BNU)<note n="8" place="foot" type="standard" xml:id="ftn8">
+                <p>Adresse permanente : <ref target="http://idb.ub.uni-tuebingen.de/diglit/Md676">
+                    <hi rend="underline">http://idb.ub.uni-tuebingen.de/diglit/Md676</hi>
+                  </ref>.</p>
+              </note>.</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e135">
+          <head subtype="level1" xml:id="d1e136">La dispersion raisonnée d’un
+          ensemble</head>
+          <p xml:id="d1e138">Entre l’Université de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> et la
+          KULB, le partage devait se faire conformément à ce dernier
+          testament. Les documents antiques de grande taille comme les autels
+          et inscriptions sur pierre étaient destinés à l’université : ils
+          sont cependant aujourd’hui conservés à la BNU. Sans doute le
+          transfert ne se fit-il jamais, et le lieu de conservation final
+          fut-il jugé plus approprié pour des documents porteurs de supports
+          d’écriture. Mais au-delà du contexte strasbourgeois, <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Julius
+          Euting</persName> a honoré de ses dons un grand nombre
+          d’institutions, d’amis ou de membres de sa famille. Avec <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, deux
+          autres cités recueillirent ainsi une part de son héritage :
+          <placeName ref="2825297" type="geonames" xml:base="https://www.geonames.org/">Stuttgart</placeName>, où il
+          naquit et fit ses études secondaires, et <placeName ref="2820860" type="geonames" xml:base="https://www.geonames.org/">Tübingen</placeName>, où il
+          poursuivit ses études supérieures en théologie et philologie
+          orientale et débuta dans son métier de bibliothécaire. Ainsi le
+          musée d’ethnologie de <placeName ref="2825297" type="geonames" xml:base="https://www.geonames.org/">Stuttgart</placeName>, le
+          Linden-Museum – du nom de son fondateur –, créé en <date type="_temp" when="1911">1911</date>, hérita un très bel ensemble
+          d’objets orientaux. Il accueillit les collections appartenant au
+          Verein für Handelsgeographie (fondation sise à <placeName ref="2825297" type="geonames" xml:base="https://www.geonames.org/">Stuttgart</placeName> et dont
+          <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> était membre
+          honoraire), constituées d’environ 400 objets de la vie quotidienne
+          des pays arabes et proche-orientaux qu’<persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName>
+          avait visités, et qui forment le coeur des collections actuelles.
+          Cette transmission se fit à la faveur d’une ultime révision de son
+          testament. Les membres même de sa famille augmentèrent à leur tour,
+          par des dons d’objets qui leur étaient échus par héritage, les
+          collections de ce musée. À la fin de la <date>Seconde Guerre
+          mondiale</date>, deux tiers des objets qui y étaient conservés
+          disparurent. Cet ensemble amputé n’en reste pas moins remarquable,
+          et sa redécouverte progressive, notamment à l’occasion du centenaire
+          de la mort d’<persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> en <date type="_temp" when="2013">2013</date>, a passionné plus d’un
+          spécialiste.</p>
+          <p xml:id="d1e140">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image<term ref="doi:10.34817/sv-dujlzfqq">dessin</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-4skusyqu">carnet</term>
+                </term>
+              </term>
+            </term>La
+          bibliothèque de l’Université Eberhard Karl de <placeName ref="2820860" type="geonames" xml:base="https://www.geonames.org/">Tübingen</placeName> a, quant à
+          elle, hérité les très intéressants et très beaux carnets de notes et
+          de croquis que constituent les journaux de voyages du savant. Il
+          s’agit de 26 carnets de textes et d’écrits et de 10 carnets de
+          croquis que l’on peut lire et découvrir de manière virtuelle sur
+          Internet<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Publié par Euting dans <hi rend="italic">Punische
+              Steine</hi>, p. 6-8 et pl. 12. Référence au <hi rend="italic">Corpus inscriptionum semiticarum </hi>(CIS) 175.
+              Tome 1, p. 269-270.</p>
+            </note>. Ils rendent compte des voyages effectués entre <date from="1869" to="1905" type="_temp">1869 et 1905</date> et souvent
+          révèlent les circonstances de la découverte ou de l’achat de tel ou
+          tel objet ou document, les remettant ainsi dans leur contexte.</p>
+          <p xml:id="d1e152">La bibliothèque personnelle de <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Julius
+          Euting</persName>, quant à elle, n’intégra pas une collection
+          publique. Elle fut mise en vente chez un libraire de <placeName ref="6548737" type="geonames" xml:base="https://www.geonames.org/">Leipzig</placeName>, <persName ref="189535261" type="idref" xml:base="https://www.idref.fr/">Gustav
+          Fock</persName>, qui fit paraître un catalogue sans indication de
+          date. Sans doute le directeur de la KULB avait-il veillé à ce que
+          les livres les plus intéressants ou les plus rares soient présents
+          dans le catalogue de la bibliothèque avant son départ.</p>
+          <p xml:id="d1e154">Quant à la collection des poids et estampilles
+          musulmans en verre (ce qu’il nomme sa collection de « <foreign xml:lang="deu">Glasmünzen</foreign> » ou « <foreign xml:lang="deu">Glasgewichten</foreign> », déjà évoquée dans le n<hi rend="sup">o</hi> 2 de <hi rend="italic">La Revue de la BNU</hi>),
+          dont <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> était très fier,
+          il ne la légua point mais suggéra de la mettre en vente afin que le
+          cabinet numismatique de la bibliothèque, celui de <placeName ref="2825297" type="geonames" xml:base="https://www.geonames.org/">Stuttgart</placeName> ou celui
+          de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName> s’en portent
+          acquéreurs. La somme à laquelle il l’estimait était de 2 400 marks.
+          C’est finalement la bibliothèque de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> qui en
+          fit l’acquisition.</p>
+          <p xml:id="d1e162">Les monnaies, sous la forme d’espèces
+          trébuchantes ou de copies en étain ou en cire, eurent en revanche un
+          destin moins clair. Le testament les destinait à la KULB, mais on
+          n’en trouve plus trace dans les fonds numismatiques de la BNU. On
+          repère bien une unique monnaie arabe donnée par <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> en <date type="_temp" when="1883">1883</date>, mais point de copies en cire
+          ou en étain, comme celles mentionnées dans le testament.
+          L’Université de <placeName ref="2820860" type="geonames" xml:base="https://www.geonames.org/">Tübingen</placeName> et son
+          Institut de numismatique islamique fournissent une réponse partielle
+          à ces interrogations. Les monnaies anciennes seraient restées entre
+          les mains de la famille d’<persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> et une
+          descendante en aurait fait don au fonds numismatique de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>
+            <note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Aujourd’hui Münzkabinett der Staatlichen Museen zu Berlin,
+              Preussischer Kulturbesitz. Communication de Lutz Ilisch,
+              Université de Tübingen, Institut de numismatique islamique
+              (Münzsammlung der islamischen Numismatik).</p>
+            </note>. La trace de ce don s’est perdue après <date type="_temp" when="1945">1945</date>. <placeName ref="2820860" type="geonames" xml:base="https://www.geonames.org/">Tübingen</placeName> possède
+          par ailleurs une petite collection issue d’un don de familiers
+          d’<persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName>, contenant des
+          monnaies plutôt récentes, avec quelques frappes plus rares.</p>
+          <p xml:id="d1e168">Enfin, ce dernier mit en place aussi une sorte de
+          fondation (avec le don d’un capital de 500 marks) destinée à honorer
+          sa mémoire auprès de l’emplacement où il avait souhaité que ses
+          cendres soient enterrées. Elle devait permettre l’entretien du lieu
+          (près du Ruhestein, dans la Forêt-Noire) et d’offrir à chaque
+          visiteur une boisson (un café noir) à l’auberge située tout près.
+          <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> entretenait en
+          effet un lien privilégié avec les montagnes, Vosges ou Forêt-Noire,
+          et la ville de <placeName ref="6558085" type="geonames" xml:base="https://www.geonames.org/">Freudenstadt</placeName>, dans
+          le <placeName ref="2953481" type="geonames" xml:base="https://www.geonames.org/">Bade-Wurtemberg</placeName>,
+          abrite elle aussi en son musée une petite section consacrée à
+          <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName>.</p>
+          <p xml:id="d1e170">Ce dernier, qui n’avait pas de descendance
+          directe, n’oublia pas sa famille, qui hérita de meubles et d’objets
+          divers. Celle-ci travaille aujourd’hui à faire vivre sa mémoire, aux
+          côtés des diverses institutions culturelles déjà évoquées. Sa
+          mémoire scientifique se perpétue également : la « Julius Euting
+          Gesellschaft » fait vivre son héritage par-delà les frontières.</p>
+          <p xml:id="d1e172">On voit donc qu’<persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> a eu
+          le souci de répartir au mieux ses biens entre les diverses
+          institutions qui pouvaient les accepter et les mettre
+          scientifiquement en valeur. Cette répartition, fondée
+          essentiellement sur les lieux marquants de la vie du savant, assure
+          encore de nos jours la notoriété du personnage. Cette manière
+          nuancée de donner ou léguer son capital scientifique est bien celle
+          d’un savant, soucieux de faire aboutir à la plus juste place le
+          résultat de son travail.</p>
+          <figure xml:id="d1e174">
+            <graphic url="https://didomena.ehess.fr/downloads/k643b205b.jpg"/>
+            <head xml:id="d1e176">Figure 3 – Sceau probablement hittite, avec
+            son étiquette de la main d’Euting, sans indication de date (coll.
+            BNU).</head>
+          </figure>
+          <figure xml:id="d1e178">
+            <graphic url="https://didomena.ehess.fr/downloads/gx41mj565.jpg"/>
+            <head xml:id="d1e180">Figure 4 – Petits outils en pierre taillée
+            trouvés dans le désert près de Mshatta (coll. BNU).</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e182">
+          <head subtype="level1" xml:id="d1e183">Les objets
+          archéologiques</head>
+          <p xml:id="d1e185">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+                </term>
+              </term>
+            </term>Son
+          activité de conservateur ne l’empêcha pas, nous l’avons dit, de
+          poursuivre ses recherches sur les langues sémitiques et sur
+          l’épigraphie. Ceci eut pour effet de l’amener à effectuer
+          d’importants voyages et à entretenir une correspondance scientifique
+          avec ses collègues épigraphistes. Ces activités le mirent en
+          relation directe avec les personnes ou les institutions des régions
+          sur lesquelles il travaillait : le Proche-Orient, le Maghreb et
+          l’espace méditerranéen. Il se mit naturellement à collectionner les
+          inscriptions (originales, moulages, estampages, copies,
+          photographies), mais aussi les objets non porteurs d’écritures,
+          qu’on lui offrait en gage d’amitié.</p>
+          <p xml:id="d1e187">Sur la collection de 252 objets ayant
+          vraisemblablement appartenu à <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName>, environ 60 lui
+          ont été offerts par des connaissances, soit environ un quart
+          – proportion qui pourrait être revue à la hausse si l’on disposait
+          de plus d’informations sur ces objets et leur provenance. Très peu
+          d’entre eux ont un rapport direct avec l’épigraphie, pourtant sa
+          préoccupation majeure. Ainsi, en <date type="_temp" when="1864">1864</date>, il reçut de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>, de la part
+          de <persName type="_temp">Rodolf Schuck</persName>, une tête
+          d’<persName ref="031428800" type="idref" xml:base="https://www.idref.fr/">Anubis</persName>, en bois,
+          antiquité égyptienne authentique qui servait sans doute de bouchon à
+          un vase canope. En <date type="_temp" when="1867">1867</date>, un
+          certain <persName type="_temp">Rhoussopoulos</persName> lui offrit
+          tout un ensemble d’objets issus de fouilles effectuées dans une
+          tombe d’enfants de <placeName ref="259289" type="geonames" xml:base="https://www.geonames.org/">Corinthe</placeName> : deux
+          statuettes de déesses mères, trois patènes et trois sortes de
+          gobelets en terre cuite décorée, un kylix à décor floral et un poids
+          grec conique. L’année suivante, en <date type="_temp" when="1868">1868</date>, une hache de pierre de Scyène lui est
+          donnée par A. <persName type="_temp">W. Kuhn</persName>, de
+          <placeName ref="2820860" type="geonames" xml:base="https://www.geonames.org/">Tübingen</placeName> et une
+          coupe étrusque en bucchero, de forme kylix, lui est donnée par un
+          dénommé <persName type="_temp">Palmer</persName>. En <date type="_temp" when="1869">1869</date>, une certaine <persName type="_temp">Frau Wilhelmi</persName> lui envoie un carreau de
+          faïence décoré de l’Alhambra de <placeName ref="6357709" type="geonames" xml:base="https://www.geonames.org/">Grenade</placeName> tandis
+          qu’il reçoit de la part du consul <persName type="_temp">A. Nask-Kolb</persName> de <placeName ref="3169069" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> un fragment de
+          fresque romaine. Et un certain <persName type="_temp">Dumergue</persName>, de <placeName ref="2464470" type="geonames" xml:base="https://www.geonames.org/">Tunis</placeName>, lui offre
+          une pierre blanche en forme d’oeuf. De fait, en <date type="_temp" when="1869">1869</date>, <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> effectue un
+          voyage en Méditerranée qui le mène entre autres à <placeName ref="3169069" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> et à
+          <placeName ref="2464470" type="geonames" xml:base="https://www.geonames.org/">Tunis</placeName> : ces dons
+          sont pour partie le fait de personnes qu’il a rencontrées durant ses
+          voyages.</p>
+          <p xml:id="d1e189">Un collègue, <persName type="_temp">Ludwig
+          Müller</persName>, lui fait don d’un fragment de marbre blanc
+          provenant du palais de <persName ref="028715195" type="idref" xml:base="https://www.idref.fr/">Tibère</persName> sur le Palatin
+          en <date type="_temp" when="1875">1875</date>. À la faveur d’un
+          nouveau voyage effectué en <date from="1882" to="1883" type="_temp">1882-1883</date>, de nouveaux dons lui sont faits.
+          L’archimandrite <persName type="_temp">Antoninos</persName>, attaché
+          au culte russe de <placeName ref="146669" type="geonames" xml:base="https://www.geonames.org/">Chypre</placeName>, lui offre
+          un petit objet en forme de tige de papyrus, qu’on peut identifier
+          comme un papyrus-sceptre miniature, en provenance d’<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>. Un certain
+          <persName type="_temp">Alexandre Meletopoulos</persName> lui donne
+          un vase lécythe à fond blanc, entier, provenant du <placeName ref="255274" type="geonames" xml:base="https://www.geonames.org/">Pirée</placeName>. En <date type="_temp" when="1886">1886</date>, il reçoit d’<persName type="_temp">Otto Blass</persName>, de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>, deux pièces
+          d’albâtre et une amulette persane trouvées à <placeName ref="95445" type="geonames" xml:base="https://www.geonames.org/">Erbil</placeName>, en
+          <placeName ref="99237" type="geonames" xml:base="https://www.geonames.org/">Irak</placeName>. En <date type="_temp" when="1890">1890</date>, <persName ref="197086659" type="idref" xml:base="https://www.idref.fr/">Marcopoli</persName>,
+          d’<placeName ref="170063" type="geonames" xml:base="https://www.geonames.org/">Alep</placeName>, lui fait
+          cadeau de trois plaquettes de terre cuite représentant le dieu
+          <persName ref="080488323" type="idref" xml:base="https://www.idref.fr/">Sol</persName> et d’une applique
+          également de terre cuite à deux trous, représentant deux oiseaux
+          affrontés, petits objets provenant de <placeName ref="163808" type="geonames" xml:base="https://www.geonames.org/">Palmyre</placeName>.</p>
+          <p xml:id="d1e191">Les dons viennent de tous horizons : d’Amérique
+          centrale lui parviennent en <date type="_temp" when="1891">1891</date>, donnés par un certain <persName type="_temp">H. Dorner</persName>, un pot aztèque de couleur noire,
+          une tête souriante modelée en terre et un sifflet de terre. Une
+          hache de pierre des Indiens du <placeName ref="5279468" type="geonames" xml:base="https://www.geonames.org/">Wisconsin</placeName>
+          s’ajoutera à cette petite série de l’ancien « Nouveau monde », à une
+          date qu’il n’a pas pris soin de noter, offerte par <persName type="_temp">Mrs Notz</persName>, de <placeName ref="7219099" type="geonames" xml:base="https://www.geonames.org/">Waterstone</placeName>,
+          appartenant à une famille proche de <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Julius
+          Euting</persName>.</p>
+          <p xml:id="d1e193">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-vdg9xj5e">pratique rituelle<term ref="doi:10.34817/sv-up6jq7dv">divination</term>
+              </term>
+            </term>De <date from="1892" to="1903" type="_temp">1892 à 1903</date>, il reçoit
+          successivement deux objets de bronze égyptiens de la part de
+          <persName type="_temp">Friedrich Reussner</persName>, bibliothécaire
+          strasbourgeois ; une coupe divinatoire portant des inscriptions en
+          pelhévi d’<persName ref="033407754" type="idref" xml:base="https://www.idref.fr/">Henri Pognon</persName>,
+          assyriologue ; quelques lampes à huile, un fragment de tissu brodé
+          copte d’Akhmim et des amulettes arabes de son ami <persName ref="055796443" type="idref" xml:base="https://www.idref.fr/">Robert
+          Forrer</persName> ; une copie d’un poids babylonien de <placeName ref="92878" type="geonames" xml:base="https://www.geonames.org/">Ninive</placeName> conservé au
+          British Museum de la part de l’égyptologue <persName ref="131198602" type="idref" xml:base="https://www.idref.fr/">Balthasar
+          Pörtner</persName> ; une chaussure juive appelée Chaliza-Schuh et
+          datée du <date from="1600" to="1699" type="_temp">17<hi rend="sup">e</hi> siècle</date>, de la part d’une connaissance de
+          <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort-sur-le-Main</placeName>
+          dont le nom est peu lisible (Freymann ?) ; un vase de verre de Jaffa
+          de petite taille, mais en très bel état, un masque mortuaire grec en
+          provenance de <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Sykaminou</placeName>
+          (<placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>) d’un certain
+          <persName type="_temp">M. Graf</persName>, Viennois, et un collier
+          égyptien, don de la Société orientale d’<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> (Deutsche
+          Orient-Gesellschaft).</p>
+          <p xml:id="d1e198">Ce sont enfin de menus objets originaires de
+          <placeName ref="293198" type="geonames" xml:base="https://www.geonames.org/">Jérusalem</placeName> ou de
+          <placeName ref="6254930" type="geonames" xml:base="https://www.geonames.org/">Palestine</placeName> qui lui
+          parviennent : d’une <persName type="_temp">Frau Dr.
+          Ensler</persName>, un petit jouet juif en terre cuite portant un
+          caractère hébreu ; de <persName type="_temp">M. Yehouda</persName>
+          d’<placeName ref="7870658" type="geonames" xml:base="https://www.geonames.org/">Hébron</placeName>, un petit
+          récipient antique en verre. La série se termine avec les faux
+          moabitiques<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Voir à ce sujet la page web signée par Frédéric Blin : <ref target="http://www.bnu.fr/collections/le-tresor-du-mois/les-tresors-de-annee-2014/decembre-2014-deux-statues-faux-moabitiques-de-la-fin-du-19e-siecle">
+                  <hi rend="underline">http://www.bnu.fr/collections/le-tresor-du-mois/les-tresors-de-annee-2014/decembre-2014-deux-statues-faux-moabitiques-de-la-fin-du-19e-siecle</hi>
+                </ref>.</p>
+            </note> envoyés par les Königliche Museen de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>.</p>
+          <figure xml:id="d1e208">
+            <graphic url="https://didomena.ehess.fr/downloads/hx11xf89c.jpg"/>
+            <head xml:id="d1e210">Figure 5 – Reproduction photographique d’un
+            papyrus par le célèbre papyrologue Ibscher de Berlin, avec
+            restitution de la technique de pliage et de scellé (coll.
+            BNU).</head>
+          </figure>
+          <figure xml:id="d1e212">
+            <graphic url="https://didomena.ehess.fr/downloads/fn106z779.jpg"/>
+            <head xml:id="d1e214">Figure 6 – Moulage en plâtre réalisé à
+            partir d’un estampage sur papier d’un texte votif carthaginois
+            (coll. BNU).</head>
+          </figure>
+          <p xml:id="d1e216">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion<term ref="doi:10.34817/sv-nz49agmg">curiosité</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-kpbl3dgr">bureau</term>
+              </term>
+            </term>Cette
+          liste n’est pas exhaustive, elle aurait été bien fastidieuse.
+          Néanmoins, elle renseigne et donne un aperçu sur le caractère
+          éclectique de cette partie de la collection apparentée à un
+          gigantesque cabinet de curiosités et plutôt inattendue dans une
+          bibliothèque. On recense d’ailleurs aussi dans cet ensemble des
+          « trouvailles » effectuées par <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Julius
+          Euting</persName> lui-même au cours de ses voyages : l’époque
+          autorisait que l’on s’approprie ainsi des objets d’intérêt
+          scientifique et l’on s’étonne parfois, à juste titre, qu’avec
+          désinvolture il ait noté qu’il avait « trouvé », « ramassé »,
+          parfois « arraché » ceci ou cela. Mais <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Julius
+          Euting</persName> a aussi participé à de véritables fouilles, comme
+          ce fut le cas à <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Mshatta</placeName> ou à
+          <placeName ref="295879" type="geonames" xml:base="https://www.geonames.org/">Zincirli</placeName>.</p>
+          <p xml:id="d1e218">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-px4hzv7c">étiquette</term>
+                </term>
+              </term>
+            </term>La
+          plupart des objets sont accompagnés d’une petite étiquette en
+          carton, portant une inscription à la plume de la main d’<persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName>, et comportent
+          souvent un petit tampon ovale « <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> »,
+          de 5 mm de large. Cependant la présence de ces étiquettes n’est pas
+          systématique, ni celle du cachet d’ailleurs.</p>
+        </div>
+        <div type="section1" xml:id="d1e220">
+          <head subtype="level1" xml:id="d1e221">Les manuscrits</head>
+          <p xml:id="d1e223">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>La
+          série des manuscrits scientifiques que <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Julius
+          Euting</persName> a donnés à la bibliothèque n’est pas moins
+          impressionnante. On peut y distinguer deux ensembles : les écrits
+          scientifiques et la correspondance reçue. Les premiers concernent
+          les écritures et les textes relevant des langues étudiées par le
+          savant. Les textes mandéens copiés ou décrits par <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> sur les
+          exemplaires conservés à la Bibliothèque nationale de <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> notamment,
+          comme le <hi rend="italic">Diwan </hi>des Mandéens ou <hi rend="italic">Qôlasta</hi>, en forment le coeur. Les travaux portant
+          sur les écritures orientales sémitiques anciennes, recueils visant à
+          relever tous les tracés connus des lettres de ces alphabets<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Par exemple <hi rend="italic">Sammlung aller Formen des
+              carthagischen Alphabetes aus Carthago. 1-367 ausgeschnitten und
+              aufgeklebt von Julius Euting, Strasbourg, 1875-1876 ;</hi> cet
+              ensemble a été « trouvé » par Jacques Schwartz parmi les papyrus
+              de la BNU.</p>
+            </note>, nous font pénétrer dans l’expérience du chercheur à
+          l’œuvre dans son établissement des caractères d’une écriture.
+          Certaines copies de documents ont été montées sur des rouleaux de
+          toile. Enfin, un ensemble composite de petits documents a été
+          récemment inventorié<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Ms.6.970 de la BNU, précédemment associé aux estampages
+              d’Euting.</p>
+            </note> et contient notamment un poème en hébreu dont l’auteur
+          est… <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Julius Euting</persName> alors âgé
+          de 17 ans. Ce texte est daté du <date type="_temp" when="1857-05-17">17 mai 1857</date>
+            <note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>J. Euting est né à Stuttgart le 11 juillet 1839. On trouvera
+              dans le <hi rend="italic">Nouveau dictionnaire de biographie
+              alsacienne</hi>, fasc. 10, p. 869-871, sous la plume de Robert
+              Weyl, une intéressante notice et surtout la bibliographie
+              complète de l’auteur.</p>
+            </note>.</p>
+          <p xml:id="d1e249">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-kbtkd6uq">correspondance</term>
+              </term>
+            </term>La
+          correspondance reçue par <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> forme un ensemble
+          conséquent de 38 boîtes d’archives et a été explicitement donnée à
+          la bibliothèque en surplus du legs originel. Ces lettres ont un très
+          grand intérêt pour les recherches sur l’orientalisme et trouvent
+          leurs compléments (les lettres d’<persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> à
+          d’autres savants) dans d’autres bibliothèques du monde : ainsi
+          celles envoyées à <persName ref="030199239" type="idref" xml:base="https://www.idref.fr/">Charles Clermont-Ganneau</persName>
+          et conservées à l’Institut de <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>. Sa
+          correspondance relative aux activités du Cartel allemand des papyrus
+          forme un autre ensemble, présent non au titre du legs mais déposé
+          par <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> quand il était
+          encore en fonction ; elle est conservée dans les archives
+          institutionnelles de la BNU<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Les archives du DPK (Deutsches Papyruskartell) sont décrites
+              sur le catalogue Calames, à l’adresse : <ref target="http://www.calames.abes.fr/pub/-details?id=FileId-1273">
+                  <hi rend="underline">http://www.calames.abes.fr/pub/-details?id=FileId-1273</hi>
+                </ref>.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e259">
+          <head subtype="level1" xml:id="d1e260">Les inscriptions lapidaires :
+          originaux et copies</head>
+          <p xml:id="d1e262">
+            <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Julius Euting</persName> décrit sa
+          collection d’inscriptions sémitiques comme « vaste et
+          complète »<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Lettre du 24 octobre 1882 à Barack : « vollständige und
+              umfängliche Sammlung ».</p>
+            </note>. Ailleurs, il affirme que cette collection, qu’il a mis
+          quarante années à constituer, est certainement la plus importante
+          qui existe<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Lettre d’Euting au doyen de la Faculté de théologie
+              protestante d’Innsbrück, Mathias Flunk, du 28 avril 1903 :
+              « Wohl die grösste Sammlung von altsemitischen Inschriften
+              Abdrucken in Papier (&amp; Gips) ».</p>
+            </note>. La liste exhaustive n’en est pas publiée à ce jour. Sont
+          inventoriés à la BNU 39 inscriptions originales sur pierre,
+          62 estampages<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Voir Robert Weyl, <hi rend="italic">Inventaire de la
+              collection d’estampages de Julius Euting</hi>, Strasbourg, 1983,
+              estampages auxquels s’en ajoute au moins un autre réalisé sur
+              l’inscription d’une cloche ancienne de Lautern, près d’Ulm.</p>
+            </note> sur papier, 24 copies d’inscriptions en plâtre,
+          12 documents appelés « falsifications moabitiques », 11 tessères
+          palmyriennes, 6 amulettes sur parchemin, 2 estampages encrés à
+          partir de stèles sino-nestoriennes et 5 statues dont 4 sont pourvues
+          d’inscriptions. On arrive donc à 161 documents, ce qui est
+          considérable pour une collection spécialisée d’inscriptions
+          rares.</p>
+          <p xml:id="d1e279">Les inscriptions épigraphiques originales, sur
+          pierre donc, ont été rassemblées par <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> au
+          cours de ses voyages, notamment à <placeName ref="2464470" type="geonames" xml:base="https://www.geonames.org/">Tunis</placeName> et à
+          <placeName ref="163808" type="geonames" xml:base="https://www.geonames.org/">Palmyre</placeName>, mais aussi
+          en Arabie, au sens large du terme. Deux séries importantes se
+          distinguent : les monuments et autels votifs carthaginois d’une
+          part, les inscriptions de <placeName ref="163843" type="geonames" xml:base="https://www.geonames.org/">Syrie</placeName> d’autre part.
+          Il faut y ajouter des inscriptions lihyanites originaires du Sahara,
+          des inscriptions nabatéennes et safaïtes. L’arabe n’est pas absent
+          de cette collection puisqu’un fragment d’inscription en style
+          koufique fleuri y est représenté. La plupart ont été publiées par
+          <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName>, mais certaines
+          gardent de leur mystère, que des relectures effectuées à la lumière
+          des connaissances actuelles permettront de lever.</p>
+          <p xml:id="d1e281">Les moulages et copies d’inscriptions sont
+          presque aussi nombreux que les originaux. Des copies de pièces
+          majeures et bien connues, comme la stèle de Mesha, conservée au
+          Louvre, ont été acquises auprès des institutions qui les
+          conservaient. Mais les pièces les plus rares sont les moulages faits
+          par <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> lui-même, comme
+          cette inscription du canal souterrain de Siloé à <placeName ref="293198" type="geonames" xml:base="https://www.geonames.org/">Jérusalem</placeName> (moulage
+          réalisé sur site) ou encore une inscription de la synagogue de
+          <placeName ref="163808" type="geonames" xml:base="https://www.geonames.org/">Palmyre</placeName>. Dans ses
+          carnets de voyages, il mentionne de très nombreuses séances
+          d’estampage sur les sites qu’il explore. Ceux réalisés au cours de
+          ses pérégrinations orientales, qu’il avait légués à un musée du
+          Wurtemberg, ont vraisemblablement été détruits au cours des
+          bombardements de la <date>Seconde Guerre mondiale</date>
+            <note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Voir à ce sujet Christophe Didier, art. cit., p. 114.</p>
+            </note>. La collection d’estampages conservée à la BNU contient
+          essentiellement des inscriptions juives d’<placeName ref="3038033" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName>,
+          d’<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> ou de
+          <placeName ref="3078198" type="geonames" xml:base="https://www.geonames.org/">Bohème</placeName>
+            <note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Sur cette collection, voir aussi Régine Hunziker-Rodewald et
+              Avraham Malthête : « Des estampages en papier (1887-1888) », in
+              <hi rend="italic">Métamorphoses : un bâtiment, des
+              collections</hi>, catalogue de l’exposition, Strasbourg, BNU,
+              2015, p. 280-281.</p>
+            </note>.</p>
+          <p xml:id="d1e294">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-8oakm9wp">authentification<term ref="doi:10.34817/sv-uqaqdzud">faux</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-cjmv3m7p">photographie</term>
+              </term>
+            </term>L’érudit
+          recourait d’ailleurs à toutes les techniques de reproduction des
+          documents. Si la photographie ne semble pas l’avoir intéressé outre
+          mesure – parce que le relief en matière d’épigraphie demeure
+          l’essentiel – l’estampage, le moulage (l’alliance des deux pouvant
+          donner une réplique de l’original), des techniques comme
+          l’électrotypie ou encore la photoplastie (technique qui permet la
+          réduction et l’inversion des formes et qu’il fit appliquer à une
+          inscription lihyanite par un praticien de <placeName ref="6454559" type="geonames" xml:base="https://www.geonames.org/">Wissembourg</placeName>
+          en <date type="_temp" when="1888">1888</date>) l’ont toutes
+          intéressé. Sans entrer plus avant dans le détail, on peut dire que
+          <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Julius Euting</persName>
+          sollicitait toutes les techniques existantes pour exploiter ses
+          documents.</p>
+          <p xml:id="d1e296">Cet intérêt pour les copies et non pour les seuls
+          originaux est, d’une certaine manière, à relier à l’histoire propre
+          de la KULB. L’expérience de l’incendie de <date type="_temp" when="1870">1870</date> avait déjà contraint les bibliothécaires à
+          « reconstituer » des collections, et pour cela ils firent en sorte
+          de se procurer non seulement des originaux (évidemment la
+          quasi-totalité de la collection actuelle), mais aussi parfois des
+          copies de documents et de livres. Par exemple, pour reconstituer une
+          collection représentative d’incunables, ils achetèrent ou firent
+          réaliser aussi des fac-similés, des photographies des documents
+          qu’ils voulaient avoir sous la main, faisant primer dans ce cas la
+          valeur documentaire sur la valeur patrimoniale.</p>
+        </div>
+        <div type="section1" xml:id="d1e298">
+          <head subtype="level1" xml:id="d1e299">La postérité</head>
+          <p xml:id="d1e301">Les institutions culturelles et scientifiques ont
+          donc hérité des objets et des documents qui offrent de larges
+          horizons à la recherche. <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> lui-même a
+          beaucoup étudié et publié les documents de ses collections ; ce
+          travail qu’il a fourni a constitué en son temps une première étape
+          dans des domaines comme l’archéologie orientale, qui s’est
+          développée considérablement après sa mort. Ses études servent de
+          point de départ à des interprétations nourries par les nouvelles
+          connaissances contextuelles acquises depuis. Les spécialistes
+          redécouvrent aujourd’hui avec intérêt, dans les réserves de la BNU,
+          ces trésors quelque peu oubliés. Leur mise en valeur dans un espace
+          muséal qui vient d’ouvrir à la BNU, les « réserves visitables »,
+          accentuera sans doute ce regain d’intérêt. Et si la pertinence
+          scientifique de certains de ces documents a perdu en acuité, restent
+          alors l’intérêt esthétique et l’intérêt patrimonial, ainsi que le
+          témoignage qu’ils fournissent sur l’état de la connaissance à une
+          époque donnée.</p>
+          <p xml:id="d1e303">Parmi les conditions imposées par <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> et sur lesquelles
+          il a laissé de nombreuses notes et instructions dans les années qui
+          précédèrent sa mort, figure la nécessité de veiller à la bonne
+          conservation des objets, assortie de l’exigence qu’ils soient
+          examinés très régulièrement et non pas « oubliés » dans les lieux où
+          ils sont conservés. Il incombe donc aux institutions qui les
+          possèdent de les solliciter. En ce qui concerne la BNU, on peut
+          penser à l’étude scientifique des poids et estampilles en verre
+          musulmans, initiée dès <date type="_temp" when="1984">1984</date>,
+          au reconditionnement des objets antiques intervenu durant les
+          travaux de restructuration de la bibliothèque ou encore au
+          microfilmage de sa correspondance ; <placeName ref="2820860" type="geonames" xml:base="https://www.geonames.org/">Tübingen</placeName> s’est
+          attelée à une importante numérisation ; les objets ont circulé aussi
+          à la faveur d’expositions à <placeName ref="2820860" type="geonames" xml:base="https://www.geonames.org/">Tübingen</placeName>,
+          <placeName ref="2825297" type="geonames" xml:base="https://www.geonames.org/">Stuttgart</placeName> ou
+          <placeName ref="6558085" type="geonames" xml:base="https://www.geonames.org/">Freudenstadt</placeName>. Les
+          savants qui connaissent l’existence de ces documents stimulent
+          également l’intérêt des établissements pour ces trésors. À la faveur
+          des redécouvertes et des récentes remises en valeur de cette
+          collection (pensons à l’exposition de <placeName ref="2825297" type="geonames" xml:base="https://www.geonames.org/">Stuttgart</placeName> en <date type="_temp" when="2013">2013</date>), les descendants ou les
+          héritiers de ce legs ont parfois choisi de renouveler leurs dons aux
+          institutions. Ainsi la BNU vient d’ « hériter » deux armoires
+          vitrées ayant abrité au Palais Rohan une partie de la collection du
+          savant, grâce à la générosité d’un descendant de la famille,
+          <persName type="_temp">M. Hans Winter</persName>. D’autres apports,
+          envisagés dans un proche avenir, permettront sans aucun doute de
+          réaliser dans les « réserves visitables » de la bibliothèque une
+          mise en valeur toute nouvelle du fonds.</p>
+          <p xml:id="d1e305">
+            <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Julius Euting</persName> a donc
+          marqué durablement l’esprit des collections de la BNU, par les
+          premières collections qu’il a constituées dans le cadre de la KULB
+          nouvellement créée. Plus profondément engagé dans la recherche que
+          son collègue <persName ref="032828454" type="idref" xml:base="https://www.idref.fr/">Barack</persName>, et spécialiste
+          reconnu à l’époque pour les langues sémitiques, il a pu participer
+          directement à la formation des fonds spéciaux de l’établissement. Sa
+          passion de collectionneur alliée à ses connaissances linguistiques,
+          à son goût de l’aventure et du voyage d’exploration, lui ont permis
+          de se constituer un fonds de documents primaires et de copies dans
+          un domaine encore assez méconnu à cette époque. Le fait de l’avoir
+          promis à la bibliothèque dès <date type="_temp" when="1883">1883</date>, trente ans avant son décès, et d’avoir
+          ensuite oeuvré avec le Papyruskartell pour munir <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> et son
+          université de fonds égyptologiques remarquables, donnent à sa figure
+          une importance capitale dans la genèse de la bibliothèque. Il a
+          contribué, sans aucun doute, à lui conférer cette forme si
+          particulière que lui apporte son fonds exceptionnel, et qui perdure
+          dans son spectre documentaire : encyclopédique certes, mais avec une
+          curiosité accentuée pour l’Orient, vers les sources de notre
+          civilisation. Et si les pôles d’excellence actuellement labellisés
+          de la BNU sont autres – sciences religieuses, germanistique,
+          alsatiques et questions européennes –, elle occupe une place de
+          choix dans les sciences de l’<date>Antiquité</date>. L’Université de
+          <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> à
+          l’époque wilhelminienne comptait parmi ses professeurs plusieurs
+          orientalistes de renom et la KULB, aux côtés de cette dernière,
+          accueillait dans ses fonds précieux la matière première
+          indispensable à ces études : manuscrits arabes, hébreux, persans,
+          sanscrits… <persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> et ses collègues
+          de la bibliothèque, notamment <persName ref="02855955X" type="idref" xml:base="https://www.idref.fr/">Samuel Landauer</persName>,
+          créèrent et firent vivre ces collections. Le legs d’<persName ref="035394293" type="idref" xml:base="https://www.idref.fr/">Euting</persName> vint donc ajouter
+          son regard particulier, celui de l’épigraphiste sémitisant. Il est
+          venu s’insérer dans l’architecture complexe de l’institution comme
+          une pierre angulaire, et contribue jusqu’à nos jours au rayonnement
+          international de la BNU.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

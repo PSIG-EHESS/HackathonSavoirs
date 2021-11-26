@@ -1,0 +1,933 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_42_Mehl">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Bibliothèques, conservatoires,
+        observatoires</title>
+        <title type="sub">Nouveaux matériaux pour l’histoire de l’astronomie
+        moderne : autour du landgraviat de Hessen-Butzbach, 1609-1630</title>
+        <author role="aut">
+          <forename>Pierre</forename>
+          <surname>Jeandillou</surname>
+          <idno type="IDREF">255486790</idno>
+        </author>
+        <author role="aut">
+          <forename>Edouard</forename>
+          <surname>Mehl</surname>
+          <idno type="IDREF">056182414</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Seconde édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/TEVPPBXZ" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Bibliothèques, conservatoires, observatoires :
+            nouveaux matériaux pour l’histoire de l’astronomie moderne :
+            autour du landgraviat de Hessen-Butzbach, 1609-1630</title>
+            <idno type="DOI">https://doi.org/10.4000/rbnu.608</idno>
+            <author>
+              <forename>Pierre</forename>
+              <surname>Jeandillou</surname>
+            </author>
+            <author>
+              <forename>Edouard</forename>
+              <surname>Mehl</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <imprint>
+              <biblScope unit="issue">18</biblScope>
+              <biblScope unit="page">62-72</biblScope>
+              <date>2018</date>
+              <note type="url">https://journals.openedition.org/rbnu/608</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-v7q7byco">astronomie</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-sgworyxc">cosmos</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-hofgebx3">révolution
+          scientifique</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-cbx9cvwr">instrument
+          d’observation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-cbx9cvwr">instrument d’observation<term ref="doi:10.34817/sv-furtqzbm">télescope</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-v7q7byco">astronomie</term>
+                </term>
+              </term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>
+          </term>
+          <term>
+            <placeName ref="6557769" type="geonames" xml:base="https://www.geonames.org/">Butzbach</placeName>
+          </term>
+          <term>
+            <placeName ref="2750895" type="geonames" xml:base="https://www.geonames.org/">Middelburg</placeName>
+          </term>
+          <term>
+            <placeName ref="2623032" type="geonames" xml:base="https://www.geonames.org/">Danemark</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1600" to="1649" type="_temp">première moitié du 17<hi rend="sup">e</hi> siècle</date>
+          </term>
+          <term>
+            <date type="_temp" when="1609">1609</date>
+          </term>
+          <term>
+            <date from="1550" to="1599" type="_temp">seconde moitié du 16<hi rend="sup">e</hi> siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-02-05T09:06:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Bibliothèques, conservatoires,
+          observatoires</titlePart>
+          <titlePart type="sub">Nouveaux matériaux pour l’histoire de
+          l’astronomie moderne : autour du landgraviat de Hessen-Butzbach,
+          1609-1630</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Pierre Jeandillou</docAuthor>
+          <docAuthor>Edouard Mehl</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e53">
+          <graphic url="https://didomena.ehess.fr/downloads/8k71nh83f.png"/>
+          <head xml:id="d1e55">Figure 1 – Vue de Butzbach in der Wetterau
+          (1625). La tour d’angle (à droite) montre le tube optique braqué
+          vers l’horizon (in Daniel Meisner, Eberhard Kieser, <hi rend="italic">Thesaurus Philopoliticus oder Politisches
+          Schatzkästlein</hi>, Bd. 1, Buch 5, Nr. 8, fac-similé de l’édition
+          de Frankfurt-am-Main, 1625-1626 et 1627-1631, Nördlingen,
+          1992).</head>
+        </figure>
+        <p xml:id="d1e60">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion<term ref="doi:10.34817/sv-qgdxlfpw">christianisme<term ref="doi:10.34817/sv-keykmqvh">protestantisme</term>
+                </term>
+              </term>
+            </term>
+          </term>A
+        la mort du landgrave <persName ref="029593549" type="idref" xml:base="https://www.idref.fr/">Philippe I<hi rend="sup">er</hi> de
+        Hesse</persName> « le Magnanime » (<date from="1504" to="1567" type="_temp">1504-1567</date>), qui fut l’un des principaux soutiens
+        politiques de <persName ref="026998416" type="idref" xml:base="https://www.idref.fr/">Luther</persName> au <date>temps de
+        la Réforme</date>, le vaste territoire sur lequel il régnait fut
+        partagé entre ses quatre fils : la Hesse-Kassel échut à son premier
+        fils <persName ref="086877747" type="idref" xml:base="https://www.idref.fr/">Guillaume IV</persName> (<date from="1532" to="1592" type="_temp">1532-1592</date>) ; la
+        Hesse-Marbourg à son second fils <persName ref="034773762" type="idref" xml:base="https://www.idref.fr/">Louis IV</persName>
+        (<date from="1537" to="1604" type="_temp">1537-1604</date>) ; la
+        Hesse-Rheinfels à <persName type="_temp">Philippe II</persName> (<date from="1541" to="1583" type="_temp">1541-1583</date>), et la
+        Hesse-Darmstadt à <persName type="_temp">Georges I<hi rend="sup">er</hi>
+          </persName> (<date from="1547" to="1596" type="_temp">1547-1596</date>). À la mort de <persName ref="034773762" type="idref" xml:base="https://www.idref.fr/">Louis IV</persName>,
+        en <date type="_temp" when="1604">1604</date>, celui-ci n’ayant pas
+        d’héritier, la Hesse-Marbourg fut partagée entre ses neveux, et
+        <placeName ref="2873759" type="geonames" xml:base="https://www.geonames.org/">Marbourg</placeName> elle-même
+        fut rattachée à la Hesse-Kassel, où le fils et successeur de <persName ref="086877747" type="idref" xml:base="https://www.idref.fr/">Guillaume IV</persName>, <persName ref="242777708" type="idref" xml:base="https://www.idref.fr/">Moritz
+        von Hessen-Kassel</persName> (<date from="1572" to="1632" type="_temp">1572-1632</date>), y imposa le calvinisme, tandis que les
+        parties échues aux landgraves de <placeName ref="2938913" type="geonames" xml:base="https://www.geonames.org/">Darmstadt</placeName> demeuraient
+        dans la confession luthérienne.</p>
+        <p xml:id="d1e68">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-cwkp7lwy">fondation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-xmjgnjyk">université</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-raoluwcf">conflictualité</term>
+            </term>
+          </term>Sous
+        le regard attentif du roi de <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>
+          <persName ref="028600045" type="idref" xml:base="https://www.idref.fr/">Henri IV</persName>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>
+              <hi rend="italic">Correspondance inédite de Henri IV, roi de
+            France et de Navarre, avec Maurice-le-Savant, landgrave de
+            Hesse</hi>, par M. de Rommel, Paris,<hi rend="italic"/>Renouard,
+            1840</p>
+          </note>, une longue rivalité politique et confessionnelle entre
+        <placeName ref="6547484" type="geonames" xml:base="https://www.geonames.org/">Kassel</placeName> et <placeName ref="2938913" type="geonames" xml:base="https://www.geonames.org/">Darmstadt</placeName>, attisée
+        par le conflit généralisé de la guerre de Trente Ans (<date from="1618" to="1648" type="_temp">1618-1648</date>), structure ce
+        paysage politique morcelé et passablement instable, qui favorise
+        néanmoins l’autonomie temporaire des plus petites subdivisions, comme
+        le landgraviat de Hessen-Butzbach, administré de manière indépendante
+        par le landgrave <persName ref="182823555" type="idref" xml:base="https://www.idref.fr/">Philipe III</persName> (<date from="1581" to="1643" type="_temp">1581-1643</date>). En <date type="_temp" when="1607">1607</date>, les landgraves de <placeName ref="2938913" type="geonames" xml:base="https://www.geonames.org/">Darmstadt</placeName> et
+        <placeName ref="6557769" type="geonames" xml:base="https://www.geonames.org/">Butzbach</placeName> fondent
+        l’université luthérienne de <placeName ref="2920512" type="geonames" xml:base="https://www.geonames.org/">Gießen</placeName>, pour
+        contrecarrer l’influence grandissante de <placeName ref="6547484" type="geonames" xml:base="https://www.geonames.org/">Kassel</placeName> et de la
+        réforme calviniste imposée à l’université de <placeName ref="2873759" type="geonames" xml:base="https://www.geonames.org/">Marbourg</placeName>.</p>
+        <div type="section1" xml:id="d1e79">
+          <head subtype="level1" xml:id="d1e80">La bibliothèque du « liber
+          naturae »</head>
+          <p xml:id="d1e82">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-hofgebx3">révolution
+          scientifique</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-o4gbygyd">astrophysique<term ref="doi:10.34817/sv-z68mcrvu">cosmologie</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-kbtkd6uq">correspondance</term>
+              </term>
+            </term>Dès
+          ses années de formation, <persName ref="182823555" type="idref" xml:base="https://www.idref.fr/">Philippe de
+          Hessen-Butzbach</persName> manifeste un intérêt précoce pour les
+          questions scientifiques. Le landgrave fait partie du très petit
+          nombre de ceux qui ont eu le privilège d’avoir des contacts
+          épistolaires directs à la fois avec l’« excellentissime et
+          doctissime <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Signor Galileo
+          Galilei</persName> »<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>Selon l’adresse d’une lettre non datée, dont la minute est
+              conservée au Hessisches Staatsarchiv [Universitäts- und
+              Landesbibliothek Darmstadt]. Nous remercions Susan Kleine et
+              Birgit Reeg-Lumma pour l’aide qu’elles nous ont apportée dans
+              l’exploration du fonds manuscrit de Darmstadt.</p>
+            </note> et, un peu plus tard, avec le mathématicien impérial
+          <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Johannes Kepler</persName>. Dès son
+          accession au pouvoir, en <date type="_temp" when="1609">1609</date>
+          – quand commencent à circuler en Europe la lunette de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> et son <hi rend="italic">Messager céleste </hi>annonçant en termes sobres et
+          concis la découverte, sidérante et irrécusable, d’un nouvel horizon
+          cosmologique<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Sur la diffusion du télescope, voir Massimo Bucciantini,
+              Michele Camerota, Franco Giudice : <hi rend="italic">Galileo’s
+              Telescope. </hi>
+                <hi rend="italic">A european Story</hi>,
+              Cambridge (Massachussetts), London, Harvard University Press,
+              2015. Sur le <hi rend="italic">Messager céleste </hi>(<hi rend="italic">Sidereus nuncius</hi>) de Galilée (1610), voir
+              l’édition d’Isabelle Pantin (Paris, Les Belles Lettres, 1992),
+              et Philippe Hamou, <hi rend="italic">La mutation du visible.
+              Essai sur la portée épistémologique des instruments d’optique au
+              XVII</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> siècle
+              </hi>(vol. 1), Lille, Presses universitaires du Septentrion,
+              1999.</p>
+            </note> –, <persName ref="182823555" type="idref" xml:base="https://www.idref.fr/">Philippe</persName> développe la
+          bibliothèque et fait faire des transformations dans le château pour
+          y installer un observatoire astronomique (<date type="_temp" when="1625">1625</date>, voir figure 1). L’inventaire de cette
+          bibliothèque aujourd’hui dispersée est d’un intérêt majeur pour
+          l’histoire des sciences à l’âge classique. Établi tout au long de la
+          <date from="1618" to="1648" type="_temp">guerre de Trente Ans</date>
+          par le mathématicien <persName ref="194286371" type="idref" xml:base="https://www.idref.fr/">Daniel Mögling</persName> (<date from="1596" to="1635" type="_temp">1596-1635</date>), dont le
+          landgrave s’est adjoint les services à partir de l’année <date type="_temp" when="1621">1621</date>, l’inventaire comporte, outre
+          les livres répertoriés selon leur discipline d’appartenance
+          (arithmétique, géométrie, astronomie, astrologie, géographie,
+          architecture, chimie, botanique…), deux inventaires complémentaires
+          distincts : l’un concerne les maquettes et modèles réduits
+          (« Allerley Modelle », f. 13) ; l’autre, qui nous intéressera plus
+          spécifiquement ici, concerne les instruments astronomiques
+          d’observation et de mesure (« Allerley Instrumenta »,
+          ff. 14-17)<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>
+                <hi rend="italic">Inventar über die Reißkammer Landgrav
+              Philipps von Butzbach, </hi>
+                <hi rend="italic">geschrieben von
+              Daniel Mögling im November 1628 mit Nachträgen</hi>
+                <hi rend="italic"/>
+                <hi rend="italic">von diesem und anderen bis in
+              die vierziger Jahre</hi>. Cet inventaire est<hi rend="italic"/>disponible en version numérisée sur le site de
+              l’Universitäts- und<hi rend="italic"/>Landesbibliothek
+              Darmstadt : <ref target="http://tudigit.ulb.tu-darmstadt.de/show/Hs-3020">
+                  <hi rend="underline">http://tudigit.ulb.tu-darmstadt.de/show/Hs-3020</hi>
+                </ref>. L’inventaire mentionne aussi plusieurs instruments<hi rend="italic"/>de musique, Mögling ayant travaillé à la
+              réalisation d’un automate<hi rend="italic"/>musical – un
+              clavecin jouant de la musique tout seul dès l’apparition<hi rend="italic"/>du soleil. Le présent travail se fonde également
+              sur le dépouillement<hi rend="italic"/>de deux codices,
+              astronomique et astrologique, constitués par Daniel Mögling : HS
+              2608 et HS 2526. Le HS 2608 comporte notamment un bref manuscrit
+              astrologique de Kepler, édité dans le dernier volume de ses <hi rend="italic">Gesammelte Werke </hi>(XXI, 2.2, München, Beck,
+              2009, bearbeitet von Friederike Boockmann und Daniel A. Di
+              Liscia). Malheureusement, une faute de plume dans le report
+              d’une date a fait que le manuscrit keplérien a été mal
+              contextualisé : il n’est pas arrivé à Butzbach en 16<hi rend="italic">12</hi>, comme l’affirme KGW XXI, 2.2, p. 507 et
+              633, mais en 16<hi rend="italic">21</hi>, lorsque Kepler a fait
+              son premier séjour à Butzbach. Les éditeurs n’ont par ailleurs
+              pas noté que l’exemple traité dans ce texte est un horoscope
+              pour une naissance datée du 25[26].12.1581<hi rend="italic">,
+              </hi>i. e. la date de naissance du landgrave Philippe. Il s’agit
+              donc selon toute vraisemblance d’un texte offert par Kepler au
+              landgrave lors de son premier séjour en 1621.</p>
+            </note>. L’observatoire de <placeName ref="6557769" type="geonames" xml:base="https://www.geonames.org/">Butzbach</placeName> fournit
+          l’exemple paradigmatique d’une bibliothèque moderne, entièrement,
+          exclusivement et presque <hi rend="italic">religieusement
+          </hi>consacrée au déchiffrement du « livre de la nature »<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>L’expression peut paraître excessive, mais elle est, avec
+              Kepler, à prendre au pied de la lettre, lui-même se définissant
+              comme « sacerdos libri naturae » (voir par ex. Kepler à Georg
+              Herwart von Hohenburg, 26.3.1598, lettre n<hi rend="sup">o</hi> 91, KGW 13, 193). Sur ce phénomène moderne de
+              sécularisation, voir les indications suggestives de David
+              Aubin : « Modèles de scientificité dans les observatoires : les
+              églises de l’âge positiviste ? », in <hi rend="italic">Revue des
+              sciences religieuses</hi>, 87, n<hi rend="sup">o</hi> 4 (2013),
+              p. 451-461.</p>
+            </note>.</p>
+          <p xml:id="d1e178">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-juvx4gux">calcul</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-mv6eogsx">savoirs non
+          canoniques<term ref="doi:10.34817/sv-8ux5xplc">occultisme<term ref="doi:10.34817/sv-r8unpnfk">géomancie</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-3946vxze">oubli</term>
+              </term>
+            </term>Bien que
+          l’activité scientifique du landgrave et de son ingénieur d’études
+          aient contribué de manière décisive, au dire de <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> lui-même, au
+          progrès de la recherche scientifique dans la <date from="1600" to="1649" type="_temp">première moitié du 17<hi rend="sup">e</hi> siècle</date>, cet apport est resté jusqu’à
+          aujourd’hui largement méconnu. Cet oubli a une double explication.
+          D’une part, <persName ref="182823555" type="idref" xml:base="https://www.idref.fr/">Philippe III</persName> n’ayant pas
+          de successeur, <placeName ref="6557769" type="geonames" xml:base="https://www.geonames.org/">Butzbach</placeName> a perdu
+          son indépendance politico-administrative après sa mort, en <date type="_temp" when="1643">1643</date>. Une partie de la bibliothèque
+          de la « <foreign xml:lang="deu">Reißkammer</foreign> »<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Ce terme, qu’on ne trouve dans aucun dictionnaire, mais qui
+              apparaît dans certains inventaires dont celui de la collection
+              d’art (Kunstkammer) de la cour de Dresde en 1587, semble venir
+              d’un des sens du verbe « reissen » (dessiner). Il désignerait
+              ainsi le lieu où est stocké le matériel de dessin et de mesure
+              destiné aux travaux scientifiques. Qu’une bibliothèque, ainsi
+              que des instruments divers, lui soient adjoints semble naturel
+              pour la constitution de ce qu’on peut qualifier de « dispositif
+              de savoir ».</p>
+            </note> est revenue, via <placeName ref="2873759" type="geonames" xml:base="https://www.geonames.org/">Marburg</placeName>, à
+          l’université de <placeName ref="2920512" type="geonames" xml:base="https://www.geonames.org/">Gießen</placeName> ; l’autre a
+          disparu sans laisser de traces. Mais une autre raison, moins
+          évidente, peut expliquer cette disparition. Elle tient à la
+          biographie et à la personnalité de celui qui joue ici un rôle
+          déterminant : <persName ref="194286371" type="idref" xml:base="https://www.idref.fr/">Daniel Mögling</persName>. Avant de
+          rentrer comme en religion au service du landgrave, celui-ci a
+          commis, sous des pseudonymes variés, de nombreux opuscules
+          apologétiques en faveur de la Fraternité de la Rose-Croix<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Voir la notice de la <hi rend="italic">Deutsche Biographie
+              </hi>établie par Ulrich Neumann (<ref target="https://www.deutsche-biographie.de/sfz63848.html">
+                  <hi rend="underline">https://www.deutsche-biographie.de/sfz63848.html</hi>
+                </ref>), qui ne donne d’ailleurs pas une liste bibliographique
+              complète des travaux de Mögling. La plus importante source
+              documentaire sur l’activité scientifique de Mögling entre 1621
+              et 1632 vient de l’édition de sa correspondance avec l’astronome
+              et orientaliste Wilhelm Schickard. Voir W. Schickard, <hi rend="italic">Briefwechsel</hi>, <hi rend="italic">1616-1632</hi>, éd. Friedrich Seck<hi rend="italic">,</hi> Stuttgart-Bad Cannstatt, Frommann-Holzboog,
+              2002 (2 Bände).</p>
+            </note>. Il est également très lié à un mathématicien à la
+          réputation sulfureuse, <persName ref="182657167" type="idref" xml:base="https://www.idref.fr/">Johann Faulhaber</persName> (<date from="1580" to="1635" type="_temp">1580-1635</date>), dont les
+          vaticinations apocalyptiques défraient la chronique et lui valent
+          même, au cours de l’année <date type="_temp" when="1619">1619</date>, un procès à <placeName ref="2820255" type="geonames" xml:base="https://www.geonames.org/">Ulm</placeName>, où il est
+          sommé de justifier ses opinions hétérodoxes et de clarifier la
+          teneur de ce que ses contemporains appellent, non sans ironie, sa
+          « cabale logarithmo-géomantique »<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Sur cet épisode, voir Ivo Schneider, <hi rend="italic">Johannes Faulhaber, 1580-1635. </hi>
+                <hi rend="italic">Rechenmeister in einer Welt des Umbruchs</hi>,
+              Basel, Boston, Berlin,<hi rend="italic"/>Birkhaüser, 1993 ; Kurt
+              Hawlitschek : <hi rend="italic">Johann Faulhaber, 1580-1635.
+              Eine Blütezeit der mathematischen Wissenschaften in Ulm</hi>,
+              Ulm,<hi rend="italic"/>Veröffentlichungen der Stadtbibliothek,
+              1995. Selon une hypothèse<hi rend="italic"/>déjà ancienne, le
+              jeune Descartes aurait pu assister à ce procès : voir<hi rend="italic"/>Lüder Gäbe, <hi rend="italic">Descartes
+              Selbstkritik. Untersuchungen zur Philosophie des jungen
+              Descartes</hi>, Hamburg, Meiner, 1972. Cette hypothèse a servi
+              de<hi rend="italic"/>fil conducteur à la thèse dont les Presses
+              universitaires de Strasbourg<hi rend="italic"/>publient
+              aujourd’hui une édition revue et augmentée : Édouard<hi rend="italic"/>Mehl, <hi rend="italic">Descartes en Allemagne.
+              Le contexte allemand de l’élaboration de la science
+              cartésienne</hi>, Strasbourg, Presses universitaires de
+              Strasbourg,<hi rend="italic"/>[2001], 2019<hi rend="sup">2</hi>.</p>
+            </note>. <persName ref="194286371" type="idref" xml:base="https://www.idref.fr/">Daniel Mögling</persName>, protégé
+          de <persName ref="182657167" type="idref" xml:base="https://www.idref.fr/">Faulhaber</persName>, aurait pu
+          être sérieusement inquiété s’il n’avait alors trouvé refuge à la
+          cour de <placeName ref="6557769" type="geonames" xml:base="https://www.geonames.org/">Butzbach</placeName> et gardé
+          l’anonymat dans les années qui suivirent. <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName>, qui
+          le connaît assez pour lui confier la garde de sa fille <persName type="_temp">Suzanne</persName> dans les <date from="1620" to="1629" type="_temp">années 1620</date>, ne prononce jamais publiquement son
+          nom, bien que <persName ref="194286371" type="idref" xml:base="https://www.idref.fr/">Mögling</persName> fasse partie de
+          ses plus zélés disciples et collaborateurs scientifiques. Premier
+          témoin des travaux du mathématicien impérial concernant les
+          logarithmes et leur usage dans le calcul astronomique, <persName ref="194286371" type="idref" xml:base="https://www.idref.fr/">Mögling</persName> a fait la
+          démonstration de sa parfaite maîtrise de ces nouvelles techniques
+          calculatoires, dans des opuscules manuscrits qui ne sont jamais
+          sortis de la bibliothèque personnelle du landgrave, et dont
+          l’impeccable sérieux scientifique n’a plus rien à voir avec les
+          fatras théosophiques de ses premières années (voir figure 2)<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>C’est par l’entremise et à la demande du landgrave
+              Philippe III qu’a été publié le traité de Kepler sur les
+              logarithmes : <hi rend="italic">Chilias</hi>
+                <hi rend="italic">logarithmorum ad totidem numeros rotundos… ad
+              Illustriß. </hi>
+                <hi rend="italic">Principem et</hi>
+                <hi rend="italic">Dominum, Dn. Philippum Landgravium Hassiae,
+              &amp;c</hi>., Marburg, Caspar Chemlin, 1624.</p>
+            </note>. La connaissance de ces travaux permettra de corriger
+          l’avis des éditeurs de <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName>, selon lesquels
+          le nouveau calcul keplérien présenté dans les <hi rend="italic">Tables rudolphines </hi>(<date type="_temp" when="1627">1627</date>) n’a eu aucun écho critique ni aucune
+          réception significative en <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>
+            <note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>KGW 10, Nachbericht (Franz Hammer), 85*</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e277">
+          <head subtype="level1" xml:id="d1e278">L’invention de l’observatoire
+          moderne, d’Uraniborg à Butzbach</head>
+          <p xml:id="d1e280">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-jrjkvlca">théorie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-v7q7byco">astronomie</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-sgworyxc">cosmos</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-barjmjqd">observation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument</term>
+            </term>L’observatoire
+          de <placeName ref="6557769" type="geonames" xml:base="https://www.geonames.org/">Butzbach</placeName>, bien que
+          disposant d’un <foreign xml:lang="lat">instrumentarium</foreign>
+          très complet et diversifié<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>L’inventaire (environ 180 entrées) mentionne plusieurs globes
+              célestes, quadrants, sextants, compas géométriques, lunette de
+              Galilée, cristaux pour étudier la diffraction et réfraction de
+              la lumière, boussoles et instruments magnétiques pour
+              l’orientation et la mesure de la déclinaison magnétique… La
+              plupart de ces instruments sont construits en laiton et non plus
+              en bois, ce qui augmente considérablement leur précision, en
+              même temps que leur coût de fabrication. Voir Ernst Zinner, <hi rend="italic">Deutsche und Niederländische</hi>
+                <hi rend="italic">astronomische Instrumente des 11.-18.
+              Jahrhunderts</hi>, München, Beck, 1965. L’unique description du
+              grand globe céleste construit par le landgrave entre 1621
+              et 1632 se trouve dans une des premières sommes de muséologie
+              répertoriant les cabinets de curiosités au 17<hi rend="sup">e</hi> siècle, due à un érudit de Gießen, Michael
+              Bernhard Valentini (1657-1729) : <hi rend="italic">Museum
+              Museorum</hi>… [zweiter Teil], Frankfurt am Main, 1714, appendix
+              XVI, p. 57. On apprend dans ce seul et unique document que le
+              globe représentait le portrait du landgrave <hi rend="italic">In
+              corde</hi>
+                <hi rend="italic">Leonis </hi>(= <hi rend="italic">Régulus, </hi>α <hi rend="italic">Leonis</hi>) et
+              de son épouse au lieu de <hi rend="italic">Spica Virginis</hi>
+              (α <hi rend="italic">Virginis</hi>) – ces deux étoiles formant
+              avec <hi rend="italic">Arcturus </hi>(α <hi rend="italic">Bootis</hi>) un astérisme traditionnellement
+              désigné comme le « triangle de printemps ».</p>
+            </note>, s’est spécialisé dans l’étude d’un phénomène détecté
+          depuis le début de la <date from="1610" to="1619" type="_temp">décennie 1610</date> : les taches solaires. Dans une
+          assez vaine querelle, <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> avait revendiqué
+          la priorité dans la découverte de ce phénomène<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>La dispute pour la primeur de cette découverte marque le
+              début des hostilités entre Galilée et les jésuites, représentés
+              par le père Christoph Scheiner (1575-1650). En réalité, les
+              taches ont été observées de manière indépendante par David
+              Fabricius : voir M. Folkerts, « Johannes Kepler und David
+              Fabricius », in <hi rend="italic">Kepler.</hi>
+                <hi rend="italic">La physique céleste. Autour de l’</hi>Astronomia
+              nova <hi rend="italic">(1609)</hi>, éd. Édouard Mehl, Paris, Les
+              Belles Lettres, 2011, p. 43-66.</p>
+            </note> qui suscite, aujourd’hui encore, l’intérêt des
+          astrophysiciens<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Comme en témoigne l’envoi par la NASA de la sonde Parker
+              (Parker Solar Probe) en août 2018. Cette sonde a pour mission
+              d’observer au plus près l’atmosphère et la météorologie
+              solaires. À l’époque qui nous occupe, la nature physique des
+              taches solaires et la composition de l’atmosphère qui enveloppe
+              le soleil ne sont pas encore connus, mais c’est justement Kepler
+              qui a déduit, sur la base des observations de Butzbach,
+              l’existence d’un milieu circumsolaire aux propriétés physiques
+              et optiques spécifiques.</p>
+            </note>. Bien qu’il s’agisse d’un phénomène local, dont la nature
+          exacte était encore mal comprise, les taches solaires constituent,
+          en tout ce qui concerne l’astronomie et la cosmologie, le principal
+          point d’entrée dans le débat scientifique de l’époque. Sous la
+          houlette du landgrave, et à l’aide d’un instrument unique en son
+          genre, <persName ref="194286371" type="idref" xml:base="https://www.idref.fr/">Mögling</persName> a recueilli des
+          observations sur lesquelles, peu avant sa mort, <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> s’est appuyé pour
+          soutenir sa dernière bataille copernicienne, propulsant de fait
+          <placeName ref="6557769" type="geonames" xml:base="https://www.geonames.org/">Butzbach</placeName> au centre
+          d’une discussion qui gagne rapidement une dimension internationale.
+          C’est ainsi, par une contribution aussi discrète que précise, que
+          <placeName ref="6557769" type="geonames" xml:base="https://www.geonames.org/">Butzbach</placeName> éclipse
+          pour un temps sa rivale <placeName ref="6547484" type="geonames" xml:base="https://www.geonames.org/">Kassel</placeName>, pourtant
+          réputée dans toute l’Europe savante comme le fleuron de la recherche
+          scientifique, depuis que l’échange épistolaire de <persName ref="074308726" type="idref" xml:base="https://www.idref.fr/">Christoph Rothmann</persName> (ca.
+          <date from="1550" to="1600" type="_temp">1550-1600</date>),
+          mathématicien de <placeName ref="6547484" type="geonames" xml:base="https://www.geonames.org/">Kassel</placeName>, avec
+          l’astronome danois <persName ref="031480136" type="idref" xml:base="https://www.idref.fr/">Tycho Brahe</persName> (<date from="1546" to="1601" type="_temp">1546-1601</date>) avait
+          bouleversé le champ des études astronomiques dans la <date from="1550" to="1599" type="_temp">seconde moitié du 16<hi rend="sup">e</hi> siècle</date>
+            <note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>J. Bernoulli cite une lettre inédite de Willebrord Snell au
+              landgrave Moritz von Hessen-Kassel, exhortant celui-ci à
+              remettre en route le programme des observations délaissé depuis
+              la succession de son père Guillaume IV ; cf. Jean Bernoulli, <hi rend="italic">Lettres astronomiques où l’on</hi>
+                <hi rend="italic">donne une idée de l’état actuel de l’astronomie
+              pratique dans plusieurs villes</hi>
+                <hi rend="italic">de l’Europe
+              </hi>(1771, p. 49). Sur l’activité astronomique à Kassel autour
+              de Guillaume IV et du copernicien Christoph Rothmann, voir
+              Jürgen Hamel, <hi rend="italic">Die astronomischen Forschungen
+              in Kassel unter Wilhelm IV</hi> (Acta Historica Astronomiae,
+              vol. 2), Harri Deutsch Verlag, 2002 ; <hi rend="italic">Christoph Rothmann’s Discourse on the Comet
+              of 1585. An Edition and</hi>
+                <hi rend="italic">Translation</hi>,
+              <hi rend="italic">with Accompanying Essays</hi>, Miguel
+              Á. Granada, Adam Mosley &amp; Nicholas Jardine (éd.),
+              Leiden-Boston, Brill, 2014.</p>
+            </note>. Unique en son genre, le conservatoire-observatoire de
+          <placeName ref="6557769" type="geonames" xml:base="https://www.geonames.org/">Butzbach</placeName> n’est
+          possible qu’en réunissant en un seul et même lieu le savoir
+          théorique sur la construction des instruments, les moyens financiers
+          et les compétences techniques pour leur fabrication, sans oublier
+          l’idée, toute neuve, selon laquelle une théorie scientifique, quelle
+          qu’elle soit, n’a de validité et même de sens qu’à condition d’être
+          sanctionnée par une expérience décisive révélant sa nécessité<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Voir à ce sujet l’éloquente lettre du landgrave Philipp à
+              Kepler, datée du mois de juin 1623 (lettre n<hi rend="sup">o</hi> 954, KGW 18, 130) : les hypothèses de
+              l’astronomie reposent sur deux pieds, à savoir les observations
+              et le calcul. Pour les premières, il faut des instruments, mais
+              le landgrave évoque la difficulté de les utiliser avec la plus
+              grande exactitude, sans que ne s’y glisse le risque d’erreurs.
+              Pour le second, il faut des méthodes de calcul, et c’est pour
+              cette raison que le landgrave demande à Kepler de lui fournir
+              des tables logarithmiques destinées à abréger des calculs
+              autrement interminables.</p>
+            </note>. Mais, comme l’a bien noté quelques années plus tard
+          l’auteur du <hi rend="italic">Discours de la méthode</hi>, la
+          production de telles expériences exige du temps et des moyens qui ne
+          sont pas à la portée d’un simple particulier<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>R. Descartes, <hi rend="italic">Discours de la méthode pour
+              bien conduire sa raison et trouver la vérité dans les sciences
+              </hi>(1637), in <hi rend="italic">Œuvres complètes </hi>sous
+              la<hi rend="italic"/>direction de Jean-Marie Beyssade et Denis
+              Kambouchner, Paris,<hi rend="italic"/>Gallimard (TEL), 2009,
+              p. 130 : « De sorte que, s’il y avait au monde<hi rend="italic"/>quelqu’un que l’on sût assurément être capable de
+              trouver les plus<hi rend="italic"/>grandes choses et les plus
+              utiles au public qui puissent être, et<hi rend="italic"/>que
+              pour cette cause les autres hommes s’efforçassent par tous
+              les<hi rend="italic"/>moyens de l’aider à venir à bout de ses
+              desseins, je ne vois pas qu’ils<hi rend="italic"/>pussent autre
+              chose pour lui, sinon fournir aux frais des expériences<hi rend="italic"/>dont il aurait besoin, et du reste empêcher que
+              son loisir ne lui fût<hi rend="italic"/>ôté par l’importunité de
+              personne ».</p>
+            </note>. <persName ref="031480136" type="idref" xml:base="https://www.idref.fr/">Tycho Brahe</persName> en avait
+          donné un célèbre (contre-) exemple, persuadant son souverain
+          <persName ref="030915635" type="idref" xml:base="https://www.idref.fr/">Christian IV</persName> du
+          <placeName ref="2623032" type="geonames" xml:base="https://www.geonames.org/">Danemark</placeName> de
+          construire pour lui à grands frais l’invraisemblable observatoire
+          d’<placeName ref="2666197" type="geonames" xml:base="https://www.geonames.org/">Uraniborg</placeName> sur l’île
+          de <placeName ref="2663383" type="geonames" xml:base="https://www.geonames.org/">Hven</placeName> (voir
+          figure 3). L’observatoire de <placeName ref="6557769" type="geonames" xml:base="https://www.geonames.org/">Butzbach</placeName> en est une
+          imitation certes pâlotte, mais surtout beaucoup plus
+          raisonnable.</p>
+          <figure xml:id="d1e422">
+            <graphic url="https://didomena.ehess.fr/downloads/5t34sk383.png"/>
+            <head xml:id="d1e424">Figure 2 – [Daniel Mögling], <hi rend="italic">Strena Astronomica, Brevissimis et perspicuis
+            Regulis exhibens Calculum novum Rudolphinum…</hi>, 1628 (coll.
+            Universitäts- und Landesbibliothek Darmstadt [Hessisches
+            Staatsarchiv], HS 2643)</head>
+          </figure>
+          <figure xml:id="d1e429">
+            <graphic url="https://didomena.ehess.fr/downloads/1g05fc341.png"/>
+            <head xml:id="d1e431">Figure 3 – Tycho Brahe, description de
+            l’observatoire d’Uraniborg, in <hi rend="italic">Astronomiae
+            instauratae mechanica</hi>, 1598</head>
+          </figure>
+          <p xml:id="d1e436">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-cbx9cvwr">instrument
+          d’observation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-8whc6vwk">imprimeur</term>
+              </term>
+            </term>C’était
+          là, au milieu d’un bout de désert battu par les flots, que <persName ref="031480136" type="idref" xml:base="https://www.idref.fr/">Tycho</persName> avait installé ses
+          instruments d’observation d’une précision révolutionnaire, ainsi
+          qu’un moulin à papier et une imprimerie destinés à l’impression de
+          ses ouvrages. Le bâtiment, construit selon le plan d’une
+          architecture idéale, proposait toutes les commodités de l’époque
+          moderne : chauffage central, eau courante, bibliothèque scientifique
+          et espaces réservés aux chercheurs invités. Que rêver de plus ?
+          Surgi comme par magie du génie un peu dérangé de <persName ref="031480136" type="idref" xml:base="https://www.idref.fr/">Tycho
+          Brahe</persName>, <placeName ref="2666197" type="geonames" xml:base="https://www.geonames.org/">Uraniborg</placeName> donnait
+          un exemple, certes un peu démesuré et excessif, d’un dispositif
+          complexe réunissant les conditions propices – et désormais
+          indispensables – au progrès de la recherche scientifique.</p>
+          <p xml:id="d1e438">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-v7q7byco">astronomie</term>
+                  </term>
+                </term>
+              </term>
+            </term>Ce
+          dispositif se trouve savamment et subtilement évoqué par le
+          frontispice des <hi rend="italic">Tabulae rudolphinae</hi> de
+          <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> (<date type="_temp" when="1627">1627</date> ; voir figure 4). L’histoire de
+          ces nouvelles tables astronomiques est longue et complexe ; il
+          suffira de retenir ici que le projet remonte à l’époque déjà
+          ancienne où <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> a travaillé
+          auprès de <persName ref="031480136" type="idref" xml:base="https://www.idref.fr/">Tycho</persName>, alors considéré,
+          plus encore que <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName>, comme le
+          rénovateur de l’astronomie à l’époque moderne. Pour diverses
+          raisons, ces nouvelles <hi rend="italic">Tables, </hi>tardivement
+          parues, doivent donc célébrer la mémoire d’un savant dont <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> ne partage
+          aucunement les vues, et même d’un adversaire théorique qu’il était
+          cependant obligé, pour des raisons strictement politiques, de
+          reconnaître, à son corps défendant, comme son mentor.</p>
+          <p xml:id="d1e446">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-qnmh4fzd">observatoire</term>
+              </term>
+            </term>La
+          figure 4, d’une construction très sophistiquée, représente un
+          <foreign xml:lang="ita">tempietto</foreign> aux dimensions tout à
+          fait comparables à l’observatoire de <placeName ref="6557769" type="geonames" xml:base="https://www.geonames.org/">Butzbach</placeName>, au
+          plafond duquel est représenté le système héliocentrique de <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName>
+            <note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Sur le frontispice des <hi rend="italic">Tabulae
+              rudolphinae</hi>, voir Michael Rågsted : « About the cover:
+              Kepler and the Rudolphine Tables », in <hi rend="italic">Bulletin</hi>
+                <hi rend="italic">(New series) of the
+              American Mathematical Society</hi>, vol. 50, n<hi rend="sup">o</hi> 4, octobre 2013, p. 629-639.</p>
+            </note>. Au centre, on voit <persName ref="031480136" type="idref" xml:base="https://www.idref.fr/">Tycho Brahe</persName> interrogeant
+          <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> : « <foreign xml:lang="lat">quid si sic</foreign> ? » [et s’il en était ainsi ?],
+          demande l’astronome danois en pointant l’index vers la Terre – qu’il
+          prétend, contre <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName>, et a fortiori
+          contre <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName>, reposer immobile
+          au centre du monde. Ce temple pourrait être un monument à la gloire
+          de <persName ref="031480136" type="idref" xml:base="https://www.idref.fr/">Tycho</persName> ; mais l’image est
+          à double fond, et le lecteur attentif comprendra vite qu’il s’agit
+          plutôt d’un tombeau de l’astronome danois. En effet, le <foreign xml:lang="ita">tempietto</foreign> aux dix colonnes est surmonté par
+          un dôme sur lequel figurent six Muses. Chacune d’elles représente
+          les nouveaux instruments et moyens techniques de l’astronomie
+          keplérienne : l’une des Muses tient dans une main un aimant, et dans
+          l’autre une aiguille ; une autre tient ce qui semble être une
+          lunette de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> (mais pourrait
+          être aussi un tube optique fonctionnant comme une « <foreign xml:lang="lat">camera obscura</foreign> ») ; une troisième figure
+          tient les logarithmes, que <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> déduit d’une
+          théorie générale des proportions ou rapports ; une autre encore
+          tient une balance dont le soleil constitue le centre d’équilibre, et
+          les planètes les poids – schématisant ainsi le principe fondamental
+          d’une nouvelle « physique céleste » keplérienne dont le noble et
+          orgueilleux Danois n’avait pas même soupçonné la possibilité.
+          Autrement dit, le frontispice des <hi rend="italic">Tabulae
+          rudophinae </hi>montre, d’une manière assez subtile pour paraître
+          élogieuse, la défaite de l’astronome danois incapable d’accéder aux
+          vrais moyens d’observation et de calcul de l’astronomie
+          moderne !</p>
+        </div>
+        <div type="section1" xml:id="d1e467">
+          <head subtype="level1" xml:id="d1e468">Kepler et les taches
+          solaires</head>
+          <p xml:id="d1e470">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-cbx9cvwr">instrument d’observation<term ref="doi:10.34817/sv-furtqzbm">télescope</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-barjmjqd">observation</term>
+              </term>
+            </term>Le
+          second séjour de <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> à <placeName ref="6557769" type="geonames" xml:base="https://www.geonames.org/">Butzbach</placeName> a lieu en
+          <date type="_temp" when="1627-10">octobre 1627</date>, immédiatement
+          après qu’il a amené lui-même, fin <date type="_temp" when="1627-09">septembre</date>, quelques exemplaires des <hi rend="italic">Tabulae rudolphinae </hi>à la foire de <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort</placeName>. C’est à
+          ce moment précis qu’il prend connaissance des nouveaux instruments
+          du landgrave, et des observations solaires menées par <persName ref="194286371" type="idref" xml:base="https://www.idref.fr/">Daniel
+          Mögling</persName> à l’aide d’un spectaculaire tube optique.
+          <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> a été le premier
+          à publier une description de cet instrument sans exemple<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Kepler, <hi rend="italic">Ad Epistolam…. </hi>
+                <hi rend="italic">Jacobi Bartschii… Responsio : de computatione et
+              editione Ephemeridum, </hi>KGW 11, 1, 469, l. 18-42</p>
+            </note> :</p>
+          <quote xml:id="d1e484">« Une fois ces affaires réglées, je me suis
+          rendu à <placeName ref="6557769" type="geonames" xml:base="https://www.geonames.org/">Butzbach</placeName> avec le
+          très illustre landgrave <persName ref="182823555" type="idref" xml:base="https://www.idref.fr/">Philippe de Hesse</persName>, et
+          j’ai pris le temps d’y contempler les instruments et exercices
+          astronomiques du très estimé Prince ; il y aurait beaucoup à écrire
+          pour l’éloge de ces derniers, mais ce n’est pas ici mon propos. Afin
+          cependant de ne pas priver les lecteurs de tout l’agrément des
+          spectacles, j’en évoquerai un seul, qui n’a pas laissé de
+          m’émerveiller, quoique je sois particulièrement familier des
+          observations. Dans un endroit dégagé et spacieux, on fixe un pieu
+          d’une trentaine de pieds de hauteur ; au sommet, on place une
+          poulie ; par cette poulie, on fait passer un câble de cabestan qui
+          entoure un tube immense de cinquante pieds, mû à grand peine par six
+          hommes robustes depuis son faîte ; on élève ce tube à une hauteur
+          telle que, par son trou – qui fait la taille d’un petit pois, ou
+          bien d’une lentille, ou même d’un grain de millet – le Soleil
+          projette ses rayons sur une tablette blanche opposée, qui termine la
+          cavité du tube à son extrémité. On distingue alors clairement, sur
+          la tablette, les taches du Soleil, qui sont formées par le simple
+          trou, sans l’interposition d’aucun verre convexe ; les figures,
+          recueillies plusieurs jours d’affilée à midi, attestent que le
+          mouvement des taches décrit une ligne qui est, aux solstices,
+          perpendiculaire à la ligne méridienne, et qui forme aux équinoxes un
+          angle complémentaire à l’obliquité de l’écliptique, en changeant
+          d’hémisphère d’un équinoxe à l’autre [<foreign xml:lang="lat">in
+          opposito aequinoctio plagae etiam contrariae</foreign>] ; en sorte
+          que cette ligne de mouvement se situe toujours dans le plan de
+          l’écliptique. C’est pourquoi, si la tache est fixe à la surface du
+          soleil, il s’ensuit que, de la même manière que celle-là, le globe
+          solaire lui-même, dis-je, s’avance en suivant l’écliptique ; nous en
+          concluons ainsi qu’il tourne autour de son axe et des pôles. Ajoute
+          cet argument à tous ceux que j’ai déjà mentionnés dans l’Epit. Ast.
+          Lib. IV p. 514 num. 4, et demande-toi si quoi que ce soit nous
+          empêche encore de tenir pour très certaine la proposition suivante :
+          LE SOLEIL EST L’ORIGINE DU MOUVEMENT DES PLANÈTES ».</quote>
+          <p xml:id="d1e486">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-w6qcshen">controverse</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-jrjkvlca">théorie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-7xejfmxf">mathématiques</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-5cyw2kot">sciences de la
+          matière<term ref="doi:10.34817/sv-tjsyqxet">physique<term ref="doi:10.34817/sv-7u8ttrdw">optique</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <persName ref="194286371" type="idref" xml:base="https://www.idref.fr/">Mögling</persName> n’ayant jamais
+          rien publié sur le sujet, les lecteurs devaient croire <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> sur parole. Or
+          les observations de <placeName ref="6557769" type="geonames" xml:base="https://www.geonames.org/">Butzbach</placeName>, tout
+          récemment tirées de l’oubli où elles sommeillent depuis bientôt
+          quatre cents ans, confirment entièrement les propos de l’astronome
+          impérial – à un détail près qui sera bientôt corrigé par l’astronome
+          <persName ref="027713237" type="idref" xml:base="https://www.idref.fr/">Wilhelm Schickard</persName>
+            <note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Dans sa <hi rend="italic">Pars responsi ad epistolas P.
+              Gassendi </hi>[<hi rend="italic">...</hi>] <hi rend="italic">de
+              Mercurio sub sole viso et aliis novitatibus uranicis...</hi>,
+              Tübingen, Brunnius, 1632, Wilhelm<hi rend="italic"/>Schickard
+              nomme Daniel Mögling (ce que Kepler ne fait pas) et<hi rend="italic"/>corrige la description de Kepler en ce qui
+              concerne le diamètre de<hi rend="italic"/>l’ouverture, ou
+              « foramen », par lequel la lumière entre dans le tube :<hi rend="italic"/>il n’est pas de la taille d’un grain de mil,
+              comme le dit Kepler – qui<hi rend="italic"/>n’a probablement pas
+              pu s’en approcher assez pour le constater de<hi rend="italic"/>visu –, mais d’environ 1,5 cm, soit la taille
+              d’une olive. En réalité, comme on le voit ci-dessus, le tube
+              dispose de six diamètres d’ouverture dont la taille varie de
+              ½ pouce à 3,5 cm. Kepler a en fait décrit la taille
+              approximative des trois plus petits (« de la taille d’un petit
+              pois, d’une lentille, ou même d’un grain de millet »).</p>
+            </note>. Le soin et l’exactitude apportés par <persName ref="194286371" type="idref" xml:base="https://www.idref.fr/">Mögling</persName> à l’observation
+          des taches solaires fait du manuscrit HS 228 (voir figure 5) un
+          document d’un intérêt inestimable pour l’histoire des sciences : non
+          seulement comme témoignage de première importance sur la discipline
+          émergente qu’est la physique solaire, mais aussi, voire davantage
+          encore, parce que la défense par <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> de
+          la valeur de ces observations menées de manière quasi confidentielle
+          a déclenché, venant de l’étranger (<persName ref="085906433" type="idref" xml:base="https://www.idref.fr/">Philipp
+          Lansbergen</persName>, <persName ref="081775652" type="idref" xml:base="https://www.idref.fr/">Martin Hortensius</persName>,
+          <persName ref="05060466X" type="idref" xml:base="https://www.idref.fr/">Isaac Beeckman</persName>) une
+          vague d’hostilité sans précédent, et une mise en cause des
+          fondements mathématiques, optiques et observationnels de sa théorie.
+          Cette attaque coordonnée vient des <placeName ref="2750405" type="geonames" xml:base="https://www.geonames.org/">Provinces-Unies</placeName>, et
+          plus spécialement de <placeName ref="2750895" type="geonames" xml:base="https://www.geonames.org/">Middelburg</placeName>,
+          capitale de la province de <placeName ref="2744014" type="geonames" xml:base="https://www.geonames.org/">Zélande</placeName> et,
+          pourrait-on dire, capitale du télescope, qu’<persName ref="081775652" type="idref" xml:base="https://www.idref.fr/">Hortensius</persName> et <persName ref="05060466X" type="idref" xml:base="https://www.idref.fr/">Beeckman</persName> préfèrent au
+          tube optique pour l’observation des taches solaires. Or la
+          discussion théorique qui oppose les Zélandais à <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> sur les avantages
+          respectifs du télescope à lentille et du simple tube optique
+          s’avère, en dépit de son apparence modeste et localisée, d’une très
+          grande importance pour l’histoire de la science classique, puisque
+          c’est des brumes de cette discussion qu’émergera bientôt, comme un
+          soleil matinal, la <hi rend="italic">Dioptrique </hi>de <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">Descartes</persName>.</p>
+          <figure xml:id="d1e523">
+            <graphic url="https://didomena.ehess.fr/downloads/js956g53q.png"/>
+            <head xml:id="d1e525">Figure 4 – J. Kepler, frontispice des<hi rend="italic"> Tabulae ruldophinae</hi> (1627), in Michael
+            Rågsted : « About the cover: Kepler and the Rudolphine Tables »,
+            in <hi rend="italic">Bulletin (New series) of the American
+            Mathematical Society</hi>, vol. 50, n<hi rend="sup">o</hi> 4,
+            octobre 2013, p. 629-639</head>
+          </figure>
+          <figure xml:id="d1e536">
+            <graphic url="https://didomena.ehess.fr/downloads/79407x886.png"/>
+            <head xml:id="d1e538">Figure 5 – [Daniel Mögling], <hi rend="italic">Observationes macularum solarium</hi>, 1626-1630
+            (coll. Universitäts- und Landesbibliothek Darmstadt, HS 228,
+            ff. 2v<hi rend="sup">o</hi> ; 12r<hi rend="sup">o</hi> ; 36r<hi rend="sup">o</hi>)</head>
+          </figure>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

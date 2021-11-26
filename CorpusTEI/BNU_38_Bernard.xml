@@ -1,0 +1,771 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-12T17:09:13.628+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_38_Bernard">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Bibliothèques de collèges à Paris au
+        Moyen-Age</title>
+        <title type="sub">Quand les réguliers inspirent les séculiers</title>
+        <author role="aut">
+          <forename>Marion</forename>
+          <surname>Bernard-Schweitzer</surname>
+          <idno type="IDREF">143080695</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Seconde édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/7CHU4LAG" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Bibliothèques de collèges à Paris au Moyen-Age :
+            quand les réguliers inspirent les séculiers</title>
+            <idno type="DOI">https://doi.org/10.4000/rbnu.869</idno>
+            <author>
+              <forename>Marion</forename>
+              <surname>Bernard-Schweitzer</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <imprint>
+              <biblScope unit="issue">15</biblScope>
+              <biblScope unit="page">41-49</biblScope>
+              <date>2017</date>
+              <note type="url">https://journals.openedition.org/rbnu/869</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-srjfaarx">sciences des
+          religions</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-9kxmpfs2">salle de lecture</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-cjjmsnnr">collège</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-sbnvxjra">mobilier<term ref="doi:10.34817/sv-wmu6j2gm">pupitre</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1200" to="1400" type="_temp">1200-1400</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-02-04T14:22:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Bibliothèques de collèges à Paris au
+          Moyen-Age</titlePart>
+          <titlePart type="sub">Quand les réguliers inspirent les
+          séculiers</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Marion Bernard-Schweitzer</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e53">
+          <graphic url="https://didomena.ehess.fr/downloads/8336h283c.png"/>
+          <graphic url="https://didomena.ehess.fr/downloads/w9505112w.png"/>
+          <head xml:id="d1e55">Figure 1 – Miniatures représentant Jean Gerson
+          enseignant, in Jean Gerson, Thomas a Kempis, <hi rend="italic">Recueil de spiritualité</hi>, vers 1480 (coll.
+          Bibliothèque municipale de Valenciennes)</head>
+        </figure>
+        <figure xml:id="d1e60">
+          <graphic url="https://didomena.ehess.fr/downloads/4t64gn97d.png"/>
+          <head xml:id="d1e62">Figure 2 – Miniature représentant
+          l’enseignement de la médecine, in Bartholomaeus Anglicus, <hi rend="italic">Livre des propriétés des choses</hi>, 1447 (coll.
+          Bibliothèque municipale d’Amiens)</head>
+        </figure>
+        <p xml:id="d1e67">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des savoirs<term ref="doi:10.34817/sv-unufqjx4">financement</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-xmjgnjyk">université</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-cjjmsnnr">collège</term>
+            </term>
+          </term>C’est à
+        l’extrême fin du <date from="1100" to="1199" type="_temp">12<hi rend="sup">e</hi> siècle</date> qu’est fondé à <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, sur l’île de
+        la Cité, le plus ancien collège de l’Université de <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, le collège des
+        Dix-Huit. Durant le <date from="1200" to="1299" type="_temp">13<hi rend="sup">e</hi> siècle</date>, d’autres collèges séculiers font leur
+        apparition, principalement sur la rive gauche de la Seine ; le
+        mouvement atteint son apogée au <date from="1300" to="1399" type="_temp">14<hi rend="sup">e</hi> siècle</date>. Ces établissements
+        séculiers sont destinés à héberger les étudiants les moins favorisés
+        de l’Université de <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, en leur
+        offrant le gîte et le couvert. Jusqu’alors, en effet, les étudiants
+        démunis et qui n’étaient pas originaires de la capitale se voyaient
+        contraints de subvenir à leurs frais à leur logement – une chambre
+        chez l’habitant ou chez le maître dont ils suivaient les cours – ; à
+        ces frais venaient s’ajouter tous ceux occasionnés par la poursuite
+        d’études supérieures<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Pierre Riché, Jacques Verger, <hi rend="italic">Des nains sur
+            des épaules</hi>
+              <hi rend="italic">de géants : maîtres et élèves au
+            Moyen Âge</hi>, Paris, Tallandier, 2006 ; les étudiants devaient
+            entre autres se procurer le vêtement statutaire, le papier
+            nécessaire à la prise de notes, un certain nombre de livres, et
+            s’acquitter du paiement des droits universitaires.</p>
+          </note>, qui ne leur permettaient pas de s’y consacrer entièrement,
+        voire les contraignaient à y renoncer au bout de quelque temps. La
+        condition de pauvreté est donc régulièrement mentionnée, dans les
+        statuts des collèges, comme nécessaire pour accéder à une bourse ; la
+        générosité des fondateurs n’est cependant pas octroyée sans
+        contrepartie. Le prélat <persName ref="079124631" type="idref" xml:base="https://www.idref.fr/">Robert de Sorbon</persName>,
+        fondateur en <date type="_temp" when="1257">1257</date> du collège de
+        Sorbonne, est le premier à faire mention de progrès à réaliser par les
+        boursiers de son collège ; assiduité, progrès, obtention de grades
+        universitaires sont autant de conditions exigées des étudiants pour
+        conserver leur bourse.</p>
+        <p xml:id="d1e88">D’une vocation d’abord hospitalière, les collèges
+        vont peu à peu – et en cela la fondation du collège de Sorbonne a été
+        décisive – évoluer vers une dimension plus proprement intellectuelle ;
+        et c’est dans ce cadre qu’ils vont proposer à leurs boursiers l’accès
+        à une bibliothèque d’étude, mettant ainsi à leur disposition des
+        instruments de travail particulièrement coûteux et peu facilement
+        accessibles à un simple étudiant<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Marie-Henriette Jullien de Pommerol, « Livres d’étudiants,
+            bibliothèques de collèges et d’universités », in <hi rend="italic">Histoire des bibliothèques françaises</hi>, tome 1,
+            Paris, Promodis, 1989, p. 93-111</p>
+          </note>. Quelle a été, sur ce point, l’influence des bibliothèques
+        monastiques préexistantes ?</p>
+        <div type="section1" xml:id="d1e97">
+          <head subtype="level1" xml:id="d1e98">L’apparition de bibliothèques
+          au sein des collèges séculiers</head>
+          <p xml:id="d1e100">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-evsh5mvc">monastère</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-qlxr2uj3">ville</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>C’est
+          dans la <date from="1250" to="1299" type="_temp">seconde moitié du
+          13<hi rend="sup">e</hi> siècle</date> que certains collèges
+          séculiers commencent à se doter d’une bibliothèque ; on peut y voir
+          l’influence des couvents réguliers, notamment des ordres mendiants.
+          Depuis leur fondation au début du <date from="1200" to="1299" type="_temp">13<hi rend="sup">e</hi> siècle</date>, franciscains et
+          dominicains se sont en effet solidement implantés dans les grandes
+          villes ; dans les centres universitaires, afin de permettre à leurs
+          membres de fréquenter les universités, ils ont établi des maisons
+          d’études, ou « studia », dotées d’importantes bibliothèques<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Kenneth William Humphreys, « Les bibliothèques des ordres
+              mendiants », in <hi rend="italic">Histoire des bibliothèques
+              françaises</hi>, op. cit., p. 125-145, à la p. 126</p>
+            </note> – ainsi, à <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, le couvent
+          des dominicains rue Saint-Jacques. La place que prennent bientôt les
+          maîtres issus des ordres mendiants au sein de la faculté de
+          théologie de l’Université de <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> ne manque pas
+          de provoquer des conflits avec les maîtres séculiers ; la cause en
+          est l’efficacité de l’enseignement des frères mendiants qui forment
+          de très habiles prédicateurs, au rayonnement intellectuel éclipsant
+          les séculiers. Cette formation s’appuie en particulier sur les
+          ouvrages et autres instruments de travail mis à la disposition des
+          étudiants mendiants au sein des « <foreign xml:lang="lat">studia</foreign> » de leur ordre<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Claire Angotti, « Les bibliothèques des couvents mendiants,
+              un modèle pour les séculiers ? L’exemple de deux premiers
+              bienfaiteurs de la bibliothèque du collège de Sorbonne (Robert
+              de Sorbon, Gérard d’Abbeville) », in <hi rend="italic">Entre
+              stabilité et itinérance : livres et culture des ordres
+              mendiants, XIII-XV</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> siècle</hi>, Turnhout, Brepols, 2014, p. 31-72, à
+              la p. 34</p>
+            </note>.</p>
+          <p xml:id="d1e126">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-srjfaarx">sciences des
+          religions</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-j6k6mbcm">étudiant</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-cwkp7lwy">fondation</term>
+              </term>
+            </term>C’est
+          dans ce contexte qu’intervient en <date type="_temp" when="1257">1257</date> la fondation du collège séculier de
+          Sorbonne, qui se démarque des fondations précédentes en accueillant
+          non plus de jeunes étudiants débutant leurs études à la faculté des
+          arts, mais des maîtres ès arts commençant leurs études de
+          théologie<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Claire Angotti, « <hi rend="italic">Bonum commune divinius
+              est quam bonum unius</hi>. Le collège de la Sorbonne et sa
+              bibliothèque, place et rôle dans l’Université de Paris au XIV<hi rend="sup">e</hi> siècle », in <hi rend="italic">Les collèges
+              universitaires en Europe au Moyen Âge et à la Renaissance</hi>,
+              Bochum, Winkler, 2011, p. 91-105, à la p. 91</p>
+            </note>. Cet élément, ainsi que la présence, dès l’origine, d’une
+          bibliothèque<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Claire Angotti, « Les bibliothèques des couvents
+              mendiants… », op. cit., p. 32</p>
+            </note>, destinée à accompagner les boursiers dans de brillantes
+          études en théologie, montre la manière dont <persName ref="079124631" type="idref" xml:base="https://www.idref.fr/">Robert
+          de Sorbon</persName>, et par la suite d’autres fondateurs de
+          collèges séculiers se sont inspirés des couvents mendiants, afin
+          d’œuvrer au renouveau du clergé séculier, trop éclipsé, selon
+          certains, par les ordres mendiants. Ainsi une étude approfondie de
+          deux collections léguées au collège de Sorbonne dans les <date from="1270" to="1279" type="_temp">années 1270</date>, par <persName ref="079124631" type="idref" xml:base="https://www.idref.fr/">Robert
+          de Sorbon</persName> puis <persName ref="033078041" type="idref" xml:base="https://www.idref.fr/">Gérard d’Abbeville</persName>
+          – théologien actif dans la polémique contre les ordres mendiants –
+          montre que le contenu de cette première bibliothèque ne différait
+          pas fondamentalement de celui d’une bibliothèque de « <foreign xml:lang="lat">studium</foreign> » mendiant : on y trouvait un grand
+          nombre de manuscrits relevant de l’exégèse et de la pastorale, en
+          conformité avec la volonté de <persName ref="079124631" type="idref" xml:base="https://www.idref.fr/">Robert de Sorbon</persName>, le
+          fondateur, de former dans ce collège des théologiens habiles dans
+          l’art de prêcher<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Claire Angotti, art. cit., p. 39</p>
+            </note>.</p>
+          <p xml:id="d1e149">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>Parmi
+          les manuscrits qui forment le noyau de la bibliothèque du collège de
+          Sorbonne, on trouve notamment des ouvrages d’un genre nouveau,
+          apparu au <date from="1200" to="1299" type="_temp">13<hi rend="sup">e</hi> siècle</date> en appui au travail universitaire et
+          à l’activité de prédication des ordres mendiants<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Richard H. Rouse, « L’évolution des attitudes envers
+              l’autorité écrite : le développement des instruments de travail
+              au XIII<hi rend="sup">e</hi> siècle », in <hi rend="italic">Culture et travail intellectuel dans l’Occident
+              médiéval</hi>, Paris, 1981, p. 115-144</p>
+            </note>. Ce sont des concordances des mots de la Bible, ou encore
+          des tables alphabétiques des matières – plusieurs de ces
+          instruments, concordance alphabétique de la Bible, index
+          alphabétique des œuvres des Pères ou de <persName ref="027280896" type="idref" xml:base="https://www.idref.fr/">saint
+          Augustin</persName>, se retrouvent d’ailleurs dans la bibliothèque
+          de <persName ref="033078041" type="idref" xml:base="https://www.idref.fr/">Gérard d’Abbeville</persName>
+            <note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Art. cit., p. 122</p>
+            </note>, dont il fit don au collège de Sorbonne. Apparus chez les
+          cisterciens, développés par les ordres mendiants pour le besoin de
+          la prédication, ces instruments de travail furent rapidement et
+          fortement utilisés dans les centres universitaires, dont <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, où ils
+          servirent d’appui au travail intellectuel.</p>
+          <p xml:id="d1e168">Si le collège de Sorbonne fut le premier à se
+          doter dès l’origine d’une bibliothèque, il fut par la suite imité
+          par la plupart des fondations séculières ; c’est ainsi que se
+          constituèrent au sein des collèges séculiers de véritables
+          bibliothèques d’étude pour l’usage des boursiers – dans le cas du
+          collège de Sorbonne, la bibliothèque était même ouverte à l’ensemble
+          de l’Université de <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>. Rapidement,
+          des méthodes de gestion de ces fonds sont établies, sous
+          l’influence, sans doute, des bibliothèques monastiques.</p>
+        </div>
+        <div type="section1" xml:id="d1e170">
+          <head subtype="level1" xml:id="d1e171">L’influence des bibliothèques
+          monastiques sur l’organisation des bibliothèques de collèges</head>
+          <p xml:id="d1e173">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-sbnvxjra">mobilier<term ref="doi:10.34817/sv-wmu6j2gm">pupitre</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-wxzmnyfr">libre
+          accès</term>
+              </term>
+            </term>Les abbayes des ordres monastiques
+          possédaient en effet, elles aussi, leurs propres bibliothèques ; les
+          collèges universitaires séculiers ont donc pu s’inspirer des
+          pratiques de gestion des collections déjà établies dans ces
+          monastères. Ainsi l’abbaye des chanoines réguliers de Saint-Victor
+          de <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, l’un des
+          grands centres intellectuels du <date from="1100" to="1199" type="_temp">12<hi rend="sup">e</hi> siècle</date>, comportait une
+          importante bibliothèque. Un document composé avant <date type="_temp" when="1139">1139</date>, le <hi rend="italic">Liber
+          ordinis Sancti Victoris Parisiensis</hi>, fait déjà état de deux
+          fonds d’ouvrages distincts : les « <foreign xml:lang="lat">libri
+          communes</foreign> », qui sont les ouvrages laissés en libre accès
+          par le bibliothécaire, l’« <foreign xml:lang="lat">armarius</foreign> » ; et les « <foreign xml:lang="lat">libri minores et non cotidiani</foreign> », qui
+          pouvaient être prêtés aux chanoines<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Donatella Nebbiai-Dalla Guarda, « La bibliothèque commune des
+              institutions religieuses », in <hi rend="italic">Scriptorium</hi>, 50, p. 254-268, à la p. 258</p>
+            </note>. Cette répartition des collections en deux fonds d’usage
+          distinct est ensuite reprise dans plusieurs documents, et notamment
+          par l’ordre des frères prêcheurs : ainsi <persName ref="033768692" type="idref" xml:base="https://www.idref.fr/">Humbert de
+          Romans</persName>, dans ses législations rédigées pour l’ordre
+          dominicain, fait référence à une bibliothèque d’usuels enchaînés sur
+          des pupitres pour le libre accès<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Donatella Nebbiai-Dalla Guarda, « La bibliothèque commune… »,
+              art. cit., p. 260 ; Kenneth William Humphreys, « Les
+              bibliothèques des ordres mendiants », art. cit., p. 126.</p>
+            </note>.</p>
+          <figure xml:id="d1e192">
+            <graphic url="https://didomena.ehess.fr/downloads/b2773w419.png"/>
+            <head xml:id="d1e194">Figure 3 – Pupitres de la bibliothèque
+            Malatestiana de Césène, en Italie (in J. W. Clark, <hi rend="italic">Libraries in the medieval and renaissance
+            periods</hi>, Cambridge, 1894). C’est ainsi que devaient se
+            présenter les manuscrits enchaînés, en libre accès, dans les
+            bibliothèques de collèges parisiens.</head>
+          </figure>
+          <p xml:id="d1e199">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+              </term>
+            </term>Le
+          collège de Sorbonne va reprendre ce mode de classement à la fin du
+          <date from="1200" to="1299" type="_temp">13<hi rend="sup">e</hi> siècle</date>, afin de réorganiser l’important
+          fonds de manuscrits dont il est devenu le détenteur – plus de mille
+          volumes, ce qui en fait une bibliothèque de premier ordre. Lorsque
+          le proviseur <persName type="_temp">Pierre de Villepreux</persName>
+          (<date from="1286" to="1304" type="_temp">1286-1304</date>) prend la
+          décision de réorganiser la bibliothèque<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Les sources, notamment un fragment de catalogue de 1275,
+              semblent indiquer que jusque-là les ouvrages étaient rangés dans
+              des coffres, par matières, et confiés aux bons soins des
+              étudiants (Richard H. et Mary A. Rouse, « La bibliothèque du
+              collège de Sorbonne », in <hi rend="italic">Histoire des
+              bibliothèques françaises</hi>, op. cit., p. 113-123, à la
+              p. 115-116).</p>
+            </note>, le principe retenu est celui de la constitution de deux
+          fonds : les ouvrages les plus demandés et les plus utiles pour les
+          boursiers sont enchaînés, selon un classement reprenant les
+          disciplines enseignées à l’Université de <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, sur des
+          pupitres au sein de la « <foreign xml:lang="lat">libraria
+          communis</foreign> », afin qu’ils soient utiles au plus grand
+          nombre : « <foreign xml:lang="lat">quia bonum commune divinius est
+          quam bonum unius</foreign> »<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Art. cit., p. 261</p>
+            </note>. Au début du <date from="1300" to="1399" type="_temp">14<hi rend="sup">e</hi> siècle</date>, le terme de
+          « <foreign xml:lang="lat">libraria communis</foreign> » est remplacé
+          par celui de « <foreign xml:lang="lat">libraria magna</foreign> »
+          (grande bibliothèque) – par opposition à la « <foreign xml:lang="lat">libraria parva</foreign> » (petite bibliothèque), qui
+          contenait les ouvrages moins usuels, les « <foreign xml:lang="lat">libri minores</foreign> ». Ce principe d’organisation
+          des fonds pourrait même être contenu en germe dans le testament
+          (<date type="_temp" when="1271">1271</date>) de <persName ref="033078041" type="idref" xml:base="https://www.idref.fr/">Gérard
+          d’Abbeville</persName>, au sein du passage relatif au legs effectué
+          à la bibliothèque du collège de Sorbonne ; il y établit diverses
+          clauses<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Les demandes de Gérard d’Abbeville portent sur :
+              l’établissement d’un procureur auquel sera dévolue la gestion de
+              la bibliothèque ; l’élaboration d’un inventaire, régulièrement
+              mis à jour par le procureur ; l’emprunt possible des ouvrages
+              contre caution ; la conservation des ouvrages (Claire Angotti,
+              « Les bibliothèques des couvents mendiants », op. cit., p. 47).
+              Le fragment d’inventaire réalisé en 1275, soit peu après le legs
+              de Gérard d’Abbeville, semble suggérer que les dispositions
+              qu’il indique dans son testament ont été respectées (Richard H.
+              et Mary A. Rouse, « La bibliothèque du collège de Sorbonne »,
+              op. cit., p. 116). On retrouve par la suite la plupart de ces
+              dispositions dans les statuts réglant le fonctionnement des
+              bibliothèques de collèges.</p>
+            </note> dont la dernière concerne la conservation des ouvrages,
+          dont certains devraient être enchaînés<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Les copies du texte du testament, en l’absence de l’original,
+              donnent deux lectures différentes de cette phrase. Claire
+              Angotti (« Les bibliothèques des couvents mendiants », op. cit.,
+              p. 47) penche néanmoins pour la leçon demandant l’enchaînement
+              des usuels.</p>
+            </note>.</p>
+          <p xml:id="d1e227">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-9kxmpfs2">salle de
+          lecture</term>
+              </term>
+            </term>Quoi qu’il en soit, à compter de
+          l’adoption en <date type="_temp" when="1289">1289</date> par la
+          bibliothèque du collège de Sorbonne de ce mode de classement,
+          celui-ci fut adopté par la majorité des bibliothèques religieuses de
+          l’époque : une salle, la « <foreign xml:lang="lat">libraria
+          magna</foreign> », où se trouvaient, enchaînés sur des pupitres, les
+          ouvrages considérés comme usuels ; et une seconde collection, la
+          « <foreign xml:lang="lat">libraria parva</foreign> », où les
+          ouvrages étaient conservés – souvent dans des coffres – et pouvaient
+          être empruntés. Soulignons que la « <foreign xml:lang="lat">libraria
+          parva</foreign> », malgré son nom, pouvait être plus importante, en
+          volumétrie, que la « <foreign xml:lang="lat">libraria
+          magna</foreign> ».</p>
+        </div>
+        <div type="section1" xml:id="d1e229">
+          <head subtype="level1" xml:id="d1e230">Deux exemples : les
+          bibliothèques des collèges du Trésorier et de Maître-Gervais</head>
+          <p xml:id="d1e232">Deux collèges séculiers parisiens peuvent plus
+          particulièrement illustrer ce propos sur les bibliothèques de
+          collèges : ce sont ceux du Trésorier et de Maître-Gervais. Fondés
+          tous deux par de pieux bienfaiteurs d’origine normande, ils
+          possèdent une bibliothèque qui, quoique sans aucune commune mesure
+          avec les très riches collections des collèges de Sorbonne et de
+          Navarre, est relativement bien connue.</p>
+          <figure xml:id="d1e234">
+            <graphic url="https://didomena.ehess.fr/downloads/5999n425x.png"/>
+            <head xml:id="d1e236">Figure 4 – Incipit du <hi rend="italic">Livre des merveilles du monde</hi>, de Jean de
+            Mandeville. Médaillon en haut à droite : Gervais Chrétien offrant
+            l’ouvrage à Charles V, fondateur du collège de Maître-Gervais
+            (coll. Bibliothèque nationale de France).</head>
+          </figure>
+          <figure xml:id="d1e241">
+            <graphic url="https://didomena.ehess.fr/downloads/b8515p03c.png"/>
+            <head xml:id="d1e243">Figure 5 – Inventaire de la bibliothèque du
+            collège du Trésorier, 1437 (p. 19 ; coll. Archives
+            nationales)</head>
+          </figure>
+          <p xml:id="d1e245">Le collège du Trésorier est fondé à <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> en <date type="_temp" when="1268-11">novembre 1268</date> par <persName type="_temp">Guillaume de Sâane</persName>, trésorier de l’église de
+          <placeName ref="6454707" type="geonames" xml:base="https://www.geonames.org/">Rouen</placeName>. Il est situé
+          rue de la Harpe et destiné à accueillir vingt-quatre étudiants
+          originaires du diocèse de <placeName ref="6454707" type="geonames" xml:base="https://www.geonames.org/">Rouen</placeName> : douze en
+          arts et douze en théologie. Outre la date de sa fondation assez
+          proche de celle du collège de Sorbonne, il présente plusieurs autres
+          similitudes avec ce dernier : l’accueil d’étudiants en théologie est
+          là aussi prévu dès l’origine, de même que la présence d’une
+          bibliothèque, mentionnée dans les statuts de <date type="_temp" when="1280">1280</date>
+            <note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Les statuts, du 18 août 1280, sont connus par des copies,
+              dont celle du ms 102 de la bibliothèque de la Sorbonne ;
+              concernant la bibliothèque, ils mentionnent l’interdiction de
+              faire sortir des ouvrages du collège, et la nécessité de veiller
+              à leur bonne conservation (« Item, nolumus quod libri
+              accommodentur per villam ad transcribendum, vel etiam
+              scribendum, quia sic possent diminui, vel etiam inquinari ; et
+              volumus quod eorum custodia iis deputetur qui valeant de illis
+              respondere integre, et qui aliis ministrent et dividant, prout
+              viderint expedire »).</p>
+            </note>. Si la rareté des sources entrave notre connaissance du
+          collège du Trésorier pour la fin du <date from="1200" to="1399" type="_temp">13<hi rend="sup">e</hi> siècle et la majeure partie du
+          14<hi rend="sup">e</hi>
+            </date>, il est cependant mieux connu au
+          <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi> siècle</date>, entre autres grâce à un inventaire
+          de ses biens, daté de <date type="_temp" when="1437">1437</date>
+            <note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Il est conservé aux Archives nationales sous la cote AN M 194
+              n<hi rend="sup">o</hi> 5.</p>
+            </note>. Celui-ci comprend notamment une description des
+          collections de sa bibliothèque, faisant de lui l’un des rares
+          collèges parisiens dont la bibliothèque médiévale peut être
+          reconstituée<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Sur les bibliothèques des petits collèges parisiens, et entre
+              autres celles du collège du Trésorier, voir Karine Klein, <hi rend="italic">Les livres des petits collèges à Paris aux
+              XIV</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> et
+              XV</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> siècles</hi>, thèse de doctorat en histoire, sous
+              la direction de Jean-Philippe Genet, Université Paris I,
+              2005.</p>
+            </note>.</p>
+          <p xml:id="d1e283">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-sbnvxjra">mobilier<term ref="doi:10.34817/sv-wmu6j2gm">pupitre</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-wxzmnyfr">libre
+          accès</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-rxs3gaea">inventaire</term>
+              </term>
+            </term>L’inventaire
+          des livres de la bibliothèque en libre accès, ou « <foreign xml:lang="lat">magna libraria</foreign> », a été réalisé en suivant
+          l’ordre des pupitres sur lesquels ils étaient enchaînés : on compte
+          ainsi 145 volumes, répartis sur trois pupitres simples – avec une
+          moyenne d’environ dix volumes par pupitre – et six pupitres doubles
+          – avec une moyenne d’environ quinze à vingt volumes par pupitre<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Karine Klein, op. cit., p. 177</p>
+            </note>. Les 147 volumes de la « <foreign xml:lang="lat">parva
+          libraria</foreign> », quant à eux, sont conservés dans de grandes
+          armoires, dans la chapelle. On voit bien ici la reprise de la
+          distinction entre grande et petite bibliothèque, popularisée par le
+          collège de Sorbonne ; et comme dans la fondation de <persName ref="079124631" type="idref" xml:base="https://www.idref.fr/">Robert
+          de Sorbon</persName>, le fonds est principalement constitué
+          d’ouvrages relevant du champ de la théologie – 227 volumes de
+          théologie sur les 299 mentionnés par l’inventaire<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Op. cit., p. 209</p>
+            </note>.</p>
+          <p xml:id="d1e293">Le collège de Maître-Gervais, quant à lui, a été
+          fondé en <date type="_temp" when="1371">1371</date>, soit plus
+          d’un siècle après ceux de Sorbonne et du Trésorier. Son fondateur,
+          <persName ref="225158655" type="idref" xml:base="https://www.idref.fr/">Gervais Chrétien</persName>,
+          médecin du roi <persName ref="027285677" type="idref" xml:base="https://www.idref.fr/">Charles V</persName>, supervise en
+          détail sa fondation et préside à la rédaction, en <date type="_temp" when="1378">1378</date>
+            <note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>AN M 163 n<hi rend="sup">o</hi> 19</p>
+            </note>, de ses statuts. Il semble que, là encore, l’existence de
+          la bibliothèque soit, à quelques années près, aussi ancienne que
+          l’établissement lui-même : le fonctionnement en est fixé par le
+          chapitre huit des statuts de <date type="_temp" when="1378">1378</date>. Une distinction entre deux fonds est
+          réalisée (« <foreign xml:lang="lat">libraria artistarum</foreign> »
+          et « <foreign xml:lang="lat">libraria theologorum</foreign> »), mais
+          on ne retrouve pas les mêmes logiques qu’à la bibliothèque du
+          collège de Sorbonne. La description, faite par <persName ref="225158655" type="idref" xml:base="https://www.idref.fr/">Gervais Chrétien</persName>, des
+          deux bibliothèques ne semble correspondre tout d’abord qu’à une
+          question pratique : chaque aile du bâtiment, l’une destinée aux
+          boursiers en théologie, droit ou médecine, l’autre aux boursiers en
+          arts, aura sa bibliothèque « <foreign xml:lang="lat">ita quod in
+          qualibet duarum domorum erit una libraria</foreign> »<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>AN M 163 n<hi rend="sup">o</hi>
+                <hi rend="bold"> </hi>19,
+              chapitre huit</p>
+            </note>, de sorte qu’il y ait dans chacun des bâtiments un espace
+          dédié à la lecture et à la consultation des livres. Une seconde
+          distinction est ensuite introduite par le fondateur : les fonds
+          seront en effet bien différenciés en fonction du public auquel ils
+          sont destinés, « artiens » ou étudiants des facultés supérieures :
+          « <foreign xml:lang="lat">ita quod in libraria theologorum erunt
+          libri ad theologos et medicos pertinentes, et libri logicales et
+          philosophiae et mathematicales in libraria
+          artistarum</foreign> »<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>Ibid.</p>
+            </note>. Chacune des deux bibliothèques semble donc avoir un
+          fonds, un public et une destination bien précis ; cependant tous les
+          livres y sont enchaînés, sans distinction (« <foreign xml:lang="lat">cum cathenis ligabuntur libri</foreign> »)<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Ibid.</p>
+            </note>, jusqu’aux livres de droit légués par un bienfaiteur
+          juriste, qui doivent être conservés enchaînés dans la chambre de
+          l’étudiant canoniste du collège<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>« Et ideo racionabile, congruum et utile est quod ligentur
+              cum cathenis sicut in aliis librariis dicti collegii, ut ibi
+              fermius conserventur, et ne quod multis debet proficere per
+              unius negligenciam vel deffectum deperdatur, et in hoc intencio
+              et voluntas fundatoris defraudetur » (AN, M 164 n<hi rend="sup">o</hi>
+                <hi rend="bold"> </hi>6).</p>
+            </note>. En <date type="_temp" when="1414">1414</date>, le
+          testament d’un autre bienfaiteur, <persName type="_temp">Guillaume
+          Vauchis</persName>, fait encore état de cette bipartition du fonds
+          et de l’enchaînement des ouvrages : l’ensemble des manuscrits
+          constituant le legs est divisé en deux parties, la première pour la
+          « <foreign xml:lang="lat">libraria theologorum collegii magistri
+          Gervasii Christiani</foreign> », et la seconde pour la « <foreign xml:lang="lat">libraria artistarum</foreign> ». Et le donateur
+          précise bien « <foreign xml:lang="lat">quod omnes incathenentur in
+          libraria predicta infra octo dies ab eorum
+          tradicione</foreign> »<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>AN M 167 n<hi rend="sup">o</hi>
+                <hi rend="bold"> </hi>19</p>
+            </note>. Telle qu’elle est décrite dans les statuts, et qu’elle
+          apparaît par la suite dans les sources, la double bibliothèque du
+          collège de Maître-Gervais semble donc être un lieu d’étude, destiné
+          à la consultation sur place des ouvrages, et non une bibliothèque de
+          prêt.</p>
+          <p xml:id="d1e338">Le fondateur détaille dans les statuts le
+          fonctionnement de la bibliothèque, selon des conditions que l’on
+          retrouve en usage dans nombre de collèges. Ainsi, son usage est
+          théoriquement réservé aux seuls boursiers<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Sur ce point, le collège de Sorbonne fait exception : sa
+              bibliothèque est ouverte à tous les membres de l’université.</p>
+            </note>, à quelques exceptions près. Seuls quelques boursiers de
+          confiance peuvent se voir confier les clés de l’une ou l’autre
+          bibliothèque. Il est permis aux boursiers d’y introduire un étudiant
+          extérieur à l’établissement, avec la permission d’un officier du
+          collège, et à condition de ne pas le laisser seul dans la pièce et
+          de le surveiller<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>Ces recommandations à l’égard des personnes extérieures à
+              l’établissement sont assez habituelles dans les règlements des
+              bibliothèques de collèges (Karine Klein, op. cit., p. 215).</p>
+            </note>. En cas de vol d’un ou plusieurs ouvrages, le boursier qui
+          s’est porté caution est donc considéré comme responsable et chargé
+          de remédier au préjudice subi. Le témoignage, au <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi> siècle</date>, de
+          l’astrologue <persName ref="035520485" type="idref" xml:base="https://www.idref.fr/">Simon de Phares</persName>, qui a
+          eu accès à la bibliothèque du collège et y a consulté des ouvrages,
+          corrobore cet aspect des statuts ; il dit y avoir compulsé des
+          ouvrages d’astrologie arabe, le <hi rend="italic">De nativitatibus
+          </hi>d’Albubater et le <hi rend="italic">Livre des neuf
+          juges</hi>
+            <note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>À propos de l’ouvrage intitulé <hi rend="italic">De
+              nativitatibus </hi>d’Albubater, Simon de Phares écrit : « lequel
+              livre ay veu au Colliege du roy Charles le Quint, en la
+              librairie de astrologie a Paris jouxte le <hi rend="italic">Livre des IX Juges</hi>, bien correct et approuvé
+              et, par ce, incathené et en usage a qui en veult » (Jean-Patrice
+              Boudet, éd., <hi rend="italic">Le </hi>Recueil des plus célèbres
+              astrologues <hi rend="italic">de Simon de Phares</hi>, Paris,
+              1994, tome I, p. 293). Si aucun des ouvrages actuellement
+              conservés et issus de la bibliothèque du collège ne correspond
+              aux deux titres cités, le témoignage de l’astrologue n’en est
+              pas moins crédible.</p>
+            </note>, ce qui laisse à penser qu’il se trouvait alors plutôt
+          dans la « <foreign xml:lang="lat">libraria artistarum</foreign> ».
+          Les boursiers et autres occupants du collège doivent apporter aux
+          livres le plus grand soin : il est interdit d’y porter ses propres
+          annotations, qu’elles soient « <foreign xml:lang="lat">interlinearia
+          sive glosas, in marginibus vel in textu</foreign> »<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>AN M 163 n<hi rend="sup">o</hi>
+                <hi rend="bold"> </hi>19,
+              chapitre huit</p>
+            </note>, sans avoir auparavant obtenu l’assentiment de la
+          communauté. Un inventaire des livres des deux bibliothèques doit
+          être régulièrement réalisé ; enfin, lors de sa réception au collège,
+          tout nouveau membre doit prêter un serment spécifique, concernant
+          les livres de la bibliothèque et justement intitulé « <foreign xml:lang="lat">juramentum pro libraria</foreign> ». Ce serment
+          mentionne bien l’enchaînement des ouvrages sur les pupitres, ainsi
+          que l’existence d’ouvrages non seulement dans les deux bibliothèques
+          mais aussi dans la chapelle du collège ; peut-être, comme au collège
+          du Trésorier, est-ce donc dans la chapelle que sont conservés les
+          livres empruntables, quoiqu’il ne soit pas fait mention de
+          bibliothèque de prêt dans les sources. Le fonds de la bibliothèque
+          est régulièrement enrichi par les dons de bienfaiteurs, parfois
+          anciens boursiers du collège.</p>
+          <p xml:id="d1e382">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>C’est
+          à compter du <date from="1200" to="1299" type="_temp">13<hi rend="sup">e</hi> siècle</date> que les collèges de l’Université de
+          <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> ont commencé
+          à se doter d’une bibliothèque d’étude, dans le but de contribuer à
+          la formation d’excellents théologiens et prédicateurs séculiers. La
+          plus ancienne et la plus importante de ces bibliothèques, celle du
+          collège de Sorbonne, a su s’inspirer des modèles offerts par les
+          ordres monastiques et mendiants et se les approprier ; les principes
+          de sa réorganisation à la fin du <date from="1200" to="1299" type="_temp">13<hi rend="sup">e</hi> siècle</date> en deux fonds
+          distincts, l’un pour le libre accès, l’autre pour le prêt, ont connu
+          un grand succès et été appliqués dans la plupart des bibliothèques
+          d’étude. On le voit ainsi au collège du Trésorier, de fondation
+          presque contemporaine, dont l’organisation de la bibliothèque est
+          calquée sur celle du collège de Sorbonne. À l’époque de la fondation
+          du collège de Maître-Gervais, en <date type="_temp" when="1371">1371</date>, il est devenu courant pour ce type
+          d’établissement de disposer de sa propre bibliothèque ; aussi les
+          statuts entrent-ils dans le détail du fonctionnement de cette
+          dernière.</p>
+          <p xml:id="d1e390">Le registre de prêt de la bibliothèque de
+          Sorbonne au <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi> siècle</date> nous laisse entrevoir la richesse de
+          ces fonds et leur rayonnement : nombreux sont en effet les
+          emprunteurs extérieurs au collège<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Jeanne Vielliard et Marie-Henriette Jullien de Pommerol
+              (éd.), <hi rend="italic">Le registre de prêt de la bibliothèque
+              du collège de Sorbonne, 1402-1536</hi>, Paris, CNRS éditions,
+              2000</p>
+            </note>. Jusqu’à l’<date>époque moderne</date>, ce sont donc les
+          bibliothèques de collèges et d’institutions régulières qui permirent
+          aux étudiants parisiens d’accéder, à moindres frais, aux ouvrages
+          nécessaires à leurs études.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

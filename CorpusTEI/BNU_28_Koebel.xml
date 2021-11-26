@@ -1,0 +1,825 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-13T16:51:39.615+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_28_Koebel">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Traditions orales des populations des hauts
+        plateaux du Sud indochinois à l’époque coloniale</title>
+        <author role="aut">
+          <forename>Alexandre</forename>
+          <surname>Koebel</surname>
+          <idno type="IDREF">190014598</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/K9APAMNL" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Traditions orales des populations des hauts
+            plateaux du Sud indochinois à l’époque coloniale</title>
+            <idno type="DOI">https://doi.org/10.4000/rbnu.3009</idno>
+            <author>
+              <forename>Alexandre</forename>
+              <surname>Koebel</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <imprint>
+              <biblScope unit="issue">11</biblScope>
+              <biblScope unit="page">56-66</biblScope>
+              <date>2015</date>
+              <note type="url">https://journals.openedition.org/rbnu/3009</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="vie"/>
+        <language ident="khm"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-zrgdoeep">exploration</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-vdg9xj5e">pratique rituelle<term ref="doi:10.34817/sv-zbyuuwio">sacrifice</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-vdg9xj5e">pratique
+          rituelle</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-gthw4tqm">proverbe</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-3sgvpa2v">mission</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-9z8fpxff">mythologie</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="1562822" type="geonames" xml:base="https://www.geonames.org/">Vietnam</placeName>
+          </term>
+          <term>
+            <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1850" to="1859" type="_temp">années 1850</date>
+          </term>
+          <term>
+            <date from="1860" to="1869" type="_temp">années 1860</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-01-23T15:40:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Traditions orales des populations des hauts
+          plateaux du Sud indochinois à l’époque coloniale</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Alexandre Koebel</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e49">
+          <graphic url="https://didomena.ehess.fr/downloads/xw42n8808.jpg"/>
+          <head xml:id="d1e51">Figure 1 – Kha du Laos. Extrait de Cupet, <hi rend="italic">Mission Pavie : Indo-Chine 1879-1895</hi>. Paris :
+          Ernest Leroux, 1900, p. 337 (coll. BNU)</head>
+        </figure>
+        <p xml:id="d1e56">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-zrgdoeep">exploration</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-xdvmcgfs">colonialisme</term>
+            </term>
+          </term>L’Indochine
+        française est composée de cinq pays : le <placeName ref="1655842" type="geonames" xml:base="https://www.geonames.org/">Laos</placeName>,
+        le <placeName ref="1831722" type="geonames" xml:base="https://www.geonames.org/">Cambodge</placeName> et les trois
+        régions vietnamiennes, le <placeName ref="1591445" type="geonames" xml:base="https://www.geonames.org/">Tonkin</placeName>, l’<placeName ref="1594320" type="geonames" xml:base="https://www.geonames.org/">Annam</placeName> et la
+        <placeName ref="1573261" type="geonames" xml:base="https://www.geonames.org/">Cochinchine</placeName>. Occupée
+        par la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> dès <date type="_temp" when="1859">1859</date> avec la prise de <placeName ref="1580578" type="geonames" xml:base="https://www.geonames.org/">Saigon</placeName>, la colonie
+        s’agrandit grâce à l’instauration des protectorats sur le <placeName ref="1831722" type="geonames" xml:base="https://www.geonames.org/">Cambodge</placeName> dès <date type="_temp" when="1863">1863</date>, puis sur l’ensemble du
+        <placeName ref="1562822" type="geonames" xml:base="https://www.geonames.org/">Vietnam</placeName> en <date type="_temp" when="1884">1884</date>, et enfin par l’incorporation du
+        <placeName ref="1655842" type="geonames" xml:base="https://www.geonames.org/">Laos</placeName> en <date type="_temp" when="1893">1893</date>. L’Indochine se caractérise donc
+        comme un territoire disparate, constitué par un conglomérat d’États
+        présentant peu de liens entre eux. Mais ce qui frappe surtout les
+        visiteurs, les colons, les explorateurs et les missionnaires, c’est la
+        forte disparité du territoire indochinois, tant sur le plan physique
+        qu’humain. Ainsi l’Indochine se présente comme une terre de
+        contrastes : contraste géographique tout d’abord avec une étroite
+        plaine côtière intensément mise en valeur, les hauts plateaux centraux
+        et le Truong-Son (Cordillère annamitique) – dernier contrefort
+        himalayen qui s’adoucit vers la cuvette du <placeName ref="1831722" type="geonames" xml:base="https://www.geonames.org/">Cambodge</placeName> et plonge de
+        façon abrupte sur l’étroite bande côtière vietnamienne –, qui se
+        définissent comme insalubres, domaines de la forêt tropicale ;
+        contraste de peuplement, avec les territoires historiques du
+        <placeName ref="1562822" type="geonames" xml:base="https://www.geonames.org/">Vietnam</placeName> densément
+        peuplés, notamment les deltas du Fleuve Rouge et du Mékong, face aux
+        hautes terres centrales presque vides d’habitants ; contraste
+        ethnique : aux plaines, peuplées de populations homogènes tels les
+        Vietnamiens ou les Khmers dans la cuvette du Mékong, s’opposent les
+        hauts plateaux et les massifs montagneux qui comprennent une multitude
+        d’ethnies, dont certaines ne sont constituées que de quelques
+        centaines d’individus, parlant différentes langues souvent éloignées
+        les unes des autres. Ces peuples se rattachent à deux grandes familles
+        linguistiques : la famille austro-asiatique ou môn-khmère à l’instar
+        des Bahnars, cohabitant avec la famille austronésienne d’origine
+        indonésienne comme les Jarais<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Philipe Papin, <hi rend="italic">Viêt-Nam, parcours d’une
+            nation, </hi>Paris, Belin, La Documentation française, 2003,
+            p. 29-35. Nous nous contenterons d’étudier les ethnies du centre
+            de l’Indochine, soit celles situées aux confins du Vietnam central
+            et du Cambodge. Le nord du Vietnam (Tonkin) présente lui aussi un
+            aspect fortement multiethnique. Rappelons qu’officiellement le
+            Vietnam compte 53 ethnies. Le Laos voisin est également
+            multiethnique.</p>
+          </note>.</p>
+        <p xml:id="d1e65">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-hcnypq2u">oralité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-cfjxuslk">empire</term>
+            </term>
+          </term>Relevons en
+        outre le contraste politique : les Vietnamiens, profondément sinisés,
+        ont organisé un empire sur le modèle chinois, alors que les
+        Cambodgiens ont développé un vieux royaume d’influence indienne,
+        tandis que les Laotiens, de leur côté, conservent deux royautés
+        tributaires du Siam. Ces vieux États s’opposent encore une fois aux
+        populations des hauts plateaux ou hautes terres, appelées Montagnards,
+        qui n’ont développé aucune structure étatique et vivent selon le mode
+        tribal. Enfin, et c’est le plus important pour nous, il y a un
+        contraste au niveau de la connaissance de l’écriture : si les
+        Vietnamiens, les Khmers et les Laotiens maîtrisent l’écrit, ce qui
+        signifie qu’ils conservent des annales et des archives, en revanche
+        les peuples du centre de l’Indochine ignorent totalement son usage.
+        Ils ont donc développé, par compensation, une riche tradition orale.
+        Cette culture orale est recueillie dès l’époque coloniale par les
+        missionnaires catholiques et les explorateurs français. C’est à partir
+        de textes et de témoignages de l’époque que nous allons présenter la
+        « bibliothèque » des Montagnards. Pour simplifier la démonstration,
+        nous ne travaillerons que sur quelques ethnies : les Bahnars, les
+        Jarais et les Rhadés.</p>
+        <p xml:id="d1e67">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-8sxthmh6">montagne</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-fucv3vaf">retrait</term>
+            </term>
+          </term>Mais tout
+        d’abord, il faut préciser que ces populations des hauts plateaux
+        indochinois ne vivent pas isolées de leurs voisins. Elles sont entrées
+        très tôt en rapport avec leurs voisins vietnamiens et khmers. Ceux-ci,
+        plus évolués, ont considéré ces habitants comme des primitifs. Ainsi
+        les Vietnamiens les désignent sous le terme péjoratif de <hi rend="italic">
+            <foreign xml:lang="vie">Moi</foreign>
+          </hi> qui se traduit par « sauvage », mot qui sera très souvent
+        repris par les auteurs français de l’époque coloniale. Les Khmers les
+        nomment <hi rend="italic">
+            <foreign xml:lang="khm">Phnong</foreign>
+          </hi> et les Laos Kha, vocables signifiant la même chose. En
+        revanche, nous opterons pour l’expression de « Montagnards » plutôt
+        que pour celle de « minorités ethniques », terminologie trop connotée
+        politiquement car utilisée par les États vietnamiens et cambodgiens.
+        Mais c’est surtout la crainte qu’inspiraient ces peuples aux Viets des
+        plaines qui se méfiaient de leur magie supposée, de leur mode de vie
+        souvent nomade à l’ombre des forêts et de leur supposée violence<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Georges Condominas, <hi rend="italic">Nous avons mangé la
+            forêt, </hi>Paris, Flammarion, coll. « Champs », 1982, p. 14</p>
+          </note>, qu’il faut retenir. La cohabitation entre villageois
+        vietnamiens des marges de l’empire et les Montagnards était souvent
+        difficile. Parfois, des marchands vietnamiens sans scrupules
+        brutalisaient ces populations. En contrepartie, certains groupes de
+        <hi rend="italic">
+            <foreign xml:lang="vie">Moi</foreign>
+          </hi> se vengeaient en razziant les villages vietnamiens proches de
+        leur territoire et en emmenant de nombreux captifs avec eux pour les
+        réduire en esclavage. En un mot, pour les Vietnamiens, ce sont des
+        barbares. De plus, le côté « repoussoir » de ces populations est
+        accentué par la peur qu’inspire la montagne aux Vietnamiens. Peuple
+        des plaines et des deltas, il leur répugne de vivre en altitude.
+        D’après les traditions orales du <placeName ref="1562822" type="geonames" xml:base="https://www.geonames.org/">Vietnam</placeName>, le massif
+        montagneux est le refuge des mauvais esprits, ces derniers se
+        manifestant par les maladies telles que la fièvre des bois. En outre,
+        ces zones d’altitude ne sont-elles pas le domaine du tigre, à la fois
+        redouté et vénéré, que les Vietnamiens nomment par respect <hi rend="italic">
+            <foreign xml:lang="vie">ông cop</foreign>
+          </hi> (« Monsieur Tigre ») ?</p>
+        <p xml:id="d1e92">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-3sgvpa2v">mission</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-qge35acp">collection
+        scientifique</term>
+              </term>
+            </term>
+          </term>Si les Vietnamiens ne
+        s’aventuraient guère au coeur des hauts plateaux, ce ne fut pas le cas
+        des Français. Les premiers d’entre eux à entrer en contact avec les
+        Montagnards sont les missionnaires catholiques de la Société des
+        missions étrangères de <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>. Fuyant les
+        persécutions antichrétiennes orchestrées par les empereurs vietnamiens
+        <persName type="_temp">Thieu Tri</persName> et <persName type="_temp">Tu Duc</persName>, le père <persName ref="033313407" type="idref" xml:base="https://www.idref.fr/">Pierre
+        Dourisboure</persName> fonde en <date type="_temp" when="1852">1852</date>, dans les hauts plateaux centraux, <placeName ref="1578495" type="geonames" xml:base="https://www.geonames.org/">Kontum</placeName> ou la Mission
+        des Bahnars, dans le but d’évangéliser le peuple bahnar. Ces
+        ecclésiastiques doivent faire preuve de respect pour les croyances
+        populaires tout en manifestant une forte capacité d’adaptation à leur
+        nouvel environnement culturel. Ils vont donc s’acculturer en partie à
+        l’élément bahnar, en adoptant leur langue et en s’ouvrant aux
+        subtilités des coutumes des Montagnards dans le but de gagner les
+        coeurs à l’Évangile. C’est pourquoi, en véritables ethnologues, les
+        missionnaires vont collecter des informations sur les traditions
+        orales, notamment les légendes, de ces populations afin de mieux les
+        comprendre et de cerner leurs croyances<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Pierre Dourisboure, Christian Simonet, <hi rend="italic">La
+            mission des grands plateaux</hi>, Paris, France-Empire, 1961,
+            p. 55-59</p>
+          </note>.</p>
+        <p xml:id="d1e101">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-qyzckmpa">mémorisation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-gthw4tqm">proverbe</term>
+              </term>
+            </term>
+          </term>Les
+        Bahnars et leurs voisins possèdent une panoplie variée de proverbes et
+        de sentences qui règlementent la vie quotidienne, que les
+        missionnaires comparent, non sans malice, aux <hi rend="italic">Proverbes </hi>de la Bible. Leurs thématiques sont
+        toujours les mêmes : des éléments naturels, des animaux, la référence
+        à la récolte. Mais la culture orale des Montagnards leur demande un
+        effort considérable de mémorisation car la transmission de ces adages
+        se fait d’une génération à l’autre. Le père <persName ref="026836297" type="idref" xml:base="https://www.idref.fr/">Jacques
+        Dournes</persName> note avec raison que pour ces « peuples
+        analphabètes, la Tradition entendue et la parole qui la reproduit ont
+        une valeur d’argument correspondant à celle des imprimés chez ceux qui
+        lisent »<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Ibid., p. 116</p>
+          </note>. Citons deux maximes bien emblématiques : « Ne forge pas la
+        faucille avant l’époque de la moisson » (À chaque jour suffit sa
+        peine) ; « L’éléphant s’esquive par la droite, le rhinocéros par la
+        gauche » (il faut reconnaître les manières d’un chacun pour savoir le
+        prendre).</p>
+        <p xml:id="d1e110">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-vdg9xj5e">pratique rituelle<term ref="doi:10.34817/sv-swq24hre">cérémonie</term>
+            </term>
+          </term>Ce qui
+        frappe le plus l’esprit des pères est l’importance que les Bahnars
+        accordent aux serments oraux et, surtout, au respect de la parole qui
+        s’ensuit. Le père <persName ref="050424637" type="idref" xml:base="https://www.idref.fr/">Émile Kemlin</persName> décrit
+        parfaitement le fonctionnement du contrat d’alliance. Il s’agit d’un
+        contrat oral contracté entre deux individus dans le but de sceller une
+        amitié, d’éviter tout conflit. Le voyageur de passage, qui, en
+        général, bute sur la méfiance exacerbée, voire l’hostilité, des
+        villageois contre tout ce qui vient de l’extérieur, a intérêt à
+        engager ce genre d’alliance. En devenant ami avec un villageois, il
+        entre dans sa famille et obtient des avantages tels qu’une portion de
+        riz et une natte pour se coucher. Ces contrats d’alliance, véritables
+        piliers de la tradition orale des Montagnards, sont accompagnés lors
+        de la cérémonie par un poulet et une jarre de vin. Cette célébration
+        confirme l’acte auquel les deux contractants doivent se soumettre.
+        Puis les deux nouveaux amis récitent la formule ancestrale suivante,
+        transmise de génération en génération :</p>
+        <p xml:id="d1e112">« Acceptez que tous deux offrions du vin et une
+        poule pour nous appeler <foreign xml:lang="vie">
+            <hi rend="italic">pô</hi>
+          </foreign>. Que les esprits des monts nous conservent ! Que les
+        esprits des fleuves nous gardent en bonne santé ! Que nous atteignions
+        la longévité ! […] Venez, esprits, buvez et mangez les premiers ce vin
+        et ce foie de poule ; nous boirons après »<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>Émile Kemlin, <hi rend="italic">Les Reungao, rites agraires,
+            songes et alliances, </hi>textes réunis et présentés par Pierre Le
+            Roux, Paris, EFEO, 1998, p. 171</p>
+          </note>.</p>
+        <p xml:id="d1e124">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion<term ref="doi:10.34817/sv-qgdxlfpw">christianisme<term ref="doi:10.34817/sv-gxwxtes9">catholicisme</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+            </term>
+          </term>Ces
+        serments mi-religieux sont suivis par une beuverie qui scelle
+        officiellement l’alliance. Ces usages répétés de l’alcool choquent les
+        missionnaires qui, au nom de la morale chrétienne, tentent d’en
+        interdire l’usage aux Bahnars convertis au catholicisme. À un niveau
+        supérieur, on trouve l’alliance avec le sang, contrat plus fort, qui
+        se met en place uniquement si on suspecte le futur ami ou allié d’une
+        probable trahison. On vide un poulet de son sang que l’on recueille
+        dans un bol. Celui qui préside la cérémonie s’entaille alors l’index
+        et laisse couler son sang dans ledit bol. Après avoir ajouté d’autres
+        élixirs et procédé à plusieurs formules, on donne à boire au futur
+        allié son contenu. L’alliance du sang suppose que l’amitié nouée est
+        indéfectible et qu’elle impose une entraide sans faille si l’un des
+        alliés doit être attaqué par un quelconque ennemi. Afin de faire
+        cesser leurs incursions belliqueuses à <placeName ref="1578495" type="geonames" xml:base="https://www.geonames.org/">Kontum</placeName>, le père
+        <persName ref="150558945" type="idref" xml:base="https://www.idref.fr/">Jean-Baptiste Guerlach</persName>
+        contracta le serment du sang avec les Sedangs, population voisine des
+        Bahnars en <date type="_temp" when="1887">1887</date>
+          <note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>J. P. Daughton, <hi rend="italic">An empire divided: religion,
+            republicanism, and the making</hi>
+              <hi rend="italic">of French
+            colonialism, 1880-1914, </hi>Oxford, New York, Oxford University
+            press, 2006, p. 70</p>
+          </note>. Dès lors, les Sedangs, respectant la parole liée au
+        contrat, s’allièrent avec les Bahnars et les missionnaires formèrent
+        une Confédération des Bahnars-Sedangs, prémices d’un État dans la
+        région. Mais malheur à celui qui briserait ce serment ou se
+        singulariserait par un comportement irrespectueux lors de la
+        cérémonie. Les explorateurs <persName ref="074781944" type="idref" xml:base="https://www.idref.fr/">Prosper Odend’hal</persName> et
+        <persName ref="087816814" type="idref" xml:base="https://www.idref.fr/">Henri Maître</persName> le payèrent
+        très cher : le premier fut assassiné en <date type="_temp" when="1904">1904</date> par des Jarais – dont la réputation de
+        farouches guerriers dépassait largement la région des hauts
+        plateaux –, qui n’auraient pas apprécié les gestes déplacés et
+        l’attitude de l’explorateur. Quant au second, il fut tragiquement tué
+        en <date type="_temp" when="1914">1914</date> par un groupe rebelle de
+        Montagnards qui refusaient le dialogue.</p>
+        <p xml:id="d1e136">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-9z8fpxff">mythologie</term>
+            </term>
+          </term>Ces
+        serments importants se retrouvent en fait dans le « Code des
+        Bahnars », sorte de code pénal oral où les légendes se mêlent à un
+        droit coutumier rigoureux. La justice est symbolisée par l’oiseau,
+        animal vierge de tout mensonge et d’une honnêteté irréprochable. Il
+        n’y a rien d’étonnant à ce qu’un animal s’anthropomorphise : les
+        Montagnards ne distinguent pas l’âme humaine de celle des animaux.
+        Elle est mise sur un même pied d’égalité, au grand dam des
+        missionnaires qui luttèrent violemment contre cette croyance.
+        Pourtant, l’oiseau dans la mythologie des peuples du Sud indochinois
+        représente le conseiller, l’aide providentielle dans une situation
+        malheureuse ou celle qui informe et guide ceux qui se sont égarés dans
+        leur vie. De multiples chants glorifient cet animal et le rendent
+        populaire auprès des jeunes générations. Le plus connu et le plus
+        respecté des oiseaux, celui que les légendes louent pour ses qualités
+        de justicier, est le <hi rend="italic">börling </hi>ou l’oiseau-juge.
+        De nombreux récits accompagnent ses exploits :</p>
+        <p xml:id="d1e141">« Autrefois Loe était un grand endetté ; le matin
+        il payait une dette, le soir il en remboursait une autre ; il n’avait
+        jamais fini d’avoir des dettes. Alors qu’il allait justement
+        s’acquitter envers un créancier, il rencontra l’oiseau <hi rend="italic">börling </hi>qui lui tint ce langage : « Ô mon pauvre
+        Loe, tu es bien fatigué de rembourser sans cesse ce que tu dois ; les
+        hommes ne savent donc pas rendre la justice que les dettes retombent
+        toujours sur toi ! Que celui qui a tué paie les buffles ; que
+        l’empoisonneur donne six buffles […]. Ainsi le <hi rend="italic">börling </hi>enseigna au début »<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>Jacques Dournes, <hi rend="italic">Les populations montagnardes
+            du Sud-Indochinois,</hi>
+              <hi rend="italic">Dam Bo</hi>, Lyon,
+            Derain, 1950, p. 170-171</p>
+          </note>.</p>
+        <p xml:id="d1e160">À la fin du conte, l’oiseau-juge devient
+        silencieux, suite au Déluge que nous étudierons plus loin, et transmet
+        son savoir à des hommes qui rendent la justice selon ses préceptes. Le
+        <hi rend="italic">börling </hi>n’est en fait qu’un transmetteur de
+        progrès, un initiateur à la justice.</p>
+        <p xml:id="d1e165">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l’information<term ref="doi:10.34817/sv-tnmfsa9v">légende</term>
+              </term>
+            </term>
+          </term>Une
+        autre légende, où un animal bienfaiteur guide l’Homme vers le progrès,
+        est celle du lapin de garenne. Vivant parmi les herbacés, le lapin a
+        transmis aux Montagnards les remèdes médicaux des plantes. Là aussi,
+        une fois sa science inculquée aux hommes, le lapin de garenne perd la
+        parole et se mure dans le silence, laissant le soin aux humains de se
+        transmettre de génération en génération cette découverte.</p>
+        <p xml:id="d1e167">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-vdg9xj5e">pratique rituelle<term ref="doi:10.34817/sv-zbyuuwio">sacrifice</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-5vn9njoq">animal</term>
+            </term>
+          </term>Le buffle,
+        animal de compagnie et surtout outil de travail pour les rizières, est
+        vénéré comme un dieu par les populations des hauts plateaux. Bête
+        utilisée pour les sacrifices religieux, le buffle est surtout regardé
+        comme un homme dans les légendes et les récits de ces peuples. Il est
+        le personnage familier des villageois, mais également le héros de
+        nombreuses histoires. Lors de son sacrifice, on partage sa viande et
+        on la consomme en communion. Son sang symbolise l’alliance sacrée des
+        hommes avec les esprits.</p>
+        <p xml:id="d1e169">Cette perception du sacré dans toute chose, dans
+        tout élément naturel et espèce vivante, nous fait dire que les
+        Montagnards sont extrêmement religieux ; ne voient-ils pas des
+        esprits, les <hi rend="italic">Yang</hi>, partout dans la nature
+        autour d’eux ? Contrairement à ce qu’affirmaient les premiers
+        missionnaires dans les <date from="1850" to="1859" type="_temp">années 1850</date>, disant que les Bahnars, païens,
+        vivraient sous l’emprise de « terreurs superstitieuses »<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>Pierre Dourisboure, op. cit., p. 127</p>
+          </note>, leurs confrères de la <date from="1900" to="1949" type="_temp">première moitié du 20<hi rend="sup">e</hi> siècle</date>
+        modérèrent leur discours en reconnaissant la croyance en un Être
+        suprême, appelé <hi rend="italic">
+            <foreign xml:lang="vie">Ndu</foreign>. </hi>Dans le panthéon montagnard, <hi rend="italic">
+            <foreign xml:lang="vie">Ndu</foreign>
+          </hi> est un esprit immatériel. C’est lui qui a donné aux hommes la
+        nourriture. Ainsi, selon la légende, c’est lui qui surveille la pousse
+        du riz. Mais la fourberie des hommes l’a rendu colérique et, selon la
+        tradition orale des Montagnards, il a provoqué un déluge. Cette
+        inondation catastrophique serait responsable de la fin de l’harmonie
+        qui régnait entre les hommes, les <hi rend="italic">Yang </hi>et les
+        animaux qui parlaient et vivaient de la même manière que les autres
+        espèces vivantes. Alors, nous dit la légende, « l’océan grossit,
+        envahit les terres et ce fut une inondation qui couvrit tout et
+        détruisit tout »<note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>Jacques Dournes, op. cit., p. 197</p>
+          </note>. Les <hi rend="italic">Yang </hi>se réfugièrent dans la
+        terre et dans les éléments naturels et les animaux cessèrent de
+        parler. Quant aux hommes, ils disparurent tous sauf un couple. Suite à
+        cette calamité, les Montagnards vénèrent et craignent particulièrement
+        la nature, les astres, le tonnerre, la foudre où s’abritent les
+        esprits. Le père <persName ref="050424637" type="idref" xml:base="https://www.idref.fr/">Émile Kemlin</persName> affirme
+        qu’une légende bahnare considère que le soleil et la nuit sont des
+        soeurs rivales<note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>Ibid., p. 202</p>
+          </note>. À la nuit de la pleine lune, les hommes se rassemblent pour
+        réciter et chanter les légendes des traditions orales ; c’est une
+        soirée religieuse et propice à la prospérité. Quant au Ciel et à la
+        Terre, ils forment un couple harmonieux. Néanmoins, selon les récits
+        religieux, la Terre est l’essence de la vie, c’est la Mère nourricière
+        qui engendre tout, plantes, animaux, hommes. On lui voue un culte
+        particulier. Enfin, signalons encore les arbres sacrés à l’instar du
+        banian, qui, d’après les contes, est symbole de longévité. Mais plus
+        généralement, la tradition orale enseigne que tout arbre, toute pierre
+        est susceptible d’abriter un génie. C’est alors que le Montagnard,
+        voyant une pierre à forme étrange ou un tronc d’arbre, se tiendra
+        respectueusement à l’écart, sachant que ces éléments abritent un
+        génie. N’y a-t-il pas une similitude flagrante avec les <hi rend="italic">neakta </hi>cambodgiens et la multitude de génies qui
+        peuple et hante la campagne vietnamienne ?</p>
+        <p xml:id="d1e205">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-oqsgefv3">ethnologie</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-zrgdoeep">exploration</term>
+            </term>
+          </term>Le
+        deuxième groupe de Français qui entre en contact avec les Montagnards
+        des hauts plateaux du Sud indochinois est constitué d’explorateurs, et
+        ce dès les <date from="1860" to="1869" type="_temp">années 1860</date>. Ces explorations lancées en remontant
+        le Mékong devaient assurer aux Français un débouché commercial
+        éventuel vers le sud de la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName>, soustraire le
+        <placeName ref="1655842" type="geonames" xml:base="https://www.geonames.org/">Laos</placeName> à l’influence
+        siamoise, leur permettre d’effectuer des fouilles archéologiques dans
+        la forêt cambodgienne et d’intégrer dans l’administration de
+        l’Indochine coloniale la « tache blanche » que formaient encore les
+        hauts plateaux centraux, et ce même au début du <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi> siècle</date>. En
+        outre, il était urgent de trouver des zones climatiques plus salubres
+        afin d’y encourager la colonisation et de permettre aux colons et aux
+        fonctionnaires de fuir la touffeur saïgonnaise. Ces missions
+        d’exploration étaient composées d’hommes au profil hétérogène :
+        militaires, médecins, archéologues ou administrateurs coloniaux. À
+        l’instar des missionnaires catholiques, ces explorateurs vont se muer
+        en ethnologues, philologues ou linguistes lors de leur rencontre avec
+        les Montagnards. Mais la comparaison s’arrête là ; si les pères
+        s’intéressent davantage à la spiritualité de ces peuplades et au salut
+        de leurs âmes, les explorateurs en revanche préfèrent axer leurs
+        études sur l’origine ethnique et la sociologie des populations des
+        hauts plateaux. D’où viennent ces <hi rend="italic">Moi ?</hi> Cette
+        question taraude les scientifiques qui ne sont, du reste, pas
+        d’accord. Pour les uns, les Montagnards sont des autochtones de
+        l’Indochine d’avant la déferlante mongoloïde en provenance de
+        <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> et l’arrivée
+        des Khmers. Organisés en îlots isolés, ces autochtones auraient des
+        liens très étroits avec les Mélanésiens et les <hi rend="italic">Negritos </hi>des <placeName ref="1694008" type="geonames" xml:base="https://www.geonames.org/">Philippines</placeName>. D’autres
+        estiment qu’ils sont un sous-groupe indonésien, donc également
+        originaires du Pacifique, alors que plusieurs linguistes leur donnent
+        une filiation provenant du sud de la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName>. Pour remédier
+        à ce problème, nombre d’explorateurs vont étudier les langues des
+        ethnies rencontrées sur leur chemin et noter sur un calepin des mots
+        de vocabulaire. On tentera alors d’établir des similitudes avec les
+        groupes voisins. D’aucuns recueilleront les légendes orales ayant
+        trait à l’origine de ces peuples. Mais cette entreprise se révélera
+        décevante car les Montagnards ne connaissent pas l’écriture et sont
+        incapables de situer chronologiquement des événements historiques, à
+        l’instar des Vietnamiens qui consignent leur longue histoire dans des
+        annales, corroborées par les témoignages des voyageurs chinois qui se
+        rendent dans les États indochinois au fil des siècles.</p>
+        <p xml:id="d1e216">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-kqusp4ex">croyance</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel</term>
+            </term>
+          </term>La
+        première mission d’exploration est celle de <persName ref="027520765" type="idref" xml:base="https://www.idref.fr/">Doudart de
+        Lagrée</persName> qui remonte le Mékong en <date type="_temp" when="1866">1866</date>
+          <note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>Jean-Pierre Gomane, <hi rend="italic">L’exploration du Mékong :
+            la mission Ernest Doudart</hi>
+              <hi rend="italic">de Lagrée-Francis
+            Garnier, 1866-1868</hi>, Paris, L’Harmattan, 1994</p>
+          </note>. Elle se révèle décevante, le fleuve n’étant pas navigable
+        au-delà du <placeName ref="1831722" type="geonames" xml:base="https://www.geonames.org/">Cambodge</placeName>, et ses
+        membres ne collectent aucune information sur les traditions orales des
+        populations du centre de l’Indochine. En revanche, le médecin et
+        explorateur <persName ref="031186394" type="idref" xml:base="https://www.idref.fr/">Jules Harmand</persName> a plus de
+        chance. En <date type="_temp" when="1877">1877</date>, il devient en
+        effet le premier Européen à franchir le Truong-Son (Cordillère
+        annamitique) qui sépare le <placeName ref="1655842" type="geonames" xml:base="https://www.geonames.org/">Laos</placeName> du <placeName ref="1562822" type="geonames" xml:base="https://www.geonames.org/">Vietnam</placeName>. Mais plus
+        préoccupé de mesurer les individus rencontrés et d’analyser la
+        longueur de leur crâne grâce aux instruments anthropométriques, il
+        néglige la culture orale et les traditions ancestrales des habitants
+        du centre du <placeName ref="1655842" type="geonames" xml:base="https://www.geonames.org/">Laos</placeName>. Il remarque
+        néanmoins que les habitants d’un village sont terrifiés à l’idée de
+        couper un arbre. Leur croyance ancestrale explique qu’il est habité
+        par le génie des eaux qui ne doit en aucun cas être dérangé, sous
+        peine de cataclysme<note n="12" place="foot" type="standard" xml:id="ftn12">
+            <p>Jules Harmand, <hi rend="italic">Explorations coloniales au
+            Laos. Du Mékong aux hauts</hi>
+              <hi rend="italic">plateaux,
+            itinéraire au coeur d’une passion française, </hi>Paris, Soukha,
+            2010, p. 189</p>
+          </note>. Cette tradition orale se manifeste par des prières
+        d’imploration à genoux, mêlées de formules. Plus tard, installé dans
+        le village <hi rend="italic">kh</hi>â de <placeName ref="1609776" type="geonames" xml:base="https://www.geonames.org/">Kon-Khèn</placeName>, <persName ref="031186394" type="idref" xml:base="https://www.idref.fr/">Harmand</persName> ne comprend pas la
+        signification religieuse du comportement de son hôte : ce dernier prie
+        devant un autel, sans doute celui de ses ancêtres, en récitant une
+        prière que lui dicte un autre villageois. Dans la tradition orale de
+        ce village, l’intrusion à domicile d’un étranger peut en effet
+        susciter la colère des esprits…<note n="13" place="foot" type="standard" xml:id="ftn13">
+            <p>Ibid., p. 192</p>
+          </note>
+        </p>
+        <figure xml:id="d1e244">
+          <graphic url="https://didomena.ehess.fr/downloads/rf55z8434.jpg"/>
+          <head xml:id="d1e246">Figure 2 – Guerriers jarais. Extrait de Cupet,
+          <hi rend="italic">Mission Pavie : Indo-Chine 1879-1895</hi>. Paris :
+          Ernest Leroux, 1900, p. 307 (coll. BNU)</head>
+        </figure>
+        <figure xml:id="d1e251">
+          <graphic url="https://didomena.ehess.fr/downloads/nc580n395.jpg"/>
+          <head xml:id="d1e253">Figure 3 – Marche dans les « Raïs » ou
+          défrichements. Extrait de Malglaive et Rivière, <hi rend="italic">Mission Pavie : Indo-Chine 1879-1895</hi>. Paris :
+          Ernest Leroux, 1900, p. 196 (coll. BNU)</head>
+        </figure>
+        <p xml:id="d1e258">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-jjpnzr3b">maître</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-vdg9xj5e">pratique rituelle</term>
+          </term>Il faut
+        attendre la mission Pavie, qui se déroule de <date from="1879" to="1895" type="_temp">1879 à 1895</date>, pour que les Français
+        s’intéressent réellement à l’étude des populations du centre de
+        l’Indochine. Dirigée par <persName ref="029775590" type="idref" xml:base="https://www.idref.fr/">Auguste Pavie</persName>, consul et
+        explorateur, cette mission est composée d’un équipage scientifique de
+        qualité, encadré par des militaires. Le <placeName ref="1655842" type="geonames" xml:base="https://www.geonames.org/">Laos</placeName>
+        est exploré, les plateaux du centre du <placeName ref="1562822" type="geonames" xml:base="https://www.geonames.org/">Vietnam</placeName> sont visités
+        et le <persName ref="076596397" type="idref" xml:base="https://www.idref.fr/">capitaine Cupet</persName> se rend à
+        la « Mission des Bahnars » à <placeName ref="1578495" type="geonames" xml:base="https://www.geonames.org/">Kontum</placeName>. Il a
+        l’intention de rencontrer le <persName type="_temp">Sadète</persName>
+          <note n="14" place="foot" type="standard" xml:id="ftn14">
+            <p>Corruption du mot laotien <hi rend="italic">somdet
+            </hi>(roi).</p>
+          </note>, sorcier des Jarais, dont l’influence spirituelle est
+        immense sur les hauts plateaux. En réalité, il y a deux Sadètes :
+        celui du Feu, le plus terrible, et celui de l’Eau. Des légendes
+        déformées sont colportées à leur sujet, qui accentuent le mystère de
+        leur personne. De plus, les Montagnards dissuadent les voyageurs de
+        passage de les rencontrer, afin de conserver intacte leur aura
+        mystérieuse. Mais ce qui est intéressant, c’est leur similitude
+        frappante avec le dieu hindou <persName type="_temp">Indra</persName>.
+        En effet, le Sadète du Feu possède comme la divinité de l’hindouisme
+        une épée enfermée dans une gaine. La légende affirme que s’il tire la
+        lame de quelques centimètres, le soleil se cache et les hommes, ainsi
+        que les animaux, tombent dans un profond sommeil. Enfin, s’il sort
+        l’épée du fourreau, c’est la fin du monde<note n="15" place="foot" type="standard" xml:id="ftn15">
+            <p>Pierre-Paul Cupet, <hi rend="italic">Mission Pavie Indo-Chine
+            1879-1895 : Géographie et</hi>
+              <hi rend="italic">voyages. III,
+            Voyages au Laos et chez les sauvages du sud-est de
+            l’Indo-Chine</hi>, Paris, E. Leroux, 1900, p. 300</p>
+          </note>. Quant au Sadète de l’Eau, la légende qui l’entoure clame
+        qu’il peut provoquer un déluge qui noierait le monde, grâce à ses
+        fétiches. Ces deux légendes semblent indiquer une origine lointaine
+        des Jarais : ils ont été très certainement à une époque en contact (et
+        fortement influencés par eux) avec des peuples de culture indienne
+        tels les Cambodgiens et les Chams, anciennes peuplades du centre de
+        l’actuel <placeName ref="1562822" type="geonames" xml:base="https://www.geonames.org/">Vietnam</placeName>. Cependant le
+        <persName ref="076596397" type="idref" xml:base="https://www.idref.fr/">capitaine Cupet</persName>, à
+        l’instar de l’ensemble des explorateurs, se trompe sur la
+        signification du mot Sadète. Selon le missionnaire <persName ref="026836297" type="idref" xml:base="https://www.idref.fr/">Jacques
+        Dournes</persName>, les Sadètes désignent le système des <hi rend="italic">
+            <foreign xml:lang="vie">pötao</foreign>
+          </hi> qui sont en réalité trois : le maître du feu, le maître de
+        l’eau et le maître de l’air. Il ajoute que « chaque <hi rend="italic">
+            <foreign xml:lang="vie">pötao</foreign>
+          </hi> est l’expression d’une partie d’un tout : les trois éléments
+        de la matière, le père, la mère, l’enfant, l’est et l’ouest, le
+        manche, le fourreau, la lame, les éléments de la forge… Chaque <hi rend="italic">
+            <foreign xml:lang="vie">pötao</foreign>
+          </hi> détient un trésor, comme le sabre du maître du feu qui est le
+        palladium de son pouvoir »<note n="16" place="foot" type="standard" xml:id="ftn16">
+            <p>Mathieu Guérin, Andrew Hardy, Nguyên Văn Chính, Stan Tan Boon
+            Hwee, <hi rend="italic">Des montagnards aux minorités
+            ethniques</hi>. <hi rend="italic">Quelle intégration nationale
+            pour les habitants des hautes terres du Viêt Nam et du
+            Cambodge ?</hi>, Paris, Bangkok, L’Harmattan, IRASEC, 2003,
+            p. 22-23</p>
+          </note>.</p>
+        <p xml:id="d1e297">En fait, les Sadètes <hi rend="italic">
+            <foreign xml:lang="vie">pötao</foreign>
+          </hi> ne sont pas vraiment des sorciers, mais ils sont garants d’un
+        système religieux et politique et préservent ainsi l’harmonie de leur
+        peuple. La mauvaise interprétation des explorateurs au sujet de ces
+        puissances est due encore une fois à l’absence d’écriture, à une
+        déformation plus ou moins volontaire de dires par les Jarais eux-mêmes
+        et, surtout, à l’influence des Cambodgiens qui croyaient que les
+        Sadètes <hi rend="italic">
+            <foreign xml:lang="vie">pötao</foreign>
+          </hi> étaient des souverains et leur envoyaient des présents pour
+        forger des alliances.</p>
+        <p xml:id="d1e305">En poursuivant sa route, le <persName ref="076596397" type="idref" xml:base="https://www.idref.fr/">capitaine Cupet</persName> tombe sur
+        un lac sacré, au sud de la Mission des Bahnars. La légende locale
+        colporte que cette étendue d’eau n’existait pas autrefois. Sur son
+        emplacement se trouvaient, dit-elle, de nombreux villages qui furent
+        engloutis par la terre, laquelle donna naissance au lac. De plus, la
+        nuit, un éléphant blanc sort de ses profondeurs et on entend au loin
+        un carillon de gongs sans savoir qui les frappe<note n="17" place="foot" type="standard" xml:id="ftn17">
+            <p>Pierre-Paul Cupet, op. cit., p. 322</p>
+          </note>. L’idée que la terre engloutit ou bien que l’on sort de ses
+        entrailles est très répandue chez les Montagnards. Ils expliqueraient
+        ainsi leur origine. L’explorateur <persName ref="087816814" type="idref" xml:base="https://www.idref.fr/">Henri Maître</persName>
+        a recueilli une légende des Rhadés sur la naissance de leur
+        peuple :</p>
+        <p xml:id="d1e312">« À l’origine du monde », disent-ils, « alors que
+        les autres peuples habitaient depuis toujours la surface de la terre,
+        les <hi rend="italic">Moi </hi>vivaient à l’intérieur, où ils étaient
+        très malheureux. Un jour, quelques-uns d’entre eux se décidèrent à
+        aller explorer la surface terrestre et sortirent par un trou qui
+        communiquait avec elle et était appelé Kband Prigne, situé à l’est de
+        <placeName ref="1586896" type="geonames" xml:base="https://www.geonames.org/">Ban-Mé-Thuot</placeName> (village
+        existant encore). Ils trouvèrent l’aspect du sol merveilleux et
+        résolurent de venir s’y installer. Ils retournèrent appeler ceux qui
+        étaient encore dans l’intérieur de la terre et ceux-ci se mirent en
+        devoir d’émigrer avec tout leur bétail et ustensiles de ménage, mais
+        les jolies femmes <hi rend="italic">moi</hi>, coquettes comme en tout
+        lieu, se crurent obligées de se mettre en frais de toilette pour cette
+        occasion et restèrent en arrière. Malheureusement, lorsqu’à leur tour
+        elles voulurent sortir, elles trouvèrent le trou bouché par un buffle
+        à deux têtes qui ne pouvait plus rentrer ni sortir à cause de ses
+        cornes et qui mourut là, laissant le trou fermé à jamais, et les
+        femmes restèrent dans la terre. C’est pour cette raison, ajoutent les
+        <hi rend="italic">Moi</hi>, qu’on voit peu de jolies femmes en pays
+        <hi rend="italic">moi »</hi>
+          <note n="18" place="foot" type="standard" xml:id="ftn18">
+            <p>Henri Maître, <hi rend="italic">Les régions moï du sud
+            indo-chinois. Le plateau du Darlac,</hi> Paris, Plon-Nourrit,
+            1909, p. 36</p>
+          </note>.</p>
+        <p xml:id="d1e332">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-moisaopj">Terre</term>
+            </term>
+          </term>On retrouve
+        dans cette merveilleuse légende sur l’origine des Montagnards les
+        thèmes déjà étudiés : la terre nourricière (le sol), mais aussi
+        maternelle (les entrailles, les <hi rend="italic">Moi </hi>qui vivent
+        à l’intérieur). Le buffle, animal sacré, utile et familier, partage
+        les conditions de la vie souterraine avec les hommes. Il sort en même
+        temps qu’eux, mais bloque les femmes coquettes. On observe encore une
+        fois le rôle de l’animal mythifié : par vanité et par narcissisme, les
+        belles femmes se font piéger par la bête qui les empêche de sortir.
+        Elles sont de facto punies d’avoir succombé à leurs derniers
+        caprices.</p>
+        <figure xml:id="d1e337">
+          <graphic url="https://didomena.ehess.fr/downloads/4b29b670x.jpg"/>
+          <head xml:id="d1e339">Figure 4 – Tombeau Bahnar, région de Kontum.
+          Extrait de Cupet, <hi rend="italic">Mission Pavie : Indo-Chine
+          1879-1895</hi>. Paris : Ernest Leroux, 1900, p. 347 (coll.
+          BNU)</head>
+        </figure>
+      </div>
+    </body>
+  </text>
+</TEI>

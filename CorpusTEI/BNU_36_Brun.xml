@@ -1,0 +1,778 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-06T16:08:59.495+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_36_Brun">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Une collection de livres</title>
+        <author role="aut">
+          <forename>Jacques</forename>
+          <surname>Le Brun</surname>
+          <idno type="IDREF">026971976</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Seconde édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/NGFU6QPG" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Une collection de livres</title>
+            <idno type="DOI">https://doi.org/10.4000/rbnu.1028</idno>
+            <author>
+              <forename>Jacques</forename>
+              <surname>Le Brun</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <imprint>
+              <biblScope unit="issue">15</biblScope>
+              <biblScope unit="page">112-122</biblScope>
+              <date>2017</date>
+              <note type="url">https://journals.openedition.org/rbnu/1028</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-bdoa5n36">spiritualité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire<term ref="doi:10.34817/sv-ku7w692n">histoire des
+          religions</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-h5xg2swx">collectionneur</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>
+          </term>
+          <term>
+            <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1500" to="1799" type="_temp">16<hi rend="sup">e</hi>
+            au 18<hi rend="sup">e</hi> siècles</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-02-04T14:22:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Une collection de livres</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Jacques Le Brun</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e49">
+          <graphic url="https://didomena.ehess.fr/downloads/df65v872t.png"/>
+          <head xml:id="d1e51">Figure 1 – La bibliothèque de Jacques Le Brun
+          (vue partielle)</head>
+        </figure>
+        <p xml:id="d1e53">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-h24ux4bz">bibliothécaire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-h5xg2swx">collectionneur</term>
+            </term>
+          </term>Quand
+        on parle de collection ou de collectionneur, chacun a en l’esprit un
+        ensemble d’objets, certains rares ou très rares, rassemblés en une
+        unité générique (des timbres-poste, des faïences d’<placeName ref="6541472" type="geonames" xml:base="https://www.geonames.org/">Urbino</placeName>, des livres,
+        etc.) par le désir et les soins d’un collectionneur qui a choisi
+        l’objet de cette collection ou dont l’objet s’est un jour imposé à
+        lui, qui a eu la compétence pour savoir quelle pièce acquérir et
+        laquelle mépriser ou qui a confié ce soin et cette compétence à un
+        spécialiste, à un historien d’art, à un bibliothécaire ou à un
+        archiviste, enfin qui a eu les moyens d’entretenir cette collection,
+        de la développer, de l’étudier, de connaître l’exacte nature, voire la
+        valeur, des pièces rassemblées. Ainsi les grandes collections de
+        livres et manuscrits constituées par des personnages connus, par
+        exemple le <persName ref="032792662" type="idref" xml:base="https://www.idref.fr/">duc d’Aumale</persName> ou <persName ref="11215297X" type="idref" xml:base="https://www.idref.fr/">Sir
+        Thomas Phillipps</persName> et cent autres au <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi> siècle</date>, un
+        <persName ref="026914158" type="idref" xml:base="https://www.idref.fr/">Gabriel Hanotaux</persName>, un
+        <persName type="_temp">Jacques Doucet</persName>, un <persName ref="027034216" type="idref" xml:base="https://www.idref.fr/">Henri
+        Mondor</persName>, un <persName ref="030095999" type="idref" xml:base="https://www.idref.fr/">Henri de Rothschild</persName>, et
+        bien d’autres encore au <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi>
+          </date>, chacun ayant à son service des
+        bibliothécaires de grande compétence.</p>
+        <p xml:id="d1e61">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-bdoa5n36">spiritualité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire<term ref="doi:10.34817/sv-ku7w692n">histoire des
+        religions</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jcqq7vil">collection
+        éditoriale</term>
+            </term>
+          </term>Or il ne s’agit de rien de tel pour
+        l’ensemble de livres appelé « collection <persName ref="026971976" type="idref" xml:base="https://www.idref.fr/">Jacques Le
+        Brun</persName> » dans le catalogue de l’exposition <hi rend="italic">Fénelon et son double</hi>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>
+              <hi rend="italic">Fénelon et son double</hi>, catalogue réalisé
+            sous la direction de François-Xavier Cuche et Julien Gueslin,
+            Strasbourg, Bibliothèque nationale et universitaire, 2015</p>
+          </note>, ensemble de livres constitué autour des sciences et de la
+        littérature religieuses de l’<date>âge classique</date>, du <date from="1500" to="1799" type="_temp">16<hi rend="sup">e</hi> au 18<hi rend="sup">e</hi> siècles</date>, où l’on rencontre les noms d’auteurs
+        bien connus comme <persName ref="026655713" type="idref" xml:base="https://www.idref.fr/">Fénelon</persName>, <persName ref="026741059" type="idref" xml:base="https://www.idref.fr/">Bossuet</persName>, <persName ref="235297569" type="idref" xml:base="https://www.idref.fr/">Mme
+        Guyon</persName>, <persName ref="029095786" type="idref" xml:base="https://www.idref.fr/">Richard Simon</persName>, <persName ref="030315727" type="idref" xml:base="https://www.idref.fr/">Pierre-Daniel Huet</persName>,
+        <persName ref="027047784" type="idref" xml:base="https://www.idref.fr/">Pierre Nicole</persName> et les
+        auteurs moins connus de livres de spiritualité ascétique et mystique,
+        de biographies de religieuses, d’écrits se rapportant aux grands
+        débats théologiques et historiques de ce temps-là.</p>
+        <p xml:id="d1e77">La première question que l’on pourrait se poser et
+        qu’avec le recul du temps, de plus d’une soixantaine d’années, je ne
+        peux pas ne pas me poser, c’est la façon dont a pu survenir et
+        s’imposer chez un jeune étudiant se destinant à un travail
+        universitaire l’idée et le désir de rassembler des éditions anciennes
+        des auteurs sur lesquels il travaillait, éditions qu’il utilisait et
+        manipulait chaque jour à la Bibliothèque nationale pour préparer un
+        Diplôme d’études supérieures vers <date type="_temp" when="1953">1953</date>.</p>
+        <p xml:id="d1e79">
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x9zhwfxk">recueil de lieux
+        communs</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+            </term>
+          </term>On pourrait
+        se donner d’emblée la facile explication par ce que l’on pourrait
+        appeler l’hérédité ou l’influence familiale. Il est vrai que plusieurs
+        ancêtres ou collatéraux avaient possédé ou possédaient alors
+        d’importantes bibliothèques et avaient eux-mêmes publié un certain
+        nombre de livres, si bien que c’est pour ainsi dire sous forme de
+        « livres », possédés ou écrits et publiés, que, dans une généalogie,
+        ils prenaient forme et visage dans l’imagination de cet enfant. À cela
+        s’ajoutait le fait que dans la demeure de ses parents, la pièce qui
+        lui paraissait centrale dans son isolement était la bibliothèque où
+        des milliers de livres offraient à ses lectures enfantines et
+        adolescentes des ressources inépuisables, essentiellement des livres
+        du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>
+          </date> et du premier <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi> siècles</date>, mais aussi tous
+        les classiques des siècles anciens. En tout cas, de ces importantes
+        bibliothèques, seuls des fragments sont parvenus jusqu’ici et ont pu
+        constituer l’embryon de la collection dont quelques pièces ont été
+        exposées à la Bibliothèque nationale et universitaire de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, et ce
+        n’est que quelques années après les débuts de ce rassemblement de
+        livres appelé « collection » que quelques-uns de ces livres sont
+        arrivés par héritage. Cela ne signifie pas que certains apports ne
+        furent pas décisifs. Je ne prendrai qu’un exemple, une collection
+        d’<hi rend="italic">Ana</hi>, ces recueils de citations, de
+        conversations et de fragments d’écrivains ou d’humanistes dont la
+        vogue s’étendit des <date from="1650" to="1659" type="_temp">années 1650</date> au début du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi> siècle</date>. Un
+        arrière-grand-père<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Louis Brunet (1827-1913), auteur d’un recueil de textes
+            spirituels des 17<hi rend="sup">e</hi>-19<hi rend="sup">e</hi> siècles, <hi rend="italic">Officium sanctissimi
+            cordis D. N. Jesu-Christi</hi>, « offert par l’auteur », 1904
+            [« seconde édition revue et très augmentée », 1909].</p>
+          </note> avait, au sein d’une immense bibliothèque, constitué une
+        collection d’une centaine d’<hi rend="italic">Ana ;</hi> ayant hérité
+        celle-ci, il a été possible, sans trop de difficultés, par des achats
+        d’un ou deux volumes par an à des prix modestes, de doubler le nombre
+        de ces livres et, évidemment sans atteindre l’ampleur de la collection
+        dont <persName type="_temp">Aude</persName> en <date type="_temp" when="1910">1910</date> avait établi la bibliographie<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>A. F. Aude, <hi rend="italic">Bibliographie critique et
+            raisonnée des ANA</hi>, Paris, Darragon, 1910</p>
+          </note>, d’en constituer un ensemble significatif.</p>
+        <p xml:id="d1e117">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-wxtpa7cz">biographie</term>
+            </term>
+          </term>Cependant
+        je crois qu’évoquer cette archéologie personnelle n’est pas
+        l’essentiel. Constituer une collection de ce genre n’est pas avant
+        tout mettre ses pas dans ceux de ses prédécesseurs. Selon une
+        explication plus convaincante, la collection semble répondre à des
+        préoccupations précises : ne serait-ce pas, pour quelqu’un qui
+        commence à travailler dans un champ du savoir, se constituer un
+        ensemble permettant d’avoir sous la main, disponibles jour et nuit,
+        ses instruments de travail, gain de temps, et plus grande facilité
+        dans l’usage et la comparaison des livres ? Il y aurait donc ici une
+        dimension utilitaire, avoir chez soi une Bibliothèque nationale en
+        miniature !</p>
+        <p xml:id="d1e119">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-mvvrmv8h">édition</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>Je
+        m’arrêterai peu à ces évidences. Et pourtant, même de ce point de vue
+        utilitaire, le rassemblement d’un fonds d’éditions anciennes est
+        intéressant pour des raisons qui ne sont pas tout de suite accessibles
+        à qui n’a pas eu cette expérience. Il y a là, et nous atteignons
+        peut-être une autre dimension de la bibliothèque, quelque chose qui
+        touche à la nature même d’un livre, cet objet unique dont, malgré les
+        apparences d’une uniforme multiplicité, chaque exemplaire n’est jamais
+        semblable aux autres. Je reviendrai sur ce point. Mais très vite, en
+        travaillant sur les livres de la Bibliothèque nationale et en
+        acquérant des exemplaires des <date from="1500" to="1799" type="_temp">16<hi rend="sup">e</hi>, 17<hi rend="sup">e</hi> et 18<hi rend="sup">e</hi> siècles</date> sur lesquels on travaille aussi, on
+        remarque des signes souvent peu visibles au premier regard : ex-libris
+        anciens, pages interfoliées, cartons, soulignements, notes marginales,
+        cachets de bibliothèques anciennes ou récentes, etc. Tel exemplaire,
+        semblable en apparence à celui qu’on avait entre les mains à la BN,
+        s’est révélé unique et fournit des renseignements que n’apporte pas ce
+        dernier (qui d’ailleurs en apporte d’autres, non moins intéressants).
+        Donnons un exemple de cette unicité et des renseignements qu’elle peut
+        nous apporter : des éditions de <persName ref="088944468" type="idref" xml:base="https://www.idref.fr/">Jean de Bernières</persName>, de
+        <persName ref="026765187" type="idref" xml:base="https://www.idref.fr/">Benoît de Canfield</persName> ou du
+        <persName ref="027152022" type="idref" xml:base="https://www.idref.fr/">père Surin</persName>, mystiques du
+        <date from="1600" to="1699" type="_temp">17<hi rend="sup">e</hi> siècle</date>, tous mis à l’index lors de
+        l’offensive antimystique des années <date from="1680" to="1700" type="_temp">1680-1700</date>, portent une signature et une date, ou
+        une mention de bibliothèque, la signature d’une religieuse, carmélite
+        ou visitandine, l’ex-libris d’un couvent, une date du <date type="_temp" when="1750">milieu du 18<hi rend="sup">e</hi> siècle</date>, montrant qu’en ces années des
+        religieuses continuaient à lire, à recopier et à méditer ces œuvres
+        mystiques du siècle précédent et par ailleurs ne tenaient nul compte
+        des index et des interdictions des autorités ecclésiastiques. On peut
+        tirer un grand nombre de remarques de ce genre d’exemplaires de ces
+        livres de spiritualité achetés à vil prix, qui m’ont apporté nombre
+        d’éléments exploités dans ma thèse complémentaire en <date type="_temp" when="1970">1970</date> sur <hi rend="italic">Les
+        opuscules spirituels de Bossuet </hi>et leur diffusion dans les
+        milieux religieux de <placeName ref="2990999" type="geonames" xml:base="https://www.geonames.org/">Nancy</placeName> au <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi> siècle</date>
+          <note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Jacques Le Brun, <hi rend="italic">Les opuscules spirituels de
+            Bossuet. Recherches sur la tradition nancéienne</hi>, Nancy,
+            « Annales de l’Est. Mémoires, n<hi rend="sup">o</hi> 38 »,
+            1970</p>
+          </note>.</p>
+        <p xml:id="d1e153">C’est d’ailleurs ce caractère du livre, constituer
+        l’unité d’une série et en même temps être un objet unique porteur
+        d’informations, que révèlent à un examen approfondi les conditions
+        d’impression à l’âge classique, sans parler des fréquentes et
+        remarquables qualités esthétiques d’exemplaires par ailleurs modestes.
+        Ainsi, nous nous apercevons par exemple que les œuvres polémiques de
+        Fénelon, lors de la querelle du pur amour, n’ont pas été imprimées
+        chacune chez un seul imprimeur, mais qu’elles l’ont été simultanément
+        chez plusieurs, comportant pour le même texte des différences de
+        caractères, de mise en page, de papier et de filigrane, renseignements
+        précieux qui nous révèlent des stratégies éditoriales, une hâte à
+        répondre aux objections, des réseaux s’étendant sur plusieurs villes.
+        L’examen d’un seul exemplaire d’une bibliothèque, cette dernière
+        fût-elle prestigieuse, ne suffit pas pour une étude précise des
+        conditions de développement d’une querelle théologique au <date from="1600" to="1699" type="_temp">17<hi rend="sup">e</hi> siècle</date>. Mais nous entrons ici dans le domaine
+        de la bibliographie matérielle, si utile pour connaître l’histoire des
+        œuvres. Quand réalisera-t-on cette bibliographie matérielle des
+        éditions des <hi rend="italic">Aventures de Télémaque </hi>des seules
+        années <date from="1699" to="1701" type="_temp">1699-1701</date> ?
+        Tâche immense, à peine ébauchée depuis le travail pionnier d’<persName ref="032834683" type="idref" xml:base="https://www.idref.fr/">Albert
+        Cahen</persName>
+          <note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>Fénelon, <hi rend="italic">Les aventures de Télémaque</hi>,
+            nouvelle édition publiée […] par Albert Cahen, Coll. des grands
+            écrivains de la France, 2 vol., Paris, Hachette, 1920</p>
+          </note>.</p>
+        <p xml:id="d1e168">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-h5xg2swx">collectionneur</term>
+            </term>
+          </term>Et
+        ici, celui qui a empiriquement et au hasard des découvertes rassemblé
+        des ouvrages anciens concernant ses objets d’étude, s’aperçoit que la
+        grande entreprise, si utile, si indispensable même, de numérisation
+        des livres anciens des grandes bibliothèques, risque paradoxalement,
+        chez certains utilisateurs trop pressés, de susciter une idée tout à
+        fait inexacte de ce qu’est un livre. Disons, de façon un peu
+        provocatrice, qu’un livre n’est pas le support d’une information, ou,
+        de façon moins brutale, n’est pas seulement le support d’une
+        information. Lire un livre ancien, mais peut-être aussi lire sur écran
+        un livre d’aujourd’hui, risque d’en donner une idée inexacte. Un livre
+        est ce qu’on pourrait appeler une « chose », un « objet », en donnant
+        à ces mots leur sens le plus fort qui n’est pas seulement celui d’un
+        instrument en vue d’une fonction, la communication d’un message. Un
+        livre est un objet, c’est-à-dire un ensemble de matières, de formes,
+        de déformations, et susceptible de différents usages, de même que sa
+        réalisation n’a pas seulement répondu à des exigences techniques. En
+        tant qu’objet, il est essentiellement unique, même si aujourd’hui il
+        est plus facilement reproductible qu’autrefois, circonstance
+        historique qui est une des sources de l’illusion. Il est unique, non
+        seulement dans sa fabrication, mais aussi unique dans les usages qui
+        en sont faits et dans l’investissement affectif dont il est le
+        support, parfois même aux limites du fétichisme. Mais pourquoi pas ?
+        Ne condamnons pas cette conception fétichiste de l’objet-livre.
+        Inversement, s’il est objet par l’usage qui en est fait, ce caractère
+        d’objet se retourne et modifie la signification qu’il comporte, le
+        caractère de l’information qu’il contient. Un exemple pris encore une
+        fois à l’œuvre de <persName ref="104464518" type="idref" xml:base="https://www.idref.fr/">Fénelon</persName> : les <hi rend="italic">Aventures de Télémaque </hi>aux innombrables éditions
+        différentes par leur format, les caractères d’imprimerie, les
+        illustrations, les langues dans lesquelles elles sont traduites, sont
+        devenues, du fait des usages divers qu’elles ont pu susciter, le point
+        aveugle de rencontre de ces innombrables usages et la référence,
+        peut-être imaginaire malgré la matérialité des exemplaires, des
+        innombrables significations que les lecteurs en trois siècles y ont
+        trouvées ou à partir d’elles ont créées : œuvre réactionnaire,
+        progressiste, dévote, éclairée, philosophique ou encore ésotérique. Du
+        fait d’être objets uniques, ces livres intitulés « <hi rend="italic">Aventures de Télémaque »</hi> sont devenus supports de
+        significations et d’affects souvent contradictoires ; la multiplicité
+        des exemplaires semble brouiller la signification alors qu’elle
+        modifie, ou même crée, cette signification. Et cette multiplicité, si
+        elle peut refléter le désir accumulateur, voire fétichiste, du
+        collectionneur, est aussi le reflet de l’inscription du livre dans une
+        histoire, de la constitution d’une série (par exemple les éditions du
+        <hi rend="italic">Télémaque </hi>au <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi> siècle</date>), donc l’élément
+        d’une généalogie, tout en étant également représentative d’une autre
+        série, celle des exemplaires publiés en nombre plus ou moins grand en
+        même temps que cet exemplaire que nous avons entre les mains. Comme
+        l’écrit <persName ref="026979497" type="idref" xml:base="https://www.idref.fr/">Pierre Legendre</persName>, « un
+        document n’est pas un déchet informationnel, mais un témoin qui nous
+        parle au-delà de ce qu’il énonce : il n’existe qu’en rapport avec une
+        généalogie de textes, il n’est donc jamais isolable »<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>Pierre Legendre, <hi rend="italic">Fantômes de l’État en
+            France</hi>, Paris, Fayard, 2015, p. 186</p>
+          </note>. D’où une justification du maniement de tel ou tel
+        exemplaire. Rien là de la conception contemporaine de l’information,
+        la transmission sans reste ni déformation d’un message entre émetteur
+        et récepteur, conception dont les techniques modernes, par ailleurs si
+        utiles et si fécondes, si indispensables, peuvent favoriser
+        l’empire.</p>
+        <figure xml:id="d1e189">
+          <graphic url="https://didomena.ehess.fr/downloads/cc08hg38n.png"/>
+          <head xml:id="d1e191">Figure 2 – Copie manuscrite d’un livre publié
+          en 1670, mis à l’index en 1690, copie effectuée par une religieuse
+          du 18<hi rend="sup">e</hi> siècle (coll. J. Le Brun).</head>
+        </figure>
+        <figure xml:id="d1e196">
+          <graphic url="https://didomena.ehess.fr/downloads/5425kb54n.png"/>
+          <graphic url="https://didomena.ehess.fr/downloads/tx31qj60h.png"/>
+          <head xml:id="d1e198">Figure 3 – Deux des nombreuses éditions des
+          <hi rend="italic">Aventures de Télémaque</hi> parues clandestinement
+          en 1699, l’année de la première édition (coll. J. Le Brun).</head>
+        </figure>
+        <p xml:id="d1e204">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-xrw7acj4">histoire du
+        livre</term>
+                </term>
+              </term>
+            </term>
+          </term>La question que nous soulevons
+        ici n’a nulle part été mieux exposée et analysée que dans l’essai que
+        publia en <date type="_temp" when="1936">1936</date>
+          <persName ref="154810711" type="idref" xml:base="https://www.idref.fr/">Walter
+        Benjamin</persName> et qui s’intitule <hi rend="italic">L’œuvre d’art
+        à l’ère de sa reproductibilité technique</hi>
+          <note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>Dans Walter Benjamin, <hi rend="italic">Œuvres</hi>, coll.
+            Folio, Paris, Gallimard, 2000, t.  III, p. 67-113 et dernière
+            version, ibid., p. 269-316</p>
+          </note>, essai qui depuis longtemps m’a paru présenter le meilleur
+        instrument pour penser les mutations que les techniques modernes ont
+        opérées dans le champ de l’art et de la culture. Ce que <persName ref="154810711" type="idref" xml:base="https://www.idref.fr/">Benjamin</persName> y écrit de
+        l’œuvre d’art peut s’appliquer au livre, dans la mesure où le livre,
+        comme nous venons de le voir, possède lui aussi le caractère d’unicité
+        de l’objet, de la « chose », de l’œuvre d’art. « Unicité », c’est le
+        mot qu’emploie ici <persName ref="154810711" type="idref" xml:base="https://www.idref.fr/">Walter Benjamin</persName> lorsqu’il
+        écrit : « à la plus parfaite reproduction il manque toujours quelque
+        chose, l’ici et le maintenant de l’œuvre d’art – l’unicité de sa
+        présence au lieu où elle se trouve » ; et il ajoute : « C’est à cette
+        présence unique pourtant et à elle seule que se trouve liée toute son
+        histoire »<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>Ibid., p. 273</p>
+          </note>. En introduisant l’« histoire » comme dimension de l’unicité
+        et de la présence, ce que dans cet essai il appelle aussi l’<hi rend="italic">aura</hi>, <persName ref="154810711" type="idref" xml:base="https://www.idref.fr/">Walter Benjamin</persName> nous
+        apporte de précieux éléments sur la nature particulière du livre à la
+        fois multiple et unique. Selon lui, l’histoire de l’œuvre, qui est
+        liée à « son pouvoir de témoignage historique »<note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>Ibid., p. 275</p>
+          </note>, donc « l’autorité de la chose » – ce sont ses mots –, ce
+        sont non seulement les « altérations matérielles », mais aussi la
+        « succession de ses possesseurs », et nous reconnaissons ici ce que
+        nous tentions d’exposer il y a quelques instants en nous interrogeant
+        sur le rapport entre telle édition d’un livre et tel exemplaire de ce
+        même livre, deux régimes d’historicité, l’un celui du collectif et de
+        la reproduction, l’autre celui de l’individuel et de la suite des
+        lecteurs à travers les siècles et les traces de leurs lectures
+        successives, ce que <persName ref="154810711" type="idref" xml:base="https://www.idref.fr/">Walter Benjamin</persName> appelle
+        aussi le « domaine de la tradition »<note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>Ibid., p. 276</p>
+          </note>.</p>
+        <p xml:id="d1e230">Ainsi, s’il est vrai que le livre, non seulement
+        dans sa multiplicité, mais aussi dans la singularité de chaque
+        exemplaire, peut être un instrument de travail, porteur d’un message
+        historique, sociologique ou encore politique, donc susceptible de la
+        part de son possesseur et utilisateur d’un investissement intellectuel
+        ou informationnel, il est aussi ce que <persName ref="154810711" type="idref" xml:base="https://www.idref.fr/">Walter
+        Benjamin</persName> désignait des deux mots, à prendre en un sens
+        plein, un « objet » (il parle de « l’<hi rend="italic">aura </hi>d’un
+        objet naturel ») ou « une chose ». Et là le rapport à l’objet, à la
+        chose est d’un autre ordre que celui du travail intellectuel, que
+        celui de la science, fût-elle science des textes, science du livre.
+        Pour tenter de rendre sensible cette autre forme d’investissement de
+        cet objet qu’est le livre, je prendrai, rapidement, la question de
+        plus haut et, au risque de surprendre, je remonterai à <persName ref="027280896" type="idref" xml:base="https://www.idref.fr/">saint
+        Augustin</persName> et à sa distinction fondatrice, dans son traité
+        <hi rend="italic">De diversis quaestionibus</hi>, entre jouir et
+        utiliser (dans son latin « frui » et « uti »), distinction sur
+        laquelle j’ai pu naguère présenter un travail à propos de la question
+        de l’amour pur sur laquelle les auteurs des livres présentés dans
+        l’exposition <hi rend="italic">Fénelon et son double </hi>ont
+        longuement et vivement débattu<note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>Jacques Le Brun, <hi rend="italic">Le pur amour de Platon à
+            Lacan</hi>, Paris, Seuil, 2002, p. 65-88</p>
+          </note>.</p>
+        <p xml:id="d1e248">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion<term ref="doi:10.34817/sv-iq47o2zc">désir</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion<term ref="doi:10.34817/sv-nz49agmg">curiosité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-qge35acp">collection
+        scientifique</term>
+              </term>
+            </term>
+          </term>Est-ce qu’aimer c’est désirer
+        une récompense, est-ce chercher une jouissance désintéressée qui n’est
+        accompagnée d’aucune préoccupation d’utilité ? Utiliser est ainsi
+        opposé à jouir dans la mesure où jouir c’est se porter vers une
+        « chose », une <hi rend="italic">res </hi>– nous pourrions dire un
+        « objet » – pour elle-même. L’objet-livre sera donc autre chose qu’un
+        instrument de connaissance, d’acquisition, de savoir ou de plaisir. Il
+        sera envisagé pour lui-même. Cet objet attire pour lui-même, et ceux
+        qui en ont fait l’expérience peuvent témoigner que ce n’est pas
+        fondamentalement pour telle qualité esthétique, bibliophilique ou
+        culturelle qu’il attire. Comme l’écrit <persName ref="027078124" type="idref" xml:base="https://www.idref.fr/">Krzysztof
+        Pomian</persName> dans un livre essentiel sur la collection aux <date from="1600" to="1799" type="_temp">17<hi rend="sup">e</hi> et 18<hi rend="sup">e</hi> siècles</date>, celle-ci appelle « une
+        'consommation' qui se fait par l’intermédiaire du simple regard et
+        n’entraîne donc pas de destruction physique »<note n="12" place="foot" type="standard" xml:id="ftn12">
+            <p>Krzysztof Pomian, <hi rend="italic">Collectionneurs, amateurs
+            et curieux. Paris, Venise : XVI<hi rend="sup">ème</hi>
+              </hi>
+              <hi rend="italic">-XVIII<hi rend="sup">ème</hi>
+              </hi>
+              <hi rend="italic"> siècles</hi>, Paris, Gallimard 1987, p. 12</p>
+          </note>. Et l’auteur met en cause l’« utilité » à propos de la
+        collection : « On ne peut sans commettre un abus de langage étendre la
+        notion d’utilité au point d’en attribuer une à des objets qui ne font
+        que s’offrir aux regards ». La remarque qui porte sur l’œuvre d’art
+        peut et doit aussi s’appliquer à cet « objet » qu’est le livre, malgré
+        l’évidente (et envahissante ?) utilité qu’il présente. Car cet objet
+        suscite par lui-même un désir qui est un acte ; <persName ref="027280896" type="idref" xml:base="https://www.idref.fr/">saint
+        Augustin</persName> l’avait bien montré dans son analyse de la
+        jouissance. Mais ce désir et cette jouissance ne sont pas arrêtés par
+        la possession, et c’est ici qu’intervient ce qu’on appelle
+        collectionner, répéter, dans une quête, en son essence infinie, cet
+        acte dont aucune possession n’étanche le désir. Et cela malgré la
+        conviction que jamais la collection ne sera « complète ». Comme le
+        notait finement en <date type="_temp" when="2014">2014</date>, dans un
+        essai consacré à la collection, <persName ref="029292255" type="idref" xml:base="https://www.idref.fr/">Gérard Wajcman</persName>
+          <note n="13" place="foot" type="standard" xml:id="ftn13">
+            <p>Gérard Wajcman, <hi rend="italic">Collection, </hi>suivi de <hi rend="italic">L’avarice</hi>, Éd. Nous, 2014, p. 37</p>
+          </note> : « Toute collection est […], dans son principe, un acte
+        délibéré et libre, de pure liberté, de pur désir », mais une liberté
+        qui comporte en elle-même sa négation. L’essayiste ajoute que cet acte
+        est « accompli sous la contrainte, la férule tyrannique de l’objet.
+        Rien de moins libre qu’un collectionneur, ça se voit à l’oeil nu ».
+        Acte contradictoire dont la liberté est de s’abandonner en une perte
+        totale de liberté, acte que cette contradiction rend proche de celui
+        de l’adoration ; dans le texte de <date type="_temp" when="1936">1936</date> que j’évoquais tout à l’heure, <persName ref="154810711" type="idref" xml:base="https://www.idref.fr/">Walter
+        Benjamin</persName> parlait du « collectionneur qui ressemble toujours
+        un peu à un adorateur de fétiches », avec l’expérience de celui qui
+        collectionna livres d’enfants et jouets, qui parla merveilleusement de
+        ces collections et assista aussi, de son exil, à la perte de ces
+        dernières<note n="14" place="foot" type="standard" xml:id="ftn14">
+            <p>Le « collectionneur qui ressemble toujours un peu à un
+            adorateur de fétiches et qui par la possession même de l’œuvre
+            d’art participe à son pouvoir culturel », Walter Benjamin, op.
+            cit., p. 280, n. 2. Voir le texte si attachant de Walter Benjamin,
+            <hi rend="italic">Je déballe ma bibliothèque. Une pratique de la
+            collection</hi>, Paris, Rivages Poche, 2000.</p>
+          </note>.</p>
+        <figure xml:id="d1e292">
+          <graphic url="https://didomena.ehess.fr/downloads/w9505338f.png"/>
+          <head xml:id="d1e294">Figure 4 – Deux pages d’un exemplaire annoté
+          par Phélipeaux, trésorier de l’église de Meaux, proche de Bossuet,
+          de l’<hi rend="italic">Explication des maximes des saints</hi>
+          (1697) de Fénelon (coll. J. Le Brun).</head>
+        </figure>
+        <p xml:id="d1e299">Contradictoire dans son acte, libre et serve, la
+        collection de ces « choses » qui sont des « objets » est aussi
+        contradictoire dans ce qu’elle suscite. L’objet, en son sens
+        étymologique, <foreign xml:lang="lat">
+            <hi rend="italic">objectum</hi>,
+        <hi rend="italic">objicere</hi>
+          </foreign>, montrer, pour ainsi dire
+        jeter aux yeux, est voué à se montrer, même si le collectionneur cache
+        sa collection. Il la cache peut-être pour ne pas révéler à travers
+        elle l’objet de son désir, voire qu’il est animé du désir de l’objet
+        et de la chose. Comme l’écrivait encore <persName ref="029292255" type="idref" xml:base="https://www.idref.fr/">Gérard
+        Wajcman</persName> dans l’essai auquel je faisais allusion à
+        l’instant : « Une collection est un ensemble organisé d’objets qui
+        montre, qui se montre et qu’on montre. À quelqu’un. Le regard fait
+        partie de la collection », et il ajoute que « toute collection fait
+        place, ou sa place, au regard »<note n="15" place="foot" type="standard" xml:id="ftn15">
+            <p>Gérard Wajcman, op. cit., p. 46-47</p>
+          </note>.</p>
+        <p xml:id="d1e311">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-ytvep88b">page</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-vxaueo5i">ex-libris</term>
+            </term>
+          </term>Pour
+        instructive qu’elle soit, la distinction augustinienne que j’évoquais
+        et qui nous conduisait à nous intéresser à cette jouissance de l’objet
+        dont la collection nous donnait un exemple convaincant, doit être
+        interrogée. En effet la distinction, qui semble radicale, entre
+        l’utilisation (intéressée, visant l’acquisition d’un savoir, d’une
+        information) et la jouissance (désintéressée, acte pur du désir de la
+        chose) est, par <persName ref="027280896" type="idref" xml:base="https://www.idref.fr/">saint Augustin</persName> lui-même et
+        par les nombreux philosophes et théologiens qui l’ont commentée,
+        accompagnée d’une réflexion sur les points de passage entre l’une et
+        l’autre de ces polarités : quel excès et débordement de l’utilité ne
+        glisse pas à la jouissance ? quelle jouissance n’entraîne une
+        involontaire acquisition, puis un usage qui se révèle d’extrême
+        utilité ? Et ici, après avoir paru m’en écarter, mais sans au fond
+        l’avoir totalement perdu de vue, je reviendrai à mon objet, au livre,
+        sous la forme du livre ancien des <date from="1500" to="1799" type="_temp">16<hi rend="sup">e</hi>-18<hi rend="sup">e</hi> siècles</date> dans le champ de la littérature
+        spirituelle et de dévotion. Tout se passe en effet comme si l’on ne
+        pouvait penser l’un des termes de l’opposition que par rapport à
+        l’autre. Il existe des collectionneurs qui ne sont pas des
+        collectionneurs purs, et il existe des historiens pour qui le livre
+        n’est pas un simple support d’information ; oserai-je me situer dans
+        cette catégorie pour ainsi dire hybride ? Ce livre-ci ou celui-là peut
+        être à la fois un instrument de connaissance, irremplaçable aussi à ce
+        titre, et <hi rend="italic">en même temps</hi>, au moment même où il
+        apporte d’irremplaçables renseignements sur tel débat théologique ou
+        telle question historique, cet « objet » support d’un investissement
+        affectif du fait de sa singularité ; mais cet investissement n’est pas
+        lui-même dépourvu de raison, même si l’attachement à l’objet peut
+        dépasser la simple raison : souvenir du lieu et du moment de l’achat,
+        évocation de la bibliothèque dont il provient, méditation sur le
+        destin de cette bibliothèque ou sur ce que purent être la vie, les
+        pensées, les émotions de tel possesseur qui a mis son nom ou son
+        ex-libris, au <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>
+          </date> ou au <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi> siècle</date>, sur la première
+        page, rêverie sur ce que pourra être son destin futur, etc. Il se crée
+        un attachement fait de tout un réseau de pensées et d’affects qui
+        constitue à proprement parler ce que <persName ref="154810711" type="idref" xml:base="https://www.idref.fr/">Walter
+        Benjamin</persName> appelait l’<hi rend="italic">aura</hi> de
+        l’objet ; et tout cela au moment où l’objet apporte des informations
+        historiques, littéraires, philosophiques rigoureuses.</p>
+        <p xml:id="d1e332">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des savoirs<term ref="doi:10.34817/sv-mublpqmd">achat</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-lusg9ekt">prix</term>
+            </term>
+          </term>Si le livre
+        des <date from="1600" to="1799" type="_temp">17<hi rend="sup">e</hi>
+        et 18<hi rend="sup">e</hi> siècles</date> est pour nous document
+        historique, support d’un travail d’une irremplaçable utilité, et s’il
+        est en même temps objet d’un désir, ce livre pourrait n’être que le
+        mirage d’un rêve inaccessible. En effet, la réalité impose ici ses
+        conditions. Ces conditions sont doubles, mais l’une et l’autre
+        déterminent les possibilités d’acquisition des livres ; d’abord
+        l’existence d’un marché, d’une offre, selon lesquels des livres
+        peuvent être achetés, et d’autre part les conditions de ce marché, des
+        prix, qui ne soient pas des obstacles infranchissables à leur
+        acquisition. Posons cette banalité : il n’y a pas de collection de
+        livres s’il n’y a pas de possibilité matérielle (une offre et des
+        prix) de les acquérir.</p>
+        <p xml:id="d1e340">Or toute période de l’histoire ne réalise pas ces
+        deux conditions. Ne parlons pas ici des éditions précieuses, des
+        exemplaires somptueux avec des provenances exceptionnelles : ces
+        livres sont réservés à toute époque à des collectionneurs pour qui ce
+        sont rarement des instruments de travail, et qui ont les moyens de les
+        acquérir. Dans le domaine qui est le nôtre (l’histoire de la
+        théologie, de la spiritualité, les sciences religieuses), deux moments
+        de l’histoire ont offert des conditions exceptionnelles, permettant de
+        se constituer facilement une bibliothèque. Le premier de ces moments,
+        déjà lointain, ce sont les lendemains de la <date>Révolution
+        française</date>, alors que les considérables bibliothèques
+        religieuses, de couvents, d’abbayes ou de séminaires furent
+        nationalisées et enrichirent les bibliothèques publiques, non sans
+        qu’une bonne partie de leurs livres échappent à ce transfert et soient
+        mis sur le marché : dans notre domaine, les bibliothécaires, souvent
+        gallicans et jansénisants, négligèrent souvent les livres de
+        spiritualité, qui se trouvèrent ainsi mis en vente.</p>
+        <p xml:id="d1e342">Plus près de nous, le <date type="_temp" when="1950">milieu du 20<hi rend="sup">e</hi> siècle</date>, les
+        années <date from="1950" to="1979" type="_temp">1950-1970</date>, vit
+        la fermeture d’un grand nombre de couvents, de séminaires, de maisons
+        religieuses, à travers toute l’Europe. Une extraordinaire quantité de
+        livres anciens dans le domaine religieux se retrouva alors sur le
+        marché et, du fait de l’abondance et du nombre limité d’amateurs,
+        était proposée à des prix accessibles, parfois dérisoires. Se trouver
+        à ce moment permettait de se constituer un irremplaçable instrument de
+        travail et d’accéder à un désir. Ces conditions n’étaient ni durables
+        ni reproductibles ; une fois les sources épuisées, l’offre devint rare
+        et les prix de moins en moins accessibles. Mais une bibliothèque,
+        riche sans être prestigieuse, avait pu en ces années se constituer et
+        associer en cette chose qu’est le livre ancien un instrument de
+        travail et l’objet d’un désir.</p>
+        <figure xml:id="d1e347">
+          <graphic url="https://didomena.ehess.fr/downloads/z890rx519.png"/>
+          <head xml:id="d1e349">Figure 5 – Recueil de textes en particulier de
+          Mme Guyon, figurant à l’index depuis 1689 (d’où la mention
+          « prohibitus ») et provenant de la bibliothèque des « Frères
+          Pénitents du Tiers-Ordre de S. François couramment appelés Picpus »,
+          à Paris (coll. J. Le Brun).</head>
+        </figure>
+      </div>
+    </body>
+  </text>
+</TEI>

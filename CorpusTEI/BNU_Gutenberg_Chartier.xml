@@ -1,0 +1,823 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-06-08T16:01:44.714+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_Gutenberg_Chartier">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Entretien avec Roger Chartier</title>
+        <author role="aut">
+          <forename>Roger</forename>
+          <surname>Chartier</surname>
+          <idno type="IDREF">02678095X</idno>
+        </author>
+        <author role="collaborateur">
+          <forename>Lucie</forename>
+          <surname>Barthod</surname>
+          <idno type="IDREF">255474512</idno>
+        </author>
+        <author role="collaborateur">
+          <forename>Audrey</forename>
+          <surname>Hocheder</surname>
+          <idno type="IDREF">255474520</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/DQEGGU72" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Entretien avec Roger Chartier</title>
+            <author>
+              <forename>Lucie</forename>
+              <surname>Barthod</surname>
+            </author>
+            <author>
+              <forename>Roger</forename>
+              <surname>Chartier</surname>
+            </author>
+            <author>
+              <forename>Audrey</forename>
+              <surname>Hocheder</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="volume">Gutenberg 1468-2018</biblScope>
+              <biblScope unit="issue">Hors-série</biblScope>
+              <biblScope unit="page">160-164</biblScope>
+              <date>2018</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture<term ref="doi:10.34817/sv-rjtjbfud">histoire de
+          l’écriture</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-e3qbnqtq">invention</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-m6tdpkvp">imprimé</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-pgaatgp9">livre numérique</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1200" to="1299" type="_temp">13e siècle</date>
+          </term>
+          <term>
+            <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi>
+            siècle</date>
+          </term>
+          <term>
+            <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi>
+            siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-08-25T13:56:00" who="Jeanne FLAMANT">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Entretien avec Roger Chartier</titlePart>
+        </docTitle>
+        <docAuthor>
+          <forename>Roger</forename>
+          <surname>Chartier</surname>
+        </docAuthor>
+      </titlePage>
+      <argument>
+        <p xml:id="d1e318">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-hofgebx3">révolution
+        scientifique</term>
+            </term>
+          </term>Pour conclure ce numéro, nous avons
+        souhaité donner la parole à <persName ref="02678095X" type="idref" xml:base="https://www.idref.fr/">Roger Chartier</persName>, historien
+        spécialiste dans le domaine de l’historiographie et de
+        l’épistémologie. Directeur d’étude à l’EHESS (École des hautes études
+        en sciences sociales) et professeur au Collège de France, ce
+        scientifique a longuement étudié les différentes caractéristiques de
+        l’objet livre, de sa diffusion à son évolution. Dans cet entretien, il
+        évoque l’état de l’historiographie française depuis le texte de
+        <persName ref="026860600" type="idref" xml:base="https://www.idref.fr/">Lucien Febvre</persName> et <persName ref="027012913" type="idref" xml:base="https://www.idref.fr/">Henri-Jean Martin</persName>, son
+        rapport à la théorie de la « révolution gutenbergienne », le
+        développement des pratiques de lecture du livre papier et leur
+        évolution avec l´arrivée du « livre numérique » ainsi que les
+        bouleversements liés à ce nouvel objet.</p>
+      </argument>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <div type="section1" xml:id="d1e95">
+          <head subtype="level1" xml:id="d1e353">Historiographie</head>
+          <sp rend="bold">
+            <p rend="question" xml:id="d1e358">
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-m6tdpkvp">imprimé</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture<term ref="doi:10.34817/sv-rjtjbfud">histoire de
+            l’écriture</term>
+                </term>
+              </term>L´histoire du livre imprimé a connu
+            plusieurs courants de pensée depuis ses origines. Au <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi>
+            siècle</date>, le renouvellement introduit par <persName ref="026860600" type="idref" xml:base="https://www.idref.fr/">Lucien Febvre</persName> et
+            <persName ref="027012913" type="idref" xml:base="https://www.idref.fr/">Henri-Jean Martin</persName>,
+            puis l’intérêt que vous avez porté aux pratiques de lecture et au
+            rapport entre l´objet et la matérialité du texte ont profondément
+            transformé les approches. Pourriez-vous rappeler brièvement les
+            méthodes et les apports de ces grands mouvements, puis nous
+            éclairer sur les nouvelles pistes de recherche que vous poursuivez
+            ou qui vous semblent pertinentes aujourd´hui ?</p>
+          </sp>
+          <sp>
+            <p rend="answer" xml:id="d1e376">
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-2bte7jdd">codicologie</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-zhtmaszx">paléographie</term>
+                    </term>
+                  </term>
+                </term>
+              </term>Pour
+            moi, le plus important dans cette histoire a été la rencontre
+            entre trois traditions qui se sont trop longuement ignorées.
+            D’abord, bien sûr, comme vous le rappelez, l’histoire du livre
+            imprimé, à la fois « marchandise » et « ferment », comme l’énonce
+            <hi rend="italic">L’Apparition du</hi>
+              <hi rend="italic">
+            livre</hi>
+              <hi rend="italic"/> de <persName ref="026860600" type="idref" xml:base="https://www.idref.fr/">Febvre</persName> et
+            <persName ref="027012913" type="idref" xml:base="https://www.idref.fr/">Martin</persName>, qui fondaient
+            ainsi la double approche, socio-économique et intellectuelle, du
+            livre. Ensuite, la tradition de la bibliographie matérielle, celle
+            de <persName type="_temp">Pollard</persName>, <persName type="_temp">McKerrow</persName> et <persName type="_temp">Greg</persName>, muée en une « sociologie des
+            textes » par <persName type="_temp">D. F. McKenzie</persName> et
+            qui, à partir des objets imprimés eux-mêmes (et pas seulement les
+            livres), embrasse dans une même perspective les modalités de
+            composition, publication et réception des textes. Enfin,
+            l’inspiration fondamentale de l’histoire de la culture écrite
+            telle que l’ont proposée <persName ref="028560264" type="idref" xml:base="https://www.idref.fr/">Armando Petrucci</persName> et
+            l’école italienne de paléographie et de codicologie, attentive à
+            l’ensemble des pratiques et productions de l’écrit. Cette
+            rencontre a permis tout à la fois le décloisonnement des habitudes
+            nationales et disciplinaires, une profonde transformation de la
+            critique littéraire et de l’histoire culturelle, et une importance
+            nouvelle donnée aux sciences de l’érudition. Je pense que toutes
+            les questions nouvelles discutées aujourd’hui (sur la propriété
+            littéraire, la mobilité des textes, les traductions, les modalités
+            de la censure, les techniques de lecture) s’inscrivent dans ces
+            perspectives ouvertes par <persName ref="027012913" type="idref" xml:base="https://www.idref.fr/">H.-J. Martin</persName>,
+            <persName type="_temp">D. F. McKenzie</persName> et <persName ref="028560264" type="idref" xml:base="https://www.idref.fr/">Armando Petrucci</persName>. En
+            ce sens l’histoire du livre, dans sa définition française, prend
+            place dans une perspective plus ample, partagée par diverses
+            disciplines et traditions nationales.</p>
+            <p rend="answer" xml:id="d1e419">C’est dans ce cadre que je
+            voudrais situer mes recherches actuelles, volontiers désignées
+            comme des « histoires textuelles connectées ». Elles s’attachent à
+            la circulation européenne des œuvres (par exemple celles de
+            <persName ref="026774771" type="idref" xml:base="https://www.idref.fr/">Cervantès</persName>), aux
+            traductions dans la longue durée (ainsi pour <hi rend="italic">Il
+            </hi>
+              <hi rend="italic">Libro </hi>
+              <hi rend="italic">del Cortegiano
+            </hi>de <persName ref="032100167" type="idref" xml:base="https://www.idref.fr/">Castiglione</persName>, la <hi rend="italic">Brevíssima relación </hi>de <persName type="_temp">Las Casas</persName> ou l’<hi rend="italic">Oráculo
+            manual </hi>de <persName type="_temp">Gracián</persName>, devenu
+            <hi rend="italic">L’Homme</hi>
+              <hi rend="italic"> de</hi>
+              <hi rend="italic"> cour</hi>), ou aux migrations d’un genre à l’autre
+            (ainsi, avec <persName ref="027136086" type="idref" xml:base="https://www.idref.fr/">Shakespeare</persName> et
+            <persName ref="027179206" type="idref" xml:base="https://www.idref.fr/">Lope de Vega</persName>, entre la
+            chronique ou le roman et le théâtre). En faisant retour à
+            <persName ref="027033430" type="idref" xml:base="https://www.idref.fr/">Molière</persName>, je voudrais
+            situer certaines de ses pièces dans une triple histoire : celle de
+            la pluralité de leurs éditions, donc de leur texte, celle de leurs
+            relations avec des œuvres qui les précèdent, celle de leurs
+            réceptions à la cour et à la ville. J’avais commencé un tel
+            travail avec <hi rend="italic">George Dandin</hi>, et je le
+            poursuis avec <hi rend="italic">Le Festin de pierre
+            </hi>(c’est-à-dire <hi rend="italic">Dom</hi>
+              <hi rend="italic">
+            Juan</hi>).</p>
+          </sp>
+          <sp rend="bold">
+            <p rend="question" xml:id="d1e485">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-hofgebx3">révolution
+            scientifique</term>
+                </term>
+              </term>Vous dites dans votre leçon
+            inaugurale au Collège de France que la révolution numérique brise
+            le lien ancien entre discours et matérialité. Pouvez-vous nous en
+            dire davantage sur ce lien ancien et quels sont les effets de
+            cette rupture ?</p>
+          </sp>
+          <sp>
+            <p rend="answer" xml:id="d1e491">
+              <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+            savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-bdsrge4z">instrument de communication<term ref="doi:10.34817/sv-ipckaknk">écran</term>
+                  </term>
+                </term>
+              </term>Je
+            voulais seulement énoncer un très simple constat. Avec le
+            numérique, le lien indissociable entre un texte et l’objet qui le
+            porte n’existe plus. L’objet, c’est la machine numérique qui donne
+            à lire tous les textes, quels qu’ils soient, et qui, de plus, est
+            aussi le support de l’écriture du lecteur. L’anglais contemporain
+            a inventé le terme de <hi rend="italic">wreader</hi>
+              <hi rend="italic"/> pour désigner cette contiguïté. Certes, le monde
+            numérique n’a rien d’immatériel : il est un monde d’objets,
+            d’écrans, de formats. Mais cette matérialité n’est plus liée à une
+            textualité particulière. De là, sans doute, une transformation
+            profonde de la relation entre le fragment et la totalité. Dans le
+            livre imprimé ou manuscrit, chaque fragment (chapitre, paragraphe,
+            citation) est immédiatement situé dans l’ensemble du discours, là
+            où le situe la narration, la démonstration, l’argumentation. Dans
+            le monde numérique, le fragment acquiert une autonomie qui le
+            détache d’une totalité qui n’est plus immédiatement perceptible.
+            De là, la possibilité d’une nouvelle culture écrite, qui serait
+            faite d’unités séparées, indépendantes, associées ou disjointes
+            par la volonté du lecteur. De là, aussi, la tension entre la
+            manière de lire ainsi proposée ou imposée et les textes qui furent
+            ou sont construits dans une tout autre logique et pour une toute
+            autre lecture.</p>
+          </sp>
+          <sp rend="bold">
+            <p rend="question" xml:id="d1e503">Pensez-vous que le « livre »
+            numérique influe sur les approches contemporaines de l’histoire du
+            livre papier ? Et si oui, comment ?</p>
+          </sp>
+          <sp>
+            <p rend="answer" xml:id="d1e509">Sans doute. Les virtualités
+            (sinon les réalités) du monde numérique ont conduit à de profondes
+            réévaluations de questions classiques.<term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+            savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure numérique<term ref="doi:10.34817/sv-sfxj2yza">Internet</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-9gkicebm">auteur</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>
+            Ainsi, la possibilité de textes ouverts, malléables, où s’efface
+            l’auteur singulier, a inspiré une attention nouvelle aux formes de
+            l’écriture en collaboration, dans le théâtre ou le roman, de même
+            qu’à la mobilité des textes et aux justifications ou dénonciations
+            de la notion de propriété intellectuelle. Ainsi, la tension entre
+            le désir d’une mémoire sans faille et l’effroi devant une
+            prolifération sans limites des textes et des images, qui
+            caractérise le monde des écrans, a conduit à une réflexion sur les
+            modalités historiques de cette contradiction, toujours située
+            entre la crainte de la perte et la peur de l’excès. Cette
+            contradiction a fondé, à la fois, le désir de la bibliothèque
+            universelle et la production des genres qui donnent à lire
+            l’essentiel : compilations, anthologies, recueils. Enfin, il nous
+            faut considérer que le monde numérique est plus, beaucoup plus,
+            que le livre électronique. Il se caractérise par la numérisation
+            de tous les rapports humains : relations avec les administrations,
+            e-commerce, réseaux sociaux. De là, une interrogation en retour
+            sur le rôle de l’écrit, manuscrit ou imprimé, dans les formes de
+            sociabilité, les échanges ou l’exercice (et la contestation) de
+            l’autorité dans les sociétés d’avant Internet.</p>
+          </sp>
+        </div>
+        <div type="section1" xml:id="d1e198">
+          <head subtype="level1" xml:id="d1e519">Pratiques du livre et de la
+          lecture</head>
+          <sp rend="bold">
+            <p rend="question" xml:id="d1e524">Pouvez-vous nous expliquer les
+            répercussions de la « révolution » <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName>
+            sur les pratiques du livre et de la lecture ?</p>
+          </sp>
+          <sp>
+            <p rend="answer" xml:id="d1e533">
+              <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+            savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-enb4csg8">codex</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-hofgebx3">révolution
+            scientifique</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+            savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-biruakve">feuille</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+            savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-enb4csg8">codex</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-e3qbnqtq">invention</term>
+                </term>
+              </term>Comme
+            vous le savez, un débat intense a opposé <persName ref="02932095X" type="idref" xml:base="https://www.idref.fr/">Elizabeth
+            Eisenstein</persName>, pour qui l’invention de l’imprimerie a en
+            elle-même transformé les pratiques de lecture du fait des
+            propriétés inhérentes à la nouvelle technique de reproduction des
+            textes (fixité, uniformité, diffusion, conservation), et <persName ref="050349082" type="idref" xml:base="https://www.idref.fr/">Adrian Johns</persName> qui,
+            inspiré par la nouvelle histoire des sciences, a soutenu que ce
+            n’est que progressivement et contradictoirement que cette
+            technique a établi la confiance dans ses productions, donc de
+            nouvelles relations avec l’écrit. À ce débat s’en est ajouté un
+            autre. Doit-on considérer la mutation des modes de reproduction
+            des textes permise par l’invention de <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName>
+            comme « la » révolution de la culture écrite ? Ou bien doit-on
+            situer cette invention dans une durée plus longue, inaugurée par
+            une révolution plus fondamentale, morphologique celle-ci :
+            l’apparition du codex, substitué aux rouleaux des Anciens <date from="0100" to="0399" type="_temp">entre le second et le quatrième
+            siècle de notre ère</date> ? Il faut se garder, en effet,
+            d’attribuer à l’imprimerie des innovations textuelles qui
+            dépendent du codex et non de la presse : ainsi la pagination, les
+            tables, les concordances, les index. Bien longtemps avant
+            <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName>, c’est le
+            codex composé de cahiers, de feuillets et de pages qui rend
+            possibles des gestes interdits par le rouleau : feuilleter le
+            livre, écrire en lisant, repérer un passage, comparer deux
+            passages, etc.</p>
+          </sp>
+          <sp rend="bold">
+            <p rend="question" xml:id="d1e554">En étudiant les impacts de
+            l´invention de l´imprimerie, peut-on parler d´une
+            « démocratisation » du livre à partir du <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi> siècle</date> ?</p>
+          </sp>
+          <sp>
+            <p rend="answer" xml:id="d1e566">
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-m6tdpkvp">imprimé</term>
+                </term>
+              </term>Ce
+            serait sans doute exagéré. Sûrement, avec l’imprimerie, un lecteur
+            peut lire plus de livres et la même œuvre avoir plus de lecteurs.
+            Mais la « démocratisation » de l’accès aux livres suppose plus
+            qu’une nouvelle technique pour leur reproduction. Même dans
+            l’Europe la mieux alphabétisée, les pourcentages des « possibles »
+            lecteurs demeurent limités jusqu’au <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi> siècle</date>. Dans la
+            <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> des <date from="1780" to="1789" type="_temp">années 1780</date>, seulement
+            47 % des hommes et 27 % des femmes peuvent signer les actes
+            paroissiaux. Cela dit, l’imprimerie a transformé la culture
+            urbaine, non pas tant grâce aux livres que par la multiplication
+            d’autres imprimés, collés sur les murs ou lus à haute voix par
+            ceux qui savent : ainsi les placards, les affiches, les pamphlets,
+            les livrets vendus par les colporteurs. Reste qu’une véritable
+            démocratisation de l’accès au livre suppose la scolarisation et
+            l’alphabétisation obligatoires. C’est seulement avec elles qu’au
+            <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>
+            siècle</date> de nouveaux lectorats apparaissent : les femmes, les
+            milieux ouvriers, les enfants, dans et hors de l’école. Le constat
+            fondamental est que ni les nouvelles techniques ni les nouvelles
+            formes du livre n’entraînent, par elles-mêmes et rapidement, une
+            extension sociale des publics lecteurs. La leçon vaut pour
+            l’invention de l’imprimerie comme pour l’invention du livre de
+            poche après la <date>seconde guerre mondiale</date>.</p>
+          </sp>
+          <sp rend="bold">
+            <p rend="question" xml:id="d1e594">Pensez-vous, comme <persName ref="028431006" type="idref" xml:base="https://www.idref.fr/">Brian Stock</persName>, qu’elle
+            est aussi liée à l’émergence d’un lectorat laïc et à une lecture
+            de délassement ?</p>
+          </sp>
+          <sp>
+            <p rend="answer" xml:id="d1e603">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-rwx5cjuj">oisif</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-gznzb4bl">divisions historiques des
+            savoirs<term ref="doi:10.34817/sv-yb6dc8iv">scolastique</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+                </term>
+              </term>
+              <persName ref="028560264" type="idref" xml:base="https://www.idref.fr/">Armando Petrucci</persName> a
+            souligné l’apparition, dès le <date from="1200" to="1299" type="_temp">13<hi rend="sup">e</hi> siècle</date>, à côté des
+            lectures scolastiques, exigées par les universités, de lectures
+            détachées des études et du métier. Ce sont ceux qu’il nomme les
+            « <foreign xml:lang="lat">alfabeti liberi</foreign> » qui ont
+            porté cette diversification des lectures. Elle n’implique pas pour
+            autant un accroissement spectaculaire, social ou numérique, du
+            public lecteur. Avec les livres imprimés, les lecteurs d’étude ou
+            de profession deviennent des lecteurs qui lisent, aussi, pour leur
+            distraction et leur divertissement. Ils sont les incarnations de
+            ce <hi rend="italic">desocupado</hi>
+              <hi rend="italic"> lector
+            </hi>
+              <hi rend="italic"/>auquel <persName ref="026774771" type="idref" xml:base="https://www.idref.fr/">Cervantès</persName>
+            destine son <hi rend="italic">Don </hi>
+              <hi rend="italic">Quichotte</hi>. Il est <hi rend="italic">desocupado</hi>
+              <hi rend="italic"/> parce que, libéré
+            des nécessités des lectures imposées par l’occupation, le métier,
+            l’office ou le bénéfice, il peut, comme don Quichotte, lire pour
+            son plaisir. Il n’y a donc pas de lien exclusif entre lecteur laïc
+            et lecture de délassement. Le partage est autre : entre les
+            lectures requises et les lectures choisies. La publication de la
+            poésie, des genres narratifs ou des pièces de théâtre nourrissent
+            dans toute l’Europe de la première modernité ce désir de lecture,
+            qui est celui de l’ « <foreign xml:lang="lat">otium</foreign> »,
+            du temps dérobé aux contraintes de la vie civile. C’est pour
+            satisfaire cette oisiveté savante ou plaisante que <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> trouve
+            refuge, avec son secrétaire, dans sa « librairie ».</p>
+          </sp>
+          <sp rend="bold">
+            <p rend="question" xml:id="d1e648">Croyez-vous que la mutation
+            numérique que nous vivons est comparable à la « révolution »
+            engendrée par <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> au <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi>
+            siècle</date> ? Quelles sont, si c’est le cas, les permanences et
+            les ruptures entre ces deux phénomènes ?</p>
+          </sp>
+          <sp>
+            <p rend="answer" xml:id="d1e663">
+              <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+            savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-bdsrge4z">instrument de communication<term ref="doi:10.34817/sv-ipckaknk">écran</term>
+                  </term>
+                </term>
+              </term>Je
+            pense – mais c’est banal – que la mutation numérique présente un
+            caractère inédit. Elle est une mutation de la technique de la
+            dissémination des textes, comme le fut l’imprimerie. Elle est,
+            aussi, une mutation qui inscrit l’écrit (et l’image) sur un
+            support radicalement nouveau, l’écran de l’ordinateur, et dans un
+            espace infini, celui des archives électroniques et du cyberespace.
+            En ce sens morphologique, elle est à comparer avec l’invention du
+            codex. Mais elle est, également, une mutation des relations à
+            l’écrit, de ses usages et de ses présences, comme le furent les
+            précédentes révolutions de la lecture – ainsi, la diffusion
+            progressive de la capacité à lire en silence, ou au <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>
+            siècle</date>, ce que les contemporains ont désigné comme une
+            « fièvre de lecture », ou encore, on l’a dit, la révolution
+            démocratique de la lecture devenue pratique universelle (ou
+            presque).</p>
+            <p rend="answer" xml:id="d1e669">Cette radicale nouveauté de la
+            mutation numérique est sans doute sous-estimée pour deux raisons :
+            d’une part, la coexistence établie avec les cultures écrites
+            antérieures et toujours présentes (la publication imprimée,
+            l’écriture manuscrite) ; d’autre part, parce que dans tous les
+            pays européens, le marché du livre reste dominé à 95 % par le
+            livre imprimé. Il ne faut pas, pour autant, ignorer le caractère
+            profondément original des transformations contemporaines, et ce
+            d’autant moins qu’elles ne sont pas seulement une révolution du
+            livre, ni même de l’écrit, mais une nouvelle définition tant des
+            expériences quotidiennes ou exceptionnelles que des notions qui
+            les désignent (amitié, identité, intimité, espace public,
+            etc.).</p>
+          </sp>
+          <sp rend="bold">
+            <p rend="question" xml:id="d1e675">Dans votre dernier ouvrage <hi rend="italic">La Main de l´auteur et l´esprit de l´imprimeur</hi>,
+            vous dites que l´invention de l´imprimerie a bouleversé la
+            construction de l´écriture : d´abord collective, elle est devenue
+            individuelle au <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi> siècle</date>. Pourriez-vous nous expliquer
+            cette modification ?</p>
+          </sp>
+          <sp>
+            <p rend="answer" xml:id="d1e690">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-xmjgnjyk">université</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-9gkicebm">auteur</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+                </term>
+              </term>Ce
+            n’est pas exactement cela. Le propos est d’insister sur la
+            mutation du régime de production des textes, en particulier
+            littéraires, au <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi> siècle</date>. L’invention de la « littérature »
+            (le mot apparaît dans son sens moderne à la fin du <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>
+            siècle</date>.) a supposé, en effet, l’association entre trois
+            notions : l’individualisation de la création, l’originalité des
+            œuvres produites et la propriété de leur auteur. Ces notions
+            s’opposent terme à terme avec les catégories qui définissaient
+            auparavant la production des textes de fiction : à savoir la
+            fréquence de l’écriture en collaboration, l’invention au sein de
+            l’imitation et la propriété des libraires éditeurs (et non pas
+            celle des auteurs). Les textes « littéraires » d’avant la
+            « littérature » sont fondés sur le réemploi d’histoires déjà
+            narrées, le recyclage de citations, de sentences, de « lieux
+            communs », l’appropriation et la continuation d’œuvres déjà
+            écrites. Dans cette mutation, l’imprimerie ne joue pas un rôle
+            décisif. Il me semble qu’une transformation essentielle, celle qui
+            fétichise la main de l’auteur, est de trois siècles postérieure à
+            son apparition et que, d’autre part, certaines ruptures lui sont
+            antérieures : ainsi par exemple, aux <date from="1100" to="1299" type="_temp">12<hi rend="sup">e</hi> et 13<hi rend="sup">e</hi>
+            siècles</date>, la mutation de la culture écrite du monde
+            monastique aux universités ou, entre <date from="1350" to="1450" type="_temp">1350 et 1450</date>, pour certains auteurs qui
+            écrivent en langue vulgaire, la présence de leurs textes, et
+            seulement de leurs textes, dans un même livre – ce qui était
+            rompre avec la tradition médiévale du manuscrit composé d’œuvres
+            diverses, dues à des auteurs différents. Loin de moi l’idée de
+            minimiser l’importance de <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName>, célébré
+            dans ce numéro, mais il me paraît important de situer son
+            invention au sein de mutations de la culture écrite qu’il faut
+            placer dans une plus longue durée.</p>
+          </sp>
+          <sp rend="bold">
+            <p rend="question" xml:id="d1e724">À plusieurs reprises, vous
+            remettez en question la propriété des œuvres numériques, ces
+            dernières étant modifiables par tous. Est-ce le signe d’un retour
+            à l´écriture plurielle d’avant <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> ?</p>
+          </sp>
+          <sp>
+            <p rend="answer" xml:id="d1e733">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-9gkicebm">auteur</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+            savoirs<term ref="doi:10.34817/sv-vp5ddxmn">propriété
+            intellectuelle</term>
+                </term>
+              </term>Les possibilités offertes par
+            la textualité numérique, ouverte, malléable, mobile, permettent en
+            effet une écriture plurielle où chaque lecteur devient à son tour
+            auteur. Certains auteurs ont exploité cette possibilité, soit en
+            permettant au lecteur de choisir entre plusieurs itinéraires
+            textuels, soit en laissant totalement libre l’entrée dans le texte
+            et, donc, sa réécriture et continuation. L’écriture devient alors
+            polyphonique, puisque les voix s’y superposent, et palimpseste,
+            puisqu’un nouveau texte s’inscrit à la place du précédent. Mais il
+            faut souligner, je crois, que ces expériences se heurtent au
+            modèle dominant de la propriété intellectuelle, qui suppose à la
+            fois l’attribution d’un texte à un auteur-propriétaire et une
+            stabilité suffisante de l’œuvre afin qu’elle puisse être (et
+            demeurer) l’objet d’une appropriation singulière. Ce sont là les
+            fondements de la définition moderne du copyright, qui tient
+            l’œuvre comme toujours identique à elle-même si elle demeure
+            toujours reconnaissable dans ses multiples incarnations. De là,
+            l’ambivalence de l’écriture plurielle. Elle peut n’être que la
+            division entre plusieurs propriétaires d’une propriété
+            intellectuelle en rien altérée. Ou bien elle peut, ou pourrait,
+            enchaîner dans la fluidité du discours des voix sans propriété et
+            vouées à l’effacement.</p>
+          </sp>
+          <sp rend="bold">
+            <p rend="question" xml:id="d1e739">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+                </term>
+              </term>Dans
+            <hi rend="italic">Les Origines culturelles de la Révolution
+            française</hi>, vous expliquez que ce sont les pratiques de
+            lecture qui sont à l´origine de la Révolution française et non pas
+            les livres, du fait du développement d´une attitude critique.
+            Pensez-vous que les nouvelles pratiques de lecture induites par le
+            livre numérique auront un impact similaire dans l´avenir ?</p>
+          </sp>
+          <sp>
+            <p rend="answer" xml:id="d1e748">L’argument avait deux faces.
+            D’une part, comme vous le dites, je soutenais que certains textes
+            (pamphlets, libelles, chroniques scandaleuses) apparemment
+            transgressifs et subversifs pouvaient avoir été lus sans avoir été
+            pris au pied de la lettre, alors que, inversement, les plus
+            orthodoxes des discours pouvaient avoir été l’objet de lectures
+            critiques et contestataires. D’autre part, j’entendais aussi
+            interpréter les remises en question des autorités politiques ou
+            religieuses sans pour autant les considérer comme le résultat de
+            lectures, quelles qu’elles soient. Les « bruits publics »
+            circulant dans les villes, les gestes faits sans y penser, les
+            mots de colère ou d’exaspération pouvaient exprimer, sans
+            référence à l’écrit imprimé ou à la lecture, ces mutations des
+            représentations et des croyances qui ont rendu pensable la
+            rupture, si brutale, de l’<date from="1789-06-21" to="1789-09-20" type="_temp">été de 1789</date>.</p>
+            <p rend="answer" xml:id="d1e754">Je suis persuadé que les
+            nouvelles pratiques de l’écrit, et plus encore celles incitées par
+            les réseaux sociaux, les SMS, les tweets, les jeux électroniques,
+            transforment profondément les manières de lire et transportent
+            dans l’univers de la lecture du « livre » des habitudes
+            incorporées à partir de ces autres relations à l’écrit. Resterait
+            à préciser ce diagnostic à partir d’enquêtes menées sur les
+            pratiques les plus communes. Le monde numérique est saturé
+            d’écrits autant que d’images, mais la construction de la
+            signification de ces écrits mobilise des procédés spécifiques,
+            différents de ceux impliqués par les objets imprimés. La
+            discontinuité s’y substitue à la contiguïté, la relation
+            thématique à la juxtaposition matérielle, la fragmentation à la
+            perception de la complétude. Mais ce ne sont là que des
+            approximations grossières et sans doute inexactes. Seules des
+            recherches sociologiques et ethnographiques rigoureuses pourront
+            les confirmer ou les infirmer.</p>
+          </sp>
+          <sp rend="bold">
+            <p rend="question" xml:id="d1e760">
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+              </term>Quel avenir
+            imaginez-vous pour le livre, est-il voué à disparaître s´il ne
+            s´adapte pas ?</p>
+          </sp>
+          <sp>
+            <p rend="answer" xml:id="d1e766">
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-pgaatgp9">livre
+            numérique</term>
+                </term>
+              </term>Les historiens ont toujours été de
+            piètres prophètes et leurs pronostics se sont le plus souvent
+            révélés erronés. Donc je n’ai ni certitude ni imagination quant à
+            l’avenir du livre. Il faudrait pour ce faire lever plusieurs
+            préalables. D’abord, répondre à la question : est-ce qu’un livre
+            électronique est encore un livre ? Peut-être, mais paradoxalement
+            seulement lorsqu’il refuse les possibilités du numérique et
+            respecte la propriété littéraire et la stabilité du texte. En ce
+            sens, comme le montrent les contrats d’édition et les éditions
+            électroniques, le livre électronique peut très bien être aussi un
+            livre imprimé. La distance apparaît lorsque le « livre » numérique
+            devient un objet multimédia, un texte mobile, une œuvre sans
+            propriétaire ni copyright et, de ce fait, n’est plus un livre…
+            Second préalable : comprendre le contraste entre la domination du
+            marché de l’édition par les livres imprimés (même aux États-Unis
+            où la part des livres numériques se stabilise à un peu plus de 20
+            %) et, d’un autre côté, la crise profonde des institutions
+            majeures de la culture imprimée : les librairies qui
+            disparaissent, concurrencées par Amazon ; les bibliothèques qui
+            succombent (parfois) à la tentation d’éloigner les collections
+            imprimées ; les journaux, dont certains (en particulier aux
+            <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>) sont
+            déjà passés au seul numérique.</p>
+            <p>Pour moi, la question essentielle est celle posée par l’idée
+            selon laquelle une équivalence existerait entre numérique et
+            imprimé. Amazon ou librairie, il s’agit toujours de l’achat d’un
+            livre. En bibliothèque ou devant l’écran, le texte offert à la
+            lecture est bien le même. Et c’est le même journal qui est publié
+            sous une forme ou sous une autre. C’est contre ces idées
+            spontanées et répandues qu’il faut affirmer, je crois, les
+            différences qui caractérisent les modalités d’appropriation et de
+            compréhension des discours impliquées par les différentes formes
+            d’inscription, de transmission et d’usage de l’écrit (et des
+            images). Chacune de ces modalités a sa logique, ses opérations
+            propres, ses raisons d’être. Si en sont convaincus ceux qui
+            doivent l’être (pouvoirs publics, bibliothécaires, professeurs et
+            étudiants, lecteurs ordinaires, adolescents, etc.), le livre que
+            nous connaissons pourra survivre, et ce sans nécessairement
+            emprunter formes et formules au monde numérique. Mais la partie
+            n’est pas gagnée. Même si nous célébrons le nom d’un grand
+            inventeur, <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> de
+            <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName>, il faut
+            reconnaître que les mutations les plus profondes de la culture
+            écrite ont toujours été collectives et anonymes. L’apparition du
+            codex, les révolutions de la lecture, les pratiques du numérique
+            furent et sont situées dans cet ordre des transformations, lentes
+            ou promptes, universelles ou inégales. Les discours peuvent
+            interroger, inquiéter ou convaincre. Ils ont leur force et leur
+            raison. Mais, en dernière instance, ce sont les pratiques sans
+            discours qui modifient ou inventent le réel.</p>
+            <p xml:id="d1e778">Entretien réalisé en <date type="_temp" when="2017">2017 </date>
+            </p>
+            <p>par <persName ref="255474512" type="idref" xml:base="https://www.idref.fr/">Lucie Barthod</persName> et
+            <persName ref="255474520" type="idref" xml:base="https://www.idref.fr/">Audrey Hocheder</persName>
+            </p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

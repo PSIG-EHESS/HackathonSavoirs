@@ -1,0 +1,967 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-13T10:36:28.641+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_23_Rusque">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Construire et organiser le savoir naturaliste au
+        18<hi rend="sup">e</hi> siècle</title>
+        <title type="sub">La collection de livre de Jean Hermann</title>
+        <author role="aut">
+          <forename>Dorothée</forename>
+          <surname>Rusque</surname>
+          <idno type="IDREF">230890377</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/BEM5XUVQ" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Construire et organiser le savoir naturaliste au
+            18e siècle : la collection de livres de Jean Hermann</title>
+            <idno type="DOI">https://doi.org/10.4000/rbnu.1626</idno>
+            <author>
+              <forename>Dorothée</forename>
+              <surname>Rusque</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <imprint>
+              <biblScope unit="issue">10</biblScope>
+              <biblScope unit="page">32-44</biblScope>
+              <date>2014</date>
+              <note type="url">https://journals.openedition.org/rbnu/1626</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-vh4rb2gf">annotation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jcqq7vil">collection
+          éditoriale</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-uwezj7w5">sciences de la
+          vie et de l’environnement<term ref="doi:10.34817/sv-tnedxt7h">sciences de la vie par type
+          d’organismes<term ref="doi:10.34817/sv-kk3qhhn7">botanique</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-xzypndjr">marge</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>
+          </term>
+          <term>
+            <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi> siècle</date>
+          </term>
+          <term>
+            <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi> siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-01-16T15:35:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Construire et organiser le savoir naturaliste
+          au 18<hi rend="sup">e</hi> siècle</titlePart>
+          <titlePart type="sub">La collection de livre de Jean
+          Hermann</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Dorothée Rusque</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e49">
+          <graphic url="https://didomena.ehess.fr/downloads/4t64gn98p.jpeg"/>
+          <head xml:id="d1e51">Figure 1 – Catalogue de la bibliothèque
+          Hermann-Hammer (1813) : page d'index (coll. BNU)</head>
+        </figure>
+        <p xml:id="d1e53">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-w9tgxmmu">naturaliste</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-qge35acp">collection
+        scientifique</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-kpbl3dgr">bureau</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>La
+        spécificité de la bibliothèque de <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Jean Hermann</persName>
+        (<date from="1738" to="1800" type="_temp">1738-1800</date>) tient dans
+        la mise en regard opérée avec sa collection de spécimens issus des
+        trois règnes de la nature. Réunis au sein d’un cabinet d’histoire
+        naturelle créé en <date type="_temp" when="1762">1762</date>, les deux
+        types de collections forment un espace et un instrument de travail
+        pour le naturaliste et professeur strasbourgeois<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Jean Hermann donne des cours privés d’histoire naturelle à
+            partir de son cabinet dès 1764, avant d’obtenir en 1784 la chaire
+            de chimie, matière médicale et botanique à l’Université de
+            Strasbourg, à laquelle est associée la fonction de directeur du
+            jardin botanique. Sous la Révolution, il est à la fois professeur
+            à l’École de Santé et à l’École centrale du Bas-Rhin.</p>
+          </note>. Le catalogue de la bibliothèque<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>BNU, MS.0933-0934, catalogue de la bibliothèque Hermann-Hammer
+            (1813)</p>
+          </note>, rédigé par son gendre <persName ref="156782707" type="idref" xml:base="https://www.idref.fr/">Frédéric Louis
+        Hammer</persName> à partir de <date type="_temp" when="1813">1813</date>, permet d’estimer le nombre d’ouvrages à
+        environ 12 000 du vivant de <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Hermann</persName>, pour atteindre
+        plus de 16 000 ouvrages au début de sa mise en vente en <date type="_temp" when="1821">1821</date>. L’inventaire du fonds <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Hermann</persName>, conservé
+        aujourd’hui à la BNU et à la Bibliothèque Blaise-Pascal de
+        l’Université de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>
+          <note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Les livres de la Bibliothèque Blaise-Pascal sont un dépôt de la
+            BNU. Environ 215 livres ont été numérisés et sont accessibles en
+            ligne : <ref target="http://docnum.u-strasbg.fr/">
+                <hi rend="underline">http://docnum.u-strasbg.fr/</hi>
+              </ref>.</p>
+          </note>, est encore inachevé, mais environ 2 000 ouvrages ont déjà
+        pu être identifiés grâce à ses ex-libris<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Les deux ex-libris utilisés sont « CC » et « Bibliotheca
+            Hermanniana Argentorati ».</p>
+          </note>. L’échantillon de 354 ouvrages déjà étudiés<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>La bibliothèque fait l’objet d’une base de données qui ne
+            prétend pas en reconstituer le catalogue. Elle rassemble
+            uniquement les auteurs qui sont membres de ses réseaux savants
+            (correspondants, visiteurs de son cabinet, auditeurs). La base et
+            les livres numérisés par la Bibliothèque Blaise Pascal ont permis
+            d’analyser cet échantillon de 354 ouvrages.</p>
+          </note> montre que le naturaliste se livre avec application à la
+        pratique de l’annotation, alors partagée par de nombreux lecteurs de
+        l’époque moderne. Élaborées dans les pages liminaires, dans les marges
+        ou dans des espaces gagnés sur les marges selon un « bricolage
+        savant »<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>Une partie des ouvrages est concernée par la juxtaposition de
+            toute une gamme d’annotations portées : sur des pages
+            interfoliées, des feuillets semi-mobiles collés, des feuilles
+            intercalées dans le livre et dans les marges (cf. figure
+            p. 39).</p>
+          </note>, les notes sont les supports d’une archéologie
+        bibliographique donnant accès aux pratiques de lecture de Hermann, à
+        ses manières de penser et à ses réseaux savants.</p>
+        <p xml:id="d1e84">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-w2ckzlem">anthropologie</term>
+              </term>
+            </term>
+          </term>Les
+        perspectives ouvertes par l’histoire sociale des sciences et
+        l’anthropologie du savoir<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>Voir notamment : Jacob, Christian (dir.), <hi rend="italic">Lieux de savoir. Espaces et</hi>
+              <hi rend="italic">communautés</hi>, Paris, Albin Michel, 2008 ; Jacob,
+            Christian (dir.), <hi rend="italic">Lieux de savoir 2. Les mains
+            de l’intellect</hi>, Paris, Albin Michel, 2011 ; Bert,
+            Jean-François, <hi rend="italic">L’atelier de Marcel Mauss. Un
+            anthropologue paradoxal</hi>, Paris, CNRS, 2012.</p>
+          </note> font apparaître la bibliothèque de <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Jean Hermann</persName>
+        comme une clé de lecture pertinente, dans une perspective plus large,
+        de la construction et de l’organisation du savoir naturaliste.
+        Dispositif de savoir dédié à l’histoire naturelle, la bibliothèque se
+        transforme en terrain d’étude à travers le dialogue opéré entre les
+        livres et les spécimens. Les notes inscrites dans les ouvrages en font
+        aussi les réceptacles de la mise en forme et en texte du savoir
+        naturaliste.</p>
+        <div type="section1" xml:id="d1e102">
+          <head subtype="level1" xml:id="d1e103">
+            <hi rend="bold">Anatomie et constitution d’un dispositif de
+            savoir</hi>
+          </head>
+          <p xml:id="d1e106">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-dy2vagnj">index</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jcqq7vil">collection
+          éditoriale</term>
+              </term>
+            </term>La connaissance de la collection de
+          livres de <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Jean Hermann</persName> repose
+          d’abord sur le catalogue<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>BNU, MS.0933-934, catalogue de la bibliothèque Hermann-Hammer
+              (1813)</p>
+            </note> qui en fait l’inventaire et l’organise. En plus des
+          écueils classiques dans l’étude d’une source de ce type<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Marion, Michel, <hi rend="italic">Collections et
+              collectionneurs de livres au XVIII</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> siècle</hi>, Paris,
+              Honoré Champion, 1999, p. 59-91 ; Jolly, Claude, <hi rend="italic">Introduction </hi>à l’<hi rend="italic">Histoire
+              des bibliothèques françaises, tome 2, Les bibliothèques sous
+              l’Ancien Régime, 1530-1789</hi>, Paris, Promodis, 1988,
+              p. 3-4.</p>
+            </note>, il s’avère difficile à appréhender dans la mesure où il a
+          été rédigé à titre posthume par <persName ref="156782707" type="idref" xml:base="https://www.idref.fr/">Hammer</persName> et
+          qu’il se rapporte à la bibliothèque des deux savants. Son contenu et
+          sa classification doivent alors être confrontés à d’autres sources
+          et aux pratiques de lecture de <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Jean
+          Hermann</persName>. Le document se compose de deux volumes
+          manuscrits : un index thématique des titres d’ouvrages, d’environ
+          730 pages, et un index des auteurs. Il marque une séparation entre
+          les champs de savoirs étudiés et enseignés par le naturaliste, qui
+          représentent les trois quarts de la bibliothèque, et d’autres
+          domaines de connaissances, tels que l’histoire, la géographie, la
+          littérature ou les arts. Cette première forme de classification est
+          significative de la volonté de faire de la bibliothèque un outil de
+          travail et de connaissance pour l’histoire naturelle.</p>
+          <p xml:id="d1e129">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-kbtkd6uq">correspondance</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-pmnxbcff">librairie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-wntcaubx">allemand</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-olmyobmt">latin</term>
+                </term>
+              </term>
+            </term>Donner
+          une dimension chronologique aux acquisitions de livres peut s’avérer
+          utile pour retracer l’évolution des collections et dater l’univers
+          des références intellectuelles utilisées par <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Hermann</persName>. Le manque de
+          sources oblige à s’en remettre aux dates d’édition des livres, qui
+          révèlent que plus des trois quarts ont été publiés après <date type="_temp" when="1750">1750</date>. Les ouvrages se doivent d’être
+          en phase avec la science en train de se faire et avec les derniers
+          progrès accomplis dans le champ du savoir naturaliste. <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Hermann</persName> note par exemple
+          « l’immense distance qu’il y a entre les articles d’histoire
+          naturelle de l’ancienne et de la nouvelle <hi rend="italic">Encyclopédie</hi>, qui n’est due qu’à un intervalle
+          d’une trentaine d’années »<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>BNU, MS.1.887, exposé méthodique des méthodes d’enseignement
+              de Hermann (26 pluviôse an 3).</p>
+            </note>. L’examen des lieux d’édition et des langues des livres
+          inscrit en outre le savant dans un parcours de lecture tourné vers
+          l’espace germanique, ce qui a une incidence sur son socle de
+          références. Près de 40% de ses livres ont été publiés dans des pays
+          germanophones, contre 33 % en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>. La
+          bibliothèque se distingue donc par le poids des langues étrangères,
+          notamment de l’allemand, et du latin qui reste pratiqué jusqu’à la
+          fin du siècle en <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> alors
+          qu’il connaît un recul sensible en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>
+            <note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Mornet, Daniel, <hi rend="italic">Les sciences de la vie dans
+              la pensée française au XVIII</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> siècle</hi>, Paris, Albin Michel, 1993,
+              p. 176</p>
+            </note>. La correspondance entretenue avec un grand nombre de
+          naturalistes allemands<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Sur les 104 correspondants de Jean Herman identifiés par des
+              échanges de lettres, 36 sont issus d’Allemagne, d’Autriche et de
+              Suisse.</p>
+            </note> et ses relations avec des libraires comme <persName type="_temp">Walther</persName>
+            <note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Voir notamment Picot de Lapeyrouse, Philippe-Isidore, <hi rend="italic">Description de</hi>
+                <hi rend="italic">plusieurs
+              nouvelles espèces d’orthocératites et d’ostracites</hi>,
+              Erlangen, Walther, 1781 (Bibl. Blaise Pascal, cote H.1.039).
+              Dans cet exemplaire annoté, Hermann précise qu’il a retouché le
+              texte latin et soigné l’impression, négociée auprès de
+              Walther.</p>
+            </note> à <placeName ref="6556830" type="geonames" xml:base="https://www.geonames.org/">Erlangen</placeName> lui ont
+          permis d’enrichir sa collection de livres issus de l’espace
+          germanophone. Il est d’ailleurs sollicité par ses correspondants
+          pour son expertise dans la connaissance des publications allemandes
+          relatives à leurs travaux en cours et pour l’envoi de catalogues de
+          ventes<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Museum national d’Histoire naturelle, Ms CRY 490, lettre de
+              Jean Hermann à Picot de Lapeyrouse datée du 9 juillet 1776
+              (folios 173-174) ; Institut de France, Ms 3219, lettre de Jean
+              Hermann à Geoffroy Saint-Hilaire datée du 24 novembre 1796
+              (folio 6).</p>
+            </note>. Il peut à ce titre profiter de sa fréquentation des
+          libraires strasbourgeois <persName ref="031986021" type="idref" xml:base="https://www.idref.fr/">Treuttel</persName>, <persName type="_temp">Koenig</persName>, <persName type="_temp">Levrault</persName> ou <persName type="_temp">Bauer</persName> chez lesquels il s’approvisionne ou
+          peut consulter des livres<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Institut de France, Ms 3219, lettre de Jean Hermann à
+              Geoffroy Saint-Hilaire datée du 24 novembre 1796 (folio 6).</p>
+            </note>.</p>
+          <figure xml:id="d1e172">
+            <graphic url="https://didomena.ehess.fr/downloads/b2773w42k.jpeg"/>
+            <head xml:id="d1e174">Tableau 1 – Les livres de la bibliothèque
+            Hermann : les outils d’une connaissance actualisée. Répartition
+            chronologique de l’échantillon de livres étudiés en fonction de
+            leur date d’édition.</head>
+            <p xml:id="d1e176">Source : livres du fonds Hermann conservés à la
+            BNU et à la Bibliothèque Blaise-Pascal de l’Université de
+            Strasbourg ; BNU, MS.933-934, catalogue de la bibliothèque
+            Hermann-Hammer.</p>
+          </figure>
+          <figure xml:id="d1e178">
+            <graphic url="https://didomena.ehess.fr/downloads/j38607677.jpeg"/>
+            <head xml:id="d1e180">Tableau 2 – Répartition des livres de la
+            bibliothèque Hermann étudiés en fonction de la langue et du lieu
+            d’édition.</head>
+            <p xml:id="d1e182">Source : livres du fonds Hermann conservés à la
+            BNU et à la Bibliothèque Blaise-Pascal de l’Université de
+            Strasbourg ; BNU, MS.933-934, catalogue de la bibliothèque
+            Hermann-Hammer.</p>
+          </figure>
+          <p xml:id="d1e184">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-uwezj7w5">sciences de la
+          vie et de l’environnement<term ref="doi:10.34817/sv-tnedxt7h">sciences de la vie par type
+          d’organismes</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines</term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+              </term>
+            </term>Le
+          système de distribution élaboré dans le catalogue rend compte d’un
+          dispositif de savoir centré sur la pratique de l’histoire naturelle.
+          Il se démarque par son exhaustivité, avec près de 116 rubriques
+          différentes, dont 87 consacrées à l’histoire naturelle et 8 à ses
+          autres domaines d’enseignement, comme la chimie et la matière
+          médicale. Eloigné des standards de classification des libraires
+          limités à cinq catégories<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Marion, Michel, op. cit., p. 73. Le système compte les cinq
+              catégories suivantes : théologie, jurisprudence, sciences et
+              arts, belles-lettres, histoire.</p>
+            </note>, il est avant tout scientifique et repose sur une
+          organisation des champs de savoirs. La classification reprend la
+          division entre les trois règnes de la nature avec la zoologie, la
+          minéralogie et la botanique, qui représentent respectivement 12 %,
+          13 % et 10 % de l’ensemble des titres en <date type="_temp" when="1821">1821</date>. La hiérarchie des savoirs élaborée par
+          <persName ref="156782707" type="idref" xml:base="https://www.idref.fr/">Hammer</persName> présente le
+          risque de ne pas être en phase avec les pratiques de son
+          prédécesseur et avec le processus d’autonomisation et de
+          spécialisation de l’histoire naturelle amorcé à la fin du <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi> siècle</date>, et qui ne sera vraiment réalisé
+          qu’au cours du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi> siècle</date>
+            <note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Rey, Roselyne, <hi rend="italic">La classification des
+              sciences (1750-1850)</hi>, in <hi rend="italic">Revue de
+              synthèse</hi>, vol. 115, n<hi rend="sup">o</hi> 1-2,
+              janvier-juin 1994, p. 5-12 ; Hulin, Nicole (dir.), <hi rend="italic">Études sur l’histoire de l’enseignement des
+              sciences physiques et naturelles</hi>, Paris, ENS éd., 2001.</p>
+            </note>. L’exemple de la classification de la zoologie révèle
+          cependant qu’elle ne renvoie pas à un projet épistémologique très
+          novateur par rapport à la nomenclature de <persName type="_temp">Cuvier</persName>, utilisée par <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Hermann</persName> dans ses leçons
+          à partir de <date type="_temp" when="1798">1798</date>
+            <note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Voir BNU, MS.3.163 : cours de zoologie de Hermann donné à
+              l’École centrale du Bas-Rhin, commencé en 1798. La
+              classification de Hammer reprend largement les classes
+              zoologiques de Cuvier, évoquées dans son <hi rend="italic">Tableau élémentaire de l’histoire naturelle des
+              animaux </hi>(1798).</p>
+            </note>. L’architecture proposée répond davantage à un enjeu
+          pratique de repérage des informations relatives à un groupe
+          zoologique. Elle offre également un panorama des genres littéraires
+          et des sources mobilisés. La bibliothèque comporte des outils
+          techniques comme les dictionnaires, les livres traitant de
+          lexicographie, de terminologie ou de l’observation au microscope.
+          Afin de disposer des connaissances les plus récentes, une place de
+          choix est donnée aux récits de voyages, aux catalogues de ventes de
+          cabinets, de bibliothèques et aux actes des académies. La
+          bibliothèque constitue donc un lieu d’archives adapté et organisé en
+          fonction des besoins et des activités savantes de <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Jean
+          Hermann</persName>. Elle contribue à cartographier ses affiliations
+          intellectuelles, les 118 ouvrages de <persName ref="028300327" type="idref" xml:base="https://www.idref.fr/">Linné</persName>
+          inscrits dans le catalogue confirmant aisément son linnéisme
+          fervent<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Seuls 25 ouvrages de Linné ont pour l’instant été identifiés
+              comme provenant du fonds Hermann sur l’ensemble des titres
+              inventoriés dans le catalogue.</p>
+            </note>. Si les sources ne permettent pas de cerner la mise en
+          ordre matérielle des livres, celle-ci est en tout cas conditionnée
+          par la contrainte du manque d’espace qui oblige Hermann à accumuler
+          les échantillons et les livres jusque dans le corridor et les
+          escaliers de son domicile<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Archives de la Ville et de la Communauté urbaine de
+              Strasbourg, 88Z 16-17 : lettre de Jean Hermann au ministre de
+              l’Intérieur François de Neufchâteau (non datée, folios
+              21-22)</p>
+            </note>.</p>
+          <p xml:id="d1e228">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-mublpqmd">achat</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-h5xg2swx">collectionneur</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-vh4rb2gf">annotation</term>
+              </term>
+            </term>Les
+          annotations placées dans les pages liminaires des ouvrages associent
+          la figure du lecteur savant à celle du collectionneur, car il s’y
+          montre attentif à la rareté, à l’état, à l’édition du volume ou
+          encore à la qualité du papier qui déterminent le prix de vente du
+          livre. Elles peuvent aider l’historien à retracer les réseaux de la
+          collecte et du commerce d’objets de savoir qui s’appuient, à
+          l’échelle européenne, sur plus de 5 500 personnes réparties entre
+          ses correspondants, les visiteurs de son cabinet et ses
+          étudiants<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>Le réseau personnel de Hermann a été identifié à travers sa
+              correspondance, l’inventaire de ses auditeurs et des visiteurs
+              de son cabinet. Il fait l’objet d’une base de données.</p>
+            </note>. Sur les 354 ouvrages déjà évoqués, 47 portent ainsi des
+          mentions d’ex-dono. Échanger les doubles, donner un exemplaire de
+          son travail publié comme marque d’amitié sont des pratiques
+          constituantes du système de don et de contre-don mis en œuvre par
+          les collectionneurs et les acteurs de la République des sciences.
+          S’il est difficile de mesurer son poids réel, la correspondance
+          montre que <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Jean Hermann</persName> y a
+          largement recours, avec des stratégies dans le choix des
+          correspondants et dans les échanges. Le don d’un livre peut à ce
+          titre servir de levier à la genèse d’une relation épistolaire<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Voir BNU, MS.3.757, folio 6 : lettre de Jean Hermann à Cuvier
+              (25 janvier 1797). Hermann évoque l’échec de sa stratégie de don
+              d’un livre rare à un savant qui mourut peu de temps après, ce
+              qui lui a fait perdre son livre et une amitié nouvelle.</p>
+            </note> et à un commerce d’objets fructueux. L’achat des ouvrages
+          est lui aussi rationalisé, ce qui est visible dans la demande,
+          formulée auprès de <persName ref="03213570X" type="idref" xml:base="https://www.idref.fr/">Joseph Banks</persName> en <date type="_temp" when="1791">1791</date>, de troquer à <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> un livre
+          rare de planches d’<persName type="_temp">Ehret</persName> dont le
+          double est à sa disposition à la bibliothèque publique contre des
+          livres d’histoire naturelle plus utiles<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>British Library, Add. MS. 8098, folios 139-143 : lettre de
+              Hermann à Joseph Banks (1<hi rend="sup">er</hi> septembre
+              1791).</p>
+            </note>. Instrument de travail, la bibliothèque est également un
+          terrain d’étude dédié à la pratique de l’observation.</p>
+          <figure xml:id="d1e245">
+            <graphic url="https://didomena.ehess.fr/downloads/ns064669x.jpeg"/>
+            <head xml:id="d1e247">Tableau 3 – Classification synthétique
+            réalisée à partir de celle exposée dans le catalogue de la
+            bibliothèque Hermann-Hammer, qui comporte 116 rubriques. Elle
+            n’est pas exhaustive et donne un aperçu du contenu et de
+            l’organisation de la bibliothèque en 1821. Dans son inventaire,
+            Hammer reporte également 5 646 dissertations.</head>
+            <p xml:id="d1e249">Source : BNU, MS.933-934, catalogue de la
+            bibliothèque Hermann-Hammer.</p>
+          </figure>
+          <figure xml:id="d1e251">
+            <graphic url="https://didomena.ehess.fr/downloads/4b29b6695.jpeg"/>
+            <head xml:id="d1e253">Figure 2 – Ex-libris « Bibliotheca
+            Hermanniana Argentorati », porté par Hermann dans les livres de sa
+            bibliothèque. Celui-ci est extrait de : Romé de l’Isle,
+            Jean-Baptiste Louis de, <hi rend="italic">Des caractères
+            extérieurs des minéraux</hi>, Paris, Didot jeune, 1784 (coll. BNU,
+            déposé au SCD de l’Université de Strasbourg)</head>
+          </figure>
+          <figure xml:id="d1e258">
+            <graphic url="https://didomena.ehess.fr/downloads/d791sg986.jpeg"/>
+            <graphic url="https://didomena.ehess.fr/downloads/5q47rp59m.jpeg"/>
+            <head xml:id="d1e261">Figure 3 – Le dialogue des objets : spécimen
+            d’une pince de crabe des cocotiers issu du cabinet Hermann, et la
+            planche correspondante, dessinée d’après l’échantillon (« Musei
+            Hermanniani » ; coll. Musée zoologique de Strasbourg)</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e263">
+          <head subtype="level1" xml:id="d1e264">
+            <hi rend="bold">La bibliothèque comme terrain d’étude et de
+            dialogue pour les objets de savoir</hi>
+          </head>
+          <p xml:id="d1e267">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-a7acuscy">instrument d’expérimentation<term ref="doi:10.34817/sv-zz7mbez9">échantillon</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-kpbl3dgr">bureau</term>
+              </term>
+            </term>Le cabinet
+          réunit trois formes d’objets de savoir fonctionnant en interaction :
+          les échantillons naturalistes, les planches et les livres d’histoire
+          naturelle, les deux derniers étant intégrés à la bibliothèque. Selon
+          <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Hermann</persName>, « les livres
+          doivent se trouver sous la main, pour pouvoir y montrer ce qu’on
+          peut en faire connaître en nature »<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Archives de la Ville et de la Communauté urbaine de
+              Strasbourg, 88Z 16 : mémoire de Hermann sur le jardin botanique,
+              point 24.</p>
+            </note>, de même que les livres de chimie doivent être à côté du
+          laboratoire. Mis à disposition des étudiants, ils font partie de
+          l’outillage de la démonstration pédagogique et du parcours
+          d’observation du savant. Dans son discours scientifique, <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Hermann</persName> donne la
+          primauté aux spécimens sur leurs substituts. Alors que « les
+          meilleures figures restent bien en-dessous de la nature »<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>Rudwick, Martin, <hi rend="italic">Recherches sur les
+              ossements fossiles : Georges Cuvier</hi>
+                <hi rend="italic">et la
+              collecte d’alliés internationaux</hi>, in Blanckaert, Claude,
+              Fischer, Jean-Louis (dir.), <hi rend="italic">Le Muséum au
+              premier siècle de son histoire</hi>, Paris, 1997, p. 591-606. Il
+              y évoque les « spécimens de substitution » comme les
+              descriptions et les dessins.</p>
+            </note>
+            <note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>BNU, MS.1.887 : mémoire sur l’enseignement de l’histoire
+              naturelle dans les écoles centrales (non daté).</p>
+            </note>, les spécimens sont les plus à même de révéler les
+          caractères anatomiques.</p>
+          <p xml:id="d1e289">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-uwezj7w5">sciences de la
+          vie et de l’environnement<term ref="doi:10.34817/sv-tnedxt7h">sciences de la vie par type
+          d’organismes<term ref="doi:10.34817/sv-kk3qhhn7">botanique</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image<term ref="doi:10.34817/sv-dujlzfqq">dessin</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image</term>
+              </term>
+            </term>La
+          collection de planches montre pourtant que le recours à l’image est
+          permanent. Copiées à partir d’autres ouvrages ou réalisées d’après
+          les spécimens du cabinet<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Les planches réalisées d’après les objets du cabinet portent
+              la mention « Musei Hermanniani ».</p>
+            </note> et du jardin botanique, elles doivent aider le savant à
+          les retrouver plus facilement, sans avoir à les rechercher dans les
+          livres. Il faut dire que sa bibliothèque comporte en <date type="_temp" when="1821">1821</date> plus de 200 000 planches, dont
+          25 000 peintes à la main. Le dessin supplée aussi au spécimen absent
+          du cabinet et sert à appréhender son organisation interne<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>BNU, MS.1.887 : mémoire sur l’enseignement de l’histoire
+              naturelle dans les écoles centrales (non daté).</p>
+            </note>. Il participe pleinement aux opérations d’observation et
+          de comparaison nécessaires pour identifier et classer les
+          échantillons. Les livres, lieux de savoir et de savoir-faire,
+          offrent des supports méthodologiques et techniques pour la formation
+          de l’oeil. Les descriptions qui y sont portées ont les mêmes
+          fonctions que l’image, tout en ayant une valeur d’autorité qui
+          valide l’observation et évite de multiplier les espèces qui auraient
+          déjà pu être définies par d’autres. Pour <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Hermann</persName>,
+          les botanistes peuvent se voir « entourés en peu de temps d’une
+          vingtaine de livres qu’ils ont à consulter successivement. Un auteur
+          allègue un autre : un point s’éclaircit mais il s’élève un nouveau
+          doute. Nouvelles comparaisons de descriptions et de figures à
+          faire »<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>Archives de la Ville et de la Communauté urbaine de
+              Strasbourg, 88Z 16 : mémoire de Hermann sur le jardin botanique,
+              point 24.</p>
+            </note>. L’anatomie comparée ne se pratique pas uniquement à
+          travers la comparaison des caractères des spécimens, elle met en jeu
+          un dialogue complexe, à différentes échelles, entre les objets de
+          savoir. Celui-ci est matérialisé par la circulation permanente entre
+          les échantillons, les dessins et les livres au sein d’un terrain
+          d’étude ouvert qui abolit les frontières entre le cabinet et la
+          bibliothèque. Le parcours de lecture d’un livre à l’autre est même
+          archivé dans les livres annotés.</p>
+        </div>
+        <div type="section1" xml:id="d1e303">
+          <head subtype="level1" xml:id="d1e304">
+            <hi rend="bold">Compilation et mise en forme du savoir dans les
+            marges des livres</hi>
+          </head>
+          <p xml:id="d1e307">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-xzypndjr">marge</term>
+              </term>
+            </term>Le système
+          de notes élaboré par <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Hermann</persName> est original par
+          sa forme et sa topographie, ce qui conduit à envisager une acception
+          élargie de la notion de marges. Presque tous les livres étudiés sont
+          annotés dans les espaces liminaires, alors qu’un quart comporte des
+          notes marginales. Ces dernières sont les plus abondantes et les plus
+          intéressantes par leur mise en communication avec des passages
+          déterminés du texte. Eclairant « les emboîtements successifs et les
+          jeux de lecture »<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>Burki, Reine, <hi rend="italic">De Mauss à Lévi-Strauss. Les
+              bibliothèques de chercheurs</hi>
+                <hi rend="italic">et la
+              construction des savoirs</hi>, in <hi rend="italic">Bulletin des
+              bibliothèques de France</hi>, n<hi rend="sup">o</hi> 3, 2013,
+              p. 1. La citation est empruntée à Jean-François Bert qui a
+              étudié la bibliothèque de Marcel Mauss.</p>
+            </note> à l’œuvre dans la bibliothèque, ces traces se placent en
+          amont de la fabrique de nouveaux textes tout en s’autonomisant comme
+          des productions « littéraires » à part entière.</p>
+          <p xml:id="d1e325">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-ytvep88b">page</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-k9wtnbmg">autorité</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-wwbkzdwu">note</term>
+              </term>
+            </term>Leur
+          dimension matérielle est tout aussi significative que leur contenu.
+          Le choix de faire interfolier une quinzaine d’ouvrages pour
+          s’affranchir des contraintes de la marge est ainsi révélateur de
+          leur usage intensif, à l’image du <hi rend="italic">Systema naturæ
+          </hi>de <persName ref="028300327" type="idref" xml:base="https://www.idref.fr/">Linné</persName>
+            <note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Voir BNU, MS.3.413-3.417 : Linné, Carl von, <hi rend="italic">Systema naturæ...</hi>, Halæ Magd., typ. J. J.
+              Curt., 1760, 5 tomes ; BNU, MS.3.423-3.427, Linné, Carl von, <hi rend="italic">Systema naturæ...</hi>, Vienne, Trattner,
+              1767-1770, 5 tomes. Hermann a enseigné l’histoire naturelle
+              pendant trente ans à partir de ces ouvrages.</p>
+            </note>. Dans ces livres, la mise en pages s’apparente à un
+          « bricolage savant » qui peut cumuler toute une gamme d’annotations
+          placées dans les marges, sur des feuilles semi-mobiles collées, sur
+          des feuilles intercalées et sur les pages interfoliées. Le montage
+          opéré forme ainsi une pratique d’écriture à part entière, sur le
+          mode de la juxtaposition. Marqué par « une spatialisation qui crée
+          des relations hiérarchiques »<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>Derrida, Jacques, <hi rend="italic">Ceci n’est pas une note
+              infrapaginale orale</hi>, in Dürrenmatt, Jacques et Pfersmann,
+              Andreas, <hi rend="italic">L’Espace de la note</hi>, Presses
+              universitaires de Rennes, 2004, p. 8</p>
+            </note> entre le texte premier et les notes marginales, le livre
+          est conçu ici comme un territoire ouvert dont la géographie est
+          revisitée. L’agencement de la page en fonction de ses propres
+          besoins permet au naturaliste de se réapproprier un espace
+          d’expression personnelle et de travail qui s’émancipe du texte
+          imprimé pour le prolonger, ce qui est facilité par le placement des
+          notes au même niveau que le passage qu’elles explicitent.
+          L’annotateur se fait même censeur de l’auteur, dont l’autorité
+          savante peut être renforcée ou discutée. Les pages liminaires des
+          livres sont plus spécifiquement dédiées à cet exercice. <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Hermann</persName> les transforme
+          en préfaces érudites par l’ajout de références bibliographiques qui
+          servent d’outils de repérage et d’aide-mémoire. La convocation
+          d’autres autorités remet en perspective la lecture pour se faire une
+          idée juste du livre entier. L’hypothèse développée dans le livre de
+          <persName ref="027056422" type="idref" xml:base="https://www.idref.fr/">Pallas</persName>
+            <note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>Pallas, Peter Simon, <hi rend="italic">Observations sur la
+              formation des montagnes et les</hi>
+                <hi rend="italic">changemens
+              arrivés au globe…</hi>, Saint-Pétersbourg, Imprimerie de
+              l’Académie impériale des sciences, 1777 (Bibliothèque Blaise
+              Pascal, cote H.135.197)</p>
+            </note> relatif à la formation des montagnes se voit par exemple
+          confrontée aux objections de <persName ref="026956411" type="idref" xml:base="https://www.idref.fr/">Delaméthérie</persName> dans sa <hi rend="italic">Théorie de la terre</hi>. <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Hermann</persName>
+          exprime son esprit critique et évalue la légitimité du travail selon
+          différents critères, qui reposent sur la forme et sur le contenu
+          scientifique. Il s’appuie également sur les recensions parues dans
+          les périodiques dont il tire des extraits, notamment les <hi rend="italic">Göttingische Anzeigen von gelehrten Sachen</hi>
+            <note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>Saada, Anne, <hi rend="italic">Les relations entre Albrecht
+              von Haller et la France observées</hi>
+                <hi rend="italic"> à
+              travers le journal savant de Göttingen</hi>, in Crogiez,
+              Michèle, <hi rend="italic">Les intellectuels de Suisse
+              alémanique et la culture francophone du XVIII</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> siècle : tropismes et
+              identité</hi>, Genève, Slatkine, 2008, p. 175-191</p>
+            </note>, publication de la Société royale des sciences de
+          <placeName ref="6557373" type="geonames" xml:base="https://www.geonames.org/">Göttingen</placeName>. Si
+          l’annotateur peut se poser en rival de l’auteur, les notes
+          marginales visent le plus souvent à dialoguer avec le texte pour
+          l’expliciter ou le perfectionner.</p>
+          <figure xml:id="d1e383">
+            <graphic url="https://didomena.ehess.fr/downloads/p2676w145.jpeg"/>
+            <head xml:id="d1e385">Figure 4 – Linné, Carl von, <hi rend="italic">Systema naturæ...</hi>, Vienne, Trattner, 1767-1770,
+            t. 1, p. 132 : aperçu du « bricolage savant » opéré par la
+            juxtaposition d’annotations inscrites sur différents supports
+            (marges, page interfoliée, languettes de papier et feuille
+            volante ; coll. BNU)</head>
+          </figure>
+          <figure xml:id="d1e390">
+            <graphic url="https://didomena.ehess.fr/downloads/m613mz35j.jpeg"/>
+            <head xml:id="d1e392">Figure 5 – Ouvrage annoté de Marc Mappus,
+            Historia plantarum alsaticarum (1742), p. 200 : Hermann y a
+            reporté de nombreuses observations sur les plantes indigènes
+            locales, qui devaient servir de matière première à la rédaction
+            d’une flore d’Alsace (coll. BNU)</head>
+          </figure>
+          <figure xml:id="d1e394">
+            <graphic url="https://didomena.ehess.fr/downloads/9z903061d.jpeg"/>
+            <head xml:id="d1e396">Figure 6 – Annotations manuscrites de Jean
+            Hermann portées dans les pages liminaires d’un livre de sa
+            collection : Rosenberg, Johann Carolus, Rhodologia,
+            Francfort-sur-le-Main, Wilhelm Fitzer, 1631 (coll. BNU, déposé au
+            SCD de l’Université de Strasbourg)</head>
+          </figure>
+          <p xml:id="d1e398">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-znyuuyni">copie
+          manuscrite</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-rvvq9xd9">extrait</term>
+              </term>
+            </term>À côté de
+          ses recueils de notes de lecture, <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Hermann</persName>
+          fait des livres le réceptacle privilégié de sa collection
+          d’extraits. Héritier de la tradition humaniste qui fait de l’art de
+          l’extrait une technique de lecture<note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>Chatelain, Jean-Marc, <hi rend="italic">Humanisme et culture
+              de la note</hi>, in <hi rend="italic">Le Livre annoté</hi> (<hi rend="italic">Revue de la Bibliothèque nationale de France</hi>,
+              n<hi rend="sup">o</hi> 2, juin 1999, p. 26-37). Hermann a été
+              élève au Gymnase protestant de Strasbourg, dans lequel le
+              rhétoricien et professeur Jean Sturm a théorisé l’art de
+              l’extrait comme pratique scolaire au 16<hi rend="sup">e</hi> siècle.</p>
+            </note> et tourné vers un espace culturel germanique où se
+          maintient fortement cette pratique érudite au <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi> siècle</date>
+            <note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>Décultot, Elisabeth (éd.), <hi rend="italic">Lire, copier,
+              écrire : les bibliothèques manuscrites</hi>
+                <hi rend="italic"> et
+              leurs usages au XVIII</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> siècle</hi>, Paris, 2003, p. 10</p>
+            </note>, il se situe à mi-chemin entre conservation et
+          recomposition des paradigmes anciens. Les écrits originaux, souvent
+          recopiés avec une grande exactitude, peuvent être aussi reconstruits
+          pour en proposer un résumé, parfois accompagné d’observations
+          personnelles, de dessins et des produits de sa pensée. Les livres
+          les plus annotés sont transformés en bibliothèques manuscrites et
+          fonctionnent alors comme un lieu d’archivage de données stockées
+          pour un usage ultérieur. L’extrait se veut performatif, il vise à
+          apporter une description la plus complète possible des spécimens
+          afin d’accompagner les travaux de recherche et l’enseignement. Le
+          crabe évoqué dans la première édition du <hi rend="italic">Systema
+          naturæ</hi>
+            <note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>BNU, MS.3.415 : Linné, Carl von, op. cit., 1760, p. 631</p>
+            </note> de <persName ref="028300327" type="idref" xml:base="https://www.idref.fr/">Linné</persName> alimente ainsi une
+          série d’extraits qui passent en revue son anatomie, sa localisation,
+          sa génération, ses couleurs et sa respiration. Le choix du livre
+          comme support des notes de lecture offre l’avantage d’embrasser les
+          informations d’un seul coup d’oeil et de les retrouver facilement
+          grâce aux index. Les livres sont composés comme des cabinets savants
+          dans lesquels l’écriture est associée à une activité compilatoire
+          créatrice.</p>
+          <p xml:id="d1e442">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-barjmjqd">observation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-4skusyqu">carnet</term>
+                </term>
+              </term>
+            </term>Plutôt
+          que de recourir à des carnets de terrain, <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Hermann</persName>
+          s’en sert également pour faire le récit de ses propres observations.
+          Effectuées au jardin botanique et lors des herborisations sur le
+          terrain, elles inventorient les ressources locales et les
+          échantillons du cabinet auxquels elles se rapportent. Concentrées
+          dans les ouvrages interfoliés, certaines ont pu acquérir le statut
+          d’œuvres à titre posthume. <persName ref="156782707" type="idref" xml:base="https://www.idref.fr/">Hammer</persName> a notamment
+          publié en <date type="_temp" when="1804">1804</date> une partie des
+          observations zoologiques de <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Hermann</persName>, intégrées aux
+          exemplaires du <hi rend="italic">Systema naturæ</hi> de <persName ref="028300327" type="idref" xml:base="https://www.idref.fr/">Linné</persName>
+            <note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>Hermann, Jean, <hi rend="italic">Observationes
+              zoologicae…</hi>, Strasbourg, Koenig, 1804</p>
+            </note>. Les pratiques d’écriture portées dans les marges
+          s’appuient sur la démarche scientifique de compilation et de
+          comparaison propre au naturaliste. L’exemplaire annoté de l’<hi rend="italic">Historia plantarum alsaticarum</hi>
+            <note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>BNU, MS.3.453 : Mappus, Marc, <hi rend="italic">Historia
+              plantarum alsaticarum…</hi>, Strasbourg, 1742</p>
+            </note> (1742) de <persName ref="188967338" type="idref" xml:base="https://www.idref.fr/">Mappus</persName> en fait la
+          démonstration (figure 5). Accueillant les observations botaniques de
+          <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Hermann</persName>, il a servi de
+          matière première à la rédaction d’une nouvelle flore d’<placeName ref="3038033" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName> qui n’a
+          jamais été publiée. L’auteur est ici défini comme celui qui se
+          réapproprie et augmente le travail d’un autre, selon une pratique de
+          recomposition des notes avec le texte original. Les écrits du savant
+          s’intègrent de cette manière à une chaîne de contributions. Dans les
+          pages liminaires de son exemplaire de <persName ref="188967338" type="idref" xml:base="https://www.idref.fr/">Mappus</persName>, il
+          fait de ses notes un legs à diffuser et à compléter par ses
+          héritiers, ce qu’a fait son élève <persName ref="063467844" type="idref" xml:base="https://www.idref.fr/">C. G.
+          Nestler</persName> qui a repris les notes du professeur dans son
+          volume de <persName ref="188967338" type="idref" xml:base="https://www.idref.fr/">Mappus</persName> tout en y
+          rajoutant les siennes. C’est finalement <persName ref="059766166" type="idref" xml:base="https://www.idref.fr/">Kirschleger</persName>, dans sa <hi rend="italic">Flore d’Alsace et des contrées limitrophes</hi> (<date type="_temp" when="1857">1857</date>)<note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>Kirschleger, Frédéric, <hi rend="italic">Flore d’Alsace et
+              des contrées limitrophes</hi>, Paris, chez Victor Masson, 1852
+              et 1857, 2 volumes</p>
+            </note>, qui contribue à la publicisation du travail de <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Hermann</persName> en utilisant une
+          partie des observations tirées du <persName ref="188967338" type="idref" xml:base="https://www.idref.fr/">Mappus</persName>
+          annoté. Les livres de la bibliothèque sont donc à la fois des objets
+          d’échanges et des lieux d’échanges, qui alimentent la dimension
+          collaborative de l’écriture scientifique.</p>
+          <p xml:id="d1e473">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-qquf8qxp">catalogue</term>
+              </term>
+            </term>À
+          travers son catalogue, ses livres et leurs extensions sous forme de
+          « <foreign xml:lang="lat">marginalia</foreign> », la bibliothèque de
+          <persName ref="094832854" type="idref" xml:base="https://www.idref.fr/">Jean Hermann</persName> donne à
+          voir ce que recouvre une bibliothèque savante et l’intérêt que peut
+          avoir l’historien à passer par cette « archive générale de la
+          recherche »<note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>Burki, Reine, op. cit., p. 1. La citation est empruntée à
+              Jean-François Bert.</p>
+            </note> pour cerner la construction et l’organisation d’un savoir.
+          Elle renseigne sur les manières de lire, de penser et d’écrire, et
+          témoigne donc des pratiques savantes ordinaires. Elle interroge les
+          modalités de l’inscription des savoirs dans un espace organisé comme
+          un terrain d’étude. Elle permet à ce titre de faire varier l’échelle
+          d’observation, depuis l’annotation au coeur des livres jusqu’à la
+          cartographie de leurs lieux d’édition et de leurs réseaux de
+          collecte. La bibliothèque constitue enfin la porte d’entrée à une
+          approche matérielle des pratiques savantes. Faisant écho aux
+          spécimens du cabinet, les livres y sont des objets de savoir
+          manipulés, transformés en outils ou en supports de travail grâce au
+          geste de l’annotation.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

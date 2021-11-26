@@ -1,0 +1,673 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:marcrel="http://www.loc.gov/loc.terms/relators" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:trans="http://docbook.org/ns/transclusion" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xila="http://www.w3.org/2001/XInclude/local-attributes" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-13T16:19:10.088+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_03_Jacob">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Itinéraires alexandrins</title>
+        <title type="collection">La Revue de la BNU n<hi rend="sup">o</hi> 2</title>
+        <author role="aut">
+          <forename>Christian</forename>
+          <surname>Jacob</surname>
+          <idno type="IDREF">026932563</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/C2EMVDC5" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Itinéraires alexandrins</title>
+            <author>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <imprint>
+              <biblScope unit="issue">2</biblScope>
+              <biblScope unit="page">64-69</biblScope>
+              <date>2010</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="grc"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-wwbkzdwu">note</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-kjxagcfp">déchiffrement</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName>
+          </term>
+          <term>
+            <placeName ref="3169069" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>
+          </term>
+          <term>
+            <placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="-0299" to="-0200" type="_temp">III<hi rend="sup">e</hi> siècle avant notre ère</date>
+          </term>
+          <term>
+            <date from="-0199" to="-0100" type="_temp">II<hi rend="sup">e</hi> siècle de notre ère</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-08-20T14:28:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Itinéraires alexandrins</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Christian Jacob</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <figure>
+      <graphic url="https://didomena.ehess.fr/downloads/mc87pr02q.jpg"/>
+      <head>Figure 1 - Page de titre d'une édition de 1522 (Bâle, Valentin
+      Curio) de la Périégèse de Denys d'Alexandrie (coll. BNU)</head>
+    </figure>
+    <body>
+      <div type="chapitre" xml:id="d1e114">
+        <p xml:id="d1e116">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>Comment
+        mon parcours d’historien m’a-t-il conduit à devenir un alexandrin et à
+        faire de la mythique bibliothèque des Ptolémées l’un de mes lieux
+        d’ancrage, entre savoir et imaginaire ?</p>
+        <p xml:id="d1e119">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-wxtpa7cz">biographie</term>
+            </term>
+          </term>À la fin
+        des <date from="1970" to="1979" type="_temp">années 70 du siècle
+        dernier</date>, je m’apprêtais à suivre des chemins différents. Je
+        rêvais de devenir archéologue, j’aspirais à préparer l’Ecole française
+        d’Athènes. J’étais fasciné par le monde des objets et des formes, par
+        les pierres et la terre, par les céramiques et le marbre. Les sites
+        archéologiques me semblaient être comme des livres dont je serais le
+        premier lecteur, découvrant page après page les signes et les traces
+        abandonnés et superposés il y a plus de deux millénaires.</p>
+        <p xml:id="d1e125">
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-yk9yaypy">parchemin</term>
+            </term>
+          </term>Ce livre
+        inscrit dans le sol m’apparaissait comme l’un de ces manuscrits
+        médiévaux où l’on réemploie le support précieux du parchemin en
+        effaçant un texte pour en inscrire un autre. Le sol était un
+        palimpseste, sur lequel, de la préhistoire à nos jours, avaient été
+        inscrits les travaux et les jours, le quotidien et l’histoire, la
+        routine et l’événement, à travers des traces volontaires ou
+        accidentelles.</p>
+        <p xml:id="d1e128">Je rêvais l’archéologie comme un art particulier de
+        la lecture, les sites me semblaient être des bibliothèques :
+        <placeName ref="263219" type="geonames" xml:base="https://www.geonames.org/">Delphes</placeName> et <placeName ref="263090" type="geonames" xml:base="https://www.geonames.org/">Délos</placeName>, l’agora
+        d’<placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName> et <placeName ref="264637" type="geonames" xml:base="https://www.geonames.org/">Olympie</placeName>… Le carré de
+        fouilles, délimité selon les règles de l’art, était comme la page d’un
+        livre de cette bibliothèque, qui me raconterait une histoire
+        singulière si j’apprenais les règles de son déchiffrement. Chaque
+        bibliothèque, chaque livre avait son propre langage, sa propre
+        histoire…</p>
+        <p xml:id="d1e143">
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-aft5hebf">rouleau</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-kjxagcfp">déchiffrement</term>
+            </term>
+          </term>Je me
+        suis même orienté pour un temps vers les formes premières de ces
+        littératures inscrites dans le sol grec : <placeName ref="257058" type="geonames" xml:base="https://www.geonames.org/">Mycènes</placeName>, <placeName ref="252919" type="geonames" xml:base="https://www.geonames.org/">Santorin</placeName>, <placeName ref="259628" type="geonames" xml:base="https://www.geonames.org/">Cnossos</placeName> et <placeName ref="262531" type="geonames" xml:base="https://www.geonames.org/">Phaïstos</placeName>. Sans doute
+        parce que les disciplines du déchiffrement étaient plus exigeantes,
+        plus ascétiques, il fallait « lire » des textes inscrits non sur les
+        rouleaux de papyrus ou les codices de parchemin, mais sur des
+        tablettes d’argile, non pas dans l’alphabet grec, mais dans des
+        répertoires de signes syllabaires que l’on distinguait en
+        « linéaire A » et « linéaire B ».</p>
+        <p xml:id="d1e159">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue</term>
+            </term>
+          </term>L’histoire
+        du déchiffrement du linéaire B par <persName ref="030216575" type="idref" xml:base="https://www.idref.fr/">Michael
+        Ventris</persName> et <persName ref="078539080" type="idref" xml:base="https://www.idref.fr/">John Chadwick</persName> m’avait
+        passionné<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Voir John Chadwick, <hi rend="italic">Le déchiffrement du
+            linéaire B. Aux origines de la langue grecque</hi>, Paris,
+            Gallimard, 1972</p>
+          </note>. Et j’avais mis à apprendre ces signes syllabiques la même
+        passion que l’on aurait pu mettre face aux écritures de la <placeName ref="8378519" type="geonames" xml:base="https://www.geonames.org/">Mésopotamie</placeName> ou de la
+        <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> : j’étais au
+        seuil d’une bibliothèque à conquérir… Certes, les textes offerts à la
+        lecture étaient le plus souvent des inventaires, des listes, mais
+        quelle émotion de voir émerger une forme de langue grecque primitive
+        au fur et à mesure du déchiffrement : « Ai-ke-u ke-re-sio ti-ri-po-de
+        we-ke », « <persName type="_temp">Egée le Crétois</persName> a
+        fabriqué un trépied »…</p>
+        <p xml:id="d1e177">Alors que je me consacrais à l’apprentissage de
+        cette écriture et que je tentais à mon tour de briser le code des
+        signes du « disque de <placeName ref="262531" type="geonames" xml:base="https://www.geonames.org/">Phaïstos</placeName> », connus
+        par un seul artefact, vint la rencontre avec d’autres grands lecteurs.
+        Ils avaient pour noms <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Jean-Pierre Vernant</persName>,
+        <persName ref="02682891X" type="idref" xml:base="https://www.idref.fr/">Marcel Detienne</persName> et
+        <persName ref="027184269" type="idref" xml:base="https://www.idref.fr/">Pierre Vidal-Naquet</persName>
+        - <persName ref="031628281" type="idref" xml:base="https://www.idref.fr/">Nicole Loraux</persName> vint se
+        joindre à eux très vite. Je les avais déjà lus, il me fut donné de les
+        entendre et d’assister à leurs séminaires. Lieux étranges de
+        déchiffrement, de lecture et d’interprétation, où les textes
+        classiques que j’avais travaillés pendant mes années d’études, avec
+        l’énergie, mais aussi l’étroitesse de vue d’un laboureur ou d’un
+        bûcheron, prenaient vie et couleurs, sens et relief, se mettaient à
+        parler et à penser… Ils ouvraient des horizons, invitaient à tracer
+        des cheminements interprétatifs, composaient des paysages signifiants
+        aux multiples harmoniques…</p>
+        <p xml:id="d1e183">Le monde que je découvris alors était aussi
+        dépaysant que le rivage d’un nouveau continent, il était plein de
+        couleurs et de sons, de paradoxes et d’énigmes. Les Grecs de <persName ref="02682891X" type="idref" xml:base="https://www.idref.fr/">Detienne</persName> et <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Vernant</persName> ne ressemblaient
+        pas à ceux que j’avais croisés dans mon itinéraire universitaire, ils
+        vivaient et pensaient, ils chantaient et imaginaient, et les textes
+        comme les images devenaient des partitions à déchiffrer…</p>
+        <p xml:id="d1e186">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-wvqbejdv">citation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-nupjnh3s">jardin</term>
+            </term>
+          </term>Le livre de
+        Marcel Detienne, <hi rend="italic">Les Jardins d’Adonis. La mythologie
+        des aromates en Grèce ancienne</hi>
+          <note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Paris, Gallimard, 1972</p>
+          </note>, puis celui qu’il écrivit en collaboration avec <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Jean-Pierre Vernant</persName>, <hi rend="italic">Les ruses de l’intelligence, la Mètis des
+        Grecs</hi>
+          <note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Paris, Flammarion, 1974</p>
+          </note> m’ouvrirent les portes d’une bibliothèque insoupçonnée : à
+        côté des orateurs attiques et de <persName type="_temp">Platon</persName>, d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> et des
+        tragiques, apparaissait une foule d’auteurs inconnus, des érudits, des
+        lexicographes, des scholiastes, des compilateurs et des
+        encyclopédistes. Sous forme de fragments ou de citations, ou parfois
+        de traités techniques et scientifiques, ces auteurs dévoilaient
+        l’arrière-plan, l’avant-scène, les bas-côtés de la littérature
+        classique, une bibliothèque rarement lue pour elle-même, souvent
+        entrouverte pour nourrir les notes de bas de pages des livres et des
+        articles contemporains.</p>
+        <p xml:id="d1e207">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+            </term>
+          </term>Je
+        découvris ainsi des formes d’écriture intimement liées à des pratiques
+        de lecture, qui s’appuyaient sur l’usage des bibliothèques : mots,
+        citations, informations apparaissaient comme autant de matériaux
+        extraits des textes lus, ils étaient redistribués dans de nouveaux
+        textes selon de multiples principes d’assemblage, afin de créer des
+        objets intellectuels souvent inattendus, de redéployer les champs de
+        savoir.</p>
+        <p xml:id="d1e210">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-ewrvjrbq">commentaire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-qyxkjpqw">compilation</term>
+            </term>
+          </term>Alors
+        que les forces de l’équipe dirigée par <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Vernant</persName>, puis
+        par <persName ref="027184269" type="idref" xml:base="https://www.idref.fr/">Vidal-Naquet</persName>
+          <note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Le Centre de recherches comparées sur les sociétés anciennes,
+            devenu Centre Louis Gernet, et aujourd’hui Anhima (Anthropologie
+            et histoire des mondes antiques).</p>
+          </note>, se mobilisaient sur le décryptage des représentations de
+        l’époque archaïque et classique, croisant les textes et les images, le
+        politique et le religieux, j’étais l’un de ceux qui furent intéressés
+        davantage par l’estuaire que par le cours supérieur des fleuves de
+        l’érudition antique. Il me semblait en effet que les compilations, les
+        lexiques, les commentaires, les traités techniques méritaient
+        davantage qu’un statut ancillaire dans cette anthropologie des mondes
+        antiques en émergence. Qui étaient ces érudits ? Comment
+        travaillaient-t-ils ? Comment articulaient-ils les étapes de lecture
+        et de rédaction dans leur travail ? Comment procédaient-ils
+        concrètement, quelle était l’ergonomie du travail savant au temps des
+        rouleaux de papyrus et des tablettes de cire ?</p>
+        <p xml:id="d1e220">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-tu296j9f">comparaison</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-najuwvdf">source</term>
+            </term>
+          </term>Ces
+        questions très générales, je les formulais une première fois dans un
+        mémoire consacré à la <hi rend="italic">Périégèse de la Grèce </hi>de
+        Pausanias, une description des cités grecques et de leurs monuments à
+        l’<date>époque antonine</date>. J’explorais la construction et la
+        syntaxe du texte, dont une lecture approfondie m’avait révélé la
+        cohérence. Je percevais, au-delà de la poussière des routes grecques
+        et des notes prises in situ, le rôle des bibliothèques fréquentées par
+        <persName ref="090191544" type="idref" xml:base="https://www.idref.fr/">Pausanias</persName>. En prêtant une
+        oreille attentive, je saisissais même la musique particulière de son
+        usage des sources, écrites ou orales, qui tantôt pouvaient résonner à
+        l’unisson (« <foreign xml:lang="grc">sumphôneîn</foreign> ») ou créer
+        des discordances (« <foreign xml:lang="grc">diaphôneîn</foreign> »).
+        Je fus fasciné par cette métaphore sonore. Les livres des
+        bibliothèques ont leur musique propre. Ils peuvent s’harmoniser ou
+        créer de multiples dissonances. La « symphonie » et la « diaphonie »
+        des sources et des savoirs ouvrent un espace d’écoute, de comparaison,
+        de critique, de décision.</p>
+        <p xml:id="d1e226">Je poursuivis mon cheminement par une thèse de
+        doctorat consacrée à un géographe grec mineur, <persName ref="03000764X" type="idref" xml:base="https://www.idref.fr/">Denys
+        d’Alexandrie</persName>, auteur d’une <hi rend="italic">Périégèse de
+        la Terre habitée </hi>et contemporain de l’empereur <persName ref="027527530" type="idref" xml:base="https://www.idref.fr/">Hadrien</persName>. Je me retrouvais
+        à <placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName> à l’<date type="_temp">époque impériale</date> : la ville avait perdu un peu de
+        ses fastes et de son rayonnement, mais elle restait un pôle de culture
+        et de savoirs, une ville-mémoire où se croisaient de multiples
+        traditions.</p>
+        <p xml:id="d1e241">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l’information<term ref="doi:10.34817/sv-qcvnt7ns">liste</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+            </term>
+          </term>Le texte de
+        <persName ref="03000764X" type="idref" xml:base="https://www.idref.fr/">Denys</persName> est un poème
+        didactique écrit dans un grec littéraire où se mêlent les usages
+        homériques et les formes sophistiquées des grands poètes alexandrins.
+        Il offrait aux élèves des écoles une description de l’ensemble du
+        monde connu, en entrelaçant aux listes de toponymes et de noms de
+        peuples des données mythographiques, ethnographiques et religieuses.
+        J’eus très vite la conviction que son propos était d’offrir une
+        version condensée de la bibliothèque géographique antérieure, dont les
+        savoirs se trouvaient résumés et traduits dans un cadre cohérent et
+        mémorisable. De la bibliothèque au texte, du texte à la bibliothèque :
+        le poème de <persName ref="03000764X" type="idref" xml:base="https://www.idref.fr/">Denys</persName> parvenait à dérouler
+        des généalogies signifiantes, à déployer des réseaux de références et
+        d’allusions qui le reliaient aux grandes oeuvres de la culture
+        grecque, comme les épopées homériques, <persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName>,
+        <persName ref="027409546" type="idref" xml:base="https://www.idref.fr/">Callimaque</persName> ou les <hi rend="italic">Argonautiques </hi>d’Apollonios de Rhodes. Chaque vers,
+        chaque mot semblait porteur d’une mémoire, qui le reliait à d’autres
+        textes, qui le chargeait de sens et d’intentionnalité. La brièveté de
+        cette description du monde contrastait avec l’expansion herméneutique
+        à laquelle elle invitait.</p>
+        <p xml:id="d1e250">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de
+        l’information</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-tbuwxvpk">correction</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>Tous ces fils
+        me conduisaient à l’âge d’or alexandrin, au <date from="-0299" to="-0200" type="_temp">III<hi rend="sup">e</hi> siècle avant notre
+        ère</date>, au Musée<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>Le Musée était un centre de recherches littéraires et
+            scientifiques fondé par les Ptolémées à Alexandrie. Hébergé dans
+            leur palais royal, c'est en son sein que fut créée la fameuse
+            bibliothèque.</p>
+          </note> et à sa collection de livres. Je rencontrais d’abord
+        <persName ref="034042709" type="idref" xml:base="https://www.idref.fr/">Eratosthène de Cyrène</persName> :
+        polymathe et philosophe, il prit la tête de la bibliothèque et mena
+        dans ce cadre un vaste ensemble de travaux mathématiques,
+        astronomiques, grammaticaux et géographiques. C’est l’usage critique
+        des ressources de la bibliothèque qui lui permit de « corriger » les
+        anciennes cartes de la terre, comme d’autres corrigeaient le texte
+        d’Homère. Sa <hi rend="italic">Géographie</hi>, connue seulement par
+        la tradition indirecte, mobilisait une documentation nouvelle,
+        notamment sur l’Asie, recueillie lors de l’expédition d’<persName ref="027417077" type="idref" xml:base="https://www.idref.fr/">Alexandre</persName>. Les données
+        littéraires, les cartes antérieures, les mesures des itinéraires et
+        des périples étaient soumises à une critique aussi rigoureuse que
+        possible, puis traduites en formes schématiques, en alignements, en
+        écarts sur une carte régie par la géométrie euclidienne. Les données
+        partielles, hétérogènes et empiriques fournies par les voyageurs et
+        les explorateurs étaient transformées et épurées, réunies dans une
+        synthèse graphique, dans une « vue de l’esprit » par le
+        cartographe-bibliothécaire.</p>
+        <p xml:id="d1e277">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-qquf8qxp">catalogue</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-h24ux4bz">bibliothécaire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-yjmbfexp">cartographe</term>
+            </term>
+          </term>Autre
+        cartographe, <persName ref="027409546" type="idref" xml:base="https://www.idref.fr/">Callimaque de Cyrène</persName>, qui
+        sans avoir le titre de « bibliothécaire » eut la charge de superviser
+        une forme de catalogue des collections royales, les <hi rend="italic">Tables de tous ceux qui se sont illustrés dans le
+        domaine de la culture et de ce qu’ils ont écrit</hi>, en 120 rouleaux.
+        Poète virtuose qui trouvait son inspiration dans ses innombrables
+        lectures, dans les variantes des anciens mythes comme dans les mille
+        curiosités lexicales que l’on pouvait glaner chez les auteurs
+        d’autrefois, il fut aussi l’auteur d’une oeuvre érudite qui prenait
+        volontiers la forme de listes et de catalogues regroupant ses
+        trouvailles de lecteur par grands champs thématiques, qu’il s’agisse
+        de proverbes, de mirabilia, de mots rares et dialectaux que l’on
+        employait dans les cités grecques. Cette érudition de grand lecteur
+        reproduisait dans le texte érudit la logique cumulative de la
+        bibliothèque. Cette dernière apparaissait comme un vaste gisement de
+        connaissances, de mots et de textes, un horizon à explorer et à mettre
+        en ordre, pour faire surgir, de l’accumulation des livres, un espace
+        organisé selon les découpages des savoirs et des genres
+        littéraires.</p>
+        <p xml:id="d1e286">On ne peut travailler sur la culture hellénistique
+        sans rêver à la bibliothèque des Ptolémées, sans devenir soi-même un
+        alexandrin. De la bibliothèque elle-même, il ne reste aucun vestige
+        matériel, nous en sommes réduits à des conjectures et à des
+        comparaisons pour esquisser un cadre architectural et des dispositifs
+        de rangement. Nous n’avons que de très rares données sur son
+        organisation, son personnel, ses usages. Si la liste de ses
+        « directeurs » nous est connue, nous n’avons aucune information sur
+        les scribes qui recopiaient les textes, sur les modalités d’accès aux
+        livres, sur les lieux où travaillaient les lecteurs. Seule certitude :
+        la bibliothèque d’<placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName> ne
+        comportait pas de salle de lecture, que l’on trouve dès les
+        bibliothèques publiques de la <placeName ref="3169069" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> impériale. Elle
+        était au sens propre l’espace de rangement et de conservation des
+        rouleaux de papyrus. Ses usagers appartenaient à l’entourage royal, au
+        cercle savant et lettré du Musée. Ce n’était donc pas une
+        « bibliothèque publique » à la disposition de tous. Il ne faut pas
+        imaginer les lecteurs absorbés dans leurs livres, assis devant des
+        tables. La gestuelle, la mobilité, l’environnement sonore (on lisait à
+        voix haute ou murmurée), les discussions entre lecteurs savants, tout
+        cela échappe aux sources qui nous sont parvenues.</p>
+        <p xml:id="d1e296">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l’information<term ref="doi:10.34817/sv-tnmfsa9v">légende</term>
+              </term>
+            </term>
+          </term>Dès
+        l’<date>Antiquité</date>, la bibliothèque d’<placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName> a donné
+        lieu à une tradition légendaire, qu’il s’agisse de sa fondation, liée
+        à la traduction en grec de la Torah, ou de l’incendie qui aurait
+        détruit ses collections, imputé à <persName ref="228975433" type="idref" xml:base="https://www.idref.fr/">Jules César</persName>.
+        Les récits sont repris d’un auteur à l’autre, passent du grec au
+        latin, du grec à l’arabe, entre païens, juifs, chrétiens et musulmans,
+        ils se métamorphosent dans un jeu complexe d’échos, de contresens
+        involontaires, d’arrière-pensées apologétiques. La tradition est
+        labyrinthique, et l’historien doit démêler les fils, reconstituer les
+        sources et les relais de ces récits, retrouver le noyau factuel à
+        l’origine des variantes mythiques. Tel a été le cheminement suivi par
+        <persName ref="028435575" type="idref" xml:base="https://www.idref.fr/">Luciano Canfora</persName>, dans deux
+        ouvrages majeurs consacrés à la tradition de la bibliothèque<hi rend="bold"/>
+          <note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>
+              <hi rend="italic">La véritable histoire de la bibliothèque
+            d’Alexandrie</hi>, Paris, Desjonquères, 1988 ; <hi rend="italic">Il viaggio di Aristea</hi>, Roma-Bari, Laterza,
+            1996</p>
+          </note>.</p>
+        <p xml:id="d1e319">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-wwbkzdwu">note</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-bpfouwze">philologie</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-cwkp7lwy">fondation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-vpru6jnb">centre</term>
+            </term>
+          </term>Une autre
+        approche, non moins fascinante, conduit à observer l’impact de la
+        bibliothèque d’<placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName> sur la
+        culture hellénistique et romaine. On observe alors les ondes de choc,
+        superficielles ou profondes, politiques et institutionnelles ou
+        intellectuelles et littéraires, qui se propagent dans le temps et dans
+        l’espace depuis l’épicentre alexandrin. Le rôle de la fondation des
+        Ptolémées apparaît pour ainsi dire en creux, dans la création de
+        bibliothèques concurrentes dans d’autres capitales hellénistiques puis
+        à <placeName ref="3169069" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, dans le
+        développement des bibliothèques privées et d’un intérêt bibliophilique
+        pour les livres rares et anciens, dans la constitution d’instruments
+        bibliographiques permettant d’inventorier les textes et de déjouer les
+        pièges d’auteurs anonymes, dans la diffusion de formes particulières
+        d’érudition grammaticale et antiquaire, dans le développement de la
+        philologie qui travaille à reconstruire les textes à partir de leurs
+        variantes. Le travail intellectuel, les pratiques lettrées et savantes
+        ne sont bien sûr pas nés à <placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName>, ni même
+        en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>. Mais la
+        bibliothèque d’<placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName>, en
+        réunissant le patrimoine écrit de l’hellénisme et les grands textes
+        représentatifs des « sagesses barbares », et en offrant au cercle des
+        membres du Musée une collection de livres d’une ampleur sans
+        précédent, marque un seuil dans l’histoire des savoirs et des
+        sciences. La bibliothèque apporte un immense gisement de textes et de
+        connaissances, elle est elle-même enrichie par toute la littérature
+        savante qu’elle permet de produire : commentaires, compilations,
+        traités scientifiques, lexiques, éditions critiques, monographies sur
+        les sujets les plus divers. Les érudits postérieurs, qu’il s’agisse de
+        <persName ref="026668149" type="idref" xml:base="https://www.idref.fr/">Pline l’Ancien</persName> ou
+        d’<persName ref="030061113" type="idref" xml:base="https://www.idref.fr/">Athénée de Naucratis</persName>, de
+        <persName ref="027076784" type="idref" xml:base="https://www.idref.fr/">Plutarque</persName>, du médecin
+        <persName ref="02776897X" type="idref" xml:base="https://www.idref.fr/">Galien</persName> ou du géographe
+        <persName ref="027150062" type="idref" xml:base="https://www.idref.fr/">Strabon</persName>, pour me limiter à
+        quelques noms, témoignent de ces pratiques lettrées, où la lecture est
+        indissociable de l’écriture, où les livres sont des champs de
+        connaissances à moissonner, des gisements de problèmes à identifier et
+        à résoudre, des sources qui permettent de remonter dans le temps et de
+        voyager dans l’espace. Lire, prendre des notes, réorganiser ces notes
+        dans un nouveau texte, citer et critiquer, expliquer, mémoriser,
+        commenter, sont autant d’opérations constitutives de leur travail
+        savant. Le travail sur les textes et sur les livres, cependant, ne
+        représentait qu’un versant de leurs activités : le dialogue, les
+        propos de table, les cours et conférences, les controverses parfois,
+        dessinent le champ de leurs sociabilités savantes, d’une communauté de
+        savoirs et d’intérêts où se décèlent encore la musique propre des
+        mondes lettrés, la symphonie et la diaphonie des textes, de leurs
+        auteurs et de leurs lecteurs.</p>
+        <p xml:id="d1e337">Telles sont les perspectives de recherche que j’ai
+        choisi de suivre ces dernières années. J’ai tenté de comprendre, dans
+        leur spécificité et leur altérité, les formes de travail des lettrés
+        de l’époque hellénistique et impériale, en remontant aussi loin que
+        possible des textes vers les opérations qui les avaient produits, des
+        livres vers les pratiques de lecture qu’ils présupposaient. Le milieu
+        de bibliophiles érudits mis en scène par <persName ref="030061113" type="idref" xml:base="https://www.idref.fr/">Athénée de
+        Naucratis</persName> à <placeName ref="3169069" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, à la fin du
+        <date from="-0199" to="-0100" type="_temp">II<hi rend="sup">e</hi> siècle de notre ère</date>, m’a offert un terrain
+        d’observation aussi dépaysant qu’une tribu de la forêt
+        amazonienne<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>“Ateneo, o il Dedalo delle parole”, in : <hi rend="italic">Ateneo, I Deipnosofisti. I dotti a banchetto</hi>,
+            Roma, Salerno Editrice, 2001, vol. 1, pp. XI-CXVI</p>
+          </note>. Mais ce tropisme bien alexandrin de l’érudition historique
+        et philologique m’a aussi conduit à formuler des questionnements plus
+        généraux et fondamentaux, sur la nature, la finalité, les pratiques du
+        travail savant, sur le va-et-vient entre la main et l’intelligence,
+        entre les instruments et la pensée, entre les textes et la mémoire,
+        questionnements que j’ai déployés dans un projet interdisciplinaire et
+        comparatiste, les <hi rend="italic">Lieux de savoir</hi>
+          <note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>
+              <hi rend="italic">Lieux de savoir, I. Espaces et
+            communautés</hi>, Paris, Albin Michel, 2007 ; <hi rend="italic">II. Les mains de l’intellect</hi>, Paris, Albin
+            Michel, à paraître en janvier 2011</p>
+          </note>.</p>
+        <p xml:id="d1e373">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-rctuupsp">énigme</term>
+              </term>
+            </term>
+          </term>La
+        bibliothèque d’<placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName> reste pour
+        moi une énigme historique qu’il faut tenter d’élucider par une
+        patiente archéologie des témoignages écrits, à défaut de pouvoir
+        retrouver ses fondations dans le sol. Elle est aussi le paradigme
+        d’une certaine forme de travail savant, qui a irrigué les traditions
+        de l’Occident et de l’Orient : un modèle où la lecture et l’écriture
+        sont indissociables, où les savoirs se construisent, se matérialisent
+        et se transmettent dans ces supports matériels et efficaces que sont
+        les livres.</p>
+        <p xml:id="d1e379">Le mythe et l’histoire de la bibliothèque
+        d’<placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName>, enfin,
+        peuvent éclairer les grandes mutations techniques, politiques et
+        sociales qui reconfigurent aujourd’hui le champ des savoirs, de
+        l’écrit, de l’information et de la mémoire. L’une de ces leçons, très
+        actuelle, est que l’accumulation indéfinie, l’aspiration à
+        l’universalité, le fantasme de la totalité ne sont que de vaines
+        illusions et conduisent à l’amnésie et au naufrage de la pensée, sans
+        l’ensemble des pratiques qui réintroduisent du sens, de l’ordre et de
+        la visibilité, qui organisent l’espace et le temps et mettent en
+        perspective les gisements de l’écrit, du son et de l’image.</p>
+        <p xml:id="d1e385">Comme dans la métropole des Ptolémées, les
+        conservateurs de bibliothèque ont un rôle essentiel à jouer, au cœur
+        des communautés savantes d’aujourd’hui et de demain.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
