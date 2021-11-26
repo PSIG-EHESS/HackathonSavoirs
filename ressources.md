@@ -1,13 +1,15 @@
 ### Ressources numériques disponibles pour le hackaton
 
 # Thésaurus *Savoirs* 
-   - [Disponible en format RDF/Turtle](https://datu.ehess.fr/rest/v1/savoirs/data?format=text/turtle) 
-   - [Squelette de script de parsing RDF](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/parse_rdf_thesaurus.py)
+   - [Accéssible sur datu.ehess.fr] (https://datu.ehess.fr/savoirs/fr/)
+   - [téléchargéable en format RDF/Turtle](https://datu.ehess.fr/rest/v1/savoirs/data?format=text/turtle) 
   
 # Corpus de textes *Savoirs*
-  - textes en TEI, dump XML
+  - corpus d'articles : 1) en format [TXT brut] (xxx), 2) avec enrichissement notamment entités nommées en format [XML/TEI](xxx)
+  - une version augmentéorpus de ce corpus avec une annotation en entités nommées [plus exhaustive] (xxx)
   - completer balisage EN, en plusieurs formats via NerBeyond (http://nerbeyond.jerteh.rs/) -> CONLL
-  - jupyter notebook pour charger les textes et leurs annotations sur Spacy via python
+  - [Résultats du travail de stage d'Alex Soares sur le projet](https://github.com/PSIG-EHESS/SavoirsEN), vous trouverez des jupyter notebook avec des exemples de code en Python vous permettant charger les textes et leurs annotations sur Spacy via python
+  -  
   
 # Codes sources et algorithmes
   - [Vidéo de présentation générale de l'appli](https://drive.protonmail.com/urls/MVADPDEESC#Hl4evDhz3rwQ)
@@ -19,7 +21,7 @@
       - [strategies_spec.rb](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/strategies_spec.rb)
       - [entry.rb](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/entry.rb)
   - Pour l'analyse de parcours :
-      - Exemples de parcours
+      - Exemples de parcours (pour le défis #3, à venir)
       - Logs serveurs de *Savoirs* sur demande
       - [Wiki sur le format des logs serveurs](https://gitlab.com/ehess/savoirs/-/wikis/références/Api)
       - [Résumé d'un pipeline de clustering morphologique de parcours de navigation par *topological data analysis* (TDA)](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/Overview%20of%20TDA%20Pipeline%20for%20Path%20Clustering.pdf)
@@ -28,7 +30,10 @@
 
 ### Outils 
 - Mockups
-- tal et analyse textuelle
+- TAL et analyse textuelle
+      - [TXM](http://textometrie.ens-lyon.fr/?lang=en)
+      - [Voyants-Tools](https://voyant-tools.org/)
+      - [Spacy](https://spacy.io/)
 - Analyse réseau : [Gephi] (https://gephi.org/)
 - Librairies Python de *topological data analysis* (TDA) :
       - [giotto-tda](https://github.com/giotto-ai/giotto-tda)
