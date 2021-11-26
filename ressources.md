@@ -7,7 +7,6 @@
 # Corpus de textes *Savoirs*
   - corpus d'articles : 1) en format [TXT brut](xxx), 2) avec enrichissement notamment entités nommées en format [XML/TEI](xxx)
   - une version augmentéorpus de ce corpus avec une annotation en entités nommées [plus exhaustive](xxx)
-  - completer balisage EN, en plusieurs formats via NerBeyond (http://nerbeyond.jerteh.rs/) -> CONLL
   - [Résultats du travail de stage d'Alex Soares sur le projet](https://github.com/PSIG-EHESS/SavoirsEN), vous trouverez des jupyter notebook avec des exemples de code en Python vous permettant charger les textes et leurs annotations sur Spacy via python
   -  
   
@@ -34,6 +33,7 @@
       - [TXM](http://textometrie.ens-lyon.fr/?lang=en)
       - [Voyants-Tools](https://voyant-tools.org/)
       - [Spacy](https://spacy.io/)
+      - [NERBeyond](http://nerbeyond.jerteh.rs/)
 - Analyse réseau : [Gephi] (https://gephi.org/)
 - Librairies Python de *topological data analysis* (TDA) :
       - [giotto-tda](https://github.com/giotto-ai/giotto-tda)
