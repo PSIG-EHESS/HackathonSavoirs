@@ -11,8 +11,8 @@
 # Codes sources et algorithmes
   - [Vidéo de présentation générale de l'appli](https://drive.protonmail.com/urls/MVADPDEESC#Hl4evDhz3rwQ)
   - Pour l'étude de l'interface :
-      - [Brouillon de cahier des charges pour un espace personnel](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/Sources/CdCF_Savoirs_espaceperso.pdf)
-  - [Extrait du CdCF des algorithmes de suggestion actuels](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/Sources/CdCF_suggestion.pdf)
+      - [Brouillon de cahier des charges pour un espace personnel](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/Documentation/CdCF_Savoirs_espaceperso.pdf)
+  - [Extrait du CdCF des algorithmes de suggestion actuels](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/Documentation/CdCF_suggestion.pdf)
   - Code des algorithmes de suggestion actuels
       - [strategies.rb](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/Sources/main/strategies.rb)
       - [strategies_spec.rb](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/Sources/strategies_spec.rb)
@@ -21,7 +21,7 @@
       - Exemples de parcours (pour le défis #3, à venir)
       - Logs serveurs de *Savoirs* sur demande
       - [Wiki sur le format des logs serveurs](https://gitlab.com/ehess/savoirs/-/wikis/références/Api)
-      - [Résumé d'un pipeline de clustering morphologique de parcours de navigation par *topological data analysis* (TDA)](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/Sources/Overview%20of%20TDA%20Pipeline%20for%20Path%20Clustering.pdf)
+      - [Résumé d'un pipeline de clustering morphologique de parcours de navigation par *topological data analysis* (TDA)](https://github.com/PSIG-EHESS/HackathonSavoirs/blob/main/Documentation/Overview%20of%20TDA%20Pipeline%20for%20Path%20Clustering.pdf)
       - [Github d'un projet sur Gallica](https://github.com/LHST-EPFL/TDA-Gallica)
 
 
