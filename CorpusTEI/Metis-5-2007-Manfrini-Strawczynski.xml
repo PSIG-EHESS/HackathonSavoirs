@@ -1,0 +1,2434 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-19T14:39:15.661+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="Metis-5-2007-Manfrini-Strawczynski">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" type="main">Une forge ambiguë</title>
+        <author role="aut">
+          <forename>Ivonne</forename>
+          <surname>Manfrini</surname>
+          <idno type="IDREF">028921852</idno>
+          <affiliation>Haute École d’Art et de Design (Genève), Centre Louis
+          Gernet</affiliation>
+        </author>
+        <author role="aut">
+          <persName>
+            <forename>Nina</forename>
+            <surname>Strawczynski</surname>
+            <idno type="IDREF">070385483</idno>
+          </persName>
+          <affiliation>CNRS, Centre Louis Gernet</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Seconde édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification 3.0 non transposé - CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/L86IRD2N" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Une forge ambiguë</title>
+            <idno type="DOI">https://doi.org/10.4000/books.editionsehess.2222</idno>
+            <author>
+              <forename>Ivonne</forename>
+              <surname>Manfrini</surname>
+            </author>
+            <author>
+              <forename>Nina</forename>
+              <surname>Strawczynski</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Mètis</title>
+            <idno type="ISSN">978-2-7132-2603-8</idno>
+            <editor>
+              <forename>Bernard</forename>
+              <surname>Vitrac</surname>
+            </editor>
+            <imprint>
+              <biblScope unit="volume">Dossier : Tekhnai/artes</biblScope>
+              <biblScope unit="issue">N.S.5</biblScope>
+              <biblScope unit="page">51-90</biblScope>
+              <date>2007</date>
+              <note type="url">http://books.openedition.org/editionsehess/2222</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="grc"/>
+        <language ident="ita"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-llkle2nx">artisan</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-mv6eogsx">savoirs non
+          canoniques<term ref="doi:10.34817/sv-8ux5xplc">occultisme<term ref="doi:10.34817/sv-2vujvv7p">magie</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités personnelles<term ref="doi:10.34817/sv-8jtmckvz">compétence</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique
+          corporelle<term ref="doi:10.34817/sv-cuffkk5p">position du
+          corps</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>
+          </term>
+          <term>
+            <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="-0599" to="-0001" type="_temp">Grèce antique</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-04-14T17:04:10.339+02:00" who="Métopes/PDN">Conversion en XML-TEI Métopes à partir d'un source
+      XML-TEI lodel</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Une forge ambiguë</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Ivonne Manfrini</docAuthor>
+          <affiliation>Haute École d’Art et de Design (Genève), Centre Louis
+          Gernet</affiliation>
+          <docAuthor>Nina Strawczynski</docAuthor>
+          <affiliation>CNRS, Centre Louis Gernet</affiliation>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <div type="section1" xml:id="d1e119">
+          <head subtype="level1" xml:id="d1e120">
+            <hi rend="italic">Technê</hi>
+          et image</head>
+          <p xml:id="d1e122">Face à l’insuffisance des sources anciennes, pour
+          les périodes antérieures au<hi rend="uppercase"/>
+            <date from="-0399" to="-0300" type="_temp">
+              <hi rend="uppercase">IV</hi>
+              <hi rend="sup">e</hi> siècle</date> notamment, les enquêtes sur les
+          réalités de la<hi rend="italic">
+              <foreign xml:lang="grc">technê</foreign>
+            </hi> en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> ancienne se
+          sont beaucoup fondées sur les représentations d’activités
+          artisanales, en particulier celles qui figurent sur les vases
+          attiques de la fin du<hi rend="uppercase"/>
+            <date from="-0599" to="-0475" type="_temp">
+              <hi rend="uppercase">VI</hi>
+              <hi rend="sup">e</hi> au premier quart du<hi rend="uppercase"> V</hi>
+              <hi rend="sup">e</hi> siècles</date>.</p>
+          <p xml:id="d1e142">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-kz3asazx">technique</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-llkle2nx">artisan</term>
+              </term>
+            </term>L’analyse
+          de ces représentations s’est donc orientée selon une double
+          perspective, comme source d’information sur les activités
+          artisanales, en suivant une démarche qui se situe dans l’histoire
+          des techniques<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>Par exemple, C. C. Mattusch, « The Berlin Foundry Cup : The
+              Casting of Greek Bronze Statuary in the Early Fifth Century B.
+              C. »,<hi rend="italic"> American Journal of Archaeology</hi> 84,
+              1980, pp. 435<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>, et dans une optique d’histoire sociale, en interprétant
+          les scènes comme des documents sur les statuts des artisans<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>Entre autres, N. Himmelmann,<hi rend="italic"> Realistischen
+              Themen in der griechischen Kunst des archaischen und klassischen
+              Zeit</hi>, Berlin-New York, 1994, pp. 6-7<hi rend="italic">
+              sqq.</hi> et le chapitre « Banausoi ». Pour Ph. Jockey
+              (« L’artisan, l’objet et la société : à propos d’un éventuel
+              “blocage” des techniques dans l’antiquité : le contre exemple de
+              la sculpture »,<hi rend="italic"> Le travail et la pensée
+              technique dans l’Antiquité classique,
+              Technologies/Idéologies/Pratiques, Revue d’Anthropologie des
+              Connaissances</hi>, XV, 1, A. Balansard [éd.], Ramonville, 2003,
+              pp. 70<hi rend="italic"> sqq.),</hi> les images vasculaires
+              montreraient une vision dégradante des artisans (marqués comme
+              assis, courbés, petits, esclaves, exécutants,…) même s’il
+              reconnaît que certains indices témoigneraient d’une vision qui
+              ne « peut être réduite à la seule dévalorisation du
+              travail ».</p>
+            </note>. D’emblée, est ainsi posé un rapport mimétique de l’image
+          à une réalité qui serait potentiellement reconstructible. Or, non
+          seulement la pénurie d’autres types de sources ne permet pas de
+          faire les recoupements nécessaires à la validation de cette supposée
+          réalité<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Comme le dit A. Stewart,<hi rend="italic"> Art, desire, and
+              the body in ancient Greece</hi>, Cambridge, 1997, p. 57 : « la
+              poterie peinte subvertit obstinément toute illusion de
+              vraisemblance, depuis le début ».</p>
+            </note>, mais on a montré depuis longtemps que le rapport des
+          représentations, notamment vasculaires, à la réalité factuelle, est
+          bien plus complexe. En effet, ces scènes devraient être appréhendées
+          davantage comme des visualisations élaborées des différents aspects
+          d’un système culturel, pouvant parfois prêter aux commentaires, que
+          comme de simples illustrations d’une réalité<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Pour des analyses qui réfutent l’approche « photographique »,
+              voir J. Bazant,<hi rend="italic"> Studies on the Use and
+              Decoration of Athenian Vases</hi>, Prague, 1981 ; F.
+              Lissarrague, A. Schnapp, « Imagerie des Grecs ou Grèce des
+              imagiers »,<hi rend="italic"> Le temps de la réflexion</hi> 2,
+              1981, pp. 275<hi rend="italic"> sqq.</hi> ; P. Schmitt Pantel et
+              F. Thelamon, « Image et histoire. Illustration ou document »,<hi rend="italic"> Image et Céramique Grecque</hi>, F. Lissarrague
+              et F. Thelamon (éds.), Rouen, 1983, pp. 9<hi rend="italic">
+              sqq.,</hi> pp. 12-13 ; R. Osborne, « Introduction »,<hi rend="italic"> Art and Text in Ancient Greek Culture</hi>, S.
+              Goldhill et R. Osborne (eds.), Cambridge, 1994, pp. 1<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>, le raisonnement circulaire n’étant alors jamais très
+          loin. L’accès aux réalités grecques de la<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">technê</hi>
+            </foreign>, et au statut des artisans en particulier<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Pour une vue générale sur le statut des artisans, voir A.
+              Burford,<hi rend="italic"> Craftsmen in Greek and Roman
+              Society</hi>, Londres, 1972 ; R. J. Hopper,<hi rend="italic">
+              Trade and Industry in Classical Greece</hi>, Londres, 1979, p.
+              126<hi rend="italic"> sqq.</hi> ; H. Philipp, « Handwerker und
+              bildende Künstler in der griechischen Gesellschaft<hi rend="italic"> », Polyklet. Der Bildhauer der griechischen
+              Plastik</hi>, H. Beck, P. C. Bol, M. Bückling (eds.),
+              Franckfort, 1990, pp. 79<hi rend="italic"> sqq.</hi> et pp.
+              512<hi rend="italic"> sqq.</hi> ; P. Vidal-Naquet, « Étude d’une
+              ambiguïté. Les artisans dans la cité platonicienne »,<hi rend="italic"> Le chasseur noir</hi>, Paris, 1983, pp. 289<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>, rencontre de nombreux obstacles et des<hi rend="italic">
+          a priori</hi> résistants. En ce qui concerne les images,
+          l’interprétation récurrente d’une vision dégradante des activités
+          artisanales<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>On trouvera chez J. Ziomecki,<hi rend="italic"> Les
+              représentations d’artisans sur les vases attiques</hi>, Wroclaw,
+              1975, pp. 70-73, les arguments, basés sur l’imagerie attique,
+              qui montrent que ni le vêtement, ni le bonnet, ni la pose ne
+              sont des signes distinctifs d’un statut, et encore moins
+              dévalorisant. M. Vidale,<hi rend="italic"> L’idea di un lavoro
+              lieve : il lavoro artigianale nelle immagini della ceramica
+              greca tra </hi>
+                <hi rend="italic">
+                  <hi rend="small-caps">vi</hi>
+                </hi>
+                <hi rend="italic"> e </hi>
+                <hi rend="italic">
+                  <hi rend="small-caps">iv</hi>
+                </hi>
+                <hi rend="italic"> secolo a. C</hi>., Padoue, 2002, p.
+              218 n. 32, réfute également ces interprétations qui se basent
+              sur les traits supposés grotesques, les postures ou les
+              vêtements.</p>
+            </note>, et d’une dévalorisation du statut des artisans, est
+          souvent fondée sur une exploitation excessive et parfois contestée
+          du témoignage des textes du <date from="-0399" to="-0300" type="_temp">
+              <hi rend="small-caps">iv</hi>
+              <hi rend="sup">e</hi>
+          siècle av. J.-C.</date>, notamment des discours philosophiques<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>LaRue Van Hook, « Was Athens in the Age of Pericles
+              Aristocratic ? »,<hi rend="italic"> The Classical Journal</hi>
+              14, 1919, pp. 480<hi rend="italic"> sqq.,</hi> s’insurge ainsi
+              contre l’utilisation des écrits philosophiques du<hi rend="uppercase"/>
+                <hi rend="small-caps">iv</hi>
+                <hi rend="sup">e</hi> qui ne reflèteraient pas la vision athénienne
+              mais un idéal philosophique ; M. Balme, « Attitudes to Work and
+              Leisure in Ancient Greece »,<hi rend="italic"> Greece &amp;
+              Rome</hi> 31, 1984, pp. 150<hi rend="italic"> sqq.,</hi> montre
+              que l’attitude dépréciative se limitait à une poignée
+              d’intellectuels prééminents dans notre littérature. Pour Ph.
+              Jockey, art. cit. n. 2, la<hi rend="italic"> poiêsis</hi> ne
+              serait condamnée qu’à la fin du<hi rend="uppercase"/>
+                <hi rend="small-caps">v</hi>
+                <hi rend="sup">e</hi> siècle, par
+              certains penseurs dont on ignore d’ailleurs la portée
+              sociale.</p>
+            </note>.</p>
+          <p xml:id="d1e297">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-llkle2nx">artisan</term>
+              </term>
+            </term>Le<hi rend="italic"> corpus</hi> des représentations d’activités
+          artisanales a été constitué une première fois par <persName ref="07101764X" type="idref" xml:base="https://www.idref.fr/">J.
+          Ziomecki</persName>, en <date type="_temp" when="1975">1975</date>,
+          et augmenté par <persName ref="033887667" type="idref" xml:base="https://www.idref.fr/">M. Vidale</persName>, en <date type="_temp" when="2002">2002</date>
+            <note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>
+                <hi rend="italic">Op. cit.</hi> n. 6. Voir aussi G.
+              Zimmer,<hi rend="italic"> Antike Werkstattbilder</hi>, Berlin,
+              1982 et M. Pugliara, « Alcune riflessioni sull’iconografia degli
+              artigiani mortali e divini nella ceramica attica di vi e v
+              secolo a. C »,<hi rend="italic"> Iconographia 2001</hi>,<hi rend="italic"> Studi sull’immagine,</hi> Atti del Convegno
+              (Padova, 30 maggio - 1 giugno 2001), I. Favaretto, F. Gedhini
+              (éds.), Padoue 2002, pp. 135-150.</p>
+            </note> ; y figurent des scènes montrant le travail du bois, de
+          l’argile, du métal, de la peau et de la laine si l’on inclut les
+          activités féminines. Il s’agit donc d’un choix, d’une sélection :
+          seules sont données à voir les activités du charpentier, ou de
+          l’ébéniste, du potier, du peintre, du forgeron, du cordonnier et de
+          la tisserande. Pas une image ne se rapporte aux autres activités :
+          les imagiers n’avaient donc pas pour objet de représenter la réalité
+          artisanale athénienne<hi rend="italic"> in toto</hi>, de même qu’il
+          ne s’agissait pas d’illustrer fidèlement les gestes et les
+          instruments de chacune des activités artisanales choisies, comme on
+          le verra ci-dessous. À ce propos, le cas du cordonnier, dont trois
+          images nous sont parvenues, est particulièrement révélateur. Sur une
+          amphore et une péliké à figures noires (fig. 1b et 2), l’artisan est
+          couronné comme l’est aussi le spectateur de l’une des scènes
+          (fig. 2)<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Amphore à figures noires attribuée au peintre de Plousios
+              (von Bothmer), Boston 08.8035,<hi rend="italic"> CVA</hi> 1 pl.
+              37 et péliké du peintre d’Eucharidès, Oxford 563,<hi rend="italic"> ABV</hi> 396/21. À noter que les spectateurs
+              représentés au revers de l’amphore, dans la forge (fig. 1a),
+              sont également couronnés.</p>
+            </note>. Sur les deux vases, tantôt une jeune fille, tantôt un
+          jeune homme sont debout sur la table alors que l’artisan s’apprête à
+          découper la semelle. Couronnes, branchages, auxquels s’ajoutent le
+          bassin posé à même le sol et le tabouret sophistiqué, de type<hi rend="italic">
+              <foreign xml:lang="grc">okladias</foreign>
+            </hi>, constituent autant d’indices montrant qu’il ne s’agit pas
+          du quotidien des artisans mais bien d’une circonstance où le rôle de
+          la chaussure possède une efficacité symbolique. Un moment et une
+          efficacité bons à voir comme l’indiquerait la présence des
+          spectateurs sur laquelle on reviendra plus loin. Du coup, la
+          troisième image, un médaillon d’une coupe conservée à <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>
+          (fig. 3)<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Médaillon de coupe du peintre d’Euaichme, Londres E 86,<hi rend="italic"> ARV</hi>
+                <hi rend="sup">2</hi> 786/4.</p>
+            </note>, qui au premier abord semble très descriptive de la
+          technique du cordonnier, pourrait renvoyer de manière allusive ou
+          métaphorique à une réalité plus complexe<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>J. Ziomecki,<hi rend="italic"> op. cit.</hi> n. 6, pp. 35,
+              113, 116 et 123 ; P. Schmitt Pantel et F. Thelamon, art. cit. n.
+              4, pp. 9<hi rend="italic"> sqq.</hi> et pp. 12-13 ; M.
+              Vidale,<hi rend="italic"> op. cit.</hi> n. 6, pp. 135<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>. Ce qui vaut pour les cordonniers vaut également pour les
+          métallurgistes, dont l’activité est figurée au revers de l’amphore
+          montrant la jeune fille chez le cordonnier (fig. 1a).</p>
+          <p xml:id="d1e359">Il s’agira, dans les lignes qui suivent, de
+          s’intéresser à un seul vase, emblématique puisque souvent étudié,
+          pour pointer à la fois la difficulté qu’il y a à recourir aux
+          documents figurés comme sources d’information sur la<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">technê</hi>
+            </foreign> et pour souligner l’intrinsèque polysémie des
+          images.</p>
+        </div>
+        <div type="section1" xml:id="d1e364">
+          <head subtype="level1" xml:id="d1e365">La coupe du peintre de la
+          Fonderie entre technique et société<hi rend="italic"/> (fig.
+          4a-c)<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Coupe du peintre de la Fonderie, Berlin F2294,<hi rend="italic"> ARV</hi>
+                <hi rend="sup">2</hi> 400/1. On trouvera
+              une bibliographie détaillée chez M. Vidale,<hi rend="italic">
+              op. cit.</hi> n. 6, pp. 211-212, n. 4. Un long chapitre est
+              consacré à cette coupe, avec des discussions des diverses
+              interprétations.</p>
+            </note>
+          </head>
+          <p xml:id="d1e381">C’est une coupe des <date from="-0489" to="-0480" type="_temp">années 480 av. J.-C.</date>, un objet pensé, élaboré
+          par le potier et par le peintre pour fonctionner dans le cadre du<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">symposion</hi>
+            </foreign>, à <placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>, mais
+          peut-être utilisé dans un autre contexte, ailleurs, comme offrande
+          aux dieux ou aux morts<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Il est toujours difficile de déterminer le contexte
+              d’utilisation des vases. Pour les coupes, l’usage est
+              potentiellement sympotique, même dans le cas d’une offrande
+              funéraire ou votive. On peut signaler cette coupe à figures
+              noires (New York 44.11.1) décorée d’une imagerie guerrière mais
+              dont l’inscription incisée témoigne qu’elle a été le prix pour
+              un concours de cardage de laine : M. J. Milne, « A prize for
+              wollworking »,<hi rend="italic"> American Journal of
+              Archaeology</hi> 49, 1945, pp. 528-533, qui cite également un
+              canthare béotien offert par son mari à une femme, et S. Lewis,
+              « Slaves as viewers and users of Athenian pottery »,<hi rend="italic"> Hephaistos</hi> 16/17, 1998-1999, p. 71.</p>
+            </note>. Pièce à conviction indispensable dans tout ouvrage sur
+          l’artisanat en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> ancienne,
+          cette coupe, due au pinceau du peintre de la Fonderie, ainsi désigné
+          par la scène qu’il a élaborée, est conservée aujourd’hui à
+          <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName> après avoir
+          été découverte, en <date type="_temp" when="1834">1834</date>, dans
+          une tombe de <placeName ref="3163940" type="geonames" xml:base="https://www.geonames.org/">Vulci</placeName>. Pour qui
+          s’intéresse à l’histoire de la technique, à la hiérarchie du travail
+          dans un atelier ainsi qu’au statut social des artisans, ce vase est
+          incontournable. Il figure ainsi dans tous les ouvrages qui portent
+          sur l’étude de la métallurgie grecque antique, puisque, au médaillon
+          et sur la panse du récipient, sont représentées des opérations liées
+          à la production de pièces d’armurerie et de « statues »<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Plusieurs termes grecs désignent ce que nous appelons
+              « statue » : utiliser ce dernier sans la nécessaire distance
+              revient à projeter notre réalité sur celle des Grecs. Sur ce
+              point, voir É. Benveniste, « Le sens du mot<hi rend="italic">
+              kolossos</hi> et les noms grecs de la statue »,<hi rend="italic"> Revue de philologie</hi> 6, 1932, pp. 119<hi rend="italic"> sqq.</hi> ; G. Nick, « Die Athena Parthenos :
+              Studien zum griechischen Kultbild und seiner Rezeption »,<hi rend="italic"> Mitteillungen des Deutschen Archäologischen
+              Institut, Athenische Abteilung</hi>, Beiheft 19, pp. 11<hi rend="italic"> sqq.</hi> ; A. A. Donohue,<hi rend="italic">
+              Greek Sculpture and the problem of Description</hi>, Cambridge,
+              2006 ; I. Manfrini, « Sculpture antique, entre refus et
+              nécessité de la couleur », à paraître dans M. Carastro (éd.),<hi rend="italic"> L’Antiquité en couleurs</hi>.</p>
+            </note>.</p>
+          <p xml:id="d1e422">On voit ainsi, sur la gauche de la face A (fig.
+          4a), deux hommes s’occupant d’un four ; un jeune actionne le
+          soufflet alors qu’un artisan barbu, assis sur un tabouret bas,
+          « encadré » par deux marteaux et une scie, attise le feu. Dans le
+          champ, à droite du four, sont figurés des branchages, des<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">pinakes</hi>
+            </foreign> et deux têtes, suspendus à des cornes de chèvre. Suit
+          un ouvrier au repos puis un autre artisan lui tournant le dos qui,
+          marteau en main, s’active sur une grande « statue » de jeune homme
+          nu, posée sur un monticule. La tête de celle-ci, pourvue de cheveux
+          et d’yeux, se trouve entre les pieds de l’ouvrier occupé à fixer la
+          main droite. Dans le champ, sont figurés deux marteaux ainsi que
+          deux pieds, à moins qu’il ne s’agisse d’une main et d’un pied. Sur
+          la face B (fig. 4b), deux artisans munis de racloirs polissent une
+          « statue » colossale de guerrier disposée sur un podium surmonté
+          d’un cadre souvent interprété comme un échafaudage<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>M. Vidale,<hi rend="italic"> op. cit.</hi> n. 6, p. 234,
+              rejoint la plupart des commentateurs qui identifient ce portique
+              comme un échafaudage en bois pour le transport ou pour les
+              travaux de finition.</p>
+            </note>. De part et d’autre, deux hommes barbus et couronnés,
+          vêtus d’un himation, sont représentés debout, appuyés sur leur
+          canne. Dans le champ, devant le personnage de gauche et derrière
+          celui de droite, sont représentés des strigiles et des aryballes
+          alors que, devant celui de droite, sont figurés un marteau et un
+          racloir. Au médaillon, la scène est interprétée comme le moment où
+          <persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName> donne à
+          <persName ref="078600731" type="idref" xml:base="https://www.idref.fr/">Thétis</persName> de nouvelles
+          armes, casque, cnémides, bouclier et peut-être lance, pour son fils
+          <persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>, conformément à
+          ce que rapporte l’<hi rend="italic">Iliade</hi> (<hi rend="italic">Il</hi>. XVIII, 417-453).</p>
+          <p xml:id="d1e440">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-cfmsdcyt">bâton</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-wc3xyyrs">atelier</term>
+              </term>
+            </term>Jusqu’ici,
+          les analyses proposées par les archéologues se partagent entre la
+          recherche d’informations sur la réalité de la pratique de la fonte à
+          la cire perdue et celles qui tentent d’apporter un éclairage sur
+          l’organisation du travail dans les ateliers, voire sur le statut des
+          artisans dans la société athénienne<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Pour un état des lieux récent sur la question, accompagné
+              d’une bibliographie exhaustive,<hi rend="italic"> cf.</hi> M.
+              Vidale,<hi rend="italic"> op. cit.</hi> n. 6, qui propose une
+              interprétation portant sur la promotion du statut des
+              artisans.</p>
+            </note>. Par exemple, l’étude de <persName ref="03496262X" type="idref" xml:base="https://www.idref.fr/">C.
+          Mattusch</persName>, publiée en <date type="_temp" when="1980">1980</date>, interprète les scènes figurant sur la paroi
+          extérieure de la coupe comme une attestation fiable, voire comme une
+          preuve, des modalités de fabrication de « statues » de bronze et de
+          la variété des styles de la sculpture du début du<hi rend="small-caps"/>
+            <date from="-0499" to="-0400" type="_temp">
+              <hi rend="small-caps">v</hi>
+              <hi rend="sup">e</hi> av. J.-C.</date>
+            <note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>C. C. Mattusch, art. cit. n. 1, pp. 435<hi rend="italic">
+              sqq.</hi>
+              </p>
+            </note>. La main et le pied (ou les deux pieds), accrochés dans le
+          champ de l’image, sur la face A, sont ainsi identifiés comme des
+          modèles dont le bronzier prendrait une empreinte pour procéder
+          ensuite à la technique de la fonte à la cire perdue. Une technique
+          dont l’usage serait attesté par des textes, à partir du <date from="-0399" to="-0300" type="_temp">
+              <hi rend="small-caps">iv</hi>
+              <hi rend="sup">e</hi> av. J.-C.</date>, et
+          dont la coupe de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>
+          constituerait une preuve de l’antériorité du procédé<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>
+                <hi rend="italic">Cf.</hi> M. Vidale,<hi rend="italic"> op.
+              cit.</hi> n. 6, p. 227.</p>
+            </note>. De la même manière, l’auteure voit dans la diversité des
+          formes des deux images de « statues » un reflet fidèle de la
+          diversité des tendances stylistiques de la production statuaire du
+          début du <date from="-0499" to="-0400" type="_temp">
+              <hi rend="small-caps">v</hi>
+              <hi rend="sup">e</hi> av. J.-C.</date> Quant
+          aux deux personnages appuyés sur un bâton, qui encadrent la scène de
+          la face B (fig. 4b), ils sont identifiés, à la suite d’études
+          antérieures<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Pour le dossier bibliographique concernant ce vase,<hi rend="italic"> cf.</hi> M. Vidale<hi rend="italic"> op.
+              cit.</hi> n. 6, pp. 211<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>, comme le propriétaire de la fonderie, soit le fondeur,
+          accompagné du sculpteur attestant ainsi de la division du travail et
+          donc de la séparation entre la conception artistique et la
+          production manuelle. Les deux personnages, après avoir procédé à
+          leurs ablutions et s’être enduits d’huile, comme l’attesterait la
+          présence des aryballes et des strigiles dans le champ de l’image,
+          donneraient aux ouvriers, autres indices de la hiérarchisation des
+          tâches et des statuts, les dernières instructions avant de quitter
+          l’atelier<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>H. A. Thompson, « A Note on the Berlin Foundry Cup »,<hi rend="italic"> Essays in Memory of Karl Lehmann</hi> (<hi rend="italic">Marsyas</hi> Sup. I), New York, 1964, pp. 323<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>. Le postulat sous-jacent à ce type d’analyses pose que les
+          images sont un reflet « photographique », descriptif, d’une réalité
+          qui n’est, par ailleurs, confirmée par aucune autre source sûre,
+          qu’elle soit écrite ou matérielle.</p>
+          <p xml:id="d1e514">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités personnelles<term ref="doi:10.34817/sv-8jtmckvz">compétence</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-mv6eogsx">savoirs non
+          canoniques<term ref="doi:10.34817/sv-8ux5xplc">occultisme<term ref="doi:10.34817/sv-2vujvv7p">magie</term>
+                </term>
+              </term>
+            </term>Un
+          même postulat oriente l’identification des objets accrochés dans le
+          champ de l’image à proximité du four, sur la face A. Il s’agit de<hi rend="italic">
+              <foreign xml:lang="grc">pinakes</foreign>
+            </hi> illustrées et de deux têtes, ou de deux masques, l’une
+          féminine et l’autre masculine, le tout accroché à une paire de
+          cornes de chèvre. Ces objets ont été presque unanimement identifiés
+          comme des<hi rend="italic">
+              <foreign xml:lang="grc">apotropaia</foreign>,</hi> tels les<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">baskania</hi>
+            </foreign>, mentionnés par <persName ref="241338751" type="idref" xml:base="https://www.idref.fr/">Pollux</persName> (VII, 108)<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>Pour la traduction du texte,<hi rend="italic"> cf.</hi> G. M.
+              A. Richter,<hi rend="italic"> The Craft of Athenian
+              Pottery</hi>, New Haven, p. 96.</p>
+            </note>, offerts aux divinités protectrices des métallurgistes
+          pour écarter le mauvais œil et assurer ainsi aux artisans leur
+          bienveillance lors des étapes du difficile travail de transformation
+          du métal en fusion jusqu’à la finition, ici, de la « statue ». Un
+          témoignage, soit dit en passant, qui porte atteinte à la lecture
+          laïcisante de l’activité technique. Pour <persName ref="033887667" type="idref" xml:base="https://www.idref.fr/">M. Vidale</persName>,
+          la représentation des<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">baskania</hi>
+            </foreign> serait en revanche un indice de la coexistence
+          d’implications apotropaïques et dionysiaques, puisque certaines<hi rend="italic">
+              <foreign xml:lang="grc">pinakes</foreign>
+            </hi> semblent renvoyer à cet univers, « avec les exigences d’une
+          illustration plus profane des capacités techniques et de l’activité
+          des bronziers »<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>M. Vidale,<hi rend="italic"> op. cit.</hi> n. 6, pp. 224<hi rend="italic"> sqq.,</hi> p. 227.</p>
+            </note>. En effet, pour ce qui est des deux têtes, l’auteur
+          n’exclut pas la possibilité de les interpréter comme des esquisses
+          de projet de statues voire comme des parties déjà terminées.
+          Indépendamment du bien-fondé de cette interprétation, une fois
+          encore invérifiable, elle suppose pour l’image un fonctionnement qui
+          s’écarte de la description photographique, de l’illustration fidèle
+          d’une réalité matérielle. Envisager la convergence, le tressage, de
+          la référence à une pratique religieuse et de la référence au faire
+          du bronzier, c’est considérer l’image comme un véritable montage
+          d’éléments empruntés au monde du quotidien matériel des artisans.
+          Une manière, pour le peintre, d’affirmer la complémentarité de la
+          protection divine et du savoir-faire humain. Dans la pratique de
+          l’atelier, le bronzier dispose d’autres moyens pour mettre en valeur
+          l’excellence de ses compétences que celui qui consisterait à
+          juxtaposer parties de statues et<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">apotropaia</hi>
+            </foreign>. Cette interprétation fonde la thèse de <persName ref="033887667" type="idref" xml:base="https://www.idref.fr/">M.
+          Vidale</persName> pour qui : « la représentation des techniques et
+          des instruments, en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>, entre la fin
+          du <date from="-0499" to="-0300" type="_temp">
+              <hi rend="small-caps">v</hi>
+              <hi rend="sup">e</hi> et le début du<hi rend="small-caps"> iv</hi>
+              <hi rend="sup">e</hi> siècle av.
+          J.-C.</date>, ne fut pas l’objectif des iconographies, il s’est agi
+          plutôt d’un langage complexe et nerveux utilisé pour exprimer des
+          affirmations, des négociations (<hi rend="italic">contrattazioni</hi>) et des réflexions sur les
+          rapports de production impliqués dans la sphère du travail
+          artisanal »<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>
+                <hi rend="italic">Id.,</hi> p. 35.</p>
+            </note>. En bref, pour <persName ref="033887667" type="idref" xml:base="https://www.idref.fr/">Vidale</persName>, ces images
+          constituent une forme d’expérimentation tentant de visualiser les
+          changements de statuts des artisans, dans le cadre de la démocratie
+          athénienne ; un statut qui s’affirme par la valorisation de gestes
+          légers (<foreign xml:lang="ita">
+              <hi rend="italic">il lavoro lieve</hi>
+            </foreign>) pour se démarquer de la réalité d’un travail pesant
+          qui déforme le corps, le marquant ainsi de la servitude matérielle
+          et donc sociale. Pour ce qui a trait aux images se référant au
+          travail de la métallurgie en général, entre les <date from="-0599" to="-0400" type="_temp">sixième et cinquième siècles av.
+          J.-C.</date>, <persName ref="033887667" type="idref" xml:base="https://www.idref.fr/">M. Vidale</persName> constate une
+          transformation des tâches qui passent du travail lourd de la forge,
+          qu’il qualifie de banausique, aux travaux requérant davantage de
+          minutie et de précision, qui l’incite à parler de travail léger,
+          voire sacralisé lorsque les dieux sont représentés<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>
+                <hi rend="italic">Id.,</hi> pp. 307<hi rend="italic">
+              sqq.</hi> et p. 309 ; M. Pugliara, art. cit. n. 8.</p>
+            </note>. L’option sociologique qui est la sienne présente
+          l’intérêt de pointer le « travail » de mise en image de l’activité
+          artisanale.</p>
+          <p xml:id="d1e593">En effet, sur un certain nombre de vases, ont été
+          relevés des gestes, des détails, révélant des incongruités
+          techniques qui marquent un écart avec la réalité. Ainsi, sur la
+          coupe de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>, la tête,
+          encore séparée du corps, sur la face A, est représentée avec des
+          yeux alors que, dans la réalité, ce délicat travail d’insertion
+          intervient au terme du processus. De la même manière, le polissage
+          de la « statue » sur la face B, par ailleurs problématique puisqu’il
+          devrait intervenir sur les parties non encore assemblées<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>M. Vidale,<hi rend="italic"> op. cit.</hi> n. 6, pp. 233<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>, devrait précéder l’adjonction du bouclier, du casque et
+          de la lance. Et encore, la longue scie dentelée représentée
+          verticalement, à côté de l’ouvrier assis, est également incongrue,
+          puisqu’elle ne peut pas être associée au travail du métal<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Pour la proposition de reconnaître dans cette scie une
+              allusion à l’utilisation de modèles en bois,<hi rend="italic">
+              cf.</hi> K. R. Cavalier, « An old saw »,<hi rend="italic"> From
+              the Parts to the Whole, vol. 1,</hi> Acta of the 13th
+              International Bronze Congress held at Cambridge (Ma), May 28 -
+              June 1, 1996,<hi rend="italic"> Journal of Roman
+              Archaeology</hi>, Suppl. 39, 2000, pp. 75<hi rend="italic">
+              sqq.</hi>
+              </p>
+            </note>. Le four, du même type de ceux qui figurent sur d’autres
+          images évoquant la forge, fait également problème, mais la
+          perplexité des interprètes résulte peut-être de la méconnaissance de
+          la réalité concrète. Quoiqu’il en soit, il évoque plutôt la fusion
+          de petites quantités de métal nécessaires aux travaux de finition,
+          un travail léger donc, par opposition à celui, périlleux, de la
+          préparation de l’alliage<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>C. C. Mattusch,<hi rend="italic"> The art and craft of Greek
+              and Roman Statuary</hi>, Ithaca-Londres, 1996, p. 18 ; M.
+              Vidale,<hi rend="italic"> op. cit.</hi> n. 6, pp. 220<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>. La nudité éphébique de l’ouvrier, si c’en est un, debout
+          dans une attitude de repos, sur la face A, est une autre manière de
+          creuser l’écart avec la réalité matérielle et sociale des artisans,
+          en le rapprochant des images vasculaires de jeunes athlètes, de
+          futurs citoyens, caractérisés par un corps façonné par les exercices
+          de la palestre opposés au corps de la réalité quotidienne des
+          artisans déformés par le travail physique<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>
+                <hi rend="italic">Cf.</hi> J. Ziomecki,<hi rend="italic"> op.
+              cit.</hi> n. 6, pp. 80<hi rend="italic"> sqq.,</hi> pp. 135<hi rend="italic"> sqq.</hi> ; C. Masseria, « L’aristeia del
+              banausos : l’athlon di uno scudo per Atena »,<hi rend="italic">
+              Ostraka</hi> IX, 1, 2000, pp. 65<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>. Ces incongruités ne sont pas propres à la coupe de
+          <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName> puisqu’on
+          les retrouve sur d’autres représentations d’activités
+          artisanales<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>Quelques exemples cités par M. Vidale,<hi rend="italic"> op.
+              cit.</hi> n. 6, p. 190, fig. 29 : armurier intervenant avec une
+              scie sur une cnémide terminée ; p. 201, fig. 35, couteau pourvu
+              d’un manche alors que la lame est en cours de fabrication ;
+              p. 209, fig. 37 a. b. : présence incongrue d’un vilebrequin et
+              de son archet. Contrairement à l’imagerie vasculaire, des<hi rend="italic"> pinakes</hi> votifs, des<hi rend="uppercase"/>
+                <hi rend="small-caps">vii</hi>
+                <hi rend="sup">e</hi> et<hi rend="uppercase"/>
+                <hi rend="small-caps">vi</hi>
+                <hi rend="sup">e</hi> siècles, trouvés à Penteskouphia, dans la
+              région de Corinthe, représentent avec beaucoup de réalisme le
+              travail des potiers,<hi rend="italic"> cf.</hi> G. Zimmer,<hi rend="italic"> op. cit.</hi> n. 8 et M. Vidale,<hi rend="italic"> op. cit.</hi> n. 6, pp. 237<hi rend="italic">
+              sqq.</hi>
+              </p>
+            </note>.</p>
+          <p xml:id="d1e689">La coupe de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>, comme la
+          plupart des représentations du travail artisanal entre <date from="-0520" to="-0460" type="_temp">520 et 460 av. J.-C.</date>,
+          révèle donc d’une part le peu d’intérêt que les imagiers portent au
+          rendu précis des gestes de la technique et, d’autre part, le choix
+          de montrer des actes privilégiant la minutie et ménageant par
+          conséquent le corps. La sacralisation du travail par l’intervention,
+          dans l’image, des dieux, tels, ici, <persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName>
+          et <persName ref="078600731" type="idref" xml:base="https://www.idref.fr/">Thétis</persName>, serait en outre,
+          selon <persName ref="033887667" type="idref" xml:base="https://www.idref.fr/">M. Vidale</persName>, un autre
+          moyen de « requalifier », de valoriser, le travail et le statut des
+          artisans en les rapprochant du forgeron divin et de l’épisode
+          fabuleux de la fabrication des armes d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>.
+          Une manière d’inscrire visuellement la hiérarchie du travail avec au
+          sommet <persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName>, puis les
+          patrons de forge, soit le fondeur et le sculpteur, suivis des
+          ouvriers plus âgés, supérieurs aux jeunes, puisqu’ils sont
+          représentés deux fois, de part et d’autre du vase, pour finir, au
+          bas de l’échelle, par les apprentis, figurés sur la face A, dont
+          l’un s’affaire avec le soufflet, derrière le four, alors que l’autre
+          regarde l’ouvrier occupé avec le feu<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>
+                <hi rend="italic">Id.,</hi> pp. 307<hi rend="italic">
+              sqq.,</hi> p. 310.</p>
+            </note>.</p>
+          <p xml:id="d1e701">Ainsi les huit figures correspondraient, selon
+          certains, dont <persName ref="033887667" type="idref" xml:base="https://www.idref.fr/">M. Vidale</persName>
+            <note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>
+                <hi rend="italic">Id.,</hi> pp. 217<hi rend="italic">
+              sqq.</hi>
+              </p>
+            </note>, à six acteurs, dont deux figureraient sur les deux côtés
+          de la coupe. En clair, l’artisan assis près du four, sur la face A,
+          serait le même que celui qui, accroupi et coiffé du même « bonnet »,
+          du<hi rend="italic">
+              <foreign xml:lang="grc">pilos</foreign>
+            </hi>, polit la statue, sur la face B, alors que le compagnon de
+          ce dernier serait aussi celui qui ajuste les mains de la « statue »
+          sur la face A. Deux ouvriers, les plus âgés, seraient ainsi affectés
+          à des tâches différentes, et délicates, ce qui a été interprété par
+          <persName ref="033887667" type="idref" xml:base="https://www.idref.fr/">M. Vidale</persName> comme un signe
+          d’importance et donc un indice de hiérarchie.</p>
+          <p xml:id="d1e715">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-j2qwt5pl">catégorie sociale<term ref="doi:10.34817/sv-mmnyqfyc">esclave</term>
+              </term>
+            </term>Les
+          signes ne semblent pourtant pas si clairs et offrent d’autres
+          possibilités de lecture, puisque <persName type="_temp">J.
+          Neil</persName> croit pouvoir identifier une différence de statut
+          entre les deux artisans âgés de la face B ; celui qui est
+          entièrement nu et accroupi serait l’assistant de son compagnon
+          debout et vêtu d’un pagne. Son statut inférieur serait indiqué par
+          sa position, par sa nudité et par son visage marqué, signe de son
+          extériorité à la communauté athénienne, voire de son état
+          d’esclave<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>J. Neils, « Who is who on the Berlin Foundry Cup »,<hi rend="italic"> From the Parts to the Whole, op. cit.</hi> n. 26,
+              pp. 75<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>. De même, les ouvriers près du four, auraient un statut
+          inférieur à celui de ceux, qui sur la même face, sont occupés à des
+          tâches plus légères ; mais, dans le même temps, l’auteure suggère
+          que le personnage debout appuyé sur le maillet pourrait être le fils
+          de celui qui est accroupi devant le feu. Le fils serait donc
+          supérieur au père et l’ancienneté ne ferait plus sens.
+          L’identification de la hiérarchie semble conduire aux mêmes types
+          d’apories que l’identification des procédés techniques.</p>
+          <p xml:id="d1e726">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+              </term>
+            </term>En
+          outre, selon ce type de lecture, axé sur la recherche de
+          l’organisation et de la division du travail, l’allusion au divin est
+          réduite à une valeur paradigmatique, puisqu’elle se limiterait à
+          « transposer les activités techniques sur le plan transcendental »,
+          dit <persName ref="033887667" type="idref" xml:base="https://www.idref.fr/">M. Vidale</persName>, et cela dans
+          un contexte politique qui voit l’affrontement entre les Athéniens et
+          les Perses, où tout ce qui touche à la valeur guerrière, et donc à
+          l’armement, assume une importance vitale<note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>K. Friis Johansen,<hi rend="italic"> The Iliad in early Greek
+              Art</hi>, Copenhague, 1967, pp. 178<hi rend="italic"> sqq.,</hi>
+              cité par J. Neils, art. cit. n. 32, p. 75, n. 1.</p>
+            </note>. De fait, cette lecture inscrit à la fois une hiérarchie
+          et une césure entre le faire des dieux et le faire des hommes,
+          l’allusion à l’intervention des premiers, sur les parois extérieurs
+          du vase, se limitant à la mention des<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">apotropaia</hi>
+            </foreign>, des<hi rend="italic">
+              <foreign xml:lang="grc">baskania</foreign>
+            </hi>, identifiés dans les objets accrochés dans le champ de
+          l’image, près du four.</p>
+          <p xml:id="d1e744">Pour qui envisage l’analyse iconographique dans
+          son interaction avec les éléments formels, en tenant compte de la
+          forme du vase ainsi que de son utilisation dans le contexte du<hi rend="italic">
+              <foreign xml:lang="grc">symposion</foreign>
+            </hi>, la coupe de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName> offre
+          d’autres perspectives herméneutiques. Dans les lignes qui suivent
+          seront proposées deux lectures fondées sur les jeux d’images
+          familiers aux peintres et aux usagers antiques. La première
+          proposition explore la manière dont le peintre pourrait inviter le
+          spectateur ancien à un exercice de la glose sur le faire
+          métallurgique des dieux et des hommes et sur les produits issus de
+          ce faire. La deuxième observe le caractère réflexif du travail
+          pictural qui s’exprimerait en particulier à travers une évocation
+          particulière de la fabrication, de la figuration et de la perception
+          des corps.</p>
+        </div>
+        <div type="section1" xml:id="d1e749">
+          <head subtype="level1" xml:id="d1e750">Entre métallurgie divine et
+          humaine</head>
+          <p xml:id="d1e752">À l’<date>époque classique</date>, la laïcisation
+          de la technique serait chose faite ; contrairement à la pratique
+          agricole marquée par le religieux, l’activité de l’artisan
+          « appartient à un domaine où s’exerce une pensée déjà positive […].
+          L’artisan ne met plus en jeu des forces religieuses ; il opère au
+          niveau de la nature, de la<hi rend="italic">
+              <foreign xml:lang="grc">phusis</foreign>
+            </hi> […]. Il ne doit son succès qu’à ce savoir pratique, acquis
+          par l’apprentissage et qui constitue pour toute activité
+          spécialisée, les règles du métier »<note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>J-. P. Vernant, « Travail et nature dans la Grèce
+              ancienne »,<hi rend="italic"> Mythe et pensée chez les
+              Grecs</hi>, Paris, 1971, pp. 16<hi rend="italic"> sqq.,</hi> p.
+              23 et « Remarques sur les formes et les limites de la pensée
+              technique chez les Grecs »,<hi rend="italic"> id.,</hi> pp.
+              44<hi rend="italic"> sqq.,</hi> p. 45, p. 61.</p>
+            </note>. Tel serait le témoignage des sources écrites, celui de
+          <persName ref="027308367" type="idref" xml:base="https://www.idref.fr/">Xénophon</persName> et de <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> surtout, à la fin
+          du <date from="-0499" to="-0300" type="_temp">
+              <hi rend="small-caps">v</hi>
+              <hi rend="sup">e</hi> et au début du <hi rend="small-caps">iv</hi>
+              <hi rend="sup">e</hi> siècle av.
+          J.-C.</date>
+            <note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>Contre cette interprétation laïcisante, voir l’article de J.
+              Svenbro dans ce recueil ; L. Fiorini, « Per fondere i metalli.
+              Su alcune rappresentazioni vascolari attiche con scene di
+              officina »,<hi rend="italic"> Iconografia 2001</hi>,<hi rend="italic"> op. cit.</hi> n. 8., pp. 151<hi rend="italic">
+              sqq.</hi> Pour la remise en cause du témoignage des philosophes,
+              voir aussi<hi rend="italic"> supra</hi> n. 7.</p>
+            </note>. À travers l’exemple de la coupe de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>, datée,
+          rappelons-le, de <date from="-0490" to="-0480" type="_temp">490-480
+          av. J.-C.</date>, il s’agira de repérer les indices imagés
+          susceptibles de rendre compte, sur ce point, des réalités
+          antiques.</p>
+          <p xml:id="d1e804">Les images ne sont pas des illustrations fidèles
+          de la réalité, on l’a dit, et un vase n’est pas une page, les scènes
+          ne sont donc pas visibles, lisibles, de la même manière que celles
+          figurant sur un support à deux dimensions. Ainsi, les deux faces du
+          récipient et le médaillon ne peuvent être vus simultanément comme le
+          permettent aujourd’hui les photographies et les dessins. De plus, la
+          coupe est conçue pour fonctionner dans le cadre du banquet, peu
+          importe si elle est utilisée dans un autre contexte. Elle fait
+          partie des objets en mouvement, qu’il s’agisse des gestes du buveur
+          qui la manipule ou de ceux des buveurs lorsqu’elle passe de main en
+          main. Dans l’espace du banquet, sous le patronage de <persName ref="02739560X" type="idref" xml:base="https://www.idref.fr/">Dionysos</persName>, circulent donc
+          le vin, les images et la parole, commentaire d’images compris, des
+          images qui, souvent, se prêtent à des jeux d’allusion et
+          d’énigmes<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>F. Lissarrague,<hi rend="italic"> Un flot d’images. Une
+              esthétique du banquet grec</hi>, Paris, 1987 ; D. Martens,<hi rend="italic"> Une esthétique de la transgression. Le vase grec
+              de la fin de l’époque géométrique au début de l’époque
+              classique</hi>, Bruxelles, 1992, pp. 11<hi rend="italic">
+              sqq.</hi> ; Vidale,<hi rend="italic"> op. cit.</hi> n. 6, pp.
+              107<hi rend="italic"> sqq.,</hi> pp. 125<hi rend="italic">
+              sqq.</hi> ; R. T. Neer,<hi rend="italic"> Style and Politics in
+              Athenian Vase-Painting. </hi>
+                <hi rend="italic">The Craft of
+              Democracy, ca. 530-460 B. C. E.,</hi> Cambridge, 2002, pp. 9<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>. Il faut donc considérer notre coupe et les
+          représentations qu’elle porte dans cette perspective.</p>
+          <p xml:id="d1e836">L’appel au commentaire sur le vase de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName> est évident.
+          Les inscriptions disent « <foreign xml:lang="grc">
+              <hi rend="italic">Diogenes kalos naichi</hi> </foreign>», de part et
+          d’autre du jeune homme appuyé sur son maillet (face A, fig. 4a), et
+          « <foreign xml:lang="grc">
+              <hi rend="italic">ho pais kalos
+          naichi</hi> </foreign>» dans le champ de l’image encadrant la
+          « statue » de guerrier (face B, fig. 4b). « <hi rend="italic">Naichi</hi> », une affirmation, et un nom précis,
+          « <persName ref="031171990" type="idref" xml:base="https://www.idref.fr/">Diogenes</persName> est vraiment
+          beau », sur l’autre paroi, « le jeune homme est beau » en inscrit
+          une autre, mais plus générique ; au médaillon, « <hi rend="italic">
+              <foreign xml:lang="grc">ho pais kalos</foreign>
+            </hi> » est de l’ordre du constat sans emphase<note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>Pour les inscriptions en général,<hi rend="italic"> cf.</hi>
+              T. B. L. Webster,<hi rend="italic"> Potter and Patron in
+              Classical Athens</hi>, Londres, 1972, pour Diogenes en
+              particulier, pp. 66-67.</p>
+            </note>. Les inscriptions, les commentaires fonctionnent par
+          rapport au spectateur et dans le cadre de l’image où plus d’un
+          personnage parle, comme l’atteste la bouche ouverte ; ainsi,
+          <persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName> s’adresse à
+          <persName ref="078600731" type="idref" xml:base="https://www.idref.fr/">Thétis</persName>, le
+          spectateur-client-patron de la fonderie s’adresse à son compagnon,
+          comme se parlent les ouvriers occupés à polir la « statue ».
+          L’interprétation « réaliste » y verra une allusion à la réalité des
+          conversations se déroulant dans l’espace de l’officine, et pourquoi
+          pas<note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>R. Buxton,<hi rend="italic"> La Grèce de l’imaginaire. Les
+              contextes de la mythologie</hi>, Paris (trad. fr.), 1996, p. 57,
+              cite Hésiode,<hi rend="italic"> Travaux</hi>, 493<hi rend="italic"> sqq.,</hi> où la forge apparaît comme le lieu où
+              l’on se retrouve, en hiver, pour parler.</p>
+            </note>, mais la pratique du commentaire d’images dans le cadre du
+          banquet, et ailleurs<note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>J. Svenbro,<hi rend="italic"> Phrasikleia, anthropologie de
+              la lecture en Grèce ancienne</hi>, Paris, 1988, pp. 13<hi rend="italic"> sqq.</hi> ; dans Euripide,<hi rend="italic">
+              Ion,</hi> 187-218, le chœur s’exerce à reconnaître les figures
+              du fronton du temple d’Apollon à Delphes.</p>
+            </note>, est également une réalité. Reste à tenter d’élucider ce
+          que la coupe offre à l’exercice de la glose.</p>
+          <p xml:id="d1e887">Le spectateur antique ne pouvait que remarquer le
+          déroulement de la composition, de la face A à la face B, ou vice
+          versa, et l’effet de torsion qui en résulte. Sur la paroi A, un
+          effet de frontalité est marqué par le four, par l’ouvrier qui,
+          derrière, active le soufflet, par celui qui est assis, à côté, ainsi
+          que par les deux têtes accrochées aux cornes de chèvre. Le
+          spectateur de l’image est ainsi directement interpellé. Le
+          personnage central, qui suit, est présenté partiellement de face,
+          mais la tête est tournée vers le four alors que la main sur la
+          hanche s’ouvre ostensiblement dans la direction opposée. Cette
+          double articulation correspond à celle de la main (ou du pied),
+          frontale, et du pied, de profil, à gauche, dans le champ de l’image.
+          À partir de ce point, la frontalité cède la place au profil comme le
+          montrent d’abord l’artisan et la « statue » couchée, puis les
+          figures de la face B, à commencer par le personnage au manteau
+          présenté avec le torse de face, pour terminer par son compagnon qui
+          tourne le dos, de trois quarts, à qui regarde l’image. Entre les
+          deux, la « statue », est elle aussi curieusement représentée en
+          vrille. La torsion semble être un procédé familier au peintre de la
+          fonderie mais dans ce cadre elle semble être explorée de manière
+          délibérée. Ainsi encore, l’escabeau sur lequel est assis le
+          polisseur de la face B, qui est représenté en oblique, à la fois au
+          premier plan et derrière la « statue », obligeant ainsi le corps à
+          un position peu réaliste et cela de la part d’un peintre dont le
+          réalisme est considéré comme une caractéristique fondamentale<note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>J. D. Beazley, « Un Realista Greco »,<hi rend="italic">
+              Adunanze Straordinarie per il Conferimento dei Premi della
+              Fondazione A. Feltrinelli, I. 3</hi>, Accademia Nazionale dei
+              Lincei, Rome, pp. 53<hi rend="italic"> sqq.</hi> (réédité
+              dans<hi rend="italic"> Greek vases : lectures by J. D.
+              Beazley</hi>, D. C. Kurtz. (ed.), Oxford, 1989).</p>
+            </note>. Cet effet de torsion, à la fois global et propre à
+          certaines figures, n’est pas isolé sur cette coupe ; comme on le
+          verra, il pourrait être une manière d’évoquer l’oblicité de l’aspect
+          et du faire d’<persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName>. Cet effet de
+          torsion accentue également quelque chose de l’ordre du mouvement et
+          du changement, qui caractérise également le dieu, sur un objet déjà
+          destiné à tourner lorsque les convives se le passent de main en
+          main.</p>
+          <p xml:id="d1e902">Au mouvement, potentiel, de l’objet et de l’image
+          s’ajoute un effet de brouillage stimulant l’acribie de la mémoire et
+          de la glose. Soit les quatre artisans plus âgés distribués sur les
+          deux faces : s’agit-il de quatre ouvriers anonymes, indistincts, ou
+          subtilement qualifiés, ou encore de deux qui se dédoublent, comme
+          l’ont proposé certaines interprétations ? Il n’est pas sûr que la
+          question se pose en ces termes.</p>
+          <p xml:id="d1e904">L’artisan barbu et assis de la face B est nu et
+          il porte un bonnet, le<hi rend="italic">
+              <foreign xml:lang="grc">pilos</foreign>
+            </hi>, comme celui de la face A. Dans l’impossibilité de regarder
+          les deux figures simultanément, c’est un trait dont le spectateur
+          grec pouvait, devait, se souvenir. Un regard plus attentif pouvait
+          ensuite tenter de repérer l’écart éventuel entre les traits marqués
+          de l’un par rapport au visage moins caractérisé de l’autre<note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>J. Neil, art. cit. n. 32, attribue un nez camus au polisseur
+              accroupi de la face B, mais ce détail ne résulte pas de
+              l’évidence incontestable.</p>
+            </note>. Les deux personnages se ressemblent mais ils sont
+          différents, seul l’exercice du regard et du commentaire peut le
+          relever. Un autre écart, incontestable celui-ci, différencie les
+          deux artisans. Contrairement à son collègue, le personnage nu et
+          coiffé du<hi rend="italic">
+              <foreign xml:lang="grc">pilos</foreign>
+            </hi>, de la face A, est assis sur un coussin ; or ce coussin est
+          à la fois très proche mais différent, il en est une version
+          nettement moins élaborée, de celui sur lequel est assis <persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName>, vêtu de
+          l’<foreign xml:lang="grc">
+              <hi rend="italic">exomis</hi>
+            </foreign> et sans<hi rend="italic">
+              <foreign xml:lang="grc">pilos</foreign>
+            </hi>, représenté au médaillon, autre détail que l’utilisateur de
+          la coupe était susceptible d’enregistrer dans sa mémoire. Sur les
+          parois du vase, le peintre joue donc avec la ressemblance et la
+          dissemblance et introduit par conséquent un brouillage sémantique
+          autour du divin et de l’humain. L’ouvrier près du four partage
+          certains traits à la fois avec le dieu du médaillon et avec le
+          personnage de la face B.</p>
+          <p xml:id="d1e922">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique
+          corporelle<term ref="doi:10.34817/sv-cuffkk5p">position du
+          corps</term>
+              </term>
+            </term>Il y a peut-être plus, la position
+          frontale de la figure sur la face A, n’est pas une invention du
+          peintre de la coupe, et elle induit le même effet d’ambiguïté. Cette
+          position apparaît sur des images représentant <persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName>, hors du
+          contexte de la forge, et sur d’autres associées au travail de la
+          métallurgie, il s’agit donc d’un code iconique connu de tous,
+          mémorisé<note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>Retour d’Héphaïstos assis frontalement sur une mule : vêtu,
+              cratère, Louvre G. 162,<hi rend="italic"> ARV</hi>
+                <hi rend="sup">2</hi> 186/47,<hi rend="italic"> LIMC s. v.</hi>
+              Hephaistos n° 117 ; nu, cratère, Univ. of Mississippi
+              1977.3.89,<hi rend="italic"> ARV</hi>
+                <hi rend="sup">2</hi>
+              597,<hi rend="italic"> LIMC</hi> n° 149. Personnage nu près du
+              four : coupe, Acropole 166,<hi rend="italic"> ARV</hi>
+                <hi rend="sup">2</hi> 92/64 (M. Vidale,<hi rend="italic"> op.
+              cit.</hi> n. 6, p. 179, fig. 23) ; Héphaïstos nu : cratère,
+              Caltanisseta 20371,<hi rend="italic"> Para</hi>. 354/39b,<hi rend="italic"> LIMC</hi> n° 15.</p>
+            </note>. Dans la forge, toujours près du four, tantôt cette
+          posture est celle d’<persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName>, tantôt elle
+          est celle d’un artisan ou alors elle inscrit l’entre-deux,
+          l’ambiguïté ; bien évidemment, le brouillage ne peut opérer qu’à
+          partir de codes bien établis. Quelque chose d’<persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName>,
+          d’héphaistéen, est donc présent sur la paroi A de la coupe. Du coup,
+          la dissociation de la sphère divine et humaine ne paraît plus si
+          évidente, seule cependant l’observation attentive de la résonance
+          des signes iconiques permet de la repérer. Une observation attentive
+          qu’exerce, par exemple, le chœur de servantes athéniennes devant le
+          temple d’<persName ref="027476537" type="idref" xml:base="https://www.idref.fr/">Apollon</persName> à <placeName ref="263219" type="geonames" xml:base="https://www.geonames.org/">Delphes</placeName> (Eurip.,<hi rend="italic"> Ion</hi>, 187-218).</p>
+          <p xml:id="d1e962">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-mv6eogsx">savoirs non
+          canoniques<term ref="doi:10.34817/sv-8ux5xplc">occultisme<term ref="doi:10.34817/sv-2vujvv7p">magie</term>
+                </term>
+              </term>
+            </term>On
+          peut risquer de pousser le déchiffrement de cette frontalité encore
+          plus loin. La nudité frontale, exhibant les organes génitaux, dans
+          ce type de position en particulier, fait sens. Elle peut avoir une
+          fonction magique et apotropaïque, à l’instar du phallus. Son effet
+          est double, soit de protéger du mauvais œil, soit de le provoquer et
+          elle est caractéristique surtout des hermes, des satyres et des
+          personnages appartenant à cette configuration, un univers
+          apparemment éloigné de celui du dieu forgeron<note n="43" place="foot" type="standard" xml:id="ftn43">
+              <p>
+                <hi rend="italic">Dictionnaire des antiquités grecques et
+              romaines, s. v.</hi> Fascinus, col. 986. L. Bonfante, « Nudity
+              as a Costume in Classical Art »,<hi rend="italic"> American
+              Journal of Archaeology</hi> 93, 1989, pp. 543<hi rend="italic">
+              sqq.</hi>
+              </p>
+            </note>. Sur certaines images, dont celle qui nous occupe, le
+          paradoxe réside cependant dans le fait que le sexe exhibé est en
+          même temps contrôlé, puisqu’il est dûment infibulé, comme celui des
+          jeunes éphèbes policés, et cela contrairement à ce que peuvent
+          montrer d’autres images<note n="44" place="foot" type="standard" xml:id="ftn44">
+              <p>Sur l’infibulation comme manière de contrôler les effets
+              d’une visualisation excessive de la nudité, voir R. Osborne,
+              « Men Without Clothes. Heroic Nakedness and Greek Art »,<hi rend="italic"> Gender and History</hi> 9/3, 1997, pp. 504<hi rend="italic"> sqq.</hi> ; pour l’exhibition non contrôlée des
+              organes génitaux, voir K. J. Dover,<hi rend="italic">
+              Homosexualité grecque</hi>, Grenoble, 1982, pp. 154<hi rend="italic"> sqq.</hi> Voir aussi, la manière de représenter
+              le sexe des artisans sur les tablettes de Penteskouphia,<hi rend="italic"> cf.</hi> G. Zimmer, art. cit. n. 8, figg. 12, 14.
+              Pour les représentations de potiers,<hi rend="italic"> cf.</hi>
+              M. Vidale,<hi rend="italic"> op. cit.</hi> n. 6, pp. 327<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>. Un contrôle qui « qualifierait » l’artisan de la coupe de
+          <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>, qu’il soit
+          divin ou humain.</p>
+          <p xml:id="d1e1004">Dans son étude sur Héphaïstos, <persName ref="026820080" type="idref" xml:base="https://www.idref.fr/">Marie
+          Delcourt</persName> observe que les imagiers ont le plus souvent
+          ennobli la figure du forgeron divin en éliminant tout ce qui est de
+          l’ordre de la « laideur ou du ridicule », traits qui sont alors
+          attribués aux êtres qui l’entourent<note n="45" place="foot" type="standard" xml:id="ftn45">
+              <p>M. Delcourt,<hi rend="italic"> Héphaistos ou la légende du
+              magicien</hi>, Paris, 1982, p. 114.</p>
+            </note>. Elle cite ainsi, les mulets ithyphalliques, qui servent
+          parfois de monture au dieu, ou encore un vase de Lydos, représentant
+          le retour d’<persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName> dans
+          l’Olympe, sur lequel ce sont les Satyres qui portent les instruments
+          de la forge et qui sont pourvus de traits grotesques : « Celui qui
+          regarde cette composition pense moins au thème qui y est traité
+          qu’au caractère volontairement bouffon du décor qui offre,<hi rend="italic"> stylisés</hi> et relevés sur le plan de l’art, les
+          objets mêmes qui composent les amulettes ». Les amulettes, ce sont
+          les<hi rend="italic">
+              <foreign xml:lang="grc">apotropaia</foreign>
+            </hi>, les<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">baskania</hi>
+            </foreign>, les<hi rend="italic">
+              <foreign xml:lang="grc">geloia</foreign>
+            </hi> des métallurgistes disposés, dans la réalité de l’atelier,
+          sur le four (Pollux, VII, 108). Des objets qui protègent les
+          artisans des démons dont l’action pourrait entraver, perturber, la
+          bonne marche des opérations ; des objets qui « <hi rend="italic">obligent à rire,</hi> c’est-à-dire à rompre un état de
+          stupeur ou de passivité », jugulant ainsi l’action néfaste des
+          démons. En clair, selon <persName type="_temp">M.
+          Delcourt</persName>, le dieu des images serait plus noble que celui
+          des textes, l’aspect ridicule étant délégué à d’autres signes
+          qu’évoqueraient alors les<hi rend="italic">
+              <foreign xml:lang="grc">geloia</foreign>
+            </hi>. Le rire apotropaïque suscité par la vue des amulettes des
+          artisans ne ferait ainsi qu’exprimer un aspect du dieu comme<hi rend="italic">
+              <foreign xml:lang="grc">geloion</foreign>
+            </hi>
+            <note n="46" place="foot" type="standard" xml:id="ftn46">
+              <p>Sur Héphaïstos et le rire, voir C. Collobert, « Héphaïstos,
+              l’artisan du rire inextinguible des dieux »,<hi rend="italic">
+              Le rire des Grecs, Anthropologie du rire en Grèce ancienne</hi>,
+              M.-L. Desclos (éd.), Grenoble, 2000, pp. 133<hi rend="italic">
+              sqq.</hi>
+              </p>
+            </note>.</p>
+          <p xml:id="d1e1043">Sans adhérer à tous les points de la proposition
+          de <persName type="_temp">M. Delcourt</persName>, on peut se
+          demander si les images de la coupe de la fonderie pouvaient susciter
+          le rire des spectateurs antiques. La présence des amulettes semble
+          presque faire l’unanimité. Les objets, les<hi rend="italic">
+              <foreign xml:lang="grc">pinakes</foreign>
+            </hi>, accrochés aux cornes de chèvres, près du four, sont en
+          effet identifiés comme des<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">apotropaia</hi>
+            </foreign>, bien que d’autres voient dans les deux têtes des
+          modèles pour l’artisan. Mais, vus de près, ils n’évoquent pas de
+          manière évidente le registre comique et inquiétant appartenant au
+          monde des démons<note n="47" place="foot" type="standard" xml:id="ftn47">
+              <p>Aux cornes de chèvre ornées de guirlandes, sont accrochées
+              des<hi rend="italic"> pinakes</hi> représentant, de gauche à
+              droite, une figure féminine debout et portant deux objets, puis,
+              après les deux têtes, un personnage masculin courant avec un
+              marteau dans la main. À la rangée inférieure, la plaquette de
+              gauche représente une chèvre courant et, enfin, un personnage
+              masculin assis. Qui, selon M. Vidale (<hi rend="italic">op.
+              cit.</hi> n. 6, p. 226), pourraient évoquer à la fois un satyre
+              marteleur dans les scènes d’<hi rend="italic">anodoi</hi> et des
+              figures appartenant au monde dionysiaque.</p>
+            </note>. Il n’y a rien du réalisme d’une tablette du <date from="-0599" to="-0500" type="_temp">
+              <hi rend="small-caps">vi</hi>
+              <hi rend="sup">e</hi> siècle
+          av. J.-C.</date>, découverte à <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Penteskouphia</placeName>, où
+          l’on voit un potier fasciné par le spectacle d’un petit personnage,
+          tenant son sexe en érection, posé sur le four<note n="48" place="foot" type="standard" xml:id="ftn48">
+              <p>G. Zimmer, art. cit. n. 8, fig. 14.</p>
+            </note>. Dans les images vasculaires, ces mêmes<hi rend="italic">
+              <foreign xml:lang="grc">pinakes</foreign>
+            </hi>, figurées dans le champ, parfois associées aux cornes de
+          capridé, sont en revanche fréquentes à proximité des hermes et cela
+          dans la même disposition<note n="49" place="foot" type="standard" xml:id="ftn49">
+              <p>
+                <hi rend="italic">LIMC s. v</hi>. Hermes (G. Siebert), pp.
+              300<hi rend="italic"> sqq.,</hi> figg. 92, 95b, 95c, 97a, 97b,
+              p. 208, figg. 102bis, 106a, 107, 111 ; D. Jaillard, « Le pilier
+              hermaïque dans l’espace sacrificiel »,<hi rend="italic">
+              Mélanges de l’École Francaise de Rome</hi> 113, 2001, pp. 341<hi rend="italic"> sqq.</hi> Sur ces plaquettes, le motif du satyre
+              dansant est fréquent.</p>
+            </note>. Le peintre « monte » donc une image qui associe
+          l’imagerie hermaïque à celle de la pratique métallurgique, un
+          montage que le spectateur antique devait percevoir sans effort<note n="50" place="foot" type="standard" xml:id="ftn50">
+              <p>Sur la présence des hermes dans les images représentant des
+              activités artisanales, voir M. Eisman, L. Turnbull, « Robinson’s
+              Kiln Skyphos »,<hi rend="italic"> American Journal of
+              Archaeology</hi> 82, l978, pp. 394<hi rend="italic"> sqq.,</hi>
+              p. 398. Outre le skyphos Robinson, sur lequel figure l’atelier
+              de potiers où se trouvent deux hermes, les auteurs mentionnent
+              une hydrie à figures noires, conservée à Munich, montrant un
+              autre atelier de potier où le four est un herme dionysiaque.
+              Mais ces deux exemples datent de la fin du<hi rend="uppercase"/>
+                <hi rend="small-caps">vi</hi>
+                <hi rend="sup">e</hi> siècle av. J.-C.</p>
+            </note>. Si il y a du rire héphaistéen sur cette coupe, il résulte
+          peut-être de ce montage. L’herme est en effet associé au phallus qui
+          peut en être le substitut<note n="51" place="foot" type="standard" xml:id="ftn51">
+              <p>
+                <hi rend="italic">Real Encyclopädie</hi>,<hi rend="italic">
+              s. v.</hi> Phallos (H. Herter), col. 1691.</p>
+            </note> ; pour les Athéniens, c’est une réalité culturelle
+          établie. De par son aspect et au vu de la présence des<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">pinakes</hi>
+            </foreign>, le four glisse ainsi visuellement du côté de l’herme.
+          Le lien entre <persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName> et le phallus
+          étant attesté<note n="52" place="foot" type="standard" xml:id="ftn52">
+              <p>M. Delcourt,<hi rend="italic"> op. cit.</hi> n. 45, p. 57, p.
+              152. ;<hi rend="italic"> Real Encyclopädie</hi>,<hi rend="italic"> s. v.</hi> Phallos (H. Herter), col 1698.</p>
+            </note>, on peut se demander si le signe « four » n’est pas une
+          manière oblique de suggérer l’association du phallus et de l’herme,
+          une suggestion qui naît de la proximité avec la figure assise de
+          manière policée. Le four et l’artisan pourraient donc être une
+          manière d’évoquer les<hi rend="italic">
+              <foreign xml:lang="grc">geloia</foreign>
+            </hi>, le four assumant la « phallicité » que l’infibulation de
+          l’ouvrier héphaistéen, à moins qu’il ne s’agisse du dieu ouvrier,
+          contrôle. Inscrire une réalité pour aussitôt la détourner, convoquer
+          un jeu de signes fondé sur la mémoire visuelle et l’association,
+          l’opération imagière du peintre de la Fonderie n’a donc rien de
+          commun avec la fonction illustrative de la tablette de <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Penteskouphia</placeName>. On
+          peut risquer de pousser le répérage du jeu d’image encore un peu
+          plus loin en voyant dans le jeune ouvrier caché derrière le four,
+          une manière de donner à voir le soufflet vivant d’<persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName>, capable de
+          donner vie, et donc souffle, à la matière inanimée, en l’occurrence
+          le four qui devient ainsi un phallus, et imaginer le formidable
+          éclat de rire du spectateur grec<note n="53" place="foot" type="standard" xml:id="ftn53">
+              <p>Sur le soufflet vivant, voir M. Delcourt,<hi rend="italic">
+              op. cit.</hi> n. 45, pp. 53, 55. F. Frontisi-Ducroux, « Avec son
+              diaphragme visionnaire : ἰδυίῃσι πραπίδεσσιν,<hi rend="italic">
+              Iliade</hi> XVIII, 481. À propos du bouclier d’Achille »,<hi rend="italic"> Revue des Études Grecques</hi> 115, 2002, pp.
+              463<hi rend="italic"> sqq.,</hi> pp. 474<hi rend="italic">
+              sqq.</hi>
+              </p>
+            </note>. Un jeu de signes qui, une fois encore, évoquerait le dieu
+          sans le représenter.</p>
+          <p xml:id="d1e1161">L’effet d’animation n’est pas limité au four,
+          les instruments, inscrits dans le champ de l’image, sur la paroi A,
+          sont également en mouvement. Cette disposition n’est pas propre au
+          peintre de la Fonderie, on la retrouve sur d’autres vases
+          représentant le travail de la forge. Par exemple, sur la paroi qui
+          fait pendant à la scène de cordonnerie examinée ci-dessus (fig. 1a)
+          et sur une oenochoé, datant de <date from="-0510" to="-0500" type="_temp">510-500 av. J.-C.</date> (fig. 7)<note n="54" place="foot" type="standard" xml:id="ftn54">
+              <p>Oenochoé attribuée à la Keyside Class, Londres B 507 (Londres
+              1846.6-29.45),<hi rend="italic"> ABV</hi> 426/9, M. Vidale,<hi rend="italic"> op. cit.</hi> n. 6, p. 181, fig. 24.</p>
+            </note>. À l’univers ordonné de l’espace imagé du cordonnier
+          correspond le chaos du monde des métallurgistes<note n="55" place="foot" type="standard" xml:id="ftn55">
+              <p>Pour d’autres images montrant l’animation des outils dans la
+              forge,<hi rend="italic"> cf.</hi> M. Vidale,<hi rend="italic">
+              op. cit.</hi> n. 6, figg. 22a, 22b, 24, 25, 27, 33a.</p>
+            </note>. Une manière peut-être de rendre visuellement à la fois la
+          sonorité et le mouvement des forces qui agissent le faire du
+          forgeron, divin et humain, qui doit domestiquer ces énergies,
+          incontrôlables, que sont le feu, l’air, les minerais et le temps.
+          Sans s’attarder davantage sur ce point, il faut cependant remarquer
+          l’absence des tenailles qui sont pourtant l’instrument par
+          définition d’Héphaïstos même sur des images représentant les aspects
+          légers du travail des métallurgistes. Mais représenter ne se confond
+          pas avec une opération illustrative. Le déchiffrement des images par
+          les spectateurs anciens est un jeu qui exige temps et précision, la
+          tenaille pourrait être présente de manière très allusive.</p>
+          <p xml:id="d1e1183">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-lrxnglhp">divinité</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique
+          corporelle<term ref="doi:10.34817/sv-cuffkk5p">position du
+          corps<term ref="doi:10.34817/sv-3znrhupx">position
+          debout</term>
+                </term>
+              </term>
+            </term>Le personnage debout, à côté du
+          préposé au four, dont la torsion a déjà été soulignée, est également
+          codé. Sur un autre vase, l’œnochoé à peine mentionnée ci-dessus
+          (fig. 7), cette attitude de repos caractérise une figure de profil
+          qui semble correspondre à un artisan humain. Plus tard, cette
+          position est également celle que le dieu assume dans le cadre d’une
+          épiphanie divine. Lorsqu’il assiste, sur un stamnos athénien, à la
+          naissance de son fils <persName ref="193820595" type="idref" xml:base="https://www.idref.fr/">Érichthonios</persName>, l’ancêtre
+          de tous les Athéniens ou, sur un vase campanien, lorsqu’il salue la
+          naissance de <persName ref="067696503" type="idref" xml:base="https://www.idref.fr/">Pandore</persName>
+            <note n="56" place="foot" type="standard" xml:id="ftn56">
+              <p>Stamnos à figures rouges, Munich 2413, 460 av. J.-C.,<hi rend="italic"> ARV</hi>
+                <hi rend="sup">2</hi> 495/1 ; LIMC,<hi rend="italic"> s. v</hi>. Hephaistos, n. 217. Amphore
+              campanienne à figures rouges, British Museum F147, fin<hi rend="uppercase"/>
+                <hi rend="small-caps">v</hi>
+                <hi rend="sup">e</hi> av. J.-C., LIMC,<hi rend="italic"> s. v.</hi>
+              Hephaistos, n. 225.</p>
+            </note>.</p>
+          <p xml:id="d1e1207">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-gzwcg9hi">peintre</term>
+              </term>
+            </term>Cette
+          permanence des schémas, inscrits dans les mémoires, favorise les
+          jeux d’images fondés sur l’association. On verra plus bas, que la
+          naissance et l’univers des métaux peuvent entretenir certaines
+          proximités justifiant ainsi des parentés iconographiques. Sur la
+          coupe de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>, le peintre
+          utilise donc un code connu tout en introduisant cet écart que
+          constitue la torsion. Ce personnage à l’orientation divergente, une
+          particularité formelle qui appartient au répertoire du peintre, a
+          ici une efficacité puisqu’il articule, on l’a déjà dit, les deux
+          parties de la face A, vers le four et vers l’ajusteur de la
+          « statue » en cours de montage. Ses deux mains ont un aspect qui
+          pourrait faire sens. Celle qui est posée sur le maillet est pourvue
+          d’un index démesurément long pointant dans la direction du four,
+          alors que l’autre, appuyée sur la hanche est ouverte « en sébille »
+          vers la gauche de l’image. La maladresse du peintre de la Fonderie a
+          été relevée plus d’une fois, y compris, à propos de cette main<note n="57" place="foot" type="standard" xml:id="ftn57">
+              <p>Sur l’efficacité des maladresses du peintre de la
+              Fonderie,<hi rend="italic"> cf.</hi> W. van Ingen, « The Kylix
+              by the Foundry Painter in the Fogg Museum »,<hi rend="italic">
+              Harvard Studies in Classical Philology,</hi> 46, 1935, pp.
+              155<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>, elle n’est pas à exclure d’emblée. Mais, sur le même
+          vase, les mains sur la hanche des deux patrons-spectateurs de la
+          face B, sont représentées de manière conforme. Par contre, la main
+          gauche d’<persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName>, au
+          médaillon, présente la même « anomalie » que la droite de la figure
+          en torsion de la face A ; non seulement l’index gauche est long,
+          trop long, mais, dessiné avec beaucoup de minutie, comme le reste de
+          la main, il se confond avec la bordure du casque. Il ne s’agit donc
+          pas de tics de peintre, ou si c’est le cas, ils sont exploités au
+          profit d’une efficacité sémantique qu’il s’agit de cerner.</p>
+          <p xml:id="d1e1221">
+            <foreign xml:lang="grc">
+              <hi rend="italic">Kullôma</hi>
+            </foreign> est un mot qui désigne ce qui est courbé, plié ;
+          peuvent l’être le pied, la cuisse, l’oreille ou la main. Lorsque
+          celle-ci est ainsi désignée, il s’agit d’une main en sébille, d’une
+          main déformée comme celle de notre personnage et peut-être comme
+          celle du dieu sur le médaillon<note n="58" place="foot" type="standard" xml:id="ftn58">
+              <p>M. Delcourt,<hi rend="italic"> op. cit.</hi> n. 45, pp.
+              110<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>. Une main déformée qui, pour les Grecs, évoque la pince du
+          crabe ; « <hi rend="italic">
+              <foreign xml:lang="grc">karkinoun tous
+          daktulous</foreign>,</hi> c’est recourber les doigts, les tordre en
+          dedans, se faire une main de crabe ». Le crabe est associé aux
+          Cabires, divinités de la mer et de la métallurgie, originaires de
+          <placeName ref="258293" type="geonames" xml:base="https://www.geonames.org/">Lemnos</placeName> et de
+          <placeName ref="734358" type="geonames" xml:base="https://www.geonames.org/">Samothrace</placeName>, et
+          enfants, ou descendants, d’<persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName>. Or « crabe »
+          se dit<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">karkinos</hi>
+            </foreign> qui, en grec, signifie également les tenailles du
+          forgeron, ces tenailles qui sont, semblent, absentes de l’image.
+          « <foreign xml:lang="grc">
+              <hi rend="italic">Kullos</hi>
+            </foreign> désigne aussi bien le pied-bot que la main
+          crochue… »<note n="59" place="foot" type="standard" xml:id="ftn59">
+              <p>M. Detienne, J. -P. Vernant,<hi rend="italic"> Les ruses de
+              l’intelligence, la mètis des Grecs</hi>, Paris, 1974, pp. 253,
+              255.</p>
+            </note> ; le même mot sert à qualifier la forme du pied
+          d’<persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName> et l’animal
+          qui, comme le dieu, ne marche pas droit comme n’est pas droit notre
+          personnage tordu et fortement déhanché, comme un boiteux, comme le
+          boiteux qu’est le dieu qui suscite le rire des Olympiens lorsqu’il
+          leur sert d’échanson (<hi rend="italic">Iliade</hi>, I, 596<hi rend="italic"> sqq.).</hi> Quant à l’index, recourbé et démesuré,
+          parent de celui du dieu dans le médaillon, il contribue à inscrire
+          visuellement cette configuration du courbe dans laquelle s’inscrit
+          également la torsion. Sur la paroi A du vase, aucune figure ne
+          représente le divin forgeron mais il pourrait être présent dans plus
+          d’une, de manière allusive.</p>
+          <p xml:id="d1e1257">Selon les sources écrites, <persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName> ne travaille
+          pas seul, dans sa forge ; il y est entouré d’une foule de
+          personnages. Outre les Cabires, il y a les Dactyles, les Telchines
+          et <persName type="_temp">Kédalion</persName>. Les Dactyles, les
+          doigts, sont les inventeurs de l’usage du feu et de l’art de
+          travailler les métaux ; par son index droit démesuré, le personnage
+          au repos, ajoute peut-être une touche dactylienne à son côté
+          cabirien<note n="60" place="foot" type="standard" xml:id="ftn60">
+              <p>
+                <hi rend="italic">Dictionnaire des antiquités grecques et
+              romaines, s. v</hi>. Dactyli (L. de Ronchaud) ; J. Overbeck,<hi rend="italic"> Die antiken Schriftquellen zur geschichtender
+              Bildenden Künsten bei den Griechen</hi>, Hildesheim, 1959, pp.
+              6-7 ; F. Frontisi-Ducroux,<hi rend="italic"> Dédale, mythologie
+              de l’artisan en Grèce ancienne</hi>, Paris, 1975, pp. 58, 149 ;
+              U. von Wilamowitz-Moellendorf,<hi rend="italic"> Der Glaube der
+              Hellenen</hi>, 7<hi rend="sup">e</hi> éd., Darmstadt, 1994, p.
+              274 ; L. Brisson, « Artisan »,<hi rend="italic"> Dictionnaire
+              des mythologies</hi>, Y. Bonnefoy (dir.), Paris, 1981, p.
+              84a.</p>
+            </note>. Quant aux Telchines, ils sont connus essentiellement par
+          des textes d’époque alexandrine, à la seule exception du texte de
+          <persName ref="031333206" type="idref" xml:base="https://www.idref.fr/">Stésichore</persName>. Ils sont
+          décrits comme les enfants de la mer, comme des démons, porteurs de
+          mauvais œil ; sans cesse dans le mouvement de la métamorphose, ils
+          assument tantôt une forme animale, celle d’un phoque ou d’un
+          serpent, par exemple, tantôt celle d’un monstre, ou encore celle
+          d’un humain. Comme les Cabires et les Dactyles, ils ne font pas
+          l’objet d’une iconographie clairement identifiable ; <persName ref="027150062" type="idref" xml:base="https://www.idref.fr/">Strabon</persName> (X, 3, 7, 466 ;
+          X, 3, 19, 472) rapporte en effet qu’il n’est pas facile de
+          distinguer entre eux les différents démons de la métallurgie.
+          <persName ref="026832682" type="idref" xml:base="https://www.idref.fr/">Diodore de Sicile</persName> (V,
+          55, 2) attribue aux Telchines l’<hi rend="italic">
+              <foreign xml:lang="grc">agalmatopoiia</foreign>
+            </hi>, la technique de fabrication des<hi rend="italic">
+              <foreign xml:lang="grc">agalmata</foreign>
+            </hi>, fabrication de ce que nous appelons des statues, ce que
+          confirment d’autres sources alors que, dans d’autres textes tardifs,
+          ils sont considérés comme spécialistes de la finition<note n="61" place="foot" type="standard" xml:id="ftn61">
+              <p>
+                <hi rend="italic">Real Encyclopädie, s. v.</hi> Telchinen (H.
+              Herter), col. 203, 204.<hi rend="italic"> Id., s. v</hi>.
+              Telchinia, col. 224. Overbeck,<hi rend="italic"> op. cit.</hi>
+              n. 60, p. 7<hi rend="italic"> sqq.</hi> ; Detienne et
+              Vernant,<hi rend="italic"> op. cit.</hi> n. 59, pp. 242<hi rend="italic"> sqq.,</hi> pp. 252<hi rend="italic"> sqq.</hi> ;
+              von Wilamowitz,<hi rend="italic"> op. cit.</hi> n. 60, p. 274 ;
+              Brisson,<hi rend="italic"> op. cit.</hi> n. 60, p. 85a.</p>
+            </note>. Il ne serait pas pertinent de vouloir identifier de
+          manière catégorique les Telchines dans l’ajusteur et les polisseurs
+          de notre coupe. Cette indistinction relève de leur nature
+          intrinsèque d’êtres en métamorphose, aussi insaisissables que les
+          matériaux qu’ils utilisent, mais elle relève également du jeu
+          d’allusion qui pourrait être propre au fonctionnement de cette
+          image, voire de toute image. Ce qui est donné à voir pourrait donc
+          être de l’ordre du « telchinien », sans plus, sans exclure, comme
+          pour toutes les autres figures, une allusion au faire humain.</p>
+          <p xml:id="d1e1320">On peut encore tenter d’explorer un peu plus
+          loin cette allusion visuelle au courbe et au mouvement propres à la
+          métallurgie d’<persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName> et de ses
+          associés. On a déjà relevé ci-dessus le jeu de ressemblances et de
+          dissemblances qui caractérise les deux figures assises de la face A
+          et B (fig. 4a-b) : nudité, position assise, port du<hi rend="italic">
+              <foreign xml:lang="grc">pilos</foreign>
+            </hi> des forgerons sont des traits communs aux deux pesonnages,
+          mais communs également à d’autres figures d’<persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName> sur d’autres
+          vases<note n="62" place="foot" type="standard" xml:id="ftn62">
+              <p>M. Pipili, « Wearing an Other Hat : Workmen in Town and
+              Country »,<hi rend="italic"> Not The Classical Ideal : Athens
+              and the Construction of the Other in Greek Art</hi>, B. Cohen
+              (ed.), Leiden-Boston-Cologne, 2000, pp. 153<hi rend="italic">
+              sqq.</hi>
+              </p>
+            </note>. Mais le peintre introduit de légères différences dont
+          l’identification exigeait du spectateur antique un effort de mémoire
+          qui devait l’engager à tourner le vase et à commenter, sans
+          forcément pouvoir toujours distinguer.</p>
+          <p xml:id="d1e1334">
+            <persName type="_temp">Kédalion</persName>, le
+          maître du feu, pourrait s’inscrire dans ce dernier jeu
+          d’oscillation. Sur une fresque pompéienne, datée de <date type="_temp" when="0070">70 apr. J.-C.</date>, et conservée au musée
+          de <placeName ref="3172394" type="geonames" xml:base="https://www.geonames.org/">Naples</placeName>, est
+          représenté l’épisode de la fabrication des armes d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>. <persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName>, vêtu d’une
+          courte tunique, comme sur la coupe de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>, est assis
+          sur un siège face à <persName ref="078600731" type="idref" xml:base="https://www.idref.fr/">Thétis</persName>, assise elle
+          aussi mais sur un trône. Le dieu termine le bouclier, que tient un
+          personnage debout, alors qu’à ses pieds, un autre artisan s’affaire
+          à la finition du casque. Ce dernier, coiffé du<hi rend="italic">
+              <foreign xml:lang="grc">pilos</foreign>
+            </hi> et vêtu d’un pagne, est identifié à <persName type="_temp">Kédalion</persName>. Un bas-relief, situé entre le
+          <date from="0001" to="0199" type="_temp">
+              <hi rend="small-caps">i</hi>
+              <hi rend="sup">er</hi> et le <hi rend="small-caps">ii</hi>
+              <hi rend="sup">e</hi> siècle
+          apr. J.-C.</date>, conservé au musée du Louvre, reproduit la même
+          scène, avec quelques variantes, dont l’absence de <persName ref="078600731" type="idref" xml:base="https://www.idref.fr/">Thétis</persName> et la présence de
+          deux Satyres, l’un tenant le bouclier alors que l’autre termine une
+          cnémide. On y retrouve le même personnage, barbu et coiffé du<hi rend="italic"> pilos</hi>, occupé à la finition du casque
+          d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>, mais son aspect
+          est celui d’un nain. La proximité des deux images a suggéré
+          l’existence d’un même modèle, aujourd’hui perdu, qui daterait du
+          <date from="-0299" to="-0200" type="_temp">
+              <hi rend="small-caps">iii</hi>
+              <hi rend="sup">e</hi> siècle
+          av. J.-C.</date> et qui s’inspirerait d’un drame satyrique de
+          <persName ref="027143619" type="idref" xml:base="https://www.idref.fr/">Sophocle</persName>
+            <note n="63" place="foot" type="standard" xml:id="ftn63">
+              <p>
+                <hi rend="italic">LIMC s. v.</hi> Kedalion (R.
+              Vollkommer).</p>
+            </note>. D’après les textes, c’est à <persName type="_temp">Kédalion</persName>, à <placeName ref="256632" type="geonames" xml:base="https://www.geonames.org/">Naxos</placeName>, qu’<persName ref="028872169" type="idref" xml:base="https://www.idref.fr/">Héra</persName> aurait confié
+          <persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName>, juste après
+          sa naissance à <placeName ref="258293" type="geonames" xml:base="https://www.geonames.org/">Lemnos</placeName>, pour qu’il
+          lui apprenne à travailler et à forger les métaux. Suivant les
+          époques, certains traits des nains, voire des Satyres, pourraient
+          avoir caractérisé l’aspect des démons de la métallurgie. Du coup, on
+          peut se demander si le polisseur, peut-être « telchinien »,
+          représenté assis, sur la face B, pourrait évoquer une appartenance à
+          l’univers de <persName type="_temp">Kédalion</persName>. Le port
+          du<hi rend="italic">
+              <foreign xml:lang="grc">pilos</foreign>
+            </hi>, les traits du visage, l’oblicité excessive de sa position
+          l’inscrivent dans une configuration héphaistéenne, mais sans qu’il
+          soit possible, pour le spectateur moderne, d’identifier une allusion
+          plus circonscrite qui serait fondée sur d’autres indices que la
+          convocation de la simple vraisemblance.</p>
+          <p xml:id="d1e1374">Ce qui paraît moins contestable, en revanche,
+          c’est le jeu de brouillage des ressemblances. Si le port du<hi rend="italic">
+              <foreign xml:lang="grc">pilos</foreign>
+            </hi>, on l’a dit, induit une proximité entre les deux artisans,
+          représentés de part et d’autre de la coupe, simultanément cette
+          proximité est ébranlée par d’infimes différences introduisant
+          peut-être d’autres possibilités d’interprétation s’inscrivant
+          cependant dans une nécessaire contiguïté sémantique. À l’instar du
+          coussin qui rapproche l’artisan assis près du four du dieu
+          représenté au médaillon, alors que la coiffure et le vêtement les
+          distinguent. La continuité narrative ne serait donc pas linéaire
+          mais construite par le regard, et par le commentaire<note n="64" place="foot" type="standard" xml:id="ftn64">
+              <p>Sur la relation entre l’oralité, la mémoire et l’image dans
+              le contexte amérindien du<hi rend="uppercase"/>
+                <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi> siècle, voir
+              l’étude de C. Severi,<hi rend="italic"> Il percorso e la voce.
+              Un’antropologia della memoria</hi>, Einaudi, 2004.</p>
+            </note>, du/des spectateur/s. Du coup, on peut tenter de
+          rechercher d’autres indices susceptibles de rapprocher et/ou
+          d’écarter le polisseur, possible évocation des divinités de la
+          métallurgie, du dieu figuré au médaillon. L’écho visuel et indiciel,
+          fondé sur un savoir mythique partagé, passe peut-être par un subtil
+          jeu d’allusions à la corporéité particulière d’Héphaïstos. Un dieu
+          boiteux, aux jambes grêles qui font contraste avec le développement
+          du thorax, siège de la puissance divine<note n="65" place="foot" type="standard" xml:id="ftn65">
+              <p>F. Frontisi-Ducroux, art. cit. n. 53.</p>
+            </note>. Un dieu dont l’apparence physique est décrite par tout ce
+          qui évoque le courbe, le tronqué et la double orientation<note n="66" place="foot" type="standard" xml:id="ftn66">
+              <p>M. Delcourt,<hi rend="italic"> op. cit.</hi> n. 45, p. 110 ;
+              M. Detienne et J.-P. Vernant,<hi rend="italic"> op. cit.</hi>
+              n. 59, pp. 255<hi rend="italic"> sqq.</hi> ; L. Brisson, art.
+              cit. n. 60, p. 84a ;<hi rend="italic"> LIMC s. v.</hi>
+              Hephaistos (A. Jacquemin), p. 628.</p>
+            </note>. Que fait l’image de cette différence ? Au médaillon, un
+          œil attentif remarquera l’écart : le corps est solide, bien
+          proportionné, la chevelure et la barbe sont soignées, mais l’index
+          est très, trop, recourbé et allongé, le pied gauche est peut-être
+          lui aussi démesurément long (il s’agit peut-être d’un effet
+          perspectif) ; quant au torse, il est présenté de manière très
+          frontale, en rupture avec le bas du corps, en torsion donc, une fois
+          encore.</p>
+          <p xml:id="d1e1413">Les yeux et la mémoire du spectateur antique
+          pourraient avoir été exercés à parcourir l’image de manière non
+          linéaire, à la recherche d’un jeu fondé sur la similitude et la
+          dissemblance qui, par touches allusives, instaure des connexions
+          visuelles et référentielles en même temps qu’elle les défait. Un jeu
+          qui engage le corps du spectateur, via ses gestes, et qui sollicite
+          l’acuité, la précision du regard et de l’esprit portée au
+          déchiffrement du tressage de l’aspect formel et de l’iconographie
+          ainsi qu’au repérage des multiples détournements et glissements de
+          signes et de sens<note n="67" place="foot" type="standard" xml:id="ftn67">
+              <p>R. Neer,<hi rend="italic"> op. cit.</hi> n. 36.</p>
+            </note>. En l’occurrence, une manière d’inscrire la mouvance et la
+          pluralité des acteurs du faire divin dans celui des mortels.</p>
+          <p xml:id="d1e1422">À la clarté de la scène du médaillon
+          s’opposerait ainsi, sur les parois, un jeu fondé sur l’ambiguïté.
+          Une fois encore, les choses pourraient être plus complexes. La scène
+          est identifiée comme la remise à <persName ref="078600731" type="idref" xml:base="https://www.idref.fr/">Thétis</persName> des
+          armes qu’<persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName> a forgées
+          pour <persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>, une proposition
+          qui limite le statut de l’image à une illustration des vers
+          d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> (<hi rend="italic">Iliade</hi>, XVIII, 458-9). Dans le poème, la déesse
+          demande un bouclier, un casque, des cnémides et une cuirasse.
+          L’image omet la cuirasse mais montre une lance que la déesse tient
+          dans sa main droite ; en outre, le bouclier héroïque, de type
+          béotien, ne correspond pas du tout à celui que décrit <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>. Y figure en
+          épisème, un aigle en vol tenant dans son bec un reptile à la place
+          de la scène de labour mentionnée dans le texte<note n="68" place="foot" type="standard" xml:id="ftn68">
+              <p>M. Delcourt,<hi rend="italic"> op. cit.</hi> n. 45, p. 48,
+              voit dans l’aigle et le serpent un signe apotropaïque.</p>
+            </note>. On peut convoquer la fantaisie, ou les limites, de
+          l’imagier mais on peut aussi tenter de percer une autre
+          manifestation du jeu allusif que nous avons tenté de percevoir sur
+          les parois de ce vase.</p>
+          <p xml:id="d1e1434">Pour cette image, il a déjà été suggéré de
+          reconnaître <persName ref="027591786" type="idref" xml:base="https://www.idref.fr/">Athéna</persName> plutôt que
+          <persName ref="078600731" type="idref" xml:base="https://www.idref.fr/">Thétis</persName>
+            <note n="69" place="foot" type="standard" xml:id="ftn69">
+              <p>J. Neils, art. cit. n. 32, p. 75 ; M. Vidale,<hi rend="italic"> op. cit.</hi> n. 6, p. 317, note 17.</p>
+            </note> ; <persName ref="027591786" type="idref" xml:base="https://www.idref.fr/">Athéna</persName> dont <persName ref="034189742" type="idref" xml:base="https://www.idref.fr/">Apollodore</persName> rapporte
+          qu’elle est descendue dans la forge d’<persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName>
+          pour y chercher des armes. La lance serait donc l’attribut de la
+          déesse, représentée ici sans l’égide comme c’est aussi le cas
+          ailleurs<note n="70" place="foot" type="standard" xml:id="ftn70">
+              <p>
+                <hi rend="italic">LIMC s. v</hi>. Athena (P. Demargne), n<hi rend="sup">os</hi> 40, 48, 480.</p>
+            </note>. Mais d’autres images attribuent de manière incontestable
+          la lance à la mère d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>, en présence
+          d’<persName ref="027591786" type="idref" xml:base="https://www.idref.fr/">Athéna</persName>. Sur une péliké à
+          figures rouges, conservée au Musée de la Villa Giulia, de la même
+          époque que la coupe de la fonderie, <persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName>
+          retouche un casque, devant <persName ref="078600731" type="idref" xml:base="https://www.idref.fr/">Thétis</persName> debout tenant un
+          bouclier et une lance, alors qu’<persName ref="027591786" type="idref" xml:base="https://www.idref.fr/">Athéna</persName>,
+          munie elle aussi de sa lance, tend au dieu un panache destiné à
+          compléter ce casque. Cette iconographie semble caractéristique du
+          tout début du<hi rend="uppercase"> V</hi>
+            <hi rend="sup">e</hi>
+          siècle, précisément des années <date from="-0490" to="-0480" type="_temp">490-480 av. J. -C</date>
+            <note n="71" place="foot" type="standard" xml:id="ftn71">
+              <p>Sur un certain nombre de vases à figures noires du<hi rend="uppercase"/>
+                <hi rend="small-caps">vi</hi>
+                <hi rend="sup">e</hi> siècle, des scènes représentent Thétis armant
+              Achille, lance comprise. Dans ce cas, ces images sont
+              interprétées comme l’armement du héros avant le départ pour
+              Troie, voir K. Friis Johansen,<hi rend="italic"> op. cit.</hi>
+              n. 34, pp. 93<hi rend="italic"> sqq.</hi> Pour l’épisode de
+              Thétis et d’Athéna chez Héphaïstos, voir<hi rend="italic">
+              id.,</hi> pp. 178<hi rend="italic"> sqq.</hi> ;<hi rend="italic"> LIMC s. v.</hi> Hephaistos (A. Jacquemin), n<hi rend="sup">os</hi> 1-5 ; la péliké est illustrée dans Vidale,<hi rend="italic"> op. cit.</hi> n. 6, p. 193.</p>
+            </note>, et pourrait avoir eu comme fin de souligner visuellement
+          l’importance d’un élément, la lance, de l’armement des soldats
+          Athéniens engagés dans la lutte contre les Perses et de suggérer le
+          patronage d’<persName ref="027591786" type="idref" xml:base="https://www.idref.fr/">Athéna</persName>, protectrice à la
+          fois des Achéens et des Athéniens, nouant ainsi le temps de la
+          <date>guerre de <placeName ref="298885" type="geonames" xml:base="https://www.geonames.org/">Troie</placeName>
+            </date>à celui
+          du présent. Au tressage du divin et du quotidien, sur les parois
+          extérieures de la coupe, correspondrait un même tressage, au
+          médaillon. Le paradigme mythique opérerait ainsi sans césure, en
+          liant la dimension militaire et politique, véhiculée par <persName ref="078600731" type="idref" xml:base="https://www.idref.fr/">Thétis</persName> à la lance, à
+          celle des réalisations du faire métallurgique divin. Dans ce
+          contexte historique particulier, les objets produits par une
+          technique d’origine divine, inscrite dans celle des hommes aidés par
+          la bienveillance ambivalente des démons, exprimeraient ainsi quelque
+          chose de l’ordre du politique.</p>
+          <p xml:id="d1e1492">La manière de montrer la fabrication des deux
+          « statues » pourrait confirmer cette lecture. L’une, sur la face B,
+          est clairement identifiable comme celle d’un jeune guerrier, d’un
+          hoplite, héroïsé puisque dépourvu de cuirasse et de jambière,
+          représenté avec la charge vitale qui est propre à ce que doivent
+          suggérer les<hi rend="italic"> agalmata</hi>, ce que nous appelons
+          « statue ». Des objets de brillance qui manifestent l’énergie de
+          la<hi rend="italic"> charis</hi> divine dont bénéficient les mortels
+          qui se sont distingués par leurs exploits<note n="72" place="foot" type="standard" xml:id="ftn72">
+              <p>D. T. Steiner,<hi rend="italic"> Images in Mind. Statues in
+              Archaic and Classical Greek Literature and Thought</hi>,
+              Princeton, 2003, pp. 20-23, 188-189, 194-198, 206-207. Nous ne
+              revenons pas ici sur les propositions d’identifications
+              formelles et/ou iconographiques proposées pour cette figure ; M.
+              Vidale,<hi rend="italic"> op. cit.</hi> n. 6, fait le point sur
+              ce sujet, pp. 235<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>. Sur l’image, ce nécessaire éclat est souligné par
+          l’homologie que le peintre inscrit entre les instruments qui
+          évoquent les soins du corps de l’athlète, les paquetages, constitués
+          du strigile et de l’aryballe, accrochés dans le champ, à proximité
+          des deux patrons-spectateurs, et le racloir accompagné du marteau,
+          figuré devant le personnage sur la droite de l’image. Le strigile et
+          l’onction d’huile rendent les corps des athlètes brillants,
+          parfumés, plaisants pour les dieux et pour les hommes, comme le
+          travail de polissage, suivi d’une onction d’huile, donne sa
+          nécessaire brillance au corps de bronze assurant l’immortalité de la
+          mémoire des exploits accomplis par les héros, dont <persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>, et par ces
+          guerriers-citoyens que sont les Athéniens.</p>
+          <p xml:id="d1e1512">L’autre statue, sur la paroi A, est plus
+          énigmatique<note n="73" place="foot" type="standard" xml:id="ftn73">
+              <p>
+                <hi rend="italic">Id</hi>., pp. 228<hi rend="italic">
+              sqq.,</hi> fait le point sur les interprétations proposées
+              jusqu’ici.</p>
+            </note>. La vitalité s’exprime par les yeux et par la bouche
+          ouverte, une manière de rendre l’énergie de l’<foreign xml:lang="grc">
+              <hi rend="italic">agalma</hi>
+            </foreign> au détriment de la vraisemblance technique. <persName ref="033887667" type="idref" xml:base="https://www.idref.fr/">M.
+          Vidale</persName> a proposé de reconnaître dans la masse sur
+          laquelle est déposée le corps de bronze, non pas de l’argile mais un
+          roc, conformément aux codes de l’imagerie attique<note n="74" place="foot" type="standard" xml:id="ftn74">
+              <p>
+                <hi rend="italic">Id</hi>., p. 230.</p>
+            </note>. À partir de ce constat, on peut aller plus loin ; si la
+          pierre nous éloigne de la vraisemblance technique, elle nous
+          rapproche peut-être de l’imaginaire. En cours d’assemblage,
+          d’ajustage, la statue est presque achevée, contrairement à celle du
+          guerrier qui est en cours de finition. À un<hi rend="italic">
+              <foreign xml:lang="grc">agalma</foreign>
+            </hi> d’hoplite en devenir sous le regard de citoyens affirmés
+          s’oppose celui d’un jeune éphèbe, voire d’un adolescent, à naître,
+          offert au regard direct des spectateurs antiques. Dans les images,
+          le geste des bras, tendus vers l’avant et vers le haut, est celui
+          des enfants dans les bras de leur mère. Il est également celui
+          d’<persName ref="193820595" type="idref" xml:base="https://www.idref.fr/">Érichthonios</persName> qui, sur
+          des vases plus tardifs, émerge de la terre, dans les bras de
+          <persName ref="136414621" type="idref" xml:base="https://www.idref.fr/">Gaia</persName>
+            <note n="75" place="foot" type="standard" xml:id="ftn75">
+              <p>N. Loraux,<hi rend="italic"> Les enfants d’Athéna. Idées
+              athéniennes sur la citoyenneté et la division des sexes</hi>,
+              Paris, 1981, pp. 35<hi rend="italic"> sqq.,</hi> figg. 4-10. S.
+              Darthou, N. Strawczynski, « Naissance, reconnaissance,
+              légitimation : les gestes de filiation dans la céramique
+              attique »,<hi rend="italic"> L’expression des corps. Gestes,
+              attitudes, regards dans l’iconographie</hi> antique, L. Bodiou,
+              D. Frère, V. Mehl (éds.), Rennes, 2006, pp. 49<hi rend="italic">
+              sqq.,</hi> p. 54<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>. Il n’est pas question de reconnaître sur la coupe de
+          <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName> l’épisode de
+          la naissance du premier Athénien, connue en images depuis le <date from="-0599" to="-0500" type="_temp">
+              <hi rend="small-caps">vi</hi>
+              <hi rend="sup">e</hi> siècle
+          av. J.-C.</date>
+            <note n="76" place="foot" type="standard" xml:id="ftn76">
+              <p>A. H. Shapiro, « Autochtony and the Visual Arts in
+              Fifth-Century Athens »,<hi rend="italic"> Democracy, Empire and
+              the Arts in fifth century Athens</hi>, D. Dickmann Boedeker, A.
+              Kurt Raaflaub (eds.), Cambridge, 1998, pp. 127<hi rend="italic">
+              sqq.</hi>
+              </p>
+            </note>, mais bien, plutôt, une évocation de l’autochthonie des
+          citoyens-soldats athéniens. Une « naissance métallurgique », en
+          résonance avec l’épiphanie d’<persName ref="193820595" type="idref" xml:base="https://www.idref.fr/">Érichthonios</persName>, né de la
+          terre, du sol rocheux de l’Acropole d’<placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName> sur les
+          flancs méridionaux de laquelle se trouvaient des forges<note n="77" place="foot" type="standard" xml:id="ftn77">
+              <p>L. Fiorini, art. cit. n. 35, p. 158.</p>
+            </note> ; s’il y avait allusion à cette réalité elle devait être
+          de l’ordre du symbolique et non du topographique.</p>
+          <p xml:id="d1e1576">Une naissance comme une<hi rend="italic">
+              <foreign xml:lang="grc">anodos</foreign> ;</hi>
+          émerger du sol accompagné, aidé, par les Satyres marteleurs comme le
+          montrent d’autres images, comme le suggère le satyre armé d’un
+          marteau figurant sur l’une des<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">pinakes</hi>
+            </foreign> accrochée aux cornes de chèvre, près du four<note n="78" place="foot" type="standard" xml:id="ftn78">
+              <p>Pour le lien entre l’autochthonie et les satyres,<hi rend="italic"> cf.</hi> C. Bérard,<hi rend="italic"> Anodoi.
+              Essai sur l’imagerie des passages chthoniens</hi>, Rome, 1974,
+              pp. 41<hi rend="italic"> sqq., cf.</hi> aussi pp. 31<hi rend="italic"> sqq.,</hi> pour Dionysos,<hi rend="italic">
+              cf.</hi> pp. 103<hi rend="italic"> sqq.</hi>
+              </p>
+            </note> ? Les<hi rend="italic">
+              <foreign xml:lang="grc">pinakes</foreign>
+            </hi>, à sujets dionysiaques<note n="79" place="foot" type="standard" xml:id="ftn79">
+              <p>
+                <hi rend="italic">Cf. supra</hi> note 47.</p>
+            </note>, contribueraient ainsi à l’économie générale du sens de
+          l’image. Inscrites dans le contexte hermaïque, on l’a dit plus haut,
+          qui est celui des images, elles seraient détournées pour signifier à
+          la fois la « phallicité » du four, par association avec l’herme, et
+          une épiphanie, une<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">anodos</hi>
+            </foreign> citoyenne.</p>
+          <p xml:id="d1e1620">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-xanfbfny">métal</term>
+              </term>
+            </term>Il y a
+          peut-être plus. Dans l’imaginaire antique, les métaux sont des
+          produits de la terre. Les minéraux et les métaux sont vivants, voire
+          sexués, ils naissent du sol et sont ainsi associés aux divinités de
+          la fécondité dont <persName ref="02739560X" type="idref" xml:base="https://www.idref.fr/">Dionysos</persName> fait
+          partie<note n="80" place="foot" type="standard" xml:id="ftn80">
+              <p>L. Fiorini,<hi rend="italic"> art. cit</hi> n. 35, pp. 152<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>. Au risque de la surinterprétation, on peut suggérer que
+          la face A présente une suite de métamorphoses, de naissances, celle
+          des métaux et celle des hommes, de l’enfance à l’éphébie puis à la
+          citoyenneté. Quant à l’inscription qui suscite le commentaire
+          « <foreign xml:lang="grc">
+              <hi rend="italic">Diogenes kalos naichi</hi>
+            </foreign> », elle pourrait situer le référé du côté du divin et
+          du mortel.<hi rend="italic">
+              <persName type="_temp">Diogenes</persName>
+            </hi> est un nom propre sans doute commun, mais c’est un nom qui
+          signifie « fils de <persName ref="02747237X" type="idref" xml:base="https://www.idref.fr/">Zeus</persName> », or <persName ref="02747237X" type="idref" xml:base="https://www.idref.fr/">Zeus</persName> est le père de
+          presque tous les autochthones<note n="81" place="foot" type="standard" xml:id="ftn81">
+              <p>N. Loraux, « Origines des hommes »,<hi rend="italic">
+              Dictionnaire des mythologies</hi>,<hi rend="italic"> op.
+              cit.</hi> n. 60, p. 201 (repris dans<hi rend="italic"> Né de la
+              terre. Mythe et politique à Athènes</hi>, Paris, 1996, p. 25).
+              Diogenes est un nom qui apparaît sur d’autres vases, voir
+              Webster,<hi rend="italic"> op. cit.</hi> n. 37.</p>
+            </note>. Du coup, le « <hi rend="italic">
+              <foreign xml:lang="grc">ho pais kalos naichi</foreign>
+            </hi> » de la paroi B pourrait, dans ce contexte, se référer à
+          l’anonymat glorieux du soldat-citoyen athénien. Quant à
+          l’inscription au médaillon, elle tresserait l’appréciation
+          concernant <persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> à celle des
+          citoyens athéniens.</p>
+          <p xml:id="d1e1656">Proposer ce type de fonctionnement de l’image,
+          c’est supposer de la part des usagers grecs une capacité à jouer
+          avec la pluralité sémantique et avec les ambiguïtés, comme lors des
+          représentations tragiques où un auditeur « à l’attention mobile »
+          s’exerçait à « entendre la profondeur ambivalente des mots »<note n="82" place="foot" type="standard" xml:id="ftn82">
+              <p>N. Loraux,<hi rend="italic"> op. cit</hi> n. 75<hi rend="italic">,</hi> pp. 19<hi rend="italic"> sqq.,</hi> p. 20 ;
+              J.-P. Vernant, « Ambiguïté et renversement. Sur la structure
+              énigmatique d’Œdipe-Roi », J.-P. Vernant, P. Vidal-Naquet,<hi rend="italic"> Mythe et tragédie en Grèce ancienne I</hi>,
+              Paris, 1972, pp. 103-131.</p>
+            </note>. Pour le spectateur d’images, il s’agissait de se prêter
+          au jeu de décodage des ressemblances et des différences, au jeu
+          d’oscillation et de brouillage, qui élargit l’éventail des possibles
+          en favorisant la fluidité et la mise en réseau de significations
+          toujours en mouvement. Quelque chose qui serait de l’ordre d’une
+          technique explorant un « langage complexe et nerveux », pour
+          reprendre les termes de <persName ref="033887667" type="idref" xml:base="https://www.idref.fr/">M. Vidale</persName>, fondé sur la
+          perturbation des analogies et sur le jeu des métamorphoses. Un
+          exercice apparenté au déchiffrement des<hi rend="italic">
+          griphoi</hi>, des énigmes, ces « paroles de crabe » (<persName ref="028839099" type="idref" xml:base="https://www.idref.fr/">Ménandre</persName>, frgt. 525),
+          « parce qu’elles sont obliques et ne vont jamais droit au but », un
+          exercice que l’on pratiquait également dans le cadre du banquet où
+          circulaient le vin, les chants, la parole et les images<note n="83" place="foot" type="standard" xml:id="ftn83">
+              <p>M. Detienne et J.-P. Vernant,<hi rend="italic"> op. cit.</hi>
+              n. 59, pp. 288<hi rend="italic"> sqq.</hi> ; F. Lissarrague,<hi rend="italic"> op. cit.</hi> n. 36 ; R. Neer,<hi rend="italic">
+              op. cit.</hi> n. 36 ; C. Darbo-Pechanski, « Plaisirs de
+              l’énigme, plaisirs du savoir »,<hi rend="italic"> Mètis</hi> N.
+              S. 1, 2003, pp. 35<hi rend="italic"> sqq.</hi> À titre de
+              comparaison, pour les jeux d’images dans les manuscrits du Moyen
+              Âge voir : M. Camille,<hi rend="italic"> Images dans les marges.
+              Aux limites de l’art médiéval</hi>, Gallimard, 1997.</p>
+            </note>.</p>
+          <p xml:id="d1e1703">Si l’on suit la lecture proposée ici, la coupe
+          du peintre de la Fonderie pouvait donc se voir et se commenter à la
+          fois en référence à la réalité de la pratique socio-technique, en
+          tant que faire héphaistéen, comme elle pouvait se prêter au
+          déchiffrement d’un jeu de signes donnant à voir les productions de
+          l’activité des métallurgistes comme une métaphore du politique
+          inscrite dans le contexte des guerres médiques. Autrement dit, il
+          s’agissait de donner à voir la fabrication d’un jeune adolescent, un
+          autochthone athénien destiné à devenir un hoplite-citoyen. Cette
+          proposition revient à placer l’accent sur la valeur d’usage, celle
+          des « statues », autant que sur celle du faire des bronziers. Un
+          donné à voir cependant issu de la<hi rend="italic"> technê</hi> du
+          peintre, sans doute à son tour objet de commentaires.</p>
+        </div>
+        <div type="section1" xml:id="d1e1708">
+          <head subtype="level1" xml:id="d1e1709">Façonnages des corps,
+          façonnage de l’image</head>
+          <p xml:id="d1e1711">À la fin du<hi rend="uppercase"/>
+            <date from="-0599" to="-0400" type="_temp">
+              <hi rend="uppercase">VI</hi>
+              <hi rend="sup">e</hi> siècle et dans le premier quart du<hi rend="uppercase"> V</hi>
+              <hi rend="sup">e</hi>
+            </date>, les coupes
+          recouvertes de vernis noir deviennent le support principal des
+          activités artisanales, représentées au médaillon, seule surface
+          décorée du vase<note n="84" place="foot" type="standard" xml:id="ftn84">
+              <p>On retrouve une composition analogue sur une pyxide vernie de
+              noir (Petit Palais 382,<hi rend="italic"> ARV</hi>
+                <hi rend="sup">2</hi> 81/1) : un jeune fabricant de casque y est
+              représenté en figures rouges sur la surface circulaire du
+              couvercle</p>
+            </note>. Dans ce dispositif qui met particulièrement en valeur
+          l’activité poïétique, l’artisan est le plus souvent un jeune
+          adolescent<note n="85" place="foot" type="standard" xml:id="ftn85">
+              <p>Remarquer le duvet sur les joues d’un fabricant de cnémides
+              sur une coupe attribuée à Phintias, Florence PD 117,<hi rend="italic"> ARV</hi>
+                <hi rend="sup">2</hi> 24.13.</p>
+            </note>, comparable à ceux qui sont courtisés ou s’exercent dans
+          la palestre. Placé au cœur du vase manipulé (potentiellement au
+          moins) par le buveur, l’ouvrier est digne de regard et valorisé,
+          notamment lorsqu’il est représenté nu<note n="86" place="foot" type="standard" xml:id="ftn86">
+              <p>De même J. Ziomecki,<hi rend="italic"> op. cit.</hi> n. 6,
+              pp. 135<hi rend="italic"> sqq.</hi> qui voit une valorisation de
+              l’artisan, non seulement par l’érotisation du corps juvenile nu,
+              mais aussi par les bandeaux et les couronnes qui ceignent leur
+              tête. Les divinités qui assistent ces artisans témoigneraient
+              d’une sorte d’héroïsation, à l’instar de Thésée ou Héraclès.
+              Pour Ph. Jockey,<hi rend="italic"> op. cit.</hi> n. 2, p. 70,
+              par contre, la nudité refléterait dans certains cas les
+              conditions réelles du travail et participerait de la vision
+              dégradante des corps. Plus loin l’auteur reconnaît cependant
+              plusieurs indices de la valorisation des artisans, dont la
+              nudité.</p>
+            </note>. Ainsi le peintre figuré au médaillon d’une coupe du
+          peintre d’Antiphon (fig. 5)<note n="87" place="foot" type="standard" xml:id="ftn87">
+              <p>Coupe du peintre d’Antiphon, Boston 01.8073,<hi rend="italic"> ARV</hi>
+                <hi rend="sup">2</hi> 342/19. Pour J.
+              Ziomecki,<hi rend="italic"> op. cit.</hi> n. 6, p. 132, cet
+              artisan, potentiellement un homme libre, « rêve d’une vie
+              cossue ». Ph. Jockey, art. cit. n. 2, p. 71, confond
+              l’herminette à long manche du médaillon de Copenhague 967 (<hi rend="italic">ARV</hi>
+                <hi rend="sup">2</hi> 75/59), analogue à
+              celle du médaillon de Londres E23 (<hi rend="italic">ARV</hi>
+                <hi rend="sup">2</hi> 179/1), avec une canne qui serait un « symbole
+              aristocratique de la jeunesse dorée ».</p>
+            </note> participe aux valeurs des « bons citoyens » grâce à la
+          canne et au paquetage de l’athlète qui l’accompagnent. Les offrandes
+          d’artisans trouvées sur l’Acropole témoignent également de la
+          « fierté » des artisans et de leur désir de reconnaissance<note n="88" place="foot" type="standard" xml:id="ftn88">
+              <p>I. Scheibler, « Griechische Künstlervotive der archaischen
+              Zeit »,<hi rend="italic"> MüJb</hi> 30, 1979, pp. 7-30 ; C.
+              Wagner, « The Potters and Athena : Dedications on the Athenian
+              Acropolis »,<hi rend="italic"> Periplous : Papers on Classical
+              Art and Archaeology Presented to Sir John Boardman</hi>, G. R.
+              Tsetskhladze, A. J. N. W. Prag, et A. M. Snodgrass (eds.),
+              Londres, 2000, pp. 383-387. Plusieurs identifications d’artisans
+              et notamment de potiers faites par A. E. Raubitschek,<hi rend="italic"> Dedications from the Athenian Akropolis</hi>,<hi rend="italic"> A Catalogue of the Inscriptions of the Sixth and
+              Fifth centuries B. C.,</hi> Cambridge (Mass.), 1949, ont
+              cependant été mises en cause récemment par K. Keesling,
+              « Patrons of Athenian votive monuments of the archaic and
+              classical periods, three studies »,<hi rend="italic">
+              Hesperia</hi> 74, 2005, pp. 415<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>. C’est d’ailleurs sur l’Acropole qu’a été trouvée la seule
+          autre coupe connue, avec celle de Berlin, qui présente des activités
+          artisanales sur le pourtour externe (fig. 6)<note n="89" place="foot" type="standard" xml:id="ftn89">
+              <p>Coupe du peintre d’Euergides, Acropole 166,<hi rend="italic">
+              ARV</hi>
+                <hi rend="sup">2</hi> 92/64. J. D. Beazley,<hi rend="italic"> Potter and Painter in Ancient Athens</hi>
+              (Londres, 1944), repris dans<hi rend="italic"> Greek Vases,
+              Lectures,</hi> D. C. Kurtz (ed.), Oxford, 1989, p. 41, fait
+              remarquer que la coupe décorée ici par le peintre est plutôt du
+              type des « petits maîtres », donc un modèle ancien pour le
+              peintre d’Euergides.</p>
+            </note>. Les fragments qui subsistent montrent <persName ref="027591786" type="idref" xml:base="https://www.idref.fr/">Athéna</persName> assise<note n="90" place="foot" type="standard" xml:id="ftn90">
+              <p>Il s’agit bien entendu d’une Athéna qui est simultanément
+              « vivante » et « statuesque ».<hi rend="italic"> Cf.</hi> N.
+              Strawczynski, « Quel archaïsme ? À propos des représentations de
+              statues sur la céramique attique »,<hi rend="italic"> Ktèma</hi>
+              31, 2006, p. 169.</p>
+            </note> entre un peintre de vase qui est peut-être couronné par la
+          divinité féminine, et un forgeron. Il n’est pas possible de
+          déterminer avec certitude si le cheval représenté sur un autre
+          fragment est une statue<note n="91" place="foot" type="standard" xml:id="ftn91">
+              <p>J. D. Beazley,<hi rend="italic"> op. cit.</hi> n. 89.</p>
+            </note>. La scène ne montre pas l’espace unifié d’un atelier<note n="92" place="foot" type="standard" xml:id="ftn92">
+              <p>On ne peut prétendre comme M. Pugliara, art. cit. n. 8, p.
+              139, qu’il s’agit d’un seul atelier qui serait représenté, comme
+              si l’image s’ancrait obligatoirement dans un lieu déterminé.</p>
+            </note> mais juxtapose des motifs « typiques » du travail
+          artisanal pour témoigner de son importance et peut-être également
+          exprimer une certaine « proximité » entre des métiers ou bien des
+          collaborations éventuelles<note n="93" place="foot" type="standard" xml:id="ftn93">
+              <p>J. Muccigrosso, « Painters on Pots »,<hi rend="italic"> AIA
+              108th Annual Meeting Abstracts</hi> 30, 2006, pense que ce n’est
+              pas une coupe en terre-cuite mais en métal qui est représentée :
+              tout l’atelier serait donc consacré à ce matériau.</p>
+            </note>.</p>
+          <p xml:id="d1e1843">La coupe de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName> s’intègre
+          donc dans ce corpus de coupes montrant le travail artisanal, mais
+          elle s’en écarte toutefois de manière importante. En effet, le vase
+          dans son ensemble est ici décoré, le médaillon étant moins un point
+          focal que la reprise de la thématique artisanale sur le mode du
+          mythe. Cet écart permet au peintre d’insister davantage sur la
+          fabrication et sur les « produits » : c’est le faire et la statue
+          qui sont dignes de regard, les artisans, qui ne sont pas dénigrés
+          non plus, ne sont que des « agents »<note n="94" place="foot" type="standard" xml:id="ftn94">
+              <p>Pour la perception ancienne de l’artisan comme « secondaire »
+              par rapport à l’œuvre (et au matériau travaillé), voir en
+              dernier J. Tanner,<hi rend="italic"> The invention of art
+              history in Ancient Greece. Religion, society and artistic
+              rationalisation</hi>, Cambridge, 2006, pp. 49<hi rend="italic">
+              sqq.</hi>
+              </p>
+            </note>.</p>
+          <p xml:id="d1e1854">L’avers de la coupe présente deux points focaux,
+          la mise en activité du four à gauche et l’assemblage de la statue à
+          droite. L’ouvrier figuré au centre articule les deux motifs : tourné
+          vers le four, dans la position de celui qui s’apprête à
+          modeler/battre le métal comme sur une oenoché à figures noires (fig.
+          7)<note n="95" place="foot" type="standard" xml:id="ftn95">
+              <p>Oenochoé attribuée à la Keyside Class,<hi rend="italic">
+              supra</hi> n. 54.</p>
+            </note>, il signale l’ajustage à venir effectué avec le même type
+          de marteau que sur lequel il s’appuie<note n="96" place="foot" type="standard" xml:id="ftn96">
+              <p>S. Casson,<hi rend="italic"> The Technique of Early Greek
+              Sculpture</hi>, Oxford, 1933, pp. 227-229, souligne que les
+              marteaux sur la coupe de Berlin sont destinés à une battue
+              légère, typique du travail du bronze contrairement à celui du
+              fer.</p>
+            </note>. L’espace de l’assemblage, contrairement à l’espace autour
+          du four qui est plus clos et délimité comme une aire sacrée, est
+          signifié par un monticule probablement rocheux qui « soutient » le
+          corps en devenir.</p>
+          <p xml:id="d1e1870">S’il est difficile de définir la nature des
+          pieds (ou du pied et de la main) suspendus dans le champ<note n="97" place="foot" type="standard" xml:id="ftn97">
+              <p>Sur leur identification comme modèles ou comme parties de
+              statues de bois, de terre-cuite ou de bronze, voir M. Vidale,<hi rend="italic"> op. cit.</hi> n. 6, p. 227. G. Zimmer,<hi rend="italic"> op. cit.</hi> n. 8, p. 16, pense qu’il s’agit de
+              modèles pour la fabrication en fonte à la cire perdue,
+              permettant la reproduction répétée d’après un même modèle,
+              procédé utilisé pour les bronzes de Riace.</p>
+            </note>, leur présence renforce, avec la tête qui va être fixée à
+          la statue en cours, l’aspect « pièces détachées » de la statue, ce
+          que soulignent également les outils figurés dans le champ, marteaux
+          et scies, utilisés pour le découpage et l’assemblage<note n="98" place="foot" type="standard" xml:id="ftn98">
+              <p>Pour J. Ziomecki,<hi rend="italic"> op. cit.</hi> n. 8, p.
+              84, cette scie rappelle celles servant à découper les planches.
+              M. Vidale,<hi rend="italic"> op. cit.</hi> n. 6, p. 219, met la
+              scie en relation avec le portique du revers. Il indique aussi
+              que les marteaux figurés dans le champ, plus légers que ceux des
+              forgerons, serviraient à des battues légères, comme l’insertion
+              de tasseaux de réparation. Les outils représentés semblent donc
+              davantage liés au travail du bois.</p>
+            </note>. Les statues de bronze, comme en témoignent celles de
+          <placeName ref="6543637" type="geonames" xml:base="https://www.geonames.org/">Riace</placeName>, étaient
+          moulées en plusieurs parties séparées<note n="99" place="foot" type="standard" xml:id="ftn99">
+              <p>Pour les bronzes de Riace, la tête, les bras (en deux
+              parties), et diverses autres pièces (scrotum, sexe, parties
+              antérieures des pieds et les orteils médians ont été fabriqués
+              séparément du torse-jambes-pieds).</p>
+            </note>. Certaines statues de marbre étaient de même faites de
+          morceaux assemblés<note n="100" place="foot" type="standard" xml:id="ftn100">
+              <p>Voir A. Hermary, « Les têtes rapportées dans la sculpture
+              grecque archaïque »,<hi rend="italic"> Bulletin de
+              Correspondance Hellénique</hi> 122, 1998, pp. 53<hi rend="italic"> sqq.</hi> ; A. Claridge, « The ancient techniques
+              of making joins in marble statuary »,<hi rend="italic"> Marble
+              Art. Historical and Scientific Perspectives on Ancient
+              Sculpture</hi>, M. True et J. Podany (eds.), Malibu, 1990, pp.
+              135-162.</p>
+            </note>. La petite excroissance sur le pied figuré de profil dans
+          le champ pourrait d’ailleurs faire penser à un tenon qui viendrait
+          s’encastrer dans une mortaise creusée dans la cheville. Le four de
+          gauche, qui n’est absolument pas adapté à la fusion de grandes
+          quantités de métal<note n="101" place="foot" type="standard" xml:id="ftn101">
+              <p>Voir la remise en cause de certaines restitutions (et
+              notamment de l’usage à cet effet qui est fait de la coupe de
+              Berlin) par le fondeur Nigel Konstam,
+              http://www.verrocchio.co.uk/greek_sculpture/ancient_bronze_tech.html.
+              Konstam propose pour les grands bronzes des fours à cheminées
+              contenant le moule, qui seraient adossés à une colline. La tête,
+              le pénis et l’avant des pieds étant moulés séparément.</p>
+            </note>, convient bien mieux à la fusion des petites quantités
+          nécessaires à la jointure des diverses pièces<note n="102" place="foot" type="standard" xml:id="ftn102">
+              <p>Ce four est analogue à ceux représentés dans les scènes de
+              forge.<hi rend="italic"> Cf.</hi> M. Vidale,<hi rend="italic">
+              op. cit.</hi> n. 6, pp. 220-221. G. Zimmer,<hi rend="italic">
+              op. cit.</hi> n. 8, p. 15, pense également à la préparation de
+              métal pour la soudure.</p>
+            </note> ou éventuellement au moulage des parties de petite taille.
+          Dans la statuaire de marbre, ce sont souvent les avant-bras détachés
+          du corps et la tête qui sont sculptés séparément et assemblés par
+          tenons et mortaises avec du plomb fondu. Toute l’habileté des
+          artisans, aussi bien dans les statues de marbre que dans celles de
+          bronze, était requise dans la délicate mission d’effacer ces traces
+          de joints, comme ceux qui sont visibles encore sur le poignet et
+          l’avant-bras de la statue en cours de fabrication sur la coupe de
+          <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>
+            <note n="103" place="foot" type="standard" xml:id="ftn103">
+              <p>J. Ziomecki,<hi rend="italic"> op. cit.</hi> n. 8, p. 111
+              pour qui ces traits soulignent que la statue n’est pas encore
+              finie.</p>
+            </note>. Contrairement à la plupart des scènes autour d’une forge
+          qui mettent l’accent sur le métal, manipulé avec des pinces,
+          figurées parfois dans le champ, la transformation de la matière
+          n’est pas soulignée sur la coupe de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>, car c’est
+          moins la fabrication des pièces que leur assemblage qui intéresse le
+          peintre<note n="104" place="foot" type="standard" xml:id="ftn104">
+              <p>F. Frontisi-Ducroux,<hi rend="italic"> Dédale. Mythologie de
+              l’artisan en Grèce ancienne</hi>, Paris 2000 (1975<hi rend="sup">1</hi>), p. 78, signale que dans son acception la
+              plus étroite,<hi rend="italic"> daidalon</hi> dénote un travail
+              de découpage, valeur à laquelle s’associerait immédiatement la
+              notion opposée et complémentaire d’ajustage.</p>
+            </note>.</p>
+          <p xml:id="d1e1947">Au revers, ce sont justement les dernières
+          touches qui permettent l’effacement des traces du processus de
+          fabrication qui sont montrées, en même temps qu’est évoquée la
+          patine satinée des statues<note n="105" place="foot" type="standard" xml:id="ftn105">
+              <p>M. Vidale,<hi rend="italic"> op. cit.</hi> n. 6, pp. 233-234
+              qui revient sur les diverses hypothèses propose également
+              l’application d’une feuille d’or, d’une patine ou d’une
+              protection. À noter la remarque de P. Ducati, cité par Vidale
+              (p. 233), qui dit que les artisans lissent la statue et lui
+              confèrent la « lucentezza brillante », la brillance satinée.<hi rend="italic"> Cf.</hi> aussi G. Zimmer,<hi rend="italic"> op.
+              cit.</hi> n. 8, p. 11.</p>
+            </note>, analogue aux corps oints des athlètes. La composition
+          focalise notre regard sur la statue placée au centre de l’image,
+          manipulée par les deux artisans et observée par deux hommes appuyés
+          sur leur canne qui encadrent la scène. Ceux qui perçoivent la coupe
+          de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName> comme
+          l’espace unifié d’un atelier du v<note n="106" place="foot" type="standard" xml:id="ftn106">
+              <p>Cette opinion est largement répandue. Voir en dernier lieu,
+              M. Vidale,<hi rend="italic"> op. cit.</hi> n<hi rend="italic">.</hi> 6, pp. 216-217.</p>
+            </note>, s’interrogent sur l’identité de ces deux hommes, et
+          interprètent leur taille, posture et attributs athlétiques comme une
+          marque de hiérarchie sociale<note n="107" place="foot" type="standard" xml:id="ftn107">
+              <p>M. Vidale,<hi rend="italic"> op. cit.</hi> n. 6, p. 236,
+              conclut ainsi l’interprétation de la coupe : le revers
+              montrerait la réalisation finale d’une œuvre de prestige dans un
+              contexte d’interaction sociale entre artisans et citoyens aisés.
+              On distinguerait ainsi une nette hiérarchisation des rôles et
+              des statuts.</p>
+            </note> : ce seraient les propriétaires de l’atelier (peut-être
+          des sculpteurs), voire des citoyens clients<note n="108" place="foot" type="standard" xml:id="ftn108">
+              <p>M. Vidale,<hi rend="italic"> op. cit.</hi> n. 6, p. 231, qui
+              recense les diverses interprétations, propose d’y voir des
+              membres de l’aristocratie athénienne peut-être liés à la
+              commande ou des surintendants. G. Zimmer,<hi rend="italic">
+              op. cit.</hi> n. 8, p. 12, propose d’y voir des citoyens, allant
+              ou venant de la palestre, qui visitent le quartier des artisans
+              pour discuter de problèmes d’art et de technique.</p>
+            </note>. Mais si on prend en compte les diverses échelles, on peut
+          aussi percevoir la scène comme une juxtapositions d’espaces : un
+          espace « délimité » partiellement par la construction, où l’activité
+          artisanale est mise en scène et un autre espace, non pas un lieu
+          mais un espace signifiant qui est celui du « fonctionnement » de la
+          statue, l’espace de sa vision par des spectateurs. Le corps de la
+          statue du guerrier est admiré comme le corps des jeunes athlètes,
+          car les « spectateurs » ici font directement référence aux scènes de
+          palestre ou de concours athlétique, autant par leur posture que par
+          les strigiles et aryballes figurés dans le champ. La taille du
+          racloir (et du marteau) figurés aussi dans le champ est comparable à
+          celle des strigiles (alors que les artisans sont plus petits), pour
+          souligner encore l’analogie du corps de la statue et du corps des
+          athlètes. Et les inscriptions laudatives<note n="109" place="foot" type="standard" xml:id="ftn109">
+              <p>
+                <hi rend="italic">Ho pais kalos</hi> au médaillon,<hi rend="italic"> Diogenes kalos naichi</hi> sur la première face
+              et<hi rend="italic"> Ho pais kalos naichi</hi> au revers. Le
+              terme<hi rend="italic"> naichi</hi> (certes), renforce encore le
+              caractère admiratif.</p>
+            </note> qui interpellent le spectateur du vase renforcent encore
+          cet aspect. C’est l’œuvre qui est admirée, elle « dépasse » en
+          quelque sorte ces auteurs<note n="110" place="foot" type="standard" xml:id="ftn110">
+              <p>
+                <hi rend="italic">Cf.</hi> ci-dessus n. 94.</p>
+            </note>, presque de manière littérale ici par l’effet d’échelle,
+          sans que l’on puisse déceler une trace d’une éventuelle infériorité
+          des artisans. Sur la coupe de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>, les
+          spectateurs relaient le regard du spectateur de statues anciennes,
+          mais aussi celui de l’usager du vase.</p>
+          <p xml:id="d1e2013">Sans reprendre ici le vaste dossier des
+          « spectateurs » ou « bystanders »<note n="111" place="foot" type="standard" xml:id="ftn111">
+              <p>Sur le motif des spectateurs dans la céramique attique, voir
+              en dernier lieu, M. Stansbury-O’Donnell,<hi rend="italic">
+              Vase-Painting, Gender, and Social Identity in Archaic
+              Athens</hi>, Cambridge, 2006.</p>
+            </note>, il semble nécessaire d’évoquer comme on vient de le faire
+          les images où ces personnages regardent les jeunes athlètes, mais
+          aussi d’autres scènes qui sont proches de la coupe de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName> par leur
+          sujet, à savoir les scènes de travail artisanal. En effet, si sur
+          les médaillons de coupes à figures rouges déjà mentionnés, les
+          artisans sont « isolés » dans leur travail, plusieurs vases à
+          figures noires contemporains des premières figures rouges, des
+          amphores ou des pélikés, montrent d’autres personnages dans les
+          ateliers, généralement interprétés comme des clients. Sur l’amphore
+          du peintre de Plousios qui présente respectivement une forge et une
+          cordonnerie (fig. 1)<note n="112" place="foot" type="standard" xml:id="ftn112">
+              <p>Amphore à figures noires attribuée au peintre de Plousios,<hi rend="italic"> supra</hi> n. 9.</p>
+            </note>, ces clients-spectateurs sont au nombre de trois : un
+          vieillard qui tend le bras vers le cordonnier, relayé par le geste
+          de la femme qui se fait fabriquer des chaussures et deux hommes
+          barbus qui regardent les forgerons, dont l’un tend le bras de la
+          même manière que le vieillard. Le peintre a disposé les deux hommes
+          en léger décalage ce qui donne un effet de gradins à leur
+          position<note n="113" place="foot" type="standard" xml:id="ftn113">
+              <p>G. Zimmer,<hi rend="italic"> op. cit.</hi> n. 8, p. 12, pense
+              que ces spectateurs sont assis « pour mieux suivre
+              l’événement ».</p>
+            </note>. Dans la scène de cordonnerie figurée sur une péliké du
+          peintre d’Eucharidès (fig. 2)<note n="114" place="foot" type="standard" xml:id="ftn114">
+              <p>Péliké du peintre d’Eucharidès,<hi rend="italic"> supra</hi>
+              n. 9. Même pose (et couronne de feuillage) pour le spectateur
+              d’une audition de citharède sur une autre péliké d’Eucharidès
+              (Samothrace,<hi rend="italic"> ARV</hi>
+                <hi rend="sup">2</hi>
+              232/1). Sur une autre péliké du même peintre (Gela 124b,<hi rend="italic"> CVA</hi> 4 pl. 8-9), le spectateur de la
+              compétition musicale est assis. Il est ceint de feuillages,
+              comme les musiciens.</p>
+            </note>, dont la composition est proche de celle du peintre de
+          Plousios, un client-spectateur assiste debout au travail du
+          cordonnier, alors que le jeune homme qui se fait fabriquer des
+          chaussures tend le bras comme dans les scènes précédentes. Plusieurs
+          scènes d’activités artisanales ou commerciales apparaissent sur des
+          pélikés à figures noires. Dans un article consacré à ce type de
+          vase<note n="115" place="foot" type="standard" xml:id="ftn115">
+              <p>H. A. Shapiro, « Correlating Shape and Subject : The Case of
+              the Archaic Pelike »,<hi rend="italic"> Athenian Potters and
+              Painters : the Conference Proceedings</hi>, J. H. Oakley<hi rend="italic"> et al.</hi> (eds), Oxford, 1997, pp. 63-70.</p>
+            </note>, <persName ref="035029668" type="idref" xml:base="https://www.idref.fr/">Shapiro</persName> rapproche ces
+          scènes des<hi rend="italic">
+              <foreign xml:lang="grc">agones</foreign>
+            </hi> musicaux qui y sont également largement représentés, et
+          qu’il met en relation avec les Panathénées<note n="116" place="foot" type="standard" xml:id="ftn116">
+              <p>Il est à noter que l’on doit au peintre d’Eucharidès des
+              amphores panathénaïques et pseudo-panathénaïques dont une large
+              part a été trouvée sur l’Acropole :<hi rend="italic"> cf.</hi>
+              E. Langridge, « The Panathenaic Amphorae Attributed to the
+              Eucharides Painter »,<hi rend="italic"> American Journal of
+              Archaeology</hi> 96, 1992, p. 369.</p>
+            </note>. Les musiciens seraient ainsi « des artisans talentueux,
+          admirés pour leur habileté ». Au niveau de la composition, les
+          auditeurs des concerts, qu’ils soient assis ou debout, sont
+          analogues aux spectateurs-clients des activités artisanales.
+          D’ailleurs pour <persName ref="028414624" type="idref" xml:base="https://www.idref.fr/">G. Zimmer</persName>, le spectacle
+          d’une activité artisanale était considéré comme aussi respectable
+          que le spectacle d’un<hi rend="italic">
+              <foreign xml:lang="grc">agôn</foreign>
+            </hi> musical<note n="117" place="foot" type="standard" xml:id="ftn117">
+              <p>G. Zimmer, « Les ateliers de fabrication des grands
+              bronzes »,<hi rend="italic"> L’artisanat métallurgique dans les
+              sociétés anciennes en méditerranée occidentale : techniques,
+              lieux et formes de production</hi> (Colloque, Ravello
+              04/05/2000), A. Lehoërff (éd.), coll. EFR 332, Rome, 2004, p.
+              350.</p>
+            </note>. Ce regard n’est pas qu’admiration, car si le plaisir de
+          la vision ou l’érotique du regard sont des<hi rend="italic">
+          topoi</hi> de la pensée grecque, la vision est aussi liée à l’acte
+          de juger, d’évaluer : être vu, c’est être évalué<note n="118" place="foot" type="standard" xml:id="ftn118">
+              <p>S. Goldhill, « Placing theater in the history of vision »,<hi rend="italic"> Word and Image in Ancient Greece</hi>, N. K.
+              Rutter, B. A. Sparkes (eds.), Edimbourg, 2000, pp. 169<hi rend="italic"> sqq.</hi> Dans le même ouvrage, J. Tanner,
+              « Social structure, cultural rationalisation and aesthetic
+              judgement in classical Greece », p. 196, n. 12, fait remarquer
+              la convergence chez les écrivains grecs, entre juger des corps
+              et juger des œuvres des artistes.</p>
+            </note>. Au théâtre, à l’Assemblée, dans les tribunaux et
+          ailleurs, le citoyen regarde et juge en même temps<note n="119" place="foot" type="standard" xml:id="ftn119">
+              <p>A. M. Lanni, « Spectator sport or serious politics ? οἱ
+              περιεστηκότες and the Athenian lawcourts »,<hi rend="italic">
+              Journal of Hellenic Studies</hi> 117, 1997, pp. 183-189, a
+              montré que des spectateurs-auditeurs qui ne participaient pas
+              directement aux séances de l’Assemblée ou aux procès, étaient
+              aussi invoqués comme « juges » de ce qui est en jeu dans les
+              débats.</p>
+            </note>. De son côté, <persName ref="066946948" type="idref" xml:base="https://www.idref.fr/">R. Neer</persName>
+            <note n="120" place="foot" type="standard" xml:id="ftn120">
+              <p>R. Neer,<hi rend="italic"> op. cit.</hi> n. 36.</p>
+            </note> ancre la<hi rend="italic">
+              <foreign xml:lang="grc">technê</foreign>
+            </hi> dans le contexte de rivalité et compétition entre les
+          artisans, cadre qui peut parfaitement se superposer au type de
+          regard que l’on vient de préciser.</p>
+          <p xml:id="d1e2116">Sur une autre coupe du peintre de la Fonderie
+          (fig. 8)<note n="121" place="foot" type="standard" xml:id="ftn121">
+              <p>Coupe du peintre de la Fonderie, Munich 2650,<hi rend="italic"> ARV</hi>
+                <hi rend="sup">2</hi> 400/2.</p>
+            </note>, cette articulation entre l’activité poïétique, la
+          perception du produit terminé et son « évaluation » est très
+          clairement exprimée. Sur l’une des faces, on y voit un homme vêtu
+          d’un pagne qui tient un burin et un marteau. Il s’agit donc d’un
+          artisan, ce qui permet d’interpréter le cheval qui l’accompagne
+          comme une statue. Il faut noter également le geste ample d’<persName ref="027591786" type="idref" xml:base="https://www.idref.fr/">Athéna</persName>, qu’on peut
+          interpréter comme une sorte d’approbation de l’œuvre<note n="122" place="foot" type="standard" xml:id="ftn122">
+              <p>Geste analogue de la déesse par exemple lors du vote pour
+              l’attribution des armes d’Achille.<hi rend="italic"/>
+                <hi rend="italic">Cf.</hi> A. Boegehold, « A Signifying Gesture :
+              Euripides,<hi rend="italic"> Iphigeneia Taurica</hi>
+              965-966 »,<hi rend="italic"> American Journal of
+              Archaeology</hi> 93, 1989, pp. 81-83. Sur une coupe à figures
+              rouges (Villa Giulia 5993,<hi rend="italic"> ARV</hi>
+                <hi rend="sup">2</hi> 625/102), un homme placé derrière un athlète
+              vainqueur ceint de bandelettes tend son bras vers celui-ci,
+              paume vers le bas comme dans l’amphore de Boston. Il tient de
+              l’autre main une bandelette enroulée. Ce geste, lié à la
+              victoire, pourrait témoigner de la maîtrise de l’artisan, de
+              sa<hi rend="italic"> technê</hi>.<hi rend="italic"> Cf.</hi> M.
+              Detienne, « Athena and the Mastery of the Horse »,<hi rend="italic"> History of Religions</hi> 11, 1971, p. 167, à
+              propos du geste d’Athéna qui étend son bras au dessus du four
+              dans le fameux poème des potiers.</p>
+            </note>. C’est peut-être en ce sens aussi que l’on peut comprendre
+          les gestes des clients-spectateurs mentionnés plus haut : leur
+          regard s’accompagne de l’évaluation et de l’approbation du travail
+          effectué.</p>
+          <p xml:id="d1e2157">L’artisan avec le cheval se présente devant un
+          homme assis près d’un arbre, vêtu d’un long chiton et d’un himation,
+          tenant une canne. La scène est construite comme une scène de
+          dokimasie (fig. 9)<note n="123" place="foot" type="standard" xml:id="ftn123">
+              <p>Par exemple la coupe du peintre de la Dokimasie, Berlin F
+              2296,<hi rend="italic"> ARV</hi>
+                <hi rend="sup">2</hi> 412/1.</p>
+            </note>, évocation renforcée ici par l’absence de socle qui
+          identifierait clairement le cheval comme une statue. La
+          représentation de l’examen du cheval « vivant » se superpose ainsi à
+          l’examen de la représentation d’une « statue » de cheval. La
+          dokimasie de la coupe de <placeName ref="2867714" type="geonames" xml:base="https://www.geonames.org/">Munich</placeName> possède
+          alors un degré de fiction supérieur par rapport à la simple
+          représentation peinte d’une dokimasie, mais toutes deux thématisent
+          l’articulation entre regard et évaluation.</p>
+          <p xml:id="d1e2168">Revenons à la coupe de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>. Au
+          médaillon, si l’image mythologique est plus banale puisqu’elle fait
+          partie d’une petite série cohérente dans le sujet et la chronologie,
+          la mise en scène souligne la panoplie d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName>,
+          toute entière (cnémides, lance, casque et bouclier) disposée au
+          centre supérieur du médaillon. Les armes disent le Péléide et
+          participent à l’évocation du corps, non figuré, du héros à la gloire
+          éternelle. Chaque face de cette coupe présente donc une mise en
+          scène de la<hi rend="italic">
+              <foreign xml:lang="grc">poiêsis</foreign>
+            </hi> du corps : le corps héroïque évoqué par les armes au
+          médaillon, le corps façonné à l’avers et le corps objet mémoriel
+          admiré et évalué au revers. À cette étude sur le façonnage des
+          corps, se superpose la réflexion sur la représentation : l’image
+          d’un athlète statufié<note n="124" place="foot" type="standard" xml:id="ftn124">
+              <p>Et non une statue d’athlète qui serait le modèle. D. T.
+              Steiner, « Moving Images : Fifth-Century Victory Monuments and
+              the Athlete’s Allure »,<hi rend="italic"> Classical
+              Antiquity,</hi> 17, 1998, p. 131 revient sur cette formule et
+              insiste sur le regard statufiant des spectateurs à la palestre.
+              J. Ziomecki,<hi rend="italic"> op. cit.</hi> n. 8, p. 111, parle
+              « d’adolescent statufié ».</p>
+            </note> et l’image d’une statue de guerrier témoignent ainsi de la
+          fabrication d’images. Comme dans la description du bouclier
+          d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> dans l’<hi rend="italic">Iliade</hi>, où le poète souligne l’aspect artificiel
+          de la représentation figurée tout en animant la scène de manière à
+          lui donner un statut de « réalité » vivante<note n="125" place="foot" type="standard" xml:id="ftn125">
+              <p>D. T. Steiner,<hi rend="italic"> op. cit.</hi> n. 72, pp.
+              20-23.</p>
+            </note>, le peintre souligne ici le caractère fictif<note n="126" place="foot" type="standard" xml:id="ftn126">
+              <p>Le terme « fiction » recouvre toutes sortes de fabrications.
+              Comme le dit très justement M. Wood dans son prologue à<hi rend="italic"> Lies and Fiction in the Ancient World</hi>, C.
+              Gill et T. P. Wiseman (eds.), Exeter, 1993, p. <hi rend="small-caps">xvi</hi>, « It is invention which knows it is
+              invention ; or which knows<hi rend="italic"> and says</hi> it is
+              invention ; or which, whatever is knows and says,<hi rend="italic"> is known</hi> to be invention. ».</p>
+            </note> de toute représentation : il abolit et simultanément met
+          en scène le rapport aux divers référents, l’athlète, le guerrier,
+          leurs statues, leurs figures peintes…<note n="127" place="foot" type="standard" xml:id="ftn127">
+              <p>On trouvera chez R. Neer,<hi rend="italic"> op. cit.</hi> n.
+              36, p. 78<hi rend="italic"> sqq.</hi> une conclusion qui va dans
+              le même sens, malgré nos différences dans le commentaire de la
+              représentation, notamment le caractère facétieux, ironique ou
+              obscène de certains éléments. Je retiens de son analyse que
+              cette coupe s’exprime d’une certaine manière sur la fabrication
+              d’images, elle se présente comme un commentaire, dont la
+              stratégie rhétorique serait de confondre la distinction entre
+              l’objet et sa représentation.</p>
+            </note> Ces figures peintes qui évoquent la statuaire et ces
+          statues (le guerrier de la coupe de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName> ou le cheval
+          de la coupe de <placeName ref="2867714" type="geonames" xml:base="https://www.geonames.org/">Munich</placeName>) présentées
+          comme des figures « vivantes », mais que l’on sait être peintes<note n="128" place="foot" type="standard" xml:id="ftn128">
+              <p>Voir Neer, p. 82<hi rend="italic"> sqq.</hi> et 120<hi rend="italic"> sqq.</hi> et N. Strawczynski, art. cit. n.
+              90.</p>
+            </note>, ébranlent la perception de la scène : par cet effet de
+          brouillage<note n="129" place="foot" type="standard" xml:id="ftn129">
+              <p>Comme le fait remarquer D. Arasse,<hi rend="italic"> On n’y
+              voit rien. Descriptions</hi>, Paris 2003 (2000), p. 201, pour
+              les Ménines : « En faisant glisser l’attention de l’objet
+              représenté […] aux conditions de sa représentation, le
+              dispositif de Velásquez a eu pour effet de rendre incertain
+              l’objet même de sa représentation […] ».</p>
+            </note> et de mise en abîme, le peintre attire notre attention sur
+          son habileté et met en scène sa propre<hi rend="italic">
+              <foreign xml:lang="grc">technê</foreign>
+            </hi>
+            <note n="130" place="foot" type="standard" xml:id="ftn130">
+              <p>Voir sur ce sujet, l’excellent article de R. Neer « The
+              Lion’s Eye : Imitation and Uncertainty in Attic Red-Figure »,<hi rend="italic"> Representations</hi> 51, 1995, pp. 118-153, et
+              plus particulièrement pp. 125<hi rend="italic"> sqq.</hi>
+              </p>
+            </note>.</p>
+          <p xml:id="d1e2248">La composition de la coupe de la Fonderie peut
+          se lire comme une mise en scène du façonnage des corps et leur
+          perception dans divers espaces de visualisation, de manière à
+          « confondre » les catégories du vivant, du fabriqué et du figuré,
+          comme sur une autre coupe du même peintre conservée à <placeName ref="2867714" type="geonames" xml:base="https://www.geonames.org/">Munich</placeName>.
+          Contrairement à une perception souvent trop réaliste de la coupe de
+          <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>, celle-ci ne
+          présente pas simplement l’espace d’un atelier, mais des « lieux »
+          pertinents : celui de la fabrication des corps (et moins l’espace de
+          fabrication qu’un lieu où se « joue » le faire image/représenter) et
+          celui de la perception de cette image, l’espace des spectateurs
+          (spectateurs de statues, de corps athlétiques, spectateurs de la
+          représentation peinte sur la coupe, etc.). Ainsi les diverses
+          échelles utilisées dans la composition du revers de la coupe de
+          <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName> ne sont pas
+          des signes utilisés pour créer quelque chose de l’ordre de la
+          perspective ni pour témoigner d’une hiérarchie sociale mais
+          permettent d’évoquer plusieurs espaces à l’intérieur d’un même champ
+          pictural : celui de la statue avec les artisans qui la polissent,
+          mais aussi, dans un champ pictural plus large, l’espace où des
+          spectateurs regardent la statue. Pour en souligner la proximité, les
+          racloirs des artisans dans le champ adoptent la taille des
+          strigiles : on est dans les deux espaces, en même temps. Sur la
+          coupe de la Fonderie, comme sur la coupe de <placeName ref="2867714" type="geonames" xml:base="https://www.geonames.org/">Munich</placeName> du même
+          peintre, le figuré par la peinture est donc travaillé à travers des
+          représentations de statues mises en scène de manière à faire
+          affleurer un discours sur le fait de représenter.</p>
+          <p xml:id="d1e2251">Les images sont fréquemment appréhendées dans
+          une perspective illustrative, et la coupe de la Fonderie, en
+          particulier, a souvent été utilisée comme un témoignage sur la
+          réalité d’un atelier de bronziers au <date from="-0499" to="-0400" type="_temp">V<hi rend="sup">e</hi> siècle</date>. Les deux
+          interprétations proposées ici suggèrent une pratique de l’image qui
+          souligne l’activité du regard et de l’esprit du spectateur antique.
+          La première analyse interroge ainsi les indices offerts à l’exercice
+          de la glose qui pourraient suggérer une évocation de la dimension
+          magico-religieuse de l’activité artisanale dans un contexte
+          politique précis. La seconde proposition porte sur le « discours »
+          du peintre sur sa propre<hi rend="italic">
+              <foreign xml:lang="grc">technê</foreign>
+            </hi>, élaboré à travers la fabrique des images et leur
+          perception, dans le cadre d’une culture agonistique où s’exercent
+          les pratiques de regard des spectateurs anciens. Ces analyses
+          permettent de souligner le fonctionnement des images que le peintre
+          offre à l’évaluation des citoyens dans l’espace de la cité.</p>
+          <figure>
+            <graphic url="https://didomena.ehess.fr/downloads/9019s330z.jpg"/>
+            <head>Figure 1a - Amphore à figures noires attribuée au peintre de
+            Plousios, Boston 08.8035</head>
+          </figure>
+          <figure>
+            <graphic url="https://didomena.ehess.fr/downloads/r781wg954.jpg"/>
+            <head>Figure 1b - Amphore à figures noires attribuée au peintre de
+            Plousios, Boston 08.8035</head>
+          </figure>
+          <figure>
+            <graphic url="https://didomena.ehess.fr/downloads/cv43nx70g.jpg"/>
+            <head>Figure 2 - Péliké du peintre d’Eucharidès, Oxford 563</head>
+          </figure>
+          <figure>
+            <graphic url="https://didomena.ehess.fr/downloads/2v23vv172.jpg"/>
+            <head>Figure 3 - Médaillon de coupe du peintre d’Euaichme, Londres
+            E 86</head>
+          </figure>
+          <figure>
+            <graphic url="https://didomena.ehess.fr/downloads/cv43nx69q.jpg"/>
+            <head>Figure 4a - Coupe du peintre de la Fonderie, Berlin
+            F2294</head>
+          </figure>
+          <figure>
+            <graphic url="https://didomena.ehess.fr/downloads/pn89d717r.jpg"/>
+            <head>Figure 4b - Coupe du peintre de la Fonderie, Berlin
+            F2294</head>
+          </figure>
+          <figure>
+            <graphic url="https://didomena.ehess.fr/downloads/ms35t952z.jpg"/>
+            <head>Figure 4c - Coupe du peintre de la Fonderie, Berlin
+            F2294</head>
+          </figure>
+          <figure>
+            <graphic url="https://didomena.ehess.fr/downloads/3n203z73f.jpg"/>
+            <head>Figure 5 - Médaillon de coupe du peintre d’Antiphon, Boston
+            01.8073</head>
+          </figure>
+          <figure>
+            <graphic url="https://didomena.ehess.fr/downloads/mw22v635j.jpg"/>
+            <head>Figure 6 - Coupe du peintre d’Euergides, Acropole 166</head>
+          </figure>
+          <figure>
+            <graphic url="https://didomena.ehess.fr/downloads/4x51hj78f.jpg"/>
+            <head>Figure 7 - Oenochoé attribuée à la Keyside Class, Londres
+            1846.6-29.45</head>
+          </figure>
+          <figure xml:id="d1e2310">
+            <graphic url="https://didomena.ehess.fr/downloads/t148fh895.jpg"/>
+            <head>Figure 8 - Coupe du peintre de la Fonderie, Munich
+            2650</head>
+          </figure>
+          <figure>
+            <graphic url="https://didomena.ehess.fr/downloads/jd472x10x.jpg"/>
+            <head>Figure 9 - Coupe du peintre de la Dokimasie, Berlin F
+            2296</head>
+          </figure>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

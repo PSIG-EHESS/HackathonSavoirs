@@ -1,0 +1,1119 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-06T14:29:43.67+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LDSII_47_Narcy_Particule">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Traduire une particule</title>
+        <title type="collection">Lieux de savoir 2</title>
+        <author role="aut">
+          <forename>Michel</forename>
+          <surname>Narcy</surname>
+          <idno type="IDREF">029774152</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Albin
+          Michel CC BY-NC-ND 3.0 Attribution - Pas d’Utilisation Commerciale -
+          Pas de Modification</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/7D9RCS6U" type="bookSection" xml:lang="fre">
+          <analytic>
+            <title level="a">Traduire une particule</title>
+            <author>
+              <forename>Michel</forename>
+              <surname>Narcy</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Lieux de savoir</title>
+            <idno type="ISBN">978-2-226-18729-1</idno>
+            <editor>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <biblScope unit="volume">2. Les mains de l'intellect</biblScope>
+              <biblScope unit="nb_volumes">2</biblScope>
+              <biblScope unit="page">811-823</biblScope>
+              <publisher>Albin Michel</publisher>
+              <date>2011</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="grc"/>
+        <language ident="deu"/>
+        <language ident="eng"/>
+        <language ident="ita"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-fafetmry">traduction</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-caxwu8qa">grec</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-c5oskknl">sémantique</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-3ryxnaxd">style</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie</term>
+              </term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6255148" type="geonames" xml:base="https://www.geonames.org/">Europe</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1600" to="1799" type="_temp">XVIIe-XVIIIe
+            siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-08-06T14:59:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Traduire une particule</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Michel Narcy</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="d1e111">
+        <p xml:id="d1e113">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-c5oskknl">sémantique</term>
+                </term>
+              </term>
+            </term>
+          </term>Qu’est-ce
+        qu’une particule ? Un « nom donné, en général, à tous les mots
+        très-courts et invariables », selon Littré, qui ne fait ainsi que
+        reproduire sous une forme plus ramassée l’article correspondant du <hi rend="italic">Dictionnaire </hi>de <persName ref="026876892" type="idref" xml:base="https://www.idref.fr/">Furetière</persName>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Cf. <hi rend="small-caps">Furetière</hi>, 1690, <hi rend="italic">s.v. </hi>« particule » : « Petit mot qui n’a qu’une
+            syllabe ou deux, ou plus <hi rend="italic">[sic]</hi>. […] On les
+            appelle proprement <hi rend="italic">particules</hi>, quand elles
+            ne se déclinent ni ne se conjuguent point. »</p>
+          </note>. Définition purement morphologique, d’où est absente, on le
+        notera, toute indication proprement grammaticale ou sémantique : à
+        quoi servent les particules, autrement dit quelle est leur fonction
+        dans une phrase, et en définitive que signifient-elles, nos autorités
+        ne nous en disent rien. Littré illustre d’ailleurs sa définition par
+        la citation suivante, qui nous fait entrer de plain-pied dans notre
+        sujet :</p>
+        <quote rend="quotation" xml:id="d1e137">[<persName ref="028090268" type="idref" xml:base="https://www.idref.fr/">Lamotte</persName>]
+        comparait les injures dont [<persName ref="030303508" type="idref" xml:base="https://www.idref.fr/">Mme Dacier</persName>] l’accablait à
+        ces charmantes particules grecques qui ne signifient rien, mais qui ne
+        laissent pas, à ce qu’on dit, de soutenir et d’orner les vers
+        d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>. (<persName ref="02668120X" type="idref" xml:base="https://www.idref.fr/">D’Alembert</persName>, <hi rend="italic">Éloges,</hi>
+          <hi rend="italic"> Lamotte</hi>.)</quote>
+        <p xml:id="d1e149">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-w6qcshen">controverse</term>
+            </term>
+          </term>Cette
+        aimable comparaison est tirée des <hi rend="italic">Réflexions sur la
+        critique (1</hi>715) par lesquelles <persName ref="028090268" type="idref" xml:base="https://www.idref.fr/">Houdart de
+        Lamotte</persName> avait répondu aux <hi rend="italic">Causes de la
+        corruption du goût (1</hi>714) d’<persName ref="030303508" type="idref" xml:base="https://www.idref.fr/">Anne Dacier</persName>,
+        dont il était la principale, voire unique, cible. Le piquant de la
+        chose, c’est que la dispute portait justement, entre autres, sur les
+        particules. Auteur en <date type="_temp" when="1699">1699</date> d’une
+        traduction de l’<hi rend="italic">Iliade</hi>, <persName ref="030303508" type="idref" xml:base="https://www.idref.fr/">Anne
+        Dacier</persName> avait loué dans sa préface la façon dont <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>, « obligé
+        d’employer les termes les plus communs et les moins agréables… a su
+        relever [sa poésie] par l’harmonie en les mêlant ensemble avec art, et
+        en les soutenant par des particules sonores, et par des épithètes
+        magnifiques ou gracieuses qui cachent tout leur désagrément<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>
+              <hi rend="small-caps">Dacier</hi>, 1714, p. 341-342.</p>
+          </note> ». À quoi <persName ref="028090268" type="idref" xml:base="https://www.idref.fr/">Lamotte</persName>, lui-même auteur,
+        en <date type="_temp" when="1714">1714</date>, d’une version de l’<hi rend="italic">Iliade </hi>plus conforme selon lui au goût moderne,
+        c’est-à-dire allégée de ses longueurs et ornements inutiles, avait
+        rétorqué :</p>
+        <quote rend="quotation" xml:id="d1e173">Nous n’avons point ces
+        particules sonores qu’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> sème dans ses vers
+        et dont il soutient ses expressions. C’est que nous n’admettons rien
+        de sonore, s’il n’est utile au sens<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Cité par <hi rend="small-caps">Dacier</hi>, 1714, p. 342.</p>
+          </note>.</quote>
+        <p xml:id="d1e185">Et <persName ref="030303508" type="idref" xml:base="https://www.idref.fr/">Mme Dacier</persName> de répondre à
+        son tour :</p>
+        <quote rend="quotation" xml:id="d1e189">Une langue n’a rien dans ses
+        trésors qui ne soit utile quand l’écrivain sait l’employer, et tout ce
+        qui sert à l’harmonie et à l’agrément sert au sens<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>
+              <hi rend="italic">Ibid</hi>. Dans cette citation comme dans
+            celles qui précèdent, j’ai modernisé orthographe et
+            ponctuation.</p>
+          </note>.</quote>
+        <p xml:id="d1e201">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-fucrfp3n">linguistique</term>
+                </term>
+              </term>
+            </term>
+          </term>Des
+        plus anciens aux plus récents, nul doute que les linguistes
+        donneraient raison à <persName ref="030303508" type="idref" xml:base="https://www.idref.fr/">Mme Dacier</persName> : un mot qui ne
+        signifie rien n’est pas un mot, énonçait déjà <persName type="_temp">Cratyle</persName>
+          <note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>
+              <hi rend="small-caps">Platon</hi>, <hi rend="italic">Cratyle</hi>, 429b-430a.</p>
+          </note> ; il est vrai qu’il ne parlait que des noms, et que
+        <persName type="_temp">Platon</persName> ne poussera pas l’analyse de
+        la phrase plus loin que la combinaison d’un nom et d’un verbe<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>
+              <hi rend="small-caps">Platon</hi>, <hi rend="italic">Sophiste</hi>, 261e-262d.</p>
+          </note>. Mais le progrès de l’analyse linguistique se mesurera à sa
+        capacité de subsumer toute partie du discours, y compris la plus
+        minime – la « particule » –, sous l’axiome cratylien : rien de
+        linguistique qui ne soit signifiant, et il suffit de parcourir le
+        sommaire des <hi rend="italic">Greek Particles </hi>de <persName ref="06984304X" type="idref" xml:base="https://www.idref.fr/">J. D.
+        Denniston</persName>
+          <note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>
+              <hi rend="small-caps">Denniston</hi>, 1934.</p>
+          </note> pour mesurer à quel point <persName ref="030303508" type="idref" xml:base="https://www.idref.fr/">Mme Dacier</persName>
+        l’a emporté.</p>
+        <p xml:id="d1e240">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-uehymnxr">langue
+        vivante</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-u3sxgpv6">langue
+        ancienne</term>
+            </term>
+          </term>Reste qu’en matière de traduction
+        <persName ref="028090268" type="idref" xml:base="https://www.idref.fr/">Lamotte</persName> n’a pas
+        entièrement tort, au moins dans le principe : les langues modernes
+        sont beaucoup plus pauvres en particules – ou, pour le dire autrement,
+        en ont beaucoup moins l’usage – que le grec ancien ; si bien que le
+        traducteur, confronté à l’absence ou au petit nombre d’équivalents des
+        particules grecques dans sa langue cible, peine à les rendre autrement
+        qu’à l’aide de périphrases, c’est-à-dire leur exact opposé<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>Cf. <hi rend="small-caps">Van</hi>
+              <hi rend="small-caps">Ophu</hi>
+              <hi rend="small-caps">ijsen</hi>, 1993,
+            p. 71.</p>
+          </note>. Plus que le dernier feu, qu’on y vit à l’époque, de la
+        querelle des Anciens et des Modernes, la polémique entre <persName type="idref" xml:base="https://www.idref.fr/">Anne Dacier</persName>
+        et <persName ref="028090268" type="idref" xml:base="https://www.idref.fr/">Lamotte</persName> illustre ainsi la
+        différence de point de vue du linguiste et du traducteur. Avec ce
+        paradoxe que, si des deux c’est évidemment <persName ref="028090268" type="idref" xml:base="https://www.idref.fr/">Lamotte</persName>, avec
+        son <hi rend="italic">Iliade </hi>versifiée et ramassée en douze
+        livres au lieu de vingt-quatre, qui fait le moins figure de
+        traducteur, ses arguments sont pourtant ceux d’un traducteur quand la
+        position d’<persName ref="030303508" type="idref" xml:base="https://www.idref.fr/">Anne Dacier</persName>, on l’a vu,
+        est plutôt celle d’un linguiste.</p>
+        <div type="section1" xml:id="d1e261">
+          <head subtype="level1" xml:id="d1e263">Le paradoxe de
+          Denniston</head>
+          <p xml:id="d1e266">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-caxwu8qa">grec</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-fafetmry">traduction</term>
+              </term>
+            </term>À qui
+          douterait de la réalité de l’alternative ici posée entre le point de
+          vue du linguiste et celui du traducteur – aux traducteurs du grec
+          ancien, en particulier, toujours prompts à chercher caution auprès
+          de <persName ref="06984304X" type="idref" xml:base="https://www.idref.fr/">Denniston</persName> –, on
+          conseillera de se reporter à la préface que ce dernier a donnée à la
+          première édition de son ouvrage : après avoir allégué les bénéfices
+          que le lecteur peut attendre d’une « immersion à moitié passive »
+          pour se justifier d’avoir accumulé les exemples plutôt que les
+          explications, il donne libre cours à son « antipathie pour la
+          traduction » :</p>
+          <quote rend="quotation" xml:id="d1e269">La traduction est toujours
+          une entreprise dangereuse, parce qu’elle suppose une équivalence
+          entre des expressions qui (au-delà d’équations aussi simples que
+          ποταµός = « rivière ») ne sont presque jamais équivalentes.
+          Dangereuse, elle l’est en particulier dans le cas de mots aussi
+          impalpables et fuyants que les particules<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>
+                <hi rend="small-caps">Denniston</hi>, 1934, p. vi. Déjà <hi rend="small-caps">Sainte-Beuve</hi> (1872, t. VI, p. 94) parlait
+              à propos du grec de « cette quantité de particules
+              intraduisibles, mais non pas insaisissables ».</p>
+            </note>.</quote>
+          <p xml:id="d1e284">Cédant, poursuit-il, à l’insistance des éditeurs,
+          il a cependant traduit une part de ses exemples. Mais le paradoxe
+          ici frise la provocation : alors que « la plupart de [ses] versions
+          ne visent qu’à faire ressortir la valeur de la particule… parfois,
+          en fait, la particule elle-même demeure non traduite, et sa valeur
+          doit être tirée de la phrase entière<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>
+                <hi rend="small-caps">Denniston</hi>, 1934, p. vi.</p>
+            </note> » ! Conception pour ainsi dire asymptotique de la
+          traduction : tendue tout entière à faire saisir le sens de la
+          particule contenue dans la phrase citée en exemple, c’est là qu’elle
+          s’arrête, soit qu’il soit inutile de traduire un mot que le lecteur
+          est censé avoir compris, ou que ce soit impossible, ce qui
+          reviendrait à dire que rien n’assure qu’on ait compris…</p>
+          <p xml:id="d1e296">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+              </term>
+            </term>Récapitulons :
+          les particules grecques n’entrent pas dans des équations aussi
+          simples que <foreign xml:lang="grc">ποταµός</foreign> =
+          « rivière » ; en d’autres termes, elles sont rebelles à la
+          lexicalisation. Il ne s’agit pas simplement de polysémie : comme
+          l’expliquait déjà <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>, d’un terme
+          polysémique, on peut dénombrer les significations, c’est-à-dire lui
+          trouver autant d’équivalents lexicaux qu’il a de significations<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Cf. <hi rend="small-caps">Aristote</hi>, <hi rend="italic">Métaphysique</hi>, IV, 4, 1006a34-b5.</p>
+            </note>. C’est bien ce que tentent de faire tous les auteurs de
+          traités sur les particules, <persName ref="06984304X" type="idref" xml:base="https://www.idref.fr/">Denniston</persName> compris<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Voir les sections I (« The Origins and Functions of
+              Particles »), II (« Connecting Particles ») et III
+              (« Combinations and Collocations of Particles ») de son
+              introduction.</p>
+            </note>, mais tous se heurtent à la même difficulté, à savoir
+          l’impossibilité, pour la plupart des particules y compris celles
+          dont les emplois paraissent le mieux définis, de parvenir à des
+          classifications exhaustives : parmi les emplois repérables de
+          presque n’importe quelle particule, il en est toujours de portée
+          incertaine, « impalpable et fuyante ». Ce n’est pas, comme le
+          prétendait <persName ref="028090268" type="idref" xml:base="https://www.idref.fr/">Lamotte</persName>, qu’elle ne
+          signifie rien, mais au contraire qu’elle est toujours susceptible de
+          se prêter à des usages inédits. D’où la prudence contenue en réalité
+          dans le paradoxe de <persName ref="06984304X" type="idref" xml:base="https://www.idref.fr/">Denniston</persName> – prudence
+          interdite au traducteur : dans l’impossibilité de clore la liste des
+          sens possibles d’une particule, le mieux est, une fois que, en en
+          traduisant le contexte, on en a donné les moyens au lecteur, de le
+          laisser décider lui-même du sens de la particule. Comme l’écrit
+          encore <persName ref="06984304X" type="idref" xml:base="https://www.idref.fr/">Denniston</persName>, « plus
+          j’étudie les particules grecques, et la langue grecque en général,
+          plus j’ai le sentiment qu’en chaque cas, la décision finale
+          appartient au jugement d’instinct<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>
+                <hi rend="small-caps">Denniston</hi>, 1934, p. vi.</p>
+            </note> ».</p>
+          <p xml:id="d1e327">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-qbi42ssq">grammaire</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-caxwu8qa">grec</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-fafetmry">traduction</term>
+              </term>
+            </term>Traduction,
+          comme on sait, ne signifie pas nécessairement passage d’une langue à
+          une autre : l’évolution d’une langue fait qu’à quelques siècles de
+          distance, l’état ancien d’une langue peut faire figure, au regard du
+          plus récent, de langue quasi étrangère. Point n’est besoin pour
+          l’illustrer de l’exemple extrême du grec ancien et du grec moderne :
+          le phénomène est observable au sein même de ce que nous délimitons
+          comme le <hi rend="italic">corpus </hi>grec ancien. Quand il
+          soutenait que les particules grecques « ne signifient rien »,
+          <persName ref="028090268" type="idref" xml:base="https://www.idref.fr/">Lamotte</persName> ne faisait en
+          effet que suivre l’avis d’un certain <persName ref="028066073" type="idref" xml:base="https://www.idref.fr/">Denys</persName> le
+          Grammairien qui, tout locuteur grec qu’il fût, n’en tenait pas moins
+          une bonne partie de ce que nous appelons particules pour des termes
+          « explétifs », dont l’emploi n’était motivé que par des raisons de
+          métrique ou d’ornement : <foreign xml:lang="grc">µέτρου ἢ κόσµου
+          ἕνεκεν</foreign>
+            <note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>
+                <hi rend="italic">Technè </hi>de <hi rend="small-caps">Denys</hi>
+                <hi rend="small-caps">le</hi>
+                <hi rend="small-caps">Grammairien</hi>, 20, 24-25 Lallot. Suivant
+              qu’on accepte ou non l’identification traditionnelle de ce Denys
+              le Grammairien à Denys le Thrace (vers 170 – vers 90 av. J.-C.),
+              on date ce manuel du <hi rend="small-caps">ii</hi>
+                <hi rend="sup">e</hi> siècle avant J.-C. ou du <hi rend="small-caps">iii</hi>
+                <hi rend="sup">e</hi> ou <hi rend="small-caps">iv</hi>
+                <hi rend="sup">e</hi> siècle de notre
+              ère (voir à ce sujet <hi rend="small-caps">Lallot</hi>, 1989,
+              Introduction, p. 13-39). Mais en tout état de cause, son auteur
+              faisait la grammaire d’une langue qui était encore la
+              sienne.</p>
+            </note> : ce sont là les mots mêmes de la dispute entre <persName ref="028090268" type="idref" xml:base="https://www.idref.fr/">Lamotte</persName> et <persName ref="030303508" type="idref" xml:base="https://www.idref.fr/">Madame
+          Dacier</persName>. Qualifier en effet ces particules d’explétives
+          (littéralement, de bouche-trous, <foreign xml:lang="grc">παραπληρωµατικοί</foreign>), c’est dire que l’on peut
+          s’en passer sans dommage pour la syntaxe, ni par conséquent pour le
+          sens ; qu’elles complètent le nombre des syllabes exigées dans un
+          vers ou que, plus généralement, elles contribuent à l’euphonie,
+          elles ne sont là qu’au titre de leur qualité sonore : on peut voir
+          un effet de l’immense influence de <persName ref="028066073" type="idref" xml:base="https://www.idref.fr/">Denys le
+          Thrace</persName> (ou du manuel à lui attribué)<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>« […] non seulement cette <hi rend="italic">technè</hi>
+                <hi rend="italic"/>est l’aïeule lointaine de toutes les grammaires
+              qui ont été écrites en Europe, mais… on aurait peine à en
+              trouver une parmi elles dans laquelle les traces de son origine
+              soient totalement effacées » (G. <hi rend="small-caps">Uhlig</hi>, <hi rend="italic">Dionysii Thracis
+              ars grammatica</hi>, Leipzig, 1883, p. VI, cité et traduit par
+              <hi rend="small-caps">Lallot</hi>, 1989, p. 32).</p>
+            </note> dans le fait que les deux adversaires usent de la même
+          expression « particules sonores ». À travers <persName ref="028090268" type="idref" xml:base="https://www.idref.fr/">Lamotte</persName>, l’adversaire de
+          <persName ref="030303508" type="idref" xml:base="https://www.idref.fr/">Mme Dacier</persName>, c’est donc
+          en réalité <persName ref="028066073" type="idref" xml:base="https://www.idref.fr/">Denys</persName> le
+          Grammairien<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Ce qui, entre parenthèses, fait d’elle, en termes de
+              conceptions linguistiques, une Moderne, alors même que sa
+              défense d’Homère la plaçait dans la fameuse querelle du côté des
+              Anciens.</p>
+            </note>.</p>
+          <p xml:id="d1e400">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-qbi42ssq">grammaire</term>
+                  </term>
+                </term>
+              </term>
+            </term>Lequel
+          d’ailleurs ne parlait pas à ce propos de particules, et pour cause :
+          l’équivalent grec de « particule », c’est <foreign xml:lang="grc">µορίον</foreign>, « petite partie », ce qui renvoie
+          soit à des parties détachables du mot telles que préfixes et
+          suffixes, soit aux « parties du discours » – noms, verbes et
+          conjonctions<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Cf. D. M. <hi rend="small-caps">Schenke</hi>
+                <hi rend="small-caps">veld</hi>, 1988, p. 82-83.</p>
+            </note> : en tout cas à des éléments constitutifs du sens, parmi
+          lesquels ces termes explétifs, en principe purement ornementaux, ne
+          sauraient avoir de place. C’est pourtant sous la rubrique
+          « conjonctions (<foreign xml:lang="grc">συνδέσµοι</foreign>) » – à
+          la toute fin, il est vrai, et de la rubrique et du manuel – que les
+          range <persName ref="028066073" type="idref" xml:base="https://www.idref.fr/">Denys</persName> le Grammairien. Il
+          y a lieu évidemment de se demander pourquoi, mais la question ne
+          trouve guère de réponse : sans relever le caractère oxymorique de
+          l’expression « conjonction explétive » (quel rôle de conjonction
+          remplit un mot dont on peut se dispenser ?), <persName ref="026961857" type="idref" xml:base="https://www.idref.fr/">Jean
+          Lallot</persName> parle d’un « résidu aux contours flous » qui ne
+          trouve pas sa place dans les « compartimentages logiques connus ».
+          Les Modernes, ajoute-t-il, « n’ont pas beaucoup progressé dans ce
+          domaine : le terme de “particule” dont ils font grand usage pour
+          désigner ces quelque deux dizaines de “petits mots”, trahit assez
+          l’embarras où ils sont encore quant à leur classement
+          grammatical<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>
+                <hi rend="small-caps">Lallot</hi>, 1989, p. 249.</p>
+            </note> ». Raison sans doute pour laquelle le traducteur de
+          <persName ref="028066073" type="idref" xml:base="https://www.idref.fr/">Denys</persName> s’abstient
+          d’employer le terme de particule et s’en tient à l’équivalent
+          littéral de <foreign xml:lang="grc">συνδέσµος</foreign> :
+          « conjonction ».</p>
+          <p xml:id="d1e424">Solution, à vrai dire, qui n’est guère plus
+          satisfaisante : comme l’écrivait une petite vingtaine d’années
+          auparavant <persName ref="030505437" type="idref" xml:base="https://www.idref.fr/">C. J. Ruijgh</persName>, « on sait
+          que le terme de <foreign xml:lang="grc">συνδέσµος</foreign> ne
+          répond pas exactement à celui de “conjonction” dans la grammaire
+          moderne : le mot grec désigne non seulement les conjonctions
+          coordonnantes et les conjonctions subordonnantes, mais aussi de
+          petits mots dont la fonction syntaxique s’identifie à peu près à
+          celle d’adverbes (<foreign xml:lang="grc">ἄρα, αὖ</foreign>, etc.).
+          C’est pourquoi il vaut mieux se servir du terme neutre de
+          “particules”<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>C. J. <hi rend="small-caps">Ruijgh</hi>, 1971, p. 66-67.</p>
+            </note> ». On peut en dire autant sans doute des explétives que
+          des adverbes : ce ne sont certes pas des conjonctions, mais les
+          conjonctions, elles, sont bien des particules, ce qui justifie leur
+          intégration dans un chapitre commun.</p>
+          <p xml:id="d1e436">Les choses sont-elles si simples, et la
+          difficulté de définir les particules n’est-elle qu’une question
+          d’extension ? Plus précisément, les particules grecques, définies
+          par les seuls critères de brièveté et d’invariabilité, se
+          laissent-elles subdiviser en classes étanches ? Ce qui incite à en
+          douter, c’est la prudence dont témoignent les intitulés d’études
+          consacrées à ce qu’on hésiterait le moins à nommer conjonctions :
+          <foreign xml:lang="grc">οὖν, ἄρα, τοίνυν</foreign>. Consacrant un
+          livre entier à l’emploi de ces termes chez <persName type="_temp">Platon</persName>, <persName ref="026826119" type="idref" xml:base="https://www.idref.fr/">Édouard des
+          Places</persName>, au terme de conjonction, préfère la périphrase
+          « particule de liaison<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>
+                <hi rend="small-caps">D</hi>
+                <hi rend="small-caps">es</hi>
+                <hi rend="small-caps">Places</hi>, 1929.</p>
+            </note> », que le récent <hi rend="italic">Trésor de la langue
+          française </hi>a tort de nous donner pour un synonyme de
+          « conjonction de coordination<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>
+                <hi rend="italic">Trésor de la langue</hi>
+                <hi rend="italic"/>
+                <hi rend="italic"> française</hi>
+                <hi rend="italic"> :</hi>
+                <hi rend="italic"/>
+                <hi rend="italic">Dictionnaire</hi>
+                <hi rend="italic"/>
+                <hi rend="italic"> de </hi>
+                <hi rend="italic"/>
+                <hi rend="italic">la
+              </hi>
+                <hi rend="italic"/>
+                <hi rend="italic">langue </hi>
+                <hi rend="italic"/>
+                <hi rend="italic">du </hi>
+                <hi rend="small-caps italic">xix</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> et du </hi>
+                <hi rend="small-caps italic">xx</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> siècle</hi>
+                <hi rend="italic"> (1</hi>
+                <hi rend="italic">789-1960)</hi>, t. XII, Paris, 1986, p. 1057, <hi rend="italic">s.v. </hi>« particule », B.1.</p>
+            </note> » : toute la thèse de <persName ref="026826119" type="idref" xml:base="https://www.idref.fr/">des Places</persName>
+          est dans l’indécision entre l’indication donnée par ces mots d’une
+          consécution logique et celle d’une consécution temporelle. S’il se
+          montre critique par rapport à cette thèse, <persName ref="028796993" type="idref" xml:base="https://www.idref.fr/">J. M. Van
+          Ophuijsen</persName>, dans l’étude qu’il consacre aux mêmes
+          particules et chez le même auteur<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>
+                <hi rend="small-caps">Van</hi>
+                <hi rend="small-caps">Ophuijsen</hi>, 1993.</p>
+            </note>, évite à son tour de parler de conjonction ainsi que de
+          logique : alors même que son propos porte sur une argumentation
+          philosophique, il s’en tient à la recherche d’une articulation
+          « linguistique » plutôt que « logique ». Il s’agit pourtant de trois
+          termes qui paraissent s’équivaloir dans la fonction de rattacher une
+          apodose à une protase ; trois termes à teneur logique indiscutable.
+          Mais tout se passe comme si, pour le linguiste, c’était précisément
+          ce qui fait problème : les caractériser comme « conjonctions » ou,
+          qui plus est peut-être, les désigner d’entrée de jeu comme
+          opérateurs logiques, semble être à ses yeux une pétition de
+          principe.</p>
+        </div>
+        <div type="section1" xml:id="d1e548">
+          <head subtype="level1" xml:id="d1e550">Une étude de cas</head>
+          <p xml:id="d1e553">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-zydzeuz5">étude de
+          cas</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie</term>
+                </term>
+              </term>
+            </term>Soit,
+          dans le <hi rend="italic">Théétète</hi>, la première critique
+          avancée par <persName ref="030127874" type="idref" xml:base="https://www.idref.fr/">Socrate</persName> contre <persName ref="028569792" type="idref" xml:base="https://www.idref.fr/">Protagoras</persName> et son
+          principe de l’homme-mesure (« l’homme est la mesure de toutes
+          choses ») : ayant présenté ce principe comme une traduction de
+          l’affirmation de Théétète selon laquelle la sensation est toujours
+          vraie, <persName ref="028260929" type="idref" xml:base="https://www.idref.fr/">Socrate</persName> objecte que dans
+          ce cas on ne voit pas pourquoi c’est l’homme qui devrait être la
+          mesure des choses plutôt que n’importe quel autre être pourvu de
+          sensation, autrement dit n’importe quel animal. Pourquoi <persName ref="028569792" type="idref" xml:base="https://www.idref.fr/">Protagoras</persName> n’a-t-il pas
+          déclaré mesure de toutes choses « le cochon, le babouin ou, parmi
+          les êtres doués de sensation, quelque autre plus étrange » ? (<hi rend="italic">Théét</hi>., 161c3-6.) C’eût été marquer sa
+          supériorité sur le commun des mortels puisque nous, « nous
+          l’admirions comme un dieu pour son savoir quand lui, en conséquence
+          de ce qu’il dit, se trouvait n’être, pour l’intelligence, en rien
+          meilleur qu’un têtard de grenouille, pour ne rien dire de tel autre
+          parmi les humains » (161c8-d1).</p>
+          <p xml:id="d1e562">Travaillant il y a quelque temps sur ce passage,
+          j’eus le scrupule de confronter la traduction qu’on vient de lire
+          – la mienne<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>
+                <hi rend="small-caps">Narcy</hi>, 1994.</p>
+            </note> – avec quelques autres – ce qui n’alla pas sans surprise
+          et sans inquiétude : rien dans ces traductions ne correspondait aux
+          mots « en conséquence de ce qu’il dit » qui figurent dans la mienne.
+          Qu’on en juge :</p>
+          <quote rend="quotation" xml:id="d1e574">Tandis que nous l’admirons
+          comme un dieu pour sa sagesse, il ne l’emporte pas en intelligence,
+          je ne dis point sur un autre homme, mais sur une grenouille gyrine.
+          (<hi rend="small-caps">Grou</hi>, 1770<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Cette traduction traverse tout le <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi> siècle sans
+              aucun changement : cf. <hi rend="small-caps">Cousin</hi>, 1824 ;
+              <hi rend="small-caps">Schwalbé</hi>, 1843 ; <hi rend="small-caps">Saisset</hi>, 1861.</p>
+            </note>.)</quote>
+          <quote rend="quotation italique" xml:id="d1e601" xml:lang="deu">
+            <hi rend="italic">Wir zwar ihn bewunderten als einen Gott seiner
+          Weisheit wegen, er aber doch nichts besser wäre an Einsicht als ein
+          halbwachsener Frosch, geschweige denn als irgend ein Anderer unter
+          den Menschen.</hi> (<hi rend="small-caps">Schleiermacher</hi>,
+          1818.)</quote>
+          <quote rend="quotation italique" xml:id="d1e611" xml:lang="eng">
+            <hi rend="italic">While we were reverencing him like a God for his
+          wisdom he was no better than a tadpole, not to speak of his
+          fellow-men.</hi> (<hi rend="small-caps">Jowett</hi>, 1892.)</quote>
+          <quote rend="quotation italique" xml:id="d1e620" xml:lang="deu">
+            <hi rend="italic">Während wir ihn wie einen Gott anstaunten ob seiner
+          Weisheit, er selbst an Einsicht nichts voraus hätte vor einem jungen
+          Frosch, usw.</hi> (<hi rend="small-caps">Apelt</hi>, 1921.)</quote>
+          <quote rend="quotation" xml:id="d1e629">Alors que nous l’admirions à
+          l’égal d’un dieu pour sa sagesse,… au bout du compte il n’était
+          supérieur, en jugement, je ne dis pas seulement à aucun autre homme,
+          mais même pas à un têtard de grenouille. (<hi rend="small-caps">Diès</hi>,1926.)</quote>
+          <quote rend="quotation italique" xml:id="d1e635" xml:lang="ita">
+            <hi rend="italic">Mentre noi lo ammiravano per il suo sapere come un
+          dio, in realtà egli non valeva per intelligenza niente di meglio,
+          non dico di un altr’uomo qualsiasi, ma nemmeno di un girino di
+          ranocchia.</hi> (<hi rend="small-caps">Valgimigli</hi>,
+          1931.)</quote>
+          <quote rend="quotation italique" xml:id="d1e644" xml:lang="eng">
+            <hi rend="italic">While we were admiring him for a wisdom more than
+          mortal, he was in fact no wiser than a tadpole, to say nothing of
+          any other human being.</hi> (<hi rend="small-caps">Cornford</hi>,
+          1935.)</quote>
+          <quote rend="quotation" xml:id="d1e653">Toute l’admiration que nous
+          avions pour lui, comme pour un Dieu, en raison de son savoir, ne l’a
+          pas empêché, somme toute, de ne pas l’emporter du tout en
+          intelligence sur un têtard de grenouille, à plus forte raison sur
+          n’importe quel autre homme ! (<hi rend="small-caps">Robin</hi>,
+          1942.)</quote>
+          <p xml:id="d1e660">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-fafetmry">traduction</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-tu296j9f">comparaison</term>
+              </term>
+            </term>Toutes
+          ces traductions, comme on peut le voir, sont équivalentes : dans
+          toutes nous lisons que <persName ref="028260929" type="idref" xml:base="https://www.idref.fr/">Socrate</persName> allègue une
+          contradiction entre le prestige intellectuel dont jouit <persName ref="028569792" type="idref" xml:base="https://www.idref.fr/">Protagoras</persName> et le fait
+          que, si on le prend au mot, il n’a en réalité de supériorité sur
+          personne – sur aucun être humain ni même, surenchérit <persName ref="028260929" type="idref" xml:base="https://www.idref.fr/">Socrate</persName>, sur aucun être
+          doué de sensation, fût-il, tel un têtard, encore embryonnaire ; dans
+          aucune <persName ref="030127874" type="idref" xml:base="https://www.idref.fr/">Socrate</persName> ne semble juger
+          utile de souligner que le degré très élémentaire de connaissance où
+          il prétend ravaler <persName ref="028569792" type="idref" xml:base="https://www.idref.fr/">Protagoras</persName> est une <hi rend="italic">conséquence </hi>
+            <hi rend="italic"/>de la doctrine
+          soutenue par ce dernier. Par comparaison avec les traductions
+          antérieures, les mots « en conséquence de ce qu’il dit »
+          apparaissent dans la mienne comme un ajout, au mieux une glose du
+          traducteur, destinée peut-être à souligner la logique du propos,
+          mais sans référent dans le texte grec.</p>
+          <p xml:id="d1e669">Il me fallut plusieurs allers-retours entre le
+          texte grec et l’échantillon de traductions étalé sous mes yeux pour
+          (re)découvrir, dans le texte grec, un petit mot de trois lettres
+          placé après l’expression traduite par « il » ou « lui » <hi rend="italic">(</hi>
+            <foreign xml:lang="grc">
+              <hi rend="italic">er,</hi>
+              <hi rend="italic"/>
+              <hi rend="italic">he, egli</hi>
+            </foreign>
+            <hi rend="italic">)</hi>, à savoir <foreign xml:lang="grc">ὁ δʹ : ἄρα</foreign> (161c9). Sur le sens de ce mot,
+          il n’y a pas de divergence entre les dictionnaires : il indique soit
+          une transition, temporelle ou narrative (« puis, alors »), ici hors
+          de propos, soit une relation d’inférence, et c’est ce que cherchent
+          à rendre, dans ma traduction, les mots « en conséquence de ce qu’il
+          dit ». Je n’en avais trouvé la trace dans aucune des traductions que
+          j’avais consultées, soit parce qu’il n’était tout simplement pas
+          traduit (<persName ref="03063850X" type="idref" xml:base="https://www.idref.fr/">Grou</persName>, <persName ref="029467160" type="idref" xml:base="https://www.idref.fr/">Jowett</persName>, <persName ref="032164556" type="idref" xml:base="https://www.idref.fr/">Apelt</persName>), soit parce qu’il
+          était rendu, semble-t-il, par des expressions absentes de l’entrée
+          <foreign xml:lang="grc">ἄρα</foreign> des dictionnaires : <hi rend="italic">
+              <foreign xml:lang="deu">doch</foreign>
+            </hi>chez <persName ref="02721222X" type="idref" xml:base="https://www.idref.fr/">Schleiermacher</persName>, « au
+          bout du compte » ou « somme toute » respectivement chez <persName ref="026831945" type="idref" xml:base="https://www.idref.fr/">Diès</persName> et <persName ref="027103838" type="idref" xml:base="https://www.idref.fr/">Robin</persName>, <hi rend="italic">
+              <foreign xml:lang="ita">in realtà</foreign>
+            </hi>ou <hi rend="italic">
+              <foreign xml:lang="eng">in fact</foreign>
+            </hi>chez <persName ref="030163196" type="idref" xml:base="https://www.idref.fr/">Valgimigli</persName> et <persName ref="028438779" type="idref" xml:base="https://www.idref.fr/">Cornford</persName>. Faut-il leur
+          donner tort ? Rien n’est moins sûr.</p>
+          <p xml:id="d1e691">Dans l’échantillon constitué ci-dessus, mis à
+          part <persName ref="02721222X" type="idref" xml:base="https://www.idref.fr/">Schleiermacher</persName>, qui, de
+          façon plutôt insolite, rend notre <foreign xml:lang="grc">ἄρα</foreign> par un <hi rend="italic">
+              <foreign xml:lang="deu">doch</foreign>
+            </hi>intensif, le premier traducteur à prendre la peine de
+          traduire la particule est <persName ref="026831945" type="idref" xml:base="https://www.idref.fr/">Diès</persName> qui, en <date type="_temp" when="1926">1926</date>, le rend par « au bout du
+          compte ». Bien qu’antérieure de trois ans à la publication de la
+          thèse déjà citée de <persName ref="026826119" type="idref" xml:base="https://www.idref.fr/">Des Places</persName>
+            <note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>
+                <hi rend="small-caps">Des</hi>
+                <hi rend="small-caps">Places</hi>, 1929.</p>
+            </note>, il est permis de penser que cette traduction s’en
+          inspire<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>De vingt-cinq ans l’aîné de des Places, Diès fut l’un de ses
+              maîtres, remercié à ce titre dans l’introduction (<hi rend="small-caps">Des</hi>
+                <hi rend="small-caps">Places</hi>,
+              p. <hi rend="small-caps">iv</hi>) : il est plus que probable
+              qu’il eut connaissance par anticipation des conclusions de des
+              Places, à moins, dans le cas qui nous occupe, qu’il n’ait été
+              son inspirateur.</p>
+            </note>.</p>
+          <quote rend="quotation" xml:id="d1e724">Chez <persName type="_temp">Platon</persName>, écrit en effet <persName ref="026826119" type="idref" xml:base="https://www.idref.fr/">Des
+          Places</persName>, le sens de <hi rend="italic">donc </hi>(ou d’<hi rend="italic">alors</hi>) convient moins à <foreign xml:lang="grc">ἄρα</foreign> que ceux de <hi rend="italic">je le
+          vois maintenant, à ce qu’il paraît </hi>ou <hi rend="italic">en fin
+          de compte</hi>
+            <note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>
+                <hi rend="small-caps">Des</hi>
+                <hi rend="small-caps">Places</hi>, 1929, p. 229-230. Notre passage
+              du <hi rend="italic">Théétète </hi>figure à titre d’exemple
+              d’emploi de ἄρα « avec un imparfait de constatation soudaine »
+              (p. 261).</p>
+            </note>.</quote>
+          <p xml:id="d1e754">
+            <persName ref="026826119" type="idref" xml:base="https://www.idref.fr/">Des Places</persName>, en d’autres
+          termes, apporte, pour notre passage, la solution d’un problème que
+          les traducteurs précédents ne savaient pas résoudre et préféraient
+          donc passer sous silence en s’abstenant de traduire <foreign xml:lang="grc">ἄρα</foreign>. Quel était ce problème ? Tout
+          simplement que, l’idée d’une transition temporelle ou narrative
+          étant en l’occurrence hors de propos, <foreign xml:lang="grc">ἄρα</foreign> ne peut signifier ici qu’une relation
+          d’inférence, mais que le passage ne comporte apparemment aucune
+          inférence : quel sens trouver à une phrase telle que « nous
+          l’admirions comme un dieu pour son savoir quand lui, <hi rend="italic">par conséquent</hi>, se trouvait n’être, pour
+          l’intelligence, en rien meilleur qu’un têtard de grenouille » ? Quel
+          peut être l’antécédent de ce conséquent, de quel syllogisme ou, à
+          défaut de syllogisme, de quelle protase ce <hi rend="italic">donc
+          </hi>annonce-t-il l’apodose ? Le contexte immédiat, on vient de le
+          voir, laisse cette question sans réponse. On comprend donc le
+          silence des traducteurs aussi longtemps qu’aucune étude n’avait mis
+          en évidence pour <foreign xml:lang="grc">ἄρα</foreign>, outre son
+          sens bien connu de connecteur narratif ou logique, son aptitude à
+          exprimer une « constatation soudaine<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>C’est sous cette rubrique qu’est rangé par <hi rend="small-caps">Des</hi>
+                <hi rend="small-caps">Places</hi>
+              notre passage du <hi rend="italic">Théétète </hi>(<hi rend="small-caps">Des</hi>
+                <hi rend="small-caps">Places</hi>,
+              1929, p. 261).</p>
+            </note> », et leur unanimité à partir du moment où des revues
+          suffisamment exhaustives, bientôt élargies au-delà du <hi rend="italic">corpus </hi>platonicien, les libéraient d’une
+          acception étroitement logique.</p>
+          <p xml:id="d1e787">
+            <persName ref="06984304X" type="idref" xml:base="https://www.idref.fr/">Denniston</persName>, en effet,
+          n’allait pas tarder à conforter de son autorité l’innovation de
+          <persName ref="026826119" type="idref" xml:base="https://www.idref.fr/">Des Places</persName>. Après avoir
+          indiqué, dans le chapitre de <hi rend="italic">The Greek Particles
+          </hi>consacré à notre particule, que « selon l’idée la plus
+          répandue, <foreign xml:lang="grc">ἄρα</foreign> dénote une connexion
+          (une conséquence ou une simple succession) », il cite notre passage
+          (comme à son habitude, sans le traduire) dans une deuxième section
+          où il regroupe des occurrences dans lesquelles ce mot exprime « la
+          surprise liée au désappointement<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>
+                <hi rend="small-caps">Denniston</hi>, 1934, p. 36.</p>
+            </note> ».</p>
+          <p xml:id="d1e803">Peut-être, en effet, la découverte que l’éminent
+          sophiste ne vaut pas mieux qu’un batracien est-elle non seulement
+          une surprise, mais une déception. Mais dans l’esprit de <persName ref="028260929" type="idref" xml:base="https://www.idref.fr/">Socrate</persName> – du <persName ref="028260929" type="idref" xml:base="https://www.idref.fr/">Socrate</persName> qui parle dans
+          le <hi rend="italic">Théétète </hi>–, c’est aussi une conséquence.
+          Pourquoi <persName ref="028260929" type="idref" xml:base="https://www.idref.fr/">Socrate</persName> s’étonne-t-il
+          que <persName ref="028569792" type="idref" xml:base="https://www.idref.fr/">Protagoras</persName> n’ait pas
+          déclaré quelque animal mesure des choses, plutôt que l’homme ? Parce
+          que le principe de l’homme-mesure, tel du moins qu’il vient de
+          l’interpréter pour le compte de Théétète, réduit la capacité de
+          mesurer qu’il reconnaît à l’homme à sa capacité de sentir : si c’est
+          en tant que doué de sensation que l’homme est mesure des choses,
+          n’importe quel autre être doué de sensation, n’importe quel animal,
+          donc, l’est également. Ce qui permet de <hi rend="italic">conclure
+          </hi>que <persName ref="028569792" type="idref" xml:base="https://www.idref.fr/">Protagoras</persName> lui-même
+          n’est pas plus mesure des choses, et en ce sens pas plus intelligent
+          ou savant, que l’organisme le plus rudimentaire, pourvu seulement
+          qu’il soit, tel un têtard, doué lui aussi de sensibilité.</p>
+          <p xml:id="d1e812">C’est ce raisonnement qui est à la source de
+          l’étonnement prétendu de <persName ref="028260929" type="idref" xml:base="https://www.idref.fr/">Socrate</persName> : l’idée qu’en
+          vertu de sa propre doctrine <persName ref="028569792" type="idref" xml:base="https://www.idref.fr/">Protagoras</persName> ne vaut pas
+          plus qu’un têtard est peut-être surprenante, mais c’est de ce
+          raisonnement qu’elle est la conclusion. En d’autres termes, entre
+          les deux valeurs possibles de <foreign xml:lang="grc">ἄρα</foreign>,
+          conséquence et désappointement, il est difficile, peut-être même n’y
+          a-t-il pas lieu, de choisir. Plus exactement, peut-être <persName type="_temp">Platon</persName> ne choisissait-il pas : heureux
+          hellénophone, il n’en avait pas besoin. Le traducteur, lui, est bien
+          obligé de choisir. En fonction de quel critère ?</p>
+          <p xml:id="d1e815">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-tu296j9f">comparaison</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-e7z6hamw">dialogue</term>
+              </term>
+            </term>La
+          réponse à cette question requiert de se défaire de quelques idées
+          préconçues, et sur l’usage des particules en grec, et sur <persName type="_temp">Platon</persName>. <persName type="_temp">Platon</persName>, pense-t-on volontiers, fait un usage
+          d’autant plus large des particules qu’il écrit des dialogues, ce qui
+          l’amène à imiter le langage parlé. Certains auteurs vont même
+          jusqu’à trouver son usage des particules « anormalement riche par
+          comparaison avec d’autres prosateurs classiques<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>
+                <hi rend="small-caps">Blomqvist</hi>, 1969, p. 132.</p>
+            </note> ». Une intéressante comparaison statistique, rendue
+          possible par des moyens informatiques<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>
+                <hi rend="small-caps">Duhoux</hi>, 1997, notamment
+              p. 283-286. Cette étude résume <hi rend="small-caps">Duhoux</hi>, 1997a.</p>
+            </note>, a permis d’établir au contraire que la fréquence d’emploi
+          des particules est moins élevée dans trois dialogues de <persName type="_temp">Platon</persName> choisis comme échantillon, à savoir
+          le <hi rend="italic">Protagoras</hi>, le <hi rend="italic">Ménon</hi>
+            <hi rend="italic"/>et <hi rend="italic">l’Apologie</hi>
+            <hi rend="italic"> de</hi>
+            <hi rend="italic"> Socrate</hi>, que dans le <hi rend="italic">Banquet
+          </hi>de <persName ref="027308367" type="idref" xml:base="https://www.idref.fr/">Xénophon</persName>, qui se
+          rattache pourtant lui aussi au genre des écrits socratiques, et que
+          dans la <hi rend="italic">Physique </hi>d’<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>,
+          ouvrage relevant de la prose philosophique mais non du dialogue. Par
+          rapport à un <persName ref="027308367" type="idref" xml:base="https://www.idref.fr/">Xénophon</persName> ou à un
+          <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>, donc,
+          <persName type="_temp">Platon</persName> paraît plutôt économe dans
+          son emploi des particules. La même étude, pourtant, a mis en
+          évidence une plus grande fréquence des particules dans les dialogues
+          platoniciens considérés que dans l’<hi rend="italic">Œdipe à Colone
+          </hi>de <persName ref="027143619" type="idref" xml:base="https://www.idref.fr/">Sophocle</persName> ou même dans
+          les <hi rend="italic">Thesmophories </hi>d’<persName ref="026690268" type="idref" xml:base="https://www.idref.fr/">Aristophane</persName>, que l’on
+          peut tenir pour le plus proche de la langue parlée quotidienne :
+          d’où il est permis d’inférer que l’usage des particules propre à
+          <persName type="_temp">Platon</persName>, plus restreint que chez
+          d’autres prosateurs comparables par la matière dont ils traitent, ne
+          traduit cependant pas non plus, contrairement à ce qu’on pourrait
+          attendre de l’auteur des dialogues, un désir d’imiter le dialogue
+          vivant.</p>
+          <p xml:id="d1e877">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-3ryxnaxd">style</term>
+              </term>
+            </term>Qu’en
+          conclure ? L’idée que, de toute façon plus importante à l’écrit qu’à
+          l’oral, une fréquence modérée des particules est la marque d’un
+          « style littéraire élevé », un emploi plus intensif marquant au
+          contraire un style « de niveau plutôt moyen », reflet d’une origine
+          sociale plus modeste et d’un désir d’intégration aux classes
+          supérieures<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>
+                <hi rend="small-caps">Duhoux</hi>, 1997, p. 283-284.</p>
+            </note>, est peu convaincante. En ce qui concerne <persName ref="027308367" type="idref" xml:base="https://www.idref.fr/">Xénophon</persName>, elle va à
+          l’encontre du jugement des Anciens, unanimes dans l’admiration de
+          ses qualités d’écrivain ; quant à <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>,
+          on se rappellera que la <hi rend="italic">Physique</hi>, comme
+          l’ensemble de ce qui nous est parvenu d’<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>
+          sous forme non fragmentaire, est un traité scolaire, dont le style
+          est par conséquent plus marqué par des préoccupations didactiques
+          que par un souci d’élégance.</p>
+          <p xml:id="d1e892">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie</term>
+                </term>
+              </term>
+            </term>Cette
+          dernière remarque permet d’avancer une hypothèse : dans un texte
+          philosophique, l’emploi des particules, plus qu’à des considérations
+          stylistiques, répond au souci de marquer les articulations du
+          raisonnement. Ce qui, pour revenir à notre <foreign xml:lang="grc">ἄρα</foreign>, conduit à privilégier sa fonction de
+          connecteur logique sur celle de marqueur d’une réaction subjective.
+          Il est vrai, comme on l’a vu, qu’<foreign xml:lang="grc">ἄρα</foreign> n’exerce ici sa fonction de connecteur
+          logique qu’à l’égard d’un raisonnement qui reste pour sa plus grande
+          part implicite. À charge pour le lecteur, par conséquent, de le
+          reconstituer et, pour le traducteur, de l’expliciter : s’il est vrai
+          qu’il n’est pas de traduction sans interprétation, ce n’est nulle
+          part plus vrai que dans une traduction philosophique. Affaire de
+          jugement, donc, la traduction d’<foreign xml:lang="grc">ἄρα</foreign>. Mais, si une seule occurrence
+          occasionne la discussion qu’on vient de lire, force est de conclure
+          que le jugement dont il s’agit n’est certes pas le « jugement
+          d’instinct » auquel en appelle <persName ref="06984304X" type="idref" xml:base="https://www.idref.fr/">Denniston</persName>.
+          C’est plutôt, et sans jouer sur les mots, vers <persName ref="02694507X" type="idref" xml:base="https://www.idref.fr/">Kant</persName> qu’il faut se
+          tourner, et son jugement réfléchissant : affaire de jugement,
+          c’est-à-dire d’herméneutique.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e900">
+        <head xml:id="d1e902">Bibliographie</head>
+        <listBibl xml:id="d1e905">
+          <head subtype="level2" xml:id="d1e907">Traductions de Platon</head>
+          <bibl xml:id="d1e910">
+            <hi rend="small-caps">Apelt</hi>, 1921 : <hi rend="italic">Platons Dialog Theätet, </hi>traduit et commenté par
+          Otto <hi rend="small-caps">Apelt</hi>, 3<hi rend="sup">e</hi> éd.
+          corrigée, Leipzig.</bibl>
+          <bibl xml:id="d1e925">
+            <hi rend="small-caps">Cornford</hi>, 1935 :
+          Francis M. <hi rend="small-caps">Cornford</hi>, <hi rend="italic">Plato’s Theory of Knowledge : the </hi>Theaetetus <hi rend="italic">and the </hi>Sophist <hi rend="italic">of Plato
+          translated with a running commentary</hi>, Londres.</bibl>
+          <bibl xml:id="d1e943">
+            <hi rend="small-caps">Cousin</hi>, 1824 : <hi rend="italic">Œuvres de Platon</hi>, trad. Victor <hi rend="small-caps">Cousin</hi>, t. II, Paris.</bibl>
+          <bibl xml:id="d1e955">
+            <hi rend="small-caps">Diès</hi>, 1926 : <hi rend="small-caps">Platon</hi>, <hi rend="italic">Œuvres</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">complètes</hi>, t. VIII, II<hi rend="sup">e</hi> partie, <hi rend="italic">Théétète</hi>, texte
+          établi et traduit par Auguste <hi rend="small-caps">Diès</hi>, Paris
+          (Collection des Universités de France).</bibl>
+          <bibl xml:id="d1e984">
+            <hi rend="small-caps">Grou</hi>, 1770 : <hi rend="italic">Dialogues de Platon</hi>, par le Traducteur de la <hi rend="italic">République</hi>, tome premier, Amsterdam.</bibl>
+          <bibl xml:id="d1e996">
+            <hi rend="small-caps">Jowett</hi>, 1892 : <hi rend="italic">The Dialogues of Plato </hi>translated into English by
+          B. <hi rend="small-caps">Jowett</hi>, vol. IV, 3<hi rend="sup">e</hi> éd., Oxford.</bibl>
+          <bibl xml:id="d1e1011">
+            <hi rend="small-caps">Narcy</hi>, 1994 : <hi rend="small-caps">Platon</hi>, <hi rend="italic">Théétète</hi>,
+          traduction inédite, introduction et notes par Michel <hi rend="small-caps">Narcy</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1026">
+            <hi rend="small-caps">Robin</hi>, 1942 : <hi rend="small-caps">Platon</hi>, <hi rend="italic">Œuvres
+          complètes</hi>, traduction nouvelle et notes par Léon <hi rend="small-caps">Robin</hi>, t. II, Paris.</bibl>
+          <bibl xml:id="d1e1041">
+            <hi rend="small-caps">Saisset</hi>, 1861 :
+          <hi rend="italic">Dialogues de Platon</hi>, deuxième série,
+          dialogues polémiques, tome premier : <hi rend="italic">Théétète
+          </hi>(révisé par Amédée <hi rend="small-caps">Saisset</hi>)<hi rend="italic">, Cratyle, Euthydème</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1059">
+            <hi rend="small-caps">Schleiermacher</hi>,
+          1818 : <hi rend="italic">Platons Werke</hi>, F. <hi rend="small-caps">Schleiermacher</hi> (éd.), zweiten Theiles erster
+          Band, 2<hi rend="sup">e</hi> éd. corrigée, Berlin.</bibl>
+          <bibl xml:id="d1e1075">
+            <hi rend="small-caps">Schwalbé</hi>, 1843 :
+          <hi rend="italic">Œuvres de Platon</hi>. Dialogues métaphysiques :
+          <hi rend="italic">Théétète, ou de la science. Cratyle, ou de la
+          propriété des noms. Euthydème, ou le disputeur. Le Sophiste, ou de
+          l’être. Parménide, ou des idées. Timée, ou de la nature. Critias, ou
+          de l’Atlantide</hi>. Précédés d’arguments et d’une esquisse de la
+          philosophie de Platon, par Jean-Antoine <hi rend="small-caps">Schwalbé</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1090">
+            <hi rend="small-caps">Valgimigli</hi>, 1931 :
+          <hi rend="small-caps">Platone</hi>, <hi rend="italic">Teeteto</hi>,
+          éd. Manara <hi rend="small-caps">Valgimigli</hi>, 3<hi rend="sup">e</hi> éd. revue, Bari.</bibl>
+        </listBibl>
+        <listBibl xml:id="d1e1109">
+          <head subtype="level2" xml:id="d1e1111">Références</head>
+          <bibl xml:id="d1e1114">
+            <hi rend="small-caps">Blomqvist</hi>, 1969 :
+          J. <hi rend="small-caps">Blomqvist</hi>, <hi rend="italic">Greek
+          Particles in Hellenistic Prose</hi>, Lund.</bibl>
+          <bibl xml:id="d1e1126">
+            <hi rend="small-caps">Dacier</hi>, 1714 :
+          Anne <hi rend="small-caps">Dacier</hi>, <hi rend="italic">Des causes
+          de la corruption du goût</hi>, Paris (Genève, 1970).</bibl>
+          <bibl xml:id="d1e1138">
+            <hi rend="small-caps">Denniston</hi>, 1934 :
+          J. D. <hi rend="small-caps">Denniston</hi>, <hi rend="italic">The
+          Greek Particles</hi>, Oxford (2e éd., 1954).</bibl>
+          <bibl xml:id="d1e1150">
+            <hi rend="small-caps">Des</hi>
+            <hi rend="small-caps">Places</hi>, 1929 : Édouard <hi rend="small-caps">Des</hi>
+            <hi rend="small-caps">Places</hi>, <hi rend="italic">Études</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">sur</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">quelques</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">particules</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">de</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">liaison</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">chez</hi>
+          </bibl>
+          <bibl xml:id="d1e1207">
+            <hi rend="italic">Platon : </hi>ΟΥΝ <hi rend="italic">et ses composés, </hi>ΑΡΑ, ΤΟΙΝΥΝ, Paris.</bibl>
+          <bibl xml:id="d1e1216">
+            <hi rend="small-caps">Duhoux</hi>, 1997 :
+          Yves <hi rend="small-caps">Duhoux</hi>, « Quelques idées préconçues,
+          et néanmoins fausses, sur les particules grecques », <hi rend="italic">L’Antiquité classique</hi>, 66, p. 281-288.</bibl>
+          <bibl xml:id="d1e1228">
+            <hi rend="small-caps">Duhoux</hi>, 1997a :
+          Y. <hi rend="small-caps">Duhoux</hi>, « Grec écrit et grec parlé :
+          une étude contrastive des particules aux <hi rend="small-caps">v</hi>
+            <hi rend="sup">e</hi>-<hi rend="small-caps">iv</hi>
+            <hi rend="sup">e</hi> siècles », in <hi rend="small-caps">Rijksbaron</hi>, 1997, p. 15-48.</bibl>
+          <bibl xml:id="d1e1253">
+            <hi rend="small-caps">Furetière</hi>, 1690 :
+          Antoine <hi rend="small-caps">Furetière</hi>, <hi rend="italic">Dictionnaire universel</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1265">
+            <hi rend="small-caps">Hellwig</hi>, 1974 :
+          A. <hi rend="small-caps">Hellwig</hi>, « Zur Funktion und Bedeutung
+          der griechischen Partikeln », <hi rend="italic">Glotta</hi>, 52,
+          p. 145-171.</bibl>
+          <bibl xml:id="d1e1277">
+            <hi rend="small-caps">Lallot</hi>, 1989 :
+          Jean <hi rend="small-caps">Lallot</hi>, <hi rend="italic">La
+          Grammaire de Denys le Thrace</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1290">
+            <hi rend="small-caps">Rijksbaron</hi>, 1997 :
+          Albert <hi rend="small-caps">Rijksbaron</hi> (éd.), <hi rend="italic">New Approaches to Greek Particles</hi>. <hi rend="italic">Proceedings of the colloquium held in Amsterdam,
+          January 4-6, 1996, to honour C.J. Ruijgh on the occasion of his
+          retirement</hi>, Amsterdam.</bibl>
+          <bibl xml:id="d1e1305">
+            <hi rend="small-caps">Ruijgh</hi>, 1971 :
+          C. J. <hi rend="small-caps">Ruijgh</hi>, <hi rend="italic">Autour de
+          « Te épique » : Études sur la syntaxe grecque</hi>,
+          Amsterdam.</bibl>
+          <bibl xml:id="d1e1317">
+            <hi rend="small-caps">Sainte-Beuve</hi>,
+          1872 : <hi rend="small-caps">Sainte-Beuve</hi>, <hi rend="italic">Nouveaux Lundis</hi>, 2<hi rend="sup">e</hi> éd.,
+          Paris.</bibl>
+          <bibl xml:id="d1e1332">
+            <hi rend="small-caps">Schenkeveld</hi>,
+          1988 : D. M. <hi rend="small-caps">Schenkeveld</hi>, « From
+          particula to particle : the genesis of a class of words », in
+          I. Rosier (éd.), <hi rend="italic">L’Héritage</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">des</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">grammairiens</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">latins</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">de</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">l’Antiquité aux</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Lumières.</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Actes</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">du</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">colloque</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">de</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Chantilly</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">2-4</hi>
+            <hi rend="italic"> </hi>
+            <hi rend="italic">septembre</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">1987</hi>, Paris, p. 81-93.</bibl>
+          <bibl xml:id="d1e1433">
+            <hi rend="small-caps">Van</hi>
+            <hi rend="small-caps">Ophuijsen</hi>, 1993 : J. M. <hi rend="small-caps">van</hi>
+            <hi rend="small-caps">Ophuijsen</hi>,
+          « ΟΥΝ, ΑΡΑ, ΤΟΙΝΥΝ : The Linguistic Articulation of Arguments in
+          Plato’s <hi rend="italic">Phaedo »</hi>, in C. M. J. Sicking et
+          J. M. van Ophuijsen, <hi rend="italic">Two Studies in Attic Particle
+          Usage : Lysias and Plato</hi>, Leyde (Mnemosyne Suppl. 129).</bibl>
+          <bibl xml:id="d1e1455">
+            <hi rend="small-caps">Weydt</hi> et <hi rend="small-caps">Ehlers</hi>, 1987 : H. <hi rend="small-caps">Weydt</hi> et H. <hi rend="small-caps">Ehlers</hi>, <hi rend="italic">Partikel-Bibliographie</hi>,
+          Francfort-sur-le-Main.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,2035 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-28T14:40:28.078+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LDSII_44_Mendelsohn_Maladie">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Microscopie de la vie moderne</title>
+        <title type="collection">Lieux de savoir 2</title>
+        <author role="aut">
+          <forename>J. Andrew</forename>
+          <surname>Mendelsohn</surname>
+          <idno type="IDREF">081943970</idno>
+        </author>
+        <editor role="translator                     ">
+          <forename>Sylvie</forename>
+          <surname>Tausig</surname>
+          <idno type="IDREF">255486545</idno>
+        </editor>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Albin
+          Michel CC BY-NC-ND 3.0 Attribution - Pas d’Utilisation Commerciale -
+          Pas de Modification</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/YQYV6JVR" type="bookSection" xml:lang="fre">
+          <analytic>
+            <title level="a">Microscopie de la vie moderne</title>
+            <author>
+              <forename>J. Andrew</forename>
+              <surname>Mendelsohn</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Lieux de savoir</title>
+            <idno type="ISBN">978-2-226-18729-1</idno>
+            <editor>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <biblScope unit="volume">2. Les mains de l'intellect</biblScope>
+              <biblScope unit="nb_volumes">2</biblScope>
+              <biblScope unit="page">765-789</biblScope>
+              <publisher>Albin Michel</publisher>
+              <date>2011</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-cbx9cvwr">instrument d'observation<term ref="doi:10.34817/sv-ftqvrc9c">microscope</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-iwqqnrp8">laboratoire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-jra3gp6w">campagne</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-qlxr2uj3">ville</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-uwezj7w5">sciences de la
+          vie et de l'environnement<term ref="doi:10.34817/sv-tnedxt7h">sciences de la vie par type
+          d'organismes<term ref="doi:10.34817/sv-tc2vstln">bactériologie</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-ejcy5fvc">micro-organisme</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1880" to="1889" type="_temp">années 1880</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-08-02T08:33:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Microscopie de la vie moderne</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>J. Andrew Mendelsohn</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="d1e114">
+        <p xml:id="d1e116">Le <date type="_temp" when="1885-10-27">27 octobre
+        1885</date>, <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Alexandre Yersin</persName>, âgé de
+        vingt-deux ans, arrivait à <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> pour étudier la
+        médecine ; une décennie plus tard, il était connu partout dans le
+        monde pour avoir découvert le bacille de la peste <hi rend="italic">(<foreign xml:lang="lat">Yersinia
+        pestis</foreign>)</hi>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Correspondance de Yersin, les 31 octobre, 11 et 13 novembre
+            1885.</p>
+          </note>.</p>
+        <p xml:id="d1e143">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+        expérimentales<term ref="doi:10.34817/sv-uwezj7w5">sciences de la vie
+        et de l'environnement<term ref="doi:10.34817/sv-tnedxt7h">sciences de
+        la vie par type d'organismes<term ref="doi:10.34817/sv-tc2vstln">bactériologie</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-iwqqnrp8">laboratoire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d'inscription<term ref="doi:10.34817/sv-4skusyqu">carnet</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-barjmjqd">observation</term>
+            </term>
+          </term>
+          <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> s’était embarqué
+        pour un « grand voyage d’exploration » : il passa les premiers mois de
+        son séjour à faire la navette entre l’hôpital, le matin, et les rues
+        de <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, dans
+        l’après-midi, voire à pénétrer dans les logis des pauvres et dans les
+        repaires des gamins des rues, à observer et à consigner ses
+        observations dans les centaines de pages de ce « journal » par lettre
+        qu’il envoyait deux fois par semaine à sa mère<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Correspondance de Yersin, les 7 et 13 novembre 1885.</p>
+          </note>. Puis, une fois qu’il eut intégré le laboratoire de
+        <persName ref="027059898" type="idref" xml:base="https://www.idref.fr/">Louis Pasteur</persName>, ce type de
+        comportement fut à l’origine de la première enquête microbiologique
+        qui fût menée sur des populations humaines et il en fournit la
+        structure. Qui plus est, la cohue urbaine devait par là même cesser
+        d’être l’antithèse inconnue et chaotique du cadre strictement contrôlé
+        du laboratoire et de la clinique. Elle devint ainsi un espace de
+        connaissance bactériologique et épidémiologique à part entière. Enfin,
+        la bactériologie donna naissance à une forme fondamentalement mobile
+        de science et de techniques de laboratoire.</p>
+        <p xml:id="d1e161">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-qcbhpij3">corps<term ref="doi:10.34817/sv-njzdsqjs">santé</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+        expérimentales<term ref="doi:10.34817/sv-uwezj7w5">sciences de la vie
+        et de l'environnement<term ref="doi:10.34817/sv-sru2xzyv">microbiologie</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-cbx9cvwr">instrument d'observation<term ref="doi:10.34817/sv-ftqvrc9c">microscope</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-z5onurxv">expérimentation</term>
+            </term>
+          </term>Ce
+        n’est ni la discipline qu’il avait choisi d’étudier ni sa formation
+        qui inspira à <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> cette activité
+        d’observation errante. Mais si elle fait de lui un cas unique en son
+        genre parmi les médecins et bactériologues de son temps, elle ne le
+        singularise cependant pas par rapport au <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+        de l’époque en général ; peintres, romanciers, journalistes,
+        détectives privés et <hi rend="italic">enquêteurs </hi>en sciences
+        sociales déambulaient dans les rues et dans les demeures de la ville,
+        pour observer, analyser, dépeindre. Ces gens, pourtant, s’inscrivaient
+        dans des mouvements ou dans des traditions artistiques et
+        scientifiques ; <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> non. Et s’il
+        développa et promut une&#x2028; méthode, il ne le fit pas consciemment,
+        contrairement à eux. Sa pratique de chercheur n’est pas non plus un
+        héritage des traditions de l’investigation médicosociale et
+        épidémiologique ou de la police sanitaire et médicale<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>
+              <hi rend="small-caps">Perrot</hi>, 1972 ; <hi rend="small-caps">Lecuyer</hi>, 1977, vol. 1, p. 445-476 ; <hi rend="small-caps">Coleman</hi>, 1982 et 1987 ; <hi rend="small-caps">Aisenberg</hi>, 1999.</p>
+          </note>.</p>
+        <figure xml:id="d1e188">
+          <graphic url="../icono/br/LDSII_44_Mendelsohn_Maladie_img1.png"/>
+          <head xml:id="d1e192">Alexandre Yersin (1863-1943).</head>
+        </figure>
+        <p xml:id="d1e199">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-rwx5cjuj">oisif</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-yenrhmkn">collaboration</term>
+            </term>
+          </term>L’histoire
+        de <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> nous permet
+        d’entrer dans l’histoire culturelle d’une science expérimentale et des
+        pratiques de laboratoire. Son étude au microscope des infections de la
+        ville s’inscrit dans un chapitre plus large de l’élaboration de la
+        microbiologie médicale et implique <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Émile Roux</persName>,
+        le principal collaborateur de <persName ref="027059898" type="idref" xml:base="https://www.idref.fr/">Pasteur</persName>, qui engagea le
+        jeune étudiant en médecine et le prit comme assistant. La thèse que je
+        voudrais défendre ici est qu’ils transformèrent en science des formes
+        de vie urbaine et la relation entre la ville et la « campagne ».
+        <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> mit au point sa
+        pratique de chercheur à partir de ses activités de loisir : <hi rend="italic">flâner</hi>, lire des romans, et même aller à la mer,
+        comme les habitants de la ville se mirent à le faire à l’époque. Il
+        étendit la bactériologie de terrain en dehors des limites de la ville
+        en prenant très exactement les routes suivies par ces excursions.
+        Quant à <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName>, il conçut ses
+        méthodes de laboratoire, son analyse des données et la manière
+        d’expliquer les maladies qu’il devait ensuite enseigner à l’Institut
+        <persName ref="027059898" type="idref" xml:base="https://www.idref.fr/">Pasteur</persName>, à travers ce que
+        <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> appelle son « genre
+        de vie » et en particulier l’expérience qu’il fit des modifications de
+        sa santé selon qu’il vivait en ville ou à la campagne.</p>
+        <p xml:id="d1e209">Les investigations urbaines de <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> faisaient partie
+        d’un projet qu’il avait persuadé <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName>
+        d’entreprendre autour de la diphtérie, une maladie courante redoutable
+        qui frappait les enfants dans les villes d’Europe et d’Amérique du
+        Nord à la fin du <date from="1800" to="1899" type="_temp">
+            <hi rend="small-caps">xix</hi>
+            <hi rend="sup">e</hi> siècle</date>. La
+        diphtérie donna à <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> la possibilité
+        d’explorer une hypothèse générale qu’il avait formulée, avec <persName ref="027059898" type="idref" xml:base="https://www.idref.fr/">Pasteur</persName>, dans leurs études
+        sur l’anthrax en <date type="_temp" when="1881">1881</date> : le fait
+        que les maladies infectieuses ne résultent pas seulement de la
+        contagion, mais aussi et peut-être surtout de l’activation de microbes
+        latents (« atténués ») toujours présents dans les corps des hommes et
+        des animaux. Ainsi les épidémies étaient-elles moins des invasions que
+        des perturbations d’un équilibre fragile entre les microbes et la vie
+        animale. Cette hypothèse était seulement une extrapolation à la nature
+        en général des expériences de laboratoire que <persName ref="027059898" type="idref" xml:base="https://www.idref.fr/">Pasteur</persName> avait consacrées à
+        la virulence des microorganismes, qui était amenée à changer pendant
+        le développement et la production de vaccins<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>
+              <hi rend="small-caps">Mendelsohn</hi>, 2002.</p>
+          </note>. Ils n’avaient aucune preuve de « terrain ».</p>
+        <p xml:id="d1e239">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+            </term>
+          </term>Passons
+        à la diphtérie : à partir de leur étude de gorges d’enfants, les
+        savants ont décrit dans les <date from="1880" to="1889" type="_temp">années 1880</date> une forme bactérienne semblable en
+        tout point au bacille diphtérique de <persName ref="188641491" type="idref" xml:base="https://www.idref.fr/">Friedrich
+        Loeffler</persName>, mais non pathogène pour les humains ou les
+        animaux de laboratoire. <persName ref="188641491" type="idref" xml:base="https://www.idref.fr/">Loeffler</persName>, un étudiant de
+        <persName ref="028428005" type="idref" xml:base="https://www.idref.fr/">Robert Koch</persName>, l’a surnommé
+        le bacille pseudodiphtérique, et l’a traité comme une espèce séparée,
+        sans aucun rapport avec la maladie. Mais l’était-il vraiment ? En
+        <date type="_temp" when="1889-05">mai 1889</date>, <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> a commencé à
+        examiner les gorges et les bouches de douzaines d’enfants « normaux »
+        (c’est-à-dire atteints d’autres affections, comme des insolations ou
+        des cancers) à l’hôpital des Enfants malades, où il était interne. Il
+        trouva ledit bacille pseudodiphtérique chez un tiers d’entre eux<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>Roux et <hi rend="small-caps">Yersin</hi>, 1890, p. 385-426 ;
+            A<hi rend="small-caps">IP</hi> (Archives de l’Institut Pasteur) :
+            Fonds Yersin, 12 cahiers de recherche (1887-1891), rangé sous la
+            cote Tonsite (cité par la suite comme Yersin, <hi rend="italic">Tonsite</hi>) : <hi rend="italic">Tonsite V</hi>,
+            p. 8 ; <hi rend="italic">Tonsite</hi>
+              <hi rend="italic"/>
+              <hi rend="italic">VI</hi>, p. 3, <hi rend="italic">passim</hi>
+              <hi rend="italic"> ;</hi>
+              <hi rend="italic">Tonsite</hi>
+              <hi rend="italic"/>
+              <hi rend="italic">VII</hi>, p. 1-14.</p>
+          </note>. Mais qu’en était-il des enfants qui avaient déjà eu la
+        maladie ?</p>
+        <figure xml:id="d1e296">
+          <graphic url="../icono/br/LDSII_44_Mendelsohn_Maladie_img2.png"/>
+          <head xml:id="d1e300">Portrait d’Émile Roux, assistant de Louis
+          Pasteur en 1894, peinture d’Albert Edelfelt (1854-1905), 1894.
+          Paris, musée Pasteur.</head>
+        </figure>
+        <div type="section1" xml:id="d1e319">
+          <head subtype="level1" xml:id="d1e321">Art et science de « plein
+          air »</head>
+          <p xml:id="d1e324">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-qlxr2uj3">ville</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-y3mwnius">mobilité</term>
+              </term>
+            </term>« Je
+          suis en ville des enfants guéris et sortis de l’hôpital », nota
+          <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> dans son journal
+          épistolaire à la date du <date type="_temp" when="1889-06-23">23 juin 1889</date>. Il continua cette activité
+          pendant toute la semaine et, par intermittence, pendant les six mois
+          suivants. Il arpenta la ville avec ses éprouvettes, visitant et
+          revisitant des enfants des classes laborieuses et des appartements
+          de la petite bourgeoisie – par exemple <persName type="_temp">Philippe Recoussines</persName>, huit ans, le fils d’un
+          marchand de vin du IX<hi rend="sup">e</hi> arrondissement –
+          retournant avec des prélèvements de leur gorge au laboratoire où il
+          les mettait en culture, les examinait au microscope et testait leur
+          virulence sur des cochons d’Inde<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>AP-HP, Hôpital des Enfants malades, registre des entrées,
+              1889, n<hi rend="sup">o</hi> 1932. AIP : Yersin, « Diphtéries
+              suivies après la guérison », 1889, p. 3.</p>
+            </note>. Faut-il interpréter ces parcours uniquement sur le modèle
+          de la visite à domicile du docteur ? Le rôle médical était très
+          certainement nécessaire, car il permettait à <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> de faire des
+          prélèvements sur le corps des gens. Mais cela n’aurait pas suffi.
+          Les visites à domicile relevaient de la clientèle privée, et non pas
+          de la pratique hospitalière. Qui plus est, étendre l’examen invasif
+          et examiner tout un éventail de personnes, du malade au bien
+          portant, ne faisait normalement pas partie des attributions du
+          médecin. Dans le manuel <hi rend="italic">Clinique</hi>
+            <hi rend="italic"> de </hi>
+            <hi rend="italic">l’hôpital</hi>
+            <hi rend="italic"> des </hi>
+            <hi rend="italic">Enfants</hi>
+            <hi rend="italic"> malades </hi>de <date type="_temp" when="1884">1884</date>, le médecin-chef concluait ainsi une longue
+          présentation d’un cas important : « L’enfant est enfin sortie de
+          l’hôpital, et l’observation est complète<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>
+                <hi rend="small-caps">Bouchut</hi>, 1884, p. 586.</p>
+            </note>. » Il était normal que l’espace de l’observation médicale
+          et l’espace de l’hôpital se recouvrent parfaitement.</p>
+          <p xml:id="d1e386">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-jjpnzr3b">maître</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d'inscription<term ref="doi:10.34817/sv-4skusyqu">carnet</term>
+                </term>
+              </term>
+            </term>Le
+          mentor de <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName>, <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName>, avait donné un nom
+          à la bactériologie de terrain, à la bactériologie hors laboratoire.
+          Il l’appelait « bactériologie en plein air !<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Cité par <hi rend="small-caps">Cachin</hi>, 1997, vol. 1,
+              p. 957-996 et, notamment, p. 987.</p>
+            </note> ». Le plein air était à ce point devenu un <hi rend="italic">topos</hi>, une manière d’exprimer la vie et la
+          pratique artistique, sociale et scientifique sous la <date>III<hi rend="sup">e</hi> République</date>, qu’un des premiers manuels de
+          l’enquête sociale urbaine, <hi rend="italic">Les Enquêtes : pratique
+          et théorie</hi>, de <persName ref="031932215" type="idref" xml:base="https://www.idref.fr/">Pierre Du Maroussem</persName> (il
+          fut publié dans une collection de sciences sociales à laquelle le
+          pasteurien <persName ref="034383557" type="idref" xml:base="https://www.idref.fr/">Émile Duclaux</persName>, le mentor
+          de <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName>, était associé)
+          opposait « l’école allemande » à « l’école française » dans les
+          termes suivants : « D’un côté, c’est la vie d’archives ; d’un autre
+          c’est la vie d’activité et de “plein air” – un peu celle du
+          “reporter” et du “détective”<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>
+                <hi rend="small-caps">Du</hi>
+                <hi rend="small-caps">Maroussem</hi>, 1900, p. 5. Voir <hi rend="small-caps">Duclaux</hi>, 1902. Ils furent publiés tous
+              deux dans la collection « Bibliothèque générale des sciences
+              sociales », éditée par Dick May, École des hautes études
+              sociales, dont Duclaux devint le directeur. Du Maroussem dirigea
+              une enquête socio-économique à long terme dans la tradition du
+              livre classique de l’ingénieur Frédéric Le Play, <hi rend="italic">Les Ouvriers européens (1</hi>855).</p>
+            </note>. » En un mot, le <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> de <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> était le
+          <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> de l’art et
+          de la science du plein air, celui de l’observateur mobile et
+          solitaire, parcourant la ville, le peintre avec ses pinceaux,
+          l’enquêteur social ou le romancier avec ses carnets, le
+          bactériologiste avec ses éprouvettes. L’atelier, la bibliothèque, le
+          bureau de la mairie, le <hi rend="italic">cabinet </hi>de
+          l’écrivain, le laboratoire et la clinique – étaient absolument
+          nécessaires à la pratique artistique et scientifique, mais leurs
+          murs devaient être percés. C’est à cette condition qu’on avait accès
+          à <hi rend="italic">la </hi>
+            <hi rend="italic">vérité </hi>
+            <hi rend="italic">du </hi>
+            <hi rend="italic">plein </hi>
+            <hi rend="italic">air</hi>.</p>
+          <figure xml:id="d1e454">
+            <graphic url="../icono/br/LDSII_44_Mendelsohn_Maladie_img3.png"/>
+            <head xml:id="d1e458">
+              <hi rend="italic">Vue du pont de l’Europe à
+            Paris en 1876</hi>, peinture de Gustave Caillebotte (1848-1894),
+            1876.</head>
+          </figure>
+          <p xml:id="d1e471">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-5juufyik">espace
+          public</term>
+              </term>
+            </term>Le <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> des
+          années <date from="1820" to="1839" type="_temp">1820 et 1830</date>
+          avait connu un boom économique, et la vie quotidienne de la
+          bourgeoisie se transforma : on passa de l’intérieur de la maison à
+          de nouvelles enclaves semi-publiques vouées aux spectacles, au
+          loisir et à la consommation – les cafés, les dancings, les théâtres
+          et les galeries marchandes (les <hi rend="italic">passages</hi>).
+          Vers <date type="_temp" when="1840">1840</date>, il était très à la
+          mode de <hi rend="italic">flâner </hi>dans les passages à une allure
+          de tortue, c’est-à-dire littéralement en suivant une tortue tenue en
+          laisse<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>
+                <hi rend="small-caps">Benjamin</hi>, 1974, p. 52.</p>
+            </note>. Des caricatures représentaient un personnage en train de
+          marcher d’un pas nonchalant, parfois immobile, toujours plein de
+          suffisance, mais assez intrigué par ceux qui sont autour de lui pour
+          porter des jumelles<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>
+                <hi rend="small-caps">Huart</hi>, 1841.</p>
+            </note>. Au moment même où l’impressionniste <persName ref="027285235" type="idref" xml:base="https://www.idref.fr/">Gustave Caillebotte</persName> se
+          peignait lui-même en pied avec un haut-de-forme sur le nouveau pont
+          de l’Europe en <date type="_temp" when="1876">1876</date>, le <hi rend="italic">flâneur </hi>s’était pourtant métamorphosé, devenant
+          un observateur caractérisé par la rapidité de ses déplacements dans
+          un paysage urbain géométrique, produit de l’haussmannisation, fait
+          de poutres métalliques et d’espaces grands ouverts<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>
+                <hi rend="small-caps">Herbert</hi>
+                <hi rend="italic">et
+              al.</hi>, 1988, p. 23.</p>
+            </note>.</p>
+          <p xml:id="d1e527">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-q5lkydsn">sexe et genre<term ref="doi:10.34817/sv-7htz8int">masculin</term>
+              </term>
+            </term>Comme
+          ces personnages, <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> était par
+          excellence l’observateur masculin à pied : son haut-de-forme
+          signalant sa classe sociale et son indépendance le distinguait du
+          petit-bourgeois reconnaissable à son chapeau ou du travailleur à sa
+          casquette ; le mélange de distraction et de préoccupation qui
+          marquait sa démarche le distinguait du pur piéton en affaires ou du
+          banlieusard ; son œil vagabond, à la fois intelligent et
+          observateur, et l’activité de son stylo le distinguaient du pur
+          fainéant ou du <hi rend="italic">badaud ;</hi> enfin, il marchait en
+          solitaire, détaché de tout lien social ou domestique, différent en
+          cela des couples ou des familles en promenade<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Voir <hi rend="small-caps">Tester</hi>, 1994.</p>
+            </note>.</p>
+          <p xml:id="d1e542">En <date type="_temp" when="1885-10">octobre 1885</date>, quelque dix jours avant que le
+          jeune Suisse ne fît ses premiers pas à <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, il se trouva
+          qu’un jeune Viennois arrivait également à <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> pour étudier
+          en clinique. <persName ref="027324664" type="idref" xml:base="https://www.idref.fr/">Sigmund Freud</persName> était
+          fasciné par la capitale de la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, mais la vie
+          des rues lui inspirait un sentiment de dégoût : « Les femmes, comme
+          les hommes, se pressent autour des nudités comme autour des cadavres
+          de la Morgue ou des horribles affiches dans les rues », annonçant
+          les derniers romans<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Freud à Minna Bernays, 3 décembre 1885, in <hi rend="small-caps">Freud</hi>, 1960, p. 200.</p>
+            </note>. <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> au contraire vint
+          tout exprès visiter la morgue. Cet étudiant en médecine, partagé
+          entre son faible pour les spectacles et son amour pour son atlas
+          d’anatomie, ne dédaignait pas de décrire la beauté d’un pied amputé
+          qu’il était chargé de disséquer ; il visita deux fois la morgue pour
+          voir les corps exposés dans leurs boîtes de verre, mais également
+          pour faire l’expérience de la foule qui s’y pressait et la regarder
+          comme un spectacle<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Correspondance de Yersin, le 31 octobre 1885 ; voir <hi rend="small-caps">Schwartz</hi>, 1998, chap. II.</p>
+            </note>. Alors que <persName ref="027324664" type="idref" xml:base="https://www.idref.fr/">Freud</persName> regardait d’un œil
+          strict et distant les foules parisiennes qui lui inspiraient ses
+          premières réflexions sur les « épidémies » psychiques et la
+          psychologie des masses<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>
+                <hi rend="small-caps">Goldstein</hi>, 1984, p. 181-222,
+              particulièrement. p. 181.</p>
+            </note>, <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName>, quant à lui, s’y
+          plongeait littéralement, une expérience qui a animé bien des écrits
+          de <persName ref="026709635" type="idref" xml:base="https://www.idref.fr/">Baudelaire</persName> et qu’il
+          identifiait avec l’observation de la vie moderne<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>
+                <hi rend="small-caps">Baudelaire</hi>, 1999, p. 511-514.</p>
+            </note>.</p>
+          <p xml:id="d1e600">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-xmvthwt6">méthode</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-uwezj7w5">sciences de la
+          vie et de l'environnement<term ref="doi:10.34817/sv-tnedxt7h">sciences de la vie par type
+          d'organismes<term ref="doi:10.34817/sv-tc2vstln">bactériologie</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+            </term>On
+          mesure d’autant mieux à quel point la bactériologie de terrain de
+          <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> trouve ses
+          origines dans la vie de la rue et combien elle en adopte le style
+          quand on la compare à des pratiques mises en place dans d’autres
+          villes. Quelques années plus tard, le bactériologiste de la ville de
+          <placeName ref="5128581" type="geonames" xml:base="https://www.geonames.org/">New York</placeName>, <persName ref="134051572" type="idref" xml:base="https://www.idref.fr/">William Park</persName>, lança à
+          son tour une enquête sur les infections urbaines propres à
+          <placeName ref="5112085" type="geonames" xml:base="https://www.geonames.org/">Manhattan</placeName>. Comme
+          <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName>, <persName ref="134051572" type="idref" xml:base="https://www.idref.fr/">Park</persName> venait juste de
+          terminer ses études de médecine et s’était spécialisé en
+          bactériologie, et comme lui, il utilisa ses connaissances pour
+          enquêter sur les signes cliniques de la diphtérie<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Voir <hi rend="small-caps">Hammonds</hi>, 1999.</p>
+            </note>. Le protocole qu’il mit en place pour évaluer l’infection
+          diphtérique en ville était de style aussi new-yorkais que la
+          démarche de <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> était
+          parisienne.</p>
+          <figure xml:id="d1e618">
+            <graphic url="../icono/br/LDSII_44_Mendelsohn_Maladie_img4.png"/>
+            <head xml:id="d1e622">Vue du boulevard des Italiens et du
+            carrefour Drouot avec le percement du boulevard Haussmann dans le
+            quartier de l’Opéra à Paris. Photographie du <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle.</head>
+          </figure>
+          <p xml:id="d1e651">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-qlxr2uj3">ville</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-xzvgbxyl">gestion<term ref="doi:10.34817/sv-fv5oazux">planification</term>
+                </term>
+              </term>
+            </term>Pour
+          assurer une meilleure efficacité du commerce, des transports et du
+          contrôle, les ingénieurs conçurent le plan de <placeName ref="5112085" type="geonames" xml:base="https://www.geonames.org/">Manhattan</placeName> comme une
+          grille, un modèle que les ingénieurs de <persName ref="027273261" type="idref" xml:base="https://www.idref.fr/">Haussmann</persName>
+          rejetèrent expressément ; il ne convenait ni à l’embellissement ni
+          aux <hi rend="italic">promenades</hi>
+            <note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>
+                <hi rend="small-caps">Picon</hi>, 1994, p. 137-151.</p>
+            </note>. Le modernisme avancé du <date from="1900" to="1999" type="_temp">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date>, en matière architecturale et en
+          planification urbaine, allait placer au centre de ses concepts le
+          quadrillage et ses vertus supposées, qui étaient cependant aussi
+          anciens que les forteresses romaines. Comme le <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> produit par
+          l’haussmannisation avait encouragé le bactériologiste, après
+          l’écrivain et le peintre, à abandonner son lieu de travail
+          traditionnel et à poursuivre son activité professionnelle en
+          l’intégrant à son temps de loisir et à l’espace de la ville, la
+          grille de <placeName ref="5112085" type="geonames" xml:base="https://www.geonames.org/">Manhattan</placeName> et sa
+          philosophie économique devaient inspirer au bactériologiste le
+          système spatial régulier qu’il créa pour le transport et la
+          communication des cultures bactériennes et de l’information. Ainsi
+          <persName ref="134051572" type="idref" xml:base="https://www.idref.fr/">Park</persName> fit-il
+          confectionner des « trousses de culture bactériologique » (de
+          petites boîtes en bois contenant une éprouvette stérile, un bâton de
+          prélèvement, des instructions et un formulaire vierge) qu’il laissa,
+          partout en ville, à quarante endroits différents (des « stations »),
+          où des praticiens privés pouvaient les prendre gratuitement et les
+          redéposer une fois que des prélèvements de crachat avaient été
+          faits. Les stations étaient les boutiques de pharmaciens privés, qui
+          donnaient par là même aux médecins voisins une raison supplémentaire
+          de fréquenter leurs officines. C’était ensuite au collecteur du
+          département <hi rend="italic">(<foreign xml:lang="eng">Department
+          Collector)</foreign>
+            </hi>, dont c’était la fonction spécifique, de
+          récupérer les boîtes en fin de journée. Pour connaître les résultats
+          d’un prélèvement, les médecins téléphonaient au « 1191 Spring », le
+          lendemain vers midi, ou bien ils attendaient de recevoir un rapport
+          par le courrier de l’après-midi<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>
+                <hi rend="small-caps">Biggs</hi>, 1895, p. 3-6.</p>
+            </note>. On voit donc comment les éprouvettes et les populations
+          furent mises en contact pour la première fois d’une ville à l’autre
+          selon leurs agencements physiques et sociaux urbains respectifs,
+          très différents : <placeName ref="5112085" type="geonames" xml:base="https://www.geonames.org/">Manhattan</placeName>, la
+          grille de transports et de communication efficaces, comprenant la
+          poste et le téléphone ; <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, la ville du
+          loisir et des spectacles en plein air, la ville des promenades le
+          long des rues.</p>
+          <figure xml:id="d1e703">
+            <graphic url="../icono/br/LDSII_44_Mendelsohn_Maladie_img5.png"/>
+            <head xml:id="d1e707">Carte de Manhattan à New York, 1789. Gravure
+            du <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle.</head>
+          </figure>
+          <p xml:id="d1e730">« Il n’y a pas eu depuis longtemps de bons cas à
+          l’hôpital, c’est-à-dire de diphtéries bénignes chez un enfant du
+          quartier que l’on puisse suivre après la guérison », se plaignait
+          <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> en <date type="_temp" when="1889-11">novembre 1889</date>
+            <note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>Correspondance de Yersin, le 10 novembre 1889.</p>
+            </note>. Il prit donc également sa bicyclette. Les Parisiens
+          venaient de découvrir les banlieues qui se développaient le long de
+          la Seine à l’ouest de la ville ; avec l’expansion des lignes de
+          chemin de fer à partir de la <placeName ref="2978860" type="geonames" xml:base="https://www.geonames.org/">gare
+          Saint-Lazare</placeName>, elles s’étaient transformées en ces
+          avant-postes d’excursion à la « campagne » que les impressionnistes
+          capturaient sur la toile. <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> avait commencé
+          par les explorer à bicyclette ; par la suite, jour après jour,
+          durant des semaines, il devait y retourner à bicyclette (et parfois
+          par le train), muni de ses éprouvettes, pour étudier l’ensemble
+          d’une famille (à <placeName ref="6451976" type="geonames" xml:base="https://www.geonames.org/">Nanterre</placeName> en
+          particulier)<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>AP-HP : Hôpital des Enfants malades, registre des entrées,
+              1889, n<hi rend="sup">o</hi> 4181. AIP : Yersin, <hi rend="italic">Tonsite VIII</hi>, p. 7-8, 22, 32, 34.
+              Correspondance de Yersin, le 8 décembre 1889 ; 1-15 septembre
+              1889 (sur la bicyclette).</p>
+            </note>.</p>
+          <p xml:id="d1e773">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-y3mwnius">mobilité</term>
+              </term>
+            </term>La
+          bactériologie urbaine de <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> avait
+          effectivement pour sujet l’actualité quotidienne des microbes et
+          leur virulence, la fugitive microscopie des gorges de la ville, jour
+          après jour. Il mettait sous le terme d’étiologie non pas l’étude des
+          causes des pathologies, mais celle de « la façon dont les microbes
+          se comportent », avant et après la maladie<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>Correspondance de Yersin, le 16 juin 1889.</p>
+            </note> – la vie quotidienne des microbes. Les suivre exigeait la
+          « vélocité » que <persName ref="026709635" type="idref" xml:base="https://www.idref.fr/">Baudelaire</persName> reconnaissait
+          au peintre de la vie moderne<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>
+                <hi rend="small-caps">Baudelaire</hi>, 1999, p. 507 ; <hi rend="small-caps">Herbert</hi>
+                <hi rend="italic">et al.</hi>,
+              1988, chap. <hi rend="small-caps">i</hi>.</p>
+            </note> : le savant filait par les rues à <hi rend="italic">vélo
+          </hi>avec ses éprouvettes et procédait à des « petites manœuvres »
+          de « deux secondes » d’une langue à l’autre. Les mécanismes de
+          l’immunité, la chimie des toxines et des antitoxines, la biologie de
+          la virulence et de la variation, les débats en vigueur sur
+          l’étiologie et l’épidémiologie, ce n’était pas son affaire. Et ni
+          les cobayes en laboratoire ni les patients à la clinique ni
+          l’élaboration d’une théorie n’auraient permis à <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> de saisir la
+          « vérité de plein air », passagère et pourtant si réelle, des
+          infections changeantes de la ville.</p>
+        </div>
+        <div type="section1" xml:id="d1e807">
+          <head subtype="level1" xml:id="d1e809">Les <hi rend="italic">Mystères</hi>, les <hi rend="italic">Mohicans</hi> et
+          les <hi rend="italic">Misérables</hi> de Paris</head>
+          <p xml:id="d1e824">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-iwqqnrp8">laboratoire</term>
+              </term>
+            </term>Le
+          laboratoire, la clinique, la ville : l’activité de <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> les a confondus
+          dans un espace de connaissance continu. Si le laboratoire et la
+          clinique étaient par définition des lieux de production du savoir,
+          la ville sociale avait été pour ainsi dire l’antithèse même d’un
+          site et d’un objet de connaissance bactériologique ou
+          épidémiologique. On savait isoler les bactéries dans les conduites
+          d’adduction des eaux ou chez des individus malades, mais non pas
+          dans la population dans son ensemble. Pour la plus grande partie du
+          <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>, les
+          investigateurs épidémiologistes ont évité <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>. Sa
+          complexité sociale excluait que l’on puisse dépister des cas et des
+          modes de transmission. L’enquête épidémiologique se concentrait donc
+          sur son apparition dans de petites communautés rurales<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>
+                <hi rend="small-caps">Coleman</hi>, 1987, p. 20-21.</p>
+            </note>. « À <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, comme dans
+          toutes les grandes villes », notait un contemporain, « les faits de
+          contagion aussi fréquents qu’une maladie [comme la typhoïde] peuvent
+          rarement être observés de façon concluante<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>
+                <hi rend="small-caps">Ackerknecht</hi>, 1948, p. 589.</p>
+            </note>. » D’un point de vue épidémiologique, la cohue urbaine
+          était l’inconnaissable par excellence.</p>
+          <p xml:id="d1e860">Il y avait assurément des secrets
+          bactériologiques et épidémiologiques cachés dans la population de
+          <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, mais, pour
+          <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName>, ils étaient
+          susceptibles d’investigation et connaissables. Et pour apprendre à
+          les connaître, il mit au point une manière d’observer la ville, de
+          l’explorer et de se la représenter dont il n’empruntait pas le
+          modèle à l’histoire, à la géographie et à la culture de la
+          bourgeoisie, mais qu’il puisait dans les représentations et les
+          lieux des classes inférieures.</p>
+          <p xml:id="d1e866">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+              </term>
+            </term>Comment
+          le vieux <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> pouvait-il
+          servir de modèle à <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> ? Par les livres.
+          Il lisait autant qu’il marchait et qu’il décrivait, une lettre après
+          une autre, ses parcours dans la ville. La bourgeoisie avait dépeint
+          ce monde (et prêté l’oreille au langage secret de son argot) en
+          suivant les aventures de ces investigateurs solitaires et déguisés
+          qu’étaient les héros des premiers romans de masse, à commencer par
+          leur prototype, <hi rend="italic">Les Mystères de Paris
+          </hi>d’<persName ref="027151344" type="idref" xml:base="https://www.idref.fr/">Eugène Sue</persName> (<date from="1843" to="1844" type="_temp">1843-1844</date>), qui influença
+          à son tour <hi rend="italic">Les Mohicans de Paris </hi>d’<persName ref="026842718" type="idref" xml:base="https://www.idref.fr/">Alexandre Dumas</persName> (<date from="1856" to="1857" type="_temp">1856-1857</date>) et <hi rend="italic">Les Misérables </hi>de <persName ref="026927608" type="idref" xml:base="https://www.idref.fr/">Victor
+          Hugo</persName> (<date type="_temp" when="1862">1862</date>), dont
+          l’action se déroulait dans la <date from="1800" to="1849" type="_temp">première moitié du <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>. Tandis que, « pour comprendre
+          <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> », <persName ref="027324664" type="idref" xml:base="https://www.idref.fr/">Freud</persName> s’asseyait dans la
+          cathédrale pour lire <hi rend="italic">Notre-Dame</hi>
+            <hi rend="italic"/>
+            <hi rend="italic"> de</hi>
+            <hi rend="italic"/>
+            <hi rend="italic"> Paris</hi>, le roman de <persName ref="026927608" type="idref" xml:base="https://www.idref.fr/">Victor Hugo</persName>
+          qui se situait au cœur de l’<date>époque médiévale</date>, <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> apprit à
+          comprendre <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> en lisant, au
+          moins deux fois, <hi rend="italic">Les Misérables</hi>, le roman de
+          <persName ref="026927608" type="idref" xml:base="https://www.idref.fr/">Hugo</persName> qui se situait dans
+          le labyrinthe de l’espace physique et social de la ville du <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>
+            <note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Freud à Minna Bernays, le 3 décembre 1885, FREUD, 1960,
+              p. 200 ; Correspondance de Yersin, le 3 mars 1889.</p>
+            </note>.</p>
+          <p xml:id="d1e948">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l'information<term ref="doi:10.34817/sv-dmvyrktg">carte</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-zrgdoeep">exploration</term>
+              </term>
+            </term>Les
+          explorations de <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> le conduisirent
+          d’emblée dans le vieux <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>. En <date type="_temp" when="1885-11">novembre 1885</date>, par exemple, il
+          parcourut le fameux <placeName ref="6452891" type="geonames" xml:base="https://www.geonames.org/">cimetière du
+          Père-Lachaise</placeName>, et cela sans guide sinon sans carte, et
+          en évitant soigneusement de mettre ses pas dans ceux des touristes :
+          « En sortant du <placeName ref="6452891" type="geonames" xml:base="https://www.geonames.org/">Père-Lachaise</placeName>, je
+          me lance plan en main à travers un dédale de ruelles qui ne sont
+          rien moins que propres et où on sent tout particulièrement cette
+          curieuse odeur… Les enfants sont en guenilles et paraissent à moitié
+          sauvages. » Il continua : « Figure-toi un étroit passage entre des
+          maisons. Le sol en est noir et visqueux, un ruisseau boueux coule au
+          milieu, quelques enfants barbotent dedans<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>Correspondance de Yersin, le 21 novembre 1889.</p>
+            </note>. » En <date type="_temp" when="1889">1889</date>,
+          <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> sut transformer
+          les secrets sociaux de <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> en secrets
+          bactériologiques, et de même que les premiers étaient susceptibles
+          d’être découverts et éclairés, il eut accès aux seconds par sa
+          manière d’examiner « en ville » les corps en bonne santé et par les
+          éprouvettes qu’il transportait partout avec lui.</p>
+          <p xml:id="d1e980">Je ne veux pas dire ici seulement que <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> créa une
+          bactériologie typiquement parisienne à partir des formes et fictions
+          de la vie quotidienne propre à cette ville, mais également que son
+          type de recherche et la transformation de la ville en un espace de
+          connaissance bactériologique présupposaient le <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> du plein air,
+          mais aussi le <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> de ces romans
+          et de ces formes de vie ordinaire, le <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> des secrets
+          susceptibles d’être sondés. Ce <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> était
+          difficile à pénétrer dans les <date from="1880" to="1889" type="_temp">années 1880</date>. Cela explique que le roman ait pu
+          servir à <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> de guide dans ses
+          voyages à travers le temps aussi bien qu’à travers l’espace.</p>
+          <p xml:id="d1e998">Les romans de <persName ref="027151344" type="idref" xml:base="https://www.idref.fr/">Sue</persName>, de
+          <persName ref="026842718" type="idref" xml:base="https://www.idref.fr/">Dumas</persName> et de <persName ref="026927608" type="idref" xml:base="https://www.idref.fr/">Hugo</persName> préparaient le
+          terrain pour l’essor du plus moderne et du plus urbain des genres
+          littéraires, à savoir le roman policier<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>
+                <hi rend="small-caps">Messac</hi>, 1975, chap. <hi rend="small-caps">ii-iii</hi>.</p>
+            </note>. <hi rend="italic">Les Mohicans </hi>de <persName ref="02679814X" type="idref" xml:base="https://www.idref.fr/">James
+          Fenimore Cooper</persName> furent une des sources d’inspiration de
+          ce nouveau genre, comme <persName ref="027151344" type="idref" xml:base="https://www.idref.fr/">Sue</persName> le reconnaît dans sa
+          préface et <persName ref="026842718" type="idref" xml:base="https://www.idref.fr/">Dumas</persName> dans le titre
+          même. À la fin de <date type="_temp" when="1886">1886</date>, après
+          un an en ville, peut-être frappé par une des « horribles » affiches
+          de <persName ref="027324664" type="idref" xml:base="https://www.idref.fr/">Freud</persName>, <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> acheta « cinq
+          volumes de Cooper », y compris <hi rend="italic">Le</hi>
+            <hi rend="italic"> Dernier</hi>
+            <hi rend="italic"> des </hi>
+            <hi rend="italic">Mohicans</hi> et <hi rend="italic">La</hi>
+            <hi rend="italic"> Prairie</hi>, et il attendait avec impatience le
+          moment de pouvoir les dévorer, le dimanche<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>Correspondance de Yersin : 26 septembre 1886.</p>
+            </note>. D’une part les « Mohicans » de <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> étaient ses
+          « sauvages », ceux qui vivaient en dehors de la loi (des criminels)
+          et de la civilisation (les <hi rend="italic">misérables</hi>,
+          spécialement les gamins déguenillés). D’autre part, ils étaient les
+          vrais habitants de la ville et ses véritables connaisseurs, ses
+          indigènes, les seuls à avoir les sens et les talents indispensables
+          pour vivre, traquer, chasser, dans sa vaste jungle.</p>
+          <p xml:id="d1e1064">
+            <hi rend="italic">Suivre</hi>, tels étaient le
+          mot clé et la pratique qui combinaient <hi rend="italic">flânerie</hi>, médecine, police, crime et <hi rend="italic">Les Misérables</hi>, entre autres romans qui
+          anticipaient le roman policier. Le terme renvoyait au personnage de
+          l’observateur invisible et voyant tout, le « Protée », une image
+          commune au criminel, à la police, au <hi rend="italic">flâneur
+          </hi>et au romancier. Comme les Goncourt l’écrivent dans leur
+          journal en <date type="_temp" when="1864">1864</date> : « Un auteur
+          doit être dans son livre comme la police dans une ville : partout et
+          nulle part<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>
+                <hi rend="small-caps">Burton</hi>, 1988, p. 61 ; cité in <hi rend="small-caps">Goncourt</hi>, 1956, 27 mai 1864, II,
+              p. 48.</p>
+            </note>. » En <date type="_temp" when="1889">1889</date>, quand
+          <persName type="idref" xml:base="https://www.idref.fr/">Yersin</persName> quittait
+          l’hôpital des Enfants malades (« Je suis en ville des enfants guéris
+          et sortis de l’hôpital »), des lecteurs de <hi rend="italic">Paris-Secret </hi>entraient dans l’hôpital derrière
+          Ignotius, l’auteur-<hi rend="italic">flâneur</hi>, soi-disant
+          « portraitiste » littéraire qui suivait, lui aussi, les enfants de
+          la ville. Ignotius arrive au chapitre <hi rend="small-caps">xxv</hi>
+          devant le grand portail des Enfants malades. Mais comment entrer ?
+          Ce n’est pas un problème pour le <hi rend="italic">flâneur
+          </hi>expert : « J’ai suivi une mère » et son enfant à l’intérieur de
+          l’hôpital ; il assiste aux procédures élaborées du vaste hall
+          d’admissions, où il faut prendre un numéro comme à la Banque de
+          France, puis les accompagne à travers l’hôpital, étrangement animé,
+          où règne non pas le silence mais le bourdonnement des bavardages de
+          ces « enfants sauvages<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>
+                <hi rend="small-caps">Ignotius</hi> [Félix Patel], 1889,
+              chap. XXV.</p>
+            </note> ». En suivant « en ville des enfants », <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> fondait en une
+          deux acceptions du verbe suivre propres au <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date> : la signification médicale (suivre
+          l’évolution de la maladie d’un patient) et la signification
+          policière, qui s’appliquait à tous ces marginaux, notamment les
+          caractères développés par le livre qui servait de guide à <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> dans la
+          métropole, <hi rend="italic">Les Misérables</hi>
+            <note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>Voir le <hi rend="italic">Trésor de la langue français :
+              dictionnaire de la langue du </hi>
+                <hi rend="small-caps italic">xix</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> et du </hi>
+                <hi rend="small-caps italic">xx</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> siècle (1789-1960)</hi>, éd. P. Imbs, Paris,
+              1971-1994), 16 vol., s.v. « suivre ».</p>
+            </note>.</p>
+          <p xml:id="d1e1169">La comparaison avec l’épidémiologie dite en
+          chaussures de randonnée <hi rend="italic">(<foreign xml:lang="eng">shoe leather</foreign>)</hi>, apparue légèrement
+          après, permet de prendre encore mieux la mesure de la spécificité de
+          la pratique de <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> par rapport à la
+          culture et à la littérature urbaines de son temps. Dans cette forme
+          plus récente d’enquête épidémiologique, semblable en cela à une
+          vraie histoire de détective, le poursuivant ne sait pas qui il
+          traque et, qui plus est, il doit trouver les indices, les traces,
+          pour résoudre l’énigme d’un cas ou d’une irruption de maladie
+          isolés<note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>Le cas classique est <hi rend="small-caps">Soper</hi>, 1919,
+              p. 1-15.</p>
+            </note>. Au contraire, une telle énigme n’existe pas dans la
+          bactériologie de terrain de Yersin, ni dans les romans de Sue, Dumas
+          et Hugo (ni dans la littérature de <hi rend="italic">flânerie</hi>
+          dont <hi rend="italic">Paris-Secret</hi> est le meilleur exemple).
+          Ici le mystère ne réside pas dans le sombre labyrinthe du vieux
+          <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> ni dans la
+          foule indéchiffrable, atomisée de la nouvelle métropole. Quand les
+          criminels « suivent » leurs victimes, ou les inspecteurs de police
+          les criminels (et vice-versa), le poursuivant connaît toujours
+          l’identité de la personne qu’il poursuit. Il y a un parallèle entre
+          l’activité policière, la forme narrative de ces romans et la
+          pratique de <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName>, exactement comme
+          il y a un parallèle entre la pratique de l’épidémiologie en
+          chaussures de randonnée, le travail du détective et la structure
+          narrative tout à fait différente des romans policiers.</p>
+          <p xml:id="d1e1193">Pour autant cela ne signifie pas qu’il n’y
+          aurait pas de suspense, que tout serait su. Javert trouvera-t-il
+          Valjean, et où ? Où <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> trouvera-t-il les
+          bacilles et que sera leur virulence ? Chaque semaine, comme
+          <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> l’écrivit à sa
+          mère le <date type="_temp" when="1889-06-30">30 juin 1889</date>,
+          « J’ai été en courses pour aller recueillir le microbe de la
+          diphtérie chez divers enfants ayant eu cette maladie depuis un temps
+          plus ou moins long. Il s’agit de savoir combien de temps il peut
+          conserver sa virulence<note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>Correspondance de Yersin, le 30 juin 1889.</p>
+            </note>. » De retour au laboratoire, l’inoculation aux cochons
+          d’Inde des cultures prélevées par intervalles dans les gorges de
+          patients guéris avait tendance à causer peu à peu de moins en moins
+          de décès chez les cochons d’Inde<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>AIP : Yersin, « Diphtéries examinées après guérison » et
+              « Diphtéries suivies après guérison », 8 ff., 1889.</p>
+            </note>. La guérison, semblait-il, impliquait une atténuation de
+          la virulence. Pourtant des ambiguïtés et des surprises restaient.
+          « Figure-toi que nous venons de trouver que le bacille diphtérique
+          peut persister dans la bouche des enfants avec toute sa virulence
+          alors que les fausses membranes ont entièrement disparu. C’est un
+          fait très curieux et très important aussi<note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>Correspondance de Yersin, le 25 juin 1889.</p>
+            </note>. »</p>
+          <p xml:id="d1e1223">L’étude familiale la plus étendue de <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> fut celle qui
+          l’obligea à faire de constants aller-retour à <placeName ref="6451976" type="geonames" xml:base="https://www.geonames.org/">Nanterre</placeName>, à <hi rend="italic">vélo </hi>
+            <hi rend="italic"/>et par le train, entre
+          <date from="1889-11" to="1889-12" type="_temp">novembre et
+          décembre 1889</date>. Des cinq enfants Chennebault, tous sauf
+          l’aînée, la petite Marie, âgée de onze ans, avaient été admis à peu
+          près à la même date aux Enfants malades et renvoyés chez eux après
+          guérison. <persName type="_temp">Marie</persName> était la source
+          d’un résultat étrange : une infection virulente qui avait persisté
+          des semaines après guérison. Une culture de la gorge saine de
+          <persName type="_temp">Marie</persName> présenta de nombreuses
+          colonies spécifiques, dont quatre ne transmirent pas la maladie aux
+          cochons d’Inde, mais des bacilles venant d’une des colonies tuèrent
+          un cochon d’Inde. Et <persName type="_temp">Marie</persName> n’avait
+          pas été malade du tout<note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>Yersin, <hi rend="italic">Tonsite VIII</hi>, p. 34, 41-42,
+              45 ; <hi rend="italic">Tonsite IX</hi>, p. 8-9.</p>
+            </note>.</p>
+          <p xml:id="d1e1250">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image<term ref="doi:10.34817/sv-8rqmydff">tableau</term>
+                </term>
+              </term>
+            </term>Généralement,
+          cependant, les résultats des examens bactériologiques de <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> sur les enfants
+          Chennebault donnaient des arguments en faveur de l’hypothèse que la
+          guérison s’accompagnait d’une atténuation de la virulence. Par
+          exemple, <persName type="_temp">Marcel</persName>, sept ans, était
+          rentré à la maison depuis six jours quand <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName>
+          isola de sa gorge trois colonies de ce qui s’avéra être le bacille
+          de la diphtérie ; l’une d’entre elles tua un cochon d’Inde. Une des
+          trois colonies d’un prélèvement réalisé deux jours plus tard tua
+          encore un cochon d’Inde. Cinq jours plus tard, cependant, trois
+          colonies ne firent aucun effet à trois cochons d’Inde<note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>Yersin, <hi rend="italic">Tonsite VIII</hi>, <hi rend="italic">passim ;</hi>
+                <hi rend="italic">Tonsite IX</hi>,
+              p. 8-9.</p>
+            </note>. La corrélation entre guérison et augmentation du nombre
+          de bacilles pseudodiphtériques non virulents semblait établie.
+          Toutefois, à peu près à la même époque, en <date type="_temp" when="1889-11">novembre 1889</date>, <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> et
+          <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> avaient fini par
+          réussir à effectuer en laboratoire l’atténuation des bacilles de la
+          diphtérie virulents. Ainsi donc émergeait entre le laboratoire, la
+          clinique et la ville un tableau plutôt cohérent de la manière dont
+          les microbes se « comportaient », comme <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName>
+          l’avait formulé, « après » la maladie. Mais quel était leur
+          comportement « avant » la maladie ? <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> et
+          <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> avaient besoin de
+          montrer qu’il était possible, dans des conditions de laboratoire, de
+          rendre leur virulence à des bacilles de diphtérie atténués. Et ils
+          avaient besoin d’évaluer plus précisément la diffusion du bacille
+          atténué ou pseudodiphtérique. En fait, il restait des doutes sur la
+          relation véritable entre les deux types de bacilles,
+          pseudodiphtérique et diphtérique.</p>
+          <p xml:id="d1e1271">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-z5onurxv">expérimentation</term>
+              </term>
+            </term>Ce
+          fut à ce moment qu’ils imaginèrent une curieuse expérience de
+          terrain, à vrai dire sans précédent, et qui illustre largement les
+          différences de méthode entre <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> et <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName>. <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> put la mener à
+          bien là encore grâce à une forme de loisir extérieur née au <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date> du phénomène de l’urbanisation et de
+          la métropole : les excursions hors de la ville.</p>
+        </div>
+        <div type="section1" xml:id="d1e1284">
+          <head subtype="level1" xml:id="d1e1286">La ville et la
+          campagne</head>
+          <p xml:id="d1e1289">Le vendredi <date type="_temp" when="1889-12-20">20 décembre 1889</date>, <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Alexandre
+          Yersin</persName> prit le train à la <placeName ref="2978860" type="geonames" xml:base="https://www.geonames.org/">gare
+          Saint-Lazare</placeName>. Sa destination : le village de pêcheurs de
+          <placeName ref="6615902" type="geonames" xml:base="https://www.geonames.org/">Grandcamp</placeName> sur la
+          côte normande, où il avait passé des vacances quelques mois
+          auparavant. Environ dix ans plus tôt, <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> avait
+          découvert la mer ; et des villages comme <placeName ref="6615902" type="geonames" xml:base="https://www.geonames.org/">Grandcamp</placeName>, avec
+          l’aide des lignes de chemin de fer récemment construites, devinrent
+          les stations de villégiature de la ville et les avant-postes des
+          peintres<note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>
+                <hi rend="small-caps">Herbert</hi>, 1998.</p>
+            </note>. Dans une lettre du <date type="_temp" when="1889-12-14">14 décembre</date> aux autorités scolaires
+          locales, <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> avait demandé à
+          examiner les élèves, en expliquant : « Dans le cours de nos
+          recherches, nous avons été amenés à comparer les microbes de la
+          bouche chez les enfants sains et chez les enfants malades. » Il
+          avait été possible d’examiner à <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, sur le plan
+          bactériologique, un assez bon nombre d’enfants en bonne santé.
+          « Mais la grande ville est un lieu où les contaminations sont
+          faciles, et il est probable que les résultats seraient différents si
+          nous portions nos investigations sur des enfants habitant la
+          campagne loin de toute contagion… [et] dans des conditions spéciales
+          de salubrité<note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>AIP : Roux au recteur de l’Académie de Caen, 14 décembre
+              1889 ; copie dans Yersin, <hi rend="italic">Tonsite IX</hi>,
+              p. 18-19.</p>
+            </note>. »</p>
+          <p xml:id="d1e1332">Les autorités avaient fait droit à la demande de
+          <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName>, et à dix heures,
+          le matin du <date type="_temp" when="1889-12-21">21 décembre</date>,
+          le premier écolier se tenait debout devant <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName>, la
+          bouche grande ouverte. En quelques mouvements rapides, le jeune
+          médecin préleva un morceau de mucus dans une éprouvette. Cette
+          opération de deux secondes fut répétée sur trente et un de ses
+          camarades et, après le déjeuner, sur dix-sept autres enfants du
+          village. « Tous sont en bonne santé », écrivit <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> dans son carnet
+          de laboratoire, « et depuis quatre ans au moins, il n’y aurait pas
+          eu de diphtérie à <placeName ref="6615902" type="geonames" xml:base="https://www.geonames.org/">Grandcamp</placeName>
+            <note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>AIP : Yersin, <hi rend="italic">Tonsite IX</hi>, p. 19.</p>
+            </note>. » De retour au laboratoire, <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName>
+          examina les cultures et trouva des colonies de bacilles de diphtérie
+          dans la moitié d’entre elles. Il analysa huit de ses cultures sur
+          des cochons d’Inde. Ce jour-là et le lendemain, il surveilla les
+          animaux d’aussi près que d’habitude. Il ne se passa rien : tous les
+          huit étaient « bien », de même que deux lapins inoculés avec du
+          filtrat<note n="43" place="foot" type="standard" xml:id="ftn43">
+              <p>AIP : Yersin, <hi rend="italic">Tonsite IX</hi>, p. 20,
+              24.</p>
+            </note>. Quoique en bonne santé, les enfants de la campagne
+          n’étaient de toute évidence « pas si loin de toute contagion »,
+          contrairement à ce que <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> avait affirmé, même
+          si cette contagion était atténuée.</p>
+          <p xml:id="d1e1359">« Notre expérience de <placeName ref="6615902" type="geonames" xml:base="https://www.geonames.org/">Grandcamp</placeName> nous a
+          donné un résultat auquel nous ne nous attendions pas du tout »,
+          écrivait <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> à sa mère. À peu
+          près la moitié des bouches abritait des bacilles de diphtérie
+          atténuée, « et cependant les cas de diphtérie sont rares dans le
+          pays. Il faut donc que ce bacille se trouve fréquemment à l’état non
+          virulent dans la bouche et qu’il ne reprenne que très difficilement
+          sa virulence<note n="44" place="foot" type="standard" xml:id="ftn44">
+              <p>Correspondance de Yersin, le 29 décembre 1889.</p>
+            </note> ». Pourquoi ce résultait les aurait-il surpris ? Ne leur
+          fournissait-il pas un argument bienvenu en faveur de l’étiologie du
+          retour à la virulence dont <persName ref="027059898" type="idref" xml:base="https://www.idref.fr/">Pasteur</persName> et <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> avaient fait
+          l’hypothèse en <date type="_temp" when="1881">1881</date> ?
+          Évidemment pas. <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> pensait que
+          l’étiologie du retour à la virulence ne se manifesterait que dans
+          les zones endémiques, c’est-à-dire dans les villes, et que la
+          fréquence de l’infection avec les bacilles virulents comme avec les
+          bacilles non virulents devait décliner abruptement avec la distance
+          (« loin de toute contagion ») et le changement des conditions (la
+          « salubrité » de <placeName ref="6615902" type="geonames" xml:base="https://www.geonames.org/">Grandcamp</placeName>)<note n="45" place="foot" type="standard" xml:id="ftn45">
+              <p>Pour ce type de raisonnement parmi les pasteuriens, voir <hi rend="small-caps">Duclaux</hi>, 1885, p. 199.</p>
+            </note>. Il pensait aussi que là où la diphtérie clinique était
+          absente depuis si longtemps (cinq ans à <placeName ref="6615902" type="geonames" xml:base="https://www.geonames.org/">Grandcamp</placeName>), même
+          les bacilles atténués devaient avoir disparu. Les résultats de
+          l’expérience de <placeName ref="6615902" type="geonames" xml:base="https://www.geonames.org/">Grandcamp</placeName> firent
+          resurgir un doute fondamental : le bacille pseudodiphtérique de
+          <persName ref="188641491" type="idref" xml:base="https://www.idref.fr/">Loeffler</persName> n’était-il pas
+          après tout une espèce distincte ?</p>
+          <p xml:id="d1e1393">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-iwqqnrp8">laboratoire</term>
+              </term>
+            </term>Ces
+          problèmes pouvaient être en partie abordés en laboratoire : il
+          suffisait d’essayer de faire revenir à la virulence les cultures de
+          bacilles non virulents. En quelques mois, au début de <date type="_temp" when="1890">1890</date>, <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> et
+          <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> comprirent qu’ils
+          avaient réussi. Cependant, c’était une démonstration de laboratoire,
+          et non pas sur le terrain. La signification de la différence entre
+          la ville et la campagne restait peu claire. Le travail
+          d’interprétation allait se prolonger jusqu’à une date avancée, au
+          milieu de l’été, et <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> finirait par
+          interpréter les résultats surprenants de l’expérience à la lumière
+          d’une excursion qu’il fit à la campagne et qui était d’une tout
+          autre nature.</p>
+          <p xml:id="d1e1400">À la <date type="_temp" when="1890-05-15">mi-mai
+          1890</date>, alors que <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> et lui étaient en
+          train de boucler leur recherche sur la diphtérie, <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> commença à cracher
+          du sang. <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName>, le principal
+          collaborateur de <persName ref="027059898" type="idref" xml:base="https://www.idref.fr/">Pasteur</persName> dans les
+          découvertes liées au vaccin, était lui-même infecté des
+          micro-organismes de la tuberculose. Depuis sa première attaque
+          en <date type="_temp" when="1883">1883</date>, il avait traversé des
+          épisodes de congestion pulmonaire, avec fièvre et toux de sang. Il
+          serait faux de dire, pourtant, que <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName>
+          « avait la tuberculose ». Tout en étant lui-même un médecin et un
+          fondateur de la bactériologie médicale, il ne se représentait pas
+          son état de santé comme une maladie définie en tant que telle. Au
+          contraire, il en parlait comme d’une maladie qui provenait de sa vie
+          dans le laboratoire et en ville, et retenait surtout dans cette
+          expérience le fait qu’elle menaçait d’interrompre son travail.</p>
+          <p xml:id="d1e1409">
+            <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> ne quitta pas la
+          ville et son laboratoire au cours de l’<date from="1890-06-21" to="1890-09-20" type="_temp">été 1890</date> sans prendre avec lui
+          ses notes de recherche. « C’est que depuis trois semaines je me suis
+          mis à écrire un article sur la diphtérie, d’abord cela n’allait pas
+          du tout, je travaillais avec peine, et je croyais que véritablement
+          j’étais devenu très bête », confia-t-il à <persName ref="085910694" type="idref" xml:base="https://www.idref.fr/">Metchnikoff</persName>
+          en <date type="_temp" when="1890-07">juillet</date>. Les résultats
+          de la recherche sur la diphtérie ne se combinaient toujours pas.
+          « Je crains fort que le mémoire ne vaille pas grand-chose. Il y
+          avait une quantité de petits faits pas toujours très
+          intéressants<note n="46" place="foot" type="standard" xml:id="ftn46">
+              <p>AIP : Roux aux Metchnikoff, le 13 juillet 1890.</p>
+            </note>. »</p>
+          <figure xml:id="d1e1427">
+            <graphic url="../icono/br/LDSII_44_Mendelsohn_Maladie_img6.png"/>
+            <head xml:id="d1e1431">Émile Roux (1853-1933) met au point le
+            vaccin contre le croup (complication de la rougeole chez
+            l’enfant).<lb/>Gravure parue dans <hi rend="italic">Le Petit
+            Journal</hi> du 24 septembre 1894.</head>
+          </figure>
+          <p xml:id="d1e1446">Une semaine plus tard, cependant, tout
+          s’arrangeait pour <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> : sa santé
+          s’améliora, il avait terminé son manuscrit qu’il posta à <persName ref="034383557" type="idref" xml:base="https://www.idref.fr/">Émile
+          Duclaux</persName>, l’éditeur des <hi rend="italic">Annales </hi>
+            <hi rend="italic">de</hi>
+            <hi rend="italic"> l’Institut</hi>
+            <hi rend="italic"> Pasteur</hi>. La conclusion la plus remarquable et en
+          même temps la plus sujette à caution de l’article était que le
+          bacille pseudodiphtérique, tel qu’il avait été prélevé dans de
+          nombreuses bouches, pouvait faire retour à la virulence et donner
+          naissance à la maladie. Ces bacilles atténués étaient encore plus
+          susceptibles de revenir à la virulence quand la gorge était
+          enflammée par d’autres infections<note n="47" place="foot" type="standard" xml:id="ftn47">
+              <p>Roux et Yersin, cités <hi rend="italic">supra</hi>.</p>
+            </note>.</p>
+          <p xml:id="d1e1477">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-3ryxnaxd">style</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-bfyyj72n">signe<term ref="doi:10.34817/sv-j9adgg3r">trace</term>
+                </term>
+              </term>
+            </term>Dans
+          l’espace de quelques jours en <date type="_temp" when="1890-07">juillet 1890</date>, <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> était
+          passé du scepticisme et du désespoir nés de cette « quantité de
+          petits faits » à cette conclusion unifiante, d’une audace
+          exceptionnelle sous sa plume, qui devait sceller le style de
+          l’explication étiologique en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> pour de
+          nombreuses années à venir, notamment parce que <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> enseignait à
+          l’Institut Pasteur<note n="48" place="foot" type="standard" xml:id="ftn48">
+              <p>AIP : Émile Roux, « Virulence et immunité », notes
+              manuscrites d’un étudiant des <hi rend="italic">Cours de M.
+              Roux (1</hi>894), vol. 9, 45<hi rend="sup">e</hi> et dernière
+              leçon.</p>
+            </note>. Qu’est-ce qui exactement avait conduit <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> à douter de ses
+          recherches et comment réussit-il à surmonter ce doute ? Nous ne
+          saurions le définir avec certitude, faute de détenir quelque
+          témoignage que ce soit, en dehors de l’article publié, de ce que
+          <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> a pensé de la
+          diphtérie pendant cette <date from="1890-07-14" to="1890-07-21" type="_temp">troisième semaine de juillet</date>. Il semble pourtant
+          raisonnable d’imputer l’essentiel de son trouble aux résultats
+          expérimentaux qui l’ont le plus dérangé, de même que <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName>, pendant leurs
+          recherches : ceux de <placeName ref="6615902" type="geonames" xml:base="https://www.geonames.org/">Grandcamp</placeName>. Et si
+          nous n’avons pas de témoignage de ce que <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> a
+          pensé de la diphtérie pendant cette période de troubles
+          interprétatifs, ses lettres à <persName ref="085910694" type="idref" xml:base="https://www.idref.fr/">Metchnikoff</persName> témoignent
+          remarquablement bien des sentiments que son travail lui inspirait et
+          de ce qui le préoccupait – c’est-à-dire sa propre crise de
+          tuberculose et son retour à la santé, à la campagne, dans sa
+          <placeName ref="3026646" type="geonames" xml:base="https://www.geonames.org/">Charente</placeName>
+          natale.</p>
+          <p xml:id="d1e1508">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-iwqqnrp8">laboratoire</term>
+              </term>
+            </term>C’est
+          la vie de laboratoire, en ville, dans le climat du Nord, qui avait
+          causé la crise de tuberculose de <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName>. Il
+          retrouva la santé au soleil, parmi les champs de la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> rurale. Ici,
+          comme il l’aurait interprété lui-même, l’atténuation a fait suite au
+          retour à la virulence de sa tuberculose vieille de sept ans.
+          Exactement au moment où <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> ne savait que faire
+          de la « quantité de petits faits » sur la virulence dans le cas de
+          la diphtérie, sa propre santé lui fournissait un modèle unificateur,
+          stable. Elle braqua son attention sur les conditions de récurrence
+          et sur le remède ordinaire à suivre en cas de phtisie – un séjour à
+          la campagne, de préférence au soleil, sous le climat sec du Sud, du
+          repos et/ou de l’exercice physique, et surtout la vie en plein air,
+          loin de la ville<note n="49" place="foot" type="standard" xml:id="ftn49">
+              <p>Voir <hi rend="small-caps">Dubos</hi>, 1992.</p>
+            </note>.</p>
+          <p xml:id="d1e1524">Ces significations vont au-delà du remède
+          médical, comme nous avons déjà commencé à le voir à travers les
+          exclamations de <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName>. Cet été-là, comme
+          il devait faire par la suite tous les ans, <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> a vécu
+          différentes sortes de retour, à la fois dans l’espace et dans le
+          temps : en quittant la ville et ses pathologies, il n’est pas
+          seulement revenu au bain de jouvence rural dans le terroir de sa
+          jeunesse ; il a également renoué avec les modes de vie de primitifs
+          de la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> rurale,
+          voire de l’humanité : « Je suis comme les peuples heureux, je n’ai
+          pas d’histoire », dit-il spirituellement aux Metchnikoff<note n="50" place="foot" type="standard" xml:id="ftn50">
+              <p>AIP : Roux aux Metchnikoff, le 10 septembre 1893 ; Roux à
+              Madame Duclaux, le 2 octobre 1907.</p>
+            </note>. Par rapport à cet observateur sans racines, moderne et
+          infatigable qu’est <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName>, <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> incarnait le
+          romantique prémoderne, agrarien, anti-urbain, le <hi rend="italic">sauvage </hi>enraciné de <persName ref="028202368" type="idref" xml:base="https://www.idref.fr/">Rousseau</persName>.
+          Partant, l’évolution de <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> était au diapason
+          du culte de la <hi rend="italic">terre </hi>et de la revalorisation
+          morale, esthétique, hygiénique et économique de la campagne qui
+          marqua la vie publique française d’après <date type="_temp" when="1890">1890</date>.</p>
+          <p xml:id="d1e1551">
+            <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> mit physiquement en
+          pratique une étiologie de la maladie qui montait de l’intérieur de
+          lui-même dans la ville et qui se tassait à nouveau à la campagne.
+          L’analogie avec sa recherche sur la diphtérie était presque
+          parfaite. Les conditions de son attaque de mai correspondaient
+          précisément à la méthode de laboratoire qu’il avait élaborée avec
+          <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> pour étudier le
+          retour à la virulence des bacilles de la diphtérie atténués : une
+          association avec d’autres infections. Car la tuberculose latente de
+          <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> cessa d’être
+          bénigne vers le <date type="_temp" when="1890-05-21">21 mai
+          1890</date> ; et le mois précédent, entre le <date from="1890-04-11" to="1890-05-16" type="_temp">11 avril et le 16 mai</date>, lui et
+          <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> étaient sortis
+          presque chaque jour pour faire des observations et des prélèvements
+          sur des gorges sur un total de quatre-vingts cas à l’hôpital<note n="51" place="foot" type="standard" xml:id="ftn51">
+              <p>AIP : Yersin, <hi rend="italic">Tonsite XII</hi>,
+              p. 1-38.</p>
+            </note>, cette « terre promise » des microbes<note n="52" place="foot" type="standard" xml:id="ftn52">
+              <p>
+                <hi rend="small-caps">Duclaux</hi>, 1884, p. 742-752, et
+              précisément p. 742.</p>
+            </note>. Ainsi la relation entre la tuberculose de <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> et ses observations
+          sur la diphtérie était-elle plus qu’une analogie entre des
+          apparences : elle semblait relever d’un mécanisme commun.</p>
+          <p xml:id="d1e1578">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-ejcy5fvc">micro-organisme</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-iwqqnrp8">laboratoire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-xmvthwt6">méthode</term>
+              </term>
+            </term>Sans
+          doute cette interprétation était-elle bâtie sur la méthode de
+          laboratoire que <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> et <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> venaient
+          d’inventer pour étudier le retour à la virulence, à savoir associer
+          des infections. Mais le modèle en était, en dernier ressort, la
+          ville, ou plutôt l’idée qu’ils s’en faisaient comme d’un endroit où
+          des micro-organismes atténués, déjà en circulation ou bien arrivant
+          de la campagne, devenaient nocifs, pathogènes, en raison même de la
+          caractéristique de la ville que les pastoriens déclaraient
+          définitive : le fait qu’elle était pleine de contaminations et de
+          contagions. Ainsi la méthode consistant à provoquer le retour à la
+          virulence des cultures atténuées en les associant de propos délibéré
+          avec d’autres infections ne revenait pas à faire une analogie avec
+          la ville, mais plutôt à transformer le laboratoire en ville, ou du
+          moins en une des facettes de la ville, celle qui avait envoyé
+          <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> à la campagne
+          avec ses éprouvettes.</p>
+          <p xml:id="d1e1581">Ni <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> ni <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> ne disent
+          clairement que leur méthode vise à transformer le laboratoire en une
+          ville de contagions contrôlées. Mais les circonstances apportent une
+          preuve qui suggère hautement un tel modèle. Vers cette époque, même
+          <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName>, le prudent
+          sceptique, était en train de développer une réflexion de type
+          analogique sur l’atténuation, suggérant que sa méthode de
+          laboratoire pour atténuer la diphtérie lui était venue de la
+          clinique par métaphore. « N’existe-t-il pas une certaine analogie
+          entre nos cultures aérées à 39,5° et celles qui se font dans la
+          gorge des malades ? », écrivait-il en <date type="_temp" when="1890-07">juillet 1890</date>. Et dans l’intervalle, la méthode
+          du retour à la virulence en associant des infections engendrait des
+          analogies similaires. « Je pense que c’est ma troisième influenza
+          [cet hiver] qui a préparé le terrain de culture pour le deuxième
+          furoncle », écrivait <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> à sa mère le
+          <date type="_temp" when="1890-02-09">9 février</date>, quelques
+          jours après qu’ils furent, <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> et lui, finalement
+          capables de provoquer de la diphtérie chez un cochon d’Inde en
+          inoculant des coccidies d’érysipèle puis des bacilles atténués. « Et
+          je ne suis pas seul de mon espèce. Depuis mercredi <persName type="_temp">M. Chantemesse</persName> a aussi sa troisième
+          influenza ; j’espère qu’il n’aura pas de furoncles consécutifs<note n="53" place="foot" type="standard" xml:id="ftn53">
+              <p>Correspondance de Yersin, le 9 février 1890.</p>
+            </note>. » Les furoncles, comme tout bon pastorien le savait,
+          étaient associés aux staphylocoques, un micro-organisme qui avait
+          été isolé pour la première fois par <persName ref="027059898" type="idref" xml:base="https://www.idref.fr/">Pasteur</persName>
+          d’un furoncle prélevé sur le cou de <persName ref="034383557" type="idref" xml:base="https://www.idref.fr/">Duclaux</persName>
+            <note n="54" place="foot" type="standard" xml:id="ftn54">
+              <p>
+                <hi rend="small-caps">Duclaux</hi>, 1896.</p>
+            </note>. En <date type="_temp" when="1890-03">mars</date>,
+          <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> était content de
+          rapporter non pas de nouveaux furoncles, mais « un petit noyau dur
+          qui me donne de l’inquiétude. Il doit certainement renfermer
+          quelques microbes en léthargie<note n="55" place="foot" type="standard" xml:id="ftn55">
+              <p>Correspondance de Yersin, le 23 mars 1890.</p>
+            </note> ». Ce qui l’inquiétait sans aucun doute, c’était de savoir
+          l’effet qu’un nouvel assaut de grippe pourrait avoir sur leur
+          virulence.</p>
+          <p xml:id="d1e1614">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-z5onurxv">expérimentation</term>
+              </term>
+            </term>Vus
+          depuis les champs, les résultats de l’expérience de <placeName ref="6615902" type="geonames" xml:base="https://www.geonames.org/">Grandcamp</placeName> ne
+          ressemblaient plus à une pierre d’achoppement. Les enfants de
+          <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> et ceux de
+          <placeName ref="6615902" type="geonames" xml:base="https://www.geonames.org/">Grandcamp</placeName> étaient
+          infectés autant les uns que les autres par les bacilles
+          pseudodiphtériques. Pourtant les enfants de <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> souffraient
+          de la diphtérie, alors que ceux de <placeName ref="6615902" type="geonames" xml:base="https://www.geonames.org/">Grandcamp</placeName> n’en
+          souffraient pas. Mais que faire de cette donnée ? La différence
+          entre la morbidité et la bonne santé était une différence entre la
+          ville et la campagne, même si ce n’était pas exactement celle que
+          <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> avait affirmé qu’il
+          devait trouver. <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> à <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> et <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> en <placeName ref="3026646" type="geonames" xml:base="https://www.geonames.org/">Charente</placeName> étaient
+          également infectés des bacilles de tuberculose. Pourtant <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> à <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> s’écroula,
+          ses lèvres rougies du sang qu’il crachait de son larynx, tandis que
+          le <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> en <placeName ref="3026646" type="geonames" xml:base="https://www.geonames.org/">Charente</placeName> grimpait
+          sur les arbres, les lèvres rouges du jus de cerise.</p>
+          <p xml:id="d1e1645">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-jra3gp6w">campagne</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-qlxr2uj3">ville</term>
+              </term>
+            </term>L’histoire
+          que j’ai racontée ici montre comment la ville et la campagne peuvent
+          organiser une expérience concrète individuelle, un mode de vie
+          privée et scientifique, et engendrer un discours, sans être pour
+          autant une métaphore ou une autre forme de représentation. Dans le
+          cas de <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName>, nous voyons que la
+          ville et la campagne sont mises en pratique et représentées comme la
+          manière de vivre d’un savant (quitter la ville) et la santé de son
+          corps. <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> est venu à la
+          campagne pour construire une « vie des champs » et contrebalancer la
+          « vie du laboratoire » pathogène, de manière à rétablir son corps et
+          le rendre à la santé. Le processus ou « régime », comme <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> l’a appelé, par
+          lequel le savant guérit son corps et apprend à le maintenir en bonne
+          santé ne fait pas de son corps un meilleur instrument scientifique,
+          mais plutôt un modèle<note n="56" place="foot" type="standard" xml:id="ftn56">
+              <p>AIP : Roux aux Metchnikoff, les 4 septembre 1890 et
+              22 septembre 1893. Sur le corps comme instrument, voir <hi rend="small-caps">Sibum</hi>, 1998, p. 23-57 ; <hi rend="small-caps">Smith</hi>, 2004.</p>
+            </note>. Se sauver soi-même de la tuberculose en quittant la
+          ville ; se camper dans la posture de l’agrarien prémoderne en pleine
+          période de revalorisation de la terre et des champs propre à la
+          <date>III<hi rend="sup">e</hi> République</date> ; résoudre la
+          perplexité dans l’interprétation des données bactériologiques ;
+          constituer une étiologie et une épidémiologie générales
+          pastoriennes : il y avait tout cela à la fois dans le comportement
+          de <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName>.</p>
+          <p xml:id="d1e1673">Et qu’en est-il de celui de <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> ? Le jeune
+          médecin aurait pu faire souche à <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, mettre en
+          place un cabinet privé ou poursuivre sa carrière dans les hôpitaux
+          parisiens ou même à l’Institut Pasteur<note n="57" place="foot" type="standard" xml:id="ftn57">
+              <p>Voir, par exemple, <hi rend="small-caps">Rosenberg</hi>,
+              1992.</p>
+            </note>. Mais il ne le fit pas.</p>
+          <p xml:id="d1e1691">Après avoir découvert la mer à <placeName ref="6615902" type="geonames" xml:base="https://www.geonames.org/">Grandcamp</placeName> (et, avec
+          le même plaisir, des gens exotiques à la foire mondiale de
+          <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> de <date type="_temp" when="1889">1889</date>, dans des spectacles vivants au
+          pied de ce nouveau prodige moderne qu’était la Tour Eiffel<note n="58" place="foot" type="standard" xml:id="ftn58">
+              <p>Correspondance de Yersin (1889).</p>
+            </note>), <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> ne partit pas
+          pour rentrer chez lui, mais pour l’<placeName ref="11612758" type="geonames" xml:base="https://www.geonames.org/">Indochine</placeName>, où il
+          continua sa vie d’explorateur infatigable. Assez vite, en poussant
+          sa première exploration du « territoire inconnu » des montagnes dans
+          des conditions si rigoureuses que ses chaussures furent bientôt
+          usées et qu’il dut continuer « pieds nus » pendant dix jours,
+          <persName ref="028022254" type="idref" xml:base="https://www.idref.fr/">Yersin</persName> a pleinement
+          accédé au statut du gamin errant de <persName ref="026927608" type="idref" xml:base="https://www.idref.fr/">Hugo</persName>, ce
+          héros de <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, sans
+          chaussures, à moitié sauvage, et il s’est pleinement identifié à ce
+          voyageur en haillons qu’est Jean Valjean. « Il est si enchanté de
+          cette exploration », écrivait <persName ref="028240898" type="idref" xml:base="https://www.idref.fr/">Roux</persName> à <persName type="_temp">Madame Metchnikoff</persName> en <date type="_temp" when="1891">1891</date> « qu’il demande à être officiellement chargé
+          d’un voyage de découvertes dans le même pays. C’est un garçon bien
+          original, toujours à la recherche de quelque sensation nouvelle<note n="59" place="foot" type="standard" xml:id="ftn59">
+              <p>AIP : Roux à Madame Metchnikoff, le 29 septembre 1891.</p>
+            </note>. »</p>
+          <p xml:id="d1e1728">
+            <hi rend="italic">(Traduit de l’anglais par Sylvie Taussig.)</hi>
+          </p>
+          <p xml:id="d1e1734">
+            <hi rend="italic">Ce texte a fait l’objet d’une première
+            publication en anglais dans la revue Osiris (2003, 18,
+            p. 150-170). Nous remercions l’éditeur d’avoir autorisé la
+            publication de cette version française légèrement remaniée.</hi>
+          </p>
+          <p xml:id="d1e1740">
+            <hi rend="italic">* Pour l’accès à des documents non publiés dont
+            je reproduis des extraits, je tiens à remercier l’équipe des
+            Archives de l’Institut Pasteur, et en particulier son ancienne
+            directrice, Denise Ogilvie, et Daniel Demellier ; l’équipe des
+            Archives de l’AP-HP, et en particulier Sophie Riché ; Henri
+            H. Mollaret et la regrettée Jacqueline Brossollet, ainsi que
+            Bernardino Fantini et son équipe de l’université de Genève.</hi>
+          </p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e1777">
+        <head xml:id="d1e1779">Bibliographie</head>
+        <listBibl xml:id="d1e1782">
+          <bibl xml:id="d1e1784">
+            <hi rend="small-caps">Ackerknecht</hi>,
+          1948 : <hi rend="small-caps">Ackerknecht</hi>, « Anticontagionism
+          between 1821 and 1867 »,<hi rend="italic"> Bulletin d’histoire Méd.
+          </hi>22, p. 562-593.</bibl>
+          <bibl xml:id="d1e1796">
+            <hi rend="small-caps">Agulhon</hi>, 1977 :
+          Maurice <hi rend="small-caps">Agulhon</hi>, <hi rend="italic">Le
+          Cercle dans la France bourgeoise, 1810-1848</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1808">
+            <hi rend="small-caps">Aisenberg</hi>, 1999 :
+          Andrew <hi rend="small-caps">Aisenberg</hi>, <hi rend="italic">Contagion : Disease, Government, and the « Social
+          Question » in Nineteenth-Century France</hi>, Stanford.</bibl>
+          <bibl xml:id="d1e1820">
+            <hi rend="small-caps">Alphand</hi>,
+          1867-1873 : Adolphe <hi rend="small-caps">Alphand</hi>, <hi rend="italic">Les Promenades de Paris</hi>, 2 vol., Paris.</bibl>
+          <bibl xml:id="d1e1832">
+            <hi rend="small-caps">Baldwin</hi>, 1999 :
+          Peter <hi rend="small-caps">Baldwin</hi>, <hi rend="italic">Contagion and the State in Europe, 1830-1930</hi>,
+          Cambridge.</bibl>
+          <bibl xml:id="d1e1845">
+            <hi rend="small-caps">Blackbourn</hi>, 1993 :
+          David <hi rend="small-caps">Blackbourn</hi>, <hi rend="italic">The
+          Marpingen Visions : Rationalism, Religion and the Rise of Modern
+          Germany</hi>, Oxford.</bibl>
+          <bibl xml:id="d1e1857">
+            <hi rend="small-caps">Baudelaire</hi>, 1998 :
+          Charles <hi rend="small-caps">Baudelaire</hi>, « Les foules », in
+          <hi rend="italic">Spleen de Paris : petits poèmes en prose</hi>,
+          Paris, p. 44-46.</bibl>
+          <bibl xml:id="d1e1869">
+            <hi rend="small-caps">Baudelaire</hi>, 1999 :
+          Ch. <hi rend="small-caps">Baudelaire</hi>, « Le peintre de la vie
+          moderne » (1863), <hi rend="italic">Écrits sur l’art, </hi>Paris,
+          p. 503-552.</bibl>
+          <bibl xml:id="d1e1881">
+            <hi rend="small-caps">Barral</hi>, 1968 :
+          Pierre <hi rend="small-caps">Barral</hi>, <hi rend="italic">Les
+          Agrariens français de Méline à Pisani, </hi>Paris,
+          p. 128-140.</bibl>
+          <bibl xml:id="d1e1893">
+            <hi rend="small-caps">Bédarida</hi> et <hi rend="small-caps">Sutcliffe</hi>, 1980 : François <hi rend="small-caps">Bédarida</hi> et Anthony <hi rend="small-caps">Sutcliffe</hi>, « The Street in the Structure and
+          Life of the City : Reflections on Nineteenth-Century London and
+          Paris », <hi rend="italic">Journal of Urban History</hi>, 6,
+          p. 379-396.</bibl>
+          <bibl xml:id="d1e1911">
+            <hi rend="small-caps">Benjamin</hi>, 1974 :
+          Walter <hi rend="small-caps">Benjamin</hi>, <hi rend="italic">Charles Baudelaire : Ein Lyriker im Zeitalter des
+          Hochkapitalismus</hi>, éd. R. Tiedemann,
+          Francfort-sur-le-Main.</bibl>
+          <bibl xml:id="d1e1924">
+            <hi rend="small-caps">Berman</hi>, 1982 :
+          Marshall <hi rend="small-caps">Berman</hi>, <hi rend="italic">All
+          That is Solid Melts into Air : The Experience of Modernity</hi>, New
+          York.</bibl>
+          <bibl xml:id="d1e1936">
+            <hi rend="small-caps">Biggs</hi>, 1895 :
+          Hermann M. <hi rend="small-caps">Biggs</hi>
+            <hi rend="italic"> et
+          al</hi>., <hi rend="italic">Report on Bacteriological Investigations
+          and Diagnosis</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">of</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Diphteria,</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">From</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">May</hi>
+            <hi rend="italic"> </hi>
+            <hi rend="italic">4,</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">1893</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">to</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">May</hi>
+            <hi rend="italic"> </hi>
+            <hi rend="italic">4,</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">1894</hi>,
+          in <hi rend="italic">Health</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Department</hi>, <hi rend="italic">City</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">of New York, Scientific
+          Bulletin</hi>, n<hi rend="sup">o</hi> 1, New York.</bibl>
+          <bibl xml:id="d1e2027">
+            <hi rend="small-caps">Bouchut</hi>, 1884 :
+          Eugène <hi rend="small-caps">Bouchut</hi>, <hi rend="italic">Clinique de l’hôpital des Enfants malades</hi>,
+          Paris.</bibl>
+          <bibl xml:id="d1e2039">
+            <hi rend="small-caps">Brand</hi>, 1991 : Dana
+          <hi rend="small-caps">Brand</hi>, <hi rend="italic">The Spectator
+          and the City in Nineteenth-Century American Literature</hi>,
+          Cambridge.</bibl>
+          <bibl xml:id="d1e2051">
+            <hi rend="small-caps">Burrows</hi> et <hi rend="small-caps">Wallace</hi>, 1999 : Edwin G. <hi rend="small-caps">Burrows</hi> et Mike <hi rend="small-caps">Wallace</hi>, <hi rend="italic">Gotham : A History
+          of New York City to 1898</hi>, Oxford.</bibl>
+          <bibl xml:id="d1e2069">
+            <hi rend="small-caps">Burton</hi>, 1988 :
+          Richard D. E. <hi rend="small-caps">Burton</hi>, « The Unseen Seer,
+          or Proteus in the City : Aspects of a Nineteenth-Century Parisisian
+          Myth », <hi rend="italic">French Studies</hi>, 42, p. 50-68.</bibl>
+          <bibl xml:id="d1e2082">
+            <hi rend="small-caps">Burton</hi>, 1994 :
+          R. D. E. <hi rend="small-caps">Burton</hi>, <hi rend="italic">The
+          Flaneur and His City : Patterns of Daily Life in Paris,
+          1815-1850</hi>, Durham.</bibl>
+          <bibl xml:id="d1e2094">
+            <hi rend="small-caps">Cachin</hi>, 1997 :
+          Françoise <hi rend="small-caps">Cachin</hi>, « Le paysage du
+          peintre », in P. Nora (éd.), <hi rend="italic">Les Lieux de
+          mémoire</hi>, 2 vol., Paris, vol. 1, p. 957-996.</bibl>
+          <bibl xml:id="d1e2106">
+            <hi rend="small-caps">Chevalier</hi>, 1958 :
+          Louis <hi rend="small-caps">Chevalier</hi>, <hi rend="italic">Classes laborieuses et classes dangereuses à Paris
+          pendant la première moitié du </hi>
+            <hi rend="small-caps italic">xix</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> siècle</hi>, Paris.</bibl>
+          <bibl xml:id="d1e2128">
+            <hi rend="small-caps">Clark</hi>, 1984 :
+          T. J. <hi rend="small-caps">Clark</hi>, <hi rend="italic">The
+          Painting of Modern Life : Paris in the Art of Manet and His
+          Followers</hi>, Londres.</bibl>
+          <bibl xml:id="d1e2140">
+            <hi rend="small-caps">Coleman</hi>, 1974 :
+          William <hi rend="small-caps">Coleman</hi>, « Health and Hygiene in
+          the <hi rend="italic">Encyclopédie :</hi> A Medical Doctrine for the
+          Bourgeoisie », <hi rend="italic">Journal of the History of Medicine
+          and Allied Sciences</hi>, 29, p. 399-421.</bibl>
+          <bibl xml:id="d1e2155">
+            <hi rend="small-caps">Coleman</hi>, 1982 :
+          W. <hi rend="small-caps">Coleman</hi>, <hi rend="italic">Death is a
+          Social Disease : Public Health and Political Economy in Early
+          Industrial France</hi>, Madison.</bibl>
+          <bibl xml:id="d1e2168">
+            <hi rend="small-caps">Coleman</hi>, 1987 :
+          W. <hi rend="small-caps">Coleman</hi>, <hi rend="italic">Yellow
+          Fever in the North : The Methods of Early Epidemiology</hi>,
+          Madison.</bibl>
+          <bibl xml:id="d1e2180">
+            <hi rend="small-caps">Csergo</hi>, 1995 :
+          Julia <hi rend="small-caps">Csergo</hi>, « Extension et mutation du
+          loisir citadin : Paris <hi rend="small-caps">xix</hi>
+            <hi rend="sup">e</hi> siècle - début <hi rend="small-caps">xx</hi>
+            <hi rend="sup">e</hi> siècle », in A. Corbin (éd.), <hi rend="italic">L’Avènement des loisirs, 1850-1960</hi>, Paris,
+          p. 121-168.</bibl>
+          <bibl xml:id="d1e2205">
+            <hi rend="small-caps">Donzelot</hi>, 1977 :
+          Jacques <hi rend="small-caps">Donzelot</hi>, <hi rend="italic">La
+          Police des familles</hi>, Paris.</bibl>
+          <bibl xml:id="d1e2217">
+            <hi rend="small-caps">Dubos</hi>, 1992 : René
+          et Jean <hi rend="small-caps">Dubos</hi>, <hi rend="italic">The
+          White Plague : Tuberculosis, Man and Society</hi>, New
+          Brunswick.</bibl>
+          <bibl xml:id="d1e2229">
+            <hi rend="small-caps">Duclaux</hi>, 1884 :
+          Émile <hi rend="small-caps">Duclaux</hi>, « Étude d’un microbe
+          rencontré chez un malade atteint de l’affection dénommée “Clou de
+          Biskra” », <hi rend="italic">Bulletin de l’Académie de
+          médecine</hi>, 2<hi rend="sup">e</hi> série, 13, p. 742-752.</bibl>
+          <bibl xml:id="d1e2244">
+            <hi rend="small-caps">Duclaux</hi>, 1885 :
+          É. <hi rend="small-caps">Duclaux</hi>, <hi rend="italic">Le Microbe
+          et la maladie</hi>, Paris.</bibl>
+          <bibl xml:id="d1e2257">
+            <hi rend="small-caps">Duclaux</hi>, 1896 :
+          É. <hi rend="small-caps">Duclaux</hi>, <hi rend="italic">Pasteur,
+          histoire d’un esprit</hi>, Sceaux.</bibl>
+          <bibl xml:id="d1e2269">
+            <hi rend="small-caps">Duclaux</hi>, 1902 :
+          É. <hi rend="small-caps">Duclaux</hi>, <hi rend="italic">L’Hygiène
+          sociale</hi>, Paris.</bibl>
+          <bibl xml:id="d1e2281">
+            <hi rend="small-caps">Du</hi>
+            <hi rend="small-caps">Maroussem</hi>, 1900 : Pierre <hi rend="small-caps">Du</hi>
+            <hi rend="small-caps">Maroussem</hi>, <hi rend="italic">Les Enquêtes : pratique et théorie</hi>, Paris.</bibl>
+          <bibl xml:id="d1e2299">
+            <hi rend="small-caps">Evans</hi>, 1987 :
+          Richard J. <hi rend="small-caps">Evans</hi>, <hi rend="italic">Death
+          in Hamburg : Society and Politics in the Cholera Years, 1830-1910,
+          </hi>Oxford.</bibl>
+          <bibl xml:id="d1e2311">
+            <hi rend="small-caps">Foucault</hi>, 1975 :
+          Michel <hi rend="small-caps">Foucault</hi>, <hi rend="italic">Surveiller et punir : naissance de la prison</hi>,
+          Paris.</bibl>
+          <bibl xml:id="d1e2323">
+            <hi rend="small-caps">Freud</hi>, 1960 :
+          Sigmund <hi rend="small-caps">Freud</hi>, <hi rend="italic">Correspondance (1873-1939)</hi>, éd. E. L. Freud,
+          trad. par A. Berman et J.-P. Grossein, Paris.</bibl>
+          <bibl xml:id="d1e2336">
+            <hi rend="small-caps">Goldstein</hi>, 1984 :
+          Jan <hi rend="small-caps">Goldstein</hi>, « Moral Contagion », in
+          <hi rend="italic">Professions and the French State, 1700-1900</hi>,
+          éd. Gerald L. Geison, Philadelphie.</bibl>
+          <bibl xml:id="d1e2348">
+            <hi rend="small-caps">Goncourt</hi>, 1956 :
+          Edmond et Jules de <hi rend="small-caps">Goncourt</hi>, <hi rend="italic">Journal : mémoires de la vie littéraire</hi>,
+          éd. R. Ricatte.</bibl>
+          <bibl xml:id="d1e2360">
+            <hi rend="small-caps">Green</hi>, 1990 :
+          Nicholas <hi rend="small-caps">Green</hi>, <hi rend="italic">The
+          Spectacle of Nature : Landscape and Bourgeois Identity in
+          Nineteenth-Century France</hi>, Manchester.</bibl>
+          <bibl xml:id="d1e2372">
+            <hi rend="small-caps">Hammonds</hi>, 1999 :
+          Evelynn Maxine <hi rend="small-caps">Hammonds</hi>, <hi rend="italic">Childhood’s Deadly Scourge : The Campaign to Control
+          Diphteria in New York City, 1880-1930</hi>, Baltimore.</bibl>
+          <bibl xml:id="d1e2384">
+            <hi rend="small-caps">Herbert</hi>
+            <hi rend="italic">et al.</hi>, 1988 : Robert L. <hi rend="small-caps">Herbert</hi>, <hi rend="italic">Impressionism :
+          Art, Leisure, and Parisian Society</hi>, New Haven.</bibl>
+          <bibl xml:id="d1e2399">
+            <hi rend="small-caps">Herbert</hi>
+            <hi rend="italic"> et al.</hi>, 1991 : R. L. <hi rend="small-caps">Herbert</hi>
+            <hi rend="italic"> et al.</hi>, <hi rend="italic">Georges Seurat, 1859-1891</hi>, New York.</bibl>
+          <bibl xml:id="d1e2418">
+            <hi rend="small-caps">Herbert</hi>, 1998 :
+          R. L. <hi rend="small-caps">Herbert</hi>, <hi rend="italic">Monet on
+          the Normandy Coast : Tourism and Painting, 1867-1886</hi>, New
+          Haven.</bibl>
+          <bibl xml:id="d1e2430">
+            <hi rend="small-caps">Houssel</hi>
+            <hi rend="italic">et al.</hi>, 1976 : J.-P. <hi rend="small-caps">Houssel</hi>
+            <hi rend="italic"> et al.</hi>, <hi rend="italic">Histoire des paysans français du </hi>
+            <hi rend="small-caps italic">xviii</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> siècle à nos jours</hi>, Roanne, p. 398.</bibl>
+          <bibl xml:id="d1e2458">
+            <hi rend="small-caps">Huart</hi>, 1841 :
+          Louis <hi rend="small-caps">Huart</hi>, <hi rend="italic">Physiologie du flâneur</hi>, Paris.</bibl>
+          <bibl xml:id="d1e2470">
+            <hi rend="small-caps">Ignotius</hi>, 1889 :
+          <hi rend="small-caps">Ignotius</hi> [Félix Patel], <hi rend="italic">Paris-Secret</hi>, Paris.</bibl>
+          <bibl xml:id="d1e2482">
+            <hi rend="small-caps">Kalika</hi>, 2000 :
+          Dominique <hi rend="small-caps">Kalika</hi>, <hi rend="italic">Naissance de la police privée : détectives et agences
+          de recherches en France, 1832-1942</hi>, Paris.</bibl>
+          <bibl xml:id="d1e2494">
+            <hi rend="small-caps">Kern</hi>, 1983 :
+          Stephen <hi rend="small-caps">Kern</hi>, <hi rend="italic">The
+          Culture of Time and Space, 1880-1918</hi>, Cambridge (Mass.).</bibl>
+          <bibl xml:id="d1e2507">
+            <hi rend="small-caps">Koch</hi>, 1893 :
+          Robert <hi rend="small-caps">Koch</hi>, « Die Cholera in Deutschland
+          während des Winters 1892 bis 1893 », <hi rend="italic">Zeitschrift
+          für Hygiene und Infekstionskrankheiten</hi>, 15, p. 89-165.</bibl>
+          <bibl xml:id="d1e2519">
+            <hi rend="small-caps">Köhn</hi>, 1998 :
+          Eckardt <hi rend="small-caps">Köhn</hi>, <hi rend="italic">Strassenrausch</hi>
+            <hi rend="italic"> : </hi>
+            <hi rend="italic">Flanerie</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">und</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">kleine</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Form.</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Versuch</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">zur</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Literaturgeschichte des Flaneurs von 1830-1933</hi>,
+          Berlin et Francfort-sur-le-Main.</bibl>
+          <bibl xml:id="d1e2569">
+            <hi rend="small-caps">Kolle</hi>, 1895 :
+          Wilhelm <hi rend="small-caps">Kolle</hi>, « Die Massnahmen zur
+          Verhinderung der Verbreitung von Tuberkulose und Diphterie in
+          Nord-Amerika », <hi rend="italic">Zeitschrift für Hygiene und
+          </hi>
+            <hi rend="italic">Infeks</hi>
+            <hi rend="italic">tionskrankheiten</hi>, 19, p. 139-152 ; « rationell »,
+          <hi rend="italic">passim</hi>.</bibl>
+          <bibl xml:id="d1e2591">
+            <hi rend="small-caps">Lawrence</hi> et <hi rend="small-caps">Shapin</hi>, 1998 : Christopher <hi rend="small-caps">Lawrence</hi> et Steven <hi rend="small-caps">Shapin</hi> (éd.), <hi rend="italic">Science
+          Incarnate : Historical Embodiments of Natural Knowledge</hi>,
+          Chicago.</bibl>
+          <bibl xml:id="d1e2609">
+            <hi rend="small-caps">Lecuyer</hi>, 1977 :
+          Bernard-Pierre <hi rend="small-caps">Lecuyer</hi>, « Médecins et
+          observateurs sociaux : les Annales d’hygiène publique et de médecine
+          légale (1820-1850) », in <hi rend="italic">Pour</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">une</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">histoire</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">de
+          </hi>
+            <hi rend="italic">la statistique</hi>, 2 vol., Paris, vol. 1,
+          p. 445-476.</bibl>
+          <bibl xml:id="d1e2640">
+            <hi rend="small-caps">Ledingham</hi> et <hi rend="small-caps">Arkwright</hi>, 1912 : J. C. G. <hi rend="small-caps">Ledingham</hi> et J. A. <hi rend="small-caps">Arkwright</hi>, <hi rend="italic">The Carrier
+          Problem in Infectious Diseases</hi>, New York.</bibl>
+          <bibl xml:id="d1e2659">
+            <hi rend="small-caps">Lees</hi>, 1985 :
+          Andrew <hi rend="small-caps">Lees</hi>, <hi rend="italic">Cities
+          Perceived : Urban Society in European and American Thought</hi>,
+          New York.</bibl>
+          <bibl xml:id="d1e2671">
+            <hi rend="small-caps">Lehan</hi>, 1998 :
+          Richard <hi rend="small-caps">Lehan</hi>, <hi rend="italic">The City
+          in Literature : An Intellectual and Cultural History</hi>, Berkeley,
+          chap. <hi rend="small-caps">iv</hi>-<hi rend="small-caps">v</hi>.</bibl>
+          <bibl xml:id="d1e2689">
+            <hi rend="small-caps">Lhéritier</hi>, 1958 :
+          Andrée <hi rend="small-caps">Lhéritier</hi> (éd.), <hi rend="italic">Les Physiologies : catalogue des collections de la
+          Bibliothèque nationale</hi>, Paris.</bibl>
+          <bibl xml:id="d1e2701">
+            <hi rend="small-caps">Lindner</hi>, 1990 :
+          Rolf <hi rend="small-caps">Lindner</hi>, <hi rend="italic">Die
+          Entdeckung der Stadtkultur : Soziologie aus der Erfahrung der
+          Reportage</hi>, Francfort-sur-le-Main.</bibl>
+          <bibl xml:id="d1e2713">
+            <hi rend="small-caps">Martin-Fugier</hi>,
+          1990 : Anne <hi rend="small-caps">Martin-Fugier</hi>, <hi rend="italic">La Vie élégante, ou la Formation du Tout-Paris,
+          1815-1848</hi>, Paris.</bibl>
+          <bibl xml:id="d1e2725">
+            <hi rend="small-caps">Mendelsohn</hi>, 2002 :
+          J. Andrew <hi rend="small-caps">Mendelsohn</hi>, « “Like All That
+          Lives” : Biology, Medicine and Bacteria in the Age of Pasteur and
+          Koch », <hi rend="italic">History and Philosophy of the Life
+          Sciences </hi>24, p. 3-35.</bibl>
+          <bibl xml:id="d1e2738">
+            <hi rend="small-caps">Messac</hi>, 1975 :
+          Régis <hi rend="small-caps">Messac</hi>, <hi rend="italic">Le
+          « Detective Novel » et l’influence de la pensée scientifique
+          </hi>[1929], Genève.</bibl>
+          <bibl xml:id="d1e2750">
+            <hi rend="small-caps">Mollaret</hi> et <hi rend="small-caps">Brossollet</hi>, 1985 : <hi rend="small-caps">Mollaret</hi> et <hi rend="small-caps">Brossollet</hi>, <hi rend="italic">Alexandre
+          Yersin : le vainqueur de la peste</hi>, Paris.</bibl>
+          <bibl xml:id="d1e2768">
+            <hi rend="small-caps">Perrot</hi>, 1972 :
+          Michelle <hi rend="small-caps">Perrot</hi>, <hi rend="italic">Enquêtes sur la condition ouvrière en France au
+          </hi>
+            <hi rend="small-caps">xix</hi>
+            <hi rend="sup">e</hi> <hi rend="italic">siècle</hi>, Paris.</bibl>
+          <bibl xml:id="d1e2790">
+            <hi rend="small-caps">Peukert</hi>, 1989 :
+          Detlev J. K. <hi rend="small-caps">Perrot</hi>, <hi rend="italic">Max Webers Diagnose der Moderne</hi>,
+          Göttingen.</bibl>
+          <bibl xml:id="d1e2802">
+            <hi rend="small-caps">Picon</hi>, 1994 :
+          Antoine <hi rend="small-caps">Picon</hi>, « Les modèles de la
+          métropole : les polytechniciens et l’aménagement de Paris », in
+          Br. Belhoste <hi rend="italic">et al. (éd</hi>.), <hi rend="italic">Le Paris des polytechniciens : des ingénieurs dans la
+          ville, 1794-1994</hi>, Paris, p. 137-151.</bibl>
+          <bibl xml:id="d1e2817">
+            <hi rend="small-caps">Rabinow</hi>, 1989 :
+          Paul <hi rend="small-caps">Rabinow</hi>, <hi rend="italic">French
+          Modern : Norms and Forms of the Social Environment</hi>, Cambridge
+          (Mass.).</bibl>
+          <bibl xml:id="d1e2830">
+            <hi rend="small-caps">Rearick</hi>, 1985 :
+          Charles <hi rend="small-caps">Rearick</hi>
+            <hi rend="italic">,
+          Pleasures of the Belle Époque : Entertainment and Festivity in
+          Turn-of-the-Century France</hi>, New Haven.</bibl>
+          <bibl xml:id="d1e2842">
+            <hi rend="small-caps">Reddy</hi>, 1984 :
+          William M. <hi rend="small-caps">Reddy</hi>, <hi rend="italic">The
+          Rise of Market Culture : The Textile Trade and French Society,
+          1750-1900</hi>, Cambridge, p. 174-183.</bibl>
+          <bibl xml:id="d1e2854">
+            <hi rend="small-caps">Rosenberg</hi>, 1992 :
+          Charles E. <hi rend="small-caps">Rosenberg</hi>, « Making It in
+          Urban Medicine : A Career in the Age of Scientific Medicine », <hi rend="italic">Explaining</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Epidemics</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">and</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Other</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Studies</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">in</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">the</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">History
+          of Medicine</hi>, Cambridge, chap. 10, p. 230-231.</bibl>
+          <bibl xml:id="d1e2903">
+            <hi rend="small-caps">Roux</hi> et <hi rend="small-caps">Yersin</hi>, 1890 : Émile <hi rend="small-caps">Roux</hi> et Alexandre <hi rend="small-caps">Yersin</hi>, « Contribution à l’étude de la
+          diphtérie (3<hi rend="sup">e</hi> mémoire) », <hi rend="italic">Annales</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">de</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">l’Institut</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Pasteur</hi>, 4, p. 385-426.</bibl>
+          <bibl xml:id="d1e2941">Sarasin, 2001 : Philipp Sarasin, <hi rend="italic">Reizbare</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Maschine</hi>
+            <hi rend="italic"> :</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Eine</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Geschichte</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">des</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Körpers,</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">1765-1914,</hi>
+            <hi rend="italic"/>Francfort-sur-le-Main.</bibl>
+          <bibl xml:id="d1e2984">
+            <hi rend="small-caps">Schorske</hi>, 1963 :
+          Carl <hi rend="small-caps">Schorske</hi>, « The Idea of the City in
+          European Thought : Voltaire to Spengler », in O. Handlin et
+          J. Burchard (éd.), <hi rend="italic">The Historian and the
+          City</hi>, Cambridge (Mass.), p. 95-114.</bibl>
+          <bibl xml:id="d1e2997">
+            <hi rend="small-caps">Schwartz</hi>, 1998 :
+          Vanessa <hi rend="small-caps">Schwartz</hi>, <hi rend="italic">Spectacular Realities : Early Mass Culture in
+          Fin-de-Siècle Paris</hi>, Berkeley.</bibl>
+          <bibl xml:id="d1e3009">
+            <hi rend="small-caps">Scott</hi>, 1998 :
+          James C. <hi rend="small-caps">Scott</hi>, <hi rend="italic">Seing
+          Like a State : How Certain Schemes to Improve the Human Condition
+          Have Failed</hi>, New Haven.</bibl>
+          <bibl xml:id="d1e3021">
+            <hi rend="small-caps">Sennett</hi>, 1990 :
+          Richard <hi rend="small-caps">Sennett</hi>, <hi rend="italic">The
+          Conscience of the Eye : The Design and Social Life of Cities</hi>,
+          New York, p. 46-62.</bibl>
+          <bibl xml:id="d1e3033">
+            <hi rend="small-caps">Sibum</hi>, 1998 :
+          H. Otto <hi rend="small-caps">Sibum</hi>, « An Old Hand in a New
+          System », in J.-P. Gaudillière et Ilana Löwy (éd.), <hi rend="italic">The Invisible Industrialist : Manufactures and the
+          Production of Scientific Knowledge</hi>, Manchester,
+          p. 23-57.</bibl>
+          <bibl xml:id="d1e3045">
+            <hi rend="small-caps">Smith</hi>, 2004 :
+          Pamela <hi rend="small-caps">Smith</hi>, <hi rend="italic">The Body
+          of the Artisan</hi>, Chicago.</bibl>
+          <bibl xml:id="d1e3057">
+            <hi rend="small-caps">Soper</hi>, 1919 :
+          George A. <hi rend="small-caps">Soper</hi>, « Typhoid Mary », <hi rend="italic">Military Surgeon </hi>45, p. 1-15</bibl>
+          <bibl xml:id="d1e3070">
+            <hi rend="small-caps">Sternhell</hi>, 1972 :
+          Zeev <hi rend="small-caps">Sternhell</hi>, <hi rend="italic">Maurice
+          Barrès et le nationalisme français</hi>, Paris.</bibl>
+          <bibl xml:id="d1e3082">
+            <hi rend="small-caps">Tester</hi>, 1994 :
+          Keith <hi rend="small-caps">Tester</hi> (éd.), <hi rend="italic">The
+          Flâneur</hi>, Londres.</bibl>
+          <bibl xml:id="d1e3094">
+            <hi rend="small-caps">Thiesse</hi>, 1984 :
+          Anne-Marie <hi rend="small-caps">Thiesse</hi>, <hi rend="italic">Le
+          Roman du quotidien : lecteurs et lectures populaires à la Belle
+          Époque</hi>, Paris.</bibl>
+          <bibl xml:id="d1e3106">
+            <hi rend="small-caps">Thiesse</hi>, 1991 :
+          A.-M. <hi rend="small-caps">Thiesse</hi>, <hi rend="italic">Écrire
+          la France : le mouvement littéraire régionaliste de langue française
+          entre la Belle Époque et la Libération</hi>, Paris.</bibl>
+          <bibl xml:id="d1e3118">
+            <hi rend="italic">Trésor de la langue
+          française</hi>, 1971-1994 : <hi rend="italic">Trésor de la langue
+          française : dictionnaire de la langue du </hi>
+            <hi rend="small-caps italic">xix</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> et du </hi>
+            <hi rend="small-caps italic">xx</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> siècle (1789-1960)</hi>,
+          éd. P. Imbs, Paris, 16 vol., s.v. « suivre ».</bibl>
+          <bibl xml:id="d1e3146">
+            <hi rend="small-caps">Vialle</hi>, 1900 :
+          Émile <hi rend="small-caps">Vialle</hi>, <hi rend="italic">Le</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Service</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">des</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">douteux</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">à</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">l’hôpital</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">des</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Enfants</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">malades</hi>, thèse méd., Paris.</bibl>
+          <bibl xml:id="d1e3202">
+            <hi rend="small-caps">Vidal</hi>
+            <hi rend="small-caps">de</hi>
+            <hi rend="small-caps">La</hi>
+            <hi rend="small-caps">Blache</hi>, 1911 : Pierre <hi rend="small-caps">Vidal</hi>
+            <hi rend="small-caps">de</hi>
+            <hi rend="small-caps">La</hi>
+            <hi rend="small-caps">Blache</hi>, <hi rend="italic">Tableau de la géographie de</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">la</hi>
+            <hi rend="italic"/>France ; vol. 1 d’Ernest
+          Lavisse, <hi rend="italic">Histoire</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">de</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">la</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">France</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">illustrée</hi>, Paris.</bibl>
+          <bibl xml:id="d1e3265">
+            <hi rend="small-caps">Vidler</hi>, 1978 :
+          Anthony <hi rend="small-caps">Vidler</hi>, « The Scenes of the
+          Street », in <hi rend="italic">On Streets</hi>, éd. Stanford
+          Anderson, Cambridge (Mass.), p. 29-111.</bibl>
+          <bibl xml:id="d1e3277">
+            <hi rend="small-caps">Weber</hi>, 1948 : Max
+          <hi rend="small-caps">Weber</hi>, « Bureaucracy », in <hi rend="italic">From Max Weber : Essays in Sociology</hi>, éd. et
+          trad. H. H. Gerth et C. W. Mills, Londres, p. 196-244.</bibl>
+          <bibl xml:id="d1e3289">
+            <hi rend="small-caps">Williams</hi>, 1993 :
+          Raymond <hi rend="small-caps">Williams</hi>, <hi rend="italic">The
+          Country and the City</hi>, Londres.</bibl>
+          <bibl xml:id="d1e3301">
+            <hi rend="small-caps">Winslow</hi>, 1929 :
+          C. E.-A. <hi rend="small-caps">Winslow</hi>, <hi rend="italic">The</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Life</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">of</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Hermann</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">M.</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Biggs</hi>
+            <hi rend="italic"> : </hi>
+            <hi rend="italic">Physician</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">and
+          Statesman of Public Health</hi>, Philadelphie.</bibl>
+          <bibl xml:id="d1e3351">
+            <hi rend="small-caps">Zola</hi>, 1983 : Émile
+          <hi rend="small-caps">Zola</hi>, <hi rend="italic">L’Œuvre
+          </hi>[1886], Paris.</bibl>
+          <bibl xml:id="d1e3364">
+            <hi rend="small-caps">Zola</hi>, 1986 :
+          É. <hi rend="small-caps">Zola</hi>, <hi rend="italic">Carnets</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">d’enquête</hi>
+            <hi rend="italic"> : </hi>
+            <hi rend="italic">une</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">ethnographie</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">inédite</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">de</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">la</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">France</hi>, éd. Henri Mitterand,
+          Paris.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

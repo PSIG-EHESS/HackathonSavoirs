@@ -1,0 +1,1442 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-20T12:15:31.385+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LDSII_51_Castro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Les « Archives de la Planète » d’Albert
+        Kahn</title>
+        <author role="aut">
+          <forename>Teresa</forename>
+          <surname>Castro</surname>
+          <idno type="IDREF">133676935</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Albin
+          Michel CC BY-NC-ND 3.0 Attribution - Pas d’Utilisation Commerciale -
+          Pas de Modification</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/UTMY526U" type="bookSection" xml:lang="fre">
+          <analytic>
+            <title level="a">Les "Archives de la Planète" d'Albert
+            Kahn</title>
+            <author>
+              <forename>Teresa</forename>
+              <surname>Castro</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Lieux de savoir</title>
+            <idno type="ISBN">978-2-226-18729-1</idno>
+            <editor>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <biblScope unit="volume">2. Les mains de l'intellect</biblScope>
+              <biblScope unit="nb_volumes">2</biblScope>
+              <biblScope unit="page">877-895</biblScope>
+              <publisher>Albin Michel</publisher>
+              <date>2011</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-6sjmkx2q">archivage</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-eryypuc6">expédition</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-barjmjqd">observation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-unufqjx4">financement</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-oqsgefv3">ethnologie</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-cjmv3m7p">photographie</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1912">1912</date>
+          </term>
+          <term>
+            <date from="1900" to="1930" type="_temp">1900-1930</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-11-27T16:41:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Les « Archives de la Planète » d’Albert
+          Kahn</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Teresa Castro</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e49">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-w4qfxuba">film</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-qizh6pcr">géographie
+        humaine</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-ojc6hf5g">mécénat</term>
+            </term>
+          </term>C<hi rend="small-caps">onstituées</hi> de 4 000 plaques stéréoscopiques,
+        72 000 plaques autochromes et 183 000 mètres de film (équivalant à
+        plus de 100 heures de projection), les Archives de la Planète [A<hi rend="small-caps">DLP</hi>] furent imaginées en <date type="_temp" when="1909">1909</date> par l’homme d’affaires et philanthrope
+        français <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName>. Dirigées à
+        partir de <date type="_temp" when="1912">1912</date> par le géographe
+        <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Jean Brunhes</persName>, elles
+        réunissent des images concernant une cinquantaine de pays dans tous
+        les continents, sauf l’Océanie. Si leurs dizaines de milliers
+        d’autochromes constituent aujourd’hui la plus grande collection au
+        monde d’images réalisées par ce procédé, leur fonds filmique n’est pas
+        de moindre importance. Il se présente pour sa plus grande part sous la
+        forme de <hi rend="italic">
+            <foreign xml:lang="eng">rushes</foreign>
+          </hi> (séquences brutes non montées), tournées par plusieurs
+        opérateurs au service de <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName>. À ces prises de vue
+        s’ajoutent presque 17 000 mètres de pellicule achetés aux sociétés
+        Gaumont et Pathé, se rapportant à des événements ou des pays absents
+        du fonds des A<hi rend="small-caps">DLP</hi>. Ces images accomplissent
+        le dessein ambitieux de <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> : « Fixer une fois
+        pour toutes des aspects, des pratiques et des modes de l’activité
+        humaine dont la disparition fatale n’est plus qu’une question de
+        temps<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Emmanuel de Margerie, lettre à Jean Brunhes, 26 janvier 1912.
+            Archives nationales, fonds privé Jean Brunhes, 615 A<hi rend="small-caps">P</hi> 102.</p>
+          </note>. »</p>
+        <p xml:id="d1e70">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-tu296j9f">comparaison</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-oqsgefv3">ethnologie</term>
+              </term>
+            </term>
+          </term>Bien
+        qu’originale, et par endroits éludant encore le regard des historiens,
+        l’entreprise documentaire d’<persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName> est animée par
+        une conscience historique en accord avec le mouvement de constitution
+        des archives modernes<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Et partageant des points communs avec d’autres entreprises de
+            la même époque, comme les Archives de la Parole. À ce propos, voir
+            C<hi rend="small-caps">astro</hi>, 2017.</p>
+          </note>. Les autochromes, les films et les plaques stéréoscopiques
+        étaient rassemblés pour leur intérêt en tant que documents, répondant
+        à ce qu’on identifie en <date type="_temp" when="1913">1913</date>
+        comme le « goût du public moderne pour l’information précise et le
+        document vécu<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>C<hi rend="small-caps">oustet</hi>, 1913.</p>
+          </note>. » L’apport original du projet se situe au niveau de sa
+        dimension à la fois pionnière et utopique : constituer les archives du
+        futur, celles où la vie livrera ses secrets, mais aussi agir sur le
+        cours de l’histoire, servir le pacifisme et le progrès social, voire
+        influencer les opinions<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Sur les usages politiques des A<hi rend="small-caps">DLP</hi>
+            et leur articulation entre documentation et propagande, voir S<hi rend="small-caps">igaud</hi>, 2019.</p>
+          </note>. Dans le seul texte que <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> nous ait
+        laissé, un opuscule intitulé <hi rend="italic">Des droits et des
+        devoirs des gouvernements</hi>
+          <note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>K<hi rend="small-caps">ahn</hi>, 1918.</p>
+          </note>, rédigé pendant la <date>Première Guerre mondiale</date>, il
+        devient clair que la principale préoccupation du philanthrope est
+        désormais celle d’œuvrer à la paix universelle. Dans la vision de
+        <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName>, les images
+        documentaires des A<hi rend="small-caps">DLP</hi> ne peuvent que
+        contribuer à la coopération internationale entre les peuples. Ce
+        projet est, par ailleurs, indissociable de la dizaine de fondations
+        financées par le banquier et de son effort monumental de mise à
+        disposition de moyens<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>Sur les fondations d’Albert Kahn, voir C<hi rend="small-caps">orneloup</hi> 2015.</p>
+          </note>.</p>
+        <p xml:id="d1e116">Le but de ce texte est de décrire l’organisation et
+        la matérialité des A<hi rend="small-caps">DLP</hi>, en évoquant leur
+        mode de fonctionnement, les opérateurs à leur service et la réception
+        de leurs images pendant la période d’activité des archives. Pour ce
+        faire, il faut avant tout rappeler très brièvement les principes qui
+        ont présidé à leur genèse et à leur constitution. Cet effort passe
+        nécessairement par les figures d’<persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName>
+        et de <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Jean Brunhes</persName>.</p>
+        <div type="section1" xml:id="d1e121">
+          <head subtype="level1" xml:id="d1e122">L’architecte et le maître
+          d’œuvre : Albert Kahn et Jean Brunhes</head>
+          <p xml:id="d1e124">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-shrnbh5e">secret</term>
+              </term>
+            </term>« Autoritaire »,
+          « secret », « maniaque » : voilà comment a pu être décrit <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert
+          Kahn</persName>
+            <note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>B<hi rend="small-caps">orde</hi>, 1983, p. 37.</p>
+            </note>. Le financier est un homme discret, qui évite à tout prix
+          les nombreuses caméras qui l’entourent. Cette réserve va lui valoir
+          la réputation d’un homme « mystérieux » (célibataire, il manifeste,
+          par ailleurs, un certain besoin de solitude) et « insolite »
+          (végétarien, abstinent, non-fumeur), plongeant son œuvre dans une
+          obscurité relative après sa mort.</p>
+          <p xml:id="d1e133">Né en <date type="_temp" when="1860">1860</date>
+          à <placeName ref="6454549" type="geonames" xml:base="https://www.geonames.org/">Marmoutier</placeName>
+          (<placeName ref="3034720" type="geonames" xml:base="https://www.geonames.org/">Bas-Rhin</placeName>), dans une
+          famille de commerçants juifs, <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName> (né
+          <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Abraham Kahn</persName>) émigre à
+          <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> en <date type="_temp" when="1876">1876</date>. C’est là qu’il rencontre trois
+          ans plus tard <persName ref="027421848" type="idref" xml:base="https://www.idref.fr/">Henri Bergson</persName> : voulant
+          préparer ses baccalauréats ès lettres et ès sciences, il cherche un
+          précepteur auprès de l’Institution Springer, qui lui recommande son
+          ancien élève, d’à peine un an son aîné. <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName>
+          et <persName ref="027421848" type="idref" xml:base="https://www.idref.fr/">Henri Bergson</persName>
+          deviendront amis et resteront proches jusqu’à la fin de leur vie.
+          Plusieurs œuvres et initiatives de <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName>, parmi
+          lesquelles les A<hi rend="small-caps">DLP</hi>, se feront même avec
+          la participation plus ou moins active du philosophe.</p>
+          <p xml:id="d1e138">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-unufqjx4">financement</term>
+              </term>
+            </term>Employé
+          dans la banque des frères <persName type="_temp">Charles</persName>
+          et <persName type="_temp">Edmond Goudchaux</persName>, <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert
+          Kahn</persName> se fait vite remarquer par ses talents financiers.
+          En <date type="_temp" when="1898">1898</date>, après avoir fait
+          fortune grâce à la spéculation sur les actions des sociétés
+          d’exploitation du diamant et de l’or d’<placeName ref="953987" type="geonames" xml:base="https://www.geonames.org/">Afrique du
+          Sud</placeName>, il crée sa propre maison bancaire. Trois ans
+          auparavant, il s’était installé à <placeName ref="6451962" type="geonames" xml:base="https://www.geonames.org/">Boulogne</placeName>, dans la
+          banlieue de <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, où il
+          commence la constitution de son fameux jardin. Le jardin dans sa
+          globalité – où coexistent harmonieusement modèles français, anglais,
+          japonais, forêt vosgienne et forêt de cèdres – donne corps à
+          l’utopie d’<persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName>. Cette
+          utopie, dédiée au rapprochement entre les peuples, inclut la
+          création de bourses de voyage pour des jeunes agrégés (les bourses
+          « Autour du Monde »<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Administrées par la Sorbonne, les bourses « Autour du Monde »
+              se destinaient à de jeunes agrégés, français et étrangers, qui,
+              avant le début de leur carrière, souhaitaient voyager autour du
+              monde (le recrutement s’élargit aux jeunes femmes en 1905). Pour
+              les lauréats, auxquels seul un rapport final était demandé, un
+              voyage de presque quinze mois représentait la possibilité
+              d’enrichir leur expérience personnelle.</p>
+            </note>), la fondation de diverses sociétés et cercles de débat
+          (parmi lesquels le Comité national d’études sociales et
+          politiques<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Le C<hi rend="small-caps">NESP</hi> fonctionnait comme un
+              forum bimensuel, avec une cinquantaine de membres permanents,
+              originaires des élites politiques et administratives de
+              l’époque, et se dédiant à l’étude des questions d’ordre social
+              et politique d’intérêt général. Les séances du C<hi rend="small-caps">NESP</hi> ont lieu à la Cour de cassation de
+              Paris jusqu’en 1931.</p>
+            </note>), le financement d’une activité éditoriale prolifique<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Jusqu’en 1931, Kahn va financer pas moins de quatorze
+              bulletins et revues d’information, parmi lesquels des quotidiens
+              et des hebdomadaires.</p>
+            </note> et la création des A<hi rend="small-caps">DLP</hi>. Déjà
+          en <date type="_temp" when="1887">1887</date>, <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> avait confié à son
+          ami <persName ref="027421848" type="idref" xml:base="https://www.idref.fr/">Bergson</persName> qu’il souhaitait
+          alterner sa vie d’affaires avec d’autres occupations<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>C<hi rend="small-caps">œuré</hi> et W<hi rend="small-caps">orms</hi>, 2003, p. 76.</p>
+            </note>. Quelques années plus tard, le temps d’amorcer son projet
+          humaniste, pacifiste et universaliste était enfin arrivé. Même après
+          la crise financière de <date type="_temp" when="1929">1929</date>
+          qui provoque sa faillite, la priorité de <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName>
+          restera de sauver son œuvre. Pris, néanmoins, dans une spirale
+          vertigineuse d’endettement, le financier verra ses biens saisis et
+          mis aux enchères publiques en <date type="_temp" when="1933">1933</date> et <date type="_temp" when="1934">1934</date>. La propriété de <placeName ref="6451962" type="geonames" xml:base="https://www.geonames.org/">Boulogne</placeName> est
+          rachetée par le département de la Seine, qui autorise néanmoins le
+          banquier à rester dans sa demeure. Il s’y éteint en <date type="_temp" when="1940">1940</date>, quelques mois après
+          l’occupation de <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>.</p>
+          <p xml:id="d1e171">C’est en <date type="_temp" when="1912">1912</date> qu’<persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName> demande à
+          <persName ref="03282369X" type="idref" xml:base="https://www.idref.fr/">Emmanuel de Margerie</persName>,
+          géologue, de trouver pour la charge de directeur des A<hi rend="small-caps">DLP</hi> « un homme actif, suffisamment jeune,
+          habitué à la fois aux voyages et à l’enseignement et d’une
+          compétence reconnue comme géographe<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Emmanuel de Margerie, lettre à Jean Brunhes, 26 janvier 1912.
+              Archives nationales, fonds privé Jean Brunhes, 615 A<hi rend="small-caps">P</hi> 102.</p>
+            </note> ». <persName ref="03282369X" type="idref" xml:base="https://www.idref.fr/">Margerie</persName> lui recommande
+          <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Jean Brunhes</persName>, qu’il
+          contacte au nom du banquier, en lui présentant le projet dans les
+          termes suivants :</p>
+          <quote rend="quotation" xml:id="d1e183">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-rxs3gaea">inventaire</term>
+              </term>
+            </term>
+            <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Monsieur Kahn</persName> voudrait
+          constituer, pendant qu’il en est temps encore, ce qu’il appelle les
+          « Archives de la Planète », c’est-à-dire faire procéder à une sorte
+          d’inventaire photographique de la surface du globe occupée et
+          aménagée par l’Homme, telle qu’elle se présente au début du <date from="1900" to="1999" type="_temp">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date>
+            <note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>B<hi rend="small-caps">eausoleil</hi> et D<hi rend="small-caps">elamarre</hi>, 1993, p. 91.</p>
+            </note>.</quote>
+          <p xml:id="d1e200">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-qizh6pcr">géographie
+          humaine</term>
+                </term>
+              </term>
+            </term>
+            <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName>
+          accepte l’invitation, qui est accompagnée par la création et le
+          financement d’une chaire de Géographie humaine au <placeName ref="6945498" type="geonames" xml:base="https://www.geonames.org/">Collège de France</placeName>.
+          Né à <placeName ref="6453974" type="geonames" xml:base="https://www.geonames.org/">Toulouse</placeName> en <date type="_temp" when="1869">1869</date>, <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName> est
+          un éminent représentant de l’élite civile et intellectuelle de la
+          <date>Troisième République</date>. Catholique social engagé, il
+          commence sa carrière comme professeur à la Faculté de <placeName ref="2660718" type="geonames" xml:base="https://www.geonames.org/">Fribourg</placeName>, en
+          <placeName ref="2658434" type="geonames" xml:base="https://www.geonames.org/">Suisse</placeName>. En <date type="_temp" when="1902">1902</date>, il publie sa thèse sur
+          l’irrigation (<hi rend="italic">L’Irrigation. Ses conditions
+          géographiques, ses modes et son organisation dans la péninsule
+          Ibérique et dans l’Afrique du Nord</hi>) et, en <date type="_temp" when="1910">1910</date>, son œuvre capitale, <hi rend="italic">La
+          Géographie humaine</hi>
+            <note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>B<hi rend="small-caps">runhes</hi>, 1910.</p>
+            </note>. Élève de <persName ref="027184099" type="idref" xml:base="https://www.idref.fr/">Paul Vidal de La Blache</persName>,
+          il subit l’influence de <persName ref="029286751" type="idref" xml:base="https://www.idref.fr/">Friedrich Ratzel</persName>, dont
+          il suit les séminaires en <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>.</p>
+          <p xml:id="d1e214">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-cjmv3m7p">photographie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-vjgrqphy">comité</term>
+              </term>
+            </term>Ayant
+          accepté l’offre de <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName>, <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName> commence dès
+          <date type="_temp" when="1912-05">mai 1912</date> à mettre en place
+          les A<hi rend="small-caps">DLP</hi>. Il constitue un comité
+          scientifique, composé entre autres du philosophe <persName ref="027421848" type="idref" xml:base="https://www.idref.fr/">Henri
+          Bergson</persName>, du linguiste <persName ref="033003017" type="idref" xml:base="https://www.idref.fr/">Ferdinand
+          Brunot</persName>, du médecin <persName ref="027971384" type="idref" xml:base="https://www.idref.fr/">Jean-Baptiste Charcot</persName>,
+          du géologue <persName ref="03282369X" type="idref" xml:base="https://www.idref.fr/">Emmanuel de Margerie</persName>, du
+          géographe <persName ref="027184099" type="idref" xml:base="https://www.idref.fr/">Paul Vidal de La Blache</persName>
+          et, évidemment, d’<persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName> lui-même. En
+          l’absence de documentation, on en sait très peu sur le rôle effectif
+          de ce comité. Ce qui demeure certain, c’est que le géographe est,
+          avec <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName>, la figure
+          fondamentale des A<hi rend="small-caps">DLP</hi>. Car, depuis la
+          formation des archives, c’est <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Jean Brunhes</persName> qui
+          organise et prépare soigneusement les missions des opérateurs à son
+          service, en s’occupant des démarches nécessaires auprès des régions
+          et des pays à visiter et en organisant avec eux des réunions
+          préparatoires. Fonctionnant un peu comme des cours intensifs de
+          géographie humaine, ces réunions s’appuient sur une documentation
+          extensive, comprenant cartes, livres de géographie, guides de voyage
+          et images photographiques. <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName> offrait un
+          exemplaire de son livre <hi rend="italic">La Géographie humaine</hi>
+          aux hommes attachés à son service : les principes théoriques des
+          missions des A<hi rend="small-caps">DLP</hi> sont fondés sur cet
+          ouvrage. Dans ce livre, il avait procédé à une classification des
+          faits géographiques qu’il essayait d’inculquer rapidement aux
+          opérateurs. Il leur demandait de porter attention à l’environnement
+          et à l’habitat des gens, ainsi qu’aux scènes de la vie quotidienne.
+          C’est toutefois <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName> qui complète
+          en <date type="_temp" when="1913-05">mai 1913</date> un court <hi rend="italic">Programme photographique et cinématographique</hi>,
+          simple répertoire des sujets à enregistrer, et qui servira
+          d’aide-mémoire aux opérateurs<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Programme photographique et cinématographique dont la
+              première version a été rédigée par Jean Brunhes puis complétée
+              par Albert Kahn, document dactylographié, mai 1913. Archives
+              nationales, fonds privé Jean Brunhes, 615 A<hi rend="small-caps">P</hi> 103.</p>
+            </note>.</p>
+          <p xml:id="d1e239">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-eryypuc6">expédition</term>
+              </term>
+            </term>D’après
+          plusieurs témoignages, <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> aurait un rôle
+          prépondérant pour les missions et les sujets à filmer ou à
+          photographier, tandis que <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName> organiserait les
+          missions (obtention de visas, rédaction de lettres de
+          recommendation, etc.). Étant donné la présence de ce dernier, il
+          semble néanmoins fondamental, pour mieux comprendre la démarche et
+          les images des A<hi rend="small-caps">DLP</hi>, de prendre en ligne
+          de compte la géographie du tournant du siècle et de discuter la
+          méthode géographique du géographe toulousain. Inscrite dans la
+          tradition vidalienne de la recherche sur le terrain, le but de cette
+          méthode était de constituer une « vue raisonnée » ou « description
+          explicative » de la surface terrestre<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>R<hi rend="small-caps">obic</hi>, 1993, p. 109.</p>
+            </note>. Celle-ci consistait en la traduction en mots et en images
+          du travail d’observation directe effectué par le géographe. En vue
+          de cet objectif, <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName> n’hésite pas à
+          se servir de la photographie, qu’il préfère aux croquis, autant dans
+          sa pratique de terrain que pour les illustrations de ses œuvres. Il
+          s’agit de mettre l’image photographique au service de la
+          description : « d’abord, simple itinéraire à fin utilitaire et
+          pratique, la description s’élève et tend à devenir de plus en plus
+          une description complète, rationnelle, en prenant une forme
+          explicative<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>B<hi rend="small-caps">runhes</hi>, cité dans R<hi rend="small-caps">obic</hi>, 1993, p. 125.</p>
+            </note> ». Dans le domaine de la géographie, la photographie
+          constitue, avec la carte, et cela depuis les dernières années du
+          <date type="_temp" when="1800">
+              <hi rend="small-caps">1899xix</hi>
+              <hi rend="sup">e</hi> siècle</date>, la base d’un enseignement soutenu
+          par l’image. Pendant sa carrière, <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName>
+          consacre plusieurs articles aux procédés photographiques. En <date type="_temp" when="1900">1900</date>, le premier numéro de la revue
+          <hi rend="italic">Études géographiques</hi> inclut ainsi une étude
+          sur les possibles usages scientifiques de la photographie
+          stéréoscopique ; et si la thèse de <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName> sur
+          l’irrigation comporte déjà 45 photographies en <date type="_temp" when="1902">1902</date>, la troisième édition de <hi rend="italic">La Géographie humaine</hi> (<date type="_temp" when="1925">1925</date>) inclut un troisième tome avec
+          278 illustrations, dont 265 photographies. Dans ce contexte, il
+          n’est pas surprenant de constater l’importance accordée par le
+          géographe à la collection d’autochromes des A<hi rend="small-caps">DLP</hi>, qu’il utilise notamment pour illustrer
+          ses séminaires au <placeName ref="6945498" type="geonames" xml:base="https://www.geonames.org/">Collège de France</placeName>.
+          Le procédé, dont le brevet avait été déposé en <date type="_temp" when="1903">1903</date> par <persName ref="03171045X" type="idref" xml:base="https://www.idref.fr/">Auguste</persName> et <persName ref="027543609" type="idref" xml:base="https://www.idref.fr/">Louis
+          Lumière</persName>, permet, à travers le filtrage trichrome de la
+          lumière, d’obtenir des photographies en couleurs sur plaques de
+          verre. Les images obtenues ne sont pas reproductibles sur papier, et
+          le support verre se révèle assez fragile. Pourtant, et malgré les
+          inconvénients de transport et la longueur du temps de pose exigé par
+          les autochromes, leur richesse de détails justifie pour <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName>
+          l’investissement. Le cinématographe, capable de reproduire le
+          mouvement, « c’est-à-dire le rythme de la vie<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>
+                <hi rend="italic">Ibid</hi>., 1993, p. 125.</p>
+            </note> », vient compléter, dans le cadre des A<hi rend="small-caps">DLP</hi>, les images statiques.</p>
+          <p xml:id="d1e285">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-tu296j9f">comparaison</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-barjmjqd">observation</term>
+              </term>
+            </term>La
+          méthode géographique de <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName> repose donc sur
+          un « parti pris du visible<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>R<hi rend="small-caps">obic</hi>, 1993, p. 136.</p>
+            </note> ». La rationalité observatrice, descriptive et comparative
+          qui préside à sa démarche s’appuie sur la documentation visuelle, à
+          laquelle elle accorde une place fondamentale. Sa méthode semble être
+          en parfait accord avec quelques thèmes caractéristiques de la
+          géographie française du tournant du siècle. L’on reconnaît dans le
+          travail de <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName> l’idée de l’<hi rend="italic">unité du monde </hi>(si fondamentale pour les A<hi rend="small-caps">DLP</hi> elles-mêmes) : récemment uniformisé par
+          la standardisation du temps et de l’espace, le monde est devenu plus
+          petit, plus facilement parcourable et accessible – plus facilement
+          archivable. En second lieu, le travail du géographe toulousain
+          entend rendre le monde visible et intelligible, c’est-à-dire
+          « connaître et faire connaître<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>B<hi rend="small-caps">esse</hi>, 2005, p. 6.</p>
+            </note> ». Et c’est pour mener à bien cette tâche immense qu’il
+          utilise la photographie et le cinématographe. Enfin, en mettant à
+          l’œuvre le dessein ambitieux d’<persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert
+          Kahn</persName>, <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName> témoigne de
+          l’état de ce monde à la merci des changements rapides, brutaux et
+          irréversibles entraînés par ce véritable phénomène de
+          mondialisation. Dans le cadre des A<hi rend="small-caps">DLP</hi>,
+          ce témoignage combine « le désir de voir le monde et de le
+          parcourir », avec « la volonté de témoigner sur un plan moral et
+          politique »<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>
+                <hi rend="italic">Ibid</hi>., p. 10.</p>
+            </note> – intention que l’on trouve à l’origine de tous les
+          projets du mécène.</p>
+        </div>
+        <div type="section1" xml:id="d1e317">
+          <head subtype="level1" xml:id="d1e318">Le fonctionnement des
+          Archives et les opérateurs à leur service</head>
+          <p xml:id="d1e320">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-8rsdreyt">journal</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-7dh8ptmc">voyage</term>
+              </term>
+            </term>En <date type="_temp" when="1908">1908</date>, <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName>
+          entreprend le tour du monde, accompagné de son jeune chauffeur,
+          <persName type="_temp">Albert Dutertre</persName>. Après une
+          formation rapide auprès d’un professeur en pharmacie (il n’existe
+          pas d’école de photographie à cette époque) et chez Pathé, ce
+          dernier prendra au cours du périple environ 3 000 plaques
+          stéréoscopiques (comprenant des stéréoscopies autochromes) et 2 000
+          mètres de film, rédigeant, par ailleurs, un précieux journal de
+          voyage. Dans ce journal, <persName type="_temp">Dutertre</persName>
+          mentionne un phonographe-enregistreur à cylindres, qu’il essaye de
+          mettre à contribution (sans succès) dès le début du voyage. La
+          pulsion documentaire de <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> est donc
+          exhaustive, la stéréoscopie capturant le relief du monde,
+          l’autochromie ses couleurs, la cinématographie son mouvement et la
+          phonographie ses sons. À son retour, <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName>
+          recrute le premier opérateur professionnel à son service, le
+          photographe <persName ref="031140386" type="idref" xml:base="https://www.idref.fr/">Auguste Léon</persName> : celui-ci
+          réalise des autochromes à partir de <date type="_temp" when="1909">1909</date> et est chargé de créer les laboratoires
+          photographique et cinématographique. Toutefois, la production
+          visuelle de <persName type="_temp">Dutertre</persName> ne saurait
+          être négligée : comme le signale <persName ref="032074638" type="idref" xml:base="https://www.idref.fr/">Michel
+          Poivert</persName>, ce dernier fait preuve d’une forte sensibilité
+          esthétique et technique<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>P<hi rend="small-caps">oivert</hi>, 2019.</p>
+            </note>.</p>
+          <figure xml:id="d1e329">
+            <head xml:id="d1e330">Voisins de la villa d’Albert Kahn. Carbis
+            Bay, Angleterre, 28 août 1913( ?). Autochrome d’Auguste Léon ( ?),
+            inv. A 69862.</head>
+            <graphic url="../icono/br/LDSII_51_Castro_fig01.jpg"/>
+          </figure>
+          <p xml:id="d1e333">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-eryypuc6">expédition</term>
+              </term>
+            </term>Si les
+          images de <persName type="_temp">Dutertre</persName> sont les
+          premières à intégrer le fonds des A<hi rend="small-caps">DLP</hi>,
+          les premières missions sous la direction de <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName> se déroulent en
+          <date type="_temp" when="1912">1912</date>. Attestant une
+          organisation efficace, en <date type="_temp" when="1913">1913</date>, les opérateurs au service des A<hi rend="small-caps">DLP</hi> avaient déjà visité sept départements
+          français et plus d’une vingtaine de pays étrangers (dont
+          l’<placeName ref="783754" type="geonames" xml:base="https://www.geonames.org/">Albanie</placeName>, la
+          <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> et le
+          <placeName ref="2960313" type="geonames" xml:base="https://www.geonames.org/">Luxembourg</placeName> en
+          Europe, l’<placeName ref="2589581" type="geonames" xml:base="https://www.geonames.org/">Algérie</placeName>, le
+          <placeName ref="2542007" type="geonames" xml:base="https://www.geonames.org/">Maroc</placeName> et la
+          <placeName ref="2464461" type="geonames" xml:base="https://www.geonames.org/">Tunisie</placeName> en Afrique
+          du Nord, et la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName>, l’<placeName ref="1269750" type="geonames" xml:base="https://www.geonames.org/">Inde</placeName>, la <placeName ref="2029969" type="geonames" xml:base="https://www.geonames.org/">Mongolie</placeName>, le
+          <placeName ref="1168579" type="geonames" xml:base="https://www.geonames.org/">Pakistan</placeName> et le
+          <placeName ref="1227603" type="geonames" xml:base="https://www.geonames.org/">Sri Lanka</placeName> en Asie).
+          Il semble pourtant qu’il n’ait jamais existé un programme concernant
+          les différentes étapes à franchir et/ou les pays du monde à
+          parcourir. Si l’occasion se présentait, une mission pouvait avoir
+          lieu, la décision revenant, en dernière instance, à <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert
+          Kahn</persName>, le banquier prenant en charge le financement des
+          missions (après analyse d’un budget prévisionnel fourni par
+          <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName>). Si certaines
+          missions à l’étranger ont été motivées par des bouleversements
+          politiques (comme la mission de Passet au <placeName ref="2542007" type="geonames" xml:base="https://www.geonames.org/">Maroc</placeName> en<date type="_temp" when="1912"> 1912</date>, à l’occasion de
+          l’établissement du protectorat français), d’autres sont justifiées
+          par des événements particuliers (comme le jubilé du Maharadjah de
+          <placeName ref="1267912" type="geonames" xml:base="https://www.geonames.org/">Kapurthala</placeName>,
+          documenté par <persName ref="225473755" type="idref" xml:base="https://www.idref.fr/">Roger Dumas</persName> en <date type="_temp" when="1927">1927</date>). D’autres encore profitent de
+          projets extérieurs aux A<hi rend="small-caps">DLP</hi>, associant
+          les opérateurs de <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> à des délégations
+          diplomatiques ou scientifiques (ainsi pour le voyage de <persName type="_temp">Frédéric Gadmer</persName> en <placeName ref="1149361" type="geonames" xml:base="https://www.geonames.org/">Afghanistan</placeName>,
+          en <date type="_temp" when="1928">1928</date>, à l’occasion d’une
+          mission d’étude confiée au cabinet de <persName type="_temp">Michel
+          Clemenceau</persName>). Enfin, quelques missions sont parfois
+          suscitées par des personnes extérieures aux Archives, comme le père
+          <persName type="_temp">Aupiais</persName>, de la Société des
+          missions africaines de <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName> (mission au
+          <placeName ref="2395170" type="geonames" xml:base="https://www.geonames.org/">Dahomey</placeName>, actuel
+          <placeName ref="2395170" type="geonames" xml:base="https://www.geonames.org/">Bénin</placeName>, en <date type="_temp" when="1930">1930</date>). Les projets comportant des
+          aspects commerciaux sont systématiquement écartés : le principal
+          était d’avancer avec cette « sorte d’inventaire photographique de la
+          surface du globe occupé<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>Emmanuel de Margerie, lettre à Jean Brunhes, 26 janvier 1912.
+              Archives nationales, fonds privé Jean Brunhes, 615 A<hi rend="small-caps">P</hi> 102.</p>
+            </note> » si cher à <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName>. Mais qui
+          étaient ces hommes au service du mécène et que savons-nous sur le
+          déroulement de leurs missions et le fonctionnement pratique des A<hi rend="small-caps">DLP</hi> ?</p>
+          <p xml:id="d1e354">Entre <date from="1912" to="1932" type="_temp">1912 et 1932</date>, plus d’une dizaine d’opérateurs
+          arpentent régulièrement la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> et le monde
+          pour le compte d’<persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName> :</p>
+          <p xml:id="d1e356">– <persName ref="031140386" type="idref" xml:base="https://www.idref.fr/">Auguste Léon</persName> (<date from="1857" to="1942" type="_temp">1857-1942</date>), né à
+          <placeName ref="6455058" type="geonames" xml:base="https://www.geonames.org/">Bordeaux</placeName>, ce
+          photographe est le premier opérateur « professionnel » au service de
+          <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> pour qui il
+          travaille entre <date from="1909" to="1930" type="_temp">1909
+          et 1930</date>. Il accompagne son employeur en Amérique du Sud
+          en <date type="_temp" when="1909">1909</date>, où il prend de
+          nombreux clichés stéréoscopiques et s’essaie aux plaques
+          autochromes. Ses missions le conduisent en Scandinavie, en
+          <placeName ref="298795" type="geonames" xml:base="https://www.geonames.org/">Turquie</placeName>, ou encore
+          en <placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>. Il réalise
+          aussi des missions en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> et
+          photographie les propriétés de <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName>, à
+          <placeName ref="6451962" type="geonames" xml:base="https://www.geonames.org/">Boulogne</placeName> et au
+          <placeName ref="2995382" type="geonames" xml:base="https://www.geonames.org/">Cap Martin</placeName>. Dans le
+          studio du laboratoire de <placeName ref="6451962" type="geonames" xml:base="https://www.geonames.org/">Boulogne</placeName>, il
+          réalise le portrait de nombreuses personnalités de l’époque. Par
+          ailleurs, il gère à partir de <date type="_temp" when="1909">1909</date> le laboratoire photographique et
+          cinématographique des A<hi rend="small-caps">DLP</hi>, se présentant
+          comme son « directeur » après la guerre. Si, dans un premier temps,
+          il s’occupe, avec <persName ref="031140378" type="idref" xml:base="https://www.idref.fr/">Georges Chevalier</persName>, du
+          développement des prises de vue et de la gestion du stock, dans les
+          <date from="1920" to="1929" type="_temp">années 1920</date>, il est
+          en charge de la gestion technique du laboratoire (commandes de
+          consommables et de matériels, réparations) ainsi que du personnel
+          (avance sur paiement mensuel, liens entre les opérateurs et
+          <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName>,
+          recrutement ; etc.).&#x2028;</p>
+          <p xml:id="d1e361">– <persName type="_temp">Stéphane
+          Passet</persName> (<date type="_temp" when="1875">1875</date>- ?),
+          né à <placeName ref="6440251" type="geonames" xml:base="https://www.geonames.org/">Thiers</placeName> (<placeName ref="2984986" type="geonames" xml:base="https://www.geonames.org/">Puy-de-Dôme</placeName>),
+          engagé volontaire pendant quinze ans (<date from="1895" to="1910" type="_temp">1895-1910</date>), <persName type="_temp">Passet</persName> travaille comme opérateur
+          photographique et cinématographique pour les A<hi rend="small-caps">DLP</hi> sur deux périodes : entre <date from="1912" to="1919" type="_temp">1912-1919</date> et <date from="1929" to="1930" type="_temp">1929-1930</date>. Avant son
+          embauche, sa femme tient une boutique d’appareils photographiques à
+          <placeName ref="6440000" type="geonames" xml:base="https://www.geonames.org/">Clermont-Ferrand</placeName>.
+          Pour le compte des A<hi rend="small-caps">DLP</hi>, il réalise des
+          missions en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, en Europe,
+          en Afrique du Nord et en Asie, le déplacement qu’il effectue en
+          <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> en <date type="_temp" when="1912">1912</date> constituant la première mission
+          à l’étranger organisée par <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName>. Les lettres
+          qu’il adresse à <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName> et à
+          <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Jean Brunhes</persName> au cours de
+          ses premières missions constituent des aperçus précieux sur leur
+          déroulement. Il interrompt son travail pour la collection en <date type="_temp" when="1919">1919</date>, réalisant, avant son retour
+          en <date type="_temp" when="1929">1929</date>, deux films de
+          fiction : <hi rend="italic">La Belle au bois dormant</hi> (film en
+          relief, <date type="_temp" when="1922">1922</date>) et <hi rend="italic">La Damnation de Faust</hi> (film en relief, <date type="_temp" when="1925">1925</date>). Nous ne possédons aucune
+          information sur les activités de <persName type="_temp">Passet</persName> après son départ des A<hi rend="small-caps">DLP</hi>.</p>
+          <p xml:id="d1e378">– <persName ref="031140378" type="idref" xml:base="https://www.idref.fr/">Georges Chevalier</persName> (<date from="1882" to="1967" type="_temp">1882-1967</date>), formé à la
+          photographie par <persName ref="031140386" type="idref" xml:base="https://www.idref.fr/">Auguste Léon</persName>, entre au
+          service des A<hi rend="small-caps">DLP</hi> fin <date type="_temp" when="1913">1913</date>. Il prend d’abord des plaques autochromes de
+          <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> et des
+          départements ravagés par la guerre, avant de partir en Europe et en
+          Afrique du Nord. Avec <persName ref="031140386" type="idref" xml:base="https://www.idref.fr/">Léon</persName>, il réalise le
+          portrait des nombreux invités de <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> à
+          <placeName ref="6451962" type="geonames" xml:base="https://www.geonames.org/">Boulogne</placeName>. Après la
+          ruine du banquier, <persName ref="031140378" type="idref" xml:base="https://www.idref.fr/">Chevalier</persName> veille sur les
+          collections de plaques et de films. En <date type="_temp" when="1936">1936</date>, il en devient officiellement responsable
+          pour le département de la Seine, nouveau propriétaire de la
+          collection. Avec <persName type="_temp">Marguerite Magné de
+          Lalonde</persName>, il continue de photographier et d’organiser des
+          projections de plaques autochromes, y compris pendant la
+          <date>Seconde Guerre mondiale</date>.</p>
+          <figure xml:id="d1e383">
+            <head xml:id="d1e384">Jeunes femmes kurdes. Irak, Mar Yacoub,
+            11 mai 1927. Autochrome de Frédéric Gadmer, inv. A 54305.</head>
+            <graphic url="../icono/br/LDSII_51_Castro_fig02.jpg"/>
+          </figure>
+          <p xml:id="d1e387">– <persName ref="031948715" type="idref" xml:base="https://www.idref.fr/">Léon Busy</persName> (<date from="1874" to="1951" type="_temp">1874-1951</date>), né à
+          <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, est
+          polytechnicien. Il fait carrière dans l’armée coloniale, devenant
+          lieutenant de sous-intendance à <placeName ref="1581130" type="geonames" xml:base="https://www.geonames.org/">Hanoi</placeName> (<date from="1915" to="1917" type="_temp">1915-1917</date>), avant de se
+          consacrer entièrement à la pratique photographique pour le compte du
+          Gouvernement Général d’Indochine (<date from="1921" to="1931" type="_temp">1921-1931</date>). Autochromiste amateur, membre de la
+          Société française de photographie dès <date type="_temp" when="1913">1913</date> (et récompensé pour ses autochromes en <date type="_temp" when="1914">1914</date>), il est probablement
+          l’inventeur de l’« actinophote » ou « actinomètre », un appareil
+          permettant de mesurer le temps de pose en photographie. Il prend
+          contact avec <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Jean Brunhes</persName> en <date type="_temp" when="1914">1914</date>, se proposant dans une lettre
+          « d’exécuter des vues au cours soit de [son] prochain séjour
+          colonial soit des voyages d’aller et de retour ». Le directeur des
+          A<hi rend="small-caps">DLP</hi> saisit l’opportunité : <persName ref="031948715" type="idref" xml:base="https://www.idref.fr/">Busy</persName> est un photographe
+          compétent et son statut professionnel signifie que ses frais de vie
+          et transport sont assumés par l’Administration coloniale.
+          Entre <date from="1914" to="1920" type="_temp">1914-1920</date>, il
+          réalise pour les A<hi rend="small-caps">DLP</hi> des films et des
+          autochromes du Tonkin (actuel <placeName ref="1562822" type="geonames" xml:base="https://www.geonames.org/">Vietnam</placeName>), du
+          <placeName ref="1831722" type="geonames" xml:base="https://www.geonames.org/">Cambodge</placeName>, de
+          <placeName ref="1227603" type="geonames" xml:base="https://www.geonames.org/">Ceylan</placeName>,
+          d’<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>, de
+          <placeName ref="223817" type="geonames" xml:base="https://www.geonames.org/">Djibouti</placeName>, de
+          <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>, de
+          <placeName ref="298795" type="geonames" xml:base="https://www.geonames.org/">Turquie</placeName> et de
+          <placeName ref="732800" type="geonames" xml:base="https://www.geonames.org/">Bulgarie</placeName>.</p>
+          <p xml:id="d1e395">– <persName ref="113754590" type="idref" xml:base="https://www.idref.fr/">Paul Castelnau</persName> (<date from="1880" to="1944" type="_temp">1880-1944</date>), né à
+          <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, géographe et
+          ancien élève de <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Jean Brunhes</persName>, <persName ref="113754590" type="idref" xml:base="https://www.idref.fr/">Castelnau</persName> intègre,
+          pendant la <date from="1914" to="1918" type="_temp">Première Guerre
+          mondiale</date>, la Section photographique de l’armée. Sa
+          collaboration avec les A<hi rend="small-caps">DLP</hi> concerne les
+          années <date from="1917" to="1919" type="_temp">1917-1919</date>,
+          période pendant laquelle il prend des autochromes des régions
+          dévastées du nord et de l’est de la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>. D’autres
+          plaques témoignent de la reconstruction dans la <placeName ref="2995603" type="geonames" xml:base="https://www.geonames.org/">Marne</placeName> et
+          l’<placeName ref="3038375" type="geonames" xml:base="https://www.geonames.org/">Aisne</placeName>. Après son
+          départ des A<hi rend="small-caps">DLP</hi>, il reste proche de
+          <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName>, poursuivant une
+          carrière de cinéaste et d’expert-géomètre. Dans ce contexte, il
+          participe à la première traversée du Sahara en autochenilles (<date from="1922" to="1923" type="_temp">1922-1923</date>). En <date type="_temp" when="1925">1925</date>, il tourne avec <persName ref="092035752" type="idref" xml:base="https://www.idref.fr/">Georges Specht</persName>
+            <hi rend="italic">La Vie des termites</hi> et, pour le compte de la
+          Société de Géographie (et avec <persName type="_temp">Lucien Le
+          Saint</persName>), <hi rend="italic">Voyage à la Terre de
+          feu</hi>.</p>
+          <p xml:id="d1e410">– <persName type="_temp">Louis Fernand
+          Cuville</persName> (<date from="1887" to="1927" type="_temp">1887-1927</date>), originaire de <placeName ref="6455058" type="geonames" xml:base="https://www.geonames.org/">Bordeaux</placeName> (comme
+          <persName ref="031140378" type="idref" xml:base="https://www.idref.fr/">Chevalier</persName>), ce musicien
+          à l’origine intègre, avec <persName ref="113754590" type="idref" xml:base="https://www.idref.fr/">Castelnau</persName>, la Section
+          photographique de l’armée, dans le cadre d’un partenariat avec
+          <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName>. Entre <date from="1917" to="1921" type="_temp">1917-1921</date>, il réalise pour
+          les A<hi rend="small-caps">DLP</hi> des plaques du front occidental,
+          ainsi que des autochromes du mont Athos, des Balkans et du Sud-Ouest
+          français. Après guerre, il retourne à <placeName ref="6455058" type="geonames" xml:base="https://www.geonames.org/">Bordeaux</placeName>,
+          continuant de collaborer occasionnellement avec les archives.</p>
+          <p xml:id="d1e415">– <persName type="_temp">Lucien Le
+          Saint</persName> (<date from="1881" to="1931" type="_temp">1881-1931</date>) est sans doute l’opérateur
+          cinématographique au service des A<hi rend="small-caps">DLP</hi>
+          dont l’activité et le parcours sont les mieux connus. Né à
+          <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, il s’essaye
+          d’abord comme photographe avant de devenir opérateur d’actualités
+          chez Gaumont. Réformé en <date type="_temp" when="1914">1914</date>,
+          il devient « correspondant de guerre » pour Gaumont, avant d’être
+          mobilisé auprès du Service cinématographique de l’armée en <date type="_temp" when="1917">1917</date>, peu de temps après avoir été
+          recruté par <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName>. Cet
+          opérateur expérimenté est salarié des A<hi rend="small-caps">DLP</hi> jusqu’en <date type="_temp" when="1923">1923</date> : il participe à de nombreuses missions, en
+          <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> et à
+          l’étranger, tournant quelques-unes des vues les plus célèbres de la
+          collection (<hi rend="italic">En dirigeable sur les champs de
+          bataille</hi>, <hi rend="italic">La pêche à la morue en Terre
+          Neuve</hi>). Après son expérience aux A<hi rend="small-caps">DLP</hi>, il sera opérateur chez Pathé News et
+          collabore notamment avec <persName ref="113754590" type="idref" xml:base="https://www.idref.fr/">Paul Castelnau</persName> au film
+          <hi rend="italic">Voyage à la Terre de feu</hi> (<date type="_temp" when="1925">1925</date>).</p>
+          <p xml:id="d1e436">– <persName type="_temp">Frédéric
+          Gadmer</persName> (<date from="1878" to="1954" type="_temp">1878-1954</date>), né à <placeName ref="2977295" type="geonames" xml:base="https://www.geonames.org/">Saint-Quentin</placeName>,
+          <persName type="_temp">Gadmer</persName> est ce qu’on pourrait
+          appeler un « photographe professionnel ». Employé à la Maison Vitry
+          (société spécialisée dans l’héliographie) avant la guerre, mobilisé
+          par la Société photographique de l’Armée (pour laquelle il fait des
+          photographies sur le front des <placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Dardanelles</placeName> et au
+          <placeName ref="2233387" type="geonames" xml:base="https://www.geonames.org/">Cameroun</placeName>),
+          <persName type="_temp">Gadmer</persName> est embauché par <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> en <date type="_temp" when="1919">1919</date>, après sa démobilisation. Il
+          réalise pour la collection des autochromes et, suite au départ de
+          <persName type="_temp">Le Saint</persName> en <date type="_temp" when="1924">1924</date>, des films. Opérateur prolifique, ses
+          missions le conduisent en Europe, au Proche-Orient, au <placeName ref="6251999" type="geonames" xml:base="https://www.geonames.org/">Canada</placeName> et en
+          Afrique, où il accompagne le père <persName ref="035432209" type="idref" xml:base="https://www.idref.fr/">Francis
+          Aupiais</persName> au <placeName ref="2395170" type="geonames" xml:base="https://www.geonames.org/">Dahomey</placeName> (actuel
+          <placeName ref="2395170" type="geonames" xml:base="https://www.geonames.org/">Bénin</placeName>). Il quitte
+          les A<hi rend="small-caps">DLP</hi> en <date type="_temp" when="1932">1932</date>, travaillant par la suite chez l’éditeur de
+          cartes postales Yvon.</p>
+          <p xml:id="d1e441">– <persName type="_temp">Camille
+          Sauvageot</persName> (<date from="1889" to="1961" type="_temp">1889-1961</date>), né à <placeName ref="6445887" type="geonames" xml:base="https://www.geonames.org/">Irancy</placeName> (<placeName ref="2967222" type="geonames" xml:base="https://www.geonames.org/">Yonne</placeName>), <persName ref="241780780" type="idref" xml:base="https://www.idref.fr/">Sauvageot</persName> travaille dans
+          une banque avant la guerre. Opérateur cinématographique de l’armée
+          en <date from="1917" to="1918" type="_temp">1917-1918</date>, il
+          travaille avec <persName type="_temp">Le Saint</persName> au Centre
+          d’action de propagande contre l’ennemi avant d’entrer au service de
+          <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> en <date type="_temp" when="1919">1919</date>. Il effectue des missions en
+          Europe, en Afrique du Nord et en Palestine. Entre <date from="1928" to="1929" type="_temp">1928 et 1929</date>, il teste pour les A<hi rend="small-caps">DLP</hi> le procédé cinématographique de
+          restitution des couleurs « Keller-Dorian ». En <date type="_temp" when="1947">1947</date>, il est l’opérateur de la version couleur de
+          <hi rend="italic">Jour de fête</hi> de <persName ref="028587642" type="idref" xml:base="https://www.idref.fr/">Jacques
+          Tati</persName>, réalisé avec le système de pellicule gaufrée
+          Thomson Color. Il poursuivra sa carrière comme chef-opérateur et
+          responsable de laboratoire.</p>
+          <p xml:id="d1e449">– <persName type="_temp">Roger Dumas</persName>
+          (<date from="1891" to="1972" type="_temp">1891-1972</date>), né à
+          <placeName ref="6454060" type="geonames" xml:base="https://www.geonames.org/">Tours</placeName>, portraitiste
+          et retoucheur chez un photographe, est engagé aux A<hi rend="small-caps">DLP</hi> en <date type="_temp" when="1920">1920</date>, où il restera jusqu’en <date type="_temp" when="1931">1931</date>. En amont de réaliser une bonne partie des
+          portraits des invités de <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> et de la Société
+          Autour du Monde, il filme et photographie plusieurs pays européens,
+          ainsi que le <placeName ref="1861060" type="geonames" xml:base="https://www.geonames.org/">Japon</placeName> et
+          l’<placeName ref="1269750" type="geonames" xml:base="https://www.geonames.org/">Inde</placeName>. Avec
+          <persName type="_temp">Frédéric Gadmer</persName>, <persName type="_temp">Stéphane Passet</persName> et <persName type="_temp">Camille Sauvageot</persName>, il partage la double
+          compétence d’être opérateur photographique et cinématographique.
+          Passionné par le problème de la restitution des couleurs, il fait,
+          avec <persName type="_temp">Sauvageot</persName>, des essais de
+          cinématographie en couleurs avec le procédé Keller-Dorian. Après son
+          départ des archives, en <date type="_temp" when="1931">1931</date>,
+          il essaiera de mettre au point un procédé industriel de cinéma en
+          couleurs, le « Dugromacolor » (un film tourné avec ce procédé, <hi rend="italic">Symphonie Provençale</hi>, est présenté au public
+          en <date type="_temp" when="1948">1948</date>).</p>
+          <p xml:id="d1e457">En amont de ces hommes, d’autres noms s’ajoutent
+          à la liste : <persName ref="151654689" type="idref" xml:base="https://www.idref.fr/">Jacques Gachet</persName> (<date from="1881" to="1948" type="_temp">1881-1948</date>, diplomate et
+          professeur à l’Université de <placeName ref="11876380" type="geonames" xml:base="https://www.geonames.org/">Pékin</placeName> au moment où
+          <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> fait son tour du
+          monde) ; <persName type="_temp">Cesare Calciatti</persName> (<date from="1885" to="1929" type="_temp">1885-1929</date>, géographe,
+          élève et assistant de <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Jean Brunhes</persName> à
+          l’Université de <placeName ref="2660718" type="geonames" xml:base="https://www.geonames.org/">Fribourg</placeName>) ;
+          <persName type="_temp">André Bernardel</persName> (<date from="1888" to="1918" type="_temp">1888-1918</date>, violoncelliste de métier.
+          photocombatant amateur) ; <persName type="_temp">Maurice
+          Délécaille</persName> (<date type="_temp" when="1859">19181859-1918</date>, autochromiste médical et
+          scientifique, membre de la Société française de photographie à
+          partir de <date type="_temp" when="1903">1903</date>) ; <persName type="_temp">Léonard Lachalarde</persName> (<date from="1881" to="1964" type="_temp">1881-1964</date>, autochromiste) ; <persName type="_temp">Aimé Piednoir</persName> (<date from="1898" to="1979" type="_temp">1898-1979</date>, projectionniste et autochromiste) ;
+          <persName type="_temp">Étienne Chastenet</persName> (<date type="_temp" when="1882">1882</date>- ?, photocombattant amateur) ;
+          <persName type="_temp">Anders Beer Wilse</persName> (<date from="1865" to="1949" type="_temp">1865-1949</date>, photographe
+          norvégien) ; <persName type="_temp">Emmanuel Ventujol</persName>
+          (photographe et cinéaste) ; <persName type="_temp">Daniel
+          Quintin</persName> ; un certain <persName type="_temp">E. Colliot</persName> (cinéaste), <persName type="_temp">Daniau</persName> (cinéaste) ou encore J. <persName type="_temp">Vermeulen</persName> (cinéaste). Avec la géographe
+          <persName ref="026757095" type="idref" xml:base="https://www.idref.fr/">Mariel
+          Jean-Brunhes-Delamarre</persName> (<date from="1905" to="2001" type="_temp">1905-2001</date>), qui réalise des prises de vue
+          cinématographiques lors d’une mission au <placeName ref="6251999" type="geonames" xml:base="https://www.geonames.org/">Canada</placeName> en <date from="1927" to="1928" type="_temp">1927-1928</date> en compagnie de
+          son père, les anciennes boursières « Autour du Monde » <persName ref="028538323" type="idref" xml:base="https://www.idref.fr/">Marguerite Mespoulet</persName>
+          (<date from="1880" to="1965" type="_temp">1880-1965</date>) et
+          <persName ref="029893496" type="idref" xml:base="https://www.idref.fr/">Madeleine Mignon</persName> (<date from="1882" to="1976" type="_temp">1882-1976</date>) sont les seules
+          femmes à avoir réalisé des images pour les A<hi rend="small-caps">DLP</hi> (en l’occurrence des autochromes pris en
+          <placeName ref="2963597" type="geonames" xml:base="https://www.geonames.org/">Irlande</placeName> en <date type="_temp" when="1913">1913</date>). Le célèbre
+          photographe-explorateur <persName ref="030581958" type="idref" xml:base="https://www.idref.fr/">Jules-Gervais
+          Courtellemont</persName> (<date from="1863" to="1931" type="_temp">1863-1931</date>) collabore, lui aussi, avec les A<hi rend="small-caps">DLP</hi>
+            <note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Sur Courtellemont et les A<hi rend="small-caps">DLP</hi>,
+              voir B<hi rend="small-caps">oulouch</hi>, 2019.</p>
+            </note>, tout comme le biologiste et pionnier du cinéma
+          scientifique <persName ref="103875581" type="idref" xml:base="https://www.idref.fr/">Jean Comandon</persName> (<date from="1877" to="1970" type="_temp">1877-1970</date>), qui travaille
+          dans le laboratoire de biologie que <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> met à
+          sa disposition dans sa propriété de <placeName ref="6451962" type="geonames" xml:base="https://www.geonames.org/">Boulogne</placeName> entre
+          <date from="1927" to="1932" type="_temp">1927-1932</date>, et qui
+          constitue un volet important du projet du banquier<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>Sur le laboratoire de biologie, voir H<hi rend="small-caps">erve</hi>, 2015.</p>
+            </note>.</p>
+          <p xml:id="d1e481">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-pss3hug2">amateur</term>
+              </term>
+            </term>Photographes
+          et opérateurs professionnels ou amateurs, géographes, hommes de
+          l’armée, musiciens, aventuriers : les données biographiques sur les
+          hommes au service d’<persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName> demeurent
+          fragmentaires. Par quels canaux sont-ils recrutés aux A<hi rend="small-caps">DLP</hi> ? Par annonce ou par cooptation (de toute
+          évidence, plusieurs opérateurs sont issus de la Section
+          photographique et cinématographique de l’armée, avec qui <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> collabore à partir
+          de <date type="_temp" when="1917">1917</date>) ? Perçoivent-ils un
+          salaire ou sont-ils payés « à la mission » ? L’absence de
+          documentation laisse le chemin ouvert à la spéculation.</p>
+          <p xml:id="d1e486">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique
+          corporelle<term ref="doi:10.34817/sv-mwsdfb7t">perception<term ref="doi:10.34817/sv-fwsea2pm">vision</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique
+          corporelle</term>
+            </term>Ce que nous savons, c’est que l’idée
+          initiale de <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName>, formulée dans
+          une lettre adressée à <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName> en <date type="_temp" when="1913-01">janvier 1913</date>, était de recourir
+          techniquement aux services d’une firme commerciale (il mentionne
+          Gaumont), capable d’assurer les opérateurs et le matériel technique
+          nécessaires. Cette option, jugée d’abord plus économique par le
+          géographe, devait permettre de concentrer l’investissement sur le
+          recrutement d’un personnel scientifique, censé accompagner les
+          opérateurs dans leurs missions. Pourtant, <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName>
+          renonce rapidement à cette idée : soucieux de garantir la cohérence
+          du fonds, il préfère constituer un corps particulier d’opérateurs,
+          qu’il accompagne de près. Seules deux missions, effectuées en <date type="_temp" when="1912">1912</date>, ont effectivement réuni un
+          opérateur et un « chargé d’études », l’une d’elles étant confiée au
+          géographe, élève et disciple de <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName>,
+          <persName type="_temp">Cesare Calciatti</persName>. À partir
+          de <date type="_temp" when="1913">1913</date>, <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName> devient le seul
+          responsable scientifique des A<hi rend="small-caps">DLP</hi> : quand
+          il ne peut pas accompagner les opérateurs lui-même, il s’occupe de
+          leur préparation, en tâchant de « former leur regard ». Les
+          opérateurs prennent eux-mêmes des notes sur le terrain, remplissant
+          à leur retour des fiches descriptives. Celles-ci listent (pour ce
+          qui est des autochromes) la date du cliché, le nom de l’opérateur,
+          la région et le lieu où fut prise l’image, le sujet du cliché, ainsi
+          que le numéro du catalogue d’entrée et le numéro et titre de la
+          boîte où furent stockées les autochromes. Malheureusement, ces
+          fiches n’ont jamais été remplies de façon systématique et
+          exhaustive. Peu de temps après avoir assumé la direction des A<hi rend="small-caps">DLP</hi>, <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Jean Brunhes</persName> note dans
+          une lettre adressée à <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> quelques
+          suggestions sur les voyages à entreprendre par <persName ref="031140386" type="idref" xml:base="https://www.idref.fr/">Auguste Léon</persName>. On
+          comprend à quel point la démarche géographique est importante pour
+          évaluer les images réalisées par les opérateurs. Il y écrit :</p>
+          <quote rend="quotation" xml:id="d1e494">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-xzvgbxyl">gestion<term ref="doi:10.34817/sv-87s3tzxx">projet</term>
+                </term>
+              </term>
+            </term>Projet
+          A – Nord de l’Île de France et région du Valois. Zone très
+          importante au point de vue humain et même au point de vue de l’art
+          (<placeName ref="6454459" type="geonames" xml:base="https://www.geonames.org/">Senlis</placeName>). Région de
+          grande culture perfectionnée, culture betteravière : en ce moment on
+          fait les grands labours avec de superbes attelages de bœufs
+          charolais (en certains cas, attelages de huit bœufs, c’est
+          superbe !). Ainsi que vous me le disiez l’autre jour, il faudrait
+          prendre cela au cinématographe. <persName ref="031140386" type="idref" xml:base="https://www.idref.fr/">Léon</persName>, que
+          j’ai interrogé, est tout prêt à se charger de cette petite
+          expédition photographique et cinématographique<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Note de Jean Brunhes à Albert Kahn, non datée. Photocopie aux
+              A<hi rend="small-caps">AK</hi>, original non localisé.</p>
+            </note>.</quote>
+          <p xml:id="d1e503">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-qizh6pcr">géographie
+          humaine</term>
+                </term>
+              </term>
+            </term>Si les indications de <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName> s’inspirent
+          clairement des principes de la géographie humaine, elles ne
+          constituent pas un modèle rigide. Commentant avec <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> une mission de
+          <persName type="_temp">Stéphane Passet</persName>, envoyé au
+          <placeName ref="2542007" type="geonames" xml:base="https://www.geonames.org/">Maroc</placeName> en <date type="_temp" when="1912">1912</date>, le géographe observe :</p>
+          <quote rend="quotation" xml:id="d1e505">Il est bien convenu que les
+          indications que j’ai données à <persName type="_temp">M. Passet</persName> doivent lui servir à titre
+          d’inspiration ; ce sont là des conseils généraux qui sont destinés,
+          dans ma pensée, à nous permettre de faire coopérer des voyageurs des
+          différentes parties du monde à une entreprise commune, mais il va
+          sans dire que ce n’est pas là une sorte de règle limitative.
+          <persName type="_temp">M. Passet</persName> doit avoir l’œil
+          toujours ouvert et prendre tout ce qui lui paraîtra de quelque
+          intérêt ; plus il manifestera d’initiative réfléchie, et plus nous
+          serons satisfaits de ses services<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Lettre de Jean Brunhes à Albert Kahn, datée du 15 mai 1912.
+              Photocopie aux A<hi rend="small-caps">AK</hi>, original non
+              localisé.</p>
+            </note>.</quote>
+          <p xml:id="d1e515">Les opérateurs s’efforcent néanmoins de respecter
+          les consignes fournies par le géographe. Dans une lettre adressée
+          par <persName ref="031140386" type="idref" xml:base="https://www.idref.fr/">Léon</persName> à <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName>, l’opérateur
+          signale qu’« en ce qui concerne l’aspect des pays que je traverse,
+          je fais mon possible pour en donner une idée, ainsi que des
+          villages, et lorsque c’est possible, de leurs habitants<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>Lettre d’Auguste Léon à Jean Brunhes, Louxor, 27 janvier
+              1914. Photocopie aux A<hi rend="small-caps">AK</hi>, original
+              non localisé.</p>
+            </note> ». <persName type="_temp">Passet</persName> est lui aussi
+          particulièrement attentif aux recommandations de <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName>. Lors d’un
+          séjour à <placeName ref="11876380" type="geonames" xml:base="https://www.geonames.org/">Pékin</placeName> en <date type="_temp" when="1912">1912</date>, il précise :</p>
+          <quote rend="quotation" xml:id="d1e524">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion<term ref="doi:10.34817/sv-nz49agmg">curiosité</term>
+              </term>
+            </term>Depuis
+          que je suis à <placeName ref="11876380" type="geonames" xml:base="https://www.geonames.org/">Pékin</placeName>, j’ai
+          consacré mes premières journées à prendre les curiosités de la ville
+          qui sont nombreuses et intéressantes. J’ai parcouru une partie des
+          temples, j’en ai pris l’aspect extérieur et intérieur de façon que
+          l’on puisse très bien se rendre compte de ce que je vois [...]. J’ai
+          commencé mes pérégrinations en dehors de la ville, où je trouve
+          également quantité de clichés à faire. Si ce n’est pas une pagode,
+          c’est une maison chinoise en boue, ou bien des Chinois travaillant
+          leur terre, ou des types intéressants. Dans les villages, je
+          rencontre des Chinois en train de défaire le grain de l’épi au moyen
+          d’un rouleau en pierre traîné sur la paille par un cheval ou un âne.
+          Un peu plus loin, c’est le moulin à farine, où le grain est écrasé
+          entre deux pierres plates actionnées par un animal (cheval ou âne) ;
+          les instruments pour séparer la farine du son ; puis toujours en
+          marchant, des jardiniers dans leurs jardins cultivant les
+          aubergines, concombres, citrouilles, etc. ; des travailleurs
+          plantant un tubercule dont depuis deux jours je ne puis savoir le
+          nom, mais que j’aurai<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>Lettre de Stéphane Passet à Jean Brunhes, Pékin, 28 juin
+              1912. Photocopie aux A<hi rend="small-caps">AK</hi>, original
+              non localisé.</p>
+            </note>.</quote>
+          <p xml:id="d1e533">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-vdg9xj5e">pratique rituelle<term ref="doi:10.34817/sv-7nuy2zpf">rite
+          funéraire</term>
+              </term>
+            </term>Démontrant à quel point il avait été
+          sensible aux enseignements de Brunhes et aux recommandations de
+          <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName>, <persName type="_temp">Passet</persName> poursuit, en relatant comment il a
+          photographié une inhumation dans un cimetière chinois, ainsi que
+          différentes activités économiques locales. Parmi les sujets à
+          cinématographier cités dans le court <hi rend="italic">Programme
+          cinématographiqu</hi>e rédigé par le géographe en <date type="_temp" when="1913-02">février 1913</date> (voir <hi rend="italic">supra</hi>), se trouvent, effectivement, les
+          « enterrements », les « instruments de labour », les « métiers
+          manuels » ou les « industries locales ». Lors d’une mission en
+          <placeName ref="1269750" type="geonames" xml:base="https://www.geonames.org/">Inde</placeName> en <date type="_temp" when="1914">1914</date>, <persName type="_temp">Passet</persName> notera ainsi avec soin les nombreuses
+          étapes d’une crémation hindoue. Il conclut sa lettre en remarquant :
+          « Il y a beaucoup d’Européens en voyage ici, mais pas un ne va voir
+          ces choses-là. Ils ne voient que le beau côté des choses et ce n’est
+          pas le plus intéressant<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>Lettre de Stéphane Passet à Jean Brunhes, Agra, 11 janvier
+              1914. Photocopie aux A<hi rend="small-caps">AK</hi>, original
+              non localisé.</p>
+            </note>. » Il fait écho aux mots déjà cités de <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Jean
+          Brunhes</persName> :</p>
+          <quote rend="quotation" xml:id="d1e548">Certes, il ne fallait pas
+          négliger l’œuvre des hommes, sous forme d’art, de monuments civils
+          ou religieux ; mais plus encore que l’exceptionnel, ce qui devait
+          capter l’attention des opérateurs, c’était essentiellement le type
+          courant, le quotidien, l’homme dans son cadre de vie, dans ses
+          activités rurales et citadines, dans ou devant sa maison, avec les
+          outils de son métier, en tenue de travail ou de fête (costume
+          toujours pris de face et de dos : le document complet)<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Brunhes, cité dans B<hi rend="small-caps">onhomme</hi> et
+              D<hi rend="small-caps">elamarre</hi>, 1993, p. 202.</p>
+            </note>…</quote>
+          <p xml:id="d1e560">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-omg7jwnu">documentation</term>
+              </term>
+            </term>Soumises
+          à une rationalité scientifique et à une pulsion documentaire, les
+          images des A<hi rend="small-caps">DLP</hi> ne cherchent ni le
+          pittoresque ni l’accidentel. Plus qu’un opérateur, <persName type="_temp">Passet</persName> est un « scientifique » au service
+          des idéaux positivistes de <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName> et utopiques de
+          <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName>. Dans son souci
+          documentaire, il rédigera même, lors d’un voyage en <placeName ref="2029969" type="geonames" xml:base="https://www.geonames.org/">Mongolie</placeName> en <date type="_temp" when="1913">1913</date>, deux courtes notices à leur
+          attention, l’une portant sur des aspects géographiques et
+          anthropologiques du pays et l’autre sur les lamas mongols.</p>
+          <figure xml:id="d1e565">
+            <head xml:id="d1e566">Tour hindoue à sept étages pour lampes à
+            huile. Inde, Bombay, 16 décembre 1913. Autochrome de Stéphane
+            Passet, inv. A 4363.</head>
+            <graphic url="../icono/br/LDSII_51_Castro_fig03.jpg"/>
+          </figure>
+          <p xml:id="d1e569">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-kbtkd6uq">correspondance</term>
+              </term>
+            </term>Les
+          lettres des opérateurs nous fournissent d’autres informations sur le
+          déroulement des missions. <persName type="_temp">Passet</persName>
+          évoque, par exemple, ses difficultés face à la méfiance des
+          autorités russes ou à la rigidité des autorités anglaises. Afin de
+          faciliter les déplacements de leurs opérateurs, <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName> et <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> interviennent dès
+          qu’il le faut auprès des autorités françaises et étrangères. Le
+          géographe s’occupe de toutes les démarches administratives avant le
+          départ des opérateurs, multipliant les contacts auprès des milieux
+          diplomatiques, politiques et universitaires. Malgré tout, ces
+          missions sont de véritables aventures, les opérateurs partant avec
+          plusieurs malles, contenant le fragile matériel de prise de vue, les
+          autochromes et, parfois, une caméra et des bobines de film. Même
+          s’ils emportent avec eux une chambre noire portative, afin de
+          vérifier leur travail en cours de mission, plusieurs clichés et
+          prises de vue se révèlent inutilisables à leur retour. En effet, les
+          difficultés liées aux contraintes techniques des plaques autochromes
+          et des prises de vue cinématographiques étaient nombreuses. Pour ce
+          qui est des premières, et en raison de leur faible sensibilité, il
+          fallait conjuguer un temps de pose suffisamment long avec une bonne
+          luminosité, tout en évitant les flous de bougé. Les autochromes
+          pouvaient aussi se casser pendant le voyage. En ce qui concerne les
+          films, les registres de comptes des métrages tenus par le
+          laboratoire à <placeName ref="6451962" type="geonames" xml:base="https://www.geonames.org/">Boulogne</placeName> recensent
+          des pertes de pellicule parfois importantes. Gadmer évoque, dans une
+          lettre datée de <date type="_temp" when="1927">1927</date>,
+          quelques-unes des difficultés auxquelles il a dû faire face lors
+          d’une mission à Chiraz : « mon appareil de ciné refuse souvent tout
+          service, poussière et surtout sécheresse de l’air qui brise la
+          pellicule comme du verre ; au moment de me servir d’un magasin, je
+          trouve ma pellicule en deux morceaux<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>Lettre de Frédéric Gadmer à Jean Brunhes, Chiraz,
+              16 septembre 1927, A<hi rend="small-caps">AK</hi>, original non
+              localisé.</p>
+            </note> ! ». À leur retour, les opérateurs faisaient développer
+          leurs images dans le laboratoire de la propriété de <placeName ref="6451962" type="geonames" xml:base="https://www.geonames.org/">Boulogne</placeName>. Un
+          registre des autochromes (attestant leur numéro d’entrée aux
+          archives, du numéro de la boîte de classement, du nom de
+          l’opérateur, du lieu et du sujet de la plaque) constitue un
+          catalogue précieux des 72 000 photographies appartenant aux A<hi rend="small-caps">DLP</hi>. Après leur développement, les plaques
+          étaient stockées dans des boîtes classées par région. Pour ce qui
+          est des images animées, un répertoire des films positifs et des
+          films négatifs, ainsi que quelques fiches (listant les sujets
+          documentés par les opérateurs, leur date de tournage et le nombre de
+          coupures du film), représentent (avec les registres de comptes des
+          métrages) nos principales sources documentaires. Signalons, par
+          ailleurs, que la plus grande part du fonds filmique se présente sous
+          la forme de séquences brutes non montées, listées dans le répertoire
+          des négatifs. Les quelques films montrés à l’époque (ceux qui se
+          trouvent dans le répertoire des positifs, tirés à partir d’un
+          négatif original) furent parfois accompagnés de cartons (indiquant
+          le lieu et/ou le sujet des prises de vue), dont la rédaction était
+          supervisée par <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName>. Mais qui a vu,
+          du temps d’<persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName>, les images
+          tournées par les opérateurs à son service ?</p>
+        </div>
+        <div type="section1" xml:id="d1e581">
+          <head subtype="level1" xml:id="d1e582">La réception des
+          images</head>
+          <p xml:id="d1e584">Projetées dans le cadre des réunions organisées
+          par <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName> dans sa
+          propriété de <placeName ref="6451962" type="geonames" xml:base="https://www.geonames.org/">Boulogne</placeName>, ou encore
+          par <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Jean Brunhes</persName> dans le
+          contexte de ses cours et conférences, les images photographiques et
+          cinématographiques des A<hi rend="small-caps">DLP</hi> n’ont que
+          très rarement été vues de leur temps. Pour ce qui est des
+          projections réalisées à <placeName ref="6451962" type="geonames" xml:base="https://www.geonames.org/">Boulogne</placeName> – dans le
+          cadre des réunions du Cercle « Autour du Monde », ou tout simplement
+          organisées en l’honneur des invités de <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> –, des
+          registres de projection nous renseignent sur les sujets montrés et
+          les personnes présentes. Les registres des projections d’autochromes
+          couvrent la période du <date from="1913-06-11" to="1930-03-06" type="_temp">11 juin 1913 au 6 mars 1930</date> : ils concernent
+          833 projections et un total de 75 sujets. Les registres de
+          projections des films ne sont pas exhaustifs pour la période allant
+          de <date from="1913" to="1921" type="_temp">1913 à 1921</date> ; ils
+          consignent, pourtant, avec exactitude, les projections tenues entre
+          le <date from="1921-03-18" to="1935-10-28" type="_temp">18 mars 1921
+          et le 28 octobre 1935</date>. Un total de 555 séances et de
+          173 sujets peut être comptabilisé<note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>L<hi rend="small-caps">eclercq</hi>, 1995, p. 198.</p>
+            </note>.</p>
+          <p xml:id="d1e596">Le public des films des A<hi rend="small-caps">DLP</hi> fut donc très limité. Public savant par
+          excellence, il inclut des intellectuels et des figures politiques de
+          l’époque : <persName ref="027153711" type="idref" xml:base="https://www.idref.fr/">Rabindranāth Tagore</persName>
+          (prix Nobel de Littérature en <date type="_temp" when="1913">1913</date>) et sa famille ; <persName ref="026949962" type="idref" xml:base="https://www.idref.fr/">Rudyard
+          Kipling</persName> et sa femme ; <persName ref="026696940" type="idref" xml:base="https://www.idref.fr/">Vincent
+          Auriol</persName> et sa femme ; <persName type="_temp">Mme
+          Dreyfus</persName> et ses enfants ; des diplomates et des
+          universitaires étrangers ; des chefs spirituels juifs et
+          catholiques ; des figures militaires, etc. ; <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> lui-même (ainsi que
+          <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName> et sa famille)
+          assiste régulièrement aux projections. Parmi les sujets projetés se
+          distinguent (dans le cadre des projections filmiques) les films
+          scientifiques du <persName ref="103875581" type="idref" xml:base="https://www.idref.fr/">docteur Jean Comandon</persName>
+          (en particulier <hi rend="italic">L’Épanouissement des fleurs</hi>,
+          film colorié au pochoir) et des images des régions dévastées prises
+          à la fin de la guerre à partir d’un ballon dirigeable. À partir
+          de <date type="_temp" when="1929">1929</date>, la série d’« essais
+          de cinématographie en couleurs naturelles » réalisés par <persName type="_temp">Camille Sauvageot</persName> avec le procédé
+          Keller-Dorian sont eux aussi souvent projetés : il s’agit d’images
+          du coucher du soleil, des jardins d’<persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName>
+          à <placeName ref="2995382" type="geonames" xml:base="https://www.geonames.org/">Cap-Martin</placeName>, des
+          plages dans le Sud, de la Bretagne. Il semble ainsi que les effets
+          de couleur et de lumière soient un critère important présidant au
+          choix des films et des autochromes à être projetés. En effet, de
+          nombreuses projections d’autochromes organisées à <placeName ref="6451962" type="geonames" xml:base="https://www.geonames.org/">Boulogne</placeName> explore ce
+          genre de phénomène : c’est notamment le cas d’un montage de treize
+          plaques associant les jardins de <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> à des
+          images de cathédrales, connu comme <hi rend="italic">Effets des
+          cathédrales et des jardins</hi>, et projeté 77 fois du <date from="1919-10-11" to="1929-11-12" type="_temp">11 octobre 1919 au
+          12 novembre 1929</date>. Les plaques montrées sont aussi retenues
+          pour leurs sujets : l’architecture et l’art.</p>
+          <p xml:id="d1e607">L’exclusivité du public des A<hi rend="small-caps">DLP</hi> ne remet pas en question la valeur
+          pédagogique de ces archives et ne doit pas être mal interprétée. Le
+          projet de <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> s’adressait, au
+          moins dans l’immédiat, à une minorité, attestant essentiellement une
+          croyance politique dans la formation des « élites », parfaitement
+          fidèle aux valeurs de la <date>
+              <hi rend="small-caps">iii</hi>
+              <hi rend="sup">e</hi> République</date>. En dernière instance, le
+          « public » des A<hi rend="small-caps">DLP</hi> devient dès lors
+          beaucoup plus vaste, car elles ont aussi été conçues dans le dessein
+          de témoigner, dans un futur plus ou moins lointain, de l’état du
+          monde au début du <date from="1900" to="1999" type="_temp">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date>.</p>
+        </div>
+        <div type="section1" xml:id="d1e625">
+          <head subtype="level1" xml:id="d1e626">Le « grand livre du
+          monde »</head>
+          <p xml:id="d1e628">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-7dh8ptmc">voyage</term>
+              </term>
+            </term>En se
+          référant aux bourses « Autour du Monde », <persName ref="027421848" type="idref" xml:base="https://www.idref.fr/">Henri
+          Bergson</persName>, l’ami d’<persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName>, dira en
+          <date type="_temp" when="1931">1931</date> qu’« il s’agissait
+          d’abord, dans la pensée du fondateur, d’ouvrir chaque année à une
+          élite de jeunes maîtres ce que <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">Descartes</persName> a
+          appelé “le grand livre du monde”<note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>B<hi rend="small-caps">ergson</hi>, 1931, p. <hi rend="small-caps">iii</hi>-<hi rend="small-caps">iv</hi>.</p>
+            </note> ». Nous savons que <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> croyait ardemment
+          aux capacités formatrices du voyage, dans tout ce qu’il implique
+          d’ouverture au monde et de contact avec les autres. L’on est tenté
+          de dire que les A<hi rend="small-caps">DLP</hi> constituent, elles
+          aussi, une autre figure de ce « grand livre du monde » qui ne serait
+          autre qu’un atlas<note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>C<hi rend="small-caps">astro</hi>, 2011, p. 176-191.</p>
+            </note>. En ce sens, la collection est non seulement une manière
+          de représenter la totalité du monde, mais aussi une façon de donner
+          forme à la pulsion archivistique qui hante les consciences depuis le
+          <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>. Dans
+          les A<hi rend="small-caps">DLP</hi>, les plaques stéréoscopiques,
+          les autochromes et les films ont été rassemblés pour leur intérêt en
+          tant que documents historiques contenant la mémoire d’un monde
+          « dont la disparition fatale n’est plus qu’une question de
+          temps<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>Emmanuel de Margerie, lettre à Jean Brunhes, 26 janvier 1912.
+              615 ap 112</p>
+            </note> ». Inventaire séquencé du monde, les A<hi rend="small-caps">DLP</hi> assument le rôle de mémoire
+          photographique et cinématographique du monde, fixant de façon
+          monumentale l’état de la planète au début du <date from="1900" to="1999" type="_temp">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date>.</p>
+          <p xml:id="d1e674">Les images photographiques et cinématographiques
+          des A<hi rend="small-caps">DLP</hi> révèlent aujourd’hui toute la
+          valeur de cette collection. Constituant un témoignage unique sur un
+          monde à jamais disparu, elles représentent un extraordinaire
+          portrait de la planète en tant qu’unité, s’inscrivant dans une
+          histoire plus vaste, liée aux diverses modalités figuratives d’un
+          regard totalisant sur l’espace du monde. À cet égard, les A<hi rend="small-caps">DLP</hi> sont bien un produit de leur temps et du
+          mouvement inédit de mondialisation qui l’accompagne, gardant les
+          traces hétérogènes de ce phénomène complexe. En même temps, ces
+          archives profitent et participent du rétrécissement de l’espace et
+          du temps, facilité par les mêmes moyens de transport et de
+          communication qui le stimulent. Dans une lettre adressée à <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Brunhes</persName> en <date type="_temp" when="1912">1912</date>, <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> lui
+          signale, à propos de son activité, que :</p>
+          <quote rend="quotation" xml:id="d1e682">Les études sur place me
+          paraissent être le seul moyen de faire de la vraie géographie. Elles
+          prendront toute leur valeur et produiront leur plein effet le jour
+          où ainsi toute notre petite planète vous sera devenue familière<note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>Kahn, lettre adressée à Jean Brunhes, cité dans B<hi rend="small-caps">onhomme</hi> et D<hi rend="small-caps">elamarre</hi>, 1993, p. 183.</p>
+            </note>.</quote>
+          <p xml:id="d1e694">Derrière l’énonciation affectueuse d’<persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert
+          Kahn</persName>, la formule « notre petite planète » semble contenir
+          toute la philosophie du projet. Il est bien connu que le mécène, qui
+          avait lui-même effectué ses tours du monde, croyait ardemment aux
+          capacités formatrices du voyage, la photographie et le
+          cinématographe venant combler ce désir de voir et de donner à voir
+          le monde <hi rend="italic">dans son unité</hi>. Autant la
+          photographie que le cinématographe permettent à <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert
+          Kahn</persName> de réaliser l’ambition de décrire toutes les
+          contrées de la Terre. Cette ambition a un but, non seulement
+          documentaire, mais aussi conciliatoire. En nous révélant l’habitat
+          et le quotidien des hommes sur l’ensemble de la planète, les images
+          des A<hi rend="small-caps">DLP</hi> veulent ainsi nous dévoiler
+          l’universalité des gestes, la similarité essentielle des modes de
+          vie. Le projet utopique de <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> s’appuie sur
+          l’image indicielle, qu’elle soit fixe ou en mouvement, en couleurs
+          ou en noir et blanc, parce qu’il la croit capable de rendre visible
+          l’idée d’un monde réconcilié de ses différences insurmontables. La
+          photographie et le cinématographe deviennent ainsi l’instrument et
+          le langage de l’utopie : mise à plat sur la surface sensible de ces
+          supports, défilant devant les yeux de l’homme, notre planète n’avait
+          jamais été si petite.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e703">
+        <head xml:id="d1e704">Bibliographie</head>
+        <listBibl xml:id="d1e706">
+          <head subtype="level2" xml:id="d1e707">Sources</head>
+          <bibl xml:id="d1e709">A<hi rend="small-caps">N</hi> : Archives
+          Nationales, fonds privé Jean Brunhes.</bibl>
+          <bibl xml:id="d1e714">A<hi rend="small-caps">AK</hi> : Archives du
+          Musée Albert Kahn.</bibl>
+          <bibl xml:id="d1e719">
+            <hi rend="italic">Jean Brunhes : Autour du
+          monde, regards d’un géographe / regards de la géographie</hi>,
+          catalogue d’exposition, Boulogne, Musée Albert Kahn, 1993.</bibl>
+          <bibl xml:id="d1e723">
+            <hi rend="italic">Albert Kahn (1860-1940).
+          Réalités d’une utopie</hi>, catalogue d’exposition, Boulogne, Musée
+          Albert Kahn, 1995.</bibl>
+          <bibl xml:id="d1e727">B<hi rend="small-caps">runhes</hi>, 1910 :
+          Jean B<hi rend="small-caps">runhes</hi>, <hi rend="italic">La
+          Géographie humaine. Essai de classification positive. Principes et
+          exemples</hi>, Paris.</bibl>
+          <bibl xml:id="d1e738">K<hi rend="small-caps">ahn</hi>, 1918 : Albert
+          K<hi rend="small-caps">ahn</hi>, <hi rend="italic">Des droits et des
+          devoirs des gouvernements</hi>, Paris.</bibl>
+        </listBibl>
+        <listBibl xml:id="d1e749">
+          <head subtype="level2" xml:id="d1e750">Autres références</head>
+          <bibl xml:id="d1e752">A<hi rend="small-caps">mad</hi>, 2010 : Paula
+          A<hi rend="small-caps">mad</hi>, <hi rend="italic">Counter-Archive :
+          Film, the Everyday and Albert Kahn’s Archives de la Planète</hi>,
+          New York.</bibl>
+          <bibl xml:id="d1e763">B<hi rend="small-caps">eausoleil</hi> et D<hi rend="small-caps">elamarre</hi>, 1993 : Jeanne B<hi rend="small-caps">eausoleil</hi>, Mariel Jean-Brunhes D<hi rend="small-caps">elamarre</hi>, « Deux témoins de leur temps :
+          Albert Kahn et Jean Brunhes », in <hi rend="italic">Jean Brunhes :
+          Autour du monde, regards d’un géographe / regards de la
+          géographie</hi>, Boulogne, p. 91-107.</bibl>
+          <bibl xml:id="d1e780">B<hi rend="small-caps">ergson</hi>, 1931 :
+          Henri B<hi rend="small-caps">ergson</hi>, « Lettre », <hi rend="italic">Bulletin de la Société Autour du Monde</hi>, n<hi rend="sup">o</hi> 14, juin, p. <hi rend="small-caps">iii</hi>-<hi rend="small-caps">iv</hi>.</bibl>
+          <bibl xml:id="d1e801">B<hi rend="small-caps">esse</hi>, 2005 :
+          Jean-Marc B<hi rend="small-caps">esse</hi>, « La géographie dans le
+          mouvement des sciences au tournant du siècle », Colloque <hi rend="italic">Autour de 1905 : Élisée Reclus-Paul Vidal de La
+          Blache. Le géographe, la cité le monde</hi>, Montpellier, Université
+          Paul-Valéry, 5 juillet 2005 : <ref target="http://halshs.archives-ouvertes.fr/halshs-00113263/en/">
+              <hi rend="underline">http://halshs.archives-ouvertes.fr/halshs-00113263/en/</hi>
+            </ref> [consulté le 12 juin 2009].</bibl>
+          <bibl xml:id="d1e816">B<hi rend="small-caps">onhomme</hi> et D<hi rend="small-caps">elamarre</hi>, 1993 : Marie B<hi rend="small-caps">onhomme</hi> et Mariel Jean-Brunhes D<hi rend="small-caps">elamarre</hi>, « Le champ du monde », in <hi rend="italic">Jean Brunhes, Autour du monde, regards d’un géographe/
+          regards de la géographie</hi>, Boulogne, p. 181-193.</bibl>
+          <bibl xml:id="d1e833">B<hi rend="small-caps">orde</hi>, 1983 :
+          Raymond B<hi rend="small-caps">orde</hi>, <hi rend="italic">Les
+          Cinémathèques</hi>, Paris.</bibl>
+          <bibl xml:id="d1e844">B<hi rend="small-caps">oulouch</hi>, 2019 :
+          Nathalie B<hi rend="small-caps">oulouch</hi>, « Jules
+          Gervais-Courtellemont. Un inspirateur des Archives de la
+          Planète ? », in Valérie Perlès (dir.), <hi rend="italic">Les
+          Archives de la Planète</hi>, Boulogne, p. 212-221.</bibl>
+          <bibl xml:id="d1e855">C<hi rend="small-caps">astro</hi>, 2011 :
+          Teresa C<hi rend="small-caps">astro</hi>, <hi rend="italic">La
+          Pensée cartographique des images. Cinéma et culture visuelle</hi>,
+          Lyon.</bibl>
+          <bibl xml:id="d1e866">C<hi rend="small-caps">astro</hi>, 2017 :
+          Teresa C<hi rend="small-caps">astro</hi>, « Des ‘atlas’ aux
+          ‘archives’ du monde : à propos des Archives de la Parole (1911-1924)
+          et des Archives de la Planète (1912-1931) », <hi rend="italic">Transbordeur</hi>, n<hi rend="sup">o</hi> 1,
+          p. 74-85.</bibl>
+          <bibl xml:id="d1e880">C<hi rend="small-caps">œuré</hi> et W<hi rend="small-caps">orms</hi>, 2003 : Sophie C<hi rend="small-caps">œuré</hi> et Frédéric W<hi rend="small-caps">orms</hi> (dir.), <hi rend="italic">Henri Bergson
+          et Albert Kahn, correspondances</hi>, Strasbourg.</bibl>
+          <bibl xml:id="d1e898">C<hi rend="small-caps">orneloup</hi>, 2015 :
+          Marie C<hi rend="small-caps">orneloup</hi>, « Au fil des fondations,
+          les fils rouges de l’œuvre : continuités, ruptures, évolutions », in
+          <hi rend="italic">Albert Kahn, singulier et pluriel</hi>, Paris,
+          p. 253-271.</bibl>
+          <bibl xml:id="d1e909">C<hi rend="small-caps">oustet</hi>, 1913 :
+          Ernest C<hi rend="small-caps">oustet</hi>, <hi rend="italic">Traité
+          pratique de cinématographie</hi>, Paris.</bibl>
+          <bibl xml:id="d1e920">G<hi rend="small-caps">andolfo</hi>, 1993 :
+          Jean-Paul G<hi rend="small-caps">andolfo</hi>, « 1880-1930 : la
+          photographie au service de la géographie, méthodes et moyens », in
+          <hi rend="italic">Jean Brunhes : Autour du monde, regards d’un
+          géographe / regards de la géographie</hi>, Boulogne,
+          p. 66-89.</bibl>
+          <bibl xml:id="d1e931">H<hi rend="small-caps">ervé</hi>, 2015 : Flore
+          H<hi rend="small-caps">ervé</hi>, « Exploration du monde vivant : le
+          laboratoire de biologie », in <hi rend="italic">Albert Kahn,
+          singulier et pluriel</hi>, Paris, p. 239-251.</bibl>
+          <bibl xml:id="d1e942">L<hi rend="small-caps">eclercq</hi>, 1995 :
+          Jocelyne L<hi rend="small-caps">eclercq</hi>, « Les Archives de la
+          Planète, 1909-1931 », in J. Beausoleil et P. Ory (dir.), <hi rend="italic">Albert Kahn (1860-1940). Réalités d’une utopie</hi>,
+          Boulogne, p. 187-200.</bibl>
+          <bibl xml:id="d1e953">M<hi rend="small-caps">aylander</hi>, 2013 :
+          Guillaume M<hi rend="small-caps">aylander</hi>, « Léon Busy :
+          photographe et militaire au temps de l’Indochine française », in
+          Dinh Trong Hieu et Emmanuel Poisson (dir.), <hi rend="italic">Hanoi.
+          Autochromes des Archives de la Planète 1914-1917</hi>, Paris,
+          p. 56-66.</bibl>
+          <bibl xml:id="d1e964">M<hi rend="small-caps">endibil</hi>, 1993 :
+          Didier M<hi rend="small-caps">endibil</hi>, « Jean Brunhes,
+          photographe-iconographe », in <hi rend="italic">Jean Brunhes :
+          Autour du monde, regards d’un géographe / regards de la
+          géographie</hi>, Boulogne, p. 140-151.</bibl>
+          <bibl xml:id="d1e975">P<hi rend="small-caps">enrad</hi>, 2019 :
+          Jean-Claude P<hi rend="small-caps">enrad</hi>, « Frédéric Gadmer.
+          Incidences des lieux, des temps et du contexte historique », in
+          Valérie Perlès (dir.), <hi rend="italic">Les Archives de la
+          Planète</hi>, Boulogne, p. 172-177.</bibl>
+          <bibl xml:id="d1e986">P<hi rend="small-caps">oivert</hi>, 2019 :
+          Michel P<hi rend="small-caps">oivert</hi>, « Les yeux d’Albert Kahn.
+          Les photographies d’Albert Dutertre durant le voyage autour du monde
+          (1908-1909), in Valérie Perlès (dir.), <hi rend="italic">Les
+          Archives de la Planète</hi>, Boulogne, p. 358-373.</bibl>
+          <bibl xml:id="d1e997">R<hi rend="small-caps">obic</hi>, 1993 :
+          Marie-Claire R<hi rend="small-caps">obic</hi>, « Jean-Brunhes, un
+          “géo-photo-graphe” expert aux <hi rend="italic">Archives de la
+          Planète</hi> », in <hi rend="italic">Jean Brunhes : Autour du monde,
+          regards d’un géographe / regards de la géographie</hi>, Boulogne,
+          p. 109-137.</bibl>
+          <bibl xml:id="d1e1011">S<hi rend="small-caps">igaud</hi>, 2019 :
+          Anne S<hi rend="small-caps">igaud</hi>, « Entre documentation et
+          propagande. Vocation et usage politiques des <hi rend="italic">Archives de la Planète</hi> », in Valérie Perlès
+          (dir.), <hi rend="italic">Les Archives de la Planète</hi>, Boulogne,
+          p. 280-291.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

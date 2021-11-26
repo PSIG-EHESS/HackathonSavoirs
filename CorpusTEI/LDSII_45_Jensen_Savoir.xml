@@ -1,0 +1,1122 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-19T16:27:20.883+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LDSII_45_Jensen_Savoir">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le savoir des physiciens</title>
+        <title type="collection">Lieux de savoir 2</title>
+        <author role="aut">
+          <forename>Pablo</forename>
+          <surname>Jensen</surname>
+          <idno type="IDREF">056519842</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Albin
+          Michel CC BY-NC-ND 3.0 Attribution - Pas d’Utilisation Commerciale -
+          Pas de Modification</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/N9CKALL2" type="bookSection" xml:lang="fre">
+          <analytic>
+            <title level="a">Le savoir des physiciens</title>
+            <author>
+              <forename>Pablo</forename>
+              <surname>Jensen</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Lieux de savoir</title>
+            <idno type="ISBN">978-2-226-18729-1</idno>
+            <editor>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <biblScope unit="volume">2. Les mains de l'intellect</biblScope>
+              <biblScope unit="nb_volumes">2</biblScope>
+              <biblScope unit="page">790-802</biblScope>
+              <publisher>Albin Michel</publisher>
+              <date>2011</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-5cyw2kot">sciences de la
+          matière<term ref="doi:10.34817/sv-tjsyqxet">physique</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-cbx9cvwr">instrument d'observation<term ref="doi:10.34817/sv-ftqvrc9c">microscope</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-vpzykkat">particule<term ref="doi:10.34817/sv-gf4m5d6s">atome</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-fsaqamwd">modélisation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-nfmwkgm9">simulation</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>
+          </term>
+          <term>
+            <placeName ref="4930956" type="geonames" xml:base="https://www.geonames.org/">Boston</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1960" to="1969" type="_temp">années 1960</date>
+          </term>
+          <term>
+            <date from="1900" to="1999" type="_temp">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-08-02T09:51:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Le savoir des physiciens</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Pablo Jensen</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="d1e111">
+        <figure xml:id="d1e113">
+          <graphic url="../icono/br/LDSII_45_Jensen_Savoir_img1.png"/>
+          <head xml:id="d1e117">Image expérimentale (à gauche) et image tirée
+          des simulations (à droite) des dépôts de nano-agrégats sur une
+          surface de graphite cristallin (<hi rend="small-caps">Bardotti</hi>
+            <hi rend="italic">et al.</hi>,
+          1995).</head>
+        </figure>
+        <p xml:id="d1e127">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-g4hcjbnn">revue</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+        expérimentales<term ref="doi:10.34817/sv-5cyw2kot">sciences de la
+        matière<term ref="doi:10.34817/sv-tjsyqxet">physique</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-vpzykkat">particule<term ref="doi:10.34817/sv-gf4m5d6s">atome</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image</term>
+            </term>
+          </term>Les deux
+        images ci-dessus illustrent ce qu’est un savoir pour les physiciens :
+        la convergence entre une expérience (image de gauche) et des
+        simulations numériques issues d’un modèle mathématique (image de
+        droite). La ressemblance de ces deux images démontre un fait considéré
+        jusque-là comme impossible : des particules contenant des milliers
+        d’atomes peuvent bouger très rapidement sur une surface. La création
+        d’un savoir est attestée par la publication de ce résultat dans <hi rend="italic">Physical</hi>
+          <hi rend="italic"/>
+          <hi rend="italic">
+        Review</hi>
+          <hi rend="italic"/>
+          <hi rend="italic"> Letters</hi>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>
+              <hi rend="small-caps">Bardotti</hi>
+              <hi rend="italic">et
+            al.</hi>, 1995.</p>
+          </note>, la plus prestigieuse revue de physique. Dans le présent
+        texte, je raconte comment s’est faite, concrètement, la convergence de
+        ces images, que l’on pourrait presque confondre tellement elles sont
+        semblables, tellement le monde artificiel créé par l’ordinateur a été
+        rendu similaire au monde naturel des expériences, à moins que ce ne
+        soit le contraire.</p>
+        <p xml:id="d1e156">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-rctuupsp">énigme</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-vpzykkat">particule</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-fsaqamwd">modélisation</term>
+            </term>
+          </term>En
+        <date type="_temp" when="1993-01">janvier 1993</date>, je partis
+        passer une année de post-doctorat à la Mecque intellectuelle des
+        physiciens : les <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>. Il
+        s’agissait d’apprendre la modélisation numérique – jusque-là peu
+        utilisée en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> –, dans un
+        environnement scientifique stimulant : l’équipe de <persName ref="067329551" type="idref" xml:base="https://www.idref.fr/">Gene
+        Stanley</persName> à l’<placeName ref="4931016" type="geonames" xml:base="https://www.geonames.org/">université de Boston</placeName>.
+        Dans mes bagages, j’emportais de mon laboratoire lyonnais une énigme
+        que j’espérais résoudre grâce à cette collaboration. Il s’agissait
+        d’une contradiction flagrante entre certaines expériences et les
+        modèles que nous développions pour comprendre les dépôts de
+        nano-agrégats sur des surfaces, thème central de nos recherches. Par
+        « nano-agrégat », on entend une petite particule sphérique composée de
+        quelques centaines ou milliers d’atomes, le préfixe <hi rend="italic">nano</hi>
+          <hi rend="italic"/> indiquant que ces agrégats
+        ont une taille de l’ordre du nanomètre, soit un milliardième de
+        mètre.</p>
+        <div type="section1" xml:id="d1e177">
+          <head subtype="level1" xml:id="d1e179">De l’importance des
+          nano-agrégats</head>
+          <p xml:id="d1e182">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-rctuupsp">énigme</term>
+                </term>
+              </term>
+            </term>Pour
+          comprendre l’importance de l’énigme, il faut replacer nos études
+          dans leur contexte scientifique et technologique. Le dépôt de
+          nano-agrégats sur une surface se situe à la confluence de deux
+          questionnements majeurs en physique de la matière.</p>
+          <p xml:id="d1e185">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image<term ref="doi:10.34817/sv-dtuuwifh">couleur</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-vpzykkat">particule<term ref="doi:10.34817/sv-gf4m5d6s">atome</term>
+                </term>
+              </term>
+            </term>La
+          première problématique est fondamentale. Elle concerne la transition
+          entre les propriétés d’un atome isolé et celles du matériau massif
+          correspondant. Les agrégats représentent en effet un état
+          intermédiaire entre ces deux limites, et leurs propriétés s’avèrent
+          surprenantes, ne se réduisant pas à une simple interpolation entre
+          les propriétés de ces extrêmes. C’est un peu comme les
+          caractéristiques des petits groupes d’individus qui ne se ramènent
+          pas simplement à celles d’un individu ou à celles de la société tout
+          entière. Ainsi, la couleur des nano-agrégats de certains matériaux
+          dépend fortement de leur taille : imaginez qu’en cassant une bille
+          rouge on en obtienne deux bleues… Autre surprise, la température de
+          fusion de ces particules dépend de leur taille précise, variant de
+          plusieurs dizaines de degrés lorsque l’on ajoute quelques atomes.
+          Depuis les <date from="1960" to="1969" type="_temp">années
+          1960</date>, diverses techniques furent développées pour fabriquer
+          de tels nano-agrégats et les analyser, de préférence sans les
+          déposer sur une surface, car cela perturbe leurs propriétés.</p>
+          <p xml:id="d1e191">L’autre grand questionnement, le dépôt de
+          particules sur une surface, est important du point de vue
+          technologique. En effet, la compréhension des processus qui
+          permettent de réaliser des couches très minces (quelques milliers
+          d’atomes d’épaisseur) mais parfaitement contrôlées est à la base de
+          toute l’industrie électronique. Le fonctionnement de ces objets
+          quelque peu magiques repose en effet depuis la <date type="_temp">Seconde Guerre mondiale</date> sur le même dispositif :
+          le transistor, sorte d’interrupteur qui permet d’effectuer des
+          calculs élémentaires. La révolution électronique est avant tout le
+          résultat de la miniaturisation progressive de ce composant, dont la
+          taille a été divisée par cent mille et atteint aujourd’hui la
+          centaine de nanomètres grâce à la maîtrise de la matière à ces
+          échelles infimes<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>Pour plus de détails, le lecteur pourra consulter <hi rend="small-caps">Jensen</hi>, 1996.</p>
+            </note>. Désormais, les chercheurs savent que cet accroissement de
+          la puissance des ordinateurs sera bientôt confronté à une limite
+          physique. En effet, d’ici dix ans environ les transistors auront
+          atteint une taille de quelques dizaines de nanomètres ; de nouveaux
+          phénomènes physiques apparaîtront alors, empêchant leur bon
+          fonctionnement. Ainsi, les courants de fuite à travers des barrières
+          isolantes trop fines empêcheront leur fonctionnement comme
+          interrupteur. D’où l’importance de trouver de nouveaux dispositifs
+          qui remplaceront les transistors, ce qui passe par une compréhension
+          des propriétés de la matière à l’échelle du nanomètre.</p>
+          <p xml:id="d1e206">Nos travaux étaient donc importants du point de
+          vue fondamental (la compréhension des propriétés étranges de la
+          matière à l’échelle nanométrique) et potentiellement riches
+          d’applications technologiques (pour l’industrie électronique). Cela
+          permit au Département de physique des matériaux<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Rebaptisé depuis la mode des nanosciences en « Laboratoire de
+              physique de la matière condensée et des nanostructures ».</p>
+            </note> de bénéficier de moyens financiers et humains pour avancer
+          ses recherches, y compris l’attribution d’un poste de chercheur du
+          CNRS que j’eus la chance d’occuper dès <date type="_temp" when="1990-09">septembre 1990</date>.</p>
+        </div>
+        <div type="section1" xml:id="d1e219">
+          <head subtype="level1" xml:id="d1e221">Les agrégats et la
+          neige</head>
+          <p xml:id="d1e224">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-c5uj8lvn">modèle</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-barjmjqd">observation</term>
+              </term>
+            </term>L’objectif
+          général de mon équipe consistait à comprendre comment se forme une
+          couche de nano-agrégats. Une première idée simple est de comparer sa
+          croissance à la formation d’une couche de neige sur un trottoir un
+          jour d’hiver. En gros, les agrégats arrivent sur la surface et
+          s’entassent les uns sur les autres comme le font les flocons de
+          neige. Mais on peut se demander si ce modèle est correct. Sachant
+          que les observations directes de la formation de la couche
+          d’agrégats sont impossibles, il faut trouver des moyens indirects
+          pour observer la croissance. Un premier moyen, adapté au dépôt
+          d’agrégats métalliques, consiste à les déposer sur une surface de
+          verre (qui ne conduit pas le courant) tout en mesurant le courant
+          qui passe entre deux électrodes préalablement disposées aux deux
+          bouts de la plaque de verre. Pendant un bon moment, aucun courant ne
+          peut traverser la surface isolante du verre, mais après un certain
+          temps on observe un saut de courant, attestant la création d’un
+          premier chemin métallique entre les électrodes, qui permet au
+          courant de circuler. Revenons à notre image de la neige. Imaginez
+          qu’une fourmi veuille traverser la rue sans toucher le bitume, en ne
+          marchant que sur la neige : quelle fraction de la rue faut-il
+          recouvrir de neige pour qu’elle puisse passer d’un trottoir à
+          l’autre ? Bien sûr, si la rue est totalement recouverte, c’est
+          possible, mais un modèle mathématique simple, dit de
+          « percolation<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>
+                <hi rend="small-caps">De</hi>
+                <hi rend="small-caps"/>
+                <hi rend="small-caps">Gennes</hi>, 1976.</p>
+            </note> », montre qu’il existe un chemin continu reliant les deux
+          trottoirs dès que 59 % de la rue a été recouverte.</p>
+          <p xml:id="d1e241">En partant de ce modèle simple, on peut calculer
+          la quantité d’agrégats qu’il faut accumuler sur la surface pour
+          observer le saut de courant (le « seuil de conduction »). À notre
+          agréable surprise, ce calcul prédit assez bien le seuil de
+          conduction et permet également de comprendre la raison pour laquelle
+          cette quantité dépend de la taille des agrégats. Comme il est plutôt
+          rare qu’un modèle aussi simple puisse expliquer des phénomènes
+          réels, nous nous sommes empressés de publier notre modèle<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>
+                <hi rend="small-caps">Jensen</hi>
+                <hi rend="italic"> et
+              al.</hi>, 1992.</p>
+            </note>. Hélas, d’autres expériences n’ont pas tardé à nous
+          montrer ses limites en établissant que le seuil de conduction dépend
+          fortement du flux incident d’agrégats, contrairement à la constance
+          prédite par le modèle simple. En effet, le nombre de flocons de
+          neige nécessaires pour recouvrir 59 % d’une surface ne dépend pas de
+          l’intensité de l’averse de neige ; celle-ci change simplement le
+          temps nécessaire pour parvenir à cette couverture.</p>
+          <p xml:id="d1e256">Ce fait expérimental démontrait que quelque chose
+          clochait dans la formule, qu’un phénomène autre qu’un simple
+          empilement des agrégats intervenait. Lequel ? Incapables d’observer
+          les agrégats à l’œuvre, nous en étions réduits à des hypothèses :
+          les agrégats pouvaient bouger sur la surface une fois déposés (ce
+          qui n’arrive pas aux flocons !), ils pouvaient s’oxyder
+          progressivement pendant le dépôt (la couche d’oxyde empêchant le
+          passage du courant), ou bien ils pouvaient coalescer sur la surface,
+          comme deux gouttes d’eau qui fusionnent pour n’en donner qu’une,
+          plus grosse. Tous ces facteurs étaient susceptibles en principe
+          d’affecter le seuil de conduction lorsque le flux incident variait.
+          Mais lequel ou lesquels étaient réellement à l’œuvre dans les
+          expériences ? Nous n’en savions rien.</p>
+        </div>
+        <div type="section1" xml:id="d1e261">
+          <head subtype="level1" xml:id="d1e263">Une chambre de dépôt
+          virtuelle</head>
+          <p xml:id="d1e266">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté</term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-vpzykkat">particule<term ref="doi:10.34817/sv-gf4m5d6s">atome</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-mzt52qnr">hypothèse</term>
+              </term>
+            </term>Voilà
+          le mystère que je voulais élucider lors de mon année de
+          post-doctorat à <placeName ref="4930956" type="geonames" xml:base="https://www.geonames.org/">Boston</placeName>. Après
+          quelques discussions avec mes nouveaux collègues, je décide
+          d’explorer l’hypothèse de la diffusion des agrégats. Les raisons de
+          ce choix sont assez subjectives, mêlant des influences scientifiques
+          et culturelles. D’abord, la diffusion est relativement facile à
+          programmer. Elle fait donc partie de la culture du milieu, car des
+          modèles antérieurs l’ont prise en compte dans d’autres contextes.
+          Ensuite, il existe depuis le début du <date from="1900" to="1999" type="_temp">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date> une théorie solide et simple de la
+          diffusion des particules sur une surface. En revanche, les autres
+          hypothèses expérimentales (oxydation, coalescence), bien que tout
+          aussi vraisemblables du point de vue scientifique, présentent des
+          difficultés supplémentaires concernant la théorie ou la
+          programmation. Un scientifique voulant publier doit avancer par des
+          chemins de moindre résistance… Pourtant, inclure la diffusion des
+          agrégats dans la modélisation pouvait apparaître peu raisonnable. En
+          effet, la communauté scientifique sait que les atomes individuels
+          peuvent diffuser rapidement sur une surface, car ils sont très
+          petits et donc sensibles au tangage des surfaces, induit par
+          l’agitation thermique des atomes de surface. Cependant, tous les
+          experts considéraient impossible la diffusion des nano-agrégats. En
+          effet, ceux-ci étant plus gros que les atomes, ils peuvent s’ancrer
+          fortement à la surface et rester immobiles.</p>
+          <p xml:id="d1e281">Malgré la relative simplicité de la diffusion, il
+          est impossible de trouver des formules mathématiques donnant le
+          seuil de conduction lorsque l’on inclut la diffusion des agrégats.
+          D’où l’intérêt des simulations par ordinateur, que le laboratoire de
+          <placeName ref="4930956" type="geonames" xml:base="https://www.geonames.org/">Boston</placeName> maîtrise
+          parfaitement. Il s’agit de reproduire, <foreign xml:lang="lat">
+              <hi rend="italic">in</hi>
+              <hi rend="italic">silico</hi>
+            </foreign>, ce qui se passe lors du dépôt d’agrégats, en mimant
+          les processus un à un et en suivant leur déroulement.</p>
+        </div>
+        <div type="section1" xml:id="d1e296">
+          <head subtype="level1" xml:id="d1e298">Échec et divine
+          surprise</head>
+          <p xml:id="d1e301">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-5q3en5t5">codage de
+          l’information<term ref="doi:10.34817/sv-wj66ylyz">programme
+          informatique</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-5q3en5t5">codage de
+          l'information<term ref="doi:10.34817/sv-8lie9qks">code</term>
+              </term>
+            </term>Je me lance
+          alors tête baissée dans la programmation du modèle. Au bout de
+          quatre mois assez pénibles de programmation, de bugs et d’erreurs
+          diverses, je parvins enfin à écrire un code capable de simuler le
+          dépôt d’agrégats ainsi que leur diffusion sur la surface. J’avais en
+          quelque sorte créé une chambre de dépôt virtuelle, où je pouvais
+          effectuer des « expériences » numériques tout en observant en détail
+          comment la couche d’agrégats se forme. Je pouvais changer à loisir
+          le flux d’agrégats incidents et observer son influence sur la
+          quantité d’agrégats nécessaire pour former un chemin continu, comme
+          dans les expériences réelles. Le résultat essentiel est simple : la
+          diffusion des agrégats augmente effectivement le seuil de
+          conduction, comme nous en avions l’intuition, mais de manière très
+          faible ! La conclusion de ces mois de travail dans l’hiver rigoureux
+          de <placeName ref="4930956" type="geonames" xml:base="https://www.geonames.org/">Boston</placeName> est sans
+          appel : la diffusion des agrégats ne peut expliquer les résultats
+          expérimentaux.</p>
+          <p xml:id="d1e307">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-cbx9cvwr">instrument d'observation<term ref="doi:10.34817/sv-ftqvrc9c">microscope</term>
+                </term>
+              </term>
+            </term>Malgré
+          le découragement – écarter une hypothèse ne conduit pas à une
+          publication prestigieuse –, j’informe les chercheurs restés à
+          <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName> des résultats
+          par courrier électronique, qui représentait alors un nouvel outil de
+          communication léger et flexible. Cela me permet notamment de leur
+          transmettre des images générées par le modèle, que je trouve malgré
+          tout assez jolies. <persName ref="175666776" type="idref" xml:base="https://www.idref.fr/">Alain Hoareau</persName>, directeur
+          de l’équipe lyonnaise, note une ressemblance frappante entre les
+          images du modèle et celles obtenues quelques semaines auparavant par
+          <persName ref="115697365" type="idref" xml:base="https://www.idref.fr/">Laurent Bardotti</persName>, alors
+          thésard au laboratoire. Il s’agissait d’images résultant d’une
+          expérience menée de manière totalement indépendante, et qui visait à
+          observer les couches d’agrégats au microscope à effet tunnel. Ce
+          type de microscope, à la mode depuis que le prix Nobel a été décerné
+          à ses inventeurs en <date type="_temp" when="1986">1986</date>,
+          permet de mesurer la hauteur de la couche d’agrégats. Pour mener à
+          bien ces observations, il faut déposer les agrégats sur une surface
+          lisse et sans défauts, le graphite cristallin. Heureux hasard,
+          l’interaction entre l’agrégat et cette surface est très faible, ce
+          qui permet à ces particules de diffuser fortement, et explique la
+          ressemblance avec les images issues du modèle.</p>
+          <p xml:id="d1e316">Nous reconnaissons là un point d’accrochage
+          possible entre des expériences et un modèle, et nous y concentrons
+          nos efforts. D’autant plus que, parallèlement, une équipe suisse est
+          parvenue à obtenir des images identiques de dépôts atomiques,
+          technique nettement plus répandue que celle utilisée à <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName>. Notre modèle
+          pourrait donc constituer un « point de passage obligé<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Ce terme renvoie aux analyses de Bruno Latour et Michel
+              Callon, voir par exemple <hi rend="small-caps">Latour</hi>,
+              2001.</p>
+            </note> », non seulement pour la petite communauté du dépôt
+          d’agrégats, mais également pour celle, autrement plus importante, du
+          dépôt d’atomes.</p>
+          <p xml:id="d1e328">Nous nous dépêchons alors d’oublier la question
+          initiale, qui ne présente plus d’intérêt en termes d’impact et donc
+          de publication. Cette stratégie, conjuguée à l’influence du groupe
+          de <persName ref="067329551" type="idref" xml:base="https://www.idref.fr/">Gene Stanley</persName>, conduit à
+          la publication dans la prestigieuse revue <hi rend="italic">Nature
+          </hi>d’une présentation sommaire du modèle<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>
+                <hi rend="small-caps">Jensen</hi>
+                <hi rend="italic"> et
+              al.</hi>, 1994.</p>
+            </note>, explicitement relié aux expériences sur les atomes. La
+          présentation détaillée du modèle sera publiée quelque temps plus
+          tard, dans une revue de physique<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>
+                <hi rend="small-caps">Jensen</hi>
+                <hi rend="italic"> et
+              al.</hi>, 1994a.</p>
+            </note>.</p>
+          <p xml:id="d1e359">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-wvqbejdv">citation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-fsaqamwd">modélisation</term>
+              </term>
+            </term>Notre
+          travail de modélisation a finalement abouti à plusieurs résultats.
+          D’abord, un modèle valide pour la croissance des couches d’atomes ou
+          d’agrégats. Ce modèle a été utilisé par de nombreux groupes dans le
+          monde pour l’analyse de leurs expériences. Nous l’avons bien sûr
+          beaucoup utilisé à <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName>, pour mieux
+          comprendre les dépôts d’agrégats, aboutissant à un résultat
+          étonnant. Contrairement à ce que l’on croyait jusque-là, les
+          agrégats sont capables de diffuser très rapidement sur certaines
+          surfaces. Ce savoir a été reconnu par la communauté scientifique,
+          comme l’atteste le grand nombre de citations (positives) que
+          l’article a reçues<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Dix citations par an depuis sa publication, chiffre que l’on
+              peut comparer aux citations reçues en moyenne par un article de
+              physique (moins d’une citation par an) ou par l’article d’Albert
+              Fert qui lui valut le prix Nobel en 2007 (deux cents citations
+              par an).</p>
+            </note>. Plusieurs équipes de par le monde ont en effet étendu
+          notre étude, en explorant le dépôt d’agrégats d’autres matériaux, en
+          imaginant des modèles atomiques capables d’expliquer la diffusion
+          rapide des nano-agrégats ou leur coalescence sur la surface.</p>
+        </div>
+        <div type="section1" xml:id="d1e375">
+          <head subtype="level1" xml:id="d1e377">Comprendre, pour un
+          physicien…</head>
+          <p xml:id="d1e380">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-iwqqnrp8">laboratoire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-fsaqamwd">modélisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-xpycgkhl">compréhension</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-5cyw2kot">sciences de la
+          matière<term ref="doi:10.34817/sv-tjsyqxet">physique</term>
+                  </term>
+                </term>
+              </term>
+            </term>Pour
+          mieux comprendre la démarche qui nous a conduits à la création d’un
+          savoir, il convient de replacer notre travail dans l’histoire
+          globale de la physique. Voici quatre siècles, les physiciens
+          définissaient le savoir légitime comme celui qui peut se rattacher à
+          une modélisation rigoureuse. Comme le résume <persName ref="029512549" type="idref" xml:base="https://www.idref.fr/">Maurice Clavelin</persName> dans
+          son étude sur <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>
+            <note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>
+                <hi rend="small-caps">Clavelin</hi>, 1996.</p>
+            </note> : expliquer, pour un physicien, c’est transformer un fait
+          physique en un problème mathématique, puis le résoudre grâce aux
+          outils rigoureux de cette discipline. Ce n’est pas le lieu ici de
+          discuter de la fécondité et des limites globales de cette démarche
+          intellectuelle<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Je renvoie le lecteur à <hi rend="small-caps">Jensen</hi>,
+              2001.</p>
+            </note>. Notre exemple incite plutôt à centrer la discussion
+          autour de deux thèmes : le rôle des expériences contrôlées en
+          laboratoire et celui des simulations numériques.</p>
+          <p xml:id="d1e401">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-rkp2ctq5">pratique manuelle<term ref="doi:10.34817/sv-wzrnee87">manipulation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-hslaywqp">légitimation</term>
+              </term>
+            </term>Commençons
+          par les expérimentations contrôlées. Pour créer un savoir légitime,
+          la physique se limite à la portion de réalité qui peut être
+          connectée à un modèle mathématique rigoureux. Cela passe notamment
+          par la fabrication d’un monde artificiel purifié. Dans notre
+          exemple, il s’agit d’abord de la surface cristalline de graphite,
+          qui doit être très plane pour ne pas perturber la diffusion <hi rend="italic">uniforme</hi>
+            <hi rend="italic"/> des agrégats, la
+          seule que l’on peut décrire simplement. Les dépôts sur du verre ou
+          sur du carbone désordonné (amorphe) sont d’ailleurs toujours mal
+          compris. De plus, le dépôt doit être effectué dans un environnement
+          purifié, sous un vide poussé qui élimine la contamination des
+          agrégats par l’air ambiant. Pour que la jonction entre un modèle et
+          des expériences puisse s’établir, il faut bien sûr construire un
+          modèle adapté. Mais le plus difficile consiste à réaliser des
+          « manips » suffisamment contrôlées pour que la réalité ressemble
+          suffisamment au modèle.</p>
+          <p xml:id="d1e409">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-ewkux826">ethnographie<term ref="doi:10.34817/sv-sdzkumji">ethnographie de
+          laboratoire</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-plnrdjgu">support de conservation<term ref="doi:10.34817/sv-winuvix3">classeur</term>
+                </term>
+              </term>
+            </term>Parmi
+          les expériences menées dans ce cadre purifié, on oublie celles qui
+          conduisent à des questions intéressantes, mais ne peuvent être
+          reliées à un modèle. Nous avons ainsi laissé de côté la question de
+          départ, l’augmentation du seuil de conduction avec le flux incident
+          d’agrégats, énigme qui n’est toujours pas résolue. Dans les
+          publications, l’effet du flux est attribué paresseusement à
+          l’oxydation des nano-agrégats d’antimoine, sans trop de preuves.
+          Comme l’a noté l’anthropologue des sciences <persName ref="076016455" type="idref" xml:base="https://www.idref.fr/">Pascal
+          Lécaille</persName> lors d’un stage dans notre laboratoire<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>
+                <hi rend="small-caps">Lécaille</hi>, 1996.</p>
+            </note>, <persName ref="115697365" type="idref" xml:base="https://www.idref.fr/">Laurent Bardotti</persName>
+          s’aidait de deux classeurs – étiquetés « utile » et « poubelle » –
+          pour ranger les résultats de ses expériences. Le premier permet de
+          préclasser ce qui a une chance d’être comparé et amarré aux
+          simulations, le deuxième ce qui selon toute vraisemblance restera en
+          attente et finira dans une poubelle à la fin de la thèse.</p>
+          <p xml:id="d1e421">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-rkp2ctq5">pratique manuelle<term ref="doi:10.34817/sv-2gfcysnm">savoir-faire</term>
+              </term>
+            </term>Enfin,
+          pour réussir cette jonction, il existe des « tours de main » précis,
+          acquis localement par l’expérience, le contact quotidien avec les
+          instruments ou les ordinateurs<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>
+                <hi rend="small-caps">Collins</hi>, 2001.</p>
+            </note>. Il a ainsi fallu un temps de tâtonnements à <persName ref="115697365" type="idref" xml:base="https://www.idref.fr/">Laurent Bardotti</persName> avant
+          qu’il réussisse à obtenir et à reproduire des surfaces de graphite
+          suffisamment lisses. Concrètement, il y est parvenu en les chauffant
+          à 500 degrés pendant quelques heures – pour éliminer les impuretés
+          chimiques – et en les pelant grâce à du scotch collé à leur surface
+          – pour obtenir une surface suffisamment lisse.</p>
+          <p xml:id="d1e434">Abordons à présent le deuxième moyen dont
+          disposent les physiciens pour relier le monde réel et les
+          mathématiques. Les simulations représentent aujourd’hui un moyen
+          commode d’extension du monde rigoureux des mathématiques cher à
+          <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>. Elles
+          présentent des similitudes avec les mathématiques, qui les rendent
+          suffisamment rigoureuses, et en même temps des différences, qui les
+          rendent plus intéressantes dans de nombreux contextes<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Sur la nouveauté apportée par les simulations, notamment dans
+              le domaine de la fiabilité et de la preuve mathématique, la
+              lecture indispensable est <hi rend="small-caps">MacKenzie</hi>,
+              2001.</p>
+            </note>. Elles aident donc à établir un pont entre réalité et
+          mathématiques de plusieurs manières.</p>
+          <p xml:id="d1e446">D’abord, bien sûr, en construisant, à l’égal des
+          mathématiques, un monde bien défini, rigoureux, sans (trop de)
+          surprises une fois qu’il a été défini et exploré. Ainsi, le modèle
+          utilisé ici a permis d’interpréter les expériences en les reliant à
+          des bases physiques solides (la diffusion des agrégats notamment) de
+          manière aussi sûre qu’une théorie mathématique. Pour preuve, notre
+          interprétation a tenu face aux objections de nos collègues qui
+          doutaient de notre résultat improbable : les agrégats se déplacent
+          des millions de fois plus vite que ce qui était accepté
+          jusque-là.</p>
+          <p xml:id="d1e449">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-nfmwkgm9">simulation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-qyxkjpqw">compilation</term>
+              </term>
+            </term>Ensuite,
+          autre similarité avec les mathématiques, les simulations nous
+          obligent (et nous aident) à transformer nos intuitions en des règles
+          rigoureuses, mécaniques. On peut évoquer trois manières différentes
+          pour parvenir à ce but : en forçant le programme à être cohérent
+          (<hi rend="italic">via </hi>la compilation) ; en explorant tous les
+          cas possibles (qui finissent par arriver lors des simulations<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Comme la rencontre entre trois particules qui diffusent,
+              événement rare que je n’avais pas prévu explicitement et qui a
+              « planté » la première version du programme.</p>
+            </note>) ; en obligeant à préciser les valeurs de tous les
+          paramètres qu’on a introduits mais sur lesquels on n’a pas forcément
+          envie d’être précis. Écrire un programme opérationnel, c’est
+          dialoguer avec un interlocuteur implacable, qui oblige à préciser sa
+          pensée, force à décider ce que le modèle indique dans chaque
+          configuration, sans ambiguïté<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Pour une discussion plus générale du rôle similaire de
+              l’écriture par rapport à l’oral, on se référera au livre
+              classique de <hi rend="small-caps">Goody</hi>, 1979.</p>
+            </note>.</p>
+          <p xml:id="d1e470">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-ohaapat7">analyse</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-nfmwkgm9">simulation</term>
+              </term>
+            </term>Les
+          simulations présentent néanmoins des différences importantes avec
+          l’approche mathématique habituelle, qui vise à établir des formules
+          analytiques générales. Les simulations nous permettent en effet de
+          dialoguer avec le monde mathématique de manière plus flexible, en
+          utilisant d’autres variables, d’autres degrés de liberté plus
+          proches de l’intuition, plus proches aussi de ceux utilisés dans les
+          expériences<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Pour une discussion approfondie de l’importance croissante
+              des simulations dans les sciences, le lecteur pourra consulter
+              <hi rend="small-caps">Galison</hi>, 1997, <hi rend="small-caps">Creager</hi> et <hi rend="small-caps">Lunbeck</hi>, 2007. Sur le cas spécifique de
+              la physique de la matière, voir <hi rend="small-caps">Jensen</hi> et <hi rend="small-caps">Blase</hi>, 2002.</p>
+            </note>. Ainsi pour modéliser la rencontre entre les agrégats qui
+          diffusent sur une surface et des îlots déjà formés, les
+          mathématiques doivent passer par des coefficients (les « sections
+          efficaces de capture ») qui tentent de rendre compte, en moyenne, de
+          leur probabilité de rencontre. Ces coefficients n’ont pu être
+          calculés, de manière approchée, que pour des îlots supposés
+          circulaires, alors que les formes réelles sont plus complexes. Et
+          tandis que les simulations obtiennent sans peine ces formes
+          fractales (comme celles des illustrations plus haut), les formules
+          mathématiques ne peuvent rendre compte que d’îlots circulaires. Or
+          il est clair que les images obtenues grâce aux simulations
+          permettent une confrontation plus aisée avec les expériences. Dans
+          notre exemple, elles ont même donné l’impulsion initiale à la
+          connexion entre expériences et modèle, qui ne se serait sans doute
+          pas faite autrement…</p>
+          <p xml:id="d1e494">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-gfgzr5jr">terminal informatique<term ref="doi:10.34817/sv-a4wehnsr">ordinateur personnel<term ref="doi:10.34817/sv-avxz8vmg">ordinateur de
+          bureau</term>
+                  </term>
+                </term>
+              </term>
+            </term>Un modélisateur est
+          confronté en permanence à deux partenaires inflexibles :
+          l’expérimentateur qui lui rappelle que son modèle ne doit pas trop
+          s’éloigner du monde expérimental, dont il se fait le porte-parole,
+          et l’ordinateur qui l’oblige à rester rigoureux, précis. Cette
+          co-construction du modèle est essentielle pour que soit réussi
+          l’alignement entre mathématiques et expériences. D’où l’importance
+          de contacts quotidiens entre expérimentateurs et théoriciens,
+          induisant une meilleure adaptation réciproque. Dans ce contexte,
+          l’article scientifique joue un rôle important de cristallisateur des
+          tâtonnements quotidiens, en forçant l’accord sur certains résultats,
+          obtenus au jour le jour, dans un foisonnement d’avis et de
+          contacts.</p>
+        </div>
+        <div type="section1" xml:id="d1e498">
+          <head subtype="level1" xml:id="d1e500">Épilogue : Simuler la
+          société ?</head>
+          <p xml:id="d1e503">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-nfmwkgm9">simulation</term>
+              </term>
+            </term>Ce
+          travail m’avait enseigné la puissance des simulations numériques,
+          capables de dépasser les mathématiques dans la compréhension de la
+          croissance des couches de nano-agrégats. Après une dizaine d’années
+          consacrées à la modélisation des nano-agrégats, j’ai eu envie de
+          changer de domaine et de tester cette approche sur un champ beaucoup
+          plus difficile : les sciences sociales.</p>
+          <p xml:id="d1e506">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-dtlbbhdu">sociologie</term>
+                </term>
+              </term>
+            </term>Envisagée
+          comme une méthode de compréhension générale du social, cette idée
+          peut sembler au mieux naïve, au pis irresponsable. En effet, l’étude
+          évoquée précédemment nous a montré l’importance de l’expérimentation
+          contrôlée, des situations purifiées pour parvenir à la compréhension
+          rigoureuse au sens du physicien. Quelle pertinence espérer pour
+          cette approche dans le domaine social, heureusement peu
+          contrôlable ? Côté simulations, s’il est tentant de fabriquer des
+          « sociétés virtuelles » <foreign xml:lang="lat">
+              <hi rend="italic">in silico</hi>
+            </foreign>, en partant du comportement des individus, il est clair
+          que cet « individualisme méthodologique » est par trop
+          simplificateur. Il ignore par exemple un fait essentiel sur le plan
+          sociologique : les relations « sociales » sont durables, car elles
+          sont portées également par des objets, des institutions,
+          c’est-à-dire des structures au niveau mésoscopique qui ne sont pas
+          prises en compte dans cette approche<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Comme le démontre avec humour Bruno Latour (<hi rend="small-caps">Latour</hi>, 2007), l’individualisme
+              méthodologique est une approche parfaitement adaptée à une
+              société de babouins, dont les structures sociales sont très
+              limitées et coûteuses (en temps) à entretenir !</p>
+            </note>. À quel type de savoir peut-on envisager de parvenir en
+          simulant « rigoureusement » le social<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Pour une analyse subtile de la « vanité de la rigueur en
+              économie », voir <hi rend="small-caps">Cartwright</hi>,
+              2005.</p>
+            </note> ?</p>
+          <p xml:id="d1e530">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-gvncgyjs">données
+          massives</term>
+              </term>
+            </term>Je n’ai bien entendu pas de réponse
+          définitive à cette question. Cependant, il existe des éléments
+          objectifs qui poussent à s’intéresser à des systèmes sociaux
+          spécifiques armés des outils de modélisation du physicien. D’abord,
+          depuis quelques années, des données numériques de plus en plus
+          nombreuses deviennent disponibles. Citons les itinéraires de
+          voitures suivies par GPS, les réseaux scientifiques décrits par les
+          articles et leurs citations, les transactions sur Internet ou encore
+          la géolocalisation des appels téléphoniques par les portables. Face
+          à cette avalanche de données, des outils d’analyse quantitatifs
+          soutenus par la puissance des ordinateurs peuvent aider à mieux
+          comprendre les mécanismes sociaux sous-jacents. Ainsi, la jeune
+          science des réseaux complexes<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Voir, par exemple, une présentation flatteuse dans <hi rend="small-caps">Barabási</hi> et <hi rend="small-caps">Bonabeau</hi>, 2003. Pour une analyse plus
+              critique, on consultera <hi rend="small-caps">Keller</hi>,
+              2005.</p>
+            </note> permet de fouiller des millions d’articles et d’éclairer
+          l’histoire des disciplines scientifiques<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>Pour l’exemple de l’émergence d’une discipline à l’interface
+              entre biologie et cancer, voir Cambrosio <hi rend="italic">et al</hi>., 2006.</p>
+            </note>, et cela de manière complémentaire à l’approche
+          traditionnelle par l’analyse approfondie de quelques textes. Ce
+          n’est d’ailleurs pas la première fois que l’avalanche de données
+          sociales suscite des tentations du côté des chercheurs en sciences
+          exactes. Ainsi, au début du <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>, l’affirmation des bureaucraties
+          étatiques avait conduit à la collecte de nombreuses données à
+          l’échelle des nations (taux de naissance, de mortalité, de
+          suicide…). Ces données ont révélé des régularités inattendues,
+          faisant fantasmer des astronomes comme <persName ref="174969872" type="idref" xml:base="https://www.idref.fr/">Quételet</persName>
+          qui conçut l’idée d’une « physique sociale ». Le bilan de ce mariage
+          entre sciences sociales et mathématiques est fort mince du côté des
+          sciences sociales. Il est bien plus intéressant pour les
+          mathématiques appliquées et la physique, qui ont hérité d’un nouvel
+          outil d’analyse de la variabilité du réel, la loi Normale<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Pour une histoire de ces échanges interdisciplinaires, le
+              lecteur pourra consulter <hi rend="small-caps">Desrosières</hi>,
+              2002, ainsi que <hi rend="small-caps">Porter</hi>, 1994.</p>
+            </note>.</p>
+          <p xml:id="d1e578">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-nfmwkgm9">simulation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-gfgzr5jr">terminal informatique<term ref="doi:10.34817/sv-a4wehnsr">ordinateur personnel<term ref="doi:10.34817/sv-avxz8vmg">ordinateur de
+          bureau</term>
+                  </term>
+                </term>
+              </term>
+            </term>L’ordinateur permet
+          également de concevoir des sociétés virtuelles <foreign xml:lang="lat">
+              <hi rend="italic">in silico</hi>
+            </foreign>. Le but consiste à expliquer le niveau macroscopique
+          (la société) par le niveau microscopique (les individus et leurs
+          interactions). En économie, avec ce type de simulations on peut
+          dépasser un grand nombre d’hypothèses restrictives adoptées pour
+          simplifier les calculs, menant à cet individu caricatural qu’est
+          l’<foreign xml:lang="lat">
+              <hi rend="italic">homo</hi>
+              <hi rend="italic">œconomicus</hi>
+            </foreign>. Les simulations de type « multi-agents » permettent en
+          effet d’analyser des systèmes comprenant des individus hétérogènes,
+          à rationalité limitée et n’ayant qu’une connaissance imparfaite du
+          monde. Pourtant, si les physiciens acceptent couramment que les
+          simulations prolongent la rigueur mathématique, cela n’est pas
+          (encore) le cas des économistes, qui continuent à privilégier les
+          démonstrations mathématiques. Le physicien qui s’y risque doit
+          passer par un long travail d’acculturation pour rentrer dans le
+          paradigme économique. Cela se traduit notamment par l’utilisation
+          des caractéristiques de base des acteurs économiques (utilité
+          individuelle, prix de réserve, stratégie d’optimisation…) qui
+          rendent le savoir produit par les simulations assimilable par les
+          économistes et cumulable avec leurs modèles. Cela est souvent
+          frustrant pour le physicien, qui trouve que ces caractéristiques
+          sont plus dictées par convenance mathématique que par des données
+          empiriques. Mais, à moins de vouloir refonder l’économie sur de
+          nouveaux ingrédients de base, les simulations doivent se plier à
+          ceux utilisés aujourd’hui, faute de quoi les résultats ne seront pas
+          considérés comme un savoir… en économie.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e597">
+        <head xml:id="d1e599">Bibliographie</head>
+        <listBibl xml:id="d1e602">
+          <bibl xml:id="d1e604">
+            <hi rend="small-caps">Barabási</hi> et <hi rend="small-caps">Bonabeau</hi>, 2003 : Albert-László <hi rend="small-caps">Barabási</hi> et Éric <hi rend="small-caps">Bonabeau</hi>, « Réseaux invariants d’échelle »,
+          <hi rend="italic">Pour la Science</hi>, n<hi rend="sup">o</hi> 314.</bibl>
+          <bibl xml:id="d1e626">
+            <hi rend="small-caps">Bardotti</hi>
+            <hi rend="italic">et al.</hi>, 1995 : Laurent <hi rend="small-caps">Bardotti</hi>
+            <hi rend="italic"> et al.</hi>,
+          « Experimental observation of fast diffusion of antimony clusters on
+          graphite surfaces », <hi rend="italic">Physical Review Letter</hi>,
+          74, p. 4694.</bibl>
+          <bibl xml:id="d1e644">
+            <hi rend="small-caps">Cambrosio</hi>
+            <hi rend="italic">et al.</hi>, 2006 : Alberto <hi rend="small-caps">Cambrosio</hi>
+            <hi rend="italic">et al.</hi>,
+          « Mapping the emergence and development of translational cancer
+          research », <hi rend="italic">European Journal of Cancer</hi>, 42,
+          p. 3140-3148.</bibl>
+          <bibl xml:id="d1e662">
+            <hi rend="small-caps">Cartwright</hi>, 2005 :
+          Nancy <hi rend="small-caps">Cartwright</hi>, « The Vanity of Rigour
+          in Economics. Theoretical Models and Galilean Experiments », in
+          P. Fontaine et R. Leonard (éd.), <hi rend="italic">The</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">« Experiment</hi>
+            <hi rend="italic"> »</hi>
+            <hi rend="italic"> in</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">the</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">History</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">of</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Economics</hi>, Londres, p. 135-153.</bibl>
+          <bibl xml:id="d1e707">
+            <hi rend="small-caps">Clavelin</hi>, 1996 :
+          Maurice <hi rend="small-caps">Clavelin</hi>, <hi rend="italic">La
+          Philosophie naturelle de Galilée</hi>, Paris (nouv. éd.).</bibl>
+          <bibl xml:id="d1e720">
+            <hi rend="small-caps">Collins</hi>, 2001 :
+          H. M. <hi rend="small-caps">Collins</hi>, « Tacit Knowledge, Trust
+          and the Q of Sapphire »,<hi rend="italic"> Social Studies of
+          Science, </hi>vol. 31, n<hi rend="sup">o</hi> 1, p. 71-85.</bibl>
+          <bibl xml:id="d1e735">
+            <hi rend="small-caps">Creager</hi> et <hi rend="small-caps">Lunbeck</hi>, 2007 : Angela <hi rend="small-caps">Creager</hi> et Elizabeth <hi rend="small-caps">Lunbeck</hi> (éd.), <hi rend="italic">Science
+          without Laws</hi>, Durham.</bibl>
+          <bibl xml:id="d1e753">
+            <hi rend="small-caps">De</hi> <hi rend="small-caps">Gennes</hi>, 1976 : Pierre-Gilles <hi rend="small-caps">De</hi> <hi rend="small-caps">Gennes</hi>, « La
+          percolation : un concept unificateur », <hi rend="italic">La
+          Recherche ;</hi> repris dans le n<hi rend="sup">o</hi> 999,
+          mai 2000.</bibl>
+          <bibl xml:id="d1e775">
+            <hi rend="small-caps">Desrosières</hi>, 2002 :
+          Alain <hi rend="small-caps">Desrosières</hi>, « Adolphe Quételet »,
+          <hi rend="italic">Courrier des statistiques</hi>, n<hi rend="sup">o</hi> 104, p. 3-8.</bibl>
+          <bibl xml:id="d1e790">
+            <hi rend="small-caps">Galison</hi>, 1997 :
+          Peter <hi rend="small-caps">Galison</hi>, <hi rend="italic">Image
+          and Logic, A Material Culture of Microphysics</hi>, Chicago.</bibl>
+          <bibl xml:id="d1e802">
+            <hi rend="small-caps">Goody</hi>, 1979 : Jack
+          <hi rend="small-caps">Goody</hi>, <hi rend="italic">La</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Raison</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">graphique.</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">La</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">domestication</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">de</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">la</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">pensée</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">sauvage</hi>, Paris.</bibl>
+          <bibl xml:id="d1e858">
+            <hi rend="small-caps">Jensen</hi>
+            <hi rend="italic">et al.</hi>, 1992 : Pablo <hi rend="small-caps">Jensen</hi>
+            <hi rend="italic"> et al.</hi>,
+          « Experimental achievement of 2D percolation and cluster-cluster
+          aggregation models by cluster deposition », <hi rend="italic">Physica </hi>A, 185, p. 104-110.</bibl>
+          <bibl xml:id="d1e876">
+            <hi rend="small-caps">Jensen</hi>
+            <hi rend="italic"> et al.</hi>, 1994 : P. <hi rend="small-caps">Jensen</hi>
+            <hi rend="italic"> et al.</hi>,
+          « Controlling nanostructures », <hi rend="italic">Nature</hi>, 368,
+          p. 22.</bibl>
+          <bibl xml:id="d1e894">
+            <hi rend="small-caps">Jensen</hi>
+            <hi rend="italic"> et al.</hi>, 1994a : P. <hi rend="small-caps">Jensen</hi>
+            <hi rend="italic"> et al.</hi>,
+          « Deposition, diffusion and aggregation of atoms on surfaces : a
+          model for nanostructure growth », <hi rend="italic">Physical</hi>
+            <hi rend="italic"/>
+            <hi rend="italic">Review</hi>, B, p. 50,
+          15316.</bibl>
+          <bibl xml:id="d1e918">
+            <hi rend="small-caps">Jensen</hi>, 1996 :
+          P. <hi rend="small-caps">Jensen</hi>, « Fabriquer des objets à
+          l’échelle atomique », <hi rend="italic">La Recherche</hi>, 283,
+          p. 42.</bibl>
+          <bibl xml:id="d1e930">
+            <hi rend="small-caps">Jensen</hi>, 2001 :
+          P. <hi rend="small-caps">Jensen</hi>, <hi rend="italic">Des atomes
+          café crème : la physique peut-elle expliquer le monde ?</hi>,
+          Paris.</bibl>
+          <bibl xml:id="d1e942">
+            <hi rend="small-caps">Jensen</hi> et <hi rend="small-caps">Blase</hi>, 2002 : Pablo <hi rend="small-caps">Jensen</hi> et Xavier <hi rend="small-caps">Blase</hi>, « La matière fantôme », <hi rend="italic">La Recherche </hi>(avril).</bibl>
+          <bibl xml:id="d1e961">
+            <hi rend="small-caps">Keller</hi>, 2005 :
+          Evelyn Fox <hi rend="small-caps">Keller</hi>, « Revisiting
+          “scale-free” networks », <hi rend="italic">BioEssays</hi>, 27,
+          p. 1060-1068.</bibl>
+          <bibl xml:id="d1e973">
+            <hi rend="small-caps">Latour</hi>, 2001 :
+          Bruno <hi rend="small-caps">Latour</hi>, <hi rend="italic">Pasteur :
+          guerre et paix des microbes</hi>, Paris (nouv. éd).</bibl>
+          <bibl xml:id="d1e985">
+            <hi rend="small-caps">Latour</hi>, 2007 :
+          Br. <hi rend="small-caps">Latour</hi>, <hi rend="italic">Changer de
+          société – Refaire de la sociologie</hi>, Paris.</bibl>
+          <bibl xml:id="d1e997">
+            <hi rend="small-caps">Lécaille</hi>, 1996 :
+          Pascal <hi rend="small-caps">Lécaille</hi>, <hi rend="italic">Ethnographie du travail de laboratoire, à propos de la
+          simulation</hi>, mémoire de maîtrise, Université de Lyon 2.</bibl>
+          <bibl xml:id="d1e1009">
+            <hi rend="small-caps">MacKenzie</hi>, 2001 :
+          Donald <hi rend="small-caps">MacKenzie</hi>, <hi rend="italic">Mechanizing Proof. Computing, Risk and Trust</hi>,
+          Cambridge.</bibl>
+          <bibl xml:id="d1e1021">
+            <hi rend="small-caps">Porter</hi>, 1994 :
+          Th. M. <hi rend="small-caps">Porter</hi>, « Chance Subdued by
+          Science », <hi rend="italic">Poetics Today</hi>, vol. 15,
+          p. 467-478.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

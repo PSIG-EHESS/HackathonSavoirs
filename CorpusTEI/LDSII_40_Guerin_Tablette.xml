@@ -1,0 +1,1624 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-06-09T17:05:27.088+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LDSII_40_Guerin_Tablette">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La tablette et la torche : mémoire, composition et
+        performance oratoire dans la rhétorique romaine</title>
+        <title type="collection">Lieux de savoir 2</title>
+        <author role="aut">
+          <forename>Charles</forename>
+          <surname>Guérin</surname>
+          <idno type="IDREF">111692997</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Albin
+          Michel CC BY-NC-ND 3.0 Attribution - Pas d’Utilisation Commerciale -
+          Pas de Modification</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/5YCF8ZR4" type="bookSection" xml:lang="fre">
+          <analytic>
+            <title level="a">La tablette et la torche: mémoire, composition ey
+            performance oratoire dans la rhétorique romaine</title>
+            <author>
+              <forename>Charles</forename>
+              <surname>Guérin</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Lieux de savoir</title>
+            <idno type="ISBN">978-2-226-18729-1</idno>
+            <editor>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <biblScope unit="volume">2. Les mains de l'intellect</biblScope>
+              <biblScope unit="nb_volumes">2</biblScope>
+              <biblScope unit="page">704-723</biblScope>
+              <publisher>Albin Michel</publisher>
+              <date>2011</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d'inscription<term ref="doi:10.34817/sv-quemcb8t">tablette</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-yvum8lbf">remémoration</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-jqcakmg5">improvisation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-2zm67ekq">rhétorique</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-pgjyyprz">performance
+          orale</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6255148" type="geonames" xml:base="https://www.geonames.org/">europe</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="0001" to="0099" type="_temp">I<hi rend="sup">er</hi> siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-07-31T14:00:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">La tablette et la torche : mémoire,
+          composition et performance oratoire dans la rhétorique
+          romaine</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Charles Guérin</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="d1e111">
+        <p xml:id="d1e113">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-3ryxnaxd">style</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-mf7ofe8n">régime politique<term ref="doi:10.34817/sv-adtelslp">république</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-qyzckmpa">mémorisation</term>
+            </term>
+          </term>L’orateur
+        <persName ref="125426909" type="idref" xml:base="https://www.idref.fr/">Marcus Porcius Latro</persName> est
+        une figure récurrente des <hi rend="italic">Controverses</hi> que
+        <persName ref="026670992" type="idref" xml:base="https://www.idref.fr/">Sénèque le Rhéteur</persName> avait
+        composées, au début du règne de <persName ref="027551016" type="idref" xml:base="https://www.idref.fr/">Caligula</persName>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Père de Sénèque le philosophe et grand-père du poète Lucain,
+            Sénèque le Rhéteur (vers 55 av. J.-C.-vers 40 ap. J.-C.) composa
+            un ouvrage rétrospectif sur les pratiques oratoires de son temps,
+            les <hi rend="italic">Sentences, divisions et couleurs des
+            orateurs et des rhéteurs</hi> dont les <hi rend="italic">Controverses</hi> constituent la première
+            partie.</p>
+          </note>, pour conserver le souvenir des grands orateurs de son
+        temps. <persName ref="125426909" type="idref" xml:base="https://www.idref.fr/">Latro</persName> avait connu la
+        gloire sous le règne d’<persName ref="032190026" type="idref" xml:base="https://www.idref.fr/">Auguste</persName>, à l’époque où le
+        passage du régime républicain au principat avait amputé l’éloquence de
+        sa dimension politique. La pratique oratoire s’était réorientée, et la
+        déclamation de causes fictives avait pris une importance nouvelle<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Sur la déclamation, cf. <hi rend="small-caps">Bonner</hi>,
+            1969.</p>
+          </note>. Dans cette approche littérarisée de l’éloquence, Latro
+        excellait ; il déclamait devant les puissants et tenait école. Il fut
+        pourtant critiqué : son style, la difficulté qu’il éprouvait à plaider
+        des causes réelles ou à s’exprimer en plein air faisaient de lui un
+        rhéteur scolastique plus qu’un orateur véritable. <persName ref="026670992" type="idref" xml:base="https://www.idref.fr/">Sénèque
+        le rhéteur</persName> s’efforce de défendre le souvenir de celui qui
+        avait été son condisciple auprès du rhéteur <persName type="_temp">Marullus</persName>. Tout en soulignant son habileté et
+        l’efficacité de son éloquence, il insiste plus encore sur une qualité
+        moins immédiatement perceptible : la puissance de sa mémoire <hi rend="italic">(<foreign xml:lang="lat">memoria</foreign>)</hi>.
+        Celle-ci permettait à <persName ref="125426909" type="idref" xml:base="https://www.idref.fr/">Latro</persName> de retenir tout ce
+        qui était nécessaire à son art, sans jamais courir le risque d’oublier
+        quoi que ce soit. Ainsi, le rhéteur n’avait aucun effort à fournir
+        pour mémoriser les discours qu’il allait déclamer, car le simple fait
+        de les composer par écrit les lui faisait retenir ; il pouvait alors
+        les restituer au mot près. Une fois sa déclamation prononcée, il la
+        conservait à jamais dans sa mémoire. Les archives ne lui étaient, par
+        conséquent, d’aucune utilité : <persName ref="125426909" type="idref" xml:base="https://www.idref.fr/">Latro</persName> « écrivait sur son
+        esprit<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>
+              <hi rend="small-caps">Sénèque</hi>
+              <hi rend="small-caps">le</hi>
+              <hi rend="small-caps">Rhéteur</hi>, <hi rend="italic">Controuersiae</hi>, I, <hi rend="italic">praef</hi>. 17-18. Sauf mention contraire, les
+            traductions sont les nôtres.</p>
+          </note> ».</p>
+        <p xml:id="d1e167">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-yvum8lbf">remémoration</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-pgjyyprz">performance
+        orale</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-wvqbejdv">citation</term>
+            </term>
+          </term>Telle
+        qu’elle nous est décrite, l’extraordinaire mémoire de <persName ref="125426909" type="idref" xml:base="https://www.idref.fr/">Latro</persName> est parfaitement
+        adaptée au but poursuivi par le rhéteur : elle lui permet de retenir,
+        dans ses moindres détails, un texte dont le contenu est largement
+        fictionnel et dont le style, élaboré de manière extrêmement précise,
+        ne peut souffrir aucune variation intempestive. Instrument de
+        rétention et de reproduction, la mémoire représente alors un
+        truchement entre composition écrite et oralité. Elle vaut également
+        pour elle-même : de même que la déclamation est pure performance, tout
+        entière destinée à faire valoir les qualités de style, de composition
+        ou d’invention de l’orateur – et non à convaincre le public –, la
+        mémoire constitue un faire-valoir, une marque des qualités
+        intrinsèques du rhéteur. Le monde romain est en effet fasciné par les
+        exploits mémoriels, et la tradition nous a conservé le souvenir de
+        quelques cas extraordinaires : le philosophe <persName type="_temp">Charmada</persName>s, capable de réciter dans leur
+        intégralité, comme s’il les lisait, les ouvrages qu’on lui désignait
+        dans une bibliothèque ; l’Académicien <persName ref="137070861" type="idref" xml:base="https://www.idref.fr/">Métrodore de
+        Scepsis</persName> et le rhéteur <persName type="_temp">Empylos de
+        Rhodes</persName>, qui pouvaient tous deux restituer avec une
+        précision extraordinaire les textes qu’ils avaient appris ; <persName ref="194605418" type="idref" xml:base="https://www.idref.fr/">Théodecte</persName>, qui répétait
+        sans erreur les vers qu’on lui avait lus, quel que soit leur nombre ;
+        ou encore <persName type="_temp">Quintus Hortensius</persName>,
+        l’orateur qui fut longtemps le rival de <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName> et
+        qui, après avoir assisté à une vente durant une journée entière,
+        parvint à dérouler, dans l’ordre, la liste des acheteurs, des objets
+        qu’ils avaient acquis et le prix qu’ils avaient payé pour cela<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Charmadas : <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De oratore</hi>, II, 360 ; <hi rend="small-caps">Pline</hi>
+              <hi rend="small-caps">l’ancien</hi>,
+            <hi rend="italic">Naturales historiae</hi>, VII, 24 ; Métrodore :
+            <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+            oratore</hi>, II, 360 ; Empylos : <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio
+            oratoria</hi>, X, 6, 4 ; Théodecte : <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio
+            oratoria</hi>, XI, 2, 51 ; Hortensius : <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De oratore</hi>,
+            III, 230 ; <hi rend="italic">Brutus</hi>, 301 ; <hi rend="italic">Academica</hi>, II, 1, 2 ; <hi rend="italic">Tusculanae disputationes</hi>, I, 59 ; <hi rend="small-caps">Sénèque</hi>
+              <hi rend="small-caps">le</hi>
+              <hi rend="small-caps">Rhéteur</hi>, <hi rend="italic">Controuersiæ</hi>, I, <hi rend="italic">praef</hi>.
+            19 ; <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio oratoria</hi>, XI, 2, 22.</p>
+          </note>. Dans une civilisation où la mémoire prime sur le
+        document<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>Sur cette opposition, cf. les remarques de <hi rend="small-caps">Carruthers</hi>, 1990, p. 8-9.</p>
+          </note>, une capacité de rétention hors du commun fait évidemment
+        l’admiration de tous. La facilité à mentionner, citer ou réciter est
+        une marque de culture <hi rend="italic">(<foreign xml:lang="lat">humanitas</foreign>)</hi>, voire de sagesse, la <hi rend="italic">
+            <foreign xml:lang="lat">prudentia</foreign>
+          </hi> ne se concevant pas sans une vaste <hi rend="italic">
+            <foreign xml:lang="lat">memoria</foreign>
+          </hi>
+          <note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>
+              <hi rend="small-caps">Small</hi>, 1997, p. 3-10.</p>
+          </note>.</p>
+        <p xml:id="d1e282">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités personnelles<term ref="doi:10.34817/sv-k6ajzcts">créativité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-jqcakmg5">improvisation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-3ryxnaxd">style</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-5sxfwsn4">droit<term ref="doi:10.34817/sv-xvoxv54y">histoire du
+        droit</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités personnelles</term>
+          </term>Mais
+        peut-être est-ce cette mémoire si précise, capable de retenir le
+        détail d’un texte au mot près, qui entravait <persName ref="125426909" type="idref" xml:base="https://www.idref.fr/">Latro</persName>
+        lorsqu’il se risquait à plaider devant un tribunal véritable. Car
+        contrairement à la déclamation, les plaidoiries réelles interdisent de
+        reproduire par oral un texte figé : les réponses de l’adversaire
+        doivent être prises en compte, et l’orateur peut être contraint
+        d’improviser si l’affaire évolue d’une manière inattendue. Est-ce à
+        dire que la mémoire n’est devenue une qualité essentielle de l’orateur
+        qu’à partir du moment où la déclamation a pris le pas sur l’éloquence
+        efficace ? Les textes cicéroniens suffisent à prouver le contraire :
+        aux yeux de <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName>, dans un contexte
+        où l’éloquence est pleinement politique, c’est la force de leur
+        mémoire qui distingue <persName type="_temp">Marcus
+        Antonius</persName>, <persName type="_temp">Publius
+        Antistius</persName>, <persName type="_temp">Lucius
+        Torquatus</persName> ou <persName type="_temp">Quintus
+        Hortensius</persName> des autres orateurs<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>
+              <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">Brutus</hi>, 139, 215, 227, 301, 304.</p>
+          </note> : la possession d’une mémoire de qualité, à la fois prompte
+        à retenir et apte à conserver, est indispensable pour qui prétend à
+        l’éloquence. La mémoire définit l’orateur véritable, au même titre que
+        la promptitude intellectuelle, la capacité de réflexion, la puissance
+        de travail ou le talent stylistique<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>
+              <hi rend="italic">Rhetorica ad Herennium</hi>, I, 3 ; <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">Brutus</hi>,
+            139, 215, 227, 301, 304., <hi rend="italic">De oratore</hi>, I,
+            64, 94, 114 ; III, 230.</p>
+          </note>. L’orateur <persName type="_temp">Caius Scribonius
+        Curio</persName>, outre sa gestuelle inefficace, souffrait d’une
+        mémoire fort défaillante. Incapable de se tenir au plan qu’il
+        annonçait, il ajoutait des parties entières à son discours, ou en
+        retranchait d’autres. À l’écrit, il ne parvenait pas même à construire
+        une pensée suivie. <persName type="_temp">Curio</persName> excitait
+        les rires et le défaut dont il souffrait était, pour <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName>, une véritable
+        honte : la faiblesse de sa mémoire le faisait vaciller dans son statut
+        même d’orateur<note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>
+              <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">Brutus</hi>, 217-218. Sur le personnage de Curio,
+            cf. <hi rend="small-caps">Sumner</hi>, 1973, p. 110.</p>
+          </note>. C’est que la mémoire ne doit pas être regardée comme un
+        simple outil de stockage, comme une simple zone tampon entre l’écrit
+        et l’oral. Dans le cadre de l’éloquence, elle est considérée, à
+        l’inverse, comme un outil de mobilisation du savoir et des acquis :
+        c’est grâce à elle, en puisant dans les éléments qu’elle tient en
+        réserve et en les combinant, que l’orateur pourra trouver ses
+        arguments, organiser son discours et élaborer son style. Elle seule
+        permet le passage de la théorie – ou de l’entraînement – à la
+        pratique, l’adaptation aux exigences de l’affaire, la réaction
+        appropriée face à un imprévu de procédure ou à une répartie brillante
+        de l’adversaire : « Seuls ceux qui ont une bonne mémoire savent quoi
+        dire […], et de quelle manière le dire<note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>
+              <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+            oratore</hi>, III, 255. Cf. également <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio
+            oratoria</hi>, XI, 2, 7-8.</p>
+          </note>. » Loin d’être un appareil statique de rétention, la mémoire
+        est conçue comme un instrument de composition. Ainsi, lorsque
+        <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName>, rhéteur du
+        <date from="0001" to="0099" type="_temp">I<hi rend="sup">er</hi> siècle</date> ap. J.-C., souligne que seule une
+        mémoire sûre permet à l’orateur d’improviser, il ne cherche pas à
+        développer un paradoxe, mais souligne ce qui, pour un théoricien de la
+        rhétorique, relève de l’évidence : la mémoire est avant tout une force
+        créatrice<note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>
+              <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio oratoria</hi>, XI, 2, 3. Sur l’opposition
+            entre la mémoire conçue comme un espace de stockage et la mémoire
+            conçue comme un outil de traitement des informations, cf., à
+            propos du Moyen Âge, les remarques de <hi rend="small-caps">Carruthers</hi>, 1998, p. 1-35.</p>
+          </note>.</p>
+        <p xml:id="d1e373">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-pgjyyprz">performance
+        orale</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-ashhxdrq">argumentation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-2zm67ekq">rhétorique</term>
+                </term>
+              </term>
+            </term>
+          </term>Ce
+        sont donc deux conceptions distinctes des usages de la mémoire qu’il
+        est possible de retracer à travers les témoignages de l’éloquence et
+        de la rhétorique romaines, deux aspects dont l’un est clairement
+        formalisé et l’autre laissé dans l’ombre. Considérée comme une simple
+        capacité de stockage et d’extraction des informations, la mémoire
+        occupe en effet une place définie dans la doctrine rhétorique,
+        puisqu’elle représente une étape dans l’élaboration du discours. Elle
+        s’inscrit alors dans la liste canonique des cinq parties de
+        l’éloquence, où elle prend la suite de la fabrication des arguments
+        <hi rend="italic">(<foreign xml:lang="lat">inuentio</foreign>)</hi>,
+        de l’organisation du discours <hi rend="italic">(<foreign xml:lang="lat">dispositio</foreign>) </hi>et de l’élaboration
+        stylistique <hi rend="italic">(<foreign xml:lang="lat">elocutio</foreign>)</hi>, mais précède la mise en œuvre
+        du discours par le geste et la voix <hi rend="italic">(<foreign xml:lang="lat">actio</foreign>)</hi>. Dans cette progression linéaire
+        qui va de la production des arguments jusqu’à la performance oratoire
+        elle-même, l’étape dévolue à la <hi rend="italic">
+            <foreign xml:lang="lat">memoria</foreign>
+          </hi>clôt la fabrication du discours et rend possible la mise en
+        œuvre orale des éléments préparés : arguments, organisation du propos,
+        choix des mots, etc.<note n="12" place="foot" type="standard" xml:id="ftn12">
+            <p>
+              <hi rend="italic">Rhetorica ad Herennium</hi>, I, 3 ; <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+            inuentione</hi>, I, 9 ; <hi rend="italic">De oratore</hi>, I,
+            142 ; II, 79 ; <hi rend="italic">Partitiones oratoriae</hi>,
+            26.</p>
+          </note>. « Si l’on ne fait pas appel à la mémoire pour conserver,
+        nous dit <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName>, les idées et les
+        mots que l’on a trouvés et auxquels on a réfléchi, il est évident que
+        les qualités de l’orateur, aussi éclatantes qu’elles soient, perdront
+        toutes leur raison d’être<note n="13" place="foot" type="standard" xml:id="ftn13">
+            <p>
+              <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+            oratore</hi>, I, 18.</p>
+          </note>. » Ayant pour fonction principale de stocker puis de
+        restituer un matériau élaboré à l’avance, la mémoire est conçue à la
+        fois comme une étape dans un processus, comme une capacité
+        intellectuelle et, on le verra, comme un espace de rétention. Elle
+        fait alors l’objet d’une méthode que la doctrine rhétorique n’éprouve
+        aucune difficulté à formaliser.</p>
+        <p xml:id="d1e425">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités personnelles<term ref="doi:10.34817/sv-8jtmckvz">compétence</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités personnelles<term ref="doi:10.34817/sv-dcpvk8fw">méticulosité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-3ryxnaxd">style<term ref="doi:10.34817/sv-gavyaa5i">clarté</term>
+              </term>
+            </term>
+          </term>Cette
+        précision et cette clarté du propos théorique disparaissent lorsque
+        l’on aborde l’usage productif de la mémoire, où cette dernière n’a
+        plus pour seul objet la restitution d’un matériau assimilé, mais
+        également la production du discours. Parce qu’il n’entre pas dans
+        l’architecture que forment les différentes étapes du discours que nous
+        venons de décrire, ce second emploi de la mémoire ne reçoit aucune
+        place définie dans la théorie et n’apparaît donc qu’en filigrane, à
+        travers des remarques que les auteurs formulent de manière incidente.
+        S’il sort du domaine propre à la formalisation rhétorique
+        traditionnelle, cet usage de la mémoire n’en représente pas moins le
+        fondement même <hi rend="italic">(<foreign xml:lang="lat">fundamentum</foreign>
+          </hi>
+          <note n="14" place="foot" type="standard" xml:id="ftn14">
+            <p>
+              <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De optimo
+            genere oratorum</hi>, 5.</p>
+          </note>
+          <hi rend="italic">) </hi>de la compétence oratoire : composer
+        un discours est une activité de création encadrée par des règles
+        strictes et que la théorie fait reposer, de façon plus ou moins
+        implicite, sur la remémoration. À l’image de la tablette<note n="15" place="foot" type="standard" xml:id="ftn15">
+            <p>
+              <hi rend="italic">Rhetorica ad Herennium</hi>, III, 30 ; <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De oratore</hi>,
+            II, 354, 360 ; <hi rend="italic">Partitiones oratoriae</hi>,
+            26.</p>
+          </note>, support d’écriture et de rétention, c’est celle de la
+        torche<note n="16" place="foot" type="standard" xml:id="ftn16">
+            <p>
+              <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+            oratore</hi>, II, 146.</p>
+          </note>, au moyen de laquelle l’orateur s’orientera dans les
+        méandres de ses connaissances, qui sera alors préférée. Entre
+        rétention et réutilisation, méditation et sélection, structuration
+        systématique et recours au réflexe, la mémoire devient le véritable
+        atelier de la parole persuasive.</p>
+        <div type="section1" xml:id="d1e477">
+          <head subtype="level1" xml:id="d1e479">La mémoire et ses
+          techniques</head>
+          <p xml:id="d1e482">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-3946vxze">oubli</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-4ew878p7">instrument
+          d'enregistrement</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-qyzckmpa">mémorisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités personnelles</term>
+            </term>La
+          rhétorique offre une approche profondément objectiviste de la
+          mémoire abordée comme capacité de rétention<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>
+                <hi rend="small-caps">Farrell</hi>, 1997, p. 373-380.</p>
+            </note>. Car si elle est une qualité dont tout orateur doit être
+          doté sous peine d’être incapable de parler, elle est également un
+          outil soumis à une élaboration technique et, par conséquent,
+          susceptible d’amélioration. À la mémoire naturelle <hi rend="italic">(<foreign xml:lang="lat">memoria naturalis</foreign>)
+          </hi>s’ajoute ainsi une mémoire artificielle <hi rend="italic">(<foreign xml:lang="lat">memoria
+          artificialis</foreign>)</hi> développée au moyen d’une méthodologie
+          précisément définie<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>La division entre mémoire naturelle et mémoire artificielle
+              est traditionnelle. Cf. <hi rend="italic">Rhetorica ad
+              Herennium</hi>, III, 28 ; <hi rend="small-caps">Cicéron</hi>,
+              <hi rend="italic">De oratore</hi>, I, 145 ; <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio
+              oratoria</hi>, XI, 2, 1.</p>
+            </note>. La seconde ne peut suffire si la première fait
+          entièrement défaut : les exploits de <persName ref="125426909" type="idref" xml:base="https://www.idref.fr/">Latro</persName>
+          s’expliquent certes par la manière dont il a assimilé certaines
+          techniques mémorielles, mais <persName ref="026670992" type="idref" xml:base="https://www.idref.fr/">Sénèque le Rhéteur</persName>
+          reconnaît que la nature avait considérablement favorisé son ami<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>
+                <hi rend="small-caps">Sénèque</hi>
+                <hi rend="small-caps"> le
+              </hi>
+                <hi rend="small-caps">Rhéteur</hi>, <hi rend="italic">Controuersiae</hi>, I, <hi rend="italic">praef</hi>. 17. Cf. <hi rend="italic">Rhetorica ad
+              Herennium</hi>, III, 29 ; <hi rend="small-caps">Cicéron</hi>,
+              <hi rend="italic">De oratore</hi>, II, 360.</p>
+            </note>. La mémoire, telle que la conçoivent les traités, est un
+          donné naturel poli par l’étude, l’effort et une véritable discipline
+          mentale appliquée dès les premières années de formation<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Sur l’importance de l’entraînement dans le développement de
+              la mémoire, cf. <hi rend="italic">Rhetorica ad Herennium</hi>,
+              III, 40 ; <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio oratoria</hi>, XI, 2, 40-44.</p>
+            </note>. Elle est donc considérée comme un instrument mis à la
+          disposition des hommes. L’orateur la modèle, la contrôle et ne la
+          subit pas : l’oubli ne sera jamais dû à un « trou de mémoire », mais
+          à un manque de maîtrise technique, à une erreur commise dans le
+          processus de rétention<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>
+                <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio oratoria</hi>, XI, 2, 20. Cf. <hi rend="small-caps">Carruthers</hi>, 1990, p. 61-62.</p>
+            </note>. La mémoire est un outil ; l’orateur ne fait pas
+          entièrement corps avec elle.</p>
+          <p xml:id="d1e583">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-yvum8lbf">remémoration</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d'inscription<term ref="doi:10.34817/sv-quemcb8t">tablette</term>
+                </term>
+              </term>
+            </term>Progressivement
+          rendue plus disponible, plus stable et plus fidèle<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>
+                <hi rend="small-caps">Sénèque</hi>
+                <hi rend="small-caps">le</hi>
+                <hi rend="small-caps">Rhéteur</hi>, <hi rend="italic">Controuersiae</hi>, I, <hi rend="italic">praef</hi>. 2 ; <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio
+              oratoria</hi>, XI, 2, 2.</p>
+            </note>, la mémoire artificielle est naturellement regardée comme
+          un support d’écriture, écriture dont elle est, d’après <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName>, la jumelle<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>
+                <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">Partitiones oratoriae</hi>, 26.</p>
+            </note>. Elle est donc fréquemment comparée à une tablette enduite
+          de cire, instrument de notation privilégié dans
+          l’<date>Antiquité</date> : l’orateur, comme sur une tablette et
+          ainsi que le faisait Latro, inscrit dans sa mémoire ce qu’il doit
+          retenir et y lit ce qu’il doit retrouver<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Cf. <hi rend="italic">Rhetorica ad Herennium</hi>, III,
+              30-31 ; <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+              oratore</hi>, II, 354 ; II, 360 ; <hi rend="italic">Partitiones
+              oratoriae</hi>, 26. La comparaison de la mémoire à de la cire
+              est déjà présente dans le <hi rend="italic">Thééthète </hi>de
+              Platon (191 d-e) et se trouve reprise par Aristote (<hi rend="italic">De memoria et reminiscentia</hi>, 450 a 30-32).
+              Dans les deux cas, il ne s’agit pas de la cire d’une tablette :
+              le processus de rétention est comparé à la pression exercée au
+              moyen du sceau sur la cire. Sur l’image de la tablette et de la
+              cire, cf. <hi rend="small-caps">Carruthers</hi>, 1990, p. 21-32.
+              Sur les différents supports d’écriture employés à Rome, cf. <hi rend="small-caps">Dorandi</hi>, 2000, p. 5-25 ; <hi rend="small-caps">Small</hi>, 1997, p. 142-160.</p>
+            </note>. L’image de la tablette est néanmoins trompeuse, dans la
+          mesure où les techniques mnémoniques reprises et développées par la
+          rhétorique imposent une représentation différente de la mémoire, où
+          l’écriture mémorielle doit avant tout se comprendre comme la
+          constitution d’un réseau. <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> fut le premier
+          à souligner l’importance de l’ordre dans le processus de
+          remémoration : celui qui s’efforce de retrouver un souvenir
+          cherchera mentalement des successions qui, progressivement, le
+          mèneront à ce qu’il recherche<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>
+                <hi rend="small-caps">Aristote</hi>, <hi rend="italic">De
+              memoria et reminiscentia</hi>, 451 b 11-52 b 7.</p>
+            </note>. Ce qui possède naturellement un ordre est plus aisément
+          mémorisable, mais cet ordre peut être introduit dans les souvenirs
+          par des moyens techniques permettant à l’esprit de se mouvoir en
+          suivant un agencement logique<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>
+                <hi rend="italic">Ibid.</hi>, 452 a 2-4 ; 452 a 10 - b 7 ;
+              453 a 4-14.</p>
+            </note>. La tradition rhétorique intègre parfaitement à sa
+          doctrine cette exigence de structuration, comme en témoigne le récit
+          étiologique au moyen duquel elle attribue au poète <persName ref="033474575" type="idref" xml:base="https://www.idref.fr/">Simonide</persName> la paternité
+          des techniques mnémoniques. D’après le récit qu’en fait <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName>, c’est la
+          compréhension du rôle que joue l’organisation des éléments en
+          séquences qui permit à <persName ref="067030858" type="idref" xml:base="https://www.idref.fr/">Simonide</persName> de développer
+          ses capacités mémorielles. Attablé à un dîner, <persName ref="033474575" type="idref" xml:base="https://www.idref.fr/">Simonide</persName> fut appelé au
+          dehors avant que la maison ne s’écroulât sur les invités à la suite
+          d’un séisme. Après ce désastre, le poète fut seul capable
+          d’identifier les cadavres, parce que l’ordre dans lequel étaient
+          installés les convives était resté gravé dans sa mémoire<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>
+                <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+              oratore</hi>, II, 352-353 ; <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio
+              oratoria</hi>, XI, 2, 11-16. Sur cette étiologie, cf. <hi rend="small-caps">Molyneux</hi>, 1971, <hi rend="small-caps">Carruthers</hi>, 1990, p. 22 ; <hi rend="small-caps">Small</hi>, 1997, p. 82-86 ; <hi rend="small-caps">Farrell</hi>, 1997, p. 376-377 ; <hi rend="small-caps">Carruthers</hi>, 1998, p. 27-28.</p>
+            </note>. L’organisation ordonnée des éléments est donc la clef des
+          processus de rétention et de remémoration : <persName ref="033474575" type="idref" xml:base="https://www.idref.fr/">Simonide</persName>, d’après
+          <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName>, avait compris
+          « que c’est l’ordre, avant tout, qui éclaire la mémoire<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>
+                <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+              oratore</hi>, II, 353.</p>
+            </note> ».</p>
+          <p xml:id="d1e734">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gc3p6hiz">mise en
+          série</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-sbnvxjra">mobilier</term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu</term>
+            </term>La méthode
+          rhétorique qui découle de ce constat correspond à une représentation
+          spatiale et visuelle de la mémoire, elle aussi présente dans tous
+          les récits concernant <persName ref="033474575" type="idref" xml:base="https://www.idref.fr/">Simonide</persName>. Car l’ordre
+          qui permit à <persName ref="033474575" type="idref" xml:base="https://www.idref.fr/">Simonide</persName> de retrouver
+          l’identité de chaque convive se déployait dans un lieu dont le poète
+          avait retenu la configuration. De la même manière, la mémoire de
+          l’orateur s’organisera de façon spatiale, le processus de rétention
+          reposant sur la fabrication mentale de lieux <hi rend="italic">(<foreign xml:lang="lat">loci</foreign>) </hi>qui
+          joueront le rôle de contenants où seront placés, sous forme d’images
+          <hi rend="italic">(<foreign xml:lang="lat">imagines</foreign>)</hi>,
+          les éléments qui doivent être mémorisés, puis retrouvés<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>
+                <hi rend="italic">Rhetorica ad Herennium</hi>, III, 29-32 ;
+              <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+              oratore</hi>, II 354 et 357-359 ; <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio
+              oratoria</hi>, XI, 2, 17-22. Sur les différentes images
+              utilisées pour désigner les « emplacements » de la mémoire dans
+              l’Antiquité et au Moyen Âge, cf. <hi rend="small-caps">Carruthers</hi>, 1990, p. 22-45.</p>
+            </note>. La mémoire ainsi structurée joue le rôle d’un système de
+          classement où les informations sont en sécurité et, plus important
+          encore, facilement accessibles. Pour ce faire, les lieux construits
+          mentalement doivent permettre des déplacements aisés : une maison,
+          un portique ou une place publique conviendront parfaitement. Si
+          l’architecture mentale choisie correspond à une maison, l’orateur
+          placera dans chacune des pièces les images qu’il doit mémoriser, en
+          les organisant en fonction du mobilier et du décor. Il pourra
+          ensuite parcourir mentalement le vestibule, l’<hi rend="italic">
+              <foreign xml:lang="lat">atrium</foreign>
+            </hi>puis les différentes pièces et retrouver, dans l’ordre,
+          chacun des objets retenus<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>
+                <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio oratoria</hi>, XI, 2, 20. Sur le
+              rapport entre maison privée et architecture mémorielle, cf. <hi rend="small-caps">Bergmann</hi>, 1994.</p>
+            </note> : « Ce faisant, la succession des lieux conserve celle des
+          choses ; les images représentent les choses elles-mêmes<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>
+                <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+              oratore</hi>, II, 354.</p>
+            </note>. » La rétention implique donc un double processus
+          d’encodage. Celui, tout d’abord, consistant à associer un objet à
+          une image précise, puis celui qui consiste à répartir chaque image
+          dans l’espace mental préalablement construit. L’organisation
+          rigoureuse favorise le respect des successions, le respect des
+          successions donne leur stabilité aux images et à ce qui leur est
+          associé.</p>
+          <p xml:id="d1e805">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-yo4dxpj6">apprentissage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-5q3en5t5">codage de
+          l'information</term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image</term>
+              </term>
+            </term>La
+          production des images répond à des exigences différentes selon que
+          l’orateur cherche à retenir des objets <hi rend="italic">(<foreign xml:lang="lat">res</foreign>) </hi>ou des mots <hi rend="italic">(<foreign xml:lang="lat">uerba</foreign>)</hi>
+            <note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>
+                <hi rend="italic">Rhetorica ad Herennium</hi>, III, 33.</p>
+            </note>. L’objet sera inscrit dans la mémoire au moyen de sa
+          représentation visuelle propre ou d’une image qui la rappelle par
+          association, ressemblance ou allusion<note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>
+                <hi rend="italic">Ibid</hi>. ; <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio
+              oratoria</hi>, XI, 2, 21.</p>
+            </note>. Ces images devront être frappantes : belles, laides ou
+          violentes, elles seront plus aisément mémorisées. Elles seront donc
+          des créations personnelles, ce qui frappe les uns restant
+          indifférent aux autres<note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>
+                <hi rend="italic">Rhetorica ad Herennium</hi>, III, 38. Cf.
+              <hi rend="small-caps">Doucet</hi>, 1987, p. 50 ; <hi rend="small-caps">McGaugh</hi>, 1999.</p>
+            </note>. L’encodage des mots est plus complexe, car il nécessite
+          des images plus nombreuses et n’autorise pas d’équivalences simples.
+          Comment, en effet, représenter une conjonction<note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>
+                <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+              oratore</hi>, III, 359 ; <hi rend="small-caps">Quintilien</hi>,
+              <hi rend="italic">Institutio oratoria</hi>, XI, 2, 25.</p>
+            </note> ? L’orateur devra créer son propre langage visuel, aussi
+          fourni que possible, afin de pouvoir retenir des textes dans le
+          détail : il surimposera un code nouveau au code langagier. <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName> émet les plus
+          grandes réserves sur cet aspect de la méthode. La mémoire
+          artificielle, parfaite pour retenir un enchaînement d’idées ou
+          d’objets, lui paraît inadaptée lorsqu’il s’agit de mémoriser des
+          textes : la lourdeur de l’appareillage symbolique nécessaire
+          encombre la mémoire plus qu’elle ne l’aide<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>
+                <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio oratoria</hi>, XI, 2, 23-24. Cicéron
+              réfutait à l’avance cette objection en <hi rend="italic">De
+              oratore</hi>, II, 359.</p>
+            </note>. De fait, l’auteur anonyme de la <hi rend="italic">Rhétorique à Herennius </hi>(vers 84 av. J.-C.)
+          considère que la mémoire artificielle ne suffit pas à la rétention
+          des mots. Tout au plus peut-elle la favoriser. Seuls la répétition
+          et l’apprentissage « naturel », par lectures successives,
+          permettront de conserver le souvenir exact d’un texte<note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>
+                <hi rend="italic">Rhetorica ad Herennium</hi>, III, 34.</p>
+            </note>.</p>
+          <p xml:id="d1e900">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-bfyyj72n">signe<term ref="doi:10.34817/sv-cv8mpzxp">symbole</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-3ryxnaxd">style<term ref="doi:10.34817/sv-vaxflqnz">lisibilité</term>
+                </term>
+              </term>
+            </term>Dans
+          un second temps, la répartition des images favorisera la lisibilité.
+          Le lieu mental doit pouvoir être arpenté sans difficulté par
+          l’esprit qui est considéré, dans ce contexte, comme un pur regard.
+          Le lieu choisi ne sera pas un espace trop fréquenté et ne prêtera
+          pas à confusion : le va-et-vient de la foule brouille les images,
+          une colonnade infinie ne favorise pas leur structuration. Il sera
+          suffisamment grand pour permettre à l’orateur d’y placer tout ce
+          dont il a besoin, mais de taille humaine, pour que l’œil puisse
+          l’embrasser sans s’y perdre. Son éclairage, enfin, ne sera ni trop
+          faible, ni trop cru. L’espace ainsi construit sera envisagé selon un
+          point de perspective particulier, ni trop proche, ni trop éloigné
+          des objets, sous peine de rendre leur perception difficile.
+          L’orateur pourra alors déposer ses images dans chaque lieu comme il
+          le souhaite, en progressant de l’un à l’autre selon un agencement
+          établi et en les marquant, au besoin, d’un symbole ou d’un chiffre,
+          afin de s’assurer de leur ordre de succession<note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>
+                <hi rend="italic">Rhetorica ad Herennium</hi>, III, 31-32 ;
+              <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+              oratore</hi>, II, 358 ; <hi rend="small-caps">Quintilien</hi>,
+              <hi rend="italic">Institutio oratoria</hi>, XI, 2, 18. Sur la
+              question de la perspective visuelle et les problèmes
+              d’interprétation qu’elle a entraînés, cf. <hi rend="small-caps">Carruthers</hi>, 1990, p. 72-73 ; <hi rend="small-caps">Small</hi>, 1997, p. 95-100.</p>
+            </note>.</p>
+          <p xml:id="d1e931">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-qsxs8rem">architecture</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique
+          corporelle<term ref="doi:10.34817/sv-mwsdfb7t">perception</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique
+          corporelle<term ref="doi:10.34817/sv-mwsdfb7t">perception<term ref="doi:10.34817/sv-fwsea2pm">vision</term>
+                </term>
+              </term>
+            </term>Tel
+          qu’il nous apparaît à travers les règles formulées dans les traités,
+          l’outil mémoriel représente un tissu ordonné de relations entre des
+          objets placés dans un espace imaginaire très précisément structuré.
+          La mémoire artificielle est une mémoire topique et visuelle : la vue
+          étant, d’après <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName>, le plus vif et
+          le plus fidèle de tous les sens, ce que l’on veut mémoriser doit
+          être traduit en images sensorielles, en formes <hi rend="italic">(<foreign xml:lang="lat">formae</foreign>) </hi>et en
+          corps sensibles <hi rend="italic">(<foreign xml:lang="lat">corpora</foreign>) </hi>répartis dans un espace
+          – tout corps occupant nécessairement un lieu<note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>
+                <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+              oratore</hi>, II, 357-358.</p>
+            </note>. Le savoir théorique ainsi retenu acquiert une matérialité
+          et se transforme en un souvenir, doté d’une épaisseur sensorielle.
+          L’orateur n’a alors plus qu’à « lire » ce qu’il aura placé dans sa
+          mémoire. La disposition des images est en effet une forme
+          d’écriture ; et, nous dit l’auteur de la <hi rend="italic">Rhétorique à Herennius</hi>, « prononcer un discours,
+          c’est comme lire<note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>
+                <hi rend="italic">Rhetorica ad Herennium</hi>, III, 30
+              (trad. G. Achard).</p>
+            </note> ». L’image de la tablette se surimpose de nouveau à celle
+          de l’architecture<note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>
+                <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+              oratore</hi>, III, 354 ; <hi rend="small-caps">Quintilien</hi>,
+              <hi rend="italic">Institutio oratoria</hi>, XI, 2, 21.</p>
+            </note> : la performance oratoire redeviendrait-elle, contre la
+          doctrine même que professent les traités, la simple reproduction
+          d’un texte préalablement composé ?</p>
+        </div>
+        <div type="section1" xml:id="d1e984">
+          <head subtype="level1" xml:id="d1e986">Rétention, écriture et
+          improvisation</head>
+          <p xml:id="d1e989">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-yo4dxpj6">apprentissage</term>
+              </term>
+            </term>La
+          pratique oratoire entretient en effet un rapport ambigu à la
+          composition écrite. Écrire puis mémoriser le texte produit reste
+          évidemment le moyen le plus sûr pour qui veut prononcer un discours
+          de qualité<note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>
+                <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio oratoria</hi>, XII, 9, 16.</p>
+            </note>. Pourtant, le discours peut tout aussi bien être affaibli
+          par cette architecture fixe dérivée de l’écrit, qui risque
+          d’entraver la faculté d’adaptation de l’orateur. <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName> est le seul à
+          aborder la question de façon explicite en opposant directement les
+          deux types de mémorisation possible : faut-il retenir mot à mot le
+          texte composé <hi rend="italic">(<foreign xml:lang="lat">uerba</foreign>) </hi>ou se contenter des idées et de
+          leur enchaînement <hi rend="italic">(<foreign xml:lang="lat">res</foreign>) ?</hi> Impossible, selon <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName>, d’apporter à
+          ce problème une réponse générale. Pourquoi composer avec soin et par
+          écrit, sinon pour pouvoir utiliser ce qui a été mis en place et donc
+          l’apprendre au mot près ? À l’inverse, une récitation mécanique
+          produira un effet déplorable qui affaiblira la crédibilité de
+          l’orateur, la préparation étant toujours suspecte aux yeux des
+          juges<note n="43" place="foot" type="standard" xml:id="ftn43">
+              <p>
+                <hi rend="italic">Ibid</hi>., XI, 2, 44-45 et XI, 2, 17. Sur
+              la méfiance qu’éprouvent les auditeurs à l’égard d’un orateur
+              trop visiblement préparé, cf. <hi rend="small-caps">Andersen</hi>, 1996 et 2001.</p>
+            </note>. Enfin, l’effort mémoriel paralysera l’esprit de
+          l’orateur : rechercher l’idée ou le mot perdus empêche d’en
+          découvrir d’autres au moment opportun<note n="44" place="foot" type="standard" xml:id="ftn44">
+              <p>
+                <hi rend="italic">Ibid.</hi>, XI, 2, 48-49 ; XI, 6, 7.</p>
+            </note>. Le problème se comprend donc à la fois en termes
+          d’apparence et d’efficacité. <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName> ne tranchera
+          pas et conseillera à l’orateur d’apprendre son texte le plus
+          précisément possible, mais de donner l’illusion de l’improvisation,
+          au moyen, par exemple, d’hésitations fictives. Paradoxalement, c’est
+          la qualité de sa mémoire qui permettra à l’orateur de se comporter
+          avec le naturel nécessaire, car il parlera avec d’autant plus
+          d’aisance qu’il aura précisément retenu ce qu’il avait à dire<note n="45" place="foot" type="standard" xml:id="ftn45">
+              <p>
+                <hi rend="italic">Ibid.</hi>, X, 7, 6-7 ; XI, 2, 46-47</p>
+            </note>.</p>
+          <p xml:id="d1e1041">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-jqcakmg5">improvisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+            </term>C’est lorsqu’il
+          aborde les modalités mêmes de la composition du discours que
+          <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName> offre une
+          vision plus complète et plus construite du rôle joué par la mémoire
+          de rétention et de restitution au cours de ce processus. Reprenant
+          une catégorisation que <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName> avait mise en
+          place à propos de l’entraînement de l’orateur, <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName> distingue
+          trois modes possibles d’élaboration du discours : l’écriture <hi rend="italic">(<foreign xml:lang="lat">scriptio</foreign>)</hi>, la
+          composition mentale <hi rend="italic">(<foreign xml:lang="lat">cogitatio</foreign>)</hi> et, enfin, l’improvisation
+          <hi rend="italic">(<foreign xml:lang="lat">ex tempore
+          dictio</foreign>)</hi>
+            <note n="46" place="foot" type="standard" xml:id="ftn46">
+              <p>
+                <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+              oratore</hi>, I, 150-152 ; <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio
+              oratoria</hi>, X, 5, 6 et 7.</p>
+            </note>. Évidemment complémentaires, ces trois méthodes de
+          composition impliquent chacune une utilisation particulière des
+          ressources mémorielles en vue de retenir et de prononcer le discours
+          produit. Plutôt que de chercher à opposer des degrés de précision
+          dans la mémorisation, il convient de distinguer des modes
+          d’utilisation différents de la mémoire à mesure que la composition
+          s’éloigne de l’écrit.</p>
+          <p xml:id="d1e1071">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-nhh8kfyy">ligne</term>
+              </term>
+            </term>L’écriture,
+          tout d’abord, est assimilable en elle-même à un processus de
+          rétention. <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName> condamne en
+          effet la méthode de la silve <hi rend="italic">(<foreign xml:lang="lat">silua</foreign>)</hi> qui consiste à écrire d’un seul
+          trait une première version que l’on reprendra et polira par la
+          suite. On voit poindre ici la crainte qu’éprouve <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName> à l’égard des
+          phénomènes incontrôlés de rétention mémorielle : le risque est que
+          l’orateur ne parvienne pas à se libérer des tournures médiocres de
+          la première version, et que la piètre qualité du matériau de départ
+          s’impose à son esprit<note n="47" place="foot" type="standard" xml:id="ftn47">
+              <p>
+                <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio oratoria</hi>, X, 3, 17-18 ; X, 7,
+              32.</p>
+            </note>. Lenteur et application seront donc indispensables. Après
+          avoir composé prudemment son texte, l’orateur cherchera à
+          l’apprendre sur les tablettes qu’il a utilisées lors de
+          l’élaboration : les signes distinctifs qu’elles portent – ratures,
+          ajouts – serviront par la suite à visualiser les lignes et à faire
+          en sorte que parler devienne une lecture mentale<note n="48" place="foot" type="standard" xml:id="ftn48">
+              <p>
+                <hi rend="italic">Ibid</hi>., XI, 2, 32.</p>
+            </note>. Des relectures à voix basse achèveront de fixer la lettre
+          du texte dans la mémoire : en entendant sa propre voix, l’orateur
+          évitera que son attention ne se relâche<note n="49" place="foot" type="standard" xml:id="ftn49">
+              <p>
+                <hi rend="italic">Ibid</hi>., XI, 2, 33-34. Sur les modalités
+              de la lecture à Rome, cf. <hi rend="small-caps">Starr</hi>,
+              1991 ; <hi rend="small-caps">Gavrilov</hi>, 1997 ; <hi rend="small-caps">Burnyeat</hi>, 1997.</p>
+            </note>. Tous ces préceptes laissent bien transparaître que,
+          malgré ses réticences, c’est bien un apprentissage <hi rend="italic">
+              <foreign xml:lang="lat">uerbatim</foreign>
+            </hi> que préconise <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName> lorsqu’il
+          traite de la composition écrite. Dans ce cas, le texte est un
+          invariant, et le discours une reproduction.</p>
+          <p xml:id="d1e1119">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-wwbkzdwu">note</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-tbuwxvpk">correction</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-ewrvjrbq">commentaire</term>
+              </term>
+            </term>La
+          composition complète du texte et son apprentissage <hi rend="italic">
+              <foreign xml:lang="lat">uerbatim</foreign>
+            </hi> n’étaient pourtant pas toujours indispensables. Ainsi
+          <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName> souligne-t-il
+          que la mémoire de l’orateur est celle des choses et non celle des
+          mots : il laisse ainsi entendre que le protocole que nous venons de
+          décrire ne s’impose pas nécessairement<note n="50" place="foot" type="standard" xml:id="ftn50">
+              <p>
+                <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+              oratore</hi>, II, 359.</p>
+            </note>. Lui-même ne rédigeait pas systématiquement l’intégralité
+          de son discours ; il écrivait son introduction et les points clés de
+          son argumentation, puis se contentait d’ébauches pour le reste de
+          son propos. Certes, ces ébauches étaient écrites : <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName> a eu sous les
+          yeux certaines des notes de travail <hi rend="italic">(<foreign xml:lang="lat">commentarii</foreign>) </hi>de <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName>, notes brèves,
+          prises sur des tablettes aisément manipulables. Sans être pour
+          autant des supports mémoriels véritables – <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName> ne
+          les emportait pas avec lui pour prononcer son discours –, elles
+          constituaient des outils facilitant la composition sur des points
+          précis<note n="51" place="foot" type="standard" xml:id="ftn51">
+              <p>Cf. <hi rend="small-caps">Small</hi>, 1997, p. 208-209.</p>
+            </note>. Il faut donc comprendre que les éléments entièrement
+          rédigés étaient précisément retenus par <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName> et
+          que ses <foreign xml:lang="lat">
+              <hi rend="italic">commentarii</hi>
+            </foreign> lui servaient simplement à élaborer son discours et les
+          principaux arguments qu’il comptait employer, non à les mémoriser.
+          C’est que l’écriture ne constitue dans ce cas qu’un seul aspect de
+          la composition : <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName>, qui fait
+          allusion à cette méthode dans le <hi rend="italic">De oratore</hi>,
+          ne la conçoit pas sans son pendant dématérialisé qu’est la
+          composition mentale <hi rend="italic">(<foreign xml:lang="lat">cogitatio</foreign>)</hi>
+            <note n="52" place="foot" type="standard" xml:id="ftn52">
+              <p>
+                <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+              oratore</hi>, I, 150-151.</p>
+            </note>. L’Arpinate ne détaillera pas la teneur de ce travail,
+          mais l’<hi rend="italic">Institutio oratoria </hi>de <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName> nous permet
+          de comprendre qu’elle reprend un modèle mémoriel proche de celui
+          applicable à l’écriture. À la fois exercice préparatoire et mode de
+          composition à part entière, la <hi rend="italic">
+              <foreign xml:lang="lat">cogitatio</foreign>
+            </hi> consiste à composer mentalement son propos en organisant les
+          idées et en travaillant le style. Cette méditation permet
+          d’accélérer le processus de composition, l’orateur n’ayant plus qu’à
+          coucher par écrit un texte entièrement préparé. Mieux encore, la
+          composition mentale permet de retenir « plus fidèlement les idées,
+          car l’attention n’est pas relâchée par la sécurité que donne une
+          rédaction écrite<note n="53" place="foot" type="standard" xml:id="ftn53">
+              <p>
+                <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio oratoria</hi>, X, 6, 2
+              (trad J. Cousin).</p>
+            </note> ». La mémoire intervient ici encore comme espace de
+          stockage, qui peut même permettre d’éliminer la phase d’écriture :
+          l’orateur parfaitement entraîné parviendra « à reproduire
+          fidèlement, quand il parle, ce qu’il a médité aussi bien que ce
+          qu’il a écrit et même appris par cœur<note n="54" place="foot" type="standard" xml:id="ftn54">
+              <p>
+                <hi rend="italic">Ibid.</hi>, X, 6, 4.</p>
+            </note> », tout comme le faisait <persName type="_temp">Hortensius</persName>. Pour <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName>
+          comme pour <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName>, la
+          composition mentale n’est qu’une forme accélérée de composition
+          écrite, qui implique les mêmes modes de mémorisation. La question de
+          la fixité du texte appris se pose donc avec la même acuité, et
+          <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName> met en garde
+          l’orateur contre le danger qu’il court s’il s’en tient étroitement
+          au texte mémorisé. Si le discours doit être prêt, il faut néanmoins
+          « laisser une place au hasard » et être capable de réagir face à
+          l’imprévu<note n="55" place="foot" type="standard" xml:id="ftn55">
+              <p>
+                <hi rend="italic">Ibid.</hi>, X, 6, 5.</p>
+            </note>.</p>
+          <p xml:id="d1e1209">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-hcnypq2u">oralité</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-jqcakmg5">improvisation</term>
+              </term>
+            </term>L’improvisation,
+          troisième mode de production du discours, marque une étape
+          supplémentaire dans le mouvement de séparation de l’oral et de
+          l’écrit, en faisant primer la prise en compte de l’imprévu sur
+          l’attention à la composition. La capacité à improviser est
+          indispensable à l’expression publique, l’orateur pouvant être
+          contraint soit de prendre la parole dans l’urgence, soit de réagir
+          ponctuellement au cours d’un procès et de se détacher du discours
+          qu’il avait préparé. L’improvisation représente donc l’exact opposé
+          des deux modalités précédentes. Elle est également le remède à leurs
+          défauts, puisqu’elle permet de corriger leur caractère figé.
+          L’orateur contraint d’improviser ne prononcera pourtant pas son
+          discours sans réfléchir, mais se livrera à une <hi rend="italic">
+              <foreign xml:lang="lat">cogitatio</foreign>
+            </hi>concomitante à sa prise de parole. Le danger est, en effet,
+          de parler sans savoir où le discours pourra aboutir. L’orateur devra
+          donc composer rapidement son plan, organiser la répartition de ses
+          arguments et, surtout, tenir le fil de ses développements. L’extrême
+          concentration dans laquelle il devra se trouver le prémunira contre
+          le trouble, le coq-à-l’âne ou les développements trop abondants<note n="56" place="foot" type="standard" xml:id="ftn56">
+              <p>
+                <hi rend="italic">Ibid.</hi>, X, 7, 5-7.</p>
+            </note>.</p>
+          <figure xml:id="d1e1224">
+            <graphic url="../icono/br/LDSII_40_Guerin_Tablette_img1.png"/>
+            <head xml:id="d1e1228">Portrait de Cicéron dans une page d’un
+            manuscrit représentant les allégories de la Dialectique (associée
+            à Zarathoustra) et de la Rhétorique (associée à Cicéron). Poème
+            latin en hommage au roi Robert I<hi rend="sup">er</hi> de Naples
+            (d’Anjou) (1277-1343). Ms. B. R. 38, 33 r., <hi rend="small-caps">xiv</hi>
+              <hi rend="sup">e</hi> siècle.</head>
+          </figure>
+          <p xml:id="d1e1253">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-jqcakmg5">improvisation</term>
+              </term>
+            </term>Quelle
+          place Quintilien réserve-t-il à la mémoire dans le processus
+          d’improvisation ? Celle-ci apparaît tout d’abord comme une faculté
+          de rétention immédiate. L’improvisation, ainsi, exige une forme de
+          rapidité d’esprit, qui est un don naturel <hi rend="italic">(<foreign xml:lang="lat">naturalis mobilitas
+          animi</foreign>)</hi>
+            <note n="57" place="foot" type="standard" xml:id="ftn57">
+              <p>
+                <hi rend="italic">Ibid.</hi>, X, 7, 8 et 22.</p>
+            </note> : elle permet de composer mentalement le propos quelques
+          secondes avant qu’il ne soit prononcé, mais aussi de se projeter
+          plus loin dans le discours en fabriquant ses idées à l’avance et en
+          les retenant, pour éviter de parler de façon saccadée, faute de
+          matière. L’orateur peut ainsi nourrir son discours à mesure que
+          s’épuise ce qui a été mentalement composé. Diction et composition
+          sont donc accomplies de conserve, et c’est une <hi rend="italic">
+              <foreign xml:lang="lat">memoria</foreign>
+            </hi>à court terme, mais à l’agilité beaucoup plus grande que dans
+          l’écriture et la méditation, qui intervient alors<note n="58" place="foot" type="standard" xml:id="ftn58">
+              <p>Ce type de mémoire correspond à ce que les sciences
+              cognitives nomment <hi rend="italic">« working memory »</hi>.
+              Cf. <hi rend="small-caps">Smith</hi>, 1999.</p>
+            </note>. Ni <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName> ni <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName> ne
+          s’attardent sur le processus lui-même, <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName>
+          se contentant d’insister sur l’indispensable effort d’organisation
+          mentale auquel l’orateur doit s’astreindre s’il entend produire un
+          discours structuré. Par ailleurs, la rapidité qu’exige
+          l’improvisation interdit l’application de la méthode des lieux
+          mémoriels, nécessairement lente puisqu’elle implique un double
+          processus d’encodage des informations. La mémoire mise en œuvre
+          n’est donc pas abordée de façon théorique ; on doit la considérer
+          comme une partie de la <hi rend="italic">
+              <foreign xml:lang="lat">mobilitas animi</foreign>
+            </hi>et, partant, comme un donné naturel. Elle tient néanmoins une
+          place considérable dans l’improvisation, car l’esprit ne peut
+          suffire à toutes les tâches : l’orateur doit puiser dans ses
+          « réserves » pour subvenir aux besoins du moment. Comme le souligne
+          <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName>, la capacité
+          à improviser découle directement de l’étude et du travail sans cesse
+          renouvelés. De multiples travaux d’écriture auront permis à
+          l’orateur de se doter d’une armature stylistique qu’il pourra
+          naturellement mettre en œuvre lorsqu’il improvisera ; des lectures
+          assidues lui garantiront une moisson d’arguments réemployables dans
+          l’urgence ; des entraînements et des méditations sans cesse réitérés
+          forgeront des réflexes intellectuels qui agiront naturellement quand
+          le besoin s’en fera sentir<note n="59" place="foot" type="standard" xml:id="ftn59">
+              <p>
+                <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio oratoria</hi>, XI, 7, 18, 24-28.</p>
+            </note>. L’improvisation est donc également conçue comme un
+          processus mémoriel, où la <hi rend="italic">
+              <foreign xml:lang="lat">memoria</foreign>
+            </hi>ne nous est plus seulement présentée comme un outil de
+          stockage et d’organisation, mais bien comme un instrument
+          d’élaboration du discours.</p>
+        </div>
+        <div type="section1" xml:id="d1e1303">
+          <head subtype="level1" xml:id="d1e1305">Mémoire et procédés de
+          composition</head>
+          <p xml:id="d1e1308">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-3ryxnaxd">style</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-ashhxdrq">argumentation</term>
+              </term>
+            </term>Parce
+          qu’elle impose aux théoriciens d’entrer dans le détail des processus
+          intellectuels mis en œuvre, l’improvisation fait apparaître de façon
+          évidente le rôle que peut jouer la mémoire dans la phase
+          d’élaboration du discours, et non plus seulement à la fin de
+          celle-ci. Que l’on s’intéresse à la fabrication des arguments ou au
+          travail stylistique, on constate que la mémoire occupe une place
+          centrale, d’abord comme espace de rétention, mais également comme
+          instrument de manipulation des mots et des idées. L’orateur,
+          lorsqu’il cherche en premier lieu à produire son argumentaire, passe
+          par un ensemble d’opérations systématiques où la mémoire intervient
+          au premier chef. Deux méthodes s’offrent à lui. L’une est analytique
+          et représente un processus très structuré : elle consiste à passer
+          en revue mentalement des arguments préconstitués, appelés « lieux »
+          <hi rend="italic">(<foreign xml:lang="lat">loci</foreign>)</hi>, et
+          à sélectionner ceux qui conviennent à l’affaire<note n="60" place="foot" type="standard" xml:id="ftn60">
+              <p>Le terme de « lieu » est donc employé de façon très variée
+              dans la rhétorique ancienne, et il convient de ne pas confondre
+              son sens argumentatif et son sens mémoriel. Cf. sur ce point <hi rend="small-caps">Mortensen</hi>, 2008.</p>
+            </note>. L’orateur cherche alors à rapprocher sa cause d’une série
+          de situations argumentatives concrètes, préalablement mémorisées et
+          directement transposables. L’autre méthode est synthétique ; elle
+          impose à l’orateur de rapporter le cas concret qui lui est soumis à
+          des protocoles d’argumentation abstraits, eux aussi mémorisés avec
+          soin.</p>
+          <p xml:id="d1e1323">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l'information<term ref="doi:10.34817/sv-qcvnt7ns">liste</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-olqsvam9">langue savante<term ref="doi:10.34817/sv-olmyobmt">latin</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-2zm67ekq">rhétorique</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l'information<term ref="doi:10.34817/sv-s6typyew">arbre</term>
+                </term>
+              </term>
+            </term>S’il
+          applique la première des deux méthodes possibles, l’orateur aura en
+          tête une architecture simple et aisément employable, une forme
+          d’arborescence qui, pour chaque situation, propose des moules
+          argumentatifs permettant, idéalement, de traiter toutes les
+          situations envisageables. Dans ce modèle théorisé par les premiers
+          manuels rhétoriques latins, le processus de fabrication des
+          arguments dépend donc de la mémorisation préalable d’une liste de
+          lieux, liste dans laquelle l’orateur progressera en sélectionnant
+          ceux qui peuvent convenir en fonction de l’acte, des circonstances
+          ou de l’individu mis en cause. Si le premier lieu ne peut être
+          appliqué, l’orateur emploiera le suivant selon une simple
+          progression linéaire : « si l’accusateur dit que le mobile était
+          l’argent, il montrera que l’accusé a toujours été cupide ; si
+          c’était l’obtention d’un honneur, qu’il a toujours été
+          ambitieux<note n="61" place="foot" type="standard" xml:id="ftn61">
+              <p>
+                <hi rend="italic">Rhetorica ad Herennium,</hi> II, 5
+              (trad. G. Achard modifiée).</p>
+            </note> », et ainsi de suite. Tout repose sur l’effort mémoriel
+          accompli : plus grand sera le nombre de lieux mémorisés par
+          l’orateur, plus il aura la possibilité de nourrir son argumentaire.
+          La qualité de la méthode tient donc à l’exhaustivité des listes
+          mémorisées, qui seront d’autant plus efficaces qu’elles auront su
+          embrasser tous les cas de figure possibles. Trouver un argument
+          consiste alors à plaquer sur le réel une grille préconstruite et à
+          puiser ensuite dans des réserves argumentatives patiemment
+          constituées<note n="62" place="foot" type="standard" xml:id="ftn62">
+              <p>Sur ces listes de lieux, cf. <hi rend="italic">Rhetorica ad
+              Herennium</hi>, II, 1-46 ; <hi rend="small-caps">Cicéron</hi>,
+              <hi rend="italic">De inuentione</hi>, I, 34-49.</p>
+            </note>.</p>
+          <p xml:id="d1e1350">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l’information<term ref="doi:10.34817/sv-qcvnt7ns">liste</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-t5ioxzdk">innovation</term>
+              </term>
+            </term>Cette
+          méthode fondée sur des listes trouve pourtant ses limites si
+          l’orateur ne parvient pas à faire entrer l’affaire qui l’occupe dans
+          l’une des catégories formalisées, que cette impossibilité découle
+          d’un oubli de sa part ou d’une faille dans la théorie employée.
+          Fondée sur un processus de réduction du réel à des structures types,
+          la méthode n’est plus d’aucun secours si le réel vient à résister ou
+          si les listes mémorisées échappent à l’orateur. Pis encore, cette
+          méthode ne favorise pas l’originalité de l’argumentation. Face à un
+          public formé à l’usage du discours, cette logique de remémoration
+          incite à la reproduction perpétuelle d’arguments qui, parce qu’ils
+          sont déjà connus des auditeurs, perdent la plus grande partie de
+          leur efficacité. Diviser les causes en différents genres et fournir
+          pour chacun d’entre eux une topique où l’orateur pourra aller puiser
+          pour reproduire des arguments sans cesse entendus n’est donc,
+          d’après les textes de maturité de <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName>,
+          que paresse d’esprit. À la liste infinie des attributs, des
+          circonstances et des arguments, à l’immense catalogue des cas
+          particuliers méthodiquement retenu puis parcouru selon une démarche
+          analytique, <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName> oppose une
+          réduction synthétique du particulier aux catégories générales <hi rend="italic">(<foreign xml:lang="lat">universae
+          quaestiones</foreign>)</hi>. Ces catégories sont en si petit nombre
+          « que les orateurs appliqués, doués d’une bonne mémoire et de
+          méthode, doivent les posséder parfaitement à force de les parcourir
+          mentalement et, pour ainsi dire, de les rabâcher<note n="63" place="foot" type="standard" xml:id="ftn63">
+              <p>
+                <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+              oratore</hi>, II, 140.</p>
+            </note> ». La réflexion de l’orateur porte alors sur les principes
+          mis en cause et ne s’attachera que dans un second temps aux
+          caractéristiques propres des individus et des faits<note n="64" place="foot" type="standard" xml:id="ftn64">
+              <p>
+                <hi rend="italic">Ibid.</hi>, II, 130.</p>
+            </note>. Le rôle de la mémoire s’en trouve profondément
+          modifié.</p>
+          <p xml:id="d1e1377">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-xmvthwt6">méthode</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-yo4dxpj6">apprentissage</term>
+              </term>
+            </term>Tout
+          d’abord, l’orateur confronté à son affaire ne tentera plus de
+          retrouver directement dans sa mémoire les arguments qu’il entend
+          employer. Désormais, les lieux ne peuvent être simplement transposés
+          de la théorie à la pratique, et la fabrication des arguments ne doit
+          plus être conçue comme un processus de réemploi. Les lieux eux-mêmes
+          ne sont plus, pour <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName>, des arguments
+          préconstitués et placés chacun à une étape du discours, mais des
+          ensembles logiques dont seront déduits les arguments adaptés<note n="65" place="foot" type="standard" xml:id="ftn65">
+              <p>
+                <hi rend="italic">Ibid.</hi>, II, 146 ; <hi rend="italic">Topica</hi>, 8.</p>
+            </note>. La doctrine, dès lors, ne vise plus à permettre la
+          sélection mécanique d’un argumentaire parmi l’ensemble des éléments
+          mémorisés, mais fournit des schèmes sur lesquels l’orateur
+          concentrera sa réflexion et qu’il passera mentalement en revue afin
+          d’en tirer les éléments applicables à sa cause<note n="66" place="foot" type="standard" xml:id="ftn66">
+              <p>
+                <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+              oratore</hi>, II, 146, 149.</p>
+            </note> : c’est en réfléchissant en termes de similitude, de
+          différence, de contraires, d’analogie, d’antécédents, de causes ou
+          d’effets qu’il produira ses arguments<note n="67" place="foot" type="standard" xml:id="ftn67">
+              <p>
+                <hi rend="italic">Topica</hi>, 10-23.</p>
+            </note>. <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName> le souligne
+          d’emblée : une telle méthode ne peut convenir au débutant. Elle
+          implique une culture profonde tirée de l’expérience et impose la
+          connaissance des institutions, des coutumes, de l’histoire et des
+          mentalités romaines<note n="68" place="foot" type="standard" xml:id="ftn68">
+              <p>
+                <hi rend="italic">Ibid</hi>., II, 131.</p>
+            </note>. L’orateur ne parviendra à fabriquer ses arguments qu’à la
+          seule condition de travailler sans cesse, au-delà des causes qui lui
+          sont soumises, à la constitution d’une mémoire organisée<note n="69" place="foot" type="standard" xml:id="ftn69">
+              <p>
+                <hi rend="italic">Ibid</hi>., I, 94.</p>
+            </note>. L’application <hi rend="italic">(<foreign xml:lang="lat">diligentia</foreign>) </hi>est ici le maître mot.
+          L’invention étant comparée à une chasse, l’orateur qui connaîtra
+          bien son domaine saura y tendre ses filets : alors, « rien ne [lui]
+          échappera, et tout ce que renferme le sujet [lui] tombera sous le
+          regard et sous la main<note n="70" place="foot" type="standard" xml:id="ftn70">
+              <p>
+                <hi rend="italic">Ibid</hi>., II, 147. La même image se
+              retrouve chez Quintilien : <hi rend="italic">Institutio
+              oratoria</hi>, V, 10, 20-22.</p>
+            </note> ». Il ne s’agit pas, bien évidemment, d’acquérir des
+          connaissances de façon mécanique, mais de se livrer à une étude
+          réfléchie des différentes structures logiques renfermées dans chaque
+          lieu, en nourrissant celle-ci du savoir le plus riche possible :
+          seuls des exercices préparatoires infatigablement répétés
+          permettront à l’orateur de maîtriser ces grandes catégories<note n="71" place="foot" type="standard" xml:id="ftn71">
+              <p>
+                <hi rend="small-caps">Cicéron</hi>, <hi rend="italic">De
+              oratore</hi>, II, 118-119.</p>
+            </note>. Une fois cette maîtrise acquise, la mémoire permettra à
+          l’orateur de passer en revue ces catégories générales. Désormais
+          comparée à une torche <hi rend="italic">(<foreign xml:lang="lat">lumen</foreign>)</hi>, la mémoire ne représente plus
+          seulement un processus de stockage et de récupération, mais un
+          véritable outil d’élaboration du propos<note n="72" place="foot" type="standard" xml:id="ftn72">
+              <p>
+                <hi rend="italic">Ibid.</hi>, II, 149.</p>
+            </note>. Elle cesse, par conséquent, d’être considérée comme un
+          moyen de reproduction mécanique. C’est en se remémorant des
+          structures logiques et en mobilisant la totalité du savoir
+          patiemment acquis que l’orateur pourra argumenter : la mémoire
+          devient un instrument de création à part entière.</p>
+          <p xml:id="d1e1472">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-3ryxnaxd">style</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-mqdxwy9r">instrument d'inscription<term ref="doi:10.34817/sv-uwcfm6qw">stylet</term>
+                </term>
+              </term>
+            </term>À
+          cette conception d’une mémoire instrumentale propre à l’invention,
+          <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName> adjoint une
+          représentation plus floue, qui tend à assimiler la mémoire à l’<hi rend="italic">
+              <foreign xml:lang="lat">habitus</foreign>
+            </hi>et au réflexe acquis à force d’étude. Si la mémoire joue un
+          rôle dans la composition stylistique, c’est en effet sous la forme
+          d’une naturalisation des acquis. Mémoire des textes, elle ne doit
+          plus intervenir de façon consciente chez l’orateur, mais se
+          substituer à sa propre pensée. L’orateur, lorsqu’il compose
+          effectivement, se laisse aller à un mouvement qu’il ne contrôle pas
+          totalement : « Alors tout […] se présente de soi-même, et toutes les
+          idées, toutes les tournures […] viennent nécessairement se placer
+          les unes après les autres sous la pointe du stylet. Alors, au cours
+          de l’écriture, les mots trouvent la place qui est la leur, et les
+          figures prennent leur forme achevée<note n="73" place="foot" type="standard" xml:id="ftn73">
+              <p>
+                <hi rend="italic">Ibid.</hi>, I, 151.</p>
+            </note>. » La dimension stylistique de la composition ne peut donc
+          être abordée à partir de règles de production : seule la « nature
+          exercée » <hi rend="italic">(<foreign xml:lang="lat">exercitata
+          natura</foreign>) </hi>intervient ici<note n="74" place="foot" type="standard" xml:id="ftn74">
+              <p>
+                <hi rend="italic">Ibid</hi>., III, 125.</p>
+            </note>. Lorsqu’il se penche sur la construction stylistique de
+          son discours, l’orateur quitte le domaine où il pouvait se reposer
+          sur des protocoles clairement formalisés : c’est à son propre talent
+          qu’il fait appel, les règles rhétoriques (niveaux de style, figures,
+          tropes, rythme) ne lui offrant plus désormais les moyens de
+          produire, mais simplement de contrôler ce qu’il écrit, médite ou
+          improvise.</p>
+          <p xml:id="d1e1499">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-yo4dxpj6">apprentissage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-rlg2tftf">imitation</term>
+              </term>
+            </term>À
+          nouveau, le succès dépendra de l’ampleur des connaissances
+          maîtrisées par l’orateur : de l’abondance des idées et de la
+          connaissance des grands textes découleront naturellement la richesse
+          et la qualité de l’expression. La mémoire intervient donc une fois
+          encore comme capacité de stockage. Mais elle doit désormais devenir
+          une seconde nature et ne plus être utilisée de façon thématisée,
+          comme elle l’était dans le cadre de l’invention. Les exercices
+          stylistiques préparatoires auxquels l’orateur doit s’astreindre
+          représentent non seulement des procédés de mémorisation, mais plus
+          encore des efforts d’assimilation et d’intégration du style
+          efficace. <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName> préconise un
+          travail écrit. Si l’orateur s’astreint à écrire, avec toute
+          l’attention nécessaire, de multiples discours, l’art de composer se
+          mettra en place de lui-même. Les exercices d’imitation ne seront pas
+          inutiles : ils consistent à paraphraser des passages connus en prose
+          ou en vers. Ils seront plus profitables encore s’ils portent sur des
+          textes grecs : l’orateur ne sera pas paralysé par la langue de ses
+          modèles comme il pourrait l’être face à des textes latins, et la
+          traduction forgera son style. Il réécrira à de multiples reprises
+          les discours qu’il aura lui-même prononcés pour chercher à atteindre
+          la perfection stylistique. Enfin, il apprendra par cœur autant
+          d’œuvres littéraires et de discours qu’il lui sera possible, et ne
+          négligera pas de retenir <hi rend="italic">
+              <foreign xml:lang="lat">uerbatim</foreign>
+            </hi>ses propres compositions quand elles seront de qualité : les
+          tournures heureuses lui viendront d’autant plus facilement<note n="75" place="foot" type="standard" xml:id="ftn75">
+              <p>
+                <hi rend="italic">Ibid.</hi>, I, 149, 154-155, 157 ; III,
+              125, 177, 194 ; <hi rend="small-caps">Quintilien</hi>, <hi rend="italic">Institutio oratoria</hi>, X, 5, 1-11.</p>
+            </note>. Le talent stylistique est donc le résultat d’un
+          entraînement qui permet de transformer la technique en réflexe, sous
+          la forme de ce que les sciences cognitives placent sous la catégorie
+          de « mémoire implicite<note n="76" place="foot" type="standard" xml:id="ftn76">
+              <p>
+                <hi rend="small-caps">Schacter</hi>, 1987 ; <hi rend="small-caps">Roediger</hi>, 1990 ; <hi rend="small-caps">Schacter</hi>, 1999.</p>
+            </note> », une mémoire ne reposant pas sur la remémoration
+          consciente des éléments retenus. L’apprentissage par cœur, la
+          réécriture permanente et de fréquentes lectures ne font plus
+          intervenir la mémoire artificielle dont on sait qu’elle ne retient
+          que malaisément les mots : le style, domaine de la technique s’il en
+          est, doit s’intégrer à la <hi rend="italic">
+              <foreign xml:lang="lat">memoria naturalis</foreign>
+            </hi> de l’orateur. Le style et cette forme première de mémoire ne
+          sont plus, dans ce cas, des outils, mais s’assimilent à l’orateur
+          lui-même. C’est à ce prix que les mots et les tournures lui
+          viendront à l’esprit sans difficulté et qu’il atteindra l’aisance
+          dans la composition mentale et l’improvisation. La mémoire de
+          l’orateur devient ainsi une mémoire procédurale, dépassant toutes
+          les techniques mémorielles recensées, une mémoire avec laquelle
+          l’orateur doit, nécessairement, faire corps.</p>
+          <p rend="break" xml:id="d1e1538">*</p>
+          <p xml:id="d1e1541">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-5ntbwbaj">formalisation</term>
+              </term>
+            </term>Outil
+          de reproduction mais aussi d’élaboration, la mémoire telle que la
+          conçoivent les traités de rhétorique latins est un objet complexe,
+          soumis à des formalisations diverses et parfois contradictoires. Si
+          l’outil mémoriel varie par le degré de précision qu’il est possible
+          de lui donner, par sa facilité d’emploi ou, plus radicalement, par
+          son objectivation ou son intégration inconsciente à la pratique,
+          c’est que, loin de toute rigidité, il doit toujours être adapté à la
+          démarche intellectuelle qu’il est censé servir. Conçue à la fois
+          comme espace de rétention, comme instrument ou comme <foreign xml:lang="lat">
+              <hi rend="italic">habitus</hi>
+            </foreign>, la mémoire se déploie dans un rapport souple entre
+          objet (texte à produire ou à retenir), circonstances (déclamation,
+          plaidoirie préparée, réponse) et mode de préparation de l’orateur
+          (écriture, méditation, improvisation). Du vaste et lourd appareil
+          des lieux mémoriels à la vivacité de la mémoire implicite se dessine
+          toute la complexité des pratiques intellectuelles d’une société
+          maniant également oralité et écriture, mais où les conditions
+          matérielles de production, de stockage et d’extraction de
+          l’information contraignent le lettré à se reposer, pour l’essentiel,
+          sur les facultés mémorielles dont il aura su se doter.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e1552">
+        <head xml:id="d1e1554">Bibliographie</head>
+        <listBibl xml:id="d1e1557">
+          <bibl xml:id="d1e1559">
+            <hi rend="small-caps">Andersen</hi>, 1996 :
+          Ø. <hi rend="small-caps">Andersen</hi>, « <hi rend="italic">Lingua
+          Suspecta :</hi> On Concealing and Displaying the Art of Rhetoric »,
+          <hi rend="italic">Symbolae Osloenses</hi>, 71, p. 68-86.</bibl>
+          <bibl xml:id="d1e1574">
+            <hi rend="small-caps">Andersen</hi>, 2001 :
+          Ø. <hi rend="small-caps">Andersen</hi>, « How Good an Orator Should
+          Be », <hi rend="italic">in </hi>C. W. Wooten (éd.), <hi rend="italic">The Orator in Action and Theory in Greece and Rome.
+          Essays in Honor of George A. Kennedy</hi>, Leyde, p. 3-16.</bibl>
+          <bibl xml:id="d1e1589">
+            <hi rend="small-caps">Bergmann</hi>, 1994 :
+          B. <hi rend="small-caps">Bergmann</hi>, « The Roman House as Memory
+          Theater : The House of the Tragic Poet in Pompeii », <hi rend="italic">The Art Bulletin</hi>, 76, p. 225-256.</bibl>
+          <bibl xml:id="d1e1601">
+            <hi rend="small-caps">Bonner</hi>, 1969 :
+          S. F. <hi rend="small-caps">Bonner</hi>, <hi rend="italic">Roman
+          Declamation in the Late Republic and Early Empire</hi>,
+          Liverpool.</bibl>
+          <bibl xml:id="d1e1613">
+            <hi rend="small-caps">Burnyeat</hi>, 1997 :
+          M. F. <hi rend="small-caps">Burnyeat</hi>, « Postscript on Silent
+          Reading », <hi rend="italic">The Classical Quarterly</hi>, 47,
+          p. 74-76.</bibl>
+          <bibl xml:id="d1e1626">
+            <hi rend="small-caps">Carruthers</hi>, 1990 :
+          M. <hi rend="small-caps">Carruthers</hi>, <hi rend="italic">The Book
+          of Memory. A Study of Memory in Medieval Culture</hi>.</bibl>
+          <bibl xml:id="d1e1638">
+            <hi rend="small-caps">Carruthers</hi>, 1998 :
+          M. <hi rend="small-caps">Carruthers</hi>, <hi rend="italic">The
+          Craft of Thought. Meditation, Rhetoric, and the Making of Images,
+          400-1200</hi>, Cambridge.</bibl>
+          <bibl xml:id="d1e1650">
+            <hi rend="small-caps">Dorandi</hi>, 2000 :
+          T. <hi rend="small-caps">Dorandi</hi>, <hi rend="italic">Le Stylet
+          et la tablette. Dans le secret des auteurs antiques</hi>,
+          Paris.</bibl>
+          <bibl xml:id="d1e1662">
+            <hi rend="small-caps">Doucet</hi>, 1987 :
+          D. <hi rend="small-caps">Doucet</hi>, « L’<hi rend="italic">Ars
+          memoriae </hi>dans <hi rend="italic">Les Confessions »</hi>, <hi rend="italic">Revue des études augustiniennes</hi>, 33,
+          p. 49-69.</bibl>
+          <bibl xml:id="d1e1680">
+            <hi rend="small-caps">Farrell</hi>, 1997 :
+          J. <hi rend="small-caps">Farrell</hi>, « The Phenomenology of Memory
+          in Roman Culture »,<hi rend="italic"> The Classical Journal</hi>,
+          92, p. 373-383.</bibl>
+          <bibl xml:id="d1e1692">
+            <hi rend="small-caps">Gavrilov</hi>, 1997 :
+          A. K. <hi rend="small-caps">Gavrilov</hi>, « Techniques of Reading
+          in Classical Antiquity »,<hi rend="italic"> The Classical
+          Quarterly</hi>, 47, p. 56-73.</bibl>
+          <bibl xml:id="d1e1705">
+            <hi rend="small-caps">McGaugh</hi>, 1999 :
+          J. L. <hi rend="small-caps">McGaugh</hi>, « Modulation of Memory
+          Storage », in R. A. Wilson et F. C. Keil (éd.), <hi rend="italic">The MIT Encyclopedia of the Cognitive Sciences</hi>,
+          Cambridge, p. 522-524.</bibl>
+          <bibl xml:id="d1e1717">
+            <hi rend="small-caps">Molyneux</hi>, 1971 :
+          J. H. <hi rend="small-caps">Molyneux</hi>, « Simonides and the
+          Dioscuri », <hi rend="italic">Phoenix</hi>, 25, p. 197-205.</bibl>
+          <bibl xml:id="d1e1729">
+            <hi rend="small-caps">Mortensen</hi>, 2008 :
+          D. E. <hi rend="small-caps">Mortensen</hi>, « The <hi rend="italic">Loci </hi>of Cicero », <hi rend="italic">Rhetorica</hi>, 26, p. 31-56.</bibl>
+          <bibl xml:id="d1e1744">
+            <hi rend="small-caps">Roediger</hi>, 1990 :
+          H. L. III <hi rend="small-caps">Roediger</hi>, « Implicit Memory :
+          Retention Without Remembering », <hi rend="italic">American
+          Psychologist</hi>, 45, p. 1043-1056.</bibl>
+          <bibl xml:id="d1e1756">
+            <hi rend="small-caps">Schacter</hi>, 1987 :
+          D. L. <hi rend="small-caps">Schacter</hi>, « Implicit Memory :
+          History and Current Status »,<hi rend="italic"> Journal of
+          Experimental Psychology : Learning, Memory, &amp; Cognition</hi>,
+          13, p. 501-518.</bibl>
+          <bibl xml:id="d1e1768">
+            <hi rend="small-caps">Schacter</hi>, 1999 :
+          D. L. <hi rend="small-caps">Schacter</hi>, « Implicit vs. Explicit
+          Memory », in R. A. Wilson &amp; F. C. Keil (éd.), <hi rend="italic">The MIT Encyclopedia of the Cognitive Sciences</hi>,
+          Cambridge, p. 394-395.</bibl>
+          <bibl xml:id="d1e1781">
+            <hi rend="small-caps">Small</hi>, 1997 :
+          J. P. <hi rend="small-caps">Small</hi>, <hi rend="italic">Wax
+          Tablets of the Mind. Cognitive Studies of Memory and Literacy in
+          Classical Antiquity</hi>, Londres.</bibl>
+          <bibl xml:id="d1e1793">
+            <hi rend="small-caps">Smith</hi>, 1999 :
+          E. E. <hi rend="small-caps">Smith</hi>, « Working Memory », in
+          R. A. Wilson et F. C. Keil (éd.),<hi rend="italic"> The MIT
+          Encyclopedia of the Cognitive Sciences</hi>, Cambridge,
+          p. 888-890.</bibl>
+          <bibl xml:id="d1e1805">
+            <hi rend="small-caps">Starr</hi>, 1991 :
+          R. J. <hi rend="small-caps">Starr</hi>, « Reading Aloud : Lectores
+          and Roman Reading »,<hi rend="italic"> The Classical Journal</hi>,
+          86, p. 337-343.</bibl>
+          <bibl xml:id="d1e1817">
+            <hi rend="small-caps">Sumner</hi>, 1973 :
+          G. V. <hi rend="small-caps">Sumner</hi>, <hi rend="italic">The
+          Orators in Cicero’s Brutus : Prosopography and Chronology</hi>,
+          Toronto.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

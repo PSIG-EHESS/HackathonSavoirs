@@ -1,0 +1,2093 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:marcrel="http://www.loc.gov/loc.terms/relators" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-19T14:39:33.7+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="Metis-6-2008-K-Thein">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" type="main">La force du vraisemblable. Philostrate,
+        Callistrate et l’image à l’épreuve de l’<hi rend="italic">ekphrasis</hi>
+        </title>
+        <author role="aut">
+          <forename>Karel</forename>
+          <surname>Thein</surname>
+          <idno type="IDREF">060344539</idno>
+          <affiliation>Université Charles, Prague</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Seconde édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification 3.0 non transposé - CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/AKG2JLLY" type="journalArticle" xml:lang="">
+          <analytic>
+            <title level="a">La force du vraisemblable. Philostrate,
+            Callistrate et l’image à l’épreuve de l’ekphrasis</title>
+            <idno type="DOI">https://doi.org/10.4000/books.editionsehess.2411</idno>
+            <author>
+              <forename>Karel</forename>
+              <surname>Thein</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Mètis</title>
+            <idno type="ISSN">978-2-7132-2604-5</idno>
+            <imprint>
+              <biblScope unit="volume">Dossier : S'habiller, se déshabiller
+              dans les mondes anciens</biblScope>
+              <biblScope unit="issue">N.S.6</biblScope>
+              <biblScope unit="page">315-344</biblScope>
+              <date>2008</date>
+              <note type="url">http://books.openedition.org/editionsehess/2411</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre"/>
+        <language ident="grc"/>
+        <language ident="lat"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>Philostratus</item>
+            <item>Callistratus</item>
+            <item>ekphrasis</item>
+            <item>description of the works of art</item>
+            <item>description and proper names</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>Philostrate</item>
+            <item>Callistrate</item>
+            <item>ekphrasis</item>
+            <item>description des œuvres d’art</item>
+            <item>description et noms propres</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-e3qbnqtq">invention</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-rlg2tftf">imitation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-4xfvhkky">vérité</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+          </term>
+          <term>
+            <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="0175" to="0300" type="_temp">Du 2e au 4e
+            siècles</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-04-17T17:48:19.676+02:00" who="Métopes/PDN">Conversion en XML-TEI Métopes à partir d'un source
+      XML-TEI lodel</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">La force du vraisemblable. Philostrate,
+          Callistrate et l’image à l’épreuve de l’<hi rend="italic">ekphrasis</hi>
+          </titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Karel Thein</docAuthor>
+          <affiliation>Université Charles, Prague</affiliation>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie</term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+        artistique</term>
+          </term>L’article s’arrête sur certaines ambiguïtés
+        qui accompagnent l’interprétation de l’art ancien de l’<hi rend="italic" style="typo_Italique">ekphrasis</hi>. Dans ce cadre à la
+        fois théorique et historique, une place d’honneur est donnée à
+        Philostrate l’Ancien et à son épistémologie de l’incertitude. Sur son
+        exemple sont alors analysés l’usage des noms propres dans les
+        descriptions des œuvres d’art et, en rapport avec le problème de
+        l’imagination, les effets de la négation linguistique. Ces analyses
+        montrent les libertés que Philostrate, dans ses<hi rend="italic" style="typo_Italique"> Images</hi>, prend avec la codification de
+        l’<hi rend="italic" style="typo_Italique">ekphrasis</hi> dans les
+        manuels de rhétorique. En même temps, l’article offre une discussion
+        détaillée de diverses contributions au numéro spécial de<hi rend="italic" style="typo_Italique"> La Licorne</hi> consacré à la
+        question de l’<hi rend="italic" style="typo_Italique">ekphrasis</hi>
+        (n°. 75, 2006 :<hi rend="italic" style="typo_Italique"> Défi de l’art.
+        Philostrate, Callistrate et l’image sophistique</hi>). Cette
+        discussion permet d’élargir le champ de l’analyse jusqu’aux rapports
+        entre les descriptions des peintures et des sculptures.</p>
+        <p xml:lang="eng">The article discusses several key issues in
+        interpreting the art of<hi rend="italic" style="typo_Italique">
+        ekphrasis</hi>, with a special emphasis on the Elder Philostratus and
+        his epistemology of incertainty. It this context, it focuses on the
+        ekphrastic use of proper names and on Philostratus’ use of linguistic
+        negation. These analyses confirm that Philostratus feels perfectly
+        free to transgress the codification of<hi rend="italic" style="typo_Italique"> ekphrasis</hi> in the manuals of rhetorics. At
+        the same time, the article offers a detailed review of the
+        contributions to a recent number of<hi rend="italic" style="typo_Italique"> La Licorne</hi> (n°. 75, 2006:<hi rend="italic" style="typo_Italique"> Défi de l’art. Philostrate, Callistrate et
+        l’image sophistique</hi>). This review leads then to a brief
+        discussion of the differences between the descriptions of paintings
+        and the descriptions of statues.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e169">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image</term>
+            </term>
+          </term>Il n’y a pas
+        d’image simple. Du simple fait d’être image, elle implique une
+        structure, qui n’est pas forcément celle du rapport à l’objet
+        extérieur perçu à travers les sens. Au cœur de ce rapport même,
+        apparemment conforme au geste déictique plus direct, se trouvent
+        imbriquées les dimensions<hi rend="italic"> actives</hi> de la mémoire
+        et de l’imagination. Ces dernières, ouvrières littéralement
+        intarissables (voir Platon,<hi rend="italic"> Philèbe</hi>, 39 d-40
+        a), tendent alors à organiser l’intérieur de chaque image en
+        narration. C’est un complexe qui apparaît d’emblée comme « image »,
+        celui dont on n’analyse qu’après coup, et coup par coup, les
+        composantes qui, au niveau discursif, se laissent tirer du côté de la
+        rhétorique, de l’histoire de l’art, de la philosophie. Voilà une des
+        raisons de la fascination durable qu’exerce, à travers les genres fort
+        différents du discours, l’exercice d’apparence descriptive, celui de
+        l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi>, qu’il s’agisse de l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> tout court ou de l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> dite notionnelle qui décrit les images mentales, celles du
+        présent alternatif et du futur, de l’œuvre encore à venir ou en train
+        de se faire<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Sur la « notional ekphrasis » voir, par exemple, John <hi rend="small-caps">Hollander</hi>,<hi rend="italic"> Gazer’s
+            Spirit : Poems Speaking to Silent Works of Art</hi>, Chicago,
+            1995.</p>
+          </note>. C’est probablement la difficulté même de trancher entre ces
+        deux registres qui renforce ladite fascination — et qui nous fait
+        revenir, toujours et encore, au texte dont la trame est tissée de
+        cette ambiguïté : aux<hi rend="italic"> Images</hi> de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>.</p>
+        <p xml:id="d1e200">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-m6tdpkvp">imprimé</term>
+            </term>
+          </term>Depuis leur
+        première édition imprimée, celle d’<persName ref="02730762X" type="idref" xml:base="https://www.idref.fr/">Alde Manuce</persName>
+        datant de <date type="_temp" when="1503">1503</date>, ces<hi rend="italic"> Images</hi>, accompagnées d’une deuxième série d’<hi rend="italic">Images</hi> de la plume du Jeune <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> et d’une série
+        de descriptions de statues par <persName ref="032748027" type="idref" xml:base="https://www.idref.fr/">Callistrate</persName>, n’ont cessé
+        d’inspirer les réactions littéraires et peintes (tout de suite, on
+        songe à <persName ref="027336530" type="idref" xml:base="https://www.idref.fr/">Titien</persName>), mais aussi les
+        spéculations sur le<hi rend="italic"> paragone</hi> et les Anciens ou,
+        plus généralement, sur la philosophie de l’art (on songe à <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> et <persName ref="029322219" type="idref" xml:base="https://www.idref.fr/">Lessing</persName>). Pourtant, ce
+        n’est que depuis une quinzaine d’années que les interprétations d’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> bénéficient de nouvelles manières de théoriser à la fois
+        l’image, le langage et l’histoire ou, plutôt, la nature même de
+        l’objet historique. Un nombre croissant d’analyses continue à
+        confirmer que l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> n’est pas un genre proprement dit, mais plutôt un ensemble
+        hétérogène des pratiques d’écriture : qu’on se rappelle, par exemple,
+        les tensions entre la codification de l’<foreign xml:lang="grc">
+            <hi rend="italic">ekphrasis</hi>
+          </foreign> dans les manuels de rhétorique et la liberté d’un
+        <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>, ou bien
+        celles entre le sublime épique de certaines descriptions et les
+        éclairs fulgurants et fugitifs des épigrammes ekphrastiques<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Sur l’étendue de l’<hi rend="italic">ekphrasis</hi> voir Jaś
+            <hi rend="small-caps">Elsner</hi>, « Genres of Ekphrasis »,<hi rend="italic"> The Verbal and the Visual: Cultures of Ekphrasis in
+            Antiquity,</hi> nº spécial de<hi rend="italic"> Ramus</hi> 31,
+            2002, p. 1-18 ; Shadi <hi rend="small-caps">Bartsch</hi>, Jaś <hi rend="small-caps">Elsner</hi>, « Introduction : Eight Ways of
+            Looking at an Ekphrasis »,<hi rend="italic"> Classical
+            Philology</hi> 102, n. 1 (Special Issue on Ekphrasis), 2007, p.
+            i-vi. Ces deux numéros spéciaux sur l’<hi rend="italic">ekphrasis</hi> contiennent les bibliographies
+            détaillées. Sur les épigrammes ekphrastiques voir Kathryn <hi rend="small-caps">Gutzwiller</hi>, « Art’s Echo: The Tradition of
+            Hellenistic Ecphrastic Epigrams », dans Annette <hi rend="small-caps">Hader</hi>, Remco <hi rend="small-caps">Regtuit</hi>, Gerry <hi rend="small-caps">Wakker</hi> (éd.),<hi rend="italic"> Hellenistic
+            Epigrams</hi>, Leuven, 2002, p. 85-112.</p>
+          </note>. Il serait dont présomptueux de vouloir résumer en deux
+        lignes ce qu’est une<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">ekphrasis</hi>
+          </foreign> ou dire pourquoi c’est la description des images
+        fabriquées ou artistiques qui est devenue, au fil des siècles, le cas
+        exemplaire de l’exercice ekphrastique (en un mot : ceci semble tenir à
+        ce que deux des premières<hi rend="italic">
+            <foreign xml:lang="grc">ekphraseis</foreign>
+          </hi> détaillées et pour ainsi dire<hi rend="italic">
+        systématiques</hi> concernent l’élaboration progressive d’un objet qui
+        est à la fois une image créée par l’art divin et un monde qui,
+        précisément en tant qu’artefact, devient compréhensible ; il s’agit
+        évidemment du bouclier d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> dans l’<hi rend="italic">Iliade</hi> XVIII et du cosmos du<hi rend="italic">
+        Timée</hi> mais aussi du<hi rend="italic"> Critias</hi>)<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Je reviendrai ailleurs sur ces textes et sur la façon dont
+            Platon rivalise avec Homère. Le rapprochement entre<hi rend="italic"> Le Bouclier</hi> homérique et, précisément,
+            l’ensemble du<hi rend="italic"> Timée</hi> et du<hi rend="italic">
+            Critias</hi> semble évident. Sont pourtant assez rares ceux qui
+            l’ont proposé au moins pour le<hi rend="italic"> Timée</hi> seul.
+            Voir Jackie <hi rend="small-caps">Pigeaud</hi>,<hi rend="italic">
+            L’art et le vivant</hi>, Paris, 1995, p. 26-27 ; Thomas <hi rend="small-caps">Johansen</hi>,<hi rend="italic"> Plato’s Natural
+            Philosophy : A Study of the Timaeus-Critias</hi>, Cambridge, 2004,
+            p. 198.</p>
+          </note>.</p>
+        <p xml:id="d1e314">Bien qu’il soit impossible de donner ici une
+        bibliographie des travaux importants, deux recueils sur l’art et le
+        texte en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> et à <placeName ref="3169069" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, édités par
+        <persName ref="028539044" type="idref" xml:base="https://www.idref.fr/">Simon Goldhill</persName> avec
+        <persName ref="028763289" type="idref" xml:base="https://www.idref.fr/">Robin Osborne</persName> et par
+        <persName ref="033698872" type="idref" xml:base="https://www.idref.fr/">Jaś Elsner</persName> respectivement,
+        doivent être mentionnés à titre d’exemples mais aussi pour avoir
+        marqué les recherches postérieures jusqu’au numéro spécial de<hi rend="italic"> Classical Philology</hi> qui rassemble les textes issus
+        d’un colloque tenu à <placeName ref="2640729" type="geonames" xml:base="https://www.geonames.org/">Oxford</placeName> en <date type="_temp" when="2002-09">septembre 2002</date>
+          <note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Simon <hi rend="small-caps">Goldhill</hi>, Robin <hi rend="small-caps">Osborne</hi> (éd.),<hi rend="italic"> Art and
+            Text in Ancient Greek Culture</hi>, Cambridge, 1994 ; Jaś <hi rend="small-caps">Elsner</hi> (éd.),<hi rend="italic"> Art and
+            Text in Roman Culture</hi>, Cambridge, 1996 ;<hi rend="italic">
+            Classical Philology</hi> 102, nº 1, 2007. Il ne faut pas oublier
+            trois livres différents mais influents : Page <hi rend="small-caps">duBois</hi>,<hi rend="italic"> History,
+            Rhetorical Description and the Epic</hi>, Cambridge, 1982 ; Shadi
+            <hi rend="small-caps">Bartsch</hi>,<hi rend="italic"> Decoding the
+            Ancient Novel : The Reader and the Role of Description in
+            Heliodorus and Achilles Tatius</hi>, Princeton, 1989 ; Murray <hi rend="small-caps">Krieger</hi>,<hi rend="italic"> Ekphrasis : The
+            Illusion of the Natural Sign</hi>, Baltimore, 1992.</p>
+          </note>. En <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> ou en
+        <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName> aussi, on
+        continue à publier de nombreux ouvrages et articles pertinents, y
+        compris la promenade dialogique parmi<hi rend="italic"> Les loges de
+        Philostrate</hi>, écrite par <persName ref="027073289" type="idref" xml:base="https://www.idref.fr/">Jackie Pigeaud</persName>
+          <note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>Jackie <hi rend="small-caps">Pigeaud</hi>,<hi rend="italic">
+            Les loges de Philostrate</hi>, Nantes, 2003. Signalons aussi
+            l’ouvrage collectif de Carlos <hi rend="small-caps">Lévy</hi>,
+            Laurent <hi rend="small-caps">Pernot</hi> (éd.),<hi rend="italic">
+            Dire l’évidence. Philosophie et rhétorique antiques</hi>, Paris,
+            1997, avec les textes de Ruth <hi rend="small-caps">Webb</hi> et
+            Sandrine <hi rend="small-caps">Dubel</hi> cités plus loin (notes
+            27 et 28).</p>
+          </note>. Maintenant,<hi rend="italic"> La Licorne</hi> emboîte le
+        pas à ces efforts et offre un numéro spécial destiné à ceux qui
+        s’interrogent sur <persName ref="030324149" type="idref" xml:base="https://www.idref.fr/">Philostrate l’Ancien</persName>,
+        <persName ref="032748027" type="idref" xml:base="https://www.idref.fr/">Callistrate</persName> et la Seconde
+        Sophistique. Les pages qui suivent esquissent quelques idées à partir
+        de ce recueil qui ne devrait pas passer inaperçu. Je tâcherai de
+        résumer quelques unes des positions défendues par différents auteurs,
+        tout en me réservant le droit à des développements indépendants.
+        Ceux-ci tourneront autour du travail de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>
+        avec le vraisemblable et l’incertain, et avec la négation
+        linguistique<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>Cet article est doté d’une sorte de<hi rend="italic">
+            Ringkomposition</hi>. La discussion des contributions à<hi rend="italic"> La Licorne</hi> y encadre un développement central
+            qui touche à l’<hi rend="italic">ekphrasis</hi> philostratéenne du
+            point de vue de la<hi rend="italic"> phantasia</hi> et du
+            langage.</p>
+          </note>.</p>
+        <p xml:id="d1e410">Dirigé par <persName ref="026800691" type="idref" xml:base="https://www.idref.fr/">Michel Costantini</persName>,
+        <persName ref="052301370" type="idref" xml:base="https://www.idref.fr/">Françoise Graziani</persName> et
+        <persName ref="059784326" type="idref" xml:base="https://www.idref.fr/">Stéphane Rolet</persName>, le
+        volume<hi rend="italic"> Défi de l’art. Philostrate, Callistrate et
+        l’image sophistique</hi> (<hi rend="italic">La Licorne</hi> 75, 2006)
+        rassemble onze contributions originales et réimprime la traduction
+        française des<hi rend="italic"> Descriptions de Statues</hi> de
+        <persName ref="032748027" type="idref" xml:base="https://www.idref.fr/">Callistrate</persName> par <persName ref="027184927" type="idref" xml:base="https://www.idref.fr/">Blaise
+        de Vigenère</persName> (<date type="_temp" when="1597">1597</date>).
+        C’est <persName ref="030324149" type="idref" xml:base="https://www.idref.fr/">Philostrate l’Ancien</persName> qui
+        est à l’honneur : neuf textes lui sont consacrés, en grande partie ou
+        entièrement. C’est surtout son œuvre qui incite aux considérations
+        théoriques sur les diverses limites du visible et, du même coup, sur
+        ce qui détermine la différence même entre l’image et le langage. Quant
+        à <persName ref="032748027" type="idref" xml:base="https://www.idref.fr/">Callistrate</persName>, hormis la
+        réimpression de son texte, deux contributions différentes traitent de
+        la tradition manuscrite des<hi rend="italic"> Descriptions</hi> et de
+        l’inscription des signes dans le lieu de la sculpture dont on esquisse
+        le « déroulement énonciatif »<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>Michel <hi rend="small-caps">Costantini</hi>, « Marmoréen, mais
+            encore », p. 98.</p>
+          </note>. De plus, <persName ref="052301370" type="idref" xml:base="https://www.idref.fr/">Françoise Graziani</persName> lui
+        dédie une partie de son texte. En revanche, <persName ref="032747586" type="idref" xml:base="https://www.idref.fr/">Philostrate le
+        Jeune</persName> reste, comme très souvent et malgré quelques belles
+        pages de <persName ref="132858355" type="idref" xml:base="https://www.idref.fr/">Ruth Webb</persName>, au seuil d’un
+        purgatoire théorique — et je tenterai donc d’indiquer brièvement
+        pourquoi il faudrait l’en sortir.</p>
+        <p xml:id="d1e431">Commençons toutefois par une question simple et
+        directe : la galerie à <placeName ref="3172394" type="geonames" xml:base="https://www.geonames.org/">Naples</placeName>, celle où se
+        déroulent les<hi rend="italic"> Images</hi> de <persName ref="030324149" type="idref" xml:base="https://www.idref.fr/">Philostrate l’Ancien</persName>,
+        est-elle un endroit réel ou imaginaire ? S’il s’agit d’une question
+        mille fois posée, <persName ref="111631807" type="idref" xml:base="https://www.idref.fr/">Nina Braginskaya</persName> et
+        <persName type="_temp">Dimitri Leonov</persName> la dépoussièrent
+        d’une manière intrigante : en étudiant de près la structure des<hi rend="italic"> Images</hi> et les traits stylistiques de la prose
+        philostratéenne. Ils concluent sans équivoque au caractère purement
+        littéraire de l’œuvre dont l’architectonique textuelle est trop
+        complexe pour correspondre à une série de tableaux réels. Contre
+        l’édition Teubner, qui s’appuie sur le manuscrit<hi rend="italic">
+        Bodleianus Laudianus</hi> 12 (682) daté ca. <date type="_temp" when="1500">1500</date>, ils refusent de diviser le très long
+        « Bosphore » en deux descriptions, et aboutissent donc à un nombre
+        total de 64<hi rend="italic"> ekphraseis</hi>, réparties en deux
+        livres formés de 30 et 34 descriptions respectivement, précédées par
+        un Prologue. Ce dernier fait partie intégrale de l’œuvre où il
+        introduit le motif des Heures auxquelles est dédiée la toute dernière
+        description. Pour ma part, j’ai l’impression que cet encadrement n’est
+        pas estimé à sa juste valeur, peut-être parce que l’analyse proposée
+        ne se préoccupe guère de l’art au temps de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>.
+        Quelque chose de la finesse à la fois théorique et linguistique du
+        traitement des<hi rend="italic"> Hôrai</hi> est ici perdu, y compris
+        l’ambiguïté du syntagme<hi rend="italic">
+            <foreign xml:lang="grc">sun hôra graphein</foreign>
+          </hi> qui conclut les<hi rend="italic"> Images</hi>. C’est elle qui
+        laisse une dernière fois entrevoir la possible duplicité du
+        peintre-écrivain, mis au service de la grâce qui préside autant à ses
+        énonciations qu’au monde ambiant des éléments, indiquant un lien entre
+        les dimensions invisible et visible partagées par le peintre et
+        l’écrivain, par le spectateur et le lecteur-auditeur<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>Cf. Jaś <hi rend="small-caps">Elsner</hi>, « Making Myth
+            Visual: The Horae of Philostratus and the Dance of the Text »,<hi rend="italic"> Römische Mitteilungen</hi> 107, 2000, p. 266 – 274
+            sur les<hi rend="italic"> Hôrai</hi> dans les arts visuels, p. 254
+            – 255 et 276 sur la fonction possible de<hi rend="italic"> sun
+            hôra graphein</hi>.</p>
+          </note>.</p>
+        <p xml:id="d1e471">L’analyse de ce motif nous mènerait, en fin de
+        compte, du côté d’une différence que <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>
+        lui-même établit dans un autre texte, celle entre la<hi rend="italic">
+            <foreign xml:lang="grc">mimêsis</foreign>
+          </hi> et la<hi rend="italic">
+            <foreign xml:lang="grc">phantasia</foreign>
+          </hi>
+          <note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>
+              <hi rend="italic">Vie d’Apollonios de Tyane</hi> VI, 19.</p>
+          </note>. Plus exactement, la<hi rend="italic">
+            <foreign xml:lang="grc">phantasia</foreign>
+          </hi> est nécessaire afin d’élaborer les représentations des dieux
+        (et peut-être des héros mythiques) dont les<hi rend="italic">
+        Images</hi> abondent et qui, d’après <persName ref="111631807" type="idref" xml:base="https://www.idref.fr/">Braginskaya</persName>
+        et <persName type="_temp">Leonov</persName>, y jouent un rôle
+        structurel ou plutôt structurant. Dans leur analyse, ils associent les
+        naissances des êtres divins avec les débuts des « cycles sémantiques »
+        dont se composeraient, à leur tour, les deux livres. Je ne peux rendre
+        justice aux détails de leur analyse formelle (<persName type="_temp">Dimitri Leonov</persName> est un mathématicien de
+        formation), mais il faut souligner que même ceux qui resteront les
+        plus sceptiques à l’égard de quelques unes de leurs conclusions sur
+        les symétries et proportions à l’œuvre dans les<hi rend="italic">
+        Images</hi>, y compris l’enlacement de la symétrie numérique et de la
+        symétrie stichométrique<note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>Ce qui donne, pour résultat, un texte expérimental et hautement
+            codifié (« surcomplexe ») que les auteurs eux-mêmes comparent à la
+            polyphonie médiévale qui faisait usage du symbolisme numérique.
+            Leur postulat premier est celui des « équilibres numérique et
+            stichométrique » (p. 14) que Philostrate conserve dans l’ensemble
+            des deux livres malgré la longueur variable des descriptions. La
+            clé de voûte de son système d’écriture consisterait alors en « la
+            loi de l’alternance des thèmes aux frontières des cycles » (p.
+            21), selon laquelle les six cycles déjà mentionnés possèdent
+            chacun la même structure. Pour l’architectonique de l’ensemble
+            voir les tables aux pages 26-29. Les auteurs annoncent la
+            découverte, par Andreï Vinogradoff, d’une structure numérique qui
+            présiderait au développement de la<hi rend="italic"> Vie
+            d’Apollonius de Tyane</hi>. D’où la question : un texte
+            suffisamment long et divisé en chapitres, peut-il<hi rend="italic"> éviter</hi> de contenir différentes structures
+            numériques ? Ceci dit, je ne conteste nullement la structure des
+            cycles décrit par les deux auteurs qui ont effectué une recherche
+            aux résultats fort utiles. De toute façon, ils ne vont pas jusqu’à
+            déchiffrer les codes cachés sous la surface textuelle (comme, par
+            exemple, Viola <hi rend="small-caps">Sachs</hi>,<hi rend="italic">
+            The Game of Creation : The Primeval Unlettered Language of Moby
+            Dick ; or, The Whale</hi>, Paris, 1982).</p>
+          </note>, seront sensibilisés à la diversité de la tradition
+        manuscrite des<hi rend="italic"> Images</hi> qui n’étaient pas
+        toujours divisées en deux livres seulement. Il existe aussi, dans sept
+        manuscrits différents, une « quadripartition » où le livre I reste
+        intact, mais où le livre II se divise en trois (la<hi rend="italic">
+        Souda</hi> parle également de quatre livres)<note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>Les auteurs se réfèrent au catalogue des manuscrits des<hi rend="italic"> Images</hi>, établi par Simone Follet et dont on
+            attend avec l’impatience la publication.</p>
+          </note>. Les auteurs rejettent l’hypothèse que le livre II (donc les
+        livres II-IV) aurai(en)t été écrit(s) plus tard et d’une manière
+        plutôt hâtive voire négligée (probablement comme on écrit la suite
+        d’une série télévisée à succès). Bien au contraire, l’ordre des
+        descriptions dans l’œuvre achevée ne correspond pas à l’ordre
+        chronologique de leur composition : composées d’abord de façon non
+        linéaire, c’est ensuite que les descriptions auraient été « mises
+        chacune à leur place » (p. 22). Tout cela faisait alors partie d’un
+        jeu littéraire destiné à un public très sophistiqué et avide non
+        d’exercices rhétoriques, mais de « belles lettres »<hi rend="italic">
+        littéralement</hi> autonomes : obéissant à leurs propres règles de
+        composition et d’appréciation ultra cultivée (voir p. 23-25).</p>
+        <p xml:id="d1e527">Comme toujours, le<hi rend="italic"> double</hi>
+        postulat d’un système numérique inscrit dans la structure du texte<hi rend="italic"> et</hi> d’une intention non déclarée de la part de
+        l’auteur ne manque pas de poser des problèmes. Je me limite à signaler
+        un seul cas. Dans son Prologue, <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>, avant de se
+        lancer dans la description des tableaux, décrit d’abord les
+        circonstances et la scène même de son exercice. Dans le temps<hi rend="italic"> présent</hi> de la composition du texte, il s’agit dont
+        de<hi rend="italic"> représenter</hi> au lecteur ce qui s’est déroulé,
+        un soir, à <placeName ref="3172394" type="geonames" xml:base="https://www.geonames.org/">Naples</placeName>, dans une
+        villa somptueuse. Ainsi, l’exercice de description (désigné comme un
+        effort pédagogique et non un éloge des différents peintres auquel le
+        narrateur a d’abord songé) se donne d’emblée comme un exercice de
+        mémoire. De toute évidence, par définition, ce dernier n’est pas
+        entièrement sans faille. Au sujet de l’agencement de la galerie,
+        <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> parle d’un
+        « portique à quatre ou même cinq voûtes » (Prologue, 4). D’après
+        <persName ref="111631807" type="idref" xml:base="https://www.idref.fr/">Braginskaya</persName> et <persName type="_temp">Leonov</persName>, cette expression nous fournit un
+        indice du code numérique (dont je n’ai pas bien saisi le rôle) et
+        n’est donc pas à mettre au compte de « l’oubli de l’auteur » qui
+        s’empresserait de se souvenir d’une galerie réelle (p. 19). Or
+        n’est-il pas possible d’y voir, simplement, l’indice d’un jeu que
+        <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>, l’homme de
+        lettres qui possède un extraordinaire sens du visuel, joue avec la
+        perception, l’attention et la mémoire comme autant d’éléments qui
+        forment la trame de son discours ?</p>
+        <p xml:id="d1e541">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-qr6v8x6n">imagination</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-j4tkm8dz">pensée</term>
+            </term>
+          </term>L’ensemble
+        des réactions que le texte de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> suscite chez
+        son lecteur est donc d’une nature plus complexe car plus hétérogène
+        que le plaisir lié au déchiffrement d’un code à la fois numérique et
+        littéraire. Le lien<hi rend="italic"> et</hi> la tension entre le
+        visuel et le linguistique sont non codifiables parce que, dans
+        l’activité de la pensée, les deux dimensions ne sont ni séparables ni
+        réductibles l’une à l’autre. Les couleurs, en commençant par les
+        couleurs divines des Heures qui font du monde même un tableau
+        (Prologue, 1), constituent un continu rempli de figurations multiples,
+        à visibilité très variée et variable. De ce continu, la pensée,
+        toujours accompagnée d’imagination, fait partie, et pourtant,
+        inséparable du langage, elle y apporte la capacité de trouer le
+        continu visuel non en cachant une chose derrière l’autre (ce que la
+        peinture sait très bien faire), mais par sa capacité fondamentale de
+        dire, dans le cadre d’une description, ce qui<hi rend="italic"> n’est
+        pas</hi> (de cette capacité de négation, il sera question plus loin ;
+        on verra qu’elle a sa pertinence pour les deux<hi rend="italic">
+            <foreign xml:lang="grc">phantasiai</foreign>
+          </hi> à l’œuvre chez <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> et pour
+        l’impossibilité d’une description simple).</p>
+        <p xml:id="d1e552">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique corporelle<term ref="doi:10.34817/sv-52ehd3pj">parole</term>
+            </term>
+          </term>Quant aux
+        rapports du visuel à la parole et à la mémoire, <persName ref="074704346" type="idref" xml:base="https://www.idref.fr/">Marie-Henriette Quet</persName> nous
+        en rappelle la richesse dans son « Voir, entendre, se ressouvenir ».
+        Elle aussi insiste sur l’appartenance des<hi rend="italic">
+        Images</hi> à l’hellénisme « savant et raffiné du <date from="0200" to="0299" type="_temp">III<hi rend="sup">e</hi> siècle</date> » (p.
+        46). Or, dans son cas, ce contexte est tissé plus amplement et
+        contient une considération sur les fonctions de l’<hi rend="italic">
+            <foreign xml:lang="grc">eikôn</foreign>
+          </hi> dans la Seconde Sophistique. Contre <persName ref="111631807" type="idref" xml:base="https://www.idref.fr/">Braginskaya</persName>
+        et <persName type="_temp">Leonov</persName> (mais aussi <persName ref="027113361" type="idref" xml:base="https://www.idref.fr/">Agnès
+        Rouveret</persName> ou <persName ref="132858355" type="idref" xml:base="https://www.idref.fr/">Ruth Webb</persName> dont je parlerai
+        plus loin), Quet défend fermement l’hypothèse des peintures réelles
+        que <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> « avait
+        effectivement vues, très vraisemblablement, en effet, dans l’une des
+        belles villas maritimes du golfe de <placeName ref="3172394" type="geonames" xml:base="https://www.geonames.org/">Naples</placeName> » (p. 48). Le
+        raffinement de ses descriptions correspondrait alors au goût cultivé
+        d’un collectionneur privé, celui qui aurait recruté un expert capable
+        de chercher et d’acheter les peintures d’artistes divers, précisément
+        en fonction de la place qu’elles trouveraient dans la galerie<note n="12" place="foot" type="standard" xml:id="ftn12">
+            <p>Sur la diversité des peintres représentés dans la collection
+            voir Prologue 4, cité par Marie-Henriette <hi rend="small-caps">Quet</hi>, p. 43, n. 66.</p>
+          </note>. Or il faut admettre que cette diversité ne semble pas se
+        refléter dans les<hi rend="italic">
+            <foreign xml:lang="grc">ekphraseis</foreign>
+          </hi> qui, bien qu’on puisse les distinguer selon le sujet et le
+        genre du tableau décrit, ne se préoccupent pas des différences
+        stylistiques. Elles se contentent plutôt de faire l’éloge de la<hi rend="italic"> clarté</hi> des<hi rend="italic"> détails</hi> ou de
+        figures particulières qui forment en quelque sorte des compositions à
+        l’intérieur de la composition d’ensemble (« ces abeilles si finement
+        peintes, dont toutes les parties, la trompe, les pieds, les ailes se
+        laissent si bien distinguer », II, 12, 1, trad. Bougot, révisée par
+        Lissarrague). De plus, Quet ajoute elle-même une remarque sur
+        l’absence d’intérêt pour les cadres et les dimensions des tableaux (p.
+        37). Pourrait-on y chercher un indice (pas plus) du caractère
+        imaginaire de l’objet de la description ? C’est l’imagination, à la
+        différence de l’<hi rend="italic">
+            <foreign xml:lang="grc">aisthêsis</foreign>
+          </hi>, qui est comme indifférente à l’échelle spatiale des objets
+        physiques<note n="13" place="foot" type="standard" xml:id="ftn13">
+            <p>Voir à ce sujet Eva <hi rend="small-caps">Brann</hi>,<hi rend="italic"> The World of the Imagination. </hi>
+              <hi rend="italic">Sum and Substance</hi>, Lanham (Maryland), 1991, p.
+            610-612 (et qui défend, en même temps, la correspondance entre
+            l’espace de l’imagination ou de la mémoire et l’espace euclidien).
+            Dans la « Note sur les auteurs », à la fin du volume dont il est
+            ici question, j’ai appris l’existence d’un texte de Michel <hi rend="small-caps">Costantini</hi> intitulé « La taille des dieux »
+            (<hi rend="italic">L’homme grec face à la nature et à lui-même.
+            Hommage à Antoine Thivel</hi>, Publications de la faculté des
+            lettres, arts et sciences humaines de Nice nº 60, 2000, p. 41-56).
+            Vu son titre, ce texte<hi rend="italic"> pourrait</hi>,
+            éventuellement, avoir à faire avec cette problématique ; à moins
+            qu’il ne s’agisse de quelque plaisanterie épicurienne.</p>
+          </note>. Bien sûr que l’espace où se trouvent les peintures doit<hi rend="italic"> en gros</hi> correspondre à celui d’une villa romaine ;
+        les dimensions réelles des tableaux un par un (des deux<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">xeniai</hi>
+          </foreign> jusqu’au « Le Bosphore » ou « Les Andriens ») n’en
+        restent pas moins floues.</p>
+        <p xml:id="d1e610">L’indifférence de l’imagination (y compris la<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">phantasia</hi>
+          </foreign> philostratéenne) à l’échelle des objets matériels se
+        laisse ainsi modérer par nos connaissances historiques sur la peinture
+        hellénistique et gréco-romaine. Pourtant, situer<hi rend="italic"> en
+        parole</hi> les tableaux dans une villa, c’est transformer la galerie
+        en question en un<hi rend="italic"> modèle</hi> abstrait dont les
+        parties ou composantes se détachent non de la forme spatiale des
+        perceptions — on imagine des objets<hi rend="italic"> dans
+        l’espace</hi> —, mais de la localisation concrète de ces mêmes objets.
+        Il est inutile d’insister sur le fait que cela facilite le transport
+        de ces derniers dans la mémoire. Et si, chez <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>,
+        les lieux de l’imagination et les lieux de la mémoire finissent par
+        être indiscernables, c’est que l’<hi rend="italic">objet</hi> le plus
+        proche de la description est de toute façon une image mentale. Cela
+        n’implique nullement l’irréalité d’un référent de la description, mais
+        au contraire son appartenance à la réalité d’un contexte toujours très
+        ample de l’activité même qui correspond à<hi rend="italic">
+            <foreign xml:lang="grc">ek-phrazein</foreign>
+          </hi> (que l’on utilise ce verbe ou pas) et qui n’est pas réductible
+        à l’imitation<note n="14" place="foot" type="standard" xml:id="ftn14">
+            <p>Dans leur « Introduction » au numéro déjà cité de<hi rend="italic"> Classical Philology</hi> sur l’<hi rend="italic">ekphrasis</hi>, Shadi <hi rend="small-caps">Bartsch</hi> et Jaś <hi rend="small-caps">Elsner</hi> évoquent à propos de la contribution
+            d’Adrian Rifkin une « métaphysique, voire théologie du textuel »
+            (p. vi), qui serait liée à l’exercice ekphrastique moderne, somme
+            toute archéologique. J’ai l’impression que le propos de Rifkin
+            dans le volume en question manifeste une sensibilité spécifique à
+            l’interprétation de la photographie et du film. N’empêche que
+            Philostrate, qui décrit les artefacts, ne cesse d’indiquer (sans
+            une affirmation ferme) la valeur de quelque chose du réel dont et
+            les choses et l’art de la peinture lui-même dérivent leur
+            arrangement.</p>
+          </note>. Seulement, dans ce contexte qui tend à s’élargir et qui
+        renvoie finalement (à travers les paysages, les cieux, les saisons,
+        les éléments, les abîmes maritimes) au cadre cosmique dont l’échelle
+        est à la fois déterminée et inconnue, les images mentales se laissent
+        sans résistance enrichir, plutôt qu’accompagner, par les données des
+        autres sens. La description n’est pas collée aux objets séparés de
+        leur atmosphère : plutôt, elle se meut dans l’élément du<hi rend="italic">
+            <foreign xml:lang="lat">sensus communis</foreign>
+          </hi> qui n’a pas d’organe (et pas d’objet) propre. Comme le suggère
+        <persName ref="074704346" type="idref" xml:base="https://www.idref.fr/">Marie-Henriette Quet</persName> :
+        les<hi rend="italic"> Images</hi> « valorisent au moins autant
+        l’auditif, voire l’olfactif que le visuel » (p. 47)<note n="15" place="foot" type="standard" xml:id="ftn15">
+            <p>Cf. Alessandra <hi rend="small-caps">Manieri</hi>, « Colori,
+            suoni e profumi nelle Imagines : principi dell’estetica
+            filostratea »,<hi rend="italic"> Quaderni urbinati di cultura
+            classica</hi> 63, 3, 1999, p. 111-121 (un article cité dans la
+            contribution de Ruth Webb et que je n’ai pas pu consulter). Voir
+            également Andrew <hi rend="small-caps">Laird</hi>, « Sounding Out
+            Ecphrasis : Art and Text in Catullus 64 »,<hi rend="italic">
+            Journal of Roman Studies</hi> 83, 1993, p. 18-30.</p>
+          </note>.</p>
+        <p xml:id="d1e670">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+            </term>
+          </term>
+          <persName ref="074704346" type="idref" xml:base="https://www.idref.fr/">Quet</persName> a certainement raison
+        d’insister, dans la deuxième partie de la phrase citée, sur le rôle
+        tout aussi important de la mémoire, qui est à la fois personnelle (et
+        liée aux impressions olfactives et auditives) et culturelle (liée
+        aux<hi rend="italic"> noms propres</hi>, appris dès l’enfance, des
+        dieux et des héros<note n="16" place="foot" type="standard" xml:id="ftn16">
+            <p>Que ce soit à travers les images ou les textes. Pour cette
+            question et les exemples concrets où Philostrate s’inspire des
+            scènes tragiques, voir Jaś <hi rend="small-caps">Elsner</hi>,
+            « Philostratus Visualizes the Tragic: Some Ecphrastic and
+            Pictorial Receptions of Greek Tragedy in the Roman Era », dans
+            Chris <hi rend="small-caps">Kraus</hi>, Simon <hi rend="small-caps">Goldhill</hi>, Helene <hi rend="small-caps">Foley</hi>, Jaś <hi rend="small-caps">Elsner</hi> (éd.),<hi rend="italic"> Visualizing
+            the Tragic. </hi>
+              <hi rend="italic">Drama, Myth, and Ritual in
+            Greek Art and Literature. Essays in Honour of Froma Zeitlin</hi>,
+            Oxford, 2007, p. 309-337.</p>
+          </note>). L’insistance sur la mémoire culturelle est partagée, d’une
+        manière à chaque fois différente, par les deux contributions
+        suivantes, celles d’<persName ref="027113361" type="idref" xml:base="https://www.idref.fr/">Agnès Rouveret</persName> et de
+        <persName ref="132858355" type="idref" xml:base="https://www.idref.fr/">Ruth Webb</persName>. Les deux,
+        cependant, ne tiennent pas au caractère réel de galerie. Au contraire,
+        c’est en composant une galerie imaginaire que <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> aurait mis en
+        valeur son ancrage dans la culture littéraire et sa capacité
+        d’engagement avec la peinture de son époque (et des époques
+        précédentes). C’est quand il s’éloigne des tableaux réels qu’il se
+        rapproche du rôle du peintre : c’est alors à lui de<hi rend="italic">
+        choisir</hi> le sujet, les grands traits de la composition et les
+        détails à souligner. Le lien avec un niveau différent, celui de
+        l’image mentale et de la mémoire, devient ainsi le plus direct
+        possible. L’homologie formelle du résultat avec la rhétorique et la
+        formation des<hi rend="italic"> imagines agentes</hi> est tout aussi
+        évidente<note n="17" place="foot" type="standard" xml:id="ftn17">
+            <p>Voir, par exemple, les préceptes de la<hi rend="italic">
+            Rhetorica ad Herennium</hi>. Chez Philostrate, une tension
+            s’instaure entre la vivacité et la clarté (<hi rend="italic">enargeia</hi> et<hi rend="italic"> saphêneia</hi>)
+            que recommandent, pour la description, les manuels rhétoriques
+            plus proches de lui (les<hi rend="italic"> progymnasmata</hi> de
+            Théon ou d’Hermogène). Dans cette situation, sa préférence va à la
+            vivacité du discours capable de susciter diverses émotions liées
+            aussi bien au contenu de la scène représentée qu’à la difficulté
+            d’en reconnaître la signification univoque. En fait, il ne cesse
+            de profiter des perceptions incertaines et des ambiguïtés pour
+            mieux instruire le garçon auquel il s’adresse. Je reviendrai plus
+            loin sur la différence entre l’<hi rend="italic">ekphrasis</hi>
+            selon les<hi rend="italic"> progymnasmata</hi> et les descriptions
+            de Philostrate.</p>
+          </note>.</p>
+        <p xml:id="d1e729">Analysant les paysages philostratéens, <persName ref="027113361" type="idref" xml:base="https://www.idref.fr/">Agnès
+        Rouveret</persName> renoue ici avec ses nombreux travaux sur la
+        peinture romaine et son contexte. Je trouve qu’on peut souscrire sans
+        réserves à sa conclusion, ainsi résumée :</p>
+        <quote xml:id="d1e731">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-nupjnh3s">jardin</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-emkdf6js">palais</term>
+            </term>
+          </term>Dans le cas
+        de <persName ref="030324149" type="idref" xml:base="https://www.idref.fr/">Philostrate l’Ancien</persName>, ses
+        paysages imaginaires apparaissent comme une sorte de patchwork :
+        assemblage de citations littéraires, fragments de peintures typiques
+        et aspirations à de nouvelles<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">phantasiai</hi>
+          </foreign>, sans doute absentes de l’art contemporain, même si ce
+        dernier conditionne fortement les jugements esthétiques du rhéteur. Au
+        terme de notre enquête, ses paysages en tant que support des processus
+        de mémorisation se révèlent plus proches des « palais de mémoire »
+        d’<persName ref="027280896" type="idref" xml:base="https://www.idref.fr/">Augustin</persName> que des jardins
+        du vieillard de <placeName ref="6542154" type="geonames" xml:base="https://www.geonames.org/">Tarente</placeName> ou des
+        propriétés bien ordonnées de <persName ref="027076474" type="idref" xml:base="https://www.idref.fr/">Pline le Jeune</persName>. Dans tous
+        les cas, on ne peut nier que le paysage est un indicateur très
+        sensible pour qui cherche à mieux cerner les formes d’expression d’une
+        subjectivité personnelle dans l’<date>Antiquité</date> (p. 76)<note n="18" place="foot" type="standard" xml:id="ftn18">
+            <p>La mention d’Augustin est accompagnée d’une note qui cite<hi rend="italic"> Confessions</hi> 10, 8, 15. Sur ce genre de textes
+            et les développements postérieurs concernant l’imagination et
+            lieux de mémoire voir Mary <hi rend="small-caps">Carruthers</hi>,<hi rend="italic"> The Craft of
+            Thought : Rhetoric, Meditation, and the Making of Images,
+            400-1200</hi>, Cambridge, 1998.</p>
+          </note>.</quote>
+        <p xml:id="d1e749">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-9z8fpxff">mythologie</term>
+            </term>
+          </term>Les
+        paysages,<hi rend="italic"> a fortiori</hi> les paysages imaginaires
+        que décrit <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>, servent donc
+        à connecter l’invention présente du rhéteur à la mémoire du passé
+        mythique, celui-là même où se situent les drames racontés. Sur les
+        modalités multiples de ce lien, <persName ref="027113361" type="idref" xml:base="https://www.idref.fr/">Rouveret</persName> offre une série
+        de remarques et de références pertinentes ; on ne se risquera qu’à
+        ajouter que la dimension<hi rend="italic"> indicative</hi> de la
+        subjectivité (et non simplement subjective) s’exprime plus d’une fois
+        à travers la présence des éléments atmosphériques et aquatiques.
+        <persName ref="027113361" type="idref" xml:base="https://www.idref.fr/">Rouveret</persName> note l’intérêt de
+        « l’air qui enveloppe toutes choses »<note n="19" place="foot" type="standard" xml:id="ftn19">
+            <p>Prologue 2, cf. Agnès <hi rend="small-caps">Rouveret</hi>, p.
+            69 n. 25 sur la structure de la définition de la peinture dans le
+            Prologue.</p>
+          </note> et qui fait partie des choses représentables par la couleur,
+        donc<hi rend="italic"> uniquement</hi> par la peinture. Et c’est
+        l’eau, toujours et encore l’eau, que ce soient les fleuves ou la mer,
+        qui joue le rôle d’un contrepoint de l’ouverture aérienne vers le
+        haut. Si cette ouverture permet aussi de regarder d’en haut vers le
+        bas<note n="20" place="foot" type="standard" xml:id="ftn20">
+            <p>C’est ainsi qu’on regarde le paysage d’une certaine ampleur,
+            comme par exemple celui du « Bosphore » ou des « Îles ». Cf. Agnès
+            <hi rend="small-caps">Rouveret</hi>, p. 71-72, pour une belle
+            analyse du rapport entre la fonction du paysage chez Philostrate
+            et le genre des<hi rend="italic"> topia</hi> (y compris leur
+            penchant partagé pour l’encyclopédisme). J’ai tenté ailleurs de
+            parler du regard synoptique de Philostrate et d’une corrélation,
+            dans le cadre de sa pensée, entre l’art de la peinture et les arts
+            de l’agriculture et de la navigation. Cf. Karel <hi rend="small-caps">Thein</hi>, « Gods and Painters. Philostratus
+            the Elder, Stoic<hi rend="italic"> phantasia</hi> and the strategy
+            of describing »,<hi rend="italic"> Ramus</hi> 31, 2002, p.
+            136-145.</p>
+          </note>, la surface semi-transparente de l’eau freine le regard et
+        dissout les formes et les couleurs qui les rendent manifestes.</p>
+        <p xml:id="d1e786">C’est <persName ref="035647620" type="idref" xml:base="https://www.idref.fr/">Filippo Fimiani</persName> qui, dans
+        sa contribution, connecte la direction du regard du haut vers le bas
+        et le rôle perturbateur de l’eau<note n="21" place="foot" type="standard" xml:id="ftn21">
+            <p>Filippo <hi rend="small-caps">Fimiani</hi>, « Des eaux
+            mentales. Vision et cécité chez Philostrate », surtout p.
+            202-209.</p>
+          </note>. Prenant pour point de départ la description de la pêche
+        dans « Le Bosphore », il mobilise les références philosophiques qui
+        vont de <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> à <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Michel
+        Foucault</persName>, sans jamais perdre de vue la pêche même, et
+        surtout ce que <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>
+          <hi rend="italic"> fait subir</hi> par l’activité de son écriture au
+        regard passif du pêcheur<note n="22" place="foot" type="standard" xml:id="ftn22">
+            <p>Pour une autre analyse de la pêche et du regard dans « Le
+            Bosphore » voir déjà Jaś <hi rend="small-caps">Elsner</hi>,
+            « Seeing and Saying: A Psychoanalytic Account of Ekphrasis »,<hi rend="italic"> Helios</hi> 31, 2004, p. 167-168. Sur les eaux
+            tragiques, les éléments et l’éros, il faut relire Charles <hi rend="small-caps">Segal</hi>, « The Tragedy of the<hi rend="italic"> Hippolytus</hi>: The Waters of Ocean and the
+            Untouched Meadow »,<hi rend="italic"> Harvard Studies in Classical
+            Philology</hi> 70, 1965, p. 117-169.</p>
+          </note>. Les pages qui concernent plus généralement la pulsion du
+        regard et la volonté du savoir sont à étudier une autre fois en
+        creusant le parallèle proposé ici entre « La pêche » et « Les
+        chasseurs » (p. 204), et avec d’autres textes à appui — dont celui de
+        <persName ref="027016668" type="idref" xml:base="https://www.idref.fr/">Gisèle Mathieu-Castellani</persName>,
+        « Une leçon d’amour en soixante-cinq tableaux ou l’énigme du sexe dans
+        l’image » (p. 153-170 de ce même volume). Sur l’eau chez <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>, on pourrait
+        continuer longuement<note n="23" place="foot" type="standard" xml:id="ftn23">
+            <p>J’ai pu analyser plusieurs passages que je laisse ici de côté
+            lors de ma conférence « Mal vu, bien dit : l’<hi rend="italic">ekphrasis</hi> et les limites du regard chez
+            Philostrate l’Ancien » au Centre Louis Gernet, Paris, le 31 Mai
+            2005. Je remercie vivement François Lissarrague pour son
+            invitation.</p>
+          </note>, y compris sur les descriptions où la transparence et
+        l’opacité de l’eau qui engloutit ou reflète (devenant tour à tour
+        abîme, miroir ou les deux), appartiennent au contexte érotique qui
+        accentue encore le motif du « regard désarmé »<note n="24" place="foot" type="standard" xml:id="ftn24">
+            <p>Cette expression est une paraphrase du<hi rend="italic"> blepei
+            amêchanon</hi> qui caractérise « Pasiphaé » (I, 16). Sur ce
+            passage voir Stephen <hi rend="small-caps">Beall</hi>,
+            « Word-Painting in the “Imagines” of the Elder Philostratus »,<hi rend="italic"> Hermes</hi> 121, 1993, p. 359-360. Le regard
+            désarmé est pourtant omniprésent, dans les yeux de ceux ou celles
+            qui désirent et dans les yeux de ceux ou celles qui sont
+            désiré(e)s. Cf., par exemple, la jeune Amymoné aux bords de
+            l’Inachos, poursuivie par le flot amoureux qui cache Poséidon (I,
+            8, 2).</p>
+          </note>. Pour faire bref, et pour contrebalancer l’intérêt qu’on
+        porte à l’érotisme de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>, je souligne
+        une dernière fois qu’aucun des deux pôles des paysages imaginaires ne
+        doit être oublié. C’est la tension entre les ouvertures aériennes et
+        transparentes d’un côté et le fond opaque des eaux et des désirs
+        fluides de l’autre, qui donne du relief au mouvement d’ensemble des<hi rend="italic"> Images</hi>. Si l’on continue à chercher l’intérêt
+        philosophique de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> dans ses liens
+        apparents avec la question de la perception et avec la<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">phantasia</hi>
+          </foreign> stoïcienne, alors ce lien est bien à repenser de fond en
+        comble, et à suppléer en partie par une nouvelle enquête sur la
+        tradition proprement philosophique (plus que littéraire) des paysages
+        à la fois moraux et cosmologiques<note n="25" place="foot" type="standard" xml:id="ftn25">
+            <p>Cette tradition n’est pas le propre d’une seule école. Si
+            Platon y appartient, avec le<hi rend="italic"> Critias</hi> ou la
+            « vraie terre » du<hi rend="italic"> Phédon</hi>, on y trouve
+            aussi le stoïcien Sénèque ou l’épicurien Lucrèce. Sur ce dernier,
+            je reviendrai en détail ailleurs. Pour Sénèque et l’usage de l’<hi rend="italic">ekphrasis</hi> dans sa stratégie morale voir Shadi
+            <hi rend="small-caps">Bartsch</hi>, « “Wait a Moment, Phantasia”:
+            Ekphrastic Interference in Seneca and Epictetus »,<hi rend="italic"> Classical Philology</hi> 102, 2007, p. 83-95.
+            Michel Foucault commente non seulement « la vue plongeante » de
+            Sénèque (passage mentionné par Fimiani), mais aussi « la réduction
+            descriptive, ou description à fin de disqualification »
+            recommandée par Marc Aurèle (voir<hi rend="italic"/>L’herméneutique du sujet, Paris, 2001, p. 293).
+            Rien de tel chez Philostrate qui reste sceptique quant à l’usage,
+            voire au fondement doctrinal, de la description (voir plus loin
+            sur la phantasia et la vérité).</p>
+          </note>.</p>
+        <p xml:id="d1e867">Tout ceci, évidemment, ne doit pas renvoyer à des
+        propositions d’ordre doctrinal. Dans les deux cas apparemment éloignés
+        (les ébauches cosmologiques, les perceptions), <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> pratique une
+        subversion assez subtile et contourne toute doctrine philosophique,
+        mais aussi la simple reprise des préceptes rhétoriques. Il suffit de
+        regarder les motifs de la clarté et de la vivacité d’une<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">ekphrasis</hi>
+          </foreign> selon les<hi rend="italic">
+            <foreign xml:lang="grc">progymnasmata</foreign>
+          </hi> d’un côté, et la question de la<hi rend="italic">
+            <foreign xml:lang="grc">phantasia</foreign>
+          </hi> et du saisi des objets dans la perception selon les
+        philosophes de l’autre côté. J’aimerais passer du premier au deuxième
+        de ces motifs, et surtout brièvement indiquer leur lien possible. Pour
+        point de départ, je prendrai une observation que fait <persName ref="132858355" type="idref" xml:base="https://www.idref.fr/">Ruth
+        Webb</persName> dans son article : « <foreign xml:lang="eng">The<hi rend="italic"> Imagines</hi> as a fictional text :<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">Ekphrasis</hi>,<hi rend="italic"> apatê</hi>
+            </foreign>
+        and illusion</foreign> ».</p>
+        <p xml:id="d1e888">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-2zm67ekq">rhétorique</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-p4k7sokh">fiction</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image</term>
+            </term>
+          </term>Traitant
+        les<hi rend="italic"> Images</hi> comme un texte de fiction, <persName ref="132858355" type="idref" xml:base="https://www.idref.fr/">Ruth
+        Webb</persName> se concentre sur le lien entre<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> et<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">enargeia</hi>
+          </foreign>. Elle montre comment <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>
+        travaille le langage afin de doter ses descriptions, pleines de récits
+        et de détails, de la vivacité nécessaire pour transporter l’auditeur
+        ou le lecteur comme au milieu de la scène représentée et pour lui
+        faire sentir (dans le présent de son âme) telle ou telle émotion
+        appropriée. Tout cela est fort bien connu et <persName ref="132858355" type="idref" xml:base="https://www.idref.fr/">Webb</persName>
+        elle-même nous offre un résumé de cette question avec quelques
+        éléments de bibliographie (p. 120). La valeur de sa contribution
+        consiste pourtant dans l’analyse fine et détaillée de divers passages
+        des<hi rend="italic"> Images</hi> des deux Philostrates, y compris la
+        façon dont <persName ref="030324149" type="idref" xml:base="https://www.idref.fr/">Philostrate l’Ancien</persName> ne
+        cesse d’engager puis de dissiper notre attention. Avec la pleine
+        conscience des acquis de l’ensemble de son texte, je préfère
+        maintenant revenir, à partir du premier paragraphe de la page 120, sur
+        la question générale de l’<foreign xml:lang="grc">
+            <hi rend="italic">enargeia</hi>
+          </foreign> descriptive. Cette page nous rappelle le but que
+        <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> partage avec
+        les manuels de rhétorique, celui de mettre la chose décrite « devant
+        les yeux » des auditeurs. Or les manuels, constate <persName ref="132858355" type="idref" xml:base="https://www.idref.fr/">Webb</persName>, nous donnent
+        finalement très peu de conseils pratiques quant aux façons d’obtenir
+        ce résultat. Ce qui semble clair, c’est que l’inclusion du détail doit
+        jouer un rôle cardinal et que « c’était la présence ou l’absence du
+        détail qui faisait la différence entre une<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> et un récit ». Or avec <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>, les choses
+        tendent toujours à se compliquer et cette frontière devient
+        extraordinairement floue. D’autre part, <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>
+        peut nous sensibiliser à un élément de la description dont la
+        dimension narrative reste largement à analyser : il s’agit du nom
+        propre et de ses fonctions dans un contexte culturel déterminé<note n="26" place="foot" type="standard" xml:id="ftn26">
+            <p>L’importance du contexte culturel pour la capacité même de
+            comprendre le sujet des descriptions a été maintes fois soulignée,
+            y compris par Ruth <hi rend="small-caps">Webb</hi>, « Mémoire et
+            imagination : les limites de l’<hi rend="italic">enargeia</hi>
+            dans la théorie rhétorique grecque », dans Carlos <hi rend="small-caps">Lévy</hi>, Laurent <hi rend="small-caps">Pernot</hi> (éd.),<hi rend="italic"> Dire
+            l’évidence. Philosophie et rhétorique antiques</hi>, Paris, 1997,
+            p. 239-241.</p>
+          </note>.</p>
+        <p xml:id="d1e928">Mais d’abord, que disent les manuels de
+        rhétorique ? Les distinctions en question sont-elles nettes<note n="27" place="foot" type="standard" xml:id="ftn27">
+            <p>Une analyse différente mais en partie corrélative a été menée
+            par Sandrine <hi rend="small-caps">Dubel</hi>, « Ekphrasis et
+            enargeia: la description antique comme parcours », dans Carlos <hi rend="small-caps">Lévy</hi>, Laurent <hi rend="small-caps">Pernot</hi> (éd.),<hi rend="italic"> op.
+            cit.,</hi> p. 249-264.</p>
+          </note> ? On notera tout de suite que l’élément que je viens de
+        mentionner, celui du nom propre, n’y reçoit aucune attention
+        particulière. Plus exactement, si une<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">ekphrasis</hi>
+          </foreign> doit présenter un objet ou une situation qui est
+        clairement discernable, cette même situation semble pourtant
+        nécessiter une sorte d’explication ou d’interprétation. Or cette
+        dernière n’est possible que si, dans les<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">ekphraseis</hi>
+          </foreign> même très brèves, la description générique s’accompagne
+        d’une dénomination constitutive pour sa signification. J’admets que le
+        cas est moins net dans les descriptions des « lieux » (y compris des
+        paysages et, après tout, des<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">xeniai</hi>
+          </foreign>de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>), et aussi
+        dans les descriptions des « temps » (des saisons, du jour et de la
+        nuit, etc.)<note n="28" place="foot" type="standard" xml:id="ftn28">
+            <p>Les lieux (donc aussi les paysages) et les temps constituent le
+            troisième et le quatrième groupe des objets de l’<hi rend="italic">ekphrasis</hi> selon le<hi rend="italic">
+            Progymnasmata</hi> de Théon. Aux deux premiers groupes
+            appartiennent les personnes (mais aussi les animaux) et les faits
+            (mais aussi les actions). On a aussi les descriptions des
+            « manières » telles que les modes de production des armes et des
+            autres artefacts (y compris la description homérique de la<hi rend="italic"> fabrication</hi> du bouclier d’Achille). Voir
+            Aelius Théon,<hi rend="italic"> Progymnasmata</hi>, texte établi
+            et traduit par Michel Patillon, Paris, 1997, 118.6-119.2. C’est
+            cette édition et traduction que je cite dans les pages qui
+            suivent.</p>
+          </note>. Or même ici, dans l’intérêt de son efficacité, la
+        description utilise, le plus souvent, les noms<hi rend="italic">
+        propres</hi>. Il s’agit de l’identification en tant qu’interprétation
+        minimale, interprétation liée au geste deictique (« ceci est »). Ce
+        qui est<hi rend="italic"> a fortiori</hi> vrai pour les personnes même
+        si l’on décrit, par exemple, les espèces animales, et non les animaux
+        pour ainsi dire individuels. Il arrive aux auteurs gréco-romains
+        d’évoquer <persName ref="085720917" type="idref" xml:base="https://www.idref.fr/">Hérodote</persName> et sa description
+        du crocodile ou de l’ibis. Or le but de cette description consiste à
+        signaler la singularité de telle ou telle espèce à l’intérieur du
+        règne animal, et ceci dans le cadre plus large d’une description
+        physico-morale de l’<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>, pays tout
+        aussi singulier entre tous. Dans l’économie de la description
+        hérodotéenne, le nom de l’espèce fonctionne comme le nom propre. De la
+        même façon, le nom « pêcheurs » signifie chez <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> une activité
+        liée à la nature singulière de l’eau dont la semi-transparence déjà
+        mentionnée est l’objet premier de l’attention.</p>
+        <p xml:id="d1e978">Cette économie devient donc évidente dans les<hi rend="italic">
+            <foreign xml:lang="grc">ekphraseis</foreign>
+          </hi> qui évoquent les hommes, leurs actions et les lieux de ces
+        actions. Dans le cadre d’une telle évocation, l’identification à
+        l’aide du nom propre implique alors, presque automatiquement, un
+        récit. En disant<hi rend="italic"> qui est là-bas</hi>, on commence à
+        dire<hi rend="italic"> ce qu’il fait là-bas.</hi> Les noms propres et
+        les récits qui en découlent constituent ensemble l’exégèse de la
+        surface visible quelle qu’elle soit : ils en précisent le sens et
+        l’intérêt. Pour le dire simplement, dans les<hi rend="italic">
+            <foreign xml:lang="grc">ekphraseis</foreign>
+          </hi>, on est en train de décrire<hi rend="italic"> afin de faire
+        savoir</hi> à quoi, au juste, les auditeurs ou lecteurs ont affaire.
+        Presque toujours, il y a donc une dimension épistémique, quel que soit
+        l’objet ou la situation en question, et c’est précisément cette
+        dimension qui détermine l’organisation narrative du texte.</p>
+        <p xml:id="d1e995">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-pgjyyprz">performance
+        orale</term>
+            </term>
+          </term>La tâche d’expliquer le sens s’accompagne
+        d’une autre, celle de produire, dans l’âme de l’auditeur ou du
+        lecteur, des émotions très exactement calibrées. Pendant la période
+        gréco-romaine, cette deuxième tâche devient souvent dominante : d’où
+        l’inclusion de l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> dans le genre oratoire. Les auteurs des<hi rend="italic">
+            <foreign xml:lang="grc">progymnasmata</foreign>
+          </hi> la définissent alors (pour la première fois) comme un compte
+        rendu détaillé qui nous fait voir les objets en question avec les yeux
+        de notre esprit. Le style de ces comptes rendus est conforme au sujet
+        traité : pour décrire une prairie en fleur, il faut un style fleuri et
+        épanoui ; pour la description d’un paysage désolé ou d’un rocher,
+        convient un style sec. De toute façon, la vertu principale et spéciale
+        de l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> consiste dans sa clarté et sa vivacité, son<hi rend="italic">
+            <foreign xml:lang="grc">enargeia</foreign>
+          </hi> et sa<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">saphêneia</hi>
+          </foreign> que soulignent si fortement les auteurs comme <persName ref="249716321" type="idref" xml:base="https://www.idref.fr/">Hermogène</persName> ou <persName ref="035205695" type="idref" xml:base="https://www.idref.fr/">Théon</persName>. Et comme la<hi rend="italic">
+            <foreign xml:lang="grc">saphêneia</foreign>
+          </hi> semble avoir été moins commentée que l’<hi rend="italic">
+            <foreign xml:lang="grc">enargeia</foreign>
+          </hi>, il est utile d’ouvrir les<hi rend="italic">
+            <foreign xml:lang="grc">Progymnasmata</foreign>
+          </hi> de <persName ref="035205695" type="idref" xml:base="https://www.idref.fr/">Théon</persName> afin de souligner, à
+        l’aide de<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">saphêneia</hi>
+          </foreign>, une première<hi rend="italic"> tension</hi> possible,
+        celle entre l’impact de la présentation claire et concise d’un côté,
+        et le développement du détail de l’autre côté. Il s’agit d’une
+        question d’accent ou de degré plutôt que d’une polarité, mais il
+        demeure incontestable que l’auteur du discours doit choisir jusqu’à
+        quel niveau et quelle quantité de détail il peut aller afin de
+        renforcer le caractère plausible et persuasif de la description sans
+        que cette dernière s’écroule sous le poids des particularités
+        accumulées. Si donc la<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">saphêneia</hi>
+          </foreign> est introduite comme une des trois vertus (<hi rend="italic">
+            <foreign xml:lang="grc">aretai</foreign>
+          </hi>) du récit (<hi rend="italic">
+            <foreign xml:lang="grc">diêgêsis</foreign>
+          </hi>) [les deux autres étant la concision et la vraisemblance (79,
+        20-21)], elle devient également une des vertus principales de
+        l’<foreign xml:lang="grc">
+            <hi rend="italic">ekphrasis</hi>
+          </foreign>. Je cite :</p>
+        <quote xml:id="d1e1041">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+            </term>
+          </term>Les
+        vertus de la description sont les suivantes : avant tout la clarté et
+        l’évidence (<foreign xml:lang="grc">
+            <hi rend="italic">saphêneia men malista kai enargeia</hi>
+          </foreign>) qui fait presque voir (<foreign xml:lang="grc">
+            <hi rend="italic">schedon horasthai</hi>
+          </foreign>) ce qu’on présente ; puis ne pas s’étendre tout au long
+        sur les détails inutiles ; d’une manière générale l’expression doit se
+        modeler sur le sujet [etc.].</quote>
+        <p xml:id="d1e1050">En règle générale, comme l’ajoute la scholie
+        numéro VI, « la clarté est la représentation évidente des choses sans
+        aucune ambiguïté dans l’expression » (<foreign xml:lang="grc">
+            <hi rend="italic">saphêneia estin hê enargês tôn pragmatôn
+            didaskalia mêden ex hermêneias amphibolon echousa</hi>
+          </foreign>). Pourtant, il est permis à l’orateur de manipuler la
+        clarté. La scholie suivante (numéro VII) maintient que « nous ne nous
+        soucierons pas toujours de la clarté, mais [...] nous dirons de façon
+        claire ce qui nous est favorable et de façon obscure ce qui nous est
+        défavorable ». L’exemple en est tout de suite fourni par les propos
+        délibérément obscurs de <persName ref="026823586" type="idref" xml:base="https://www.idref.fr/">Démosthène</persName> dans son
+        discours<hi rend="italic"> Sur la couronne</hi>, et comme cet exemple
+        lui-même l’indique, il s’agit d’une possibilité rhétorique plus
+        générale et qui ne s’applique pas à l’<hi rend="italic">ekphrasis</hi>. Ce qui est indirectement confirmé par le
+        texte de <persName ref="035205695" type="idref" xml:base="https://www.idref.fr/">Théon</persName> qui, dans une
+        remarque elle-même polémique, n’est pas d’accord avec certains qui</p>
+        <quote xml:id="d1e1061">jugent bon d’inclure aussi dans les exercices
+        sur la description la contestation et la confirmation de certaines
+        descriptions d’auteurs : <persName ref="085720917" type="idref" xml:base="https://www.idref.fr/">Hérodote</persName>, par exemple, se
+        trompe sur l’aspect de l’ibis, lorsqu’il dit qu’il a le plumage blanc,
+        sauf la tête, le cou et l’extrémité de la queue ; en effet, la queue
+        est entièrement blanche. Cela ne nous paraît rien ajouter à ce que
+        nous avons dit ci-dessus, parce que, pensons-nous, cette espèce entre
+        dans la classe des contestations et confirmations de récits (120,
+        3-11).</quote>
+        <p xml:id="d1e1063">D’après <persName ref="035205695" type="idref" xml:base="https://www.idref.fr/">Théon</persName>, l’<foreign xml:lang="grc">
+            <hi rend="italic">ekphrasis</hi>
+          </foreign> est donc une description transparente qui ne prend pas la
+        forme d’une argumentation, mais agit uniquement par les images
+        transmises et de façon pour ainsi dire automatique. L’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> rhétorique et minimale, c’est le degré zéro de
+        l’argumentation. C’est que l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> rhétorique ne se soucie pas du vraisemblable et ne se
+        préoccupe guère du possible ou de l’impossible. En revanche, la
+        question du vraisemblable constitue le domaine même de l’argumentation
+        (Théon 93.5-95.2). Chez <persName ref="035205695" type="idref" xml:base="https://www.idref.fr/">Théon</persName> lui-même, on trouve
+        un exemple très significatif de cette différence. C’est l’exemple de
+        l’héroïne tragique par excellence, à savoir <persName ref="027470083" type="idref" xml:base="https://www.idref.fr/">Médée</persName>.
+        D’après la théorie rhétorique de l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi>, il est parfaitement légitime de donner une description (de
+        l’image) de <persName ref="027470083" type="idref" xml:base="https://www.idref.fr/">Médée</persName> au moment où elle
+        s’apprête à tuer ses enfants. L’important c’est que cet exercice reste
+        entièrement délié de l’argumentation au sujet de <persName ref="027470083" type="idref" xml:base="https://www.idref.fr/">Médée</persName>, car c’est
+        l’argumentation qui se demande s’il est possible ou vraisemblable
+        qu’une mère tue ses propres enfants. On peut alors composer une<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> de <persName ref="027470083" type="idref" xml:base="https://www.idref.fr/">Médée</persName> la tueuse d’un côté,
+        et la défense de <persName ref="027470083" type="idref" xml:base="https://www.idref.fr/">Médée</persName> la bonne mère de
+        l’autre. L’important, c’est de<hi rend="italic"> ne pas mélanger les
+        genres</hi>
+          <note n="29" place="foot" type="standard" xml:id="ftn29">
+            <p>Cf. Théon 94.10-95.2, et la note 293 de Michel Patillon.</p>
+          </note>. En général, l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> ne doit pas argumenter ni juger. Et je souligne ce trait de la
+        théorie rhétorique afin qu’on puisse mesurer les audaces de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> dont les<hi rend="italic">
+            <foreign xml:lang="grc">ekphraseis</foreign>
+          </hi> ne cessent de brouiller tout le système de différences
+        établies par <persName ref="035205695" type="idref" xml:base="https://www.idref.fr/">Théon</persName> ou <persName ref="028921518" type="idref" xml:base="https://www.idref.fr/">Hermogène</persName>.</p>
+        <p xml:id="d1e1093">En observant la règle du degré zéro de
+        l’argumentation et l’impératif de la clarté ou de l’<foreign xml:lang="grc">
+            <hi rend="italic">enargeia</hi>
+          </foreign>, un auteur peut raccourcir ou rallonger ses descriptions
+        avec une liberté considérable, et c’est là où l’on est en droit de se
+        demander jusqu’à quelle longueur et quel nombre de détails on peut
+        aller. Au sujet des faits ou des affaires (<hi rend="italic">
+            <foreign xml:lang="grc">pragmata</foreign>
+          </hi>), <persName ref="035205695" type="idref" xml:base="https://www.idref.fr/">Théon</persName> indique la
+        possibilité d’une longueur considérable. Si nous décrivons</p>
+        <quote xml:id="d1e1101">une guerre, par exemple, nous exposerons
+        d’abord ce qui l’a précédé, les levées des troupes, les dépenses, les
+        craintes, le pays ravagé, les sièges, ensuite les blessures, les
+        morts, les deuils, enfin la capture et l’esclavage des uns, la
+        victoire et les trophées des autres. Si nous décrivons des lieux, des
+        temps, des « manières » ou des personnes, après l’exposé dont ils
+        fournissent le sujet, nous aurons matière encore à discours dans le
+        beau, l’utile et l’agréable, comme fait Homère, lorsqu’il dit que les
+        armes d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> étaient belles,
+        robustes et que leur vue remplissait ses compagnons d’armes
+        d’étonnement et ses ennemis d’effroi (119, 19-30).</quote>
+        <p xml:id="d1e1103">
+          <persName ref="035205695" type="idref" xml:base="https://www.idref.fr/">Théon</persName> lui-même se donne
+        donc les moyens d’élargir la description du point de vue quantitatif
+        (l’exemple cité accumule les faits selon la causalité des événements),
+        mais aussi qualitatif (on décrit les émotions). De tous ces moyens,
+        auxquels il n’hésite pas à ajouter la contestation, <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> s’empare afin
+        de construire les grands paysages habités par un grand nombre de
+        personnages et des objets où la quantité de détails ne provient pas
+        d’une simple accumulation de segments distincts (des parties d’un Tout
+        nettement articulé). Elle semble plutôt résulter d’une impossibilité
+        d’enchaîner<hi rend="italic"> soit</hi> les éléments au nombre fini (à
+        l’exemple du bouclier rond d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> selon <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>)<hi rend="italic">
+        soit</hi> les causes et conséquences qui formeraient une chaîne
+        ouverte mais sans ambiguïté. C’est précisément que <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> se tient
+        délibérément<hi rend="italic"> dans le registre du vraisemblable</hi>,
+        qu’il s’agisse de la simple identification des objets ou de la
+        causalité assez fluide des événements. Contrairement à la définition
+        de l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> par <persName ref="035205695" type="idref" xml:base="https://www.idref.fr/">Théon</persName>, les<hi rend="italic"> Images</hi> nous confrontent à des problèmes
+        épistémologiques d’une épaisseur considérable. Afin de pouvoir
+        déchiffrer la nature de ces problèmes et d’en mesurer l’impact, il
+        faut mentionner une dernière question fort importante.</p>
+        <p xml:id="d1e1120">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation</term>
+          </term>Il est à
+        noter que ni <persName ref="035205695" type="idref" xml:base="https://www.idref.fr/">Théon</persName> ni <persName ref="028921518" type="idref" xml:base="https://www.idref.fr/">Hermogène</persName> ne semblent
+        préoccupés par le deuxième moment constitutif de l’efficacité même de
+        la description. Afin d’accomplir l’<foreign xml:lang="grc">
+            <hi rend="italic">enargeia</hi>
+          </foreign> et de faire voir ce qu’on présente, il faut réussir une
+        « visualisation » interne des objets externes (ou visualisation des
+        objets comme s’ils étaient externes). Il faut donc manier les<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">phantasiai</hi>
+          </foreign> ou<hi rend="italic"/>
+          <foreign xml:lang="lat">
+            <hi rend="italic">visiones</hi>
+          </foreign>, ce qui est une capacité soulignée chez <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName> ou le <persName ref="232630763" type="idref" xml:base="https://www.idref.fr/">Pseudo-Longin</persName>, qui nous
+        parlent de la<hi rend="italic">
+            <foreign xml:lang="grc">phantasia</foreign>
+          </hi> comme « visualisation » sans, d’autre part, nous parler de
+        l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi>. Il est pourtant évident qu’un appel général à la capacité
+        humaine de former une image interne ou mentale, un appel qui explicite
+        la condition de l’efficacité rhétorique et poétique, affecte le schéma
+        de la description dont la clarté est rendue possible seulement par ce
+        qui permet aussi d’<hi rend="italic">éloigner</hi> le lecteur ou
+        l’auditeur des choses qui lui sont présentes dans son temps et son
+        espace. Pour donner la parole à un poète, je cite les<hi rend="italic"> Tristia</hi> d’<persName ref="027054764" type="idref" xml:base="https://www.idref.fr/">Ovide</persName> qui, dans son exil,
+        voit devant ses yeux (<hi rend="italic">
+            <foreign xml:lang="lat">ante oculos</foreign>
+          </hi>) tout ce qu’il ne peut plus toucher : « devant mes yeux
+        passent ma maison, <placeName ref="3169069" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, et la forme des
+        lieux, et à chaque lieu s’associent les scènes dont ils furent le
+        théâtre. J’ai devant mes yeux, comme si elle était présente, l’image
+        de mon épouse » (III, 4, 11-13)<note n="30" place="foot" type="standard" xml:id="ftn30">
+            <p>Je dois ce bel exemple à Ruth <hi rend="small-caps">Webb</hi>,
+            « Imagination and the arousal of emotions in Greco-Roman
+            rhetoric », dans Susanna <hi rend="small-caps">Morton</hi>
+              <hi rend="small-caps">Braund</hi>, Christopher <hi rend="small-caps">Gill</hi> (éd.),<hi rend="italic"> The Passions
+            in Roman Thought and Litterature</hi>, Cambridge, 1997, p. 117.
+            Ruth Webb établit aussi le lien avec Quintilien VI, 2, 29-30 et
+            avec le Pseudo-Longin XV.</p>
+          </note>. <persName ref="027054764" type="idref" xml:base="https://www.idref.fr/">Ovide</persName> écrit en latin, mais
+        la rhétorique de son cœur est bien guidée par une<hi rend="italic">
+            <foreign xml:lang="grc">phantasia</foreign>
+          </hi> ou son équivalent, une<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">phantasia</hi>
+          </foreign> qui peut désigner soit la capacité de produire les images
+        mentales soit une image mentale qui résulte de cette capacité<note n="31" place="foot" type="standard" xml:id="ftn31">
+            <p>De plus, le passage cité est une quasi-illustration de l’<hi rend="italic">ars memoriae</hi> avec sa méthode « topique ».</p>
+          </note>.</p>
+        <p xml:id="d1e1180">Tout cela, nous pouvons l’affirmer tranquillement
+        grâce à quelqu’un comme <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName> qui, dans un
+        passage très souvent cité des<hi rend="italic"> Institutions
+        oratoires</hi> (VI, 2, 29-30), explique que « ce que les Grecs
+        appellent<hi rend="italic">
+            <foreign xml:lang="grc">phantasia</foreign>
+          </hi> (nous pourrions bien l’appeler<hi rend="italic">
+            <foreign xml:lang="lat">uisio</foreign>
+          </hi>), la faculté de nous représenter les images des choses
+        absentes au point que nous ayons l’impression de les voir de nos yeux
+        et de les tenir devant nous, quiconque aura pu bien le concevoir sera
+        très efficace pour faire naître les émotions ». Nous sommes donc
+        fermement sur le terrain de la rhétorique, le terrain partagé par ce
+        que nous appelons aujourd’hui « la littérature », donc par la poésie
+        et le roman d’aventure. En même temps, nous n’avons pas avancé quant
+        au lien entre l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> et la<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">phantasia</hi>
+          </foreign> puisque la deuxième ressemble toujours à la précondition
+        trop générale de la première. Je proposerais donc une précision
+        interprétative selon laquelle l’œuvre propre de l’<foreign xml:lang="grc">
+            <hi rend="italic">ekphrasis</hi>
+          </foreign> consisterait à<hi rend="italic"> discipliner et
+        guider</hi> la visualisation interne elle-même, à la ralentir et la
+        circonscrire à l’inventaire souvent large mais toujours organisé et
+        délimité des objets et des situations. La tâche de susciter les
+        émotions n’en est pas éliminée, mais elle semble limitée surtout à
+        deux cas assez précis :</p>
+        <list type="ordered" xml:id="d1e1204">
+          <item>
+            <p xml:id="d1e1206">il s’agit de provoquer une sympathie qui fait
+            sentir, au lecteur ou à l’auditeur, les émotions des personnes ou
+            personnages mêmes qui sont acteurs du drame décrit ;</p>
+          </item>
+          <item>
+            <p xml:id="d1e1209">il s’agit de provoquer les sentiments liés à
+            la nature (physique) de l’univers, et ainsi s’approcher d’une
+            sorte de sublimité calme et très différente de celle dont parle le
+            <persName ref="232630763" type="idref" xml:base="https://www.idref.fr/">Pseudo-Longin</persName> : ce
+            deuxième usage de l’<hi rend="italic">ekphrasis</hi> nous
+            transforme en spectateurs du drame plutôt cosmique qu’humain.</p>
+          </item>
+        </list>
+        <p xml:id="d1e1214">Évidemment, nous n’avons pas affaire à une
+        division « générique », mais plutôt aux deux catégories du discours.
+        De surcroît, il importe de souligner que ces deux catégories sont
+        susceptibles d’un mélange réciproque et que ce n’est pas pour rien
+        que, par exemple, les descriptions des œuvres d’art sont à trouver
+        dans les deux catégories. En même temps, la spécificité des deux
+        catégories établies me semble réelle et il faut dire que c’est surtout
+        la deuxième catégorie, celle des descriptions qui nous transforment en
+        spectateurs du monde (ou du cadre physique du monde), qui élargit
+        considérablement le sens de l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi>. Un des traits essentiels de cet élargissement consiste dans
+        l’entrée en jeu d’une autre<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">phantasia</hi>
+          </foreign> que celle dont parlent <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName> ou
+        le <persName ref="232630763" type="idref" xml:base="https://www.idref.fr/">Pseudo-Longin</persName>. Cet
+        « autre »<hi rend="italic">
+            <foreign xml:lang="grc">phantasia</foreign>
+          </hi> est celle des philosophes hellénistiques. Dans la<hi rend="italic">
+            <foreign xml:lang="grc">phantasia</foreign>
+          </hi> des philosophes, l’enjeu n’est pas celui de la production des
+        images ou des visions mentales comme c’est le cas de la rhétorique. Il
+        s’agit de la continuité (ou du degré de continuité) entre la sensation
+        et la pensée en tant qu’activité de l’intellect.</p>
+        <p xml:id="d1e1228">Cette<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">phantasia</hi>
+          </foreign>, traduite soit comme « impression » soit comme
+        « présentation », joue sous la forme de<hi rend="italic">
+            <foreign xml:lang="grc">phantasia katalêptikê</foreign>
+          </hi> ou « impression cognitive » le rôle fondamental du critère de
+        la vérité tel que le conçoivent les stoïciens. Pour m’en tenir ici à
+        l’essentiel, il suffit de rappeler que l’impression cognitive présente
+        à notre âme une chose réelle dont elle est la marque la plus
+        convaincante à laquelle nous donnons notre assentiment. Cette
+        quasi-définition (à compliquer plus tard) nous suffit pour comprendre
+        que la<hi rend="italic">
+            <foreign xml:lang="grc">phantasia</foreign>
+          </hi> rhétorique, qui consiste à visualiser un objet absent, et
+        la<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">phantasia</hi>
+          </foreign> philosophique, qui consiste à saisir un objet présent,
+        constituent deux développements indépendants, sans qu’il faille
+        s’interroger sur leur rapport. L’emploi du même mot n’implique
+        strictement rien. Il est vrai que l’emploi stoïcien de<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">phantasia</hi>
+          </foreign> n’est pas inconnu d’un auteur comme <persName ref="035205695" type="idref" xml:base="https://www.idref.fr/">Théon</persName> qui a recours à
+        la<hi rend="italic">
+            <foreign xml:lang="grc">phantasia</foreign>
+          </hi> au moment où il faut expliquer l’identité du contenu à travers
+        plusieurs énoncés de style différent (62, 15-21), ce qui relève d’une
+        théorie stoïcienne qui nous est parvenue grâce à <persName ref="027922049" type="idref" xml:base="https://www.idref.fr/">Sextus
+        Empiricus</persName>
+          <note n="32" place="foot" type="standard" xml:id="ftn32">
+            <p>
+              <hi rend="italic">Adv. math.</hi> 8, 70 = SVF 2, 61.22-42. Dans
+            l’édition citée de Théon par Michel Patillon voir la note 31.</p>
+          </note>. Or cet emploi semble<hi rend="italic"> confirmer</hi>
+        l’absence de rapport entre la<hi rend="italic">
+            <foreign xml:lang="grc">phantasia</foreign>
+          </hi> des philosophes et la stratégie de l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi>. Et pourtant on a pu fournir une interprétation explicitement
+        stoïcienne de l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> dans le roman grec, celle élaborée dans deux textes écrits par
+        <persName type="_temp">Claude Imbert</persName> qui n’hésite pas à
+        parler de « l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> stoïcienne » et à citer la conception que <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> (et pas
+        seulement le roman grec) se fait de la<hi rend="italic">
+            <foreign xml:lang="grc">phantasia</foreign>
+          </hi> comme parfaitement homogène avec la philosophie
+        stoïcienne.</p>
+        <p xml:id="d1e1276">Depuis <persName type="_temp">Claude
+        Imbert</persName>, évoquer les stoïciens en parlant de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> est devenu un
+        procédé assez courant<note n="33" place="foot" type="standard" xml:id="ftn33">
+            <p>Dans le contexte anglo-saxon, on a surtout réagi à Claude <hi rend="small-caps">Imbert</hi>, « Stoic Logic and Alexandrian
+            Poetics », dans Malcolm <hi rend="small-caps">Schofield</hi>
+              <hi rend="italic"> et al.,</hi> (éd.),<hi rend="italic"> Doubt and
+            Dogmatism</hi>, Oxford, 1980, p. 182-216. Voir Jaś <hi rend="small-caps">Elsner</hi>,<hi rend="italic"> Art and the Roman
+            Viewer. </hi>
+              <hi rend="italic">The Transformation of Art from the
+            Pagan World to Christianity</hi>, Cambridge, 1995, p. 26. Pour les
+            textes français d’Imbert voir note 39. Je dois beaucoup à cette
+            interprétation dont j’ai essayé de développer plusieurs points
+            dans « Gods and Painters ». Pour un Philostrate proche des
+            Stoïciens, cf. Mary-Anne <hi rend="small-caps">Zagdoun</hi>,<hi rend="italic"> La philosophie stoïcienne de l’art</hi>, Paris,
+            2000, p. 167-168 ; et finalement Ruth <hi rend="small-caps">Webb</hi>, « Mémoire et imagination », p.
+            245.</p>
+          </note>. Sa thèse principale, celle de la<hi rend="italic">
+            <foreign xml:lang="grc">phantasia</foreign>
+          </hi> comme l’expression du lien naturel entre la théorie stoïcienne
+        de la perception d’un côté et la théorie de l’art de l’autre côté,
+        mérite une discussion approfondie que je ne peux qu’entamer ici. C’est
+        pour cette raison même que je préfère le faire en évoquant d’abord,
+        pour préparer ma propre position, une autre dimension du rapport (ou
+        de l’absence de rapport) entre la peinture et la poésie. Il s’agit, à
+        mon avis, de la différence la plus fondamentale entre l’image et la
+        parole.</p>
+        <p xml:id="d1e1314">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-wtuy5u3w">langage</term>
+            </term>
+          </term>Cette
+        différence tient à une capacité du langage dont l’image n’est pas
+        dotée et ne saurait l’être : la<hi rend="italic"> capacité de
+        négation</hi>. Mon critère pour établir l’importance de la négation
+        est fort simple : la négation est un fait du langage dont non
+        seulement on ne saurait offrir un équivalent direct en image, mais qui
+        ne se laisse même pas effleurer en imaginant telle ou telle situation
+        susceptible d’une interprétation déterminée. Prononcer une phrase
+        intraduisible en image est facile. Par exemple : « ceci n’est pas une
+        chaise ». Cette phrase n’a pas et ne peut pas avoir un<hi rend="italic"> équivalent pictural direct</hi> (même inexact). On peut
+        objecter que l’équivalent pictural de la phrase « ceci n’est pas une
+        chaise » consiste en n’importe quelle image qui ne représente pas une
+        chaise. Or une telle réponse ne mène nulle part, car elle ne nous
+        fournit aucun<hi rend="italic"> critère</hi> pour discriminer entre
+        tous les objets de notre univers à l’exception des chaises. C’est
+        pourquoi la phrase : « ceci n’est pas une chaise », reste en éternel
+        chômage ekphrastique. D’autre part, on peut adoucir la négation
+        facilement, juste en l’incluant dans un énoncé plus développé où elle
+        s’accompagnerait d’une sorte de correction immédiate. Par exemple :
+        « Non, ceci n’est pas la Mer Rouge et ce ne sont pas les Indiens,<hi rend="italic"> mais</hi> les habitants d’<placeName ref="337996" type="geonames" xml:base="https://www.geonames.org/">Éthiopie</placeName> et un homme
+        grec en <placeName ref="337996" type="geonames" xml:base="https://www.geonames.org/">Éthiopie</placeName> ».
+        L’indétermination et le doute ne durent qu’un instant. Cet instant est
+        pourtant suffisant pour qu’on puisse se rendre compte de la
+        possibilité d’une ignorance et d’une erreur. Mais, et c’est la
+        question principale, pourquoi <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>, qui est
+        l’auteur de l’exemple cité<note n="34" place="foot" type="standard" xml:id="ftn34">
+            <p>
+              <hi rend="italic">Images</hi> I, 29, 1 (« Persée »). J’admets
+            volontiers que « non, ceci n’est pas la Mer Rouge » est un énoncé
+            moins indéterminé que, par exemple, « non, ceci n’est pas un
+            chapeau ». Pourtant, cela ne change rien au fond du problème :
+            juste pour une seconde, le langage jette l’imagination dans un
+            brouillard épais.</p>
+          </note>, aurait-il semé un tel doute au cœur même de son entreprise
+        ekphrastique ?</p>
+        <p xml:id="d1e1335">Cette question peut recevoir deux réponses
+        différentes. La première est simple et rassurante. Elle provient du
+        cadre dramatique des<hi rend="italic"> Images</hi>, de leur mise en
+        scène pour ainsi dire déictique. Dans le Prologue, après une
+        introduction générale, on apprend que le texte qui va suivre constitue
+        une sorte de compte rendu d’une leçon d’apprentissage de culture, une
+        leçon donnée par l’auteur à un garçon de dix ans mais déjà avide
+        d’apprendre, à un garçon qui l’accompagne d’un tableau à l’autre<note n="35" place="foot" type="standard" xml:id="ftn35">
+            <p>En un sens, il s’agit d’une version mondaine du procédé employé
+            par l’auteur de<hi rend="italic"> La table de Cébès</hi>, dont
+            l’allégorisme moral semble proche du stoïcisme. Sur<hi rend="italic"> La table</hi>, la description-interprétation et la
+            rédemption morale voir Jaś <hi rend="small-caps">Elsner</hi>,<hi rend="italic"> Art and the Roman Viewer. </hi>
+              <hi rend="italic">The Transformation of Art from the Pagan World to
+            Christianity</hi>, Cambridge, 1995, p. 41-48.</p>
+          </note>. La mise en scène déictique contient donc les apostrophes de
+        <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> au jeune
+        garçon, et aussi ses réponses aux questions ou suggestions implicites
+        de ce dernier. Ce serait alors le garçon qui se trompe en
+        méconnaissant la mer et en prenant les habitants d’<placeName ref="337996" type="geonames" xml:base="https://www.geonames.org/">Éthiopie</placeName> pour les
+        Indiens. La phrase citée serait une correction de cette erreur. En
+        fait, <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> ne cesse de
+        s’adresser au garçon dont la voix est absente du texte, tout comme il
+        ne cesse de s’adresser aux peintures elles-mêmes.</p>
+        <p xml:id="d1e1358">J’accepte cette explication comme la plus
+        évidente<note n="36" place="foot" type="standard" xml:id="ftn36">
+            <p>Bien que le narrateur lui-même semble parfois près de la même
+            erreur. Voir II, 14, 1 « Thessalie » avec une divergence étonnante
+            entre la<hi rend="italic"> graphê</hi> (qui suggère un paysage
+            égyptien) et le<hi rend="italic"> logos</hi> (qui s’oppose à cette
+            suggestion). Cette divergence est littéralement symptomatique. —
+            Par ailleurs, si l’énoncé cité constitue la réponse à une
+            suggestion ou à une question implicite (« Est-ce bien la Mer
+            rouge ? »), l’ouverture de « Persée » anticipe, bien que sous un
+            mode négatif, la phrase initiale de<hi rend="italic"> To the
+            Lighthouse</hi> de Virginia Woolf.</p>
+          </note>. Mais il semble qu’elle n’est pas suffisante. Plus
+        exactement, elle ne dit pas pourquoi, à l’intérieur de son système
+        parfois assez complexe d’apostrophes, <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>
+        n’hésite pas à recourir à la négation linguistique sous toutes ses
+        formes, et ceci de manière très ostentatoire. Je crois qu’il nous faut
+        une deuxième réponse qui prendrait en compte non seulement la mise en
+        scène pédagogique, mais encore le caractère fort singulier de la
+        description philostratéenne.</p>
+        <p xml:id="d1e1373">Pour ma part, j’envisage de construire cette
+        deuxième réponse en assumant (c’est mon hypothèse) que, chez <persName ref="030324149" type="idref" xml:base="https://www.idref.fr/">Philostrate l’Ancien</persName>, le
+        recours systématique et pourtant très diversifié à la négation (qu’il
+        utilise beaucoup plus souvent que les autres auteurs d’<hi rend="italic">
+            <foreign xml:lang="grc">ekphraseis</foreign>
+          </hi>) traduit un malaise épistémique important et irréductible au
+        simple jeu ironique (bien que l’ironie de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>
+        ne soit pas contestable). Parmi les négations dans le texte de
+        <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>, on en trouve
+        d’ailleurs un nombre surprenant qui décrivent une situation
+        épistémique<hi rend="italic"> de l’interprète</hi> lui-même : « je ne
+        sais pas »,<hi rend="italic">
+            <foreign xml:lang="grc">ouk oida</foreign>
+          </hi>, semble être une des phrases qui reviennent sous sa plume
+        comme une sorte d’index, comme un signal de la situation de doute qui,
+        elle-même, consiste surtout et avant tout en une difficulté à donner
+        son assentiment à sa propre<hi rend="italic">
+            <foreign xml:lang="grc">phantasia</foreign>
+          </hi>.</p>
+        <p xml:id="d1e1387">Ce qui est grave, car une des situations signalées
+        par ce « je ne sais pas » est celle où <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>
+        n’est pas sûr de pouvoir distinguer entre la chose réelle et la chose
+        peinte, comme c’est le cas de la célèbre abeille dans son
+        « Narcisse ». C’est bien sûr<hi rend="italic"> aussi</hi> un jeu
+        ironique et cultivé, un clin d’œil adressé au lecteur savant qui, tout
+        de suite, se rappelle la compétition entre les peintres <persName ref="12282430X" type="idref" xml:base="https://www.idref.fr/">Zeuxis</persName> et <persName type="_temp">Parrhasios</persName>, décrite par <persName ref="026668149" type="idref" xml:base="https://www.idref.fr/">Pline
+        l’Ancien</persName>. Pourtant — d’après le Prologue même de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> — l’enjeu
+        principal d’une telle compétition réside dans l’accomplissement d’une
+        analogie entre le monde visible et le tableau que l’œil perçoit comme
+        une parcelle de ce monde. Cet enjeu, pour parler comme <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>, est non
+        seulement celui d’une analogie entre la peinture divine (les couleurs
+        et les formes de la nature) et la peinture humaine (un cadre rempli
+        des couleurs « artificielles »), mais celui de leur<hi rend="italic">
+        continuité</hi> effective en tant qu’élément d’erreur non pas des
+        sens, mais des opinions sur ce qu’on perçoit. Devant le fond de la
+        nature, qu’il décrit dans son Prologue comme une surface divine
+        semi-transparente, <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> se tourne vers
+        les tableaux qui rendent visibles les actions déchiffrables du passé
+        (« ceci est <persName ref="027575055" type="idref" xml:base="https://www.idref.fr/">Héraclès</persName> »)<hi rend="italic"> mais aussi</hi> des objets plus difficiles à déchiffrer
+        au présent (cette abeille est<hi rend="italic"> peut-être</hi>
+        réelle). Le problème épistémique des tableaux à décrire et interpréter
+        consiste donc moins dans l’identification de tel ou tel récit mythique
+        ou héroïque, de telle ou telle référence classique, que dans la
+        réponse à la plénitude et à la multitude des objets pour ainsi dire
+        accessoires. C’est le problème des significations noyées dans la
+        surface du tableau. Le problème, en somme, d’une non coïncidence de
+        la<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">graphê</hi>
+          </foreign> et du<hi rend="italic">
+            <foreign xml:lang="grc">logos</foreign>
+          </hi>.</p>
+        <p xml:id="d1e1408">La première leçon à tirer de cette hypothèse,
+        c’est qu’il faudra relire <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> phrase par
+        phrase sans aucun préjugé littéraire ou philosophique, bref théorique.
+        Or avant même de le faire, on pressent un <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>
+        peu stoïcien, et pas seulement sophiste : un <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>
+        teinté d’un certain scepticisme et dont le recours à la<hi rend="italic">
+            <foreign xml:lang="grc">phantasia</foreign>
+          </hi> voire<hi rend="italic">
+            <foreign xml:lang="grc">phantasia katalêptikê</foreign>
+          </hi> démontre que, face à la peinture, le passage de l’impression à
+        l’assentiment risque d’être compromis. Loin d’être un traité
+        théorique, les<hi rend="italic"> Images</hi> (sans perdre leur
+        caractère ludique) contiendraient<hi rend="italic"> aussi</hi>
+        l’ébauche d’un programme épistémique, un programme centré également
+        sur la question de l’assentiment au plausible (<foreign xml:lang="grc">
+            <hi rend="italic">pithanon</hi>
+          </foreign>)<note n="37" place="foot" type="standard" xml:id="ftn37">
+            <p>Cf. Sextus Empiricus,<hi rend="italic"> Contre les
+            rhéteurs</hi>, § 63-71.</p>
+          </note> et sur la question de l’impossible science des objets
+        indéterminés<note n="38" place="foot" type="standard" xml:id="ftn38">
+            <p>Cf. Sextus Empiricus,<hi rend="italic"> Contre les
+            grammairiens</hi>, § 81 ;<hi rend="italic"> Esquisses
+            pyrrhoniennes</hi> II, 78, 89.</p>
+          </note>. Cette impossibilité serait alors illustrée par les exégèses
+        descriptives à la fois longues et inachevées des<hi rend="italic">
+        Images</hi> où nous rencontrons une quantité exorbitante d’objets qui
+        ne s’organisent pas vraiment dans un monde clos et délimité. La
+        multiplicité des objets et des parties d’objets décrits est inhérente
+        à toute<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> ; chez <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>, elle est
+        presque en train de devenir un thème du discours. Cette multiplicité
+        semble<hi rend="italic"> accompagner</hi> les exploits classiques des
+        héros et des hommes, les « mythologèmes » dont se sert <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>, sans qu’il y
+        ait une organisation d’ensemble comme c’était le cas dans l’exégèse
+        allégorique pratiquée par les stoïciens. Ici, en revanche, la
+        multiplicité des objets et des « micro-événements » reste pour ainsi
+        dire posée et remarquée à côté des drames héroïques. Ce qui veut aussi
+        dire que les conseils d’un <persName ref="035205695" type="idref" xml:base="https://www.idref.fr/">Théon</persName> sont négligés de
+        façon souveraine.</p>
+        <p xml:id="d1e1452">La meilleure façon de présenter un <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> autant
+        sceptique que stoïcien (donc au fond ni l’un ni l’autre) consiste à
+        confronter cette lecture à l’interprétation déjà mentionnée de
+        <persName type="_temp">Claude Imbert</persName>, qui rattache
+        l’entreprise des<hi rend="italic"> Images</hi> à l’ambiance d’un
+        stoïcisme culturel en tant que terrain de rencontre entre les thèses
+        techniques de cette école et la culture à la fois alexandrine et
+        romaine<note n="39" place="foot" type="standard" xml:id="ftn39">
+            <p>Ce qui suit s’appuie sur Claude <hi rend="small-caps">Imbert</hi>, « La logique stoïcienne et la
+            construction du récit »,<hi rend="italic"> Phénoménologies et
+            langues formulaires</hi>, Paris, 1992, p. 89-118, et sur « Le
+            roman grec. Du protreptique à l’éducation sentimentale »,<hi rend="italic"> ibid.,</hi> p. 327-356. Les numéros entre
+            parenthèses renvoient aux pages de ces deux textes.</p>
+          </note>. D’après <persName type="_temp">Imbert</persName>, c’est le
+        début des<hi rend="italic"> Images</hi> qui, de la même façon que le
+        prologue de<hi rend="italic"> Daphnis et Chloé</hi> de <persName ref="026993937" type="idref" xml:base="https://www.idref.fr/">Longus</persName> et le chapitre XV
+        du<hi rend="italic"> Traité du sublime</hi> écrit par le <persName ref="232630763" type="idref" xml:base="https://www.idref.fr/">Pseudo-Longin</persName>, n’est pas à
+        lire uniquement comme un produit de la culture rhétorique et
+        sophistique tardive avec son usage de l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> comme une pièce insérée à l’intérieur d’une narration plus
+        ample. Il s’agit plutôt d’une manifestation d’un art particulier de
+        l’expression qui semble suivre les préceptes des « maîtres du Portique
+        qui associèrent à l’<foreign xml:lang="grc">ekphrasis</foreign> une
+        théorie de la prose narrative et une déontologie » (99). C’est que les
+        Stoïciens auraient élaboré une théorie de la représentation en tant
+        que « spontanément “loquace” », ce qui permet à l’art rhétorique et
+        dialectique de « tirer parti de ce bavardage premier » (99) et de le
+        transformer en<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> en tant que « compte rendu exact » de toutes choses, un compte
+        rendu dont la perfection rhétorique « fait valoir l’apparence, incline
+        à l’assentiment et prépare l’usage des critères de la dialectique »
+        (100). Voici donc une parfaite continuité entre la rhétorique et la
+        dialectique : de l’une à l’autre on procède en organisant le matériel
+        que nous offre spontanément notre faculté de représentation. C’est
+        toujours cette continuité qui permet d’élargir l’horizon du récit
+        jusqu’à la cosmologie et la théologie : on reste toujours dans le même
+        univers plein de signes et de sens, dans un univers qui nous incite
+        naturellement à une lecture allégorique. Ainsi, le tableau décrit dans
+        le Prologue de<hi rend="italic"> Daphnis et Chloé</hi> est à la fois
+        un des nombreux « points épiphaniques du monde » et un point très
+        privilégié en ce qu’il contient déjà en lui-même, en tant que tableau,
+        le germe de son interprétation. Selon les stoïciens, une peinture
+        mythologique nous fournit un lien entre nos représentations et la
+        nature au sens de la nature divine ou de l’univers absolument
+        homogène. Bien décrire, c’est déjà interpréter.</p>
+        <p xml:id="d1e1489">Il est évident que les tableaux — et leurs
+        descriptions — diffèrent quant à leur capacité épiphanique. <persName type="_temp">Imbert</persName> souligne à juste titre que, dans<hi rend="italic"> Daphnis et Chloé</hi>, l’<hi rend="italic">
+            <foreign xml:lang="grc">ekphrasis</foreign>
+          </hi> n’est plus une digression à l’intérieur d’un récit, mais se
+        trouve déplacée dans le prologue du roman, résumant ainsi sa poétique
+        même. <persName ref="030324149" type="idref" xml:base="https://www.idref.fr/">Philostrate l’Ancien</persName> va
+        encore plus loin dans cette perspective, car il transforme l’exercice
+        ekphrastique en cadre même de tous les récits qu’il est en train
+        d’emprunter à Homère, à la tragédie, à la mythologie<note n="40" place="foot" type="standard" xml:id="ftn40">
+            <p>Pour un résumé de cette transformation voir Jaś <hi rend="small-caps">Elsner</hi>, « Philostratus Visualizes the
+            Tragic », art. cit. (n. 16), p. 309-310.</p>
+          </note>. Chez <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>, il ne s’agit
+        pas de la matrice d’un récit romanesque à venir. Mais cette différence
+        mise à part, Imbert peut soutenir, justement au sujet des<hi rend="italic"> Images</hi>, l’interprétation suivante :</p>
+        <quote xml:id="d1e1507">Le tableau est l’instance où composent entre
+        elles deux lectures, lecture divine ou physique de la scène, et
+        lecture humaine ou tribulatoire. C’est la surface où la scène
+        mythologique dépose l’épiphanie des intentions divines, scène en
+        laquelle les spectateurs s’introduisent, sous réserve d’accepter l’un
+        des rôles qui y sont déjà inscrits. Ou encore, le tableau met en
+        coïncidence deux lectures de la scène, celle grandiose, mythique, à la
+        mesure des finalités universelles que l’exégète fait voir, lors même
+        qu’il dit la leçon anecdotique de l’image, et celle que le lecteur
+        souligne de ses assentiments tout socratiques<note n="41" place="foot" type="standard" xml:id="ftn41">
+            <p>Claude <hi rend="small-caps">Imbert</hi>,<hi rend="italic"> op.
+            cit.,</hi> p. 342. Par ailleurs, pourquoi les assentiments en
+            question seraient-ils « socratiques » ?</p>
+          </note>.</quote>
+        <p xml:id="d1e1519">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-rlg2tftf">imitation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-e3qbnqtq">invention</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image<term ref="doi:10.34817/sv-8rqmydff">tableau</term>
+              </term>
+            </term>
+          </term>Cette
+        interprétation, qui nous renvoie au stoïcisme et à l’allégorie qui se
+        fonde sur la continuité entre la sensation et la pensée, est à mon
+        avis plus forte que la contre-lecture de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>
+        en termes étroitement sophistiques. Je rappelle au passage que cette
+        autre lecture a été élaborée par <persName ref="026770954" type="idref" xml:base="https://www.idref.fr/">Barbara
+        Cassin</persName> qui la résume ainsi : « Les tableaux des<hi rend="italic">
+            <foreign xml:lang="grc">ekphraseis</foreign>
+          </hi> sont des antiphénomènes, non pas les imitations de la nature
+        mais les productions réinventées à partir de la culture : des effets
+        qui ne tirent leur<hi rend="italic">
+            <foreign xml:lang="grc">enargeia</foreign>
+          </hi>, leur “vivacité”, que des pouvoirs du<hi rend="italic">
+            <foreign xml:lang="grc">logos</foreign>
+          </hi> »<note n="42" place="foot" type="standard" xml:id="ftn42">
+            <p>Barbara Cassin,<hi rend="italic"> L’effet sophistique</hi>,
+            Paris, 1995, p. 504.</p>
+          </note>. Cette conclusion est indéniable pour autant que nous avons
+        affaire à un texte écrit et littéraire, mais elle est peut-être trop
+        générale : par exemple, la première opposition, celle du phénomène et
+        de l’antiphénomène, n’est pas très pertinente ; d’ailleurs, elle ne
+        s’appliquerait pas à la sensation et à la<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">phantasia</hi>
+          </foreign> selon les stoïciens (la même chose, en d’autres termes,
+        vaut pour la deuxième opposition, celle entre la nature à imiter et la
+        culture à réinventer). Je ne suis donc pas sûr que l’on puisse
+        conclure, et c’est ma deuxième citation de <persName ref="026770954" type="idref" xml:base="https://www.idref.fr/">Barbara
+        Cassin</persName>, que « l’art du peintre est “commensurable” au
+        discours et, avec le discours, il n’y a plus de trace de
+        “représentation”. Le<hi rend="italic">
+            <foreign xml:lang="grc">logos</foreign>
+          </hi> fournit seul la “mesure” de la<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">tekhnê</hi>
+          </foreign> : c’est ainsi qu’il l’emporte et sur la peinture et sur
+        la nature »<note n="43" place="foot" type="standard" xml:id="ftn43">
+            <p>Barbara Cassin,<hi rend="italic"> op. cit.,</hi> p. 506.</p>
+          </note>. Cette interprétation de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>,
+        et de l’<foreign xml:lang="grc">
+            <hi rend="italic">ekphrasis</hi>
+          </foreign> en général, semble surtout prolonger la polémique bien
+        antérieure entre <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> et la première
+        sophistique.</p>
+        <p xml:id="d1e1558">D’autres interprètes, et pas seulement <persName type="_temp">Claude Imbert</persName>, sont en revanche plus
+        favorables au lien entre l’<foreign xml:lang="grc">
+            <hi rend="italic">ekphrasis</hi>
+          </foreign> selon <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> et la
+        conception stoïcienne de la représentation. Dans ce contexte, on peut
+        nommer <persName ref="026731355" type="idref" xml:base="https://www.idref.fr/">Marc Eli Blanchard</persName>, cité
+        par <persName ref="026770954" type="idref" xml:base="https://www.idref.fr/">Barbara Cassin</persName>, mais qui,
+        en analysant les<hi rend="italic">
+            <foreign xml:lang="grc">xenia</foreign>
+          </hi> ou « natures mortes » décrites par <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>,
+        aboutit à sa propre lecture en établissant un lien entre les
+        descriptions de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> et la théorie
+        stoïcienne du signe et de la représentation, tout en soulignant la
+        possibilité d’une libération paradoxale de cette dernière par rapport
+        à tout objet sensible<note n="44" place="foot" type="standard" xml:id="ftn44">
+            <p>Marc <hi rend="small-caps">Blanchard</hi>, « Problèmes du texte
+            et du tableau : les limites de l’imitation à l’époque
+            hellénistique et sous l’Empire », dans Barbara <hi rend="small-caps">Cassin</hi> (éd.),<hi rend="italic"> Le Plaisir
+            de parler</hi>, Paris, 1986, p. 136-137.</p>
+          </note>. Je ne peux pas suffisamment citer cette lecture (le passage
+        en question s’étale sur deux pages), mais j’en souligne une analyse de
+        la dimension temporelle à la fois des descriptions de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> et du discours
+        stoïcien qui « vise à une simultanéité qui inclut le sujet, l’objet et
+        le monde », cette simultanéité étant le terrain de « l’apparition
+        lumineuse de l’objet représenté »<note n="45" place="foot" type="standard" xml:id="ftn45">
+            <p>Marc <hi rend="small-caps">Blanchard</hi>,<hi rend="italic">
+            op. cit.,</hi> p. 137 (qui renvoie également au livre de Victor
+            Goldschmidt ,<hi rend="italic"> Le système stoïcien et l’idée du
+            temps</hi>, p. 111-124).</p>
+          </note>. Avec <persName type="_temp">Imbert</persName> et <persName ref="026731355" type="idref" xml:base="https://www.idref.fr/">Blanchard</persName>, il faut encore
+        citer <persName ref="029304083" type="idref" xml:base="https://www.idref.fr/">François Lissarrague</persName> qui,
+        dans son article sur « <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>, les images et
+        les mots », met l’accent sur la capacité d’abolir « la distance entre
+        le réel et sa représentation »<note n="46" place="foot" type="standard" xml:id="ftn46">
+            <p>François <hi rend="small-caps">Lissarrague</hi>, « Philostrate,
+            les images et les mots », dans Édouard <hi rend="small-caps">Pommier</hi> (éd.),<hi rend="italic"> Histoire
+            de l’histoire de l’art. Tome I. De l’antiquité au XVIII</hi>
+              <hi rend="sup">
+                <hi rend="italic">e</hi>
+              </hi>
+              <hi rend="italic"> siècle</hi>, Paris, 1995, p. 87.</p>
+          </note>, sans pourtant dissoudre la structure complexe de la faculté
+        de représenter et — en même temps — d’imaginer. Et cette complexité
+        reste la source de troubles dont les descriptions concrètes semblent
+        abonder.</p>
+        <p xml:id="d1e1610">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-qm2ezej3">peinture</term>
+            </term>
+          </term>D’où la
+        question naturelle du rapport entre ces descriptions et le Prologue
+        des<hi rend="italic"> Images</hi>. Le discours sur l’invention de la
+        peinture peut être lié à la<hi rend="italic"> généalogie</hi>
+        stoïcienne des arts que nous connaissons grâce à <persName ref="030356504" type="idref" xml:base="https://www.idref.fr/">Posidonius</persName>. On peut aussi
+        la rapprocher d’une<hi rend="italic"> classification</hi> plutôt
+        originale des arts esquissée par <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>
+        dans<hi rend="italic"> La vie d’Apollonius de Tyane</hi> (VIII, 7) où
+        il range la peinture et la sculpture dans le même groupe des arts
+        « semi-libéraux » que la navigation et l’agriculture<note n="47" place="foot" type="standard" xml:id="ftn47">
+            <p>Sur ce point, je me permets de renvoyer à quelques remarques
+            dans mon article « Gods and Painters », p. 136.</p>
+          </note>. En même temps, le lien indiqué dans la première phrase du
+        Prologue entre la<hi rend="italic">
+            <foreign xml:lang="grc">zôgraphia</foreign>
+          </hi> et l’<foreign xml:lang="grc">
+            <hi rend="italic">alêtheia</hi>
+          </foreign> se retrouve aussi chez <persName ref="027922049" type="idref" xml:base="https://www.idref.fr/">Sextus</persName>, dans
+        son traité<hi rend="italic"> Contre les grammairiens</hi> (182) où
+        <persName ref="027922049" type="idref" xml:base="https://www.idref.fr/">Sextus</persName> oppose les arts
+        « réels » (la peinture, la sculpture) aux arts dépourvus de la vérité
+        (les arts de promesse comme la divination). La classification des arts
+        selon <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> peut être
+        comparée à plusieurs autres passages dans <persName ref="027922049" type="idref" xml:base="https://www.idref.fr/">Sextus</persName>, qui
+        admet plusieurs arts comme tout à fait acceptables : non seulement la
+        peinture et la sculpture, mais encore la navigation et l’agriculture,
+        et aussi la médecine, certaines formes de l’astronomie et de la
+        grammaire, et puis la philosophie<note n="48" place="foot" type="standard" xml:id="ftn48">
+            <p>Pour Sextus et la classification des arts voir Jonathan Barnes,
+            « Scepticism and the Arts », dans R. <hi rend="small-caps">Hankinson</hi> (éd.),<hi rend="italic"> Method,
+            Medicine and Metaphysics</hi> (<hi rend="italic">Apeiron</hi> 21,
+            1988), p. 63. Pour Sextus et la rhétorique, cf. aussi Ineke <hi rend="small-caps">Sluiter</hi>, « The Rhetoric of Scepticism:
+            Sextus against the Language Specialists », dans Juha <hi rend="small-caps">Sihvola</hi> (éd.),<hi rend="italic"> Ancient
+            Scepticism and the Sceptical Tradition</hi>, Helsinki, 2000, p.
+            93-123.</p>
+          </note>.</p>
+        <p xml:id="d1e1661">Les références ou filiations peuvent donc être
+        tissées dans tous les sens. Je n’ai surtout pas l’intention de faire
+        de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> un sceptique
+        avoué. J’admets volontiers que la polarité établie par <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> entre la
+        perspective divine et la perspective humaine sur la peinture justifie
+        (ou semble justifier) l’interprétation de ce Prologue par <persName type="_temp">Claude Imbert</persName>, interprétation donc la force
+        réside précisément dans la dualité des « deux lectures », lecture
+        divine et lecture humaine. Au niveau de la théorie (au sens moderne du
+        mot), cette polarité permet de relier <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> à
+        une culture imprégnée de stoïcisme tardif, et donc de la compréhension
+        stoïcienne des arts et de l’allégorie. Or, à lire attentivement les<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">ekphraseis</hi>
+          </foreign> qui suivent, on s’aperçoit d’une situation étrange qui
+        concerne les deux perspectives citées. En fait, <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> ne cesse de se
+        mouvoir dans un entre-deux assez ambivalent, autrement dit dans une
+        position qui n’est ni celle de la lecture divine ni celle de la
+        lecture humaine. La raison première de cette ambivalence, c’est que
+        <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> n’hésite pas à
+        mettre en doute la capacité humaine de donner un assentiment légitime
+        à ce qu’on perçoit. La conséquence en est dramatique, et ceci surtout
+        du point de vue stoïcien. Là où les commentateurs soulignent une sorte
+        d’homogénéité ou d’affinité entre l’<foreign xml:lang="grc">
+            <hi rend="italic">ekphrasis</hi>
+          </foreign> d’après <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> et l’exercice
+        de la<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">phantasia katalêptikê</hi>
+          </foreign> (donc stoïcienne), le texte lui-même semble pencher vers
+        une situation ambivalente qui indique une suspension de l’assentiment
+        et une incertitude quant à la valeur de nos perceptions (ce serait
+        plutôt de<hi rend="italic">
+            <foreign xml:lang="grc">pithanê phantasia</foreign>
+          </hi> qu’on devrait parler ici).</p>
+        <p xml:id="d1e1675">La question du rapport entre le Prologue et les
+        descriptions particulières reste donc très importante. Chez <persName ref="026993937" type="idref" xml:base="https://www.idref.fr/">Longus</persName>, le tableau
+        préfigure le récit qui suit ; en revanche, chez <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>, le prologue
+        esquisse le statut de l’art, en l’occurrence la dualité de la peinture
+        humaine et de la nature en tant que peinture divine. Cette dualité
+        nous introduit à l’intérieur du cosmos, au cœur de la nature créatrice
+        des stoïciens, mais la suite des trente-cinq descriptions qui
+        enchaînent sur cette introduction ne cesse de s’appuyer sur la double
+        stratégie de la négation linguistique et de la conjecture, qui permet
+        de décrire ce qu’on ne voit pas, et typiquement les choses et les
+        personnages cachés ou autrement absents. Le monde est réel, et les
+        héros des histoires représentées aussi. Mais, pour résumer la
+        situation en une phrase philosophique, le critère de vérité reste
+        introuvable. Tout lien entre<hi rend="italic"/>
+          <foreign xml:lang="grc">
+            <hi rend="italic">phantasia</hi>
+          </foreign> comme « visualisation » et<hi rend="italic">
+            <foreign xml:lang="grc">phantasia</foreign>
+          </hi> comme présentation ou impression dite « cognitive » reste
+        obscur, plus exactement ouvert, lui aussi, à la conjecture. Mais ce
+        serait un rapport déterminant car <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>
+        lui-même nous invite à concevoir les personnages absents à partir
+        d’une saisie descriptive des objets présents à notre esprit.</p>
+        <p xml:id="d1e1683">Bien sûr, cette longue parenthèse est grossière
+        par rapport à la finesse des descriptions concrètes de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> et des
+        analyses qu’en fournit <persName ref="132858355" type="idref" xml:base="https://www.idref.fr/">Ruth Webb</persName>
+          <note n="49" place="foot" type="standard" xml:id="ftn49">
+            <p>On notera pourtant deux points corrélatifs aux paragraphes
+            précédents : l’incertitude exprimée par<hi rend="italic">
+            oimai</hi> (cf. p. 118, n. 18) ; les interruptions créées par le
+            « Regarde ! » adressé au garçon (p. 126-127).</p>
+          </note>. J’ai déjà signalé qu’un atout de sa contribution consiste à
+        traiter les deux Philostrates, et à les prendre pour égaux. Il ne faut
+        pourtant pas cacher que le passage de l’un à l’autre est celui du
+        maniement habile du vraisemblable à la création des illusions. D’une
+        certaine façon, c’est le passage de la nature tout court à la nature
+        humaine. Pour <persName ref="032747586" type="idref" xml:base="https://www.idref.fr/">Philostrate le Jeune</persName>, la
+        surface peinte rend visibles, en premier lieu, les mouvements de l’âme
+        (il s’agit souvent des émotions mixtes). Et bien qu’il oublie assez
+        souvent son propre programme, détaillé dans le Prologue, et se
+        contente de suivre voire imiter les<hi rend="italic">
+            <foreign xml:lang="grc">ekphraseis</foreign>
+          </hi> de celui dont il se dit le petit-fils, le résultat ne manque
+        pas d’intérêt. Plus d’une fois, il amplifie les descriptions faites ou
+        amorcées par les autres, et c’est dans ces amplifications que s’ouvre
+        l’espace (et le temps) pour la déception (<foreign xml:lang="grc">
+            <hi rend="italic">apatê</hi>
+          </foreign>) de plus en plus complète et absorbante. Cette dernière
+        est pleinement avouée comme un procédé textuel — à la différence des
+        illusions suscitées par une<hi rend="italic"> mania</hi> que <persName ref="030324149" type="idref" xml:base="https://www.idref.fr/">Philostrate l’Ancien</persName>
+        détecte et nomme ainsi chez les Bacchantes ou chez <persName ref="027575055" type="idref" xml:base="https://www.idref.fr/">Héraclès</persName> (pour ces
+        illusions et leur association avec<hi rend="italic">
+            <foreign xml:lang="grc">hupnos</foreign>
+          </hi> on peut consulter la contribution de <persName ref="079353738" type="idref" xml:base="https://www.idref.fr/">Clélia Nau</persName>,
+        « Sommeil et mort, délire et rêve dans une galerie de tableaux »<note n="50" place="foot" type="standard" xml:id="ftn50">
+            <p>L’espace me manque pour analyser ce texte en détail ; il en est
+            de même pour la contribution déjà citée de Gisèle
+            Mathieu-Castellani, riche d’implications pour la fonction érotique
+            de l’image décrite ; et aussi pour celle de Stéphane Rolet,
+            « Piero Valeriano lecteur de Philostrate : l’image écartelée »,
+            qui s’occupe de la réception des<hi rend="italic"> Images</hi>
+            chez un auteur du XVI<hi rend="sup">e</hi> siècle.</p>
+          </note>). Chez le Jeune <persName ref="032747586" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>, on creuse les
+        détails fictionnels afin de donner du relief aux émotions opposées, et
+        de séduire ainsi les « spectateurs sans croyance » (pour reprendre une
+        expression de <persName ref="027182800" type="idref" xml:base="https://www.idref.fr/">Paul Veyne</persName>).</p>
+        <p xml:id="d1e1715">Or c’est pour cette même raison, et non seulement
+        à cause d’un souci chronologique, que la place entre les<hi rend="italic"> Images</hi> de <persName ref="030324149" type="idref" xml:base="https://www.idref.fr/">Philostrate l’Ancien</persName> et
+        les<hi rend="italic"> Descriptions</hi> de <persName ref="032748027" type="idref" xml:base="https://www.idref.fr/">Callistrate</persName>
+        va si bien à <persName ref="032747586" type="idref" xml:base="https://www.idref.fr/">Philostrate le Jeune</persName>. Si
+        ses affinités avec les autres<hi rend="italic"> Images</hi> sont
+        évidentes et auto-proclamées, il est plus proche de <persName ref="032748027" type="idref" xml:base="https://www.idref.fr/">Callistrate</persName> par certaines
+        de ses préoccupations psychologiques. En fait, ils partagent la
+        question : « dans la matière, comment représenter les émotions
+        invisibles ? » — une question dont ils sont explicitement préoccupés.
+        En même temps, il ne faut pas oublier que <persName ref="032748027" type="idref" xml:base="https://www.idref.fr/">Callistrate</persName>,
+        précisément en poursuivant un but semblable à celui de <persName ref="032747586" type="idref" xml:base="https://www.idref.fr/">Philostrate nº 2</persName>, entre en
+        compétition avec les assertions fondamentales de <persName ref="030324149" type="idref" xml:base="https://www.idref.fr/">Philostrate nº 1</persName>. Ce
+        dernier point, et l’intérêt véritable des<hi rend="italic">
+        Descriptions</hi>, nous est clairement rappelé par <persName ref="052301370" type="idref" xml:base="https://www.idref.fr/">Françoise Graziani</persName> dans
+        « “La vérité en image” : la méthode sophistique ». Sa position, à mon
+        avis justifiée, n’a pourtant rien d’évident et s’oppose même à
+        l’opinion divergente exprimée dans le même recueil<note n="51" place="foot" type="standard" xml:id="ftn51">
+            <p>Simone <hi rend="small-caps">Follet</hi>, Brigitte <hi rend="small-caps">Mondrain</hi>, « La tradition manuscrite des<hi rend="italic"> Descriptions</hi> de Callistrate », p. 90 : « La
+            différence quantitative entre la diffusion des œuvres de
+            Philostrate et des œuvres de Callistrate paraît justifiée par la
+            différence qualitative que l’on peut trouver entre elles ».</p>
+          </note>. Il est certain que les descriptions de <persName ref="032748027" type="idref" xml:base="https://www.idref.fr/">Callistrate</persName> ne possèdent
+        pas la richesse narrative de celles de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> ;
+        il suffit de comparer, par exemple, les descriptions de la statue de
+        <persName ref="229086306" type="idref" xml:base="https://www.idref.fr/">Memnon</persName> fournies par les
+        deux auteurs : si <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> en fait
+        l’aboutissement d’un<hi rend="italic"> récit</hi> élaboré qui va du
+        rappel de la <date>guerre de Troie</date> jusqu’aux déesses qui « se
+        montrent dans les airs » (I, 7), <persName ref="032748027" type="idref" xml:base="https://www.idref.fr/">Callistrate</persName>,
+        lui, s’interroge plus<hi rend="italic"> théoriquement</hi> sur la
+        relation paradoxale entre la pierre et la voix (numéro 9).</p>
+        <p xml:id="d1e1749">La fonction théorique est liée à la nécessité de
+        défendre la statue comme un artefact figé et pourtant capable
+        d’exprimer les émotions les plus volatiles. Or même les statues
+        signifient plus que le contenu émotionnel — donc intérieur — des
+        personnages du drame. <persName ref="052301370" type="idref" xml:base="https://www.idref.fr/">Françoise Graziani</persName> nous
+        rappelle la statue de <persName ref="027724417" type="idref" xml:base="https://www.idref.fr/">Narcisse</persName>, censée imiter
+        le<hi rend="italic"> destin</hi> de ce dernier et représenter ainsi le
+        mythe dans son ensemble (p. 143). Ce rappel n’est pourtant qu’un
+        prélude aux pages 144-151 de sa contribution, qui analysent un
+        véritable « système de signes » qui transforme les<hi rend="italic">
+        Descriptions</hi>, une par une, en autant des configurations mentales
+        dont l’objet propre serait moins la pierre morte et sculptée que la
+        vie des êtres sensibles qui sentent et pensent :</p>
+        <quote xml:id="d1e1757">Ici comme chez <persName ref="030324149" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName>
+        [l’Ancien], ce n’est pourtant pas sur l’illusion de vie et de
+        mouvement que porte l’éloge : la légende rapporte que <persName ref="032947216" type="idref" xml:base="https://www.idref.fr/">Dédale</persName> était capable
+        d’animer « artificiellement » (<foreign xml:lang="grc">
+            <hi rend="italic">mêchanâsthai</hi>
+          </foreign>) des statues, mais les artistes qui ont produit les
+        quatorze statues exposées par <persName ref="032748027" type="idref" xml:base="https://www.idref.fr/">Callistrate</persName> vont plus
+        loin, car leurs simulacres dotent la matière même d’une âme, laquelle
+        se manifeste par ses facultés (intellect, volonté, imagination,
+        sensation) et par les « passions » qui l’émeuvent (p. 146).</quote>
+        <p xml:id="d1e1762">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-nkkx3v74">analogie</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-4xfvhkky">vérité</term>
+            </term>
+          </term>Le passage
+        cité introduit à son tour une citation de l’<hi rend="italic">Ekphrasis</hi> 9, « Memnon », peut-être la plus
+        équivoque de toutes car elle traite d’une statue façonnée par un dieu.
+        Cette facture divine justifie l’art du sculpteur comme un art sacré
+        (cf.<hi rend="italic"> hieras technês</hi> de l’<hi rend="italic">Ekphrasis</hi> 3, qui porte sur l’Éros animé ou « Éros
+        même » de <persName ref="031018998" type="idref" xml:base="https://www.idref.fr/">Praxitèle</persName>) : c’est la
+        sculpture plus que la peinture qui implique une véritable « théologie
+        de l’art ». Cette dernière est résumée avec une éloquence magnifique
+        dans la description de la statue de Péan (<hi rend="italic">Ekphrasis</hi> 10) dont <persName ref="052301370" type="idref" xml:base="https://www.idref.fr/">Graziani</persName>
+        traduit et commente le passage central (p. 147-148). « Mettre le dieu
+        en image » en créant « la forme même de la vérité », voilà l’œuvre
+        d’un art qui fait<hi rend="italic"> comprendre</hi> à la matière
+        « qu’elle représente un dieu ». On pourrait s’interroger longuement
+        pour savoir si cette conception trahit une très originale tendance
+        platonisante (avec toujours le<hi rend="italic"> Timée</hi> et le<hi rend="italic"> Critias</hi> à l’horizon). En revanche, il est sûr
+        qu’elle implique une analogie avec la rhétorique révisée par la
+        seconde sophistique. Le point commun semble clair : nous n’accédons
+        aux êtres que par leurs images<hi rend="italic"> fabriquées</hi>
+        (cf.<hi rend="italic"> Ekphrasis</hi> 2, « Une Bacchante »).</p>
+        <p xml:id="d1e1792">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-lrxnglhp">divinité</term>
+              </term>
+            </term>
+          </term>Les
+        divinités atmosphériques de <persName ref="032970242" type="idref" xml:base="https://www.idref.fr/">Philostrate</persName> (les Heures
+        encore) contiennent un germe de cette théologie à la fois plus
+        fantastique et plus artisanale que l’on ne le pense. Mais c’est
+        <persName ref="032748027" type="idref" xml:base="https://www.idref.fr/">Callistrate</persName> qui lui donne
+        — littéralement — forme. Si donc, d’un côté, <persName ref="032748027" type="idref" xml:base="https://www.idref.fr/">Callistrate</persName>
+        achève le glissement, entamé par <persName ref="032747586" type="idref" xml:base="https://www.idref.fr/">Philostrate le
+        Jeune</persName>, vers les émotions ou les états d’âme qui tendent à
+        devenir le centre de la description, de l’autre côté il ravive la
+        question du divin dans les arts plastiques. Ainsi, tout en reprenant
+        une partie des préoccupations du petit-fils, il ne cesse de<hi rend="italic"> polémiquer</hi> contre le grand-père. Sa concentration
+        sur les façons dont les émotions s’expriment de l’intérieur du marbre
+        n’implique pas une absence totale de paysage environnant et
+        d’atmosphère colorée (voir, par exemple,<hi rend="italic">
+        Ekphrasis</hi> 7, « Orphée »)<note n="52" place="foot" type="standard" xml:id="ftn52">
+            <p>Ce qui est d’ailleurs anticipé par Philostrate l’Ancien dans
+            la<hi rend="italic"> Vie d’Apollonios de Tyane</hi> VI, 19,
+            concernant le Zeus de Phidias. Sur le Zeus de Phidias, Dion
+            Chrysostome, Philostrate et la représentation des corps divins
+            voir aussi Thomas <hi rend="small-caps">Benediktson</hi>,<hi rend="italic"> Literature and the Visual Arts in Ancient Greece
+            and Rome</hi>, Norman (Oklahoma), 2000, p. 177-185.</p>
+          </note>. C’est pourtant de l’intérieur des statues que commencent
+        leurs mouvements propres à tel ou tel moment, dans telle ou telle
+        situation (voir, à ce sujet,<hi rend="italic"> Ekphrasis</hi> 7,
+        « Kairos à Sicyone »). Les statues sont toujours décrites comme prêtes
+        à bouger, mieux encore comme un mouvement arrêté pendant que l’âme
+        continue à trembler (pour la présence de l’âme dans la pierre sculptée
+        voir le début de l’<hi rend="italic">Ekphrasis</hi> 13, « Médée »).
+        C’est pourquoi on a pu réfléchir sur l’influence directe des mimes
+        dansés dont <persName ref="032748027" type="idref" xml:base="https://www.idref.fr/">Callistrate</persName> se serait
+        inspiré afin d’établir une homologie entre une statue et un acteur,
+        les deux partageant la même capacité d’expression qui s’adresse
+        directement au lecteur ou au spectateur — à la différence du
+        dispositif mis en place par les deux Philostrate<note n="53" place="foot" type="standard" xml:id="ftn53">
+            <p>Ismene <hi rend="small-caps">Lada</hi>-<hi rend="small-caps">Richards</hi>, « “Mobile Statuary”: Refractions
+            of Pantomime Dancing from Callistratus to Emma Hamilton and Andrew
+            Ducrow »,<hi rend="italic"> International Journal of the Classical
+            Tradition</hi> 10, 2003, p. 3-37, qui souligne le raffinement du
+            texte de Callistrate et ses différences par rapport à Philostrate.
+            Dans une perspective semblable, on pourrait opposer les statues de
+            Callistrate aux statues dans les épigrammes ekphrastiques, ces
+            dernières étant une sorte d’instantané textuel, les premières des
+            poses élaborées [j’emprunte la terminologie du champ théorique de
+            la photographie ; voir Thierry <hi rend="small-caps">de</hi>
+              <hi rend="small-caps">Duve</hi>, « Pose et instantané, ou le paradoxe
+            photographique »,<hi rend="italic"> Essais datés</hi> (1974-1986),
+            Paris, 1987].</p>
+          </note>.</p>
+        <p xml:id="d1e1843">Le<hi rend="italic"> paragone</hi> implicite
+        orchestré par <persName ref="032748027" type="idref" xml:base="https://www.idref.fr/">Callistrate</persName> qui veut
+        subvertir l’éloge de la surface peinte dans le Prologue des<hi rend="italic"> Images</hi> reste à analyser dans ses détails. Mais il
+        est évident que <persName ref="052301370" type="idref" xml:base="https://www.idref.fr/">Graziani</persName> (de même que
+        <persName ref="050802496" type="idref" xml:base="https://www.idref.fr/">Lada-Richards</persName> citée dans
+        la note précédente) contredit avec succès le propos de <persName ref="085975915" type="idref" xml:base="https://www.idref.fr/">Léonard</persName> selon lequel « la
+        sculpture est d’un discours plus simple et demande moins d’efforts à
+        l’esprit que la peinture »<note n="54" place="foot" type="standard" xml:id="ftn54">
+            <p>Léonard de Vinci,<hi rend="italic"> Traité de la peinture</hi>,
+            textes traduits et présentés par André <hi rend="small-caps">Chastel</hi>, Paris, Berger-Levrault, 1987, p.
+            140. Cité aussi, à propos du Prologue de Philostrate l’Ancien,
+            dans Jackie <hi rend="small-caps">Pigeaud</hi>,<hi rend="italic">
+            Les loges de Philostrate</hi>, Nantes, 2003, p. 46. Quant à la
+            sculpture vue par les textes anciens, voir Deborah <hi rend="small-caps">Tarn</hi>
+              <hi rend="small-caps">Steiner</hi>,<hi rend="italic"> Images in the Mind. </hi>
+              <hi rend="italic">Statues
+            in Archaic and Classical Literature and Thought</hi>, Princeton,
+            2001.</p>
+          </note>. Il faudra revenir une autre fois sur les objets décrits par
+        <persName ref="032748027" type="idref" xml:base="https://www.idref.fr/">Callistrate</persName>. Que leur
+        série inclue une peinture (<hi rend="italic">Ekphrasis</hi> 14,
+        « Athamas »), et peut-être un relief (<hi rend="italic">Ekphrasis</hi>
+        12, « Centaure »)<note n="55" place="foot" type="standard" xml:id="ftn55">
+            <p>Cf. Karl <hi rend="small-caps">Lehmann</hi>, « Kallistratos
+            Meets a Centaur »,<hi rend="italic"> American Journal of
+            Archaeology</hi> 61, 1957, p. 123-127. Lehmann, qui propose
+            d’identifier « Le centaure » avec un relief de Hiéron de
+            Samothrace et pense que « Médée » (numéro 13) pourrait également
+            décrire un relief, est insensible au jeu de Callistrate qu’il
+            prend pour un écrivain de second rang et sans inspiration. Comme
+            dans le cas de Philostrate l’Ancien, Lehmann est sûr que
+            Callistrate ne peut décrire que les œuvres réelles.</p>
+          </note>, ne change rien au propos fondamental de l’auteur ; mais
+        c’est une invitation à éviter les catégories trop massives et trop
+        vite appliquées. La mémoire et l’imagination pourraient être
+        radicalement historiques : dans leur forme et leur substance même,
+        selon des perceptions autrement saturées à tel ou tel moment
+        historique. « Avoir quelque chose (comme si) devant les yeux » pouvait
+        désigner, à la fois, une vraie épiphanie et l’effet d’une stratégie
+        rhétorique. Ainsi se confirme que, s’il n’y a pas d’image simple, il
+        ne saurait y avoir de descriptions simples non plus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

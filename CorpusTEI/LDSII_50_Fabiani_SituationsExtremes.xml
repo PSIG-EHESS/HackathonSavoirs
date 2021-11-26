@@ -1,0 +1,885 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-07T16:15:02.045+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LDSII_50_Fabiani_SituationsExtremes">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Savoirs en situations extrêmes</title>
+        <title type="collection">Lieux de savoir 2</title>
+        <author role="aut">
+          <forename>Jean-Louis</forename>
+          <surname>Fabiani</surname>
+          <idno type="IDREF">028960939</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Albin
+          Michel CC BY-NC-ND 3.0 Attribution - Pas d’Utilisation Commerciale -
+          Pas de Modification</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/PBB5FAC4" type="bookSection" xml:lang="fre">
+          <analytic>
+            <title level="a">Savoirs en situations extrêmes</title>
+            <author>
+              <forename>Jean-Louis</forename>
+              <surname>Fabiani</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Lieux de savoir</title>
+            <idno type="ISBN">978-2-226-18729-1</idno>
+            <editor>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <biblScope unit="volume">2. Les mains de l'intellect</biblScope>
+              <biblScope unit="nb_volumes">2</biblScope>
+              <biblScope unit="page">866-876</biblScope>
+              <publisher>Albin Michel</publisher>
+              <date>2011</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="eng"/>
+        <language ident="yid"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique
+          corporelle<term ref="doi:10.34817/sv-cuffkk5p">position du
+          corps</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-tk7kszgy">raisonnement</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-yenrhmkn">collaboration</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-hp2wzpzs">science
+          studies</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie</term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6945498" type="geonames" xml:base="https://www.geonames.org/">Collège de France</placeName>
+          </term>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1950" to="2000" type="_temp">1950-2000</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-08-08T07:16:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Savoirs en situations extrêmes</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Jean-Louis Fabiani</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="d1e111">
+        <div type="section1" xml:id="d1e113">
+          <head subtype="level1" xml:id="d1e115">Connaissance et
+          déficience</head>
+          <p xml:id="d1e118">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie</term>
+            </term>Peut-on
+          imaginer ce que serait l’optimum d’une configuration de savoir ?
+          Celle-ci devrait associer la découpe parfaite de l’objet de
+          connaissance, l’adéquation d’une discipline et d’un territoire,
+          l’existence d’archives et de bibliothèques fiables et d’index à
+          jour, l’irréprochable aptitude intellectuelle et physique du sujet
+          connaissant et l’évaluation précise du destinataire, présent ou à
+          venir, des résultats de la recherche. Il va sans dire que ces
+          conditions ne sont jamais toutes réunies dans une situation
+          empirique donnée. L’espace de la connaissance n’est jamais
+          caractérisé par un niveau de félicité qui le mettrait à l’abri des
+          tragédies de l’histoire ou des accidents de la vie. Les traités
+          d’épistémologie ignorent la dimension contingente des pratiques
+          effectives. Il arrive même que le savoir, y compris en ses formes
+          les plus innovantes et les plus précieuses, trouve son lieu dans un
+          espace improbable, au plus loin des institutions établies ou pris
+          dans un écart difficile à imaginer par rapport à des compétences
+          généralement considérées comme un réquisit ou à des conditions
+          ordinairement exigées pour la production, le stockage et la
+          diffusion des corps de savoir.</p>
+          <p xml:id="d1e121">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire<term ref="doi:10.34817/sv-p5wqzjnr">histoire des
+          sciences</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines</term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-to399vrl">évaluation pédagogique<term ref="doi:10.34817/sv-t8anmuof">diplôme</term>
+                </term>
+              </term>
+            </term>Les
+          textes réunis dans cette section participent de ce que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Michel
+          Foucault</persName> nommait à propos de son propre usage des textes
+          dans l’<hi rend="italic">Histoire de la folie </hi>une sorte de
+          « relativité sans recours<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>M. <hi rend="small-caps">Foucault</hi>, <hi rend="italic">Histoire de la folie à l’âge classique
+              </hi>[1961], Paris, 1970, p. <hi rend="small-caps">ix-x</hi>.</p>
+            </note> ». Si l’atelier de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> constitue une
+          exception dans cet ensemble de situations extrêmes, qui vont
+          jusqu’au handicap physique le plus invalidant et à l’extermination
+          d’un peuple, la référence à la dimension inhabituelle de ses
+          stratégies d’écriture permet une analyse transversale des pratiques
+          diverses par lesquelles il est possible de constituer dans l’urgence
+          des ressources inédites, en levant l’obstacle de la pénurie ou de
+          l’absence de points d’appui fiables. La présence de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> dans un tel
+          ensemble présente un caractère pour le moins énigmatique si l’on
+          considère son appartenance incontestée à l’univers de l’excellence
+          scolaire, comme en témoigne la dimension légendaire prise par sa
+          soutenance de thèse dans l’historiographie de la vie intellectuelle
+          française<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>J.-L. <hi rend="small-caps">Fabiani</hi>, « L’épreuve des
+              savoirs », in Chr. Jacob (dir.), <hi rend="italic">Lieux de
+              savoir. Espaces et communautés</hi>, Paris, 2007, p. 43-53.</p>
+            </note>. Normalien, agrégé de philosophie, ayant fait de la
+          Bibliothèque nationale sa résidence secondaire, il fut très tôt
+          reconnu comme le penseur de sa génération par excellence. Pour
+          autant, son refus paradoxal d’être auteur, associé à une distance
+          permanente à l’égard des ordres institutionnels, témoigne d’un souci
+          de constituer « une autre scène de la pensée » sur laquelle se
+          déploieraient des formes de jeu radicalement différentes de celles
+          qui dominent dans les institutions. Le philosophe opère par
+          déplacements successifs qui sont autant de mises en danger : il
+          quitte très tôt le confort de l’espace du programme de la
+          philosophie et appuie ses raisonnements sur des textes mineurs ou
+          oubliés qui ne sont pas lestés d’une tradition de commentaire ; il
+          associe sa position de professeur au <placeName ref="6945498" type="geonames" xml:base="https://www.geonames.org/">Collège de
+          France</placeName> à « l’insurrection des savoirs assujettis ».
+          Lorsque <persName ref="027182800" type="idref" xml:base="https://www.idref.fr/">Paul Veyne</persName>, dans un
+          texte devenu classique, affirma que « <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Michel
+          Foucault</persName> révolutionnait l’histoire<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>P. <hi rend="small-caps">Veyne</hi>, <hi rend="italic">Comment on écrit l’histoire</hi>, Paris, 1978.</p>
+            </note> », il voulut rendre compte de l’impossibilité d’assigner
+          l’auteur des <hi rend="italic">Mots et des Choses </hi>à résidence
+          disciplinaire. <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> n’avait plus de
+          lieu de savoir inscriptible dans un territoire cadastré. Il
+          travaillait à se défaire des points d’appui institutionnels,
+          indexicaux et rhétoriques qui constituent le bagage ordinaire du
+          grand universitaire. Sans pour autant quitter le terrain, il cessait
+          d’en pratiquer les règles communes, alors que des intellectuels
+          appartenant à des générations antérieures avaient, comme <persName ref="027123227" type="idref" xml:base="https://www.idref.fr/">Jean-Paul Sartre</persName>,
+          manifesté l’ostentation de la rupture avec l’ordre établi sans se
+          départir de l’outillage rhétorique que fournissent les institutions
+          de savoir les plus établies. On pourrait parler à propos de
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> d’une sorte de
+          handicap volontaire, qui reviendrait à se priver des ustensiles de
+          l’excellence à la française transmis à travers la succession des
+          générations pour mettre à l’épreuve un équipement inédit. La célèbre
+          polémique qui l’opposa à <persName ref="027287130" type="idref" xml:base="https://www.idref.fr/">Jacques Derrida</persName> à propos
+          de la <hi rend="italic">Première méditation </hi>de <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">Descartes</persName> permet de
+          comprendre plus facilement son refus de ce qu’il appela pour
+          l’occasion une « petite pédagogie » historiquement située, dont la
+          virtuosité derridienne n’était qu’un vain accomplissement<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>J.-L. <hi rend="small-caps">Fabiani</hi>, <hi rend="italic">Qu’est-ce qu’un philosophe français (1880-1980) ?
+              La vie sociale des concepts</hi>, Paris, 2010.</p>
+            </note>. Le geste de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> s’est
+          accompagné d’un refus du jeu ordinaire des formes disciplinaires et
+          le fameux « Ne me demandez pas qui je suis » exprime sans fioriture
+          le désarrimage d’une productivité textuelle par rapport à toutes les
+          formes de catalogage et d’indexation qui décrivent les coordonnées
+          des lieux de savoir et leur localisation dans un espace balisé.
+          L’étrangeté foucaldienne peut ainsi être décrite comme la
+          conséquence de la capacité à se rendre sourd aux injonctions
+          automatiques des différents établissements ou à devenir aveugle aux
+          hiérarchies discursives et sociales. On peut évidemment contester le
+          caractère entièrement décisif de cette rupture avec l’habitus
+          scholastique sans pour autant mettre en doute la sincérité et la
+          radicalité de la démarche. <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> signale avec un
+          détachement élégant la dimension ambivalente des lieux de savoir
+          constitués : ils sont à la fois des points d’appui et des aires de
+          repos sur le chemin des savoirs et des pièges confortables qui
+          incitent à la routine, à la reproduction et aux fidélités indues. La
+          radicalité de la posture foucaldienne s’explique partiellement par
+          la collision entre une crise du modèle institutionnel français de
+          l’activité philosophique et la trajectoire d’un individu dont le
+          « niveau des ambitions légitimes », pour parler comme <persName ref="027715078" type="idref" xml:base="https://www.idref.fr/">Pierre
+          Bourdieu</persName>, fut exceptionnellement élevé. Handicapé
+          volontaire de l’épistémè, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> nous permet de
+          mettre en question l’idée selon laquelle les lieux de savoir sont
+          nécessairement des lieux sûrs : mieux vaut se mettre en danger en
+          défiant l’institution de l’intérieur que de la chérir à la manière
+          d’un héritier fidèle ou de la quitter comme un révolutionnaire
+          puéril et naïf. <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> met en
+          pratique, sans ostentation, la théorie critique de
+          l’intellectualisme scholastique que <persName ref="027715078" type="idref" xml:base="https://www.idref.fr/">Bourdieu</persName> a
+          développée, non sans contradictions internes, dans ses <hi rend="italic">Méditations pascaliennes</hi>
+            <note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>P. <hi rend="small-caps">Bourdieu</hi>, <hi rend="italic">Méditations pascaliennes</hi>, Paris, 1997.</p>
+            </note>. Que faire dans les lieux de savoir lorsque l’on sait
+          désormais que leur aspect bienveillant peut être trompeur et que la
+          réflexivité est de mise à leur endroit ? La réponse souvent
+          énigmatique que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> a donnée à la
+          crise des humanités de la <date from="1950" to="1999" type="_temp">seconde moitié du <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date> est évidemment très différente des
+          alternatives que les sciences sociales ont proposées pour prendre la
+          relève de la tradition académique. Réflexion faite, si on la
+          considère sous l’aspect du handicap volontaire et de l’exercice
+          régulier du soupçon à l’égard des multiples béquilles de
+          l’intellect, on peut penser que la déficience momentanée qu’elle
+          provoque est peut-être plus efficace que la stratégie de
+          suréquipement des sciences sociales, perceptible dans tous les
+          traités d’épistémologie comme dans les appels un peu dérisoires à la
+          vigilance et au contrôle permanent du mode de production des
+          connaissances. <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Michel Foucault</persName>, qui
+          avait de bonnes relations avec des sociologues qui se situaient dans
+          le prolongement explicite de l’histoire des sciences, développée par
+          leur maître commun <persName ref="026765217" type="idref" xml:base="https://www.idref.fr/">Georges Canguilhem</persName>, ne
+          cachait pas son scepticisme amusé devant leur impérieuse volonté de
+          science. Il préférait parler de savoirs et avait enterré sans
+          cérémonie la volonté de construire un lieu spécifique pour les
+          sciences de l’homme. À la musculation intensive que pratiquaient les
+          sociologues avec l’espoir d’obtenir des corps aussi sculpturaux que
+          ceux qui représentaient les disciplines des sciences de la nature,
+          il opposait sans ostentation une stratégie plus subtile : celle de
+          l’expérience physique de la perte des points d’appui. On peut
+          rapprocher en effet un voyage épuisant et les effets qu’il entraîne
+          des manières de s’orienter dans l’espace du savoir, qu’on peut
+          désormais entrevoir non comme une forme pleine, mais comme une
+          succession de trous, de blancs et de diverses <hi rend="italic">« <foreign xml:lang="eng">discrepancies</foreign> »</hi> que le philosophe n’a
+          pas à remplir ou réduire mais au contraire à manifester. Ses
+          détracteurs ont souvent reproché à <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> le
+          caractère approximatif de ses références et son goût pour les
+          citations tronquées. Une telle attitude n’est pas l’effet d’une
+          déficience – il se dépensait sans compter au travail –, mais le
+          constat d’une situation épistémologique incontournable et de la mise
+          en place de nouvelles formes d’enquête sur les textes. La fatigue de
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, souvent
+          évoquée dans le cours de son travail, comme en témoigne le compte
+          rendu de la conférence qu’il donna à <placeName ref="2464470" type="geonames" xml:base="https://www.geonames.org/">Tunis</placeName> sur <persName ref="029430925" type="idref" xml:base="https://www.idref.fr/">Manet</persName>
+            <note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>M. <hi rend="small-caps">Foucault</hi>, <hi rend="italic">La
+              Peinture de Manet</hi>, Paris, 2004.</p>
+            </note>, manifeste le refus des équipements de savoir habituels.
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> le surdoué peut
+          être ainsi rapproché d’autres acteurs qui ne partagent pas sa
+          virtuosité, mais qui ont au contraire à construire des prothèses
+          pour combler des handicaps qui semblaient insurmontables au
+          départ.</p>
+        </div>
+        <div type="section1" xml:id="d1e235">
+          <head subtype="level1" xml:id="d1e237">Innovation et handicap</head>
+          <p xml:id="d1e240">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l’information<term ref="doi:10.34817/sv-zbfxwxlc">diagramme</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-rkp2ctq5">pratique manuelle<term ref="doi:10.34817/sv-wzrnee87">manipulation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-z5onurxv">expérimentation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-jrjkvlca">théorie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-hp2wzpzs">science
+          studies</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-5cyw2kot">sciences de la
+          matière<term ref="doi:10.34817/sv-tjsyqxet">physique<term ref="doi:10.34817/sv-nnm4cjwj">physique
+          théorique</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+            </term>L’analyse des
+          formes que prend la volonté de savoir dans des circonstances
+          adverses ne peut pas se réduire à une espèce de voyeurisme qui
+          reconnaîtrait dans la capacité de produire des effets de
+          connaissance en situation d’invalidité une sorte de phénomène de
+          foire pour spectateurs hautement éduqués. Il n’est pas rare que la
+          presse magazine évoque en ces termes l’extraordinaire activité de
+          <persName ref="028590295" type="idref" xml:base="https://www.idref.fr/">Stephen Hawking</persName> dans le
+          domaine de la physique, alors qu’une maladie gravement invalidante
+          l’avait privé de l’usage de ses mains. Comment sauter l’étape des
+          calculs sur papier et du recours au diagramme ? Comment cérébraliser
+          une série d’opérations enchaînées qui conduisent, à partir de
+          manipulations, à une démonstration ou à une vérification ? La
+          question est d’importance pour les spécialistes des <hi rend="italic">
+              <foreign xml:lang="eng">science studies</foreign>
+            </hi>qui ont tenté de rapatrier, depuis une bonne trentaine
+          d’années, les opérations cognitives dans l’espace de la matérialité
+          des pratiques. Le succès de <persName ref="028590295" type="idref" xml:base="https://www.idref.fr/">Hawking</persName> semble mettre en
+          question la vaste opération de réinscription de l’activité
+          scientifique dans un monde d’interactions concrètes et dans les
+          cadres de la culture matérielle. L’inventivité dont il fait preuve
+          donne des gages à la représentation classique d’un savoir
+          dématérialisé depuis le platonisme : <hi rend="italic">théorein</hi>
+          signifie voir, et le savoir est une vision d’une ampleur et d’une
+          précision qu’autorise l’absence de médiation matérielle, y compris
+          par la vision oculaire. Si construire une théorie physique, c’est
+          voir particulièrement clair dans sa tête, que reste-t-il de la
+          grande opération de rematérialisation des opérations de connaissance
+          dont les <hi rend="italic">Lieux de savoir </hi>sont précisément
+          partie prenante ? L’enjeu est d’importance. Le cas <persName ref="028590295" type="idref" xml:base="https://www.idref.fr/">Hawking</persName> peut conduire à
+          se demander si les héros des études sur les sciences ont
+          rematérialisé les aspects les plus spectaculaires du travail
+          expérimental sans accéder pour autant à la dimension proprement
+          conceptuelle du travail théorique. Le lien entre théorie et
+          expérience a-t-il été correctement fait ? En d’autres termes, la
+          vision, au sens grec, à laquelle on peut apparier l’activité
+          théorique, peut-elle à son tour être vue et décrite comme une
+          succession d’opérations concrètes ? Le caractère spectaculaire de
+          l’inventivité de <persName ref="028590295" type="idref" xml:base="https://www.idref.fr/">Hawking</persName> en physique et
+          sa dimension quasi foraine donnent le vertige. Penser, c’est
+          manipuler, c’est négocier, c’est parlementer avec des objets et
+          tripoter des protocoles. Pas de théorie sans les mains : justement,
+          Hawking n’a pas de mains. Pas de science sans retour aux localités :
+          pas de chance, <persName ref="028590295" type="idref" xml:base="https://www.idref.fr/">Hawking</persName> aurait bien du
+          mal à s’inscrire dans un espace expérimental concret où il se
+          mouvrait avec l’aisance de l’acteur tel que le décrit <persName ref="02825354X" type="idref" xml:base="https://www.idref.fr/">Bruno
+          Latour</persName>
+            <note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Br. <hi rend="small-caps">Latour</hi>, <hi rend="italic">La
+              Science en action</hi>, Paris, 1989.</p>
+            </note>. La spectacularisation extrême du handicap majeur de
+          <persName ref="028590295" type="idref" xml:base="https://www.idref.fr/">Hawking</persName> peut conduire à
+          une déspectacularisation définitive de la théorie scientifique.</p>
+          <p xml:id="d1e264">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique
+          corporelle<term ref="doi:10.34817/sv-cuffkk5p">position du
+          corps</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-tk7kszgy">raisonnement</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-qyzckmpa">mémorisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique
+          corporelle<term ref="doi:10.34817/sv-mwsdfb7t">perception<term ref="doi:10.34817/sv-fwsea2pm">vision</term>
+                </term>
+              </term>
+            </term>
+            <persName ref="123177111" type="idref" xml:base="https://www.idref.fr/">Hélène
+          Mialet</persName> rapporte que certains commentateurs du mystère
+          <persName ref="028590295" type="idref" xml:base="https://www.idref.fr/">Hawking</persName> renvoient
+          explicitement à une théorie de la vision : la méthode consiste à
+          « voir au-delà des calculs <hi rend="italic">(<foreign xml:lang="eng">seing through calculations</foreign>)</hi> » sans
+          passer par l’enchaînement des calculs ni par les supports
+          mnémotechniques des diagrammes. Ici, penser, c’est voir, comme chez
+          <persName type="_temp">Platon</persName>. C’est aussi
+          court-circuiter par l’intuition une série d’enchaînements, ce que
+          <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">Descartes</persName> désignait
+          comme de « longues chaînes de raisons, toutes simples et faciles »
+          et qui constituaient l’assise du raisonnement scientifique enté sur
+          le modèle mathématique. Les observateurs du cas <persName ref="028590295" type="idref" xml:base="https://www.idref.fr/">Hawking</persName> renvoient plutôt
+          à une approche intuitionniste que le handicap de <persName ref="028590295" type="idref" xml:base="https://www.idref.fr/">Hawking</persName> a
+          progressivement suscitée pour pallier l’absence des concaténations
+          habituelles de l’activité rationnelle. L’activité théorique se
+          trouve ainsi décorporalisée par le retour à la métaphore de la
+          vision. Le handicap physique conduit à l’abaissement de l’importance
+          des équations dans la pratique de la physique au profit d’une saisie
+          de formes géométriques ou imagées et de traductions langagières des
+          opérations de calcul. Il ne s’agit pas de revenir à la problématique
+          de la connaissance par participation comme « vision en Dieu »
+          développée par <persName ref="032742142" type="idref" xml:base="https://www.idref.fr/">Nicolas Malebranche</persName> et
+          récemment rapprochée par <persName ref="053493966" type="idref" xml:base="https://www.idref.fr/">Frédéric Keck</persName> de la
+          définition donnée par <persName ref="031640370" type="idref" xml:base="https://www.idref.fr/">Lucien Lévy-Bruhl</persName> de la
+          mentalité primitive<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Fr. <hi rend="small-caps">Keck</hi>, <hi rend="italic">Lucien
+              Lévy-Bruhl. Entre philosophie et anthropologie. Contradiction et
+              participation</hi>, Paris, 2008.</p>
+            </note>. Il s’agit encore moins de régresser vers une conception
+          purement mentaliste de l’activité théorique qui annulerait tous les
+          acquis de la relocalisation de l’activité scientifique dans des
+          espaces concrets qu’ont permis les <hi rend="italic">
+              <foreign xml:lang="eng">science studies</foreign>
+            </hi>. Le témoignage des étudiants de <persName ref="028590295" type="idref" xml:base="https://www.idref.fr/">Hawking</persName>
+          devenus progressivement ses médiateurs et aussi peut-être un
+          analogon de son corps, particulièrement depuis qu’il a aussi perdu
+          la voix à la suite d’une trachéotomie, permet de montrer que le
+          physicien a développé un ensemble de prothèses qui lui permettent de
+          visualiser l’espace physique qu’il analyse et de le rendre ainsi
+          manipulable et communicable. Parallèlement, <persName ref="028590295" type="idref" xml:base="https://www.idref.fr/">Hawking</persName> a développé des
+          capacités mémorielles hors du commun qui le distinguent des
+          physiciens normaux qui ont plus de facilité à enregistrer des
+          équations que des diagrammes. Dire du savant qu’il est un
+          « théoricien visuel » comme le sont d’ailleurs tendanciellement un
+          certain nombre de collègues non handicapés, ne revient donc pas à
+          dire que la théorie est une vision et qu’elle peut se passer de
+          manipulations concrètes. L’impossibilité de faire usage de ses mains
+          et d’écrire une succession de calculs dans un temps très limité a
+          été remplacée par une acuité visuelle accrue : le diagramme « lui
+          permet de voir l’espace dans lequel il se trouve », selon <persName ref="123177111" type="idref" xml:base="https://www.idref.fr/">Hélène
+          Mialet</persName>. On pourrait dire que la prothèse
+          « diagrammatique » recorporéise le physicien. Il a pu, à la suite
+          d’un effort hors du commun de médiation, de traduction et de mise en
+          images, faire de sa faiblesse une force et de son immobilité forcée
+          un principe de mouvement. Rendre visible dans ce cas, c’est rendre
+          manipulable. Il n’y aurait pas d’avancée théorique sans cet ensemble
+          complexe de matérialisation de la pensée par médiations concrètes
+          successives.</p>
+          <p xml:id="d1e285">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-plnrdjgu">support de conservation<term ref="doi:10.34817/sv-tfbzewmd">boîte</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-6sjmkx2q">archivage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de
+          l'information</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l'information<term ref="doi:10.34817/sv-zbfxwxlc">diagramme</term>
+                </term>
+              </term>
+            </term>Dans
+          le cas du physicien handicapé, la compréhension de l’obstacle est la
+          source de l’innovation. Nous sommes ici dans l’espace de production
+          de la connaissance, au plus près de ce qui se donne comme l’activité
+          théorique pure. L’apparition de nouvelles pratiques sous l’effet de
+          contraintes exceptionnelles et <hi rend="italic">a priori
+          </hi>insurmontables n’est pas pour autant réservé à la simple
+          dimension productive du savoir : une telle capacité trouve aussi à
+          se développer dans le domaine de l’archivage et de la préservation
+          d’un stock important d’informations dans un contexte
+          particulièrement défavorable. La constitution d’une archive
+          clandestine enterrée sous le ghetto de <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName> constitue
+          un paradoxe insoutenable, si l’on considère qu’elle a été préservée,
+          alors que les membres de la communauté dont elle constituait la
+          mémoire étaient l’objet d’une extermination méthodique. On a
+          généralement tendance à assimiler l’archive à une forme de
+          production institutionnelle supposant la délimitation des lieux de
+          stockage et la standardisation des procédures de classement et
+          d’indexation. Archiver revient particulièrement à éviter aux
+          documents les outrages du temps. Le caractère d’urgence de
+          l’archivage n’a pas permis que toutes les boîtes métalliques,
+          généralement des boîtes de conserve réutilisées, contenant des
+          documents de diverses natures, incluant des photographies, aient
+          protégé l’intégrité des objets connus sous le nom de « <foreign xml:lang="yid">Oneg Shabbes</foreign> ». L’entreprise n’est pas née
+          d’une volonté étatique ou institutionnelle, ni d’une passion
+          d’antiquaire, mais elle est avant tout une opération de résistance
+          qui manifeste une double volonté de survie et de transmission.
+          L’innovation archivistique vient dans ce cas d’en bas et présente
+          tous les caractères d’un impératif moral : documenter une
+          extermination dont un des aspects méthodiques et rationnels consiste
+          à en effacer successivement toutes les traces. Parallèlement,
+          l’archive résistante de <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName> s’inscrit,
+          avec des contraintes particulières, dans un mouvement de plus longue
+          durée, contemporain du sionisme, destiné à constituer la
+          documentation de l’histoire du peuple juif. Archive d’un genre
+          particulier, à cheval sur deux objectifs rendus progressivement
+          indissociables : celui de constituer la mémoire objective d’une
+          population à partir de la collecte raisonnée d’objets représentatifs
+          de pratiques, et celui de créer les conditions politiques de la
+          reconnaissance d’un peuple, sous la forme de ce que Shlomo Sand
+          nommera, dans un livre controversé mais fondamental, « l’invention
+          du peuple juif<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>S. <hi rend="small-caps">Sand</hi>, <hi rend="italic">Comment
+              le peuple juif fut inventé</hi>, Paris, 2008.</p>
+            </note> ».</p>
+          <p xml:id="d1e309">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-6sjmkx2q">archivage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+            </term>On a dans ce
+          cas l’exemple d’une archive produite dans des conditions extrêmes
+          qui est simultanément le produit d’une collecte performative et
+          l’affirmation d’un désir de science. Fondée sur le primat de
+          l’interaction entre Juifs et non-Juifs, cette vaste entreprise
+          d’archivage est le produit d’une construction raisonnée : le travail
+          d’<persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Emanuel Ringelblum</persName>,
+          lui-même formé à l’histoire, dans le ghetto de <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName> est
+          simultanément la continuation de l’entreprise de construction d’une
+          mémoire juive officielle et l’effet de circonstances tragiques. Dans
+          ce cas, l’archive est à la fois volonté et représentation ; le
+          savant et le militant s’associent dans un alliage particulier pour
+          collecter et rendre significatifs un grand nombre de documents. Les
+          boîtes de <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName> n’ont rien
+          de bouteilles à la mer : elles procèdent d’une volonté de conserver
+          et d’informer à propos d’un événement indicible qui n’est possible
+          qu’au prix d’un haut degré de professionnalisme historien et d’un
+          puissant engagement militant. Le handicap extrême que constituent la
+          situation de ghetto et la répression la plus féroce est transformé
+          en ressource productive alors que la perspective de l’extermination
+          de tous se fait plus claire tous les jours. Le plus frappant dans
+          cette histoire tragique réside dans le fait que la dimension
+          proprement testamentaire de l’archive produite, particulièrement
+          dans le cas des écrits de <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> lui-même, n’a
+          jamais diminué la volonté de construire les éléments fondamentaux
+          sur lesquels pourrait s’écrire l’histoire scientifique du peuple
+          juif.</p>
+        </div>
+        <div type="section1" xml:id="d1e319">
+          <head subtype="level1" xml:id="d1e321">Connaissance et
+          délégation</head>
+          <p xml:id="d1e324">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-yenrhmkn">collaboration</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-dtlbbhdu">sociologie</term>
+                </term>
+              </term>
+            </term>L’objectivation
+          des pratiques de savoir permet aussi de mettre au jour l’importance
+          de la dimension coproductive des opérations de connaissance. Cet
+          aspect est autant présent dans le célèbre projet de constituer des
+          archives photographiques de la planète que développa <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert
+          Kahn</persName> que dans la tentative faite par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Michel
+          Foucault</persName> de distinguer son travail de la stricte fonction
+          auteur. Dans sa thèse de doctorat, <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Émile
+          Durkheim</persName> avait étudié précisément les effets de la
+          division du travail sur l’activité intellectuelle en tant que
+          telle : celle-ci n’était pas moins affectée par les conséquences du
+          phénomène analysé par <persName ref="027141578" type="idref" xml:base="https://www.idref.fr/">Adam Smith</persName> et devenu le
+          thème central de l’économie politique que la vie industrielle<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>É. <hi rend="small-caps">Durkheim</hi>, <hi rend="italic">De
+              la division sociale du travail</hi>, Paris, 1893.</p>
+            </note>. Le développement de la sociologie comme science était
+          selon l’auteur de la <hi rend="italic">Division sociale du travail
+          </hi>l’effet direct de ce processus, la multiplication des objets et
+          des disciplines rendant impossible le rôle régulateur attribué
+          traditionnellement à la philosophie et dessinant l’espace nouveau
+          d’une science sociale. Les <hi rend="italic">
+              <foreign xml:lang="eng">science studies</foreign>
+            </hi>ont plus récemment insisté sur la dimension coopérative et
+          négociée de la production de savoir. Le développement des
+          connaissances trouve un appui dans les propriétés interactionnelles
+          caractéristiques des lieux de savoir.</p>
+          <p xml:id="d1e345">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-eryypuc6">expédition</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-gxatb4hf">encyclopédisme</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-ojc6hf5g">mécénat</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-qizh6pcr">géographie
+          humaine</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-ewkux826">ethnographie</term>
+                </term>
+              </term>
+            </term>Les
+          Archives de la Planète constituent un excellent exemple de ce qu’on
+          peut appeler la délégation d’une volonté de savoir. <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert
+          Kahn</persName> est en effet porteur d’un projet dicté par une <hi rend="italic">
+              <foreign xml:lang="lat">libido sciendi</foreign>
+            </hi> qui n’est jamais éloignée de l’<hi rend="italic">hybris</hi>. Il s’agissait, dans une démarche qu’on
+          rapprocherait volontiers d’une « ethnographie de l’urgence » ou
+          d’une collecte sous forte contrainte temporelle, de « fixer une fois
+          pour toutes des aspects, des pratiques et des modes de l’activité
+          humaine dont la disparition fatale n’est plus qu’une question de
+          temps ». L’homme d’affaires a délégué son entreprise à un géographe
+          et l’opération pratique de collecte à des techniciens confirmés.
+          Pour autant, on ne peut réduire son rôle à une pure fonction de
+          mécénat. Le projet intellectuel qui a présidé à la collecte a
+          associé <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Albert Kahn</persName> au maître
+          d’œuvre de l’opération, le géographe <persName ref="029720427" type="idref" xml:base="https://www.idref.fr/">Jean
+          Brunhes</persName>. Financier de l’opération, <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> est aussi un
+          intellectuel à part entière : ami du philosophe <persName ref="027421848" type="idref" xml:base="https://www.idref.fr/">Bergson</persName>, il participe à
+          la vie des idées un peu à la manière de <persName type="_temp">Gyorgy Soros</persName>, le spéculateur
+          hungaro-américain qui a construit un lieu de savoir original à
+          <placeName ref="3054638" type="geonames" xml:base="https://www.geonames.org/">Budapest</placeName>, la
+          Central European University, destinée à former les cadres dirigeants
+          et les intellectuels des pays de l’ancien empire soviétique sans
+          pour autant intervenir dans le contenu des enseignements. La
+          position de mécène associe sous une forme originale la garantie de
+          l’autonomie scientifique des chercheurs et la revendication par le
+          donateur d’une posture scientifique. Le projet de <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> est un prolongement
+          opérationnel de la géographie institutionnelle mise en place par
+          <persName ref="027184099" type="idref" xml:base="https://www.idref.fr/">Vidal de La Blache</persName> et
+          incarnée dans l’entreprise par <persName ref="031050840" type="idref" xml:base="https://www.idref.fr/">Bruhnes</persName>. Le
+          tandem <persName ref="031050840" type="idref" xml:base="https://www.idref.fr/">Bruhnes</persName>/<persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> produit un alliage
+          inédit entre le positivisme universitaire de la <date type="_temp">III<hi rend="sup">e</hi> République</date> et
+          l’utopisme pacifiste de l’homme d’affaires ascète. Les Archives de
+          la Planète sont fondées sur le postulat de l’unité de l’humanité
+          sous des espèces différentes et, comme les archives du ghetto de
+          <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName>, ont une
+          véritable fonction performative. Il s’agit de transformer la
+          dimension documentaire de l’entreprise en l’esquisse d’une culture
+          visuelle commune des pratiques humaines en général. Le support de
+          cette production originale de savoir à volonté encyclopédique est
+          l’expédition, dont on peut saisir la forme à travers le temps,
+          depuis l’expédition d’<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName> jusqu’à
+          l’exploration scientifique de l’<placeName ref="2589581" type="geonames" xml:base="https://www.geonames.org/">Algérie</placeName>.
+          L’originalité de l’entreprise de <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> est
+          d’être complètement dissociée de l’expédition militaire, puisqu’elle
+          est au contraire conçue comme un instrument au service de la paix
+          entre les peuples. L’image fixe et l’image mouvement sont
+          convoquées, dans le cadre d’un protocole qui garantit l’autonomie du
+          savant aussi bien que la maîtrise technique des opérateurs de prises
+          de vue. Les Archives de l’humanité sont ainsi le produit de l’utopie
+          d’un mécénat attentif aux demandes de la science aussi bien que de
+          la puissance pacificatrice du savoir lorsqu’il est imagé et qu’il
+          fait confiance à l’objectivité des représentations. La dimension
+          pacifique de l’image a été rapidement remise en question par la
+          suite, et la guerre des images est devenue la forme ordinaire de
+          l’usage des représentations photographiques et cinématographiques de
+          la réalité anthropologique et historique. Il reste le modèle d’une
+          activité coopérative qui associe sans contradiction les pouvoirs de
+          l’argent, l’innovation de la science et la compétence technique des
+          producteurs d’images.</p>
+          <p xml:id="d1e376">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l'information<term ref="doi:10.34817/sv-zbfxwxlc">diagramme</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d'interaction<term ref="doi:10.34817/sv-raygmypp">compétition</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d'interaction<term ref="doi:10.34817/sv-yenrhmkn">collaboration</term>
+              </term>
+            </term>Le
+          génie de <persName ref="028590295" type="idref" xml:base="https://www.idref.fr/">Stephen Hawking</persName> est
+          aussi le résultat d’une intense activité coproductive. Il ne
+          pourrait pas survivre dans le monde impitoyable de la compétition
+          scientifique s’il ne s’appuyait pas sur la coopération permanente de
+          ses étudiants qui mettent en forme ses intuitions dans un double
+          mouvement de révélation à soi de l’inventivité et de la
+          communication d’énoncés décodables et falsifiables par le reste de
+          la communauté savante. La maladie aurait pu contraindre <persName ref="028590295" type="idref" xml:base="https://www.idref.fr/">Hawking</persName> a devenir une
+          sorte d’emmuré vivant. Sa volonté de savoir en a fait au contraire
+          un des hommes les plus connectés. Le va-et-vient entre l’intuition
+          et le calcul qui a été évoqué plus haut est le résultat d’une
+          procédure de délégation qui conduit le savant à utiliser les mains
+          des autres. Le physicien est conduit à construire des outils qui
+          instrumentalisent le corps de ses étudiants. On pourrait risquer à
+          ce propos la notion de prothèse vivante. Ils dessinent des
+          diagrammes et il peut visualiser ses intuitions, les confirmer et
+          les rendre opératoires dans la chaîne d’interactions complexes qui
+          constituent la vie scientifique. <persName ref="028590295" type="idref" xml:base="https://www.idref.fr/">Hawking</persName> ne
+          cesse de demander des choses à ses étudiants alors même qu’il est
+          privé de la parole. La traduction des intuitions du physicien doit
+          se faire dans les deux sens, et son inventivité est évidemment
+          fonction de la capacité hors du commun qu’il a développée dans le
+          retraitement de l’information objectivée incluse dans les diagrammes
+          fabriqués par les étudiants. Le moment du calcul est le plus
+          complexe et le plus coproductif. Il suppose que le physicien a été
+          suffisamment compris de ses étudiants pour qu’il puisse se mouvoir
+          dans l’espace virtuel qu’ils ont dessiné en faisant des
+          anticipations. La coproduction que fait naître le handicap de
+          <persName ref="028590295" type="idref" xml:base="https://www.idref.fr/">Hawking</persName> permet de
+          comprendre les modes de fonctionnement d’une matérialisation par
+          délégation des opérations fondamentales de l’activité
+          scientifique.</p>
+          <p xml:id="d1e379">La notion de délégation prend un tout autre sens
+          dans la manière de travailler de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>,
+          mais celle-ci ne présente aucun caractère antagonique par rapport à
+          ce qui vient d’être décrit. <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> a délégué une
+          partie des opérations de savoir qu’il a développées comme une
+          alternative aux modes institués de construction de la connaissance
+          savante en convoquant des représentants d’un monde extérieur, qu’ils
+          s’agisse de la mise en mouvement d’une périphérie sociale et
+          textuelle ou de la confrontation permanente du discours
+          philosophique avec d’autres pratiques discursives. L’archéologie du
+          savoir ne se comprendrait pas sans la référence à une procédure de
+          délégation aux exigences de l’actualité : ainsi <hi rend="italic">Surveiller et punir </hi>ne peut pas être entièrement
+          compris si l’on ne fait aucune référence à l’activité collective du
+          Groupe d’information sur les prisons ou, de manière encore plus
+          significative, au discours des détenus. Le sociologue peut toujours
+          être tenté de mettre en doute l’effectivité du processus de
+          délégation qui vient d’être décrit au nom de sa pratique habituelle
+          de désenchantement du monde. Mais il faut ici créditer <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> : il croyait
+          lui-même en ce dispositif de coopération qu’il avait en partie
+          décrit lorsqu’il avait proposé avec <persName ref="026820552" type="idref" xml:base="https://www.idref.fr/">Gilles
+          Deleuze</persName> la notion d’intellectuel spécifique : ni augure,
+          ni conseiller du Prince, ni maître à penser, mais outilleur parmi
+          d’autres dans le monde social.</p>
+          <p xml:id="d1e386">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-3sgvpa2v">mission</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-7dh8ptmc">voyage</term>
+              </term>
+            </term>Pour
+          finir, il est une autre manière de lier entre eux ces quatre textes,
+          qui ne contredit en rien ce qu’on a pu en dire précédemment. Savoir,
+          c’est voyager. Il ne s’agit pas bien sûr de penser toutes les
+          opérations de savoir sous la catégorie de l’expédition ou du
+          déplacement. <persName ref="027325849" type="idref" xml:base="https://www.idref.fr/">Kahn</persName> missionne des
+          photographes et des cinéastes en leur demandant de donner des
+          preuves de l’unité de la terre. Les partenaires de <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> creusent le
+          sol du ghetto de <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName> pour
+          assurer à la Diaspora la mémoire de ses voyages futurs. Les
+          étudiants de <persName ref="028590295" type="idref" xml:base="https://www.idref.fr/">Hawking</persName> permettent à un
+          handicapé de se déplacer dans l’espace infini ouvert par les
+          diagrammes qu’ils coproduisent. <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          sillonne la planète en même temps qu’il traverse les strates
+          multiples des pratiques discursives. Instrument ou métaphore,
+          réalité physiquement éprouvée ou pure rêverie locomotrice, le voyage
+          figure la mise en mouvement de la pensée, que les plus mortelles
+          contraintes ne parviennent jamais à paralyser complètement.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

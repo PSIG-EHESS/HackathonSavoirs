@@ -1,0 +1,773 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-13T15:53:59.008+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="Metis-5-2007-J-Svenbro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" type="main">Arraisonner la divinité ? Limites
+        religieuses de la pensée technique</title>
+        <author role="aut">
+          <forename>Jesper</forename>
+          <surname>Svenbro</surname>
+          <idno type="IDREF">02934753X</idno>
+          <affiliation>CNRS, Centre Louis Gernet</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Seconde édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification 3.0 non transposé - CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/D7JIZNQF" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Arraisonner la divinité ? Limites religieuses de
+            la pensée technique</title>
+            <idno type="DOI">https://doi.org/10.4000/books.editionsehess.2224</idno>
+            <author>
+              <forename>Jesper</forename>
+              <surname>Svenbro</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Mètis</title>
+            <idno type="ISSN">978-2-7132-2603-8</idno>
+            <editor>
+              <forename>Bernard</forename>
+              <surname>Vitrac</surname>
+            </editor>
+            <imprint>
+              <biblScope unit="volume">Dossier : Tekhnai/artes</biblScope>
+              <biblScope unit="issue">N.S.5</biblScope>
+              <biblScope unit="page">91-100</biblScope>
+              <date>2007</date>
+              <note type="url">http://books.openedition.org/editionsehess/2224</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="grc"/>
+        <language ident="deu"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-kz3asazx">technique</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-lrxnglhp">divinité</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName>
+          </term>
+          <term>
+            <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="-0480">480 avant J.-C.</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-04-15T17:09:23.307+02:00" who="Métopes/PDN">Conversion en XML-TEI Métopes à partir d'un source
+      XML-TEI lodel</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Arraisonner la divinité ? Limites religieuses
+          de la pensée technique</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Jesper Svenbro</docAuthor>
+          <affiliation>CNRS, Centre Louis Gernet</affiliation>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <div type="section1" xml:id="d1e97">
+          <head subtype="level1" xml:id="d1e98">1. La « question de la
+          technique » et la Grèce ancienne</head>
+          <p xml:id="d1e100">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-kz3asazx">technique</term>
+              </term>
+            </term>Dans
+          une série de séminaires consacrés aux<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">tekhnai</hi>
+            </foreign>, tels qu’on a pu les suivre au Centre <persName ref="026889102" type="idref" xml:base="https://www.idref.fr/">Louis
+          Gernet</persName> pendant deux années successives, il semblait
+          inévitable de consacrer une séance à la célèbre conférence de
+          <persName ref="026917548" type="idref" xml:base="https://www.idref.fr/">Martin Heidegger</persName>, « La
+          question de la technique » (1953)<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>M. Heidegger, « La question de la technique », dans <hi rend="italic">Essais et conférences</hi>, tr. fr. A. Préau,
+              Paris, 1958, réimpr. 1980 etc.</p>
+            </note>. Non pas, dans un premier temps, pour nous associer, ou
+          nous opposer, aux positions du philosophe mais pour rendre compte,
+          aussi simplement que possible, du contenu d’un texte réputé
+          difficile qui, vu son ancrage dans le monde grec, pourrait nous
+          concerner dans nos propres questionnements d’hellénistes.</p>
+          <p xml:id="d1e112">Chemin faisant, nous avons découvert que nous
+          n’étions pas seuls à nous interroger sur les « Grecs de <persName ref="026917548" type="idref" xml:base="https://www.idref.fr/">Heidegger</persName> », pour
+          reprendre le titre que nous avions très précisément envisagé, au
+          <date from="2003-03-21">printemps de 2003</date>, pour nos
+          séminaires : un article de <persName ref="052461467" type="idref" xml:base="https://www.idref.fr/">Glenn Most</persName> est paru,
+          avec un titre similaire, en <date type="_temp" when="2004">2004</date>, nous évitant d’une certaine manière de
+          réaliser notre projet premier<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>G. Most, « Les Grecs de Heidegger », <hi rend="italic">Philosophie antique</hi>, 4, 2004.</p>
+            </note>. Deux conférences de <persName ref="026736411" type="idref" xml:base="https://www.idref.fr/">Jean
+          Bollack</persName> à l’Université européenne de la recherche au
+          <date from="2005-03-21" to="2005-06-20" type="_temp">printemps
+          2005</date>
+            <note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>J. Bollack, Université européenne de la recherche (Paris) :
+              le 17 mars (« Heidegger et les Grecs : l’ontologie et le
+              reste ») et le 13 avril 2005 (« La question de l’hellénisme
+              heideggerien »).</p>
+            </note>, prolongeant un article sur <persName ref="026917548" type="idref" xml:base="https://www.idref.fr/">Heidegger</persName>
+          que <persName ref="026736411" type="idref" xml:base="https://www.idref.fr/">Bollack</persName> a écrit avec
+          <persName ref="027198618" type="idref" xml:base="https://www.idref.fr/">Heinz Wismann</persName> dans les
+          <date from="1970" to="1979" type="_temp">années 70</date>
+            <note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>J. Bollack et H. Wismann, « Heidegger l’incontournable », <hi rend="italic">Actes de la recherche en sciences sociales</hi>,
+              n° 5-6, novembre 1975, pp. 157-161.</p>
+            </note>, venaient également indiquer que nous nous trouvions au
+          milieu d’un renouveau d’intérêt critique pour le rapport entre
+          <persName ref="026917548" type="idref" xml:base="https://www.idref.fr/">Heidegger</persName> et les
+          Grecs.</p>
+          <p xml:id="d1e132">Une fois présentées, les pages de la conférence
+          plus spécifiquement consacrées à la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> ancienne ne
+          nous sont pas parues utiles, s’inscrivant en fait dans une
+          perspective semblable à celle de la « Prière sur l’Acropole »
+          d’<persName ref="027094170" type="idref" xml:base="https://www.idref.fr/">Ernest Renan</persName> (1865)<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>E. Renan, <hi rend="italic">Prière sur l’Acropole</hi>, Paris
+              (Pelletan), 1899. On le sait, le titre d’un ouvrage posthume de
+              Louis Gernet, <hi rend="italic">Les Grecs sans miracle</hi> (R.
+              Di Donato éd., Paris, 1983), prend le contre-pied de la formule
+              du « miracle grec » mise en orbite par le texte de Renan.</p>
+            </note>. Car voici ce qu’on lit dans un passage crucial pour
+          l’argumentation de <persName ref="026917548" type="idref" xml:base="https://www.idref.fr/">Heidegger</persName> et qui va lui
+          suggérer un moyen d’échapper au danger que constitue l’essence de la
+          technique moderne : « Au début des destinées de l’Occident,
+          écrit-il, les arts montèrent en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> au niveau le
+          plus élevé du dévoilement qui leur était accordé. Ils firent
+          resplendir la présence des dieux, le dialogue des destinées divine
+          et humaine. Et l’art ne s’appelait pas autrement que<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">tekhnê</hi>
+            </foreign>. Il était un dévoilement unique et multiple. Il était
+          pieux (<hi rend="italic">
+              <foreign xml:lang="grc">fromm</foreign>
+            </hi>), c’est-à-dire “en pointe”,<hi rend="italic">
+              <foreign xml:lang="grc">promos</foreign>
+            </hi> : docile à la puissance et à la conservation de la
+          vérité. »<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Heidegger, <hi rend="italic">op. cit.,</hi> p. 46. Le curieux
+              jeu de mots dans la traduction, cherchant à établir un lien
+              entre<hi rend="italic"> pieux</hi> et<hi rend="italic">
+              promos</hi>, peut être explicité de la façon suivante : par son
+              homophone <hi rend="italic">pieu</hi>, le terme pieux suggère
+              « en pointe », tout en traduisant allem. <hi rend="italic">fromm</hi>, lié, lui, à isl. <hi rend="italic">frum-</hi>et à goth. <hi rend="italic">fruma</hi>,
+              « premier », et ainsi à gr. <hi rend="italic">promos</hi> (<hi rend="italic">cf</hi>. lat. <hi rend="italic">primus</hi>).</p>
+            </note> Autrement dit, <persName ref="026917548" type="idref" xml:base="https://www.idref.fr/">Heidegger</persName> se place ici
+          dans une perspective qui n’est autre que celle du « miracle grec »,
+          projetant en outre une conception moderne de l’« art » sur la<hi rend="italic">
+              <foreign xml:lang="grc">tekhnê</foreign>
+            </hi> des anciens Grecs<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>
+                <hi rend="italic">Cf.</hi> par exemple, F. Coarelli éd., <hi rend="italic">Artisti e artigiani in Grecia. Guida storica e
+              critica</hi>, Rome-Bari, 1980.</p>
+            </note>.</p>
+          <p xml:id="d1e202">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-ec5trazc">nature</term>
+              </term>
+            </term>De notre
+          point de vue, rien à retenir de cette conférence, si ce n’est le
+          concept de « pro-vocation » (<hi rend="italic">
+              <foreign xml:lang="deu">Heraus-fordern</foreign>
+            </hi>) et de son prolongement « ar-raisonnement » (<foreign xml:lang="deu">
+              <hi rend="italic">Ge-stell</hi>
+            </foreign>), qui selon <persName ref="026917548" type="idref" xml:base="https://www.idref.fr/">Heidegger</persName> caractérisent
+          la technique dans nos sociétés modernes. La chose est sans doute
+          plus banale que la terminologie ne laisse supposer : la thèse
+          centrale de la conférence, écrit <persName ref="027715078" type="idref" xml:base="https://www.idref.fr/">Pierre
+          Bourdieu</persName>, est que la « technique met la nature à la
+          raison, exige de toute chose qu’elle rende raison ; impérieuse et
+          conquérante, elle “raisonne” et “ar-raisonne”<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>P. Bourdieu, « L’ontologie politique de Heidegger », <hi rend="italic">Actes de la recherche en sciences sociales</hi>,
+              n° 5-6, novembre 1975, p. 154.</p>
+            </note>. » Quelle est en effet la logique de l’arraisonnement,
+          voire de la confiscation, des ressources naturelles dont nous sommes
+          aujourd’hui les témoins plus encore que <persName ref="026917548" type="idref" xml:base="https://www.idref.fr/">Heidegger</persName>
+          en <date type="_temp" when="1953">1953</date> (et <persName ref="027715078" type="idref" xml:base="https://www.idref.fr/">Bourdieu</persName> en <date type="_temp" when="1975">1975</date>) ? Quelle est la force qui nous
+          fait assister comme impuissants à un réquisitionnement total non
+          seulement des ressources de la nature mais des données de toutes
+          sortes, qui nous sont réclamées au nom de la loi ou de la
+          science ?</p>
+          <p xml:id="d1e217">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-j2qwt5pl">catégorie sociale<term ref="doi:10.34817/sv-mmnyqfyc">esclave</term>
+              </term>
+            </term>La
+          question, banale ou pas, mérite en tout cas d’être posée. Et, à
+          notre tour, nous nous la sommes posée dans le contexte de la
+          civilisation antique, en nous demandant si l’exploitation du travail
+          servile à grande échelle ne serait pas, elle aussi, un<hi rend="italic"/>
+            <foreign xml:lang="deu">
+              <hi rend="italic">Herausfordern</hi>
+            </foreign> au sens quasi étymologique que <persName ref="026917548" type="idref" xml:base="https://www.idref.fr/">Heidegger</persName> donne à ce
+          terme. Disponible à grande échelle, la force musculaire des esclaves
+          ne fait-elle vraiment pas, dans le monde antique, l’objet d’un
+          réquisitionnement total ? Serait-elle vraiment moins disponible que
+          telle source d’énergie moderne ? Et, dans ce cas, pour quelle
+          raison ?</p>
+          <p xml:id="d1e222">D’autre part, le philosophe qui s’inquiète et
+          s’indigne devant l’extraction du charbon et devant la volonté de la
+          science moderne de tout savoir, qu’aurait-il fait des carrières de
+          <placeName ref="2523083" type="geonames" xml:base="https://www.geonames.org/">Syracuse</placeName>, des mines
+          d’argent de <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Laurion</placeName>
+            <note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Xénophon, <hi rend="italic">Revenus</hi>, IV, 1, 18.<hi rend="italic"> Cf.</hi> Pline l’Ancien, <hi rend="italic">Histoire naturelle</hi>, XXXIII, 1-3, qui condamne
+              l’activité minière comme une violence faite à la terre.</p>
+            </note>, des forêts abattues pour les chantiers navals<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Platon, <hi rend="italic">Critias</hi>, 111b-d.</p>
+            </note> ? Qu’aurait-il fait des animaux tués non pas par le
+          boucher pour être mangés mais par le savant aristotélicien pour être
+          étudiés en grand nombre<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Voir M. Vegetti, <hi rend="italic">Il coltello e lo
+              stile</hi>, Milan, 1979.</p>
+            </note> ? Et, finalement, qu’aurait-il fait de l’<placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName> fouetté,
+          enchaîné et marqué au fer, par les soins de <persName ref="050588400" type="idref" xml:base="https://www.idref.fr/">Xerxès</persName>, désirant s’en
+          rendre maître ?</p>
+          <p xml:id="d1e251">On ne s’attardera pas, pour le moment, sur ces
+          exemples d’un arraisonnement de la nature sans doute négligés par
+          <persName ref="026917548" type="idref" xml:base="https://www.idref.fr/">Heidegger</persName>. En revanche,
+          on voudrait attirer l’attention sur le passage célèbre et parfois
+          critiqué de <persName ref="026917548" type="idref" xml:base="https://www.idref.fr/">Heidegger</persName> sur la
+          centrale hydro-électrique du Rhin : « La centrale électrique est
+          mise en place dans le Rhin. Elle le somme (<foreign xml:lang="deu">
+              <hi rend="italic">stellt</hi>
+            </foreign>) de livrer sa pression hydraulique, qui somme à son
+          tour les turbines de tourner. Ce mouvement fait tourner la machine
+          dont le mécanisme produit le courant électrique, pour lequel la
+          centrale régionale et son réseau sont commis aux fins de
+          transmission. Dans le domaine de ces conséquences s’enchaînant l’une
+          l’autre à partir de la mise en place de l’énergie électrique, le
+          fleuve du Rhin apparaît, lui aussi, comme quelque chose de commis.
+          La centrale n’est pas construite dans le courant du Rhin comme le
+          vieux pont de bois qui depuis des siècles unit une rive à l’autre.
+          C’est bien plutôt le fleuve qui est muré dans la centrale. Ce qu’il
+          est aujourd’hui comme fleuve, à savoir fournisseur de pression
+          hydraulique, il l’est de par l’essence de la centrale<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Heidegger,<hi rend="italic"> op. cit.,</hi> pp. 21-22.</p>
+            </note>. »</p>
+          <p xml:id="d1e263">Et <persName ref="026917548" type="idref" xml:base="https://www.idref.fr/">Heidegger</persName> d’ajouter :
+          « Afin de voir et de mesurer, ne fût-ce que de loin, l’élément
+          monstrueux qui domine ici, arrêtons-nous sur l’opposition qui
+          apparaît entre les deux intitulés : “Le Rhin”, muré dans l’usine
+          d’<hi rend="italic">énergie</hi>, et “Le Rhin”, titre de cette œuvre
+          d’<hi rend="italic">art</hi> qu’est un hymne de <persName ref="026659050" type="idref" xml:base="https://www.idref.fr/">Hölderlin</persName>
+            <note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>
+                <hi rend="italic">Ibid.,</hi> p. 22.</p>
+            </note>. »</p>
+        </div>
+        <div type="section1" xml:id="d1e278">
+          <head subtype="level1" xml:id="d1e279">2. Le moulin à eau dans une
+          épigramme d’Antipater de Thessalonique</head>
+          <p xml:id="d1e281">Selon les estimations modernes, il fallait, dans
+          l’<date>Antiquité</date>, une personne travaillant à plein temps
+          pour moudre la farine nécessaire à 8 à 10 personnes et, par
+          conséquent, cette activité a été l’une des plus exigeantes en
+          énergie musculaire dans le cadre de l’économie domestique ; même
+          dans une société basée sur le travail des esclaves, écrit <persName ref="055832911" type="idref" xml:base="https://www.idref.fr/">Örjan
+          Wikander</persName>, il n’est pas surprenant que des innovations
+          techniques dans ce domaine, commençant par la meule rotative – qui
+          rend l’énergie animale et finalement l’énergie hydraulique
+          utilisable pour la production de la farine – ait connu un succès
+          considérable<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Ö. Wikander,<hi rend="italic"> Exploitation of Water-Power or
+              Technological Stagnation ? A Reappraisal of the Productive
+              Forces in the Roman Empire (Scripta Minora Regiae Societatis
+              Humaniorum Litterarum Lundensis</hi>, 1983-1984, 3), Lund, 1984,
+              p. 24.</p>
+            </note>. En réalité, les moulins à eau ont été beaucoup plus
+          nombreux que l’on a admis, et <persName ref="055832911" type="idref" xml:base="https://www.idref.fr/">Wikander</persName> émet
+          l’hypothèse que la fin du<hi rend="uppercase"/>
+            <date from="0100" to="0199" type="_temp">
+              <hi rend="uppercase">II</hi>
+              <hi rend="sup">e</hi> siècle de notre ère</date> est le moment d’un
+          véritable tournant pour l’emploi du moulin à eau dans l’Empire
+          romain<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>
+                <hi rend="italic">Op. cit.,</hi> pp. 24-32.</p>
+            </note>.</p>
+          <p xml:id="d1e302">Tout en reconnaissant les limites techniques et
+          le caractère limité du phénomène antique, on peut donc se demander
+          si, oui ou non, l’énergie fournie par des moulins à eau représente
+          un « arraisonnement » de la nature au même titre que l’énergie
+          provenant de la centrale hydro-électrique du Rhin. Dans son étude
+          importante sur les moulins dans l’<date>Antiquité</date>, <persName type="_temp">L. A. Moritz</persName> cite une épigramme d’<persName ref="201038382" type="idref" xml:base="https://www.idref.fr/">Antipater de
+          Thessalonique</persName>
+            <note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>L. A. Moritz,<hi rend="italic"> Grain-Mills and Flour in
+              Classical Antiquity</hi>, Oxford, 1958, p. 131 :<hi rend="italic"> Anthologie palatine</hi>, IX, 418.<hi rend="italic"> Cf.</hi> R. J. Forbes,<hi rend="italic"> Studies
+              in Ancient Technology</hi>, vol. II, Leyde, 1955, pp. 86 et
+              102 ; J. G. Landels,<hi rend="italic"> Engineering in the
+              Ancient World</hi>, Oxford, 1978, pp. 16-26 ; J. W. Humphrey,
+              J. P. Oleson et A. N. Sherwood,<hi rend="italic"> Greek and
+              Roman Technology : A Sourcebook</hi>, Londres-New York, 1998,
+              pp. 29-33.</p>
+            </note>, susceptible de nous fournir un élément de comparaison
+          plus adéquat que le « vieux pont sur le Rhin » invoqué par <persName ref="026917548" type="idref" xml:base="https://www.idref.fr/">Heidegger</persName> (et qui, lui,
+          n’est pas une source d’énergie). Il s’agit d’un poème sur
+          l’installation d’un moulin à eau au début de notre ère, si l’on
+          accepte l’attribution à <persName ref="201038382" type="idref" xml:base="https://www.idref.fr/">Antipater</persName> :</p>
+          <quote xml:id="d1e327" xml:lang="grc">Ἴσχετε χεῖρα μυλαῖον,
+          ἀλετρίδες, εὕδετε μακρά<lb/>κἢν ὄρθρον προλέγῃ γῆρυς
+          ἀλεκτρυόνων.<lb/>Δηὼ γὰρ Νύμφαισι χερῶν ἐπετείλατο μόχθους· <lb/>αἱ
+          δὲ κατ᾽ ἀκροτάτην ἁλλόμεναι τροχιὴν<lb/>ἄξονα δινεύουσιν, ὁ δ᾽
+          ἀκτίνεσσιν ἑλικταῖς <lb/> στρωφᾷ Νισυρίων κοῖλα βάρη
+          μυλάκων.<lb/>Γευόμεθ᾽ ἀρχαίου βιότου πάλιν, εἰ δίχα μόχθου
+          <lb/>δαίνυσθαι Δηοῦς ἔργα διδασκόμεθα.</quote>
+          <quote xml:id="d1e344">Retenez votre main qui moud, travailleuses de
+          la meule, dormez longtemps, même si la voix des coqs vous annonce
+          l’aurore. Car Dêo (= <persName ref="241575834" type="idref" xml:base="https://www.idref.fr/">Déméter</persName>) a chargé les
+          Nymphes du travail de vos mains. Et elles, jaillissant jusqu’au
+          sommet de la roue, font tourner l’essieu qui, grâce aux rayons
+          recourbés, met en mouvement les lourdes et creuses meulières de
+          l’île de Nisyros. Nous goûtons à nouveau la vie du premier âge,
+          puisque nous apprenons à consommer sans travail les présents de
+          Dêo<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Tr. fr. P. Waltz et G. Soury, très légèrement modifiée.</p>
+            </note>.</quote>
+          <p xml:id="d1e350">Que nous enseigne ce petit poème ? Formellement,
+          il s’adresse aux<hi rend="italic">
+              <foreign xml:lang="grc">aletrides</foreign>
+            </hi>, aux « travailleuses de la meule » pour leur annoncer leur
+          joyeuse émancipation des contraintes du travail. On se rappelle que
+          c’est avec le même terme<hi rend="italic">
+              <foreign xml:lang="grc">aletris</foreign>
+            </hi> qu’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> désigne l’une des
+          servantes qui s’occupent à moudre le blé dans la maison du roi
+          d’<placeName ref="261707" type="geonames" xml:base="https://www.geonames.org/">Ithaque</placeName> : « Car le
+          pasteur du peuple avait en son moulin douze femmes peinant à moudre
+          orges et blés qui font le nerf des hommes : les onze autres
+          dormaient, ayant broyé leur grain ; une seule n’avait pas achevé sa
+          tâche ; elle était la plus faible<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>
+                <hi rend="italic">Odyssée</hi>, 20, 106-110.</p>
+            </note>. » Or, dans le poème d’<persName ref="201038382" type="idref" xml:base="https://www.idref.fr/">Antipater</persName>,
+          les<hi rend="italic">
+              <foreign xml:lang="grc">aletrides</foreign>
+            </hi> n’ont plus à se consacrer à leur tâche pénible, car
+          <persName ref="241575834" type="idref" xml:base="https://www.idref.fr/">Déméter</persName>, la déesse des
+          céréales, a chargé les Nymphes, divinités du fleuve, de ce qui fut
+          le travail quotidien des travailleuses désormais émancipées. En
+          effet, on vient d’installer un moulin actionné par l’énergie
+          hydraulique, libérant ainsi les « bras » des travailleuses. Avec une
+          allusion au mythe des cinq races dans les<hi rend="italic"> Travaux
+          et les Jours</hi> d’<persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName>
+            <note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Hésiode,<hi rend="italic"> Travaux</hi>, 117-118.</p>
+            </note>, le poète conclut en disant que l’époque où les hommes
+          mangeaient sans avoir à travailler, c’est-à-dire l’âge d’or, est
+          désormais revenue. Et l’on peut ajouter qu’en libérant les mains
+          des<hi rend="italic">
+              <foreign xml:lang="grc">aletrides</foreign>
+            </hi> par l’utilisation de l’énergie hydraulique, le maître du
+          moulin n’est pas loin d’accomplir ce qu’<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>
+          envisage dans le premier livre de la<hi rend="italic">
+          Politique</hi> : si les navettes pouvaient tisser toutes seules, dit
+          le Stagirite, les maîtres n’auraient pas besoin d’esclaves<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Aristote,<hi rend="italic"> Politique</hi>, I, 2, 5
+              1254a.</p>
+            </note>. Si le moulin tournait tout seul, pas besoin d’<hi rend="italic">
+              <foreign xml:lang="grc">aletrides</foreign>
+            </hi>, aurait-on pu dire, en le travestissant. Seulement, ce sont
+          les Nymphes du fleuve qui actionnent la pierre. Le moulin à eau
+          n’est pas un automate.</p>
+          <p xml:id="d1e395">Sans doute, un lecteur moderne de ce poème
+          aurait-il tendance à voir dans la mention de Dêo, ou <persName ref="241575834" type="idref" xml:base="https://www.idref.fr/">Déméter</persName>, et des Nymphes
+          une façon figurée – élégante, savante – de parler du « blé à
+          moudre » et de l’« énergie hydraulique », signifiant l’installation
+          du moulin près du fleuve fournisseur d’énergie. C’est sans doute de
+          cette manière qu’un poète du<hi rend="small-caps"/>
+            <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date>, imitateur des anciens, aurait
+          choisi de décrire une réalité jugée trop banale sans
+          l’embellissement mythologique.</p>
+          <p xml:id="d1e404">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-lrxnglhp">divinité</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-9z8fpxff">mythologie</term>
+              </term>
+            </term>Au
+          contraire, dans le cas du poème antique, la référence à <persName ref="241575834" type="idref" xml:base="https://www.idref.fr/">Déméter</persName> et aux Nymphes
+          ne saurait être une façon seulement « élégante » ou « savante »
+          d’encadrer le moulin à eau. On n’aura rien compris à ce poème, si
+          l’on considère son apparat mythologique comme un élément décoratif
+          ou astucieux, permettant à ceux qui maîtrisent son code savant
+          d’échanger des clins d’œil de complicité. La référence aux divinités
+          n’a ici rien de figuré, mais constitue la trace de l’opération qui,
+          inévitablement, a dû précéder la construction du moulin. Car une
+          intervention de ce genre sur le fleuve, dans un régime polythéiste
+          comme celui des Romains ou des Grecs, ne peut être que le fruit
+          d’une « négociation » avec le divin, négociation dont un aspect est
+          sûrement sacrificiel<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>Le fait que nous ne possédons pas de document attestant, pour
+              un moulin à eau, des rites particuliers – de consécration ou
+              autres – n’est guère étonnant : l’épigramme d’Antipater est déjà
+              assez exceptionnelle. À Rome, nombreuses sont les divinités,
+              notamment dans le domaine de l’agriculture, avec lesquelles il
+              faut entretenir de bons rapports ; on se rappelle les sarcasmes
+              d’Augustin contre l’extrême élaboration du système polythéiste
+              romain (<hi rend="italic">La Cité de Dieu</hi>, IV, 8),
+              indissociable de la prière et du rituel (voir M. Perfigli,<hi rend="italic"> Indigitamenta</hi>, préf. J. Scheid, Pise, 2004).
+              Du côté grec, on pourrait citer Pausanias, X, 11, 2, qui raconte
+              les conséquences, pour les Siphniens, d’une négligence envers
+              Apollon, à qui ils devaient payer la dîme du profit de leurs
+              mines d’or : une inondation mit fin à leur exploitation. Les
+              opérations techniques de l’artisan ne peuvent pas non plus faire
+              l’économie du divin : voir J. Svenbro, « Les démons de
+              l’atelier. Savoir-faire et pensée religieuse dans un poème
+              d’“Homère” »,<hi rend="italic"> Cahiers d’anthropologie
+              sociale</hi>, 1, 2006, pp. 25-36.</p>
+            </note>.</p>
+          <p xml:id="d1e419">Il faut donc prendre la mention de <persName ref="241575834" type="idref" xml:base="https://www.idref.fr/">Déméter</persName> et des Nymphes
+          au pied de la lettre : la déesse des céréales a « chargé » les
+          Nymphes du travail autrefois accompli par les<hi rend="italic">
+              <foreign xml:lang="grc">aletrides</foreign>
+            </hi>. Prières interposées, faut-il imaginer. Et <persName ref="241575834" type="idref" xml:base="https://www.idref.fr/">Déméter</persName> a donc répondu
+          favorablement à la nouvelle situation où ce ne sont plus les bras
+          humains qui actionnent la meule mais les Nymphes du fleuve,
+          travaillant pour le maître du moulin. Ce n’est donc pas celui-ci qui
+          a chargé les Nymphes de ce « travail », de ce<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">mokhthos</hi>
+            </foreign>, c’est <persName ref="241575834" type="idref" xml:base="https://www.idref.fr/">Déméter</persName>. Cette
+          distinction ne saurait être sans importance, car elle fait de la<hi rend="italic"> farine</hi> – et pas seulement de l’épi de blé – le
+          don gracieux de la grande Olympienne elle-même.</p>
+          <p xml:id="d1e430">L’exploitation de l’énergie hydraulique par les
+          anciens, telle que celle-ci est envisagée dans l’épigramme
+          d’<persName ref="201038382" type="idref" xml:base="https://www.idref.fr/">Antipater</persName>, apparaît
+          ainsi, dans sa spécificité, comme une exploitation négociée avec la
+          divinité olympienne et, indirectement, avec les divinités fluviales
+          locales. Le maître du moulin doit tenir compte de sa propre place
+          dans le monde et ne pas se prendre, lui, pour le maître du fleuve.
+          D’où sa prudence et ce que je vois comme sa volonté de négocier,
+          dont le poème porte la trace. Pour mesurer l’importance de cette
+          négociation, préalable à l’installation du moulin dans le domaine
+          des Nymphes, retournons au passage d’<persName ref="085720917" type="idref" xml:base="https://www.idref.fr/">Hérodote</persName>
+          auquel j’ai déjà fait allusion ci-dessus, passage qui, d’une
+          certaine manière, met en scène le pendant monstrueux du « vieux pont
+          sur le Rhin » heideggerien, – pendant aussi<hi rend="italic">
+          monstrueux</hi> par rapport à celui-ci que la centrale
+          hydroélectrique par rapport au petit moulin à eau d’<persName ref="201038382" type="idref" xml:base="https://www.idref.fr/">Antipater</persName>.</p>
+        </div>
+        <div type="section1" xml:id="d1e435">
+          <head subtype="level1" xml:id="d1e436">3. Le pont monstrueux sur
+          l’Hellespont</head>
+          <p xml:id="d1e438">Il s’agit de l’exploit technique, raconté par
+          <persName ref="085720917" type="idref" xml:base="https://www.idref.fr/">Hérodote</persName> au livre VII de
+          ses<hi rend="italic"> Histoires</hi> et qui a permis à <persName ref="050588400" type="idref" xml:base="https://www.idref.fr/">Xerxès</persName> de faire
+          traverser son immense armée à la conquête de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> en <date type="_temp" when="-0480">480 avant J.-C.</date> Un premier pont est
+          construit sur l’<placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName> : « Déjà
+          le passage était établi, quand survint une violente tempête qui mit
+          en pièces et disloqua tout ce qui était fait<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Hérodote, VII, 34.</p>
+            </note>. » Sur quoi <persName ref="085720917" type="idref" xml:base="https://www.idref.fr/">Hérodote</persName> poursuit :
+          « Lorsque <persName ref="050588400" type="idref" xml:base="https://www.idref.fr/">Xerxès</persName> en fut informé,
+          il ordonna, furieux, de frapper l’<placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName> de trois
+          cents coups de fouet (<foreign xml:lang="grc">
+              <hi rend="italic">triêkosias</hi> …<hi rend="italic"> mastigi
+          plêgas</hi>
+            </foreign>) et de jeter dans la mer une paire d’entraves
+          (<foreign xml:lang="grc">
+              <hi rend="italic">es to pelagos pedeôn zeugos</hi>
+            </foreign>). Même, j’ai entendu dire qu’avec les exécuteurs de ces
+          ordres, il aurait envoyé encore des gens pour marquer au fer
+          (<foreign xml:lang="grc">
+              <hi rend="italic">stigeas</hi> …<hi rend="italic"> stixontas</hi>
+            </foreign>) l’<placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName>. Ce qui
+          est sûr, c’est qu’il enjoignit qu’en le flagellant (<foreign xml:lang="grc">
+              <hi rend="italic">rhapizontas</hi>
+            </foreign>) on prononçât ces paroles barbares et insensées : “Onde
+          amère, le maître (<hi rend="italic">
+              <foreign xml:lang="grc">despotês</foreign>
+            </hi>) t’inflige cette punition (<foreign xml:lang="grc">
+              <hi rend="italic">dikên</hi> …<hi rend="italic"> tênde</hi>
+            </foreign>)
+          parce que tu l’as offensé sans avoir souffert de lui aucune offense.
+          Et le Roi <persName ref="050588400" type="idref" xml:base="https://www.idref.fr/">Xerxès</persName> te franchira, que
+          tu le veuilles ou non. Certes, il est bien juste que personne ne
+          t’offre de sacrifices (<hi rend="italic">
+              <foreign xml:lang="grc">thuei</foreign>
+            </hi>), à toi qui n’es qu’un fleuve (<hi rend="italic">
+              <foreign xml:lang="grc">potamos</foreign>
+            </hi>) bourbeux et saumâtre. ” Voilà comment il fit châtier la mer
+          (<foreign xml:lang="grc">
+              <hi rend="italic">thalassan</hi> …<hi rend="italic"> zêmioun</hi>
+            </foreign>) ; et, à ceux qui avaient
+          présidé à la construction des ponts sur l’<placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName>, il fit
+          trancher la tête<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>
+                <hi rend="italic">Ibid.,</hi> VII, 35-36.</p>
+            </note>. »</p>
+          <p xml:id="d1e495">La construction d’un deuxième pont est aussitôt
+          ordonnée, et <persName ref="085720917" type="idref" xml:base="https://www.idref.fr/">Hérodote</persName> en donne une
+          description très détaillée.</p>
+          <p xml:id="d1e497">Le moment du passage de l’armée de <persName ref="050588400" type="idref" xml:base="https://www.idref.fr/">Xerxès</persName> arrive : « Ce
+          même jour, les Perses se préparèrent à passer. Le lendemain, ils
+          guettèrent l’apparition du soleil, qu’ils voulaient voir se lever,
+          en brûlant sur les ponts toutes sortes de parfums et jonchant le
+          chemin de rameaux de myrte. Dès que l’astre parut au-dessus de
+          l’horizon, <persName ref="050588400" type="idref" xml:base="https://www.idref.fr/">Xerxès</persName>, avec une coupe
+          d’or, fit des libations dans la mer, et, s’adressant au soleil, le
+          pria d’écarter de lui tout accident qui pût l’arrêter dans la
+          conquête de l’Europe avant qu’il eût atteint les extrémités de ce
+          pays. Après cette prière, il jeta la coupe dans l’<placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName>, avec un
+          cratère d’or et un glaive à la mode des Perses qu’ils appellent<hi rend="italic">
+              <foreign xml:lang="grc">akinakês</foreign>
+            </hi>. Je ne puis dire sûrement si ces objets qu’il jetait dans la
+          mer étaient une offrande au soleil ou si, se repentant d’avoir fait
+          fustiger l’<placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName> (<hi rend="italic">
+              <foreign xml:lang="grc">ei metemelêse hoi ton Hellêsponton
+              mastigôsanti</foreign>
+            </hi>), c’étaient des dons qu’il faisait à la mer en réparation de
+          cet outrage (<hi rend="italic">
+              <foreign xml:lang="grc">anti toutôn tên thalassan
+              edôreeto</foreign>
+            </hi>)<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>
+                <hi rend="italic">Ibid.,</hi> VII, 54.</p>
+            </note>. » Il faudra à l’armée perse « sept jours et sept nuits
+          sans un instant d’arrêt » pour traverser le pont.</p>
+          <p xml:id="d1e515">La suite de l’histoire est connue. Les Perses
+          sont repoussés. Retenons un passage dans le discours que <persName ref="027442640" type="idref" xml:base="https://www.idref.fr/">Thémistocle</persName>, non sans
+          arrière-pensées, prononce au moment où les Perses sont en train de
+          fuir la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> et où les
+          Grecs se demandent s’ils doivent les poursuivre : « Pour nous, qui,
+          par un succès inattendu, nous sommes sauvés, nous-mêmes et la
+          <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>, en
+          repoussant une si grande nuée d’hommes, ne poursuivons pas des gens
+          qui sont en fuite. Ce n’est pas nous qui avons accompli cet exploit
+          (<foreign xml:lang="grc">
+              <hi rend="italic">tade gar ouk hêmeis katergasametha</hi>
+            </foreign>), ce sont les dieux et les héros dont la jalousie n’a
+          pas voulu qu’un seul homme régnât (<foreign xml:lang="grc">
+              <hi rend="italic">ephthonêsan andra hena</hi> …<hi rend="italic">
+          basileusai</hi>
+            </foreign>) sur l’Asie et l’Europe, un homme impie
+          (<hi rend="italic">
+              <foreign xml:lang="grc">anhosion</foreign>
+            </hi>) et criminel (<foreign xml:lang="grc">
+              <hi rend="italic">atasthalon</hi>
+            </foreign>), qui a traité de même sanctuaires et édifices privés,
+          incendiant et renversant les statues des dieux, un homme qui même a
+          fait fustiger la mer et y a jeté des entraves (<hi rend="italic">
+              <foreign xml:lang="grc">tên thalassan apemastigôse pedas te
+              katêke</foreign>
+            </hi>)<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>
+                <hi rend="italic">Ibid.,</hi> VIII, 109.</p>
+            </note>. »</p>
+          <p xml:id="d1e543">De la traversée de l’<placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName> par
+          <persName ref="050588400" type="idref" xml:base="https://www.idref.fr/">Xerxès</persName>, telle qu’elle
+          est racontée par <persName ref="085720917" type="idref" xml:base="https://www.idref.fr/">Hérodote</persName>, nous pouvons
+          ainsi retenir un certain nombre d’éléments pertinents pour nos
+          propos.</p>
+          <p xml:id="d1e545">Après le désastre du premier pont construit,
+          <persName ref="050588400" type="idref" xml:base="https://www.idref.fr/">Xerxès</persName> veut
+          « arraisonner » l’<placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName>, qui est
+          puni de trois façons précises : on le fouette, on lui met des
+          entraves, on le marque au fer, en précisant qu’il n’est pas digne de
+          sacrifices, pour s’être opposé à la construction du pont. Autrement
+          dit, l’<placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName>, dont le
+          statut divin est ainsi reconnu dans la formule accompagnant la
+          punition, est symboliquement traité d’esclave<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>
+                <hi rend="italic">Cf.</hi> U. Fantasia, « Ἄστικτον
+              χωρίον »,<hi rend="italic"> Annali della Scuola Normale di Pisa.
+              </hi>
+                <hi rend="italic">Classe di lettere e filosofia</hi>, 6,
+              1976, p. 1169 n. 11.</p>
+            </note>, – d’esclave qui aurait dû se soumettre au maître, au roi
+          <persName ref="050588400" type="idref" xml:base="https://www.idref.fr/">Xerxès</persName>.</p>
+          <p xml:id="d1e559">En apparence « arraisonné » par le roi,
+          l’<placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName> n’offre
+          pas de résistance à la construction du deuxième pont. Lorsque tout
+          est prêt pour le passage de l’armée, <persName ref="050588400" type="idref" xml:base="https://www.idref.fr/">Xerxès</persName>, au
+          lever du soleil, fait des libations et des prières au soleil, sur
+          quoi il jette la coupe dans la mer, accompagnée d’un trépied d’or et
+          d’un glaive perse. <persName ref="085720917" type="idref" xml:base="https://www.idref.fr/">Hérodote</persName> ne sait pas si
+          <persName ref="050588400" type="idref" xml:base="https://www.idref.fr/">Xerxès</persName>, par là, veut se
+          réconcilier avec l’<placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName> ou si le
+          destinataire des objets est le dieu <persName ref="034158669" type="idref" xml:base="https://www.idref.fr/">Hélios</persName>. En
+          revanche, il sait déjà qu’un éventuel regret de la part du roi ne
+          sera pas suffisant. Le mal est déjà fait.</p>
+          <p xml:id="d1e561">Le discours de <persName ref="027442640" type="idref" xml:base="https://www.idref.fr/">Thémistocle</persName>, prononcé
+          lorsque la défaite perse s’accomplit, vient préciser la façon dont
+          il faut comprendre la tentative d’asservissement de l’<placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName> par
+          <persName ref="050588400" type="idref" xml:base="https://www.idref.fr/">Xerxès</persName> : tandis que les
+          Grecs attribuent sagement leur victoire aux dieux offensés par le
+          projet de <persName ref="050588400" type="idref" xml:base="https://www.idref.fr/">Xerxès</persName>, celui-ci, dans
+          sa démesure, fait figure de criminel et d’impie. Piété du côté grec,
+          démesure du côté perse. De cette façon, l’échec de l’expédition
+          perse s’explique : la raison n’en est autre que l’offense
+          impardonnable que <persName ref="050588400" type="idref" xml:base="https://www.idref.fr/">Xerxès</persName> a commise en
+          essayant d’arraisonner l’<placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName>.</p>
+        </div>
+        <div type="section1" xml:id="d1e563">
+          <head subtype="level1" xml:id="d1e564">4. La « limite religieuse »
+          de l’exploitation de la nature</head>
+          <p xml:id="d1e566">Le récit d’<persName ref="085720917" type="idref" xml:base="https://www.idref.fr/">Hérodote</persName> vient ainsi
+          compléter l’analyse de l’épigramme d’<persName ref="201038382" type="idref" xml:base="https://www.idref.fr/">Antipater</persName>.
+          Le propriétaire du moulin à eau ne s’est pas imposé en tant que
+          maître d’un fleuve-à-asservir, dans la conviction, sans doute, que
+          les Nymphes ne sont pas des esclaves mais des divinités qu’il vaut
+          mieux ne pas indisposer. Au contraire, il a réussi à obtenir leur
+          collaboration en négociant avec la déesse du blé elle-même,
+          négociation qu’il faut se représenter comme cultuelle, autrement dit
+          comme prenant la forme de prières, de libations et de sacrifices
+          (prenant sans doute la forme de dîmes annuelles pour les Nymphes).
+          Par cette attitude religieuse, le meunier s’est assuré de l’énergie
+          hydraulique nécessaire à l’actionnement de son moulin.</p>
+          <p xml:id="d1e568">Tout autre est l’attitude du roi perse, qui
+          constitue l’exemple même de ce que l’homme ne doit pas faire
+          lorsqu’il se voit obligé d’intervenir dans un domaine où les dieux
+          sont les maîtres incontestables. Chercher à asservir la divinité au
+          lieu d’obtenir son accord devient ici se prendre pour un dieu. C’est
+          d’ailleurs ce qui est suggéré par la réflexion d’un Hellespontin
+          lorsque l’armée perse a accompli son passage en Europe : si
+          <persName ref="02747237X" type="idref" xml:base="https://www.idref.fr/">Zeus</persName> veut détruire
+          l’Europe, dit celui-ci, pourquoi a-t-il pris la forme du roi
+          perse<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Hérodote, VII, 56.</p>
+            </note> ? En réalité, il n’en est rien, car <persName ref="050588400" type="idref" xml:base="https://www.idref.fr/">Xerxès</persName> n’est pas un dieu
+          déguisé et son outrage contre l’<placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName> va être
+          puni par l’échec de toute son expédition.</p>
+          <p xml:id="d1e574">En <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> ancienne,
+          ainsi qu’à <placeName ref="3169069" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, la pensée
+          technique rencontre ainsi ce qu’on pourrait appeler la « limite
+          religieuse » de l’exploitation de la nature. Impossible, pour des
+          raisons religieuses, de se rendre<hi rend="italic"> maître</hi> de
+          la nature. Impossible d’installer un moulin à eau sans l’accord des
+          divinités concernées. Et s’il est possible de construire un pont sur
+          l’<placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName> sans
+          l’accord du divin <placeName ref="749779" type="geonames" xml:base="https://www.geonames.org/">Hellespont</placeName>
+          lui-même, l’opération s’annulera en provoquant la vengeance des
+          dieux.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

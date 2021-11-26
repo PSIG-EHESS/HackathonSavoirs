@@ -1,0 +1,1485 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:marcrel="http://www.loc.gov/loc.terms/relators" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-09T15:50:57.435+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="Metis-8-2010-P-Skarsouli">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" type="main">Des papyri grecs en contexte
+        funéraire</title>
+        <title type="sub">L’exemple de « L’Empédocle de Strasbourg »</title>
+        <author role="aut">
+          <forename>Pénélope</forename>
+          <surname>Skarsouli</surname>
+          <idno type="IDREF">243510993</idno>
+          <affiliation>Doctorante EHESS</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Seconde édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification 3.0 non transposé - CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/628Y2D8P" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Des papyri grecs en contexte funéraire :
+            L’exemple de « L’Empédocle de Strasbourg »</title>
+            <idno type="DOI">https://doi.org/10.4000/books.editionsehess.2535</idno>
+            <author>
+              <forename>Pénélope</forename>
+              <surname>Skarsouli</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Mètis</title>
+            <idno type="ISSN">978-2-7132-2606-9</idno>
+            <imprint>
+              <biblScope unit="volume">Dossier : Normativité</biblScope>
+              <biblScope unit="issue">N.S.8</biblScope>
+              <biblScope unit="page">167-187</biblScope>
+              <date>2010</date>
+              <note type="url">http://books.openedition.org/editionsehess/2535</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre"/>
+        <language ident="grc"/>
+        <language ident="ita"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>funerary context</item>
+            <item>crown</item>
+            <item>litterary papyri</item>
+            <item>Achmîm</item>
+            <item>eschatology</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>contexte funéraire</item>
+            <item>couronne</item>
+            <item>papyri littéraires</item>
+            <item>Achmîm</item>
+            <item>eschatologie</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-dxrkz9am">papyrus</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-vdg9xj5e">pratique rituelle<term ref="doi:10.34817/sv-7nuy2zpf">rite funéraire</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="361661" type="geonames" xml:base="https://www.geonames.org/">Achmîm</placeName>
+          </term>
+          <term>
+            <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>
+          </term>
+          <term>
+            <placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>
+          </term>
+          <term>
+            <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="-0499" to="-0400" type="_temp">
+              <hi rend="uppercase">V</hi>
+              <hi rend="sup">e</hi> siècle av.
+            J.-C.</date>
+          </term>
+          <term>
+            <date type="_temp" when="0100">fin du I<hi rend="sup">er</hi> et
+            le début du<hi rend="uppercase"> II</hi>
+              <hi rend="sup">e</hi>
+            siècle de notre ère</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-04-18T16:50:25.844+02:00" who="Métopes/PDN">Conversion en XML-TEI Métopes à partir d'un source
+      XML-TEI lodel</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Des papyri grecs en contexte
+          funéraire</titlePart>
+          <titlePart type="sub">L’exemple de « L’Empédocle de
+          Strasbourg »<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>Le texte qui suit provient de mon intervention aux journées
+              d’étude « Écriture rituelle » qui ont eu lieu à Paris en
+              novembre 2006. Je tiens à remercier chaleureusement les
+              organisateurs, Renée Koch Piettre et Christophe Batsch, de
+              m’avoir donné l’occasion de participer à ces journées si
+              enrichissantes. Je remercie également Jean-Claude Picot de sa
+              lecture attentive et de ses remarques.</p>
+            </note>
+          </titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Penelope Skarsouli</docAuthor>
+          <affiliation>Doctorante EHESS</affiliation>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-vdg9xj5e">pratique rituelle<term ref="doi:10.34817/sv-7nuy2zpf">rite
+        funéraire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-dxrkz9am">papyrus</term>
+            </term>
+          </term>La présence
+        dans un contexte funéraire précis d’un papyrus qui porte un texte du
+        philosophe Empédocle, copié vers la fin du<hi rend="uppercase" style="uppercase"> I</hi>
+          <hi rend="sup" style="typo_Exposant">er</hi>
+        siècle ap. J.-C. en Haute-Égypte, ne manque pas d’intriguer. En nous
+        fondant sur le contexte archéologique et culturel de la découverte et
+        en tenant compte de ce que l’on peut lire et déduire du contenu du
+        papyrus, nous aborderons à notre tour une question qui reste ouverte :
+        y a-t-il quelque chance pour que la teneur même de ce texte ait joué
+        un rôle propre dans le rite funéraire ? Le papyrus de Derveni, qui
+        contient le commentaire d’une cosmo-théogonie orphique en vers et a
+        été trouvé carbonisé auprès d’une tombe, va nous servir, dans la
+        dernière partie, de parallèle principal.</p>
+        <p xml:lang="eng">The presence, in a specific funeral context, of a
+        papyrus containing a text of the philosopher Empedocles raises a
+        number of intriguing questions. This papyrus, called «The Strasbourg
+        Empedocles», was copied in the late first century A. D. in Upper
+        Egypt. Taking into account both the archaeological and cultural
+        context of the finding and the content of the legible parts of the
+        papyrus, we will address a question that still remains open: was the
+        papyrus chosen because of the particular connection of its content to
+        the funeral rite? The Derveni papyrus, which contains the commentary
+        of an Orphic poem discovered carbonized near a tomb, will serve as a
+        parallel.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <div type="section1" xml:id="d1e150">
+          <head subtype="level1" xml:id="d1e151">En guise
+          d’introduction</head>
+          <p xml:id="d1e153">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-dxrkz9am">papyrus</term>
+              </term>
+            </term>L’expression
+          « L’Empédocle de Strasbourg » renvoie depuis quelques années au
+          papyrus contenant des vers du philosophe-poète présocratique
+          <persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle d’Agrigente</persName>
+          (<date from="-0499" to="-0400" type="_temp">
+              <hi rend="uppercase">V</hi>
+              <hi rend="sup">e</hi> siècle av.
+          J.-C.</date>) conservé à la Bibliothèque Nationale et Universitaire
+          de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>. De
+          fait, c’est ainsi que s’intitule l’édition du papyrus, accompagnée
+          d’une introduction et d’un commentaire, par le papyrologue <persName ref="029018099" type="idref" xml:base="https://www.idref.fr/">Alain
+          Martin</persName> et le philologue <persName ref="048653012" type="idref" xml:base="https://www.idref.fr/">Oliver
+          Primavesi</persName>
+            <note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>M<hi rend="small-caps">artin</hi>-P<hi rend="small-caps">rimavesi</hi> 1999. Pour un panorama rapide
+              des comptes rendus et des études relatifs à la publication du
+              papyrus, voir La k s 2001, p. 118, n. 3 et S<hi rend="small-caps">antaniello</hi> 2004, p. 64, n. 78.</p>
+            </note> : un travail d’une grande qualité, comme l’admettent
+          presque toujours<hi rend="italic"> a priori</hi> et indépendamment
+          de leurs critiques, les chercheurs qui se sont intéressés à cette
+          publication de « L’Empédocle de Strasbourg »<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Voir, à titre indicatif, les comptes rendus de G<hi rend="small-caps">emelli</hi> M<hi rend="small-caps">arciano</hi> 2000, p. 400, <hi rend="small-caps">Laks</hi> 2001, p. 117, et V<hi rend="small-caps">an</hi>
+                <hi rend="small-caps">der</hi> B<hi rend="small-caps">en</hi> 1999, p. 525.</p>
+            </note>.</p>
+          <p xml:id="d1e199">Nous nous efforcerons dans les pages qui suivent
+          de récapituler les principales conclusions de la partie introductive
+          du travail de <persName ref="029018099" type="idref" xml:base="https://www.idref.fr/">Martin</persName> et <persName ref="048653012" type="idref" xml:base="https://www.idref.fr/">Primavesi</persName>, en mettant
+          l’accent dans un premier temps sur les paramètres « pratiques » de
+          la découverte du papyrus et sur sa description matérielle, autant
+          d’aspects qui ne concernent qu’indirectement son contenu. Ensuite,
+          nous en viendrons à ce que les vers ainsi sauvés peuvent
+          indiquer.</p>
+          <p xml:id="d1e201">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-mublpqmd">achat</term>
+              </term>
+            </term>Le
+          manuscrit en question, dont l’écriture invite à penser qu’il a été
+          copié vers la fin du<hi rend="uppercase"/>
+            <date from="0001" to="0099" type="_temp">
+              <hi rend="uppercase">I</hi>
+              <hi rend="sup">er</hi> siècle ap. J.-C.</date>, a été acheté en <date type="_temp" when="1904-11">novembre 1904</date> par l’archéologue
+          allemand <persName ref="115618074" type="idref" xml:base="https://www.idref.fr/">Otto Rubensohn</persName> chez
+          l’antiquaire <persName type="_temp">Ginti Faltas</persName> qui
+          tenait boutique à <placeName ref="361661" type="geonames" xml:base="https://www.geonames.org/">Achmîm</placeName>, l’antique
+          <placeName ref="361661" type="geonames" xml:base="https://www.geonames.org/">Panopolis</placeName> en
+          Haute-<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>. Selon le
+          journal de <persName ref="115618074" type="idref" xml:base="https://www.idref.fr/">Rubensohn</persName>, lors de cet
+          achat, le papyrus ne constituait pas un objet autonome : il était le
+          support d’une couronne, qui de plus était presque assurément, comme
+          on va le voir, une couronne funéraire. De grands morceaux avaient
+          été découpés dans un manuscrit portant un texte d’<persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName>. Ils avaient
+          été ensuite pliés, afin de former une bande, sur laquelle des
+          feuilles de cuivre, sans doute dorées, avaient été collées.
+          <persName ref="115618074" type="idref" xml:base="https://www.idref.fr/">Otto Rubensohn</persName> a extrait
+          de l’objet les bribes de papyrus et les a emportées en Europe. En
+          <date type="_temp" when="1905">1905</date>, la bibliothèque de
+          <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> se porta
+          acquéreur de ce manuscrit. Depuis, presque un siècle s’est écoulé
+          avant que quelqu’un, en l’occurrence <persName ref="029018099" type="idref" xml:base="https://www.idref.fr/">Alain
+          Martin</persName>, ne s’intéresse au papyrus. Son identification a
+          été rendue publique en <date type="_temp" when="1994">1994</date> et
+          sa publication a eu finalement lieu quelques années plus tard, en
+          <date type="_temp" when="1999">1999</date>.</p>
+          <p xml:id="d1e208">La transformation du papyrus en support de
+          couronne, par découpage et pliage, son séjour dans une tombe pendant
+          des siècles et le démontage de la couronne dans laquelle il était
+          inclus l’ont gravement endommagé. Cinquante-deux pièces, toutes de
+          dimensions réduites, ont été dénombrées lors de l’ouverture des
+          cadres où le papyrus était enfermé. Des ensembles, plus ou moins
+          étendus, allant des traces d’une unique lettre jusqu’à quelques
+          mots, se sont ainsi constitués, désignés à l’aide des lettres de
+          l’alphabet latin, de a à k. Tous les ensembles pourraient être
+          attribués à un rouleau unique qui portait un texte suivi d’<persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName>. De cette
+          façon, on dispose, pour la première fois, d’un témoin direct dans la
+          tradition du poète, fait extrêmement rare pour les philosophes
+          présocratiques en général.</p>
+          <p xml:id="d1e210">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-nhh8kfyy">ligne</term>
+              </term>
+            </term>L’addition
+          des lignes préservées s’établit à 74. Ces 74 (+ ?) lignes du papyrus
+          représentent autant d’hexamètres dactyliques ; 54 d’entre eux
+          étaient précédemment inconnus, ce qui constitue un complément non
+          négligeable aux 476 vers, complets ou lacunaires, réunis en <date type="_temp" when="1901">1901</date> par <persName ref="032164564" type="idref" xml:base="https://www.idref.fr/">Hermann
+          Diels</persName>
+            <note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>D<hi rend="small-caps">iels</hi> 1901.</p>
+            </note>. Enfin, selon toujours les éditeurs, ces vers doivent
+          provenir des livres I et II du poème empédocléen<hi rend="italic">
+              <foreign xml:lang="grc">Peri phuseos</foreign>
+            </hi>, « De la nature ».</p>
+          <p xml:id="d1e222">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-vdg9xj5e">pratique
+          rituelle</term>
+            </term>La publication de « L’Empédocle de
+          Strasbourg » a été accueillie avec beaucoup d’enthousiasme<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>B<hi rend="small-caps">urnyeat</hi> 1999, p. 7, par exemple,
+              dit que « for ancient philosophy, this is the find of the
+              century ».</p>
+            </note>, bien que plusieurs réserves aient été vite formulées<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Voir notamment K<hi rend="small-caps">ingsley</hi> 2002, p.
+              334<hi rend="italic"> sq.</hi> et O<hi rend="small-caps">sborne</hi> 2000, p. 353-356.</p>
+            </note>. Ce qui reste néanmoins sûr, c’est que le papyrus apporte
+          autant de questions que de réponses<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Voir C<hi rend="small-caps">urd </hi>2001, p. 28.</p>
+            </note>. L’introduction qui précède montre déjà clairement les
+          contours spéculatifs et conjecturaux que présentent plusieurs des
+          renseignements concernant le manuscrit acheté à <placeName ref="361661" type="geonames" xml:base="https://www.geonames.org/">Achmîm</placeName>. Or, tout en
+          acceptant l’existence et les conséquences de ce préalable, nous nous
+          efforcerons de prendre position par rapport à une des questions les
+          plus délicates, souvent éludée ou posée trop rapidement, à savoir
+          les raisons pour lesquelles le papyrus d’<persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName>
+          se trouvait intégré à une couronne funéraire. L’analyse et, dans la
+          mesure du possible, l’évaluation du contexte archéologique et
+          culturel auquel appartient la couronne en question s’avèrent dès
+          lors indispensables ; c’est dans ce cadre en particulier que le
+          papyrus de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> pourrait
+          contribuer à la discussion concernant la fonction rituelle de
+          l’écriture.</p>
+          <p xml:id="d1e251">Notre objectif sera donc d’exposer une série
+          d’arguments qui concourent à soutenir l’hypothèse selon laquelle ce
+          n’était pas un hasard si le papyrus a servi à monter une couronne
+          funéraire ; dans cette hypothèse, les vers empédocléens ont pu être
+          destinés à être communiqués dans le cadre d’un culte funéraire<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>R<hi rend="small-caps">osenfeld</hi>-L<hi rend="small-caps">oeffler</hi> 2006, p. 186 et n. 45.</p>
+            </note>. Les éditeurs pourtant refusent une telle hypothèse :
+          « nous avons vu les raisons qui invitent à ne pas céder à une telle
+          tentation »<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>M<hi rend="small-caps">artin</hi>-P<hi rend="small-caps">rimavesi</hi> 1999, p. 38.</p>
+            </note>. Or, à notre avis, ces raisons ne semblent pas être
+          déterminantes.</p>
+        </div>
+        <div type="section1" xml:id="d1e273">
+          <head subtype="level1" xml:id="d1e274">Une couronne dans une
+          tombe</head>
+          <p xml:id="d1e276">Ce qu’il importe de souligner tout d’abord, c’est
+          que les circonstances archéologiques de la découverte du papyrus
+          suggèrent un contexte funéraire. Comme on vient de le dire, avant
+          son démontage, le papyrus se présentait sous la forme d’une bande
+          sur laquelle étaient collées des feuilles de cuivre ; ce type
+          d’objet renvoie presque assurément au mobilier d’une tombe. Les
+          éditeurs du papyrus consacrent une partie de leur introduction aux
+          éléments qui pointent dans cette direction, à savoir au fait qu’il
+          s’agit bien d’une couronne funéraire<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>
+                <hi rend="italic">Ibid.</hi> p. 27-36.</p>
+            </note>. Parmi ces éléments, l’existence d’une autre couronne mise
+          au jour par <persName ref="115618074" type="idref" xml:base="https://www.idref.fr/">Rubensohn</persName> lui-même dans
+          la nécropole d’<placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Abousir el-Meleq</placeName>
+          (en Moyenne-<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>) tient lieu
+          de parallèle le plus proche. Selon le journal de fouilles de
+          <persName ref="115618074" type="idref" xml:base="https://www.idref.fr/">Rubensohn</persName>, la couronne
+          en question a été trouvée dans un sarcophage, sur une momie, et
+          était constituée d’une lamelle de bois, courbée, sur laquelle avait
+          été collée une bande de papyrus ; sur cette dernière ont été ensuite
+          collées des feuilles et des fleurs de cuivre léger. En examinant le
+          papyrus, sur lequel seulement quelques bribes de mots étaient
+          visibles, <persName ref="115618074" type="idref" xml:base="https://www.idref.fr/">Rubensohn</persName> a reconnu un
+          texte documentaire, plus précisément les traces du contrat de vente
+          d’une maison. De nos jours, la couronne d’<placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Abousir
+          el-Meleq</placeName> semble malheureusement perdue.</p>
+          <p xml:id="d1e285">Des stricts parallèles aux couronnes d’<placeName ref="361661" type="geonames" xml:base="https://www.geonames.org/">Achmîm</placeName> et
+          d’<placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Abousir el-Meleq</placeName>
+          n’existent pas ; on dispose néanmoins d’autres couronnes analogues,
+          provenant d’<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName> ou
+          d’ailleurs, naturelles ou artificielles, qui éclairent le mode de
+          fabrication, ainsi que l’usage des deux couronnes comportant des
+          morceaux de papyrus. Plusieurs proviennent d’une tombe ;
+          quelques-unes concernent, de plus, la Haute-<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName> et
+          l’<date>époque gréco-romaine</date>. À ces exemples s’ajoutent les
+          représentations de couronnes que livrent en grand nombre les
+          portraits dits « du Fayoum », les masques de momies et les
+          sarcophages. La couronne se présente, en fait, comme un élément
+          régulier du mobilier funéraire dans l’<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>
+          gréco-romaine. De manière plus générale, il convient de mentionner
+          ici la présence bien attestée des couronnes, faisant souvent partie
+          des offrandes florales dans un contexte funéraire ; cette pratique
+          est répandue en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> ancienne, où
+          l’on déposait des couronnes de fleurs dans les tombes, aussi bien
+          qu’en <placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>
+            <note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>D<hi rend="small-caps">unand</hi> 1995, p. 3291-2 et K<hi rend="small-caps">utz</hi>-B<hi rend="small-caps">oardman</hi>
+              1971, notamment p. 144.</p>
+            </note>.</p>
+          <p xml:id="d1e300">En ce qui concerne la civilisation égyptienne,
+          l’usage de la couronne renvoie, au moins à partir du <date>Nouvel
+          Empire</date>, à la tradition de la « couronne de la justification »
+          dont parle le chapitre 19, plus tardif, du<hi rend="italic"> Livre
+          des Morts</hi> ; cette couronne relève en fait de la doctrine du
+          jugement du mort et de sa « justification » qui lui donne accès à la
+          « deuxième vie ». Le mort doit comparaître devant un tribunal divin,
+          présidé par <persName ref="027293807" type="idref" xml:base="https://www.idref.fr/">Osiris</persName>, à qui il est
+          censé adresser la déclaration d’innocence ou « confession
+          négative » ; la couronne de justification symbolise dès lors la
+          nouvelle qualité de celui qui a subi victorieusement l’épreuve du
+          jugement, une étape décisive avant son voyage dans l’autre monde
+          après la mort<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Pour plus de détails sur le rite de la justification, voir
+              D<hi rend="small-caps">unand</hi>-L<hi rend="small-caps">ichtenberg</hi> 1998, p. 78-81. Pour la
+              couronne de justification, voir le travail de référence de D<hi rend="small-caps">erchain</hi> 1955, qui se concentre sur la
+              période ptolémaïque. Voir aussi J<hi rend="small-caps">ankuhn</hi> 1980, col. 764,<hi rend="italic">
+              s. v.</hi> Kranz der Rechtfertigung. [Je tiens à remercier
+              Sylvie Donnat et Emmanuel Jambon de m’avoir aidée à constituer
+              et à enrichir « la partie égyptologique » de mon article].</p>
+            </note>. Ainsi, <persName ref="035607653" type="idref" xml:base="https://www.idref.fr/">Gaetano Messina</persName>, dans
+          son travail sur le papyrus de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, décrit
+          de la manière suivante la couronne à laquelle appartenait le texte
+          d’<persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName> : « <foreign xml:lang="ita">Il manufatto, proveniente da una delle tre necropoli
+          di Achmîm, era riconducibile alla tipologia dei simboli funerari
+          connessi alla ritualità della “giustificazione”, tipica
+          dell’escatologia egiziana</foreign> », sans néanmoins donner
+          d’autres précisions<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>M<hi rend="small-caps">essina</hi> 2007, p. 101.</p>
+            </note>.</p>
+          <p xml:id="d1e331">Une remarque de <persName ref="030944449" type="idref" xml:base="https://www.idref.fr/">Philippe
+          Derchain</persName> dans son travail de description de « la couronne
+          de justification » a en particulier attiré notre attention, vu que
+          la couronne d’<placeName ref="361661" type="geonames" xml:base="https://www.geonames.org/">Achmîm</placeName> qui nous
+          préoccupe comportait des feuilles de cuivre. « Les couronnes
+          végétales qu’on trouve d’autre part sur les momies et qui sont
+          représentées sur certains monuments privés expriment un espoir de
+          vie […] »<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>D<hi rend="small-caps">erchain</hi> 1955, p. 229-230.</p>
+            </note>. De même, dans un contexte grec cette fois-ci, la couronne
+          pourrait témoigner d’un mode d’existence spécifique après la mort,
+          en affirmant le bonheur à venir dans l’au-delà<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>B<hi rend="small-caps">lech</hi> 1982, p. 100<hi rend="italic"> sq.,</hi> qui analyse la couronne comme faisant
+              partie d’un « eudaimonistische Motiv » dans l’au-delà.</p>
+            </note>. À titre d’exemple, citons un passage de <persName ref="028344685" type="idref" xml:base="https://www.idref.fr/">Pindare</persName> qui évoque les
+          guirlandes et les couronnes faites de fleurs d’or dans l’île des
+          Bienheureux<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Pindare,<hi rend="italic"> Olympiques</hi> II, 79-82. Trad.
+              A. Puech,<hi rend="italic"> CUF</hi>, 1970.</p>
+            </note> : « là resplendissent des fleurs d’or […] ; ils en
+          tressent des guirlandes pour leurs bras ; ils en tressent des
+          couronnes ».</p>
+          <p xml:id="d1e360">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+              </term>
+            </term>Les
+          éléments présentés jusqu’ici démontrent à notre avis que l’usage de
+          la couronne fait partie des pratiques funéraires autant en
+          <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> qu’en
+          <placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName> et que, de
+          plus, il s’insère aisément dans le cadre des influences mutuelles
+          entre les civilisations égyptienne et grecque qui ont marqué
+          l’époque gréco-romaine, surtout en ce qui concerne le domaine
+          religieux et, plus particulièrement, les cultes funéraires<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Voir, à titre d’exemple, B<hi rend="small-caps">agnall</hi>-R<hi rend="small-caps">athbone</hi> 2004, p. 31-35 et D<hi rend="small-caps">unand</hi>-L<hi rend="small-caps">ichtenberg</hi> 1998, p. 97<hi rend="italic">
+              sq.,</hi> qui parlent même d’une « acculturation funéraire » des
+              Grecs ; ces derniers adoptent en fait de plus en plus les
+              coutumes égyptiennes dans ce domaine (p. 122).</p>
+            </note>. La couronne achetée à <placeName ref="361661" type="geonames" xml:base="https://www.geonames.org/">Achmîm</placeName> et décrite
+          dans le journal de <persName ref="115618074" type="idref" xml:base="https://www.idref.fr/">Rubensohn</persName> devait donc
+          ceindre la tête d’une momie ou, peut-être même, son masque ou son
+          sarcophage.</p>
+          <p xml:id="d1e381">Un deuxième point important à souligner, après la
+          description de l’usage très probablement funéraire de la couronne,
+          concerne son lieu de provenance. Puisque le papyrus a été acheté à
+          <placeName ref="361661" type="geonames" xml:base="https://www.geonames.org/">Achmîm</placeName>, la question
+          se pose d’en chercher la provenance dans l’une des nécropoles de
+          l’<date>époque gréco-romaine</date> aux environs de la ville<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Voir la remarque récapitulative concernant Achmîm, l’antique
+              Panopolis, de B<hi rend="small-caps">agnall</hi> 2002, p. 1 :
+              « The most abundant and distinctive element of Panopolite
+              documentation has been the funerary material, above all mummy
+              labels, from the Panopolitan cemeteries […] ».</p>
+            </note>. La couronne funéraire pouvait en effet provenir d’une
+          tombe de cette région. On a de fortes raisons de croire que dans le
+          cas du papyrus d’<persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName>, lieu d’achat
+          et provenance se confondent : <placeName ref="361661" type="geonames" xml:base="https://www.geonames.org/">Achmîm</placeName> paraît un
+          candidat bien probable, dans la mesure où il dispose de plusieurs
+          nécropoles avec des tombes d’<date>époque gréco-romaine</date>.</p>
+          <p xml:id="d1e390">
+            <persName ref="029018099" type="idref" xml:base="https://www.idref.fr/">Martin</persName> et <persName ref="048653012" type="idref" xml:base="https://www.idref.fr/">Primavesi</persName> énumèrent
+          trois raisons pour lesquelles cette provenance est à envisager de
+          manière prioritaire : « Tout d’abord, la vraisemblance invite à
+          penser que <persName type="_temp">Ginti Faltas</persName> et les
+          autres antiquaires d’<placeName ref="361661" type="geonames" xml:base="https://www.geonames.org/">Achmîm</placeName> écoulaient
+          aussi, sinon majoritairement, du matériel pillé dans les environs de
+          la ville ; ensuite, une partie du matériel mis en vente dans sa
+          boutique provient sans équivoque d’un contexte funéraire ; enfin, la
+          date d’acquisition de la couronne se situe dans les années où les
+          nécropoles d’<placeName ref="361661" type="geonames" xml:base="https://www.geonames.org/">Achmîm</placeName> se sont
+          trouvées soumises à un pillage en règle »<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>M<hi rend="small-caps">artin</hi>-P<hi rend="small-caps">rimavesi</hi> 1999, p. 39.</p>
+            </note>. Les éditeurs de « L’Empédocle de Strasbourg » formulent
+          même l’hypothèse<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>
+                <hi rend="italic">Ibid</hi>., p. 42-43.</p>
+            </note> que la couronne provient d’un secteur précis des
+          nécropoles d’<placeName ref="361661" type="geonames" xml:base="https://www.geonames.org/">Achmîm</placeName>, la
+          nécropole de <placeName ref="359878" type="geonames" xml:base="https://www.geonames.org/">El-Salamuni</placeName>
+            <note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>Cf. B<hi rend="small-caps">agnall</hi>-R<hi rend="small-caps">athbone</hi> 2004, p. 172.</p>
+            </note>, caractérisée par des tombes richement peintes appartenant
+          à un groupe social aisé, peut-être rallié à la culture
+          gréco-romaine, fidèle néanmoins aux traditions locales, surtout en
+          matière funéraire.</p>
+        </div>
+        <div type="section1" xml:id="d1e419">
+          <head subtype="level1" xml:id="d1e420">Un texte dans une
+          tombe</head>
+          <p xml:id="d1e422">Cette hypothèse sur le milieu où vivait la
+          personne dont la momie portait la couronne de cuivre confectionnée à
+          l’aide du papyrus empédocléen met à notre avis l’accent sur la
+          fonction que l’écrit jouait au sein de la civilisation égyptienne
+          depuis fort longtemps dans un contexte funéraire. En d’autres
+          termes, il est significatif que l’on parle d’une région où a lieu
+          une propagation particulière de la culture égyptienne traditionnelle
+          pendant l’<date>époque gréco-romaine</date>
+            <note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Voir, à ce sujet, les remarques intéressantes de S<hi rend="small-caps">mith</hi> 1997, p. 70.</p>
+            </note>. À ce propos il convient de rappeler la coutume égyptienne
+          fort ancienne d’accompagner les morts de textes. Pour ne parler que
+          des périodes les plus récentes, à partir du <date>Nouvel
+          Empire</date>, on connaît les<hi rend="italic"> Livres des
+          Morts</hi>, destinés à aider les morts dans leur « deuxième vie »,
+          qui sont déposés dans la tombe soit directement sur la momie tel un
+          viatique soit dans une petite boîte ; ces livres sont inlassablement
+          copiés jusqu’à l’<date>époque romaine</date>
+            <note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>Il convient de se référer ici à une tradition du<hi rend="italic"> Livre des Morts</hi> particulière à Achmîm ; elle
+              consiste en une série de six<hi rend="italic"> Livres des
+              Morts</hi> produits dans cette région à l’époque tardive. Voir
+              <hi rend="small-caps">Mosher</hi> 2002, p. 201 : « these six
+              documents provide evidence for a highly unique tradition of the
+              Book of the Dead at Akhmim ».</p>
+            </note>.</p>
+          <p xml:id="d1e447">Outre les<hi rend="italic"> Livres des
+          Morts</hi>, nous voudrions mentionner les<hi rend="italic"> Livres
+          des Respirations</hi> qui étaient aussi déposés auprès de la momie
+          dans les sarcophages, soit près de la tête soit à proximité des
+          pieds du cadavre<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>G<hi rend="small-caps">oyon</hi> 1972, p. 189-211</p>
+            </note>. Il est intéressant de noter que ces<hi rend="italic">
+          Livres</hi> font partie d’une nouvelle littérature funéraire −
+          toujours inspirée des antiques formules, mais dans le but d’en
+          renouveler le contenu et la portée — qui s’est développée en
+          Haute-<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName> et, plus
+          particulièrement, dans son grand centre, <placeName ref="347342" type="geonames" xml:base="https://www.geonames.org/">Thèbes</placeName>. De plus, la
+          presque totalité des documents connus est située entre la <date type="_temp" when="0100">fin du I<hi rend="sup">er</hi> et le début
+          du<hi rend="uppercase"> II</hi>
+              <hi rend="sup">e</hi> siècle de notre
+          ère</date>. Enfin, à basse époque — de nouveau en Haute-<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName> notamment —
+          s’est répandu l’usage des<hi rend="italic"> hypocéphales</hi>, « des
+          disques historiés, faits de toile, de papyrus, pour être posés sous
+          la nuque des momies ou bien, parfois, simplement dessinés sur le
+          crâne du masque »<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>Y<hi rend="small-caps">oyotte</hi> 1977, p. 195. Cf. G<hi rend="small-caps">oyon</hi> 1972, p. 276-277.</p>
+            </note>.</p>
+          <p xml:id="d1e487">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+            </term>En
+          ce qui concerne la place de l’écrit en contexte funéraire grec, on
+          se contentera — pour le propos de cet article et afin de rester le
+          plus près possible du papyrus d’<persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName> —
+          de mentionner l’exemple qui est probablement le plus représentatif,
+          à savoir les lamelles d’or dites « orphiques »<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Pour ces lamelles trouvées dans plusieurs sites de la Grèce
+              et de la Grande Grèce dans des tombes des époques classique,
+              hellénistique ou romaine, voir, à titre indicatif, l’édition de
+              P<hi rend="small-caps">ugliese</hi> C<hi rend="small-caps">arratelli</hi> 2001 et, en dernier lieu, G<hi rend="small-caps">raf</hi>-J<hi rend="small-caps">ohnston</hi>
+              2007.</p>
+            </note>, pour passer aux autres cas de papyri littéraires
+          provenant des tombes, et, plus précisément, des tombes
+          égyptiennes.</p>
+          <p xml:id="d1e505">Il faut dire d’emblée que, parmi les papyri dont
+          le contexte archéologique funéraire paraît suffisamment établi,
+          aucun n’est doté d’une portée eschatologique manifeste<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Voir la liste des<hi rend="italic"> papyri</hi> en question,
+              comportant entre autres le<hi rend="italic"> Parthénée</hi>
+              d’Alcman, fr. 1 Page et les<hi rend="italic"> Perses</hi> de
+              Timothée de Milet, établie par M<hi rend="small-caps">artin</hi>-P<hi rend="small-caps">rimavesi</hi> 1999, p. 37-38.</p>
+            </note>. Nous nous attarderons un peu plus sur un rouleau de
+          papyrus contenant deux vers du chant i et l’essentiel du chant ii de
+          l’<hi rend="italic">Iliade</hi>, qui a été trouvé à <placeName ref="334853" type="geonames" xml:base="https://www.geonames.org/">Hawara</placeName> en <date type="_temp" when="1888">1888</date> et qui date du<hi rend="uppercase"/>
+            <date from="0100" to="0199" type="_temp">
+              <hi rend="uppercase">II</hi>
+              <hi rend="sup">e</hi> siècle ap.
+          J.-C.</date> Il avait été placé sous la tête de la momie d’une
+          femme<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>P. Bodl. Ms. Gr. class. a. 1 (P) = Pack<hi rend="sup">2</hi>616 [R.A. P<hi rend="small-caps">ack</hi>,<hi rend="italic"> The Greek and Latin Literary Texts from
+              Greco-Roman Egypt</hi>, 2<hi rend="sup">e</hi> édition, Ann
+              Arbor, 1965].</p>
+            </note>. Le cas de ce rouleau homérique renvoie indirectement à un
+          passage de la<hi rend="italic"> Bibliothèque</hi> de <persName ref="027071111" type="idref" xml:base="https://www.idref.fr/">Photios</persName> où il est
+          question de l’inhumation de livres avec un corps humain, très
+          probablement leurs possesseurs : «  Après la mort de <persName ref="06864714X" type="idref" xml:base="https://www.idref.fr/">Démétrius</persName> de <placeName ref="321733" type="geonames" xml:base="https://www.geonames.org/">Scepsis</placeName>, on trouva
+          près de sa tête le livre de <persName type="_temp">Tellis</persName>
+          et les<hi rend="italic"> Plongeuses</hi> d’<persName ref="031333605" type="idref" xml:base="https://www.idref.fr/">Alcman</persName>
+          furent trouvées, dit-on, près de la tête de <persName type="_temp">Tyronichos</persName> de <placeName ref="260133" type="geonames" xml:base="https://www.geonames.org/">Chalcis</placeName> ; les<hi rend="italic"> Violateurs de Justice</hi> d’<persName ref="076543021" type="idref" xml:base="https://www.idref.fr/">Eupolis</persName> près de la tête
+          d’<persName type="_temp">Éphialte</persName> et les<hi rend="italic"> Eunides</hi> de <persName ref="114208042" type="idref" xml:base="https://www.idref.fr/">Cratinus</persName>
+          près de celle d’<persName ref="027417077" type="idref" xml:base="https://www.idref.fr/">Alexandre, roi de
+          Macédoine</persName>, et les<hi rend="italic"> Travaux et les
+          Jours</hi> d’<persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> près de celle de
+          <persName type="_temp">Séleucus Nicator</persName>. Et le
+          législateur d’<placeName ref="264644" type="geonames" xml:base="https://www.geonames.org/">Arcadie</placeName>, <persName ref="086698699" type="idref" xml:base="https://www.idref.fr/">Cercidas</persName>, aurait ordonné
+          qu’on enterrât avec lui les livres I et II de l’<hi rend="italic">Iliade</hi> »<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>Photios,<hi rend="italic"> Bibliothèque</hi>, 151a. Trad. R.
+              Henry,<hi rend="italic"> CUF</hi>, 1962.</p>
+            </note>.</p>
+          <p xml:id="d1e579">Les<hi rend="italic"> papyri</hi> pouvaient se
+          trouver dans la tombe, quand ils constituaient une possession
+          précieuse du défunt, que ce soit matériellement ou (et)
+          spirituellement<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>Voir T<hi rend="small-caps">urner</hi> 1968, p. 25, 32,
+              39-40. Nous aimerions mentionner, à ce propos, un autre cas
+              révélateur bien que différent à plusieurs égards, celui des
+              livres sacrés de Numa, le roi légendaire de Rome après Romulus.
+              Numa aurait voulu faire ensevelir ces livres avec son corps pour
+              en dérober la doctrine à la curiosité des profanes. Pour une
+              version de cette histoire, voir Plutarque,<hi rend="italic">
+              Numa</hi>, 22, 2-5. Selon la tradition, une bonne partie des
+              livres contenait des doctrines philosophiques pythagoriciennes
+              exposées en langue grecque. Pour plus de précisions, voir D<hi rend="small-caps">elatte</hi> 1936 et W<hi rend="small-caps">illi</hi> 1998.</p>
+            </note>. Cette remarque renvoie à deux autres cas de<hi rend="italic"> papyri</hi> en contexte funéraire, cette fois-ci sans
+          rapport direct avec l’<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>, qui
+          pourraient compléter le tableau que nous sommes en train de
+          dresser : 1) le papyrus de <placeName ref="263178" type="geonames" xml:base="https://www.geonames.org/">Derveni</placeName>, le plus
+          ancien des<hi rend="italic"> papyri</hi> grecs connus, qui a été
+          découvert en <date type="_temp" when="1962">1962</date> dans le nord
+          de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> parmi les
+          cendres d’un feu funéraire et contient le commentaire allégorique
+          d’une théogonie en vers attribuée à <persName ref="027384136" type="idref" xml:base="https://www.idref.fr/">Orphée</persName>. On
+          reviendra sur ce papyrus, particulièrement important pour notre
+          propos, dans la dernière partie de cet article ; 2) le papyrus qui a
+          été trouvé en <date type="_temp" when="1959">1959</date> dans une
+          tombe à <placeName ref="673921" type="geonames" xml:base="https://www.geonames.org/">Callatis</placeName>, aux bords
+          de la mer Noire en <placeName ref="798549" type="geonames" xml:base="https://www.geonames.org/">Roumanie</placeName>, dans la
+          main droite du défunt, et dans des conditions qui permettent de
+          l’attribuer à la même période que celle à laquelle appartient le
+          papyrus de <placeName ref="263178" type="geonames" xml:base="https://www.geonames.org/">Derveni</placeName>,
+          c’est-à-dire à la fin du<hi rend="uppercase"/>
+            <date from="-0399" to="-0300" type="_temp">
+              <hi rend="uppercase">IV</hi>
+              <hi rend="sup">e</hi> siècle av. J.-C</date>. Le rouleau a été
+          malheureusement détruit avant d’avoir pu être déchiffré<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Sur le papyrus de Callatis, voir P<hi rend="small-caps">ippidi</hi> 1967, p. 209-210 et P<hi rend="small-caps">ippidi</hi> 1984, p. 125-126.</p>
+            </note>.</p>
+          <p xml:id="d1e622">
+            <persName ref="028456726" type="idref" xml:base="https://www.idref.fr/">Eric Gardner Turner</persName>, en
+          examinant la raison de la présence du rouleau homérique de
+          <placeName ref="334853" type="geonames" xml:base="https://www.geonames.org/">Hawara</placeName> que nous
+          venons de mentionner — et plus généralement des<hi rend="italic">
+          papyri</hi> littéraires — dans une tombe, se réfère explicitement à
+          une autre hypothèse, celle de l’imitation de l’usage égyptien
+          concernant le<hi rend="italic"> Livre des Morts</hi>
+            <note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>T<hi rend="small-caps">urner</hi> 1968, p. 76-77. Cf. P<hi rend="small-caps">reisendanz</hi> 1933, p. 130-131.</p>
+            </note> ; indépendamment, paraît-il, de leur contenu.</p>
+        </div>
+        <div type="section1" xml:id="d1e639">
+          <head subtype="level1" xml:id="d1e640">Un papyrus de qualité</head>
+          <p xml:id="d1e642">Un autre élément qu’il conviendrait de souligner
+          est le fait que le papyrus de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> est
+          d’une bonne qualité. Tout d’abord, il dispose d’une indication
+          stichométrique, à savoir la lettre Γ, en marge de la colonne a, ce
+          qui signifie que le copiste a déjà écrit 300 lignes. Cette
+          indication pourrait témoigner de la production du manuscrit dans un
+          centre de copie professionnel<note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>T<hi rend="small-caps">urner</hi>, 1968, p. 95, commente
+              ainsi ce genre d’indications : « If they are present in a text,
+              we may be sure the copy was professionally made and paid for ».
+              En fait, le prix à payer pour un livre dans un atelier antique
+              dépendait de la quantité de texte copié.</p>
+            </note>.</p>
+          <p xml:id="d1e651">De plus, des modifications ont été apportées au
+          texte en une douzaine d’endroits. Outre le copiste, deux mains au
+          moins ont introduit des interventions de nature critique dans le
+          papyrus. Plusieurs parmi ces dernières dépassent le niveau de la
+          simple correction ; elles semblent toutes résulter d’une collation
+          avec un témoin indépendant du texte ; elles pourraient donc être
+          dues à l’initiative d’un utilisateur érudit.</p>
+          <p xml:id="d1e653">La conclusion des éditeurs est significative :
+          « même s’il [le papyrus d’<persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName>] ne procède
+          pas d’une édition scientifique et commentée […], notre manuscrit se
+          distingue de la masse des papyrus littéraires : par le milieu
+          professionnel dont il est issu, dont témoignent son écriture soignée
+          et la notation stichométrique ; par les interventions variées qu’il
+          porte, y compris un certain nombre de variantes et de corrections.
+          Le papyrus d’<persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName> conserve les
+          restes d’un livre antique de qualité »<note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>M<hi rend="small-caps">artin</hi>-P<hi rend="small-caps">rimavesi,</hi> 1999, p. 25.</p>
+            </note>, dont le prix devait en conséquence être élevé.</p>
+          <p xml:id="d1e665">Ces remarques nous semblent affaiblir les
+          arguments des éditeurs selon lesquels ce papyrus a été utilisé en
+          tant que papier recyclé pour la fabrication de la couronne, selon le
+          procédé bien connu qui consiste à transformer le papyrus en une
+          sorte de carton, de papier mâché, comme celui qui servait largement
+          à la réalisation des cartonnages de momies. Même si l’on connaît
+          encore d’autres exemples de remploi des<hi rend="italic">
+          papyri</hi>
+            <note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>L<hi rend="small-caps">ewis</hi>, 1974, p. 95-97.</p>
+            </note>, on ne peut pas exclure l’existence de certains
+          préalables, d’autant plus que le papyrus lui-même représentait
+          probablement un matériel onéreux<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>C<hi rend="small-caps">aminos</hi>, 1986, p. 47 et n. 23.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e683">
+          <head subtype="level1" xml:id="d1e684">Être couronné d’un texte
+          d’Empédocle pour l’éternité ?</head>
+          <p xml:id="d1e686">L’argument principal des éditeurs contre
+          l’hypothèse d’une réutilisation délibérée du papyrus d’<persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName> liée à son
+          contenu se fonde principalement sur le parallèle de la couronne
+          funéraire d’<placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Abousir el Meleq</placeName>.
+          Cette dernière passe pour avoir comporté, comme on l’a vu, un texte
+          documentaire, bien que son déchiffrement soit plus qu’incertain<note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>M<hi rend="small-caps">artin</hi>-P<hi rend="small-caps">rimavesi</hi> 1999, p. 28 et n. 5, p. 38. Sur
+              l’usage inattendu d’un texte documentaire, voir le cas
+              exceptionnel d’une momie de l’époque gréco-romaine provenant de
+              la nécropole de Douch (dans l’oasis de Khargha en Égypte) qui
+              portait, collé sur son thorax, un grand morceau de papyrus
+              grec : il s’agissait d’une liste de contributions en nature
+              versées par les habitants du village de Douch au début du<hi rend="uppercase"> III</hi>
+                <hi rend="sup">e</hi> siècle ap. J.-C.
+              Voir <hi rend="small-caps">Dunand-Lichtenberg</hi> 1998, p.
+              111.</p>
+            </note>. Or, cet argument paraît insuffisant à nos yeux, surtout
+          après que nous avons mis le papyrus en contexte.</p>
+          <p xml:id="d1e706">Parmi les chercheurs peu nombreux sont ceux qui
+          ont voulu interroger d’un peu plus près les conclusions des éditeurs
+          sur ce sujet ; parmi eux, <persName ref="029123445" type="idref" xml:base="https://www.idref.fr/">Catherine Osborne</persName>, dans
+          son article discutant certains aspects de la publication de
+          « L’Empédocle de Strasbourg », pose une série de questions
+          pertinentes et exprime à juste titre certains doutes : « <foreign xml:lang="eng">What, for exemple, do we know about the choice of
+          papyrus strips for the death coronet ? The two main alternatives
+          are : (1) that they were waste paper from a source unconnected with
+          burial rites or the beliefs of the deceased ; or (2) that they were
+          chosen deliberately from texts that he or she had loved and
+          believed, or that had belonged to a community to which the deceased
+          was ritually committed</foreign> »<note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>O<hi rend="small-caps">sborne</hi> 2000, p. 332.</p>
+            </note>. Concernant cette deuxième hypothèse, et puisqu’on a vu
+          que le papyrus d’<persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName> pourrait bien
+          provenir de l’endroit même où il a été acquis, il est important de
+          se souvenir de l’éclat que les études littéraires et philosophiques
+          paraissent avoir connu à <placeName ref="361661" type="geonames" xml:base="https://www.geonames.org/">Achmîm</placeName>, l’antique
+          <placeName ref="361661" type="geonames" xml:base="https://www.geonames.org/">Panopolis</placeName>
+            <note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>Voir le panorama, comme toujours très instructif, dressé par
+              M<hi rend="small-caps">artin</hi>-P<hi rend="small-caps">rimavesi</hi> 1999, p. 43-51. Cf. B<hi rend="small-caps">owersock</hi> 1990, p. 55-69. Nous
+              mentionnons, à titre d’exemple, les noms bien connus du poète
+              Nonnos de Panopolis (<hi rend="uppercase">V</hi>
+                <hi rend="sup">e</hi> siècle), auteur des<hi rend="italic">
+              Dionysiaques</hi>, ainsi que de l’alchimiste Zosime de Panopolis
+              (<hi rend="uppercase">III</hi>
+                <hi rend="sup">e</hi>
+                <hi rend="uppercase">-IV</hi>
+                <hi rend="sup">e</hi> siècle).</p>
+            </note>, aux premiers siècles de notre ère.</p>
+          <p xml:id="d1e746">Afin de pouvoir prendre une position, plus ou
+          moins sûre, sur le chemin indiqué par <persName ref="029123445" type="idref" xml:base="https://www.idref.fr/">Osborne</persName>, il
+          faudrait maintenant se pencher sur le texte lui-même.</p>
+          <p xml:id="d1e748">Nombreuses sont à nouveau les questions qui
+          émergent<note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>Pour un aperçu des « points d’interrogation », voir <hi rend="small-caps">Osborne</hi> 2000, p. 332-335.</p>
+            </note> : comment les morceaux de papyrus ont-ils été regroupés ?
+          Proviennent-ils tous du même contexte ? En d’autres termes,
+          s’agit-il d’un texte continu (et, dans ce cas, provenant d’un seul
+          ou de plusieurs livres ?) ou peut-être d’une collection d’extraits
+          de l’œuvre empédocléenne, d’un florilège ? Chacune de ces questions
+          a sa propre importance et représente une piste de recherche en soi,
+          probablement prometteuse. Or, il nous est impossible de les examiner
+          toutes dans le cadre de cet article. On se contentera donc de suivre
+          la reconstruction du rouleau par les éditeurs, en soulignant tout de
+          même les réserves émises en particulier concernant leur hypothèse
+          selon laquelle le même rouleau comportait le texte des livres I et
+          II du poème physique empédocléen. En effet, des rouleaux de papyrus
+          contenant plus d’un livre d’un texte constituent des cas
+          exceptionnels : c’est pour cette raison aussi qu’on pourrait ne pas
+          exclure que les vers du philosophe d’<persName ref="227109635" type="idref" xml:base="https://www.idref.fr/">Agrigente</persName>
+          écrits sur le papyrus de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>
+          proviennent tous d’une seule partie du rouleau et d’un seul
+          livre<note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>Voir J<hi rend="small-caps">anko</hi> 2004, p. 2-4 et O<hi rend="small-caps">sborne</hi> 2000, 335-336.</p>
+            </note>. De cette façon, la question de la relation des quatre
+          ensembles principaux du texte (a, b, c, d), à savoir les ensembles
+          les moins lacunaires, apparaît sous une autre lumière.</p>
+          <p xml:id="d1e767">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-vdg9xj5e">pratique rituelle<term ref="doi:10.34817/sv-7nuy2zpf">rite funéraire</term>
+              </term>
+            </term>De
+          notre côté, nous mettrons l’accent sur les éléments qui pourraient
+          justifier l’usage du texte d’<persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName> dans un rite
+          funéraire en lui conférant ou même en révélant sa portée
+          eschatologique. En effet, ce qui est tout d’abord frappant dans les
+          fragments du texte conservé, c’est la persistance du thème de la vie
+          et de la mort.</p>
+          <p xml:id="d1e769">Plus précisément et pour avancer dans l’ordre,
+          l’ensemble a — le plus consistant de tous, divisé en deux colonnes —
+          commence avec une série de 5 vers qui recoupent la fin du fr. 17
+          D-K<note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>Pour les fragments d’Empédocle, l’édition de base est celle
+              de Hans D<hi rend="small-caps">iels</hi>, Walther K<hi rend="small-caps">ranz</hi>,<hi rend="italic"> Die Fragmente der
+              Vorsokratiker</hi>, Berlin, 1951<hi rend="sup">6</hi>, à
+              laquelle nous nous référons sous la forme abrégée D-K.</p>
+            </note>, d’une grande importance parmi les fragments, car il
+          constitue le fondement même du cycle cosmique chez <persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName> : il explicite
+          la façon selon laquelle l’Un et le Multiple alternent, sous
+          l’influence de deux forces cosmiques, l’Amour et la Haine.</p>
+          <p xml:id="d1e787">En effet, les 11 premiers vers du papyrus
+          reprennent l’idée principale de cette alternance qui, par la réunion
+          et la séparation des quatre éléments (le feu, l’eau, la terre et
+          l’air) donne naissance à toute chose : « Mais alors qu’au temps de
+          l’Amour nous nous réunissons en un tout ordonné unique, au temps de
+          la Haine, au contraire, de nouveau il (<hi rend="italic">scil</hi>.
+          le tout ordonné) se divisa, en telle manière qu’à partir de l’Un
+          existait le Multiple, d’où provient tout ce qui était, tout ce qui
+          est et tout ce qui sera à l’avenir : les arbres ont germé, ainsi que
+          les hommes et les femmes, les bêtes, les oiseaux, les poissons qui
+          vivent dans l’eau et les dieux qui jouissent d’une longue vie
+          […] »<note n="43" place="foot" type="standard" xml:id="ftn43">
+              <p>Papyrus de Strasbourg, a (i) 1 – a (ii) 2. Trad. M<hi rend="small-caps">artin</hi>-P<hi rend="small-caps">rimavesi</hi> 1999.</p>
+            </note>.</p>
+          <p xml:id="d1e802">L’identité de la première personne du pluriel, au
+          début du passage, constitue une question épineuse et a suscité des
+          réactions diverses chez les spécialistes d’<persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName>
+            <note n="44" place="foot" type="standard" xml:id="ftn44">
+              <p>La première personne du pluriel de l’indicatif présent en a
+              (i) 6, [<hi rend="italic">sunercho</hi>]<hi rend="italic">
+              meth</hi>’, « nous nous réunissons », conservée par les
+              éditeurs, est corrigée sur le papyrus par une deuxième main
+              en<hi rend="italic"> sunerchomen’,</hi> à savoir le neutre
+              pluriel du participe présent, tel qui est connu par la tradition
+              indirecte, voir le fr. 26, 5 D-K. Sur cette question textuelle,
+              qui concerne également trois autres passages – a (ii) 17, c 3 et
+              d 8 – et ses implications importantes, voir, à titre indicatif,
+              <hi rend="small-caps">Curd</hi> 2001, p. 44-48, ainsi que
+              l’aperçu des différentes prises de position qu’elle a suscitées,
+              par <hi rend="small-caps">Nucci</hi> 2005, p. 383-401.</p>
+            </note>. Les éditeurs du papyrus proposent d’y reconnaître la
+          communauté des démons à laquelle <persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName>
+          appartient également<note n="45" place="foot" type="standard" xml:id="ftn45">
+              <p>Voir notamment le fr. 115 D-K. Sur le statut du démon
+              empédocléen, voir en dernier lieu G<hi rend="small-caps">ain</hi> 2007. En ce qui concerne la position
+              des éditeurs par rapport à la première personne du pluriel, voir
+              p. 90-95 de leur introduction.</p>
+            </note>, démontrant de cette façon également l’entrelacement entre
+          les deux aspects de la doctrine empédocléenne : la théorie physique
+          et la démonologie traditionnellement liée à son autre poème,
+          intitulé<hi rend="italic"> Katharmoi</hi>, « Purifications ».
+          Cependant, l’appel aux « démons » ne s’avère pas nécessaire et nous
+          nous rangeons plutôt à l’avis de ceux qui soutiennent que « nous »,
+          si on admet qu’il s’agit de la bonne leçon, c’est « nous les
+          hommes » qui relevons, comme tout le reste — même les dieux —, des
+          mêmes processus cosmiques<note n="46" place="foot" type="standard" xml:id="ftn46">
+              <p>Voir, par exemple, le point de vue de L<hi rend="small-caps">aks</hi> 2001, p. 124-125 et de I<hi rend="small-caps">nwood</hi> 2001, p. 76-77.</p>
+            </note>. Comme tout le reste, nous sommes des assemblages des
+          éléments qui vont un jour se séparer.</p>
+          <p xml:id="d1e843">Selon <persName ref="02883674X" type="idref" xml:base="https://www.idref.fr/">Brad Inwood</persName>, <persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName> semble ici
+          souligner « <foreign xml:lang="eng">in the most dramatic way
+          possible that there are no exceptions whatsoever to the iron law of
+          mortality</foreign> »<note n="47" place="foot" type="standard" xml:id="ftn47">
+              <p>I<hi rend="small-caps">nwood</hi> 2001, p. 77.</p>
+            </note>. Or à nos yeux et, d’un autre point de vue, le philosophe
+          souligne en même temps la relativité de cette loi, comme il le fait
+          ailleurs expressément en s’adressant à son élève <persName ref="090191544" type="idref" xml:base="https://www.idref.fr/">Pausanias</persName> et en montrant
+          clairement qu’il ne croit pas à la mort qui achève tout :</p>
+          <quote xml:id="d1e852">Je veux encore te dire une autre chose : il
+          n’existe de création pour rien de ce<lb/>Qui est périssable, pas
+          plus de disparition dans la funeste mort,<lb/>Mais seulement un
+          mélange et une modification de ce qui a été mélangé<lb/>Existe :
+          mais création, au sujet de ceci, n’est qu’une appellation forgée par
+          les hommes<note n="48" place="foot" type="standard" xml:id="ftn48">
+              <p>Fr. 8 D-K. Trad. Z<hi rend="small-caps">afiropulo</hi>
+              1953.</p>
+            </note>.</quote>
+          <p xml:id="d1e868">Un autre point important concerne le moment où se
+          situe la production des êtres vivants dont fait état le passage du
+          papyrus de l’ensemble a qu’on vient de citer. Selon les éditeurs, il
+          s’agirait bien du règne de la Haine croissante, ce qu’ils appellent
+          le « monde B » caractérisé, à l’inverse du « monde A » dominé par
+          l’Amour, par un mouvement progressif de différenciation et de
+          séparation<note n="49" place="foot" type="standard" xml:id="ftn49">
+              <p>Voir M<hi rend="small-caps">artin</hi>-P<hi rend="small-caps">rimavesi</hi> 1999, p. 186-189. En ce qui
+              concerne plus généralement leur position sur la théorie physique
+              d’Empédocle, voir p. 95-97.</p>
+            </note>. La présence en a (ii) 3 du démonstratif [<hi rend="italic">e</hi>]<hi rend="italic">n têi de</hi>, « sous
+          celle-ci », juste après la liste des créatures vivantes,
+          signifierait ainsi « sous la Haine ». Quelques vers plus loin, en a
+          (ii) 18-20, il serait question de l’augmentation progressive du
+          pouvoir de l’Amour juste après le triomphe de la Haine. C’est à ce
+          moment-là qu’<persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName> se tourne à
+          nouveau vers son disciple pour lui promettre de lui montrer comment
+          les éléments donnent forme « à un corps assez grand », en prenant
+          l’exemple d’animaux, des hommes et de plantes<note n="50" place="foot" type="standard" xml:id="ftn50">
+              <p>Il s’agit des vers a (ii) 23-28.</p>
+            </note>. Pour conclure : « Tires-en pour ton esprit des indices
+          sûrs à l’appui de mon récit ; car tu verras la réunion et le
+          déploiement des créatures »<note n="51" place="foot" type="standard" xml:id="ftn51">
+              <p>a (ii) 29-30, trad. M<hi rend="small-caps">artin</hi>-P<hi rend="small-caps">rimavesi</hi>.</p>
+            </note>.</p>
+          <p xml:id="d1e900">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+            </term>Il faudrait
+          préciser ici, vu le nombre des interprétations différentes du cycle
+          cosmique empédocléen, que les éditeurs adoptent la théorie nommée
+          « traditionnelle »<note n="52" place="foot" type="standard" xml:id="ftn52">
+              <p>Dans la lignée notamment de O’B<hi rend="small-caps">rien</hi> 1969.</p>
+            </note>, selon laquelle il y a formation de deux mondes séparés,
+          peuplés chacun de créatures mortelles, entre deux phases a-cosmiques
+          opposées, caractérisées l’une par la domination absolue de l’Amour,
+          l’autre par la domination absolue de la Haine. Plus précisément, au
+          règne de l’Amour qui équivaut à l’unité totale des quatre éléments
+          (appelée<hi rend="italic">
+              <foreign xml:lang="grc">Sphairos</foreign>
+            </hi>) succède une montée de la Haine qui agit en séparant de plus
+          en plus les éléments jusqu’à une séparation totale. Juste après, le
+          monde de l’Amour commence à se recréer. L’Un et le Multiple
+          alternent alors à l’infini. Cette alternance constitue un cycle, et
+          chaque cycle est caractérisé par deux zoogonies.</p>
+          <p xml:id="d1e912">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+              </term>
+            </term>Ce
+          qu’il importe de retenir pour notre propos est que, très
+          probablement, le papyrus commence avec la description d’un univers
+          dramatique, désagrégé par la Haine. Cette ambiance resurgit avec
+          l’ensemble d du papyrus qui, comportant les restes de 18 vers, est
+          le second en importance après l’ensemble a. Placé sous l’enseigne
+          des Harpyes, cet ensemble fournit quelques vers sur l’apparition de
+          la mort — le point culminant de la dissolution des éléments — parmi
+          les créatures vivantes<note n="53" place="foot" type="standard" xml:id="ftn53">
+              <p>Voir l’analyse de B<hi rend="small-caps">ollack</hi> 2001, p.
+              173.</p>
+            </note>.</p>
+          <p xml:id="d1e921">En voici le début : « qu’ils (<hi rend="italic">scil</hi>. les membres) tombent les uns à l’écart des
+          autres et accomplissent leur destin, quand subissant de nombreuses
+          contraintes, ils pourrissent, sous le coup d’une sinistre nécessité.
+          Et bien que maintenant nous ayons l’Amour et la Bienveillance, les
+          Harpyes s’approcheront de nous avec des verdicts de mort »<note n="54" place="foot" type="standard" xml:id="ftn54">
+              <p>d 1-4, trad. M<hi rend="small-caps">artin</hi>-P<hi rend="small-caps">rimavesi</hi>.</p>
+            </note>.</p>
+          <p xml:id="d1e936">Les Harpyes, ces figures mythiques monstrueuses
+          au corps d’oiseau et à la tête de femme, dont la mention se restitue
+          avec assurance en d 4, sont clairement envisagées ici dans leur rôle
+          de dispensatrices de la mort déjà attesté chez <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>
+            <note n="55" place="foot" type="standard" xml:id="ftn55">
+              <p>
+                <hi rend="italic">Odyssée</hi> I, 241 = XIV, 371. Voir le
+              commentaire<hi rend="italic"> ad loc.</hi> de M<hi rend="small-caps">artin</hi>-P<hi rend="small-caps">rimavesi</hi> 1999, p. 287-288 et de <hi rend="small-caps">Messina</hi> 2007, p. 156-157.</p>
+            </note> ; elles s’intègrent facilement dans ce monde sans Amour.
+          D’autres indices sont aussi significatifs, comme par exemple
+          l’adjectif<hi rend="italic">
+              <foreign xml:lang="grc">lugros</foreign>
+            </hi>, « sinistre, funeste » en d 2, qui caractérise la nécessité.
+          Chez <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> il est associé,
+          en même position métrique, à la mort violente<note n="56" place="foot" type="standard" xml:id="ftn56">
+              <p>
+                <hi rend="italic">Iliade</hi> XXIII, 86.</p>
+            </note>. <persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName> lui-même
+          l’utilise encore deux fois, toujours en relation avec la Haine, dans
+          les fr. 22, 8 et 109, 3 D-K (<hi rend="italic">
+              <foreign xml:lang="grc">neikei lugrôi</foreign>
+            </hi>, « par la Haine funeste »). Le participe [<hi rend="italic">sê</hi>]<hi rend="italic"> po</hi> [<hi rend="italic">m</hi>]<hi rend="italic"> enois</hi>, en d 3,
+          décrivant les membres qui pourrissent, relève également de la
+          thématique de la destruction et de la mort. On se souvient que le
+          fragment empédocléen 121 D-K cite, parmi d’autres manifestations de
+          la Haine, le substantif<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">sêpsis</hi>
+            </foreign>, « la putréfaction ».</p>
+          <p xml:id="d1e986">Le passage décrit alors le scénario qui préside à
+          la dispersion des membres et à leur dissolution, sur un ton
+          nettement prophétique. Il s’agit, selon les éditeurs, de la fin « du
+          monde B », ce monde sous l’emprise de la Haine<note n="57" place="foot" type="standard" xml:id="ftn57">
+              <p>Voir leur analyse à ce sujet : M<hi rend="small-caps">artin</hi>-P<hi rend="small-caps">rimavesi</hi> 1999, p. 283-284.</p>
+            </note>. Le distique qui suit juste après, en d 5-6, exprime le
+          regret pour une faute commise dans le passé : cette faute concerne
+          le meurtre d’animaux (par la passion meurtrière des chasseurs et des
+          sacrificateurs) et la consommation de leur viande. Le narrateur
+          interrompt son récit pour se lamenter à la première personne :
+          « Malheur à moi ! Car un jour funeste ne m’a pas fait périr avant
+          qu’avec mes griffes je n’eusse machiné de cruelles actions pour me
+          nourrir »<note n="58" place="foot" type="standard" xml:id="ftn58">
+              <p>Trad. M<hi rend="small-caps">artin</hi>-P<hi rend="small-caps">rimavesi</hi>. Pour toute la discussion
+              concernant ces deux vers, voir p. 291-295.</p>
+            </note>. Or, ce qui constitue l’une des plus grandes surprises du
+          papyrus de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, ce
+          distique est pratiquement identique à celui qui constitue le fr. 139
+          D-K attribué aux<hi rend="italic"> Catharmes</hi>
+            <note n="59" place="foot" type="standard" xml:id="ftn59">
+              <p>Voir la présentation du fragment par B<hi rend="small-caps">ollack</hi> 2003, p. 104-105.</p>
+            </note> ; cependant, on se souvient que le papyrus conserve une
+          partie du poème empédocléen<hi rend="italic"> Sur la
+          nature</hi>
+            <note n="60" place="foot" type="standard" xml:id="ftn60">
+              <p>L<hi rend="small-caps">aks</hi> 2001, p. 120-121 fait une
+              brève présentation du problème, par rapport à la question de
+              savoir s’il s’agit du même distique dont une version serait la
+              corruption de l’autre (c’est l’avis des éditeurs, cf. l’opinion
+              de T<hi rend="small-caps">répanier</hi> 2004, p. 3-5) ou s’il
+              s’agit de deux textes dans des contextes différents (voir B<hi rend="small-caps">ollack</hi> 2001, p. 174-175).</p>
+            </note>. Au sein donc du poème physique, « le passage est
+          visiblement destiné à jeter une lumière juste, à cet endroit, sur la
+          condition mortelle et sur le fait de la mortalité »<note n="61" place="foot" type="standard" xml:id="ftn61">
+              <p>B<hi rend="small-caps">ollack</hi> 2001, p. 175.</p>
+            </note>.</p>
+          <p xml:id="d1e1040">Étant donné que la deuxième moitié de l’ensemble
+          d, dont il a été question jusqu’ici, à savoir les vers d 10-18,
+          évoque une autre étape de la vie dans le cadre de la doctrine
+          empédocléenne telle qu’elle est reconstituée par les éditeurs,
+          c’est-à-dire les circonstances dans lesquelles sont apparues des
+          formes de vie avant la fin du « monde B », nous retrouvons le
+          principe de vie à côté de celui de la mort, l’un étant profondément
+          lié à l’autre. C’est là que se trouve, à notre avis, la marque
+          distinctive de notre philosophe en ce qui concerne la mortalité,
+          dont il laisse entrevoir la vraie nature, les causes mais aussi les
+          limites ; et c’est cette marque qui pourrait avant tout justifier la
+          présence du papyrus d’<persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName> dans un
+          contexte funéraire, par l’intermédiaire d’une couronne qui, comme on
+          l’a vu, symbolisait l’espoir, et plus précisément l’espoir de vie,
+          autant dans les coutumes grecques que dans les coutumes
+          égyptiennes.</p>
+          <p xml:id="d1e1042">Pour toutes ces raisons, on pourrait supposer
+          qu’un adepte de la philosophie empédocléenne, en Haute-<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName> au<hi rend="uppercase"/>
+            <date from="0001" to="0099" type="_temp">
+              <hi rend="uppercase">I</hi>
+              <hi rend="sup">er</hi> siècle ap. J-C</date>,
+          a pu souhaiter être enterré avec un morceau de l’œuvre d’un
+          philosophe à qui il est arrivé en outre d’écrire :</p>
+          <quote xml:id="d1e1049">Un homme sage ne tirerait jamais du fond de
+          son âme l’oracle suivant,<lb/>À savoir qu’aussi longtemps qu’ils
+          vivent ce qu’ils nomment leur vie,<lb/>Qu’aussi longtemps seulement
+          ils existent et souffrent malheur et bonheur,<lb/>Tandis qu’avant
+          que les mortels n’aient été formés et après leur dissolution, ils ne
+          seraient absolument rien<note n="62" place="foot" type="standard" xml:id="ftn62">
+              <p>Empédocle,<hi rend="italic"> De la nature</hi>, fr. 15 D-K.
+              Trad. Z<hi rend="small-caps">afiropulo</hi> 1953.</p>
+            </note>.</quote>
+        </div>
+        <div type="section1" xml:id="d1e1067">
+          <head subtype="level1" xml:id="d1e1068">Le parallèle du papyrus de
+          Derveni</head>
+          <p xml:id="d1e1070">Au terme de notre parcours concernant
+          « L’Empédocle de Strasbourg », qui nous a permis de présenter des
+          aspects du contexte archéologique et du contenu laissant ouverte la
+          question de la raison de sa présence dans une couronne funéraire,
+          nous sommes en mesure de constater que le point central de cette
+          problématique consiste en l’analyse et l’évaluation des implications
+          eschatologiques d’un discours philosophique relatant une doctrine
+          cosmologique précise.</p>
+          <p xml:id="d1e1072">De ce point de vue, il conviendrait de présenter
+          ici un parallèle important, en quittant l’<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName> et en se
+          tournant vers la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> continentale.
+          Il s’agit du papyrus de <placeName ref="263178" type="geonames" xml:base="https://www.geonames.org/">Derveni</placeName> auquel nous
+          avons déjà fait allusion en parlant des<hi rend="italic">
+          papyri</hi> grecs littéraires provenant des tombes. Ce papyrus, le
+          plus ancien des<hi rend="italic"> papyri</hi> grecs connus,
+          contient, en 26 colonnes, le commentaire allégorique d’une
+          cosmo-théogonie en vers explicitement attribuée à <persName ref="027384136" type="idref" xml:base="https://www.idref.fr/">Orphée</persName>. Il contient donc
+          à son tour un discours philosophique. Le rouleau, trouvé carbonisé
+          auprès d’une tombe parmi des offrandes enfouies, pourrait être daté
+          du <date type="_temp" when="-0350">milieu du<hi rend="uppercase">
+          IV</hi>
+              <hi rend="sup">e</hi> siècle av. J.-C.</date>, une date
+          exceptionnellement haute. Son importance pour la philosophie et la
+          religion grecques, notamment du point de vue de leur rapport étroit,
+          est bien établie depuis sa découverte<note n="63" place="foot" type="standard" xml:id="ftn63">
+              <p>En ce qui concerne la situation éditoriale complexe qui
+              caractérise le texte du papyrus, ainsi que le contexte
+              archéologique dont fait partie sa découverte, presque
+              miraculeuse, voir <hi rend="small-caps">Betegh</hi> 2004, dont
+              le premier chapitre (intitulé « The find », p. 56-73) est très
+              instructif du point de vue des données préalables à l’étude du
+              contenu du papyrus. On signale l’édition récente du papyrus par
+              une équipe de professeurs grecs de l’université de
+              Thessalonique ; voir K<hi rend="small-caps">ouremenos</hi>-P<hi rend="small-caps">arassoglou</hi>-T<hi rend="small-caps">santsanoglou</hi> 2006. Pour une traduction
+              française du papyrus, voir J<hi rend="small-caps">ourdan</hi>
+              2003.</p>
+            </note>.</p>
+          <p xml:id="d1e1104">Il ne sera pas ici question de l’analyse du
+          texte — très proche du courant qu’on pourrait appeler la philosophie
+          présocratique — et des nombreuses questions complexes liées à son
+          contenu<note n="64" place="foot" type="standard" xml:id="ftn64">
+              <p>Pour certaines de ces questions, l’ouvrage collectif de L<hi rend="small-caps">aks</hi>-M<hi rend="small-caps">ost</hi> 1997,
+              est instructif.</p>
+            </note>. Nous nous contenterons de rappeler que la question
+          relative aux circonstances de la découverte et à la raison pour
+          laquelle ce papyrus était destiné à être brûlé au bûcher funéraire
+          se pose également.</p>
+          <p xml:id="d1e1116">Comme dans le cas du papyrus d’<persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empédocle</persName>, la
+          signification éventuelle de la présence d’un papyrus auprès d’une
+          tombe est en général ignorée ou rapidement écartée. <persName ref="028417283" type="idref" xml:base="https://www.idref.fr/">Richard Janko</persName>, par
+          exemple, est catégorique : le papyrus a été tout simplement utilisé
+          comme matière combustible pour allumer le feu : « <foreign xml:lang="eng">Let us first dismiss from our minds the fact that the
+          papyrus was preserved by being burned on a funeral pyre. This does
+          not necessarily prove anything about its content ; its combustion
+          could have been accidental, in that it might have been used as waste
+          paper to help ignite the blaze, much as we use discarded newspapers
+          […]</foreign> »<note n="65" place="foot" type="standard" xml:id="ftn65">
+              <p>J<hi rend="small-caps">anko</hi> 1997, p. 62. Cf. ses
+              remarques analogues dans son compte rendu de l’ouvrage de <hi rend="small-caps">Betegh</hi> 2004 : <hi rend="small-caps">Janko</hi> 2005, p. 2, où il s’exclame
+              curieusement au sujet de l’usage des<hi rend="italic">
+              papyri</hi> pour allumer les bûchers funéraires : « What better
+              kindling did the ancients have ? ».</p>
+            </note>.</p>
+          <p xml:id="d1e1134">Son argument principal se fonde sur la coutume
+          romaine de garnir les bûchers funéraires de<hi rend="italic">
+          papyri</hi> pour en accélérer la combustion. Or, les preuves de
+          cette coutume ne consistent qu’en deux passages provenant des<hi rend="italic"> Épigrammes</hi> du poète <persName ref="027383709" type="idref" xml:base="https://www.idref.fr/">Martial</persName>
+          (<date from="0001" to="0099" type="_temp">
+              <hi rend="uppercase">I</hi>
+              <hi rend="sup">er</hi> siècle ap.
+          J.-C.</date>)<note n="66" place="foot" type="standard" xml:id="ftn66">
+              <p>Livre X, 97, 1 et livre VIII, 44, 14.</p>
+            </note>, ce que <persName ref="081128258" type="idref" xml:base="https://www.idref.fr/">Gábor Betegh</persName> ne manque
+          pas de souligner, en démontrant, avec succès à notre avis, la valeur
+          relative de cette argumentation<note n="67" place="foot" type="standard" xml:id="ftn67">
+              <p>
+                <hi rend="italic">Ibid.,</hi> voir<hi rend="italic">
+              supra</hi>, n. 62.</p>
+            </note>. En effet, dans le cas de la tombe de <placeName ref="263178" type="geonames" xml:base="https://www.geonames.org/">Derveni</placeName>, on n’a
+          trouvé les traces que d’un seul papyrus qui ne suffirait pas à
+          alimenter un feu ; de plus, le rouleau a été brûlé entier, sans être
+          mis en morceaux, et, en outre, nous savons qu’il faisait partie
+          d’autres objets de valeur appartenant très probablement à la
+          personne incinérée.</p>
+          <p xml:id="d1e1161">Dans cet esprit, <persName ref="081128258" type="idref" xml:base="https://www.idref.fr/">Gábor
+          Betegh</persName> développe une série d’arguments intéressants en
+          faveur de l’hypothèse selon laquelle la découverte du rouleau parmi
+          les cendres d’un feu funéraire n’était pas accidentelle et pourrait
+          témoigner du rapport entre son contenu, où le feu détient un rôle
+          spécial, et le rituel<note n="68" place="foot" type="standard" xml:id="ftn68">
+              <p>B<hi rend="small-caps">etegh</hi> 2004, p. 65-68. Cf. C<hi rend="small-caps">alame</hi> 1995, p. 13 et, dernièrement, T<hi rend="small-caps">ortorelli</hi>-G<hi rend="small-caps">hidini</hi> 2006, p. 168.</p>
+            </note>.</p>
+          <p xml:id="d1e1179">Un rapprochement entre le papyrus de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> et celui
+          de <placeName ref="263178" type="geonames" xml:base="https://www.geonames.org/">Derveni</placeName>, malgré
+          leurs différences multiples, nous paraît justifié et enrichissant
+          dans une discussion sur le rôle des<hi rend="italic"> papyri</hi>
+          littéraires en contexte funéraire. Ce rapprochement a par ailleurs
+          déjà été fait, dans le cadre du même raisonnement, par d’autres
+          chercheurs, comme par exemple <persName ref="052461467" type="idref" xml:base="https://www.idref.fr/">Glenn Most</persName> qui, dans un
+          article intéressant, montre de quelle façon des textes divers, tous
+          liés à un usage funéraire, comme le papyrus de <placeName ref="263178" type="geonames" xml:base="https://www.geonames.org/">Derveni</placeName>, le papyrus
+          de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> et les
+          lamelles d’or « orphiques », peuvent s’éclairer mutuellement<note n="69" place="foot" type="standard" xml:id="ftn69">
+              <p>M<hi rend="small-caps">ost</hi> 1997, p. 117-135.</p>
+            </note>.</p>
+          <p xml:id="d1e1191">Un extrait de son article pourrait justement
+          nous servir de conclusion, car il récapitule de manière claire
+          l’essentiel de notre argumentation : « <foreign xml:lang="eng">In
+          the context of the <placeName ref="263178" type="geonames" xml:base="https://www.geonames.org/">Derveni</placeName> papyrus, a
+          special importance accrues to another remarquable papyrus, the
+          Strasburg Empedocles papyrus […]. This papyrus is of interest here
+          not only because it places one fragment on the prohibition against
+          killing and eating animals, which scholars had always assigned to
+          the<hi rend="italic"> Katharmoi</hi>, squarely into a context of
+          the<hi rend="italic"> Physika</hi>, but above all because the
+          papyrus itself was used to help make a copper crown which presumably
+          came from a tomb and if so would have been placed upon a corpse in
+          order to help secure its owner’s happiness after his death. Although
+          the papyrus was folded and pasted in such a way as to be illegible
+          (at least in this world) and although another papyrus used for a
+          comparable funeral crown contains a contract for the sale of a
+          house, it seems to me virtually impossible to resist the notion
+          that, in this case, the presence of <persName ref="027205134" type="idref" xml:base="https://www.idref.fr/">Empedocles</persName>’poem on
+          nature in this funeral context could hardly have been due to the
+          workings of blind chance</foreign> »<note n="70" place="foot" type="standard" xml:id="ftn70">
+              <p>
+                <hi rend="italic">Ibid</hi>., p. 130.</p>
+            </note>.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e1210">
+        <listBibl xml:id="d1e1212">
+          <head subtype="level1" xml:id="d1e1213">Abréviations
+          bibliographiques</head>
+          <bibl xml:id="d1e1215">B<hi rend="small-caps">agnall</hi> 2002 :
+          Roger S. B<hi rend="small-caps">agnall</hi>, « Public Administration
+          and the Documentation of Roman Panopolis », in Arthur E<hi rend="small-caps">gberts</hi>, Brian P. M<hi rend="small-caps">uhs</hi>, Jacques V<hi rend="small-caps">an</hi>
+          D<hi rend="small-caps">er</hi> V<hi rend="small-caps">liet</hi>
+          (ed.),<hi rend="italic"> Perspectives on Panopolis. An Egyptian Town
+          from Alexander the Great to the Arab Conquest</hi>, Leiden, 2002, p.
+          1-12.</bibl>
+          <bibl xml:id="d1e1242">B<hi rend="small-caps">agnall</hi>-R<hi rend="small-caps">athbone</hi> 2004 : Roger S. B<hi rend="small-caps">agnall</hi>, Dominic W. R<hi rend="small-caps">athbone</hi> (ed.),<hi rend="italic"> Egypt. From
+          Alexander to the Early Christians</hi> :<hi rend="italic"> an
+          archaeological and historical guide,</hi> Los Angeles, 2004.</bibl>
+          <bibl xml:id="d1e1263">B<hi rend="small-caps">etegh</hi> 2004 :
+          Gábor B<hi rend="small-caps">etegh</hi>,<hi rend="italic"> The
+          Derveni Papyrus. Cosmology, Theology and Interpretation</hi>,
+          Cambridge, 2004.</bibl>
+          <bibl xml:id="d1e1274">B<hi rend="small-caps">lech</hi> 1982 :
+          Michael B<hi rend="small-caps">lech</hi>,<hi rend="italic"> Studien
+          zum Kranz bei den Griechen</hi>, Berlin, 1982.</bibl>
+          <bibl xml:id="d1e1285">B<hi rend="small-caps">ollack</hi> 2001 :
+          Jean B<hi rend="small-caps">ollack</hi>, « “Voir la Haine”. Sur les
+          nouveaux fragments d’Empédocle »,<hi rend="italic"> Methodos</hi> 1,
+          2001, p. 173-185.</bibl>
+          <bibl xml:id="d1e1296">B<hi rend="small-caps">ollack</hi> 2003 :
+          Jean B<hi rend="small-caps">ollack</hi>,<hi rend="italic"> Les
+          purifications</hi>.<hi rend="italic"> Un projet de paix
+          universelle</hi>, Paris, 2003.</bibl>
+          <bibl xml:id="d1e1310">B<hi rend="small-caps">owersock</hi> 1990 :
+          Glen Warren B<hi rend="small-caps">owersock</hi>,<hi rend="italic">
+          Hellenism in Late Antiquity</hi>, Ann Arbor, 1990.</bibl>
+          <bibl xml:id="d1e1321">B<hi rend="small-caps">urnyeat</hi> 1999 :
+          Myles B<hi rend="small-caps">urnyeat</hi>, « Of Love and Strife :
+          Startling new light on the pre-Socratic universe »,<hi rend="italic"> Times Literary Supplement</hi> 5017, May 28, 1999, p.
+          7-8.</bibl>
+          <bibl xml:id="d1e1332">C<hi rend="small-caps">alame</hi> 1995 :
+          Claude C<hi rend="small-caps">alame</hi>, « Invocations et
+          commentaires “orphiques” : transpositions funéraires de discours
+          religieux », in Marie-Madeleine M<hi rend="small-caps">actoux</hi>,
+          Evelyne G<hi rend="small-caps">eny</hi> (éd.),<hi rend="italic">
+          Discours religieux dans l’Antiquité</hi>, Paris, 1995, p.
+          11-30.</bibl>
+          <bibl xml:id="d1e1349">C<hi rend="small-caps">aminos</hi> 1986 :
+          Ricardo A. C<hi rend="small-caps">aminos</hi>, « Some Comments on
+          the Reuse of Papyrus », in Morris L. B<hi rend="small-caps">ierbrier</hi> (ed.),<hi rend="italic"> Papyrus :
+          Structure and Usage</hi>, London, 1986, p. 43-61.</bibl>
+          <bibl xml:id="d1e1364">C<hi rend="small-caps">urd</hi> 2001 :
+          Patricia C<hi rend="small-caps">urd</hi>, « A New Empedocles ?
+          Implications of the Strasburg Fragments for Presocratic
+          Philosophy »,<hi rend="italic"> Proceedings of the Boston Area
+          Colloquium in Ancient Philosophy</hi> 17, 2001, p. 27-59.</bibl>
+          <bibl xml:id="d1e1375">D<hi rend="small-caps">elatte</hi> 1936 :
+          Armand D<hi rend="small-caps">elatte</hi>, « Les Doctrines
+          pythagoriciennes des livres de Numa »,<hi rend="italic"> Bulletin de
+          la Classe des lettres et des sciences morales et politiques.
+          Académie royale de Belgique</hi> 32, 1936, p. 19-40.</bibl>
+          <bibl xml:id="d1e1386">D<hi rend="small-caps">erchain</hi> 1955 :
+          Philippe D<hi rend="small-caps">erchain</hi>, « La couronne de
+          justification. Essai d’analyse d’un rite ptolémaïque »,<hi rend="italic"> Chronique d’Égypte</hi> 30, 1955, p. 225-287.</bibl>
+          <bibl xml:id="d1e1397">D<hi rend="small-caps">iels</hi> 1901 :
+          Hermann D<hi rend="small-caps">iels</hi>,<hi rend="italic"> Poetarum
+          Graecorum fragmenta.</hi> III/1.<hi rend="italic"> Poetarum
+          philosophorum fragmenta</hi>, Berlin, 1901.</bibl>
+          <bibl xml:id="d1e1411">D<hi rend="small-caps">unand</hi> 1995 :
+          Françoise D<hi rend="small-caps">unand</hi> (avec la collaboration
+          de Roger L<hi rend="small-caps">ichtenberg</hi>), « Pratiques et
+          croyances funéraires en Égypte romaine », in<hi rend="italic">
+          Aufstieg und Niedergang der römischen Welt.</hi> II. 18.5.<hi rend="italic"> Heidentum : Die religiösen Verhältnisse in den
+          Provinzen</hi>, Berlin, 1995, p. 3216-3315.</bibl>
+          <bibl xml:id="d1e1428">D<hi rend="small-caps">unand</hi>-L<hi rend="small-caps">ichtenberg</hi> 1998 : Françoise D<hi rend="small-caps">unand</hi>, Roger L<hi rend="small-caps">ichtenberg</hi>,<hi rend="italic"> Les momies et
+          la mort en Égypte</hi>, Paris, 1998.</bibl>
+          <bibl xml:id="d1e1445">G<hi rend="small-caps">ain</hi> 2007 :
+          Frédéric G<hi rend="small-caps">ain</hi>, « Le statut du “daimon”
+          chez Empédocle »,<hi rend="italic"> Philosophie Antique</hi> 7,
+          2007, p. 121-150.</bibl>
+          <bibl xml:id="d1e1456">G<hi rend="small-caps">emelli</hi> M<hi rend="small-caps">arciano</hi> 2000 : Laura G<hi rend="small-caps">emelli</hi> M<hi rend="small-caps">arciano</hi>,
+          « Martin/Primavesi, L’Empédocle de Strasbourg », (compte rendu),<hi rend="italic"> Gnomon</hi> 72, 2000, p. 389-400.</bibl>
+          <bibl xml:id="d1e1473">G<hi rend="small-caps">oyon</hi> 1972 :
+          Jean-Claude G<hi rend="small-caps">oyon</hi>,<hi rend="italic">
+          Rituels funéraires de l’ancienne Égypte. Le rituel de l’Embaumement,
+          le Rituel de l’Ouverture de la Bouche, Les Livres des
+          Respirations</hi>, Paris, 1972.</bibl>
+          <bibl xml:id="d1e1484">G<hi rend="small-caps">raf</hi>-J<hi rend="small-caps">ohnston</hi> 2007 : Fritz G<hi rend="small-caps">raf</hi>, Sarah Iles J<hi rend="small-caps">ohnston</hi>,<hi rend="italic"> Ritual texts for
+          the afterlife. Orpheus and the Bacchic Gold tablets</hi>, London,
+          2007.</bibl>
+          <bibl xml:id="d1e1501">I<hi rend="small-caps">nwood</hi> 2001 : Brad
+          I<hi rend="small-caps">nwood</hi>,<hi rend="italic"> The Poem of
+          Empedocles. A text and translation with an introduction</hi>,
+          revised edition, Toronto, 2001.</bibl>
+          <bibl xml:id="d1e1513">J<hi rend="small-caps">anko</hi> 1997 :
+          Richard J<hi rend="small-caps">anko</hi>, « The Physicist as
+          Hierophant : Aristophanes, Socrates and the Authorship of the
+          Derveni Papyrus »,<hi rend="italic"> Zeitschrift für Papyrologie und
+          Epigraphik</hi> 118, 1997, p. 61-94.</bibl>
+          <bibl xml:id="d1e1524">J<hi rend="small-caps">anko</hi> 2004 :
+          Richard J<hi rend="small-caps">anko</hi>, « Empedocles,<hi rend="italic"> On Nature</hi> I 233-364 : A new construction of
+          p.<hi rend="italic"> Strasb. </hi>
+            <hi rend="italic">Gr.</hi> Inv.
+          1665-6 »,<hi rend="italic"> Zeitschrift für Papyrologie und
+          Epigraphik</hi> 150, 2004, p. 1-16.</bibl>
+          <bibl xml:id="d1e1543">J<hi rend="small-caps">anko</hi> 2005 :
+          Richard J<hi rend="small-caps">anko</hi>, compte rendu de l’ouvrage
+          de G. Betegh dans la revue électronique<hi rend="italic"> Bryn Mawr
+          Classical Review</hi> 2005.01.27.</bibl>
+          <bibl xml:id="d1e1554">J<hi rend="small-caps">ankuhn</hi> 1980 :
+          Dieter J<hi rend="small-caps">ankuhn</hi>,<hi rend="italic"> Lexikon
+          der Ägyptologie</hi> III, Wiesbaden, 1980.</bibl>
+          <bibl xml:id="d1e1565">J<hi rend="small-caps">ourdan</hi> 2003 :
+          Fabienne J<hi rend="small-caps">ourdan</hi>,<hi rend="italic"> Le
+          Papyrus de Derveni</hi>, Paris, 2003.</bibl>
+          <bibl xml:id="d1e1576">K<hi rend="small-caps">ingsley</hi> 2002 :
+          Peter K<hi rend="small-caps">ingsley</hi>, « Empedocles for the New
+          Millennium »,<hi rend="italic"> Ancient Philosophy</hi> 22 (2),
+          2002, p. 333-413.</bibl>
+          <bibl xml:id="d1e1587">K<hi rend="small-caps">ouremenos</hi>-P<hi rend="small-caps">arassoglou</hi>-T<hi rend="small-caps">santsanoglou</hi> 2006 : Theokritos K<hi rend="small-caps">ouremenos</hi> Giorgos P<hi rend="small-caps">arassoglou</hi>, Kyriakos T<hi rend="small-caps">santsanoglou</hi>,<hi rend="italic"> The Derveni
+          Papyrus. Edited with Introduction and Commentary</hi>, Florence,
+          2006.</bibl>
+          <bibl xml:id="d1e1611">K<hi rend="small-caps">urtz</hi>-B<hi rend="small-caps">oardman</hi> 1971 : Donna C. K<hi rend="small-caps">urtz</hi>, John B<hi rend="small-caps">oardman</hi>,<hi rend="italic"> Greek burial
+          customs</hi>, London, 1971.</bibl>
+          <bibl xml:id="d1e1628">L<hi rend="small-caps">aks</hi>-M<hi rend="small-caps">ost</hi> 1997 : André L<hi rend="small-caps">aks</hi>, Glenn M<hi rend="small-caps">ost</hi>
+          (ed.),<hi rend="italic"> Studies on the Derveni Papyrus</hi>,
+          Oxford, 1997.</bibl>
+          <bibl xml:id="d1e1645">L<hi rend="small-caps">aks</hi> 2001 : André
+          L<hi rend="small-caps">aks</hi>, « À propos de l’édition de
+          l’Empédocle de Strasbourg »,<hi rend="italic"> Méthexis</hi> 14,
+          2001, p. 117-125.</bibl>
+          <bibl xml:id="d1e1656">L<hi rend="small-caps">ewis</hi> 1974 :
+          Naphtali L<hi rend="small-caps">ewis</hi>,<hi rend="italic"> Papyrus
+          in Classical Antiquity</hi>, Oxford, 1974.</bibl>
+          <bibl xml:id="d1e1668">M<hi rend="small-caps">artin</hi>-P<hi rend="small-caps">rimavesi</hi> 1999 : Alain M<hi rend="small-caps">artin</hi>, Oliver P<hi rend="small-caps">rimavesi</hi>,<hi rend="italic"> L’Empédocle de
+          Strasbourg</hi> (<hi rend="italic">P. Strasb. gr.</hi> Inv.
+          1665-1666).<hi rend="italic"/>
+            <hi rend="italic">Introduction,
+          édition et commentaire</hi>, Berlin/New York, 1999.</bibl>
+          <bibl xml:id="d1e1694">M<hi rend="small-caps">essina</hi> 2007 :
+          Gaetano M<hi rend="small-caps">essina</hi>, « Empedocle
+          “rivisitato” : testo, traduzione e commento dei frammenti di
+          Strasburgo », in G. <hi rend="small-caps">Messina</hi>,<hi rend="italic"> Dalla fisica di Senofane all’Empedocle di Strasburgo.
+          </hi>
+            <hi rend="italic">Studi di filosofia presocratica</hi>, Bari,
+          2007, p. 101-165.</bibl>
+          <bibl xml:id="d1e1710">M<hi rend="small-caps">osher</hi> 2002 :
+          Malcolm M<hi rend="small-caps">osher</hi>, « The Book of the Dead
+          Tradition at Akhmim during the Late Period », in Arthur E<hi rend="small-caps">gberts</hi>, Brian P. M<hi rend="small-caps">uhs,</hi> Jacques V<hi rend="small-caps">an</hi>
+          D<hi rend="small-caps">er</hi> V<hi rend="small-caps">liet</hi>
+          (ed.),<hi rend="italic"> Perspectives on Panopolis. An Egyptian Town
+          from Alexander the Great to the Arab Conquest</hi>, Leiden, 2002, p.
+          201-209.</bibl>
+          <bibl xml:id="d1e1737">M<hi rend="small-caps">ost</hi> 1997 : Glenn
+          M<hi rend="small-caps">ost</hi>, « The fire next time. Cosmology,
+          allegoresis, and salvation in the Derveni Papyrus »,<hi rend="italic"> Journal of Hellenic Studies</hi> 117, 1997, p.
+          117-135.</bibl>
+          <bibl xml:id="d1e1748">N<hi rend="small-caps">ucci</hi> 2005 :
+          Matteo N<hi rend="small-caps">ucci</hi>, « L’Empedocle di
+          Strasburgo. La questione delle tre<hi rend="italic">
+          theta</hi> »,<hi rend="italic"> Elenchos</hi> 26, 2005, p.
+          379-401.</bibl>
+          <bibl xml:id="d1e1762">O’B<hi rend="small-caps">rien</hi> 1969 :
+          Denis O’B<hi rend="small-caps">rien</hi>,<hi rend="italic">
+          Empedocles’Cosmic Cycle. A Reconstruction from the Fragments and
+          Secondary Sources</hi>, Cambridge, 1969.</bibl>
+          <bibl xml:id="d1e1773">O<hi rend="small-caps">sborne</hi> 2000 :
+          Catherine O<hi rend="small-caps">sborne</hi>, « Rummaging in the
+          recycling bins of Upper Egypt »,<hi rend="italic"> Oxford Studies in
+          Ancient Philosophy</hi> 18, 2000, p. 329-356.</bibl>
+          <bibl xml:id="d1e1784">P<hi rend="small-caps">ippidi</hi> 1967 :
+          Dionis M. P<hi rend="small-caps">ippidi</hi>, « In jurul papirilor
+          de la Derveni şi Callatis »,<hi rend="italic"> Studii Clasice</hi>
+          IX, 1967, p. 203-210.</bibl>
+          <bibl xml:id="d1e1795">P<hi rend="small-caps">ippidi</hi> 1984 :
+          Dionis M. P<hi rend="small-caps">ippidi</hi>,<hi rend="italic">
+          Parerga. Écrits de philologie, d’épigraphie et d’histoire
+          ancienne,</hi> Bucureşti, Paris, 1984.</bibl>
+          <bibl xml:id="d1e1806">P<hi rend="small-caps">reisendanz</hi> 1933 :
+          Karl P<hi rend="small-caps">reisendanz</hi>,<hi rend="italic">
+          Papyrusfunde und Papyrusforschung</hi>, Leipzig, 1933.</bibl>
+          <bibl xml:id="d1e1817">P<hi rend="small-caps">ugliese</hi> C<hi rend="small-caps">arrtelli</hi> 2001 : Giovanni P<hi rend="small-caps">ugliese</hi> C<hi rend="small-caps">arrtelli</hi>,<hi rend="italic"> Le lamine d’oro
+          orfiche. Instruzioni per il viaggio oltromondano degli iniziati
+          greci</hi>, Milano, 2001 [trad. française par A.-Ph. Segonds et C.
+          Luna,<hi rend="italic"> Les lamelles d’or orphiques</hi>, Paris,
+          2003].</bibl>
+          <bibl xml:id="d1e1839">R<hi rend="small-caps">osenfeld</hi>-L<hi rend="small-caps">oeffler</hi> 2006 : Annette R<hi rend="small-caps">osenfeld</hi>-L<hi rend="small-caps">oeffler</hi>,<hi rend="italic"> La poétique
+          d’Empédocle : cosmologie et métaphore</hi>, Bern, 2006.</bibl>
+          <bibl xml:id="d1e1856">S<hi rend="small-caps">antaniello</hi> 2004 :
+          Carlo S<hi rend="small-caps">antaniello</hi>, « Empedocle : uno o
+          due cosmi, una o due zoogonie ? », in Livio R<hi rend="small-caps">ossetti</hi>, Carlo S<hi rend="small-caps">antaniello</hi> (ed.),<hi rend="italic"> Studi sul
+          pensiero e sulla lingua di Empedocle</hi>, Bari, 2004, p.
+          23-81.</bibl>
+          <bibl xml:id="d1e1873">S<hi rend="small-caps">mith</hi> 1997 : Mark
+          S<hi rend="small-caps">mith</hi>, « Dating Anthropoid Mummy Cases
+          from Akhmim : The Evidence of the Demotic Inscriptions », in Morris
+          L. B<hi rend="small-caps">ierbrier</hi> (ed.),<hi rend="italic">
+          Portraits and Masks. Burial Customs in Roman Egypt</hi>, London,
+          1997, p. 66-71.</bibl>
+          <bibl xml:id="d1e1887">T<hi rend="small-caps">ortorelli</hi>-G<hi rend="small-caps">hidini</hi> 2006 : Marisa T<hi rend="small-caps">ortorelli</hi>-G<hi rend="small-caps">hidini</hi>,<hi rend="italic"> Figli della terra e
+          del cielo stellato. </hi>
+            <hi rend="italic">Testi orfici con
+          traduzione e commento</hi>, Napoli, 2006.</bibl>
+          <bibl xml:id="d1e1906">T<hi rend="small-caps">répanier</hi> 2004 :
+          Simon T<hi rend="small-caps">répanier</hi>,<hi rend="italic">
+          Empedocles. An Interpretation,</hi> London, 2004.</bibl>
+          <bibl xml:id="d1e1917">T<hi rend="small-caps">urner</hi> 1968 : Eric
+          Gardner T<hi rend="small-caps">urner</hi>,<hi rend="italic"> Greek
+          Papyri</hi>.<hi rend="italic"> An Introduction</hi>, Oxford,
+          1968.</bibl>
+          <bibl xml:id="d1e1931">V<hi rend="small-caps">an der</hi> B<hi rend="small-caps">en</hi> 1999 : Nicolaas <hi rend="small-caps">van
+          der</hi> B<hi rend="small-caps">en</hi>, « The Strasbourg Papyrus of
+          Empedocles : Some Preliminary Remarks »,<hi rend="italic">
+          Mnemosyne</hi> 52, 1999, p. 525-544.</bibl>
+          <bibl xml:id="d1e1948">W<hi rend="small-caps">illi</hi> 1998 :
+          Andreas W<hi rend="small-caps">illi</hi>, « Numa’s Dangerous Books.
+          The Exegetic History of a Roman Forgery »,<hi rend="italic"> Museum
+          Helveticum</hi> 55, 1998, p. 139-172.</bibl>
+          <bibl xml:id="d1e1959">Y<hi rend="small-caps">oyotte</hi> 1977 :
+          Jean Y<hi rend="small-caps">oyotte</hi>, « Contribution à l’histoire
+          du Chapitre 162 du Livre des Morts »,<hi rend="italic"> Revue
+          d’Égyptologie</hi> 29, 1977, p. 194-202.</bibl>
+          <bibl xml:id="d1e1970">Z<hi rend="small-caps">afiropulo</hi> 1953 :
+          Jean Z<hi rend="small-caps">afiropulo</hi>,<hi rend="italic">
+          Empédocle d’Agrigente</hi>, Paris, 1953.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

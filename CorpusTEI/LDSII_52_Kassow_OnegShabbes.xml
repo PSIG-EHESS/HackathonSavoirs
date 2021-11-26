@@ -1,0 +1,1823 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-19T16:14:45.113+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LDSII_52_Kassow_OnegShabbes">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Emanuel Ringelblum et le projet « Oneg
+        Shabbes »</title>
+        <title type="collection">Lieux de savoir 2</title>
+        <author role="aut">
+          <forename>Samuel</forename>
+          <surname>Kassow</surname>
+          <idno type="IDREF">03115929X</idno>
+        </author>
+        <editor role="translator                     ">
+          <forename>Christian</forename>
+          <surname>Jacob</surname>
+          <idno type="IDREF">026932563</idno>
+        </editor>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Albin
+          Michel CC BY-NC-ND 3.0 Attribution - Pas d’Utilisation Commerciale -
+          Pas de Modification</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/MUKTWCJ4" type="bookSection" xml:lang="fre">
+          <analytic>
+            <title level="a">Emanuel Ringelblum et le projet "Oneg
+            Shabbes"</title>
+            <author>
+              <forename>Samuel</forename>
+              <surname>Kassow</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Lieux de savoir</title>
+            <idno type="ISBN">978-2-226-18729-1</idno>
+            <editor>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <biblScope unit="volume">2. Les mains de l'intellect</biblScope>
+              <biblScope unit="nb_volumes">2</biblScope>
+              <biblScope unit="page">896-921</biblScope>
+              <publisher>Albin Michel</publisher>
+              <date>2011</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="yid"/>
+        <language ident="deu"/>
+        <language ident="lat"/>
+        <language ident="eng"/>
+        <language ident="pol"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-6sjmkx2q">archivage</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-fjvt4wnt">nazisme</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-pe5csxev">archiviste</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-mgygrrzo">historiographie</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-omg7jwnu">documentation</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>
+          </term>
+          <term>
+            <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1939" to="1945" type="_temp">Seconde guerre
+            mondiale</date>
+          </term>
+          <term>
+            <date type="_temp" when="1944-03-07">7 mars 1944</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-08-09T12:02:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Emanuel Ringelblum et le projet « Oneg
+          Shabbes »</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Samuel Kassow</docAuthor>
+        </byline>
+        <byline>(Traduit de l’américain par Christian Jacob.)</byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="d1e117">
+        <p xml:id="d1e119">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-mwscptqe">guerre</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-omg7jwnu">documentation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-6sjmkx2q">archivage</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-kbtkd6uq">correspondance</term>
+            </term>
+          </term>Peu
+        avant sa capture par la Gestapo à <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName>, le <date type="_temp" when="1944-03-07">7 mars 1944</date>, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Emanuel
+        Ringelblum</persName> envoya une lettre à un ami où il soulignait
+        l’importance des archives clandestines, portant le nom de code
+        « <foreign xml:lang="yid">Oneg Shabbes</foreign> », qu’il avait
+        enterrées dans le ghetto<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>« Oneg Shabbes » (le Plaisir du Sabbath), le nom de code de
+            l’archive secrète, fut utilisé parce que l’équipe avait l’habitude
+            de se réunir tous les samedis après-midi.</p>
+          </note>. Dans cette lettre, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>, qui se cachait
+        dans un abri, dans la partie aryenne de la ville, se demandait ce
+        qu’il adviendrait des documents enfouis si aucun de ceux qui avaient
+        été impliqués dans ce projet ne survivait à la guerre<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Adolph Berman Collection, Archive of Kibbutz Lohamei Ha’getaot,
+            Dossier 358, lettre d’Emanuel Ringelblum à Adolph Berman, 1<hi rend="sup">er</hi> mars 1944.</p>
+          </note>. Son inquiétude était fondée. De la soixantaine de
+        collaborateurs qu’il entraîna dans cet extraordinaire projet
+        documentaire, trois seulement ont survécu à la guerre et, sur les
+        trois, un seulement, <persName type="_temp">Hersh Wasser</persName>,
+        savait où les archives avaient été enterrées. La recherche commença
+        pendant l’<date from="1946-06-21" to="1946-09-20" type="_temp">été
+        1946</date>, sous les ruines de ce qui avait été une école et une
+        soupe populaire, au 68 de la rue Nowlipki.</p>
+        <p xml:id="d1e150">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-omg7jwnu">documentation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-plnrdjgu">support de conservation<term ref="doi:10.34817/sv-tfbzewmd">boîte</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+        expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+        Terre et de l'Univers<term ref="doi:10.34817/sv-qdy82djk">topographie</term>
+                </term>
+              </term>
+            </term>
+          </term>Se
+        repérant à l’aide des flèches d’une église et de photos
+        d’avant-guerre, les topographes et les ingénieurs aidèrent les
+        chercheurs à retrouver l’emplacement exact ; et, en <date from="1946-09-01" to="1946-09-30" type="_temp">septembre 1946</date>,
+        une équipe de l’Institut historique juif découvrit la première cache
+        de l’archive – des milliers de documents serrés dans dix boîtes en
+        fer-blanc. Mais ces boîtes, enterrées au début du mois d’<date from="1942-08-01" to="1942-08-31" type="_temp">août 1942</date>,
+        n’avaient pas été hermétiquement fermées : l’eau s’était infiltrée à
+        l’intérieur et avait détruit de nombreux documents et photographies.
+        <persName type="_temp">Wasser</persName> avait aussi la certitude que
+        ces dix boîtes n’étaient qu’une toute petite partie de ce que le
+        groupe avait enterré. Les fouilles continuèrent, mais les chercheurs
+        ne trouvèrent rien d’autre. Puis, en <date from="1950-12-01" to="1950-12-31" type="_temp">décembre 1950</date>, les ouvriers
+        polonais d’un chantier de construction tombèrent sur deux pots de lait
+        scellés, enterrés en <date from="1943-02-01" to="1943-02-28" type="_temp">février 1943</date> : c’était une deuxième cache de
+        documents. Couvrant la période allant d’<date from="1942-08-01" to="1943-01-31" type="_temp">août 1942 à la fin janvier 1943</date>,
+        ils étaient en bien meilleur état<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Selon Tadeusz Epsztein, qui a préparé le catalogue le plus
+            complet de l’archive, la première cache contenait 25 540 pages de
+            documents, la deuxième 9 829  pages. Cette dernière couvrait la
+            période d’août 1942 à février 1943. Epsztein attira aussi
+            l’attention sur d’autres différences frappantes entre les deux
+            caches : « Dans [la première], le yiddish et le polonais sont
+            prédominants. Le yiddish apparaît dans environ 930 documents, le
+            polonais dans environ 900. L’allemand apparaît dans environ
+            230 documents, tandis que l’hébreu dans environ 45. Dans [la
+            deuxième cache], environ 570 documents sont en polonais,
+            190 environ en yiddish, 140 environ en allemand et plus de 35 en
+            hébreu. » Tadeusz <hi rend="small-caps">Epsztein</hi>, <hi rend="italic">Introduction to the Catalog of the Warsaw Ghetto’s
+            Underground Archive</hi> (inédit), p. 3-4.</p>
+          </note>. <persName type="_temp">Wasser</persName> se souvenait
+        également d’une troisième cache, ménagée juste avant le déclenchement
+        de l’insurrection du ghetto, le <date type="_temp" when="1943-04-19">19 avril 1943</date>. Cette cache, qui apparemment
+        contenait d’importants documents sur les préparatifs de la résistance
+        armée, était dissimulée sous la boutique d’un fabricant de brosses, au
+        34 de la rue Swietojerska, qui, avec le temps, était devenu le site de
+        l’ambassade de <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> à <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName>. Bien des
+        recherches suivirent, la dernière en <date type="_temp" when="2003">2003</date>, mais sans résultat. En tout et pour tout, ce
+        qu’on avait pu sauver de la première et de la deuxième cache formait
+        un ensemble d’environ 35 000 documents. Les pertes ont peut-être été
+        équivalentes. Comme le souligna <persName ref="179028898" type="idref" xml:base="https://www.idref.fr/">Rachel Auerbach</persName>, l’une des
+        trois survivantes du groupe, l’<foreign xml:lang="yid">Oneg
+        Shabbes</foreign> eut plus de chance dans le sauvetage de ses
+        documents que dans celui de ses effectifs.</p>
+        <p xml:id="d1e199">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-gkskjmkr">témoignage</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-fjvt4wnt">nazisme</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+            </term>
+          </term>Les
+        archives de l’<foreign xml:lang="yid">Oneg Shabbes</foreign> furent
+        l’exemple le plus massif et le mieux organisé d’un phénomène largement
+        répandu : la détermination des Juifs, pris au piège par les nazis, à
+        laisser une trace écrite de ce qui leur arrivait. Outre l’<foreign xml:lang="yid">Oneg Shabbes</foreign>, les ghettos de <placeName ref="7531754" type="geonames" xml:base="https://www.geonames.org/">Lodz</placeName>, <placeName ref="593118" type="geonames" xml:base="https://www.geonames.org/">Vilnius</placeName>, <placeName ref="7530772" type="geonames" xml:base="https://www.geonames.org/">Bialystok</placeName> et
+        <placeName ref="598316" type="geonames" xml:base="https://www.geonames.org/">Kovno</placeName> eurent aussi
+        leurs archives. À côté de ces archives collectives, bien des Juifs, à
+        titre personnel, dans les ghettos, les camps de concentration et même
+        dans les complexes des fours crématoires à <placeName ref="7701596" type="geonames" xml:base="https://www.geonames.org/">Auschwitz-Birkenau</placeName>,
+        prirent la plume et tinrent la chronique des horreurs dont ils étaient
+        témoins.</p>
+        <p xml:id="d1e217">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-najuwvdf">source</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-bfyyj72n">signe<term ref="doi:10.34817/sv-j9adgg3r">trace</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+          </term>Pourquoi ces
+        Juifs écrivaient-ils ? Pourquoi prirent-ils le risque de tenir des
+        archives secrètes ? Pour certains, l’écriture était une source de
+        consolation personnelle ; pour d’autres, c’était un fil de vie qui,
+        malgré sa fragilité, les reliait au monde, à l’extérieur des ghettos
+        et des camps. Dans bien des cas, la décision d’écrire fut une forme de
+        résistance. Ils voyaient les équipes de cinéastes nazis dans les
+        ghettos, ils voyaient les affiches qui comparaient les Juifs à des
+        rats et à des poux, ils comprenaient bien l’intention des nazis de
+        mettre en forme et de fixer l’image des Juifs pour la postérité. Aussi
+        pensèrent-ils qu’écrire et tenir des chroniques étaient une manière
+        d’affirmer que, quoi qu’il arrive, ce seraient eux, et non les nazis,
+        qui écriraient l’histoire des Juifs. Les générations futures se
+        souviendraient d’eux sur la base des sources juives, et non
+        allemandes. Écrire était un acte optimiste, une manière d’affirmer
+        qu’<persName ref="185951457" type="idref" xml:base="https://www.idref.fr/">Hitler</persName> perdrait la guerre,
+        même si les chroniqueurs avaient peu d’espoir de voir le jour chéri de
+        la libération. Après tout, s’ils avaient été convaincus que les
+        Allemands allaient gagner, pourquoi auraient-ils pris la peine de
+        laisser des archives secrètes et d’enterrer leurs journaux intimes ?
+        Écrire était bien un acte de résistance. La plume et le papier, comme
+        les revolvers, devenaient des armes. Les Allemands s’efforçaient de ne
+        laisser aucune trace de leurs crimes. Ces Juifs ont fait tout leur
+        possible pour s’assurer qu’ils n’y réussiraient pas.</p>
+        <figure xml:id="d1e220">
+          <graphic url="../icono/br/LDSII_52_Kassow_OnegShabbes_img1.png"/>
+          <head xml:id="d1e224">Après-guerre : les chantiers à l’emplacement
+          de l’ancien ghetto juif lors de la reconstruction de la ville de
+          Varsovie, 1945-1946.</head>
+        </figure>
+        <p xml:id="d1e235">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-omg7jwnu">documentation</term>
+            </term>
+          </term>Si
+        cet « impératif documentaire », selon l’expression de <persName ref="028539842" type="idref" xml:base="https://www.idref.fr/">David
+        Roskies</persName>, a pris une importance particulière sous
+        l’occupation nazie, il avait commencé à se manifester bien avant la
+        guerre. Quand il débuta l’<foreign xml:lang="yid">Oneg
+        Shabbes</foreign> en <date type="_temp" when="1940">1940</date>,
+        <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>, de toute
+        évidence, n’avait aucune idée des projets futurs des nazis à l’égard
+        des Juifs : il continuait simplement un cheminement entamé longtemps
+        auparavant, où la documentation et l’écriture de l’histoire étaient
+        considérées comme une mission nationale.</p>
+        <p xml:id="d1e241">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire<term ref="doi:10.34817/sv-ku7w692n">histoire des
+        religions</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-gznzb4bl">divisions historiques des savoirs<term ref="doi:10.34817/sv-bxdtchar">humanisme</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-exqnjjmw">nationalisme</term>
+            </term>
+          </term>Au
+        début du <date from="1900" to="1999" type="_temp">
+            <hi rend="small-caps">xx</hi>
+            <hi rend="sup">e</hi> siècle</date>, l’étude
+        de l’histoire juive, étroitement associée à la collection de documents
+        et du folklore, était devenue un aspect essentiel de la recherche
+        d’une nouvelle identité séculaire juive en Europe orientale, pour la
+        synthèse de la tradition juive et du nationalisme moderne. On vit
+        apparaître des intellectuels comme <persName type="_temp">Yitzhak
+        Leibush Peretz</persName>, <persName ref="030306426" type="idref" xml:base="https://www.idref.fr/">S. Ansky</persName>, <persName type="_temp">Shloyme Zanvl Rappoport</persName> et l’historien
+        <persName ref="029474124" type="idref" xml:base="https://www.idref.fr/">Simon Dubnow</persName>, qui
+        questionnèrent le primat de la religion traditionnelle : ils
+        écartaient le principe de l’intervention divine pour mettre en lumière
+        le rôle central du peuple dans la survie de la nation juive. Par la
+        réécriture créatrice et la réévaluation de l’histoire juive, comme
+        récit de l’inventivité et de l’ingéniosité d’une nation, de sa
+        « volonté de vivre » – par opposition au récit d’une alliance entre
+        Dieu et son peuple –, ces auteurs façonnèrent de nouveaux discours qui
+        permirent aux Juifs laïques d’harmoniser leur culture et les valeurs
+        de l’humanisme libéral contemporain. <persName ref="029474124" type="idref" xml:base="https://www.idref.fr/">Dubnow</persName>, par
+        exemple, expliquait que l’histoire pouvait devenir la nouvelle
+        religion des Juifs laïques<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>
+              <hi rend="small-caps">Dubnow</hi>, 1891, p. 1-91 ; voir aussi
+            son autobiographie, <hi rend="small-caps">Dubnow</hi>, 2004,
+            p. 168-169.</p>
+          </note>.</p>
+        <p xml:id="d1e268">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-najuwvdf">source</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-mgygrrzo">historiographie</term>
+            </term>
+          </term>Mais,
+        selon la mise en garde de <persName ref="029474124" type="idref" xml:base="https://www.idref.fr/">Dubnow</persName> dans son célèbre
+        appel de <date type="_temp" when="1891">1891</date>, on ne pouvait pas
+        étudier l’histoire sans sources. Il lança un appel à la communauté
+        juive d’Europe de l’Est pour rassembler ces sources et organiser les
+        archives<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>
+              <hi rend="italic">Ibid</hi>.</p>
+          </note>. Effectivement, une cinquantaine d’années seulement séparait
+        l’appel de <persName ref="029474124" type="idref" xml:base="https://www.idref.fr/">Dubnow</persName> et la fondation de
+        l’archive <foreign xml:lang="yid">Oneg Shabbes</foreign> en <date type="_temp" when="1940">1940</date> et, pendant ce demi-siècle, les
+        historiens juifs d’Europe de l’Est, sans aucune aide des
+        gouvernements, des archives d’État ou des universités, transformèrent
+        la collecte de sources et de documents en phénomène de masse et
+        l’écriture de l’histoire en mission nationale pour le peuple juif.</p>
+        <p xml:id="d1e292">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-6sjmkx2q">archivage</term>
+            </term>
+          </term>La
+        traduction littérale du mot yiddish <hi rend="italic">« <foreign xml:lang="yid">zaml</foreign> »</hi> est « collectionner ». Mais, avec
+        le temps, il prit un sens plus large, désignant l’effort collectif
+        pour fabriquer une nouvelle culture juive laïque, pour créer des
+        archives, sauvegarder des documents et faire savoir que les Juifs non
+        seulement feraient leur propre histoire, mais qu’ils l’écriraient.
+        Après tout, la communauté juive d’Europe centrale était un peuple en
+        situation extraterritoriale, sans État propre pour y fonder des
+        archives et protéger des matériaux historiques. Si les Juifs ne
+        protégeaient pas leurs propres sources, qui alors écrirait leur
+        histoire ?</p>
+        <figure xml:id="d1e301">
+          <graphic url="../icono/br/LDSII_52_Kassow_OnegShabbes_img2.png"/>
+          <head xml:id="d1e305">La découverte de l’archive, 1946.</head>
+        </figure>
+        <p xml:id="d1e312">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire<term ref="doi:10.34817/sv-2hy2zbd6">histoire
+        sociale</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-h5xg2swx">collectionneur</term>
+            </term>
+          </term>Ces
+        <hi rend="italic">« <foreign xml:lang="yid">zamlers</foreign> »</hi>
+        (collecteurs) réunirent non seulement les archives et les chroniques
+        de la communauté, mais aussi le folklore, les proverbes, les
+        plaisanteries – toutes les traditions orales de la culture populaire.
+        Cette tâche réunissait les savants et les Juifs ordinaires. Elle
+        révélait un respect nouveau pour les masses juives, leur mode de vie
+        et leur langage autrefois méprisé, le yiddish. Selon la formule de
+        l’historien juif polonais <persName type="_temp">Isaac
+        Schiper</persName>, souvent reprise par <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>,
+        il était grand temps pour les historiens de ne plus se focaliser
+        uniquement sur le « Juif du Sabbath », les rabbins, les riches, les
+        savants et leurs commentaires religieux. Les historiens juifs, comme
+        le soulignait <persName type="_temp">Schiper</persName>, devaient
+        découvrir ce qui les entourait : le Juif des« jours ouvrables » – le
+        monde du travail, la culture populaire et l’histoire économique<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>
+              <hi rend="small-caps">Ringelblum</hi>, 1924. Ce n’est que l’un
+            des nombreux passages où Ringelblum reprend cette citation de
+            Schiper.</p>
+          </note>. Cette nouvelle histoire mettrait un accent majeur sur
+        l’histoire sociale et sur ce que les historiens ultérieurs
+        appelleraient <hi rend="italic">
+            <foreign xml:lang="deu">Alltagsgeschichte</foreign>
+          </hi>– l’histoire du quotidien.</p>
+        <p xml:id="d1e331">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-gnblmkew">objectivité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-4xfvhkky">vérité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-mgygrrzo">historiographie</term>
+            </term>
+          </term>
+          <persName ref="029474124" type="idref" xml:base="https://www.idref.fr/">Dubnow</persName> qui, en <date type="_temp" when="1891">1891</date>, avait comparé la situation de
+        l’histoire des Juifs d’Europe de l’Est à un continent non
+        cartographié, chargeait les futurs historiens juifs, comme <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>, de poursuivre
+        deux objectifs, pas nécessairement conciliables. Le premier était
+        d’écrire une histoire objective, rigoureuse et savante. Le second
+        était d’utiliser l’histoire pour fabriquer une identité juive moderne
+        et laïque ; et étayer une confiance nationale<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>Sur cette tension, voir <hi rend="small-caps">Zipperstein</hi>,
+            1999, p. 90-91.</p>
+          </note>. Les historiens devraient chercher la vérité et, ce faisant,
+        ils devraient instruire et consoler leur peuple. Cette tension
+        créative entre savoir objectif et savoir comme mission nationale
+        devait caractériser la recherche historique juive en Europe de l’Est
+        – et imprégner le projet <foreign xml:lang="yid">Oneg
+        Shabbes</foreign> de sa détermination fervente à prouver que vérité et
+        justice étaient en fin de compte les deux faces d’une même
+        médaille.</p>
+        <p xml:id="d1e352">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+            </term>
+          </term>
+          <persName ref="029474124" type="idref" xml:base="https://www.idref.fr/">Dubnow</persName> a également marqué
+        l’avènement d’un nouveau rôle de l’histoire dans la conscience de bien
+        des Juifs d’Europe de l’Est. Comme l’a fait remarquer le professeur
+        <persName ref="029300770" type="idref" xml:base="https://www.idref.fr/">Yosef Hayim Yerushalmi</persName>, le
+        genre d’histoire que <persName ref="029474124" type="idref" xml:base="https://www.idref.fr/">Dubnow</persName> préconisait avait
+        peu en commun avec la mémoire collective de la tradition religieuse
+        juive et constituait même une menace pour elle, significative à bien
+        des égards. Dans son étude si originale, <hi rend="italic">Zakhor</hi>, <persName ref="029300770" type="idref" xml:base="https://www.idref.fr/">Yerushalmi</persName> a souligné la
+        tension qui existait selon lui entre ce sentiment émergent de
+        l’histoire, répandu par <persName ref="029474124" type="idref" xml:base="https://www.idref.fr/">Dubnow</persName>, et une mémoire
+        collective juive qui utilisait des événements frappants et archétypaux
+        pour insister sur la temporalité propre à l’Alliance, estomper la
+        distinction entre passé et présent et mettre en évidence la relation
+        privilégiée entre Dieu et le peuple juif. Les historiens juifs
+        modernes ont mis en cause cette mémoire collective en recourant aux
+        faits et à l’objectivité. Dieu s’est retiré à l’arrière-plan, et les
+        Juifs sont devenus, dans l’esprit de l’historien, un peuple à étudier
+        comme un autre.</p>
+        <quote rend="quotation" xml:id="d1e361">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-jdb3nyag">temps<term ref="doi:10.34817/sv-ucjmyi3u">passé</term>
+              </term>
+            </term>
+          </term>L’historien
+        n’intervient pas simplement pour remplir les trous de la mémoire. Il
+        remet en question sans répit même les souvenirs qui ont survécu sans
+        perte. De plus, et il partage ce trait avec les historiens dans tous
+        les domaines d’enquête, il cherche en définitive à retrouver la
+        totalité du passé, dans ce cas précis le passé juif dans sa totalité,
+        même s’il n’est directement concerné que par un segment de celui-ci.
+        Aucun sujet potentiel n’est indigne de son intérêt, aucun document,
+        aucun artefact ne sont indignes de son attention<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>
+              <hi rend="small-caps">Yerushalmi</hi>, 1984.</p>
+          </note>.</quote>
+        <p xml:id="d1e373">Malgré les critiques suscitées par sa thèse, la
+        description que <persName ref="029300770" type="idref" xml:base="https://www.idref.fr/">Yosef Yerushalmi</persName> fait de
+        la tâche de l’historien – retrouver la totalité du passé et récupérer
+        tous les documents et artefacts possibles – ressemble de manière
+        frappante à celle que <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> donnait de
+        l’<foreign xml:lang="yid">Oneg Shabbes</foreign>.</p>
+        <p xml:id="d1e376">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-eryypuc6">expédition</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-ewkux826">ethnographie</term>
+              </term>
+            </term>
+          </term>La
+        collecte <hi rend="italic">(<foreign xml:lang="yid">zamling</foreign>)
+        </hi>devint rapidement un mouvement majeur. En <date type="_temp" when="1912">1912</date>, <persName ref="030306426" type="idref" xml:base="https://www.idref.fr/">Shloyme Zanvl Rappoport</persName>
+        (mieux connu sous le nom de <persName ref="030306426" type="idref" xml:base="https://www.idref.fr/">S. Ansky</persName>) organisa une
+        expédition ethnographique à travers l’<placeName ref="690791" type="geonames" xml:base="https://www.geonames.org/">Ukraine</placeName>. Ce premier
+        signe du nouvel intérêt de l’intelligentsia juive pour la culture
+        populaire fait des émules : en <date type="_temp" when="1915">1915</date>, le grand écrivain yiddish <persName type="_temp">Yitzhak Leibush Peretz</persName> invita les Juifs vivant
+        dans une Europe de l’Est ravagée par la guerre à rassembler les
+        documents et à écrire leur propre histoire. S’ils ne le faisaient pas
+        eux-mêmes, leurs ennemis le feraient certainement. Un peuple qui
+        n’écrit pas sa propre histoire, avertissait <persName type="_temp">Peretz</persName>, ne pourrait pas se sortir des
+        épreuves, ni se protéger, et encore moins convaincre les étrangers
+        qu’il méritait respect et autodétermination<note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>
+              <hi rend="small-caps">Roskies</hi>, 1988, p. 209-210.</p>
+          </note>.</p>
+        <p xml:id="d1e404">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-qyxkjpqw">compilation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-exqnjjmw">nationalisme</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-h8lq96u4">école</term>
+            </term>
+          </term>Un an plus
+        tard, en <date type="_temp" when="1916">1916</date>, à <placeName ref="593118" type="geonames" xml:base="https://www.geonames.org/">Vilnius</placeName>, un groupe
+        d’intellectuels juifs publia le premier des <hi rend="italic">
+            <foreign xml:lang="yid">zamlbikher</foreign>
+          </hi>de la ville, un almanach de la vie juive en temps de
+        guerre<note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>Voir <hi rend="small-caps">Shabad</hi> et <hi rend="small-caps">Shalit</hi>, 1916-1918 ; <hi rend="small-caps">Reyzen</hi>, 1922.</p>
+          </note>. Dans ces <foreign xml:lang="yid">
+            <hi rend="italic">zamlbikher</hi>
+          </foreign>, des articles et des reportages réunissaient le passé et
+        le présent : des études sur l’architecture traditionnelle des
+        synagogues côtoyaient des reportages sur les nouvelles écoles et les
+        soupes populaires, des articles sur la psychologie sociale des Juifs
+        voisinaient avec des compilations de plaisanteries et de folklore, les
+        études des nouvelles écoles laïques se mêlaient aux comptes rendus du
+        commerce du livre et de l’édition juifs. Cet effort collectif
+        rapprochait les Juifs pratiquants et non pratiquants, les hébraïsants
+        et ceux qui parlaient yiddish, les Sionistes et les Bundistes. Le
+        premier <hi rend="italic">
+            <foreign xml:lang="yid">zamlbukh</foreign>
+          </hi>de <placeName ref="593118" type="geonames" xml:base="https://www.geonames.org/">Vilnius</placeName> parut
+        en <date type="_temp" when="1916">1916</date>, à un moment où la ville
+        était sous occupation allemande et où les Juifs se battaient pour se
+        faire reconnaître par l’occupant comme une nationalité. Les enjeux
+        étaient importants : reconnaissance des écoles juives, permission
+        d’organiser un réseau juif distinct d’organisations d’assistance,
+        égalité de traitement avec les Polonais. Les <hi rend="italic">
+            <foreign xml:lang="yid">zamlbikher</foreign>
+          </hi>, qui, à première vue, semblaient n’être guère plus qu’une
+        collection de <hi rend="italic">
+            <foreign xml:lang="lat">miscellanea</foreign>
+          </hi>, devinrent en réalité une arme cruciale d’autodéfense
+        nationale. On y trouvait la croyance implicite que l’émergence de la
+        nation juive en Europe de l’Est était en cours, la somme de ce que les
+        Juifs faisaient, en tant que peuple, une nation moderne, et pas
+        simplement un groupe religieux. On serait tenté de dire que les
+        centaines, les milliers de documents réunis étaient autant de petits
+        cubes qui à la fois archivaient et facilitaient la construction d’une
+        nouvelle conscience populaire. Clairement, ce que l’on connaîtrait
+        plus tard comme l’<hi rend="italic">
+            <foreign xml:lang="deu">Alltagsgeschichte</foreign>
+          </hi>, était déjà une composante majeure de ce processus
+        documentaire qui retraçait le développement d’une nation juive
+        extraterritoriale en Europe de l’Est. Ce souci des détails de la vie
+        quotidienne et de l’histoire matérielle aboutirait à l’œuvre de
+        l’<foreign xml:lang="yid">Oneg Shabbes</foreign>.</p>
+        <p xml:id="d1e461">Après les pogroms ukrainiens de <date from="1918" to="1921" type="_temp">1918-1921</date>, un autre historien juif,
+        <persName ref="179354566" type="idref" xml:base="https://www.idref.fr/">Eliyahu Cherikover</persName>,
+        organisa une grande archive pour documenter les pertes juives – et
+        pour demander justice. Les documents de <persName ref="179354566" type="idref" xml:base="https://www.idref.fr/">Cherikover</persName>
+        aidèrent à défendre <persName ref="142807532" type="idref" xml:base="https://www.idref.fr/">Shalom Schwartzbard</persName>, qui
+        assassina le dirigeant ukrainien <persName type="_temp">Simon
+        Petlyura</persName> en <date type="_temp" when="1926">1926</date>.
+        C’était là un autre exemple clair de <hi rend="italic">
+            <foreign xml:lang="yid">zamling</foreign>
+          </hi> mis au service d’objectifs nationaux.</p>
+        <p xml:id="d1e473">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-gybppx7p">réflexivité</term>
+            </term>
+          </term>
+          <persName ref="179354566" type="idref" xml:base="https://www.idref.fr/">Cherikover</persName>, <persName ref="029474124" type="idref" xml:base="https://www.idref.fr/">Dubnow</persName> et de nombreux
+        intellectuels de <placeName ref="593118" type="geonames" xml:base="https://www.geonames.org/">Vilnius</placeName> qui
+        participèrent aux <hi rend="italic">
+            <foreign xml:lang="yid">zamlbikher</foreign>
+          </hi>jouèrent un rôle de premier plan dans la fondation du YIVO
+        (l’Institut scientifique yiddish) à <placeName ref="593118" type="geonames" xml:base="https://www.geonames.org/">Vilnius</placeName> en <date type="_temp" when="1925">1925</date>
+          <note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>Sur la fondation du YIVO, voir <hi rend="small-caps">Kuznitz</hi>, 2000.</p>
+          </note>. Le YIVO avait deux objectifs principaux : promouvoir la
+        recherche savante en yiddish et utiliser les perspectives d’une
+        recherche pluridisciplinaire dans cette langue pour soutenir le moral
+        et la vitalité culturelle d’un peuple aux abois. Si les Juifs
+        ordinaires en savaient plus sur eux-mêmes et leur langue, selon le
+        YIVO, ils auraient davantage de respect pour eux-mêmes et plus de
+        détermination à se battre pour leurs droits. Pour saisir la totalité
+        de l’expérience juive en Europe de l’Est, le YIVO s’efforça
+        consciemment de jeter des ponts entre l’histoire, la sociologie, la
+        linguistique, la psychologie et l’anthropologie et de développer de
+        nouvelles méthodologies interdisciplinaires.</p>
+        <p xml:id="d1e497">
+          <persName ref="179354566" type="idref" xml:base="https://www.idref.fr/">Eliyahu Cherikover</persName> prit la
+        direction de la section historique du YIVO, et <persName ref="029474124" type="idref" xml:base="https://www.idref.fr/">Simon
+        Dubnow</persName> fut membre de son comité. Une des premières lettres
+        que <persName ref="179354566" type="idref" xml:base="https://www.idref.fr/">Cherikover</persName> reçut en <date type="_temp" when="1925">1925</date> venait d’un jeune étudiant de
+        <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName>, passionné
+        d’histoire, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Emanuel Ringelblum</persName>. Il
+        n’avait pas encore vingt-cinq ans, mais demandait à devenir membre du
+        YIVO et s’engageait à aider la jeune organisation par tous les moyens
+        possibles. Il en devint, plus tard, l’un des savants les plus
+        importants.</p>
+        <p xml:id="d1e506">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-tepqyxjb">engagement</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-mwscptqe">guerre</term>
+            </term>
+          </term>L’Oneg
+        Shabbes s’enracinait ainsi dans les nombreux processus culturels qui
+        parallèlement transformèrent la communauté juive dans la <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName> de
+        l’entre-deux-guerres. <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Emanuel Ringelblum</persName> fut
+        profondément impliqué dans trois sphères majeures de la vie juive
+        polonaise : la recherche historique, les activités d’entraide et un
+        engagement politique radical. À partir de <date type="_temp" when="1930">1930</date>, il fut <hi rend="italic">de facto </hi>le
+        dirigeant de la section historique du YIVO en <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName>. Il travailla
+        pour le Joint Distribution Committee comme éditeur de son journal
+        mensuel, <foreign xml:lang="yid">
+            <hi rend="italic">Folkshilf</hi>
+          </foreign>, et comme organisateur de l’effort héroïque d’assistance
+        aux Juifs polonais chassés d’<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> en <date type="_temp" when="1938">1938</date>. Pendant toute sa vie d’adulte,
+        il fut aussi un membre passionné du parti radical de gauche <foreign xml:lang="yid">Poalei Tsiyon</foreign> (Travaillistes de gauche
+        sionistes) et il aida à diriger sa grande branche culturelle et
+        éducative, l’<hi rend="italic">
+            <foreign xml:lang="yid">Ovnt kursn far arbeter</foreign>
+          </hi>(Cours du soir pour les travailleurs). Il est essentiel d’avoir
+        à l’esprit cette interaction de l’histoire, de la politique et de
+        l’auto-assistance pour comprendre l’évolution de <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> et la genèse de
+        l’Oneg Shabbes.</p>
+        <p xml:id="d1e534">Comme la plupart des historiens juifs importants
+        dans la <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName> de
+        l’entre-deux-guerres, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> était
+        originaire de <placeName ref="562153" type="geonames" xml:base="https://www.geonames.org/">Galicie</placeName>, puisqu’il
+        naquit à <placeName ref="711348" type="geonames" xml:base="https://www.geonames.org/">Buczacz</placeName> en <date type="_temp" when="1900">1900</date> ; il est apparenté du côté de sa
+        mère à <persName ref="026678853" type="idref" xml:base="https://www.idref.fr/">Shmuel Agnon</persName>, le prix
+        Nobel de littérature. La semaine de son dix-septième anniversaire,
+        début <date type="_temp" when="1917-11">novembre 1917</date>, on
+        apprit deux événements d’une importance capitale dans l’histoire juive
+        moderne : la promesse par la <placeName ref="2635167" type="geonames" xml:base="https://www.geonames.org/">Grande-Bretagne</placeName> d’un
+        foyer national juif en <placeName ref="6254930" type="geonames" xml:base="https://www.geonames.org/">Palestine</placeName> et la
+        Révolution bolchevique. Si bien des Juifs considéraient le sionisme et
+        le communisme comme des idéologies concurrentes, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> s’engagea toute
+        sa vie dans un mouvement qui essayait de les combiner. Quand en <date type="_temp" when="1920">1920</date> le <foreign xml:lang="yid">Poalei
+        Tsiyon</foreign> se divisa en deux branches, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>
+        resta avec la faction de gauche (le <foreign xml:lang="yid">Poalei
+        Tsiyon</foreign> de gauche), qui affirmait que la route pour
+        <placeName ref="293198" type="geonames" xml:base="https://www.geonames.org/">Jérusalem</placeName> passait par
+        <placeName ref="524901" type="geonames" xml:base="https://www.geonames.org/">Moscou</placeName>. C’était la
+        révolution mondiale menée par les Soviétiques, et non pas les
+        promesses des Anglais, qui ouvrirait la voie vers la libération juive,
+        dans une <placeName ref="6254930" type="geonames" xml:base="https://www.geonames.org/">Palestine</placeName> socialiste
+        et binationale<note n="12" place="foot" type="standard" xml:id="ftn12">
+            <p>L’étude définitive sur le Poalei Tsiyon de gauche en Pologne
+            est celle de <hi rend="small-caps">Garncarska</hi>-<hi rend="small-caps">Kadri</hi>, 1995.</p>
+          </note>.</p>
+        <p xml:id="d1e587">Le <foreign xml:lang="yid">Poalei Tsiyon</foreign>
+        de gauche allait influencer <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> à bien des
+        égards. Il fit naître en lui un engagement fervent pour l’étude de
+        l’histoire juive et l’amour du yiddish ; en outre son dévouement
+        envers les masses juives et sa profonde conscience morale modelèrent
+        son évolution comme historien et leader de sa communauté. Le fondateur
+        du parti, <persName ref="123908183" type="idref" xml:base="https://www.idref.fr/">Ber Borochov</persName> (<date from="1881" to="1917" type="_temp">1881-1917</date>), laissa aussi un
+        autre héritage à ses disciples : la conviction que la recherche
+        yiddish – un objectif intéressant en lui-même – devait être une
+        entreprise collective. <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> garda toujours
+        cette conviction profondément ancrée en lui. Au début des <date from="1930" to="1939" type="_temp">années 1930</date>, quand l’extrême
+        gauche du parti appela à boycotter le YIVO, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> se
+        précipita pour prendre sa défense<note n="13" place="foot" type="standard" xml:id="ftn13">
+            <p>
+              <hi rend="small-caps">Ringelblum</hi>, 1931.</p>
+          </note>. Son radicalisme était réel, de même que son empressement à
+        rejoindre ses adversaires idéologiques dans un effort commun pour
+        faire avancer la culture yiddish et l’histoire juive. C’est ainsi
+        également que l’archive de l’Oneg Shabbes réunit rabbins et
+        communistes, sionistes et antisionistes dans une cause commune.</p>
+        <p xml:id="d1e606">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-xmjgnjyk">université</term>
+            </term>
+          </term>En <date type="_temp" when="1919">1919</date>, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>
+        arriva à l’université de <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName> où, après
+        quelque hésitation, il décida de devenir historien. Là, il rencontra
+        le professeur <persName ref="030091934" type="idref" xml:base="https://www.idref.fr/">Marceli Handelsman</persName>, son
+        directeur de thèse officiel, et le <persName type="_temp">Dr Isaac
+        Schiper</persName>, qui accompagna son parcours d’historien polonais
+        juif. <persName type="_temp">Schiper</persName> et <persName ref="030091934" type="idref" xml:base="https://www.idref.fr/">Handelsman</persName> n’étaient pas
+        seulement de grands savants : ils étaient aussi des intellectuels
+        publics et, comme tels, furent des modèles pour le jeune <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> – bien que
+        <persName ref="030091934" type="idref" xml:base="https://www.idref.fr/">Handelsman</persName>, d’origine
+        juive, se soit converti au catholicisme et que <persName type="_temp">Schiper</persName> ait déjà quitté le <foreign xml:lang="yid">Poalei Tsiyon</foreign>. <persName ref="030091934" type="idref" xml:base="https://www.idref.fr/">Handelsman</persName>,
+        qui devint plus tard un dirigeant du petit Parti Démocratique
+        polonais, aida <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> à publier son
+        premier livre et le mit en relation avec le monde plus vaste des
+        historiens polonais. Il lui permit aussi d’organiser une section juive
+        au Congrès historique international de <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName> en <date type="_temp" when="1933">1933</date>
+          <note n="14" place="foot" type="standard" xml:id="ftn14">
+            <p>On trouve un bon et bref aperçu de la vie et de l’œuvre de
+            Handelsman dans <hi rend="small-caps">Kieniewicz</hi>, 1986. Voir
+            aussi <hi rend="small-caps">Ringelblum</hi>, 1985, vol. 2,
+            p. 173-175.</p>
+          </note>.</p>
+        <p xml:id="d1e633">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-fucv3vaf">retrait</term>
+            </term>
+          </term>
+          <persName type="_temp">Schiper</persName> aida <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> à
+        définir son programme d’historien juif : considérer l’histoire juive
+        non pas comme dans un splendide isolement, mais dans le contexte d’une
+        interaction constante avec le monde non juif ; comprendre l’importance
+        de l’histoire économique et de la lutte des classes ; explorer les
+        racines anciennes de la culture populaire yiddish. La relation de
+        <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> avec <persName type="_temp">Schiper</persName> devait par la suite connaître des
+        hauts et des bas, mais l’impact intellectuel fut décisif<note n="15" place="foot" type="standard" xml:id="ftn15">
+            <p>Dans une conversation privée, Shlomo Shvaitser, un camarade de
+            parti et un ami de Ringelblum, m’a dit que ce dernier considérait
+            Schiper comme son <hi rend="italic">« rebbe » </hi>(celui qui
+            conduit la cérémonie à la synagogue) (Holon, juillet 1998). Dans
+            une lettre de 1929 à Eliyhu Cherikover, l’éditeur du journal
+            historique du YIVO, Ringelblum demanda la permission de dédier à
+            Schiper son article à paraître dans ce journal. Archives du YIVO,
+            Collection Cherikover, n<hi rend="sup">o</hi> 135660, lettre de
+            Cherikover à Ringelblum, 13 décembre 1927. Cherikover répondit à
+            Ringelblum qu’il ne pensait pas approprié de dédier un article à
+            Schiper dans un journal savant, mais qu’il le ferait si Ringelblum
+            insistait.</p>
+          </note>.</p>
+        <p xml:id="d1e651">
+          <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> arriva à
+        <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName> à un moment
+        où l’histoire polonaise et juive polonaise suscitait un intérêt
+        croissant. Maintenant que les Juifs se trouvaient à nouveau sous la
+        souveraineté polonaise, leur histoire prenait une importance et une
+        urgence nouvelles, elle pourrait contribuer à redéfinir les relations
+        entre ces deux peuples. Les antisémites polonais utilisaient des
+        arguments historiques pour étiqueter les Juifs comme parasites
+        étrangers et intrus, et exiger qu’ils quittent le pays<note n="16" place="foot" type="standard" xml:id="ftn16">
+            <p>Sur l’utilisation de l’histoire par les nationalistes les plus
+            influents auprès de l’opinion publique polonaise, voir <hi rend="small-caps">Eisenbach</hi>, 1989, p. 456.</p>
+          </note>. De leur côté, comme <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> le souligna
+        dans un article de <date type="_temp" when="1926">1926</date>, les
+        historiens juifs devaient défendre leur peuple et montrer qu’ils
+        vivaient en <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName> de plein
+        droit et non par tolérance<note n="17" place="foot" type="standard" xml:id="ftn17">
+            <p>
+              <hi rend="small-caps">Ringelblum</hi>, 1926.</p>
+          </note>. Ils devaient rappeler la participation des Juifs aux
+        guerres d’indépendance de la <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName> et montrer
+        comment le dur travail et la sueur des Juifs avaient construit le
+        pays. Les historiens juifs devaient utiliser l’histoire des artisans
+        et des travailleurs juifs pour réfuter les accusations des Polonais
+        selon lesquelles les Juifs seraient des profiteurs de naissance et des
+        spéculateurs qui n’avaient jamais travaillé aux champs ou avec leurs
+        mains.</p>
+        <p xml:id="d1e681">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vxe8nrmd">vulgarisation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d'interaction<term ref="doi:10.34817/sv-w6qcshen">controverse</term>
+            </term>
+          </term>Les
+        historiens juifs se lancèrent aussi dans les vives batailles
+        intestines qui marquèrent la vie politique de la communauté juive de
+        <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName> entre les
+        deux guerres : religion contre laïcité, yiddish contre hébreu,
+        sionisme contre nationalisme de la diaspora, travailleurs contre
+        classe moyenne. D’obscures controverses historiques devinrent des
+        pommes de discorde. Les organismes communautaires juifs des <date from="1500" to="1699" type="_temp">
+            <hi rend="small-caps">xvi</hi>
+            <hi rend="sup">e</hi> et <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi> siècles</date> étaient-ils les gardiens de l’unité
+        juive ou les instruments d’une exploitation de classe ? Pouvait-on
+        mettre au crédit de la religion la survie des Juifs au fil des siècles
+        ou devait-on regarder du côté des facteurs économiques ? La
+        littérature et le théâtre yiddish étaient-ils les créations récentes
+        d’un radicalisme politique moderne ou étaient-ils profondément
+        enracinés dans une culture populaire séculaire ? L’histoire devint
+        elle aussi un thème majeur de la culture juive populaire de
+        l’entre-deux-guerres. Bien des romans historiques yiddish devinrent
+        des best-sellers. Les articles de vulgarisation des historiens juifs
+        alimentèrent des rubriques régulières de la presse quotidienne en
+        yiddish ou en polonais.</p>
+        <p xml:id="d1e702">
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-8rsdreyt">journal</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-ltqipeyj">cercle</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté</term>
+          </term>Cet ensemble de
+        facteurs explique que de jeunes historiens juifs comme <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> aient eu le
+        sentiment d’être autant des combattants que des savants. Juifs, ils
+        n’avaient aucun espoir de mener une carrière académique
+        conventionnelle dans la <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName> de
+        l’entre-deux-guerres. (Pendant bien des années, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> subviendrait à
+        ses besoins en enseignant dans un lycée de filles, devant se contenter
+        de quelques heures, réservées en fin d’après-midi, pour ses recherches
+        historiques.) Néanmoins, ils considéraient le travail savant comme une
+        mission nationale et ils se réunirent pour former une communauté
+        d’historiens. En <date type="_temp" when="1923">1923</date>, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> et <persName ref="028927109" type="idref" xml:base="https://www.idref.fr/">Mahler</persName> organisèrent le
+        Cercle des Jeunes Historiens <hi rend="italic">(<foreign xml:lang="yid">Yunger Historiker Krayz</foreign>)</hi> à l’université
+        de <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName>. Le Cercle
+        tenait un séminaire mensuel, qui attira plus de quarante participants
+        réguliers et se poursuivit jusqu’en <date type="_temp" when="1939">1939</date> (parmi les quelques vétérans qui ont survécu à
+        la guerre se trouvaient <persName ref="030782317" type="idref" xml:base="https://www.idref.fr/">Joseph Kermish</persName>, <persName ref="119727129" type="idref" xml:base="https://www.idref.fr/">Isaiah
+        Trunk</persName> et <persName ref="028470400" type="idref" xml:base="https://www.idref.fr/">Artur Eisenbach</persName> – tous des
+        historiens juifs importants). Le Cercle devint l’épine dorsale de la
+        section historique du YIVO en <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName>. Il devait
+        publier deux journaux, <foreign xml:lang="yid">
+            <hi rend="italic">Yunger Historiker</hi>
+          </foreign>, qui paraîtrait en <date type="_temp" when="1926">1926</date> et en <date type="_temp" when="1929">1929</date>, et <hi rend="italic">
+            <foreign xml:lang="yid">Bleter far geshikhte</foreign>
+          </hi>, qui paraîtrait en <date type="_temp" when="1934">1934</date>
+        et <date type="_temp" when="1938">1938</date>
+          <note n="18" place="foot" type="standard" xml:id="ftn18">
+            <p>
+              <hi rend="small-caps">Mahler</hi>, 1967. En 1933, ce groupe
+            devait changer de nom pour celui de « Cercle des historiens de la
+            Société YIVO de Varsovie ».</p>
+          </note>.</p>
+        <p xml:id="d1e758">
+          <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> avait peu de
+        temps à consacrer à ses recherches historiques – il cumulait plusieurs
+        emplois à temps partiel pour faire vivre sa famille. Néanmoins, dans
+        les <date from="1920" to="1939" type="_temp">années 1920
+        et 1930</date>, sa production d’historien fut tout à fait honorable.
+        Il publia le premier ouvrage universitaire dédié aux débuts de la
+        communauté juive à <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName> ; des
+        articles qui ont fait date sur les relations entre Polonais et Juifs
+        au <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi> siècle</date> ; une
+        importante monographie sur le rôle des Juifs dans le soulèvement de
+        <placeName ref="3095120" type="geonames" xml:base="https://www.geonames.org/">Kosciuszko</placeName> ; une
+        magnifique enquête sur le commerce du livre juif ; plusieurs articles
+        sur l’histoire de la médecine juive en <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName> ; une
+        excellente étude des discussions sur la restructuration économique des
+        Juifs polonais au <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi> siècle</date>. Et il
+        parvint à construire cette œuvre pratiquement sans aucun soutien
+        financier et avec le maigre temps dont il disposait. Après tout, il
+        n’avait pas encore trente-neuf ans quand la guerre éclata.</p>
+        <p xml:id="d1e796">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-59ebuhdw">enquête</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-j2qwt5pl">catégorie sociale<term ref="doi:10.34817/sv-opllp3tw">élite</term>
+            </term>
+          </term>Les
+        recherches historiques de <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> avant la guerre
+        se caractérisent par deux thèmes fondamentaux. Le premier était
+        l’histoire des masses juives. Comme <persName ref="119132494" type="idref" xml:base="https://www.idref.fr/">Jacob Shatzky</persName>
+        l’a fait remarquer, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> a contribué à
+        « démocratiser » le contenu de l’historiographie juive polonaise<note n="19" place="foot" type="standard" xml:id="ftn19">
+            <p>
+              <hi rend="small-caps">Shatzky</hi>, 1953, xxxvi.</p>
+          </note>. Il se sentait une responsabilité particulière à l’égard des
+        Juifs oubliés du passé : les femmes, les apprentis, les mendiants. Les
+        historiens juifs, croyait-il, avaient accordé trop d’attention aux
+        élites – les rabbins, les savants, les riches hommes d’affaire – et
+        oublié le peuple. Parallèlement à cet intérêt pour l’« histoire vue
+        d’en bas », <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> montra un sens
+        aigu de l’importance de la culture matérielle et de l’histoire de la
+        vie quotidienne. Avec <persName ref="028927109" type="idref" xml:base="https://www.idref.fr/">Raphael Mahler</persName>, il élabora
+        un programme de cours d’histoire adapté aux travailleurs dont le
+        projet avait été lancé à la fin des <date from="1920" to="1929" type="_temp">années 1920</date> : cet enseignement comprenait par
+        exemple une étude approfondie de la géographie, de la culture
+        matérielle, des effets du climat sur les sociétés humaines, de
+        l’évolution de l’alimentation, de l’impact du logement, une enquête
+        sur le vêtement et bien d’autres objets. Ce programme stipulait que
+        l’histoire juive serait enseignée avec l’histoire non juive, et non
+        pas comme un sujet à part<note n="20" place="foot" type="standard" xml:id="ftn20">
+            <p>
+              <hi rend="italic">Di fraye yugnt</hi>, 1925, n<hi rend="sup">o</hi> 2.</p>
+          </note>.</p>
+        <figure xml:id="d1e823">
+          <graphic url="../icono/br/LDSII_52_Kassow_OnegShabbes_img3.png"/>
+          <head xml:id="d1e827">Emanuel Ringelblum dans sa jeunesse.</head>
+        </figure>
+        <p xml:id="d1e831">Le second thème fondamental dans la recherche de
+        <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> – sur lequel il
+        travailla aussi pendant la guerre – était l’histoire des relations
+        entre Polonais et Juifs. Il essaya de s’opposer à deux perceptions
+        radicalement différentes de ces relations. La première voyait la
+        <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName> comme une
+        terre d’accueil généreuse où les Juifs purent trouver refuge. Pour la
+        seconde, la <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName> était un pays
+        marqué par un antisémitisme éternel et atavique, et les relations
+        entre Polonais et Juifs s’enracinaient dans une histoire d’antagonisme
+        insurmontable et d’éloignement mutuel. <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>
+        pensait que la vérité était plus compliquée. Les relations entre
+        Polonais et Juifs reflétaient une interaction constante de rivalité et
+        de coopération, d’éloignement religieux et de liens personnels
+        étroits, de tension économique et de collaboration mutuelle. Les
+        historiens, selon lui, pouvaient aider les deux peuples à se
+        comprendre et à abattre les barrières du préjugé et de l’ignorance.
+        Les Polonais en viendraient à considérer les Juifs comme un peuple
+        réel, non comme un « autre » abstrait, tandis que les Juifs pourraient
+        se rendre compte que leurs voisins polonais n’étaient pas leurs
+        ennemis naturels. Les deux peuples avaient vécu côte à côte pendant
+        des siècles ; et, selon la formule qu’emploie <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> dans son
+        premier livre sur les débuts de l’histoire de la communauté juive à
+        <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName>, aucune
+        « Muraille de <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> » ne les
+        séparait<note n="21" place="foot" type="standard" xml:id="ftn21">
+            <p>
+              <hi rend="small-caps">Ringelblum</hi>, 1932, p. 129.</p>
+          </note>. Au début de la <date>Seconde Guerre mondiale</date>,
+        pendant un bref interlude de coopération entre Juifs et Polonais,
+        <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> commença à
+        chroniquer l’histoire de l’occupation, dans l’espoir de rendre service
+        non seulement à la science à venir, mais aussi à la compréhension
+        future entre les deux peuples.</p>
+        <p xml:id="d1e855">La certitude qu’il existait un lien indissoluble
+        entre Juifs et Polonais ne quitta jamais <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>.
+        <persName type="_temp">Hersh Wasser</persName>, un secrétaire de
+        l’Oneg Shabbes, rappelait ses propos :</p>
+        <quote rend="quotation" xml:id="d1e858">Je ne considère pas l’archive
+        comme un projet séparé, comme une affaire seulement de Juifs, pour les
+        Juifs et par les Juifs. Tout mon être se révolte contre ce concept. En
+        tant que Juif, en tant qu’historien et socialiste, je ne peux être
+        d’accord avec une telle approche. Dans la complexité globale des
+        processus sociaux, où tout est interdépendant, il est impossible de
+        nous isoler dans notre monde étroit. La souffrance comme la libération
+        des Juifs font partie d’une [histoire plus large]<note n="22" place="foot" type="standard" xml:id="ftn22">
+            <p>Hersh Wasser, « A Vort vegn Ringelblum Arkhiv », manuscrit
+            inédit, YIVO archives, New York, p. 15-16. Wasser a écrit ces mots
+            dans la Pologne staliniste et il est possible qu’il ait embelli
+            leur tonalité afin de cadrer avec la ligne dominante du parti.
+            Mais leur teneur générale, naturellement, s’accorde avec ce que
+            nous connaissons des conceptions de Ringelblum.</p>
+          </note>.</quote>
+        <p xml:id="d1e870">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-hcnypq2u">oralité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté</term>
+          </term>
+          <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> voulait que les
+        historiens juifs sortent de leur tour d’ivoire et travaillent avec le
+        peuple. L’histoire n’était pas seulement une activité savante. C’était
+        aussi la construction d’une communauté, un processus pour rapprocher,
+        au sein de la communauté juive, les savants et les gens ordinaires.
+        <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> voulait que les
+        historiens encouragent des amateurs à créer des sociétés historiques,
+        à écrire des histoires locales, à rassembler des chroniques anciennes,
+        à étudier les vieilles pierres tombales et à photographier
+        l’architecture des synagogues. L’histoire orale le fascinait, et il
+        rédigea de longs questionnaires détaillés pour guider les passionnés
+        d’histoire locale dans l’étude de leurs régions. Il prit aussi la tête
+        de la Société de l’étude du pays <hi rend="italic">(<foreign xml:lang="yid">Landkentenish</foreign>)</hi>, un groupe qui
+        encourageait le tourisme éducatif pour les Juifs polonais<note n="23" place="foot" type="standard" xml:id="ftn23">
+            <p>Voir <hi rend="small-caps">Kassow</hi>, 2008.</p>
+          </note>.</p>
+        <p xml:id="d1e886">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-najuwvdf">source</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-exqnjjmw">nationalisme</term>
+            </term>
+          </term>Bien
+        qu’il ait considéré l’histoire comme une mission nationale, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> veilla aussi à
+        ce qu’elle conservât sa probité de discipline savante et ne glissât
+        pas dans la propagande et le nationalisme simpliste. Juste avant le
+        déclenchement de la <date>Seconde Guerre mondiale</date>, dans un
+        compte rendu du livre de <persName ref="030742226" type="idref" xml:base="https://www.idref.fr/">Philip Friedman</persName>, <hi rend="italic">History of the Jews of Lodz from the Earliest Settlement
+        until 1863</hi>, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> avait exprimé
+        quelques inquiétudes sur les dilemmes auxquels devaient faire face les
+        historiens juifs en <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName>. Impliqués
+        qu’ils étaient dans la bataille acharnée pour protéger l’honneur des
+        Juifs et combattre pour leurs droits, comment pourraient-ils
+        progresser sur le chemin étroit qui devait être le leur entre
+        l’activité savante engagée et une apologétique pitoyable ? Comment
+        pourraient-ils écrire sur leur peuple sans succomber à la tentation de
+        répondre aux attaques antisémites par un nationalisme juif ampoulé ?
+        Selon l’expression même de <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>, l’historien
+        devait naviguer par une voie étroite, entre <persName ref="078600693" type="idref" xml:base="https://www.idref.fr/">Scylla</persName>,
+        l’apologétique, et <persName ref="103472118" type="idref" xml:base="https://www.idref.fr/">Charybde</persName>, la mégalomanie
+        nationaliste juive. Seule une histoire basée sur de hauts standards
+        professionnels et des sources solides pourrait en définitive résister
+        à l’épreuve du temps. Le meilleur moyen pour l’historien juif de
+        servir son peuple était d’écrire une histoire juste et exacte reposant
+        sur les faits, de révéler le négatif avec le positif, sans se soucier
+        des retombées éventuelles<note n="24" place="foot" type="standard" xml:id="ftn24">
+            <p>Ce texte ne fut jamais publié et fut retrouvé dans la seconde
+            cache de l’archive de Ringelblum, ARII/408.</p>
+          </note>.</p>
+        <p xml:id="d1e901">C’était une règle dont <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> se
+        souviendrait dans l’Oneg Shabbes. Juste après la guerre, le docteur
+        <persName type="_temp">Mark Dvorzhetsky</persName>, un survivant du
+        ghetto de <placeName ref="593118" type="geonames" xml:base="https://www.geonames.org/">Vilnius</placeName> et des camps
+        de concentration allemands, posa la question suivante dans un
+        article : « Devons-nous dire toute la vérité ? » Les Juifs
+        devaient-ils écrire sur la police juive qui livra leurs frères aux
+        Allemands ? Devaient-ils révéler les détails de la corruption et de la
+        perte du sens moral dans les ghettos<note n="25" place="foot" type="standard" xml:id="ftn25">
+            <p>
+              <hi rend="small-caps">Dvorzhetsky</hi>, 1945.</p>
+          </note> ? Pour <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> et le reste de
+        l’Oneg Shabbes, il n’y avait qu’une seule réponse : oui. L’archive
+        rassembla un ensemble considérable de matériaux négatifs. Mais dans ce
+        processus, elle soulignait aussi implicitement l’héroïsme tranquille
+        de ceux qui n’avaient pas perdu leurs repères moraux : les
+        organisateurs des comités d’immeubles dans le ghetto, les femmes
+        désintéressées qui nourrirent les enfants pauvres, les personnels de
+        soins et les enseignants qui travaillèrent dans des conditions
+        désespérées, les Juifs ordinaires qui s’efforcèrent de nourrir leurs
+        familles sans perdre leur dignité morale. On trouvait dans le projet
+        de <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> la conviction
+        implicite que l’objectivité savante était gage de légitimité.</p>
+        <p xml:id="d1e913">Au début de la guerre, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>
+        venait juste de rentrer à <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName>, de retour
+        de <placeName ref="2658434" type="geonames" xml:base="https://www.geonames.org/">Suisse</placeName>, où il avait
+        pris part au 21e Congrès sioniste en qualité de délégué du <foreign xml:lang="yid">Poalei Tsiyon</foreign> de gauche. En quelques jours,
+        les défenses polonaises s’effondrèrent, et nombre des principaux
+        dirigeants juifs fuirent la capitale polonaise. <persName ref="028470400" type="idref" xml:base="https://www.idref.fr/">Artur
+        Eisenbach</persName>, le beau-frère de Ringelblum, le supplia de
+        partir, mais il refusa. Durant le siège de <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName>, il
+        découvrit, comme beaucoup d’autres citoyens ordinaires, qu’il était
+        capable de courage physique. Il assurait ses tours de garde pour la
+        défense civile sous un feu nourri et il porta à l’hôpital une femme
+        blessée pendant une attaque aérienne. Tous les jours, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> faisait un long
+        trajet jusqu’à son bureau au quartier général du <foreign xml:lang="eng">Joint Distribution Committee</foreign> où il
+        participait à l’organisation des secours d’urgence et à l’aide aux
+        réfugiés<note n="26" place="foot" type="standard" xml:id="ftn26">
+            <p>Chaque jour durant le siège, Ringelblum, sans tenir compte des
+            attaques aériennes, fit de longs trajets à pied pour rejoindre son
+            poste au Joint Office. Voir <hi rend="small-caps">Auerbach</hi>,
+            1974, p. 63.</p>
+          </note>.</p>
+        <p xml:id="d1e934">La guerre lui permit de nouer deux fils majeurs de
+        son activité antérieure, l’histoire et l’assistance sociale. Il devint
+        un dirigeant de premier plan de la plus grande organisation juive
+        d’entraide à <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName>, l’<foreign xml:lang="yid">Aleynhilf</foreign>, et il aida à coordonner l’aide aux
+        réfugiés et les soupes populaires. Il contribua aussi à organiser un
+        réseau très étendu de comités d’immeubles et il essaya d’en faire la
+        base sociale de l’<foreign xml:lang="yid">Aleynhilf</foreign>. Il ne
+        fut pas le seul à utiliser délibérément l’<foreign xml:lang="yid">Aleynhilf</foreign> pour créer des postes réservés à
+        l’intelligentsia juive – les enseignants, les écrivains, les savants
+        et d’autres qui auraient pu, autrement, être condamnés à mourir de
+        faim dans le ghetto. C’était cet encadrement, recruté par <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> pour l’<foreign xml:lang="yid">Aleynhilf</foreign>, qui devait former l’épine dorsale
+        de l’<foreign xml:lang="yid">Oneg Shabbes</foreign>.</p>
+        <p xml:id="d1e940">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-bfyyj72n">signe<term ref="doi:10.34817/sv-j9adgg3r">trace</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-92wdfrr5">copiste</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-vjgrqphy">comité</term>
+            </term>
+          </term>L’<foreign xml:lang="yid">Oneg Shabbes</foreign> instaura une division efficace
+        du travail. Au centre se trouvait un comité exécutif qui se réunissait
+        chaque samedi pour lever des fonds et planifier la stratégie et le
+        programme des activités. Il y avait aussi les rédacteurs, ceux qui
+        procédaient aux interviews et des contributeurs occasionnels, ainsi
+        qu’un groupe de copistes et de transcripteurs. L’archive s’efforçait
+        de faire de multiples copies de tous ses documents, afin de s’assurer
+        qu’une partie au moins survivrait. Il y avait aussi un « groupe
+        technique », dirigé par le professeur et écrivain <persName type="_temp">Israel Lichtenstein</persName>, qui avait la garde
+        matérielle des documents et attendait les ordres pour les
+        enterrer<note n="27" place="foot" type="standard" xml:id="ftn27">
+            <p>Hersh Wasser, « A Vort vegn Ringelblum Arkhiv », manuscrit
+            inédit, YIVO archives, New York.</p>
+          </note>.</p>
+        <p xml:id="d1e949">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-shrnbh5e">secret</term>
+            </term>
+          </term>Les
+        collaborateurs de l’archive étaient exposés à un danger constant.
+        Mener des entretiens avec les réfugiés dans les centres d’accueil
+        crasseux et surpeuplés les exposait au risque du typhus. Il y avait
+        aussi la menace permanente des agents de la Gestapo, et l’archive se
+        donna un mal extraordinaire pour maintenir le secret. Pour cette
+        raison, la plupart des entretiens étaient présentés comme une collecte
+        de données pour l’assistance sociale, et l’archive rassembla beaucoup
+        d’information sous couvert de concours d’écriture et d’enquêtes pour
+        l’<foreign xml:lang="yid">Aleynhilf</foreign>. L’un des plus grands
+        succès de <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> fut que les
+        Allemands n’eurent jamais vent de cette archive clandestine.</p>
+        <p xml:id="d1e953">L’équipe était suffisamment soudée pour assurer le
+        secret et suffisamment diverse pour avoir accès à un éventail
+        d’informations très large. Bien que l’archive se soit donné pour règle
+        d’éviter des contacts étroits avec le <foreign xml:lang="deu">Judenrat</foreign>, pour des raisons de sécurité, l’un
+        de ses membres les plus importants, <persName type="_temp">Shmuel
+        Winter</persName>, un ancien dirigeant du YIVO, y joua un rôle majeur
+        ainsi que dans l’Autorité du Ravitaillement. <persName type="_temp">Winter</persName> aida l’<foreign xml:lang="yid">Oneg
+        Shabbes</foreign> de multiples manières : argent, nourriture,
+        informations d’une importance décisive.</p>
+        <p xml:id="d1e956">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-yn4ctker">secrétaire</term>
+            </term>
+          </term>Les deux
+        secrétaires, <persName type="_temp">Hersh Wasser</persName> et
+        <persName type="_temp">Eliyahu Gutkowski</persName>, jouèrent eux
+        aussi un rôle crucial. Avec <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>, ils gardaient
+        trace des activités quotidiennes de l’archive, contrôlaient les
+        projets en cours et s’assuraient que les rédacteurs menassent à bien
+        les tâches qui leur étaient attribuées. <persName type="_temp">Wasser</persName> comme <persName type="_temp">Gutkowski</persName> avait des contacts étroits avec les
+        mouvements de jeunesse et les organisations de résistance dans le
+        ghetto.</p>
+        <p xml:id="d1e959">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-rkp2ctq5">pratique manuelle<term ref="doi:10.34817/sv-2gfcysnm">savoir-faire</term>
+            </term>
+          </term>D’autres
+        membres de l’archive apportèrent un large spectre de savoir-faire et
+        de contacts. <persName type="_temp">Rabbi Shimon Huberband</persName>
+        fut un lien essentiel avec la communauté juive orthodoxe. <persName type="_temp">Nehemia Tytelman</persName> se spécialisa dans la
+        collection des chansons de rue et du folklore du ghetto, tandis que
+        <persName type="_temp">Yehuda Feld</persName>, membre du parti
+        communiste clandestin, fournissait des informations sur les enfants et
+        les réfugiés ainsi que des histoires bien tournées sur la vie du
+        ghetto. <persName type="_temp">Peretz Opoczynski</persName> laissa une
+        série de brillants reportages, <persName ref="179028898" type="idref" xml:base="https://www.idref.fr/">Rachel Auerbach</persName> un journal
+        et un essai important sur la soupe populaire dont elle s’occupa au 40
+        de la rue Leszno. Et il y en eut bien d’autres…</p>
+        <p xml:id="d1e965">Le programme de <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>
+        était étendu et ambitieux. Avec le temps, il ajouta à ses premiers
+        objectifs la collecte des artefacts et des documents, l’étude de la
+        société juive, le rassemblement des témoignages individuels, la
+        documentation sur les crimes nazis, les messages d’alerte au monde
+        extérieur sur le meurtre de masse qui était en train d’être perpétré.
+        Ces différents objectifs n’étaient pas exclusifs les uns des autres,
+        et l’archive les poursuivait parallèlement. Si la plupart des
+        documents venaient de <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName>, l’<foreign xml:lang="yid">Oneg Shabbes</foreign> essaya d’élargir le plus
+        possible son champ géographique.</p>
+        <p xml:id="d1e971">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jcqq7vil">collection
+        éditoriale</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-omg7jwnu">documentation</term>
+            </term>
+          </term>Durant
+        la première année de ses activités, parallèlement à la collecte
+        documentaire, l’<foreign xml:lang="yid">Oneg Shabbes</foreign> discuta
+        des priorités et des directives à donner à ses collaborateurs. Au
+        début, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> voulait que
+        l’<foreign xml:lang="yid">Oneg Shabbes</foreign> accumulât le plus de
+        matériaux possible, sans référence à un programme particulier ou à des
+        hypothèses préconçues. La guerre changeait la société juive si
+        rapidement, et les événements étaient si imprévisibles, selon lui,
+        qu’il serait stupide d’orienter <hi rend="italic">a priori </hi>la
+        collection de documents pour l’adapter à une conception personnelle de
+        ce qui était important ou non, ou encore d’essayer d’anticiper sur ce
+        qui serait pertinent. Il sentait aussi qu’écrire des monographies ou
+        conduire des études particulières serait un gaspillage de temps et
+        aurait peu de résultats durables ; un tel travail deviendrait vite
+        suranné après la guerre. Comme <persName type="_temp">Hersh
+        Wasser</persName> se le rappellait, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>
+        disait qu’il était plus important pour l’archive de créer une
+        documentation et une base de données pour les historiens à venir<note n="28" place="foot" type="standard" xml:id="ftn28">
+            <p>
+              <hi rend="italic">Ibid</hi>.</p>
+          </note>.</p>
+        <p xml:id="d1e986">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-xzvgbxyl">gestion<term ref="doi:10.34817/sv-87s3tzxx">projet</term>
+              </term>
+            </term>
+          </term>Au
+        milieu de l’année <date type="_temp" when="1941">1941</date>,
+        cependant, tant de documents avaient été accumulés dans l’archive que
+        l’équipe de l’<foreign xml:lang="yid">Oneg Shabbes</foreign> commença
+        à remettre en cause sa réticence à étudier et à établir des priorités.
+        Le comité exécutif, qui comprenait plusieurs militants du YIVO, décida
+        de lancer un nouveau projet, à savoir une étude massive de
+        l’expérience de la guerre. Ils empruntèrent la méthodologie du YIVO,
+        avec les limites imposées par la nécessité du secret : questionnaires
+        détaillés, entretiens et concours d’essais. <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>
+        appela ce projet « Deux ans et demi » :</p>
+        <quote rend="quotation" xml:id="d1e993">Le Projet était divisé en
+        trois (en fait quatre) parties : une section générale, une section
+        économique, une section sur la culture, les sciences, la littérature
+        et les arts, et une section consacrée à l’assistance mutuelle. Il
+        avait commencé au début <date type="_temp" when="1942">1942</date>,
+        dirigé par <persName type="_temp">Menakhem Linder</persName>,
+        <persName type="_temp">Lipe Bloch</persName> et moi-même. J’ai dirigé
+        la première et la troisième section, <persName type="_temp">Linder</persName> la section économique, et <persName type="_temp">Bloch</persName> celle sur l’assistance mutuelle. [Nous
+        avons impliqué de nouvelles personnes…] Le projet était destiné à
+        former un ensemble de plus de 1 600 pages imprimées et il aurait été
+        l’un des documents les plus importants de la guerre. Aux réunions du
+        personnel de l’<foreign xml:lang="yid">Oneg Shabbes</foreign>, qui
+        duraient habituellement plusieurs heures, nous travaillions [sur les
+        thèses et les instructions] pour diriger [l’étude de ces sujets]<note n="29" place="foot" type="standard" xml:id="ftn29">
+            <p>
+              <hi rend="small-caps">Ringelblum</hi>, 1985, vol. 2, p. 81.</p>
+          </note>.</quote>
+        <p xml:id="d1e1008">L’ampleur de ces « Deux ans et demi » était
+        considérable. Un plan partiel, écrit de la main d’<persName type="_temp">Eliyahu Gutkowski</persName>, traitant principalement du
+        ghetto de <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName> lui-même,
+        contenait 81 subdivisions consacrées uniquement à celui-ci ! Une liste
+        partielle des thèses et des orientations élaborées par l’équipe de
+        l’<foreign xml:lang="yid">Oneg Shabbes</foreign> comprenait des études
+        sur les femmes, la jeunesse, les enfants, la corruption, les Juifs
+        dans la zone d’occupation soviétique, la vie religieuse, la vie des
+        écrivains et des intellectuels, les relations entre Polonais et Juifs,
+        les relations entre Allemands et Juifs, la vie économique, l’histoire
+        sociale du ghetto, les rues du ghetto, les opinions sur le futur du
+        peuple juif, les comités de maisons, les soupes populaires, les
+        salaires, les prix, la police juive, etc.<note n="30" place="foot" type="standard" xml:id="ftn30">
+            <p>ARI/98.</p>
+          </note>. <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> voulait que ces
+        études reflétassent la diversité et le ferment culturel qui
+        caractérisaient la communauté juive de <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName> :</p>
+        <quote rend="quotation" xml:id="d1e1023">À côté des adultes, des
+        jeunes gens et même, dans des cas exceptionnels, des enfants
+        travaillèrent avec l’<foreign xml:lang="yid">Oneg Shabbes</foreign>.
+        L’<foreign xml:lang="yid">Oneg Shabbes</foreign> essaya de donner une
+        image complète <hi rend="italic">(<foreign xml:lang="yid">alzaytig</foreign>) </hi>de la vie juive durant la
+        guerre. Notre souci était d’être capables de fournir une image
+        photographique de ce que les masses populaires juives ont vécu, pensé
+        et souffert. Ainsi, en décrivant par exemple les expériences d’un <hi rend="italic">
+            <foreign xml:lang="yid">shtetl</foreign>
+          </hi>, un village, nous avons essayé de réunir le récit d’un adulte
+        et d’une jeune personne, d’un Juif religieux pour qui le rabbin, la
+        synagogue et le cimetière sont importants… et d’un Juif laïc qui
+        choisit de mettre l’accent sur d’autres thèmes qui ne le sont pas
+        moins<note n="31" place="foot" type="standard" xml:id="ftn31">
+            <p>
+              <hi rend="italic">Ibid</hi>., p. 84.</p>
+          </note>.</quote>
+        <p xml:id="d1e1041">Quand les déportations à <placeName ref="756807" type="geonames" xml:base="https://www.geonames.org/">Treblinka</placeName>
+        commencèrent, en <date type="_temp" when="1942-07">juillet 1942</date>, le projet avait atteint sa vitesse
+        de croisière, mais il restait largement incomplet. Dans la dernière
+        semaine du mois, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> ordonna à tous
+        les participants de remettre leurs questionnaires, leurs notes et les
+        données brutes. Les documents furent enterrés dans les boîtes de
+        fer-blanc en <date type="_temp" when="1942-08">août 1942</date> et
+        sont parmi les matériaux les plus précieux de l’archive.</p>
+        <p xml:id="d1e1053">À côté du projet « Deux ans et demi », l’archive
+        de l’<foreign xml:lang="yid">Oneg Shabbes</foreign> réunit une masse
+        considérable d’autres documents : la presse juive clandestine, les
+        documents du Judenrat, les proclamations allemandes, des dessins, des
+        papiers de bonbons, des tickets de tramway, des cartes de rationnement
+        et des affiches de théâtre. Elle classait les invitations aux concerts
+        et aux conférences, et prenait des copies des codes alambiqués des
+        sonnettes d’appartements où se trouvaient souvent des douzaines de
+        locataires. Il y avait des menus de restaurants qui annonçaient de
+        l’oie rôtie avec des vins fins et un récit laconique sur une mère
+        affamée qui avait mangé son enfant mort. Il y avait, soigneusement
+        rangées, des centaines de cartes postales envoyées par des Juifs dans
+        les provinces, des individus sur le point d’être déportés vers « une
+        destination inconnue ». L’<foreign xml:lang="yid">Oneg
+        Shabbes</foreign> préserva la poésie de <persName ref="05988598X" type="idref" xml:base="https://www.idref.fr/">Wladyslaw
+        Szlengel</persName>, <persName type="_temp">Yitzhak
+        Katzenelson</persName>, <persName type="_temp">Kalman Lis</persName>
+        et <persName type="_temp">Joseph Kirman</persName>. Il sauva le texte
+        complet d’une comédie populaire dans le ghetto : <hi rend="italic">Amour recherche un appartement </hi>et de longs essais
+        sur les théâtres et les cafés du ghetto. La première cache de
+        l’archive contenait aussi de nombreuses photos, dont soixante-seize
+        ont plus ou moins été sauvegardées<note n="32" place="foot" type="standard" xml:id="ftn32">
+            <p>Voir ARI/1222. Ces photos comprenaient des scènes de rues du
+            ghetto, des enfants affamés, la police juive, la construction des
+            murs, des contrebandiers jetant des sacs de farine de l’autre côté
+            des murs du ghetto, des personnes écoutant les haut-parleurs dans
+            les rues, etc.</p>
+          </note>.</p>
+        <p xml:id="d1e1065">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-qbjutbnr">jugement</term>
+            </term>
+          </term>Outre la
+        constitution d’une documentation détaillée, l’<foreign xml:lang="yid">Oneg Shabbes</foreign> avait une autre mission
+        importante : la justice de l’après-guerre. Cette quête pour rassembler
+        des preuves expliquait pourquoi l’archive collectait une masse si
+        considérable de documents sur les événements survenus dans le plus
+        grand nombre de localités possibles. À première vue, beaucoup de ces
+        matériaux étaient répétitifs. Mais ils fixaient ville par ville et
+        village par village ce que les Allemands avaient fait exactement,
+        quand ils l’avaient fait, qui donnait les ordres et qui les aidait. Si
+        l’<foreign xml:lang="yid">Oneg Shabbes</foreign> ne faisait pas ce
+        travail, qui le ferait ?</p>
+        <p xml:id="d1e1069">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+        savoirs</term>
+          </term>Si, avant la guerre, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>
+        avait vu dans l’histoire un instrument puissant pour façonner une
+        conscience nationale et influer sur les programmes politiques, il ne
+        put, après le début du conflit, qu’être renforcé dans cette
+        conviction. Avant que les plans des Allemands ne deviennent clairs, il
+        pouvait espérer avec l’<foreign xml:lang="yid">Oneg Shabbes</foreign>
+        qu’il y aurait une communauté juive en <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName> après la
+        guerre. L’archive ne pouvait-elle pas contribuer à façonner un « passé
+        utilisable » qui saurait influencer l’avenir ?</p>
+        <p xml:id="d1e1075">De la lecture attentive de son journal, on peut
+        inférer que, dans les toutes premières années de la guerre, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> voyait de
+        belles occasions à saisir pour l’historien engagé : renverser le
+        déclin marqué du yiddish dans la période de l’avant-guerre ;
+        discréditer la bourgeoisie juive et dénoncer ces élites qui avaient
+        échoué à se montrer à la hauteur de leur rôle dirigeant en temps de
+        guerre ; accumuler des documents sur la résistance et la force vitale
+        des masses juives ; démontrer que dans un moment d’épreuve, les Juifs
+        avaient une fois de plus prouvé leur loyauté à la <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName> ; utiliser
+        l’histoire et la sociologie pour offrir une base pleine à la culture
+        juive laïque et continuer un travail en cours – une nouvelle
+        iconographie de l’expérience urbaine juive – qui prendrait place à
+        côté de l’iconographie du <hi rend="italic">
+            <foreign xml:lang="yid">shtetl</foreign>
+          </hi>.</p>
+        <p xml:id="d1e1084">À peine l’<foreign xml:lang="yid">Oneg
+        Shabbes</foreign> avait-il commencé le projet « Deux ans et demi » que
+        des informations commencèrent à arriver sur les massacres nazis,
+        d’abord dans les territoires de l’Est, puis à <placeName ref="7531779" type="geonames" xml:base="https://www.geonames.org/">Chelmno</placeName>, et ensuite
+        dans les provinces autour de <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName>. Engagés
+        dans une course contre le temps pour achever le projet « Deux ans et
+        demi », <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> et son équipe
+        se mirent alors à travailler sur un nouveau défi : rassembler et
+        diffuser l’information sur les tueries nazies. Au début, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>, comme beaucoup
+        d’autres, ne pouvait pas croire que les nazis eussent l’intention de
+        tuer tous les Juifs, même après avoir entendu les récits des massacres
+        de <placeName ref="593118" type="geonames" xml:base="https://www.geonames.org/">Vilnius</placeName>, de
+        <placeName ref="621752" type="geonames" xml:base="https://www.geonames.org/">Slonim</placeName> et d’autres
+        villes de <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName> orientale.
+        Mais au début <date type="_temp" when="1942">1942</date>, « <persName ref="164531912" type="idref" xml:base="https://www.idref.fr/">Szlamek</persName> », un évadé du
+        camp de la mort de <placeName ref="7531779" type="geonames" xml:base="https://www.geonames.org/">Chelmno</placeName>, arriva au
+        ghetto de <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName>. <persName type="_temp">Hersh Wasser</persName> eut un entretien avec lui pour
+        l’<foreign xml:lang="yid">Oneg Shabbes</foreign>. L’archive eut vite à
+        traiter un déluge d’informations sur les meurtres de masse dans
+        d’autres régions de la <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName>. Le piège se
+        resserrait. Au <date from="1942-03-21" to="1942-06-20" type="_temp">printemps 1942</date>, l’<foreign xml:lang="yid">Oneg
+        Shabbes</foreign> commença à publier un bulletin d’information qui
+        alertait la communauté juive de <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName> de la montée
+        du danger. Avec le Bund, il utilisa aussi des canaux polonais
+        clandestins pour transmettre à la <placeName ref="2635167" type="geonames" xml:base="https://www.geonames.org/">Grande-Bretagne</placeName> des
+        informations sur la « solution finale ».</p>
+        <p xml:id="d1e1125">
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-bdsrge4z">instrument de communication<term ref="doi:10.34817/sv-opnnis2o">radio</term>
+              </term>
+            </term>
+          </term>Mais
+        en <date type="_temp" when="1942-06">juin 1942</date>, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> s’accrochait
+        encore à quelques lambeaux d’optimisme. La BBC venait juste de
+        diffuser les informations sur les massacres de Juifs par les Allemands
+        en <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName>, sur la base
+        des documents de l’<foreign xml:lang="yid">Oneg Shabbes</foreign>.
+        Quand <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> entendit le
+        compte rendu de la BBC, il ressentit une soudaine bouffée d’espoir.
+        Notre travail n’a pas été vain, écrivait-il. Dès lors que le peuple
+        allemand avait connaissance de ces meurtres de masse, il obligerait
+        <persName ref="185951457" type="idref" xml:base="https://www.idref.fr/">Hitler</persName> à arrêter les
+        massacres. Il était important pour <persName ref="185951457" type="idref" xml:base="https://www.idref.fr/">Hitler</persName> de
+        garder le secret sur le génocide, parce qu’il craignait les réactions
+        du peuple allemand quand il l’apprendrait. Comme beaucoup de
+        marxistes, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> croyait en ce
+        que l’on appellerait plus tard le « fascisme générique ». Ainsi les
+        massacres de masse étaient-ils en fin de compte causés par des élites
+        tourmentées par la crise plus que par le peuple qui serait antisémite.
+        De même qu’il aimait les masses juives, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>
+        gardait espoir en l’humanité foncière des masses allemandes. Comme le
+        rappelait <persName ref="179028898" type="idref" xml:base="https://www.idref.fr/">Rachel Auerbach</persName>, il ne
+        pouvait pas oublier que, peu de temps auparavant, des millions
+        d’Allemands avaient voté pour la gauche<note n="33" place="foot" type="standard" xml:id="ftn33">
+            <p>
+              <hi rend="small-caps">Auerbach</hi>, 1974, p. 191.</p>
+          </note>.</p>
+        <p xml:id="d1e1143">La Grande Déportation de l’<date from="1942-06-21" to="1942-09-20" type="_temp">été 1942</date> décima l’<foreign xml:lang="yid">Oneg Shabbes</foreign>. Les membres de l’archive,
+        voyant leurs camarades et leurs amis proches disparaître,
+        travaillaient sous une pression psychologique inhumaine. Certains,
+        comme <persName ref="029766737" type="idref" xml:base="https://www.idref.fr/">Abraham Lewin</persName>, <persName type="_temp">Yekhil Gorny</persName> et <persName type="_temp">Shmuel
+        Winter</persName>, avaient eu l’immense douleur de perdre femme et
+        enfants. Après la fin de la première phase de déportation, en <date type="_temp" when="1942-09">septembre 1942</date>, le ghetto fut
+        divisé en enclaves isolées les unes des autres : il était interdit de
+        passer de l’une à l’autre sans laisser-passer spéciaux. Cependant
+        l’<foreign xml:lang="yid">Oneg Shabbes</foreign> poursuivit son
+        travail.</p>
+        <p xml:id="d1e1152">Durant l’<date from="1942-09-21" to="1942-12-20" type="_temp">automne 1942</date>, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>
+        demanda à une écrivaine juive polonaise de gauche, <persName type="_temp">Gustawa Jarecka</persName>, d’écrire un rapport sur la
+        Grande Déportation. <persName type="_temp">Jarecka</persName> ne
+        réussit pas à aller au-delà de l’introduction qu’elle acheva toutefois
+        juste avant que les Allemands ne la déportent à son tour, avec ses
+        deux enfants, en <date type="_temp" when="1943-01">janvier 1943</date>. En <date type="_temp" when="1950-12">décembre 1950</date>, l’introduction de <persName type="_temp">Jarecka</persName> refit surface dans les deux pots à
+        lait découverts par les ouvriers polonais :</p>
+        <quote rend="quotation" xml:id="d1e1165">Ce récit doit être lancé
+        comme une pierre sous la roue de l’histoire pour l’arrêter. […] On
+        peut perdre tout espoir, sauf celui-ci : la souffrance et la
+        destruction causées par cette guerre feront sens quand on les
+        regardera à distance, dans une perspective historique. À partir de ces
+        souffrances, sans équivalent dans l’histoire, à partir de ces larmes
+        de sang, de cette sueur de sang, nous sommes en train d’écrire une
+        chronique de cette époque infernale, afin que l’on puisse comprendre
+        les raisons historiques de cette évolution de l’esprit humain et de la
+        création des systèmes de gouvernement qui ont rendu possibles les
+        événements de notre temps que nous avons traversés.</quote>
+        <p xml:id="d1e1168">Dans son introduction, <persName type="_temp">Jarecka</persName> exposa les différentes raisons qui la
+        poussaient à écrire face à la mort. La parole écrite permettait de
+        confronter la terreur du présent et la dignité du passé, et de
+        retrouver les thèmes et les symboles de la culture d’avant-guerre.
+        Face à l’horreur, le langage pouvait à la fois frustrer et consoler.
+        Écrire, c’était revendiquer une individualité précieuse, même à deux
+        doigts de la mort. Écrire, c’était résister, ne serait-ce que pour
+        traîner les tueurs devant la justice. Écrire, c’était achever la
+        défaite des tueurs en assurant que les historiens futurs utiliseraient
+        les cris des victimes pour changer le monde<note n="34" place="foot" type="standard" xml:id="ftn34">
+            <p>RA II/197 (« La dernière étape du déplacement est la mort »).
+            Texte repris dans <hi rend="small-caps">Kermish</hi>, 1986,
+            p. 704.</p>
+          </note>.</p>
+        <p xml:id="d1e1180">Comme <persName type="_temp">Jarecka</persName>,
+        <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> voulait aussi
+        jeter « une pierre sous la roue de l’histoire ». Il était absolument
+        convaincu que l’histoire des souffrances juives, aussi terribles
+        soient-elles, était universelle et pas seulement juive. Et le mal,
+        quelle que fût son ampleur, ne pouvait être placé en dehors de
+        l’histoire. L’archive pouvait encore devenir une arme dans le combat
+        pour un avenir meilleur. Même s’il savait à présent que la plupart des
+        Juifs de <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName> ne
+        survivraient pas, il continua cependant l’<foreign xml:lang="yid">Oneg
+        Shabbes</foreign> – avec un nouveau programme. L’<foreign xml:lang="yid">Oneg Shabbes</foreign> réunissait à présent tous les
+        documents officiels et les affiches qui attestaient le massacre de
+        masse ; les récits des témoins directs de <placeName ref="756807" type="geonames" xml:base="https://www.geonames.org/">Treblinka</placeName> ; des
+        études sur ce qui restait du ghetto et des boutiques ; des reportages
+        à envoyer à l’étranger. L’un de ses objectifs les plus importants
+        était d’expliquer aux historiens à venir le comportement des « masses
+        juives » durant la guerre, de façon à les<hi rend="bold"/>protéger
+        contre les éventuelles accusations futures de lâcheté et
+        d’incompétence.</p>
+        <p xml:id="d1e1191">
+          <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>, <persName type="_temp">Wasser</persName> et <persName type="_temp">Gutkowski</persName> commencèrent aussi à publier un
+        bulletin en polonais, <foreign xml:lang="pol">
+            <hi rend="italic">Wiadomo´sci</hi>
+          </foreign>, qui donnait un récit sobre et sans fioritures du
+        massacre en cours. Ce faisant, ils cherchaient à dissiper les
+        dernières illusions que les Juifs pouvaient encore avoir sur les
+        intentions des Allemands. <foreign xml:lang="pol">
+            <hi rend="italic">Wiadomo´sci</hi>
+          </foreign> disait aussi sans ménagement aux Polonais qu’ils
+        finiraient par subir le sort des Juifs. Par le biais de ce bulletin,
+        l’<foreign xml:lang="yid">Oneg Shabbes</foreign> diffusait un message
+        simple : la résistance était la seule issue offerte aux Juifs
+        survivants. Dans une de ses plus importantes contributions, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> raconta et
+        décrivit la transformation psychologique des survivants du ghetto, de
+        la passivité terrifiée à la détermination à se défendre avec
+        acharnement. La petite minorité qui avait des armes se prépara à les
+        utiliser ; le grand nombre qui n’en avait pas se mit à construire avec
+        fébrilité des abris et des caches.</p>
+        <p xml:id="d1e1200">La seconde cache de l’archive fut fermée et
+        enterrée en <date type="_temp" when="1943-02">février 1943</date>. À
+        ce moment-là, certains des survivants les plus importants de
+        l’<foreign xml:lang="yid">Oneg Shabbes</foreign>, y compris <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> et <persName type="_temp">Wasser</persName>, étaient déjà partis se cacher du côté
+        aryen. Mais l’un et l’autre faisaient de fréquentes visites au ghetto
+        pour apporter de l’argent et ils essayaient de trouver des cachettes
+        côté aryen pour leurs amis et les grandes figures culturelles. Ils
+        s’activaient également sur le plan politique. <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> faisait aussi
+        partie d’un comité pour lever des fonds et acheter des armes pour
+        l’Organisation combattante juive <hi rend="italic">(ZOB)</hi>
+          <note n="35" place="foot" type="standard" xml:id="ftn35">
+            <p>
+              <hi rend="small-caps">Ringelblum</hi>, 1985, vol. 2,
+            p. 137.</p>
+          </note>.</p>
+        <p xml:id="d1e1218">Quand l’insurrection du ghetto de <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName> éclata en
+        <date type="_temp" when="1943-04">avril 1943</date>, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> fut pris au
+        piège des combats : capturé par les Allemands, il fut envoyé au camp
+        de travail de <placeName ref="3083247" type="geonames" xml:base="https://www.geonames.org/">Trawniki</placeName>. Là, avec
+        d’autres, dans une organisation de résistance du camp, il réussit à
+        établir un contact avec le Comité national juif clandestin. En <date type="_temp" when="1943-08">août 1943</date>, son camarade de parti,
+        <persName type="_temp">Adolph Berman</persName>, envoya à <placeName ref="3083247" type="geonames" xml:base="https://www.geonames.org/">Trawniki</placeName> deux
+        messagers intrépides, <persName type="_temp">Tadeusz
+        Pajewski</persName> et <persName type="_temp">Emilka
+        Kossover</persName>, pour porter secours à <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>.
+        Ils réussirent à le ramener à <placeName ref="756135" type="geonames" xml:base="https://www.geonames.org/">Varsovie</placeName>, où il
+        retrouva son épouse <persName type="_temp">Yehudis</persName> et son
+        fils de quatorze ans, <persName type="_temp">Uri</persName>, dans un
+        abri souterrain bondé, au 81 de la rue Grojecka<note n="36" place="foot" type="standard" xml:id="ftn36">
+            <p>
+              <hi rend="small-caps">Berman</hi>, 1948.</p>
+          </note>.</p>
+        <p xml:id="d1e1253">Dans les derniers mois de sa vie, qui se déroula
+        dans des conditions terribles, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> se mit à
+        écrire. Dans une sorte d’apologie pour défendre sa propre vie, il
+        écrivit le mémorial de l’intelligentsia juive progressiste et en
+        particulier de ses dirigeants assassinés, ceux qui l’avaient le plus
+        influencé, qui l’avaient façonné en tant qu’historien et figure
+        publique : <persName type="_temp">Isaac Schiper</persName>, <persName type="_temp">Shakhne Zagan</persName>, et <persName type="_temp">Yitzhak Giterman</persName>. <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>
+        écrivait rarement sur lui-même ; mais, dans ces essais, c’est pour
+        ainsi dire son ultime testament qu’il laisse. Dans un texte sur
+        <persName type="_temp">Mordecai Anielewicz</persName>, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> rend un hommage
+        poignant au jeune commandant de l’Organisation combattante juive, tué
+        en <date type="_temp" when="1943-05">mai 1943</date>
+          <note n="37" place="foot" type="standard" xml:id="ftn37">
+            <p>
+              <hi rend="small-caps">Ringelblum</hi>, 1985, vol. 2,
+            p. 148-149.</p>
+          </note>.</p>
+        <p xml:id="d1e1268">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-gkskjmkr">témoignage</term>
+            </term>
+          </term>Il
+        couronna sa longue carrière de savant par ce qui est sa meilleure
+        œuvre historique, un essai passionné et puissant sur les relations
+        entre Polonais et Juifs durant la <date>Seconde Guerre
+        mondiale</date>
+          <note n="38" place="foot" type="standard" xml:id="ftn38">
+            <p>Ce texte fut publié par la suite par Joseph Kermish et Shmuel
+            Krakowski : voir <hi rend="small-caps">Ringelblum</hi>, 1974.</p>
+          </note>. Ce texte est une synthèse unique entre l’immédiateté d’un
+        témoignage contemporain et la profondeur de champ d’une analyse
+        historique rétrospective. Le livre reflète la tension entre les
+        impératifs de l’objectivité historique et le choc des crimes énormes
+        dont son auteur a été témoin, non pas comme spectateur, mais comme
+        victime directe. Il est facile à des historiens détachés des
+        événements de faire les distinctions nécessaires entre auteurs des
+        crimes et spectateurs, entre les antisémitismes polonais et allemand,
+        entre la complicité active et l’indifférence. Mais pour un membre du
+        peuple persécuté, une telle objectivité demandait un effort colossal
+        de discipline intellectuelle.</p>
+        <p xml:id="d1e1280">Jusqu’au dernier jour, comme le montre cet essai,
+        <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> resta un
+        historien engagé, convaincu que le savoir pouvait aussi servir
+        d’importants objectifs nationaux et politiques. Même face à la mort,
+        il espérait que les « relations entre Juifs et Polonais » pourraient
+        s’améliorer à l’avenir et par-là contribuer à bâtir une meilleure
+        <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName> après la
+        guerre.</p>
+        <p xml:id="d1e1286">Le <date type="_temp" when="1944-03-07">7 mars
+        1944</date>, un informateur polonais dénonça à la Gestapo la cache de
+        <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>. Les Allemands
+        emmenèrent tous les Juifs à la prison Pawiak. <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> et son fils
+        <persName type="_temp">Uri</persName> furent placés dans une cellule à
+        part avec les autres hommes. Le regretté <persName type="_temp">Yekhiel Hirschaut</persName> était prisonnier à Pawiak,
+        et il écrivit dans ses mémoires que, dès que les autres détenus juifs
+        apprirent que <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> était dans la
+        cellule de la mort, ils cherchèrent des moyens de le sauver. Ils
+        mirent au point un plan pour l’intégrer dans un groupe de travail dans
+        la prison. <persName type="_temp">Hirschaut</persName> alla voir
+        <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> : celui-ci lui
+        dit comment la Gestapo venait d’essayer de lui extorquer des
+        informations par la torture. Il était couvert de marques noires et
+        bleues, son fils <persName type="_temp">Uri</persName> était assis sur
+        ses genoux. <persName type="_temp">Hirschaut</persName> exposa les
+        grandes lignes de son plan : nous pouvons essayer de te sortir d’ici.
+        Et ma femme et mon fils ?, demanda <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>.
+        Il y eut un long silence. <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> comprit et
+        dit : « Je ne peux pas laisser ma famille. » Et il désigna son fils :
+        « Le petit, de quoi est-il coupable ? Mon cœur se brise quand je pense
+        à lui <hi rend="italic">(<foreign xml:lang="yid">Vos iz er shuldik,
+        der kleyner ? Tsulib em veytigt mir shtark dos
+        harts</foreign>)</hi>
+          <note n="39" place="foot" type="standard" xml:id="ftn39">
+            <p>
+              <hi rend="small-caps">Hirschaut</hi>, 1948, p. 199.</p>
+          </note>. » <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> posa une
+        dernière question : « Est-il difficile de mourir ? » <persName type="_temp">Hirschaut</persName> ne revit jamais <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName>. Les Allemands
+        fusillèrent tous les Juifs capturés dans l’abri ainsi que deux des
+        Polonais qui les avaient aidés.</p>
+        <p xml:id="d1e1310">Quand les chercheurs ouvrirent les premières
+        boîtes en fer-blanc de l’archive, retrouvées en <date type="_temp" when="1946">1946</date>, ils trouvèrent un testament écrit par
+        <persName type="_temp">Israel Lichtenstein</persName> : c’est lui qui
+        avait veillé à leur ensevelissement en <date type="_temp" when="1942">1942</date>. Il concluait son témoignage poignant par les
+        mots suivants : « Nous sommes le sacrifice pour le salut du peuple
+        juif. Je crois que la nation survivra… ou […]. Nous les Juifs d’Europe
+        de l’Est, nous sommes les rédempteurs du Peuple d<placeName ref="294640" type="geonames" xml:base="https://www.geonames.org/">’Israël</placeName>… ou […]. » À
+        la toute fin de sa vie, il réaffirmait sa foi dans l’avenir du peuple
+        juif.</p>
+        <p xml:id="d1e1325">Et quel meilleur moyen d’affirmer cette foi que de
+        laisser une archive enterrée ? Même s’ils n’ont pas survécu pour le
+        voir, <persName ref="027711579" type="idref" xml:base="https://www.idref.fr/">Ringelblum</persName> et ses amis
+        étaient bien décidés à ce que les historiens du futur travaillent avec
+        les sources juives et pas seulement nazies.</p>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e1332">
+        <head xml:id="d1e1334">Bibliographie</head>
+        <listBibl xml:id="d1e1337">
+          <bibl xml:id="d1e1339">
+            <hi rend="small-caps">Auerbach</hi>, 1974 :
+          Rachel <hi rend="small-caps">Auerbach</hi>, <hi rend="italic">Varshever Tsvoes</hi>, Tel Aviv.</bibl>
+          <bibl xml:id="d1e1351">
+            <hi rend="small-caps">Berman</hi>, 1948 :
+          Basia <hi rend="small-caps">Berman</hi>, « Rydzewski : Ringelblum
+          oyf der Arisher Zayt », in <hi rend="italic">Linke Poalei
+          Tsiyon</hi>, 19 avril.</bibl>
+          <bibl xml:id="d1e1363">
+            <hi rend="small-caps">Dubnow</hi>, 1891 :
+          Shimon Meyerovich <hi rend="small-caps">Dubnow</hi>, « Ob izuchenii
+          istorii russkikh evreev i ob uchrezhdenii istoricheskogo
+          obshchestva », <hi rend="italic">Voskhod</hi>, avril-septembre,
+          pp. 1-91.</bibl>
+          <bibl xml:id="d1e1375">
+            <hi rend="small-caps">Dubnow</hi>, 2004 :
+          Shimon Meyerovich <hi rend="small-caps">Dubnow</hi>, <hi rend="italic">Kniga Zhizni</hi>, Jérusalem et Moscou.</bibl>
+          <bibl xml:id="d1e1387">
+            <hi rend="small-caps">Dvorzhetsky</hi>,
+          1945 : Mark <hi rend="small-caps">Dvorzhetsky</hi>,
+          « Farshvaygn-oder dertseyln dem gantsn emes», <hi rend="italic">Yidisher kemfer</hi>, 20 juillet.</bibl>
+          <bibl xml:id="d1e1400">
+            <hi rend="small-caps">Eisenbach</hi>, 1989 :
+          Artur <hi rend="small-caps">Eisenbach</hi>, « Jewish historiography
+          in interwar Poland », in Yisroel Gutman, Ezra Mendelsohn, Jehuda
+          Reinharz et Chone Shmeruk (éd.), <hi rend="italic">The Jews of
+          Poland between the Two World Wars</hi>, Hanovre.</bibl>
+          <bibl xml:id="d1e1412">
+            <hi rend="small-caps">Garncarska-Kadri</hi>,
+          1995 : Bina <hi rend="small-caps">Garncarska-Kadri</hi>, <hi rend="italic">Bihipusei dereh : Poalei Tsiyon Smol b’Polin ad
+          milhemet ha’olam ha’shniya</hi>, Tel Aviv.</bibl>
+          <bibl xml:id="d1e1424">
+            <hi rend="small-caps">Hirschaut</hi>, 1948 :
+          Yekhiel <hi rend="small-caps">Hirschaut</hi>, <hi rend="italic">Finstere nekht in Paviak, </hi>Buenos Aires.</bibl>
+          <bibl xml:id="d1e1436">
+            <hi rend="small-caps">Kassow</hi>, 2008 :
+          Samuel <hi rend="small-caps">Kassow</hi>, « The Jewish Landkentenish
+          Society in Interwar Poland », in Anna Lipphardt, Alexandra Nocke et
+          Julia Brauch (éd.), <hi rend="italic">Jewish Topographies : Visions
+          of Space, </hi>Ashgate.</bibl>
+          <bibl xml:id="d1e1448">
+            <hi rend="small-caps">Kermish</hi>, 1986 :
+          Joseph <hi rend="small-caps">Kermish</hi>, <hi rend="italic">To Live
+          with Honor</hi>, Jérusalem.</bibl>
+          <bibl xml:id="d1e1460">
+            <hi rend="small-caps">Kieniewicz</hi>, 1986 :
+          Stefan <hi rend="small-caps">Kieniewicz</hi>, « Marceli
+          Handelsman », in Aleksander Gieysztor Jerzy Maternicki et Henryk
+          Samsonowicz (éd.), <hi rend="italic">Historycy warszawscy ostatnich
+          dwóch stuleci</hi>, Varsovie, p. 257-273.</bibl>
+          <bibl xml:id="d1e1473">
+            <hi rend="small-caps">Kuznitz</hi>, 2000 :
+          Cecile <hi rend="small-caps">Kuznitz</hi>, <hi rend="italic">The
+          Origins of Yiddish Scholarship and the YIVO Institute for Yiddish
+          Research</hi>, PhD, Stanford University (non publié).</bibl>
+          <bibl xml:id="d1e1485">
+            <hi rend="small-caps">Mahler</hi>, 1967 :
+          Raphael <hi rend="small-caps">Mahler</hi>, <hi rend="italic">Historiker un Vegvayzer</hi>, Tel Aviv.</bibl>
+          <bibl xml:id="d1e1497">
+            <hi rend="small-caps">Reyzen</hi>, 1922 :
+          Zalmen <hi rend="small-caps">Reyzen</hi> (éd.), <hi rend="italic">Pinkes fun der Geshikhte fun Vilne in di yorn fun
+          milkhome un okupatsiye</hi>, Vilnius.</bibl>
+          <bibl xml:id="d1e1509">
+            <hi rend="small-caps">Ringelblum</hi>, 1924 :
+          Emanuel <hi rend="small-caps">Ringelblum</hi>, « Di yidishe
+          arbetershaft un di geshikhtsvisnshaft », <hi rend="italic">Di fraye
+          yugnt</hi>, n<hi rend="sup">o</hi> 1.</bibl>
+          <bibl xml:id="d1e1524">
+            <hi rend="small-caps">Ringelblum</hi>, 1926 :
+          E. <hi rend="small-caps">Ringelblum</hi>, « Dray yor seminar », <hi rend="italic">Yunger Historiker</hi>, n<hi rend="sup">o</hi> 10.</bibl>
+          <bibl xml:id="d1e1539">
+            <hi rend="small-caps">Ringelblum</hi>, 1931 :
+          E. <hi rend="small-caps">Ringelblum</hi>, « Der YIVO un di yidishe
+          arbetershaft », <hi rend="italic">Arbeter Tsyatung</hi>, 21 août,
+          1931, n<hi rend="sup">o</hi> 32.</bibl>
+          <bibl xml:id="d1e1555">
+            <hi rend="small-caps">Ringelblum</hi>, 1932 :
+          E. <hi rend="small-caps">Ringelblum</hi>, <hi rend="italic">ˇydzi w
+          Warszawie, cz. I : Od czasów najdawnieszych do ostatniego wygnania w
+          1527</hi>, Varsovie.</bibl>
+          <bibl xml:id="d1e1567">
+            <hi rend="small-caps">Ringelblum</hi>, 1974 :
+          E. <hi rend="small-caps">Ringelblum</hi>, <hi rend="italic">Polish
+          Jewish Relations during the Second World War</hi>, Joseph Kermish et
+          Shmuel Krakowski (éd.), Evanston.</bibl>
+          <bibl xml:id="d1e1579">
+            <hi rend="small-caps">Ringelblum</hi>, 1985 :
+          E. <hi rend="small-caps">Ringelblum</hi>, <hi rend="italic">Ksovim
+          fun Geto</hi>, Tel Aviv.</bibl>
+          <bibl xml:id="d1e1591">
+            <hi rend="small-caps">Roskies</hi>, 1988 :
+          David <hi rend="small-caps">Roskies</hi>, <hi rend="italic">The
+          Literature of Destruction : Jewish Responses to Catastrophe</hi>,
+          Philadelphie.</bibl>
+          <bibl xml:id="d1e1603">
+            <hi rend="small-caps">Shabad</hi> et <hi rend="small-caps">Shalit</hi>, 1916-1918 : Tsemakh <hi rend="small-caps">Shabad</hi> et Moshe <hi rend="small-caps">Shalit</hi> (éd.), <hi rend="italic">Vilner
+          Zamlbukh</hi>, vol. 1, Vilnius, 1916, vol. 2, Vilnius, 1918.</bibl>
+          <bibl xml:id="d1e1621">
+            <hi rend="small-caps">Shatzky</hi>, 1953 :
+          Jacob <hi rend="small-caps">Shatzky</hi>, « Menakhem ben Fayvish
+          Ringelblum », in Emanuel Ringelblum, <hi rend="italic">Kapitlen
+          geshikhte</hi>, Buenos Aires.</bibl>
+          <bibl xml:id="d1e1634">
+            <hi rend="small-caps">Yerushalmi</hi>, 1984 :
+          Yosef Hayim <hi rend="small-caps">Yerushalmi</hi>, <hi rend="italic">Zhakor. Histoire juive et mémoire juive</hi>,
+          trad. É. Vigne, Paris (éd. américaine : Seattle, 1982).</bibl>
+          <bibl xml:id="d1e1646">
+            <hi rend="small-caps">Zipperstein</hi>,
+          1999 : Steven <hi rend="small-caps">Zipperstein</hi>, <hi rend="italic">Imagining Russian Jewry</hi>, Seattle.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>
