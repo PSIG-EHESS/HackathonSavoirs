@@ -1,0 +1,2400 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:marcrel="http://www.loc.gov/loc.terms/relators" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-21T16:54:19.352+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="Spectres_00_BERT">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Les spectres de l’érudition. Un travail de
+        bénédictin !</title>
+        <author role="aut">
+          <forename>Jean-François</forename>
+          <surname>Bert</surname>
+          <affiliation>Université de Lausanne</affiliation>
+          <idno type="IDREF">117676934</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification 3.0 non transposé - CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/PVC3HVC7" type="conferencePaper" xml:lang="fre">
+          <analytic>
+            <title level="a">Les spectres de l'érudition. Un travail de
+            Bénédictin !</title>
+            <author>
+              <forename>Jean-François</forename>
+              <surname>Bert</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Spectres de l'érudition</title>
+            <editor>
+              <forename>Jean-François</forename>
+              <surname>Bert</surname>
+            </editor>
+            <editor>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Lausanne</pubPlace>
+              <date>2018</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+        <language ident="san"/>
+        <language ident="ara"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>croyance</item>
+            <item>science</item>
+            <item>guru</item>
+            <item>érudit</item>
+            <item>savant</item>
+            <item>bénédictin</item>
+            <item>jésuites</item>
+            <item>sécularisation</item>
+            <item>imaginaire</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités personnelles</term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-rkp2ctq5">pratique manuelle<term ref="doi:10.34817/sv-kitjm6kp">geste</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique
+          lettrée</term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-wacsop2y">bénédictin</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>
+          </term>
+          <term>
+            <placeName ref="3171728" type="geonames" xml:base="https://www.geonames.org/">Padoue</placeName>
+          </term>
+          <term>
+            <placeName ref="2660646" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName>
+          </term>
+          <term>
+            <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1700" to="2000" type="_temp">1700-2000</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-02-17T14:13:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Les spectres de l’érudition. Un travail de
+          bénédictin !</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Jean-François Bert</docAuthor>
+          <affiliation>Université de Lausanne</affiliation>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">Certains gestes classiques de l’érudition moderne
+        (copier, critiquer, annoter, commenter, compiler) ont-ils une attache
+        religieuse ? Pour répondre à cette interrogation, adopter la
+        perspective historique et sociologique du processus de sécularisation
+        qui met l’accent sur une autonomisation progressive du domaine de la
+        science face à celui de la religion ne permet pas de suivre
+        l’intégralité et surtout de saisir la complexité des processus qui
+        rapprochent ou qui au contraire éloignent ces gestes de l’érudition
+        « religieuse » et ceux de l’érudition « savante ». En fonction,
+        ceux-ci peuvent être de coagulation, d’appui, de renforcement
+        réciproque, ou au contraire d’exclusion pure et simple. Il semble de
+        même tout aussi difficile de s’interroger sur la manière dont les
+        croyances, valeurs ou doctrines religieuses ont affecté, et continuent
+        encore d’affecter, mais de façon différenciée, les domaines du savoir
+        et de la connaissance scientifique. Dans ce texte, il s’agit au
+        contraire de défendre la possibilité d’une « archéologie » différente
+        des pratiques d’érudition qui consiste à mettre l’accent sur
+        l’ordinaire de l’activité savante, sa matérialité parfois la plus
+        concrète, et ce dans le but de saisir comment certaines pratiques
+        savantes, pratiques de lecture et d’écriture, se sont développées,
+        formalisées, et institutionnalisées dans un « environnement »
+        religieux, avant de s’inscrire dans les habitudes parfois les plus
+        routinières des disciplines savantes modernes et/ou
+        contemporaines.</p>
+      </div>
+      <div type="prelim" xml:id="d1e76">
+        <epigraph>
+          <quote xml:id="d1e78">« Le monde académique fonctionne tout à fait
+          comme une société archaïque, dans la logique d’une orchestration
+          sans chef d’orchestre, le programme étant d’autant plus invisible
+          qu’il est incorporé. C’est ce qui fait le charme des sociétés
+          archaïques. […] Et, dans un monde académique qui fonctionne bien,
+          l’essentiel est tacite, l’essentiel va sans dire, est admis comme
+          allant de soi. »<lb/>
+            <persName ref="027715078" type="idref" xml:base="https://www.idref.fr/">Pierre Bourdieu</persName>, « Le
+          fonctionnement du champ intellectuel », <hi rend="italic">in</hi>
+            <hi rend="italic"> Regards sociologiques</hi>, 17/18, 1999,
+          p. 16.</quote>
+        </epigraph>
+        <epigraph>
+          <quote xml:id="d1e89">« L’étudiant est mis à l’écart de la société,
+          relégué sur un campus. En même temps qu’on l’exclut, on lui transmet
+          un savoir qui n’a aucun rapport direct avec les besoins et les
+          problèmes du monde d’aujourd’hui. Cette exclusion est renforcée par
+          l’organisation, autour de l’étudiant, de mécanismes sociaux fictifs,
+          artificiels, d’une nature quasi théâtrale […]. Enfin, l’étudiant se
+          voit offrir une sorte de vie récréative – une distraction, un
+          amusement, une liberté qui là encore n’ont rien à voir avec la vie
+          réelle […]. En ce sens, l’université, sans aucun doute, est assez
+          peu différente des systèmes par lesquels, dans les sociétés dites
+          primitives, les jeunes gens sont tenus à l’écart du village pendant
+          leur adolescence et soumis à des rites d’initiation qui les isolent
+          et les privent de tout contact avec la vie réelle,
+          active. »<lb/>
+            <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Michel Foucault</persName>,
+          « Conversation avec Michel Foucault », <hi rend="italic">Dits et
+          écrits</hi>, tome II, 1971, p. 185.</quote>
+        </epigraph>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e98">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-espxuzip">lettré</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+            </term>
+          </term>La
+        question du rapport entre savoir(s) scientifique(s) et religion(s), en
+        particulier dans un contexte occidental, est abordée de manière
+        classique au travers du cadre général du processus de
+        sécularisation<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Depuis Max Weber, l’hypothèse du processus de sécularisation
+            permet d’indiquer l’existence d’un rapport de tension entre
+            religion et modernité. La lecture évolutionniste de la
+            sécularisation qui met en avant l’existence d’un processus
+            d’effacement tendanciel de l’influence religieuse, en particulier
+            sur la vie politique, économique et scientifique, tient aussi à la
+            version radicalisée qu’expose Carl Schmitt dans sa <hi rend="italic">Théologie politique </hi>: « Tous les concepts
+            prégnants de la théorie moderne de l’État sont des concepts
+            théologiques sécularisés. » <hi rend="small-caps">Schmitt</hi>,
+            1989, p. 46.</p>
+          </note>. Ce processus, sociologique et historique, vise à affirmer
+        sous une forme résolument continuiste un recul progressif, ou une
+        profonde transformation, de la sphère religieuse et de son influence
+        sur l’ensemble de la société, dont la production des savoirs<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Comme l’indique la quatrième de couverture du livre de Louis
+            Châtelier concernant le rapport science et religion entre le <hi rend="small-caps">xvi</hi>
+              <hi rend="sup">e</hi> et le <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle, la
+            question n’est pas de voir comment la science a finit par
+            « terrasser » le christianisme, mais comment elle l’a transformé :
+            « Ce que la religion a perdu en mystère, elle l’a gagné dans une
+            intimité plus grande avec Dieu. » <hi rend="small-caps">Châtelier</hi>, 2003.</p>
+          </note>. Une pente irréversible serait à l’œuvre depuis au moins le
+        <date from="1500" to="1599" type="_temp">
+            <hi rend="small-caps">xvi</hi>
+            <hi rend="sup">e</hi> siècle</date>. Ceux
+        que l’on appelait les « savants », les « lettrés », puis au <date from="1800" to="1899" type="_temp">
+            <hi rend="small-caps">xix</hi>
+            <hi rend="sup">e</hi> siècle</date> les « intellectuels », auraient peu à
+        peu cessé d’être « croyants », devenant des « rationalistes », des
+        « positivistes » et des « scientistes », voire, pour les plus touchés
+        d’entre eux par la question de la place des raisonnements
+        spiritualistes dans l’activité savante, des « matérialistes », des
+        « agnostiques » ou des « athées ».</p>
+        <p xml:id="d1e137">Cette lecture historique du processus de
+        sécularisation a permis de mettre l’accent sur l’existence d’un
+        conflit irréductible entre ces deux domaines. Conflit d’autant plus
+        marqué qu’il s’organise et s’énonce au travers de polémiques
+        retentissantes, qu’il s’agisse du procès de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> en
+        <date type="_temp" when="1633">1633</date>, de la première édition de
+        <hi rend="italic">L</hi>
+          <hi rend="italic">’Origine des espèces</hi> de
+        <persName ref="026812304" type="idref" xml:base="https://www.idref.fr/">Darwin</persName> en <date type="_temp" when="1859">1859</date> et du fameux débat d’<placeName ref="2640729" type="geonames" xml:base="https://www.geonames.org/">Oxford</placeName> qui s’ensuivit
+        un an plus tard, ou encore de l’émergence de la psychanalyse
+        freudienne<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>
+              <hi rend="small-caps">Gingras</hi>, 2016 ; <hi rend="small-caps">Brooke</hi> et <hi rend="small-caps">Cantor</hi>, 1998.</p>
+          </note>.</p>
+        <p xml:id="d1e156">C’est oublier que c’est également au travers de
+        l’argument de la sécularisation qu’une seconde série de travaux se
+        développa comme réponse à l’hypothèse précédente. Ces analyses,
+        historiques et sociologiques, ont voulu démontré la profonde
+        résistance des structures religieuses dans la modernité, y compris, et
+        peut-être surtout, dans la question de la production des savoirs
+        scientifiques<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>
+              <hi rend="small-caps">Brice</hi> et <hi rend="small-caps">Romano</hi>, 1999.</p>
+          </note>. La religion n’a pas été un frein au développement des
+        sciences et de la technologie et si cela a été le cas, c’est
+        uniquement son dogmatisme et son autoritarisme qu’il conviendrait
+        d’incriminer. Le livre d’<persName ref="028954548" type="idref" xml:base="https://www.idref.fr/">Amos Funkenstein</persName>, <hi rend="italic">Théologie et Imagination scientifique</hi> est de loin
+        la meilleure illustration de cette tendance. L’historien précise
+        comment, au détour du <date from="1500" to="1699" type="_temp">
+            <hi rend="small-caps">xvi</hi>
+            <hi rend="sup">e</hi> et <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi> siècle</date>, les
+        anciennes préoccupations théologiques se formulent en termes de
+        science profane, mais aussi comment les nouveaux enjeux scientifiques
+        s’expriment encore au travers de termes ou de réflexions théologiques
+        plus anciennes, et ce au moins jusqu’à <persName ref="02694507X" type="idref" xml:base="https://www.idref.fr/">Kant</persName>, dont la
+        philosophie vient totalement ruiner les fonctions méthodologiques du
+        concept de Dieu dans toute entreprise de compréhension de la nature.
+        <persName ref="028954548" type="idref" xml:base="https://www.idref.fr/">Funkenstein</persName> n’a aucun
+        doute, c’est en partant d’interrogations profondément théologiques
+        – comme la toute-puissance divine, la providence, ou encore
+        l’infinitude… – que la science moderne à pu jeter certaines de ses
+        fondations les plus importantes.</p>
+        <p xml:id="d1e180">C’est encore en recourant à l’hypothèse de la
+        sécularisation qu’une troisième série de travaux aborde la
+        compréhension du rapport sciences/religions mais cette fois-ci de
+        manière bien plus ambiguë, voire dangereuse. Ces recherches tentent en
+        effet de valoriser tout ce qui, d’une manière ou d’une autre, serait
+        la marque d’un accord ou d’une concordance entre ces deux domaines
+        qui, historiquement et épistémologiquement, s’opposent termes à
+        termes<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>C’est là un fait indéniable et constitutif de la science
+            moderne : la religion repose sur une vérité révélée qui ne
+            s’interroge jamais (en l’occurrence l’existence de Dieu), alors
+            que la vérité scientifique est quant à elle susceptible d’être
+            toujours remise en question. <hi rend="small-caps">Harisson</hi>,
+            2015.</p>
+          </note>. Cette convergence s’appuie, philosophiquement, sur l’idée
+        d’une même unité de la pensée ainsi que sur une intention identique
+        qui, tant pour la religion que pour la science, serait de rendre
+        intelligible le monde<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>Nous n’aborderons pas la question des condamnations
+            théologiques des conceptions rationalistes du savoir et de la
+            connaissance, dont la plus importante eut lieu sans doute lors du
+            concile de Vatican I.</p>
+          </note>. Des travaux qui, tout en gommant l’existence de profondes
+        divergences, voire de conflits, nous invitent à repenser l’ancienne
+        théologie naturelle ainsi que l’importante littérature
+        physico-théologique qui depuis le <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi> siècle</date> permet de considérer le monde comme le
+        lieu de manifestation de Dieu alors compris comme son principe
+        ordonnateur.</p>
+        <p xml:id="d1e198">Peut-on sortir de ce cadre général – bien trop
+        général – du processus de sécularisation ? Peut-on aller au-delà de
+        ces différentes perspectives que nous venons rapidement d’évoquer :
+        l’inexorable déclin de l’influence religieuse sur la production des
+        savoirs savants, la démonstration d’une profonde « résistance » des
+        structures religieuses, ou l’existence d’une profonde concordance
+        entre ces deux domaines ? N’est-il pas possible d’approcher autrement
+        la manière dont les croyances, valeurs ou doctrines religieuses ont
+        affecté, et continuent encore d’affecter, mais de façon différenciée,
+        les domaines du savoir et de la connaissance<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>C’était l’ambition de ce colloque sur les « Spectres de
+            l’érudition ». Dans une même optique, citons la journée d’étude
+            organisée par Anne Collinot et Yann Potin en 2010 : « Les fantômes
+            de l’érudition. Du clerc humaniste aux fonctionnaires de la
+            science ». Pour de plus amples informations sur ces
+            manifestations : <ref target="https://calenda.org/429616">https://calenda.org/429616</ref>
+            et <ref target="http://chsp.sciences-po.fr/evenement/les-fantomes-de-lerudition-du-clerc-humaniste-aux-fonctionnaires-de-la-science-reflextion-">http://chsp.sciences-po.fr/evenement/les-fantomes-de-lerudition-du-clerc-humaniste-aux-fonctionnaires-de-la-science-reflexion-</ref>.</p>
+          </note> ?</p>
+        <div type="section1" xml:id="d1e210">
+          <head subtype="level1" xml:id="d1e211">I.</head>
+          <p xml:id="d1e213">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-jjpnzr3b">maître</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-h8lq96u4">école</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-dtlbbhdu">sociologie</term>
+                </term>
+              </term>
+            </term>C’est
+          à cette difficile question que le sociologue <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Emile
+          Durkheim</persName> s’attaque dans son <hi rend="italic">Evolution
+          pédagogique en France</hi> après avoir mis en place un premier grand
+          récit sociologique de la laïcisation des sociétés modernes en
+          montrant comment les pensées, les pratiques et les institutions de
+          types religieuses ont perdu une part de leur influence du fait d’un
+          profond processus de différenciation social. Publié de manière
+          posthume en <date type="_temp" when="1938">1938</date>, cet ouvrage
+          reprend une série de cours donnés par le sociologue au début du
+          <date from="1900" to="1999" type="_temp">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date> devant
+          les futurs professeurs de lycée. <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName> y
+          insiste longuement sur le fait que la manière dont l’éducation
+          scolaire et universitaire française pense l’acquisition du savoir et
+          de la connaissance se situe historiquement et sociologiquement à la
+          croisée du monde profane et du monde religieux. En détaillant
+          l’histoire des institutions scolaires depuis le <date>Haut Moyen
+          Âge</date>, <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName> ne tarit pas
+          d’éloges sur les Bénédictins qui « contribuèrent plus que tout autre
+          au réveil des études<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>
+                <hi rend="small-caps">Durkheim</hi> (1938), 2014, p. 44.</p>
+            </note> ». Il glorifie également la figure du moine, cet
+          instituteur de l’Europe jusqu’au <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xii</hi>
+              <hi rend="sup">e</hi> siècle</date> qui inaugure une profonde rupture
+          sociale dans l’apprentissage et la transmission des savoirs, en
+          particulier avec l’essor des villes, la circulation accrue des
+          textes et le renforcement de l’État.</p>
+          <p xml:id="d1e235">
+            <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName> n’est certes
+          pas le premier à relever l’importance de cette matrice religieuse de
+          l’érudition française. Ce qui le distingue des autres, et ce qui
+          rend ce livre important dans notre tentative de théorisation, c’est
+          sa manière de vouloir complexifier l’importance de la matrice
+          religieuse dans le développement des pratiques érudites en montrant
+          de quelle façon l’école et l’université sont parvenues à la fois à
+          s’abstraire de cette matrice mais tout en conservant et en
+          reconduisant dans son organisation, sa structure ou son imaginaire,
+          des traits spécifiquement religieux. Trois traits sont pour
+          <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName> plus
+          particulièrement importants. Le premier est l’impossibilité pour les
+          individus d’acquérir de la connaissance et du savoir en dehors d’un
+          environnement institutionnel et physique qui, comme le milieu sacré,
+          possèdent ses règles propres, en tout cas des règles différentes de
+          celles suivies par le reste de la cité « séculière ». Un espace, en
+          outre, qui n’est fréquenté, à ses débuts, que par ceux qui ont de
+          quoi échapper à l’utilitarisme de l’activité quotidienne. Le second
+          trait qui pour le sociologue fait entièrement partie de cette
+          matrice religieuse de l’érudition et qui se retrouve reconduit dans
+          les structures d’éducation séculière est le fait que la connaissance
+          doit s’acquérir avec lenteur, patience, par étapes successives, par
+          exercices répétés où corps et l’esprit sont parfois entièrement
+          mobilisés<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Le sociologue insiste sur l’importance du livre et de sa
+              proximité pour penser, et qu’il nomme le « culte du livre » :
+              « Voilà pourquoi faire un cours, suivre un cours, se disait au
+              Moyen Âge : lire un livre, <hi rend="italic">legere</hi>
+                <hi rend="italic">librum</hi>, écouter un livre, <hi rend="italic">audire librum</hi>. Aujourd’hui encore, en
+              Allemagne, enseigner se traduit par lesen ou <hi rend="italic">vorlesen</hi> ; en Angleterre, <hi rend="italic">lecturer</hi> signifie professeur, et en France le
+              mot de lecteur a eu longtemps la même signification, qu'il
+              conserve encore sur les affiches du Collège de France. Et,
+              d'ailleurs, ce n'est pas seulement dans la terminologie scolaire
+              que survit actuellement cette ancienne conception ; elle est
+              encore nôtre en grande partie ». <hi rend="small-caps">Durkheim</hi> (1938), 2014, p. 155-156.</p>
+            </note>. Enseigner n’est pas seulement empiler ou inculquer des
+          savoirs vides de sens. Il s’agit surtout de préparer l’élève à la
+          vie en l’instituant comme un sujet dont les valeurs, la morale et
+          les croyances doivent être adaptées au monde dans lequel il vivra,
+          en l’occurrence pour le monde médiéval, une société résolument
+          chrétienne. Le dernier élément qui participe pour <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName> de cette
+          matrice religieuse est le fait que l’éducation repose depuis les
+          premiers temps de l’époque chrétienne sur une relation profondément
+          duale : celle du maître et du disciple. Cette relation,
+          hiérarchique, est profondément formatrice car comme l’indique le
+          sociologue : « Le contact entre les élèves et le maître était de
+          tous les instants, c’est, en effet, cette permanence des relations
+          qui caractérise le convict, cette première forme de l’internat. Or,
+          cette concentration de l’enseignement constitue une innovation
+          capitale qui témoigne d’un changement profond intervenu dans la
+          conception qu’on se faisait de la nature et du rôle de la culture
+          intellectuelle<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>
+                <hi rend="small-caps">Durkheim</hi> (1938), 2014, p. 34.</p>
+            </note>. »</p>
+          <p xml:id="d1e267">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+              </term>
+            </term>Les
+          intuitions de <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName> doivent nous
+          encourager à envisager la multiplicité des processus qui rapprochent
+          ou qui éloignent l’érudition « religieuse » de l’érudition
+          « savante », et qui, en fonction des moments, peuvent être de
+          coagulation, d’appui, de renforcement réciproque, ou au contraire
+          d’exclusion pure et simple<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Citons, à titre d’exemple, l’ouvrage de Guillaume Carnino
+              (<hi rend="small-caps">Carnino</hi>, 2015) dans lequel il
+              précise comment, dans le dernier tiers du <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi> siècle, le mot
+              science change de sens suite, entre autres, à de grandes
+              controverses avec la religion (fixisme vs transformisme, débat
+              Pasteur-Pouchet autour de la génération spontanée, monogénisme
+              et polygénisme). Ces débats finiront par engager une inflexion
+              résolument anti-cléricale en anthropologie, en paléontologie ou
+              encore en biologie. L’ouvrage de Volny Fages (<hi rend="small-caps">Fages</hi>, 2018) permet quant à lui de saisir
+              les effets de la scission entre les matérialistes et les
+              spiritualistes dans le domaine de la cosmologie. De manière
+              générale, cette seconde moitié du <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi> siècle est un
+              moment particulièrement intéressant pour problématiser à
+              nouveaux frais la question des rapports entre science et
+              religion. Le scientisme s’y développe comme nouvelle religion
+              avec ses « clercs », ses « chapelles » et ses « fidèles ».</p>
+            </note>.</p>
+          <p xml:id="d1e289">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-z5onurxv">expérimentation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-dtlbbhdu">sociologie<term ref="doi:10.34817/sv-sdgsqpt2">sociologie des
+          sciences</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire<term ref="doi:10.34817/sv-p5wqzjnr">histoire des
+          sciences</term>
+                  </term>
+                </term>
+              </term>
+            </term>D’autres auteurs, venant
+          d’horizons disciplinaires et épistémologiques divers, comme ce fut
+          le cas d’<persName ref="02695334X" type="idref" xml:base="https://www.idref.fr/">Alexandre Koyré</persName> dans ses
+          séminaires de l’EPHE au début des <date from="1930" to="1939" type="_temp">années 1930</date>, ont aussi cherché à complexifier la
+          compréhension que nous avons de ces rapports. Tout en reconnaissant
+          une différence fondamentale entre la religion, qu’il envisage comme
+          un ensemble de croyances et de doctrines portées par une
+          organisation plus ou moins centralisée, et les recherches
+          scientifiques, dont le but est de cerner des phénomènes observables
+          par des moyens qui refusent tout appel à une quelconque cause
+          surnaturelle, <persName ref="02695334X" type="idref" xml:base="https://www.idref.fr/">Koyré</persName> précise comment
+          l’idée d’infinité de l’espace a d’abord été comprise, durant
+          l’<date>époque moderne</date>, comme un corollaire de l’idée
+          d’infinité de Dieu<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>
+                <hi rend="small-caps">Koyré</hi>, 2016, p. 210.</p>
+            </note>. Proximité, croisement, coagulation, corrélation… c’est
+          une tentative que <persName ref="031760570" type="idref" xml:base="https://www.idref.fr/">Robert Merton</persName> a
+          également cherché à mettre en place dans le cadre de sa thèse sur le
+          puritanisme. En voulant expliquer l’intérêt grandissant de l’élite
+          anglaise du <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi> siècle</date> pour
+          la science et la technique, et comment ce choix a pour effet de la
+          détourner d’autres sphères d’activité qu’elle prisait auparavant,
+          tels les arts, l’armée et surtout la religion<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>
+                <hi rend="small-caps">Merton</hi> (1938), 2001 ; <hi rend="small-caps">Saint-Martin</hi>, 2013.</p>
+            </note>, <persName ref="031760570" type="idref" xml:base="https://www.idref.fr/">Merton</persName> abandonne la
+          lecture réductionniste qui n’aurait fait que souligner l’état des
+          rapports de production de la société anglaise pour au contraire
+          essayer d’énoncer une corrélation – des proximités – entre le
+          puritanisme et la science. À l’image de <persName type="_temp">Robert Boyle</persName>, tous les grands héros de cette
+          nouvelle science expérimentale étaient imprégnés par les valeurs de
+          l’éthique protestante<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>De Candolle, en 1873,<hi rend="bold"/>précise que les grands
+              savants étaient le plus souvent des fils d’ecclésiastiques
+              protestants. Plus que l’influence négative de la religion, De
+              Candolle incrimine l’influence du dogme et du littéralisme sur
+              les progrès des sciences : « Plus on procède par la voie
+              autoritaire, plus on diminue la curiosité, mère des sciences, et
+              plus aussi on augmente la timidité de l’esprit […]. Une
+              population éduquée pendant plusieurs générations avec le
+              principe d’autorité doit être naturellement timide dans les
+              affaires intellectuelles. Au contraire une population habituée
+              dès l’enfance à scruter les choses qu’on lui dit être les plus
+              importantes, comme celles de la religion, ne craindra pas
+              d’examiner des questions purement scientifiques et saura mieux
+              les aborder pour les résoudre ». <hi rend="small-caps">De
+              Candolle</hi>, 1873, p. 124. C’est, ajoute encore de Candolle,
+              ce qui se passe précisemment à Genève, où l’influence calviniste
+              vint à faiblir entre 1720 et 1730, ouvrant ainsi la voie à de
+              nouvelles trajectoires scientifiques en mathématique, physique
+              et chimie.</p>
+            </note>. Tous étaient en quête des Lois de la régularité du monde
+          physique. Tous ont pour cela cherché à intensifier leur observation
+          de la nature, glorifiant au passage l’œuvre de Dieu. Plus récemment,
+          c’est grâce aux travaux de l’historien <persName ref="030159288" type="idref" xml:base="https://www.idref.fr/">Bruno Neveu</persName>
+          que de nouvelles coagulations complexes entre l’érudition religieuse
+          et l’érudition savante ont pu voir le jour. En travaillant sur les
+          méthodes de l’érudition gallicane, <persName ref="030159288" type="idref" xml:base="https://www.idref.fr/">Neveu</persName>
+          montre comment celles-ci se sont poursuivies en <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> et en
+          <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> bien après
+          la révolution de <date type="_temp" when="1789">1789</date>. Plus
+          encore que de simplement modifier la chronologie du problème,
+          <persName ref="030159288" type="idref" xml:base="https://www.idref.fr/">Neveu</persName> montre comment ces
+          méthodes ont en fait été pillées par les adversaires directs de la
+          religion dans le but de contribuer à « ébranler » et à préparer,
+          précise l’historien : « une clarification dans les rapports entre
+          deux ordres de nature différentes, amenés à reconnaître peu à peu
+          leur indépendance réciproque ?<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>
+                <hi rend="small-caps">Neveu</hi>, 1994, p. 177.</p>
+            </note> ». La critique de l’érudition religieuse, si l’on suit
+          <persName ref="030159288" type="idref" xml:base="https://www.idref.fr/">Neveu</persName>, aurait donc pour
+          origine un réemploi et un retournement explicite de certaines de ces
+          techniques les plus éculées.</p>
+          <p xml:id="d1e327">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire<term ref="doi:10.34817/sv-ku7w692n">histoire des
+          religions</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+              </term>
+            </term>Ces
+          quelques hypothèses suggestives se conjuguent toutes dans l’idée
+          d’« archéologie religieuse » que <persName ref="026774747" type="idref" xml:base="https://www.idref.fr/">Michel de
+          Certeau</persName> élabora dans un chapitre célèbre de son <hi rend="italic">Écriture de l’histoire. </hi>Il s’agissait alors pour
+          l’historien de saisir comment la religion, au détour du <date from="1600" to="1799" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi> et <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date>,
+          tout en perdant son rôle antérieur d’ordonnancement des conduites,
+          continuait à subsister dans la modernité comme un « réservoir » de
+          pratiques sociales, en particulier pour le pouvoir politique qui,
+          « au besoin », pouvait décider de s’en servir afin d’atteindre
+          certains objectifs précis, dont la cohésion sociale, ou encore
+          l’unité nationale<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>
+                <hi rend="small-caps">De Certeau</hi>, 1975, p. 145-241.</p>
+            </note>.</p>
+          <p xml:id="d1e348">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-xmjgnjyk">université</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-h8lq96u4">école</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-d76zemtb">scriptorium</term>
+              </term>
+            </term>Si
+          ces pages de <persName ref="026774747" type="idref" xml:base="https://www.idref.fr/">de Certeau</persName> questionnent
+          les liens complexes entre politique et religion, elles nous sont
+          aussi particulièrement utiles pour essayer de repenser ceux qui se
+          développent entre une érudition de type religieuse et une érudition
+          scientifique. Il deviendrait possible, par exemple, de saisir
+          comment se perpétue, y compris dans un domaine aussi fortement
+          sécularisé que celui de la science, ce « spectre » de l’érudition
+          religieuse sous forme d’un imaginaire, de valeurs mais aussi de
+          pratiques. Il deviendrait possible, également, de se demander
+          pourquoi certaines pratiques érudites, foncièrement religieuses, ont
+          finit par s’imposer dans l’espace savant tout en se jouant, en même
+          temps, de leur origine religieuse pour obtenir, par exemple, un
+          surcroît de légitimité. Il deviendrait envisageable, encore, de se
+          demander quelle est la place motivationnelle des croyances
+          religieuses pour les premiers hommes de science<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>
+                <hi rend="small-caps">Orgozelec-Guinchard</hi>, 2017.</p>
+            </note>. Il suffit de penser ici à la manière plus que subtile
+          dont <persName ref="026812304" type="idref" xml:base="https://www.idref.fr/">Charles Darwin</persName> répond
+          dans son <hi rend="italic">Origine des espèces</hi> (1859) à la <hi rend="italic">Théologie naturelle</hi> (1802) du <persName ref="059177470" type="idref" xml:base="https://www.idref.fr/">Pasteur William Paley</persName>,
+          livre alors en vogue chez la plupart des naturalistes au point
+          d’accompagner <persName ref="026812304" type="idref" xml:base="https://www.idref.fr/">Darwin</persName> pendant son
+          voyage autour du monde<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>
+                <hi rend="small-caps">Tort</hi>, 2011.</p>
+            </note>. Dans ce sillon archéologique ouvert par <persName ref="026774747" type="idref" xml:base="https://www.idref.fr/">de
+          Certeau</persName>, il devient surtout possible de se demander
+          pourquoi nous continuons encore de nous tourner vers un lexique
+          religieux dès lors qu’il s’agit d’explorer et d’analyser les
+          structures de nos institutions savantes. Pourquoi construisons-nous
+          des universités ou des institutions de savoir, comme des
+          bibliothèques, en cherchant explicitement à perpétuer le modèle
+          classique du cloître ou du <hi rend="italic">
+              <foreign xml:lang="lat">scriptorium</foreign>
+            </hi> médiéval, essayant de réaliser architecturalement l’idée
+          éculée depuis au moins <persName ref="026849186" type="idref" xml:base="https://www.idref.fr/">Einstein</persName> que
+          l’université serait un « temple » de la science<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Expression d’Albert Einstein, cité par <hi rend="small-caps">Holton</hi>, 1981, p. 418-419.</p>
+            </note>.</p>
+          <p xml:id="d1e379">Alors que <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName> nous permet de
+          réfléchir à la complexité historique du processus de laïcisation qui
+          touche les sociétés occidentales, en particulier concernant les
+          institutions de savoir, l’archéologie religieuse de <persName ref="026774747" type="idref" xml:base="https://www.idref.fr/">de
+          Certeau</persName> nous donne l’occasion d’explorer de nouveaux
+          points de passage qui jusque là ont été délaissés tant par les
+          historiens spécialistes des savoirs savants que par les historiens
+          des religions. Pensons, par exemple, au cas de l’Ecole des chartes,
+          fondée en <date type="_temp" when="1821">1821</date>, dont
+          l’ambition était à l’origine de renouveler les méthodes
+          historiographiques tout en poursuivant le travail des Bénédictins,
+          appliqués à lire les manuscrits, à les dater et à les expertiser
+          pour exclure les faux des corpus de la théologie. Comme le précisa
+          <persName ref="026840421" type="idref" xml:base="https://www.idref.fr/">Duby</persName> : « l’École des
+          chartes avait recueilli l’héritage de ces pionniers de
+          l’érudition<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>
+                <hi rend="small-caps">Duby</hi>, 1991, p. 42.</p>
+            </note>. » Dans le même ordre d’idée, il y aurait comme un autre
+          point de passage à explorer ce qui relie, ou non, les bibliothèques
+          monastiques et les premières bibliothèques séculières, fondées au
+          moment de la création des universités. Outre la question du
+          classement et de la disposition des ouvrages, est-il possible de
+          repérer des coprésences d’ouvrages, d’identiques éléments
+          architecturaux ou de décor, de mobilier, de technique de rangement
+          et de classification, et pourquoi pas de similaires manipulations
+          d’ouvrages<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>
+                <hi rend="small-caps">Bernard-Schweitzer</hi>, 2017.</p>
+            </note> ? On pourrait enfin décider de suivre des trajectoires de
+          personnes ayant joué un rôle de passeur entre ces deux pratiques
+          d’érudition. Pensons au cas du jésuite italien <persName ref="028518918" type="idref" xml:base="https://www.idref.fr/">Roberto Busa</persName> qui,
+          en <date type="_temp" when="1949">1949</date>, entama un fastidieux
+          travail de transcription de la <hi rend="italic">Somme
+          théologique</hi> de <persName ref="027161129" type="idref" xml:base="https://www.idref.fr/">saint Thomas d’Aquin</persName> sur
+          support informatique en « codant » par perforation chacun des mots
+          de l’œuvre, posant ainsi les fondations d’une nouvelle approche des
+          sources textuelles. L’entreprise exégétique mais aussi technique de
+          <persName ref="028518918" type="idref" xml:base="https://www.idref.fr/">Busa</persName> prit une toute
+          autre envergure suite à un partenariat avec IBM qui, comme le
+          rappelle <persName ref="050447823" type="idref" xml:base="https://www.idref.fr/">Pierre Mounier</persName>, lui a
+          permis d’« établir un jeu de 13 millions de fiches<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>
+                <hi rend="small-caps">Mounier</hi>, 2018.</p>
+            </note> », le faisant alors pleinement rentrer dans le monde des
+          grands nombres et de leur gestion.</p>
+        </div>
+        <div type="section1" xml:id="d1e402">
+          <head subtype="level1" xml:id="d1e403">II.</head>
+          <p xml:id="d1e405">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-92wdfrr5">copiste</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique
+          corporelle<term ref="doi:10.34817/sv-cuffkk5p">position du
+          corps<term ref="doi:10.34817/sv-qh245glg">position
+          assise</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-mqdxwy9r">instrument d’inscription<term ref="doi:10.34817/sv-uwcfm6qw">stylet</term>
+                </term>
+              </term>
+            </term>Il
+          est possible d’analyser la matrice religieuse de l’érudition moderne
+          au travers des nombreuses représentations, produites à la
+          <date>Renaissance</date>, qui mettent en scène la figure archétypale
+          de saint Jérôme. La peinture d’<persName ref="027498786" type="idref" xml:base="https://www.idref.fr/">Antonello da
+          Messina</persName> (<date type="_temp" when="1460">1460</date>)<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>
+                <ref target="https://commons.wikimedia.org/wiki/File:Antonello_da_Messina_-_St_Jerome_in_his_study_-_National_Gallery_London_-_detail.jpg">https://commons.wikimedia.org/wiki/File:Antonello_da_Messina_-_St_Jerome_in_his_study_-_National_Gallery_London_-_detail.jpg</ref>
+              </p>
+            </note>, la gravure d’<persName ref="026837013" type="idref" xml:base="https://www.idref.fr/">Albrecht Dürer</persName> (<date type="_temp" when="1514">1514</date>)<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>
+                <ref target="https://commons.wikimedia.org/wiki/File:Albrecht_Dürer_-_Saint_Jerome_in_His_Study_(NGA_1943.3.3524).jpg">https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Saint_Jerome_in_His_Study_(NGA_1943.3.3524).jpg</ref>
+              </p>
+            </note>, la version peinte par <persName ref="027574105" type="idref" xml:base="https://www.idref.fr/">Le Caravage</persName>
+          (<date type="_temp" when="1606">1606</date>)<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>
+                <ref target="https://fr.wikipedia.org/wiki/Fichier:Saint_Jerome_Writing-Caravaggio_(1605-6).jpg">https://fr.wikipedia.org/wiki/Fichier:Saint_Jerome_Writing-Caravaggio_(1605-6).jpg</ref>
+              </p>
+            </note> ou encore le <hi rend="italic">Saint Jérôme étudiant</hi>
+          du <persName ref="028513568" type="idref" xml:base="https://www.idref.fr/">Greco</persName> (<date from="1600" to="1614" type="_temp">1600-14)</date>
+            <note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>
+                <ref target="https://commons.wikimedia.org/wiki/File:1610_El_Greco_St._Jerome_as_Scholar_anagoria.JPG">https://commons.wikimedia.org/wiki/File:1610_El_Greco_St._Jerome_as_Scholar_anagoria.JPG</ref>
+              </p>
+            </note> présentent un Jérôme assis en plein travail de traduction,
+          de correction, d’écriture ou de lecture. Les grands attributs de
+          l’érudition religieuse sont présents, et en premier, dans les livres
+          qui sont souvent figurés de manière envahissante<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>C’est ce que précise Lucrèce Luciani : « Quand on parcourt
+              l’ensemble des biographes ou historiens de Jérôme, on voit
+              partout que la <hi rend="italic">bibliotheca</hi> traverse et
+              rythme tout. Jeune élève à Rome, il est “ami des livres”
+              (Labourt), il se fait envoyer de l’argent à Stridon pour monter
+              sa bibliothèque (Cavallera) ; au désert, on sait par ses épîtres
+              qu’il emporte sa “précieuse” bibliothèque ». <hi rend="small-caps">Luciani</hi>, 2018, p. 39.</p>
+            </note>. Le stylet est dans la main, parfois dans les deux mains
+          du Saint, comme dans cette représentation de Jérôme dans le <foreign xml:lang="lat">scriptorium</foreign> du <persName type="_temp">Maître de Parral</persName> (<date from="1480" to="1490" type="_temp">1480-1490</date>. Museo Lázaro Galdiano)<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>
+                <ref target="https://commons.wikimedia.org/wiki/File:Master_of_Parral_-_St_Jerome_in_the_scriptorium_-_Google_Art_Project.jpg">https://commons.wikimedia.org/wiki/File:Master_of_Parral_-_St_Jerome_in_the_scriptorium_-_Google_Art_Project.jpg</ref>
+              </p>
+            </note>. La main surplombe le livre ouvert. C’est à chaque fois
+          l’image d’un Saint érudit, à l’ouvrage, qui est donné à voir. Un
+          saint penché sur son pupitre, opérant un travail ardu qui ne peut
+          que relever d’une médiation hautement spéculative, à la limite de
+          l’ascèse<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>
+                <hi rend="small-caps">Bolard</hi>, 2006.</p>
+            </note>. Cette pose, depuis devenue classique, permet encore
+          d’immortaliser certains de nos érudits les plus célèbres, que ce
+          soit le philosophe <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Michel Foucault</persName> assis à
+          son bureau, caché par un empilement de dossiers, le linguiste
+          <persName ref="026843056" type="idref" xml:base="https://www.idref.fr/">Georges Dumézil</persName> accoudé
+          à ses paperasses et ses piles de livres, ou encore le psychologue
+          <persName ref="027071170" type="idref" xml:base="https://www.idref.fr/">Jean Piaget</persName> assis dans
+          son bureau-caverne de <placeName ref="2660646" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName>.</p>
+          <p xml:id="d1e452">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités personnelles<term ref="doi:10.34817/sv-anfzknyx">charisme</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+              </term>
+            </term>Ces
+          nombreuses représentations sont loin d’être l’unique moyen à notre
+          disposition pour qualifier les divers éléments qui composent ce
+          spectre religieux de l’érudition. L’exploration du lexique utilisé
+          tant par les savants eux-mêmes que par ceux qui cherchent à observer
+          et comprendre le fonctionnement, les valeurs, ou encore les
+          pratiques constitutives de la science moderne, constitue un autre
+          moyen d’accéder à cet imaginaire qui reconduit certains <hi rend="italic">topoi</hi> religieux. Les mots ne font pas que trahir
+          le rôle important joué par cette matrice dans les mondes savants,
+          ils nous donnent à voir aussi le fait que les lignes d’opposition
+          classiquement utilisées pour séparer ces deux domaines sont le
+          résultat de jeux subtils, entre subversions et accommodements,
+          réélaborations constantes<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>C’est le cas de la notion de charisme, ce don qui permet à
+              celui qui le détient d’obtenir des autres qu’ils se soumettent à
+              sa volonté. Être charismatique, c’est être reconnu pour susciter
+              l’adhésion immédiate à ses idées. Il s’agit là d’une forme
+              d’admiration que l’on va trouver associée au génie, un mot qui,
+              lui aussi, dérive d’une épithète religieuse. Le génie est un
+              gardien spirituel qui accompagne l’individu tout au long de sa
+              vie et qui le relie au divin. Au <hi rend="small-caps">xviii</hi>
+                <hi rend="sup">e</hi> siècle, le
+              terme signifie une forme tout à fait particulière d’excellence
+              humaine dont les qualités principales sont l’intelligence, la
+              liberté d’esprit ou encore l’originalité. Un changement de sens
+              qui intervient au moment où s’inaugure, en Europe, ce que
+              d’aucuns nomment le « retrait de Dieu ». McMahon, 2016.</p>
+            </note>, amplifications, et parfois métissages étonnants.</p>
+          <p xml:id="d1e466">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-wxtpa7cz">biographie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités personnelles<term ref="doi:10.34817/sv-k6ajzcts">créativité</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-sovsfncr">intuition</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-qr6v8x6n">imagination</term>
+              </term>
+            </term>Deux
+          voies d’analyse sont envisageables. La première est de suivre celle
+          <hi rend="bold"/>inaugurée par<hi rend="bold"/>
+            <persName ref="027891895" type="idref" xml:base="https://www.idref.fr/">Gérald
+          Holton</persName> avec son hypothèse des <foreign xml:lang="lat">
+              <hi rend="italic">themata</hi>
+            </foreign> qui sont ces grandes représentations mentales
+          sous-jacentes au processus de production d’une théorie de type
+          scientifique<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>
+                <hi rend="small-caps">Holton</hi>, 1981, p. 21-47.</p>
+            </note>. En poursuivant son approche, il serait sans doute
+          possible de déterminer la place que jouent les croyances religieuses
+          dans les grands présupposés philosophiques, transmis par
+          l’éducation, la culture, ou encore les représentations
+          traditionnelles. Plus encore, il permettrait de voir comment les
+          <foreign xml:lang="lat">
+              <hi rend="italic">themata</hi>
+            </foreign> « religieux » sont parfois activement mobilisés par les
+          savants pour produire un raisonnement de type scientifique. Une
+          approche qui permettrait de répondre à une interrogation persistante
+          dans l’histoire des sciences : l’appartenance à une religion
+          détermine-t-elle une spécificité d’approche, permet-elle d’expliquer
+          le développement d’un certain style de raisonnement<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>Dans le cas de la linguistique, Perrine Simon-Nahum aborde
+              précisément cette question en revenant sur le rôle des savants
+              juifs dans le renouvellement, à la fin du <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi> siècle, de la
+              discipline. <hi rend="small-caps">Simon-Nahum</hi>, 2018.</p>
+            </note> ? <hi rend="bold"/>Il est aussi possible, comme <hi rend="bold"/>l’ambitionna l’historienne <persName ref="027192792" type="idref" xml:base="https://www.idref.fr/">Françoise
+          Waquet</persName>, de suivre les traces de cet imaginaire religieux
+          dans les genres dits « mineurs » de la littérature savante que sont
+          les nécrologies, les hommages et les mélanges<note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>Surtout <hi rend="small-caps">Waquet</hi>, 2008 et <hi rend="small-caps">Waquet</hi>, 2010.</p>
+            </note>, ou encore les autobiographies qui fleurissent au détour
+          du <date from="1700" to="1899" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> et du <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>. Ses
+          fameuses « égo-histoires » rédigées par plusieurs historiens de
+          renom sur la demande de <persName ref="027049582" type="idref" xml:base="https://www.idref.fr/">Pierre Nora</persName> en <date type="_temp" when="1987">1987</date> offriraient sans conteste des
+          perspectives passionnantes. Entre réflexion sur la réflexivité,
+          parcours intellectuel et récit de vie, ces égo-histoires visant à
+          faire de la « vie » de l’historien un matériau comme les autres nous
+          révèlent combien l’activité d’historien est pleinement dépendante
+          d’enracinements biographiques et psychologiques, mais également
+          religieux. <persName ref="026782944" type="idref" xml:base="https://www.idref.fr/">Pierre Chaunu</persName> ne fait
+          aucun mystère de son « itinéraire spirituel<note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>
+                <hi rend="small-caps">Nora</hi>, 1987, p. 93.</p>
+            </note> » qu’il juge indispensable pour comprendre le choix de ses
+          objets historiques. <persName ref="026690195" type="idref" xml:base="https://www.idref.fr/">Philippe Ariès</persName> semble
+          suggérer que « la création historique est un phénomène de nature
+          religieuse », impliquant de renoncer aux principes de la
+          connaissance objective et au respect de la réflexion critique<note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>
+                <hi rend="italic">Ibid</hi>., p 166.</p>
+            </note>. <persName ref="026973065" type="idref" xml:base="https://www.idref.fr/">Jacques Le Goff</persName>, pour sa
+          part, reviendra longuement dans son récit sur le contraste qui
+          existait, durant son enfance, entre sa mère, « la chrétienne du
+          christianisme de la peur », et son père, « l’anticlérical », qui
+          vécut « dans la détestation d’une Eglise antisémite<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>
+                <hi rend="italic">Ibid</hi>., p. 189.</p>
+            </note> ». Une opposition structurante à laquelle il fait remonter
+          son choix de ne pas vouloir approcher la question religieuse au
+          travers de la théologie médiévale, mais bien à partir de la
+          sensibilité des gens envers les rites et les pratiques religieuses.
+          Comme pour <persName ref="027067319" type="idref" xml:base="https://www.idref.fr/">Michelle Perrot</persName>, la
+          Bible était chez lui « un livre de chevet », « un livre
+          fondateur<note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>
+                <hi rend="italic">Ibid</hi>., p. 244.</p>
+            </note> » ! Dans quelques cas, l’appartenance à une religion se
+          révèle être un fait encore bien plus capital. C’est le cas de
+          <persName ref="032044194" type="idref" xml:base="https://www.idref.fr/">René Rémond</persName> qui précise
+          qu’elle n’a pas seulement eu « une influence décisive sur sa
+          formation » mais aussi sur sa conception philosophique – et donc
+          historique – de l’homme en général<note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>
+                <hi rend="italic">Ibid</hi>., p. 330.</p>
+            </note>. Ajoutons encore à ce premier groupe de récits les propos
+          tenus par <persName ref="027182800" type="idref" xml:base="https://www.idref.fr/">Paul Veyne</persName> qui évoque
+          dans ses mémoires le « monastère laïc de la rue d’Ulm<note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>
+                <hi rend="small-caps">Veyne</hi>, 2014, p. 53-77</p>
+            </note> », ou ceux du médiéviste <persName ref="026840421" type="idref" xml:base="https://www.idref.fr/">Georges
+          Duby</persName> qui eut, on le sait, un rapport difficile avec cet
+          exercice de l’égo-histoire, prévenant son lecteur qu’il
+          « n’exhiberait » dans son récit qu’une part de lui-même, à savoir
+          « l’<hi rend="italic">
+              <foreign xml:lang="lat">ego-faber</foreign>
+            </hi>
+            <note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>
+                <hi rend="small-caps">Duby</hi>, (1983), 2011.</p>
+            </note> ». Au détour d’une simple phrase, alors qu’il évoque son
+          travail d’historien dans les archives durant la rédaction de sa
+          thèse, <persName ref="026840421" type="idref" xml:base="https://www.idref.fr/">Duby</persName> opère un
+          rapprochement pour le moins étonnant entre ses pratiques d’historien
+          et celles des moines bénédictins du <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi> siècle</date>. Comme eux, pour travailler sur les
+          documents d’archives, l’historien n’aurait besoin que d’« une plume,
+          une loupe, des fiches<note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>
+                <hi rend="small-caps">Duby</hi>, 1991, p. 68.</p>
+            </note> ».</p>
+          <p xml:id="d1e583">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-wxtpa7cz">biographie</term>
+              </term>
+            </term>À
+          relire ces différents récits avec cet œil attentif envers la mise en
+          scène de la religiosité, on pourrait en conclure, sans doute un peu
+          trop rapidement, que la mobilisation par les acteurs, historiens ou
+          autres, de la référence religieuse tient surtout à des événements
+          qui jalonnent un parcours de vie, qu’il s’agisse de la
+          fréquentation, enfant, d’un séminaire ou d’un collège jésuite ; de
+          la connaissance d’un prêtre qui a pu jouer un temps un rôle de
+          « maître » ; ou, plus simplement encore, de l’appartenance à une
+          famille ou à un milieu fortement croyant. Il est donc important de
+          dépasser ces « accidents » biographiques pour essayer d’engager une
+          véritable plongée, historique et comparative, dans la diversité des
+          métaphores employées pour évoquer le travail quotidien de
+          l’érudition et de la production du savoir. Rappelons quelques
+          éléments significatifs.<hi rend="bold"/>
+          </p>
+          <p xml:id="d1e587">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités personnelles<term ref="doi:10.34817/sv-2wheojro">patience</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités personnelles<term ref="doi:10.34817/sv-fuukqvyp">humilité</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-vdg9xj5e">pratique rituelle<term ref="doi:10.34817/sv-hrecu3rq">ascétisme</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-wacsop2y">bénédictin</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-ruhjdt4r">scribe</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-92wdfrr5">copiste</term>
+              </term>
+            </term>En <date type="_temp" when="1936">1936</date>, lorsque le slaviste <persName ref="067686680" type="idref" xml:base="https://www.idref.fr/">Paul
+          Boyer</persName> se remémore, après la mort du linguiste <persName ref="027021688" type="idref" xml:base="https://www.idref.fr/">Antoine Meillet</persName>, le
+          travail de ce « moine laïc », « levé dès cinq heures, plus tôt
+          parfois, et constamment debout », l’expression « travail de
+          bénédictin » lui semble particulièrement adéquat<note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>
+                <hi rend="small-caps">Boyer</hi>, 1936.</p>
+            </note>. Cette référence est un habile moyen de souligner le
+          travail zélé, quasi sacerdotal, ascétique certainement aussi, du
+          linguiste qui s’est appliqué sans faille à suivre et à prouver ses
+          grandes hypothèses concernant l’histoire sociale de la langue.
+          Quelques années plus tard, c’est un autre linguiste,
+          indo-européaniste, <persName ref="026843056" type="idref" xml:base="https://www.idref.fr/">Georges Dumézil</persName>, qui
+          mobilise lui aussi une importante figure religieuse, celle du moine
+          copiste, pour qualifier sa pratique de recherche. Cette référence
+          puisée dans les premiers temps du christianisme l’amène à souligner
+          la place importante jouée dans son activité quotidienne par la
+          pratique de la copie, du moins avant l’irruption des techniques
+          mécaniques de duplication (du papier carbone et de la photocopie) au
+          <date type="_temp" when="1965">milieu des années 1960</date>. Se
+          dire moine copiste est aussi un moyen de signifier le rapport
+          particulier qui lie le savant aux livres. Des livres que l’on
+          apprend par cœur en les recopiant, que l’on imite dans ses propres
+          écrits, que l’on ne cesse de commenter, de recommencer ou de
+          poursuivre<note n="43" place="foot" type="standard" xml:id="ftn43">
+              <p>La figure du scribe est plus complexe dans ses ramifications
+              « imaginaires ». Alain Boureau précise par exemple que le
+              travail scriptural ne consiste pas uniquement à copier,
+              rectifier ou annoter, mais aussi à faire émerger du sens. Cette
+              « écriture de l’interstice » est devenue, précise l’historien,
+              l’objet de tout ceux qui « entendent se pencher sur des textes
+              existants pour les faire parler ». <hi rend="small-caps">Boureau</hi>, 2018, p. 79</p>
+            </note>. Mais la figure du scribe lui permet aussi de mettre en
+          avant différentes qualités. Outre la persévérance et le sacrifice de
+          soi que l’on retrouve dans l’imaginaire porté par la figure
+          précédente du bénédictin (mais pensons aussi à l’humilité, la
+          patience, la fidélité ou encore la modestie, qui sont autant de
+          remparts contre la vanité et le péché d’orgueil<note n="44" place="foot" type="standard" xml:id="ftn44">
+              <p>Il suffit de penser à la place de la <hi rend="italic">Libido
+              sciendi.</hi>
+                <hi rend="small-caps">Fages</hi> et <hi rend="small-caps">Guignard</hi>, 2018.</p>
+            </note>), le scribe introduit dans l’imaginaire savant celle de
+          l’expertise qui se manifeste, en particulier, au travers du geste
+          complexe de la correction (<hi rend="italic">emendatio</hi>)<note n="45" place="foot" type="standard" xml:id="ftn45">
+              <p>Dans <hi rend="italic">L’Encyclopédie</hi>, l’article <hi rend="italic">érudition</hi> inscrit cette compétence au cœur
+              des grandes qualités que doit apprendre à maîtriser l’érudit :
+              « De la connoissance de l’Histoire, des Langues &amp; des
+              Livres, naît cette partie importante de l’érudition, qu’on
+              appelle critique, &amp; qui consiste ou à démêler le sens d’un
+              auteur ancien, ou à restituer son texte, ou enfin (ce qui est la
+              partie principale) à déterminer le degré d’autorité qu’on peut
+              lui accorder par rapport aux faits qu’il raconte. » Article
+              disponible en ligne : <ref target="http://enccre.academie-sciences.fr/encyclopedie/article/v5-1856-0/">http://enccre.academie-sciences.fr/encyclopedie/article/v5-1856-0/</ref>
+              </p>
+            </note>. D’autres figures du même genre peuplent les récits
+          savants. On peut trouver encore celle du gyrovaque, cet itinérant
+          solitaire, qui vit dans l’errance, passe de monastère en monastère.
+          Le gyrovaque nous rappelle que l’acquisition des savoirs ne se fait
+          pas sans difficultés. Le savoir ne s’acquiert qu’après une longue
+          pérégrination, comme celle qu’expérimentent les étudiants des
+          premières universités européennes, allant de <placeName ref="3181928" type="geonames" xml:base="https://www.geonames.org/">Bologne</placeName> à
+          <placeName ref="3171728" type="geonames" xml:base="https://www.geonames.org/">Padoue</placeName>, de
+          <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> à <placeName ref="6454034" type="geonames" xml:base="https://www.geonames.org/">Montpellier</placeName>
+            <note n="46" place="foot" type="standard" xml:id="ftn46">
+              <p>Une circulation estudiantine d’autant plus facilitée qu’il y
+              a alors une relative absence de frontières et une langue
+              commune, le latin. C’est au <hi rend="small-caps">xvi</hi>
+                <hi rend="sup">e</hi> siècle que les barrières confessionnelles et
+              étatiques transformeront cette <hi rend="italic">peregrinatio</hi>
+                <hi rend="italic">academica</hi>
+              en « grand tour ». Au <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi> siècle, les migrations étudiantes serviront
+              d’abord à renforcer l’hégémonie de quelques grandes universités.
+              L’attrait, pour les étudiants français, des universités
+              allemandes est alors important. Mais l’inverse est aussi vrai,
+              en particulier dans le cas des indianistes allemands qui
+              viennent se spécialiser à Paris à partir de 1850. <hi rend="small-caps">Rabault-Feuerhahn</hi>, 2008.</p>
+            </note>. On apprend en suivant un chemin, un méandre, des routes
+          sinueuses et parfois des impasses<note n="47" place="foot" type="standard" xml:id="ftn47">
+              <p>
+                <hi rend="small-caps">Roche</hi>, 2003.</p>
+            </note>. C’est en mobilisant une autre figure de l’érudition
+          religieuse qu’il sera possible de dénigrer une certaine tendance de
+          la réflexion intellectuelle ou savante. À partir du <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date>,
+          dire d’un savant qu’il est un « jésuite » est alors le plus sûr
+          moyen de le transformer en un hypocrite, un retors, ou un
+          calomniateur qui ne sait qu’utiliser des jeux de mots et le beau
+          style pour emporter l’adhésion de ses lecteurs et auditeurs<note n="48" place="foot" type="standard" xml:id="ftn48">
+              <p>Ce qui hante l’imaginaire autour du jésuite, c’est la forme
+              particulière d’acquisition du savoir qui est mise en place dans
+              les collèges de l’ordre et qui repose sur un travail rhétorique
+              et argumentatif complexe. Une pédagogie qui implique une
+              certaine forme d’émulation entre pairs, à savoir la dispute.
+              Tout ceci conduit à rendre difficile la perception que le
+              jésuite entretient avec le savoir. C’est en tout cas ce que
+              souligne Diderot dans l’<hi rend="italic">Encyclopédie</hi>
+              lorsqu’il tente, pour son article, d’en proposer une définition.
+              Voir en particulier <hi rend="small-caps">Giard</hi>, 1995.</p>
+            </note>. Le jésuitisme est cette qualité qui pousse un auditoire à
+          penser et agir contre sa volonté. C’est une habile tournure d’esprit
+          qui se fonde sur des techniques rhétoriques éprouvées et qui ne vise
+          pas à ouvrir l’intellect, mais bien plutôt à le réduire et à
+          « emprisonner » toute réflexion, toute science<note n="49" place="foot" type="standard" xml:id="ftn49">
+              <p>
+                <hi rend="small-caps">Nicolas</hi>, 2015</p>
+            </note>.</p>
+          <p xml:id="d1e682">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes
+          d’interaction</term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion<term ref="doi:10.34817/sv-a9vi6zzk">admiration</term>
+              </term>
+            </term>Comme
+          l’a justement remarqué <persName ref="027192792" type="idref" xml:base="https://www.idref.fr/">Waquet</persName>
+            <note n="50" place="foot" type="standard" xml:id="ftn50">
+              <p>Waquet rappelle que les maîtres académique ont aussi des
+              disciples préférés qui deviendront, plus tard, une fois leur
+              apprentissage terminé, de véritables « amis ». Un terme qui fait
+              référence à une parabole biblique où le Christ, en s’adressant à
+              ses disciples, leur dit : « Je vous ai appelé amis, parce que
+              tout ce que j’ai entendu auprès de mon Père, je vous l’ai fait
+              connaître. »<hi rend="bold"/>
+                <hi rend="small-caps">Waquet</hi>,
+              2008, p. 145 et suiv<hi rend="bold">.</hi>
+              </p>
+            </note>, la matrice religieuse de l’érudition va aussi permettre
+          de mettre l’accent sur des types de rapports qui traversent nos
+          mondes académiques, en premier celui entrevu par <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName> dans son
+          ouvrage de <date type="_temp" when="1938">1938</date> entre le
+          maître et le disciple. Tout commence pour le sociologue par la
+          « foi » en son maître, ou au moins dans son travail. Sans cela, rien
+          n’est envisageable ! C’est ce que<hi rend="bold"/>
+            <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName> rappelle à
+          l’historien et archéologue <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Henri Hubert</persName> en
+          évoquant, dans une lettre datée de <date type="_temp" when="1898">1898</date>, le possible recrutement de nouveaux
+          collaborateurs pour la jeune équipe de <hi rend="italic">L</hi>
+            <hi rend="italic">’Année sociologique. </hi>Pour pouvoir en faire
+          partie, insiste <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName>, il faut :
+          « une foi commune et une grande confiance mutuelle ». C’est
+          malheureusement tout ce que ne possède pas le jeune géographe
+          <persName type="_temp">Emmanuel De Martonne</persName> que <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName> décide
+          finalement de ne pas intégrer à l’équipe : « S’il ne croit pas, il
+          vaut mieux qu’il s’abstienne, or quand je l’ai vu, il n’avait pas la
+          foi<note n="51" place="foot" type="standard" xml:id="ftn51">
+              <p>
+                <hi rend="small-caps">Besnard</hi> 1987, p. 494-495.</p>
+            </note> ». Il n’est pas rare que ces étranges métaphores
+          religieuses servent aussi à rendre palpables des jeux parfois encore
+          subtils de positionnements. Parler d’un tel comme d’un
+          « prophète<note n="52" place="foot" type="standard" xml:id="ftn52">
+              <p>
+                <hi rend="small-caps">Clark</hi>, 1973.</p>
+            </note> », c’est souligner – souvent perfidement – son profond
+          désir de se poser en chef de file d’une discipline, d’établir sa
+          propre méthode, ou encore de légitimer ses propres mots-concepts
+          devant un auditoire qu’il espère « recueilli ». Qualifier un autre
+          d’« hérétique », c’est au contraire rendre manifeste son
+          éloignement, tant théorique que méthodologique, aux codes de sa
+          propre discipline. Surnommer un autre de « clerc<note n="53" place="foot" type="standard" xml:id="ftn53">
+              <p>On peut se reporter à la définition que donne Paul Bertand du
+              clerc au <hi rend="small-caps">xii</hi>
+                <hi rend="sup">e</hi> siècle. <hi rend="small-caps">Bertrand</hi>,
+              2015, p. 311-315.</p>
+            </note> », c’est remarquer ses nombreux efforts, souvent vains,
+          pour défendre sa « chapelle<note n="54" place="foot" type="standard" xml:id="ftn54">
+              <p>Robert Mandrou parle des savants de la Renaissance humaniste
+              comme de nouveaux clercs qui s’adressent à leur contemporain :
+              « non plus du haut d’une chaire et dans la certitude de leur
+              savoir, mais au grès de leurs travaux et de leur inspiration ».
+              <hi rend="small-caps">Mandrou</hi>, 1973, p. 229.</p>
+            </note> ». On peut encore ajouter à ce premier panel tous ceux
+          dont on prend les mots soit pour des « oracles »<note n="55" place="foot" type="standard" xml:id="ftn55">
+              <p>Durkheim, alors qu’il enseigne à Bordeaux, est décrit par son
+              recteur d’université comme « un oracle qu’on écoute avec une
+              sorte de ferveur » (AN, F/17/25768). Cité par <hi rend="small-caps">Hirsh</hi>, 2018.</p>
+            </note>, soit pour des « paroles d’évangiles<note n="56" place="foot" type="standard" xml:id="ftn56">
+              <p>Stephen Hawking a souvent été considéré comme une source de
+              sagesse, multipliant les déclarations oraculaires sur la
+              science, ses inévitables progrès, ou l’environnement. <hi rend="small-caps">Levy</hi>, 2019.</p>
+            </note> ». L<hi rend="italic">
+              <hi rend="italic">es désaccords entre savants, aussi, en tout
+              cas lorsqu’ils se disent, font appel à ce spectre de l’érudition
+              religieuse. On lance un « </hi>
+            </hi>anathème »<hi rend="italic"/>
+            <hi rend="italic">
+              <hi rend="italic">pour interdire de fréquenter, de citer, ou
+              même de lire</hi>
+            </hi>
+            <note n="57" place="foot" type="standard" xml:id="ftn57">
+              <p>
+                <hi rend="small-caps">Foa</hi>, 2009</p>
+            </note>
+            <hi rend="italic">
+              <hi rend="italic">.</hi>
+            </hi>
+          </p>
+          <p xml:id="d1e768">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-q5lkydsn">sexe et genre</term>
+            </term>Notons,
+          par ailleurs, la très faible place laissée aux femmes dans cet
+          imaginaire religieux de l’érudition. Une absence qui a pu être
+          interprétée comme une conséquence directe de la cléricalisation de
+          la culture occidentale au <date>Moyen Âge</date>. L’attitude de
+          rejet des clercs chrétiens détenteurs du savoir envers les femmes
+          aurait fini par imprégner subtilement les organisations académiques
+          à travers la Réforme, mais aussi après la laïcisation de
+          l’apprentissage<note n="58" place="foot" type="standard" xml:id="ftn58">
+              <p>
+                <hi rend="small-caps">Noble</hi>, 1992.</p>
+            </note>. Cette lecture du savoir féminin évolue. De nombreuses
+          analyses tentent désormais de préciser, pour le <date>Moyen
+          Âge</date>, le rapport des femmes – en particulier des religieuses –
+          avec l’écrit et l’apprentissage de la lecture. Il semble néanmoins
+          certain que l’avènement de l’université – lieu de savoir
+          essentiellement masculin – est à l’origine d’une différence de
+          reconnaissance entre le savoir féminin et le savoir masculin, et en
+          premier une différence en terme d’autorité<note n="59" place="foot" type="standard" xml:id="ftn59">
+              <p>
+                <hi rend="small-caps">Duval</hi>, 2018</p>
+            </note>.</p>
+          <p xml:id="d1e782">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-muhv7qbv">mandarin</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-xmjgnjyk">université</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines</term>
+            </term>L’institutionnalisation
+          de nouvelles disciplines universitaires, comme l’indologie,
+          l’ethnologie ou encore la linguistique comparée sera, dès la <date from="1850" to="1899" type="_temp">seconde moitié du <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>, un
+          facteur d’évolution de ce lexique vers un imaginaire moins
+          ethno-centré et donc moins christo-centré. C’est le cas, par
+          exemple, de l’emploi du terme magico-religieux de « mana »
+          qu’<persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Henri Hubert</persName>, proche de
+          <persName ref="027019330" type="idref" xml:base="https://www.idref.fr/">Marcel Mauss</persName> et
+          d’<persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Émile Durkheim</persName>, mobilise
+          en en faisant un synonyme de charisme. Avec ce terme, l’historien
+          maugrée contre le rituel inutile des congrès auquel il ne souhaite
+          pas se plier. « Je devrais y aller », écrit-il à <persName ref="027019330" type="idref" xml:base="https://www.idref.fr/">Mauss</persName>, « bien que je
+          considère comme du temps perdu le temps qu’on passe à parloter dans
+          ces congrès. Les nouvelles qu’on y annoncerait, je les connais. Le
+          mana que j’y gagnerais, je n’y tiens pas<note n="60" place="foot" type="standard" xml:id="ftn60">
+              <p>Lettre de Henri Hubert à Marcel Mauss, 4 septembre 1912.
+              Fonds Hubert, Collège de France MAS 45.2: Transcription C.
+              Labaune revue, complétée et corrigée par R. Benthien.</p>
+            </note> […]. » D’autres métissages du même genre mériteraient une
+          attention particulière. Pensons à la manière dont le terme de
+          « mandarin », que nous relions faussement à une pratique religieuse
+          alors qu’il s’agit en fait d’une création administrative<note n="61" place="foot" type="standard" xml:id="ftn61">
+              <p>Une confusion entretenue depuis l’article de Diderot sur la
+              philosophie des Chinois dans <hi rend="italic">l’Encyclopédie</hi>. Dans son importante
+              contribution à la sociologie historique du mandarinat,
+              Jean-François Billeter détailla quelques-uns des nombreux
+              contresens liés aux erreurs de traductions du terme de mandarin
+              qui tantôt a pu être compris comme un synonyme de lettré, tantôt
+              comme celui de lettré-fonctionnaire. Billeter en profite pour
+              rappeler que le trait commun des mandarins est le fait que le
+              savoir joue un rôle de tout premier plan dans la définition de
+              cette classe ouverte. Ceci a pour conséquence de faire de la
+              question de sa défense et de sa perpétuation la grande affaire
+              des mandarins. C’est, insiste le sinologue, « la cause commune
+              de tous ses membres. Ils savent tous qu’en lui gît le secret de
+              leur domination et de leur reproduction ». <hi rend="small-caps">Billeter</hi>, 1977, p. 14. On pourra aussi se
+              référer à l’étude récente de Pablo Blitstein portant sur les
+              concours mandarinaux de la fin du <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi> siècle. Malgré
+              les restrictions : « tout le monde pouvait se présenter aux
+              examens, et si le candidat réussissait, il intégrait le
+              mandarinat. » Ce n’est pas les liens familiaux ou les relations
+              qui permettent aux candidats d’obtenir ce statut mais bien la
+              maitrise d’un certain type de savoir (historiographique,
+              herméneutique sur le confusianisme, et poétique). <hi rend="small-caps">Blitstein</hi>, 2018.</p>
+            </note>, sert, au moins depuis la publication par <persName ref="026713144" type="idref" xml:base="https://www.idref.fr/">Simone
+          de Beauvoir</persName> d<hi rend="italic">
+              <hi rend="italic">es</hi>
+            </hi>
+            <hi rend="italic"> Mandarins </hi>en <date type="_temp" when="1954">1954</date>, à stigmatiser certains abus d’autorité. Les
+          célèbres slogans de <date type="_temp" when="1968-05">mai 1968</date> « Merde au mandarin » ou « Le
+          mandarin est en vous » étaient une manière de prémunir chaque
+          enseignant, mais finalement quiconque souhaiterait se distinguer par
+          son savoir, devant le penchant mandarinal de l’autoritarisme et
+          surtout du conservatisme. Le terme de « <foreign xml:lang="san">guru</foreign> », qui recouvre en <placeName ref="1269750" type="geonames" xml:base="https://www.geonames.org/">Inde</placeName> la fonction
+          d’« enseignant », de « précepteur », de « maître », ou d’initiateur
+          d’une école de pensée autoproclamée ou traditionnelle, va lui aussi
+          connaître un usage important, en premier dans le domaine des
+          indologues. Comme l’a bien repéré <persName ref="027192792" type="idref" xml:base="https://www.idref.fr/">Waquet</persName>, le
+          terme sera utilisé par <persName ref="026865033" type="idref" xml:base="https://www.idref.fr/">Jean Filliozat</persName>,
+          <persName ref="028265149" type="idref" xml:base="https://www.idref.fr/">Abel Bergaigne</persName>,
+          <persName ref="027019330" type="idref" xml:base="https://www.idref.fr/">Marcel Mauss</persName> ou encore
+          <persName ref="026987996" type="idref" xml:base="https://www.idref.fr/">Sylvain Lévi</persName>
+            <note n="62" place="foot" type="standard" xml:id="ftn62">
+              <p>
+                <hi rend="small-caps">Waquet</hi>, 2008, p. 14-15, p. 73.</p>
+            </note>. Mais on le retrouve aussi dans la sociologie d’<persName ref="028063325" type="idref" xml:base="https://www.idref.fr/">Howard
+          Becker</persName> qui, avec, cherche à analyser le rapport au savoir
+          de celui qui « vous dit ce que vous avez besoin de savoir le moment
+          voulu<note n="63" place="foot" type="standard" xml:id="ftn63">
+              <p>
+                <hi rend="small-caps">Becker</hi>, 2016, p. 77.</p>
+            </note> ». Le « griot », lui, connaît un usage similaire chez les
+          africanistes. Alors que le griot est celui qui détient une
+          connaissance des choses d’origine magique ou initiatique, le terme
+          est mobilisée pour qualifier le rapport de certains ethnologues,
+          comme <persName ref="027110729" type="idref" xml:base="https://www.idref.fr/">Jean Rouch</persName>, <persName ref="028928342" type="idref" xml:base="https://www.idref.fr/">Marcel
+          Griaule</persName> ou <persName ref="027422143" type="idref" xml:base="https://www.idref.fr/">Michel Leiris</persName>, avec leur
+          objet d’études. Il sert, plus particulièrement, à signifier la
+          manière différente que ces trois ethnologues ont eue de rendre
+          compte des récits entendus au cours de leurs observations de
+          terrain. Sous la plume de<hi rend="bold"/>
+            <persName ref="027132234" type="idref" xml:base="https://www.idref.fr/">Léopold
+          Senghor</persName>, dans <hi rend="italic">Comme les lamantins vont
+          boire à la source</hi>
+            <note n="64" place="foot" type="standard" xml:id="ftn64">
+              <p>
+                <hi rend="small-caps">Senghor</hi>, 1956.</p>
+            </note>, la figure du griot, dont une partie de la légitimité
+          procède de son savoir-faire oral et de sa capacité à mélanger des
+          récits chantés, récités, ou psalmodiés, deviendra une figure savante
+          de plein droit, mémoire à la fois d’un peuple, et en même temps
+          symbole d’authenticité et d’africanité.</p>
+          <p xml:id="d1e841">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-raygmypp">compétition</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté</term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-k9wtnbmg">autorité</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+            </term>Nous n’en
+          finissons pas de reconduire dans nos mots et nos expressions cette
+          matrice religieuse du savoir et de l’érudition, y compris lorsqu’il
+          s’agit de rendre compte du fonctionnement ou du mécanisme des
+          organisations académiques. Employée par le sociologue américain
+          <persName ref="031760570" type="idref" xml:base="https://www.idref.fr/">Robert Merton</persName> en
+          référence directe à une phrase de l’Évangile<note n="65" place="foot" type="standard" xml:id="ftn65">
+              <p>Principe que l’on trouve dans Matthieu 25:29 : « Car on
+              donnera à celui qui a, et il sera dans l’abondance, mais à celui
+              qui n’a pas on ôtera même ce qu’il a. »</p>
+            </note>, l’« effet Matthieu<note n="66" place="foot" type="standard" xml:id="ftn66">
+              <p>
+                <hi rend="small-caps">Waquet</hi>, 2008, p. 93 ; <hi rend="small-caps">Merton</hi>, 1968.</p>
+            </note> » est une manière habile de désigner les mécanismes par
+          lesquels les plus favorisés tendent à accroître leur avantage sur
+          les autres. Comment les scientifiques, mais aussi les universités
+          les plus reconnues, arrivent-ils à entretenir leur domination sur le
+          monde de la recherche ? On peut évoquer aussi la manière dont
+          <persName ref="027715078" type="idref" xml:base="https://www.idref.fr/">Pierre Bourdieu</persName>, dans
+          son <hi rend="italic">Homo Academicus</hi>, en poursuivant
+          l’hypothèse de <hi rend="italic">L</hi>
+            <hi rend="italic">’Evolution
+          pédagogique en France</hi> de <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName>, débusque les
+          dispositifs par lesquels un professeur-chercheur cherche à accumuler
+          un capital d’autorité spécifique, comme en décidant de participer à
+          des congrès et à des colloques que le sociologue compare à des
+          « rites » et des « cérémonies » qui ne sont là que pour accentuer
+          une réputation<note n="67" place="foot" type="standard" xml:id="ftn67">
+              <p>« L’oblation de temps qu’implique la participation à des
+              rites, des cérémonies, des réunions, des représentations, est
+              aussi la condition la plus rigoureusement nécessaire de
+              l’accumulation de cette forme particulière de capital symbolique
+              qu’est une réputation d’honorabilité universitaire : la
+              reconnaissance accordée au groupe, à ses valeurs, à ses
+              obligations, à ses traditions, et aux rituels à travers lesquels
+              il réaffirme son être et sa valeur ». <hi rend="small-caps">Bourdieu</hi>, 1984, p. 129.</p>
+            </note>. La notion de tradition, présente elle aussi dans le
+          lexique bourdieusien, connaît depuis peu un certain regain d’intérêt
+          chez les spécialistes de l’histoire des disciplines. Le terme permet
+          de souligner l’importance des communautés savantes, mais surtout les
+          jeux d’influences et les rivalités qui existent entre ces
+          communautés et des « traditions » savantes souvent antagonistes<note n="68" place="foot" type="standard" xml:id="ftn68">
+              <p>Cherchant à saisir les modes d’organisation intellectuelle
+              des sociologues, Randall Collins distingue par exemple entre
+              plusieurs types de traditions : les traditions loyalistes,
+              ordonnées autour de l’exégèse d’un texte et un héros fondateur :
+              les traditions anonymes, sans figure totémique mais avec des
+              objets discutés ; les traditions avortées en voies de
+              constitution ; et enfin, les anti-traditions. <hi rend="small-caps">Collins</hi>, 1995.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e879">
+          <head subtype="level1" xml:id="d1e880">III.</head>
+          <p xml:id="d1e882">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique
+          lettrée</term>
+            </term>Vouloir analyser cet imaginaire n’est cependant
+          qu’une des faces de l’archéologie religieuse au sens ou l’entendait
+          <persName ref="026774747" type="idref" xml:base="https://www.idref.fr/">de Certeau</persName>. Celle-ci
+          n’est pas qu’une analyse des discours mais se veut aussi une
+          description des « faire ». Plus encore, de l’articulation entre ces
+          deux niveaux. Il s’agit de saisir « des systèmes distincts et
+          combinés », en d’autres termes : « des pratiques et des idéologies
+          s’articulant dans un cas particulier »<note n="69" place="foot" type="standard" xml:id="ftn69">
+              <p>
+                <hi rend="small-caps">De Certeau</hi>, 1975, p. 152-153.</p>
+            </note>.</p>
+          <p xml:id="d1e890">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-rkp2ctq5">pratique manuelle<term ref="doi:10.34817/sv-kitjm6kp">geste</term>
+              </term>
+            </term>C’est sans
+          doute ce que nous permet <persName ref="026840421" type="idref" xml:base="https://www.idref.fr/">Duby</persName>. Replacée dans son
+          contexte, l’incise du médiéviste sur ses pratiques d’historiens peut
+          se lire, justement, comme une profonde réserve envers
+          l’informatisation grandissante qui touche alors de plein fouet la
+          recherche historique<note n="70" place="foot" type="standard" xml:id="ftn70">
+              <p>On peut penser à la manière dont Emmanuel Le Roy Ladurie pose
+              les bases d’une histoire informatisée à la fin des années 1960
+              en compilant massivement des données climatiques. <hi rend="small-caps">Le Roy Ladurie</hi>, (1968), 1973.</p>
+            </note> – un point sur lequel <persName ref="026840421" type="idref" xml:base="https://www.idref.fr/">Duby</persName>
+          reviendra d’ailleurs. Mais il est aussi possible de lire cette
+          phrase comme le signe que cette matrice religieuse de l’érudition
+          moderne s’exprime aussi au travers de pratiques disciplinaires, y
+          compris des gestes routiniers comme le fait de se rendre aux
+          archives pour un historien<note n="71" place="foot" type="standard" xml:id="ftn71">
+              <p>Dans le cas de l’érudition classique, plusieurs ouvrages
+              permettent de dessiner avec bien plus de précision les contours
+              de cette histoire des pratiques érudites et des représentations
+              qui entourent le personnage de l’érudit: <hi rend="small-caps">Gingras, Keating, Limoges</hi>, 2000 ; <hi rend="small-caps">Piégay-Gros</hi>, 2009 ; <hi rend="small-caps">Marx</hi>, 2009 ; <hi rend="small-caps">Hummel</hi>, 2012 ; <hi rend="small-caps">Miller</hi>, 2015 ;<hi rend="bold"/>
+                <hi rend="small-caps">Brizay</hi> et <hi rend="small-caps">Sarrazin</hi>, 2015.</p>
+            </note>. Une investigation historique s’impose là encore. Elle
+          aurait pour fonction de saisir comment certaines de nos pratiques
+          savantes, surtout des pratiques de lecture et d’écriture, se sont
+          développées, formalisées, et institutionnalisées dans un
+          « environnement » religieux, avant de s’inscrire durablement dans
+          les habitudes des disciplines savantes modernes et/ou
+          contemporaines<note n="72" place="foot" type="standard" xml:id="ftn72">
+              <p>Les travaux pionniers de Bruno Neveu permettraient de
+              reconnaître quelques-unes des grandes pratiques de l’érudition
+              religieuse sous la forme, par exemple, de manières spécifiques
+              de citer et de mobiliser des extraits de textes, de faire
+              marcher sa mémoire par des stratégies mnémotechniques
+              particulières, de prendre des notes, de commenter, de corriger,
+              de développer aussi une certaine habileté dans la lecture des
+              textes (en particulier la maitrise du latin). Ajoutons aussi sur
+              ce point la manière dont Pierre Gibert est revenu sur
+              l’avènement d’une lecture critique de la Bible qui, avec le
+              développement de l’imprimerie, s’affranchit de la théologie et
+              de la lecture allégorique voulue par les Pères de l’Église pour
+              au contraire chercher d’abord à établir un texte sûr. <hi rend="small-caps">Gibert</hi>, 2010.</p>
+            </note>.</p>
+          <p xml:id="d1e934">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-vh4rb2gf">annotation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-xbaqxjoe">madrasa</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-gznzb4bl">divisions historiques des
+          savoirs<term ref="doi:10.34817/sv-yb6dc8iv">scolastique</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités personnelles<term ref="doi:10.34817/sv-8jtmckvz">compétence</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+            </term>Concernant
+          l’écriture savante – que l’on peut définir, dans un sens large,
+          comme un type d’écrit relevant d’un professionnel dont l’ambition
+          est à la fois de revendiquer son appartenance à un réseau constitué
+          et d’obtenir de ce réseau une certaine forme de légitimité et de
+          reconnaissance – les hypothèses anthropologiques de <persName ref="026897180" type="idref" xml:base="https://www.idref.fr/">Jack
+          Goody</persName> établissent depuis longtemps l’existence d’un lien
+          fort entre le développement de ce type d’écrit et celui des
+          religions du livre qui ont mis en place différents moyens sous forme
+          d’infrastructures spécifiques pour entourer la pratique de l’écrit,
+          qu’il s’agisse de bâtiments (<hi rend="italic">
+              <foreign xml:lang="lat">scriptorium</foreign>
+            </hi>, <foreign xml:lang="ara">madrassa</foreign>) ou de
+          personnels qualifiés. Elles ont surtout associé à cette compétence
+          particulière de l’écrit des dotations économiques, du prestige, et
+          de l’influence<note n="73" place="foot" type="standard" xml:id="ftn73">
+              <p>
+                <hi rend="small-caps">Goody</hi>, 2017. Mais on peut aussi
+              penser à la manière dont Stroumsa, dans les <hi rend="italic">Lieux de savoir</hi>, fait également de cette
+              question un point commun entre diverses écoles ou traditions
+              spirituelles. <hi rend="small-caps">Stroumsa</hi>, 2005.</p>
+            </note>. Aux yeux de l’anthropologue, le développement de
+          l’« art » religieux de l’écrit a fini par imposer un mode
+          particulier d’organisation des savoirs, de nouvelles méthodes
+          interprétatives, mais surtout, et comme l’avait pressenti <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+            <note n="74" place="foot" type="standard" xml:id="ftn74">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 1971.</p>
+            </note>, l’instauration de nouveaux modes d’accès, souvent
+          restrictifs, aux savoirs. Le sociologue des sciences <persName ref="030295300" type="idref" xml:base="https://www.idref.fr/">Edgar
+          Zilsel</persName>, lui aussi, tout en analysant le rapport des
+          érudits aux textes a rapidement perçu à l’oeuvre – et ce quelle que
+          soit la tradition religieuse d’appartenance – l’existence d’une
+          rationalité scolastique identique qu’il exprime ainsi : « Brahmanes
+          en <placeName ref="1269750" type="geonames" xml:base="https://www.geonames.org/">Inde</placeName>, théologiens
+          bouddhistes au <placeName ref="1861060" type="geonames" xml:base="https://www.geonames.org/">Japon</placeName>, scolastiques
+          médiévaux arabes et catholiques : tous se conforment à leurs
+          méthodes à un degré inouï. Les talmudistes juifs procédaient de la
+          même manière […]. Tenus au respect des autorités, ils privilégiaient
+          les citations et exprimaient leurs opinions sous la forme dominante
+          de commentaires et de compilations<note n="75" place="foot" type="standard" xml:id="ftn75">
+              <p>
+                <hi rend="small-caps">Zilsel</hi>, 2018.</p>
+            </note> ». À en croire <persName ref="030295300" type="idref" xml:base="https://www.idref.fr/">Zilsel</persName>, la pratique du
+          commentaire et celle de la compilation seraient deux modes d’écrits
+          propres aux mondes religieux qui se sont retrouvés projetés et
+          légitimés dans les mondes académiques sécularisés. Une hypothèse
+          suggestive qui demanderait encore à être enrichie par une
+          observation de la complexité et de la densité de ces écritures dites
+          savantes, des gestes d’écritures, de l’usage de certains supports,
+          mais aussi de la maîtrise graphique que l’on peut acquérir dans ce
+          type de rationalité scolastique. Une maîtrise qui, par ailleurs,
+          demanderait à être contextualisée, d’un côté, avec les autres
+          « spécialistes » de l’écrit (copistes, notaires, écrivains,
+          fonctionnaires…) qui opèrent dans la même culture graphique et, de
+          l’autre, dans le cadre plus vaste des pratiques d’écrits dits
+          « ordinaires<note n="76" place="foot" type="standard" xml:id="ftn76">
+              <p>Voir <hi rend="small-caps">Bertrand</hi>, 2015, mais aussi
+              <hi rend="small-caps">Fabre</hi>, 1993.</p>
+            </note> ». C’est de cette manière qu’<persName ref="028492315" type="idref" xml:base="https://www.idref.fr/">Anthony
+          Grafton</persName> interrogea le travail érudit de mise en page de
+          <persName ref="027931161" type="idref" xml:base="https://www.idref.fr/">Pierre Bayle</persName> pour
+          l’édition de son dictionnaire. Un travail d’annotation marginale qui
+          visait à référencer, commenter et au besoin corriger l’ensemble des
+          éléments présentés sur la page. Comme l’indique <persName ref="028492315" type="idref" xml:base="https://www.idref.fr/">Grafton</persName>, ce travail de
+          <persName ref="027931161" type="idref" xml:base="https://www.idref.fr/">Bayle</persName> s’origine en fait
+          dans trois traditions graphiques différentes qui ont finit par
+          s’accorder. En premier, on retrouve la pratique de la compilation
+          propre aux premiers encyclopédistes antique, à l’exemple de
+          <persName ref="026668149" type="idref" xml:base="https://www.idref.fr/">Pline l’Ancien</persName>. En
+          second, <persName ref="028492315" type="idref" xml:base="https://www.idref.fr/">Grafton</persName> note l’influence
+          de la pratique du commentaire et de la glose des érudits humanistes.
+          Enfin, et peut-être surtout, l’érudition de <persName ref="027931161" type="idref" xml:base="https://www.idref.fr/">Bayle</persName> puise aux
+          pratiques proprement ecclésiastique qui s’ancre pour une bonne part
+          dans la manière dont <persName type="_temp">Eusèbe</persName>, pour
+          rédiger son <hi rend="italic">Histoire ecclésiastique</hi>, fonde un
+          système argumentatif complexe qui articule des documents officiels,
+          des témoignages et des archives<note n="77" place="foot" type="standard" xml:id="ftn77">
+              <p>
+                <hi rend="small-caps">Grafton</hi>, 2015, p. 150-151</p>
+            </note>.</p>
+          <p xml:id="d1e983">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-l4zvkhy5">fiche</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-qyxkjpqw">compilation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-wvqbejdv">citation</term>
+              </term>
+            </term>Peut-on
+          aller plus loin et, par exemple, voir comment la pratique des lieux
+          communs constituerait, elle aussi, un objet d’étude permettant de
+          repérer certains points de passage entre « rationalité scolastique »
+          et « rationalité scientifique » ? Ces collections de citations, le
+          plus souvent en latin et méthodiquement organisées par entrées,
+          viennent prendre la place des <hi rend="italic">
+              <foreign xml:lang="lat">Florilegia</foreign>
+            </hi> du <date>Moyen Âge</date>, l’outil de base du prédicateur
+          qui se concentrait alors sur la Bible et les Pères de l’Église<note n="78" place="foot" type="standard" xml:id="ftn78">
+              <p>
+                <hi rend="small-caps">Moss</hi>, 2004.</p>
+            </note>. À partir du <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi> siècle</date>,
+          cette pratique des lieux communs occupera une place centrale dans
+          les méthodes d’enseignement. Les choix d’extraits évoluent
+          progressivement et on a pu noter tant une diminution des citations
+          ayant un rapport direct avec une dimension strictement spirituelle
+          qu’une augmentation d’extraits servant à l’acquisition d’un savoir
+          (technique ou pratique). Le lieu commun deviendra un instrument
+          essentiel au travail érudit, à la fois parce qu’il donne au savant
+          un accès plus rapide aux textes à partir desquels il décide de
+          fonder sa réflexion, mais aussi parce qu’il oblige le savant à
+          développer des techniques documentaires spécifiques que l’on va
+          retrouver, pour certaines d’entre elles, à la base des catalogues
+          méthodiques et de la plupart des indexations modernes. Il est
+          possible de faire une analyse similaire pour la pratique de la mise
+          en fiche<hi rend="bold"/> qui prend de l’ampleur, en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, durant la
+          <date from="1750" to="1799" type="_temp">seconde moitié du <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date>,
+          avec le travail de l’abbé <persName ref="034969659" type="idref" xml:base="https://www.idref.fr/">François Rozier</persName> (<date from="1734" to="1793" type="_temp">1734-1793</date>). Formé à
+          <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName> par les
+          jésuites, ce-dernier décide de composer sa <hi rend="italic">Nouvelle table des articles contenus dans les volumes
+          de l’Académie royale des sciences de Paris, depuis 1666
+          jusqu’en 1770</hi> en apposant plusieurs références bibliographiques
+          sur le verso de cartes. Ce geste a priori anodin préfigure pourtant
+          un profond changement dans les mondes savants, puisque <persName ref="034969659" type="idref" xml:base="https://www.idref.fr/">Rozier</persName> instaure une
+          première forme d’uniformisation de l’accumulation des références
+          bibliographiques et des notes de bas de page dont le rôle devient
+          central dans la construction « tragique » des savoirs académiques
+          modernes<note n="79" place="foot" type="standard" xml:id="ftn79">
+              <p>
+                <hi rend="small-caps">Bert</hi>, 2016 ; <hi rend="small-caps">Grafton</hi>, 1998.</p>
+            </note>.</p>
+          <p rend="break" xml:id="d1e1020"> </p>
+          <p xml:id="d1e1022">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-dy2vagnj">index</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-3ryxnaxd">style<term ref="doi:10.34817/sv-vaxflqnz">lisibilité</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-ytvep88b">page</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion<term ref="doi:10.34817/sv-qgdxlfpw">christianisme</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique
+          corporelle<term ref="doi:10.34817/sv-txvzung7">méditation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+              </term>
+            </term>Pour ce
+          qui concerne la lecture savante, le moment du christianisme antique
+          qui connait le passage du <foreign xml:lang="lat">
+              <hi rend="italic">volumen</hi>
+            </foreign> au <hi rend="italic">
+              <foreign xml:lang="lat">codex</foreign>
+            </hi> à partir du <date from="0100" to="0199" type="_temp">
+              <hi rend="small-caps">ii</hi>
+              <hi rend="sup">e</hi> siècle</date>, a
+          souvent été vu comme un important moment de rupture que les
+          démonstrations de <persName ref="028431006" type="idref" xml:base="https://www.idref.fr/">Brian Stock</persName>, entre
+          autres, permettent désormais de mieux mettre en perspective.
+          L’historien clarifie en effet la place de la lecture à côté des
+          pratiques méditatives, rappelant pourquoi la lecture à haute voix
+          (liée à l’usage de la <hi rend="italic">
+              <foreign xml:lang="lat">scriptio continua</foreign>
+            </hi> qui ne sépare pas les mots les uns des autres) gagne au
+          premier temps du christianisme en prestige, instaurant un rapport
+          direct à Dieu<note n="80" place="foot" type="standard" xml:id="ftn80">
+              <p>Comme l’indique Stock : « La figure qui a fourni à
+              l’Antiquité tardive le modèle du lecteur-penseur est celle
+              d’Augustin : il a décrit la manière dont la lecture permet à
+              l’individu de se retirer dans un espace privé, intérieur, où il
+              peut faire l’examen de ses actions et de ses motifs sous la
+              forme d’une « relecture » du passé. » <hi rend="small-caps">Stock</hi>, 2005, p. 29.</p>
+            </note>. À partir du <date from="0500" to="0599" type="_temp">
+              <hi rend="small-caps">vi</hi>
+              <hi rend="sup">e</hi> siècle</date>, c’est
+          pourtant la lecture à voix basse qui s’officialise dans une grande
+          partie des congrégations religieuses. Celle-ci devient le signe
+          d’une lecture attentive, centrée alors sur un seul livre, la Bible
+          qui sera lu, relu, paraphrasé, imité, commenté, appris par cœur, et
+          décoré. Cette lecture, comme le rappelle l’historien de l’écrit
+          italien <persName ref="028560264" type="idref" xml:base="https://www.idref.fr/">A. Petrucci</persName>, facilite
+          pour le lecteur la saisie du sens de textes souvent complexes, et
+          pas uniquement théologique<note n="81" place="foot" type="standard" xml:id="ftn81">
+              <p>
+                <hi rend="small-caps">Petrucci</hi>, 2019, p. 69</p>
+            </note>. A cette première rupture s’ajoute une autre modification
+          d’ampleur qui se met en place au détour du <date from="1100" to="1199" type="_temp">
+              <hi rend="small-caps">xii</hi>
+              <hi rend="sup">e</hi> siècle</date>. Comme le démontre <persName ref="066876982" type="idref" xml:base="https://www.idref.fr/">Ivan
+          Illich</persName>, c’est durant le siècle d’<persName ref="028685954" type="idref" xml:base="https://www.idref.fr/">Hugues
+          de Saint-Victor</persName> que l’on peut voir apparaître un travail
+          inédit sur la page manuscrite. Les scribes décident de donner des
+          titres aux chapitres, de multiplier les procédés de recherche dans
+          le texte sous forme d’index, de tables de concordances, ou encore de
+          catalogues, de sommes, de glossaires ou d’abrégés<note n="82" place="foot" type="standard" xml:id="ftn82">
+              <p>L’« éthologie historique des habitudes de lecture
+              médiévales » que défend Illich démontre, surtout, que le travail
+              sur la page n’a pas pour origine la révolution de l’imprimé,
+              mais bien plutôt le travail des scribes, que la reproduction
+              mécanique du livre viendra formaliser deux siècles plus tard.
+              <hi rend="small-caps">Illich</hi>, (1991), 2005, p. 562.</p>
+            </note>. On semble prendre conscience de l’impossibilité de
+          pouvoir tout lire, et donc de pouvoir se souvenir de tout ce qu’il
+          est désormais possible de lire<note n="83" place="foot" type="standard" xml:id="ftn83">
+              <p>
+                <hi rend="small-caps">Illich</hi>, (1991), 2005.</p>
+            </note>. Si ce changement est graphique, car la page est désormais
+          pensée comme un texte optiquement organisé, cela va aussi avoir des
+          effets très concrets sur les pratiques de lecture et le rapport aux
+          textes. L’on passe d’un acte de lecture proprement liturgique et
+          collectif à une pratique du feuilletage qui est individualiste et
+          silencieuse. La recherche de la sagesse, d’une forme de méditation
+          ou encore d’un dialogue avec Dieu, s’efface désormais devant cette
+          nouvelle pratique du livre qui encourage une lecture rapide, active,
+          réflexive, et de plus en plus souvent critique<note n="84" place="foot" type="standard" xml:id="ftn84">
+              <p>
+                <hi rend="small-caps">Saenger</hi>, 1997.</p>
+            </note>. Comme l’indique <persName type="_temp">Henri-Jean
+          Marin</persName>, c’est durant le <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date> que la lecture va cesser d’être
+          essentiellement religieuse. La mode est au roman épistolaire dont
+          est particulièrement friand un nouveau public, celui des « honnête
+          gens ». Il s’agit là pour l’historien du livre d’un dernier
+          changement d’ampleur dans les pratiques de lecture puisqu’il va
+          rejaillir, très directement, sur la conception que l’on se fait
+          alors d’une lecture savante : « On lit désormais des textes
+          nombreux, on passe avec légèreté d’une lecture à l’autre et on
+          n’hésite plus à jeter un imprimé après l’avoir lu, alors qu’on
+          conservait autrefois pieusement de génération en génération de tels
+          documents<note n="85" place="foot" type="standard" xml:id="ftn85">
+              <p>
+                <hi rend="small-caps">Martin</hi> et <hi rend="small-caps">Poulain</hi>, 1987.</p>
+            </note> ».</p>
+          <p xml:id="d1e1096">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-gznzb4bl">divisions historiques des
+          savoirs<term ref="doi:10.34817/sv-gxatb4hf">encyclopédisme</term>
+                </term>
+              </term>
+            </term>La
+          grande révolution qu’apporte le <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date> est le remplacement d’une lecture
+          intensive, interprétative, par une approche « extensive,
+          encyclopédique polyhistorique »<note n="86" place="foot" type="standard" xml:id="ftn86">
+              <p>
+                <hi rend="small-caps">Wittmann</hi>, 2001, p. 365.</p>
+            </note>. Le savant lit avec respect, en ne méprisant aucun savoir,
+          en apprenant de tout le monde. Une lecture profondément redoutée par
+          les différents clergés européens parce qu’elle conduirait
+          inexorablement à une sécularisation de la société dans son ensemble,
+          faisant le lit de l’athéisme<note n="87" place="foot" type="standard" xml:id="ftn87">
+              <p>
+                <hi rend="small-caps">Eco</hi>, 2016, p. 224-227.</p>
+            </note>.</p>
+          <p xml:id="d1e1115">L’« archéologie » des pratiques d’érudition que
+          nous proposons consiste à mettre l’accent sur l’ordinaire de
+          l’activité savante, sa matérialité parfois la plus concrète. Elle
+          permet de désigner, repérer, ou affirmer que la séparation entre
+          science et religion n’a jamais été nette, et encore moins définitive
+          et qu’en fonction des moments, des lieux, ou des questions posées,
+          ce rapport a pu être plus ou moins conflictuel, plus ou moins aigu.
+          Mais elle nous oblige, surtout, à nous heurter à la difficile
+          question des dynamiques historiques, des trajectoires multiples, des
+          moments de transformations, d’articulations, ou de croisements,
+          toujours complexes, qui existent dans le cas des pratiques de
+          lectures et d’écritures savantes<note n="88" place="foot" type="standard" xml:id="ftn88">
+              <p>
+                <hi rend="small-caps">Jacob</hi>, 2018, p. 267.</p>
+            </note>.<hi rend="bold"/>Il suffit, pour s’en convaincre, de
+          rappeler que<hi rend="bold"/>toute lecture savante se manifeste au
+          travers d’une pratique singulière d’écriture qui consiste à lire la
+          plume à la main, en annotant. L’espace de la lecture savante fait
+          nécessairement une place à l’écrit, que ce soit sous la forme d’un
+          commentaire ou d’une <foreign xml:lang="lat">marginalia</foreign>
+          qui vient ponctuer une lecture attentive, précise, et intéressée.
+          D’ailleurs, et comme les lieux communs ou la pratique de mise en
+          fiche, l’annotation marginale serait elle aussi un de ces lieux de
+          l’érudition moderne qui donne à voir la nature exacte du passage que
+          nous essayons d’esquisser entre érudition religieuse et érudition
+          savante. C’est ce que les travaux de <persName ref="056972296" type="idref" xml:base="https://www.idref.fr/">Jean-Marc
+          Châtelain</persName> rendent possible en montrant ce qui est à
+          l’œuvre dans le passage d’un type d’annotation qui, à l’origine,
+          relevait uniquement des autorités chargées de faciliter la
+          localisation de l’information et d’encadrer l’interprétation des
+          textes – en particulier de textes religieux – à des notes qui, à
+          partir de la <date>Renaissance</date>
+            <note n="89" place="foot" type="standard" xml:id="ftn89">
+              <p>
+                <hi rend="small-caps">Châtelain</hi>, 2007.</p>
+            </note>, se diversifient, quittent leur première fonction
+          topologique et deviennent toujours plus personnelles et subjectives.
+          Ces nouvelles annotations participent à transformer le livre en un
+          territoire ouvert qu’il devient possible de visiter et de revisiter
+          en fonction de ses besoins, de l’admiration ou au contraire de la
+          détestation envers ce qui a été écrit, comme pour celui qui a
+          écrit<note n="90" place="foot" type="standard" xml:id="ftn90">
+              <p>Il n’existe pas qu’une seule manière d’annoter, ni une seule
+              raison pour laquelle on décide d’annoter. A l’intérieur de
+              système de notations qui peuvent paraître stable, il est
+              possible d’observer des usages surprenants voire inattendus.
+              C’est ce qu’a inventorié patiemment Gillian Pink (<hi rend="small-caps">Pink</hi>, 2017) pour les annotations de
+              Voltaire en distinguant les traces non verbales (traits
+              verticaux, horizontaux, obliques) et les traces verbales
+              (gloses, corrections, notes de jugements, emplois d’une langue
+              étrangère).</p>
+            </note>.</p>
+          <p xml:id="d1e1142">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-znyuuyni">copie
+          manuscrite</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-rlg2tftf">imitation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-qyzckmpa">mémorisation</term>
+              </term>
+            </term>Quels
+          sont les différents « lieux » d’émergence de l’érudition moderne ?
+          Sur quoi repose le mode d’apprentissage (par cœur, imitation,
+          répétition, copie)<note n="91" place="foot" type="standard" xml:id="ftn91">
+              <p>Plus précisemment : quelles sont les différences entre
+              l’étude du Talmud et l’apprentissage exégétique des moines, et
+              en particulier la place du silence dans cette transmission ?
+              Quelle a été la répercussion de la publication des Agamas à la
+              fin du <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi> siècle sous la forme de textes révisés et
+              imprimés, en premier sur l’idée d’un apprentissage « par cœur »
+              en Inde ? Comment certaines <hi rend="italic">madrasas (médersa)
+              </hi>
+                <hi rend="italic">
+                  <hi rend="italic">disposent l’enfant à faire</hi>
+                </hi>
+                <hi rend="italic"/>un appel parfois intensif à sa mémoire
+              en jouant à la fois sur la psalmodiation et le balancement des
+              corps ?</p>
+            </note> ? Quelle est la valeur ou la non-valeur qui est accordée
+          au travail intellectuel ? De quelle manière se passe la transmission
+          d’un texte<note n="92" place="foot" type="standard" xml:id="ftn92">
+              <p>Il suffit de penser à la pratique du séminaire, à laquelle
+              vient de s’intéresser la dernière livraison de la revue <hi rend="italic">Raisons politiques</hi> en rappelant que, si ce
+              genre d’enseignement apparaît à la fin du <hi rend="small-caps">xviii</hi>
+                <hi rend="sup">e</hi> siècle dans
+              les mondes académiques, il est en fait depuis le <hi rend="small-caps">xvi</hi>
+                <hi rend="sup">e</hi> siècle le lieu
+              de formation des prêtres. Voir <hi rend="small-caps">Caré</hi>
+              et <hi rend="small-caps">Châton</hi>, 2018 ; <hi rend="small-caps">Julia</hi> 1988.</p>
+            </note> ? Comment les érudits religieux appréhendent-ils le
+          "travail" documentaire ? Quelle place font-ils aux outils et
+          instruments graphiques, en particulier de type mnémotechnique, comme
+          la liste ou la fiche, le catalogue ou le glossaire, l’index ou le
+          tableau ? Quel est le rôle joué par certaines valeurs d’origine
+          religieuse qui continuent encore fortement d’irriguer les mondes
+          savants actuels ? Comment, enfin, les savants mettent-ils en scène
+          dans leurs « récits », leurs croyances, leurs rapports aux savoirs
+          et à la « culture » scientifique de leur temps, ou encore la
+          représentation qu’ils se font de l’érudition et de son histoire ?
+          Quel a été, par exemple, le rôle de la valorisation de l’humilité,
+          de l’honnêteté, du travail méthodique, du contrôle ou de la
+          responsabilité, et au contraire de la condamnation de l’oisiveté
+          dans le développement des sciences modernes ? Est-ce uniquement un
+          rôle motivationnel – un ressort pour lutter contre l’oisiveté –, ou
+          une manière d’accepter plus facilement pour les savants l’existence
+          de contradictions parfois flagrantes entre leurs croyances et les
+          explications de type scientifiques qu’ils produisent ?</p>
+          <p rend="break" xml:id="d1e1188"> </p>
+          <p xml:id="d1e1191">Voici, en résumé, quelques unes des questions
+          qui ont été posé lors du colloque « Spectres de l’érudition » qui
+          s’est déroulé à l’Université de <placeName ref="7286283" type="geonames" xml:base="https://www.geonames.org/">Lausanne</placeName> du <date from="2018-03-21" to="2018-03-23" type="_temp">21 au 23 mars
+          2018</date> et auquel ont participé <persName ref="026932563" type="idref" xml:base="https://www.idref.fr/">Christian
+          Jacob</persName>, <persName ref="116365803" type="idref" xml:base="https://www.idref.fr/">Jérôme Lamy</persName>, <persName ref="139545050" type="idref" xml:base="https://www.idref.fr/">Fabrice Flückiger</persName>,
+          <persName ref="05046650X" type="idref" xml:base="https://www.idref.fr/">Marc Ratcliff</persName>, <persName ref="033667926" type="idref" xml:base="https://www.idref.fr/">René
+          Wetzel</persName>, <persName ref="050283731" type="idref" xml:base="https://www.idref.fr/">Céline Trautmann-Waller</persName>,
+          <persName ref="112416772" type="idref" xml:base="https://www.idref.fr/">Raphael Rousseleau</persName>,
+          <persName ref="033902755" type="idref" xml:base="https://www.idref.fr/">Daniel-Odon Hurel</persName>,
+          <persName ref="23109597X" type="idref" xml:base="https://www.idref.fr/">Victor Toubert</persName>,
+          <persName ref="03315046X" type="idref" xml:base="https://www.idref.fr/">Nathalie Piegay</persName>,
+          <persName ref="057744890" type="idref" xml:base="https://www.idref.fr/">Antonella Romano</persName>,
+          <persName ref="087894084" type="idref" xml:base="https://www.idref.fr/">Floriane Morin</persName>,
+          <persName ref="181136503" type="idref" xml:base="https://www.idref.fr/">Nicolas Meylan</persName>,
+          <persName ref="229983634" type="idref" xml:base="https://www.idref.fr/">Sébastien Plutniak</persName>,
+          <persName ref="08669930X" type="idref" xml:base="https://www.idref.fr/">Thibaud Trochu</persName>,
+          <persName ref="167516876" type="idref" xml:base="https://www.idref.fr/">Julie Lauvernier</persName> et
+          <persName ref="124409784" type="idref" xml:base="https://www.idref.fr/">Nicolas Adell</persName>.</p>
+          <p xml:id="d1e1193">Ce colloque a bénéficié du soutien financier de
+          l’IHAR (Institut d’histoire et d’anthropologie du religieux) de la
+          FTSR (Faculté de théologie et de sciences des religions), du CIHSR
+          (Centre interdisciplinaire en histoire et sciences des religions),
+          du centre ANHIMA (Anthropologie et histoire des mondes antiques), du
+          CAK (centre Koyre), du LABEX HASTEC (Histoire et anthropologie des
+          savoirs, des techniques et des croyances) et du FNS (Fonds National
+          Suisse). Nous sommes gré à ces institutions de leur appui et de leur
+          soutien.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e1196">
+        <head xml:id="d1e1197">Bibliographie :</head>
+        <listBibl xml:id="d1e1199">
+          <bibl xml:id="d1e1200">
+            <hi rend="small-caps">Becker</hi>, 2016 :
+          Howard <hi rend="small-caps">Becker</hi>, <hi rend="italic">La bonne
+          focale. De l’utilité des cas particuliers en sciences sociales</hi>,
+          Paris, La découverte.</bibl>
+          <bibl xml:id="d1e1210">
+            <hi rend="small-caps">Bernard-Schweitzer</hi>, 2017 : Marion <hi rend="small-caps">Bernard-Schweitzer</hi>, « Bibliothèques de
+          collèges à Paris au Moyen Âge : quand les réguliers inspirent les
+          séculiers », <hi rend="italic">Revue de la BNU</hi>, 15,
+          p. 41-49.</bibl>
+          <bibl xml:id="d1e1220">
+            <hi rend="small-caps">Bert</hi>, 2017 :
+          Jean-François <hi rend="small-caps">Bert</hi>, <hi rend="italic">Une
+          histoire de la fiche érudite</hi>, Lyon, ENSSIB.</bibl>
+          <bibl xml:id="d1e1230">
+            <hi rend="small-caps">Bertrand</hi>, 2015 :
+          Paul <hi rend="small-caps">Bertrand</hi>, <hi rend="italic">Les
+          écritures ordinaires. Sociologie d’un temps de révolution
+          documentaire (1250-1350)</hi>, Paris, Publications de la
+          Sorbonne.</bibl>
+          <bibl xml:id="d1e1240">
+            <hi rend="small-caps">Besnard</hi>, 1987 :
+          Philippe <hi rend="small-caps">Besnard</hi> (éd.), « Lettres de
+          Émile Durkheim à Henri Hubert », <hi rend="italic">Revue française
+          de sociologie</hi>, XXVIII, 3.</bibl>
+          <bibl xml:id="d1e1250">
+            <hi rend="small-caps">Billeter</hi>, 1977 :
+          Jean-François <hi rend="small-caps">Billeter</hi>, « Contribution à
+          une sociologie historique du mandarinat », <hi rend="italic">Actes
+          de la recherche en sciences sociales</hi>, 15, p. 3-29.</bibl>
+          <bibl xml:id="d1e1260">
+            <hi rend="small-caps">Blitstein</hi>, 2018 :
+          Pablo <hi rend="small-caps">Blitstein</hi>, « L’opération
+          typologique. Réforme politique et perceptions de la modernité chez
+          les mandarins chinois au tournant du XX<hi rend="sup">e</hi> siècle », <hi rend="italic">Politix</hi>, 3, n<hi rend="sup">o</hi> 123, p. 63-86. DOI : 10.3917/pox.123.0063. URL :
+          https://www.cairn.info/revue-politix-2018-3-page-63.htm</bibl>
+          <bibl xml:id="d1e1276">
+            <hi rend="small-caps">Bollard</hi>, 2006 :
+          Laurent <hi rend="small-caps">Bollard</hi>, « Le paradoxe de
+          l’érudit. Jérôme et Augustin dans la peinture du Quattrocento », <hi rend="italic">Études théologiques et religieuses</hi>, 2, t. 81,
+          p. 149-166. DOI : 10.3917/etr.0812.0149. URL : <ref target="https://www.cairn.info/revue-etudes-theologiques-et-religieuses-2006-2-page-149.htm">https://www.cairn.info/revue-etudes-theologiques-et-religieuses-2006-2-page-149.htm</ref>
+          </bibl>
+          <bibl xml:id="d1e1288">
+            <hi rend="small-caps">Boureau</hi>, 2018 :
+          Alain <hi rend="small-caps">Boureau</hi>, <hi rend="italic">Le feu
+          des manuscrits. Lecteurs et scribes des textes médiévaux</hi>,
+          Paris, Les Belles Lettres.</bibl>
+          <bibl xml:id="d1e1298">
+            <hi rend="small-caps">Bourdieu</hi>, 1984 :
+          Pierre <hi rend="small-caps">Bourdieu</hi>, <hi rend="italic">Homo
+          académicus</hi>, Paris, Éditions de Minuit.</bibl>
+          <bibl xml:id="d1e1308">
+            <hi rend="small-caps">Boyer</hi>, 1936 : Paul
+          <hi rend="small-caps">Boyer</hi>, «  L’homme et le savant », <hi rend="italic">Revue des études slaves</hi>, 16, 3-4,
+          p. 191-198.</bibl>
+          <bibl xml:id="d1e1319">
+            <hi rend="small-caps">Brice</hi> et <hi rend="small-caps">Romano</hi>, 1999 : Catherine <hi rend="small-caps">Brice</hi>, Antonella <hi rend="small-caps">Romano</hi> (dir.), <hi rend="italic">Sciences et
+          religions. De Copernic à Galilée (1560-1610). Actes du colloque
+          (Rome, déc. 1996)</hi>, Rome, École française de Rome.</bibl>
+          <bibl xml:id="d1e1335">
+            <hi rend="small-caps">Brizay</hi> et <hi rend="small-caps">Sarrazin</hi>, 2015 : François <hi rend="small-caps">Brizay</hi> et Véronique <hi rend="small-caps">Sarrazin</hi> (dir.), <hi rend="italic">Érudition
+          et culture savante de l’antiquité à l’époque moderne</hi>, rennes,
+          PUR.</bibl>
+          <bibl xml:id="d1e1351">
+            <hi rend="small-caps">Brooke</hi> et <hi rend="small-caps">Cantor</hi>, 1998 : John Hedley <hi rend="small-caps">Brooke</hi> et Geoffrey N. <hi rend="small-caps">Cantor</hi>, <hi rend="italic">Reconstructing
+          Nature. The Engagement of Science and Religion</hi>, Edinburgh, T.
+          &amp; T. Clark.</bibl>
+          <bibl xml:id="d1e1367">
+            <hi rend="small-caps">Caré</hi> et <hi rend="small-caps">Châton</hi>, 2018 : Sébastien <hi rend="small-caps">Caré</hi> et Gwendal <hi rend="small-caps">Châton</hi>, « Pratiques du séminaire », <hi rend="italic">Raisons politiques</hi>, 3, n<hi rend="sup">o</hi> 71,
+          p. 5-16.</bibl>
+          <bibl xml:id="d1e1386">
+            <hi rend="small-caps">Carnino</hi>, 2015 :
+          Guillaume <hi rend="small-caps">Carnino</hi>, <hi rend="italic">L’invention de la science, </hi>Paris, Seuil.</bibl>
+          <bibl xml:id="d1e1396">
+            <hi rend="small-caps">Châtelain</hi>, 2007 :
+          Jean-Marc <hi rend="small-caps">Châtelain</hi>, « La note comme
+          fondement de la lecture humaniste », <hi rend="italic">Littératures
+          classiques</hi>, 3, n<hi rend="sup">o</hi> 64, p. 21-32.</bibl>
+          <bibl xml:id="d1e1409">
+            <hi rend="small-caps">Châtelier</hi>, 2003 :
+          Louis <hi rend="small-caps">Châtelier</hi>, <hi rend="italic">Les
+          Espaces infinis et le silence de Dieu. </hi>
+            <hi rend="italic">Science et religion</hi>
+            <hi rend="italic">,
+          16e-19e siècles</hi>, Paris, Aubier.</bibl>
+          <bibl xml:id="d1e1423">
+            <hi rend="small-caps">Clarck</hi>, 1973 :
+          Terry Nichols <hi rend="small-caps">Clarck</hi>, <hi rend="italic">Prophets and patrons, the French University and the
+          emergence of social sciences</hi>, Cambridge, Harvard University
+          Press.</bibl>
+          <bibl xml:id="d1e1433">
+            <hi rend="small-caps">Colins</hi>, 1995 :
+          Randall <hi rend="small-caps">Colins</hi>, « Les traditions
+          sociologiques », <hi rend="italic">Enquête</hi>, 2. URL :
+          http://enquete.revues.org/302 ; DOI : 10.4000/enquete.302</bibl>
+          <bibl xml:id="d1e1443">
+            <hi rend="small-caps">De Candolle</hi>,
+          1873 : Alphonse <hi rend="small-caps">De Candolle</hi>, <hi rend="italic">Histoire des sciences et des savants depuis
+          deux siècles</hi>, H. Georg, Genève-Bâle (2e éd. aug. 1885 ; rééd.
+          partielle Paris, Fayard, 1987). Livre disponible : <ref target="https://archive.org/details/histoiredesscie00cand/page/n10">https://archive.org/details/histoiredesscie00cand/page/n10</ref>
+          </bibl>
+          <bibl xml:id="d1e1455">
+            <hi rend="small-caps">De Certeau</hi> (1975)
+          Michel <hi rend="small-caps">De Certeau</hi>, « Production du temps.
+          Une archéologie religieuse », dans <hi rend="italic">L’écriture de
+          l’histoire</hi>, Paris, Gallimard, p. 145-241.</bibl>
+          <bibl xml:id="d1e1469">
+            <hi rend="small-caps">Duby</hi>,
+          1991 : Georges <hi rend="small-caps">Duby</hi>, <hi rend="italic">L’histoire continue</hi>, Paris, Odile Jacob.</bibl>
+          <bibl xml:id="d1e1479">
+            <hi rend="small-caps">Duby</hi>, 2011 : G.
+          <hi rend="small-caps">Duby</hi>, « Ego-histoire. Première version
+          inédite, mai 1983 », <hi rend="italic">Le Débat</hi>, 3, n<hi rend="sup">o</hi> 165, p. 101-120.</bibl>
+          <bibl xml:id="d1e1492">
+            <hi rend="small-caps">Durkheim</hi>, (1938),
+          2014 : Émile <hi rend="small-caps">Durkheim</hi>, <hi rend="italic">L’Évolution pédagogique en France</hi>, Paris,
+          PUF.</bibl>
+          <bibl xml:id="d1e1502">
+            <hi rend="small-caps">Duval</hi>, 2018 :
+          Sylvie <hi rend="small-caps">Duval</hi>, « La littéracie des femmes
+          à la ﬁn du Moyen Âge. Questions sur l’histoire de la culture, de la
+          lecture et de l’écriture à travers des travaux récents », <hi rend="italic">Médiévales</hi> [En ligne], 75. URL : <ref target="http://journals.openedition.org/medievales/9559">http://journals.openedition.org/medievales/9559</ref> ;
+          DOI : 10.4000/medievales.9559</bibl>
+          <bibl xml:id="d1e1515">
+            <hi rend="small-caps">Eco</hi>, 2016 :
+          Umberto <hi rend="small-caps">Eco</hi>, <hi rend="italic">Comment
+          écrire sa thèse</hi>, Paris, Flammarion.</bibl>
+          <bibl xml:id="d1e1525">
+            <hi rend="small-caps">Fabre</hi>, 1993 :
+          Daniel <hi rend="small-caps">Fabre</hi> (dir.), <hi rend="italic">Écritures ordinaires</hi>, Paris, POL.</bibl>
+          <bibl xml:id="d1e1535">
+            <hi rend="small-caps">Fages</hi>, 2018 :
+          Volny <hi rend="small-caps">Fages</hi>
+            <hi rend="italic">, Savantes
+          nébuleuses. L’origine du monde entre marginalité et autorité
+          scientifique, 1860-1920</hi>, Paris, Éditions de l’EHESS.</bibl>
+          <bibl xml:id="d1e1544">
+            <hi rend="small-caps">Fages</hi> et <hi rend="small-caps">Guignard</hi>, 2019 : Volny <hi rend="small-caps">Fages</hi> et Laurence <hi rend="small-caps">Guignard</hi>, « Introduction », <hi rend="italic">Revue d’histoire du </hi>
+            <hi rend="small-caps italic">xix</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> siècle</hi> [En ligne], 57. URL : <ref target="http://journals.openedition.org/rh19/5921">http://journals.openedition.org/rh19/5921</ref>
+          </bibl>
+          <bibl xml:id="d1e1569">
+            <hi rend="small-caps">Foa</hi>, 2009 :
+          Jérémie <hi rend="small-caps">Foa</hi>, « Le miroir aux clercs. Les
+          disputes théologiques entre catholiques et réformés au début des
+          guerres de Religion », dans Vincent Azoulay, Patrick Boucheron
+          (dir.), <hi rend="italic">Le mot qui tue. Une histoire des violences
+          intellectuelles de l’Antiquité à nos jours</hi>, Seyssel,
+          Champ Vallon, p. 130-146.</bibl>
+          <bibl xml:id="d1e1582">
+            <hi rend="small-caps">Foucault</hi>, 1971 :
+          Michel <hi rend="small-caps">Foucault</hi>, <hi rend="italic">L’Ordre du discours</hi>, Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e1592">
+            <hi rend="small-caps">Giard</hi>, 1995 : Luce
+          <hi rend="small-caps">Giard</hi>, <hi rend="italic">Les Jésuites à
+          la Renaissance, système éducatif et production du savoir</hi>,
+          Paris, Presses universitaires de France.</bibl>
+          <bibl xml:id="d1e1603">
+            <hi rend="small-caps">Gibert</hi>, 2010 :
+          Pierre <hi rend="small-caps">Gibert</hi>, <hi rend="italic">L’invention critique de la Bible </hi>
+            <hi rend="small-caps italic">xv</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic">-</hi>
+            <hi rend="small-caps italic">xviii</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> siècle</hi>, Paris,
+          Gallimard.</bibl>
+          <bibl xml:id="d1e1625">
+            <hi rend="small-caps">Gingras</hi>, 2016 :
+          Yves <hi rend="small-caps">Gingras</hi>, <hi rend="italic">L’impossible dialogue. Sciences et religions</hi>,
+          Paris, PUF.</bibl>
+          <bibl xml:id="d1e1635">
+            <hi rend="small-caps">Gingras</hi>, <hi rend="small-caps">Keating</hi> et <hi rend="small-caps">Limoges</hi>, 2000 : Yves <hi rend="small-caps">Gingras</hi>, Peter <hi rend="small-caps">Keating</hi>, Camille <hi rend="small-caps">Limoges</hi>, <hi rend="italic">Du scribe au
+          savant. Les porteurs du savoir de l’Antiquité à la révolution
+          industrielle</hi>, Paris, PUF.</bibl>
+          <bibl xml:id="d1e1658">
+            <hi rend="small-caps">Goody</hi>, 2018 : Jack
+          <hi rend="small-caps">Goody</hi>, <hi rend="italic">La logique de
+          l’écriture. L’écrit et l’organisation de la société</hi>, Paris,
+          Armand Colin.</bibl>
+          <bibl xml:id="d1e1668">
+            <hi rend="small-caps">Grafton</hi>, 1998 :
+          Anthony <hi rend="small-caps">Grafton</hi>,<hi rend="italic"> Les
+          origines tragiques de l’érudition. Une histoire des notes de bas de
+          pages, </hi>
+            <hi rend="italic">
+              <hi rend="italic">Paris,</hi>
+            </hi>
+            <hi rend="italic"/>
+            <hi rend="italic">
+              <hi rend="italic">Le Seuil</hi>
+            </hi>
+            <hi rend="italic">. </hi>
+          </bibl>
+          <bibl xml:id="d1e1687">
+            <hi rend="small-caps">Grafton</hi>, 2015 : A.
+          <hi rend="small-caps">Grafton</hi>,<hi rend="italic"> La page de
+          l’Antiquité à l’ère du numérique. Histoire, usages,
+          esthétiques</hi>
+            <hi rend="italic">
+              <hi rend="italic">, Paris, Hazan Collection</hi>
+            </hi>
+            <hi rend="italic">.</hi>
+          </bibl>
+          <bibl xml:id="d1e1701">
+            <hi rend="small-caps">Harrison</hi>, 2015 :
+          Peter <hi rend="small-caps">Harrison</hi>, <hi rend="italic">Territories of Science and Religion</hi>
+            <hi rend="italic">. Constructing </hi>
+            <hi rend="italic">the</hi>
+            <hi rend="italic"> Boundaries. </hi>
+            <hi rend="italic">The</hi>
+            <hi rend="italic"> Gifford Lectures</hi>, Chicago, University of Chicago
+          Press.</bibl>
+          <bibl xml:id="d1e1721">
+            <hi rend="small-caps">Hirsch</hi>, 2018 :
+          Thomas <hi rend="small-caps">Hirsch</hi>, « Émile Durkheim, <hi rend="italic">l’Année sociologique</hi> et le « Parti sociologique
+          unifié ». Formes et enjeux du travail collectif (1897-1913) », <hi rend="italic">Mil neuf cent. Revue d’histoire intellectuelle</hi>,
+          1, n<hi rend="sup">o</hi> 36, p. 35-58. URL : <ref target="https://www.cairn.info/revue-mil-neuf-cent-2018-1-page-35.htm">https://www.cairn.info/revue-mil-neuf-cent-2018-1-page-35.htm</ref>
+          </bibl>
+          <bibl xml:id="d1e1739">
+            <hi rend="small-caps">Holton</hi>, 1981 :
+          Gérald <hi rend="small-caps">Holton</hi>, <hi rend="italic">L’imagination scientifique</hi>, Paris, Bibliothèques
+          des sciences humaines.</bibl>
+          <bibl xml:id="d1e1749">
+            <hi rend="small-caps">Hummel</hi>, 2012 :
+          Pascale <hi rend="small-caps">Hummel</hi> (dir.), <hi rend="italic">Labor eruditus</hi>
+            <hi rend="italic">. Études sur la
+          vie privée de l’érudition</hi>, Paris, Éditions Philologicum.</bibl>
+          <bibl xml:id="d1e1761">
+            <hi rend="small-caps">Illich</hi>, 1991 :
+          Ivan <hi rend="small-caps">Illich</hi>, <hi rend="italic">Du lisible
+          au</hi>
+            <hi rend="italic"> visible : </hi>
+            <hi rend="italic">la
+          naissance du texte</hi>
+            <hi rend="italic">. Un commentaire du
+          Didascalicon de Hugues de Saint-Victor</hi>, Paris, Cerf.</bibl>
+          <bibl xml:id="d1e1778">
+            <hi rend="small-caps">Jacob</hi>, 2018 :
+          Christian <hi rend="small-caps">Jacob</hi>, « L’art de lire », dans
+          <hi rend="italic">Des mondes lettrés aux lieux de savoir</hi>,
+          Paris, Les Belles Lettres, p. 259-281.</bibl>
+          <bibl xml:id="d1e1791">
+            <hi rend="small-caps">Julia</hi>, 1988 :
+          Dominique <hi rend="small-caps">Julia</hi>, « L’éducation des
+          ecclésiastiques aux 17<hi rend="sup">e</hi> et 18<hi rend="sup">e</hi> siècles », dans Gérard Delille, Françoise Waquet,
+          Daniel Roche <hi rend="italic">et al</hi>., <hi rend="italic">Problèmes d’histoire de l’éducation</hi>, École
+          française de Rome, p. 141-204.</bibl>
+          <bibl xml:id="d1e1814">
+            <hi rend="small-caps">Koyré</hi>, 2016 :
+          Alexandre <hi rend="small-caps">Koyré</hi>, <hi rend="italic">De la
+          mystique à la science. Cours, conférences et documents,
+          1922-1962</hi>, Paris, Éditions de l’EHESS.</bibl>
+          <bibl xml:id="d1e1824">
+            <hi rend="small-caps">Le Roy Ladurie</hi>,
+          1973 : Emmanuel <hi rend="small-caps">Le Roy Ladurie</hi>, « La fin
+          des érudits : l’historien de demain sera programmateur ou ne sera
+          pas », dans <hi rend="italic">Le territoire de l’historien</hi>,
+          Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e1837">
+            <hi rend="small-caps">Levy</hi>, 2018 : Joel
+          <hi rend="small-caps">Levy</hi>, <hi rend="italic">Hawking. L’homme,
+          le génie, et la théorie du tout</hi>, Paris, G. Trédaniel.</bibl>
+          <bibl xml:id="d1e1847">
+            <hi rend="small-caps">Luciani</hi>, 2018 :
+          Lucrèce <hi rend="small-caps">Luciani</hi>, <hi rend="italic">Le
+          démon de Saint Jérôme, </hi>Paris, La Bibliothèque.</bibl>
+          <bibl xml:id="d1e1857">
+            <hi rend="small-caps">Martin</hi> et <hi rend="small-caps">Poulain</hi>, 1987 : Henri-Jean <hi rend="small-caps">Martin</hi> et Martine <hi rend="small-caps">Poulain</hi>, « Lecture », <hi rend="italic">Encyclopédie Universalis</hi>, 1987. URL : <ref target="http://www.universalis.fr/encyclopedie/lecture/">http://www.universalis.fr/encyclopedie/lecture/</ref>
+          </bibl>
+          <bibl xml:id="d1e1875">
+            <hi rend="small-caps">Marx</hi>, 2009 :
+          William <hi rend="small-caps">Marx</hi>, <hi rend="italic">Vie du
+          lettré</hi>, Paris, Éditions de Minuit.</bibl>
+          <bibl xml:id="d1e1885">
+            <hi rend="small-caps">McMahon</hi>, 2016 :
+          Darrin <hi rend="small-caps">McMahon</hi>, <hi rend="italic">Fureur
+          divine</hi>
+            <hi rend="italic"> Une histoire de génie</hi>, Paris,
+          Fayard.</bibl>
+          <bibl xml:id="d1e1898">
+            <hi rend="small-caps">Mandrou</hi>, 1973 :
+          Robert <hi rend="small-caps">Mandrou</hi>, <hi rend="italic">Des
+          humanistes aux hommes de science </hi>
+            <hi rend="small-caps italic">xvi</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> et </hi>
+            <hi rend="small-caps italic">xvii</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> siècle</hi>, Paris,
+          Le Seuil.</bibl>
+          <bibl xml:id="d1e1920">
+            <hi rend="small-caps">Merton</hi> (1938),
+          2001 : Robert K. <hi rend="small-caps">Merton</hi>, <hi rend="italic">Science, Technology and Society in Seventeenth-Century
+          England</hi>, New York, Howard Fertig.</bibl>
+          <bibl xml:id="d1e1931">
+            <hi rend="small-caps">Merton</hi>, 1968 :
+          Robert K. <hi rend="small-caps">Merton</hi>, « The Matthew effect in
+          Science. The reward and communication systems of science are
+          considered », <hi rend="italic">Science</hi>, 159 (3810),
+          p. 56-63.</bibl>
+          <bibl xml:id="d1e1941">
+            <hi rend="small-caps">Miller</hi>, 2015 :
+          Peter N. <hi rend="small-caps">Miller</hi>, <hi rend="italic">L’Europe de Peiresc. Savoir et vertu au </hi>
+            <hi rend="small-caps italic">xvii</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> siècle</hi>, Paris, Albin Michel.</bibl>
+          <bibl xml:id="d1e1957">
+            <hi rend="small-caps">Mounier</hi>, 2018 :
+          Pierre <hi rend="small-caps">Mounier</hi>, « <hi rend="italic">IBM
+          ou International Busa Machines ? De l’informatique aux
+          humanités »,</hi>
+            <hi rend="italic">in</hi>
+            <hi rend="italic">Les
+          humanités numériques : Une histoire critique</hi> [en ligne], Paris,
+          Éditions de la Maison des sciences de l’homme. DOI :
+          10.4000/books.editionsmsh.12033.</bibl>
+          <bibl xml:id="d1e1973">
+            <hi rend="small-caps">Moss</hi>, 2004 : Anne
+          <hi rend="small-caps">Moss</hi>, <hi rend="italic">Les recueils de
+          lieux communs, méthode pour apprendre à penser à la
+          Renaissance</hi>, Paris<hi rend="italic">
+              <hi rend="italic">, Bibliothèque de l’École des Charte</hi>
+            </hi>
+            <hi rend="italic">s</hi>.</bibl>
+          <bibl xml:id="d1e1989">
+            <hi rend="small-caps">Neveu</hi>, 1994 :
+          Bruno <hi rend="small-caps">Neveu</hi>, <hi rend="italic">Érudition
+          et religion</hi>
+            <hi rend="italic"> aux </hi>
+            <hi rend="small-caps italic">xvii</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> et </hi>
+            <hi rend="small-caps italic">xviii</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> siècles</hi>, Paris,
+          Albin Michel.</bibl>
+          <bibl xml:id="d1e2014">
+            <hi rend="small-caps">Nicolas</hi>, 2015 :
+          Loïc <hi rend="small-caps">Nicolas</hi>, « Jésuites, juifs,
+          Francs-maçons : la rhétorique au service de la conspiration », <hi rend="italic">Diogène</hi>, 1, n<hi rend="sup">o</hi> 249-250,
+          p. 75-87.</bibl>
+          <bibl xml:id="d1e2027">
+            <hi rend="small-caps">Noble</hi>, 1992 :
+          David F <hi rend="small-caps">Noble</hi>
+            <hi rend="italic">,</hi>
+            <hi rend="italic"> A </hi>
+            <hi rend="italic">World Without Women</hi>
+            <hi rend="italic">: The Christian Clerical Culture of Western
+          Science</hi>, New York.</bibl>
+          <bibl xml:id="d1e2043">
+            <hi rend="small-caps">Nora</hi>, 1987 :
+          Pierre <hi rend="small-caps">Nora</hi> (dir.),<hi rend="italic">
+          Essais d’égo-histoire</hi>, Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e2053">
+            <hi rend="small-caps">Orgozelec-Guinchard</hi>, 2017 : Laetitia <hi rend="small-caps">Orgozelec-Guinchard</hi>, « Les formes religieuses
+          de la recherche expérimentale : expérimenter et croire dans la
+          science anglaise du XVII<hi rend="sup">e</hi> siècle », dans <hi rend="italic">Science et religion</hi>, sous la dir. Claude Dargent,
+          Yannick Fer et Raphaël Liogier, Paris, CNRS Éditions,
+          p. 37-56.</bibl>
+          <bibl xml:id="d1e2069">
+            <hi rend="small-caps">Petrucci, 2019 :
+          Armando Petrucci, </hi>
+            <hi rend="italic">Promenades au pays de
+          l’écriture</hi>, Paris, Zones sensibles.</bibl>
+          <bibl xml:id="d1e2075">
+            <hi rend="small-caps">Piégay-Gros</hi>,
+          2009 : Nathalie <hi rend="small-caps">Piégay-Gros</hi>, <hi rend="italic">L’Érudition </hi>
+            <hi rend="italic">imaginaire</hi>,
+          Genève, Droz.</bibl>
+          <bibl xml:id="d1e2088">
+            <hi rend="small-caps">Pink</hi>, 2017 :
+          Gillian <hi rend="small-caps">Pink</hi>, <hi rend="italic">Voltaire
+          à l’ouvrage</hi>, Paris, CNRS Éditions.</bibl>
+          <bibl xml:id="d1e2098">
+            <hi rend="small-caps">Rabault-Feuerhahn</hi>,
+          2008 : Pascale <hi rend="small-caps">Rabault-Feuerhahn</hi>,
+          « Voyages d’études et migrations savantes. Paris, lieu fondateur et
+          provisoire de l’indianisme allemand », <hi rend="italic">Revue
+          germanique internationale</hi> [En ligne], 7. URL : <ref target="http://journals.openedition.org/rgi/405">http://journals.openedition.org/rgi/405</ref> ;
+          DOI : 10.4000/rgi.405</bibl>
+          <bibl xml:id="d1e2111">
+            <hi rend="small-caps">Roche</hi>, 2003 :
+          Daniel Roche, <hi rend="italic">Humeur vagabonde</hi>, Paris,
+          Fayard.</bibl>
+          <bibl xml:id="d1e2118">
+            <hi rend="small-caps">Saenger</hi>, 1997 :
+          Paul <hi rend="small-caps">Saenger</hi>, <hi rend="italic">Space
+          between words. The origins of silent reading</hi>, Stanford,
+          Stanford University Press.</bibl>
+          <bibl xml:id="d1e2128">
+            <hi rend="small-caps">Saint-Martin</hi>,
+          2013 : Arnaud <hi rend="small-caps">Saint-Martin</hi>, <hi rend="italic">La sociologie de Robert K. Merton,</hi> Paris, La
+          Découverte.</bibl>
+          <bibl xml:id="d1e2138">
+            <hi rend="small-caps">Senghor</hi>, 1956 :
+          Léopold Sédar <hi rend="small-caps">Senghor</hi>, <hi rend="italic">Éthiopiques</hi>, Paris, Le Seuil.</bibl>
+          <bibl xml:id="d1e2148">
+            <hi rend="small-caps">Schmitt</hi>, 1989 :
+          Carl <hi rend="small-caps">Schmitt</hi>, <hi rend="italic">Théologie
+          politique</hi>, Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e2158">
+            <hi rend="small-caps">Simon-Nahum</hi>,
+          2018 : Perrine <hi rend="small-caps">Simon Nahum</hi>, <hi rend="italic">Les Juifs et la modernité. L’héritage du judaïsme sans
+          les sciences de l’homme en France au XIX</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> siècle</hi>, Paris, Albin
+          Michel.</bibl>
+          <bibl xml:id="d1e2172">
+            <hi rend="small-caps">Stock</hi>, 2005 :
+          Brian <hi rend="small-caps">Stock</hi>, <hi rend="italic">Bibliothèques intérieures</hi>, Paris, Jérôme
+          Million.</bibl>
+          <bibl xml:id="d1e2182">
+            <hi rend="small-caps">Stroumsa</hi>, 2005 :
+          Guy G. <hi rend="small-caps">Stroumsa</hi>, « Communautés
+          religieuses, communautés de savoir », dans Christian Jacob
+          (dir.),<hi rend="italic"> Les Lieux de savoir I. Espaces et
+          communautés</hi>, Paris, Albin Michel, p. 271-279.</bibl>
+          <bibl xml:id="d1e2195">
+            <hi rend="small-caps">Tort</hi>, 2011 :
+          Patrick <hi rend="small-caps">Tort</hi>, <hi rend="italic">Darwin et
+          la religion</hi>, Paris, Ellipses.</bibl>
+          <bibl xml:id="d1e2206">
+            <hi rend="small-caps">Veyne</hi>, 2014 : Paul
+          <hi rend="small-caps">Veyne</hi>, <hi rend="italic">Et dans
+          l’éternité je ne m’ennuierai pas</hi>, Paris, Albin Michel.</bibl>
+          <bibl xml:id="d1e2216">
+            <hi rend="small-caps">Waquet</hi>, 2008 :
+          Françoise <hi rend="small-caps">Waquet</hi>, <hi rend="italic">Les
+          enfants de Socrate, Filiation intellectuelle et transmission du
+          savoir, </hi>
+            <hi rend="small-caps italic">xvii</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic">-</hi>
+            <hi rend="small-caps italic"> xxi</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> siècle</hi>, Paris, Albin Michel.</bibl>
+          <bibl xml:id="d1e2238">
+            <hi rend="small-caps">Waquet</hi>, 2010 : Fr.
+          <hi rend="small-caps">Waquet</hi>, <hi rend="italic">Respublica
+          academica : Rituels universitaires et genres du savoir (XVII</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic">-XXI</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> siècle)</hi>, Paris,
+          PUPS.</bibl>
+          <bibl xml:id="d1e2256">
+            <hi rend="small-caps">Wittmann</hi>, 2001 :
+          Reinhardt <hi rend="small-caps">Wittmann</hi>, « Une révolution de
+          la lecture à la fin du <hi rend="capitale">xviii</hi>
+            <hi rend="sup">e</hi> siècle », dans Guglielmo Cavallo et Roger Chartier
+          (dir.),<hi rend="italic"> Histoire de la lecture dans le monde
+          occidental</hi>, Paris, Le Seuil, p. 355-392.</bibl>
+          <bibl xml:id="d1e2274">
+            <hi rend="small-caps">Zilsel</hi>, 2018 :
+          Edgar <hi rend="small-caps">Zilsel</hi>, « Les racines sociologiques
+          de la science », <hi rend="italic">Zilsel</hi>, 1, n<hi rend="sup">o</hi> 3, p. 288-309. DOI : 10.3917/zil.003.0288. URL :
+          <ref target="https://www.cairn.info/revue-zilsel-2018-1-page-288.htm">https://www.cairn.info/revue-zilsel-2018-1-page-288.htm</ref>
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,938 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:marcrel="http://www.loc.gov/loc.terms/relators" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-19T16:11:13.738+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="Spectres_03_HUREL">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L’érudition et le concept de réforme en milieu
+        monastique, de Saint-Maur à dom Guéranger (XVII-XIXe s.)</title>
+        <author role="aut">
+          <forename>Daniel-Odon</forename>
+          <surname>Hurel</surname>
+          <affiliation>CNRS – LEM (UMR8584)</affiliation>
+          <idno type="IDREF">033902755</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification 3.0 non transposé - CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/3YUZB448" type="conferencePaper" xml:lang="fre">
+          <analytic>
+            <title level="a">L’érudition et le concept de réforme en milieu
+            monastique, de Saint-Maur à dom Guéranger (XVII-XIXe s.)</title>
+            <author>
+              <forename>Daniel-Odon</forename>
+              <surname>Hurel</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Spectres de l'érudition</title>
+            <editor>
+              <forename>Jean-François</forename>
+              <surname>Bert</surname>
+            </editor>
+            <editor>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Lausanne</pubPlace>
+              <date>2018</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>monachisme</item>
+            <item>érudition</item>
+            <item>histoire</item>
+            <item>monographie</item>
+            <item>Mauristes</item>
+            <item>Mabillon</item>
+            <item>Mars</item>
+            <item>Landévennec</item>
+            <item>hagiographie</item>
+            <item>tradition</item>
+            <item>historiographie</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté</term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-wacsop2y">bénédictin</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-nyffiqcf">moine</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6454611" type="geonames" xml:base="https://www.geonames.org/">Cluny</placeName>
+          </term>
+          <term>
+            <placeName ref="6454549" type="geonames" xml:base="https://www.geonames.org/">Marmoutier</placeName>
+          </term>
+          <term>
+            <placeName ref="6430942" type="geonames" xml:base="https://www.geonames.org/">Landévennec</placeName>
+          </term>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1600" to="1900" type="_temp">XVIIe-XIXe siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-02-17T14:42:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">L’érudition et le concept de réforme en
+          milieu monastique, de Saint-Maur à dom Guéranger (XVII-XIX<hi rend="sup">e</hi> s.)</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Daniel-Odon Hurel</docAuthor>
+          <affiliation>CNRS – LEM (UMR8584)</affiliation>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">La Congrégation de Saint-Maur constitue, dans
+        l’historiographie, un moment central de la définition de l’érudition
+        historique et philologique. La justification de cette œuvre est
+        directement liée à la notion de « réforme » monastique. Quelques
+        moments spécifiques permettent de saisir ces liens structurels entre
+        réforme monastique et érudition : l’inscription de l’érudition dans
+        les origines mauristes (règles communes, circulaires des années 1645
+        contemporaines de la publication des principaux textes normatifs) ;
+        les enjeux de la monographie mauriste (un exemple, la monographie
+        réalisée par dom Noël Mars en 1648 à l’abbaye de Landévennec) ; le
+        modèle mauriste et son rayonnement. Avec Mabillon et les premières
+        années du <hi rend="small-caps" style="typo_SC">xviii</hi>
+          <hi rend="sup" style="typo_Exposant">e</hi> siècle, l’érudition
+        bénédictine devient un marqueur de la réussite d’une réforme, une
+        composante de l’« être » bénédictin : ce sera une des références
+        premières de dom Guéranger dans les années 1825-1835, alors qu’il
+        restaure le monachisme bénédictin en France, au prieuré puis abbaye de
+        Solesmes.</p>
+        <p xml:lang="eng">The Congregation of Saint-Maur constitutes, in
+        historiography, a central moment in the definition of historical and
+        philological erudition. The justification of this work is directly
+        related to the notion of monastic "reform". Some specific moments make
+        it possible to understand these structural links between monastic
+        reform and erudition: the inscription of erudition in the Maurists
+        origins (common rules, circulars of the 1645s contemporaneous with the
+        publication of the main normative texts); the stakes of the Maurist
+        monograph (an example, the monograph executed by Dom Noël Mars in 1648
+        at the Landévennec abbey); the Maurist model and its radiation. With
+        Mabillon and the first years of the eighteenth century, Benedictine
+        scholarship became a marker of the success of a reform, a component of
+        the Benedictine "being": it will be one of the first references of Dom
+        Guéranger in the years 1825-1835, while restoring the Benedictine
+        monasticism in France, to the priory then abbey of Solesmes.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e92">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-evsh5mvc">monastère</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté</term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-wacsop2y">bénédictin</term>
+            </term>
+          </term>Le
+        concept de « réforme » en milieu monastique, bénédictin en
+        particulier, à l’<date>époque moderne</date>, inclut chez les auteurs
+        bénédictins de toute congrégation réformée au <date from="1600" to="1699" type="_temp">
+            <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi> siècle</date> (les Mauristes en particulier) un
+        avant et un après : un avant, souvent qualifié de relâchement et
+        d’éloignement progressifs de la Règle qui impose une réaction ; un
+        après qui consiste à justifier et à reconstruire une continuité
+        monastique après ce qu’il convient d’appeler une rupture, surtout
+        lorsque la mise en œuvre de la réforme passe par le remplacement
+        progressif mais réel d’une communauté ancrée localement et héritière
+        d’un long passé médiéval par une communauté venue de l’extérieur,
+        souvent qualifiée « d’étrangère ». Cette situation détermine,
+        renforce, voire même, définit un regard sur le passé et la
+        reconstruction mémorielle dans laquelle la réforme doit nécessairement
+        s’inscrire. L’érudition est alors l’instrument de légitimation de
+        toute décision politique parfois violente et en tension que constitue
+        la réforme de tout monastère bénédictin ou cistercien moderne.</p>
+        <p xml:id="d1e99">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion<term ref="doi:10.34817/sv-qgdxlfpw">christianisme</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+            </term>
+          </term>C’est tout
+        particulièrement le cas de l’histoire de la réforme mauriste et de la
+        place qu’y occupe ce qui est convenu d’appeler l’érudition mais qui
+        rejoint l’ensemble de la problématique réformatrice, temporelle,
+        matérielle, architecturale et spirituelle ou liturgique. Saint-Maur
+        structure et institutionnalise de manière centralisée et verticale des
+        pratiques érudites qui englobent l’ensemble de dizaines de monastères
+        (190 vers <date type="_temp" when="1700">1700</date>) et la plupart
+        des individus qui les occupent, même si un faible pourcentage de
+        moines sont en capacité d’agir dans ce domaine. L’érudition est
+        d’abord, pendant un long <date from="1600" to="1699" type="_temp">
+            <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi> siècle</date>,
+        affaire collective même si elle est fondée sur le travail de
+        quelques-uns. Elle puise ses objets d’études dans le religieux et le
+        monachisme avant d’entreprendre une mutation fondamentale à partir des
+        <date from="1720" to="1729" type="_temp">années 1720</date>, devenant
+        alors une sorte de société savante monastique, implantée dans toutes
+        les grandes villes de province, même si, une fois de plus, seule une
+        minorité de religieux de plus en plus professionnalisés est concernée.
+        Cette professionnalisation renvoie aussi à la définition du travail
+        dans le monachisme moderne, le travail intellectuel prenant sa place
+        dans le travail en général selon l’esprit de la règle bénédictine.</p>
+        <p xml:id="d1e106">Il convient donc dans les lignes qui suivent
+        d’évoquer quelques lieux d’expression de l’érudition qui semblent
+        directement liés à la « réforme » vécue et construite par les
+        religieux eux-mêmes :</p>
+        <list type="unordered" xml:id="d1e108">
+          <item>l’inscription de l’érudition dans les origines mauristes :
+          règles communes, circulaires des années <date type="_temp" when="1645">1645</date> contemporaines de la publication des
+          principaux textes normatifs ;</item>
+          <item>les enjeux de la monographie mauriste, en prenant
+          principalement un exemple, la monographie réalisée par <persName ref="094308268" type="idref" xml:base="https://www.idref.fr/">dom
+          Noël Mars</persName> en <date type="_temp" when="1648">1648</date> à
+          l’abbaye de <placeName ref="6430942" type="geonames" xml:base="https://www.geonames.org/">Landévennec</placeName> ;</item>
+          <item>l’érudition comme marqueur de la réforme bénédictine à
+          l’époque moderne : le modèle mauriste et son rayonnement.</item>
+        </list>
+        <p xml:id="d1e115">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-wacsop2y">bénédictin</term>
+            </term>
+          </term>Avec
+        <persName ref="028133242" type="idref" xml:base="https://www.idref.fr/">Mabillon</persName> et les premières
+        années du <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi> siècle</date>,
+        l’érudition bénédictine devient un marqueur de la réussite d’une
+        réforme, une composante de l’« être » bénédictin : ce sera une des
+        références premières de <persName ref="02690621X" type="idref" xml:base="https://www.idref.fr/">dom Guéranger</persName> dans les
+        années <date from="1825" to="1835" type="_temp">1825-1835</date>,
+        alors qu’il restaure le monachisme bénédictin en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, au prieuré
+        puis abbaye de <placeName ref="6438500" type="geonames" xml:base="https://www.geonames.org/">Solesmes</placeName>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>
+              <hi rend="small-caps">Barbeau</hi> et <hi rend="small-caps">Hurel</hi>, 2016.</p>
+          </note>. Pour autant, <persName ref="02690621X" type="idref" xml:base="https://www.idref.fr/">dom Guéranger</persName> ne réforme
+        pas, il rétablit la famille bénédictine en choisissant le moment
+        mauriste des origines comme référence. Il cherche à s’inscrire dans
+        une continuité, au-delà des Lumières, du gallicanisme et du
+        jansénisme. Il fait son choix. Il retente l’aspiration érudite comme
+        élément identitaire mais est avant tout confronté à une autre réalité,
+        celle de l’émergence d’une science historique et érudite sécularisée,
+        à l’image de l’École nationale des chartes ou de la reprise de
+        certains travaux collectifs mauristes par l’Institut.</p>
+        <div type="section1" xml:id="d1e131">
+          <head subtype="level1" xml:id="d1e132">L’inscription de l’érudition
+          dans les origines mauristes : règles communes, circulaires des
+          années 1645 contemporaines de la publication des principaux textes
+          normatifs.</head>
+          <p xml:id="d1e134">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-xvtud9se">standardisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-crpfd2ce">formation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités
+          personnelles</term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-rwx5cjuj">oisif</term>
+              </term>
+            </term>Les
+          principaux textes normatifs de la congrégation, soit les
+          déclarations sur la Règle, les constitutions, le rituel et le
+          cérémonial, datent des années <date from="1645" to="1648" type="_temp">1645-1648</date>. Cependant, ils sont le fruit d’une
+          maturation et d’une expérimentation issue d’une trentaine d’années
+          d’existence rythmée par les chapitres généraux annuels puis
+          triennaux et par l’accroissement rapide du nombre de monastères
+          concernés. La question de l’érudition rejoint celle de la lutte
+          contre l’oisiveté, celle de la formation des religieux et celle de
+          la construction identitaire d’une famille au cœur d’une histoire
+          pluriséculaire. Dès les <date from="1630" to="1639" type="_temp">années 1630</date>, cette préoccupation s’impose aux
+          jeunes supérieurs mais c’est véritablement dans ces mêmes années
+          <date from="1645" to="1648" type="_temp">1645-1648</date> que sont
+          diffusés les méthodes de travail et le sens de ce travail. C’est ce
+          dont témoigne une lettre programmatique du <date type="_temp" when="1647-11-13">13 novembre 1647</date> adressée par le supérieur
+          général <persName ref="170010252" type="idref" xml:base="https://www.idref.fr/">Dom Grégoire Tarrisse</persName> à
+          l’ensemble des prieurs locaux : la volonté de travailler aux
+          chroniques de l’ordre bénédictin est affirmée ; les prieurs doivent
+          désigner des religieux qui en sont capables et leur donner les
+          moyens adéquats. Le travail doit se faire en partant de chaque
+          monastère suivant un plan précis et commun, la synthèse de ces
+          dizaines de monographies permettant de constituer une histoire de la
+          <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> bénédictine
+          mais aussi de la jeune congrégation en devenir. Vingt-six points
+          sont abordés : ils concernent pour les onze premiers les différents
+          domaines concernés (l’abbaye et sa localisation, son histoire
+          chronologique, ses dépendances, la succession des abbés, les faits
+          et gestes les plus notables, les réformes, les destructions…) ; un
+          douzième point insiste sur les vies des saints bénédictins du lieu
+          et les manuscrits les concernant (repérage des sources,
+          transcriptions…), sorte de prémices pour les <foreign xml:lang="lat">
+              <hi rend="italic">Acta sanctorum</hi>
+            </foreign> de <persName ref="028133242" type="idref" xml:base="https://www.idref.fr/">Mabillon</persName>, une trentaine
+          d’années plus tard. Quelques alinéas concernent la présentation
+          précise de ces recherches (sources, pagination, transcription) et la
+          nécessité de sortir des seules archives du monastère pour trouver
+          des éléments. Le dernier paragraphe de cette longue circulaire est
+          évidemment essentiel pour notre propos :</p>
+          <quote rend="quotation" xml:id="d1e139">Cet employ estant tres utile
+          et profitable, tant pour le bien de l’Ordre en general que pour la
+          consolation de chaque religieux en particulier, et d’ailleurs très
+          propre pour occuper le temps que plusieurs employent souvent
+          inutilement, en un sujet tres digne de notre profession, delectable,
+          et tres utile à ceux qui s’y employeront, je vous prie donc d’y
+          employer ceux de vostre Monastere qu’en jeugerez capables, tout le
+          temps qui reste apres les exercices et fonctions regulieres<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>
+                <hi rend="italic">Revue Mabillon</hi>, mai 1910, p. 140.</p>
+            </note>.</quote>
+          <p xml:id="d1e147">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-nwe4wpu4">hagiographie</term>
+              </term>
+            </term>Quelques
+          mois plus tard, d’autres circulaires précisent certains aspects :
+          une méthode pour la rédaction des vies des saints et l’utilisation
+          du modèle des travaux d’<persName ref="029861551" type="idref" xml:base="https://www.idref.fr/">André Duchêne</persName> pour la
+          rédaction des histoires des grandes familles nobiliaires
+          monastères<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>« Advis a celuy qui escrira quelque piece pour l’histoire ou
+              quelque vie de saint » (daté du 8 mars 1648), <hi rend="italic">Revue Mabillon</hi>, 1910, p. 141-142.</p>
+            </note> ; une « Méthode pour la recherche des manuscripts »<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>
+                <hi rend="italic">Revue Mabillon</hi>, 1910, p. 142-143.</p>
+            </note>. Enfin, le <date type="_temp" when="1648-05-20">20 mai
+          1648</date>, <persName type="_temp">dom Luc d’Achery</persName>,
+          bibliothécaire de Saint-Germain-des-Prés et organisateur des études
+          au sein de la congrégation, est chargé de rédiger pour le chapitre
+          général un document programmatique de la première importance<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>
+                <hi rend="italic">Revue Mabillon</hi>, 1910, p. 145-150.</p>
+            </note>.</p>
+          <p xml:id="d1e167">
+            <persName type="_temp">Luc d’Achery</persName>
+          commence par rappeler le dessein divin de la réforme monastique en
+          <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, et poursuit
+          en affirmant que, par reconnaissance, les religieux doivent mettre à
+          l’honneur et honorer « quelques grands Saincts, Propagateurs ou
+          Réformateurs de l’Ordre » qui seront autant d’intercesseurs des
+          moines pour l’avenir de la Réforme de Saint-Maur : pour bien
+          commémorer ces saints bénédictins, il faut les connaître et les
+          faire connaître. Ce point est donc à visée spirituelle et
+          dévotionnelle au même titre que le fait, signalé juste ensuite, de
+          « porter plus d’honneur au Saint Sacrement ». La lettre circulaire
+          continue par la réaffirmation de l’exigence d’une bonne formation
+          monastique des jeunes religieux, le choix en particulier de
+          privilégier l’étude au travail manuel :</p>
+          <quote rend="quotation" xml:id="d1e169">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-ewocvyfm">novice</term>
+              </term>
+            </term>L’expérience
+          faict voir qu’on devroit modérer le travail manuel dans les
+          novitiaux, plusieurs en ayant esté comme énervés, et inutiles à la
+          Religion. Des jeunes hommes qui n’ont jamais faict qu’étudier, ne
+          sont pas bien disposés à supporter des grands travaux, il vault
+          mieulx qu’ils employent leurs forces aux principales fonctions de la
+          religion, comme au Service Divin et aultres austérités […] A
+          l’oisiveté on peut remédier, par des bons exercices beaucoup plus
+          nécessaires, en faisant de bonnes lectures, et en se disposant à
+          bien dire la Sainte Messe, et à bien faire le service divin […]
+          c’est pourquoy on devroit laisser le travail libre aux Profex, qui
+          ont passé les trois ans ; leur prescrivant pourtant quelques études,
+          escritures, ou petit mestier qui regarde le bien commun.</quote>
+          <p xml:id="d1e171">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-nyffiqcf">moine</term>
+              </term>
+            </term>Après ces
+          considérations générales qui, bien entendu, inscrivent les études
+          dans la construction du moine, la circulaire présente quelques
+          directions d’études : travailler à l’histoire de l’Ordre et de la
+          Congrégation, « pour le lustre et l’honneur de l’Ordre et de la
+          Congrégation », de manière à recueillir les témoignages des
+          fondateurs de la congrégation encore vivants et d’inscrire dans la
+          mémoire écrite l’expérience initiale réformatrice. Mettre en lumière
+          les vies de « nos saints », qui répond en outre à une demande des
+          séculiers « de grande condition et d’érudition » et utiles aux
+          moines : « nous en apprendrons la pratique de nostre Sainte Règle ;
+          et recevrons par la lecture de ces vies un esprit monastique et
+          solitaire » ; réimprimer les auteurs bénédictins avec obligation de
+          chaque monastère d’acquérir un ouvrage ainsi réédité. Parmi les
+          religieux cités comme aptes à de telles études, figurent <persName ref="094308268" type="idref" xml:base="https://www.idref.fr/">dom
+          Noël Mars</persName> dont nous allons incessamment parler.</p>
+          <p rend="break" xml:id="d1e173"> </p>
+          <p xml:id="d1e175">Cette formalisation et ce choix en matière de
+          stratégie bénédictine sont donc clairement assumés et cohérents.
+          En <date type="_temp" when="1663">1663</date>, dans la première
+          édition des <hi rend="italic">Règles communes et particulières de la
+          Congrégation de Saint-Maur</hi>, la fonction érudite est intégrée au
+          travail du secrétaire du Chapitre ou en lien avec cette
+          fonction :</p>
+          <quote rend="quotation" xml:id="d1e180">Dans le huitième Livre il
+          couchera sommairement en façon de Chronique, les choses remarquables
+          qui se passent au Monastere […] suivant que le Superieur le jugera à
+          propos, pour l’instruction et l’édification de la posterité. Mais
+          avant que de commencer il sera bon que le Superieur fasse faire par
+          quelque personne capable, un abregé de la Fondation du même
+          Monastere, &amp; des choses principales qui y sont arrivées depuis
+          […] De toutes ces choses ainsi écrites pendant le cours de l’année,
+          il en envoiera au Secrétaire du RP Superieur General, tous les trois
+          ans […] une copie […] pour servir à l’Histoire des Monasteres de la
+          Congregation<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>
+                <hi rend="italic">Règles communes et particulières</hi>,
+              1663, p. 95-96.</p>
+            </note>.</quote>
+          <p xml:id="d1e188">Il convient maintenant d’illustrer ce propos par
+          un exemple parmi d’autres, exemple significatif car il date de cette
+          période initiale et est le fruit d’un des religieux cités au
+          chapitre général de <date type="_temp" when="1648">1648</date> comme
+          particulièrement capable, <persName ref="094308268" type="idref" xml:base="https://www.idref.fr/">dom Noël Mars</persName>.</p>
+        </div>
+        <div type="section1" xml:id="d1e190">
+          <head subtype="level1" xml:id="d1e191">Les enjeux de la monographie
+          mauriste : la monographie réalisée par dom Noël Mars en 1648 à
+          l’abbaye de Landévennec.</head>
+          <p xml:id="d1e193">En <date type="_temp" when="1648">1648</date>,
+          <persName ref="094308268" type="idref" xml:base="https://www.idref.fr/">dom Noël Mars</persName> rédige ou
+          achève une « histoire du royal monastère de Guennolé de <placeName ref="6430942" type="geonames" xml:base="https://www.geonames.org/">Landévennec</placeName> »,
+          divisée en cinq chapitres : la vie du saint fondateur, des notes
+          érudites et chronologiques sur cette même vie, une chronique du
+          monastère depuis la fondation jusqu’à l’année <date type="_temp" when="1648">1648</date>, la notice des différents abbés réguliers,
+          commendataires et des prieurs mauristes et enfin, un chapitre
+          consacré aux différentes dépendances du monastère (offices
+          claustraux, prieurés, vicairies…). Comme au <placeName ref="6616911" type="geonames" xml:base="https://www.geonames.org/">Mont-Saint-Michel</placeName>
+          durant la même période ou comme à La Chaise-Dieu quelques années
+          plus tard, il s’agit de répondre à une nécessité : s’approprier un
+          lieu et son histoire mais aussi s’inscrire dans une tradition et une
+          longue durée. <persName ref="094308268" type="idref" xml:base="https://www.idref.fr/">Dom Noël Mars</persName> n’est pas
+          un inconnu. Profès de <placeName ref="6614831" type="geonames" xml:base="https://www.geonames.org/">Redon</placeName> en <date type="_temp" when="1630">1630</date>, il meurt à <placeName ref="6454549" type="geonames" xml:base="https://www.geonames.org/">Marmoutier</placeName> en <date type="_temp" when="1701">1701</date>, à l’âge de 90 ans. Bon
+          gestionnaire et administrateur du temporel, il fut procureur dans
+          différents monastères pendant une quarantaine d’années. C’est donc à
+          la fois comme connaisseur du temporel monastique qu’il s’est attaché
+          à ces lieux de vie. Le travail érudit n’est pas encore une activité
+          en soi pour quelques religieux désignés comme elle le sera à la fin
+          du <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi> siècle</date> avec
+          <persName ref="028133242" type="idref" xml:base="https://www.idref.fr/">Jean Mabillon</persName> par
+          exemple. Nous sommes donc dans le cas de figure évoqué directement
+          par les premiers supérieurs majeurs : les jeunes moines doivent
+          étudier l’histoire des hommes et des lieux de leur famille
+          bénédictine, pour éviter l’oisiveté bien entendu et pour forger un
+          esprit de corps, une identité. Ainsi <persName ref="094308268" type="idref" xml:base="https://www.idref.fr/">dom Noël
+          Mars</persName> rédige l’histoire de plusieurs abbayes :
+          Saint-Laumer de <placeName ref="6448898" type="geonames" xml:base="https://www.geonames.org/">Blois</placeName> (<date type="_temp" when="1646">1646</date>), <placeName ref="6454549" type="geonames" xml:base="https://www.geonames.org/">Marmoutier</placeName>,
+          <placeName ref="6430942" type="geonames" xml:base="https://www.geonames.org/">Landévennec</placeName> et
+          <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Saint-Jacut</placeName>.<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Sur dom Jean Noël Mars, voir <hi rend="small-caps">Lenain</hi>, 2006 où sont réunis l’ensemble
+              des références des œuvres et de la bibliographie le
+              concernant.</p>
+            </note> Parallèlement, et en particulier à la fin de sa vie
+          semble-t-il, <persName ref="094308268" type="idref" xml:base="https://www.idref.fr/">dom Mars</persName> se livre à une
+          traduction commentée du psautier et du bréviaire monastique. La
+          pratique érudite fait donc partie d’un tout, d’une sorte de rapport
+          à la lecture et au travail, tant spirituel qu’intellectuel. L’examen
+          des pièces préliminaires de l’ouvrage sur <placeName ref="6430942" type="geonames" xml:base="https://www.geonames.org/">Landévennec</placeName> est
+          précieux. L’ouvrage lui-même est dédié non pas à <persName ref="027281264" type="idref" xml:base="https://www.idref.fr/">saint
+          Benoit</persName> mais à <persName type="_temp">saint
+          Guennolé</persName>, fondateur du monastère au <date from="0500" to="0599" type="_temp">
+              <hi rend="small-caps">vi</hi>
+              <hi rend="sup">e</hi> siècle</date> grâce auquel, dit l’auteur, les
+          moines à différentes périodes de l’histoire ont accueilli
+          favorablement toute rénovation spirituelle. Il y a là la
+          justification divine, mais inscrite dans l’histoire redécouverte, de
+          toute réforme dans le monachisme :</p>
+          <quote rend="quotation" xml:id="d1e212">A qui doit-on attribuer
+          qu’au mesme temps que quelque réforme s’est levée en France, ce
+          monastère en a esté des premiers honoré, si ce n’est aux prières de
+          celuy qui a tant d’inclination que la régularité soit bien gardée
+          dans son monastère, comme il avait d’affection que l’on y vécut
+          saintement, lorsqu’il était ici-bas ?</quote>
+          <p xml:id="d1e214">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-evsh5mvc">monastère</term>
+              </term>
+            </term>L’usage
+          du présent renforce le lien entre la connaissance de l’histoire du
+          fondateur et le devenir pluriséculaire du lieu, quelques vingt
+          années après l’arrivée de la congrégation de Saint-Maur en <date from="1627" to="1628" type="_temp">1627-1628</date>. Dans la préface
+          au lecteur qui suit, le moine avoue que la « recherche des
+          antiquités de nos monastères » est un véritable plaisir, une
+          concession humaine au service d’une fonction précise : la prise de
+          conscience d’une inscription dans la longue durée d’une histoire,
+          des manifestations de la sainteté des lieux et des hommes alors que
+          les nouveaux religieux sont réformés. Comment transmettre un savoir
+          (« des choses de douze cents ans ») sans « mémoire ny instruction »,
+          d’autant plus que les sources archivistiques ont alors largement
+          disparues ? Pour le moine, c’est l’introduction de la réforme
+          mauriste qui justifie ce travail :</p>
+          <quote rend="quotation" xml:id="d1e216">Comme la divine Bonté a
+          commencé de le remettre sur pied par le moyen d’une réforme,
+          laquelle a commencé de l’exalter tant dans sa régularité que dans
+          ses bastiments nouvellement faicts, j’ay creu, qu’en estant membre,
+          je rendois pas moins de service à <persName type="_temp">s.
+          Guénnolé</persName> et à son monastère si je mettois par ordre ce
+          que je pouvois trouver qui redonnerait à sa louange et à celle de
+          son monastère.</quote>
+          <p xml:id="d1e218">L’indissolubilité des liens entre érudition et
+          réforme est ainsi traduite par la mise en ordre de la mémoire et de
+          l’histoire tout comme la réforme est une mise en ordre matérielle,
+          temporelle et spirituelle au service d’une communauté et
+          d’individus. Chaque chapitre est précédé d’une préface de quelques
+          lignes qui explicite le dessein du chapitre et légitime le travail
+          entrepris :</p>
+          <list type="unordered" xml:id="d1e220">
+            <item>le récit des « mérites des saints » du lieu est nécessaire
+            car c’est grâce à eux que l’abbaye est toujours debout,</item>
+            <item>l’exigence critique conduit parfois à être en désaccord avec
+            ce qui est admis jusqu’ici,</item>
+            <item>la chronologie est essentielle car elle permet de démontrer
+            la continuité au-delà des épreuves de la fidélité monastique et
+            justifie la mise en valeur spirituelle et dévotionnelle du lieu
+            comme en témoigne le nécrologe, ainsi que les réformes successives
+            du monastère depuis le début du <date from="1600" to="1699" type="_temp">
+                <hi rend="small-caps">xvii</hi>
+                <hi rend="sup">e</hi> siècle</date> et dont il hérite (la société de
+            <placeName ref="3030290" type="geonames" xml:base="https://www.geonames.org/">Bretagne</placeName> puis
+            Saint Maur),</item>
+            <item>le rappel de la succession des abbés permet d’inscrire les
+            réformes dans l’action des abbés commendataires et non pas en
+            opposition ou réaction.</item>
+          </list>
+          <p xml:id="d1e234">La monographie telle qu’elle est pratiquée dans
+          la congrégation de Saint-Maur dès les <date from="1640" to="1649" type="_temp">années 1640</date> reflète au mieux cette relation
+          essentielle entre réforme monastique et érudition. Lorsqu’en <date type="_temp" when="1674">1674</date> environ, <persName ref="028133242" type="idref" xml:base="https://www.idref.fr/">dom
+          Jean Mabillon</persName> dresse des « avis pour faire l’histoire des
+          monastères<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>
+                <hi rend="small-caps">Hurel</hi>, 2007, p. 865-870.</p>
+            </note> », il ne fait qu’officialiser et préciser une méthode et
+          entame le chemin de l’externalisation de l’histoire monastique ou de
+          son émancipation du strict cadre bénédictin et mauriste. L’érudition
+          devient alors un caractère du moine bénédictin moderne.</p>
+        </div>
+        <div type="section1" xml:id="d1e242">
+          <head subtype="level1" xml:id="d1e243">L’érudition comme marqueur de
+          la réforme bénédictine à l’époque moderne</head>
+          <p xml:id="d1e245">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-7dh8ptmc">voyage</term>
+              </term>
+            </term>L’historiographie
+          traditionnelle a tendance à fixer le modèle de l’érudition
+          bénédictine autour de la personne de <persName ref="028133242" type="idref" xml:base="https://www.idref.fr/">Jean
+          Mabillon</persName>, décédé en <date type="_temp" when="1707">1707</date>, dont les premières œuvres d’envergure se
+          situent dans les années <date from="1665" to="1670" type="_temp">1665-1670</date>. Pourtant, les pratiques érudites
+          mises en œuvre ainsi que les méthodes préexistent bien entendu et
+          peuvent être assez largement attribuées à d’autres que les
+          bénédictins, les jésuites bollandistes en particulier. J’en veux
+          pour preuves deux éléments : la participation ponctuelle de
+          bénédictins des <date from="1640" to="1649" type="_temp">années 1640</date> à des demandes bollandistes et la
+          pratique certes limitée du voyage littéraire chez certains mauristes
+          à l’image des voyages scientifiques de ces mêmes bollandistes. Pour
+          autant, le moment <persName ref="028133242" type="idref" xml:base="https://www.idref.fr/">Mabillon</persName> est déterminant
+          dans l’histoire du rapport entre vie bénédictine et érudition, entre
+          érudition et dynamique spirituelle. <persName ref="028133242" type="idref" xml:base="https://www.idref.fr/">Mabillon</persName> a
+          inscrit véritablement et durablement l’érudition dans un modèle
+          bénédictin occidental, jusqu’aux lendemains du concile Vatican II.
+          Le moment <persName ref="028133242" type="idref" xml:base="https://www.idref.fr/">Mabillon</persName>, c’est
+          essentiellement d’avoir sorti l’histoire de la tradition monastique
+          de sa première justification, la formation et la connaissance de
+          l’histoire monastique au profit des seuls religieux. Pour ce faire,
+          il utilise deux crises internes.</p>
+          <p xml:id="d1e247">La première est liée aux <foreign xml:lang="lat">
+              <hi rend="italic">Acta sanctorum ordinis sancti Benedicti</hi>
+            </foreign> dans les <date from="1670" to="1679" type="_temp">années  1670</date> qu’il a eu à défendre contre
+          certains de ses confrères lorsqu’il s’agit de définir quels sont les
+          véritables saints bénédictins. Ces débats aboutiront à la fin des
+          <date from="1670" to="1679" type="_temp">années 1670</date> à la
+          rédaction des « Brèves règles pour l’histoire », véritable discours
+          de la méthode dans lequel le bénédictin extrait l’histoire
+          monastique du seul fait monastique pour l’affirmer comme élément
+          constitutif d’une histoire générale. Même si ce texte n’est édité
+          qu’au <date from="1900" to="1999" type="_temp">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date>, la
+          participation de <persName ref="028133242" type="idref" xml:base="https://www.idref.fr/">Mabillon</persName> à la République
+          des lettres consacre cette transformation intellectuelle tout comme
+          l’existence d’autres textes et mémoires similaires de la même
+          période. L’histoire des moines est faite par des moines car ils
+          possèdent les archives mais le produit de l’érudition est destiné à
+          la société dans son ensemble<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>
+                <hi rend="small-caps">Hurel</hi>, 2007, p. 849-951.</p>
+            </note>. La seconde est bien entendu la confrontation avec
+          <persName type="_temp">Rancé</persName> qui aboutit à la publication
+          du <hi rend="italic">Traité des études monastiques</hi> en <date type="_temp" when="1691">1691</date>. Face à un <persName type="_temp">Rancé</persName> qui adopte une lecture pénitentielle
+          de la tradition monastique et bénédictine, <persName ref="028133242" type="idref" xml:base="https://www.idref.fr/">Mabillon</persName>
+          propose un monachisme inscrit dans le monde qui se traduit en
+          particulier par une recherche à la fois approfondie et adaptée aux
+          capacités de chacun et, pour certains, par une prédication par le
+          livre et une production utile à la société et à l’Église.</p>
+          <p rend="break" xml:id="d1e266"> </p>
+          <p xml:id="d1e268">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-nyffiqcf">moine</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-d76zemtb">scriptorium</term>
+              </term>
+            </term>L’érudition
+          historique devient alors un élément constitutif du monachisme
+          moderne que les bénédictins n’ont guère de difficultés à rapprocher
+          du scriptorium médiéval et de la production théologique puis
+          historique des moines médiévaux et de la première modernité. Ce
+          concept de l’utilité du moine grâce à l’étude, porté par un
+          <persName ref="028133242" type="idref" xml:base="https://www.idref.fr/">Mabillon</persName> et ses
+          confrères soutenus par une congrégation puissante à la fin du <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          devient le modèle européen de la réussite de la réforme monastique
+          au cœur du <date from="1700" to="1799" type="_temp">siècle des
+          Lumières</date>. Je ne citerai qu’une œuvre, publiée par <persName ref="111793378" type="idref" xml:base="https://www.idref.fr/">dom
+          Bernard Pez</persName>, bibliothécaire de l’<placeName ref="7536060" type="geonames" xml:base="https://www.geonames.org/">abbaye de
+          Melk</placeName>, en <date type="_temp" when="1716">1716</date> :
+          <hi rend="italic">Bibliotheca benedictino-mauriana seu de Ortu,
+          vitis et scriptis patrum benedictinorum e celeberrima congregatione
+          sancti mauri in Francia</hi>. Cette européanisation du modèle
+          bénédictin moderne rejoint la tradition des histoires des moines
+          illustres d’un <persName ref="201468301" type="idref" xml:base="https://www.idref.fr/">Trithème</persName> au <date from="1500" to="1599" type="_temp">
+              <hi rend="small-caps">xvi</hi>
+              <hi rend="sup">e</hi> siècle</date> mais s’inscrit définitivement dans
+          la sociabilité savante. À ce titre, l’identification « bénédictin »
+          et « érudit » est aussi illustrée par <hi rend="italic">l’Histoire
+          littéraire de la Congrégation de Saint-Maur</hi>, publiée par
+          <persName type="_temp">dom Tassin</persName> en <date type="_temp" when="1770">1770</date>… Plus d’un siècle plus tard, les bénédictins
+          de la congrégation de <placeName ref="6438500" type="geonames" xml:base="https://www.geonames.org/">Solesmes</placeName> (alors
+          appelée congrégation de <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>) publieront,
+          moins de 15 ans après la mort de <persName ref="02690621X" type="idref" xml:base="https://www.idref.fr/">dom
+          Guéranger</persName>, une <hi rend="italic">Bibliographie des
+          bénédictins de la Congrégation de France</hi>. En <date type="_temp" when="1905">1905</date>, <persName ref="028133242" type="idref" xml:base="https://www.idref.fr/">Mabillon</persName> servira
+          d’étendard des bénédictins dans l’affirmation d’une science
+          monastique face à l’anticléricalisme ambiant avec la création, à
+          l’<placeName ref="8504704" type="geonames" xml:base="https://www.geonames.org/">abbaye de Ligugé</placeName>,
+          de la <hi rend="italic">Revue Mabillon</hi>… cédée en <date type="_temp" when="1990">1990</date> au CNRS.</p>
+          <p rend="break" xml:id="d1e293"> </p>
+          <p xml:id="d1e295">Si <persName ref="028133242" type="idref" xml:base="https://www.idref.fr/">Mabillon</persName> a exporté au
+          sein du monde savant l’histoire des institutions monastiques,
+          l’érudition n’a pas cessé de nourrir le moine au cours du <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date>, y
+          compris sur le plan liturgique. Je ne citerai qu’un exemple qui
+          réunit à la fois la justification par l’érudition de la réforme
+          monastique et la nécessaire rationalisation spirituelle et
+          liturgique. Dans les <date from="1650" to="1659" type="_temp">années
+          1650</date>, un moine de l’<placeName ref="12156953" type="geonames" xml:base="https://www.geonames.org/">abbaye de la
+          Chaise-Dieu</placeName>, <persName type="_temp">dom Victor
+          Tiolier</persName>, rédige une monographie de son abbaye, abbaye
+          qui, comme on le sait, fut à la tête d’un réseau monastique européen
+          au <date>Moyen Âge</date> et qui, réformée par Saint-Maur, devient
+          une abbaye parmi d’autres, réduite au simple statut de monastère
+          d’une congrégation et non plus de chef d’ordre. Dans sa monographie,
+          le moine fait l’histoire de la fondation, l’histoire de la
+          succession abbatiale et mentionne l’essentiel de ses fameuses
+          dépendances, en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>, <placeName ref="2510769" type="geonames" xml:base="https://www.geonames.org/">Espagne</placeName> ou
+          <placeName ref="6269131" type="geonames" xml:base="https://www.geonames.org/">Angleterre</placeName>.
+          Un siècle plus tard, c’est l’office <hi rend="italic">Propre</hi> de
+          l’abbaye, publié en <date type="_temp" when="1765">1765</date>, qui
+          traduit sur le plan liturgique cette histoire digérée : les saints
+          patrons du monastère et de ses dépendances sont clairement indiqués
+          par des signes spécifiques, reconstituant ainsi par le livre une
+          histoire pluriséculaire dans laquelle les moines du <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>e siècle</date> se sont insérés malgré
+          les transformations structurelles du monachisme : une sorte de
+          manifestation posthume d’un réseau médiéval constitutif d’une
+          histoire et d’une réforme, réseau déchu mais que l’on maintient au
+          travers d’un sanctoral spécifique et différencié<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>
+                <hi rend="small-caps">Castagnetti</hi>, 2019, p. 461-488.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e314">
+          <head subtype="level1" xml:id="d1e315">Conclusion</head>
+          <p xml:id="d1e317">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-ue8ksi5j">institutionnalisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-bpfouwze">philologie</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-wacsop2y">bénédictin</term>
+              </term>
+            </term>Le
+          moine du <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi> siècle</date>,
+          bénédictin de la congrégation de Saint-Maur en particulier, a
+          institué l’érudition pour répondre à la hantise de son origine et de
+          la fidélité aux principes de la Règle bénédictine relue dans un
+          contexte politique et religieux spécifique et propre à la
+          catholicité tridentine de la première modernité. Cette fidélité
+          constitue donc bien un « spectre » ou une obsession. Bien entendu il
+          y a dans le devenir de cette érudition dite bénédictine une forme de
+          matrice pour la science historique sécularisée, développée et
+          institutionnalisée au <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>. Ne
+          parle-ton pas au <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          parfois de « bénédictin laïc » lorsque l’on évoque un <persName ref="026820897" type="idref" xml:base="https://www.idref.fr/">Léopold Delisle</persName> par
+          exemple ? Pour autant les bénédictins eux-mêmes, nous l’avons vu,
+          reconnaissent de façon implicite et à demi-mots qu’ils puisent à des
+          modèles, qu’ils soient cléricaux (jésuites en particulier) ou laïcs
+          (<persName ref="034556338" type="idref" xml:base="https://www.idref.fr/">André Duchesne</persName> et
+          d’autres). Ils sont dès la fin du <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi> siècle</date>, pleinement intégrés à la république
+          des Lettres et, plus prudemment, aux sociétés savantes des Lumières
+          dans les <date from="1750" to="1759" type="_temp">années
+          1750</date>
+            <note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>
+                <hi rend="small-caps">Hurel</hi> et<hi rend="small-caps">
+              laudin</hi>, 2000, p. 387-507.</p>
+            </note>. Ce « spectre » de l’érudition bénédictine est au cœur de
+          la vocation monastique du jeune prêtre <persName ref="02690621X" type="idref" xml:base="https://www.idref.fr/">Prosper
+          Guéranger</persName> dans les années <date from="1820" to="1830" type="_temp">1820-1830</date>
+            <note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>
+                <hi rend="small-caps">Blanchard</hi>, 2018.</p>
+            </note> comme il est au cœur des entreprises savantes de nombre
+          d’érudits du <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>,
+          notamment lorsqu’ils se rendent au mont Cassin<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>
+                <hi rend="small-caps">Hurel</hi>, 2019, p. 168-180.</p>
+            </note>. <persName ref="02690621X" type="idref" xml:base="https://www.idref.fr/">Guéranger</persName> puise dans la
+          production de savoirs historiques, spirituels et liturgiques des
+          bénédictins de Saint-Maur son inspiration première mais il livre un
+          combat de tous les instants contre les productions de l’érudition
+          mauriste du <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          qualifiée de janséniste et de gallicane, au nom de la valorisation
+          de la prééminence romaine du Saint-Siège. Par ailleurs, il est très
+          vite conscient de l’émergence d’une science sécularisée qui se porte
+          aussi sur le fait ecclésiastique médiéval et sur l’histoire
+          monastique, qui invoque aussi <persName ref="028133242" type="idref" xml:base="https://www.idref.fr/">Mabillon</persName> comme héros
+          tutélaire, l’École nationale des Chartes. Enfin, <persName ref="02690621X" type="idref" xml:base="https://www.idref.fr/">dom
+          Guéranger</persName> est d’abord confronté au difficile
+          développement de sa famille de <placeName ref="6438500" type="geonames" xml:base="https://www.geonames.org/">Solesmes</placeName> : un
+          modèle constitué des références à Saint-Maur et à <placeName ref="6454611" type="geonames" xml:base="https://www.geonames.org/">Cluny</placeName> certes, mais
+          des hommes qui sont d’abord moines avant d’être érudits. Il le dit à
+          plusieurs reprises au <persName type="_temp">cardinal
+          Pitra</persName> qui fut, rappelons-le d’abord bénédictin de
+          <placeName ref="6438500" type="geonames" xml:base="https://www.geonames.org/">Solesmes</placeName> et sans
+          doute un de ses érudits les plus brillants et prometteurs. La
+          promotion de l’érudition bénédictine comme élément constitutif du
+          monachisme restauré est une réalité chez <persName ref="02690621X" type="idref" xml:base="https://www.idref.fr/">Guéranger</persName>
+          mais <placeName ref="6438500" type="geonames" xml:base="https://www.geonames.org/">Solesmes</placeName> n’a plus
+          alors une sorte de monopole ou de brevet à défendre. Le <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date> constitue en un sens l’aboutissement
+          de l’œuvre de <persName ref="028133242" type="idref" xml:base="https://www.idref.fr/">Mabillon</persName> : la sortie du
+          cloître des méthodes érudites et de leurs justifications, ainsi que
+          leur appropriation par l’ensemble de la recherche historique et
+          philologique.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e378">
+        <head xml:id="d1e379">Bibliographie</head>
+        <listBibl xml:id="d1e381">
+          <bibl xml:id="d1e382">
+            <hi rend="small-caps">Barbeau</hi> et <hi rend="small-caps">Hurel</hi>, 2016 : Thierry <hi rend="small-caps">Barbeau</hi>, Daniel-Odon <hi rend="small-caps">Hurel</hi> (dir.), <hi rend="italic">Solesmes,
+          prieuré médiéval, abbaye contemporaine</hi>, Paris, Riveneuve
+          éditions.</bibl>
+          <bibl xml:id="d1e398">
+            <hi rend="small-caps">Blanchard</hi>, 2018 :
+          Claudine <hi rend="small-caps">Blanchard</hi>, <hi rend="italic">Dom
+          Guéranger avant Solesmes</hi>, Paris, Éditions du Cerf.</bibl>
+          <bibl xml:id="d1e408">
+            <hi rend="small-caps">Castagnetti</hi>, 2019 :
+          Philippe <hi rend="small-caps">Castagnetti</hi>, « L’histoire au
+          prisme de la liturgie. La mémoire de la congrégation de la
+          Chaise-Dieu dans le <hi rend="italic">Proprium</hi> de 1765 », dans
+          Frédérique-Anne Costantini, Daniel-Odon Hurel, Thierry Pécout
+          (dir.), <hi rend="italic">La Chaise-Dieu. Communauté monastique et
+          congrégation (XI</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> siècle – fin de l’Ancien régime)</hi>, Limoges,
+          PULIM.</bibl>
+          <bibl xml:id="d1e425">
+            <hi rend="small-caps">Hurel</hi>, 2007 :
+          Daniel-Odon H<hi rend="small-caps">urel</hi>, « Avis pour ceux qui
+          travaillent aux Histoires des monastères », in <hi rend="italic">Dom
+          Mabillon, le moine et l’historien</hi>, Paris, Robert
+          Laffont.</bibl>
+          <bibl xml:id="d1e435">
+            <hi rend="small-caps">Hurel</hi>, 2019 :
+          Daniel-Odon <hi rend="small-caps">Hurel</hi>, <hi rend="italic">Saint Benoit</hi>, Paris, Perrin.</bibl>
+          <bibl xml:id="d1e445">
+            <hi rend="small-caps">Hurel</hi> et <hi rend="small-caps">laudin</hi>, 2000 : Daniel-Odon <hi rend="small-caps">Hurel</hi>, Gérard <hi rend="small-caps">Laudin</hi> (dir.), <hi rend="italic">Académies et
+          sociétés savantes en Europe (1650-1800)</hi>, Paris, Honoré
+          Champion.</bibl>
+          <bibl xml:id="d1e461">
+            <hi rend="small-caps">Lenain</hi>, 2006 :
+          Philippe <hi rend="small-caps">Lenain</hi>, <hi rend="italic">Histoire littéraire des bénédictins de
+          Saint-Maur</hi>, tome premier (1612-1655),
+          Bruxelles-Louvain-la-Neuve.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

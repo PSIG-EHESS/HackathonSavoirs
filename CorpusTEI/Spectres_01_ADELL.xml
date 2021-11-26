@@ -1,0 +1,1285 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:marcrel="http://www.loc.gov/loc.terms/relators" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-20T12:15:48+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="Spectres_01_ADELL">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lettrés, érudits, savants</title>
+        <title type="sub">Manières d’être et façons de faire avec le
+        savoir</title>
+        <author role="aut">
+          <forename>Nicolas</forename>
+          <surname>Adell</surname>
+          <affiliation>LISST – Centre d’anthropologie socialeUniversité de
+          Toulouse – Jean Jaurès</affiliation>
+          <idno type="IDREF">124409784</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification 3.0 non transposé - CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/2AXHXNTZ" type="conferencePaper" xml:lang="fre">
+          <analytic>
+            <title level="a">Lettrés, érudits, savants Manières d’être et
+            façons de faire avec le savoir</title>
+            <author>
+              <forename>Nicolas</forename>
+              <surname>Adell</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Spectres de l'érudition</title>
+            <editor>
+              <forename>Jean-François</forename>
+              <surname>Bert</surname>
+            </editor>
+            <editor>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Lausanne</pubPlace>
+              <date>2018</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>épistémologie</item>
+            <item>vie savante</item>
+            <item>William Marx</item>
+            <item>lettrés</item>
+            <item>érudits</item>
+            <item>anthropologie des savoirs érudits</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>epistemology</item>
+            <item>learned life</item>
+            <item>William Marx</item>
+            <item>writers</item>
+            <item>scholars</item>
+            <item>anthropology of scholarly knowledge</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-espxuzip">lettré</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités personnelles</term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-gznzb4bl">divisions historiques des
+          savoirs<term ref="doi:10.34817/sv-gxatb4hf">encyclopédisme</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-w2ckzlem">anthropologie</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-yuw7gtea">savant</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1800" to="2000" type="_temp">XIXe-XXe siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-02-17T14:20:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Lettrés, érudits, savants</titlePart>
+          <titlePart type="sub">Manières d’être et façons de faire avec le
+          savoir</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Nicolas Adell</docAuthor>
+          <affiliation>LISST – Centre d’anthropologie sociale<lb/>Université
+          de Toulouse – Jean Jaurès</affiliation>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">Construit à partir de la confrontation de deux
+        projets intellectuels (celui de W. Marx dans <hi rend="italic" style="typo_Italique">Vie du lettré </hi>et celui de l’auteur autour
+        de la notion de « vie savante »), l’article propose une réflexion sur
+        la construction de l’érudition comme problème d’anthropologie
+        générale. Après avoir distingué entre manières d’être érudit et façons
+        érudites de faire, l’auteur dégage deux modèles d’érudition –
+        l’érudition des profondeurs et l’érudition des traversées – dont il
+        montre d’une part qu’ils réfractent deux types généraux de rapport au
+        savoir, et d’autre part qu’ils ont une historicité qui accompagne
+        celle de la modernité occidentale.</p>
+        <p xml:lang="eng">Based on the confrontation of two intellectual
+        projects (that of W. Marx in <hi rend="italic" style="typo_Italique">Vie du lettré</hi> and that of the author
+        himself about his notion of "learned life"), the article suggests we
+        need to elaborate the notion of erudition as a problem of general
+        anthropology. After distinguishing between ways of being erudite and
+        erudite ways of doing, the author identifies two models of erudition -
+        the erudition of depths and the erudition of crossings - which he
+        shows on the one hand that they refract two general types of
+        relationship to knowledge, and on the other hand that their
+        historicity fits that of Western modernity.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e104">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-espxuzip">lettré</term>
+            </term>
+          </term>
+          <hi rend="italic">Vie du lettré</hi>, de l’historien de la littérature
+        <persName ref="069552177" type="idref" xml:base="https://www.idref.fr/">William Marx</persName>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>
+              <hi rend="small-caps">Marx</hi>, 2009.</p>
+          </note>, est un livre dont il se dégage une profonde mélancolie à
+        laquelle on ne peut rester insensible. C’est la mélancolie d’un lettré
+        – l’auteur lui-même – qui enregistre la disparition d’un monde qui ne
+        forme pas vraiment une communauté mais dont les membres sont unis,
+        par-delà l’espace et le temps, par un réseau de petites résonnances
+        – entre des attitudes, des gestes, des rythmes, des émotions – qui
+        constituent autant de motifs d’identification qui se répètent et se
+        complètent les uns les autres, du point de vue de <persName ref="069552177" type="idref" xml:base="https://www.idref.fr/">W. Marx</persName>, jusqu’à former
+        une figure pleine de lettré, c’est-à-dire d’une personne qui a,
+        vis-à-vis des lettres et du savoir en général, « un engagement
+        existentiel<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>
+              <hi rend="italic">Ibid</hi>., p. 14.</p>
+          </note> ».</p>
+        <p xml:id="d1e120">À la manière d’un ethnologue qui reformerait le
+        portrait d’un type social – ou d’un écrivain qui en décrirait la
+        physiologie en l’associant à une étude de mœurs – à partir de
+        plusieurs individus qui en actualisent diversement les
+        caractéristiques et incluant l’auteur lui-même (car il y a une
+        auto-ethnographie sous-jacente dans cette enquête), <persName ref="069552177" type="idref" xml:base="https://www.idref.fr/">W. Marx</persName> s’attache à rendre
+        compte d’un lettré fait de tous les lettrés, donc d’un lettré
+        imaginaire du fait même des multiples réalités qu’il combine et qui ne
+        communiquent que partiellement les unes avec les autres.</p>
+        <p xml:id="d1e122">Cela pose naturellement au lecteur une question
+        classique de méthode, celle de la valeur d’un modèle ou d’un
+        idéal-type. On ne fera pas ici le procès d’irréalité, car un modèle
+        n’a pas à faire pléonasme avec le réel. Au contraire, il doit procurer
+        une grille d’intelligibilité qui révèle des logiques, des
+        possibilités, des processus, des faits sociaux et culturels qui, pour
+        ne pas être observables ou appréhendables comme une chaise, une hausse
+        de température, un son ou un geste de la main, n’en ont pas moins un
+        mode d’existence qui les rend aptes à exercer sur le réel une série de
+        contraintes plus ou moins fortes qu’on repère dans des pratiques
+        individuelles que l’on gagne toujours à penser davantage comme des
+        « réactions » (à des pressions invisibles) que comme des actions mues
+        par la seule volonté.</p>
+        <p xml:id="d1e124">Le problème n’est donc pas le modèle ou
+        l’idéal-type du lettré en soi, mais la façon dont on le mobilise et
+        l’élabore. Et il peut l’être à mon sens de deux façons profondément
+        opposées. D’un côté, le modèle peut être construit de façon
+        cumulative, dans l’addition de traits effectivement repérés dans des
+        situations et chez des acteurs qui forment par association le
+        super-acteur devenant ainsi le type idéal (plutôt que l’idéal-type
+        d’ailleurs). De cette manière, le modèle est de même nature que la
+        réalité qu’il décrit, tout en étant la finalité même de la démarche
+        qui consiste à l’élaborer par absorption et enregistrement des
+        variations qui viennent en dilater mécaniquement la surface. <persName ref="069552177" type="idref" xml:base="https://www.idref.fr/">W.
+        Marx</persName> propose un tel modèle pour dessiner un portait du
+        lettré, où chaque individu convoqué apporte un trait, une touche, une
+        couleur qui le précise, le détaille, l’augmente. Et ainsi le modèle
+        finit par être plus réaliste que le réel lui-même.</p>
+        <p xml:id="d1e126">D’un autre côté, le modèle peut être façonné comme
+        une problématisation du réel générée à partir de quelques cas ; c’est
+        la logique exacte de l’idéal-type wébérien<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Cf. notamment l’édition critique de <hi rend="italic">La
+            domination</hi> établie par Yves <hi rend="small-caps">Sintomer </hi>; W<hi rend="small-caps">eber</hi>, 2013.</p>
+          </note>. Il n’a, de ce fait, pas vocation à intégrer comme des
+        ingrédients supplémentaires, selon la version extensive décrite
+        ci-dessus, les nouveaux cas qu’on repérerait par la suite. Tout au
+        contraire, il les conserve dans leur singularité, ne les absorbe pas
+        et préfère les renvoyer dans un « inventaire des différences<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>
+              <hi rend="small-caps">Veyne</hi>, 1976.</p>
+          </note> » qu’il suggère de construire à partir du problème qu’il
+        pose et des multiples « complications<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>
+              <hi rend="small-caps">Weber</hi>, 2013 ; <hi rend="small-caps">Dobry</hi>, 2003.</p>
+          </note> » que la réalité des variations individuelles lui impose. Et
+        ainsi, loin d’être le résultat de l’entreprise, il n’en est que le
+        moyen, toujours prêt à montrer ses faiblesses à mesure que les
+        « différences » et les « complications » lui portent des coups de plus
+        en plus nombreux.</p>
+        <p xml:id="d1e156">C’est un modèle de ce type que je m’étais efforcé
+        d’élaborer pour construire la « vie savante » comme problème
+        anthropologique, et non comme simple recueil d’anecdotes édifiantes.
+        Reformulant l’ancienne perspective de « la vie et l’œuvre », il
+        m’avait semblé que celle-ci rendait compte d’une fausse symétrie entre
+        les termes. L’œuvre restait le résultat passif d’une activité, d’une
+        volonté, de circonstances qui forment la « vie ». Or, l’on pouvait
+        prendre au sérieux la symétrie et ne plus considérer simplement
+        l’œuvre comme un résultat ou un produit, mais comme un moteur et un
+        début pour une autre action, celle qui façonne le créateur. Pour
+        rendre compte de ce phénomène, la notion de « vie savante » a été
+        élaborée, qui a aussi à charge de traduire cet effet « rebond » de
+        l’œuvre sur son producteur et de décrire les manières dont ce retour
+        contribue à unifier la personne et sa biographie<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>Pour une présentation de quelques usages de cet outil, cf. <hi rend="small-caps">Adell</hi> et <hi rend="small-caps">Lamy</hi>,
+            2016. Et pour un exposé synthétique de la notion, lire <hi rend="small-caps">Adell</hi>, 2017.</p>
+          </note>.</p>
+        <p xml:id="d1e171">Dès lors, l’ouvrage de <persName ref="069552177" type="idref" xml:base="https://www.idref.fr/">William Marx</persName>
+        pouvait occuper la fonction d’un utile contre-point pour l’élaboration
+        d’une autre démarche qui ne composerait pas un répertoire de motifs
+        transhistoriques et transculturels du lettré – le modèle cumulatif :
+        un lettré fait de tous les lettrés –, mais insisterait sur les
+        surgissements singuliers de telle ou telle configuration et ferait
+        l’inventaire des différences qui viendraient sans cesse compliquer le
+        repérage de régularités. Car il en existe sans aucun doute, créant
+        entre les vies de lettrés des solidarités et des échos qui façonnent
+        un type de collectif particulier, un collectif non communautaire fondé
+        sur des identifications interindividuelles qui franchissent le temps
+        et l’espace au gré d’affinités électives par le biais desquelles on se
+        reconnaît dans un autre. Ce sont elles qui guident les généalogies
+        buissonnières et personnelles – l’ouvrage de <persName ref="069552177" type="idref" xml:base="https://www.idref.fr/">William Marx</persName>
+        est dédié « à <hi rend="italic">[s]es</hi> maîtres » (mes
+        italiques) –, où les cartes sont rebattues à chaque génération et où
+        les bifurcations sont infinies et ne forment à aucun moment des
+        lignées. Il ne saurait donc y avoir de monographie des lettrés, mais
+        une ethnographie des moments et des formes de ces reconnaissances
+        interindividuelles qui disent, par fragments, le commun des lettrés.
+        Ce type d’attention contraint l’analyste à déplier la figure du lettré
+        pour en révéler les multiples facettes et rendre compte, au risque de
+        la dissolution, de l’inventaire maximal des différences – ne pas
+        présupposer au départ des différences majeures et mineures et leur
+        accorder à toutes la même dignité et le même pouvoir de distinction –
+        avant d’en oublier certaines (et en précisant les motivations de
+        l’oubli) pour produire un minimum d’intelligibilité.</p>
+        <p xml:id="d1e176">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+            </term>
+          </term>Distinguer
+        entre manières d’être avec le savoir et façons de faire avec le savoir
+        me semble ainsi une première façon de compliquer le modèle et de le
+        mettre en tension. Il est certain que dans un monde – celui des
+        lettrés, des érudits, des savants – où ces deux aspects se recouvrent
+        à tout moment cette différence tend au degré zéro. Peut-être est-ce
+        justement parce qu’elle est infime qu’elle constitue un espace où se
+        nichent des logiques qui passent généralement inaperçues. L’hypothèse
+        est que l’on doit gagner un peu en perspectives analytiques à faire la
+        différence, au démarrage d’une enquête sur ces figures de savoir,
+        entre ce qui relève d’une éthique <hi rend="italic">identifiée</hi> de
+        lettrés/érudits/savants (le fait d’être catégorisé, jugé, évalué en
+        tant que tel, y compris par soi-même mais pas nécessairement) et ce
+        qui relève d’un répertoire d’actions et de gestes qui sont motivés par
+        la réalisation d’une œuvre. L’enquête pourrait alors s’appliquer à
+        repérer comment ces façons de faire deviennent des manières d’être,
+        c’est-à-dire sont à la fois des dispositifs qui mettent en œuvre un
+        projet, mais également (pour les autres et/ou pour soi) le signe de
+        dispositions qui forment des ingrédients distinctifs et de plus en
+        plus intérieurs de la personne. Mais à quel prix se fait cette
+        transformation ? sous quelles conditions ? dans quel contexte ? Et
+        l’on peut bien supposer, à l’instar de <persName ref="069552177" type="idref" xml:base="https://www.idref.fr/">William Marx</persName>,
+        que cela puisse se réaliser sous toutes les latitudes et à toutes les
+        époques – c’est sans aucun doute le cas –, sans que pour autant cela
+        nous dispense de rendre à chaque contexte les modalités exactes du
+        processus qui conduit du faire à l’être érudit. L’objet de ce texte
+        n’est évidemment pas de procéder à l’inventaire mais de mettre
+        l’accent sur quelques nuances à mon sens structurantes, qui offrent de
+        repenser un système des différences entre lettrés, érudits et savants,
+        et de les offrir à d’autres rapprochements de manière à compliquer les
+        frontières d’un monde tissé au milieu de mille autres.</p>
+        <div type="section1" xml:id="d1e181">
+          <head subtype="level1" xml:id="d1e182">Manières d’être : érudition
+          des profondeurs et érudition des traversées</head>
+          <p xml:id="d1e184">Ainsi, l’on peut repérer, au sein de toute la
+          gamme des possibles, au moins deux manières très différentes d’être
+          érudit : d’un côté, le repli intensif sur un registre de savoir, sur
+          un objet, et donc le fait de vivre dans un compartiment de la
+          connaissance en apparence étroit et pourtant rendu infini ; de
+          l’autre, le débordement excessif, le passage entre de multiples
+          sphères de la connaissance qui ne sont pas ordinairement considérées
+          comme mitoyennes.</p>
+          <p xml:id="d1e186">Je propose de qualifier la première manière d’<hi rend="italic">érudition fusionnelle des profondeurs</hi>, et la
+          seconde d’<hi rend="italic">érudition aventureuse des
+          traversées</hi>. Ces deux manières ne sont pas du tout exclusives et
+          restent assez fragiles dans leur élaboration car elles dépendent
+          beaucoup de la façon, toujours soumise à discussion, de faire les
+          compartiments. Selon le point de vue, un historien du <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi> siècle</date> qui
+          écrit sur la sexualité, les techniques, la fiscalité et la stratégie
+          militaire peut être un érudit des profondeurs (il reste dans le
+          compartiment de l’histoire de l’âge classique) ou un érudit des
+          traversés puisque les champs thématiques dont il se saisit sont
+          d’une grande diversité. Mais il ne s’agit pas de désigner ici, une
+          fois pour toutes, ce qu’est <hi rend="italic">vraiment</hi> ou <hi rend="italic">en fin de compte</hi> tel ou tel érudit. Peu importe,
+          car il n’est pas question, une fois encore, de construire un modèle
+          de même nature que la réalité, mais un modèle-problème qui est mis à
+          l’épreuve du réel. Les deux formes d’érudition signalées peuvent
+          ainsi donner lieu à des figures d’érudits assez différentes,
+          c’est-à-dire à des modes distincts de rapport au savoir et qui
+          dépassent de beaucoup le monde des lettrés ou des érudits.</p>
+          <p xml:id="d1e205">Dans la manière du repli intensif – l’érudition
+          fusionnelle des profondeurs –, l’on retrouve naturellement la figure
+          de celui qui se fond dans l’objet qu’il cherche à connaître.
+          Celle-ci est aujourd’hui particulièrement actualisée par deux
+          personnages des sciences humaines, celui de l’ethnologue qui se fait
+          initier, qui épouse son terrain, qui s’embarque et finit par se
+          dissoudre dans son objet, et celui du psychanalyste avalé dans le
+          contre-transfert. Il s’agit d’une figure particulièrement active
+          dans les sciences de l’altérité. Dans d’autres configurations – les
+          sciences du texte par exemple –, ce repli intensif peut prendre
+          l’allure de l’érudition éditoriale. Parmi de très nombreux cas, un
+          exemple récent est fourni par l’une des dernières éditions des <hi rend="italic">Formes élémentaires de la vie religieuse</hi> par un
+          intellectuel grec, <persName ref="188966501" type="idref" xml:base="https://www.idref.fr/">Myron Achimastos</persName>
+            <note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>
+                <hi rend="small-caps">Durkheim</hi>, 2015. Et pour une
+              réflexion de l’éditeur sur son travail, lire <hi rend="small-caps">Achimastos</hi>, 2014.</p>
+            </note>, dont le travail a été commenté par <persName ref="071010084" type="idref" xml:base="https://www.idref.fr/">Matthieu Béra</persName>
+            <note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>
+                <hi rend="small-caps">Béra</hi>, 2016.</p>
+            </note>. L’effort d’<persName ref="188966501" type="idref" xml:base="https://www.idref.fr/">Achimastos</persName> a été celui
+          d’une plongée dans le texte – il s’agit bien d’érudition des
+          profondeurs – qui allait jusqu’à débusquer les erreurs de citation
+          de <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName>,
+          l’identification des livres consultés directement et ceux lus
+          indirectement et dont il s’est alors agi de reconstituer le chemin
+          de lecture (quels intermédiaires, quels modes de lecture, etc.).
+          C’est retrouver le raisonnement et les procédures techniques et
+          intellectuelles de <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName>, en décrypter
+          les usages, reparcourir son cheminement ; donner à voir, en somme,
+          le travail de <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName> en le rejouant
+          (notamment lire les livres qu’il a lus).</p>
+          <p xml:id="d1e225">Il y a en apparence loin de l’ethnologue qui
+          subit un rite d’initiation à l’éditeur consciencieux à l’excès d’un
+          classique des sciences sociales. Mais ils incarnent l’un et l’autre
+          une façon fusionnelle de pratiquer la connaissance et qui exprime
+          une seule et même idée : pour connaître une chose, il faut la vivre
+          (ou la re-vivre).</p>
+          <p xml:id="d1e227">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-egk7aadc">dictionnaire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-gznzb4bl">divisions historiques des
+          savoirs<term ref="doi:10.34817/sv-gxatb4hf">encyclopédisme</term>
+                </term>
+              </term>
+            </term>D’autres
+          figures, très différentes des précédentes, peuplent la manière de
+          l’érudition par débordement excessif – érudition aventureuse des
+          traversées –, au premier rang desquelles se trouvent les
+          entrepreneurs de dictionnaires, d’histoire ou de biographies
+          universelles. Vastes entreprises encyclopédiques qui nécessitent
+          l’usage d’un regard surplombant à même d’embrasser la plus grande
+          diversité et de trouver dans ces assemblages une forme de
+          satisfaction intellectuelle d’un type bien différent de celle qui
+          consiste à épuiser un objet et à se fondre en lui. Le <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date> a fourni une large palette de ce
+          type d’entrepreneurs érudits, dont <persName ref="026991640" type="idref" xml:base="https://www.idref.fr/">Émile
+          Littré</persName> est sans doute celui qui a conservé de nos jours
+          la plus grande notoriété. Mais je pense également, pour la période
+          plus contemporaine, à l’historien <persName ref="031583849" type="idref" xml:base="https://www.idref.fr/">Michel
+          Mourre</persName> (<date from="1928" to="1977" type="_temp">1928-1977</date>) et à son <hi rend="italic">Dictionnaire encyclopédique d’histoire</hi>
+            <note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>
+                <hi rend="small-caps">Mourre</hi>, 1996.</p>
+            </note>. Dans le cadre d’une réédition actualisée de son
+          entreprise, l’éditeur en brosse un portrait édifiant : « [c’était]
+          un autodidacte solitaire [qui] se murait, à l’écart du monde, dans
+          le silence de sa bibliothèque. […] La vie de cet homme, d’une rare
+          érudition mais d’une grande modestie, se confondit désormais avec
+          son œuvre et rien ne peut être dit de l’une qui ne soit un
+          commentaire de l’autre. » Finalement, le modèle fusionnel n’est pas
+          si éloigné. Mais c’est bien ici la traversée, dans l’histoire, qui
+          l’emporte puisqu’il ne s’agit pas d’approfondir, encore moins de
+          revivre, mais d’« embrasser ». <persName ref="031583849" type="idref" xml:base="https://www.idref.fr/">M. Mourre</persName>
+          le dit lui-même dans sa préface : « <hi rend="italic">embrasser</hi>
+          l’histoire mondiale, de l’origine de l’homme à nos jours, dans tous
+          ses éléments » (mes italiques).</p>
+          <p xml:id="d1e245">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-fucrfp3n">linguistique</term>
+                  </term>
+                </term>
+              </term>
+            </term>Mais,
+          de tous les entrepreneurs de dictionnaires, ce sont probablement
+          ceux des dictionnaires étymologiques qui présentent les caractères
+          de l’<hi rend="italic">érudit débordant </hi>les plus saillants et
+          les plus extrêmes, où ils rejoignent les érudits fusionnels. Car ce
+          sont des vies de linguistes dévotement consacrées à la langue, la
+          culture, la vie sociale et la vie de l’esprit d’une famille
+          linguistique particulière. Dans le foisonnement des biographies de
+          savants qui sont aujourd’hui à notre disposition, il faudrait faire
+          une place à part pour celles des linguistes et les considérer
+          différemment des vies de philosophes, de physiciens ou de
+          géographes. Ce sont des vies savantes qui, depuis <persName ref="027399427" type="idref" xml:base="https://www.idref.fr/">Humboldt</persName>, combinent des
+          propriétés de fusion (pénétrer la logique d’une langue, c’est
+          devenir l’Autre qui la parle) et de traversée (saisir une langue
+          nécessite d’embrasser l’ensemble de la réalité qu’elle sert à
+          exprimer pour un groupe). Cela donne lieu à des œuvres
+          incomparables, telles que ce monumental <hi rend="italic">Dictionnaire étymologique de la langue tatar</hi> de
+          <persName type="_temp">Rifkat G. Akhmetyanov</persName>, un modèle
+          de traversée mourrienne, et dont l’entreprise mériterait à elle seul
+          une étude à part entière<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>
+                <hi rend="small-caps">Akhmetyanov</hi>, 2015.</p>
+            </note>. Le fondateur de la linguistique moderne lui-même,
+          <persName ref="027123995" type="idref" xml:base="https://www.idref.fr/">Ferdinand de Saussure</persName>,
+          n’échappe pas à ce registre de l’érudition des traversées que,
+          probablement, la passion des origines mobilise singulièrement.
+          Linguistes, préhistoriens et archéologues sont ainsi des figures
+          fortes de ce type d’érudition. Toute sa vie, <persName ref="027123995" type="idref" xml:base="https://www.idref.fr/">Ferdinand de Saussure</persName> a
+          été porté par la quête des origines qui lui faisait désirer « tout
+          savoir » et dans tous les domaines, ainsi que l’a bien souligné sa
+          biographe <persName ref="057650152" type="idref" xml:base="https://www.idref.fr/">Claudia Mejía Quijano</persName> :
+          « Toute son œuvre tourne en effet autour du début des choses<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>
+                <hi rend="small-caps">Mej</hi>
+                <hi rend="small-caps">í</hi>
+                <hi rend="small-caps">a Quijano</hi>, 2006, p. 128.</p>
+            </note>. » Cela se manifestait par le goût maintenu pendant
+          plusieurs années pour l’écriture de petites notes étymologiques qui
+          portent aussi bien sur des dérivations de sens que sur des
+          transformations de prononciation dont il traque les bifurcations en
+          mobilisant aussi bien les compétences de philologue que celles de
+          l’observateur du quotidien ou du naturaliste<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>
+                <hi rend="small-caps">Mej</hi>
+                <hi rend="small-caps">í</hi>
+                <hi rend="small-caps">a Quijano</hi>, 2012, p. 272-277.</p>
+            </note>.</p>
+          <p xml:id="d1e279">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-gznzb4bl">divisions historiques des
+          savoirs<term ref="doi:10.34817/sv-gxatb4hf">encyclopédisme</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion<term ref="doi:10.34817/sv-nz49agmg">curiosité</term>
+              </term>
+            </term>Mais
+          l’on trouve aussi, dans le registre du débordement excessif, ces
+          savants polygraphes (qui écrivent, avec une connaissance assurée,
+          sur les domaines les plus variés ou en mobilisant des outils très
+          différents : écriture scientifique et poétique, projet de machines,
+          notes techniques sur la fusion des roches et essai sur l’origine des
+          langues, etc.). La curiosité insatiable de <persName type="_temp">Ferdinand de Saussure</persName> contient par exemple
+          des traces de cette érudition polygraphique qui, au tournant des
+          <date from="1800" to="1999" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> et <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècles</date>, était
+          devenue disqualifiante ; ce n’était pas la disposition d’un
+          spécialiste compétent. En revanche, elle s’incarnait parfaitement
+          dans celui qui fut son modèle absolu durant toute sa jeunesse,
+          l’« excellent savant » <persName ref="030085667" type="idref" xml:base="https://www.idref.fr/">Adolphe Pictet</persName> (<date from="1799" to="1875" type="_temp">1799-1875</date>) selon les
+          termes de <persName type="_temp">Saussure</persName> lui-même<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Le personnage est évoqué dans ses « Souvenirs » d’enfance et
+              d’études, édité par les soins de Robert <hi rend="small-caps">Godel</hi>, 1960.</p>
+            </note>, et pour lequel il garda toujours une véritable
+          admiration. Et celle-ci tenait spécialement dans la capacité
+          exceptionnelle d’<persName ref="030085667" type="idref" xml:base="https://www.idref.fr/">A. Pictet</persName> à rédiger tout
+          à la fois un traité du Beau, une théorie sur les affinités des
+          langues celtiques avec le sanskrit (deux ans avant que le grand
+          linguiste <persName ref="032006845" type="idref" xml:base="https://www.idref.fr/">Franz Bopp</persName> en fasse la
+          démonstration), un « essai de paléontologie linguistique »
+          concernant les « origines indo-européennes », ou encore un manuel
+          sur les fusées de guerre. « <persName ref="030085667" type="idref" xml:base="https://www.idref.fr/">Pictet</persName> s’est arrêté
+          devant tous les sphinx et a médité toutes les énigmes », résume
+          <persName type="_temp">F. de Saussure</persName>
+            <note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Cité par <hi rend="small-caps">Mej</hi>
+                <hi rend="small-caps">í</hi>
+                <hi rend="small-caps">a Quijano</hi>,
+              2006, p. 138.</p>
+            </note>.</p>
+          <p xml:id="d1e309">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines</term>
+            </term>Mais pour
+          exceptionnelle que soit cette figure, elle rejoint bien d’autres de
+          ces curieux non frivoles qui, par leurs étonnantes traversées, ont
+          beaucoup contribué à repousser les limites du savoir et les modes de
+          connaître à un moment où les forces contraires de la spécialisation
+          et de la disciplinarisation l’emportaient pour que s’instituent les
+          champs de la connaissance scientifique.</p>
+          <p xml:id="d1e311">C’est un diagnostic auquel était parvenu au
+          moment même où ces enjeux se mettaient en place un autre polygraphe
+          célèbre, <persName ref="032866119" type="idref" xml:base="https://www.idref.fr/">Camille Flammarion</persName>. Aux
+          côtés de ses activités au bureau des longitudes et en tant
+          qu’astronome théorisant la pluralité des mondes habités, il
+          s’employait à écrire des récits de la fin du monde, se passionnait
+          pour la vie après la mort et mesurait les énergies spirituelles
+          présentes dans certains lieux ou habitations. Dans l’éloge funèbre
+          qu’il a prononcé du fondateur du spiritisme <persName ref="026682281" type="idref" xml:base="https://www.idref.fr/">Allan
+          Kardec</persName>, il a donné l’essentiel des raisons qui lui
+          faisaient considérer ce dernier comme l’un des pionniers de la
+          connaissance et un infatigable chercheur de causes car « nous vivons
+          au milieu d’un monde invisible pour nous ». C’est ce à quoi son
+          travail sur les corps célestes l’avait rendu particulièrement
+          sensible et en quoi les recherches d’<persName ref="026682281" type="idref" xml:base="https://www.idref.fr/">Allan
+          Kardec</persName> lui semblaient de nature à élargir et complexifier
+          le monde de la nature car « le surnaturel n’existe pas<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>
+                <hi rend="small-caps">Flammarion</hi>, 1869, p. 80.</p>
+            </note> ».</p>
+          <p xml:id="d1e319">Mais, des entrepreneurs de dictionnaires aux
+          polygraphes, il y a également la solidarité qui existe entre ceux
+          qui font le travail de plusieurs et qui sont des hommes pluriels en
+          un sens très élémentaire. Ils sont seuls quand plusieurs devraient
+          être nécessaires pour la même entreprise. C’est ce que disent tous
+          ceux qui poursuivent l’œuvre de ces hommes. Ainsi, concernant le
+          dictionnaire de <persName ref="031583849" type="idref" xml:base="https://www.idref.fr/">Michel Mourre</persName>, on n’a
+          pas omis de mentionner dans l’avant-propos à la réédition de <date type="_temp" when="1996">1996</date> qu’une « équipe de 40 personnes
+          a été nécessaire pour prolonger cette œuvre immense ». De même pour
+          le polygraphe retenu que fut <persName type="_temp">F.
+          de Saussure</persName>, sa biographe note qu’il faut « à l’heure
+          actuelle une équipe de spécialistes pour pouvoir simplement lire et
+          comprendre correctement ce que <persName ref="027123995" type="idref" xml:base="https://www.idref.fr/">Saussure</persName> a
+          dit<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>
+                <hi rend="small-caps">Mej</hi>
+                <hi rend="small-caps">í</hi>
+                <hi rend="small-caps">a Quijano</hi>, 2006, p. 126.</p>
+            </note> ».</p>
+          <p xml:id="d1e332">Ces deux principes – celui de l’érudition des
+          profondeurs et celui de l’érudition des traversées – font tous deux
+          déborder les érudits dans le monde, les sortent de l’isolement de la
+          « vie de lettré » et les rendent confrontables à des expériences
+          plus communes ou mieux partagées.</p>
+          <p xml:id="d1e334">L’érudition des profondeurs, qui représente
+          l’idée que pour connaître une chose il faut la vivre, n’est ainsi
+          pas sans rapport avec le succès des formes de connaissance par
+          expérience directe dont le terrain de l’ethnologue, dans le domaine
+          des sciences humaines, est l’un des motifs les plus connus. Ce mode
+          de savoir rencontre aujourd’hui un élargissement et une publicité
+          tels qu’il a fini par devenir le mode préféré de connaissance,
+          devant le savoir critique et distancié. La connaissance du passé par
+          immersion (re-vivre des événements par des dispositifs tels que les
+          spectacles historiques vivants par exemple) rencontre un grand
+          succès et transforme, dans des proportions non encore considérées
+          véritablement, le rapport de chacun à l’histoire. Dans un tout autre
+          domaine, la recherche actuelle de la « pleine conscience » par un
+          nombre croissant d’individus par de multiples voies que l’on peut
+          rattacher à la nébuleuse New Age est également une façon de
+          manifester la nécessité d’éprouver pour connaître et de ressentir
+          intérieurement ce que l’on cherche à appréhender intellectuellement.
+          Et c’est attachée à cet ensemble en apparence hétéroclite de
+          réalités que l’érudition des profondeurs peut donner aux savants qui
+          en relèvent le niveau de complication à même de les mettre en écho
+          avec d’autres mondes.</p>
+          <p xml:id="d1e336">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-fwmghzuh">interdisciplinarité</term>
+              </term>
+            </term>L’érudition
+          des traversées, ainsi que je l’ai souligné plus haut, nous dit
+          quelque chose d’une façon particulière, peut-être propre à la
+          modernité, d’être dans le monde. Ce sont des vies d’hommes
+          pluralisés, augmentés avant l’heure en quelque sorte. Dans un
+          mouvement strictement inverse à celui de « l’homme pluriel » décrit
+          par <persName ref="032018282" type="idref" xml:base="https://www.idref.fr/">Bernard Lahire</persName>
+            <note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>
+                <hi rend="small-caps">Lahire</hi>, 1998.</p>
+            </note> – qui est un homme divisé entre plusieurs domaines ou
+          registres et qui présente la schizophrénie ordinaire de ceux qui
+          appartiennent à plusieurs mondes sociaux –, les érudits pluralisés
+          sont des hommes multipliés. Ils sont plusieurs, font le travail de
+          plusieurs. C’est un motif ancien que l’on trouvait dans les contes
+          populaires mettant en scène un héros auquel on confiait des tâches
+          impossibles pour un seul homme et parvenait tout de même à les
+          réaliser dans le temps imparti. Puis, à la faveur d’un changement
+          d’économie morale de la modernité occidentale aux <date from="1700" to="1899" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> et <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècles</date>, ce motif s’est converti en un
+          idéal, avant de devenir un objectif rendu accessible du fait de
+          progrès techniques qui offrent d’augmenter et de multiplier les
+          individus de façon assez littérale.</p>
+        </div>
+        <div type="section1" xml:id="d1e354">
+          <head subtype="level1" xml:id="d1e355">Façons de faire et
+          intermittences de l’érudition</head>
+          <p xml:id="d1e357">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités
+          personnelles</term>
+            </term>Ces manières d’être sont arrimées à des
+          façons de faire qui, pour certaines d’entre elles, constituent des
+          gestes techniques d’érudition. Pour autant, la mise en œuvre de ces
+          gestes ne fait pas automatiquement entrer la personne dans le cercle
+          des érudits. On peut faire de l’érudition sans être catalogué
+          « érudit ». Et, sans doute, ces <hi rend="italic">intermittences
+          pratiques de l’érudition</hi> forment aujourd’hui le mode le plus
+          généralisé de la pratique érudite. On la trouve en effet contenue
+          dans certains contextes d’interaction ou d’exposition. Elle surgit
+          au sein de ces petits <hi rend="italic">théâtres</hi> plus ou moins
+          improvisés qui la confinent assez pour n’être pas lue comme une
+          manière d’être. Des pratiques érudites qui ne font pas des vies
+          érudites, qu’elles soient des profondeurs ou des traversées.</p>
+          <p xml:id="d1e365">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-4skusyqu">carnet</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-wwbkzdwu">note</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-ytvep88b">page</term>
+              </term>
+            </term>La scène la
+          plus ordinaire et la plus conventionnelle de ce théâtre de
+          l’érudition dans le monde de l’écrit est probablement celle des
+          notes de bas de page, une scène qui occupe aujourd’hui une place
+          plus modeste que dans la <date from="1900" to="1949" type="_temp">première moitié du <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date> où, littéralement et matériellement,
+          les notes pouvaient dédoubler le texte comme dans certains livres ou
+          articles d’<persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">E. Durkheim</persName>, <persName ref="027019330" type="idref" xml:base="https://www.idref.fr/">M. Mauss</persName> ou <persName ref="02673298X" type="idref" xml:base="https://www.idref.fr/">M. Bloch</persName>. Ces théâtres
+          infrapaginaux sont aujourd’hui assez effacés. En réalité, ils
+          s’exposent ailleurs que dans les notes des textes scientifiques
+          publiés : ils se tiennent dans les performances orales qui les
+          précèdent et les préparent (les séminaires), mais aussi dans les
+          journaux de travail, les carnets préparatoires qui ne sont pas
+          toujours pensés comme « préparatoires » et sont des astreintes
+          quotidiennes d’écriture : un journal de route ou de recherche, le
+          plus souvent non publié. Ce sont eux qui soutiennent désormais
+          (entre autres choses) ces petits théâtres d’érudition joués pour
+          soi-même, première étape dans la domestication du flux des faits et
+          des idées. On gagnerait en compréhension des mécanismes de leur
+          pensée à interroger sous cet angle les trois volumes des <hi rend="italic">Fragments de journal</hi> de <persName ref="026849755" type="idref" xml:base="https://www.idref.fr/">Mircea
+          Eliade</persName> (et son <hi rend="italic">Journal
+          portugais</hi>)<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>
+                <hi rend="small-caps">Eliade</hi>, 1973-1991, 2010.</p>
+            </note>, ou encore le journal <date from="2008" to="2011" type="_temp">2008-2011</date> de <persName ref="02852683X" type="idref" xml:base="https://www.idref.fr/">Peter
+          Sloterdijk</persName> intitulé <hi rend="italic">Les lignes et les
+          jours </hi>qui révèle la gigantesque érudition, de type
+          « débordement excessif », du philosophe<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>
+                <hi rend="small-caps">Sloterdijk</hi>, 2014.</p>
+            </note>.</p>
+          <p xml:id="d1e394">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique
+          lettrée</term>
+            </term>Mais la mise en scène peut être beaucoup plus
+          élaborée, et à destination immédiate d’un lecteur pour qui l’on joue
+          l’érudition et, ce faisant, on la commente, on la critique et on la
+          détourne. Ce sont dès lors des façons de faire qui disent une
+          manière singulière d’être érudit et relèvent en quelque sorte d’une
+          méta-érudition, qui se fait en ironisant d’elle-même, s’inscrivant
+          ainsi dans une veine de critique de l’érudition telle qu’elle existe
+          depuis les Lumières<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Cf. sur ce point <hi rend="small-caps">Piégay</hi>, 2015.</p>
+            </note>. Je situerais à ce niveau les entreprises pataphysiciennes
+          depuis <persName ref="02693583X" type="idref" xml:base="https://www.idref.fr/">Alfred Jarry</persName>, une large
+          partie de l’œuvre de <persName ref="027085694" type="idref" xml:base="https://www.idref.fr/">Raymond Queneau</persName> et
+          singulièrement le moment qui le faisait diriger la série des
+          « Encyclopédies de la Pléiade » pour Gallimard tandis qu’il
+          élaborait un projet d’<hi rend="italic">Encyclopédie des sciences
+          inexactes</hi>
+            <note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>Cette mise en parallèle a été soulignée par <hi rend="small-caps">Shiotsuka</hi>, 2001.</p>
+            </note>, ou encore celle de <persName ref="026739917" type="idref" xml:base="https://www.idref.fr/">Jorge Luis Borges</persName>,
+          <persName ref="027064581" type="idref" xml:base="https://www.idref.fr/">Georges Perec</persName>, <persName type="_temp">Pierre Michon</persName> ou <persName ref="027086267" type="idref" xml:base="https://www.idref.fr/">Pascal
+          Quignard</persName>
+            <note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Pour une analyse de ces éruditions littéraires, cf. à nouveau
+              <hi rend="small-caps">Piégay</hi>, 2015.</p>
+            </note>. Dans ces façons de faire et de penser l’érudition d’un
+          même mouvement, la réflexivité occupe une part essentielle. C’est
+          elle – et non plus un théâtre délimité comme celui d’un journal de
+          recherche ou d’une note de bas de page – qui règle l’expression de
+          l’érudition et la maintient dans des façons de faire qui n’ont pas
+          forcément à être élevées au rang de manières d’être ou de traits
+          forts d’identification. Une fois de plus, de l’érudition non portée
+          par des « érudits ».</p>
+          <p xml:id="d1e419">Dès lors, la réflexivité me semble un bon outil
+          pour problématiser et encadrer la figure de l’érudit que l’on pourra
+          désormais distinguer de celle du savant ou du lettré.</p>
+          <p xml:id="d1e421">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-yuw7gtea">savant</term>
+              </term>
+            </term>Le savant
+          – et la « vie savante » est marquée de cette empreinte – doit au
+          type de savoir qu’il met en forme de la réflexivité, soit une
+          réflexion sur sa posture, sur sa démarche, sur la nature des faits
+          observés et le type d’implication du sujet sur son objet de
+          recherche. Si celle-ci possède des degrés très différents de
+          réalisation – entre celle haut régime de l’ethnologue car elle fait
+          partie intégrante de la construction de son objet et celle d’un
+          physicien, il existe un écart important –, elle appartient aux
+          façons de faire du savant (qui peuvent par ailleurs être érudites)
+          et en assure le contrôle et la maîtrise par des moyens très
+          ordinairement sérieux (un journal, des notes, un principe de
+          sélection, d’ordre et de tri) ou très singulièrement joyeux, sous la
+          forme de l’ironie par exemple, telle qu’on peut la trouver chez
+          <persName ref="027085694" type="idref" xml:base="https://www.idref.fr/">R. Queneau</persName>. Mais quel
+          qu’il soit, l’appareillage réflexif, ce retour sur soi et sur sa
+          pratique, révèle une distance à soi-même – on ne revient sur soi que
+          parce que cette distance existe –, une sorte de division intérieure
+          dont le savant peut chercher à triompher de façon plus ou moins
+          attentive, angoissée ou prétentieuse. À la solidarité de quel fleuve
+          les deux rives de la vie et de l’œuvre seront-elles soumises ?
+          Obéiront-elles à des écosystèmes et des régimes différents comme si
+          le cours d’eau qu’elles partagent séparaient deux continents ? Ou,
+          au contraire, seront-elles si proches qu’on peinera à distinguer le
+          ru asséché qui a pu les dissocier à un moment donné ? Quels ponts ?
+          Quels gués ? Quels regards échangés et quels appels lancés ? Quels
+          silences et quelles opacités réciproques ? L’économie de ces
+          échanges – en partie réglés par la main invisible de la
+          réflexivité – forme la texture de la vie savante.</p>
+          <p xml:id="d1e423">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-gybppx7p">réflexivité</term>
+              </term>
+            </term>L’érudit,
+          inversement, n’aurait pas ses façons de faire entièrement contrôlées
+          et contenues par une dose conséquente de réflexivité. Établissons-en
+          l’idéal-type tout en gardant à l’esprit que, sans doute, la réalité
+          ne présente que des semi-érudits (ainsi que des « demi-savants<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>Sans donner à cette expression le sens très péjoratif que lui
+              confère A. van Gennep dans un vif essai de réflexivité
+              critique ; <hi rend="small-caps">van Gennep</hi>, 1911.</p>
+            </note> »). Ses façons de faire transpirent immédiatement comme
+          manières d’être, sans filtre. Il n’y a pas de fleuve entre la vie et
+          l’œuvre, et c’est justement cette absence qui donne le vertige. La
+          soudaineté avec laquelle l’érudition, trait intellectuel, se
+          convertit en trait de caractère gouverne le comportement et se lit
+          jusque dans l’allure et le corps, est saisissante. La manière dont
+          l’érudition tourne dans tous les sens et entremêle les registres
+          donne un vertige qui lui est caractéristique, très différent de
+          celui qui peut s’emparer du savant entre la vie et l’œuvre duquel
+          peut s’immiscer un gouffre anxiogène.</p>
+          <p xml:id="d1e432">Enfin, je situerais entre ces deux modèles la
+          figure du lettré, en resserrant un peu le terme qu’utilise <persName ref="069552177" type="idref" xml:base="https://www.idref.fr/">W. Marx</persName>. Le lettré a de
+          l’érudit la disposition à vivre la continuité des façons de faire et
+          des manières d’être, mais une continuité dont il a conscience et
+          qu’il travaille car il mesure qu’elle le singularise et que cette
+          continuité ne va pas de soi pour tous. Il sait qu’il y a un écart,
+          et c’est son côté savant. Mais ce n’est pas un grand écart. On passe
+          très aisément sur l’autre rive en empruntant les multiples ponts
+          qu’il aura pris soin de bâtir. Les ponts font ainsi partie
+          intégrante de l’œuvre. Ils correspondent en somme aux motifs qui
+          guident l’ouvrage de <persName ref="069552177" type="idref" xml:base="https://www.idref.fr/">W. Marx</persName> : l’emploi du
+          temps, l’organisation de la maison, de la sexualité, des attitudes
+          face à la mort, etc., qui forment autant d’enjambements ou de sauts
+          esthétiques qui permettent de passer d’une rive à l’autre. Le lettré
+          est un dandy du savoir.</p>
+        </div>
+        <div type="section1" xml:id="d1e434">
+          <head subtype="level1" xml:id="d1e435">Vie, mort et re-vie de
+          l’érudit</head>
+          <p xml:id="d1e437">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-wxtpa7cz">biographie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-w2ckzlem">anthropologie</term>
+                </term>
+              </term>
+            </term>Comment
+          et à quel moment cette configuration érudit-savant-lettré s’est-elle
+          stabilisée ? De quelles façons l’érudit et le savant se sont-ils
+          contrastés ? Il s’agit là de questions qui nécessiteraient
+          l’ouverture d’une très vaste enquête d’anthropologie historique dont
+          les principaux jalons donneraient les grands contours de la vie de
+          l’érudit jusqu’au <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date>, les
+          circonstances de sa mort à ce moment et, enfin, les formes et
+          raisons du retour et de la re-vie de cette figure au <date from="1900" to="1999" type="_temp">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date>. La « vie » constituant l’objet de
+          plusieurs des chapitres ici réunis, je me permettrais de formuler
+          quelques propositions quant à la « mort » de l’érudition et
+          l’apparition de quelques spectres auxquels elle a pu donner
+          lieu.</p>
+          <p xml:id="d1e449">De la mort de l’érudit, l’on sait ce qu’elle doit
+          aux Lumières<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>On pourra se reporter à <hi rend="small-caps">Starobinski</hi>, 1976 qui présente notamment
+              le diagnostic qu’en fait un contemporain exceptionnel,
+              l’historien Edward Gibbon.</p>
+            </note> et à l’élévation d’une critique de plus en plus régulière,
+          de plus en plus clairement formulée à partir du milieu du <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date>, à
+          l’encontre de l’érudition. Celle-ci était alors devenue le type de
+          savoir associé à la mémoire, tandis que les autres facultés de
+          l’esprit – la raison et l’imagination – revenaient respectivement à
+          la science et à la littérature. Le triptyque des facultés mentales,
+          tel qu’il avait été installé lors de la <date>Renaissance</date>, a
+          probablement nourri l’imaginaire commun de figures de connaissance
+          qui ont formé les modèles de l’érudit (pour la mémoire), du savant
+          (pour la raison) et du lettré (pour l’imagination), au détriment
+          progressif de la figure de l’érudit, ou plus exactement d’une
+          certaine forme d’érudition.</p>
+          <p xml:id="d1e463">La distinction suggérée plus haut entre le repli
+          intensif (érudition des profondeurs) et le débordement excessif
+          (érudition des traversées) prend ici un relief supplémentaire. Car
+          c’est en effet d’abord l’érudition du débordement et des traversées
+          qui est visée par les critiques. L’une des formulations les plus
+          claires et les plus littérales de ce jugement a été exprimée dans
+          des vers du poète et chansonnier <persName ref="030305063" type="idref" xml:base="https://www.idref.fr/">Charles-François
+          Panard</persName> parus dans le <hi rend="italic">Mercure de
+          France</hi> de <date type="_temp" when="1749-01">janvier
+          1749</date> :</p>
+          <quote rend="quotation" xml:id="d1e468">« Avant se rendre érudit, se
+          mettre au fait de sa patrie<lb/>Savoir <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> avant
+          <placeName ref="3117735" type="geonames" xml:base="https://www.geonames.org/">Madrid</placeName>
+            <lb/>Savoir
+          l’Europe avant l’Asie, voilà le bon esprit<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>
+                <hi rend="small-caps">Panard</hi>, 1749, p. 201.</p>
+            </note>. »</quote>
+          <p xml:id="d1e480">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-gznzb4bl">divisions historiques des
+          savoirs</term>
+              </term>
+            </term>La distinction entre l’érudition
+          échevelée que l’on dénonce (les « coupables excès de l’érudition »
+          lit-on à plusieurs reprises, car « n’est pas <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> qui veut »,
+          celui-ci constituant la figure de l’érudit polymathe la plus
+          convoquée de l’exception qui confirme la règle) et l’érudition
+          repliée et besogneuse, celle qui atteste la maîtrise d’un certain
+          nombre de gestes techniques et de sciences auxiliaires de l’histoire
+          (numismatique, archivistique, paléographie, héraldique, etc.), se
+          met en place probablement au moment même où le terme « érudition »
+          occupe, avec la science et la littérature, le devant de la scène de
+          la connaissance. Séparer la mauvaise de la bonne érudition, et
+          conserver pour cette dernière le monopole du terme dans le voisinage
+          des savants, tandis que l’autre s’évanouira dans des comportements
+          non qualifiés de polygraphes ou de « fous littéraires », seront les
+          conséquences immédiates de ce premier geste.</p>
+          <p xml:id="d1e482">Cette configuration se consolide tout au long du
+          <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>
+            <note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Pour le côté « savant », je me permets de renvoyer à <hi rend="small-caps">Adell</hi>, 2016. L’évolution parallèle du
+              côté « érudit » mériterait une analyse à part entière.</p>
+            </note> pour finir par se cristalliser dans l’opposition célèbre
+          que l’un des pères de la physique nucléaire, <persName ref="027711978" type="idref" xml:base="https://www.idref.fr/">Ernest
+          Rutherford</persName>, avait faite en affirmant dans les <date from="1920" to="1929" type="_temp">années 1920</date> qu’il n’y
+          avait en fait que deux types de savants, le physicien et le
+          collectionneur de timbres, inconciliables.</p>
+          <p xml:id="d1e496">Cette critique, qui avait donc pris naissance au
+          <date type="_temp" when="1750">milieu du <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date>,
+          trouve l’une de ses plus belles tournures dans une confession
+          épistolaire publiée en <date type="_temp" when="1815">1815</date>
+          que fait une comtesse restée anonyme à un officier des dragons de
+          <persName ref="02733791X" type="idref" xml:base="https://www.idref.fr/">Napoléon</persName>
+            <note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>
+                <hi rend="italic">L’amour et l’érudition</hi> [1815], Paris,
+              Beaupré. J’utilise dans les lignes qui suivent tout
+              particulièrement la lettre 105.</p>
+            </note>. Elle croque en quelques pages le portrait d’un érudit,
+          <persName type="_temp">Georges Robert</persName>, qui combine toutes
+          les tares érudites du débordement et des traversées excessives de
+          frontières : de l’espace, du temps, des comportements, des façons de
+          faire et des manières d’être, dans une continuité sans contrôle, que
+          la comtesse rassemble : « Car il croit tout faire comme les Grecs. À
+          table, ne voulait-il pas nous contraindre de boire des fleurs, parce
+          que les amoureux et les convives d’<placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName> finissaient
+          par boire leurs couronnes<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>
+                <hi rend="italic">Ibid</hi>., p. 262.</p>
+            </note> ? ». Et plus loin, elle affirme qu’il est « chargé de
+          sciences qui roulent pêle-mêle dans sa tête<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>
+                <hi rend="italic">Ibid</hi>., p. 263.</p>
+            </note> ». Et ces traits se traduisent dans ses « manières » :
+          « c’est sa personne qui est curieuse : il se balance sur le bout du
+          pied, en pinçant le bec ou en déclamant quelques vers orientaux. […]
+          Il s’obstine à porter des habits sans collet pour que rien ne le
+          gêne dans ses mouvements de tête, et des manches trop courtes d’une
+          palme, afin d’avoir les poignets libres comme les Grecs et les
+          Romains, dont il regrette beaucoup le vêtement. […] Il va tête nue,
+          parce que, chez les Athéniens, les malades seuls avaient une
+          coiffure<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>
+                <hi rend="italic">Ibid</hi>., p. 263-264.</p>
+            </note>. »</p>
+          <p xml:id="d1e527">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-oznhectr">génie</term>
+              </term>
+            </term>Ces
+          attitudes sont dénoncées comme des « folies », tandis que
+          l’austérité érudite des profondeurs conserve une certaine légitimité
+          quoiqu’on finisse par la considérer avec la sympathie amusée et
+          condescendante que l’on peut accorder aux collectionneurs de
+          timbres. Ces dénonciations de manies intellectuelles se généralisent
+          et s’aggravent tout au long du <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi>
+            </date> sous l’effet des diagnostics de la psychopathologie du
+          génie<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Les travaux, trop méconnus, de Théodore Wechniakoff dans les
+              années 1860-1880 sont hautement révélateurs de cette
+              disqualification qui vise à cerner la « nature » du génie. Cf.
+              notamment ses articles inédits réunis par Raphaël Petrucci en un
+              volume posthume, <hi rend="small-caps">Wechniakoff</hi>,
+              1899.</p>
+            </note>, pour devenir le discours commun au début du <date from="1900" to="1999" type="_temp">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date> quand l’érudition des traversées
+          fait une sorte de retour dans un domaine inattendu, celui de l’art.
+          <persName ref="027112810" type="idref" xml:base="https://www.idref.fr/">Raymond Roussel</persName>,
+          <persName ref="027085694" type="idref" xml:base="https://www.idref.fr/">Raymond Queneau</persName>, puis
+          <persName ref="027064581" type="idref" xml:base="https://www.idref.fr/">Georges Perec</persName> font
+          franchir à l’érudition un seuil auquel on la pensait définitivement
+          arrêtée : celui de la création. L’érudit, c’était l’envers du
+          créateur. Et, désormais, pour quelques écrivains, l’érudition sera
+          une partie intégrante de la création, voire son ressort
+          principal<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>Cf. les utiles réflexions de Marcel <hi rend="small-caps">Bénabou</hi>, 1990.</p>
+            </note>.</p>
+          <p xml:id="d1e553">Mais je recueille surtout le signe supérieur de
+          cette conversion, de cette re-vie de l’érudition dans un monde
+          nouveau, dans des œuvres érudites pensées comme scientifiques par
+          leurs auteurs mais ignorées par la science, qui seront reconnues par
+          l’art, et l’art brut singulièrement. Ce sont des cas assez peu
+          étudiés à ma connaissance tant ils échappent à tout tentative
+          d’analyse systématique et résistent beaucoup à la description du
+          fait de la densité et de l’incohérence apparente de leur production.
+          Parmi ceux-ci, <persName ref="188776834" type="idref" xml:base="https://www.idref.fr/">Jean Perdrizet</persName> (<date from="1907" to="1975" type="_temp">1907-1975</date>) n’est ni moins
+          ni plus exceptionnel qu’un autre, sans être « représentatif » tant
+          le mot se prête mal pour évoquer une collection de cas aussi
+          singuliers dont la réunion tient à des principes très
+          arbitraires.</p>
+          <p xml:id="d1e555">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-zndekhru">qualités personnelles<term ref="doi:10.34817/sv-k6ajzcts">créativité</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-rkp2ctq5">pratique manuelle<term ref="doi:10.34817/sv-kitjm6kp">geste</term>
+              </term>
+            </term>
+            <persName ref="188776834" type="idref" xml:base="https://www.idref.fr/">Jean
+          Perdrizet</persName> était un inventeur bourguignon qui puisait dans
+          de nombreux domaines pour créer des machines surprenantes dont il
+          nous reste les noms et les plans tels celui du « Robot Adam
+          sélénite » (qui devait avoir une fonction d’ambassadeur de
+          l’humanité dans l’espace), celui d’une « machine à communiquer avec
+          les fantômes », d’une « tour logarithmique » dont la fonction nous
+          échappe, d’une « machine à lire et à voir pour robots cosmonautes
+          auto-reproducteurs », d’un « avion ponctiforme aiguille » fait pour
+          « piloter l’âme », ou d’une « machine à écrire avec l’au-delà ».
+          Cette dernière avait par ailleurs nécessité l’invention d’une
+          langue, la langue T ou l’espéranto sidéral dont <persName ref="188776834" type="idref" xml:base="https://www.idref.fr/">J. Perdrizet</persName> a livré les
+          grands principes de construction<note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>
+                <hi rend="small-caps">Anceau</hi>, 2012.</p>
+            </note>. Plusieurs de ses projets avaient fait l’objet d’envois à
+          la NASA, au CNRS, au Comité Nobel. Là seulement, peut-être, réside
+          un premier trait d’exceptionnalité d’un personnage qui invite à
+          brouiller les frontières entre geste technique érudit et geste
+          artistique, entre érudition et création.</p>
+          <p xml:id="d1e564">Le second tient au fait que, dans le cas
+          <persName ref="188776834" type="idref" xml:base="https://www.idref.fr/">Perdrizet</persName>, il est
+          possible de dresser la généalogie de ce retour artistique de
+          l’érudition des traversées. <persName ref="188776834" type="idref" xml:base="https://www.idref.fr/">Jean Perdrizet</persName> possédait
+          en effet dans sa bibliothèque les livres de <persName ref="027112810" type="idref" xml:base="https://www.idref.fr/">Raymond Roussel</persName> et
+          <persName ref="032866119" type="idref" xml:base="https://www.idref.fr/">Camille Flammarion</persName>. De
+          <persName ref="027112810" type="idref" xml:base="https://www.idref.fr/">Roussel</persName>, il semble avoir
+          gardé à l’esprit, et actualisé, l’image du savant-poète, héros de
+          <hi rend="italic">Locus Solus</hi>, l’inventeur <persName type="_temp">Martial Canterel</persName>. De <persName ref="032866119" type="idref" xml:base="https://www.idref.fr/">Flammarion</persName>, ce serait le
+          goût spirite, la passion pour les maisons hantées pour lesquelles
+          <persName ref="188776834" type="idref" xml:base="https://www.idref.fr/">J. Perdrizet</persName> élaborait
+          des machines à détecter les fantômes. Et, pour finir, je vois comme
+          un intersigne éclairant le fait que <persName ref="027112810" type="idref" xml:base="https://www.idref.fr/">Raymond
+          Roussel</persName>, en relatant à <persName ref="176543511" type="idref" xml:base="https://www.idref.fr/">Georges
+          Bataille</persName> une visite faite à l’observatoire de <placeName ref="6446153" type="geonames" xml:base="https://www.geonames.org/">Juvisy</placeName>, lui dise
+          toute l’admiration « frénétique » qu’il a pour <persName ref="032866119" type="idref" xml:base="https://www.idref.fr/">Camille Flammarion</persName> et
+          rapporte du déjeuner pris ensemble un petit gâteau en forme d’astre
+          pour pouvoir « manger une étoile du ciel<note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>L’anecdote est rapportée dans <hi rend="small-caps">Charuty</hi>, 2004.</p>
+            </note> », en attendant que les machines de <persName ref="188776834" type="idref" xml:base="https://www.idref.fr/">Jean
+          Perdrizet</persName> ne les décrochent pour de bon à la faveur d’une
+          science non bornée par la raison, d’une érudition tournée vers
+          l’avenir et non simple virtuosité de la mémoire, d’une poésie
+          soutenue par une imagination irisée par un projet : se saisir de
+          l’invisible.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e577">
+        <head xml:id="d1e578">Bibliographie</head>
+        <listBibl xml:id="d1e580">
+          <bibl xml:id="d1e581">
+            <hi rend="small-caps">Achimastos</hi>, 2014 :
+          Myron <hi rend="small-caps">Achimastos</hi>, « Remarques sur
+          l’édition critique des <hi rend="italic">Formes élémentaires</hi> »,
+          <hi rend="italic">Cahiers de recherche sociologique</hi>, 56,
+          p. 33-52.</bibl>
+          <bibl xml:id="d1e594">
+            <hi rend="small-caps">Adell</hi>, 2016 :
+          Nicolas <hi rend="small-caps">Adell</hi>, « La vie savante.
+          Perspectives morphologiques », dans Nicolas Adell et Jérôme Lamy
+          (éds.), <hi rend="italic">Ce que la science fait à la vie</hi>,
+          Paris, Éditions du CTHS, p. 21-75.</bibl>
+          <bibl xml:id="d1e604">
+            <hi rend="small-caps">Adell</hi>, 2017 :
+          Nicolas <hi rend="small-caps">Adell</hi>, « Des vies conduites par
+          les œuvres », <hi rend="italic">Hybrid. Revue des arts et médiations
+          humaines </hi>[En ligne], 4. URL : <ref target="http://www.hybrid.univ-paris8.fr/lodel/index.php?id=753">
+              <hi rend="underline">http://www.hybrid.univ-paris8.fr/lodel/index.php?id=753</hi>
+            </ref>
+          </bibl>
+          <bibl xml:id="d1e617">
+            <hi rend="small-caps">Adell</hi> et <hi rend="small-caps">Lamy</hi>, 2016 : Nicolas <hi rend="small-caps">Adell</hi> et Jérôme <hi rend="small-caps">Lamy</hi> (éds.), <hi rend="italic">Ce que la
+          science fait à la vie</hi>, Paris, Éditions du CTHS.</bibl>
+          <bibl xml:id="d1e633">
+            <hi rend="small-caps">Akhmetyanov</hi>, 2015:
+          Rifkat G. <hi rend="small-caps">Akhmetyanov</hi>, <hi rend="italic">Etymological Dictionary of Tatar Language</hi>, Kazan,
+          Magarif-Vakyt.</bibl>
+          <bibl xml:id="d1e643">
+            <hi rend="small-caps">Anceau</hi>, 2012 :
+          Manuel <hi rend="small-caps">Anceau</hi>
+            <hi rend="italic">et
+          al.</hi>, <hi rend="italic">Jean Perdrizet, Deus ex machina</hi>,
+          Paris, Christian Berst Éditions.</bibl>
+          <bibl xml:id="d1e656">
+            <hi rend="small-caps">Bénabou</hi>, 1990 :
+          Marcel <hi rend="small-caps">Bénabou</hi>, « Vraie et fausse
+          érudition chez Perec », dans Mireille Ribière (éd.), <hi rend="italic">Parcours Perec</hi>, Lyon, PUL, p. 41-47.</bibl>
+          <bibl xml:id="d1e666">
+            <hi rend="small-caps">Béra</hi>, 2016 :
+          Matthieu <hi rend="small-caps">Béra</hi>, « Index, notes et
+          bibliographie(s). Le travail d’édition scientifique en acte », <hi rend="italic">Archives de sciences sociales des religions</hi>, 176,
+          p. 155-167.</bibl>
+          <bibl xml:id="d1e676">
+            <hi rend="small-caps">Charuty</hi>, 2004 :
+          Giordana <hi rend="small-caps">Charuty</hi>, « Se tenir debout
+          devant le ciel. Les métamorphoses du christianisme coutumier », <hi rend="italic">Diogène</hi>, 205, p. 76-94.</bibl>
+          <bibl xml:id="d1e686">
+            <hi rend="small-caps">Dobry</hi>, 2003 :
+          Michel <hi rend="small-caps">Dobry</hi>, « Légitimité et calcul
+          rationnel. Remarques sur quelques “complications” de la sociologie
+          de Max Weber », dans Pierre Favre, Jack Hayward et Yves Schemeil
+          (éds.), <hi rend="italic">Être gouverné. Études en l’honneur de Jean
+          Leca</hi>, Paris, Presses de SciencesPo, p. 127-147.</bibl>
+          <bibl xml:id="d1e696">
+            <hi rend="small-caps">Durkheim</hi>, 2015 :
+          Émile <hi rend="small-caps">Durkheim</hi>, <hi rend="italic">Œuvres.
+          Tome 1 : Les formes élémentaires de la vie religieuse</hi>, édité
+          par Myron Achimastos, Classiques Garnier, coll. « Bibliothèques des
+          sciences sociales ».</bibl>
+          <bibl xml:id="d1e707">
+            <hi rend="small-caps">Eliade</hi>, 1973-1991 :
+          Mircea <hi rend="small-caps">Eliade</hi>, <hi rend="italic">Fragments d’un journal</hi>, Paris, Gallimard, 3
+          vol.</bibl>
+          <bibl xml:id="d1e717">
+            <hi rend="small-caps">Eliade</hi>, 2010 :
+          Mircea <hi rend="small-caps">Eliade</hi>, <hi rend="italic">The
+          Portugal Journal</hi>, New York, SUNY Press.</bibl>
+          <bibl xml:id="d1e727">
+            <hi rend="small-caps">Flammarion</hi>, 1869 :
+          Camille <hi rend="small-caps">Flammarion</hi>, « Le spiritisme et la
+          science. Discours prononcé sur la tombe d’Allan Kardec », <hi rend="italic">La Revue Spirite </hi>[En ligne], 12. URL : <ref target="https://www.cslak.fr/images/cslak/bibliotheque/livres/Allan_Kardec/revuespirite69.pdf">
+              <hi rend="underline">https://www.cslak.fr/images/cslak/bibliotheque/livres/Allan_Kardec/revuespirite69.pdf</hi>
+            </ref>
+          </bibl>
+          <bibl xml:id="d1e740">
+            <hi rend="small-caps">Godel</hi>, 1960 :
+          Robert <hi rend="small-caps">Godel</hi>, « Souvenirs de F. de
+          Saussure concernant sa jeunesse et ses études <hi rend="italic">»,
+          Cahiers Ferdinand de Saussure</hi>, 17, p. 12-25.</bibl>
+          <bibl xml:id="d1e750">
+            <hi rend="small-caps">Lahire</hi>, 1998 :
+          Bernard <hi rend="small-caps">Lahire</hi>, <hi rend="italic">L’Homme
+          pluriel</hi>, Paris, Nathan.</bibl>
+          <bibl xml:id="d1e760">
+            <hi rend="small-caps">Marx</hi>, 2009 :
+          William <hi rend="small-caps">Marx</hi>, <hi rend="italic">Vie de
+          lettré</hi>, Paris, Éditions de Minuit.</bibl>
+          <bibl xml:id="d1e770">
+            <hi rend="small-caps">Mejía Quijano</hi>,
+          2006 : Claudia <hi rend="small-caps">Mejía Quijano</hi>, <hi rend="italic">Le cours d’une vie. Portrait diachronique de Ferdinand
+          de Saussure. Volume 1</hi>, Paris, Éditions Cécile Defaut.</bibl>
+          <bibl xml:id="d1e780">
+            <hi rend="small-caps">Mejía Quijano</hi>,
+          2012 : Claudia <hi rend="small-caps">Mejía Quijano</hi>, <hi rend="italic">Le cours d’une vie. Portrait diachronique de Ferdinand
+          de Saussure. Volume 2</hi>, Paris, Éditions Cécile Defaut.</bibl>
+          <bibl xml:id="d1e790">
+            <hi rend="small-caps">Mourre</hi>, 1996 :
+          Michel <hi rend="small-caps">Mourre</hi>, <hi rend="italic">Dictionnaire encyclopédique d’histoire</hi>, Paris,
+          Bordas, 5 vol.</bibl>
+          <bibl xml:id="d1e800">
+            <hi rend="small-caps">Panard</hi>, 1749 :
+          Charles-François <hi rend="small-caps">Panard</hi>, « Vaudeville »,
+          <hi rend="italic">Mercure de France</hi> (janvier 1749),
+          p. 199-202.</bibl>
+          <bibl xml:id="d1e810">
+            <hi rend="small-caps">Piégay</hi>, 2015 :
+          Nathalie <hi rend="small-caps">Piégay</hi>, « L’érudition
+          imaginaire », <hi rend="italic">Arts et Savoirs</hi> [En ligne], 5 :
+          <ref target="https://journals.openedition.org/aes/306">
+              <hi rend="underline">https://journals.openedition.org/aes/306</hi>
+            </ref>
+          </bibl>
+          <bibl xml:id="d1e824">
+            <hi rend="small-caps">Shiotsuka</hi>, 2001 :
+          Shuichiro <hi rend="small-caps">Shiotsuka</hi>, « Raymond Queneau et
+          deux encyclopédies : l’idée de "savoir" chez Queneau », <hi rend="italic">Cahiers de l’AIEF</hi>, 53, p. 391-420.</bibl>
+          <bibl xml:id="d1e834">
+            <hi rend="small-caps">Sloterdijk</hi>, 2014 :
+          Peter <hi rend="small-caps">Sloterdijk</hi>, <hi rend="italic">Les
+          lignes et les jours</hi>, Paris, Libella-Maren Sell.</bibl>
+          <bibl xml:id="d1e844">
+            <hi rend="small-caps">Starobinski</hi>, 1976 :
+          Jean <hi rend="small-caps">Starobinski</hi>, « From the Decline of
+          Erudition to the Decline of Nations: Gibbon’s Response to French
+          Thought », <hi rend="italic">Daedalus</hi>, 105-3,
+          p. 189-207.</bibl>
+          <bibl xml:id="d1e854">
+            <hi rend="small-caps">Van Gennep</hi>, 1911 :
+          Arnold <hi rend="small-caps">van Gennep</hi>, <hi rend="italic">Les
+          demi-savants</hi>, Paris, Mercure de France.</bibl>
+          <bibl xml:id="d1e864">
+            <hi rend="small-caps">Veyne</hi>, 1976 : Paul
+          <hi rend="small-caps">Veyne</hi>, <hi rend="italic">L’inventaire des
+          différences</hi>, Paris, Éditions du Seuil.</bibl>
+          <bibl xml:id="d1e874">
+            <hi rend="small-caps">Weber</hi>, 2013 : Max
+          <hi rend="small-caps">Weber</hi>, <hi rend="italic">La
+          domination</hi>, édité par Yves Sintomer, traduit par Isabelle
+          Kalinowski, Paris, La Découverte.</bibl>
+          <bibl xml:id="d1e884">
+            <hi rend="small-caps">Wechniakoff</hi>, 1899 :
+          Théodore <hi rend="small-caps">Wechniakoff</hi>, <hi rend="italic">Savants, penseurs, artistes. Biologie et pathologie
+          comparées</hi>, édité et présenté par Raphaël Petrucci, Paris,
+          Alcan.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

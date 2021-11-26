@@ -1,0 +1,1201 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:marcrel="http://www.loc.gov/loc.terms/relators" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-06-08T16:02:35.391+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="Spectres_08_PIEGAY">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Erudition et régimes de fiction</title>
+        <author role="aut">
+          <forename>Nathalie</forename>
+          <surname>Piégay</surname>
+          <affiliation>Université de Genève</affiliation>
+          <idno type="IDREF">03315046X</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification 3.0 non transposé - CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/3225K3DD" type="conferencePaper" xml:lang="fre">
+          <analytic>
+            <title level="a">Erudition et régimes de fiction</title>
+            <author>
+              <forename>Nathalie</forename>
+              <surname>Piegay</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Spectres de l'érudition</title>
+            <editor>
+              <forename>Jean-François</forename>
+              <surname>Bert</surname>
+            </editor>
+            <editor>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Lausanne</pubPlace>
+              <date>2018</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-p4k7sokh">fiction</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des
+          textes</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-wvqbejdv">citation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l’information<term ref="doi:10.34817/sv-qcvnt7ns">liste</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-qr6v8x6n">imagination</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1950" to="1999" type="_temp">deuxième moitié du <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-02-17T15:38:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Erudition et régimes de fiction</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Nathalie Piégay</docAuthor>
+          <affiliation>Université de Genève</affiliation>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">L’érudition, considérée comme un savoir savant,
+        privilégiant ses objets obsolètes ou spécialisés, ou comme une
+        pratique philologique des textes, a depuis longtemps été l’objet d’une
+        critique forte. Pour autant elle est restée vivace dans l’imaginaire
+        des écrivains. Aujourd’hui, elle est profondément modifiée par l’usage
+        d’Internet. Mais le rapport au texte, la conception humaniste et la
+        conception mémorielle de l’érudition sont remis en cause. Après une
+        relation humaniste puis mélancolique ou mémorielle de l’érudition,
+        apparaît un usage postmoderne : le savoir est investi par jeu, en
+        dépit parfois du partage entre le vrai et le faux, en manipulant les
+        traces toujours plus abondantes constante du passé.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e58">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-gznzb4bl">divisions historiques des savoirs<term ref="doi:10.34817/sv-bxdtchar">humanisme</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+            </term>
+          </term>À la suite
+        des travaux que j’avais entrepris il y a une quinzaine d’années sur
+        l’érudition imaginaire, je voudrais me demander comment le
+        développement des bibliothèques et archives numériques, et plus
+        généralement des documents numérisés et du Net, ont pu modifier
+        l’imaginaire que nous avons de l’érudition et notre rapport à la
+        connaissance, que l’on en fasse un usage savant ou artistique,
+        critique ou inventif. Je ferai l’hypothèse que l’écriture littéraire,
+        comme l’écriture de l’histoire telle que l’a analysée <persName ref="026774747" type="idref" xml:base="https://www.idref.fr/">Michel
+        de Certeau</persName>, est tributaire de l’érudition (en tant qu’elle
+        en est une technique) et que celle-ci, comme l’écriture de l’histoire
+        elle-même, est déterminée sur le plan social (qui fait l’histoire ?
+        quels hommes ?), matériel (quels moyens, quelles techniques, quel
+        support, aujourd’hui quels médias ?) et institutionnel (quel rapport
+        aux pouvoirs et à des institutions comme les bibliothèques les
+        archives ?). Je tenterai ainsi de montrer comment on est passé d’un
+        usage savant et humaniste (dans la tradition religieuse) de
+        l’érudition à un usage fantastique (selon l’expression de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> dans « La
+        bibliothèque fantastique<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>
+              <hi rend="small-caps">Foucault</hi>, 2001.</p>
+          </note> ») puis à un régime mémoriel puis postmoderne.</p>
+        <p xml:id="d1e66">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-5wyh9eft">critique</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des
+        textes</term>
+              </term>
+            </term>
+          </term>Rappelons d’abord que l’érudition
+        telle qu’on l’a pratiquée d’un point de vue littéraire est une méthode
+        de connaissance basée sur l’étude des textes, de leurs leçons et
+        variantes, qui vise à constituer un savoir objectivé par un appareil
+        critique, des notes, des index, des leçons philologiques. C’est
+        pourquoi on peut considérer comme érudite une création qui se fonde
+        sur cette méthode d’investigation, lui emprunte ses dispositifs ou la
+        développe et la représente dans une fiction, un film, une
+        installation, un texte poétique.</p>
+        <p xml:id="d1e68">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-qr6v8x6n">imagination</term>
+            </term>
+          </term>Plus
+        précisément encore, l’érudition caractérise un usage savant du savoir
+        ou un savoir savant, privilégiant les savoirs (ou les textes)
+        obsolètes, menacés de désuétude, les segments minuscules d’un savoir
+        particulier et leur investigation minutieuse. L’érudition a donc une
+        double caractéristique : d’une part c’est un savoir marginalisé ou
+        ultra spécifique ; d’autre part c’est un savoir en voie d’obsolescence
+        ou tombé dans l’oubli. C’est ainsi que <persName ref="027126420" type="idref" xml:base="https://www.idref.fr/">Judith
+        Schlanger</persName> peut définir l’érudition comme le devenir
+        littéraire des objets de pensée ou des objets littéraires : ils
+        seraient réappropriés, selon elle, précisément lorsqu’ils sont déjà
+        oubliés<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>
+              <hi rend="small-caps">Schlanger</hi>, 2008.</p>
+          </note>. C’est alors qu’ils sont réinvestis par l’imagination ou la
+        mémoire littéraire.</p>
+        <p xml:id="d1e76">L’érudition, en effet, et je vais me permettre de
+        résumer certaines des thèses que j’avais avancées<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>
+              <hi rend="small-caps">Piégay-Gros</hi>, 2008.</p>
+          </note>, a été l’objet d’une critique très vive, dès lors qu’on a pu
+        la considérer comme caractéristique d’un humanisme religieux.</p>
+        <p xml:id="d1e84">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+          </term>Trois motifs
+        principaux sont la cause de son discrédit. Le premier est sa nature
+        anti-spéculative ou anti-théorique : les Lumières en particulier, puis
+        tout mouvement de pensée qui a favorisé la spéculation plus que
+        l’observation, l’invention théorique plus que la tradition
+        philologique, ont récusé l’érudition. Signe de bêtise, de soumission,
+        elle serait opposée à la liberté de la théorie dégagée d’une tradition
+        livresque. On peut voir dans la Nouvelle Critique, puis dans la
+        théorie du texte ou l’invention de l’intertextualité une expression
+        positive de ce discrédit de l’érudition : on invente une pensée du
+        texte et un rapport à la mémoire qui se détache précisément de ce
+        modèle d’exégèse.</p>
+        <p xml:id="d1e86">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-qr6v8x6n">imagination</term>
+            </term>
+          </term>Le
+        deuxième motif est l’opposition de l’érudition à l’imagination (et
+        c’est encore un motif romantique) : là où on ne sait qu’imaginer, où
+        l’esprit est sec et désincarné, l’érudition pallie le manque de
+        talent. La lecture en sera ennuyeuse, rébarbative. Tout ce qui
+        valorise en outre l’originalité et le génie romantique ne peut que
+        dévaloriser l’érudition : un poème de <persName ref="026927608" type="idref" xml:base="https://www.idref.fr/">Victor Hugo</persName>,
+        <hi rend="italic">L’Âne</hi>
+          <note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>
+              <hi rend="small-caps">Hugo</hi>, 1985.</p>
+          </note>, me semble représentatif entre tous du discrédit romantique
+        de l’érudition. De même, l’avant-garde, et tout ce qui relève d’une
+        promotion du non savoir, engage nécessairement un rejet de
+        l’érudition.</p>
+        <p xml:id="d1e96">Le troisième motif du discrédit de l’érudition est
+        le suivant : elle serait sollicitée au défaut de l’expérience. Faute
+        de pouvoir se référer à ce que l’on sait en propre, à ce que l’on a
+        observé ou découvert par soi-même, on trouve refuge dans les livres
+        des autres et on pallie la peur de l’expérience par la lecture ou la
+        citation. C’est le sens de la critique nietzschéenne de l’érudition,
+        qui va jusqu’à considérer que trop de lectures tuent la pensée et la
+        vie :</p>
+        <quote rend="quotation" xml:id="d1e98">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-yuw7gtea">savant</term>
+            </term>
+          </term>Nous ne
+        sommes pas de ceux qui ne pensent qu’au sein des livres et dont l’idée
+        attend pour naître les impulsions de l’imprimé ; notre habitude de
+        penser au grand air, en marchant, sautant, montant, dansant, et de
+        préférence sur les montagnes solitaires ou sur l’extrême bord de la
+        mer, là où les chemins se font méditatifs eux-mêmes. […] Dans le livre
+        d’un savant on trouve presque toujours quelque chose d’oppressé qui
+        oppresse ; on y rencontre fatalement, à un tournant ou à un autre, le
+        « spécialiste », avec son zèle, son sérieux, son courroux, sa pompeuse
+        opinion du recoin où il rêvasse, assis sur son derrière ; sa bosse
+        enfin – car tout spécialiste a la sienne. Le livre d’un savant reflète
+        toujours une âme bossue […]<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>
+              <hi rend="small-caps">Nietzsche</hi>, 1950, p. 334-335.</p>
+          </note>.</quote>
+        <p xml:id="d1e106">En outre, l’érudition est considérée comme
+        antinomique de toute pratique d’avant-garde : la fameuse critique par
+        <persName type="_temp">Breton</persName> de l’inédit de <persName ref="027100669" type="idref" xml:base="https://www.idref.fr/">Rimbaud</persName>, <hi rend="italic">La chasse spirituelle</hi>, dont il montre qu’il est un
+        apocryphe – discréditant au passage la méthode érudite –, vaut comme
+        plaidoyer pour la connaissance libre, a-livresque, émotive,
+        énigmatique, contre le respect de la tradition. Si je rappelle ces
+        points, ce n’est pas tant pour tracer une histoire de l’anti-érudition
+        que pour souligner à quoi elle est opposée, de façon structurelle et
+        récurrente : la puissance théorique opposée à l’accumulation de
+        savoirs ; l’invention individuelle et l’imagination ; l’expérience
+        vécue ; l’innovation avant-gardiste qui mise sur l’oubli et la
+        rupture.</p>
+        <p xml:id="d1e111">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-q5lkydsn">sexe et genre</term>
+          </term>L’érudition,
+        dans cette perspective, a pu être considérée comme un poison, qui
+        finit par tuer (surtout les femmes) et faire chavirer les limites
+        entre la mort et la vie. Dans plusieurs nouvelles d’<persName ref="027076938" type="idref" xml:base="https://www.idref.fr/">Edgar
+        Poe</persName>, des femmes érudites se meurent de trop savoir,
+        entraînent dans la mort leur amant. Elles ont un goût trop prononcé
+        pour l’étude qui les place en bordure de l’humanité, comme le montrent
+        « Morella » et « Ligeia ».</p>
+        <p>Il faudrait s’attarder plus longuement sur le fait qu’il s’agit de
+        deux <hi rend="italic">femmes</hi> savantes versées dans la
+        philosophie ou les sciences occultes. Elles sont représentatives de la
+        dangerosité du savoir savant pour les femmes – signe probant de la
+        collusion du savoir et du pouvoir : celui qu’elles pourraient en tirer
+        les tuent et tuent leur descendance. L’érudition est, pour les femmes,
+        risquée, dans l’imaginaire de <persName ref="027076938" type="idref" xml:base="https://www.idref.fr/">Poe</persName> comme dans celui de
+        son époque, et peut-être encore dans la nôtre. Ces deux savantes, en
+        effet, et c’est passionnant pour notre sujet, deviennent des spectres.
+        La première, Ligeia, meurt, puis son mari, qui est aussi le narrateur,
+        épouse Lady Rowena, mais Lady Ligeia ne cesse de le hanter. Quand Lady
+        Rowena à son tour meurt, il la veille et sur son lit de mort,
+        ressuscite son cadavre – en l’espèce c’est Ligeia qui revient, son
+        amour perdu, dont les cheveux noirs flottent dans la chambre. Car
+        l’érudition de Ligeia :</p>
+        <quote rend="quotation" xml:id="d1e116">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-nh62xjjn">langue
+        classique</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-q5lkydsn">sexe et genre<term ref="doi:10.34817/sv-5x5ypjpb">féminin</term>
+            </term>
+          </term>était
+        immense, telle que jamais je n’en vis de pareille dans une femme. Elle
+        connaissait à fond les langues classiques, et aussi loin que
+        s’étendaient mes propres connaissances dans les langues modernes de
+        l’Europe, je ne l’ai jamais prise en faute. Véritablement, sur
+        n’importe quel thème de l’érudition académique, si vantée, si admirée,
+        uniquement à cause qu’elle est plus abstruse, ai-je jamais trouvé
+        Ligeia en faute ?<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>
+              <hi rend="small-caps">Poe</hi>, 2004, p. 327-328.</p>
+          </note>.</quote>
+        <p xml:id="d1e125">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-jdb3nyag">temps<term ref="doi:10.34817/sv-ucjmyi3u">passé</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+            </term>
+          </term>Morella,
+        autre femme érudite, meurt en laissant une petite fille à son père ;
+        lorsqu’il la baptise et prononce devant elle le prénom de sa mère
+        qu’il veut lui donner, elle meurt à son tour. Quand il la transporte
+        dans son tombeau, il n’y a plus de trace de la première Morella<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>
+              <hi rend="small-caps">Poe</hi>, 2004, p. 324-325.</p>
+          </note>. La dimension spectrale des deux femmes est clairement
+        reliée à leur rapport érudit aux livres : le savoir est ce qui les
+        hante comme leur mort continuera à hanter l’homme qui les aimait. Le
+        rapport à l’érudition est mélancolique au sens fort du terme<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>
+              <hi rend="small-caps">Starobinski</hi>, 1982.</p>
+          </note>. Parce qu’elles ont un rapport trop savant et trop puissant
+        au passé, Ligeia et Morella remettent en cause la limite entre la mort
+        et la vie. Ce que j’appellerai le syndrome de Ligeia et de Morella est
+        lié au devenir spectral du savant lui-même.</p>
+        <p xml:id="d1e139"> </p>
+        <p xml:id="d1e141">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-p4k7sokh">fiction</term>
+            </term>
+          </term>La
+        dimension extraordinaire, fantastique au sens propre, de ces deux
+        nouvelles de <persName ref="027076938" type="idref" xml:base="https://www.idref.fr/">Poe</persName> en dit long sur le
+        rapport au savoir : il désincarne et perturbe les limites entre la
+        mort et la vie – entre les identités. Son pouvoir de hantise est donc
+        immense. Pour autant, alors même que les pratiques érudites perdent de
+        leur importance dans l’historiographie comme dans les études de
+        critiques littéraires, alors même qu’elles sont l’objet de satire et
+        de dédain, elles n’ont cessé d’être sollicitées par l’invention.
+        L’érudition est alors imaginaire, au sens où elle prend place dans un
+        monde imaginé et fictif, dans lequel évoluent des personnages de
+        savants, étranges et mélancoliques, comme ceux des récits et romans de
+        <persName ref="031428851" type="idref" xml:base="https://www.idref.fr/">W. G. Sebald</persName>. Dans le
+        roman de <persName ref="031428851" type="idref" xml:base="https://www.idref.fr/">Sebald</persName>, le personnage
+        éponyme, Austerlitz, spécialiste érudit de l’architecture militaire,
+        projette dans une sorte d’irréalité tout ce qui l’entoure : la
+        dimension spectrale provient du savoir excessif du personnage qui le
+        protège contre une perte originelle et une angoisse de la disparition,
+        celle de ses propres traces<note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>
+              <hi rend="small-caps">Sebald</hi>, 2002.</p>
+          </note>. Ici aussi, il y a une mélancolie fondamentale de
+        l’érudition, sorte de « prothèse du dedans », pour reprendre
+        l’expression de <persName ref="027287130" type="idref" xml:base="https://www.idref.fr/">Derrida</persName> dans <hi rend="italic">Mal d’archive</hi>
+          <note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>
+              <hi rend="small-caps">Derrida</hi>, 1995, p. 37.</p>
+          </note>. Elle fait écran à la force de vivre, à la perte de
+        l’identité, à la hantise de la mémoire. Dans la <date from="1950" to="1999" type="_temp">deuxième moitié du <hi rend="small-caps">xx</hi>
+            <hi rend="sup">e</hi> siècle</date>, plus
+        l’érudition est discréditée par l’épistémologie (théorie du texte,
+        historiographie moderne ; pratiques de l’enquête), plus elle est
+        réduite à une accumulation de matériaux préalables à l’historiographie
+        dont elle ne serait qu’un moyen, une technique, plus fortement elle se
+        trouve réinvestie par l’imagination, en particulier la fiction.</p>
+        <p xml:id="d1e162">Le cas de <persName ref="031428851" type="idref" xml:base="https://www.idref.fr/">Sebald</persName> noue la question du
+        savoir et celle de la mémoire, montrant comment l’érudition est placée
+        sous le double signe de l’excès : trop de savoir, trop précis, trop
+        rare, trop ancien. Elle est d’autant plus sollicitée qu’elle contre un
+        vide, un manque : perte de sens, de mémoire, d’identité. Ses textes
+        sont exemplaires du paradigme mémoriel de l’érudition.</p>
+        <p xml:id="d1e164">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-gznzb4bl">divisions historiques des savoirs<term ref="doi:10.34817/sv-bxdtchar">humanisme</term>
+              </term>
+            </term>
+          </term>Cette
+        dimension excessive de l’érudition, bien notée par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> dans l’article
+        « La Bibliothèque fantastique » qu’il a consacré à <persName ref="026866552" type="idref" xml:base="https://www.idref.fr/">Flaubert</persName> (en particulier à
+        « la Tentation de Saint Antoine »), est caractéristique d’un usage
+        qu’on pourrait dire non humaniste mais fantastique de l’érudition : il
+        ne s’agit pas de constituer un savoir qui renforce l’idée d’un Homme
+        raisonnable, rationnel, formant une communauté humaine tendue vers un
+        idéal de connaissance et de progrès, mais un savoir vacillant, bordé
+        par la folie ou le délire. Le moment <persName ref="026866552" type="idref" xml:base="https://www.idref.fr/">Flaubert</persName>
+        serait ainsi celui du point de bascule d’un régime humaniste à un
+        régime fantastique. Le savant est alors objet de satire : le
+        personnage de Kien d’<hi rend="italic">Autodafé</hi> de <persName ref="027377822" type="idref" xml:base="https://www.idref.fr/">Canetti</persName>, passant son temps
+        dans sa bibliothèque ou dans les listes de livres qu’il demande à lire
+        et qui le coupent de tout autre contact avec les autres, n’est pas
+        présenté comme un humaniste mais au contraire comme une figure de la
+        déraison<note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>
+              <hi rend="small-caps">Canetti</hi>, 1991.</p>
+          </note>. La dévalorisation ou la satire romanesque du personnage
+        d’érudit est un symptôme intéressant du discrédit jeté sur l’érudition
+        en tant que méthode d’investigation des textes et de production d’un
+        savoir.</p>
+        <p rend="break" xml:id="d1e175"> </p>
+        <p xml:id="d1e177">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-wacsop2y">bénédictin</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-agxsger3">cumulativité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-wwbkzdwu">note</term>
+            </term>
+          </term>Quelque
+        dévalorisée qu’elle soit, l’érudition n’a pas disparu et son spectre
+        rôde sur l’invention contemporaine. Toute une partie, et non la
+        moindre, de l’invention narrative puise en effet dans des textes
+        érudits des personnages ou des anecdotes, voire des informations ou
+        des données lexicales qui valent comme autant de ferment, et qui
+        parfois s’exposent dans les notes, des listes ou appareils critiques
+        qui trouvent leur place dans le récit lui-même.</p>
+        <p>
+          <persName type="_temp">Pierre Michon</persName>, par exemple, parle
+        à propos des notes qu’il accumule avant d’écrire de la disproportion
+        qu’il y a entre ce matériau digne d’un bénédictin et le résultat
+        parfois minuscule qu’il produit : à la manière de <persName ref="026866552" type="idref" xml:base="https://www.idref.fr/">Flaubert</persName>, il y a une
+        disproportion entre tout ce qu’il faut lire et les deux mots qui
+        peuvent réchapper des monceaux lus, dans la fable inventée<note n="12" place="foot" type="standard" xml:id="ftn12">
+            <p>
+              <hi rend="small-caps">Michon</hi>, 2007, p. 109.</p>
+          </note>. Dans <hi rend="italic">Abbés</hi> il met sur le même plan
+        les textes inventés ou apocryphes et les textes attestés, l’érudition
+        signifiant non pas un rapport positif au savoir (objet ou non de
+        satire) mais une démarche un peu délirante ou marginale et excentrique
+        investissant un objet livresque avec une passion, une méthode, une
+        pulsion parfois démesurée<note n="13" place="foot" type="standard" xml:id="ftn13">
+            <p>
+              <hi rend="small-caps">Michon</hi>, 2002.</p>
+          </note>.</p>
+        <p xml:id="d1e194">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-qquf8qxp">catalogue</term>
+            </term>
+          </term>Dans <hi rend="italic">Les Anneaux de Saturne</hi>, <persName ref="031428851" type="idref" xml:base="https://www.idref.fr/">Sebald</persName> cite
+        <persName ref="033113580" type="idref" xml:base="https://www.idref.fr/">Thomas Browne</persName>, et ses
+        écrits posthumes variés, « un catalogue de livres remarquables,
+        antiquités et autres objets singuliers » publié sous le titre <hi rend="italic">Musaeum Clausum</hi> ou <hi rend="italic">Bibliotheca
+        Abscondita</hi>. Elle a la particularité de constituer un trésor
+        purement imaginaire, qui contient néanmoins :</p>
+        <quote rend="quotation" xml:id="d1e205">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+        expérimentales<term ref="doi:10.34817/sv-uwezj7w5">sciences de la vie
+        et de l’environnement<term ref="doi:10.34817/sv-tnedxt7h">sciences de
+        la vie par type d’organismes<term ref="doi:10.34817/sv-kk3qhhn7">botanique</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+          </term>Un
+        traité du roi <persName ref="028696670" type="idref" xml:base="https://www.idref.fr/">Salomon</persName> sur les ombres de
+        la pensée – document issu d’un fonds ayant appartenu aux ducs de
+        Bavière –, une correspondance en hébreu entre <persName type="_temp">Molinea</persName> de <placeName ref="6426109" type="geonames" xml:base="https://www.geonames.org/">Sedan</placeName>
+        et <persName ref="030312736" type="idref" xml:base="https://www.idref.fr/">Maria Schurman</persName>
+        d’<placeName ref="2745912" type="geonames" xml:base="https://www.geonames.org/">Utrecht</placeName>, les deux
+        femmes les plus érudites du <date from="1600" to="1699" type="_temp">
+            <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi>
+        siècle</date>, ainsi qu’un répertoire de botanique sous-marine
+        comprenant la description et la représentation détaillées de tout ce
+        qui pousse sur les massifs rocheux et dans les vallées au fond des
+        mers, algues, coraux, fougères d’eau, mais aussi de phénomènes que
+        personne, à ce jour, n’a eu le loisir d’observer, halliers flottants
+        traversés de courants chauds, îles végétales poussées par les alizés
+        de continent en continent<note n="14" place="foot" type="standard" xml:id="ftn14">
+            <p>
+              <hi rend="small-caps">Sebald</hi>, 1999, p. 352.</p>
+          </note>.</quote>
+        <p xml:id="d1e218">
+          <persName ref="027086267" type="idref" xml:base="https://www.idref.fr/">Pascal Quignard</persName>, lui,
+        invente un livre fait de fragments apocryphes et érudits, <hi rend="italic">Les tablettes de buis d’Apronenia Avitia</hi>, tout à
+        fait emblématique du goût de <persName ref="027086267" type="idref" xml:base="https://www.idref.fr/">Quignard</persName> pour les restes,
+        les pièces déchues des civilisations, les mots oubliés, les textes
+        perdus ce qu’il appelle les <hi rend="italic">sordida</hi>. Il ne
+        s’agit pas de reconstituer une époque à partir de ce que les
+        historiens ou archéologues en ont exhumé mais d’inventer ce qu’elle
+        aurait pu produire, la fiction n’étant jamais qu’une glose. La
+        perspective d’invention se dégage de l’humanisme<note n="15" place="foot" type="standard" xml:id="ftn15">
+            <p>
+              <hi rend="small-caps">Piégay</hi>, 2014.</p>
+          </note>.</p>
+        <p xml:id="d1e232">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-p4k7sokh">fiction</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-69wua4nc">anormalité</term>
+            </term>
+          </term>Il en
+        est de même lorsque l’érudition réinvestit des savoirs des savoirs
+        idiots. Ainsi, dans les livres de <persName ref="053463226" type="idref" xml:base="https://www.idref.fr/">Pierre
+        Senges</persName>, le savoir n’est plus ce qui assure maîtrise et
+        contrôle mais ce qui rend fou ou fait basculer les limites entre vrai
+        et inventé, mort et vie, réel et virtuel. L’érudition n’est plus
+        seulement un ferment de l’imagination comme l’avait vu <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, mais ce qui
+        déstabilise la réalité, devenue virtuelle (et non fantastique). Elle
+        est aussi une ressource d’invention formelle, le texte rivalisant avec
+        le métatexte, saturant de discours et de métadiscours, voire de
+        documents, l’espace même de la fiction : fétichisme du savoir,
+        frénésie du détail, disproportion entre l’énergie ou le désir mis en
+        œuvre et l’enjeu de la question étudiée ; l’érudition est folle, pure
+        fantaisie qui remet en cause les limites de la réalité, et se coupe de
+        la satire du savant pédant et cuistre comme de la dévaluation des
+        savoirs savants au nom d’un usage libre et démocratique de
+        l’intelligence. <persName ref="053463226" type="idref" xml:base="https://www.idref.fr/">Pierre Senges</persName>, dans les
+        <hi rend="italic">Fragments de Lichtenberg</hi>, met ainsi en scène le
+        personnage historique de <placeName ref="6548720" type="geonames" xml:base="https://www.geonames.org/">Lichtenberg</placeName>,
+        professeur de physique à l’université de <placeName ref="6557373" type="geonames" xml:base="https://www.geonames.org/">Göttingen</placeName>,
+        contemporain de <persName type="_temp">Swift</persName> et de
+        <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>, bossu et acharné à
+        écrire un vaste roman dont on n’a que des fragments, poursuivant une
+        hypothèse scientifique farfelue : le roman de <persName ref="053463226" type="idref" xml:base="https://www.idref.fr/">Senges</persName> se bâtit sur les
+        gloses que des chercheurs érudits et à leur tour un peu fous
+        développent sur ce roman détruit : l’érudition a affaire à des ruines,
+        à des fanatiques de l’écriture et de la réflexion, sans pour autant
+        produire autre chose que des livres fantomatiques. Le roman tourne en
+        dérision la glose et l’exégèse, mais place bien l’érudition au centre
+        de sa démarche.</p>
+        <p xml:id="d1e238">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-e3qbnqtq">invention</term>
+            </term>
+          </term>Dans un
+        autre de ses livres <persName ref="053463226" type="idref" xml:base="https://www.idref.fr/">Senges</persName> explore la théorie
+        d’un homme, Guevara, qui réfute que <persName ref="027213595" type="idref" xml:base="https://www.idref.fr/">Christophe
+        Colomb</persName> ait inventé l’Amérique :</p>
+        <quote rend="quotation" xml:id="d1e240">Si l’on décide de se passer de
+        la figure de Guevara (un évêque ? un confesseur et un donneur de
+        leçons ? une vieille barbe), si l’on décide que Guevara est un nom
+        aussi creux pour l’instant et énigmatique que celui du <persName ref="027541150" type="idref" xml:base="https://www.idref.fr/">Pseudo-Denys l’Aréopagite</persName>,
+        on peut aussitôt s’offrir le plaisir de puiser dans la liste des
+        auteurs suspects, en activité entre <date from="1500" to="1530" type="_temp">1500 et 1530</date>, et dépourvus d’alibis sérieux. Et
+        par bonheur le catalogue est long, puisque c’est une époque de
+        graphomanes, d’érudits omnivores et omnipotents, de compilateurs,
+        d’encyclopédistes, d’hommes curieux et de bibliophiles : qui veut les
+        énumérer tous doit avoir une voix incassable et des poumons de bronze.
+        Pour <persName ref="026889560" type="idref" xml:base="https://www.idref.fr/">Conrad Gesner</persName> (<hi rend="italic">Bibliotheca Universalis</hi>), l’auteur de la <hi rend="italic">Réfutation</hi> est <persName type="_temp">Laonicus
+        Chalcochondyle</persName>, polygraphe grec qui (d’après <persName type="_temp">Burton</persName>) attribuait aux Anglais des mœurs
+        babyloniennes ; pour <persName ref="029086299" type="idref" xml:base="https://www.idref.fr/">Guillaume Postel</persName> (<hi rend="italic">De Orbis terrae concordia</hi>) il s’agit du pape
+        <persName ref="085501409" type="idref" xml:base="https://www.idref.fr/">Pie IV</persName> ; d’après <persName ref="027931161" type="idref" xml:base="https://www.idref.fr/">Pierre
+        Bayle</persName> (<hi rend="italic">Pensées sur la comète</hi>, <date type="_temp" when="1680">1680</date>), il faudrait plutôt regarder du
+        côté de <persName ref="034372512" type="idref" xml:base="https://www.idref.fr/">Willibald Pirckheimer</persName>,
+        sénateur de <persName ref="08578334X" type="idref" xml:base="https://www.idref.fr/">Charles Quint</persName> et
+        géographe, qui ne quittait jamais son lit, à cause de ses crises de
+        goutte ; selon <persName ref="026949997" type="idref" xml:base="https://www.idref.fr/">Athanasius Kircher</persName>
+        (jésuite savant et parfois absurde, inventeur de la langue magique et
+        décodeur raté des hiéroglyphes), il s’agit de <persName ref="033796602" type="idref" xml:base="https://www.idref.fr/">Léon
+        l’Hébreu</persName>, et pour <persName ref="027420329" type="idref" xml:base="https://www.idref.fr/">Sor Juana Ines de la Cruz</persName>,
+        qui se trompe évidemment, il s’agit d’<persName ref="026949997" type="idref" xml:base="https://www.idref.fr/">Athanasius
+        Kircher</persName> ; <persName ref="033113580" type="idref" xml:base="https://www.idref.fr/">Thomas Browne</persName> (<hi rend="italic">Pseudodoxia Epidemica</hi>) propose le nom de <persName ref="028146999" type="idref" xml:base="https://www.idref.fr/">Ludovico
+        Ricchieri,</persName> selon qui la Gorgone n’était qu’une femme d’une
+        beauté stupéfiante ; <persName ref="029469791" type="idref" xml:base="https://www.idref.fr/">John Toland</persName>, <hi rend="italic">champion de la vérité</hi> selon sa propre épitaphe,
+        prétend dans <hi rend="italic">De l’origine et de la force des
+        préjugés </hi>qu’il s’agit de <persName ref="026716844" type="idref" xml:base="https://www.idref.fr/">Pietro Bembo</persName>, ce cardinal
+        qui avait refusé d’épouser sa maîtresse <persName type="_temp">Faustina</persName> afin de conserver ses bénéfices
+        ecclésiastiques (il entretenait dans le même temps, à ce qu’il paraît,
+        une liaison platonique avec <persName ref="030136067" type="idref" xml:base="https://www.idref.fr/">Lucrèce Borgia</persName>) ; pour
+        <persName type="_temp">Giabattista Vico</persName> (<hi rend="italic">Scienza Nova</hi>), il s’agit de <persName ref="201468301" type="idref" xml:base="https://www.idref.fr/">Johann
+        Tritheim</persName>, le créateur du mot <hi rend="italic">stéganographie</hi> (mort cependant vers <date type="_temp" when="1516">1516</date>) ; pour <persName type="_temp">Balthazar Bekker</persName> (son <hi rend="italic">Monde
+        enchanté</hi> soutient qu’en vérité les diables ne sont que des hommes
+        pervers, et les anges des personnes vertueuses), il s’agit d’un
+        certain <persName type="_temp">Lilio</persName>, chanoine de
+        Saint-Jean-de-Latran, et dernier partisan d’une vision aplatie du
+        monde ; pour <persName ref="034541071" type="idref" xml:base="https://www.idref.fr/">Christian Thomasius</persName>, il
+        s’agit de <persName ref="06870500X" type="idref" xml:base="https://www.idref.fr/">Gregor Reisch</persName>, qui dans la
+        <hi rend="italic">Margarita Philosophica</hi> de <date type="_temp" when="1503">1503</date> fait de l’hémisphère austral un immense
+        océan ; enfin, pour <persName ref="085718394" type="idref" xml:base="https://www.idref.fr/">saint Évremond</persName> (il ne
+        voulait pas perdre une occasion de parler), l’auteur de la <hi rend="italic">Réfutation majeure</hi> ne saurait être que <persName ref="030590698" type="idref" xml:base="https://www.idref.fr/">Pietro
+        Pomponazzi</persName>, le Padouan, selon qui (<hi rend="italic">De
+        naturalium effectuum admirandorum causis seu de incantationibus
+        liber</hi>, <date type="_temp" when="1556">1556</date>), les miracles
+        sont un produit de l’imagination humaine. (L’idée d’attribuer la <hi rend="italic">Réfutation</hi> à <persName ref="029534895" type="idref" xml:base="https://www.idref.fr/">Garcia Rodriguez de
+        Montalvo</persName>, auteur de L’<hi rend="italic">Amadis</hi> et des
+        <hi rend="italic">Exploits d’Esplandián</hi> n’est venue à personne –
+        c’est dommage : on lit dans l’<hi rend="italic">Esplandián</hi> le nom
+        de la <placeName ref="5332921" type="geonames" xml:base="https://www.geonames.org/">Californie</placeName>, écrit
+        pour la première fois trente ans avant sa découverte en <date type="_temp" when="1542">1542</date>)<note n="16" place="foot" type="standard" xml:id="ftn16">
+            <p>
+              <hi rend="small-caps">Senges</hi>, 2007, p. 222-224. Voir aussi
+            <hi rend="small-caps">Senges</hi>
+              <hi rend="italic">,
+            </hi>2012.</p>
+          </note>.</quote>
+        <p xml:id="d1e307">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l’information<term ref="doi:10.34817/sv-qcvnt7ns">liste</term>
+              </term>
+            </term>
+          </term>Bel
+        exemple d’érudition : liste, énumération de titres tombés dans
+        l’oubli, spectres d’auteurs qui transforment <persName ref="027213595" type="idref" xml:base="https://www.idref.fr/">C. Colomb</persName> en
+        fantôme et l’Amérique, non pas découverte par celui-ci, mais, selon
+        <persName ref="028050231" type="idref" xml:base="https://www.idref.fr/">Antonio de Guevara</persName>,
+        inexistante – la réfutation est peut-être l’autre nom du
+        négationnisme, un négationnisme extravagant et innocent : le réel
+        n’est que la somme des noms qui en propagent l’inexistence. La
+        frontière entre la réalité et la fiction est sans cesse remise en
+        cause.</p>
+        <p rend="break" xml:id="d1e309"> </p>
+        <p xml:id="d1e311">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion<term ref="doi:10.34817/sv-nz49agmg">curiosité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+              </term>
+            </term>
+          </term>
+          <persName ref="026774747" type="idref" xml:base="https://www.idref.fr/">Michel
+        de Certeau</persName> avait noté dans <hi rend="italic">L’Écriture de
+        l’histoire</hi> que l’érudition, dont le développement, d’abord lié à
+        l’activité juridique, est « expansionniste et conquérante »,
+        « productrice et reproductrice ». C’est que « l’érudit veut totaliser
+        les innombrables raretés qu’amènent chez lui les trajectoires
+        indéfinies de sa curiosité et donc inventer des langages qui en
+        assurent la compréhension ». Et il ajoute :</p>
+        <quote rend="quotation" xml:id="d1e316">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-kjxagcfp">déchiffrement</term>
+            </term>
+          </term>Il
+        est habité par le rêve d’une taxinomie totalisante et par la volonté
+        de créer des instruments universels proportionnés à cette passion de
+        l’exhaustif. Par l’intermédiaire du chiffre, central dans cet « art du
+        déchiffrage », il y a des homologies entre l’érudition et les
+        mathématiques<note n="17" place="foot" type="standard" xml:id="ftn17">
+            <p>
+              <hi rend="small-caps">De Certeau</hi>, 1975, p. 85-86.</p>
+          </note>.</quote>
+        <p xml:id="d1e324">L’usage contemporain, en particulier dans la
+        fiction, fait le deuil de cette exhaustivité en ajoutant là où il n’y
+        a pas plutôt qu’en explorant, pour le conserver et le maîtriser, ce
+        qui est déjà. Elle liquide, dilapide, au moins autant qu’elle
+        thésaurise. Elle ne discrimine plus.</p>
+        <p rend="break" xml:id="d1e326"> </p>
+        <p xml:id="d1e328">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-6sjmkx2q">archivage</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure numérique<term ref="doi:10.34817/sv-sfxj2yza">Internet</term>
+              </term>
+            </term>
+          </term>Mais
+        en quoi le développement d’Internet – des modes d’archivages, de
+        conservation, de consultation ont-ils pu, et en quel sens, modifier ce
+        rapport à l’érudition ?</p>
+        <p xml:id="d1e330">D’abord il faut rappeler que l’érudition est dans
+        son sens moderne considérée comme un savoir rare, obsolète, en voie de
+        disparition ou déjà disparu. Il est donc investi par un sujet qui a
+        une curiosité particulière et qui l’isole dans sa propre mémoire à
+        l’intérieur d’une mémoire qui menace de l’engloutir et de l’oublier.
+        Or Internet modifie les règles de cette exhumation : prothèse
+        mémorielle, mémoire externe de l’individu, le Net retrouve des choses
+        qu’on ne savait même pas avoir perdues, d’une part parce que les
+        moteurs de recherche ont un pouvoir plus grand que n’importe quelle
+        mémoire individuelle, sans en avoir les angles morts ni les
+        refoulements, d’autre part parce que le périmètre même du champ
+        investigué (savoirs et mémoires) s’est considérablement élargi. La
+        mémoire constituée par le Net et qu’on interroge avec un moteur de
+        recherche modifie profondément la relation entre mémoire et oubli
+        obligeant à réarticuler la mémoire objective (celle de notre disque
+        dur, des textes numérisés, etc.) et la mémoire subjective (celle que
+        nous avons des textes et des faits).</p>
+        <p xml:id="d1e332">En raison de la déhiérarchisation des objets
+        conservés et numérisés, le rare, l’excentrique, qui définissaient la
+        particularité de l’érudition, deviennent des catégories
+        problématiques. On peut tout retrouver – et tout consulter – aussi
+        bien un article secondaire, une archive rare, une note quasi
+        confidentielle.</p>
+        <p xml:id="d1e335">Si l’on suppose donc que l’érudition est ce qui est
+        exhumé d’une mémoire en train de sombrer dans l’oubli, les
+        modifications des conditions de l’effacement et de l’oubli entraînées
+        par le numérique, l’érudition se modifie aussi.</p>
+        <p xml:id="d1e337">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-7yctkbjz">encyclopédie</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-gfgzr5jr">terminal informatique<term ref="doi:10.34817/sv-a4wehnsr">ordinateur
+        personnel</term>
+              </term>
+            </term>
+          </term>
+          <persName ref="026774747" type="idref" xml:base="https://www.idref.fr/">Michel de
+        Certeau</persName> à propos de l’avènement du computer, <persName ref="027287130" type="idref" xml:base="https://www.idref.fr/">Derrida</persName> à propos de la
+        trace, et <persName ref="026998947" type="idref" xml:base="https://www.idref.fr/">Lyotard</persName> analysant l’état
+        du savoir, avaient chacun pris la mesure de ce que l’on n’appelait pas
+        encore le numérique qui allait entraîner des modifications profondes
+        dans notre rapport au savoir et à la mémoire. <persName ref="026998947" type="idref" xml:base="https://www.idref.fr/">Lyotard</persName>, dans <hi rend="italic">La condition postmoderne</hi>, en <date type="_temp" when="1979">1979</date>, montrait l’émergence de l’expertise et la
+        modification radicale qu’elle entraînerait dans notre relation à
+        l’encyclopédie ; <persName ref="027287130" type="idref" xml:base="https://www.idref.fr/">Derrida</persName>, dans <hi rend="italic">Mal d’archive</hi>, tirait les conséquences de
+        l’externalisation de notre mémoire. <persName ref="026774747" type="idref" xml:base="https://www.idref.fr/">Michel de
+        Certeau</persName> quant à lui, parce qu’il avait analysé la manière
+        dont le passage de l’érudition à l’archivistique avait été une
+        modification profonde de l’historiographie, pouvait entrevoir comment
+        le numérique redistribuerait les trois facteurs dont la combinaison
+        détermine toujours l’écriture de l’histoire : un groupe (les érudits ;
+        puis les archivistes et les historiens), des lieux (les bibliothèques)
+        et des pratiques (copiage, impression, communication, classements).
+        Aujourd’hui, la dématérialisation des archives et ce que l’on pourrait
+        appeler sa délocalisation comme la modification des pratiques
+        (communication, classement, copiage, archivage, etc) et la remise en
+        cause du « groupe » (avènement du <foreign xml:lang="eng">
+            <hi rend="italic">crowdsourcing</hi>
+          </foreign>, web 2.0) avec le numérique constituent bien les bases
+        d’une modification profonde de l’écriture de l’histoire et de notre
+        rapport au savoir et à la mémoire.</p>
+        <p xml:id="d1e348">La fiction répercute ces modifications non
+        seulement parce qu’elle reflète en termes de représentations les
+        usages nouveaux de l’érudition et de la crise qu’elle traverse, mais
+        aussi parce qu’elle est au croisement des mutations du rapport au
+        savoir et à la mémoire, et enfin parce qu’elle est le lieu des
+        interrogations possibles sur les impensés de cette crise. C’est sans
+        doute pourquoi très nombreux sont les textes, essais ou fictions, qui
+        mentionnent le rôle que joue Internet dans la documentation, le
+        rapport au savoir ou à la mémoire.</p>
+        <p xml:id="d1e350">C’est le premier point que je voudrais souligner.
+        Ce qui m’importe n’est pas que les romanciers ou autobiographes
+        fassent un retour sur leur pratique d’écriture, signe d’une modernité
+        à laquelle nous sommes habitués, mais qu’ils mettent en avant les
+        ressources numériques en tant qu’elles ont modifié leurs pratiques.
+        Ces ressources sont de deux ordres : des ressources documentaires à
+        des fins de réalisme et des ressources mémorielles.</p>
+        <p xml:id="d1e352">
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure numérique<term ref="doi:10.34817/sv-sfxj2yza">Internet</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>Les
+        premières permettent au romancier ou au narrateur d’étayer
+        l’exactitude de ce qu’il raconte ou représente : un nom de lieu, une
+        date, la configuration d’un espace, le résumé d’une anecdote
+        historique. Tout peut être retrouvé sur le Net qui configure la
+        réalité – peut-être celle-ci n’est-elle plus le réseau de signes
+        sociaux par lesquels on se la représente mais l’ensemble de ses
+        représentations ou indices numériques que le web sous toutes ses
+        formes conserve. Le tour documentaire du récit fictionnel ou
+        exofictionnel procède de cela : tout est vérifiable, d’un clic sur
+        Google. Le rapport à la réalité et à la vérité se modifie autant que
+        le rapport historien ou mémoriel à la mémoire. Mais il y a plus :
+        c’est à cette mémoire impersonnelle que le romancier puise pour
+        raconter. Un exemple de ce tournant numérique pourrait être le livre
+        de <persName ref="050139754" type="idref" xml:base="https://www.idref.fr/">Diane Meur</persName>, <hi rend="italic">La Carte des Mendelssohn</hi>
+          <note n="18" place="foot" type="standard" xml:id="ftn18">
+            <p>
+              <hi rend="small-caps">Meur</hi>, 2015.</p>
+          </note>. D’une part, <persName ref="050139754" type="idref" xml:base="https://www.idref.fr/">Diane Meur</persName>, racontant
+        l’histoire de la famille Mendelssohn, ne dissimule pas les ressources
+        que lui fournit Internet. D’autre part elle fonde son récit sur un
+        imaginaire du réseau qui est en homologie avec le Net, qui, au désir
+        encyclopédique exhaustif substitue des savoirs réticulaires. <persName ref="050139754" type="idref" xml:base="https://www.idref.fr/">Diane
+        Meur</persName> met sur le même plan les livres et les bibliothèques
+        d’une part, les archives d’autre part, et enfin la documentation
+        qu’elle consulte sur le Net :</p>
+        <quote rend="quotation" xml:id="d1e362">Ah, ce Joseph, il a m’a donné
+        du mal. De tout ce que j’avais lu dans la biographie de son frère, je
+        n’avais retiré de lui qu’une image lisse, monolithique, le type de
+        personnalité à l’intérieur de laquelle une romancière serait incapable
+        de se glisser, faute de faille, pour voir avec ses yeux. Jusqu’au
+        bout, c’était le parcours irréprochable d’un homme prenant toujours la
+        bonne décision pour parfaire l’œuvre de sa vie : son empire
+        banquier<note n="19" place="foot" type="standard" xml:id="ftn19">
+            <p>
+              <hi rend="small-caps">Meur</hi>, 2015, p. 154.</p>
+          </note>.</quote>
+        <p xml:id="d1e370">La narratrice voit dans cette masse documentaire un
+        défi pour l’écriture romanesque :</p>
+        <quote rend="quotation" xml:id="d1e372">Toutefois (me suis-je dit par
+        la suite), si <persName ref="027006190" type="idref" xml:base="https://www.idref.fr/">Thomas Mann</persName> avait eu pour
+        point de départ non pas les quelques pages de la Genèse,
+        chapitres 37-49, mais des kilogrammes de documents, portraits, livres
+        de comptes, extraits d’état civil, correspondances bihebdomadaires
+        entre Jacob, ses deux épouses, ses deux concubines et ses douze fils
+        Ruben, Siméon, Lévi, Juda, Issacar, Zébulon, Dan, Naphtali, Gad, Asr,
+        Joseph et Benjamin ; des biographies consacrées à tel d’entre eux ou
+        de leurs descendants, et des articles, accessibles dans n’importe
+        quelle bibliothèque universitaire, sur des sujets aussi pointus que –
+        mettons – « le détournement d’un droit d’aînesse : archives du procès
+        Ruben /Juda », ou « Les problèmes d’organisation dans un foyer
+        polygames, d’après une lettre inédite de Rachel à Léa », franchement,
+        aurait-il encore eu la possibilité ou même l’envie d’en faire du
+        roman<note n="20" place="foot" type="standard" xml:id="ftn20">
+            <p>
+              <hi rend="small-caps">Meur</hi>, 2015, p. 155.</p>
+          </note> ?</quote>
+        <p xml:id="d1e380">
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure numérique<term ref="doi:10.34817/sv-sfxj2yza">Internet</term>
+              </term>
+            </term>
+          </term>Elle
+        cite encore une anecdote trouvée sur Google Books<note n="21" place="foot" type="standard" xml:id="ftn21">
+            <p>
+              <hi rend="small-caps">Meur</hi>, 2015, p. 174.</p>
+          </note>, raconte qu’elle a assisté à un colloque sur les usages
+        d’Internet à la Société des Gens de Lettres :</p>
+        <quote rend="quotation" xml:id="d1e388">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-9wasnnt8">réseau</term>
+            </term>
+          </term>ce qui me
+        fascinait dans cette généalogie de Moses, c’était l’aspect de réseau,
+        de rhizome, de maillage, et même ma façon de réfléchir en était
+        contaminée. Au lieu de suivre linéairement un individu ou un thème, je
+        le rattachais à tous les autres individus ou thèmes qu’il m’évoquait,
+        je ne pensais que grille, trame, arborescence, entrelacement de nœuds
+        et de liens… Et je me demandais si j’aurais raisonné ainsi quinze ans
+        plus tôt, quand Internet n’avait pas encore à ce point envahi notre
+        vie<note n="22" place="foot" type="standard" xml:id="ftn22">
+            <p>
+              <hi rend="small-caps">Meur</hi>, 2015, p. 188.</p>
+          </note>.</quote>
+        <p xml:id="d1e396">Racontant tous les détails de son enquête, qui la
+        fournit en informations, archives et documents, elle finit d’ailleurs
+        par se comparer à une « centrifugeuse<note n="23" place="foot" type="standard" xml:id="ftn23">
+            <p>
+              <hi rend="small-caps">Meur</hi>, 2015, p. 344.</p>
+          </note> » :</p>
+        <quote rend="quotation" xml:id="d1e405">
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-tb4ozbc3">papier</term>
+            </term>
+          </term>J’ai
+        accumulé 1 kg 975 de documents papier, enregistré 76 onglets, écumé
+        cinq ou six bibliothèques, rempli quatre cahiers A5 de mes
+        hiéroglyphes, massacré six bristols de 65x55cm et deux de 70x55, deux
+        rouleaux de colle fixe, deux rouleaux de colle repositionnable, et un
+        gros feutre qui ne m’appartenait pas<note n="24" place="foot" type="standard" xml:id="ftn24">
+            <p>
+              <hi rend="small-caps">Meur</hi>, 2015, p. 455.</p>
+          </note>.</quote>
+        <p xml:id="d1e413">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-omg7jwnu">documentation</term>
+            </term>
+          </term>Les
+        romanciers sont nombreux à puiser à cette mémoire semi-vivace,
+        semi-effacée, disparaissante – apparaissante, faisant surgir de
+        l’oubli des figures qui vont sans aucun doute y replonger. Le spectral
+        a pourtant changé de nature : il n’est plus de l’ordre du fantomatique
+        ou du fantastique foucaldien mais du virtuel. Chez <persName ref="027076938" type="idref" xml:base="https://www.idref.fr/">Poe</persName>, on s’en souvient, ce
+        sont les limites entre la mort et la vie qui semblent franchies ; le
+        savant devient un fantôme. Chez <persName ref="050139754" type="idref" xml:base="https://www.idref.fr/">Meur</persName> et tous les écrivains
+        qui se réfèrent à la mémoire d’Internet ou à la documentation qui
+        tiendrait lieu de représentation, l’érudition est spectrale en ce sens
+        qu’elle est virtuelle – ou plus exactement que les limites entre la
+        réalité et la virtualité sont franchies. Le spectre est à présent non
+        pas ce qui bouscule les limites entre la mort et la vie mais une
+        incertitude ontologique sur le degré de réalité – de la mémoire, du
+        savoir, de ce qu’on représente. On serait passé du syndrome Ligeia au
+        syndrome numérique : trop de savoir tue ; trop de mémoire écrase et
+        rend virtuelle la réalité elle-même.</p>
+        <p xml:id="d1e415">
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+        numérique</term>
+            </term>
+          </term>L’enquête d’une part, et d’autre part la
+        mémoire, sont aujourd’hui massivement hantées par le spectre du
+        numérique, qui fait de toute invention une reconstitution textuelle –
+        un assemblage de signes de la réalité – c’est-à-dire un prélèvement
+        sur le Web. À défaut du terrain, de l’observation, de la
+        documentation, on constitue la représentation à partir des données
+        trouvées sur le Net – savoir, anecdote, faits, tableaux chiffrés,
+        cartographie, état civil de personnages, etc.</p>
+        <p rend="break" xml:id="d1e417"> </p>
+        <p xml:id="d1e419">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-wj8cdwaw">roman</term>
+              </term>
+            </term>
+          </term>Il
+        serait illusoire de penser que seul le roman historique est modifié
+        par la disponibilité des savoirs et des mémoires sur le Net : c’est
+        toute la fiction qui s’en trouve changée, puisque tout peut être
+        vérifié, retrouvé, développé, romancé. Pour finir, c’est le rapport au
+        réel lui-même qui est filtré, voire infiltré, par ce qui en est
+        consigné sur le Net. La réalité devient spectrale.</p>
+        <p rend="break" xml:id="d1e421"> </p>
+        <p xml:id="d1e423">Le second point qui mérite d’être noté est la
+        manière dont la modification du rapport au savoir nous a éloignés d’un
+        usage strictement mémoriel de l’érudition, si frappant, par exemple,
+        chez Sebald, pour faire place à un rapport postmoderne – en ce sens
+        que ce sont les limites entre le réel et le virtuel, le vrai et le
+        faux, qui sont remises en cause. L’érudition n’est plus de qui est
+        sollicité pour reconstituer ce que l’on croit ou sait avoir perdu,
+        mais un déchaînement de références savantes, éparpillées, disparates,
+        déhiérarchisées, et souvent coupées de la quête du passé comme de
+        celle de la vérité.</p>
+        <p xml:id="d1e425">La nature de l’érudition s’en trouve elle-même
+        modifiée : où se situe-t-elle ? Dans la note rare d’un document rare
+        repéré sur le Net ? Dans l’investissement d’une archive retrouvée par
+        ce biais ? Dans le statut marginal de ce savoir ? Dans son devenir
+        spectral, exhumé de la mémoire impersonnelle et disponible partout et
+        toujours ? Le fragment du passé devenu présent retourne dans les
+        limbes d’une mémoire numérique sans corps et sans épaisseur.</p>
+        <p xml:id="d1e427">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-omg7jwnu">documentation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-wvqbejdv">citation</term>
+            </term>
+          </term>L’érudition
+        est triplement changée : d’abord parce que le rapport au texte est
+        modifié (sa disponibilité, dans une sorte de mémoire externe et
+        réticulaire, développe de nouveaux usages de la citation) ; ensuite
+        parce que le document est transformé en archive et les archives sont
+        elles-mêmes disponibles alors qu’elles étaient secrètes et cachées ;
+        enfin parce que la hiérarchisation entre le texte et le document est
+        bouleversée.</p>
+        <p xml:id="d1e429">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-xmvthwt6">méthode</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-gznzb4bl">divisions historiques des savoirs<term ref="doi:10.34817/sv-bxdtchar">humanisme</term>
+              </term>
+            </term>
+          </term>Si
+        l’on en revient à mon point de départ, à savoir que l’érudition,
+        humaniste ou fantastique, est une méthode de connaissance fondée sur
+        un rapport au texte et au commentaire, devenant une forme de survie,
+        ou orientée vers la transmission, il n’est donc pas étonnant de
+        constater qu’aujourd’hui, quel que soit son discrédit théorique, elle
+        perdure, en particulier dans la fiction. Elle y perdure parce qu’elle
+        hante l’imaginaire. Cette hantise procède d’un rapport au texte
+        bouleversé (toute la réalité sociale est texte), et d’un rapport à la
+        mémoire angoissé, angoissé d’abord par les modifications des
+        possibilités d’oubli. L’érudition est ce qui fait fermenter
+        l’imagination parce qu’on y articule mémoire personnelle et
+        impersonnelle et parce qu’on y noue à nouveaux frais la possibilité de
+        représenter le présent ou le passé, sans que le partage entre ce qui
+        est commun et rare, ce qui est actuel et obsolète, soit clairement
+        défini.</p>
+        <p rend="break" xml:id="d1e431"> </p>
+        <p xml:id="d1e434">Pour conclure je soulignerai donc que l’écriture de
+        la fiction et de l’histoire reste tributaire de l’érudition,
+        réinvestie par la fiction, déplacée par le numérique. Parce que le
+        savoir, entre histoire et mémoire, est disponible, outillé par des
+        moteurs de recherche qui sondent les prothèses que sont les
+        mémoires-bases de données numériques, la réalité, sans cesse
+        diffractée dans une myriade de représentations, devient spectrale. Ce
+        n’est plus le savoir qui, par trop de proximité avec le passé, fait de
+        vous un spectre, c’est la réalité elle-même qui est virtualisée. Le
+        spectre de l’érudition : l’érudition du passé qui nous hante, un
+        nouveau rapport à la mémoire et l’histoire qui rend spectrale la
+        réalité. Après un régime humaniste, fondé sur la transmission, un
+        régime fantastique, misant sur l’effroi que produit le savoir, nous
+        avons connu un régime mémoriel – l’érudition est ce qui permet de
+        retrouver ou de conjurer les traces d’un passé qui souvent les a
+        effacées. Ce régime était souvent mélancolique, non pas au sens où le
+        savoir fragilise la frontière entre la mort et la vie et finit par
+        prendre celle-ci, par tuer, mais parce que la mémoire écrase.
+        Aujourd’hui, un régime numérique ou post-moderne apparaît : le savoir
+        ou les traces de mémoire sont déconnectés du savoir commun, de la
+        tradition et de la transmission, des partages entre régime authentique
+        et régime apocryphe ; ils sont moins écrasés par la mémoire du passé
+        qu’excités par le jeu que rend possible la disponibilité soi-disant
+        constante de tout ce qui a été écrit ou enregistré de la réalité – la
+        réalité devenant elle-même la somme de ces traces ou de ces
+        représentations.</p>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e437">
+        <head xml:id="d1e438">Bibliographie</head>
+        <listBibl xml:id="d1e440">
+          <bibl xml:id="d1e441">
+            <hi rend="small-caps">Breton</hi>, 1949 :
+          André <hi rend="small-caps">Breton</hi>, « Flagrant délit », <hi rend="italic">La Clé des champs</hi>, Paris, Le livre de
+          poche.</bibl>
+          <bibl xml:id="d1e451">
+            <hi rend="small-caps">Canetti</hi>, 1991 :
+          Élias <hi rend="small-caps">Canetti</hi>, <hi rend="italic">Auto
+          da-fé</hi>, Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e461">
+            <hi rend="small-caps">De Certeau</hi>, 1975 :
+          Michel de <hi rend="small-caps">Certeau</hi>, <hi rend="italic">L’Écriture de l’histoire</hi>, Paris,
+          Gallimard.</bibl>
+          <bibl xml:id="d1e471">
+            <hi rend="small-caps">Derrida</hi>, 1995 :
+          Jacques <hi rend="small-caps">Derrida</hi>, <hi rend="italic">Mal
+          d’archive</hi>, Paris, Galilé.</bibl>
+          <bibl xml:id="d1e481">
+            <hi rend="small-caps">Foucault</hi>, 2001 :
+          Michel <hi rend="small-caps">Foucault</hi>, « La Bibliothèque
+          fantastique », <hi rend="italic">Dits et écrits, 1954-1988</hi>,
+          Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e491">
+            <hi rend="small-caps">Hugo</hi>, 1985 : Victor
+          <hi rend="small-caps">Hugo</hi>, <hi rend="italic">Poésie</hi>, III,
+          Paris, Robert Laffont.</bibl>
+          <bibl xml:id="d1e501">
+            <hi rend="small-caps">Lyotard</hi>, 1979 :
+          Jean-François <hi rend="small-caps">Lyotard</hi>, <hi rend="italic">La Condition post-moderne</hi>, Paris, Minuit.</bibl>
+          <bibl xml:id="d1e511">
+            <hi rend="small-caps">Meur</hi>, 2015 : Diane
+          <hi rend="small-caps">Meur</hi>,<hi rend="italic"> La carte des
+          Mendelssohn</hi>, Paris, Sabine Wespieser.</bibl>
+          <bibl xml:id="d1e521">
+            <hi rend="small-caps">Michon</hi>, 2007 :
+          Pierre <hi rend="small-caps">Michon</hi>, <hi rend="italic">Le Roi
+          vient quand il veut, Propos sur la littérature</hi>, Paris, Albin
+          Michel.</bibl>
+          <bibl xml:id="d1e531">
+            <hi rend="small-caps">Michon</hi>, 2002 :
+          Pierre <hi rend="small-caps">Michon</hi>, <hi rend="italic">Abbés</hi>, Paris, Verdier.</bibl>
+          <bibl xml:id="d1e541">
+            <hi rend="small-caps">Piégay-Gros</hi>, 2009 :
+          Nathalie <hi rend="small-caps">Piégay-Gros</hi>, <hi rend="italic">L’Érudition imaginaire</hi>, Genève, Droz.</bibl>
+          <bibl xml:id="d1e552">
+            <hi rend="small-caps">Piégay-Gros</hi>, 2013 :
+          Nathalie <hi rend="small-caps">Piégay-Gros</hi>, « Pierre Michon et
+          l’érudition », dans Pierre-Marc de Biasi, Agnès Castiglione et
+          Dominique Viart (dir.), <hi rend="italic">Pierre Michon, l’écriture
+          et son ombre</hi>, « Les cahiers de la NRF », Paris, Gallimard,
+          p. 340-350.</bibl>
+          <bibl xml:id="d1e562">
+            <hi rend="small-caps">Piégay-Gros</hi>, 2014 :
+          Nathalie <hi rend="small-caps">Piégay-Gros</hi>, « Les lieux de
+          l'érudition », dans Agnès Cousin de Ravel, Chantal Lapeyre-Desmaison
+          et Dominique Rabaté (dir.), <hi rend="italic">Les Lieux de Pascal
+          Quignard</hi>, « Les cahiers de la NRF », Paris, Gallimard,
+          p. 233-245.&#x2028;</bibl>
+          <bibl xml:id="d1e572">
+            <hi rend="small-caps">Nietzsche</hi>, 1950 :
+          Fr. <hi rend="small-caps">Nietzsche</hi>, <hi rend="italic">Le gai
+          savoir</hi>, Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e582">
+            <hi rend="small-caps">Poe</hi>, 2004 : Edgar
+          <hi rend="small-caps">Poe</hi>, <hi rend="italic">Histoires
+          extraordinaires</hi>, Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e592">
+            <hi rend="small-caps">Roubaud</hi>, 2018 :
+          Jacques <hi rend="small-caps">Roubaud</hi>, <hi rend="italic">Peut-être ou la nuit de dimanche. (brouillon de prose)
+          autobiographie romanesque</hi>, Paris, Le Seuil.</bibl>
+          <bibl xml:id="d1e602">
+            <hi rend="small-caps">Schlanger</hi>, 2008 :
+          Judith <hi rend="small-caps">Schlanger</hi>, <hi rend="italic">La
+          Mémoire des œuvres</hi>, Paris, Verdier.</bibl>
+          <bibl xml:id="d1e612">
+            <hi rend="small-caps">Sebald</hi>, 1999 :
+          W. G. <hi rend="small-caps">Sebald</hi>, <hi rend="italic">Les
+          Anneaux de Saturne</hi>, Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e622">
+            <hi rend="small-caps">Sebald</hi>, 2002 :
+          W. G. <hi rend="small-caps">Sebald</hi>, <hi rend="italic">Austerlitz</hi>, Arles, Actes sud.</bibl>
+          <bibl xml:id="d1e632">
+            <hi rend="small-caps">Senges</hi>, 2007 <hi rend="italic">: </hi>Pierre <hi rend="small-caps">Senges</hi>
+            <hi rend="italic">, La Réfutation majeure</hi>, Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e644">
+            <hi rend="small-caps">Senges</hi>, 2012 :
+          Pierre <hi rend="small-caps">Senges</hi>, <hi rend="italic">Fragments de Lichtenberg</hi>, Paris,
+          Verticales.</bibl>
+          <bibl xml:id="d1e654">
+            <hi rend="small-caps">Starobinski</hi>, 1982 :
+          Jean <hi rend="small-caps">Starobinski</hi>, « L’immortalité
+          mélancolique », <hi rend="italic">Le Temps de la réflexion</hi>,
+          III, p. 231-251, Paris, Gallimard.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>
