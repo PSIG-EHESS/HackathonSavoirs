@@ -5,8 +5,8 @@
    - [téléchargéable en format RDF/Turtle](https://datu.ehess.fr/rest/v1/savoirs/data?format=text/turtle) 
   
 # Corpus de textes *Savoirs*
-  - corpus d'articles : 1) en format [TXT brut] (xxx), 2) avec enrichissement notamment entités nommées en format [XML/TEI](xxx)
-  - une version augmentéorpus de ce corpus avec une annotation en entités nommées [plus exhaustive] (xxx)
+  - corpus d'articles : 1) en format [TXT brut](xxx), 2) avec enrichissement notamment entités nommées en format [XML/TEI](xxx)
+  - une version augmentéorpus de ce corpus avec une annotation en entités nommées [plus exhaustive](xxx)
   - completer balisage EN, en plusieurs formats via NerBeyond (http://nerbeyond.jerteh.rs/) -> CONLL
   - [Résultats du travail de stage d'Alex Soares sur le projet](https://github.com/PSIG-EHESS/SavoirsEN), vous trouverez des jupyter notebook avec des exemples de code en Python vous permettant charger les textes et leurs annotations sur Spacy via python
   -  
