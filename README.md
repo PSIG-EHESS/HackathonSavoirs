@@ -34,7 +34,7 @@ Le hackathon se tiendra en format hybride : une première partie sera organisée
 * 10 nov. 2021 : date limite pour manifester votre intérêt par courriel à carmen.brando@ehess.fr
 * 30 nov. 2021 : réunion d'information en mode hybride ayant pour objectif de faire une brève démonstration de l'application Savoirs, de définir les sujets et de constituer les équipes de travail
 * 9 déc. 2021 : début du hackathon en mode virtuel et asynchrone
-* 21-22 janv. 2022 : hackathon organisé en présentiel lors du colloque « Lieux de Savoirs », comportant des séances de travail avec accompagnement et la présentation des projets par les équipes.
+* <del>21-22 janv. 2022</del> 12-13 mai 2022 : hackathon organisé en présentiel lors du colloque « Lieux de Savoirs », comportant des séances de travail avec accompagnement et la présentation des projets par les équipes.
 
 Note : si vous êtes intéressé(e) et étudiant(e) dans un cursus en lien avec les humanités numériques en dehors de la région parisienne, n’hésitez pas à prendre contact rapidement avec nous (via carmen.brando@ehess.fr) pour une prise en charge, dans la limite des places disponibles.
 
