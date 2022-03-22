@@ -1,0 +1,933 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LDSI_36_Melot">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La bibliothèque multimédia contemporaine</title>
+        <author role="aut">
+          <forename>Michel</forename>
+          <surname>Melot</surname>
+          <idno type="IDREF">027022293</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2020">2020</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Albin
+          Michel CC BY-NC-ND 3.0 Attribution - Pas d’Utilisation Commerciale -
+          Pas de Modification</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/DTT5QR3U" type="bookSection" xml:lang="fre">
+          <analytic>
+            <title level="a">La bibliothèque multimédia contemporaine</title>
+            <author>
+              <forename>Michel</forename>
+              <surname>Melot</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Lieux de savoir</title>
+            <idno type="ISBN">978-2-226-17904-3</idno>
+            <editor>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <biblScope unit="volume">1. Espaces et communautés</biblScope>
+              <biblScope unit="nb_volumes">2</biblScope>
+              <biblScope unit="page">637-653</biblScope>
+              <publisher>Albin Michel</publisher>
+              <date>2007</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-11-22T10:47:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">La bibliothèque multimédia
+          contemporaine</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Michel Melot</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e49">Le mot « bibliothèque » a plusieurs sens : celui de
+        « dépôt de livres » qui suppose un espace et souvent une architecture
+        spécifique – la bibliothèque désigne alors un meuble ou un bâtiment
+        qui contient les livres – et celui de « collection de livres » qui ne
+        suppose pas de lieu déterminé, mais une homogénéité intellectuelle ou
+        éditoriale (la « Bibliothèque de la Pléiade » ou la « Bibliothèque
+        verte », par exemple). La bibliothèque moderne est mise en question
+        sous ces deux formes par les nouvelles technologies. D’une part, des
+        ensembles de documents très différents mais reliés par des liens
+        électroniques peuvent être considérés comme des « collections
+        virtuelles » que chaque lecteur peut se constituer à la demande ;
+        d’autre part, on peut s’interroger sur la pertinence de la
+        bibliothèque comme lieu physique, à l’heure de la consultation à
+        distance. Enfin, le livre a été, depuis près de deux siècles, doublé
+        par les techniques de reproduction de l’image et du son qui rendent
+        insuffisante la bibliothèque considérée comme simple « dépôt de
+        livres ».</p>
+        <p xml:id="d1e51">Nous allons analyser la manière dont les
+        bibliothèques évoluent dans ce contexte nouveau et les raisons pour
+        lesquelles, malgré ces contradictions, elles sont encore si vivantes.
+        Car non seulement le concept de « bibliothèque », essentiellement
+        occidental, né dans l’<date>Antiquité</date> avec le livre sous forme
+        de rouleau, s’est répandu partout dans le monde durant le <date>Moyen
+        Âge</date> – lorsque le livre a pris la forme du codex –, mais, de
+        plus, il ne s’en est jamais autant construit que de nos jours, et
+        particulièrement ces vingt dernières années. Elles se déclinent dans
+        des formes diverses, de la bibliothèque de laboratoire aux
+        bibliothèques nationales, largement rénovées depuis <date type="_temp" when="1990">1990</date>. La multiplication des bibliothèques fait
+        écrire à <persName ref="027287130" type="idref" xml:base="https://www.idref.fr/">Jacques Derrida</persName>, dans son
+        ouvrage <hi rend="italic">De la grammatologie</hi> :</p>
+        <quote rend="quotation" xml:id="d1e56">Cette mort de la civilisation
+        du livre, dont on parle tant […], se manifeste d’abord par la
+        prolifération convulsive des bibliothèques<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>D<hi rend="small-caps">errida</hi>, 1985, p. 67.</p>
+          </note>.</quote>
+        <div type="section1" xml:id="d1e65">
+          <head subtype="level1" xml:id="d1e66">La bibliothèque comme matrice
+          du savoir</head>
+          <p xml:id="d1e68">La bibliothèque, issue de la culture du livre, en
+          est à la fois le prolongement et le dépassement. Elle est
+          irréductible au livre si l’on considère que chaque livre est un
+          objet autonome, qui se présente, entre ses deux couvertures, comme
+          une totalité. La bibliothèque, au contraire, en rassemblant des
+          livres divers, complémentaires ou contradictoires, est l’image d’une
+          science ouverte qui oppose une conception critique du savoir à sa
+          conception dogmatique. Le codex, objet fermé sur lui-même, qui est
+          sa propre boîte, a été le vecteur privilégié des religions révélées,
+          qui y trouvèrent l’outil idéal pour la propagation d’un corpus
+          structuré de textes que l’on voulait rendre inaltérable et porteur
+          d’une doctrine à vocation universelle. Il s’en faut que cette
+          volonté ait été respectée : au Livre qui contient les écritures
+          sacrées sont venus s’ajouter une multitude de variantes, de
+          commentaires, d’ajouts et de critiques. Les livres sacrés eux-mêmes
+          ont été réévalués dans cet ensemble jusqu’à devenir des livres comme
+          les autres. La multiplication des livres, provoquée par
+          l’imprimerie, mais sensible à partir du <date from="1200" to="1299" type="_temp">
+              <hi rend="small-caps">xiii</hi>
+              <hi rend="sup">e</hi> siècle</date> lors de l’essor des universités, a
+          renversé le rapport au savoir. Il n’est pas paradoxal de soutenir
+          que la bibliothèque s’est développée, en Occident, avec le livre,
+          mais aussi contre lui. Les bibliothèques modernes ont accueilli tout
+          ce qui a pu dépasser le livre, c’est-à-dire les séries, les
+          périodiques, les bases de données, les banques d’images et tous les
+          supports multimédias. La fonction de la bibliothèque est de
+          rassembler les livres, mais aussi de remplacer la croyance par la
+          science, le savoir absolu par un savoir relatif, le savoir universel
+          par le savoir individuel, le savoir imposé par le savoir approprié,
+          le savoir constitué par un savoir en devenir.</p>
+          <p xml:id="d1e75">Les rouleaux entraînaient un mode de lecture assez
+          solennel, à deux mains et à voix haute, qui impliquait un espace et
+          un temps particuliers. La lecture silencieuse est une condition de
+          la bibliothèque, que permet le codex, objet familier et non plus
+          cérémoniel. On ne promène pas un rouleau comme un livre, on ne le
+          consulte pas avec la même facilité, il ne participe pas de
+          l’intimité de son lecteur comme le codex sait le faire. La pratique
+          du rouleau et sa conservation encombrante et fragile appelaient ces
+          lieux que furent les grandes bibliothèques de
+          l’<date>Antiquité</date>, à <placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName> comme à
+          <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, bien
+          différentes des nôtres à cet égard. L’adoption presque exclusive du
+          codex par les chrétiens aurait pu signifier la mort de ces
+          bibliothèques composées de rouleaux. Les incendies de la
+          bibliothèque d’<placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName>, qu’ils
+          soient le fait de l’évêque d’<persName ref="087208679" type="idref" xml:base="https://www.idref.fr/">Alexandrie Théophile</persName>
+          en <date type="_temp" when="0391">391</date>, ou du sultan <persName type="_temp">Omar</persName> en <date type="_temp" when="0642">642</date>, revêtent une signification symbolique, celle
+          de l’ensevelissement dans les sables d’une culture que les religions
+          révélées doivent effacer. C’est sans doute pourquoi l’incendie de la
+          bibliothèque d’<placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName>,
+          attribué aux chrétiens, puis aux musulmans, a pris l’allure d’un
+          mythe. Le Livre unique devait, à cette époque, remplacer les
+          livres ; l’outil de croyance remplacer l’outil de savoir. Toute
+          bibliothèque suppose la pluralité des savoirs, même à l’intérieur
+          d’une seule doctrine. À l’auteur qui donne son point de vue dans un
+          livre à la forme compacte, géométrique, hiérarchisée et homogène,
+          pourvu d’un début et d’une fin que la reliure rend irrévocables, et
+          dont il est seul responsable, s’oppose la bibliothèque qui propose
+          un ensemble de livres diversifiés qui se sait incomplet et
+          contradictoire, mais qui se veut équilibré, ouvert et en perpétuelle
+          révision. La bibliothèque apparaît comme une institution dont
+          l’essor est lié aux régimes démocratiques modernes : elle trouve ses
+          racines dans les monarchies éclairées qu’on peut faire remonter
+          jusqu’au <date from="1300" to="1399" type="_temp">
+              <hi rend="small-caps">xiv</hi>
+              <hi rend="sup">e</hi> siècle</date> avec
+          les premiers humanistes. Un personnage comme <persName ref="033873011" type="idref" xml:base="https://www.idref.fr/">Richard de Bury</persName>,
+          conseiller d’<persName ref="027637751" type="idref" xml:base="https://www.idref.fr/">Édouard I<hi rend="small-caps">II</hi>
+            </persName> et du pape <persName ref="029176557" type="idref" xml:base="https://www.idref.fr/">Jean X<hi rend="small-caps">XII</hi>
+            </persName>, contemporain de <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName>, rédigea dans
+          son <hi rend="italic">Philobiblon</hi> (<date type="_temp" when="1345">1345</date>) un plaidoyer pour le livre comme outil de
+          bonne gouvernance. Le Livre unique avait été déjà une manière
+          d’unifier des contenus divers et de les relier pour leur conférer
+          une validité, une pérennité, mais surtout une unité performative,
+          même si elle était artificielle. Ainsi la Bible ou le Coran sont-ils
+          des livres autosuffisants, mais aussi des recueils qui, à eux seuls,
+          préfigurent une sorte de bibliothèque. Leur unité dans un « corpus »
+          tend à les rendre non seulement crédibles, mais aussi indépassables.
+          On peut dire que la bibliothèque, en tant qu’elle constitue, elle
+          aussi, une unité englobant une diversité de documents, reprend à son
+          compte et à son niveau les possibilités de hiérarchisation, de
+          classification, de conservation, de transmission et de validation.
+          Ces dernières font du livre et de la bibliothèque des formes de
+          savoir qui confèrent à leur contenu une unité, un ordre, une
+          transcendance. La bibliothèque est devenue, dans le monde du savoir,
+          ce qu’était le livre : une autorité.</p>
+        </div>
+        <div type="section1" xml:id="d1e91">
+          <head subtype="level1" xml:id="d1e92">La bibliothèque comme
+          pluralité des savoirs</head>
+          <p xml:id="d1e94">La bibliothèque a toujours été liée à un ensemble
+          de pratiques du savoir, et non au seul livre. À <placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName>, elle
+          était intégrée dans un ensemble, le Musée, qu’on appellerait
+          aujourd’hui « centre de recherche », dont elle était un instrument
+          majeur. La nouvelle bibliothèque d’<placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName> est
+          encore le lieu d’implantation de plusieurs centres de recherche sur
+          la Méditerranée, l’écriture, etc., et renferme un important musée.
+          Cette formule polyvalente est illustrée de nos jours par la
+          Bibliothèque publique d’information du Centre <persName ref="027337057" type="idref" xml:base="https://www.idref.fr/">Georges Pompidou</persName>
+          (ouverte en <date type="_temp" when="1977">1977</date>), qui
+          s’adosse à un grand musée et à des salles de spectacles, et sert de
+          support à des manifestations culturelles de tout genre. Le principe
+          en a été repris par de nombreuses bibliothèques municipales comme le
+          Carré d’art de <placeName ref="6431349" type="geonames" xml:base="https://www.geonames.org/">Nîmes</placeName>. Généralement
+          les bibliothèques de lecture publique sont des lieux de
+          rassemblement et d’activités diverses. La nouvelle Bibliothèque
+          nationale de <placeName ref="588409" type="geonames" xml:base="https://www.geonames.org/">Tallin</placeName> (<placeName ref="453733" type="geonames" xml:base="https://www.geonames.org/">Estonie</placeName>, inaugurée
+          en <date type="_temp" when="1993">1993</date>) a été conçue comme un
+          ensemble qui est le poumon culturel du pays, symbole de son
+          indépendance politique et culturelle. Dans les universités, la
+          bibliothèque n’est jamais seule : elle complète et conforte les
+          unités d’enseignement et de recherche ; et souvent, notamment aux
+          <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>, elle en
+          est le cœur.</p>
+          <p xml:id="d1e96">Mais c’est à l’intérieur de la bibliothèque que
+          l’on peut constater cette diversité qui la caractérise par rapport à
+          la notion de savoir. À l’époque classique, la bibliothèque devint
+          l’outil des lettrés, utile au conseil du prince, assurant la
+          documentation historique, scientifique et juridique nécessaire à un
+          esprit ou à un gouvernement éclairés. Elle se compose alors
+          essentiellement de livres, mais est souvent associée à un cabinet de
+          curiosités. Les livres, dans les cabinets d’étude, sont entourés
+          d’instruments de mesure, de spécimens d’histoire naturelle, de
+          pièces d’anatomie, de cartes de géographie, etc. En <date type="_temp" when="1666">1666</date>, <persName ref="027274527" type="idref" xml:base="https://www.idref.fr/">Colbert</persName> fit
+          l’acquisition pour la Bibliothèque royale de la plus importante
+          collection d’estampes de l’époque, celle de l’abbé <persName ref="028919440" type="idref" xml:base="https://www.idref.fr/">Michel
+          de Marolles</persName>, qui devint le noyau du Cabinet des estampes.
+          Lorsque, au siècle suivant, l’estampe fut considérée comme une œuvre
+          d’art plus que comme un objet éditorial et documentaire, les
+          collections d’estampes furent constituées au sein de musées ; mais,
+          de nos jours encore, c’est dans les bibliothèques et les archives
+          que l’on trouve les grandes collections iconographiques sous toutes
+          leurs formes : photothèques, cartes postales, affiches,
+          imagerie.</p>
+          <p xml:id="d1e98">Contrairement aux institutions éducatives, qui,
+          avant tout responsables de l’acquisition du langage et de
+          l’écriture, n’ont pas accepté sans réticence le monde indocile de
+          l’image, contrairement même à l’industrie du livre imprimé, façonné
+          pour la typographie, où l’image fut longtemps mise « hors texte »,
+          les bibliothèques n’ont pas à préjuger du contenu, langagier ou
+          iconique, des messages, ni de la nature des supports, papier ou
+          écran. Les bibliothèques sont entrées de plain-pied dans le monde du
+          multimédia. L’histoire du dépôt légal en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> en témoigne,
+          puisque les images y sont toujours incluses, dès qu’elles sont
+          éditées. Ainsi les premières photographies mises dans le commerce
+          respectèrent-elles ce règlement, ce qui vaut à notre Bibliothèque
+          nationale de conserver la plus importante collection de
+          photographies anciennes, et la nouvelle loi sur le dépôt légal
+          de <date type="_temp" when="1992">1992</date> dispose d’un dépôt
+          légal des émissions de télévision auprès de l’Institut national de
+          l’audiovisuel, avec obligation de communication au public dans les
+          locaux de la Bibliothèque nationale de <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>. Aux
+          <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>, le
+          service de cinémathèque national, que rend, en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, le Centre
+          national de la cinématographie et ses « archives du film », est
+          assuré par la Bibliothèque du Congrès. Une forme de « dépôt légal »
+          électronique est à l’étude dans plusieurs pays.</p>
+          <p xml:id="d1e100">La question aujourd’hui vient plutôt des limites
+          atteintes par la notion d’édition, qui se dissout dans les pratiques
+          informatiques. Déjà cette notion d’édition est difficilement
+          applicable aux photographies diffusées par des agences, soumises en
+          principe au « dépôt légal », produites en grand nombre et dont un
+          petit nombre, finalement, est publié. De même, ce qu’on nomme la
+          « littérature grise », cette masse énorme de rapports, études,
+          thèses et mémoires de recherche photocopiés ou réalisés à partir
+          d’imprimantes et diffusés « en interne », hors du circuit éditorial
+          et plus ou moins accessibles au public, est conservé dans les
+          bibliothèques spécialisées, au moins celle de l’institution qui l’a
+          produit, et, au niveau national, par l’Institut national de
+          l’information scientifique et technique (I<hi rend="small-caps">NIST</hi>), bibliothèque « de dépôt » du ministère
+          de la Recherche. La prolifération des publications sur papier issues
+          des ordinateurs personnels, qui n’est souvent que la version papier
+          de publications en ligne, pose un véritable défi technique et
+          juridique au bibliothécaire qui voudrait les engranger, les
+          cataloguer et les communiquer.</p>
+          <p xml:id="d1e105">La bibliothèque est ainsi mise à l’épreuve de
+          l’extension du livre, unité bibliographique élémentaire, dès lors
+          que le livre déborde cette unité. La tomaison a déjà suscité chez
+          les bibliothécaires une controverse entre ceux qui considèrent
+          l’unité physique du livre et cataloguent les tomes séparément, et
+          ceux qui considèrent l’unité intellectuelle de l’ensemble et pour
+          qui un ouvrage en plusieurs volumes ne constitue qu’un seul livre.
+          Cette question qui pouvait, jusqu’à ces dernières années, paraître
+          byzantine, devient désormais cruciale, avec l’accès aux textes
+          intégraux et avec les moteurs de recherche, qui font de chaque mot
+          une unité documentaire. Ce débat entre « structure physique » et
+          « structure logique » des documents est au cœur de la gestion
+          électronique des documents (G<hi rend="small-caps">ED</hi>) qui doit
+          traiter les textes et les images selon des balises normalisées
+          permettant les indexations automatiques et les formats d’échange. On
+          peut dire qu’au <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          l’apparition du journal avait déjà ouvert une brèche dans l’unité
+          logique et physique du livre. Elle n’a fait que se développer et se
+          généraliser avec les bases de données et la documentation
+          électronique. La bibliothèque s’est élargie avec elle. Un clivage
+          s’est produit cependant à ce niveau entre bibliothécaires, qui,
+          traditionnellement, traitent ces unités comme telles, et les
+          documentalistes qui indexent leurs contenus et constituent de
+          nouveaux objets mixtes. On oppose ainsi un savoir « cru », celui de
+          la référence et de l’accès indirect au document, à un savoir
+          « cuit », où le contenu du document a été préparé, résumé, mis en
+          contexte, assorti de notes. On peut supposer que l’accès
+          électronique, non plus seulement aux catalogues et aux références
+          des documents, mais à leur contenu intégral, va effacer la
+          distinction entre les métiers voisins de documentaliste et de
+          bibliothécaire, ou conduire même, avec la réduction de tous les
+          documents à des formes électroniques normalisées, à ce que tout
+          lecteur devienne un documentaliste. Puisque la bibliothèque se
+          soutient de la pluralité de son offre, la diversité des livres ne
+          suffit plus et n’a d’ailleurs jamais suffi. Les bibliothèques se
+          sont d’emblée ouvertes aux autres supports de connaissance, et un
+          service dit des « nouveaux supports » pour accueillir les objets
+          multimédias composés alors de disques, de diapositives ou de
+          microfilms, a été constitué à la Bibliothèque nationale dès les
+          <date from="1960" to="1969" type="_temp">années 1960</date>. Le
+          premier C<hi rend="small-caps">D</hi>-R<hi rend="small-caps">OM</hi>
+          français fut le catalogue de la Bibliothèque publique d’information,
+          « Lise », édité en <date type="_temp" when="1987">1987</date>. Les
+          bibliothèques universitaires ont vite mis les C<hi rend="small-caps">D</hi>-R<hi rend="small-caps">OM</hi> en réseau.
+          On n’imagine pas aujourd’hui de bibliothèque sans consultation sur
+          écran des bases de données. L’accès à Internet s’y est répandu à
+          partir de <date type="_temp" when="1995">1995</date>. Certaines
+          bibliothèques se sont pourvues de services de renseignement à
+          distance (« Réponses à distance » ou R<hi rend="small-caps">ADIS</hi> pour la Bibliothèque publique
+          d’information du Centre <persName ref="027337057" type="idref" xml:base="https://www.idref.fr/">Georges Pompidou</persName> ou
+          « Guichets du savoir » pour la bibliothèque municipale de <placeName ref="6454573" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName>). Aussi
+          parle-t-on plus volontiers aujourd’hui de « ressources
+          documentaires » que de « collections ». Ce n’est donc pas la nature
+          écrite, sonore ou iconique du document qui pose problème au
+          bibliothécaire, ni, contrairement au musée, la notion d’original et
+          de reproduction, puisque la bibliothèque a toujours eu affaire à la
+          fois à des objets uniques (les manuscrits) et à des objets édités.
+          Ce qui est problématique pour les bibliothèques modernes est, d’une
+          part, la dissolution de la notion d’« unité bibliographique », sur
+          laquelle elle est fondée pour la constitution de ses collections et,
+          d’autre part, la possibilité de communiquer à distance, qui abolit
+          ses murs et repousse à l’infini les horizons tant du « dépôt » que
+          de la « collection ». Le bibliothécaire peut, à bon droit,
+          s’interroger sur son rôle, lorsque les documents sont disponibles
+          sous forme numérique et qu’il n’a plus ni à les acquérir
+          matériellement, ni à les classer, ni à les cataloguer, ni à les
+          conserver, ni à les communiquer. A-t-on besoin de bibliothèques
+          lorsque les services qu’elles rendaient au chercheur et à l’étudiant
+          sont désormais rendus à domicile ?</p>
+        </div>
+        <div type="section1" xml:id="d1e131">
+          <head subtype="level1" xml:id="d1e132">La bibliothèque comme mode
+          d’accès au savoir</head>
+          <p xml:id="d1e134">Une première réponse découle de ce qui vient
+          d’être dit. Lieu de rassemblement de tous les livres, la
+          bibliothèque l’est aujourd’hui de tous les médias, et ce n’est qu’à
+          la bibliothèque que l’on bénéficiera de leur complémentarité dans
+          tous leurs registres. Les tables de travail désormais pourvues
+          d’écrans se trouvent toujours au milieu de livres et de périodiques,
+          et le même écran donne accès à des données diverses, sur C<hi rend="small-caps">D</hi>-R<hi rend="small-caps">OM</hi> en réseau ou
+          en ligne, souvent alors présélectionnées selon les intérêts du
+          public sous forme de signets. On peut donc retrouver, dans la
+          bibliothèque « multimédia », les mêmes avantages de choix et de
+          hiérarchisation des connaissances, qui fonctionnent comme une
+          validation de ces connaissances, au milieu d’un ensemble construit,
+          le plus ouvert possible, mais indexé, organisé et structuré dans sa
+          totalité comme peut l’être le livre. Les différents médias
+          s’intègrent dans une totalité qui est autre chose que la somme de
+          ses parties, et à l’intérieur de laquelle on peut s’orienter. On
+          retrouve dans ces vastes ensembles la condition majeure d’existence
+          des bibliothèques qui est non pas l’accumulation systématique
+          – comme peuvent le proposer, d’ailleurs avec profit, les grands
+          moteurs de recherche sur Internet – mais le choix et la sélection.
+          Les premiers théoriciens des bibliothèques, comme <persName ref="027272605" type="idref" xml:base="https://www.idref.fr/">Gabriel Naudé</persName> au <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi> siècle</date>, ont
+          tous insisté sur la nécessité du choix, devant la prolifération du
+          livre et de l’image. C’est de ce besoin, plus que de celui
+          d’acquérir en vrac des connaissances, qu’est née la bibliothèque.
+          Une bonne bibliothèque n’est pas nécessairement la plus grande, mais
+          la mieux composée et la mieux organisée. <persName ref="02668120X" type="idref" xml:base="https://www.idref.fr/">D’Alembert</persName>,
+          à l’article « bibliomane » de l’<hi rend="italic">Encyclopédie</hi>,
+          va jusqu’à dire que, en ce qui le concerne, quelques titres bien
+          choisis lui suffiraient, car « on s’est beaucoup plaint de la
+          multitude des livres » (et cela dès le <date from="1200" to="1299" type="_temp">
+              <hi rend="small-caps">xiii</hi>
+              <hi rend="sup">e</hi> siècle</date>). « Ainsi un philosophe entrant dans
+          une bibliothèque pourrait dire de presque tous les livres qu’il y
+          voit ce qu’un philosophe disait autrefois d’une maison fort ornée :
+          <hi rend="italic">
+              <foreign xml:lang="lat">quam multis non indigeo</foreign>
+            </hi> [que de choses dont je n’ai que faire]<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>D’A<hi rend="small-caps">lembert</hi>, art. « Bibliomane »,
+              in D<hi rend="small-caps">iderot</hi> et D’A<hi rend="small-caps">lembert</hi>, <hi rend="italic">Encyclopédie</hi>, 1751-1780.</p>
+            </note>. » La bibliothèque doit être utile, ce qui veut dire
+          qu’elle ne contient rien d’inutile. Cette lapalissade suppose en
+          fait deux stratégies complexes : celle de l’adaptation de la
+          bibliothèque aux attentes de son public, celle de l’évolution de ses
+          collections en fonction de celle des savoirs. Ces stratégies,
+          appelées dans les écoles de bibliothécaires « politique
+          d’acquisition » et « gestion des collections », sont devenues
+          elles-mêmes des savoirs. La sacralisation du livre, qui, au <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>, fut la conséquence de son
+          industrialisation et de sa banalisation, a noyé ces principes et
+          remplacé la « bibliophilie » par la « bibliomanie » qui entasse les
+          savoirs, comme des trésors dans une caverne, plutôt que de les
+          discerner et les articuler. Aujourd’hui, ce n’est plus l’abondance
+          qu’il faut gérer, mais, à proprement parler, l’infinité des savoirs
+          constamment renouvelés et venant du monde entier, convergents sur
+          nos papiers et sur nos écrans. Le profil du bibliothécaire est donc
+          appelé à évoluer rapidement. On constate, dans les offres d’emploi,
+          une tendance à privilégier d’un côté les bibliothécaires-ingénieurs,
+          spécialistes des réseaux informatiques, et de l’autre, les
+          bibliothécaires-administrateurs, capables de coordonner des
+          activités de plus en plus diverses et d’en développer de nouvelles.
+          Le métier de bibliothécaire n’a jamais été fixé, et jadis les
+          bibliothécaires étaient des ecclésiastiques, des écrivains ou des
+          savants. La professionnalisation n’est intervenue qu’au <date from="1900" to="1999" type="_temp">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date> avec les écoles de bibliothécaires
+          et le perfectionnement de la « bibliothéconomie ». Aujourd’hui les
+          compétences du bibliothécaire s’élargissent et sont rarement réunies
+          dans une même personne. D’où l’importance des rencontres
+          professionnelles, des stages et autres lieux de formation qui se
+          sont multipliés, en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, depuis une
+          vingtaine d’années, notamment dans les universités et avec la
+          création en <date type="_temp" when="1992">1992</date> de l’École
+          nationale supérieure des sciences de l’information et des
+          bibliothèques (E<hi rend="small-caps">NSSIB</hi>), située sur le
+          campus de <placeName ref="6454573" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName>, à <placeName ref="6441813" type="geonames" xml:base="https://www.geonames.org/">Villeurbanne</placeName>. Avec
+          le traitement normalisé des documents électroniques et les pratiques
+          des chercheurs, on assiste maintenant à un rapprochement entre les
+          professions voisines de bibliothécaire, documentaliste et
+          archiviste.</p>
+          <p xml:id="d1e189">Les publics évoluent aussi dans ce sens. D’abord
+          ils diversifient leurs pratiques en même temps que les services que
+          leur offrent les différentes bibliothèques et ne se contentent pas
+          d’une seule bibliothèque. Ensuite, dans la bibliothèque même, ils
+          rentabilisent leur travail en utilisant différents supports et en
+          consultant simultanément livres, journaux, C<hi rend="small-caps">D</hi>-R<hi rend="small-caps">OM</hi> et services
+          en ligne. Ces comportements nouveaux induisent une conception de la
+          bibliothèque sans cesse plus fluide dans ses espaces et dans ses
+          modes de consultation, mais aussi une mise en concurrence les unes
+          avec les autres et avec les services à domicile. De même que
+          l’audience de la télévision commence, pour la première fois depuis
+          son invention, à baisser, de même faut-il s’attendre à une
+          stagnation des publics des bibliothèques à mesure qu’Internet
+          fournira une partie de leurs besoins documentaires. Les usagers
+          restent dépendants des bibliothèques pour des usages particuliers
+          (notamment la recherche généraliste, la vulgarisation et
+          l’apprentissage), pour les accès qu’elles peuvent fournir à des
+          équipements rares et complémentaires, et pour leur fonction
+          patrimoniale et de conservation.</p>
+          <p xml:id="d1e197">Cette situation nouvelle a plusieurs conséquences
+          sur les bibliothèques modernes. La première est qu’elles ont
+          tendance à se spécialiser, à se fragmenter même, non seulement par
+          disciplines, dans les universités et les centres de recherche, mais
+          aussi selon l’attente des publics (lecture publique, lecture
+          scolaire, centres de documentation), leurs tranches d’âge
+          (bibliothèques pour enfants, bibliothèques pédagogiques de
+          différents niveaux), ou les supports. Ainsi, à l’intérieur des
+          bibliothèques ou sur leur modèle, ont émergé d’innombrables autres
+          « -thèques » : photothèque, vidéothèque, cartothèque, infothèque,
+          etc., et le mot « bibliothèque » est utilisé pour désigner toute
+          sorte de collection tant soit peu normalisée : bibliothèques de
+          logiciels, d’algorithmes, de formes, etc. La diversification des
+          bibliothèques tient aussi aux différents modes de « consommation »
+          du savoir. On constate que les ouvrages sont de plus en plus classés
+          dans les rayons non pas selon une cote qui indique leur sujet ou le
+          nom de leur auteur, mais en fonction de leur rotation, de la
+          proximité des lecteurs et du nombre de demandes dont ils font
+          l’objet. On les trouve alors tantôt en libre accès, avec les
+          nouveautés ou les usuels, tantôt en magasins, dont l’accès peut être
+          plus ou moins ouvert, ou encore au dépôt éloigné où sont relégués
+          les livres jamais demandés. Aux <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>, les
+          universitaires ont un accès libre à des magasins clos, même si les
+          livres y sont conservés dans des rayonnages de type « compactus »
+          qu’il faut écarter mécaniquement pour y pénétrer. L’Université de
+          <placeName ref="4114018" type="geonames" xml:base="https://www.geonames.org/">Harvard</placeName> a été la
+          première à s’équiper de silos de grande hauteur où les livres
+          inutilisés sont stockés. S’est répandue aussi, à la suite des
+          <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>, la
+          pratique du « désherbage » qui consiste à écarter les livres qui ne
+          sont pas utilisés pour les mettre au dépôt. Les livres et
+          périodiques qui n’ont plus d’intérêt que pour les historiens (comme
+          les modes d’emploi d’anciens matériels informatiques, les manuels de
+          médecine, les annuaires ou les guides touristiques périmés) sont
+          réorientés vers d’autres bibliothèques, spécialisées ou, au
+          contraire, moins exigeantes. Les auteurs dont la vogue est passée
+          finissent leurs jours sur les rayons destinés aux spécialistes
+          d’histoire de la littérature et non plus sur les étagères d’une
+          bibliothèque de quartier.</p>
+          <p xml:id="d1e199">Enfin, les conditions, de plus en plus
+          draconiennes, de conservation des ouvrages anciens entrant en
+          conflit avec la demande croissante des lecteurs amènent, de plus en
+          plus, les grandes bibliothèques à se scinder en deux : bibliothèque
+          de fonds anciens, d’un côté, où les exigences de la conservation
+          priment sur celles des lecteurs (accès contrôlé, climatisation,
+          manipulations surveillées, obscurité), et bibliothèque de
+          communication, d’un autre côté, où les documents peuvent être soumis
+          à un usage intensif et destructeur (accès libre, prêt,
+          photocopie, etc.). Cette césure entre fonds anciens et fonds
+          modernes est tellement générale qu’elle est adoptée par la plupart
+          des grandes bibliothèques reconstruites, dont les exemples les plus
+          récents sont la Bibliothèque du Kansaï, près de <placeName ref="1857910" type="geonames" xml:base="https://www.geonames.org/">Kyoto</placeName> – vaste dépôt
+          de la Bibliothèque de la Diète au <placeName ref="1861060" type="geonames" xml:base="https://www.geonames.org/">Japon</placeName> –, ou la
+          Bibliothèque nationale du <placeName ref="6115047" type="geonames" xml:base="https://www.geonames.org/">Québec</placeName> qui comporte
+          une bibliothèque de conservation, dans une friche industrielle
+          réaménagée hors de la ville, et une bibliothèque de communication,
+          en centre-ville. En <placeName ref="3144096" type="geonames" xml:base="https://www.geonames.org/">Norvège</placeName>, les livres
+          du dépôt légal sont conservés dans des silos installés au-delà du
+          cercle polaire, à une température de − 8°C, excluant toute
+          communication courante.</p>
+          <p xml:id="d1e201">On a parfois nourri l’illusion que la
+          numérisation systématique des documents allait concilier ces deux
+          demandes contradictoires. La numérisation des fonds est, sans aucun
+          doute, un mode d’accès au savoir d’une efficacité inégalée, mais il
+          est faux de penser qu’elle épuisera les fonds sur papier. D’abord
+          parce que les livres récents sont protégés par des lois qui ne
+          donnent qu’à l’auteur et à son représentant, l’éditeur, le droit de
+          les reproduire ; ensuite parce qu’il est utopique de penser que
+          l’immense stock de livres et de journaux accumulé, dans le monde,
+          depuis des siècles, et qui, nous l’avons dit, s’accroît de manière
+          géométrique, sera un jour entièrement numérisé (ce qui serait sans
+          doute aussi inutile) ; enfin parce que, si la numérisation donne
+          accès au texte et à une reproduction normalisée (et donc
+          passablement dénaturée) de l’image, il ne remplace pas l’original,
+          qui possède, dans sa forme même, son format, ses techniques, ses
+          matériaux, des significations auxquelles les spécialistes portent de
+          plus en plus d’intérêt. La prophétie de <persName ref="026999420" type="idref" xml:base="https://www.idref.fr/">Marshal
+          McLuhan</persName>, pour qui « le médium est le message<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>M<hi rend="small-caps">cluhan</hi>, 1968.</p>
+            </note> », est bel et bien confirmée à l’heure où la diversité des
+          médias nous conduit à tenir le plus grand compte de leur nature
+          spécifique dans l’analyse du document.</p>
+        </div>
+        <div type="section1" xml:id="d1e210">
+          <head subtype="level1" xml:id="d1e211">La bibliothèque comme mode de
+          transmission des connaissances</head>
+          <p xml:id="d1e213">Les documents présentés en flux sur des écrans
+          sans cesse renouvelés et les stocks de documents sur papier sont
+          donc conjointement présents dans les bibliothèques et
+          complémentaires. Le formidable succès des nouvelles technologies a
+          largement compté dans l’essor des bibliothèques modernes, au point
+          de faire oublier qu’elles sont aussi des lieux responsables du
+          patrimoine écrit et imagé. À la fin du <date from="1900" to="1999" type="_temp">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date>, on a assisté à un renouveau
+          d’intérêt pour le patrimoine, socle de savoirs qui ont tendance à se
+          vaporiser dans l’espace et dans le temps. Cet « effet patrimoine »
+          ressenti et analysé, dans les <date from="1970" to="1989" type="_temp">années 1970 et 1980</date>, a sans doute beaucoup fait
+          pour la construction et la reconstruction des bibliothèques. En
+          effet, les bibliothèques apparaissent, avec les archives et les
+          musées, comme les lieux d’une continuité de la culture et des
+          savoirs, dans un monde où s’impose la communication rapide. Alors
+          que la rotation des produits et des idées s’accélère pour nourrir
+          des marchés à court terme, les institutions qui ont en charge la
+          transmission à long terme des objets symboliques deviennent plus
+          nécessaires. La présence des livres dans les librairies est de plus
+          en plus courte, d’une durée de quelques semaines en général.
+          L’abondance croissante du nombre des titres publiés (50 000 chaque
+          année en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, alors qu’il
+          n’était que de 40 000 voilà dix ans et de 30 000 voilà vingt ans)
+          fait que les nouveaux titres chassent les anciens et les effets de
+          mode les y poussent. Les bibliothèques jouent un rôle de plus en
+          plus important, car on y retrouve dans une sorte de paradis, ou du
+          moins de purgatoire des livres, les innombrables titres qui sont
+          épuisés et qui n’ont pas encore été, et ne seront sans doute jamais
+          réédités ni numérisés. La bibliothèque constitue donc, et
+          particulièrement dans les pays d’économie libérale, un antidote au
+          monde marchand, dont les intérêts sont peu soucieux de leurs effets
+          à long terme et sacrifient la transmission à la communication.
+          Parallèlement, la logique du marché privilégie les ouvrages à grand
+          tirage et élimine d’emblée ceux pour lesquels n’existe aucun public
+          solvable. De même que l’industrie pharmaceutique laisse, comme on
+          dit, des « maladies orphelines » faute de clientèle, de même
+          existe-t-il de plus en plus de livres « orphelins » qui ne touchent
+          qu’un faible lectorat et pour cette raison sont mal diffusés et
+          méconnus. La bibliothèque joue, comme certaines librairies, un rôle
+          compensateur indispensable à la création et à la recherche en
+          offrant une visibilité à des ouvrages victimes de la logique
+          marchande de l’édition. Là encore, le monde d’Internet change la
+          donne et libère un potentiel énorme de création et de recherche, que
+          le marché ne fait plus que freiner.</p>
+          <p xml:id="d1e220">La notion de « bibliothèque publique » (<hi rend="italic">
+              <foreign xml:lang="eng">public library</foreign>
+            </hi>) a trouvé son accomplissement, dans les pays anglo-saxons et
+          notamment aux <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>, comme
+          lieu d’information du <hi rend="italic">self-made man</hi>,
+          emblématique de la liberté d’entreprise. Dans les pays latins, où
+          l’effort public s’est porté sur les systèmes éducatifs et les
+          services sociaux, la bibliothèque a eu plus de mal à s’imposer comme
+          institution. À l’époque où <persName ref="027316904" type="idref" xml:base="https://www.idref.fr/">Jules Ferry</persName> a eu l’école
+          communale, les Anglais adoptaient une loi obligeant les
+          municipalités à entretenir une bibliothèque publique. Après la
+          <date>Première Guerre mondiale</date>, le modèle américain s’est
+          diffusé en Europe et, après la <date>Seconde</date>, en Orient.
+          L’extension du libéralisme devrait donc servir le développement des
+          bibliothèques, mais les nouveaux modes de diffusion électronique
+          risquent d’imposer la loi du marché aux bibliothèques qui en étaient
+          jusqu’alors exonérées. La pratique du droit de prêt et l’application
+          aux bibliothèques du droit de copie limitent l’exercice démocratique
+          de la bibliothèque. Les ayants droit font valoir leur manque à
+          gagner, et l’État ne souhaite pas assumer, seul, la prise en charge
+          financière de ces droits. Or, les dépenses des bibliothèques portent
+          de plus en plus sur des services sous forme d’abonnements aux bases
+          de données et de moins en moins, en proportion, sur des acquisitions
+          d’objets, de livres ou de périodiques. Les bibliothèques, comme des
+          grands magasins, cherchent alors à se grouper en consortiums pour
+          négocier des tarifs préférentiels pour les bases de données les plus
+          coûteuses, qui sont souvent les plus nécessaires aux chercheurs.
+          Mais elles doivent alors souscrire à des « bouquets » de sites
+          informatiques dont elles ne contrôlent pas toujours la composition,
+          au détriment du rôle sélectif des collections propres de la
+          bibliothèque. Les chercheurs, eux-mêmes, qui n’attendent
+          généralement pas de vivre de leurs droits d’auteur, mais veulent,
+          avant tout, une visibilité de leurs travaux, tentent d’échapper à
+          cette logique marchande du savoir en se regroupant dans des sites
+          libres de droits – dits <hi rend="italic">
+              <foreign xml:lang="eng">open archives</foreign>
+            </hi>. Ainsi, en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, le Centre
+          de communication scientifique directe (C<hi rend="small-caps">csd</hi>), basé à <placeName ref="6454573" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName>, après avoir
+          diffusé librement les résultats des recherches en physique, s’ouvre
+          à d’autres disciplines, y compris aux sciences humaines. Plus que
+          les nouvelles technologies, que les bibliothèques se sont
+          appropriées et savent utiliser en complémentarité avec les
+          publications sur papier, c’est le régime juridique et commercial de
+          ces nouveaux médias qui représente pour elles le principal danger.
+          La bibliothèque, service démocratique non marchand, a été jusqu’ici
+          préservée comme un espace public nécessaire au libre accès à
+          l’information et à la mutualisation des connaissances. On peut se
+          demander si elle survivrait à un libéralisme intégral où tout accès
+          au savoir serait privatisé. Le rapport de force entre outil public
+          et intérêts privés est ouvert. Les laboratoires de <placeName ref="5332921" type="geonames" xml:base="https://www.geonames.org/">Californie</placeName>, qui
+          misent sur l’économie des infrastructures informatiques, ont intérêt
+          à disposer de vastes collections librement accessibles, pour
+          développer leur industrie ; comme les <foreign xml:lang="eng">
+              <hi rend="italic">public libraries</hi>
+            </foreign>, ils jouent le jeu des bibliothèques. La Communauté
+          européenne, qui s’apprête à reconsidérer dans un sens plus marchand
+          les règles de la propriété intellectuelle, joue au contraire sur la
+          commercialisation des contenus. Or, aujourd’hui, les grands
+          investissements et les grands profits portent plus sur les
+          ordinateurs et leurs logiciels, les outils d’indexation automatique,
+          les outils de normalisation (par exemple : S<hi rend="small-caps">GML</hi>
+            <note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>S<hi rend="small-caps">GML</hi> : Standard Generalized
+              Mark-up Language est une norme internationale de structuration
+              des textes électroniques.</p>
+            </note>, H<hi rend="small-caps">TML</hi>
+            <note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>H<hi rend="small-caps">TML</hi> : HyperText Mark-up Language
+              est un langage normalisé pour diffuser les informations sur
+              Internet quel que soit leur médium.</p>
+            </note>) et tout ce que l’on nomme les « méta-langages », que sur
+          les programmes et les contenus. Nous sommes entrés dans l’ère des
+          méta-langages. Les bibliothèques sont des conservatoires de ces
+          « méta-savoirs » que constituent non pas les savoirs eux-mêmes, mais
+          leurs différents modes d’organisation et d’accès.</p>
+          <p xml:id="d1e256">Prises entre le flux et le stock, la
+          communication et la transmission, les intérêts privés et immédiats
+          et les exigences de savoirs collectifs et durables, les
+          bibliothèques modernes cherchent à concilier l’un avec l’autre et à
+          mettre l’un au service de l’autre. Le flux a déjà servi le stock en
+          mettant en ligne des catalogues collectifs qui donnent un accès
+          indirect aux documents primaires, livres et périodiques, à travers
+          le monde, comme les grands réseaux américains O<hi rend="small-caps">CLC</hi> – Online Computer Library Center<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>O<hi rend="small-caps">CLC</hi> est le plus ancien des
+              réseaux informatisés de catalogage des bibliothèques (1967) et
+              aussi le principal d’entre eux : plus de 20 000 bibliothèques
+              dans plus de 50 pays y ont recours.</p>
+            </note> – ou R<hi rend="small-caps">LIN</hi> – Research Library
+          Information Network<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>R<hi rend="small-caps">LIN</hi>, ce catalogue collectif en
+              ligne regroupe plus de 60 millions de notices de plus de
+              200 bibliothèques, spécialement en histoire et en histoire de
+              l’art.</p>
+            </note> – qui regroupent plusieurs milliers de bibliothèques dans
+          le monde, ou, en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, le
+          Catalogue collectif national (C<hi rend="small-caps">CN</hi>), qui
+          permet de localiser les documents conservés dans les principales
+          bibliothèques municipales ou universitaires françaises. Mais le
+          stock nourrit de plus en plus le flux, avec des opérations de mise
+          en ligne de fonds numérisés comme le Projet Gutenberg, la base
+          Gallica de la Bibliothèque nationale de <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, ou
+          l’ambition de Google de numériser des millions de pages de grandes
+          bibliothèques. Le lien entre ces catalogues collectifs et les bases
+          numérisées constitue bien une nouvelle forme de bibliothèques « sans
+          murs », virtuelles, délocalisées. La question est désormais de
+          savoir si ces réservoirs virtuels fonctionneront comme des
+          bibliothèques ou comme des supermarchés.</p>
+          <p xml:id="d1e281">La bibliothèque a toujours été un lieu
+          paradoxal : lieu public destiné à la consultation d’un objet
+          singulier et intime – le livre, lieu, dit-on, où l’on vient ensemble
+          pour s’y tourner le dos. L’usage des écrans n’a pas modifié ce
+          paradoxe, et l’on vient toujours travailler dans les bibliothèques,
+          même si les statistiques montrent un léger tassement de la
+          fréquentation dû à l’usage des écrans domestiques. Sans doute, les
+          bibliothèques universitaires et de recherche seront affectées par
+          ces nouveaux usages. Dans certaines disciplines scientifiques, la
+          physique ou la biologie par exemple, où seule importe l’information
+          la plus récente, le courrier électronique, consulté en permanence, a
+          remplacé le livre et même le périodique, et le bureau du chercheur
+          tient lieu de salle de lecture. D’autres disciplines, au contraire,
+          ont sans cesse recours aux fonds rétrospectifs, et leurs étudiants
+          toujours besoin des bibliothèques comme lieux d’étude. Comme nous
+          l’avons dit, la bibliothèque a l’avantage de conserver ses
+          collections sur le long terme, d’y préserver aussi bien la
+          documentation commerciale que le document « orphelin » que les
+          circuits marchands ne diffusent pas ou ne diffusent plus faute de
+          rentabilité. Ainsi assure-t-elle, contre les monopoles et les
+          positions dominantes qui contrôlent aujourd’hui les savoirs, une
+          offre aussi diversifiée que possible et un accès libre au
+          savoir.</p>
+        </div>
+        <div type="section1" xml:id="d1e283">
+          <head subtype="level1" xml:id="d1e284">La bibliothèque comme
+          représentation du savoir</head>
+          <p xml:id="d1e286">La bibliothèque est l’image métaphorique du
+          savoir en tant que tel, public ou privé, comme le montrent les
+          représentations qu’en donnent la littérature et le cinéma. Le
+          bâtiment de la bibliothèque matérialise la collectivité qui
+          l’édifie ; au-delà de ses objectifs fonctionnels, c’est un monument
+          public chargé de manifester au monde le savoir de la collectivité.
+          On peut expliquer ainsi pourquoi les constructions de bibliothèques
+          ne cessent, comme la production des livres, de croître dans le monde
+          entier. La décentralisation a suscité, en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, une
+          floraison d’architectures frappantes par leur originalité et leur
+          diversité. En vingt ans, le nombre d’usagers de la lecture publique
+          en France a doublé (de 9 % à 18 % de la population) sans atteindre
+          le taux des pays scandinaves (de 30 % à 50 %). L’adaptation des
+          bibliothèques à ces publics variés et à ces nouveaux médias les a
+          contraintes à sortir du quadrilatère où l’architecture classique les
+          avait enfermées.</p>
+          <figure xml:id="d1e288">
+            <head xml:id="d1e289">Salle de lecture du dixième étage de la
+            Bibliothèque publique de Seattle, conçue par Rem Koolhaas
+            en 2004.</head>
+            <graphic url="../icono/br/LDSI_36_Melot_fig01.jpg"/>
+          </figure>
+          <p xml:id="d1e292">Comme le livre, elles ont débordé leurs murs, non
+          seulement en s’organisant en réseau, mais en diversifiant leurs
+          espaces de manière parfois ostentatoire, comme l’a montré la récente
+          éruption de bibliothèques municipales en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>. La
+          bibliothèque moderne persiste, donc, dans sa vocation de lieu public
+          de rassemblement tranquille, de manifestations culturelles variées,
+          voire de simple convivialité pour tous ceux qui cherchent un abri
+          intellectuel ou un confort de travail.</p>
+          <p xml:id="d1e294">Notre époque éprouve une véritable fièvre des
+          grandes bibliothèques. On peut s’étonner de voir que presque toutes
+          les grandes bibliothèques du monde ont été construites,
+          reconstruites ou rénovées depuis les <date from="1980" to="1989" type="_temp">années 1980</date>. Les bibliothèques nationales ont
+          vécu une renaissance qu’elles n’avaient pas connue depuis le <date type="_temp" when="1850">milieu du <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date> à l’époque de « l’éveil des
+          nations ». Beaucoup, notamment en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> et en
+          <placeName ref="2635167" type="geonames" xml:base="https://www.geonames.org/">Grande-Bretagne</placeName>,
+          ont fait l’objet de polémiques parfois violentes qui ont montré que
+          ces bibliothèques étaient encore de puissants marqueurs d’une
+          appartenance et d’une fierté nationales. Le premier projet de
+          <persName ref="027894568" type="idref" xml:base="https://www.idref.fr/">Dominique Perrault</persName> pour
+          la Bibliothèque nationale de <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> voulait
+          proclamer au monde entier le degré de connaissance montant dans les
+          tours transparentes comme dans un thermomètre qui mesurerait en
+          volumes la richesse des savoirs d’une nation. Les valeurs qu’impose,
+          de nos jours, l’idée de la bibliothèque ont trouvé leur consécration
+          dans la construction très médiatisée de la Bibliotheca Alexandrina
+          (nouvelle Bibliothèque d’<placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName>).
+          Réalisée sous l’égide de l’Unesco, elle fait figure de symbole
+          mondial plus que d’outil de travail pour les étudiants égyptiens.
+          C’est aussi le cas de la construction à <placeName ref="5809844" type="geonames" xml:base="https://www.geonames.org/">Seattle</placeName>, patrie de
+          Microsoft, d’une gigantesque Bibliothèque publique conçue par
+          l’architecte visionnaire <persName ref="02695236X" type="idref" xml:base="https://www.idref.fr/">Rem Koolhaas</persName> et financée
+          par <persName ref="032108222" type="idref" xml:base="https://www.idref.fr/">Bill Gates</persName>, qui doit à
+          la fois accueillir un large public, servir d’écrin pour le fameux
+          <hi rend="italic">Codex atlanticus</hi> de <persName ref="085975915" type="idref" xml:base="https://www.idref.fr/">Léonard de
+          Vinci</persName> – que <persName ref="032108222" type="idref" xml:base="https://www.idref.fr/">Bill Gates</persName> a acquis pour
+          une somme fabuleuse –, et peut-être devenir un monument à la gloire
+          de son acquéreur. Cette conjonction spectaculaire entre le plus
+          célèbre et le plus riche personnage du monde des nouvelles
+          technologies et la bibliothèque comme un lieu de mémoire, ancré dans
+          le temps et dans l’espace, est sans doute l’image la plus frappante
+          de leur alliance objective et de leur contradictoire
+          complémentarité.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e305">
+        <head xml:id="d1e306">Bibliographie</head>
+        <listBibl xml:id="d1e308">
+          <bibl xml:id="d1e309">B<hi rend="small-caps">elloti</hi>, 1998 :
+          Massimo B<hi rend="small-caps">elloti</hi> (éd.), <hi rend="italic">La biblioteca tra spazio e progetto. Nuove frontiere
+          dell’architettura e nuovi scenari tecnologici</hi>, Milan.</bibl>
+          <bibl xml:id="d1e320">B<hi rend="small-caps">isbrouck</hi> et M<hi rend="small-caps">ittler</hi>, 1996 : Marie-Françoise B<hi rend="small-caps">isbrouck</hi> et Elmar M<hi rend="small-caps">ittler</hi>, <hi rend="italic">The Post-Modern
+          Library, Proceedings of the Seminar of the Liber Architecture
+          Group</hi>, Graz.</bibl>
+          <bibl xml:id="d1e337">C<hi rend="small-caps">alenge</hi>, 1995 :
+          Bertrand C<hi rend="small-caps">alenge</hi> (éd.), <hi rend="italic">Diriger une bibliothèque d’enseignement
+          supérieur</hi>, Sainte-Foy (Québec).</bibl>
+          <bibl xml:id="d1e348">C<hi rend="small-caps">alenge</hi>, 2004 : B.
+          C<hi rend="small-caps">alenge</hi> (éd.), <hi rend="italic">Bibliothécaire, quel métier ?</hi>, Paris.</bibl>
+          <bibl xml:id="d1e359">C<hi rend="small-caps">ollard</hi>, 1995 :
+          Claude C<hi rend="small-caps">ollard</hi>, Isabelle G<hi rend="small-caps">iannattasio</hi> et Michel M<hi rend="small-caps">elot</hi>, <hi rend="italic">Les Images dans les
+          bibliothèques</hi>, Paris.</bibl>
+          <bibl xml:id="d1e376">« Communiquer/Transmettre », <hi rend="italic">Cahiers de médiologie</hi>, n<hi rend="sup">o</hi> 11,
+          numéro spécial, Paris, 2000.</bibl>
+          <bibl xml:id="d1e384">D<hi rend="small-caps">e</hi> P<hi rend="small-caps">oli</hi>, 2005 : Aldo D<hi rend="small-caps">e</hi> P<hi rend="small-caps">oli</hi>, <hi rend="italic">Bibliothèques. Architecture 1995-2005</hi>, trad. de
+          l’italien par F.-A. Costa, Arles-Milan.</bibl>
+          <bibl xml:id="d1e401">D<hi rend="small-caps">errida</hi>, 1985 :
+          Jacques D<hi rend="small-caps">errida</hi>, <hi rend="italic">De la
+          grammatologie</hi>, Paris.</bibl>
+          <bibl xml:id="d1e412">E<hi rend="small-caps">sposito</hi>, 1996 :
+          Enzo E<hi rend="small-caps">sposito</hi> (éd.), <hi rend="italic">Un’idea di biblioteca</hi>, Naples.</bibl>
+          <bibl xml:id="d1e423">M<hi rend="small-caps">cluhan</hi>, 1967 :
+          Marshall M<hi rend="small-caps">cluhan</hi>, <hi rend="italic">La
+          Galaxie Gutenberg face à l’ère électronique</hi> [<hi rend="italic">The Gutenberg Galaxy</hi>, Londres, 1962], trad. de
+          l’américain par J. Paré, Montréal.</bibl>
+          <bibl xml:id="d1e437">M<hi rend="small-caps">cluhan</hi>, 1968 :
+          M. M<hi rend="small-caps">cluhan</hi>, <hi rend="italic">Message et
+          massage</hi>, trad. de l’américain par Th. Lauriol, Paris.</bibl>
+          <bibl xml:id="d1e449">M<hi rend="small-caps">elot</hi>, 1996 :
+          Michel M<hi rend="small-caps">elot</hi> (éd.), <hi rend="italic">Nouvelles Alexandries. Les grands chantiers de
+          bibliothèques dans le monde</hi>, Paris.</bibl>
+          <bibl xml:id="d1e460">M<hi rend="small-caps">ercier</hi>, 2002 :
+          Alain M<hi rend="small-caps">ercier</hi> (éd.), <hi rend="italic">Les Trois Révolutions du livre</hi>, Paris.</bibl>
+          <bibl xml:id="d1e471">O<hi rend="small-caps">riggi</hi> et A<hi rend="small-caps">rikha</hi>, 2003 : Gloria O<hi rend="small-caps">riggi</hi> et Noga A<hi rend="small-caps">rikha</hi> (éd.), <hi rend="italic">Text-e. Le
+          Texte à l’heure de l’Internet</hi>, Paris.</bibl>
+          <bibl xml:id="d1e488">P<hi rend="small-caps">edler</hi> et Z<hi rend="small-caps">erbib</hi>, 2001 : Emmanuel P<hi rend="small-caps">edler</hi> et Olivier Z<hi rend="small-caps">erbib</hi>, <hi rend="italic">Les Nouvelles
+          Technologies à l’épreuve des bibliothèques</hi>, Paris.</bibl>
+          <bibl xml:id="d1e505">V<hi rend="small-caps">andenlorpe</hi>, 1999 :
+          Christian V<hi rend="small-caps">andenlorpe</hi>, <hi rend="italic">Du papyrus à l’hypertexte. Essai sur les mutations du
+          texte et de la lecture</hi>, Paris.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

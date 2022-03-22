@@ -1,0 +1,948 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LDSI_50_Benazera">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Structures et pratiques du savoir à distance : le
+        cas de l’exploration robotique de Mars</title>
+        <author role="aut">
+          <forename>Emmanuel</forename>
+          <surname>Benazera</surname>
+          <idno type="IDREF">075907496</idno>
+        </author>
+        <author role="aut">
+          <forename>Nicolas</forename>
+          <surname>Meuleau</surname>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2020">2020</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Albin
+          Michel CC BY-NC-ND 3.0 Attribution - Pas d’Utilisation Commerciale -
+          Pas de Modification</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/FM34ZJSC" type="bookSection" xml:lang="fre">
+          <analytic>
+            <title level="a">Structures et pratiques du savoir à distance : le
+            cas de l'exploration robotique de Mars</title>
+            <author>
+              <forename>Emmanuel</forename>
+              <surname>Benazera</surname>
+            </author>
+            <author>
+              <forename>Nicolas</forename>
+              <surname>Meuleau</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Lieux de savoir</title>
+            <idno type="ISBN">978-2-226-17904-3</idno>
+            <editor>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <biblScope unit="volume">1. Espaces et communautés</biblScope>
+              <biblScope unit="nb_volumes">2</biblScope>
+              <biblScope unit="page">897-915</biblScope>
+              <publisher>Albin Michel</publisher>
+              <date>2007</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-11-22T11:37:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Structures et pratiques du savoir à
+          distance : le cas de l’exploration robotique de Mars</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Emmanuel Benazera</docAuthor>
+          <docAuthor>Nicolas Meuleau</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e54">En deux années d’exploration de la surface de Mars,
+        deux petits véhicules automatisés de la N<hi rend="small-caps">ASA</hi> (National Aeronautics and Space
+        Administration), ou « <foreign xml:lang="eng">rovers</foreign> », dont
+        la mission M<hi rend="small-caps">ER</hi> (Mars Exploration Rovers) ne
+        devait initialement pas dépasser 90 jours, ont révolutionné aussi bien
+        la connaissance de la planète rouge que les modalités de l’étude
+        géologique des planètes et des satellites éloignés. La complexité des
+        technologies mises en œuvre, le nombre de chercheurs et d’ingénieurs
+        impliqués, ainsi que les contraintes instrumentales de la
+        communication et de l’opération à distance, ont imposé l’élaboration
+        d’une méthodologie innovante de la pratique exploratoire.</p>
+        <p xml:id="d1e62">En ce <date type="_temp" when="2004-01-25">25 janvier 2004</date>, au cœur de l’hiver nordique
+        martien, la sonde<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>La sonde spatiale est l’engin cosmique non habité lancé pour
+            étudier le milieu interplanétaire. Dans le cas de la mission M<hi rend="small-caps">ER</hi>, c’est une structure en aluminium
+            recouverte de panneaux solaires, qui encapsule le rover dont
+            l’ordinateur de bord est connecté aux équipements de la sonde.
+            Ceux-ci sont maintenus à une température fonctionnelle par un
+            système de chauffage / refroidissement et par la rotation de la
+            sonde sur elle-même, qui équilibre leur exposition au rayonnement
+            solaire.</p>
+          </note>
+          <hi rend="italic">M<hi rend="small-caps">ER</hi>-B</hi>
+        protégeant le second <foreign xml:lang="eng">rover</foreign>, <hi rend="italic">Opportunity</hi>, a déjà procédé à de très précises
+        corrections de trajectoire et réduit les derniers milliers de
+        kilomètres qui la séparent de la haute atmosphère martienne. Les
+        opérateurs du Jet Propulsion Laboratory (J<hi rend="small-caps">PL</hi>), en <placeName ref="5332921" type="geonames" xml:base="https://www.geonames.org/">Californie</placeName>, n’ont
+        alors reçu que les données que la sonde leur a communiquées environ
+        dix minutes auparavant. L’entrée dans l’atmosphère et l’atterrissage,
+        étapes critiques de la mission, vont s’effectuer automatiquement, la
+        sonde n’émettant que quelques signaux afin d’informer du bon
+        déroulement des opérations, sous la forme d’un « bip » de trente-six
+        secondes relayé par le satellite <hi rend="italic">Mars Global
+        Surveyor</hi> et, dans le cas contraire, par le silence. La descente
+        doit durer « six minutes de terreur » où la sonde va passer d’une
+        vitesse de 20 000 km/h à l’arrêt complet sur le sol de Mars, véritable
+        cimetière de robots explorateurs, écrasés sur sa surface ou pulvérisés
+        au contact de son atmosphère. La sonde a défini son angle d’approche à
+        la planète et plonge dans la haute atmosphère martienne avec un
+        frottement tel que la température de son bouclier thermique atteint
+        jusqu’à 1 447 °C, celle de la surface du Soleil. Le bouclier évacue la
+        chaleur, maintenant le <foreign xml:lang="eng">rover</foreign> à une
+        température opérationnelle de quelques dizaines de degrés Celsius. À
+        une vitesse de 1 800 km/h et à une distance de 10 kilomètres de la
+        surface, le parachute supersonique se déploie. Encore vingt secondes,
+        et le bouclier devenu inutile est éjecté. Dix secondes plus tard, à
+        environ 8 kilomètres de la surface, l’atterrisseur s’échappe de la
+        capsule protectrice et descend de quelques mètres le long d’un filin
+        en Zylon<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Le Zylon est la marque d’un polymère synthétique caractérisé
+            par une très grande résistance aux forces et impacts, ainsi que
+            par une excellente stabilité aux changements thermiques.</p>
+          </note>. Dès lors, la machine utilise des algorithmes d’estimation
+        et de contrôle embarqués afin de stabiliser sa descente : sa vitesse
+        verticale et son altitude sont calculées à partir de mesures radar, la
+        comparaison de trois images successives du sol détermine sa vitesse
+        horizontale, et ces informations sont utilisées pour le calcul de
+        l’orientation et de la poussée des rétro-fusées, activées six secondes
+        avant l’impact. Une grappe protectrice d’airbags se gonfle et enrobe
+        l’atterrisseur, les rétro-fusées sont activées, le filin coupé,
+        l’atterrisseur heurte la surface martienne, roule et rebondit sur ses
+        airbags pour enfin s’immobiliser. Si tout a correctement fonctionné,
+        les airbags se dégonfleront et l’atterrisseur déploiera ses pétales
+        mécaniques pour révéler le rover à la surface de Mars.</p>
+        <figure xml:id="d1e91">
+          <head xml:id="d1e92">Le rover <hi rend="italic">Opportunity</hi>
+          descend, le 24 janvier 2004, sur Mars lors de la mission M<hi rend="small-caps">ER</hi>-B.</head>
+          <graphic url="../icono/br/LDSI_50_Benazera_fig01.jpg"/>
+        </figure>
+        <p xml:id="d1e101">Au J<hi rend="small-caps">pl</hi>, on a suivi
+        chaque étape avec un décalage de dix minutes et reçu les impulsions
+        attestant le succès ; mais, après l’impact, c’est l’attente. Les yeux
+        sont rivés sur l’écran de l’opérateur de communication où, quelques
+        petites secondes après les six minutes cruciales, un signal se met à
+        osciller : c’est gagné, le <foreign xml:lang="eng">rover</foreign> a
+        survécu et commence à transmettre ses premières impressions
+        martiennes. Stupéfaction : non seulement les premières images sont
+        celles d’une terre brune et sombre jamais encore observée sur la
+        planète rouge, mais le <foreign xml:lang="eng">rover</foreign> s’est
+        posé en vue d’un petit escarpement rocheux affleurant au milieu de la
+        poussière, une aubaine inespérée. En fait, <hi rend="italic">Opportunity</hi> a atterri au centre d’un petit cratère,
+        réalisant le plus parfait coup de billard de l’histoire de
+        l’exploration spatiale.</p>
+        <p xml:id="d1e109">Le site d’exploration choisi pour le premier
+        <foreign xml:lang="eng">rover</foreign>, <hi rend="italic">Spirit</hi>, est le cratère géant Gusev, ouvert sur le
+        réseau de vallées martiennes Ma’adim Vallis, et évoquant par sa forme
+        la présence d’un ancien lac<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Voir « <hi rend="italic">Spirit</hi> at Gusev Crater », août
+            2004.</p>
+          </note> ; pour <hi rend="italic">Opportunity</hi>, Meridiani Planum,
+        une plaine faite de sédiments et de rochers désagrégés, portant des
+        traces d’hématite, détectées depuis l’orbite<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Voir « <hi rend="italic">Opportunity</hi> at Meridiani
+            Planum », décembre 2004.</p>
+          </note>, un minéral souvent associé à la présence d’eau. Les données
+        renvoyées par <hi rend="italic">Spirit</hi> se révèlent tout d’abord
+        décevantes, l’analyse des premiers rochers manifestant
+        l’ensevelissement de traces d’eau potentielles sous une avalanche de
+        basalte d’origine volcanique. C’est au prix d’un an d’efforts
+        harassants que le <foreign xml:lang="eng">rover</foreign> finit par se
+        hisser au sommet de la colline Columbia et par y mesurer enfin les
+        traces d’une humidité passée. <hi rend="italic">Opportunity</hi>, de
+        son côté, met rapidement au jour les vestiges de larges quantités
+        d’eau dissipées quelques millions d’années plus tôt, visibles aussi
+        bien dans les compositions chimiques du sol que dans les formes des
+        roches de surface, attestant la présence non pas d’un océan, mais de
+        petites nappes d’eau et d’acide.</p>
+        <p xml:id="d1e138">Afin de comprendre la définition des objectifs et
+        la planification de la mission M<hi rend="small-caps">ER</hi> dans ses
+        grandes lignes, il faut revenir aux institutions qui y sont engagées.
+        En effet, la pratique de l’exploration à distance et la production du
+        savoir qui en découle s’effectuent dans un cadre institutionnel où la
+        position et la fonction des acteurs sont principalement déterminées
+        par, d’un côté, les enjeux stratégiques, politiques et technologiques
+        caractéristiques des missions spatiales et, de l’autre, par les coûts,
+        les techniques et les objectifs scientifiques qui y sont attachés. La
+        mission spatiale robotique est le produit de la collaboration de
+        grandes institutions nationales ou internationales aux acteurs et
+        objectifs très hétérogènes, et dont l’agencement et les rapports de
+        force débordent ceux du champ scientifique<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>B<hi rend="small-caps">ourdieu</hi>, 2001.</p>
+          </note>, mais dont le but affiché reste celui d’un engagement pour
+        la science. L’idée même de mission d’exploration spatiale visant à
+        atteindre des espaces vierges ou partiellement étudiés<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>Les objectifs fondateurs de la N<hi rend="small-caps">ASA</hi>
+            aussi bien que le terme de « mission » sont indissociables de la
+            théorie de Turner qui associait la spécificité américaine et
+            l’activité exploratoire des espaces (voir T<hi rend="small-caps">urner</hi>, 1893). Cette théorie simplificatrice
+            rencontrait encore au milieu du <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle un succès certain dans la société
+            américaine. Les noms des deux rovers, <hi rend="italic">Spirit</hi> et <hi rend="italic">Opportunity</hi>,
+            ont été adoptés à l’issue d’un concours (la lauréate fut une
+            immigrée russe de neuf ans) et en référence à la conquête de
+            l’Ouest, <hi rend="italic">the land of opportunity</hi>, et au <hi rend="italic">pioneering spirit</hi> des colons.</p>
+          </note> appelle celle de conquête susceptible d’apporter des gains
+        aussi bien scientifiques que matériels. Cela justifie une forte
+        concurrence internationale, chaque nation visant à revendiquer ou,
+        implicitement, s’approprier les bénéfices potentiels de la mission,
+        qu’il s’agisse de la conquête de nouveaux espaces, de retombées
+        matérielles ou scientifiques. Ainsi, les enjeux politiques de
+        compétition ou de prestige s’imposent-ils dans la mission : non
+        seulement ils participent dès sa phase préparatoire à faciliter
+        l’obtention des financements nécessaires, mais, de façon tout aussi
+        importante, ils contribuent à réunir les acteurs, par ailleurs souvent
+        hétérogènes, de la mission spatiale – organismes publics, industriels
+        ou fabricants de matériel militaire, institutions scientifiques,
+        universitaires ou de recherche technologique.</p>
+        <p xml:id="d1e178">Il en résulte un positionnement pragmatique des
+        acteurs, soumis à la double contrainte d’une part des collaborations à
+        la frontière de leurs domaines respectifs, et d’autre part de la
+        structure institutionnelle en étoile au centre de laquelle s’affirme
+        l’agence spatiale, entité étatique à mi-chemin entre la recherche,
+        l’industrie et l’armée : l’agence organise en effet la collaboration
+        d’acteurs appartenant à différents champs, industriel, scientifique ou
+        politique, aussi bien lors de la conception de la mission que lors de
+        sa réalisation. Autour de la N<hi rend="small-caps">ASA</hi>, la
+        recherche spatiale s’est institutionnalisée dans les universités :
+        l’ingénierie aérospatiale au M<hi rend="small-caps">IT</hi>
+        (Massachusetts Institute of Technology), la robotique à Carnegie
+        Mellon, l’astronomie à l’Université de Cornell. Elle se compose, en
+        outre, d’un groupe mixte d’associations et d’industriels, A<hi rend="small-caps">IAA</hi> (American Institute of Aeronautics and
+        Astronautics), Mars Society, ainsi que d’un ensemble d’investisseurs
+        et d’entrepreneurs privés. La N<hi rend="small-caps">ASA</hi> doit
+        ainsi coordonner plusieurs champs et les possibles retombées de chacun
+        d’entre eux. Disposant de ses propres fonds, ainsi que de nombreux
+        centres de recherche et de développement, elle tend vers une
+        concentration des pouvoirs décisionnels et exécutifs. Elle est en
+        position de force, mais aussi dans l’obligation de faire des
+        concessions à l’industrie et aux universités. Parallèlement au
+        déroulement de la mission des deux <foreign xml:lang="eng">rovers</foreign> jumeaux, depuis <date type="_temp" when="2003">2003</date>, après la perte de la navette <hi rend="italic">Columbia</hi> et un recentrage de ses activités autour
+        des vols habités, l’agence est soumise à une double pression, de la
+        part du gouvernement et des entrepreneurs privés, qui demandent une
+        redéfinition de ses structures internes et de ses pouvoirs, et de la
+        part des chercheurs associés aux nombreux programmes d’exploration,
+        qui militent en faveur de la continuation des projets déjà initiés
+        (sauvetage de <hi rend="italic">Hubble</hi>, poursuite des missions
+        scientifiques planifiées). Il en résulte une hésitation
+        schizophrénique sur les objectifs internes : dans ce contexte, la
+        mission M<hi rend="small-caps">er</hi> apparaît comme la vitrine d’une
+        collaboration institutionnelle réussie, sous la forme d’une
+        sous-traitance au J<hi rend="small-caps">PL</hi>, institut relevant du
+        California Institute of Technology, une université privée de
+        recherche, mais travaillant pour le compte de la N<hi rend="small-caps">ASA</hi>. Du fait même de sa position centrale,
+        l’agence continue cependant de cumuler les bénéfices des retours
+        scientifiques et technologiques et jouit ainsi d’une aura
+        exceptionnelle, acquise à l’époque des missions Apollo, maintenue et
+        modernisée à l’aide d’une promotion très puissante de ses objectifs et
+        de ses réalisations<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>Il suffit, pour s’en convaincre, d’observer le curieux
+            phénomène qui consiste à attribuer à la N<hi rend="small-caps">ASA</hi> l’origine ou la source des technologies
+            les plus diverses et présentées comme étant toujours les plus
+            utiles (B<hi rend="small-caps">aker</hi>, 2001).</p>
+          </note>. Certainement aussi, la créativité des centres et groupes de
+        recherche de l’agence, tant dans les directions théoriques que dans
+        les applications concrètes, repose sur une pratique nécessairement à
+        la croisée des champs, qui compense la force centrifuge naturellement
+        exercée par la sur-spécialisation<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>S<hi rend="small-caps">hinn</hi>, 2000.</p>
+          </note>.</p>
+        <p xml:id="d1e225">La conséquence en est que, au sein du champ
+        scientifique, la mission spatiale permet à des acteurs très divers
+        (roboticiens, géologues, minéralogistes) de développer leurs activités
+        dans des directions nouvelles, de travailler aux frontières des
+        disciplines et à l’intersection des champs (astro-et exo-<note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>L’astro- ou exo-biologie est un champ interdisciplinaire
+            combinant l’astronomie et la biologie pour l’étude de l’origine et
+            de la distribution de la vie dans l’Univers ; l’astro-géologie
+            combine l’astronomie et la géologie ; l’on peut citer d’autres
+            proto-sciences, c’est-à-dire encore à l’état spéculatif, comme
+            l’astro-socio-biologie ou l’exo-linguistique.</p>
+          </note>), de poser de nouvelles questions ou de bénéficier de
+        l’engouement public et de l’actualité couramment associés à la
+        mission. Ainsi ces paramètres structurent-ils la répartition des gains
+        techniques, scientifiques mais aussi symboliques (prestige et crédit
+        des laboratoires et des chercheurs) entre les différents lieux
+        impliqués.</p>
+        <p xml:id="d1e231">L’une des institutions emblématiques de la mission
+        M<hi rend="small-caps">ER</hi> est l’Université de Cornell, dans
+        l’<placeName ref="5128638" type="geonames" xml:base="https://www.geonames.org/">État de New York</placeName>,
+        dont le département d’astronomie participe activement depuis une
+        quarantaine d’années aux missions martiennes en collaboration avec la
+        N<hi rend="small-caps">ASA</hi>, des missions Mariner, en passant par
+        les deux sondes et plates-formes <hi rend="italic">Viking</hi>, aux
+        caméras de <hi rend="italic">Pathfinder</hi> et de <hi rend="italic">Mars Global Surveyor</hi>, jusqu’à un contrat de
+        17 millions de dollars avec la N<hi rend="small-caps">ASA</hi> pour la
+        mise au point de l’ensemble des instruments des <foreign xml:lang="eng">rovers</foreign>, dénommé Athena<note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>Le rover dans son design, son développement et sa production
+            reste sous le couvert des régulations de l’I<hi rend="small-caps">TAR</hi> (International Traffic in Arms
+            Regulations).</p>
+          </note>. Ainsi <persName type="_temp">Steve Squyres</persName>,
+        responsable d’Athena, devient-il rapidement, après l’atterrissage
+        réussi des deux <foreign xml:lang="eng">rovers</foreign>, le chercheur
+        scientifique emblématique de la mission : il est présenté comme tel
+        dans les médias, succédant, les <foreign xml:lang="eng">rovers</foreign> à ses côtés, à l’astronaute et son
+        module. L’Université de Cornell dispose d’ailleurs, à l’heure
+        actuelle, du contrôle des rovers, dont elle a progressivement
+        dépossédé le J<hi rend="small-caps">PL</hi> en <date type="_temp" when="2004">2004</date>.</p>
+        <p xml:id="d1e262">La spécificité de la mission robotique spatiale
+        tient au fait que les scientifiques, mais aussi d’autres acteurs
+        individuels, agissent et pratiquent leur métier à distance par
+        l’intermédiaire d’outils très sophistiqués. Ces équipements
+        partiellement automatisés constituent les extensions physiques et les
+        médiateurs sensoriels du chercheur et de l’ingénieur (opérateur), et
+        sont sujets à une double contrainte dans le processus de la
+        communication avec la Terre : en termes de temps (délais) et de débit
+        informationnel.</p>
+        <p xml:id="d1e264">Un <foreign xml:lang="eng">rover</foreign> est un
+        châssis stabilisé sur deux ensembles de trois roues articulées (ou <hi rend="italic">
+            <foreign xml:lang="eng">bogie</foreign>
+          </hi>), contenant les principaux équipements électroniques
+        (processeur protégé des radiations, interface), et couvert de panneaux
+        solaires. Sous la plate-forme se trouvent les caméras de navigation,
+        un bras articulé et une « main » rotative portant quatre instruments
+        d’investigation scientifique : le R<hi rend="small-caps">AT</hi> (Rock
+        Abrasion Tool) permettant de gratter et de dépoussiérer quelques
+        centimètres de la surface des roches, un microscope numérique, un
+        spectromètre d’émissions thermiques (Thermal Emission Spectrometer),
+        un spectromètre de Moessbauer capable d’effectuer une étude
+        minéralogique détaillée des différents types de roches et de sols
+        ferreux. Sur la plate-forme se trouvent les antennes et le mât portant
+        les yeux du <foreign xml:lang="eng">rover</foreign> : une double
+        caméra panoramique rotative et multispectrale permettant de produire
+        un effet stéréoscopique sur différentes longueurs d’onde. La
+        composante de raisonnement est présente sous la forme d’une
+        « intelligence » logicielle embarquée qui détermine l’« autonomie » de
+        l’outil, principalement en tant qu’aide à la navigation : elle
+        photographie, mesure, contourne les petits obstacles, et détermine les
+        chemins les plus sûrs pour effectuer des corrections locales aux
+        longues traversées du rover (programmées depuis la Terre).</p>
+        <p xml:id="d1e273">La contrainte communicationnelle maintient la durée
+        minimale de l’échange entre le <foreign xml:lang="eng">rover</foreign>
+        et le centre de contrôle sur Terre à une vingtaine de minutes
+        aller-retour. Sonde et rover possèdent plusieurs types d’antennes : à
+        faible impédance et multidirectionnelle, utilisée lorsque la sonde
+        n’est pas trop éloignée des environs de la Terre ; à moyenne ou haute
+        impédance et unidirectionnelle, demandant plus de puissance, de plus
+        faible débit, et devant être pointée vers le récepteur ou l’émetteur.
+        Les informations peuvent transiter par l’un des satellites en orbite,
+        <hi rend="italic">Mars Odyssey</hi> ou <hi rend="italic">Mars Global
+        Surveyor</hi>, la communication entre le <foreign xml:lang="eng">rover</foreign> et le satellite s’établissant par
+        l’antenne U<hi rend="small-caps">HF</hi> (ultra haute fréquence) du
+        rover, de courte portée et permettant des transmissions rapides à
+        128 000 bits / s, celle entre le satellite et la Terre utilisant un
+        lien direct en bande X (micro-ondes). Ce dispositif présente de
+        multiples avantages : il permet la sauvegarde des données avec un
+        risque d’erreur moindre, puisque les satellites sont relativement
+        proches des <foreign xml:lang="eng">rovers</foreign>, en orbite à
+        environ 400 kilomètres du sol, qu’ils demeurent plus longtemps en vue
+        de la Terre, avec un accès sur environ les deux tiers de leur orbite
+        quotidienne, soit seize heures, et enfin que les <foreign xml:lang="eng">rovers</foreign> dépensent ainsi moins d’énergie à
+        émettre le signal de proximité, alors que les satellites disposent
+        d’une exposition plus généreuse au soleil et de plus larges panneaux
+        solaires. Sur Terre, la réception et l’émission des signaux sont
+        assurées par le Deep Space Network (D<hi rend="small-caps">sn</hi>),
+        équipement composé de trois ensembles d’antennes géantes, mesurant
+        entre 34 et 70 mètres de diamètre chacune, capables de percevoir des
+        signaux distants de plusieurs millions de kilomètres, et disposés à
+        environ 120 degrés les uns des autres afin d’optimiser la couverture
+        planétaire. Cependant, le D<hi rend="small-caps">SN</hi> ne dispose
+        que de plages temporelles limitées pour chacune de la trentaine de
+        missions qu’il suit.</p>
+        <p xml:id="d1e290">Ainsi chaque jour n’offre-t-il qu’une plage de
+        trois heures au plus pour la communication directe avec les <foreign xml:lang="eng">rovers</foreign>, laissant donc les machines livrées à
+        elles-mêmes le reste de la journée. La rotation de Mars dure quarante
+        minutes de plus que celle de la Terre, et les <foreign xml:lang="eng">rovers</foreign> disposent ainsi quotidiennement de
+        quelques minutes supplémentaires pour leurs opérations, imposant à
+        l’ensemble du personnel technique, chercheurs et ingénieurs, de caler
+        leur cycle d’activité sur le temps martien<note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>De plus, les rovers se trouvant sur deux faces opposées de la
+            planète, les opérations se succèdent en continu, jour et nuit, ne
+            laissant que peu de répit aux personnels.</p>
+          </note>. Chaque jour, un plan est défini pour chacun des <foreign xml:lang="eng">rovers</foreign> : une séquence d’actions à exécuter
+        sans intervention humaine, comme naviguer en direction d’un objectif,
+        prendre des photos panoramiques des environs, faire des mesures
+        atmosphériques, se positionner pour recharger les panneaux solaires,
+        placer le bras articulé au contact d’un rocher, activer un instrument,
+        communiquer avec la Terre ou creuser une tranchée avec les roues. Ces
+        instructions sont envoyées vers le <foreign xml:lang="eng">rover</foreign> concerné au début de la journée
+        martienne et exécutées de manière autonome pendant la journée. En fin
+        d’après-midi, en temps local martien, la communication est inversée et
+        transmet vers la Terre les informations recueillies sur l’état du
+        <foreign xml:lang="eng">rover</foreign> et / ou sur le résultat des
+        expériences scientifiques. Ces informations serviront de base à la
+        planification du jour suivant.</p>
+        <p xml:id="d1e296">Pratiquement, les opérateurs et les chercheurs se
+        trouvent dans des situations de traduction (ou codage/ décodage) sous
+        la forme d’un enchaînement de micro-décisions et d’actions réparties
+        entre le chercheur et l’opérateur, l’opérateur et la machine.
+        L’exploration et l’expérience scientifiques sont conduites selon une
+        suite ordonnée de négociations quotidiennes des micro-objectifs et des
+        actions sur le terrain, où les compétences techniques et logiques des
+        différents acteurs s’opposent ou se combinent en vue d’atteindre les
+        objectifs préétablis de la mission. Ainsi chercheurs (géologues et
+        planétologues) et opérateurs (ingénieurs et roboticiens)
+        interagissent-ils et se contraignent-ils mutuellement tant dans la
+        définition des objectifs que dans le choix des moyens techniques pour
+        les réaliser. La journée de travail terrestre, ou nuit martienne,
+        commence pour les chercheurs avec l’interprétation des nouvelles
+        données reçues, la redéfinition des priorités en fonction des
+        résultats obtenus, la formulation d’hypothèses scientifiques et la
+        participation à des réunions d’expertise (sols, minéralogie,
+        atmosphère, géologie), au cours desquelles ils exposent leurs théories
+        et leurs intuitions. Vient ensuite l’une des deux rencontres
+        quotidiennes cruciales réunissant l’ensemble des acteurs,
+        scientifiques et ingénieurs, le Downlink Assessment Meeting – D<hi rend="small-caps">AM</hi> – (réunion d’évaluation des données
+        retournées), qui permet l’échange d’analyses sur les dernières
+        données : un micro passe entre les mains de chacun des responsables
+        des groupes d’expertise, qui expose les opinions et recommandations de
+        ses collègues. À la fin de cet échange de vues, un ingénieur prend la
+        parole et fait le point sur l’état du <foreign xml:lang="eng">rover</foreign>, donnant aux scientifiques une idée des
+        options techniques, ainsi que de la charge de travail actuelle des
+        opérateurs. Avant de clore la rencontre, les différentes équipes
+        discutent de leurs priorités respectives : quel rocher étudier, quel
+        instrument utiliser, où se positionner. Il s’agit d’un cycle de
+        négociation des objectifs de haut niveau (par opposition à la simple
+        mise au point des commandes aux <foreign xml:lang="eng">rovers</foreign>).</p>
+        <p xml:id="d1e301">Car la définition des objectifs se fait sous la
+        contrainte de la technique : les ressources du <foreign xml:lang="eng">rover</foreign> (énergie disponible des batteries, en
+        fonction de l’ensoleillement, mémoire libre pour le stockage des
+        résultats, et accès à l’outil) sont drastiquement limitées (seulement
+        quelques mesures sur chaque rocher), tout comme les possibilités de
+        placement et de déplacement. Il y a donc négociation sur les objectifs
+        réalisables, entre les chercheurs et les opérateurs. Ainsi, à l’issue
+        du D<hi rend="small-caps">AM</hi>, les scientifiques retournent-ils
+        dans leurs unités respectives afin de définir et d’affiner les
+        opérations qu’ils souhaitent voir exécutées, mais aussi de préparer
+        les opérations des jours suivants, en fonction des résultats
+        potentiels ou attendus. Vient alors la rencontre décisive de la
+        journée, le Science Operations Works Group – S<hi rend="small-caps">OWG</hi> – (Groupe de travail sur les opérations
+        scientifiques) où se rencontrent à nouveau chercheurs et ingénieurs
+        pour détailler, étape après étape, les expériences du jour. Les
+        ingénieurs y donnent aux scientifiques les éléments d’informations
+        leur permettant de comprendre les contraintes techniques qui
+        restreignent les possibilités ainsi que les implications de leurs
+        choix en terme de ressources, c’est-à-dire principalement le temps,
+        l’énergie, le stockage des données, la plage de communication, qui
+        forment un réseau si complexe d’interdépendances que les vérifications
+        sont effectuées par des logiciels spécialisés. Jamais l’importance de
+        cette négociation ne se fait autant sentir que dans le cas d’une panne
+        sur le <foreign xml:lang="eng">rover</foreign> (problème logiciel,
+        roue bloquée, articulation du bras endommagée) ou de situations
+        environnementales extrêmes (pente trop abrupte, température
+        dangereusement basse, ensoleillement réduit, tornade de sable), où la
+        contradiction des objectifs peut apparaître pleinement entre, d’une
+        part, l’optimisation du gain scientifique, c’est-à-dire de relevés et
+        de données scientifiques immédiats et, de l’autre, l’extension de la
+        durée de vie du <foreign xml:lang="eng">rover</foreign>. Enfin, les
+        priorités du jour établies et les négociations terminées, la création
+        de la séquence de commandes et sa communication reviennent aux
+        opérateurs. La possibilité d’un échec des négociations est prise en
+        compte par un programme d’expériences prédéterminées qui peut être
+        communiqué au <foreign xml:lang="eng">rover</foreign> si
+        nécessaire.</p>
+        <p xml:id="d1e309">Les exemples abondent de décisions rapides,
+        négociations et renégociations des objectifs, gestion des erreurs
+        matérielles et des difficultés environnementales. Le 18<hi rend="sup">e</hi> jour, une anomalie sérieuse affecte <hi rend="italic">Spirit</hi> qui ne peut reprendre ses opérations
+        normalement que le 33<hi rend="sup">e</hi> jour. Un mois plus tard, il
+        atteint le bord du cratère Bonneville, mais la décision de l’y faire
+        descendre est annulée après l’analyse des premières photos. <hi rend="italic">Spirit</hi> est mis en sommeil durant les trente jours
+        du passage de Mars derrière le Soleil ; et, six mois plus tard, à la
+        <date type="_temp" when="2005-02-15">mi-février 2005</date>, il
+        escalade la colline Columbia, profitant de l’inclinaison afin de mieux
+        s’exposer au faible soleil d’hiver. Le matin du <date type="_temp" when="2005-03-10">10 mars 2005</date>, il est touché par une petite
+        tornade qui dépoussière ses panneaux solaires, permettant une
+        extension inespérée de la durée de la mission. De l’autre côté de la
+        planète, une des roues d’<hi rend="italic">Opportunity </hi>se bloque
+        et oblige les ingénieurs à mettre au point un savant système de marche
+        arrière forcée, jouant de la roue inutile comme d’un gouvernail. Le
+        <date type="_temp" when="2004-06-08">8 juin 2004</date>, le <foreign xml:lang="eng">rover</foreign> entre lentement dans le cratère
+        Endurance, au risque de ne plus pouvoir en sortir. En <date type="_temp" when="2005-01">janvier 2005</date>, il s’approche des
+        restes de son bouclier thermique, en partie consumé pendant la plongée
+        dans l’atmosphère un an auparavant, et permet aux ingénieurs d’étudier
+        la résistance effective de la structure du bouclier et de ses
+        matériaux. Le <date type="_temp" when="2005-04-25">26 avril de la même
+        année</date>, les quatre roues directrices s’embourbent jusqu’à
+        mi-hauteur en tentant de franchir une élévation de trente centimètres
+        dont le <foreign xml:lang="eng">rover</foreign> ne sort que le <date type="_temp" when="2005-06-04">4 juin</date> : pendant ce temps, les
+        équipes scientifiques en profitent pour utiliser les senseurs à
+        distance et faire procéder à des mesures susceptibles d’informer sur
+        l’atmosphère et le climat.</p>
+        <figure xml:id="d1e326">
+          <head xml:id="d1e327">Vue des roues du rover <hi rend="italic">Opportunity</hi> enlisé dans une dune
+          miniature.</head>
+          <graphic url="../icono/br/LDSI_50_Benazera_fig02.jpg"/>
+        </figure>
+        <p xml:id="d1e333">Alors que le petit robot <hi rend="italic">Pathfinder</hi>
+          <note n="12" place="foot" type="standard" xml:id="ftn12">
+            <p>G<hi rend="small-caps">olombek</hi>
+              <hi rend="italic">et</hi>
+              <hi rend="italic"> </hi>
+              <hi rend="italic">al</hi>., 1997.</p>
+          </note> était dirigé à l’aide d’un contrôleur manuel, les <foreign xml:lang="eng">rovers</foreign> M<hi rend="small-caps">ER</hi>, plus
+        autonomes que leurs prédécesseurs, ont déplacé le rôle de l’opérateur
+        de l’action vers la décision. Il faut dès lors se représenter ces
+        opérateurs comme disposant d’un nombre limité d’entrées, c’est-à-dire
+        d’accès aux variables de contrôle du robot, pour la réalisation de
+        micro-objectifs (mouvement d’une articulation du bras, déplacement
+        millimétré d’une roue, orientation d’une antenne), commandes dont les
+        résultats de l’exécution ne sont jamais déterminés ou déterministes,
+        d’une part, car les systèmes et les sous-systèmes logiciels,
+        électroniques et physiques du <foreign xml:lang="eng">rover</foreign>
+        sont eux-mêmes non déterministes : ils sont en effet sujets à des
+        fautes (blocage, erreur de mémoire, dégradation des équipements) ou à
+        des événements exogènes imprévisibles liés à l’exploration des espaces
+        inconnus (taux de poussière atmosphérique, fluctuation thermique,
+        densité du sol, influence du vent) ; d’autre part, parce que
+        l’autonomie embarquée pour justement aider à répondre à l’incertitude
+        (évitement automatique des petits obstacles, mécanisme de sauvegarde
+        du bras en cas de risque de choc ou de mauvais placement) contribue à
+        rendre pratiquement contre-intuitive l’exécution effective des
+        commandes par un opérateur humain. Les ingénieurs opérateurs, en
+        position d’intermédiaires entre les scientifiques et la machine,
+        voient donc leurs plans souvent déjoués et cherchent à minimiser les
+        décalages entre volonté et réalité, afin de les maintenir dans des
+        limites acceptables, tout en intégrant les objectifs et les directives
+        des chercheurs. Dans cette position <hi rend="italic">a priori</hi>
+        inconfortable, les contraintes sont telles que, mesurant la difficulté
+        d’en tenir compte de façon optimale, c’est-à-dire en en négligeant le
+        moins possible, voire aucune, les ingénieurs tendent à déléguer à la
+        machine non seulement la traduction des commandes de haut niveau en
+        micro-instructions prêtes à être exécutées, mais aussi, ce qui est
+        remarquable, la proposition des décisions optimales concernant
+        notamment l’ordonnancement des tâches concurrentes (charger une
+        batterie avant ou après une opération, réchauffer un instrument avant
+        son utilisation tout en effectuant une transmission). Ainsi, dans la
+        phase de contrôle du <foreign xml:lang="eng">rover</foreign>,
+        l’opérateur se trouve-t-il engagé dans des activités d’ordre
+        décisionnel et, au-delà, de mise au point et d’utilisation de
+        puissants outils d’aide à la décision, où la machine génère un plan
+        d’action, et l’opérateur apporte ses connaissances et son expérience,
+        formule des critiques et impose certaines contraintes et tâches, avant
+        de laisser la machine vérifier de nouveau la cohérence des commandes
+        générées<note n="13" place="foot" type="standard" xml:id="ftn13">
+            <p>Le logiciel utilisé est dénommé M<hi rend="small-caps">apgen</hi>, Mixed Initiative Activity Planning
+            Generator (générateur-planificateur d’activités à initiative
+            mixte), la mixité de l’initiative renvoyant à l’interaction
+            homme-machine ou encore au coefficient de prise en main.</p>
+          </note>.</p>
+        <p xml:id="d1e364">Dans la phase de réception des données, et à partir
+        de celles-ci, l’opérateur use d’un raisonnement déductif afin de
+        reconstruire la chaîne des événements effectivement survenus en
+        réponse aux commandes envoyées. Cette étape de diagnostic nécessite un
+        retour actif au <foreign xml:lang="eng">rover</foreign> : il s’agit de
+        construire des stratégies de réduction des ambiguïtés et des
+        hypothèses des dysfonctionnements observés, et ce en usant de
+        commandes qui doivent, plus que jamais, passer par toutes les étapes
+        de validation décrites précédemment.</p>
+        <p xml:id="d1e366">On comprend alors que les opérateurs tiennent le
+        double rôle propre aux activités de coordination, d’interaction avec
+        la machine d’abord, par un jeu de traduction / déduction, et
+        d’interaction avec les scientifiques ensuite, par un jeu de traduction
+        / accommodation : les opérateurs ont un rôle stratégique du fait du
+        déplacement, de l’autonomisation, de la cohésion et de la
+        complexification du laboratoire. Les scientifiques demeurent cependant
+        les directeurs implicites de la mission, et leur présence sur le
+        terrain de l’exploration est médiatisée par l’utilisation d’outils
+        spécifiques, tels que des écrans collaboratifs et des environnements
+        virtuels de visualisation, à la manipulation desquels ils ont été
+        formés avant la mission. La fonction de ces outils est de suggérer,
+        notamment aux géologues, une sensation partielle mais utile pour
+        l’appréciation de ce terrain qui se dérobe à leurs sens, tout comme à
+        leur expérience. Ces techniques numériques de pointe utilisent des
+        supports visuels collaboratifs, tels les larges écrans tactiles, qui
+        permettent de combiner les schémas logiques et fonctionnels avec
+        l’information en provenance des rovers et des satellites – images,
+        représentations tridimensionnelles du terrain, cartes spectrométriques
+        ou minéralogiques.</p>
+        <p xml:id="d1e368">L’exploration contrôlée à distance, en délocalisant
+        partiellement le laboratoire, modifie plus généralement, et à des
+        degrés variables, la pratique des acteurs. Si cette dernière apparaît
+        de façon singulière dans le cas de l’aventure spatiale, elle s’observe
+        aussi à tous les niveaux de l’évolution des pratiques d’observation
+        scientifique – telles les campagnes de mesures sur les océans et les
+        forêts, le réchauffement climatique et ses conséquences, qui
+        impliquent et utilisent des techniques modernes organisées en réseau
+        complexe, des relevés de terrain à la simulation informatique, et qui
+        éloignent physiquement et cognitivement le chercheur de la maîtrise de
+        son matériel d’observation. Plusieurs facteurs déterminent les
+        positionnements des différents acteurs ainsi que les raisonnements
+        pratiques rendus nécessaires par leurs expériences. D’abord, un
+        arbitrage strict sur les éléments et capacités à déplacer, ainsi que
+        leur marge de mobilité. Ensuite, le caractère unique et non
+        reproductible des expériences (dû aux contraintes de temps ou de
+        matériel, ou encore au type de mission : écrasement volontaire de <hi rend="italic">Deep Impact</hi> sur la comète Tempel 1<note n="14" place="foot" type="standard" xml:id="ftn14">
+            <p>Voir « Deep Impact », octobre 2005.</p>
+          </note>, descente mortelle de <hi rend="italic">Huygens</hi> sur
+        Titan<note n="15" place="foot" type="standard" xml:id="ftn15">
+            <p>Voir L<hi rend="small-caps">ebreton</hi>
+              <hi rend="italic">et</hi>
+              <hi rend="italic"> </hi>
+              <hi rend="italic">al</hi>., 2005.</p>
+          </note>) implique la mise en place de protocoles expérimentaux
+        adaptés reposant sur la redondance des équipements, des observations
+        et des expériences, afin d’assurer avant tout la validité scientifique
+        des résultats récoltés et reportés.</p>
+        <p xml:id="d1e394">Sur le plan du raisonnement, on peut dire qu’à la
+        pratique quotidienne de l’exploration à distance correspond la
+        production d’un jeu de micro-énigmes<note n="16" place="foot" type="standard" xml:id="ftn16">
+            <p>K<hi rend="small-caps">uhn</hi>, 1972.</p>
+          </note>, construites à partir des éléments envoyés par la machine,
+        rapidement explicitées ou même résolues, puis vérifiées par envoi de
+        nouvelles commandes à la machine. Dans ces micro-énigmes, l’hypothèse
+        du médiateur défectueux et / ou du milieu mal maîtrisé prend une
+        importance toute particulière. Les grandes théories – de l’évolution
+        du climat à celle de la vie à l’échelle de la formation de la
+        planète – résultent, elles, de la confrontation des résultats d’une
+        série de missions échelonnées dans le temps, d’observations
+        quotidiennes récoltées à l’aide de télescopes, de satellites et de
+        sondes, de probabilités conditionnelles sur des hypothèses générées
+        par le traitement de larges ensembles de mesures, de la validation ou
+        de l’infirmation d’hypothèses pouvant durer des décennies, dans
+        l’attente de la mission dédiée qui saura mesurer les variables
+        décisionnelles, c’est-à-dire mettre fin à l’indécision et à
+        l’ambiguïté des hypothèses existantes.</p>
+        <p xml:id="d1e404">La technicité, mais aussi la préparation et
+        l’engagement cognitif et social caractéristiques des grands projets
+        scientifiques font que l’exploration dans son ensemble ainsi que les
+        expériences quotidiennes sont planifiées par un très petit nombre de
+        personnes qui communiquent leurs résultats au grand public dans des
+        conférences de presse aux moments clés de la mission – atterrissage,
+        premiers mois de l’exploration, découvertes importantes –, et à leurs
+        pairs, dans des revues prestigieuses et des articles techniques et
+        détaillés, parfois cosignés par une trentaine de chercheurs, ce qui
+        renforce le caractère très spécifique de cette catégorie de savants et
+        d’investigateurs.</p>
+        <p xml:id="d1e406">Cependant, contrairement à d’autres sous-champs et
+        disciplines scientifiques<note n="17" place="foot" type="standard" xml:id="ftn17">
+            <p>L<hi rend="small-caps">atour</hi> et W<hi rend="small-caps">oolgar</hi>, 1979.</p>
+          </note>, la pratique de la recherche à distance implique, du fait de
+        l’articulation de l’opérateur / ingénieur et de la mise au point de sa
+        machine, que les conditions de l’obtention des résultats fassent
+        elles-mêmes l’objet d’une science ou d’une technique et se trouvent
+        ainsi objectivées dans un champ dont les règles de validation sont
+        similaires à celles du champ qui traite des résultats proprement dits
+        de l’exploration. Ainsi les équipements et les techniques de calculs
+        et de communication font-ils l’objet d’études très poussées dans les
+        universités et les centres de recherche de pointe, avec publications
+        dans des actes de colloques ou dans des journaux spécialisés sous le
+        contrôle scientifique de pairs.</p>
+        <p xml:id="d1e418">Les formes du savoir produit par l’exploration à
+        distance se caractérisent, d’une part, par les contraintes introduites
+        par les médiateurs mécaniques, électroniques et logiciels utilisés,
+        les conditions mal maîtrisées de l’expérience, l’étrangeté et la
+        nouveauté d’objectifs lointains et observés pour la première fois ;
+        d’autre part, par la diffusion des résultats et la divulgation rapide
+        et populaire des possibles implications de la connaissance
+        effectivement produite, où la distance physique par rapport aux
+        éléments observés reste le facteur structurant principal.</p>
+        <p xml:id="d1e420">Le savoir tiré de l’exploration à distance est
+        riche en conclusions inédites, en constructions ingénieuses fondées
+        sur des observations et des mesures disparates, en retournements de
+        situation (par exemple, les premières déductions contradictoires sur
+        la question de l’expansion accélérée de l’Univers) : il éclaire
+        souvent pour la première fois des espaces jusqu’alors inexplorés, ou
+        prend en compte des mesures établies par des moyens techniques
+        nouveaux. Parce que les instruments livrent des informations qui
+        doivent être analysées et assemblées, les conclusions finales peuvent
+        ne pas être immédiates et nécessiter des opérations de traitement et
+        retraitement complexes. Ainsi, par exemple, les mesures de couleur,
+        envoyées par les caméras des <foreign xml:lang="eng">rovers</foreign>,
+        sont-elles relatives et nécessitent-elles des traitements différents
+        afin de produire des images pouvant approcher ce que serait la
+        perception de la planète rouge par un œil humain, ou bien contribuer à
+        la caractérisation des roches. Souvent aussi, ce savoir suscite plus
+        de questions qu’il n’en résout, enrichissant ainsi implicitement la
+        chaîne des interrogations, expériences et solutions quotidiennes de la
+        mission, voire plus généralement la chaîne des missions exploratoires.
+        Ici, le savoir issu de l’activité des <foreign xml:lang="eng">rovers</foreign> procède aussi bien de la récolte
+        quotidienne d’informations que d’une prospection active qui se situe à
+        mi-chemin d’autres types d’exploration, tels l’étude principalement
+        photographique ou sensorielle (sonde <hi rend="italic">Cassini</hi>
+        aux abords de Saturne) et le prélèvement d’échantillons (la mission
+        Stardust, qui a rapporté sur Terre des échantillons de poussières
+        stellaires). Mais il intègre les données retournées au schéma directif
+        et argumenté de l’exploration<note n="18" place="foot" type="standard" xml:id="ftn18">
+            <p>En d’autres termes, le savoir ainsi obtenu reste indissociable
+            de la course exploratoire du rover, non seulement parce que les
+            surfaces explorées sont négligeables à l’échelle de la planète,
+            mais aussi parce que l’on découvre plus facilement ce que l’on
+            cherche : l’étude de nombre de rochers ou cratères a été repoussée
+            tant que la recherche de traces d’eau dominait l’exploration. Il
+            faut comprendre le succès affiché de la mission comme reflétant la
+            mesure de l’adéquation entre les buts annoncés et le savoir
+            effectivement produit.</p>
+          </note> – ce qui, dans le travail du géologue terrestre, équivaut au
+        carnet de notes, où sont consignés aussi bien les lieux visités, les
+        échantillons ramassés ou étudiés, que les investigations et
+        conclusions partielles qui déterminent l’espace des choix possibles
+        pour les investigations des jours suivants. À cette différence près
+        que la séparation du géologue d’avec son terrain d’observation et les
+        outils qu’elle implique, crée un espace de négociation qui désenclave
+        au moins partiellement le chercheur de son laboratoire<note n="19" place="foot" type="standard" xml:id="ftn19">
+            <p>Dans les premiers temps de la mission M<hi rend="small-caps">er</hi>, les scientifiques appartenant aux
+            différentes universités impliquées s’étaient regroupés dans le
+            cadre du J<hi rend="small-caps">pl</hi>, à la fois centre de
+            commande et espace de recherche interdisciplinaire.</p>
+          </note> et le maintient intégré dans sa communauté pour tous les
+        principaux aspects de son travail quotidien, et non plus pour la seule
+        discussion des résultats.</p>
+        <p xml:id="d1e439">Cependant, la diffusion dans la sphère publique de
+        ces nouvelles connaissances et l’imaginaire collectif lié au rêve de
+        conquête spatiale, y compris dans ses aspects politiques et
+        scientifiques<note n="20" place="foot" type="standard" xml:id="ftn20">
+            <p>M<hi rend="small-caps">ccurdy</hi>, 1997.</p>
+          </note>, conduisent bien souvent à ce que seules les grandes lignes
+        des résultats soient relayées dans les médias. Il faut aussi noter que
+        le savoir obtenu à partir des données récoltées définit implicitement
+        les possibilités offertes à la poursuite de l’exploration : ainsi,
+        l’absence de tout indice prouvant l’existence de l’eau sur Mars aurait
+        mis un frein à plusieurs disciplines et branches de la recherche en
+        astrobiologie. Heureusement, la découverte de preuves tangibles permet
+        d’espérer plusieurs missions exploratoires complémentaires dans un
+        futur proche.</p>
+        <figure xml:id="d1e448">
+          <head xml:id="d1e449">Une vue de la station de base d’Opportunity
+          dans le cratère Eagle – point d’arrêt «miraculeux» à
+          l’atterrissage.</head>
+          <graphic url="../icono/br/LDSI_50_Benazera_fig03.jpg"/>
+        </figure>
+        <p xml:id="d1e452">On ne perçoit jamais mieux le conditionnement
+        implicite de ce savoir par l’exploration à distance qui l’a produit
+        que dans l’effort renouvelé de réfutation ou d’édification de théories
+        du complot ou de l’escroquerie, qu’il s’agisse de démontrer la
+        falsification des produits de la mission Apollo à l’aide d’un décor
+        lunaire hollywoodien, ou de suggérer la possibilité de <foreign xml:lang="eng">rovers</foreign> pataugeant dans un bac à sable.</p>
+        <p xml:id="d1e454">Enfin, les conditions de validité de ce savoir
+        étant liées à son obtention, pratique et savoir se déterminent
+        réciproquement. Le savoir établi grâce aux mesures des deux <foreign xml:lang="eng">rovers</foreign> attestant la présence d’eau sur Mars
+        dans le passé renforce la conjecture de l’existence passée de formes
+        de vies organiques, mais jamais observées. Ce savoir s’est récemment
+        enrichi lors de la découverte de bactéries terrestres capables de
+        résister à des conditions de vie proches de celles du voyage
+        interplanétaire, reposant avec force la question de la contamination
+        de Mars par les sondes<note n="21" place="foot" type="standard" xml:id="ftn21">
+            <p>Le C<hi rend="small-caps">OSPAR</hi> (Committee On Space
+            Research) impose des restrictions sur les satellites et sondes
+            interplanétaires, à partir du calcul probabiliste des chances de
+            contamination de Mars : aujourd’hui, celles-ci imposent pour
+            chaque satellite ou sonde martienne un risque inférieur à 1 % de
+            voir la planète contaminée dans les vingt ans qui suivent. Une
+            telle exigence reste théorique : seule l’absence totale de contact
+            entre un satellite et l’atmosphère de Mars pourrait lui donner un
+            statut objectif.</p>
+          </note>. Le but affiché de la mission M<hi rend="small-caps">ER</hi>, déterminer la possibilité de l’existence
+        passée ou présente d’une vie martienne, est ainsi lui-même soumis à
+        l’évolution des connaissances, et sa validité dépend du calcul de la
+        probabilité d’une non-contamination de la planète par les rovers
+        eux-mêmes.</p>
+        <p xml:id="d1e466">Les approches futures de l’exploration à distance
+        découlent de la configuration actuelle des pouvoirs décisionnels et
+        opératoires. Les opérateurs et ingénieurs s’orientent implicitement
+        vers la réduction et la dissipation des frictions sociales liées à
+        leur rôle de coordination, en déléguant notamment à l’outil une plus
+        large gamme de décisions, c’est-à-dire en renforçant son autonomie.
+        Les chercheurs, vu le volume d’informations récoltées par la mission
+        M<hi rend="small-caps">ER</hi> et les satellites en orbite martienne,
+        tendent à vouloir vérifier des points précis, empiriques ou
+        théoriques, et passer ainsi de la mission exploratoire à l’expérience
+        planifiée, en programmant des atterrissages de haute précision en des
+        points cruciaux de la planète. Enfin, le défi à long terme demeure
+        inchangé : l’exploration humaine directe de Mars. Dans la pratique, ce
+        défi apparaît, aujourd’hui plus que jamais, indissociable de
+        l’interaction homme-machine.</p>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e472">
+        <head xml:id="d1e473">Bibliographie</head>
+        <listBibl xml:id="d1e475">
+          <bibl xml:id="d1e476">B<hi rend="small-caps">aker</hi>, 2001 : David
+          B<hi rend="small-caps">aker</hi>, <hi rend="italic">Scientific
+          American : Inventions from Outer Space : Everyday Use of N<hi rend="small-caps">ASA</hi> Technology</hi>, New York.</bibl>
+          <bibl xml:id="d1e490">B<hi rend="small-caps">arnes</hi>, 1974 :
+          Barry B<hi rend="small-caps">arnes</hi>, <hi rend="italic">Scientific Knowledge and Sociological Theory</hi>,
+          Londres.</bibl>
+          <bibl xml:id="d1e501">B<hi rend="small-caps">arnes</hi> et B<hi rend="small-caps">loor</hi>, 1982 : Barry B<hi rend="small-caps">arnes</hi> et David B<hi rend="small-caps">loor</hi>, <hi rend="italic">Relativism,
+          Rationalism and Sociology of Knowledge</hi>, Oxford.</bibl>
+          <bibl xml:id="d1e518">B<hi rend="small-caps">ourdieu</hi>, 2001 :
+          Pierre B<hi rend="small-caps">ourdieu</hi>, <hi rend="italic">Science de la science et réflexivité</hi>,
+          Paris.</bibl>
+          <bibl xml:id="d1e529">« Breakthrough of the Year », <hi rend="italic">Science</hi>, 5704 (306), 17 déc. 2004.</bibl>
+          <bibl xml:id="d1e534">C<hi rend="small-caps">ole</hi> et C<hi rend="small-caps">ole</hi>, 1967 : Stephen C<hi rend="small-caps">ole</hi> et Jonathan R. C<hi rend="small-caps">ole</hi>, « Scientific Output and Recognition. A
+          Study in the Operation of the Reward System in Science », <hi rend="italic">American Sociological Review</hi>, 32,
+          p. 377-390.</bibl>
+          <bibl xml:id="d1e551">« Deep Impact », <hi rend="italic">Science</hi>, 5746 (310), 14 oct. 2005.</bibl>
+          <bibl xml:id="d1e556">G<hi rend="small-caps">arfield</hi>, 1975 :
+          Eugene G<hi rend="small-caps">arfield</hi>, « The Obliteration
+          Phenomenon », <hi rend="italic">Current Contexts</hi>, 51 / 52
+          (5-7).</bibl>
+          <bibl xml:id="d1e567">G<hi rend="small-caps">ingras</hi>, 1991 :
+          Yves G<hi rend="small-caps">ingras</hi>, <hi rend="italic">Les
+          Origines de la recherche scientifique au Canada</hi>,
+          Montréal.</bibl>
+          <bibl xml:id="d1e578">G<hi rend="small-caps">olombek</hi>
+            <hi rend="italic">et al</hi>., 1997 : Matthew G<hi rend="small-caps">olombek</hi>
+            <hi rend="italic">et al</hi>.,
+          « Overview of the Mars Pathfinder Mission and Assessment of Landing
+          Site Predictions », <hi rend="italic">Science</hi>, 5344 (278), 5
+          déc. 1997.</bibl>
+          <bibl xml:id="d1e595">H<hi rend="small-caps">acking</hi>, 1992 : Ian
+          H<hi rend="small-caps">acking</hi>, <hi rend="italic">The
+          Self-Vindication of Laboratory Sciences</hi>, Chicago.</bibl>
+          <bibl xml:id="d1e607">K<hi rend="small-caps">lerkx</hi>, 2004 : Greg
+          K<hi rend="small-caps">lerkx</hi>, <hi rend="italic">Lost in Space.
+          The Fall of N<hi rend="small-caps">ASA</hi> and the Dream of a New
+          Space Age</hi>, New York.</bibl>
+          <bibl xml:id="d1e621">K<hi rend="small-caps">uhn</hi>, 1972 : Thomas
+          Samuel K<hi rend="small-caps">uhn</hi>, <hi rend="italic">The
+          Structure of Scientific Knowledge</hi>, Chicago.</bibl>
+          <bibl xml:id="d1e632">L<hi rend="small-caps">atour</hi> et W<hi rend="small-caps">oolgar</hi>, 1979 : Bruno L<hi rend="small-caps">atour</hi> et Steve W<hi rend="small-caps">oolgar</hi>, <hi rend="italic">Laboratory Life.
+          The Social Construction of Scientific Facts</hi>, Los Angeles ;
+          trad. fr. <hi rend="italic">La Vie de laboratoire. La production des
+          faits scientifiques</hi>, Paris, 1988.</bibl>
+          <bibl xml:id="d1e653">L<hi rend="small-caps">ebreton</hi>
+            <hi rend="italic">et al</hi>., 2005 : Jean-Pierre L<hi rend="small-caps">ebreton</hi>
+            <hi rend="italic">et al</hi>., « An
+          Overview of the Descent and Landing of the Huygens probe on Titan »,
+          <hi rend="italic">Nature</hi>, 438, déc. 2005, p. 758-764.</bibl>
+          <bibl xml:id="d1e670">M<hi rend="small-caps">ccurdy</hi>, 1997 :
+          Howard E. M<hi rend="small-caps">ccurdy</hi>, <hi rend="italic">Space and the American Imagination</hi>,
+          Washington.</bibl>
+          <bibl xml:id="d1e681">« Opportunity at Meridiani Planum », <hi rend="italic">Science</hi>, numéro spécial, 5702 (306), 3 déc.
+          2004.</bibl>
+          <bibl xml:id="d1e686">S<hi rend="small-caps">hinn</hi>, 2000 : Terry
+          S<hi rend="small-caps">hinn</hi>, « Formes de divisions du travail
+          social et convergence intellectuelle, la recherche
+          technico-instrumentale », <hi rend="italic">Revue française de
+          sociologie</hi>, 3, p. 447-473.</bibl>
+          <bibl xml:id="d1e697">« Spirit at Gusev Crater », <hi rend="italic">Science</hi>, numéro special, 5685 (305), 6 août
+          2004.</bibl>
+          <bibl xml:id="d1e702">T<hi rend="small-caps">urner</hi>, 1893 :
+          Frederick Jackson T<hi rend="small-caps">urner</hi>, <hi rend="italic">The Significance of the Frontier in American
+          History</hi>, Chicago.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

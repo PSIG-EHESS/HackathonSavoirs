@@ -1,0 +1,642 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LDSI_03_Fabiani">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L’épreuve des savoirs</title>
+        <title type="collection">Lieux de savoir 1</title>
+        <author role="aut">
+          <forename>Jean-Louis</forename>
+          <surname>Fabiani</surname>
+          <idno type="IDREF">028960939</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2020">2020</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/2.0/fr/">Albin
+          Michel BY-NC-ND Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/8B8F2QBX" type="bookSection">
+          <analytic>
+            <title level="a">L'épreuve des savoirs</title>
+            <author>
+              <forename>Jean-Louis</forename>
+              <surname>Fabiani</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Lieux de savoir</title>
+            <idno type="ISBN">978-2-226-17904-3</idno>
+            <editor>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <biblScope unit="volume">1. Espaces et communautés</biblScope>
+              <biblScope unit="page">43-53</biblScope>
+              <publisher>Albin Michel</publisher>
+              <date>2007</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-08-27T08:34:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">L’épreuve des savoirs</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Jean-Louis Fabiani</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="d1e111">
+        <p xml:id="d1e113">La constitution de communautés de savoir présuppose
+        un ensemble de pratiques de sélection, de formation et de
+        reconnaissance dont les formes publiques prennent ordinairement un
+        caractère rituel : il s’agit, à travers une série d’épreuves,
+        d’agréger à des collectifs de nouveaux entrants qui pourront à leur
+        tour participer à la production de savoirs spécialisés. Les
+        dispositifs conçus à cet effet permettent d’identifier des groupes ou
+        des institutions, de les inscrire officiellement dans la durée et de
+        leur garantir une assignation stable dans la trame de la vie sociale.
+        La question des lieux de savoir est ici indissociable de l’inscription
+        temporelle des procédures d’initiation, de certification et
+        d’intégration qui caractérisent la volonté de transmettre des
+        connaissances en les mettant à l’abri des risques de perte ou de
+        falsification, menace permanente pour la reproduction des corpus
+        savants. Les protocoles extrêmement variés qui permettent d’assurer ou
+        de confirmer l’entrée dans un collectif ont ceci en commun qu’ils
+        organisent une scansion particulière du temps, en dessinant une ligne
+        de partage entre l’avant et l’après de l’initiation ou de la
+        formation, mais aussi en fixant la durée des épreuves et en les
+        installant dans une temporalité particulière qui peut avoir des effets
+        sur l’ensemble de la vie sociale. La dimension publique que revêtent
+        en général ces formes d’intégration traduit le jeu complexe qui
+        s’instaure entre le caractère ésotérique de tout savoir et la
+        nécessité, proprement exotérique, de sa reconnaissance publique. Le
+        moment de l’entrée dans une communauté savante est en effet
+        caractérisé par l’intensité de la relation entre le dedans et le
+        dehors d’un collectif. Il s’agit à la fois de renforcer le groupe, en
+        exprimant sa cohésion et en y ajoutant des ressources fraîches, et de
+        manifester la légitimité et l’intérêt de ce groupe pour la société
+        dans son ensemble. Il n’est pas question de fournir une proposition
+        générale apte à subsumer la collection très diverse de procédures, de
+        scansions temporelles et de manifestations à caractère rituel qui
+        marquent l’entrée dans un collectif savant. Les temps sociaux du
+        savoir, aussi bien que ses lieux, sont pris dans des configurations
+        locales qui les contraignent et les ordonnent. La possibilité d’une
+        mise en équivalence générale et la tentation d’un comparatisme simple
+        sont de ce fait interdites. L’efficace propre de l’articulation que
+        permet la lecture croisée du compte rendu d’expériences très éloignées
+        dans l’espace et le temps social réside bien plutôt dans la mise au
+        jour de schèmes d’action et de représentation qui organisent et
+        manifestent la coupure franche entre trois états de la relation au
+        savoir : l’extériorité absolue, qui est celle du profane ; la
+        situation d’apprentissage, toujours réversible ; la pleine
+        appartenance à un collectif qui se voit certifiée par un ensemble
+        d’épreuves et qui interdit, en principe, tout retour en arrière.
+        Rendre compte de l’entrée dans une communauté savante par l’analyse
+        des formes de production d’une séparation radicale entre deux ordres
+        de temporalité et deux modalités d’existence sociale revient
+        inévitablement à mettre en question le grand partage entre les
+        sociétés archaïques et les sociétés modernes : lorsqu’on s’interroge
+        sur les schèmes d’action qui conduisent à la différenciation de formes
+        d’existence ou de rapport à des savoirs inégalement partagés, on met
+        en suspens la distinction entre magie et science, entre rituel et
+        organisation rationnelle de la société. Une telle suspension ne
+        signifie absolument pas que l’on tienne ces communautés comme
+        équivalentes sous le rapport de leur capacité de production de
+        connaissances, comme le font tous les relativismes. On doit considérer
+        au contraire, dans la postérité de <persName type="_temp">Max
+        Weber</persName>, l’importance des processus de rationalisation qui
+        sont à l’œuvre dans la transformation continue des institutions de
+        savoir pour comprendre l’obsolescence de certaines formes de
+        certification des apprentissages. Le cas du système traditionnel des
+        examens en <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> vient
+        immédiatement à l’esprit, mais il est loin d’être le seul. L’entrée
+        par les rituels ou les procédures de coupure est susceptible d’effets
+        heuristiques décisifs, mais elle ne doit pas occulter le fait que les
+        dispositifs de certification que nous identifions principalement par
+        leurs manifestations publiques font aussi l’objet de luttes intenses,
+        à l’intérieur et à l’extérieur du collectif, et que l’histoire du
+        développement, du déclin et de la disparition de ces marqueurs
+        d’appartenance est essentielle pour une anthropologie des lieux de
+        savoir. En confrontant trois études de cas qui portent sur des
+        expériences de certification explicitement très dissemblables – les
+        devins bassar du Nord-<placeName ref="2363686" type="geonames" xml:base="https://www.geonames.org/">Togo</placeName>, les examens
+        publics dans la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> impériale des
+        derniers siècles et la tradition européenne de la collation des grades
+        universitaires –, on peut contribuer à la réflexion sur la production
+        de rites d’institution, au sens que <persName ref="027715078" type="idref" xml:base="https://www.idref.fr/">Pierre
+        Bourdieu</persName> donnait à cette notion, et sur les effets de la
+        certification des entrants, sans jamais perdre de vue la nécessité de
+        l’historicisation de formes qui, parce qu’elles contribuent
+        puissamment à la production d’un ordre légitime, tendent à rendre
+        invisible leur inscription dans une configuration locale.</p>
+        <div type="section1" xml:id="d1e125">
+          <head subtype="level1" xml:id="d1e127">Le rite et les raisons</head>
+          <p xml:id="d1e130">Évoquer le rite ou le rituel pour rendre compte
+          de procédures d’agrégation à un collectif ne va pas de soi. Si la
+          référence à la notion de rite de passage construite par <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">Arnold
+          Van Gennep</persName> en vue de contribuer à une classification des
+          rites paraît s’imposer, il faut cependant se méfier de son caractère
+          trop général et s’interroger sur les conditions de l’exportation
+          d’une notion construite pour analyser des formes de la vie
+          religieuse à des univers profanes. <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">Van Gennep</persName>
+          écrivait, pour justifier son projet à caractère généralisant :</p>
+          <quote rend="quotation" xml:id="d1e133">La vie individuelle consiste
+          à passer d’un âge à un autre et d’une occupation à une autre. Là où
+          les âges sont séparés et aussi les occupations, ce passage
+          s’accompagne d’actes spéciaux, qui par exemple constituent pour nos
+          métiers l’apprentissage, et qui chez les demi-civilisés consistent
+          en cérémonies, parce que aucun acte chez eux n’est indépendant du
+          sacré<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>
+                <hi rend="small-caps">Van</hi>
+                <hi rend="small-caps">Gennep</hi>, 1909, p. 5.</p>
+            </note>.</quote>
+          <p xml:id="d1e148">Ainsi, l’existence d’une répartition différente
+          du profane et du sacré ne met pas en cause l’efficacité de la notion
+          de rite, valable indépendamment du degré de complexité ou de
+          laïcisation des sociétés. Remarquons cependant que la qualification
+          simple des dispositifs d’entrée dans un collectif savant comme
+          « rite de passage » risque de dissoudre leur spécificité, dans la
+          mesure où la proposition de Van Gennep tend à rendre identiques
+          toutes les situations de transition ou de franchissement de seuil
+          d’un point de vue anthropologique. La notion de rite d’institution,
+          élaborée par <persName ref="027715078" type="idref" xml:base="https://www.idref.fr/">Pierre Bourdieu</persName> à partir
+          d’une analyse du cas français, est plus féconde, mais elle exerce
+          ses effets bien au-delà des cercles savants : toute action
+          pédagogique peut être traitée comme « une action de consécration, un
+          <hi rend="italic">rite d’institution</hi> visant à produire un
+          groupe séparé et sacré <note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>
+                <hi rend="small-caps">Bourdieu</hi>, 1989, p. 101-102.</p>
+            </note>«.</p>
+          <p xml:id="d1e163">Il faut ajouter que l’utilisation de la notion de
+          rite en vue de rendre compte d’actions profanes peut être considérée
+          comme le résultat du procès de laïcisation des rituels dont
+          <persName ref="02689565X" type="idref" xml:base="https://www.idref.fr/">Erving Goffman</persName>, en
+          exportant la conceptualisation durkheimienne de l’efficacité
+          religieuse vers les territoires les plus infimes de la vie
+          quotidienne, a été le meilleur analyste<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>
+                <hi rend="small-caps">Goffman</hi>, 1974.</p>
+            </note>. <persName ref="02689565X" type="idref" xml:base="https://www.idref.fr/">Goffman</persName> avait en effet
+          insisté sur l’importance des petites cérémonies et des micro-rituels
+          d’interaction pour rendre compte des fils multiples dont est tramée
+          l’existence ordinaire. En séparant clairement le rite de la vie
+          religieuse, l’auteur des <hi rend="italic">Rites d’interaction
+          [Interaction Ritual</hi>, 1967<hi rend="italic">]</hi> a insisté sur
+          la dimension performative des rituels, que <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName>
+          avait déjà envisagée sans l’approfondir<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>
+                <hi rend="small-caps">Collins</hi>, 2004, et <hi rend="small-caps">Fabiani</hi>, 2006.</p>
+            </note>. Les formes d’entrée dans des collectifs savants ont bien
+          cette dimension ritualisée, dans la mesure où ils ne se comprennent
+          qu’en référence à des codifications complexes et à des séquences de
+          gestes et d’actions soumis à un ordre rigoureux. Ces éléments ont
+          des effets performatifs : bien que la plus grande partie des formes
+          d’inculcation et d’apprentissage se déroule dans d’autres espaces,
+          l’épreuve de certification constitue inévitablement le moment
+          décisif. Ce moment tranche sur les phases de l’apprentissage. Alors
+          que les phases d’apprentissage ou d’initiation, qu’on peut
+          considérer comme équivalentes sous ce rapport, exigent des
+          procédures caractérisées par la lenteur et la répétition fondées sur
+          la ré-articulation permanente d’éléments cognitifs, le moment de
+          l’entrée dans le cercle des savants ou des initiés est explicitement
+          démarqué du cours ordinaire des pratiques de transmission. C’est le
+          cas de l’amplification des gestes et de l’intensification de
+          l’engagement physique qui déterminent l’entrée dans le monde des
+          devins bassar et qui conduisent à une situation de transe extrême.
+          Ce moment apparaît comme la rupture avec la situation
+          d’apprentissage, alors qu’il en constitue la consécration. C’est
+          qu’il y a toujours une dimension d’incertitude relative à l’entrée
+          dans un monde nouveau. L’initié est un autre homme, parce qu’il a pu
+          redéfinir les limites de son corps et de son esprit. Parallèlement,
+          le diplômé (et, <hi rend="italic">a fortiori</hi>, le docteur) n’est
+          jamais réductible à la formation qu’il a reçue, mais n’a de
+          reconnaissance sociale que par l’épreuve qu’il a surmontée.
+          L’affichage de l’incertitude du processus et du caractère risqué,
+          pour l’individu comme pour l’institution, de la succession
+          d’épreuves est inhérent à l’exigence de certification. L’idée d’un
+          contrôle continu ou d’une imprégnation par contact prolongé est à ce
+          point inconcevable. Toute opération de ce type comporte un aléa qui
+          en fait le prix, et qui conditionne la valeur de l’acte de
+          reconnaissance. Comme le montre <persName ref="103466789" type="idref" xml:base="https://www.idref.fr/">Stéphan
+          Dugast</persName>, l’entreprise, même lorsqu’elle est fortement
+          ritualisée, n’est jamais entièrement maîtrisée : elle est toujours
+          hasardeuse pour l’aspirant aussi bien que pour la congrégation ou le
+          collectif. De la même façon, les examens, y compris dans leur forme
+          moderne, constituent une double mise à l’épreuve : pour le candidat,
+          c’est une évidence, puisqu’il doit mobiliser toutes ses ressources,
+          dans un espace contraint et dans une temporalité très dense. Pour
+          l’institution également, puisqu’elle doit y éprouver simultanément
+          son efficacité technique et son sens de la justice évaluative.
+          Dernier aspect de la dimension rituelle de la certification : elle
+          revêt un caractère d’événement public dans des contextes historiques
+          et culturels fort hétérogènes. <persName ref="033479437" type="idref" xml:base="https://www.idref.fr/">Benjamin
+          Elman</persName> l’explicite à propos des examens dans la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> impériale des
+          derniers siècles, mais le constat est largement transversal :
+          l’instance du public est convoquée pour garantir la validité des
+          procédures à travers lesquelles examinés et examinateurs s’exposent
+          conjointement.</p>
+        </div>
+        <div type="section1" xml:id="d1e201">
+          <head subtype="level1" xml:id="d1e203">Le corps à l’épreuve</head>
+          <p xml:id="d1e206">L’engagement physique n’est pas réservé aux
+          épreuves d’initiation à des pratiques magiques ou divinatoires : il
+          s’agit au contraire d’une caractéristique commune à des contextes
+          d’évaluation très différents et apparemment incomparables. La mise
+          en jeu du corps peut recouvrir des significations très variables. Si
+          <persName type="_temp">William Clark</persName> montre l’évaporation
+          progressive du corps du candidat au cours de l’histoire
+          universitaire occidentale, et si <persName ref="103466789" type="idref" xml:base="https://www.idref.fr/">Stéphan
+          Dugast</persName> illustre à l’opposé l’intensité de l’engagement
+          physique exigé de l’aspirant devin, les deux situations analysées
+          peuvent être définies à partir de la mise en œuvre d’une stratégie
+          de la tension : les impétrants ont nécessairement à affronter des
+          contraintes physiques et mentales dans un contexte d’incertitude.
+          Ils ne sont plus maîtres de leur temps, et leur position dans
+          l’espace est déterminée de manière très rigide par la procédure, à
+          chaque moment de la cérémonie. Le dispositif carcéral développé dans
+          la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> impériale en
+          constitue à l’évidence une forme extrême, mais les formes modernes
+          de la soutenance de thèse peuvent aussi envelopper des rémanences
+          adoucies de l’Inquisition. Bien que la soutenance de thèse de
+          <persName ref="165547960" type="idref" xml:base="https://www.idref.fr/">Michel Foucault</persName>, dont
+          <persName type="_temp">William Clark</persName> ne dit pas qu’elle
+          présente en fait un caractère exceptionnel dans l’institution, soit
+          caractérisée à la fois par une rumeur très favorable avant la
+          cérémonie et par une dimension incontestable d’admiration mutuelle,
+          le candidat n’est pas épargné, et il se voit reprocher bien des
+          défauts aux deux thèses soumises dans le cadre d’une épreuve dont la
+          dimension physique n’est jamais absente. Une grande thèse est une
+          thèse dont l’ensemble des participants sort épuisé, y compris le
+          public. La question de la fatigue physique est centrale dans les
+          dispositifs de certification, par-delà les différences relatives à
+          leur contenu et à leur inscription sociale. Dans les formes les plus
+          filiales de la transmission de compétences, la dimension affectueuse
+          de la relation entre le maître et le disciple présente un caractère
+          ostentatoire, par l’accolade, la bénédiction ou le baiser, mais elle
+          ne l’emporte jamais sur l’impératif physique de la mise à l’épreuve.
+          L’inconfort psychique est une condition nécessaire à l’entrée dans
+          une communauté savante, et il en constitue même une sorte de
+          garantie visible et mesurable. On pourrait dire que l’épreuve
+          s’éprouve à travers la reconnaissance par le public d’une dépense
+          exceptionnelle d’énergie.</p>
+          <p xml:id="d1e212">Une telle caractéristique rend nécessaires des
+          mécanismes de gestion de l’anxiété devant l’épreuve : ce que
+          <persName ref="027287130" type="idref" xml:base="https://www.idref.fr/">Jacques Derrida</persName> nommait
+          le « mal de l’école », cet état nauséeux saisissant les
+          universitaires qui se remémoraient les épreuves qu’ils avaient
+          subies à chaque fois qu’ils franchissaient le seuil des institutions
+          de savoir<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>
+                <hi rend="small-caps">Derrida</hi>, 1992, p. 353-354.</p>
+            </note>, est une conséquence spectaculaire de l’accréditation par
+          le stress qui définit la plupart des collectifs savants. La
+          <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> impériale est
+          le théâtre le plus explicite d’une anxiété qui ronge les candidats
+          et leurs familles, et qui suscite tout un ensemble de pratiques
+          remédiales aussi bien qu’une série de justifications
+          extra-cognitives pour l’échec éventuel. La fréquence des cas de
+          panique ou d’effondrement psychique brutal constitue la matière
+          principale des anecdotes sur les examens et nourrit tous les récits
+          d’épreuve. Les sociétés modernes, caractérisées par une mise à
+          distance croissante de la douleur physique et une réévaluation
+          progressive de la valeur et du rendement technique de la souffrance
+          psychique, ont cependant conservé une dilection pour la production
+          de situations anxiogènes dans les épreuves d’évaluation et de
+          cooptation. Pour s’en persuader, il suffit d’évoquer le rituel
+          national du baccalauréat<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>
+                <hi rend="small-caps">Piobetta</hi>, 1937.</p>
+            </note>, pourtant déconnecté de toute promesse d’entrée dans une
+          communauté savante : l’épreuve, qui n’en est sans doute plus une,
+          continue d’engendrer l’anxiété générale et les recettes qui
+          permettent de la contenir. <persName ref="033479437" type="idref" xml:base="https://www.idref.fr/">Benjamin Elman</persName> évoque
+          l’angoisse profonde qui étreignait les candidats aux examens en
+          <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName>. Il ne fait
+          pas de doute que l’anxiété, loin d’être un simple effet indésirable
+          du dispositif, en est une dimension constitutive, dans la mesure où
+          elle est un marqueur tangible de l’épreuve, un signe de sa force et
+          de son objectivité.</p>
+        </div>
+        <div type="section1" xml:id="d1e240">
+          <head subtype="level1" xml:id="d1e242">Les ratés de
+          l’institution</head>
+          <p xml:id="d1e245">Toute épreuve de certification implique des
+          risques, et pas seulement pour les impétrants. Les institutions de
+          savoir peuvent être aussi menacées, de l’intérieur et de
+          l’extérieur, par les mécanismes qu’elles mettent en place et qui
+          finissent par leur échapper. La première menace est celle de la
+          routinisation : en développant des formes d’évaluation à la fois
+          très codifiées et très standardisées, les institutions de savoir
+          nourrissent des automatismes de pensée et tendent à circonscrire et
+          à formater l’activité intellectuelle. Le formatage des questions et
+          des réponses ne concerne jamais seulement les candidats : il engage
+          l’institution tout entière dans des routines en privilégiant
+          l’aspect purement reproductif de la transmission des
+          connaissances<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>
+                <hi rend="small-caps">Fabiani</hi>, 1983 et 1988.</p>
+            </note>. On pourrait dire que plus le système des examens est
+          centralisé, plus il est susceptible de privilégier les routines
+          d’institution. Il faut toutefois modérer ce jugement en évoquant les
+          capacités, nécessairement inégales, qu’ont les différents acteurs du
+          système de conjurer cette menace. Il existe, à des degrés divers,
+          une marge d’interprétation de la lettre du programme. Les
+          institutions permettent fréquemment des formes de distance aux
+          différents rôles, offrant aux évaluateurs comme aux évalués la
+          possibilité d’un espace de jeu et d’une souplesse interprétative. La
+          dénégation du scolaire est, comme l’ont brillamment montré <persName ref="027715078" type="idref" xml:base="https://www.idref.fr/">Pierre
+          Bourdieu</persName> et <persName ref="034517995" type="idref" xml:base="https://www.idref.fr/">Jean-Claude Passeron</persName>,
+          une caractéristique inhérente à tout système d’enseignement<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>
+                <hi rend="small-caps">Bourdieu</hi> et <hi rend="small-caps">Passeron</hi>, 1970.</p>
+            </note>. Le perfectionnement des procédures de sélection à l’œuvre
+          dans des collectifs savants implique pourtant, à travers
+          l’intériorisation de dispositions évaluables, la production d’une
+          orthodoxie, avec la productivité qu’elle assure et les inconvénients
+          qu’elle comporte.</p>
+          <p xml:id="d1e269">La fraude et la corruption constituent un autre
+          raté du système. Les tricheurs peuvent représenter, à certains
+          moments de l’histoire, une fraction importante des candidats. Les
+          exemples abondent dans les textes qui suivent : ils attestent au
+          moins la créativité délinquante des impétrants, particulièrement
+          dans le monde chinois. Le matériel d’écriture comme les vêtements
+          sont les supports d’une ingéniosité toujours renouvelée en dépit de
+          l’amélioration des mesures de lutte contre la fraude. Plus menaçante
+          pour l’institution elle-même est la présence de la corruption, qui
+          peut alternativement être imputée à des évaluateurs délinquants
+          agissant de leur propre chef ou en petits groupes ou à la
+          constitution de connivences institutionnelles. Souvent une sorte de
+          corruption invisible ronge de manière sournoise les institutions de
+          savoir : la tentation de l’entre-soi et du repli sur le proche est
+          une conséquence difficile à éviter de la standardisation des
+          procédures et de la production de disciples très formatés. La
+          corruption latente, souvent indétectable par ceux qui en deviennent
+          malgré eux les acteurs, est une des causes fréquentes du déclin des
+          institutions de savoir.</p>
+          <p xml:id="d1e272">La généralisation des procédures d’examen a
+          évidemment multiplié les situations d’échec. Le refus de
+          reconnaissance savante est ainsi devenu une sorte de garant de
+          l’efficacité des systèmes en constituant une population de recalés,
+          parfois très nombreuse, comme dans la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> impériale.
+          Les institutions de savoir travaillent donc à produire, quelquefois
+          en grande quantité, leurs propres rebuts. Leur importance relative
+          n’est pas en soi une menace pour les procédures de reconnaissance
+          des qualifications. La situation analysée par <persName ref="033479437" type="idref" xml:base="https://www.idref.fr/">Benjamin Elman</persName> montre
+          bien que le caractère massif de la préparation aux examens peut
+          avoir des effets en retour sur la vie sociale dans son ensemble : le
+          groupe important de ceux qui ont connu l’échec évoque une armée de
+          réserve dont l’existence a des conséquences sur la vie publique et
+          culturelle du pays, pour autant que le ressentiment des perdants
+          puisse être contenu ou détourné. À la fréquence de l’échec peut être
+          associée, sur un plan différent, la surproduction de diplômés : la
+          population cultivée nouvellement formée n’a aucune chance de
+          mobilité sociale ascendante, mais elle constitue un nouveau type de
+          talent qui tend à modifier l’ambiance générale de la société. Dans
+          la plupart des configurations sociales, le développement de systèmes
+          de certification des connaissances est loin d’avoir comme objectif
+          exclusif l’intégration dans des communautés savantes. La <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> impériale
+          présente le meilleur exemple d’un usage social des examens beaucoup
+          plus large que celui d’instrument d’agrégation au monde lettré, mais
+          l’Europe des universités offre de nombreuses similarités. La
+          question récurrente de l’inflation des diplômes dans les sociétés
+          démocratiques contemporaines n’est pas seulement un phénomène
+          idéologique, bien que la question du chômage intellectuel, ou celle
+          de la constitution des diplômés en surplus en classe dangereuse,
+          soit devenue un lieu commun conservateur depuis la <date from="1850" ref="_temp" to="1899">seconde moitié du <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date> en
+          Occident. Si <persName ref="034517995" type="idref" xml:base="https://www.idref.fr/">Jean-Claude Passeron</persName>
+          souligne justement le fait qu’on parle beaucoup plus de la
+          dévaluation des diplômes sur le marché du travail que des effets
+          positifs de l’extension d’une population cultivée<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>
+                <hi rend="small-caps">Passeron</hi>, 1982.</p>
+            </note>, il n’en reste pas moins que la perception du rendement
+          différentiel du diplôme à l’entrée dans la vie active et le
+          sentiment croissant d’une déconnexion entre le succès aux examens et
+          l’entrée effective dans le cercle de la population lettrée ou de la
+          « classe cultivée » constituent une dimension significative de
+          l’expérience sociale contemporaine<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>
+                <hi rend="small-caps">Duru-Bellat</hi>, 2005.</p>
+            </note>. La confrontation avec la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> impériale
+          nous permet certainement de relativiser un constat qui engendre
+          aujourd’hui beaucoup d’angoisse sociale. La déconnexion croissante
+          entre le titre scolaire et le poste et le spectre du déclassement
+          n’en sont pas moins l’un des grands paradoxes de la démocratisation
+          des savoirs.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e317">
+        <head xml:id="d1e319">Bibliographie</head>
+        <listBibl xml:id="d1e322">
+          <bibl xml:id="d1e324">
+            <hi rend="small-caps">Bourdieu</hi>, 1984 :
+          Pierre <hi rend="small-caps">Bourdieu</hi>, <hi rend="italic">Homo
+          academicus</hi>, Paris.</bibl>
+          <bibl xml:id="d1e336">
+            <hi rend="small-caps">Bourdieu</hi>, 1989 :
+          P. <hi rend="small-caps">Bourdieu</hi>, <hi rend="italic">La
+          Noblesse d’État</hi>, Paris.</bibl>
+          <bibl xml:id="d1e348">
+            <hi rend="small-caps">Bourdieu</hi> et <hi rend="small-caps">Passeron</hi>, 1964 : Pierre <hi rend="small-caps">Bourdieu</hi> et Jean-Claude <hi rend="small-caps">Passeron</hi>, <hi rend="italic">Les Héritiers.
+          Les étudiants et la culture</hi>, Paris.</bibl>
+          <bibl xml:id="d1e366">
+            <hi rend="small-caps">Bourdieu</hi> et <hi rend="small-caps">Passeron</hi>, 1970 : P. <hi rend="small-caps">Bourdieu</hi> et J.-Cl. <hi rend="small-caps">Passeron</hi>, <hi rend="italic">La Reproduction.
+          Éléments pour une théorie du système d’enseignement</hi>,
+          Paris.</bibl>
+          <bibl xml:id="d1e384">
+            <hi rend="small-caps">Collins</hi>, 1979 :
+          Randall <hi rend="small-caps">Collins</hi>, <hi rend="italic">The
+          Credential Society. An Historical Sociology of Education and
+          Stratification</hi>, Orlando-Toronto.</bibl>
+          <bibl xml:id="d1e397">
+            <hi rend="small-caps">Collins</hi>, 2004 :
+          R. <hi rend="small-caps">Collins,</hi>
+            <hi rend="italic"> Interaction
+          Ritual Chains</hi>, Princeton.</bibl>
+          <bibl xml:id="d1e409">
+            <hi rend="small-caps">Derrida</hi>, 1992 :
+          Jacques <hi rend="small-caps">Derrida</hi>, <hi rend="italic">Points
+          de suspension. Entretiens</hi>, éd. E. Weber, Paris.</bibl>
+          <bibl xml:id="d1e421">
+            <hi rend="small-caps">Durkheim</hi>, 1938 :
+          Émile <hi rend="small-caps">Durkheim</hi>, <hi rend="italic">L’Évolution pédagogique en France</hi>, Paris.</bibl>
+          <bibl xml:id="d1e433">
+            <hi rend="small-caps">Duru-Bellat</hi>, 2005 :
+          Marie <hi rend="small-caps">Duru-Bellat</hi>, <hi rend="italic">L’Inflation scolaire. Les désillusions de la
+          méritocratie</hi>, Paris.</bibl>
+          <bibl xml:id="d1e445">
+            <hi rend="small-caps">Elman</hi>, 2000 :
+          Benjamin A. <hi rend="small-caps">Elman</hi>, <hi rend="italic">A
+          Cultural History of Civil Examinations in Late Imperial China</hi>,
+          Berkeley.</bibl>
+          <bibl xml:id="d1e457">
+            <hi rend="small-caps">Elman</hi>, 2001 :
+          B. A. <hi rend="small-caps">Elman</hi>, <hi rend="italic">From
+          Philosophy to Philology. Social and Intellectual Aspects of Change
+          in Late Imperial China</hi>, 2<hi rend="sup">e</hi> éd., Los
+          Angeles.</bibl>
+          <bibl xml:id="d1e473">
+            <hi rend="small-caps">Fabiani</hi>, 1983 :
+          Jean-Louis <hi rend="small-caps">Fabiani</hi>, « Les programmes, les
+          hommes et les œuvres : professeurs de philosophie en classe et en
+          ville au tournant du siècle », <hi rend="italic">Actes de la
+          recherche en sciences sociales</hi>, 87-88, p. 3-20.</bibl>
+          <bibl xml:id="d1e485">
+            <hi rend="small-caps">Fabiani</hi>, 1988 :
+          J.-L. <hi rend="small-caps">Fabiani</hi>, <hi rend="italic">Les
+          Philosophes de la République</hi>, Paris.</bibl>
+          <bibl xml:id="d1e497">
+            <hi rend="small-caps">Fabiani</hi>, 2006 :
+          J.-L. <hi rend="small-caps">Fabiani</hi>, « Should the Sociological
+          Analysis of Art Festivals be Neo-Durkheimian? », <hi rend="italic">Durkheim Studies</hi>, Oxford, p. 49-66.</bibl>
+          <bibl xml:id="d1e509">
+            <hi rend="small-caps">Goffman</hi>, 1974 :
+          Erving <hi rend="small-caps">Goffman</hi>,<hi rend="italic"/>
+            <hi rend="italic">Les Rites d’interaction</hi>, trad. de l’anglais par
+          A. Kihm, Paris.</bibl>
+          <bibl xml:id="d1e523">
+            <hi rend="small-caps">Le</hi>
+            <hi rend="small-caps">Goff</hi>, 1985 : Jacques <hi rend="small-caps">Le</hi>
+            <hi rend="small-caps">Goff</hi>, <hi rend="italic">Les Intellectuels au Moyen Âge </hi>[1957],
+          Paris.</bibl>
+          <bibl xml:id="d1e541">
+            <hi rend="small-caps">Passeron</hi>, 1982 :
+          Jean-Claude <hi rend="small-caps">Passeron</hi>, « L’inflation des
+          diplômes. Remarques sur l’usage de quelques concepts analogiques en
+          sociologie », <hi rend="italic">Revue française de sociologie</hi>,
+          23, p. 531-584.</bibl>
+          <bibl xml:id="d1e554">
+            <hi rend="small-caps">Piobetta</hi>, 1937 :
+          Jean-Baptiste <hi rend="small-caps">Piobetta</hi>, <hi rend="italic">Le Baccalauréat</hi>, Paris.</bibl>
+          <bibl xml:id="d1e566">
+            <hi rend="small-caps">Rüegg</hi>, 2004 :
+          Walter <hi rend="small-caps">Rüegg</hi> (éd.), <hi rend="italic">A
+          History of the University in Europe</hi>, Cambridge.</bibl>
+          <bibl xml:id="d1e578">
+            <hi rend="small-caps">Van</hi>
+            <hi rend="small-caps">Gennep</hi>, 1909 : Arnold <hi rend="small-caps">Van</hi>
+            <hi rend="small-caps">Gennep</hi>, <hi rend="italic">Les Rites de passage. Étude systématique des
+          rites</hi>, Paris.</bibl>
+          <bibl xml:id="d1e596">
+            <hi rend="small-caps">Verger</hi>, 1986 :
+          Jacques <hi rend="small-caps">Verger</hi> (éd.), <hi rend="italic">Histoire des universités en France</hi>,
+          Toulouse.</bibl>
+          <bibl xml:id="d1e608">
+            <hi rend="small-caps">Weisz</hi>, 1983 :
+          George <hi rend="small-caps">Weisz</hi>, <hi rend="italic">The
+          Emergence of Modern Universities in France, 1863-1914</hi>,
+          Princeton.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

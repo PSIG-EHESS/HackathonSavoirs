@@ -1,0 +1,982 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2020-06-17T10:45:43.226+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LDSII_06_Campos_GesteMusicalPiano">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Geste musical et notation. Piano et pianistes de la
+        fin du <hi rend="small-caps">xviii</hi>
+          <hi rend="sup">e</hi> au début
+        du <hi rend="small-caps">xx</hi>
+          <hi rend="sup">e</hi> siècle</title>
+        <title type="collection">Lieux de savoir 2</title>
+        <author role="aut">
+          <forename>Rémy</forename>
+          <surname>Campos</surname>
+          <idno type="IDREF">057519064</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2020">2020</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Albin
+          Michel CC BY-NC-ND 3.0 Attribution - Pas d’Utilisation Commerciale -
+          Pas de Modification</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/UJ9WGQ74" type="bookSection" xml:lang="fre">
+          <analytic>
+            <title level="a">Geste musical et notation. Piano er pianistes de
+            la fin du XVIIIe au début du XXe siècle</title>
+            <author>
+              <forename>Rémy</forename>
+              <surname>Campos</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Lieux de savoir</title>
+            <idno type="ISBN">978-2-226-18729-1</idno>
+            <editor>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <biblScope unit="volume">2. Les mains de l'intellect</biblScope>
+              <biblScope unit="nb_volumes">2</biblScope>
+              <biblScope unit="page">85-100</biblScope>
+              <publisher>Albin Michel</publisher>
+              <date>2011</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+        <language ident="ita"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Geste musical et notation. Piano et pianistes
+          de la fin du <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi>
+          au début du <hi rend="small-caps">xx</hi>
+            <hi rend="sup">e</hi> siècle</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Rémy Campos</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="d1e142">
+        <p xml:id="d1e144">Au tournant du <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi>
+          </date> et du <date from="1800" to="1899" type="_temp">
+            <hi rend="small-caps">xix</hi>
+            <hi rend="sup">e</hi> siècle</date>,
+        l’économie de la musique, entendue comme le système organisant sa
+        pratique (depuis la production des objets artistiques jusqu’aux règles
+        administrant le métier), connaît une formidable mutation. À la suite
+        de ce que l’on peut appeler une révolution grapho-centrique<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Voir à ce sujet l’introduction de <hi rend="small-caps">Campos</hi>, <hi rend="small-caps">Donin</hi> et
+            <hi rend="small-caps">Keck</hi>, 2006.</p>
+          </note>, le texte musical va occuper une place auparavant inconnue
+        dans les usages quotidiens des artistes et des amateurs. Alors que la
+        partition avait été un squelette plus ou moins nettement dessiné
+        auquel les musiciens donnaient chair au moment de l’exécution en
+        l’enrichissant d’ornements ou de parties supplémentaires, voire en le
+        retaillant sur mesure, elle tend tout au long du <date from="1800" ref="_temp" to="1899">
+            <hi rend="small-caps">xix</hi>
+            <hi rend="sup">e</hi> siècle</date> à se confondre toujours plus
+        exactement avec la musique sonnante. Au terme du processus, tout ce
+        qui est écrit sera joué strictement, toute musique entendue aura
+        préalablement été de la musique écrite.</p>
+        <p xml:id="d1e186">Une dynamique complexe explique ce bouleversement
+        dans lequel le poids de plus en plus important pris par le compositeur
+        dans la hiérarchie des professions musiciennes joue un rôle
+        déterminant. Longtemps, l’autorité avait été partagée : ceux qui
+        jouaient ou chantaient, imprésarios ou directeurs de théâtre, éditeurs
+        ou amateurs, intervenaient directement dans la production des œuvres,
+        par l’insertion de séquences improvisées, par la coupure ou par
+        l’arrangement. La montée en puissance de l’artiste créateur,
+        indépendant financièrement et entouré du respect dont on se mit à
+        gratifier les génies dès la fin du <date from="1700" ref="_temp" to="1799">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi> siècle</date>, confère aux ouvrages du compositeur
+        le statut de chose vénérée. L’assimilation partielle de l’art à une
+        religion par des musiciens militants proches du saint-simonisme (Franz
+        Liszt, Hector Berlioz ou Félicien David) acheva de sacraliser les
+        objets artistiques et de pétrifier le texte musical. Les cadences
+        vocales, ornements et autres improvisations furent dès lors
+        systématiquement condamnés comme des actes de vandalisme.</p>
+        <p xml:id="d1e198">Le changement de régime de lecture et d’écriture de
+        la musique amorcé dans le courant du <date from="1800" ref="_temp" to="1899">
+            <hi rend="small-caps">xix</hi>
+            <hi rend="sup">e</hi> siècle</date> eut des répercussions considérables
+        sur le corps des instrumentistes et des chanteurs. L’idéal de
+        l’artiste-orateur déclamant la musique comme un discours céda la place
+        à une ascèse de l’interprétation où le respect du texte le disputait à
+        l’austérité du geste. L’évolution est particulièrement visible, à
+        partir de la fin du <date from="1700" ref="_temp" to="1799">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi> siècle</date>, dans
+        le domaine de la pédagogie musicale qui est alors le théâtre d’un
+        immense procès de rationalisation. Portée par l’idéologie du surhomme,
+        la figure émergente du virtuose suscite une rénovation radicale des
+        techniques d’apprentissage. Le savoir-faire transmis au sein
+        d’instances professionnelles collectives (maîtrise-cathédrale, troupe
+        d’opéra, bande municipale, etc.) ou auprès d’un maître longuement
+        fréquenté est peu à peu concurrencé par un savoir scolaire (dans les
+        conservatoires et les écoles qui avaient proliféré comme chez les
+        milliers de professeurs particuliers loués à l’heure) où le
+        dépassement des difficultés passe par leur analyse abstraite et où les
+        corps sont soumis à une inculcation systématique.</p>
+        <p xml:id="d1e219">La tablature, apparue à la fin du <date ref="_temp">Moyen Âge</date>, avait été la première forme de notation
+        du geste musical : les signes y fixaient moins le son qu’ils
+        n’indiquaient le doigt à utiliser pour produire une note. Au <date from="1800" ref="_temp" to="1899">
+            <hi rend="small-caps">xix</hi>
+            <hi rend="sup">e</hi> siècle</date>, l’écriture musicale se voit confier
+        un nouveau rôle : celui d’outil permettant d’uniformiser pratiques et
+        musiciens. Le moment de l’instruction, autrement dit de l’acquisition
+        des dispositions, devient un lieu d’expérimentation et d’action pour
+        les tenants de l’universalité qui soumettent le corps du musicien à la
+        transformation en cours du texte musical.</p>
+        <div type="section1" xml:id="d1e234">
+          <head subtype="level1" xml:id="d1e236">La main travaillée</head>
+          <p xml:id="d1e239">Depuis son apparition dans les années <date from="1770" ref="_temp" to="1790">1770-1790</date> à la suite de la
+          généralisation du concert public payant<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>
+                <hi rend="small-caps">Bödeker</hi>, <hi rend="small-caps">Veit</hi> et <hi rend="small-caps">Werner</hi>, 2002.</p>
+            </note>, le virtuose moderne, musicien d’estrades recueillant les
+          applaudissements à coup de tours de force techniques, attirait les
+          regards. La main des artistes fascinait les foules mélomanes. Parmi
+          les objets qui meublaient les salons depuis la <date from="1850" ref="_temp" to="1899">seconde moitié du <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          (bustes, portraits de musiciens, parfois mèches de cheveux ou
+          babioles intimes ayant appartenu à des artistes illustres), il
+          n’était pas rare de trouver des moulages en plâtre de mains de
+          compositeurs ou d’instrumentistes<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>On trouve aussi des photographies de mains en plâtre dans <hi rend="italic">Musica</hi> (main de Chopin en juillet 1908, de
+              Liszt en 1911, de Massenet en 1912 ou de Verdi en 1913).</p>
+            </note>. Métonymies des corps adulés, ces objets manufacturés
+          tenaient lieu de reliques de substitution à une époque où le culte
+          des génies connaissait une fortune considérable.</p>
+          <figure xml:id="d1e290">
+            <graphic url="../icono/br/LDSII_06_Campos_GesteMusicalPiano_img1.png"/>
+            <head xml:id="d1e294">Léo <hi rend="small-caps">d’Hampol</hi>,
+            1904, p. 328-329.</head>
+          </figure>
+          <p xml:id="d1e304">En <date ref="_temp" when="1906">1906</date>, le
+          journal illustré <hi rend="italic">Musica</hi> propose aux amateurs
+          une série d’images étonnantes commentée par <persName type="_temp">Léo d’Hampol</persName> : une collection photographique
+          de mains célèbres. Écartant l’interprétation chiromancienne,
+          l’auteur ausculte les mains gauches de violonistes et d’altistes
+          fameux pour y retrouver le profil psychologique des grands hommes
+          (« Les mains que nous avons photographiées confirment une opinion
+          que nous avons déjà émise : à savoir que les mains reflètent
+          l’individu, qu’elles s’identifient avec sa profession de façon à le
+          caractériser davantage<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>
+                <hi rend="small-caps">Hampol</hi> (<hi rend="small-caps">d</hi>’), 1904, p. 329.</p>
+            </note> »). <persName type="_temp">D’Hampol</persName> reconnaît
+          ainsi chez <persName ref="035337427" type="idref" xml:base="https://www.idref.fr/">Pablo de Sarasate</persName> « les
+          qualités maîtresses du grand virtuose » ou rapporte les propos de
+          Joachim fier de proclamer que, dans son cas, « la fonction a modifié
+          l’organe ». Entre description clinique et supputations analytiques,
+          l’article de <hi rend="italic">Musica</hi> dénote la mobilisation
+          intensive des physiologues, psychiatres et autres savants pour
+          percer les mystères de la vélocité digitale ou de l’habileté
+          expressive.</p>
+          <p xml:id="d1e328">Du côté des musiciens, les recherches furent plus
+          nombreuses encore et prirent, bien entendu, un tour applicatif. Dès
+          le début du <date from="1800" ref="_temp" to="1899">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>, les
+          pédagogues rivalisèrent d’ingéniosité pour tirer de la main humaine
+          bien plus qu’elle n’avait donné jusque-là. Dans la plupart des
+          méthodes imprimées, la notion de mécanisme s’imposa comme la clef de
+          la pratique instrumentale et même vocale, et l’on ne compta plus les
+          ouvrages intitulés : <hi rend="italic">Écoles du mécanisme, Bases du
+          mécanisme, Mécanisme du toucher ou du doigté</hi>. Alors que sous
+          l’<date ref="_temp">Ancien Régime</date> les méthodes visaient avant
+          tout la formation du goût et l’autonomie créative (la plupart des
+          manuels expliquaient l’art de préluder, de réaliser des diminutions,
+          d’improviser une cadence voire de composer une pièce entière)<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>
+                <hi rend="small-caps">Lescat</hi>, 1991.</p>
+            </note>, l’efficacité physique occupa dorénavant l’essentiel des
+          premiers temps de l’apprentissage, tandis que la maîtrise du goût
+          était remise aux derniers moments de l’étude.</p>
+          <p xml:id="d1e356">L’exaltation de l’agilité des virtuoses et la
+          mise au pas mécaniste de la pédagogie musicale vont rapidement
+          pousser les musiciens à penser les corps comme des machines qu’il
+          faut dompter. Le recours à des instruments correctifs est sans aucun
+          doute l’aspect le plus saisissant du gouvernement des corps
+          s’instaurant dans la <date from="1800" ref="_temp" to="1850">première moitié du <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>.</p>
+          <p xml:id="d1e368">Le pionnier dans ce domaine est <persName ref="157703924" type="idref" xml:base="https://www.idref.fr/">Johann
+          Bernhard Logier</persName> (<date from="1777" ref="_temp" to="1846">1777-1846</date>). Inventé à l’origine pour corriger une
+          malformation physique de la fille du musicien, l’assemblage de
+          tringles et de carcans digitaux ajustés au piano et dénommé
+          « chiroplaste » (<date ref="_temp" when="1814">1814</date>) devint
+          rapidement la base d’une pédagogie entière, bientôt brevetée en
+          <placeName ref="6269131" type="geonames" xml:base="https://www.geonames.org/">Angleterre</placeName> et
+          lancée grâce à une politique de diffusion intensive. La résistance
+          de la corporation des maîtres de musique, menacée de concurrence,
+          fut féroce. L’habileté de <persName ref="157703924" type="idref" xml:base="https://www.idref.fr/">Logier</persName> consista à
+          s’associer à un pianiste en vue, <persName ref="156211904" type="idref" xml:base="https://www.idref.fr/">Frédéric
+          Kalkbrenner</persName>, dont la notoriété artistique et les
+          relations mondaines accélérèrent la dissémination du chiroplaste à
+          travers l’Europe. Dans un deuxième temps, <persName ref="156211904" type="idref" xml:base="https://www.idref.fr/">Kalkbrenner</persName>, qui jugeait
+          le dispositif trop rigide, en proposa une adaptation : le
+          guide-main, simple barre métallique sur laquelle le pianiste venait
+          poser ses poignets et qui n’entravait pas le mouvement des doigts,
+          ce qui permettait, entre autres, le passage du pouce.</p>
+          <figure xml:id="d1e383">
+            <graphic url="../icono/br/LDSII_06_Campos_GesteMusicalPiano_img2.png"/>
+            <head xml:id="d1e387">« Procédé mécanique pour faciliter et
+            abréger l’étude du piano », <hi rend="italic">L’Illustration</hi>,
+            11 juillet 1846, p. 304.</head>
+          </figure>
+          <p xml:id="d1e397">D’autres imaginèrent des machines plus ou moins
+          contraignantes destinées à exercer les muscles, à délier les
+          articulations ou encore à augmenter les capacités d’extension.
+          L’entreprise de <persName ref="164002049" type="idref" xml:base="https://www.idref.fr/">Félix Levacher d’Urclé</persName>
+          est symptomatique de la collaboration entre médecins et musiciens
+          sur ces questions. Le titre interminable (selon l’usage du temps) de
+          l’ouvrage publié par <persName ref="164002049" type="idref" xml:base="https://www.idref.fr/">Levacher</persName> en <date ref="_temp" when="1846">1846</date> donne une idée des parties en
+          présence : <hi rend="italic">De l’Anatomie de la main considérée
+          dans ses rapports avec l’exécution de la musique instrumentale ou
+          Nouvelle méthode instrumentale raisonnée basée sur la connaissance
+          de l’Anatomie de la main de F. Levacher d’***… La partie anatomique,
+          qui sert de base à cet ouvrage, a été élaborée sous les conseils de
+          M. le docteur <persName ref="119869802" type="idref" xml:base="https://www.idref.fr/">Auzias-Turenne</persName>
+          Professeur d’anatomie et de chirurgie à l’École pratique de la
+          Faculté de médecine de <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, et est
+          approuvée et annotée par <persName ref="035565233" type="idref" xml:base="https://www.idref.fr/">Cruveilhier</persName> Professeur
+          d’anatomie pathologique à la Faculté de médecine de <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, président
+          perpétuel de la Société anatomique, médecin de l’hôpital de la
+          Charité, membre de l’Académie royale de Médecine et de l’Académie
+          royale des Sciences de <placeName ref="3165523" type="geonames" xml:base="https://www.geonames.org/">Turin</placeName>, officier de
+          la Légion d’honneur, etc., etc.</hi> [Cette méthode] <hi rend="italic">est</hi> approuvée <hi rend="italic">et</hi>
+          exclusivement adoptée <hi rend="italic">par <persName ref="080734464" type="idref" xml:base="https://www.idref.fr/">Thalberg</persName>
+            </hi>.
+          L’équivalence posée par le titre entre anatomie et méthode
+          instrumentale fait écho à l’aréopage convoqué par <persName ref="164002049" type="idref" xml:base="https://www.idref.fr/">Levacher</persName> pour légitimer
+          son entreprise : deux membres de la Faculté de médecine d’un côté,
+          un pianiste vedette de l’autre (<persName ref="080734464" type="idref" xml:base="https://www.idref.fr/">Sigismond
+          Thalberg</persName>). La machine imaginée par l’auteur aspire à
+          corriger la faiblesse propre au quatrième doigt en lui imposant une
+          position « anti-naturelle et antipathique<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>
+                <hi rend="small-caps">Levacher</hi>
+                <hi rend="small-caps">d’Urclé</hi>, 1846, p. 28.</p>
+            </note> », « par distension ou allongement », c’est-à-dire par
+          « une tension souvent réitérée et soutenue pendant un temps
+          donné »<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>
+                <hi rend="italic">Ibid</hi>., p. 43.</p>
+            </note>.</p>
+          <p xml:id="d1e437">Dans la <date from="1800" ref="_temp" to="1849">première moitié du <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>, le musicien est condamné à la
+          résistance physique et contrôlé par des machines conçues pour
+          diriger l’attention de l’élève, uniformiser ses gestes ou surveiller
+          son travail. L’adoption d’une pensée du corps comme mécanisme
+          conduit alors à dissocier radicalement l’intelligence musicale et
+          les gestes du musicien. <persName ref="156211904" type="idref" xml:base="https://www.idref.fr/">Frédéric Kalkbrenner</persName>,
+          qui proclamait dans sa <hi rend="italic">Méthode pour apprendre le
+          piano-forte à l’aide du guide-mains</hi> (1831) qu’« il faut former
+          les doigts avant les yeux<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>
+                <hi rend="small-caps">Kalkbrenner</hi>, 1831, p. 19</p>
+            </note> », se targuait de pouvoir simultanément entretenir ses
+          muscles et cultiver son esprit grâce à l’instrument dont il était
+          l’inventeur :</p>
+          <quote rend="quotation" xml:id="d1e461">Au bout de quelques jours,
+          je compris tout l’avantage que me procurait cette façon nouvelle
+          d’étudier ; la position de mes mains ne pouvant plus être fautive,
+          je n’avais point à m’en occuper, ne jouant que des exercices sur les
+          cinq notes. Bientôt je résolus d’essayer de lire tout en donnant à
+          mes doigts leur pâture journalière. Pendant les premières heures
+          cela me parut difficile, le lendemain j’y étais habitué. Depuis j’ai
+          toujours travaillé en lisant<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>
+                <hi rend="italic">Ibid</hi>., « Préface ».</p>
+            </note>.</quote>
+          <p xml:id="d1e474">La machine libère donc l’artiste de la
+          gymnastique triviale à laquelle l’astreignait le métier de virtuose.
+          Elle n’agit cependant pas seulement sur les membres récalcitrants.
+          Le principal mérite des appareils orthopédiques (si l’on en croit la
+          plupart des auteurs) est leur capacité à orienter correctement
+          l’attention. <persName ref="157703924" type="idref" xml:base="https://www.idref.fr/">Logier</persName> vante ainsi les
+          avantages du chiroplaste :</p>
+          <quote rend="quotation" xml:id="d1e477">[…] la main et le bras de
+          l’exécutant (quoiqu’ils aient toute la liberté nécessaire pour agir)
+          sont dans l’impossibilité de se mouvoir à faux, les doigts sont
+          placés de manière à être en état de donner une force égale à chaque
+          note, et l’esprit garde la faculté de fixer exclusivement son
+          attention à la lecture de la musique. De cette manière, les regards
+          de l’élève n’errent pas continuellement de son clavier à son livre,
+          et de son livre à son clavier, et en même temps qu’il acquiert la
+          netteté de l’exécution, il contracte sans peine l’habitude de lire
+          les deux lignes que ses deux mains doivent exécuter à la fois<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>
+                <hi rend="small-caps">Logier</hi>, s. d. (« Préface de
+              l’auteur »).</p>
+            </note>.</quote>
+          <p xml:id="d1e489">Rappelons que le concepteur de cet outil
+          d’instruction total avait fini par développer un véritable système
+          articulant à la machine une méthode et des écoles soutenues par une
+          propagande à la fois commerciale et idéologique.</p>
+          <p xml:id="d1e492">L’ampleur de l’organisation « chiroplastique »
+          s’inscrit dans l’ambitieux projet adopté par la plupart des
+          pédagogues depuis la fin du <date from="1700" ref="_temp" to="1799">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date> : transformer le musicien en un être
+          de raison dont le corps réalise les moindres volontés. Il ne s’agit
+          plus d’adapter la pédagogie à chaque apprenti (dans la tradition de
+          rédaction d’exercices spécifiques par le maître pour chacun de ses
+          disciples), mais d’imposer à tous les élèves la même méthode, celle
+          que l’analyse rationnelle aura permis de formuler. Le corps
+          universel l’emportera alors sur les corps particuliers, et les
+          musiciens qui n’arriveront pas à se plier au nouveau modèle
+          (virtuose) seront exclus de la société artistique, abandonnés à leur
+          sort d’individus inaptes.</p>
+          <p xml:id="d1e504">Alors que l’engouement pour les appareils
+          orthopédiques était retombé, <persName ref="067051626" type="idref" xml:base="https://www.idref.fr/">Émile Gouget</persName> inventorie
+          en <date ref="_temp" when="1898">1898</date>, dans son <hi rend="italic">Histoire de la main</hi>, quelques-uns des « tuteurs
+          mécaniques » fabriqués dans les décennies précédentes. Les
+          commentaires peu amènes de l’auteur sur ce qu’il qualifie
+          d’instruments de torture indiquent que le temps des engins
+          correctifs est décidément passé. Mais ce que ces objets (dans
+          lesquels, rappelons-le, beaucoup de musiciens avaient cru) avaient
+          initié était loin d’être totalement mort au moment où <persName ref="067051626" type="idref" xml:base="https://www.idref.fr/">Gouget</persName> déclarait leur
+          obsolescence. Ainsi chez <persName ref="033167834" type="idref" xml:base="https://www.idref.fr/">Blanche Selva</persName>,
+          concertiste et pédagogue attachée au début du <date from="1900" ref="_temp" to="1999">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date> à la Schola Cantorum parisienne,
+          s’il n’y a plus d’inquiétants appareillages, l’idéal d’un contrôle
+          strict des mouvements demeure inchangé. Les photographies et les
+          descriptions abondamment détaillées<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>On en trouve un autre exemple dans : <hi rend="small-caps">Unschuld de Melasfeld</hi>, 1902.</p>
+            </note>, la discipline quotidienne définie dans les centaines de
+          pages d’une méthode monumentale<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Blanche <hi rend="small-caps">Selva</hi>, <hi rend="italic">L’Enseignement musical de la technique du
+              piano</hi>, six volumes parus à Paris chez Rouart, Lerolle et
+              C<hi rend="sup">ie</hi> entre 1916 et 1924.</p>
+            </note> et l’autorité (despotique) du professeur imposent les
+          règles de l’apprentissage de façon aussi stricte qu’un appareil.</p>
+          <p xml:id="d1e546">Ces machines à entraîner, à exercer, à corriger,
+          à éduquer, à fortifier, à automatiser, à égaliser, à mécaniser
+          étaient arrivées au moment où l’Europe se couvrait de pianistes
+          virtuoses et où la demande de formation rapide et efficace était en
+          pleine explosion. Ces engins dont l’usage demeura malgré tout
+          marginal donnaient à voir un condensé de la façon dont les
+          entrepreneurs en progrès musical combinaient l’effort individuel et
+          une idéologie exaltant les vertus héroïques. Les machines n’étaient
+          en quelque sorte que la partie visible d’un projet d’agrandissement
+          du musicien normal dont la littérature musicale elle-même porta les
+          traces.</p>
+          <figure xml:id="d1e553">
+            <graphic url="../icono/br/LDSII_06_Campos_GesteMusicalPiano_img3.png"/>
+            <head xml:id="d1e557">
+              <hi rend="small-caps">Gouget</hi>, 1898,
+            p. 225, 228 et 229.</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e569">
+          <head subtype="level1" xml:id="d1e571">La partition comme
+          matrice</head>
+          <p xml:id="d1e574">L’étude est le genre le plus emblématique du
+          monde pédagogique surgi à la fin du <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi>
+            </date> et au début du <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>, du développement massif de la
+          pratique amateur, de la croissance du secteur éditorial et de la
+          valorisation du virtuose au concert. Dans son <hi rend="italic">Dictionnaire de musique</hi>, Castil-Blaze définit
+          ainsi les études :</p>
+          <quote rend="quotation" xml:id="d1e595">Sortes de compositions dont
+          le thème est un passage difficile, calqué sur une manière de doigter
+          particulière et scabreuse. On essaye ce passage dans un grand nombre
+          de modulations, sur toutes les positions de l’instrument, et en lui
+          donnant les développements dont il est susceptible. Les <hi rend="italic">études</hi> n’étant destinées qu’au travail de
+          cabinet, et à familiariser l’élève avec les difficultés de tous les
+          genres qu’il rencontrera ensuite dans les sonates et les concertos
+          des maîtres fameux, on ne s’attache nullement à les rendre agréables
+          à l’oreille<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>
+                <hi rend="small-caps">Castil-Blaze</hi>, 1821, p.223.</p>
+            </note>.</quote>
+          <p xml:id="d1e610">Les pièces relevant du nouveau genre se
+          distinguent de la littérature courante parce que leur matériau se
+          fonde presque exclusivement sur le mécanisme instrumental, et non
+          pas sur des idées mélodiques. La substance d’une étude n’a pas
+          besoin d’être « agréable à l’oreille », car elle ne relève pas du
+          registre esthétique normal : elle est le rouage d’un dispositif
+          didactique global où la gymnastique digitale est conçue comme une
+          fin en soi.</p>
+          <p xml:id="d1e613">Chez les utilisateurs d’appareils correcteurs, le
+          paradigme est plus visible encore, l’exercice musical semblant
+          directement engendré par la machine. Dans les <hi rend="italic">1000 exercices pour l’emploi du dactylion, instrument
+          à ressorts, destiné à délier et à fortifier les doigts, à les rendre
+          indépendants les uns des autres et à donner au jeu l’égalité
+          nécessaire pour acquérir une belle exécution sur le piano</hi> de
+          Henri Herz (1836), le matériau se resserre autour de la main. Chacun
+          des mille exercices miniatures du recueil est construit sur cinq
+          notes sans changement de position. Le musicien tout entier se fige
+          dans une immobilité contrôlable à loisir (« En travaillant ces
+          exercices, il faut que les notes soient exécutées également et sans
+          aucun mouvement de la main ni du corps<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Herz [1836], p. 7</p>
+            </note> »).</p>
+          <p xml:id="d1e626">Avant que l’étude ne cristallise le procédé,
+          l’idée de composer exclusivement à partir de gestes instrumentaux
+          était apparue dans le milieu des virtuoses au tournant du siècle.
+          L’un des premiers musiciens à sacrifier à la nouvelle formule est
+          <persName ref="066973821" type="idref" xml:base="https://www.idref.fr/">Muzio Clementi</persName> (<date from="1752" ref="_temp" to="1832">1752-1832</date>). Le recueil qui
+          fit la célébrité de ce champion de l’ancienne école n’est pas un
+          livre d’études à proprement parler, mais une anthologie
+          d’« exercices » agencés progressivement en trois livres : <hi rend="italic">
+              <foreign xml:lang="lat">Gradus ad Parnassum</foreign>
+            </hi>
+            <note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Clementi, 1817, 1819 et 1826.</p>
+            </note>. Bien qu’il n’emploie jamais le mot <hi rend="italic">étude</hi>, <persName ref="066973821" type="idref" xml:base="https://www.idref.fr/">Clementi</persName> conçoit une
+          collection d’exercices bien différents de ceux composés sous l’<date ref="_temp">Ancien Régime</date>. Les anciennes leçons étaient
+          attachées aux traités et aux méthodes dont elles étaient les
+          applications pratiques. Peu d’entre elles étaient composées en
+          fonction de la morphologie de l’instrument concerné. <persName ref="03051889X" type="idref" xml:base="https://www.idref.fr/">Philippe Lescat</persName> souligne
+          même « l’identité du répertoire entre la musique vocale et
+          instrumentale », les mouvements de danse ou les ariettes étant
+          souvent utilisés pour l’apprentissage instrumental<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>
+                <hi rend="small-caps">Lescat</hi>, 1991, p. 120</p>
+            </note>. Le <hi rend="italic">Gradus </hi>de Clementi inaugure une
+          nouvelle ère où le matériau musical résulte de dispositions
+          digitales et où l’obsession du bon doigté l’emporte sur le souci du
+          bon goût.</p>
+          <p xml:id="d1e660">Le plus célèbre auteur d’études de la <date from="1800" ref="_temp" to="1849">première moitié du <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date> est
+          sans aucun doute <persName ref="086014617" type="idref" xml:base="https://www.idref.fr/">Carl Czerny</persName> (<date from="1791" ref="_temp" to="1857">1791-1857</date>). Brillant
+          pédagogue qui eut Franz Liszt pour élève après avoir été lui-même un
+          proche collaborateur de <persName ref="026714329" type="idref" xml:base="https://www.idref.fr/">Beethoven</persName>, il est
+          l’auteur du parangon du genre : <hi rend="italic">L’Art de délier
+          les doigts</hi> (1844). Le volume est organisé en fonction d’une
+          matière sonore issue des positions des mains sur le clavier comme
+          l’indiquent les titres des pièces : « Mouvement des doigts en
+          laissant reposer la main », par exemple. L’élaboration
+          compositionnelle est minimale et la partition est réduite à un
+          canevas inexpressif : le rythme tourne au mouvement perpétuel (ce
+          qui revient à l’annihiler), les phrasés sont presque supprimés, la
+          structure formelle est réduite à sa plus simple expression et se
+          répète de pièce en pièce, enfin le matériau est moins développé que
+          transposé dans le plus de configurations possibles.</p>
+          <p xml:id="d1e678">Le succès des pièces de mécanisme fut foudroyant.
+          Au sein de l’industrie éditoriale, l’étude fut le genre phare du
+          secteur pédagogique. La demande augmentant de façon exponentielle,
+          l’on vit apparaître des auteurs spécialisés (tels <persName type="_temp">Bertini</persName>, <persName type="_temp">Hanon</persName>, <persName type="_temp">Heller</persName>, <persName type="_temp">Herz</persName>, <persName type="_temp">Kalkbrenner</persName>, <persName type="_temp">Moscheles</persName>, <persName type="_temp">Moszkowski</persName>, <persName ref="114254656" type="idref" xml:base="https://www.idref.fr/">Isidore
+          Philipp</persName> ou <persName ref="080734464" type="idref" xml:base="https://www.idref.fr/">Thalberg</persName>) enrichissant
+          les catalogues en produits toujours plus finement profilés : études
+          pour tel ou tel âge, pour le matin ou la soirée, pour fortifier un
+          doigt ou une articulation. Les ramifications du genre sont un indice
+          de l’extension des techniques de contrôle dont il a déjà été
+          question. L’étude pour débutants est le préalable à l’exécution
+          d’études de virtuosité avant les études transcendantes réservées aux
+          artistes chevronnés, selon des emboîtements vertigineux comme avec
+          cet ouvrage de Jean-Baptiste Duvernoy : <hi rend="italic">École du
+          mécanisme. 15 études pour le piano composées expressément pour
+          précéder celles de la vélocité de Czerny</hi> ; ou encore avec le
+          recueil d’Elie-M. Feigerl : <hi rend="italic">20 études pour le
+          piano composées pour servir d’introduction aux études de Cramer,
+          Moscheles, etc.</hi> Au siècle suivant, les classiques de l’étude
+          pourront même être accompagnés de gloses analytiques comme dans la
+          collection des « Éditions de Travail », publiées sous la direction
+          d’<persName ref="033476934" type="idref" xml:base="https://www.idref.fr/">Alfred Cortot</persName>, où paraît
+          en <date ref="_temp" when="1945">1945</date> un <hi rend="italic">Choix d’études célèbres de M. Clementi – J. B. Cramer
+          – Ch. Mayer – J. Moscheles – J. C. Kessler – Th. Kullak –
+          J. Brahms</hi> réalisé par Pierre Lucas.</p>
+          <p xml:id="d1e693">Les études ne sont pas de simples textes
+          musicaux. Quadrillant toutes les époques de l’instruction musicale
+          (du berceau à la tombe), elles structurent aussi l’emploi du temps
+          quotidien de l’étudiant. <persName type="_temp">Czerny</persName>
+          fait ainsi paraître au <date ref="_temp" when="1835">milieu des
+          années 1830</date> des <hi rend="italic">Exercices journaliers pour
+          atteindre et conserver le plus haut degré de perfection sur le piano
+          consistant en 40 études avec des répétitions prescrites</hi>.
+          L’ouvrage se présente comme un agenda permettant d’organiser le
+          temps de l’étude et rendant impossible toute distraction. À
+          l’échelon inférieur, l’usage du métronome est recommandé pour
+          garantir la régularité à la répétition des séquences. Sur
+          l’exemplaire que nous avons consulté<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>
+                <hi rend="small-caps">Czerny</hi> [1834-1835], Bibliothèque
+              du Conservatoire de musique de Genève : [Rpg 625].</p>
+            </note>, les annotations manuscrites vont dans le même sens : un
+          professeur a indiqué le minutage de certains exercices et le nombre
+          de fois où ils doivent être travaillés chaque jour.</p>
+          <p xml:id="d1e711">La rationalisation du temps pédagogique et
+          l’organisation du travail font l’objet d’intenses réflexions dans le
+          courant du siècle. Chez les musiciens, la rupture sera consommée
+          avec les pratiques traditionnelles où le maître se faisait une
+          gloire de s’adapter au rythme d’acquisition de son élève, composant
+          ses exercices sur mesure au fil des leçons. La pédagogie rénovée
+          consiste à sculpter le corps à chaque instant de l’étude en
+          utilisant la partition comme un moule ou une matrice que des
+          instruments mécaniques viendront éventuellement redoubler.</p>
+          <p xml:id="d1e714">
+            <hi rend="italic">La Semaine du pianiste. Recueil
+          des exercices quotidiens de Marie Panthès </hi>montre la permanence
+          tardive (<date type="_temp" when="1932">1932</date>) des procédés de
+          l’âge d’or de la virtuosité. Le mot essentiel est le même qu’un
+          siècle auparavant : <hi rend="italic">mécanisme</hi>. Mais si elle
+          continue à partir du principe que le corps doit être dressé,
+          <persName type="_temp">Marie Panthès</persName> se méfie des effets
+          pervers de la <hi rend="italic">gymnastique digitale </hi>qu’un <hi rend="italic">Avis important</hi> tente de conjurer :</p>
+          <quote rend="quotation" xml:id="d1e730">L’étude consciente et
+          consciencieuse de la technique ne doit pas conduire à la
+          « mécanisation » du jeu. Au travail digital doit correspondre un
+          travail cérébral équivalent. Pour éviter que, par la répétition
+          nécessaire d’une même formule pianistique, la pensée ne s’endorme,
+          il faut s’astreindre à changer sans cesse la nature et l’ordre des
+          difficultés. L’imagination, toujours en éveil, est seule capable de
+          créer une technique vivante<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>
+                <hi rend="small-caps">Panthès</hi>, 1932, p. 2.</p>
+            </note>.</quote>
+          <p xml:id="d1e742">À force de s’abandonner à des dispositifs qui ne
+          demandent pas de penser mais de faire, à force de laisser le corps
+          aller où des partitions vidées de musique le mènent, l’élève risque
+          de se transformer en automate, et cela d’autant plus que l’ouvrage
+          de <persName type="_temp">Panthès</persName> avait poussé à son
+          maximum la décomposition des embûches en difficultés toujours plus
+          petites (la section « Préparation aux ornements », par exemple,
+          ressasse dans tous les tons une oscillation sur deux notes ramenées
+          à des unités premières).</p>
+          <p xml:id="d1e745">Chez <persName type="_temp">Panthès</persName>,
+          il n’existe pas de pièces pour les commençants qui soient distinctes
+          de celles pour les pianistes confirmés ; ce sont les mêmes que l’on
+          joue, de semaine en semaine, d’abord lentement puis au <hi rend="italic">
+              <foreign xml:lang="ita">tempo</foreign>
+            </hi> définitif. Pourquoi emploierait-on des moules distincts
+          alors que l’on ne recherche pas une éducation progressive et
+          personnalisée mais l’application des résultats d’une observation
+          rationnelle à des corps interchangeables dont les propriétés
+          physiologiques sont les mêmes chez l’enfant, l’adolescent ou
+          l’adulte ?</p>
+          <p xml:id="d1e751">L’idéal sonore promu dans <hi rend="italic">La
+          Semaine du pianiste</hi> est celui d’un son purifié de toutes
+          aspérités, obtenu par un toucher d’une égalité absolue<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>
+                <hi rend="italic">Ibid</hi>., « Égalisation du toucher »,
+              p. 4.</p>
+            </note> faisant oublier la corporéité au profit d’une idée quasi
+          métaphysique du son que les progrès de l’enregistrement mécanique ne
+          feront qu’amplifier tout au long du siècle.</p>
+        </div>
+        <div type="section1" xml:id="d1e767">
+          <head subtype="level1" xml:id="d1e769">Une pensée par
+          gestes ?</head>
+          <p xml:id="d1e772">Lorsqu’il se produit sur les scènes parisiennes à
+          l’époque de sa gloire<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>
+                <hi rend="small-caps">Reynaud</hi>, 2006.</p>
+            </note>, <persName ref="026991535" type="idref" xml:base="https://www.idref.fr/">Franz Liszt</persName> éblouit par
+          sa virtuosité technique mais aussi par son talent à s’adresser aux
+          foules :</p>
+          <quote rend="quotation" xml:id="d1e784">Enfin, <persName ref="026991535" type="idref" xml:base="https://www.idref.fr/">Liszt</persName> a paru au piano.
+          […] comment caractériser un pareil phénomène ! Rien ne l’arrête,
+          rien n’entrave sa marche ; ce ne sont pas ses mains qui jouent du
+          piano, mais bien sa pensée, son âme, son cœur. Ses doigts obéissent
+          à son inspiration, comme les touches du piano obéissent à ses
+          doigts. Il bondit sur le superbe instrument, il pleure, il sanglote,
+          il succombe et se relève fier ; il rêve et soupire, se passionne
+          jusqu’à la frénésie, se prosterne dans une contemplation
+          religieuse ; joue et folâtre comme un jeune tigre, puis vous éblouit
+          jusqu’à en perdre la vue, vous fascine, vous écrase, et vous jette
+          en finissant un coup de foudre comme pour achever la consternation
+          où vous plonge son génie. Oui, génie et non pas talent. Il faut le
+          voir, il faut l’entendre ; il faut suivre son œil humide cherchant
+          dans la foule l’œil sur la sympathie duquel il compte, le cœur dont
+          il sait être compris. Pendant qu’il frémissait comme la pythonisse
+          sur son trépied, ses regards se portaient presque constamment sur un
+          jeune artiste. Avons-nous besoin de dire que cet artiste était
+          <persName ref="027281361" type="idref" xml:base="https://www.idref.fr/">Hector Berlioz</persName> ?
+          L’exécutant ne pouvait pas mieux s’adresser : <persName ref="027281361" type="idref" xml:base="https://www.idref.fr/">Berlioz</persName> était l’écho
+          qu’il fallait à <persName ref="026991535" type="idref" xml:base="https://www.idref.fr/">Liszt</persName>
+            <note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>
+                <hi rend="small-caps">Ortigue</hi> (<hi rend="small-caps">d’</hi>), 1833, p. 301.</p>
+            </note>.</quote>
+          <p xml:id="d1e799">Pour <persName type="_temp">Joseph
+          d’Ortigue</persName>, auteur de ce compte rendu, la question du
+          mécanisme est assez secondaire. Les mains disparaissent aux yeux (et
+          aux oreilles) du public dans un suprême mouvement transcendant qui
+          fait du pianiste une âme s’adressant à d’autres âmes. Tandis que les
+          aspects matériels de la virtuosité s’effacent, le corps de <persName ref="026991535" type="idref" xml:base="https://www.idref.fr/">Liszt</persName> se transforme en
+          un instrument persuasif. Car le spectacle de ses gesticulations et
+          de ses postures n’est pas seulement un résidu de la <hi rend="italic">performance</hi>. Dans un univers artistique où
+          l’orateur est un modèle absolu<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>
+                <hi rend="small-caps">Barth</hi>, 1992.</p>
+            </note>, l’économie des gestes du pianiste est savamment composée
+          pour placer le public sous son empire. Les caricaturistes moquaient
+          alors les exagérations de l’artiste, toutefois on retrouve dans
+          beaucoup de méthodes les règles d’une éloquence corporelle moins
+          échevelée mais tout aussi capitale. De la posture générale aux
+          mouvements spécifiques, les pédagogues continuaient à enseigner bien
+          après la fin de l’<date ref="_temp">Ancien Régime</date>
+            <note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>
+                <hi rend="small-caps">Marbu</hi>, 2001.</p>
+            </note> la manière de combiner disposition « naturelle » et
+          réflexes récemment acquis de l’instrumentiste<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Les premières pages de la méthode de Baillot règlent ainsi
+              jusqu’à la position des pieds et leur distance du pupitre et
+              distinguent la pose debout de l’attitude assise (Pierre <hi rend="small-caps">Baillot</hi>, <hi rend="italic">L’Art du
+              violon. Nouvelle méthode dédiée à ses élèves…</hi>, Paris,
+              1834).</p>
+            </note>.</p>
+          <p xml:id="d1e838">Jusque dans la <date from="1850" ref="_temp" to="1899">seconde moitié du <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>, tout musicien est un créateur
+          potentiel. La rhétorique est un art pratiqué au quotidien aussi bien
+          par les instrumentistes que par les chanteurs. Prenons le cas des
+          arts de préluder qui se multiplient dans la <date from="1800" ref="_temp" to="1849">première moitié du XIXe siècle</date>. Tantôt
+          insérés dans les méthodes de piano, tantôt détachés dans des traités
+          autonomes, ces manuels se présentent comme des catalogues de gestes
+          instrumentaux inextricablement liés à du matériau compositionnel. À
+          l’instar des cellules utilisées dans les études, les formules
+          d’improvisation sont apprises par la répétition et le déplacement
+          des mains sur le clavier. Mais, à la différence des études qui
+          étaient vouées à se dissoudre dans les diverses pièces jouées
+          ensuite en public, la matière du prélude doit pouvoir être utilisée
+          lors des prestations du pianiste, avec toutefois certaines
+          précautions que <persName type="_temp">Czerny</persName> livre à ses
+          lecteurs en conclusion d’une volée d’exemples composés pour son <hi rend="italic">Art d’improviser :</hi> « Naturellement on doit
+          pouvoir transposer ces exemples et d’autres semblables dans tous les
+          tons, aux traits notés substituer d’autres traits analogues, et en
+          général donner à son exécution tant de facilité et d’aisance, que
+          les préludes portent bien le caractère d’une inspiration
+          instantanée : car jamais ils ne produisent moins d’effet que
+          lorsqu’ils ont l’air d’avoir été préparés d’avance<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>
+                <hi rend="small-caps">Czerny</hi>, 1829, p. 7.</p>
+            </note>. » Conjuguant art de mémoire et matérialité du clavier,
+          les formules assimilées au piano sont des <hi rend="italic">lieux</hi> instrumentaux.</p>
+          <p xml:id="d1e869">Bien au-delà des méthodes d’improvisation, la
+          question de l’empreinte digitale du matériau compositionnel est
+          cruciale au <date from="1800" ref="_temp" to="1899">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi>
+            </date> et au <date from="1900" ref="_temp" to="1999">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date>, que
+          les musiciens aient cherché à s’en dégager ou qu’ils l’aient au
+          contraire cultivée. Dans les conservatoires, l’engouement pour le
+          concours sur table (où les candidats n’ont le droit d’utiliser que
+          leur oreille intérieure pour réaliser les textes des épreuves
+          d’harmonie ou de contrepoint) peut ainsi être lu comme un effort
+          paradoxal pour soustraire les apprentis à une évidence pourtant
+          incontournable : dans la plupart des classes de ces établissements,
+          le piano est la principale matrice de l’écriture de la musique<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>
+                <hi rend="small-caps">Campos</hi>, 2009.</p>
+            </note>. Rares sont ceux qui protestent contre la tyrannie du
+          clavier. Dans son pamphlet <hi rend="italic">De la mauvaise
+          influence du piano sur l’art musical</hi> (1885), Louis Pagnerre
+          attaque en particulier ceux qu’il appelle les « claviéristes », ces
+          musiciens analphabètes n’ayant ni appris sérieusement la
+          composition, ni consulté les bons traités : « Ils abordent
+          l’orchestre, ne voyant dans les instruments et dans le chœur des
+          voix humaines qu’une suite de touches. Ils reconstituent leur
+          clavier et y rapportent tout<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>
+                <hi rend="small-caps">Pagnerre</hi>, 1885, p. 127</p>
+            </note>. » À l’heure où l’instrumentation est le sommet de
+          l’exercice de l’écoute interne, une telle désinvolture est devenue
+          intolérable. La complexification des alliages de timbres dans le
+          courant du siècle met en demeure les créateurs de pouvoir spéculer
+          sur les combinaisons instrumentales et disqualifie par avance toute
+          transposition sans précaution des « traits de piano » à
+          l’orchestre :</p>
+          <quote rend="quotation" xml:id="d1e911">Pour lui [le claviériste],
+          les instruments se suivent, s’ils ne se ressemblent pas. Leur
+          ensemble forme une série de touches. La petite flûte n’est que le
+          complément de la grande flûte ; c’est-à-dire qu’elle pourra lui
+          succéder sans inconvénient.<lb/>Ces deux instruments ne doivent-ils
+          pas avoir le même timbre puis-qu’ils ont le même nom ? Erreur ! […]
+          La petite flûte n’est que l’extrémité droite du clavier, et on aime
+          à travailler dans ces régions élevées<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>
+                <hi rend="italic">Ibid</hi>., p. 129.</p>
+            </note>.</quote>
+          <p xml:id="d1e925">En posant le problème de la « routine » du <hi rend="italic">claviériste</hi>, <persName ref="101320477" type="idref" xml:base="https://www.idref.fr/">Pagnerre</persName>
+          soulève la question essentielle de la définition de la notion
+          d’instrument de musique. À l’évidence, le piano n’était pas
+          seulement le <hi rend="italic">
+              <foreign xml:lang="lat">medium</foreign>
+            </hi> aidant à la réalisation des partitions. Il imprégnait en
+          amont les plus infimes gestes créatifs de la plupart des
+          compositeurs.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e939">
+        <head xml:id="d1e941">Bibliographie</head>
+        <listBibl xml:id="d1e944">
+          <head subtype="level2" xml:id="d1e946">Sources</head>
+          <bibl xml:id="d1e949">
+            <hi rend="small-caps">Castil-Blaze</hi>,
+          1821 : <hi rend="small-caps">Castil-Blaze</hi>, <hi rend="italic">Dictionnaire de musique moderne par
+          M. Castil-Blaze</hi>, Paris, 2 vol.</bibl>
+          <bibl xml:id="d1e961">
+            <hi rend="small-caps">Clementi</hi>, 1817,
+          1819 et 1826 : Muzio <hi rend="small-caps">Clementi</hi>, <hi rend="italic">Gradus ad Parnassum ou l’Art de jouer du piano
+          démontré par des exercices dans le style sévère et dans le style
+          élégant</hi>, Leipzig / Paris, 3 vol.</bibl>
+          <bibl xml:id="d1e973">
+            <hi rend="small-caps">Czerny</hi>, 1829 : Carl
+          <hi rend="small-caps">Czerny</hi>, <hi rend="italic">L’Art
+          d’improviser mis à la portée des pianistes</hi>, Paris.</bibl>
+          <bibl xml:id="d1e985">
+            <hi rend="small-caps">Czerny</hi> [1834-1835] : C. <hi rend="small-caps">Czerny</hi>, <hi rend="italic">Exercices
+          journaliers pour atteindre et conserver le plus haut degré de
+          perfection sur le piano consistant en 40 études avec des répétitions
+          prescrites</hi>, <hi rend="italic">op</hi>. 337, Paris.</bibl>
+          <bibl xml:id="d1e1001">
+            <hi rend="small-caps">Czerny</hi>, 1844 : C.
+          <hi rend="small-caps">Czerny</hi>, <hi rend="italic">L’Art de délier
+          les doigts opus 740</hi>, Vienne.</bibl>
+          <bibl xml:id="d1e1013">
+            <hi rend="small-caps">Gouget</hi>, 1898 :
+          Émile <hi rend="small-caps">Gouget</hi>, <hi rend="italic">Histoire
+          musicale de la main : son rôle dans la notation, la tonalité, le
+          rythme et l’exécution instrumentale : la main des musiciens devant
+          les sciences occultes</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1025">
+            <hi rend="small-caps">Hampol</hi> (<hi rend="small-caps">d’</hi>), 1904 : Léo <hi rend="small-caps">d’Hampol</hi>, « La main des virtuoses », <hi rend="italic">Musica</hi>, juin, p. 328-329.</bibl>
+          <bibl xml:id="d1e1040">
+            <hi rend="small-caps">Herz</hi> [1836] :
+          Henri <hi rend="small-caps">Herz</hi>, <hi rend="italic">1000
+          exercices pour l’emploi du dactylion, instrument à ressorts, destiné
+          à délier et à fortifier les doigts, à les rendre indépendants les
+          uns des autres et à donner au jeu l’égalité nécessaire pour acquérir
+          une belle exécution sur le piano… 1000 Uebungen für den Gebrauch des
+          Dactylion…</hi>, Mayence.</bibl>
+          <bibl xml:id="d1e1052">
+            <hi rend="small-caps">Kalkbrenner</hi>,
+          1831 : Frédéric <hi rend="small-caps">Kalkbrenner</hi>, <hi rend="italic">Méthode pour apprendre le piano-forte à l’aide du
+          guide-mains, contenant les Principes de Musique, un système complet
+          de doigter, la classification des Auteurs à étudier, des Règles sur
+          l’expression, sur la manière de phraser, sur la Ponctuation
+          Musicale, &amp;c. suivie de douze Études, dédiée aux Conservatoires
+          de Musique d’Europe…</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1064">
+            <hi rend="small-caps">Levacher</hi>
+            <hi rend="small-caps">d’Urclé</hi>, 1846 : Félix <hi rend="small-caps">Levacher</hi>
+            <hi rend="small-caps">d’Urclé</hi>,
+          <hi rend="italic">De l’anatomie de la main considérée dans ses
+          rapports avec l’exécution de la musique instrumentale ou Nouvelle
+          méthode instrumentale raisonnée…</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1083">
+            <hi rend="small-caps">Logier</hi> [1814] :
+          Johann Bernhard <hi rend="small-caps">Logier</hi>, <hi rend="italic">An Explanation and Description of the Royal Patent
+          Chiroplast, or Hand-Director</hi>, Londres.</bibl>
+          <bibl xml:id="d1e1095">
+            <hi rend="small-caps">Logier</hi>, s. d. :
+          J. B. <hi rend="small-caps">Logier</hi>, <hi rend="italic">Compagnon
+          du chiroplaste ou Méthode de piano</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1107">
+            <hi rend="small-caps">Martin</hi>, 1843 :
+          Casimir <hi rend="small-caps">Martin</hi>, <hi rend="italic">Méthode
+          de chirogymnaste ou gymnase des doigts</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1119">
+            <hi rend="small-caps">Ortigue</hi> (<hi rend="small-caps">d’</hi>), 1833 : Joseph <hi rend="small-caps">d’Ortigue</hi>, « Revue musicale. Concerts. – […]
+          Concert dans les salons de M. Dietz. […] », <hi rend="italic">La
+          Quotidienne</hi>, 24 janvier (reproduit dans : Joseph <hi rend="small-caps">d’Ortigue</hi>, <hi rend="italic">Écrits sur la
+          musique : 1827-1846, textes réunis, présentés et annotés par Sylvia
+          L’Écuyer</hi>, Paris, 2003, p. 301-302).</bibl>
+          <bibl xml:id="d1e1141">
+            <hi rend="small-caps">Pagnerre</hi>, 1885 :
+          Louis <hi rend="small-caps">Pagnerre</hi>, <hi rend="italic">De la
+          mauvaise influence du piano sur l’art musical. Étude sur les
+          instruments à clavier. Clavicorde – Clavecin – Piano</hi>,
+          Paris.</bibl>
+          <bibl xml:id="d1e1153">
+            <hi rend="small-caps">Panthès</hi>, 1932 :
+          Marie <hi rend="small-caps">Panthès</hi>, <hi rend="italic">La
+          Semaine du pianiste. Recueil des exercices quotidiens de Marie
+          Panthès</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1166">
+            <hi rend="small-caps">Unschuld</hi>
+            <hi rend="small-caps">de</hi>
+            <hi rend="small-caps">Melasfeld</hi>,
+          1902 : Marie <hi rend="small-caps">Unschuld</hi>
+            <hi rend="small-caps">de</hi> <hi rend="small-caps">Melasfeld</hi>, <hi rend="italic">La Main du pianiste : instructions méthodiques d’après
+          les principes de M. le Professeur Leschetitzky pour acquérir un
+          mécanisme brillant et sûr</hi>, Leipzig.</bibl>
+          <bibl xml:id="d1e1191">
+            <hi rend="small-caps">Selva</hi>, 1915 :
+          Blanche <hi rend="small-caps">Selva</hi>, <hi rend="italic">Le
+          Travail technique du piano. Choix d’Exercices et d’Études avec la
+          manière de les travailler et les doigtés par Blanche Selva. L’Étude
+          des octaves d’après Th. Kullak</hi>, Paris.</bibl>
+        </listBibl>
+        <listBibl xml:id="d1e1204">
+          <head subtype="level2" xml:id="d1e1206">Autres références</head>
+          <bibl xml:id="d1e1209">
+            <hi rend="small-caps">Barth</hi>, 1992 :
+          George <hi rend="small-caps">Barth</hi>, <hi rend="italic">The
+          Pianist as Orator : Beethoven and the Transformation of Keyboard
+          Style</hi>, Ithaca (N. Y.).</bibl>
+          <bibl xml:id="d1e1221">
+            <hi rend="small-caps">Bödeker</hi>, <hi rend="small-caps">Veit</hi> et <hi rend="small-caps">Werner</hi>,
+          2002 : Hans Erich <hi rend="small-caps">Bödeker</hi>, Patrice <hi rend="small-caps">Veit</hi> et Michael <hi rend="small-caps">Werner</hi> (dir.), <hi rend="italic">Le Concert
+          et son public : mutations de la vie musicale en Europe de 1780 à
+          1914 (France, Allemagne, Angleterre)</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1246">
+            <hi rend="small-caps">Campos</hi>, 2009 :
+          Rémy <hi rend="small-caps">Campos</hi>, « L’analyse musicale en
+          France au <hi rend="small-caps">xx</hi>
+            <hi rend="sup">e</hi> siècle : discours, techniques et usages », in Rémy
+          Campos et Nicolas Donin (dir.), <hi rend="italic">L’Analyse
+          musicale, une pratique et son histoire</hi>, Genève.</bibl>
+          <bibl xml:id="d1e1264">
+            <hi rend="small-caps">Campos</hi>, <hi rend="small-caps">Donin</hi> et <hi rend="small-caps">Keck</hi>,
+          2006 : Rémy <hi rend="small-caps">Campos</hi>, Nicolas <hi rend="small-caps">Donin</hi> et Frédéric <hi rend="small-caps">Keck</hi> (dir.), « Musique et sciences humaines.
+          Rendez-vous manqués ? », <hi rend="italic">Revue d’histoire des
+          sciences humaines</hi>, 14.</bibl>
+          <bibl xml:id="d1e1290">
+            <hi rend="small-caps">Corre</hi>, 1997 :
+          Christian <hi rend="small-caps">Corre</hi>, « Marie
+          Jaëll (1846-1925) : la virtuosité musicale entre l’art et la
+          science », in Anne Penesco (éd.), <hi rend="italic">Défense et
+          illustration de la virtuosité</hi>, Lyon, p. 141-154.</bibl>
+          <bibl xml:id="d1e1302">« La virtuosité », 2005 : « La virtuosité »,
+          <hi rend="italic">Romantisme : revue du </hi>
+            <hi rend="small-caps italic">xix</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> siècle</hi>, 128.</bibl>
+          <bibl xml:id="d1e1317">
+            <hi rend="small-caps">Lescat</hi>, 1991 :
+          Philippe <hi rend="small-caps">Lescat</hi>, <hi rend="italic">Méthodes et traités musicaux en France, 1660-1800 :
+          réflexions sur l’écriture de la pédagogie musicale en France,
+          suivies de catalogues systématiques et chronologiques, de repères
+          biographiques et bibliographiques</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1329">
+            <hi rend="small-caps">Mabru</hi>, 2001 :
+          Lothaire <hi rend="small-caps">Mabru</hi>, « Vers une culture
+          musicale du corps », <hi rend="italic">Cahiers de musiques
+          traditionnelles</hi>, 14, p. 95-110.</bibl>
+          <bibl xml:id="d1e1341">
+            <hi rend="small-caps">Reynaud</hi>, 2006 :
+          Cécile <hi rend="small-caps">Reynaud</hi>, <hi rend="italic">Liszt
+          et le virtuose romantique</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1353">
+            <hi rend="small-caps">Rousselin-Lacombe</hi>,
+          1991 : Anne <hi rend="small-caps">Rousselin-Lacombe</hi>, « Piano et
+          pianistes », <hi rend="italic">La Musique à l’époque
+          romantique (1830-1870)</hi>, Paris, p. 125-166.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

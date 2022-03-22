@@ -1,0 +1,1376 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LDSII_33_Berra_Thesaurus">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Manier le thésaurus grec</title>
+        <title type="collection">Lieux de savoir 2</title>
+        <author role="aut">
+          <forename>Aurélien</forename>
+          <surname>Berra</surname>
+          <idno type="IDREF">137493770</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2020">2020</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Albin
+          Michel CC BY-NC-ND 3.0 Attribution - Pas d’Utilisation Commerciale -
+          Pas de Modification</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/X8M82LN7" type="bookSection" xml:lang="fre">
+          <analytic>
+            <title level="a">Manier le thésaurus grec</title>
+            <author>
+              <forename>Aurélien</forename>
+              <surname>Berra</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Lieux de savoir</title>
+            <idno type="ISBN">978-2-226-18729-1</idno>
+            <editor>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <biblScope unit="volume">2. Les mains de l'intellect</biblScope>
+              <biblScope unit="nb_volumes">2</biblScope>
+              <biblScope unit="page">555-578</biblScope>
+              <publisher>Albin Michel</publisher>
+              <date>2011</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="grc"/>
+        <language ident="lat"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-07-26T08:31:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Manier le thésaurus grec</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Aurélien Berra</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="d1e111">
+        <p xml:id="d1e113">Une conférencière vient d’analyser les explications
+        antiques d’un épisode célèbre de l’<hi rend="italic">Iliade ;</hi> un
+        spécialiste de rhétorique l’interroge sur une scholie qu’elle a
+        traduite : selon le commentateur, les Siciliens <persName type="_temp">Corax</persName> et <persName type="_temp">Tisias</persName> auraient « orné » l’art de la parole.
+        Ne l’ont-ils pas plutôt « ordonné » et institué, comme le veut la
+        tradition ? Le verbe grec qui figure dans le texte, <hi rend="italic">
+            <foreign xml:lang="grc">kosmeô</foreign>
+          </hi>, peut avoir les deux sens. Pendant la discussion, un auditeur
+        ouvre son ordinateur portable. Il commence par y contrôler l’article
+        du dictionnaire de référence. Mais il s’agit en l’occurrence d’une
+        forme peu habituelle, <foreign xml:lang="grc">
+            <hi rend="italic">ek</hi>-<hi rend="italic">kosmeô</hi>
+          </foreign>, qui n’y
+        est pas répertoriée. Une rapide recherche lui permet de préciser que
+        le verbe ne se rencontre pourvu de ce préfixe que dans quatre textes.
+        Un auteur du <date from="0100" to="0199" type="_temp">
+            <hi rend="small-caps">ii</hi>
+            <hi rend="sup">e</hi> siècle</date> de notre
+        ère évoque les inscriptions qui « ornent » un temple de <placeName ref="263219" type="geonames" xml:base="https://www.geonames.org/">Delphes</placeName> ;
+        quelques siècles plus tard, sa remarque est glosée par deux érudits
+        anonymes. Le quatrième emploi connu figure dans le texte examiné<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>
+              <hi rend="italic">Scholies à l’Iliade</hi>, IX, 443 (T).</p>
+          </note>.</p>
+        <p xml:id="d1e150">En prétendant qu’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>
+        connaissait à la fois le nom et l’art de la rhétorique, le scholiaste
+        affirme que les fondateurs n’ont fait que perfectionner une invention
+        antérieure. Si l’on admet qu’il tente de concilier une information
+        attendue avec ce qu’il considère comme le témoignage du poète, les
+        deux interprétations sont envisageables : soit les premiers
+        techniciens ont conféré une belle apparence à ce qui existait
+        longtemps avant eux, soit ils ont organisé un ensemble de pratiques et
+        de savoirs. Ce ne sont pas des passages parallèles ni les autres
+        emplois du terme qui autoriseront à faire la part de la logique
+        singulière du passage et celle de la culture commune aux savants
+        grecs. Cependant, il faut avoir observé les usages du mot dans les
+        textes qui sont parvenus jusqu’à nous pour faire des hypothèses en
+        connaissance de cause, proposer une traduction du commentaire et
+        compléter la description de cette langue éteinte.</p>
+        <p xml:id="d1e153">Cette scène de la vie scientifique ne relève pas de
+        la fiction. Au moyen d’ordinateurs de plus en plus portatifs et de
+        moins en moins coûteux, les hellénistes accèdent à un gigantesque
+        corpus en cours de constitution depuis les <date from="1970" to="1979" type="_temp">années 1970</date>, dont les millions de mots sont
+        désormais reliés aux entrées du <hi rend="italic">Greek-English
+        Lexicon</hi> publié par <persName type="_temp">Liddell</persName> et
+        <persName type="_temp">Scott</persName> en 1843. Ce corpus est le <hi rend="italic">Thesaurus Linguae Graecae (TLG)</hi>. Présenter cet
+        outil fondamental, l’histoire dans laquelle il s’inscrit et les usages
+        qui en sont faits, ce n’est pas fournir un mode d’emploi ou un compte
+        rendu – du reste, nous n’avons pas affaire à un logiciel, mais avant
+        tout à une base de données, devenue « bibliothèque numérique » à l’ère
+        du réseau mondial. C’est bien plutôt explorer un « lieu » emblématique
+        des transformations de la philologie : en réfléchissant au maniement
+        de la bibliothèque grecque, on discerne les problèmes et les promesses
+        de la science des textes la plus contemporaine.</p>
+        <div type="section1" xml:id="d1e168">
+          <head subtype="level1" xml:id="d1e170">L’inventaire du trésor :
+          jadis, naguère et aujourd’hui</head>
+          <p xml:id="d1e173">Le fait que les études anciennes aient bénéficié
+          très tôt du développement des technologies informatiques est
+          assurément dû à l’importance des cultures latine et grecque dans le
+          monde occidental et à leur place dans l’éducation, dans
+          l’enseignement universitaire et dans la recherche. Ce sentiment
+          d’une valeur particulière, longtemps entretenu par les institutions,
+          avait en outre favorisé une exploitation aussi intensive
+          qu’extensive de la littérature classique. Non seulement le champ
+          était prêt à fournir aux machines des informations relativement
+          fiables et complètes, mais l’inventaire du « trésor » et le repérage
+          des textes avaient été conduits d’une façon extrêmement précise
+          depuis la <date ref="_temp">Renaissance</date>. Aux <date from="1800" ref="_temp" to="1899">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi>
+            </date> et <date from="1900" ref="_temp" to="1999">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècles</date>, les
+          textes canoniques avaient déjà fait l’objet de plusieurs éditions,
+          fondées sur les manuscrits et sur les corrections savantes. Pour les
+          spécialistes des langues, des littératures, des sociétés et des
+          monuments, les conventions de référence étaient si fermement
+          établies qu’elles possédaient l’efficacité d’un cadastre, au sein
+          d’une « science de l’<date ref="_temp">Antiquité</date> » hautement
+          organisée. Éditions des sources, traductions, commentaires, études,
+          lexiques, concordances et encyclopédies : une longue tradition avait
+          accumulé dans les bibliothèques des documents de divers niveaux qui
+          visaient à transmettre les matériaux culturels hérités, mais aussi à
+          fonder leur interprétation. Il fallait les mettre en relation, d’une
+          façon critique, selon des protocoles de citation et de renvoi
+          ouvrant la possibilité d’un contrôle par les lecteurs instruits et
+          par les pairs. En d’autres termes, un vaste ensemble de données et
+          de métadonnées avait été élaboré pour l’étude du monde antique.</p>
+          <p xml:id="d1e200">Pour resituer pleinement le <hi rend="italic">Thesaurus Linguae Graecae</hi>, ce « trésor de la
+          langue grecque », dans l’évolution des pratiques savantes, il
+          faudrait construire une perspective dont on cherche encore le lieu
+          et la formule. Cette histoire ne saurait se résumer à une
+          chronologie. Le défi est de comprendre la dynamique des sciences de
+          l’<date ref="_temp">Antiquité</date> modernes au sein du mouvement
+          des « humanités numériques », que l’on peut considérer comme
+          l’application de l’informatique aux sciences de la culture. Si cette
+          discipline en devenir – parfois désignée comme une
+          « interdiscipline » ou une « transdiscipline » – s’institutionnalise
+          à grande vitesse depuis les <date from="1990" to="1999" type="_temp">années 1990</date>, c’est à partir du <date type="_temp" when="1950">milieu du <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date> qu’elle s’est constituée et il est
+          évident qu’elle plonge ses racines dans une (pré)histoire longue et
+          complexe<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>Willard McCarty, auteur de la première grande réflexion sur
+              ce qu’il nomme <hi rend="italic">humanities computing </hi>(<hi rend="small-caps">McCarty</hi>, 2005 ; voir aussi <hi rend="small-caps">McCarty</hi>, 2003), a mis en chantier une
+              étude des relations compliquées qu’ont entretenues
+              l’informatique et la littérature. En ce qui concerne les <hi rend="italic">Classics</hi>, on peut se référer à un article de
+              Theodore Brunner, qui fut le directeur du <hi rend="italic">TLG
+              </hi>pendant un quart de siècle : <hi rend="small-caps">Brunner</hi>, 1993.</p>
+            </note>.</p>
+          <p xml:id="d1e246">Il suffira de s’interroger sur le nom anglo-latin
+          du <hi rend="italic">TLG </hi>pour apercevoir certains problèmes
+          cruciaux. À travers trois textes représentant ici trois âges de la
+          philologie, nous préciserons l’origine et la portée de la métaphore
+          qui fait d’une « langue » un « trésor ».</p>
+          <p xml:id="d1e252">Commençons par lire un article de dictionnaire
+          qui servira notre propos<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>L’orthographe et la présentation originales des sources sont
+              respectées. Les lecteurs qui ne sont pas familiers avec le latin
+              et le grec n’en percevront que plus rapidement les structures,
+              qui sont l’objet de nos remarques.</p>
+            </note> :</p>
+          <quote rend="quotation" xml:id="d1e262">
+            <hi rend="bold">THESAURUS,
+          THÉSAURUS, subst. masc.<lb/>
+            </hi>
+            <hi rend="bold">A. – </hi>
+            <hi rend="italic">LING. </hi>Lexique de philologie ou d’archéologie ;
+          dictionnaire renfermant le vocabulaire aussi complet que possible
+          d’une langue ancienne. Synon. <hi rend="italic">trésor. Thésaurus de
+          la langue latine</hi>. P. métaph. <hi rend="italic">Cette
+          institution mal connue </hi>[<hi rend="italic">l’internat des
+          hôpitaux</hi>] (…) <hi rend="italic">permet à une élite de jeunes
+          gens </hi>(…) <hi rend="italic">d’acquérir un incomparable
+          « thesaurus » organique, clinique, thérapeutique et, au bout du
+          compte, philosophique </hi>(L. Daudet, <hi rend="italic">Dev.
+          douleur</hi>, 1931, p. 6).</quote>
+          <quote rend="quotation" xml:id="d1e295">
+            <hi rend="bold">B.
+          – </hi>
+            <hi rend="italic">DOCUMENTOL. </hi>« Langage documentaire
+          fondé sur une structuration hiérarchisée d’un ou plusieurs domaines
+          de la connaissance et dans lequel les notions sont représentées par
+          des termes d’une ou plusieurs langues naturelles et les relations
+          entre notions par des signes conventionnels » (<hi rend="italic">Documentation 1</hi>985). <hi rend="italic">Thesaurus
+          de linguistique, de médecine ; thesaurus documentaire en
+          sociologie ; thesaurus de l’armement. Au moment de l’indexation des
+          documents, les mots-clés sont choisis d’après un thesaurus
+          hiérarchisé</hi> (…) <hi rend="italic">qui fait l’objet de refontes
+          successives</hi> (Funck, Moureau, dans <hi rend="italic">B. Bibl.
+          Fr.</hi>, t. 11, 1968, p. 343).</quote>
+          <quote rend="quotation" xml:id="d1e317">
+            <hi rend="bold">Prononc. :
+          </hi>[tez<hi rend="italic">ͻ</hi>
+            <hi rend="small-caps italic">r</hi>ys]. <hi rend="bold">Étymol. et Hist.
+          1. </hi>1904 « Recueil, lexique de philologie ou d’archéologie ;
+          dictionnaire exhaustif » (<hi rend="italic">Nouv. Lar. ill.</hi>) ;
+          <hi rend="bold">2. </hi>1962 docum. (B. C. Vickery, <hi rend="italic">Techn. mod. de docum. </hi>[trad. de l’angl.], Paris,
+          p. 22) ; 1964 (Cros-Gardin). 1 empr. au lat. <hi rend="italic">thesaurus</hi>, gr. θησαυρός (v. <hi rend="italic">trésor</hi>), empl. comme titre de lex. (R. Estienne,
+          <hi rend="italic">Dictionarium seu Latinae linguae thesaurus</hi>,
+          1531 ; H. Estienne, <hi rend="italic">Thesaurus graecae
+          linguae</hi>, 1572) ; 2 prob. empr. à l’angl. <hi rend="italic">thesaurus </hi>« liste de mots ou de concepts classés
+          d’après leur sens » (1852 dans <hi rend="italic">NED Suppl.</hi>2),
+          puis terme de docum. (1957, <hi rend="italic">ibid.</hi>), de même
+          orig. que 1.<lb/>
+            <hi rend="italic">Trésor de la langue
+          française</hi> (1971-1994)<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>
+                <hi rend="small-caps">Dendien</hi>, <hi rend="small-caps">Pierrel</hi> et <hi rend="small-caps">Quemada</hi>, 2004 <hi rend="italic">(TLFi)</hi>, version informatisée de <hi rend="small-caps">Imbs</hi> et <hi rend="small-caps">Quemada</hi>, 1971-1994 <hi rend="italic">(TLF)</hi>.</p>
+            </note>.</quote>
+          <p xml:id="d1e397">Ce <hi rend="italic">Trésor </hi>est
+          l’aboutissement de la plus grande entreprise lexicographique
+          du siècle dernier pour ce qui concerne le français. La structure de
+          l’entrée nous est familière. Deux sens du mot vedette sont
+          distingués par leur domaine d’origine, la « linguistique » et la
+          « documentologie ». Les définitions sont suivies d’exemples, qui
+          sont soit des syntagmes typiques, soit des emplois contenus dans des
+          citations. Les dates des extraits signalent l’antériorité du sens A,
+          aspect développé dans une rubrique finale consacrée à
+          l’« étymologie » et à l’« histoire » du mot. Quoique souvent
+          abrégées, les références bibliographiques suivent un format
+          standard, où la séquence maximale d’informations comporte auteur,
+          titre, lieu, date, tomaison et numéro de page.</p>
+          <p xml:id="d1e403">Un tel degré de précision ne s’explique pas
+          seulement par les exigences scientifiques des dictionnaires
+          contemporains. Il découle d’un processus de composition, car les
+          rédacteurs du <hi rend="italic">TLF </hi>se sont fondés sur les
+          2 600 textes des <date from="1800" ref="_temp" to="1899">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi>
+            </date> et <date from="1900" ref="_temp" to="1999">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date> que la
+          base informatique Frantext comprenait dans sa première version.
+          Entièrement indexé, ce corpus de textes littéraires et non
+          littéraires assortit en outre de repères statistiques un grand
+          nombre de notices. Peut-être le mot « thésaurus » est-il trop rare
+          pour que les données soient pertinentes ; pour son synonyme
+          « trésor », par exemple, nous disposons d’une fréquence absolue
+          globale et de fréquences relatives par demi-siècle.</p>
+          <p xml:id="d1e427">Quant à l’évolution du terme, retenons que le
+          sens premier de dictionnaire des langues anciennes – ou, pour
+          l’archéologie, de dictionnaire encyclopédique – s’est infléchi dans
+          deux directions, en abandonnant la référence à l’<date ref="_temp">Antiquité</date> : l’exhaustivité est devenue le trait
+          central de « thésaurus », tandis que le sens documentaire plus
+          récent repose sur l’idée d’une organisation conceptuelle des lexèmes
+          au sein d’un répertoire de mots clés<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Ce thésaurus conçu comme une hiérarchie de notions est à
+              rapprocher de l’usage actuel du mot « ontologie » en
+              informatique. Dans les deux cas, c’est la langue anglaise qui
+              introduit des innovations sémantiques reflétant les
+              transformations des technologies de la connaissance.</p>
+            </note>. Cependant, la fortune de ce mot technique dans les
+          langues européennes est intimement liée à l’étude des textes
+          anciens : calquant l’usage du français « trésor », employé avec
+          cette valeur depuis le <date from="1200" ref="_temp" to="1299">
+              <hi rend="small-caps">xiii</hi>
+              <hi rend="sup">e</hi> siècle</date>,
+          l’humaniste <persName ref="06076144X" type="idref" xml:base="https://www.idref.fr/">Robert Estienne</persName> a
+          emprunté le latin <hi rend="italic">
+              <foreign xml:lang="lat">thesaurus</foreign>
+            </hi>pour nommer son dictionnaire de la langue latine<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>
+                <hi rend="small-caps">Estienne</hi>, 1531.</p>
+            </note>.</p>
+          <p xml:id="d1e461">À la génération suivante, son fils <persName ref="085948276" type="idref" xml:base="https://www.idref.fr/">Henri</persName> est l’auteur du
+          plus célèbre des dictionnaires grec-latin, qui reprend le titre de
+          <hi rend="italic">Thesaurus</hi>. En voici l’article <foreign xml:lang="grc">θησαυρός</foreign>
+            <hi rend="italic">(<foreign xml:lang="grc">thêsauros</foreign>)</hi>, « trésor » :</p>
+          <quote rend="quotation" xml:id="d1e470" xml:lang="grc">Θησαυρὸς, οῦ,
+          ὁ, idem quod θήκη, Repositorium, Conditorium : Locus in quo congestæ
+          opes reponuntur &amp; conduntur, ut cellæ granariæ &amp; ærariæ.
+          Poll. libro 9, καὶ θησαυροὶ καὶ ταµιεῖα, ἵνα τὰ χρήµατα καὶ οἱ πυροὶ
+          ἔκειντο. Aristot. Œconom. 1, τούς θησαυροùς τοùς παρὰ τὰς ὁδοùς τὰς
+          βασιλικὰς ἀναπληροῦν ἐκέλευε. Et mox, ἐπώλει τὰ ἐκ τῶν θησαυρῶν. Sic
+          Joseph. κατασκευάσας θησαυρὸν καὶ κλείσας παντα- χόθεν ὀπὴν ἐν αὐτῷ
+          µίαν ἤνοιξεν, Ærarium, Pecuniarum repositorium seu conditorium. Et
+          Plutarch. ἐκέλευσεν αὐτῷ τούς θησαυροùς ἀνοtξαι τῶν χρηµάτων. Vbi
+          nota additum genitiuum, omissum in locis præcedentibus. Idem in lib.
+          De solert. anim. γνωρίσασα τὸν ἑαυτῆς ἑκάστη θησαυρόν, ὡς οùδεὶς
+          χρυσίου θήκην ἄνθρωπος, ἀσµένως ἀνοίγει καὶ προθύµως. […] Latini
+          quoque thesauros dicunt : ut uidebis apud Gellium lib. 2, c. 10. Sed
+          &amp; ipsæ opes alicubi repositæ seu reconditæ, uocantur θησαυρός.
+          Athen. libro 6, ’Αλεξάνδρου τοùς ἐκ τῆς ’Ασίας θησαυροùς ἀνελοµένου.
+          […]</quote>
+          <quote rend="quotation" xml:id="d1e473">Henri Estienne, <hi rend="italic">Thesaurus graecae linguae</hi> (1572)<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>
+                <hi rend="small-caps">Estienne</hi>, 1572.</p>
+            </note>.</quote>
+          <p xml:id="d1e488">Si son lexique est le grand œuvre de cet
+          imprimeur et érudit, c’est parce qu’il a résumé et stimulé une
+          inlassable activité d’éditeur de la littérature grecque. Le <hi rend="italic">Thesaurus graecae linguae</hi> – à ne pas confondre
+          avec le <hi rend="italic">TLG </hi>moderne, qui lui doit son nom – a
+          bénéficié des dizaines d’éditions qu’<persName ref="085948276" type="idref" xml:base="https://www.idref.fr/">Henri
+          Estienne</persName> a préparées avant et pendant sa composition. Une
+          évidente volonté de totalisation lui a ensuite fait poursuivre
+          conjointement la réflexion sur le texte des auteurs antiques et le
+          perfectionnement du dictionnaire issu de leur fréquentation. Ce <hi rend="italic">
+              <foreign xml:lang="eng">work in progress</foreign>
+            </hi>infini a donc pour substrat la mise en fiches des classiques
+          ou, si l’on veut, une vie entière d’indexation<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Voir <hi rend="small-caps">Pfeiffer</hi>, 1976, et <hi rend="small-caps">Cazes</hi>, 2003.</p>
+            </note>. Du reste, le travail effectué était si considérable que
+          l’ouvrage est demeuré incontournable pendant trois siècles, jusqu’à
+          la première édition du <hi rend="italic">Lexicon </hi>d’<placeName ref="2640729" type="geonames" xml:base="https://www.geonames.org/">Oxford</placeName> déjà
+          mentionné. Au <date from="1800" ref="_temp" to="1899">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          encore, on s’est efforcé de l’augmenter et de le purger de ses
+          imprécisions afin d’en rendre la consultation plus aisée et plus
+          sûre<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>
+                <hi rend="small-caps">Estienne</hi>
+                <hi rend="italic">
+              et al</hi>, 1831-1865, est le résultat de cette ultime
+              amélioration.</p>
+            </note>.</p>
+          <p xml:id="d1e540">L’explication que la notice fournit du mot grec
+          correspond aux renseignements de nos dictionnaires de référence :
+          <hi rend="italic">
+              <foreign xml:lang="grc">thêsauros</foreign>
+            </hi>désigne un « dépôt », un « magasin où l’on enferme provisions
+          et objets précieux », un « trésor », parfois une « cassette » et,
+          dans les papyrus, un « magasin à grains » ; son emploi dans un sens
+          figuré est attesté dès l’<date ref="_temp">époque
+          archaïque</date>
+            <note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Ces définitions sont celles de <hi rend="small-caps">Chantraine</hi>, 1999.</p>
+            </note>.</p>
+          <p xml:id="d1e558">Au fil d’un texte continu, mais qui fait usage de
+          la ponctuation et des majuscules, exemples grecs et gloses latines
+          se succèdent. Comme on le voit aussitôt, les références n’obéissent
+          pas à un format systématique. Les citations sont la source même des
+          définitions. Elles donnent un contexte au mot <foreign xml:lang="grc">
+              <hi rend="italic">thêsauros</hi>
+            </foreign>, sans permettre toujours de retrouver le passage,
+          lorsque seul le nom de l’auteur est indiqué. L’ouvrage appartient
+          néanmoins à une époque décisive pour l’organisation du patrimoine
+          littéraire, désormais imprimé, car on met au point une présentation
+          et un découpage des textes en chapitres qui autorisent une
+          consultation efficace et la pratique savante de la référence<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Sur l’histoire de la « mise en texte » et de la
+              « capitulation », voir par exemple <hi rend="small-caps">Martin</hi>, 2003, p. 41, et <hi rend="small-caps">Martin</hi>, 1995. Les presses de la famille
+              Estienne ont favorisé ce mouvement.</p>
+            </note>. C’est ainsi que l’on divise la Bible en versets et que
+          les pages numérotées des classiques portent à intervalles réguliers
+          les premières lettres de l’alphabet, en marge ou entre deux
+          colonnes. Notre système de référence est souvent l’héritier de ces
+          tentatives. Pour citer <persName type="_temp">Platon</persName>,
+          <persName ref="027076784" type="idref" xml:base="https://www.idref.fr/">Plutarque</persName>, <persName ref="027150062" type="idref" xml:base="https://www.idref.fr/">Strabon</persName> ou <persName ref="030061113" type="idref" xml:base="https://www.idref.fr/">Athénée</persName>, nous utilisons
+          la pagination des éditions humanistes, en la dissociant des <hi rend="italic">in-folio </hi>d’origine et en la faisant cohabiter
+          parfois avec un découpage « logique » de l’œuvre.</p>
+          <p xml:id="d1e580">Le troisième texte que nous observerons est d’une
+          nature assez différente. Il s’agit d’un extrait d’<persName ref="030061113" type="idref" xml:base="https://www.idref.fr/">Athénée</persName>, qui n’est pas
+          lexicographe au premier chef, mais dont la compilation montre de
+          façon exemplaire le mode de référence des érudits anciens les plus
+          précis. Ainsi dans ce passage, où l’on apprend qu’une ritournelle
+          populaire était parodiée dans une comédie intitulée <hi rend="italic">Le Trésor</hi>
+            <note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Le mot « trésor » n’a évidemment pas de sens technique ici,
+              mais il nous a fourni un critère pour sélectionner un passage au
+              moyen du <hi rend="italic">TLG.</hi>
+              </p>
+            </note> :</p>
+          <quote rend="quotation" xml:id="d1e595" xml:lang="grc">Ὑγιαίνειν µὲν
+          ἄριστον ἀνδρὶ θνητῷ,<lb/>δεύτερον δὲ καλὸν φυὰν γενέσθαι,<lb/>τὸ
+          τρίτον δὲ πλουτεῖν ἀδόλως<lb/>καὶ τὸ τέταρτον ἡβᾶν µετὰ τῶν
+          φίλων.</quote>
+          <quote rend="quotation" xml:id="d1e604" xml:lang="grc">Αἰσθέντος δὲ
+          τούτου καὶ πάντων ἡσθέντων ἐπ’ αὐτῷ καὶ µνη- µονευσάντων ὅτι καὶ ὁ
+          καλὸς Πλάτων αὐτοῦ µέµνηται ὡς ἄριστα εἰρηµένου, ὁ Μυρτίλος ἔφη
+          ’Αναξανδρίδην αὐτὸ διακεχλευακέναι τὸν κωµῳδιοποιὸν ἐν Θησαυρῷ
+          λέγοντα οὕτως</quote>
+          <quote rend="quotation" xml:id="d1e607" xml:lang="grc">f Ὁ τὸ
+          σκόλιον εὑρὼν ἐκεῖνος, ὅστις ἦν,<lb/>τὸ µὲν ὑγιαίνειν πρῶτον ὡς
+          ἄριστον ὂν<lb/>ὠνόµασεν ὀρθῶς· δεύτερον δ’ εἶναι καλόν,<lb/>τρίτον
+          δὲ πλουτεῖν, τοῦθ’, oρᾷς, ἐµαίνετο·<lb/>µετὰ τὴν ὑγίειαν γὰρ τὸ
+          πλουτεῖν διαφέρει·<lb/>καλὸς δὲ πεινῶν ἐστιν αἰσχρὸν θηρίον.</quote>
+          <quote rend="quotation" xml:id="d1e620">Être en bonne santé, voilà
+          ce qu’il y a de meilleur pour un mortel,<lb/>en second lieu, avoir
+          la chance d’être beau,<lb/>en troisième, s’enrichir sans
+          fraude<lb/>et, en quatrième, être jeune et entouré d’amis.</quote>
+          <p xml:id="d1e629">En entendant cette chanson, tout le monde se
+          réjouit et se rappela que le noble <persName type="_temp">Platon</persName> la citait comme une excellente
+          formule. <persName ref="240884280" type="idref" xml:base="https://www.idref.fr/">Myrtilos</persName> dit alors que
+          le poète comique <persName type="_temp">Anaxandride</persName>
+          tournait en dérision la chanson en question dans <hi rend="italic">Le Trésor</hi>, par ces mots :</p>
+          <quote rend="quotation" xml:id="d1e636">L’homme qui inventa cette
+          chanson, quel qu’il fût,<lb/>en disant qu’être en bonne santé est le
+          premier de tous les biens<lb/>nomma la chose avec exactitude ; mais
+          avoir dit qu’être beau est le second,<lb/>et le troisième
+          s’enrichir, là, vois-tu, c’est de l’égarement :<lb/>après la santé,
+          être riche est ce qu’il y a de meilleur.<lb/>Un bel homme qui a
+          faim, c’est une bête sans foi ni loi !</quote>
+          <quote rend="quotation" xml:id="d1e649">
+            <persName ref="030061113" type="idref" xml:base="https://www.idref.fr/">Athénée</persName>,
+          <hi rend="italic">Les Deipnosophistes</hi>, XV, 694 e-f (vers 200 de
+          notre ère)<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Le texte grec est cité d’après <hi rend="small-caps">Kaibel</hi>, 1887-1890, qui reprend la
+              numérotation des pages et leur subdivision en sections (de <hi rend="italic">a </hi>à <hi rend="italic">f </hi>) introduites
+              en 1598 dans l’édition publiée par Isaac Casaubon, gendre
+              d’Henri Estienne. La traduction est la nôtre.</p>
+            </note>.</quote>
+          <p xml:id="d1e676">À la fois construction littéraire et enquête sur
+          les cadres sociaux et le lexique de l’alimentation, <hi rend="italic">Les Deipnosophistes </hi>sont eux-mêmes une sorte de
+          thésaurus. On perçoit à travers ces quelques lignes de quelle
+          manière l’auteur met en scène la circulation des textes dans un
+          banquet. Le personnage, un « grammairien », introduit ses citations
+          tout comme le fait <persName ref="030061113" type="idref" xml:base="https://www.idref.fr/">Athénée</persName>, en rapportant
+          au moins l’auteur et le titre du texte ; en l’occurrence, la chanson
+          est complète et l’allusion à <persName type="_temp">Platon</persName> est un cas rare de connivence sans
+          référence bibliographique. La compilation s’appuie sur un usage
+          fréquemment explicite de la littérature secondaire antique et sur
+          une pratique personnelle d’annotation et de copie.</p>
+          <p xml:id="d1e682">Nos trois exemples témoignent de méthodes de
+          documentation et de structures de communication différentes. Ce
+          parcours sommaire retrace la constitution progressive d’un mode de
+          référence spécialisé, qui est sans doute l’une des caractéristiques
+          les plus fondamentales de l’activité savante. De ce point de vue,
+          les textes grecs offrent un exemple extrême de réticulation ou de
+          balisage en vue de l’interprétation collective qu’est la recherche.
+          Cet usage social particulier repose sur l’usage concret des livres.
+          En effet, s’il est vrai qu’« un livre est une machine avec laquelle
+          on pense<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>
+                <hi rend="italic">« A book is a machine to think
+              with » :</hi> les acteurs des <hi rend="italic">digital
+              humanities </hi>n’ont pas manqué de souligner la signification
+              nouvelle de la formule d’Ivor Richards (<hi rend="italic">Principles of Literary Criticism</hi>, 1924),
+              citée par exemple dans <hi rend="small-caps">Burrows</hi>,
+              2004.</p>
+            </note> », la formule est plus juste encore au pluriel : à travers
+          le lecteur, ce sont des communautés, avec leurs traditions, qui
+          mettent en œuvre et poursuivent le dialogue des livres dans les
+          bibliothèques. Cela implique que les auteurs, les titres et les
+          maisons d’édition soient des données identifiables et stables, d’une
+          part, que des collections soient accessibles, d’autre part.</p>
+          <p xml:id="d1e706">On sait le rôle crucial qu’a joué le texte de la
+          Bible dans l’histoire de l’herméneutique. D’une façon comparable,
+          l’étude des cultures antiques s’est accompagnée d’une pratique sans
+          cesse plus fine des corpus. Ce champ a eu les moyens, par
+          accumulation, d’approcher l’exhaustivité et la systématicité vers
+          lesquelles tend logiquement l’exploration d’un monde passé. Tout
+          document produit par la culture grecque ancienne est un échantillon
+          qui contribue à la compréhension des autres documents et n’est
+          lui-même compris que par leur intermédiaire. Le thésaurus semble
+          avoir pour vocation de totaliser ces vestiges.</p>
+          <p xml:id="d1e709">Le premier gain de la conversion numérique est de
+          rendre le système de référence plus efficace, puisque le renvoi d’un
+          texte à un autre se fait d’une manière presque instantanée. Cette
+          opération intertextuelle connaît une véritable métamorphose
+          lorsqu’une bibliothèque entière est contenue dans un disque, puis
+          lorsque la bibliothèque numérique devient un site au sein d’un
+          réseau<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>« <hi rend="italic">Referring »</hi>, « faire référence »,
+              est l’un des gestes fondamentaux de l’activité savante selon
+              John Unsworth, dont la liste souvent citée des « <hi rend="italic">scholarly primitives »</hi> est essentiellement
+              ordonnée à une réflexion sur les nouveaux outils de la recherche
+              (<hi rend="small-caps">Unsworth</hi>, 2000).</p>
+            </note>. Tel est le cas du <hi rend="italic">Thesaurus Linguae
+          Graecae</hi>, dont nous pouvons à présent mesurer ce qui le sépare
+          d’un thésaurus comme celui d’<persName ref="085948276" type="idref" xml:base="https://www.idref.fr/">Estienne</persName>, au-delà des
+          hommages que constituent son nom et son adresse sur la toile<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>L’adresse du <hi rend="italic">TLG Online </hi>contient le
+              nom latin de l’auteur du <hi rend="italic">Thesaurus graecae
+              linguae </hi>ou <hi rend="italic">TGL :</hi> Stephanus.</p>
+            </note>. La différence entre les deux projets réside-t-elle dans
+          un maniement plus commode, dans un changement d’échelle ou dans un
+          renouvellement de l’usage des textes ?</p>
+        </div>
+        <div type="section1" xml:id="d1e746">
+          <head subtype="level1" xml:id="d1e748">Le <hi rend="italic">Thesaurus Linguae Graecae</hi>
+          </head>
+          <p xml:id="d1e754">Dans l’archipel des humanités numériques, son
+          ampleur et sa longévité ont fait du <hi rend="italic">TLG </hi>un
+          « lieu de mémoire ». Ce statut répond à la haute ambition d’un
+          projet phare, qui a transformé la pratique quotidienne des
+          hellénistes. Il reflète également un niveau exceptionnel
+          d’institutionnalisation et de financement, grâce auquel le <hi rend="italic">TLG </hi>peut représenter l’accomplissement d’un rêve
+          humaniste, sinon la fin d’une histoire.</p>
+          <p xml:id="d1e763">Pour employer une catégorie typique de notre
+          <date from="2000" ref="_temp" to="2099">
+              <hi rend="small-caps">xxi</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          commençant, le <hi rend="italic">TLG </hi>est « né numérique » <hi rend="italic">(« <foreign xml:lang="eng">born
+          digital</foreign> »)</hi>. Au début des <date from="1970" to="1979" type="_temp">années 1970</date>, le choix de l’informatique est
+          audacieux, mais il n’est pas sans précédent. Il s’inscrit dans
+          l’implantation progressive, au sein des sciences humaines, d’une
+          technologie dont les avantages auraient dû être immédiatement
+          sensibles aux linguistes et aux philologues. L’index des œuvres de
+          <persName ref="027161129" type="idref" xml:base="https://www.idref.fr/">Thomas d’Aquin</persName> était
+          alors en chantier depuis une vingtaine d’années<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>L’<hi rend="italic">Index thomisticus</hi> de Roberto Busa a
+              été compilé à partir de 1949, sur cartes perforées, en
+              collaboration avec l’International Business Machines Corporation
+              (IBM). Ce travail précurseur n’a cependant porté ses fruits
+              qu’avec la publication des 56 volumes de sa version imprimée
+              entre 1974 et 1980 ; un CD-Rom a été diffusé en 1994 et l’<hi rend="italic">Index </hi>est en ligne depuis 2005.</p>
+            </note> ; dans le monde anglophone, on voyait apparaître les
+          premières revues et associations professionnelles consacrées à
+          l’usage de l’ordinateur dans le domaine des <hi rend="italic">
+              <foreign xml:lang="eng">humanities</foreign>
+            </hi>. En revanche, le <hi rend="italic">TLG </hi>est sans
+          conteste l’un des premiers grands projets collectifs intégrés à une
+          institution de recherche. Son succès repose ainsi sur l’alliance
+          opportune d’un nouveau support et d’une infrastructure<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Depuis l’aperçu de <hi rend="small-caps">Jacob</hi>, 1989,
+              p. 131, qui bénéficiait d’informations recueillies à titre
+              personnel, le <hi rend="italic">TLG </hi>a commencé à publier sa
+              propre histoire : nous renvoyons à <hi rend="small-caps">Pantelia</hi>, 2000, et aux pages « Project
+              History » et « Timeline » du site, qui sont les meilleures
+              sources d’information à ce jour.</p>
+            </note>.</p>
+          <p xml:id="d1e831">L’informatique promettait de résoudre les
+          problèmes documentaires qui avaient condamné à l’échec les
+          tentatives antérieures. Il était clair dès la fin du <date from="1800" ref="_temp" to="1899">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date> qu’il ne suffisait plus de réviser
+          le <hi rend="italic">Thesaurus</hi> d’<persName ref="085948276" type="idref" xml:base="https://www.idref.fr/">Estienne</persName>
+          pour rendre compte des progrès de l’inventaire – c’est-à-dire du
+          témoignage des documents exhumés ou édités plus récemment et des
+          résultats de la critique textuelle moderne. Cependant, face à
+          l’immensité du dépouillement des sources, un premier projet avait
+          été abandonné peu après <date ref="_temp" when="1900">1900</date>,
+          tandis que le centre de recherche créé en <date ref="_temp" when="1944">1944</date> à l’université de <placeName ref="2911298" type="geonames" xml:base="https://www.geonames.org/">Hambourg</placeName>, sous ce
+          même nom de <hi rend="italic">Thesaurus Linguae Graecae</hi> et avec
+          la mission d’élaborer un dictionnaire exhaustif, avait restreint ses
+          ambitions<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Il a produit un index hippocratique et un dictionnaire de
+              l’épopée grecque archaïque, récemment achevé.</p>
+            </note>. Le second de ces projets était dirigé par <persName ref="028849248" type="idref" xml:base="https://www.idref.fr/">Bruno
+          Snell</persName>. C’est l’une de ses élèves, <persName ref="031817769" type="idref" xml:base="https://www.idref.fr/">Marianne McDonald</persName>, qui
+          suggéra plus tard à ses enseignants de l’université de <placeName ref="5332921" type="geonames" xml:base="https://www.geonames.org/">Californie</placeName>
+          l’entreprise savante qui nous intéresse, en <date ref="_temp" when="1971">1971</date>. Cette étudiante avait pour père l’un des
+          fondateurs de la société Zenith, spécialisée dans les technologies
+          de la radio et de la télévision. Un million de dollars accompagnait
+          sa proposition. Rédigeant à cette époque une thèse sur le lexique du
+          bonheur dans les tragédies d’<persName ref="026854775" type="idref" xml:base="https://www.idref.fr/">Euripide</persName>, elle imaginait
+          en connaissance de cause l’utilité d’une vaste banque de données <hi rend="italic">(« <foreign xml:lang="eng">databank</foreign>») :</hi>
+          il fallait pouvoir étudier un réseau de termes et de thèmes à
+          travers leurs occurrences et non pas seulement consulter une
+          synthèse lexicographique.</p>
+          <p xml:id="d1e874">La conférence internationale qui marqua
+          l’établissement du <hi rend="italic">TLG </hi>en <date ref="_temp" when="1972-10">octobre 1972</date> confirma que le but du projet
+          n’était pas de constituer un thésaurus au sens traditionnel<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>La relative rapidité de l’élaboration du <hi rend="italic">TLG </hi>provient notamment de l’abandon de la
+              perspective lexicographique. Citons pour comparaison le cas du
+              <hi rend="italic">Thesaurus Linguae Latinae</hi>, dictionnaire
+              fondé sur dix millions de fiches : commencée en 1900, sa
+              publication a atteint la lettre P, soit les deux tiers de
+              l’ouvrage. Quant au dictionnaire historique du sanskrit en
+              préparation à Pune, il n’a pas encore exploité toutes les fiches
+              correspondant à la lettre A.</p>
+            </note>, mais un corpus de textes, ce qui élargissait le spectre
+          des usages possibles. Devait y figurer la totalité des textes grecs
+          conservés depuis l’épopée homérique jusqu’à l’an <date type="_temp" when="0200">200</date> de notre ère ; à partir de <date ref="_temp" when="1988">1988</date>, ce programme fut porté à vingt-deux siècles
+          de littérature en incluant le monde byzantin, avec pour borne
+          conventionnelle la date de <date ref="_temp" when="1453">1453</date> ; l’extension au grec moderne est maintenant
+          l’horizon déclaré du projet. Corrélativement, les textes transmis
+          par les inscriptions et par les papyrus étaient exclus. Enfin, on
+          prit le parti de ne pas reproduire les annotations des éditions
+          savantes. Nous reviendrons sur ce fait lourd de conséquences, mais
+          compréhensible en l’état des techniques.</p>
+          <p xml:id="d1e915">Devenu une marque déposée aux <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>, le nom
+          du <hi rend="italic">TLG </hi>désigne donc à la fois une institution
+          savante, rattachée au département d’Études anciennes de l’université
+          de <placeName ref="5332921" type="geonames" xml:base="https://www.geonames.org/">Californie</placeName> à
+          <placeName ref="4159826" type="geonames" xml:base="https://www.geonames.org/">Irvine</placeName>, et le
+          corpus qu’elle a pour fonction de constituer et de diffuser<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>
+                <hi rend="italic">TLG</hi>, 1972-.</p>
+            </note>. Quatre versions successives furent commercialisées sous
+          la forme de disques : les CD-Rom A (<date ref="_temp" when="1985">1985</date>), C (<date ref="_temp" when="1988">1988</date>), D (<date ref="_temp" when="1992">1992</date>) et E (<date ref="_temp" when="2000">2000</date>). Depuis <date ref="_temp" when="2001">2001</date>, le <hi rend="italic">TLG </hi>– <hi rend="italic">« a digital library of Greek literature » </hi>– est
+          un site en ligne<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>
+                <hi rend="italic">TLG </hi>
+                <hi rend="small-caps italic">Online</hi>, 2001-.</p>
+            </note>. Ces états du corpus décrivent déjà une progression
+          quantitative du simple au triple. On trouvait 27 millions de mots
+          dans la version A et plus du double dans la version E, encore
+          largement utilisée, qui proposait 6 625 œuvres appartenant à
+          1 823 auteurs ou corpus distincts. Régulièrement augmenté, le site
+          contenait en <date ref="_temp" when="2009">2009</date> plus de
+          100 millions de mots, 10 000 œuvres et 4 000 auteurs ou corpus.</p>
+          <p xml:id="d1e977">Cette histoire est inséparable d’expérimentations
+          et de choix antérieurs à la standardisation et à la généralisation
+          des technologies informatiques. Dès <date ref="_temp" when="1976">1976</date>, un nombre restreint de chercheurs put
+          utiliser un corpus embryonnaire inscrit sur des bandes magnétiques.
+          Cependant, ce corpus fut conçu avant que les ordinateurs ne soient
+          véritablement « personnels » et le « <hi rend="italic">TLG</hi> A »
+          est réputé avoir été le premier disque compact à contenir autre
+          chose que de la musique. Grâce au concours de <persName ref="034380256" type="idref" xml:base="https://www.idref.fr/">David
+          Packard</persName>, on adapta au traitement du grec ancien un
+          ordinateur mis au point quelques années auparavant dans la Silicon
+          Valley par la firme Hewlett-Packard<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>Fondé en 1987, le Packard Humanities Institute, ou PHI, a
+              diffusé d’autres corpus électroniques, dont certains sont
+              complémentaires du <hi rend="italic">TLG :</hi> une collection
+              de textes littéraires latins et un ensemble de papyrus et
+              d’inscriptions grecs.</p>
+            </note>. Ce système, dénommé Ibycus, était nécessaire à la
+          consultation des textes jusqu’à la fin des années <date ref="_temp" when="1980">1980</date> et il continua à assurer l’élaboration du
+          <hi rend="italic">TLG </hi>jusqu’en <date ref="_temp" when="1999">1999</date>. Au tournant du siècle, l’ensemble du <hi rend="italic">TLG</hi> migra vers un environnement Unix, conforme
+          aux standards récents. Par la même occasion, le disque fut abandonné
+          au profit d’une publication sur la toile (voir fig. 1) et le site
+          intégra un moteur de recherche qui lui était propre.</p>
+          <figure xml:id="d1e1011">
+            <graphic url="../icono/br/LDSII_33_Berra_Thesaurus_img1.png"/>
+            <head xml:id="d1e1015">Fig. 1. Le frontispice du <hi rend="italic">TLG</hi> en ligne (juin 2010).</head>
+          </figure>
+          <p xml:id="d1e1025">Résumons cette évolution. Dans sa phase
+          initiale, la conception et l’exploitation du <hi rend="italic">TLG
+          </hi>étaient liées à ce que l’on peut nommer un prototype ; matériel
+          et logiciel demeuraient indissociables. Profitant de la diffusion
+          des machines et d’un support de mémoire externe à la fois portatif
+          et de grande capacité, le <hi rend="italic">TLG</hi> devint à la fin
+          des <date from="1980" to="1989" type="_temp">années 1980</date> un
+          auxiliaire indispensable pour bien des spécialistes et l’un des plus
+          importants projets informatiques hors des sciences dites exactes.
+          L’institution ne fournissait que les disques contenant la base de
+          données dont elle était propriétaire ; divers chercheurs ou centres
+          développèrent des outils de consultation, tels les logiciels
+          Diogenes, Lexis, Musaios, Pandora et SNS Greek &amp; Latin. La
+          troisième phase est celle que nous connaissons encore : seuls
+          l’abonnement et la consultation en ligne font bénéficier du dernier
+          état du corpus. Ainsi, l’équipe actuelle du <hi rend="italic">TLG
+          </hi>a fait le choix d’une forte indépendance. Or, la dialectique de
+          l’autonomie et de la collaboration est capitale lorsqu’un projet
+          participe au renouvellement des instruments de la recherche avec une
+          telle influence. On le comprendra mieux une fois notre aperçu
+          complété.</p>
+          <p xml:id="d1e1040">L’exigence fondamentale du <hi rend="italic">computer</hi>, ou « calculateur », est que les
+          informations utilisées soient explicites et systématiques. Un texte
+          numérique consiste en une suite de nombres binaires ; la base de
+          toute opération est le maniement des chaînes de caractères que
+          forment ces nombres. Comme tout objet numérique, le texte résulte
+          donc d’un codage, d’une représentation informatique que la machine
+          traduit visuellement pour l’utilisateur humain. Celui-ci modifie ces
+          données en leur appliquant, en fonction des résultats qu’il souhaite
+          obtenir, certaines des règles de transformation prévues par les
+          programmes, c’est-à-dire, plus concrètement, par les systèmes et les
+          logiciels qu’il emploie. Grâce à ces notions très générales, nous
+          pouvons examiner les difficultés rencontrées par les concepteurs du
+          <hi rend="italic">TLG </hi>et les solutions qu’ils ont
+          inventées.</p>
+          <p xml:id="d1e1049">Tout d’abord, l’usage de l’alphabet grec et des
+          signes diacritiques anciens – accents et esprits, mais aussi
+          ponctuation et autres signes savants – était encore un problème. Par
+          ailleurs, une bibliothèque numérique se devait de conserver la
+          structure usuelle des textes, dont nous avons rappelé la genèse et
+          l’importance scientifique. Pour répondre à ces objectifs, un jeu de
+          conventions d’encodage spécifique fut mis au point : les fichiers de
+          texte du <hi rend="italic">TLG </hi>respectent ce <hi rend="italic">
+              <foreign xml:lang="eng">Beta Code</foreign>
+            </hi>, qui n’est pas fait pour une lecture suivie, bien qu’il
+          reste compréhensible et puisse servir à formuler des requêtes
+          (fig. 2). Ce système a été utilisé par de nombreux projets pour
+          traiter le grec, surtout avant l’élaboration de l’Unicode (fig. 3),
+          dont la vocation universelle repose sur l’identification des
+          caractères par des codes alphanumériques complexes. La constitution
+          du corpus demande la saisie des textes suivant le Code bêta, qui est
+          toujours effectuée en Asie par des opérateurs ignorant les alphabets
+          grec et latin. Selon un paradoxe bien connu, cette procédure est non
+          seulement la plus économique, mais aussi la plus efficace. Des
+          outils de correction automatique accroissent ensuite la fiabilité
+          des résultats.</p>
+          <figure xml:id="d1e1062">
+            <graphic url="../icono/br/LDSII_33_Berra_Thesaurus_img2.png"/>
+            <head xml:id="d1e1066">Fig. 2. L’incipit de l’<hi rend="italic">Odyssée</hi> affiché en Code bêta sur le site du <hi rend="italic">TLG</hi>.</head>
+          </figure>
+          <p xml:id="d1e1076">À cette structure invisible s’est adjoint un
+          index intégral du corpus, qui est l’un des « sous-systèmes »
+          facilitant sa consultation. Il met instantanément à la disposition
+          de l’usager, en fonction de ses besoins, les listes d’occurrences
+          dont la compilation et la publication nécessitaient naguère des
+          années. En outre, l’organisation du <hi rend="italic">TLG
+          </hi>présuppose ce que nous avons nommé plus haut l’inventaire de
+          l’héritage grec. Pour classer chaque document selon les catégories
+          en vigueur et rendre viable son traitement automatisé, il fallait
+          décider de son identification, de son attribution, de sa datation,
+          etc., même en l’absence de consensus des spécialistes. C’est le rôle
+          du <hi rend="italic">Canon </hi>diffusé à partir de <date ref="_temp" when="1977">1977</date>
+            <note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Sa troisième et dernière publication sous forme de livre est
+              <hi rend="small-caps">Berkowitz</hi>, <hi rend="small-caps">Squitier</hi> et <hi rend="small-caps">Johnson</hi>, 1990. Le <hi rend="italic">Canon
+              </hi>électronique se développe maintenant au gré des mises à
+              jour du <hi rend="italic">TLG </hi>en ligne.</p>
+            </note>. Son caractère exhaustif et sa commodité ont tendu à lui
+          donner la valeur d’une norme.</p>
+          <figure xml:id="d1e1109">
+            <graphic url="../icono/br/LDSII_33_Berra_Thesaurus_img3.png"/>
+            <head xml:id="d1e1113">Fig. 3. L’incipit de l’<hi rend="italic">Odyssée</hi> affiché dans une police unicode sur le
+            site du <hi rend="italic">TLG</hi>.</head>
+          </figure>
+          <p xml:id="d1e1123">L’autorité d’une telle base de données devrait
+          naturellement être évaluée à chacune de ses utilisations. En
+          proposant une édition numérique de travaux antérieurs, le <hi rend="italic">TLG </hi>réalise la conversion du savoir philologique
+          accumulé au fil des siècles. De ce point de vue, il peut passer pour
+          la mise en œuvre la plus aboutie du projet né avec la bibliothèque
+          d’<placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName>.
+          Pourtant, les principes mêmes qui l’ont rendu viable, et durablement
+          utile, limitent sa pertinence. En effet, en ne retenant qu’une seule
+          édition de chaque œuvre, avec d’éventuelles substitutions d’une
+          version à l’autre, et en la dépouillant de l’apparat critique qui
+          rendait compte de sa transmission, cette archive de la littérature
+          grecque renvoie le chercheur à un état pré-alexandrin de la science
+          des textes : elle passe sous silence les variantes et la distinction
+          entre leçons manuscrites et conjectures, c’est-à-dire l’épaisseur de
+          la tradition et, partant, les bases de toute discussion. L’image qui
+          convient est celle d’une bibliothèque où figurerait de chaque
+          ouvrage un exemplaire sans notes ni présentation. Ce défaut de
+          dimension critique est d’autant plus grave que les écrits antiques
+          forment, comme on le sait, un corpus historiquement préconstruit
+          – par les intérêts des groupes et des individus qui en ont été les
+          relais ou par le jeu du hasard – dont les textes ont généralement
+          connu plusieurs copies à des époques différentes. En pratique, le
+          <hi rend="italic">TLG </hi>ne remplace donc jamais les livres sur
+          lesquels il se fonde<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>Pour savoir quand se fier au <hi rend="italic">TLG</hi>, il
+              faut avoir l’expérience de chaque tradition textuelle. Un guide
+              comme <hi rend="small-caps">Dickey</hi>, 2007, reconnaît avec
+              pragmatisme la valeur de ce corpus et se donne notamment pour
+              fonction d’éviter le recours naïf à des éditions dépassées ou
+              problématiques.</p>
+            </note>. Somme d’érudition destinée à favoriser les études, il
+          offre des textes qui doivent être constamment consultés ou contrôlés
+          dans les éditions imprimées – tout en permettant des recherches à
+          peine imaginables avant lui.</p>
+          <p xml:id="d1e1147">L’avènement de la toile et l’habitude des
+          catalogues électroniques ont sans doute fait de la requête lexicale
+          une compétence mieux partagée que jamais. On comprendra
+          intuitivement ce que signifie le couplage d’une base de données et
+          d’un logiciel d’interrogation : un corpus comme le <hi rend="italic">TLG </hi>n’offre pas seulement le résultat figé d’un
+          vaste effort de documentation, il s’adapte aux requêtes formulées.
+          Le principe de son usage est par conséquent de repérer un ou des
+          « lieux » au moyen de coordonnées explicites et de les faire
+          apparaître sous la forme traditionnelle d’un texte statique,
+          éventuellement par l’intermédiaire d’une liste de passages plus ou
+          moins étendus répondant aux critères de recherche. Le « lecteur »
+          applique ainsi des filtres d’une complexité variable afin de
+          vérifier une référence ou prendre connaissance d’un texte, rarement
+          d’une façon continue, en faisant jouer au corpus le rôle d’une
+          bibliothèque portative, par souci de rapidité ou pour avoir accès à
+          un texte rare. Il peut extraire un passage, voire un texte, pour en
+          disposer sous une forme électronique en vue d’un travail en cours ;
+          c’est alors l’homogénéité du milieu numérique et l’accès à un texte
+          fiable qui importent. Enfin et surtout, d’une manière plus élaborée,
+          il peut constituer un corpus en sélectionnant des éléments dans des
+          listes closes (celles que reprend le <hi rend="italic">Canon</hi>,
+          répertoire d’autorité du <hi rend="italic">TLG</hi>) : nom de
+          l’auteur, genre littéraire pratiqué par l’auteur, sexe de l’auteur,
+          genre littéraire du texte, lieu associé au texte, intervalle
+          chronologique incluant ou non les textes composés à des époques
+          diverses ou de date incertaine. Il lui est ensuite possible de
+          consulter l’index de ce corpus ou d’y effectuer des requêtes
+          lexicales, qui ont trait soit à l’occurrence d’une chaîne de
+          caractères, soit à la co-occurrence de plusieurs chaînes ; la
+          présentation des résultats comporte le nombre total des réponses.
+          Ces opérations élémentaires de la linguistique de corpus,
+          accessibles à chacun et reproductibles, sont une révolution pour la
+          philologie, dans la mesure où elles sont susceptibles de modifier
+          notre perception des textes et les questions que nous nous posons à
+          leur sujet.</p>
+          <p xml:id="d1e1159">Les limites du <hi rend="italic">TLG</hi>,
+          signalées au fil des années<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Voir par exemple <hi rend="small-caps">Heslin</hi>, 2001.</p>
+            </note>, tiennent notamment à son mode d’élaboration, à son
+          fonctionnement et à la politique de sa diffusion. Sans entrer dans
+          le détail, soulignons que les critiques sont aussi des hommages, car
+          le projet et les données du <hi rend="italic">TLG </hi>ont été le
+          ferment de travaux innombrables. Mais ce corpus n’est ni immobile ni
+          isolé.</p>
+          <p xml:id="d1e1178">Ses évolutions ont levé certains obstacles
+          majeurs. Nous en citerons trois, introduites dans la dernière
+          décennie. En ce qui concerne les polices de caractères grecs, les
+          responsables du <hi rend="italic">TLG </hi>ont fait mieux qu’adopter
+          la norme Unicode, puisqu’ils ont soumis des propositions au
+          consortium mondial qui l’administre. Le problème de la lemmatisation
+          est particulièrement aigu pour une langue flexionnelle : des
+          procédures automatiques autorisent désormais à appeler ensemble les
+          formes d’un même lexème ; la logique de la recherche d’une chaîne de
+          caractères se combine avec une analyse préexistante des structures
+          de la langue. Enfin, l’affichage du texte grec, qui est la vocation
+          du <hi rend="italic">TLG</hi>, s’accompagne parfois d’un lien vers
+          une traduction anglaise disponible sur un autre site.</p>
+          <p xml:id="d1e1187">De telles innovations sont précieuses, mais
+          elles reflètent également les tendances générales d’un champ de
+          recherche. Les avancées d’autres projets, qui ne portent pas
+          nécessairement sur l’<date ref="_temp">Antiquité</date>, mettent en
+          évidence des lacunes et font apercevoir de nouvelles possibilités.
+          Mentionnons quelques perspectives proches ou lointaines, mais
+          nullement utopiques – encore que l’utopie ait ici droit de cité.
+          Au-delà du progrès des travaux lexicologiques, l’étude de la langue
+          et des œuvres profitera de l’exploration du trésor grec sous ses
+          aspects syntaxiques et textuels, étant entendu que ces paliers
+          d’analyse sont en réalité interdépendants. Plus largement, la
+          quantification des faits linguistiques ou littéraires paraît être
+          une dimension indispensable de l’interprétation : les hellénistes
+          commencent seulement à disposer d’instruments statistiques, dont
+          l’usage fait l’objet d’une réflexion depuis plus d’un demi-siècle
+          dans certaines disciplines. L’apparat critique des éditions savantes
+          imprimées est le socle de la méthode philologique. Il est certes
+          impensable de ne pas l’intégrer dans notre environnement de travail
+          numérique, mais il est probable que cette transposition implique une
+          réinvention : forme concise de commentaire, l’apparat traditionnel
+          est un dispositif hypertextuel, dont la fonction évolue quand les
+          livres forment un réseau et communiquent entre eux. La mise en
+          relation débute avec la comparaison de textes parallèles, ou avec
+          l’affichage d’un dictionnaire en regard du texte lorsque l’on clique
+          sur un mot (fig. 4). « Hypertexte » et « réseau » sont les mots que
+          nous employons pour désigner l’horizon de cette évolution, qu’il
+          appartient aux praticiens clairvoyants, ou visionnaires, de
+          préciser.</p>
+          <figure xml:id="d1e1193">
+            <graphic url="../icono/br/LDSII_33_Berra_Thesaurus_img4.png"/>
+            <head xml:id="d1e1197">Fig. 4. Le passage d’Athénée cité plus haut
+            et l’entrée <hi rend="italic">thêsauros</hi> du
+            Liddell-Scott-Jones [LSJ] dans le logiciel Diogenes (juin
+            2010).</head>
+          </figure>
+          <p xml:id="d1e1207">On peut alors se demander si le <hi rend="italic">TLG</hi>, dans son état actuel, n’est pas à la fois
+          une réussite exemplaire et un modèle dépassé. Plusieurs des
+          fonctions citées proviennent des travaux du projet <hi rend="italic">Perseus</hi>, qui nous fournit un contrepoint
+          particulièrement pertinent, car sa politique scientifique est tout à
+          fait différente. Fondé en <date ref="_temp" when="1987">1987</date>,
+          il a pris le parti de rassembler et, autant que possible, de mettre
+          en correspondance sources, traductions, commentaires, grammaires et
+          dictionnaires. En attendant la réinvention de l’apparat critique,
+          c’est-à-dire des instruments d’une interprétation informée, c’est un
+          pas pour s’éloigner du trésor sans mémoire<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Selon la formule radicale de Jean Bollack, en matière
+              d’interprétation, « c’est l’inventaire ou rien » (Bollack, 1997,
+              p. 27).</p>
+            </note>. En outre, cette équipe a pour objectif de produire des
+          textes et des outils plus élaborés, qui sont ensuite librement mis à
+          la disposition de la communauté des chercheurs et de toute personne
+          intéressée<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>Sont notamment issus de cette politique la version
+              électronique du LSJ, des outils de lemmatisation et de nombreux
+              fichiers encodés dans le métalangage XML et distribués sous un
+              contrat Creative Commons. Voir <hi rend="italic">Perseus</hi>,
+              1987-.</p>
+            </note>. Nous vivons l’époque des « incunables numériques », ne
+          serait-ce que parce que l’analogie avec la page imprimée est encore
+          prégnante, et le <hi rend="italic">TLG </hi>en est un symbole<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>Sur cette expression et sur son application au <hi rend="italic">TLG</hi>, voir <hi rend="small-caps">Crane</hi>,
+              2004, et <hi rend="small-caps">Crane</hi>, <hi rend="small-caps">Bamman</hi> et <hi rend="small-caps">Babeu</hi>, 2007.</p>
+            </note>. Du point de vue des services rendus aux spécialistes et à
+          la société dans son ensemble, le <hi rend="italic">TLG </hi>et <hi rend="italic">Perseus </hi>illustrent deux modèles intellectuels et
+          économiques opposés : le premier repose sur un accès restreint aux
+          fruits du travail universitaire et de l’expertise technique, tandis
+          que le second favorise un libre accès aux données.</p>
+          <p xml:id="d1e1265">Le <hi rend="italic">TLG </hi>est cependant
+          encore un corpus irremplaçable par sa taille. Insistons, pour finir,
+          sur cette question de l’échelle, qui peut déterminer un autre
+          maniement des textes. Dans la conservation et l’exploitation d’un
+          héritage culturel, diverses stratégies et diverses priorités sont
+          envisageables. Elles expriment une tension, qui dépasse de loin le
+          cas des études anciennes, entre une approche intensive et une
+          approche extensive. Bien que la philologie vive de précision et que
+          l’ordinateur ait des capacités de mémoire et de calcul incomparables
+          à celles de l’homme, il serait évidemment déraisonnable de les
+          situer à des pôles opposés. Disons simplement ici que les
+          technologies informatiques sont un nouvel arsenal pour l’étude
+          qualitative des textes<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>Il suffit de penser aux techniques fines d’encodage des
+              textes, qui constituent une pratique intermédiaire entre
+              l’écriture et le commentaire, avec pour finalité une description
+              formelle et sémantique que la machine sache exploiter : voir les
+              recommandations de la Text Encoding Initiative fondée en 1987
+              (<hi rend="small-caps">Burnard</hi> et <hi rend="small-caps">Bauman</hi>, 2007), ainsi que <hi rend="small-caps">Burnard</hi>, <hi rend="small-caps">O’Brien</hi>
+                <hi rend="small-caps">O’Keeffe</hi> et <hi rend="small-caps">Unsworth</hi>, 2006.</p>
+            </note> et que le traitement des données quantitatives met au jour
+          des faits qui échappent à toute autre appréhension<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Par exemple grâce à la statistique lexicale, à l’analyse des
+              réseaux ou à la représentation visuelle de phénomènes de
+              distribution.</p>
+            </note>. Notre présentation du <hi rend="italic">TLG </hi>– et de
+          ce qu’il annonce – a peut-être pour premier effet de réactiver le
+          vertige borgésien des parcours infinis dans la bibliothèque.
+          Personne ne lira jamais la totalité des textes grecs de ce corpus.
+          Cependant, de nouveaux protocoles de recherche enrichiront ceux qui
+          existent déjà. Telle est la réponse inattendue à l’une des questions
+          de notre époque : que faire avec un million de livres<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>
+                <hi rend="italic">« What do you do with a million
+              books ? »</hi> demande-t-on souvent à la suite du directeur du
+              projet <hi rend="italic">Perseus</hi>, Gregory Crane (voir <hi rend="small-caps">Crane</hi>, 2006), que ce soit en référence à
+              l’Universal Library et à son projet initial « Million Book
+              Digital Library » ou aux entreprises de numérisation mondiales
+              (voir les analyses de <hi rend="small-caps">Dacos</hi> et <hi rend="small-caps">Mounier</hi>, 2010).</p>
+            </note> ?</p>
+        </div>
+        <div type="section1" xml:id="d1e1328">
+          <head subtype="level1" xml:id="d1e1330">Vers une philologie
+          numérique</head>
+          <p xml:id="d1e1333">Au-delà d’une nouvelle lexicographie et de
+          l’organisation d’une philologie dite computationnelle<note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>
+                <hi rend="small-caps">Quemada</hi>, 2004, et <hi rend="small-caps">Bozzi</hi>, 2004.</p>
+            </note>, nous voyons l’émergence de ce que l’on peut nommer la
+          « philologie numérique<note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>Voir les propositions de François Rastier dans <hi rend="small-caps">Rastier</hi>, 2001. L’auteur rend justement
+              hommage à Roberto Busa, qui a consacré sa vie de savant à une
+              « philologie électronique » (voir <hi rend="small-caps">Busa</hi>, 1998, article au titre
+              savoureux).</p>
+            </note> ». Le passage au médium numérique – après le rouleau de
+          papyrus et le codex, après l’écriture et l’imprimerie – suscitera
+          d’autres types de lecture<note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>
+                <hi rend="small-caps">Chartier</hi>, 1995.</p>
+            </note> et d’autres modes de recherche. Dans la coalescence des
+          pratiques et des technologies, nous vivons sans doute un interrègne.
+          Les textes antiques paraissent être un bon terrain
+          d’expérimentation. Alors même que la philologie lutte pour sa
+          survie<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>Sur cette crise, voir les réflexions d’un indianiste dans <hi rend="small-caps">Pollock</hi>, 2009.</p>
+            </note>, c’est une dimension nouvelle de sa pratique et de son
+          épistémologie qui s’ouvre à elle. Aussi de nombreux spécialistes de
+          l’<date ref="_temp">Antiquité</date> prennent-ils une part active à
+          la construction des humanités numériques<note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>Pour un panorama concernant l’étude de l’Antiquité dans les
+              pays anglophones, voir <hi rend="small-caps">Crane</hi> et <hi rend="small-caps">Terras</hi>, 2009, ou <hi rend="small-caps">Terras</hi> et <hi rend="small-caps">Crane</hi>, 2010. Les <hi rend="italic">digital humanities </hi>ont déjà leurs <hi rend="italic">companion books</hi>, qui donnent une idée de la
+              diversité et de la vivacité du domaine : <hi rend="small-caps">Schreibman</hi>, <hi rend="small-caps">Siemens</hi> et <hi rend="small-caps">Unsworth</hi>, 2004, et <hi rend="small-caps">Siemens</hi> et <hi rend="small-caps">Schreibman</hi>, 2007. Voir également les
+              références collectées par l’auteur de ces lignes dans <hi rend="small-caps">Berra</hi>, 2010-.</p>
+            </note>.</p>
+          <p xml:id="d1e1429">En <date ref="_temp" when="1989">1989</date>, le
+          directeur scientifique des <hi rend="italic">Lieux de savoir
+          </hi>achevait ainsi sa présentation du <hi rend="italic">TLG :</hi>
+          « Contrairement à une idée répandue par ses détracteurs,
+          l’informatique invite à penser et à réfléchir. […] Il est sans doute
+          trop tôt pour faire le bilan des découvertes rendues possibles par
+          le <hi rend="italic">TLG</hi>
+            <note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>
+                <hi rend="small-caps">Jacob</hi>, 1989, p. 135.</p>
+            </note>. » Vingt ans plus tard, on ne peut que confirmer et
+          étendre cette conclusion. Dans bien des domaines, il est devenu
+          impossible ou intellectuellement ruineux d’ignorer l’informatique.
+          Cependant, à l’heure où les technologies de l’information s’imposent
+          dans la vie privée et dans la vie scientifique, la plus grave menace
+          réside sans doute dans une perspective purement instrumentale. Si la
+          bibliothèque numérique ne servait qu’à reconduire les automatismes
+          du travail avec les textes imprimés, le <hi rend="italic">TLG</hi>,
+          ses avatars futurs et ses équivalents dans d’autres champs de savoir
+          seraient comparables aux esclaves savants qu’un riche Romain
+          utilisait pour produire telle ou telle citation grecque au moment
+          opportun<note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>
+                <hi rend="small-caps">Sénèque</hi>, <hi rend="italic">Lettres
+              à Lucilius</hi>, III, 27. Cette satire d’un parvenu inculte
+              prêterait à une réflexion sur le rôle de la mémoire auxiliaire
+              dans la pratique des philosophes et des philologues, jadis et
+              aujourd’hui.</p>
+            </note>. Comme toute base de données qu’une communauté exploite,
+          ou plutôt comme tout corpus qu’elle se donne pour résultat et pour
+          matériau de ses recherches<note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>Avec justesse et humour, Bruno Latour propose de rebaptiser
+              « obtenues » les « données » scientifiques, qui n’ont en effet
+              rien de naturel (<hi rend="small-caps">Latour</hi>, 2007). La
+              « numérisation généralisée » met particulièrement en relief la
+              dimension matérielle de la vie des savoirs, constate-t-il, ainsi
+              que la convergence entre les sciences de l’interprétation et les
+              sciences de la nature, qui toutes travaillent avec des corpus
+              et, <hi rend="italic">mutatis mutandis</hi>, avec des
+              textes.</p>
+            </note>, le « thésaurus » grec est une création continuée. Affaire
+          de maniement et d’interprétation, son usage doit stimuler l’esprit
+          d’invention.</p>
+          <p xml:id="d1e1481">Dans les sciences de la culture, le
+          développement d’une compétence numérique partagée passera sans doute
+          par un certain degré d’hybridation des spécialités et par
+          l’instauration d’un meilleur dialogue entre les disciplines. La
+          distinction du technique et de l’intellectuel paraît ici moins
+          pertinente que jamais. Trop bien assimilé, devenu invisible, un
+          outil nouveau se réduit à ses propriétés les plus banales et perd sa
+          puissance heuristique. On comprend mieux le paradoxe qui fait
+          déclarer à un <foreign xml:lang="eng">
+              <hi rend="italic">computing humanist</hi>
+            </foreign>, dans une leçon inaugurale : « Est-ce que je sais de
+          quoi je parle ? Non<note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>
+                <hi rend="small-caps">McCarty</hi>, 2010. Pour cet
+              observateur participant des humanités numériques, l’inconnu vaut
+              promesse : « <hi rend="italic">I smell food on the
+              wind</hi>. »</p>
+            </note>. » Car personne ne sait encore ce qu’est une édition
+          numérique. Qui peut imaginer ce que les pratiques de lecture et de
+          recherche à venir nous feront percevoir, analyser et comprendre ?
+          Histoire à suivre.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e1504">
+        <head xml:id="d1e1506">Bibliographie</head>
+        <listBibl xml:id="d1e1509">
+          <bibl xml:id="d1e1511">
+            <hi rend="small-caps">Berkowitz</hi>, <hi rend="small-caps">Squitier</hi> et <hi rend="small-caps">Johnson</hi>, 1990 : Luci <hi rend="small-caps">Berkowitz</hi>, Karl A. <hi rend="small-caps">Squitier</hi> et William A. <hi rend="small-caps">Johnson</hi>, <hi rend="italic">Thesaurus Linguae
+          Graecae. Canon of Greek Authors and Works</hi> [1977], 3<hi rend="sup">e</hi> éd., New York.</bibl>
+          <bibl xml:id="d1e1539">
+            <hi rend="small-caps">Berra</hi>, 2010- :
+          Aurélien <hi rend="small-caps">Berra</hi>, <hi rend="italic">Philologie à venir</hi>, carnet de recherche en ligne
+          [<ref target="http://philologia.hypotheses.org/">
+              <hi rend="underline">http://philologia.hypotheses.org</hi>
+            </ref>].</bibl>
+          <bibl xml:id="d1e1557">
+            <hi rend="small-caps">Bollack</hi>, 1997 :
+          Jean <hi rend="small-caps">Bollack</hi>, <hi rend="italic">La Grèce
+          de personne. Les mots sous le mythe</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1569">
+            <hi rend="small-caps">Bozzi</hi>, 2004 :
+          Andrea <hi rend="small-caps">Bozzi</hi>, « Verso una filologia
+          computazionale : la prima Euroconferenza della European Science
+          Foundation », <hi rend="italic">Euphrosyne</hi>, 32,
+          p. 127-138.</bibl>
+          <bibl xml:id="d1e1581">
+            <hi rend="small-caps">Brunner</hi>, 1993 :
+          Theodore F. <hi rend="small-caps">Brunner</hi>, « Classics and the
+          Computer : The History », in Jon Solomon (éd.), <hi rend="italic">Accessing Antiquity. The Computerization of Classical
+          Databases</hi>, Tucson, p. 10-33.</bibl>
+          <bibl xml:id="d1e1594">
+            <hi rend="small-caps">Burnard</hi> et <hi rend="small-caps">Bauman</hi>, 2007- : Lou <hi rend="small-caps">Burnard</hi> et Syd <hi rend="small-caps">Bauman</hi> (éd.), <hi rend="italic">TEI P5.
+          Guidelines for Electronic Text Encoding and Interchange</hi>, TEI
+          Consortium [<ref target="http://www.tei-c.org/">
+              <hi rend="underline">http://www.tei-c.org</hi>
+            </ref>].</bibl>
+          <bibl xml:id="d1e1619">
+            <hi rend="small-caps">Burnard</hi>, <hi rend="small-caps">O’Brien</hi>
+            <hi rend="small-caps">O’Keeffe</hi> et
+          <hi rend="small-caps">Unsworth</hi>, 2006 : Lou <hi rend="small-caps">Burnard</hi>, Katherine <hi rend="small-caps">O’Brien</hi>
+            <hi rend="small-caps">O’Keeffe</hi> et
+          John M. <hi rend="small-caps">Unsworth</hi> (éd.), <hi rend="italic">Electronic Textual Editing</hi>, New York [<ref target="http://www.tei-c.org/About/Archive_new/ETE">
+              <hi rend="underline">http://www.tei-c.org/About/Archive_new/ETE</hi>
+            </ref>].</bibl>
+          <bibl xml:id="d1e1656">
+            <hi rend="small-caps">Burrows</hi>, 2004 :
+          John <hi rend="small-caps">Burrows</hi>, « Textual Analysis », in
+          Susan Schreibman, Raymond G. Siemens et John M. Unsworth (éd.), <hi rend="italic">A Companion to Digital Humanities</hi>, Oxford.</bibl>
+          <bibl xml:id="d1e1668">
+            <hi rend="small-caps">Busa</hi>, 1998 :
+          Roberto <hi rend="small-caps">Busa</hi>, « Concluding a Life’s
+          Safari from Punched Cards to the World Wide Web », in Lou Burnard,
+          Marilyn Deegan et Harold Short (éd.), <hi rend="italic">The Digital
+          Demotic. Selected Papers from DRH86, Digital Resources for the
+          Humanities Conference, St. Anne’s College, Oxford</hi>,<hi rend="italic"> September 1997</hi>, Londres, p. 3-12.</bibl>
+          <bibl xml:id="d1e1683">
+            <hi rend="small-caps">Cazes</hi>, 2003 :
+          Hélène <hi rend="small-caps">Cazes</hi>, « Étude introductive. La
+          passion et les épreuves d’Henri II Estienne, imprimeur humaniste »,
+          in Jean Céard (éd.), <hi rend="italic">La France des humanistes.
+          Henri Estienne, éditeur et écrivain</hi>, Turnhout,
+          p. XI-XLVIII.</bibl>
+          <bibl xml:id="d1e1695">
+            <hi rend="small-caps">Chantraine</hi>, 1999 :
+          Pierre <hi rend="small-caps">Chantraine</hi>, <hi rend="italic">Dictionnaire étymologique de la langue grecque.
+          Histoire des mots. Avec un Supplément sous la direction d’Alain
+          Blanc, Charles de Lamberterie et Jean-Louis Perpillou </hi>[1968],
+          Paris.</bibl>
+          <bibl xml:id="d1e1708">
+            <hi rend="small-caps">Chartier</hi>, 1995 :
+          Roger <hi rend="small-caps">Chartier</hi>, « Lecteurs dans la longue
+          durée : du <hi rend="italic">codex </hi>à l’écran », in Roger
+          Chartier (éd.), <hi rend="italic">Histoires de la lecture. Un bilan
+          des recherches</hi>, Paris, p. 271-283.</bibl>
+          <bibl xml:id="d1e1723">
+            <hi rend="small-caps">Crane</hi>, 2004 :
+          Gregory <hi rend="small-caps">Crane</hi>, « Classics and the
+          Computer : An End of the History », in Susan Schreibman, Raymond G.
+          Siemens et John M. Unsworth (éd.), <hi rend="italic">A Companion to
+          Digital Humanities</hi>, Oxford, p. 46-55.</bibl>
+          <bibl xml:id="d1e1735">
+            <hi rend="small-caps">Crane</hi>, 2006 : Gr. 
+          <hi rend="small-caps">Crane</hi>, « What Do You Do with a Million
+          Books ? », <hi rend="italic">D-Lib Magazine. The Magazine of Digital
+          Library Research</hi>, 12, 3 [http://
+          www.dlib.org/dlib/march06/crane/03crane.html].</bibl>
+          <bibl xml:id="d1e1747">
+            <hi rend="small-caps">Crane</hi>, <hi rend="small-caps">Bamman</hi> et <hi rend="small-caps">Babeu</hi>,
+          2007 : Gr. <hi rend="small-caps">Crane</hi>, David <hi rend="small-caps">Bamman</hi> et Alison <hi rend="small-caps">Babeu</hi>, « ePhilology : When the Books Talk to
+          their Readers », in Raymond G. Siemens et Susan Schreibman (éd.),
+          <hi rend="italic">A Companion to Digital Literary Studies</hi>,
+          Oxford, p. 29-34.</bibl>
+          <bibl xml:id="d1e1772">
+            <hi rend="small-caps">Crane</hi> et <hi rend="small-caps">Terras</hi>, 2009 : Gr. <hi rend="small-caps">Crane</hi> et Melissa <hi rend="small-caps">Terras</hi> (éd.), « Changing the Center of
+          Gravity : Transforming Classical Studies Through
+          Cyberinfrastructure », <hi rend="italic">Digital Humanities
+          Quarterly</hi>, 3, 1 [<ref target="http://www.digitalhumanities.org/dhq/vol/3/1">
+              <hi rend="underline">http://www.digitalhumanities.org/dhq/vol/3/1</hi>
+            </ref>].</bibl>
+          <bibl xml:id="d1e1797">
+            <hi rend="small-caps">Dacos</hi> et <hi rend="small-caps">Mounier</hi>, 2010 : Marin <hi rend="small-caps">Dacos</hi> et Pierre <hi rend="small-caps">Mounier</hi>, <hi rend="italic">L’Édition
+          électronique</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1816">
+            <hi rend="small-caps">Dendien</hi>, <hi rend="small-caps">Pierrel</hi> et <hi rend="small-caps">Quemada</hi>, 2004 : Jacques <hi rend="small-caps">Dendien</hi>, Jean-Marie <hi rend="small-caps">Pierrel</hi> et Bernard <hi rend="small-caps">Quemada</hi>, <hi rend="italic">Trésor de la
+          langue française informatisé</hi>, Paris [<ref target="http://atilf.atilf.fr/">
+              <hi rend="underline">http://atilf.atilf.fr</hi>
+            </ref> et <ref target="http://www.cnrtl.fr/lexicographie">
+              <hi rend="underline">http://www. cnrtl.fr/lexicographie</hi>
+            </ref>].</bibl>
+          <bibl xml:id="d1e1853">
+            <hi rend="small-caps">Dickey</hi>, 2007 :
+          Eleanor <hi rend="small-caps">Dickey</hi>, <hi rend="italic">Ancient
+          Greek Scholarship. A Guide to Finding, Reading, and Understanding
+          Scholia, Commentaries, Lexica, and Grammatical Treatises, from their
+          Beginnings to the Byzantine Period</hi>, Oxford.</bibl>
+          <bibl xml:id="d1e1865">
+            <hi rend="small-caps">Estienne</hi>, 1572 :
+          Henri <hi rend="small-caps">Estienne</hi>, Θησαυρὸς τῆς ἑλληνικῆς
+          γλώσσης. <hi rend="italic">Thesaurus graecae linguae</hi>,
+          Genève.</bibl>
+          <bibl xml:id="d1e1877">
+            <hi rend="small-caps">Estienne</hi>, 1531 :
+          Robert <hi rend="small-caps">Estienne</hi>, <hi rend="italic">Dictionarium, seu latinae linguae thesaurus</hi>,
+          Paris.</bibl>
+          <bibl xml:id="d1e1889">
+            <hi rend="small-caps">Estienne</hi>
+            <hi rend="italic"> et al.</hi>, 1831-1865 : Henri <hi rend="small-caps">Estienne</hi>, Charles Benoît <hi rend="small-caps">Hase</hi>, Wilhelm <hi rend="small-caps">Dindorf</hi> et Ludwig August <hi rend="small-caps">Dindorf</hi>, Θησαυρὸς τῆς ἑλληνικῆς γλώσσης. <hi rend="italic">Thesaurus graecae linguae</hi>, Paris.</bibl>
+          <bibl xml:id="d1e1914">
+            <hi rend="small-caps">Heslin</hi>, 2001 :
+          Peter J. <hi rend="small-caps">Heslin</hi>, compte rendu du <hi rend="italic">Thesaurus Linguae Graecae </hi>(disque E), <hi rend="italic">Bryn Mawr Classical Review</hi>.</bibl>
+          <bibl xml:id="d1e1930">
+            <hi rend="small-caps">Imbs</hi> et <hi rend="small-caps">Quemada</hi>, 1971-1994 : Paul <hi rend="small-caps">Imbs</hi> et Bernard <hi rend="small-caps">Quemada</hi> (éd.), <hi rend="italic">Trésor de la
+          langue française. Dictionnaire de la langue du </hi>
+            <hi rend="small-caps italic">xix</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> et du </hi>
+            <hi rend="small-caps italic">xx</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> siècle (1789-1960)</hi>,
+          Paris.</bibl>
+          <bibl xml:id="d1e1967">
+            <hi rend="small-caps">Jacob</hi>, 1989 :
+          Christian <hi rend="small-caps">Jacob</hi>, « Le <hi rend="italic">Thesaurus Linguae Graecae </hi>sur CD-Rom », <hi rend="italic">Préfaces. Les idées et les sciences dans la
+          bibliographie de la France</hi>, 14, p. 131-135.</bibl>
+          <bibl xml:id="d1e1982">
+            <hi rend="small-caps">Kaibel</hi>,
+          1887-1890 : Georg <hi rend="small-caps">Kaibel</hi>, <hi rend="italic">Athenaei Naucratitae Dipnosophistarum libri XV</hi>,
+          Leipzig.</bibl>
+          <bibl xml:id="d1e1994">
+            <hi rend="small-caps">Latour</hi>, 2007 :
+          Bruno <hi rend="small-caps">Latour</hi>, « Pensée retenue, pensée
+          distribuée », in Christian Jacob (éd.), <hi rend="italic">Lieux de
+          savoir. I. Espaces et communautés</hi>, Paris, p. 605-615.</bibl>
+          <bibl xml:id="d1e2006">
+            <hi rend="small-caps">Martin</hi>, 1995 :
+          Henri-Jean <hi rend="small-caps">Martin</hi>, « Lectures et mises en
+          texte », in Roger Chartier (éd.), <hi rend="italic">Histoires de la
+          lecture. Un bilan des recherches</hi>, Paris, p. 249-259.</bibl>
+          <bibl xml:id="d1e2018">
+            <hi rend="small-caps">Martin</hi>, 2003 :
+          H.-J. <hi rend="small-caps">Martin</hi>, « Du livre à la lecture »,
+          in Christian Jacob (éd.), <hi rend="italic">Des Alexandries II. Les
+          métamorphoses du lecteur</hi>, Paris, p. 35-45.</bibl>
+          <bibl xml:id="d1e2031">
+            <hi rend="small-caps">McCarty</hi>, 2003 :
+          Willard <hi rend="small-caps">McCarty</hi>, « Humanities
+          Computing », in Miriam Drake (éd.), <hi rend="italic">Encyclopedia
+          of Library and Information Science</hi>, 2e éd., New York,
+          p. 1224-1235 [<ref target="http://staff.cch.kcl.ac.uk/∼wmccarty/cv.html">
+              <hi rend="underline">http://staff.cch.kcl.ac.uk/</hi>
+            </ref>
+            <ref target="http://staff.cch.kcl.ac.uk/∼wmccarty/cv.html">
+              <hi rend="underline">∼</hi>
+            </ref>
+            <ref target="http://staff.cch.kcl.ac.uk/∼wmccarty/cv.html">
+              <hi rend="underline">wmccarty/cv.html</hi>
+            </ref>].</bibl>
+          <bibl xml:id="d1e2062">
+            <hi rend="small-caps">McCarty</hi>, 2005 :
+          W. <hi rend="small-caps">McCarty</hi>, <hi rend="italic">Humanities
+          Computing</hi>, Basingstoke.</bibl>
+          <bibl xml:id="d1e2074">
+            <hi rend="small-caps">McCarty</hi>, 2010 :
+          W. <hi rend="small-caps">McCarty</hi>, « Attending From and To the
+          Machine », leçon inaugurale, Center for Computing in the Humanities,
+          King’s College, Londres [<ref target="http://staff.cch.kcl.ac.uk/∼wmccarty">
+              <hi rend="underline">http://staff.cch.kcl.ac.uk/</hi>
+            </ref>
+            <ref target="http://staff.cch.kcl.ac.uk/∼wmccarty">
+              <hi rend="underline">∼</hi>
+            </ref>
+            <ref target="http://staff.cch.kcl.ac.uk/∼wmccarty">
+              <hi rend="underline">wmccarty</hi>
+            </ref>].</bibl>
+          <bibl xml:id="d1e2101">
+            <hi rend="small-caps">Pantelia</hi>, 2000 :
+          Maria C. <hi rend="small-caps">Pantelia</hi>, « “<hi rend="italic">Noûs</hi>, into Chaos”. The Creation of the Thesaurus
+          of the Greek Language », <hi rend="italic">International Journal of
+          Lexicography</hi>, 13, 1, p. 1-11.</bibl>
+          <bibl xml:id="d1e2116">
+            <hi rend="italic">Perseus</hi>, 1987- : <hi rend="italic">Perseus</hi>, Tufts University [<ref target="http://www.perseus.tufts.edu/hopper">
+              <hi rend="underline">http://www.perseus.tufts.edu/hopper</hi>
+            </ref>].</bibl>
+          <bibl xml:id="d1e2131">
+            <hi rend="small-caps">Pfeiffer</hi>, 1976 :
+          Rudolf <hi rend="small-caps">Pfeiffer</hi>, <hi rend="italic">History of Classical Scholarship. From 1300 to
+          1850</hi>, Oxford.</bibl>
+          <bibl xml:id="d1e2144">
+            <hi rend="small-caps">Pollock</hi>, 2009 :
+          Sheldon <hi rend="small-caps">Pollock</hi>, « Future Philology ? The
+          Fate of a Soft Science in a Hard World », <hi rend="italic">Critical
+          Inquiry</hi>, 35, 4, p. 931-961 [<ref target="http://www.columbia.edu/cu/mealac/faculty/pollock">
+              <hi rend="underline">http://www.columbia.edu/cu/mealac/faculty/pollock</hi>
+            </ref>].</bibl>
+          <bibl xml:id="d1e2162">
+            <hi rend="small-caps">Quemada</hi>, 2004 :
+          Bernard <hi rend="small-caps">Quemada</hi>, « Nouvelle
+          lexicographie ? », <hi rend="italic">Euphrosyne</hi>, 32,
+          p. 45-54.</bibl>
+          <bibl xml:id="d1e2174">
+            <hi rend="small-caps">Rastier</hi>, 2001 :
+          François <hi rend="small-caps">Rastier</hi>, « Philologie
+          numérique », in <hi rend="italic">Arts et Sciences du texte</hi>,
+          Paris, p. 73-97.</bibl>
+          <bibl xml:id="d1e2186">
+            <hi rend="small-caps">Schreibman</hi>, <hi rend="small-caps">Siemens</hi> et <hi rend="small-caps">Unsworth</hi>, 2004 : Susan <hi rend="small-caps">Schreibman</hi>, Raymond, George <hi rend="small-caps">Siemens</hi> et John M <hi rend="small-caps">Unsworth</hi> (éd.), <hi rend="italic">A Companion
+          to Digital Humanities</hi>, Oxford [<ref target="http://www.digitalhumanities.org/companionDLS">
+              <hi rend="underline">http://www.digitalhumanities.org/companionDLS</hi>
+            </ref>].</bibl>
+          <bibl xml:id="d1e2217">
+            <hi rend="small-caps">Siemens</hi> et <hi rend="small-caps">Schreibman</hi>, 2007 : Raymond George <hi rend="small-caps">Siemens</hi> et Susan <hi rend="small-caps">Schreibman</hi> (éd.), <hi rend="italic">A
+          Companion to Digital Literary Studies</hi>, Oxford.</bibl>
+          <bibl xml:id="d1e2235">
+            <hi rend="small-caps">Terras</hi> et <hi rend="small-caps">Crane</hi>, 2010 : Melissa <hi rend="small-caps">Terras</hi> et Gregory <hi rend="small-caps">Crane</hi> (éd.), <hi rend="italic">Changing the
+          Center of Gravity. Transforming Classical Studies Through
+          Cyberinfrastructure</hi>, Piscataway.</bibl>
+          <bibl xml:id="d1e2254">
+            <hi rend="italic">TLG</hi>, 1972- : <hi rend="italic">Thesaurus Linguae Graecae</hi>, université de
+          Californie à Irvine.</bibl>
+          <bibl xml:id="d1e2263">
+            <hi rend="italic">TLG </hi>
+            <hi rend="small-caps italic">Online</hi>, 2001- : <hi rend="italic">Thesaurus Linguae Graecae. A Digital Library of Greek
+          Literature</hi>, université de Californie à Irvine [<ref target="http://stephanus.tlg.uci.edu/">
+              <hi rend="underline">http://stephanus.tlg.uci.edu</hi>
+            </ref>].</bibl>
+          <bibl xml:id="d1e2281">
+            <hi rend="small-caps">Unsworth</hi>, 2000 :
+          John M. <hi rend="small-caps">Unsworth</hi>, « Scholarly
+          Primitives : What Methods do Humanities Researchers Have in Common,
+          and How Might Our Tools Reflect This ? », colloque <hi rend="italic">Humanities Computing : Formal Methods, Experimental
+          Practice</hi>, King’s College, Londres [<ref target="http://www3.isrl.illinois.edu/∼unsworth/Kings.5-00/primitives.html">
+              <hi rend="underline">http://www3.isrl.illinois.edu/</hi>
+            </ref>
+            <ref target="http://www3.isrl.illinois.edu/∼unsworth/Kings.5-00/primitives.html">
+              <hi rend="underline">∼</hi>
+            </ref>
+            <ref target="http://www3.isrl.illinois.edu/∼unsworth/Kings.5-00/primitives.html">
+              <hi rend="underline">unsworth/Kings.5-00/primitives.html</hi>
+            </ref>].</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

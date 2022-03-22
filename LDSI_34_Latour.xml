@@ -1,0 +1,656 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-06-07T09:55:24.217+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LDSI_34_Latour">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Pensée retenue, pensée distribuée</title>
+        <author role="aut">
+          <forename>Bruno</forename>
+          <surname>Latour</surname>
+          <idno type="IDREF">02825354X</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2020">2020</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Albin
+          Michel CC BY-NC-ND 3.0 Attribution - Pas d’Utilisation Commerciale -
+          Pas de Modification</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/5RMKUSG9" type="bookSection" xml:lang="fre">
+          <analytic>
+            <title level="a">Pensée retenue, pensée distribuée</title>
+            <author>
+              <forename>Bruno</forename>
+              <surname>Latour</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Lieux de savoir</title>
+            <idno type="ISBN">978-2-226-17904-3</idno>
+            <editor>
+              <forename>Christian</forename>
+              <surname>Jacob</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <biblScope unit="volume">1. Espaces et communautés</biblScope>
+              <biblScope unit="nb_volumes">2</biblScope>
+              <biblScope unit="page">605-615</biblScope>
+              <publisher>Albin Michel</publisher>
+              <date>2007</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-11-22T10:37:00" who="Lou Cecille">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Pensée retenue, pensée distribuée</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Bruno Latour</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e49">
+          <hi rend="small-caps">Comment naviguer</hi> dans les
+        nouveaux chemins du savoir ? Dès qu’on veut se mettre à repérer les
+        moyens qui permettent aux érudits, aux savants, aux intellectuels de
+        penser, on hésite entre deux directions. La première, irrésistible,
+        situe la pensée dans la tête de ces femmes et de ces hommes, voire, si
+        l’on est mieux équipé en instruments, dans leur cerveau. Mais, en même
+        temps, on ne peut échapper à la tentation de croire que, pour penser,
+        en tout cas pour bien penser, il faut aussi des lieux, des
+        institutions, des installations, des dotations, des collections, des
+        accumulations de données, des instruments. Comme un chien qui ne veut
+        pas chasser deux lièvres à la fois, l’enquêteur hésite entre deux
+        tracés : celui qui mène de proche en proche jusqu’aux localisations
+        cérébrales ; celui qui mène à la description de plus en plus précise
+        des institutions de la connaissance. À moins qu’il ne change et de
+        chasse, et de lièvre, et de trace : la pensée ne désignerait alors
+        aucun de ces segments – le cerveau, l’esprit, l’instrument,
+        l’institution, l’époque, le contexte –, mais le mouvement qui mène de
+        chaque segment au suivant et sur lequel les localisations recherchées
+        ne découpent maintenant que des sections, dont chacune est utile, mais
+        dont aucune ne capture le phénomène qu’il s’agit de retracer puisqu’il
+        les traverse toutes. Une métaphore, volontairement très commune, fera
+        comprendre ce double mouvement. Supposons que je fasse une enquête sur
+        la logistique qui approvisionne aujourd’hui les grandes surfaces. Je
+        pourrais évidemment m’attacher à noter ce qui repose pour l’instant
+        dans le hangar d’un de ces halls immenses qui se trouvent juste
+        derrière les vastes plates-formes multimodales situées en des lieux
+        stratégiques de l’Europe ; je pourrais aussi me placer sur les quais
+        de déchargement pour saisir la transition rapide que subissent les
+        denrées ; il ne serait pas absurde non plus d’aller voir le bureau du
+        logisticien dont le planning informatique clignote sur un vaste
+        tableau dans une salle à air conditionné à l’écart du brouhaha des
+        quais ; mais j’en apprendrais autant en repérant la qualité du réseau
+        routier, ferré et aérien en amont et en aval de la plate-forme ou en
+        suivant sur une carte du monde les lieux de production de tout ce qui
+        viendra bientôt se loger dans les gondoles avant d’être déposé dans
+        les caddies des consommateurs<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Je suis l’étude de C<hi rend="small-caps">ochoy</hi>, 2002, et
+            de C<hi rend="small-caps">ochoy</hi> et G<hi rend="small-caps">randclément</hi>, 2005.</p>
+          </note>. Si je devais étudier la logistique des denrées de
+        consommation, tout le monde admettrait sans peine qu’elle ne se situe
+        de façon privilégiée en aucun de ces points, mais qu’elle est
+        coextensive à l’ensemble des moyens – des médiateurs – nécessaires à
+        son déploiement.</p>
+        <p xml:id="d1e66">Or, dès que l’on veut étudier cette plate-forme
+        multimodale particulière que l’on appelle le savoir ou la pensée, on
+        hésite à suivre le déploiement de tous ces intermédiaires. Malgré les
+        travaux remarquables de ceux qu’on appelle justement pour cette raison
+        les tenants de la cognition <hi rend="italic">distribuée</hi>, il ne
+        semble pas que la logique bénéficie du même intérêt que la
+        logistique<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Voir les travaux d’une grande importance pour toute
+            incorporation de la pensée de H<hi rend="small-caps">utchins</hi>,
+            1980, et surtout H<hi rend="small-caps">utchins</hi>, 1995. Voir
+            aussi le travail désormais classique de S<hi rend="small-caps">uchman</hi>, 1987.</p>
+          </note>. On distribuera volontiers la grande distribution, mais on
+        hésitera à distribuer aussi généreusement les capacités cognitives :
+        on fera jouer à certains segments de cette droite le rôle de la
+        véritable pensée ; le reste ne sera saisi que sous le mode très
+        inférieur de simples « moyens » pour la pensée. Et pourtant, localiser
+        la pensée dans l’esprit ou dans le cerveau n’a guère plus de sens que
+        de s’en tenir à la description méticuleuse de l’organisation des
+        denrées surgelées dans la sombre profondeur d’un hangar frigorifique :
+        oui, bien entendu, elles sont bel et bien là, mais venues d’ailleurs
+        et pour aller ailleurs. Pourquoi donc ne pas suivre les données comme
+        on suivrait les denrées ? Personne ne trouverait indigne de la
+        logistique de la définir comme la somme de tout le réseau qui permet
+        de la comprendre ? Pourquoi trouve-t-on parfois indigne de la <hi rend="italic">logique</hi> qu’elle puisse se donner enfin les moyens
+        de se déployer, aussi loin qu’il est nécessaire, pour en comprendre
+        l’efficace<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Pour de notables exceptions, voir les travaux sur le formalisme
+            de K<hi rend="small-caps">aiser</hi>, 2005, et R<hi rend="small-caps">osental</hi>, 2003.</p>
+          </note> ?</p>
+        <p xml:id="d1e97">La question n’est pas sans importance : dans la
+        première approche, celle qui isole une partie seulement du savoir et
+        qu’on pourrait appeler la <hi rend="italic">pensée retenue</hi> par
+        opposition à la pensée <hi rend="italic">distribuée</hi>, on fait
+        comme si, au fond, tout restait en place une fois les moyens pratiques
+        retirés. Pour prendre les exemples de cette section : que le roi
+        <persName ref="179883453" type="idref" xml:base="https://www.idref.fr/">Serfoji</persName> de <placeName ref="1254650" type="geonames" xml:base="https://www.geonames.org/">Thanjavur</placeName> en
+        <placeName ref="1269750" type="geonames" xml:base="https://www.geonames.org/">Inde</placeName> ait ou non créé
+        les institutions de la ville, les érudits qu’il avait su réunir autour
+        de lui eussent pensé de la même manière ; que le <persName ref="202388794" type="idref" xml:base="https://www.idref.fr/">Dr
+        Margaret O. Dayhoff</persName> ait compilé ou non l’atlas des
+        protéines, les biologistes moléculaires eussent continué à procéder de
+        la même façon à l’intercomparaison de leurs chaînes – quant aux
+        protéines, elles seraient « bien évidemment » demeurées semblables à
+        elles-mêmes, activement enfouies au fond des corps vivants ; effacez
+        de la surface de la terre les bibliothèques électroniques ou de
+        papier, rien de fondamental ne serait modifié dans ce que
+        neurobiologistes, psychologues, cogniticiens ou épistémologues
+        sauraient localiser dans les opérations de l’esprit ou dans les états
+        électriques du cerveau. Autrement dit, dès qu’on localise la pensée
+        dans l’un de ces segments, on donne un jugement de valeur, et des plus
+        importants, sur ce qui compte le plus et ce qui compte un peu moins.
+        Or, jamais on ne procéderait pour la grande distribution par une telle
+        répartition entre ce qui compte beaucoup et ce qui compte moins : une
+        interruption de quelques jours dans le brassage des denrées sur la
+        plate-forme multimodale à cause d’une grève, une pénurie de pétrole,
+        une tempête de neige – et bientôt, les hangars se videraient ou
+        seraient engorgés de biens que la date de péremption rendrait vite
+        dangereux pour la consommation. De cela tout le monde est bien
+        d’accord parce que les connections sont aisées à saisir. Pourquoi donc
+        est-il si difficile de repérer le lien entre le dedans et le dehors de
+        l’esprit alors qu’on le fait sans peine quand il s’agit du panier de
+        la ménagère qui sert à nourrir trois fois par jour ce <hi rend="italic">même</hi> esprit ? Pourquoi n’hésite-t-on pas sur la
+        plate-forme multimodale des super ou des hypermarchés, alors que,
+        placé devant le choix d’étudier le cerveau d’<persName ref="026849186" type="idref" xml:base="https://www.idref.fr/">Einstein</persName>, la
+        relativité d’<persName ref="026849186" type="idref" xml:base="https://www.idref.fr/">Einstein</persName> ou l’office des
+        brevets d’<persName ref="026849186" type="idref" xml:base="https://www.idref.fr/">Einstein</persName>, on va se croire
+        tenu d’hésiter<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Voir le bel exemple traité in G<hi rend="small-caps">alison</hi>, 2005.</p>
+          </note> ?</p>
+        <p xml:id="d1e115">Le paradoxe n’est pas mince : l’histoire des
+        érudits, des chercheurs et des intellectuels est très largement
+        l’histoire des moyens par lesquels le faible équipement cérébral de
+        base qui sert à faire ses courses, laver son linge, élever ses
+        enfants, etc., peut se trouver appliqué à d’autres objets, immensément
+        éloignés de l’activité ordinaire, par le truchement de l’invention
+        d’instruments, de dispositifs, de collections et de bases de données.
+        Toutes choses pour lesquelles il ne serait pas si faux d’utiliser, là
+        aussi, le terme de plates-formes multimodales pour désigner ces
+        dispositifs qu’on appelle encore, faute de mieux, des bibliothèques,
+        mais qui sont devenus – ou ont toujours été – des <hi rend="italic">multi</hi>-thèques. Et pourtant, pour abriter tous ces
+        trésors d’intelligence, on ne va jamais considérer d’autres
+        « armoires », d’autres « coffres », d’autres « réceptacles » – le sens
+        étymologique de <hi rend="italic">
+            <foreign>thêkê</foreign> </hi>– que
+        celui de l’esprit<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>B<hi rend="small-caps">aratin</hi> et J<hi rend="small-caps">acob</hi>, 1996.</p>
+          </note>. En réalité, il s’agit bien là d’une faiblesse de
+        raisonnement, d’un défaut d’observation. Car enfin, la jeune
+        physicienne qui remplit son caddie pour nourrir sa famille n’aura
+        jamais l’idée d’attribuer à sa pensée les capacités de calcul qu’elle
+        trouve installées et distribuées dans les gondoles à travers la
+        multiplicité des instruments de mesure, de calibrage et de formatage
+        qui y sont partout signalés – et jamais elle n’aura l’idée de
+        confondre la capacité de stockage du supermarché avec le bureau du
+        logisticien de l’enseigne où elle s’approvisionne<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>C’est justement l’intérêt de T<hi rend="small-caps">hévenot</hi>, 2006.</p>
+          </note> ; et pourtant, dès qu’elle se retrouve à l’Observatoire dans
+        son bureau et qu’elle tape, pour situer les étoiles dont elle doit, en
+        vue de sa thèse, calculer de nouveau la distribution dans la galaxie,
+        grâce à la base de données S<hi rend="small-caps">IMBAD</hi>
+          <note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>Set of Identification, Measurements and Bibliography for
+            Astronomical Data – base tenue à jour par le Centre de données de
+            Strasbourg.</p>
+          </note>, on voudrait nous faire croire que les trésors
+        d’intelligence qu’elle déploie sont serrés dans le coffre étroit de sa
+        boîte crânienne, dans la précieuse armoire de son esprit, dans le
+        réceptacle capitonné de sa pensée ?</p>
+        <p xml:id="d1e146">Si elle est, comme je le crois, une bonne
+        chercheuse aussi bien qu’une consommatrice consciencieuse, elle sera
+        sûre que la qualité de son raisonnement dépend si crucialement de la
+        qualité de sa base de données que la moindre interruption dans la
+        disposition de cette dernière la privera de son doctorat – au même
+        titre que la violente tempête de neige l’avait, quelques jours
+        auparavant, privée des approvisionnements dans ses denrées favorites.
+        Jamais elle ne se résoudra à traiter différemment l’approvisionnement
+        et la logistique des denrées de l’approvisionnement et de la
+        logistique des données.</p>
+        <p xml:id="d1e148">Je crois même qu’elle y verrait, si elle a un peu
+        de bon sens, une grave faute morale. En effet, ceux qui font résider à
+        demeure dans l’esprit ce qui ne fait qu’y transiter ne se donneront
+        aucun mal pour entretenir les institutions, les moyens matériels, les
+        conduits indispensables à l’exercice de la connaissance. En localisant
+        trop vite les activités mentales dans la tête, on va se mettre à
+        douter de l’importance décisive des moyens les plus humbles. On entend
+        déjà quelque administrateur de la recherche, trop content de
+        l’aubaine, murmurer aux savants ce qu’on dit déjà aux artistes avec
+        tant de gourmandise : « Puisque vous êtes des génies, vous ferez
+        sûrement aussi bien avec moins de revues dans votre bibliothèque,
+        moins de puissance de calcul, moins d’écoles d’été, moins de données,
+        moins de modems, moins de bureaux. » Je ne crois pas me tromper de
+        beaucoup, en suggérant que le comptable du monarque éclairé de
+        <placeName ref="1254650" type="geonames" xml:base="https://www.geonames.org/">Thanjavur</placeName> a dû
+        plusieurs fois suggérer à son maître que la pensée éthérée et
+        éternelle des brahmanes se porterait tout aussi bien sans les
+        observatoires, les coûteuses copies, les cabinets de curiosités
+        rares ! Puisque tous ces moyens ne sont justement que des « moyens »,
+        pourquoi ne pas les couper ? Tout le reste, qui est la seule chose qui
+        compte, n’en sera pas amputé pour autant. Tel est le danger de
+        l’idéalisme en matière de savoir, idéalisme qui passe pourtant souvent
+        pour l’expression de la plus haute vertu.</p>
+        <p xml:id="d1e150">La tentation de l’idéalisme vient peut-être du mot
+        même de <hi rend="italic">données</hi> qui décrit aussi mal que
+        possible ce sur quoi s’appliquent les capacités cognitives ordinaires
+        des érudits, des savants et des intellectuels. Il faudrait remplacer
+        ce terme par celui, beaucoup plus réaliste, d’<hi rend="italic">obtenues</hi> et parler par conséquent de <hi rend="italic">bases d’obtenues</hi>, de <hi rend="italic">
+            <foreign xml:lang="lat">sublata</foreign>
+          </hi> plutôt que de <hi rend="italic">
+            <foreign xml:lang="eng">data</foreign>
+          </hi> pour parler à la fois latin et anglais<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>Sur ces nécessités du deuxième empirisme, voir L<hi rend="small-caps">atour</hi>, 2001, et le numéro entier de <hi rend="italic">Culture technique</hi>, cf. L<hi rend="small-caps">atour</hi>, 1985.</p>
+          </note>. C’est un cas où les érudits ont une longueur d’avance
+        épistémologique sur les chercheurs<note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>Le travail classique sur l’exégèse commune aux diverses
+            sciences est l’ouvrage toujours aussi important d’E<hi rend="small-caps">isenstein</hi>, 1991, sur cette plate-forme
+            multimodale par excellence qu’est l’imprimé.</p>
+          </note>. Aucun helléniste, aucun sanskritiste, aucun spécialiste des
+        tablettes mésopotamiennes n’aura honte de dire que, privé d’éditions
+        savantes, il ne pourrait interpréter quoi que ce soit et n’aurait pas
+        de pensées plus hautes ou plus méticuleuses que celles qui lui
+        traversent l’esprit en poussant son caddie dans les allées d’un
+        supermarché. Autrement dit, l’exégèse n’est possible qu’en tenant à la
+        plus petite distance possible des versions différentes – imprimées ou
+        numériques – des fragments de texte. La situation, on l’a souvent
+        montré, est exactement la même quand il s’agit de comparer des
+        séquences de gènes ou de protéines<note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>Voir de nombreux exemples dans L<hi rend="small-caps">ynch</hi>
+            et W<hi rend="small-caps">oolgar</hi>, 1990, et plus récemment
+            J<hi rend="small-caps">ones</hi> et G<hi rend="small-caps">alison</hi>, 1998. Voir aussi D<hi rend="small-caps">aston</hi> et G<hi rend="small-caps">alison</hi>, 1992.</p>
+          </note>. Cela est si vrai que la bio-informatique vous invite
+        désormais à parcourir la littérature scientifique en fonction du nom
+        d’auteur, du titre, des mots clés, mais aussi des séquences qui s’y
+        trouvent décodées ou citées. Et pourtant, jamais on n’utilisera les
+        notions d’exégèse, de littérature, d’interprétation, de commentaire
+        pour les biologistes moléculaires, comme on le fera sans hésitation
+        pour les spécialistes du sanskrit ou du linéaire B. Là encore, comme
+        dans le cas des plates-formes multimodales : deux poids deux mesures.
+        Même la notion de littérature, appliquée à la littérature
+        scientifique, suscite un certain effroi, une certaine répulsion, alors
+        même que celui qui prend un air dégoûté vient de taper sur Google
+        Scholar pour suivre à la trace le bio-marqueur qu’il vient de
+        publier ; il se bat pour qu’on lui envoie sans payer la nouvelle
+        version d’une prépublication éditée par l’un de ses collègues ; il
+        cherche à recompiler les données primaires enfin disponibles par
+        l’abonnement à une coûteuse base « d’obtenues » ; il reçoit par
+        courriel un article marqué au rouge par son directeur de laboratoire ;
+        il compare base par base les délétions, interpolations, inversions,
+        corrections d’une séquence qu’il vient d’amplifier par P<hi rend="small-caps">CR</hi> ; bref, il ressemble à s’y méprendre, par le
+        travail même de l’exégèse, à son collègue, certes moins bien équipé,
+        et fort injustement méprisé, qui compare les douze versions
+        successives des fragments d’<persName ref="027365417" type="idref" xml:base="https://www.idref.fr/">Héraclite</persName> enfin disponible
+        sur C<hi rend="small-caps">R</hi>-ROM<note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>Même si l’on accepte de parler de rhétorique (H<hi rend="small-caps">allyn</hi>, 2004), la notion de littérature
+            n’est prise vraiment au sérieux que dans des travaux encore assez
+            rares : voir par exemple L<hi rend="small-caps">icoppe</hi>,
+            1996 ; B<hi rend="small-caps">astide</hi>, 2001.</p>
+          </note>.</p>
+        <p xml:id="d1e230">Et pourtant, s’il y a un cliché que l’attention aux
+        « lieux de savoir » peut enfin permettre de dépasser, c’est celui de
+        la radicale distinction entre sciences de l’interprétation et sciences
+        de la nature, cliché dont la date de péremption est passée depuis
+        plusieurs siècles et dont la migration générale des instruments
+        textuels vers la numérisation devrait nous débarrasser pour de bon.
+        Texte pour texte, n’importe quel ergonome ne verrait pas beaucoup de
+        différences entre le poste de travail de l’érudit et celui du
+        chercheur. Ce qui rend cet argument quelque peu scandaleux et la
+        notion même de texte apparemment postmoderne<note n="12" place="foot" type="standard" xml:id="ftn12">
+            <p>Malgré les efforts de R<hi rend="small-caps">astier</hi>, 2001,
+            pour étendre et rematérialiser la notion de texte et de
+            corpus.</p>
+          </note>, c’est l’idéalisme par lequel nous attribuons au réceptacle
+        de l’esprit – voire du cerveau – l’ensemble du réseau logique et
+        logistique qui permet aux « obtenues » d’y entrer et d’en sortir. Or,
+        les chercheurs ont bien des têtes, et même des têtes aussi bien faites
+        que pleines, mais ce sont, si j’ose dire, des <hi rend="italic">têtes
+        de réseau</hi>. L’étonnante étude que <persName ref="034081070" type="idref" xml:base="https://www.idref.fr/">Peter Galison</persName>
+        a menée sur <persName ref="026849186" type="idref" xml:base="https://www.idref.fr/">Einstein</persName> et <persName ref="027943585" type="idref" xml:base="https://www.idref.fr/">Poincaré</persName> a reçu une autre
+        confirmation d’un travail d’<persName ref="123177111" type="idref" xml:base="https://www.idref.fr/">Hélène Mialet</persName> sur le
+        physicien culte <persName ref="06732973X" type="idref" xml:base="https://www.idref.fr/">Stephen Hawkins</persName>
+          <note n="13" place="foot" type="standard" xml:id="ftn13">
+            <p>M<hi rend="small-caps">ialet</hi>, 2003.</p>
+          </note>. La presse a fait de ce physicien l’exemple même de l’esprit
+        dématérialisé au point que, presque privé de corps, de parole et de
+        geste, il ne peut que penser. Voilà donc la démonstration éclatante
+        que l’on peut bien priver un chercheur de tout l’ensemble de ses
+        moyens, il pensera toujours non seulement aussi clairement mais, en un
+        sens, même mieux, sa pensée ne subissant plus l’attraction d’aucune
+        adhérence matérielle, pouvant librement parcourir l’univers et
+        s’entretenir presque angéliquement avec la pensée même du Créateur
+        auquel il semble parler – mais sans parole – d’égal à égal. Or cet
+        exemple fameux qui paraît conforter le cliché au-delà de toute
+        espérance le dissipe on ne peut mieux : <persName ref="06732973X" type="idref" xml:base="https://www.idref.fr/">Hawkins</persName> est
+        la tête d’un réseau extraordinairement fourni en prothèses multiples
+        allant de ses infirmières à ses calculateurs et à ses collègues, si
+        bien que chaque résultat montre l’intense collaboration et la
+        complexité des dispositifs qu’il faut mettre en place pour l’obtenir.
+        Le courage indiscutable qu’il met à supporter l’artifice nécessaire à
+        l’obtention de chaque argument a pour effet de remédiatiser et
+        rematérialiser ce que tout autre physicien, sain de corps, prend pour
+        acquis par lui-même et par ses seules forces<note n="14" place="foot" type="standard" xml:id="ftn14">
+            <p>Ce que montrent d’autres physiciens dont les « prothèses » et
+            plates-formes, ô combien multimodales, ont été étudiées dans le
+            passé, en particulier Galilée, autre athlète de la pensée, voir
+            B<hi rend="small-caps">iagioli</hi>, 2006.</p>
+          </note>. <persName ref="06732973X" type="idref" xml:base="https://www.idref.fr/">Hawkins</persName> par sa souffrance
+        même prouve le contraire : oui, on peut toujours penser, mais comme
+        est vaste l’institution dont il faut bénéficier pour maintenir en
+        existence ces fonctions élémentaires. Les bien-portants en profitent
+        sans y penser.</p>
+        <p xml:id="d1e256">Si ce n’est pas l’esprit dématérialisé de <persName ref="06732973X" type="idref" xml:base="https://www.idref.fr/">Hawkins</persName> qui accède à
+        l’univers dont il retrace l’histoire et la géométrie dans des articles
+        et dans des livres, alors, demandera-t-on, comment l’univers
+        parvient-il à rejoindre l’institution fragile qui le rend capable
+        d’être pensé ? C’est toute la question des « obtenues ». La notion
+        même d’institution, comme celle de littérature ou de texte, paraît
+        légèrement iconoclaste. En quoi l’univers aurait-il besoin d’une
+        institution pour devenir objet de savoir ? Je crains qu’il ne me
+        faille réutiliser la métaphore de la plate-forme multimodale qui n’a
+        rien, je voudrais qu’on me croie, de spécialement vulgaire : pour
+        parvenir jusqu’aux têtes de réseau qui vont le retravailler, l’univers
+        doit subir des transformations aussi nombreuses que les denrées qui
+        cheminent dans le monde entier pour se trouver rebrassées,
+        conditionnées, marquées, étiquetées, et finalement introduites,
+        repérées et consommées dans les grandes surfaces. Je sais bien que
+        l’idéalisme nous oblige à situer le long d’un curseur l’artificialité
+        de la procédure d’un côté, la qualité des données de l’autre<note n="15" place="foot" type="standard" xml:id="ftn15">
+            <p>Sur la longue histoire politique de ce curseur, voir L<hi rend="small-caps">atour</hi>, 1999.</p>
+          </note>. À cause de lui, on s’imagine alors que, plus on déplace le
+        curseur vers l’artificialité, moins on aura de données fiables ; plus
+        on se dirige vers les données, moins elles devront être artificielles.
+        Le choix est évidemment absurde, comme il serait absurde de suggérer
+        que l’atlas des séquences de protéines ou la base de données des
+        séquences d’A<hi rend="small-caps">DN</hi> sont d’autant plus
+        satisfaisants qu’ils sont naturels – ce qui voudrait dire, si les mots
+        ont un sens, que les séquences retournent à l’incognito dans lequel
+        elles gisaient avant l’invention de la biologie moléculaire ! Aucun
+        usager des banques de données de séquences ne dira : « C’est sur un
+        écran d’ordinateur artificiel dans mon bureau, traité par des
+        bio-informaticiens de l’I<hi rend="small-caps">INSERM</hi>, donc je ne
+        m’en servirai pas… » Ce serait aussi stupide que d’aller dans un
+        supermarché et de décider que, puisque toutes ces denrées sont
+        conditionnées par une logistique artificielle, on ne les achètera pas.
+        Quelle serait l’alternative ? Planter soi-même l’ensemble de ses
+        produits de consommation dans un carré de jardin au nom d’une
+        sympathique autarcie ? Redécouvrir chaque séquence d’A<hi rend="small-caps">DN</hi> en quelque sorte « par soi-même » ? Les
+        comparer à la main en les récrivant sur des fiches bristol au risque
+        de multiplier les erreurs en nombre infiniment plus grand que
+        l’évolution elle-même ? Ne vaut-il pas mieux, comme tout le monde au
+        fond, oublier le curseur qui oppose artificialité et réalité et se
+        poser les seules questions qui importent : est-ce une bonne ou une
+        mauvaise base de données ? Est-ce une bonne ou une mauvaise enseigne ?
+        Ces données ont-elles été obtenues de façon intéressante ou
+        sont-elles, au contraire, dénuées d’intérêt<note n="16" place="foot" type="standard" xml:id="ftn16">
+            <p>Voir le bel exemple in B<hi rend="small-caps">ensaude</hi>-V<hi rend="small-caps">incent</hi>, 1989.</p>
+          </note> ? Dès qu’on passe de l’idéalisme à ce qu’il faut bien
+        appeler le matérialisme, si l’on admet de prendre pour matière la
+        fragilité des inscriptions innombrables qui sont communes à tous les
+        métiers de l’exégèse – celle du sanskrit, des séquences d’A<hi rend="small-caps">DN</hi>, des banques d’images, bref de toutes les
+        plates-formes multimodales que l’on peut abréger aujourd’hui du mot de
+        (x)-thèques –, on tombe sur le problème imprévu de la segmentation de
+        ces corpus. Où se trouve, autrement dit, l’équivalent de la reliure
+        d’un codex, quand on peut interroger soit des ensembles infiniment
+        plus petits – un mot, voire un radical, une séquence, le sigle d’un
+        fabricant d’instruments –, soit des ensembles infiniment plus larges
+        comme c’est le cas dans l’étude récente d’<persName ref="059343664" type="idref" xml:base="https://www.idref.fr/">Alberto
+        Cambrosio</persName> et <persName type="idref" xml:base="https://www.idref.fr/">Andrei Mogoutov</persName> qui
+        interrogent l’ensemble des publications sur le cancer dans le
+        monde<note n="17" place="foot" type="standard" xml:id="ftn17">
+            <p>C<hi rend="small-caps">ambrosio</hi> et M<hi rend="small-caps">ogoutov</hi>, 2004.</p>
+          </note>. Les métiers de l’exégèse généralisée et digitalisée sont en
+        effet l’objet de stupéfiants renouvellements : c’est toujours de
+        l’exégèse texte sur texte, document sur document, inscription sur
+        inscription, c’est toujours au référent interne que l’on a
+        affaire<note n="18" place="foot" type="standard" xml:id="ftn18">
+            <p>Sur cette notion clé, voir G<hi rend="small-caps">reimas</hi>
+            et C<hi rend="small-caps">ourtès</hi>, 1979, et pour son usage
+            dans les textes scientifiques, L<hi rend="small-caps">atour</hi>,
+            1988.</p>
+          </note> – que serait-ce d’autre ? – mais toutes les questions
+        importantes sur la qualité du texte – en étendant le sens de ce mot à
+        toutes ces nappes d’interprétation en mouvement accéléré – se reposent
+        à nouveaux frais.</p>
+        <p xml:id="d1e311">Si le mot <hi rend="italic">matérialisme</hi>
+        choque encore quelque peu concernant les savoirs érudits et assurés,
+        disons que la numérisation généralisée possède en tout cas cet
+        avantage de <hi rend="italic">rematérialiser</hi> devant nos yeux ce
+        que, du fait de l’habitude, nous avions tendance à considérer comme
+        des éléments immobiles ou proprement spirituels. Contrairement à ce
+        qu’on dit souvent, les nouvelles techniques de l’information et de la
+        communication ont cet insigne avantage non pas de virtualiser ce qui,
+        jusqu’ici, gisait dans la matière obstinée, mais de donner une
+        traçabilité, un conduit matériel, un prix souvent, une présence
+        obstinée, technique, fragile – ô combien fragile ! – à nos moyens de
+        connaissance. Au <date>Moyen Âge</date>, les lieux de savoir pouvaient
+        ressembler à des palais imaginés, mais Google Scholar est coté en
+        bourse. On peut encore disserter sur les effets cognitifs de la
+        comptabilité en partie double, mais comment douter de l’effet sur nos
+        budgets et sur nos connaissances d’un tableur électronique ? Si l’on
+        mesure la connaissance en bauds et en bytes, n’est-elle pas infiniment
+        plus matérielle qu’elle ne l’était quand on la comptait en arguments
+        et en tropes ? <persName ref="027147029" type="idref" xml:base="https://www.idref.fr/">Staline</persName> croyait se moquer
+        en demandant : « Le <placeName ref="3164670" type="geonames" xml:base="https://www.geonames.org/">Vatican</placeName> combien de
+        divisions ? » Mais ne mesure-t-on pas la géopolitique d’une pensée
+        quand on s’enquiert ainsi : « Votre théorie combien de bytes ? Votre
+        site combien de clicks ? »</p>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e320">
+        <head xml:id="d1e321">Bibliographie</head>
+        <listBibl xml:id="d1e323">
+          <bibl xml:id="d1e324">B<hi rend="small-caps">aratin</hi> et J<hi rend="small-caps">acob</hi>, 1996 : Marc B<hi rend="small-caps">aratin</hi> et Christian J<hi rend="small-caps">acob</hi> (éd.), <hi rend="italic">Le Pouvoir des
+          bibliothèques. La mémoire des livres dans la culture
+          occidentale</hi>, Paris.</bibl>
+          <bibl xml:id="d1e341">B<hi rend="small-caps">astide</hi>, 2001 :
+          Françoise B<hi rend="small-caps">astide</hi>, <hi rend="italic">Una
+          notte con Saturno. Scritti semiotici sul discorso scientifico</hi>,
+          Rome.</bibl>
+          <bibl xml:id="d1e352">B<hi rend="small-caps">ensaude</hi>-V<hi rend="small-caps">incent</hi>, 1989 : Bernadette B<hi rend="small-caps">ensaude</hi>-V<hi rend="small-caps">incent</hi>,
+          « Mendeleïev, histoire d’une découverte », in M. Serres (éd.), <hi rend="italic">Éléments d’histoire des sciences</hi>, Paris,
+          p. 447-468.</bibl>
+          <bibl xml:id="d1e369">B<hi rend="small-caps">iagioli</hi>, 2006 :
+          Mario B<hi rend="small-caps">iagioli</hi>, <hi rend="italic">Galileo’s Instruments of Credit : Telescopes, Images,
+          Secrecy</hi>, Chicago.</bibl>
+          <bibl xml:id="d1e380">C<hi rend="small-caps">ambrosio</hi> et M<hi rend="small-caps">ogoutov</hi>, 2004 : Alberto C<hi rend="small-caps">ambrosio</hi> et Andrei M<hi rend="small-caps">ogoutov</hi>, « Mapping Collaborative Work and
+          Innovation in Biomedicine : a Computer Assisted Analysis of Antibody
+          Reagent Workshops », <hi rend="italic">Social Studies of
+          Science</hi>, 34, 3, p. 325-364.</bibl>
+          <bibl xml:id="d1e397">C<hi rend="small-caps">arrie</hi> et G<hi rend="small-caps">alison</hi>, 1998 : Jones C<hi rend="small-caps">arrie</hi> et Peter G<hi rend="small-caps">alison</hi> (éd.), <hi rend="italic">Picturing
+          Science, Producing Art</hi>, Londres.</bibl>
+          <bibl xml:id="d1e414">C<hi rend="small-caps">ochoy</hi>, 2002 :
+          Franck C<hi rend="small-caps">ochoy</hi>, <hi rend="italic">Une
+          sociologie du packaging ou l’Âne de Buridan face au marché</hi>,
+          Paris.</bibl>
+          <bibl xml:id="d1e425">C<hi rend="small-caps">ochoy</hi> et G<hi rend="small-caps">randclément</hi>, 2005 : Franck C<hi rend="small-caps">ochoy</hi> et Catherine G<hi rend="small-caps">randclément</hi>, « Publicizing Goldilock’s Choice
+          at the Supermarket », in B. Latour et P. Weibel (éd.), <hi rend="italic">Making Things Public. Atmospheres of Democracy</hi>,
+          Cambridge (Mass.), p. 646-659.</bibl>
+          <bibl xml:id="d1e442">D<hi rend="small-caps">aston</hi> et G<hi rend="small-caps">alison</hi>, 1992 : Lorraine D<hi rend="small-caps">aston</hi> et Peter G<hi rend="small-caps">alison</hi>, « The Image of Objectivity », <hi rend="italic">Representation</hi>, 40, p. 81-128.</bibl>
+          <bibl xml:id="d1e459">E<hi rend="small-caps">isenstein</hi>, 1991 :
+          Elizabeth E<hi rend="small-caps">isenstein</hi>, <hi rend="italic">La Révolution de l’imprimé à l’aube de l’Europe
+          moderne, trad. de l’anglais par M. Sissung et M. Duchamp</hi>,
+          Paris.</bibl>
+          <bibl xml:id="d1e470">G<hi rend="small-caps">alison</hi>, 2005 :
+          Peter G<hi rend="small-caps">alison</hi>, <hi rend="italic">L’Empire
+          du temps : les horloges d’Einstein et les cartes de Poincaré</hi>,
+          traduit de l’américain par B. Arman, Paris.</bibl>
+          <bibl xml:id="d1e482">G<hi rend="small-caps">reimas</hi> et C<hi rend="small-caps">ourtès</hi>, 1979 : Algirdas J. G<hi rend="small-caps">reimas</hi> et Joseph C<hi rend="small-caps">ourtès</hi> (éd.), <hi rend="italic">Sémiotique.
+          Dictionnaire raisonné de la théorie du langage</hi>, Paris.</bibl>
+          <bibl xml:id="d1e499">H<hi rend="small-caps">allyn</hi>, 2004 :
+          Fernand H<hi rend="small-caps">allyn</hi>, <hi rend="italic">Les
+          Structures rhétoriques de la science : de Kepler à Maxwell</hi>,
+          Paris.</bibl>
+          <bibl xml:id="d1e510">H<hi rend="small-caps">utchins</hi>, 1980 :
+          Edwin H<hi rend="small-caps">utchins</hi>, <hi rend="italic">Culture
+          and Inference. A Trobriand Case Study</hi>, Cambridge
+          (Mass.).</bibl>
+          <bibl xml:id="d1e521">H<hi rend="small-caps">utchins</hi>, 1994 : E.
+          H<hi rend="small-caps">utchins</hi>, « Comment le cockpit se
+          souvient de ses vitesses », <hi rend="italic">Sociologie du
+          travail</hi>, 4, p. 451-474.</bibl>
+          <bibl xml:id="d1e532">H<hi rend="small-caps">utchins</hi>, 1995 : E.
+          H<hi rend="small-caps">utchins</hi>, <hi rend="italic">Cognition in
+          the Wild</hi>, Cambridge (Mass.).</bibl>
+          <bibl xml:id="d1e543">J<hi rend="small-caps">ones</hi> et G<hi rend="small-caps">alison</hi>, 1998 : Carrie J<hi rend="small-caps">ones</hi> et Peter G<hi rend="small-caps">alison</hi> (éd.), <hi rend="italic">Picturing
+          Science, Producing Art</hi>, Londres.</bibl>
+          <bibl xml:id="d1e560">K<hi rend="small-caps">aiser</hi>, 2005 :
+          David K<hi rend="small-caps">aiser</hi>, <hi rend="italic">Drawing
+          Theories Apart. The Dispersion of Feynman Diagrams in Postwar
+          Physics</hi>, Chicago.</bibl>
+          <bibl xml:id="d1e571">L<hi rend="small-caps">atour</hi>, 1985 :
+          Bruno L<hi rend="small-caps">atour</hi> (éd.), « Les vues de
+          l’esprit », in numéro « Visualisation et connaissance
+          scientifique », <hi rend="italic">Culture technique</hi>, 14,
+          p. 5-29.</bibl>
+          <bibl xml:id="d1e582">L<hi rend="small-caps">atour</hi>, 1988 :
+          Br. L<hi rend="small-caps">atour</hi>, « A Relativist Account of
+          Einstein’s Relativity », <hi rend="italic">Social Studies of
+          Science</hi>, 18, p. 3-44.</bibl>
+          <bibl xml:id="d1e593">L<hi rend="small-caps">atour</hi>, 1999 :
+          Br. L<hi rend="small-caps">atour</hi>, <hi rend="italic">Politiques
+          de la nature. Comment faire entrer les sciences en démocratie</hi>,
+          Paris.</bibl>
+          <bibl xml:id="d1e604">L<hi rend="small-caps">atour</hi>, 2001 :
+          Br. L<hi rend="small-caps">atour</hi>, <hi rend="italic">L’Espoir de
+          Pandore. Pour une version réaliste de l’activité scientifique</hi>,
+          trad. de l’anglais par D. Gille, Paris.</bibl>
+          <bibl xml:id="d1e616">L<hi rend="small-caps">icoppe</hi>, 1996 :
+          Christian L<hi rend="small-caps">icoppe</hi>, <hi rend="italic">La
+          Formation de la pratique scientifique. Le discours de l’expérience
+          en France et en Angleterre (1630-1820)</hi>, Paris.</bibl>
+          <bibl xml:id="d1e627">L<hi rend="small-caps">ynch</hi> et W<hi rend="small-caps">oolgar</hi>, 1990 : Mike L<hi rend="small-caps">ynch</hi> et Steve W<hi rend="small-caps">oolgar</hi> (éd.), <hi rend="italic">Representation in Scientific Practice</hi>, Cambridge
+          (Mass.).</bibl>
+          <bibl xml:id="d1e644">M<hi rend="small-caps">ialet</hi>, 2003 :
+          Hélène M<hi rend="small-caps">ialet</hi>, « Reading Hawkins’
+          Presence : An Interview with a Self-Effacing Man », <hi rend="italic">Critical Inquiry</hi>, 29, 4, p. 571-598.</bibl>
+          <bibl xml:id="d1e655">R<hi rend="small-caps">astier</hi>, 2001 :
+          François R<hi rend="small-caps">astier</hi>, <hi rend="italic">Arts
+          et sciences du texte</hi>, Paris.</bibl>
+          <bibl xml:id="d1e666">R<hi rend="small-caps">osental</hi>, 2003 :
+          Claude R<hi rend="small-caps">osental</hi>, <hi rend="italic">La
+          Trame de l’évidence</hi>, Paris.</bibl>
+          <bibl xml:id="d1e677">S<hi rend="small-caps">uchman</hi>, 1987 :
+          Lucy S<hi rend="small-caps">uchman</hi>, <hi rend="italic">Plans and
+          Situated Actions. The Problem of Human Machine Communication</hi>,
+          Cambridge.</bibl>
+          <bibl xml:id="d1e688">T<hi rend="small-caps">hévenot</hi>, 2006 :
+          Laurent T<hi rend="small-caps">hévenot</hi>, <hi rend="italic">L’Action au pluriel. Sociologie des régimes
+          d’engagement</hi>, Paris.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>
