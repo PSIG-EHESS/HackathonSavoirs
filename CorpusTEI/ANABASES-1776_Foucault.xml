@@ -1,0 +1,605 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-1776_Foucault">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">
+                    <hi xml:lang="fr">Diderot, Vanini, le courage socratique et le jugement de la
+                        postérité</hi>
+                </title>
+                <author>
+                    <persName>
+                        <forename>Didier</forename>
+                        <surname>Foucault</surname>
+                    </persName>
+                    <affiliation> Université de Toulouse (<hi rendition="#style04">utm</hi>)<lb/>Laboratoire Patrimoine Littérature Histoire<lb/>
+            <hi rendition="#style04">(plh-erasme, ea</hi> 4153)<lb/>
+            <hi rend="author-email">foucault@univ-tlse2.fr</hi>
+                    </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+                        Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>« Savoirs » est une plateforme de publication numérique vouée à l’histoire et à
+                    l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS
+                    (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une
+                    archive d’articles ou une collection de livres, il s’agit d’une bibliothèque
+                    « intelligente » et expérimentale qui propose des parcours de lecture
+                    heuristiques et réflexifs entre les textes, grâce à différents algorithmes de
+                    recherche et de suggestions reposant notamment sur un balisage des lieux, des
+                    dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs
+                        (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel
+                        XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données
+                        géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour
+                        l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références
+                        Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes
+                        pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>Diderot</item>
+                        <item>Vanini</item>
+                        <item>atheism</item>
+                        <item>materialism</item>
+                        <item>posterity’s judgment</item>
+                        <item>Socratic courage</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>Diderot</item>
+                        <item>Vanini</item>
+                        <item>athéisme</item>
+                        <item>matérialisme</item>
+                        <item>jugement de la postérité</item>
+                        <item>courage socratique</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">
+                        <hi xml:lang="fr">Diderot, Vanini, le courage socratique et le jugement de
+                            la postérité</hi>
+                    </titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Didier Foucault</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e227">
+                <p xml:id="d1e228">Grand admirateur de Socrate, Diderot compare la mort de
+                    l’Athénien avec celle du philosophe libertin italien Vanini, brûlé en 1619 à
+                    Toulouse. Pour le père de l’<hi rend="italic">Encyclopédie</hi>, ces deux
+                    penseurs ont fait preuve d’un grand courage philosophique en payant de leur vie
+                    leur fidélité à la recherche de la vérité. Comment justifier cela quand on est
+                    athée et qu’on ne croit pas en l’au-delà ? Défendant un matérialisme confiant
+                    dans le jugement de la postérité et le progrès de l’humanité, Diderot soutient
+                    cette position contre les sarcasmes de ses amis Naigeon et Falconet, qui, eux,
+                    refusent de prendre un tel risque, en se réfugiant derrière un matérialisme
+                    cynique et individualiste.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e233">
+                <p xml:id="d1e234">
+                    <hi xml:lang="en">A great admirer of Socrates, Diderot compares the Athenian’s
+                        death with Vanini’s, the Italian free thinker burnt at Toulouse in 1619. For
+                        the father of the </hi>
+                    <hi rend="italic">
+                        <hi xml:lang="en">Encyclopedia, </hi>
+                    </hi>
+                    <hi xml:lang="en">those two thinkers manifested a high philosophical courage in
+                        paying with their lives their steadfast search for truth. How justify that
+                        when you are an atheist and do not believe in after life? By vindicating a
+                        materialism trusting in posterity’s judgment and mankind’s progress, Diderot
+                        upholds this position against the sarcasms of his friends Naigeon and
+                        Falconet who, for their part, ruled out such a risk, taking shelter behind a
+                        cynical, individualistic materialism.</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <p rend="epigraph" xml:id="d1e246">Allons, allons allègrement mourir en philosophe<note type="standard" xml:id="ftn1" place="foot" n="1">
+          <p> Paroles de Vanini avant de
+                        monter sur le bûcher.</p>
+        </note>.</p>
+            <p xml:id="d1e253">Diderot n’a fait que peu de mentions de Giulio Cesare Vanini dans ses
+                œuvres et ne semble pas avoir connu – sinon de manière superficielle – le contenu de
+                sa pensée. L’a-t-il lu ? On ne peut rien affirmer à ce sujet<note type="standard" xml:id="ftn2" place="foot" n="2">
+          <p> Sauf indications contraires, nos notes
+                        renvoient à : D. <hi rend="small-caps">Diderot</hi>, <hi rend="italic">Œuvres complètes</hi>, Paris, Hermann, 1975, 36 vol. en cours de
+                        parution ; et à : D. <hi rend="small-caps">Diderot</hi>, <hi rend="italic">Correspondance</hi>, Paris, Éditions de Minuit, 1955-1970, 16 vol. ;
+                        notées <hi rend="italic">infra</hi> respectivement :<hi rend="italic">
+                            Œuvres </hi>et <hi rend="italic">Correspondance</hi>.</p>
+        </note>.</p>
+            <p xml:id="d1e282">Dans deux textes qu’il rédige pour l’<hi rend="italic">Encyclopédie</hi>, il ne fait que signaler le philosophe brûlé à Toulouse en
+                    1619<note type="standard" xml:id="ftn3" place="foot" n="3">
+          <p> Dans l’article
+                        « Péripatéticienne (philosophie) », Vanini est simplement rangé parmi les
+                        disciples de Pomponace, <hi rend="italic">alias</hi> Pietro Pomponazzi (<hi rend="italic">Œuvres</hi>, t. VIII, p. 91). L’article « Stoïcisme »
+                        contient une autre référence. Après y avoir fait état des caractères
+                        positifs se rapportant au sage selon les stoïciens (« Il est sévère ; il
+                        fuit les distractions ; il a l’esprit sain ; il ne souffre pas ; c’est un
+                        homme dieu »…), Diderot précise : « Les stoïciens à ces caractères en
+                        ajoutaient une infinité d’autres qui semblaient en être les contradictoires.
+                        Après les avoir regardés comme les meilleurs des hommes, on les eût pris
+                        pour les plus méchants. […] La définition du stoïcien était toute semblable
+                        à celle que Vanini donnait de Dieu » (<hi rend="italic">ibidem</hi>,
+                        p. 345-346). Cela semble indiquer que Diderot avait parcouru quelques
+                        passages de l’Italien, comme l’exercice II de l’<hi rend="italic">Amphitheatrum aeternae providentiae </hi>(Lyon, 1615), où il dresse une
+                        longue – et assez baroque – liste des attributs de la divinité. </p>
+        </note>.
+                Il est vrai que par un artifice éditorial, le chevalier de Jaucourt, l’un de ses
+                plus prolifiques collaborateurs, présente sa vie et ses idées à l’entrée
+                « Taurisano », son village natal dans les Pouilles. Le développement témoigne d’une
+                certaine érudition. Il y est fait référence aux études de Schramm, La Croze, Arpe et
+                Durand, ainsi qu’aux jugements de Brucker. Il permet surtout de comprendre le
+                désintérêt des penseurs du <hi rend="small-caps">xviii</hi>
+        <hi rend="sup">e</hi> siècle envers ce pionnier de l’athéisme moderne. On ne connaît pas, par
+                exemple, chez Montesquieu ou Rousseau, d’allusions à Vanini. La Mettrie ne lui
+                réserve que quelques mentions rapides et formelles. Quant à Voltaire, son point de
+                vue rejoint celui de Jaucourt : condamnation de l’obscurantisme et de l’intolérance
+                des juges qui ont fait supplicier l’Italien, mais mépris hautain pour sa pensée,
+                dont le matérialisme naturaliste, mâtiné d’aristotélisme et dissimulé derrière de
+                pieuses professions de foi, est devenu quasiment incompréhensible pour un
+                intellectuel des Lumières<note type="standard" xml:id="ftn4" place="foot" n="4">
+          <p>
+                        Sur la vie, la pensée et la postérité de Vanini aux <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi> et <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi> siècles, je me permets de renvoyer à deux de mes
+                        publications : D. <hi rend="small-caps">Foucault</hi>, <hi rend="italic">Un
+                            philosophe libertin dans l’Europe baroque. Giulio Cesare Vanini
+                            (Taurisano, 1585 – Toulouse, 1619)</hi>, Paris, Honoré Champion,
+                        Champion, 2003, et « Bayle, Arpe, Durand et Vanini. Enjeux de la
+                        réhabilitation d’un philosophe athée à l’aube des Lumières », introduction à
+                        D. <hi rend="small-caps">Durand</hi>, <hi rend="italic">La vie et les
+                            sentimens de Lucilio Vanini (1717)</hi>, Paris, Les Amis de
+                        Paris-Zanzibar, 2001.</p>
+        </note>.</p>
+            <p xml:id="d1e337">Diderot partage très certainement un point de vue voisin. Tenons pour
+                peu de cas ce qu’il a écrit dans les <hi rend="italic">Pensées philosophiques</hi>.
+                Il est encore tout imprégné des idées de Shaftesbury, dont il a réalisé en 1745 la
+                traduction de l’<hi rend="italic">Essai sur le mérite et la vertu</hi>. Il défend,
+                dans cet opuscule édité en 1746, un déisme modéré et rationaliste, qui s’oppose
+                autant au fanatisme religieux qu’à l’athéisme. La « pensée n° 13 », la seule qui
+                fasse une référence explicite à Vanini, illustre tout à fait la thèse centrale de
+                cet ouvrage de jeunesse :</p>
+            <q rend="quotation">Le déiste seul peut faire tête à l’athée. Le superstitieux n’est pas
+                de sa force. Son Dieu n’est qu’un être d’imagination. Outre les difficultés de la
+                matière, il est exposé à toutes celles qui résultent de la fausseté de ses notions.
+                Un C[udworth]<note type="standard" xml:id="ftn5" place="foot" n="5">
+          <p>
+                        <hi xml:lang="en">Auteur du </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">True
+                                Intellectual System of the Universe</hi>
+            </hi>
+            <hi xml:lang="en">.
+                        </hi>Diderot cite certainement cet auteur à partir du témoignage de
+                        Shaftesbury. Les deux penseurs anglais sont ici pris comme des exemples
+                        types de déistes.</p>
+        </note>, un S[haftesbury] auraient été mille fois plus
+                embarrassants pour un Vanini, que tous les Nicole et tous les Pascal du monde<note type="standard" xml:id="ftn6" place="foot" n="6">
+          <p>
+                        <hi rend="italic">Œuvres</hi>, t. II, p. 22.</p>
+        </note>.</q>
+            <p xml:id="d1e368">Diderot n’utilise ici Vanini que comme figure archétypale de l’athée.
+                Pourtant les rares passages ultérieurs où il se réfère à Vanini révèlent une
+                attitude pleine de respect pour sa mémoire : et ce, non à cause de ce qui serait
+                désormais leur commun athéisme, mais en raison du modèle d’éthique philosophique que
+                représente sa fermeté face à la mort. Ce qui intéresse Diderot, c’est le courage de
+                l’Italien qui a défendu ses idées au prix de sa vie<note type="standard" xml:id="ftn7" place="foot" n="7">
+          <p> Condamné à mort pour blasphèmes et athéisme
+                        par le parlement de Toulouse en 1619, Vanini a proclamé fièrement son mépris
+                        de toute religion devant la foule qui assistait au supplice.</p>
+        </note>.</p>
+            <p xml:id="d1e375">Certes, le modèle en la matière est Socrate. On pourrait citer de
+                nombreux extraits des œuvres de Diderot ou de sa correspondance qui rappellent la
+                mort du sage athénien<note type="standard" xml:id="ftn8" place="foot" n="8">
+          <p> Par
+                        exemple : « Le philosophe appelé au tribunal des lois doit-il ou ne doit-il
+                        pas y avouer ses sentiments, au péril de sa vie ? Socrate fit-il bien ou mal
+                        de rester dans la prison ? […] Oserez-vous blâmer l’homme courageux et
+                        sincère qui aime mieux périr que se rétracter, que de flétrir par sa
+                        rétractation son propre caractère et celui de sa secte ? », (<hi rend="italic">Réfutation suivie de l’ouvrage d’Helvétius intitulé</hi>
+                        L’Homme, in <hi rend="italic">Œuvres</hi>, t. XIV, p. 590). Voir à ce sujet,
+                        J. <hi rend="small-caps">Seznec</hi>, <hi rend="italic">Essais sur Diderot
+                            et l’Antiquité</hi>, Oxford,<hi rend="italic"> </hi>1957 et R. <hi rend="small-caps">Trousson</hi>,<hi rend="italic"> Socrate devant
+                            Voltaire, Diderot et Rousseau. La conscience face au mythe</hi>, Paris,
+                        1957. Socrate est le surnom donné par ses amis à Diderot, qui n’en était pas
+                        peu fier. Pour Raymond Trousson : « De tous les disciples de Socrate au <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi> siècle, Diderot est le
+                        plus enthousiaste, le plus passionné, celui qui s’efforce le mieux de
+                        ressembler à ce grand modèle qui incarne si bien la cause de la justice et
+                        de la liberté » (“Introduction” à la traduction de l’<hi rend="italic">Apologie de Socrate </hi>de Platon par Diderot, <hi rend="italic">Œuvres</hi>, t. II, p. 238).</p>
+        </note>. Les citations explicites se
+                rapportant à Vanini, bien que moins nombreuses, ne sont cependant pas négligeables
+                pour cerner cet aspect original du matérialisme de Diderot. </p>
+            <p rend="break" xml:id="d1e415">*</p>
+            <p xml:id="d1e417">Le rapprochement<hi rend="small-caps"> </hi>le plus développé entre
+                Vanini et Socrate se trouve dans une lettre, datée probablement de l’été 1769, et
+                dont la destinataire serait Madame de Maux<note type="standard" xml:id="ftn9" place="foot" n="9">
+          <p>
+                        <hi rend="italic">Correspondance</hi>, t. IX, p. 112-116.</p>
+        </note>.
+                Diderot y narre un plaisant pique-nique au cours d’une « journée [qui] a été sensée,
+                tout à la fois folle et gaie ». Ses compagnons étaient le baron Naigeon et un
+                certain Bron, taxateur des postes :</p>
+            <q rend="quotation">Ô comme ils se sont moqués de moi, parce que je voulois à toute
+                force être brûlé. […]</q>
+            <q rend="quotation">Voici ce dont il s’agissoit. Je disois qu’il m’étoit impossible de
+                ne pas estimer un homme qui, appelé au tribunal des loix pour un ouvrage hardi,
+                répondoit avec fermeté, au hazard de tout ce qui pouvoit en arriver : <hi rend="italic">Oui, c’est moi qui l’ai fait ; c’est ainsi que je pense, et je ne
+                    m’en dédirai pas</hi>. C’est la conduite pusillanime d’Helvétius<note type="standard" xml:id="ftn10" place="foot" n="10">
+          <p> Helvétius avait été
+                        contraint de se rétracter en 1758 après le scandale provoqué par la
+                        publication du <hi rend="italic">De l’Esprit</hi>.</p>
+        </note> qui avoit
+                amené la question, et que j’excusois par sa mère, par sa femme et par ses enfans. Je
+                disois que je souffrirois à faire injure à la vérité en la rétractant, à parler
+                contre ma pensée après avoir écrit selon ma pensée, à me traduire aux yeux de mes
+                juges, de mes concitoyens et aux miens comme un lâche, à ôter à mes discours toute
+                leur autorité, à refuser à la vérité un aveu et un sacrifice que cent fanatiques ont
+                fait au mensonge. Je disois que celui qui oublie sa vie en pareille circonstance, se
+                recommande à moi par la fermeté et la véracité de son caractère, que je voudrois
+                être son père, son frère, son ami. Je leur objectois Socrate que j’ai exposé à leur
+                ironie, et à qui j’en fais amende honorable. Je reculois l’événement dans les tems
+                passés et je leur faisois lire les lignes de l’histoire. Eh bien, mon amie, ils
+                m’ont écrasé de raisons. Mais, vous l’avouerai je, ils ne m’ont pas fait changer
+                d’avis.</q>
+            <p xml:id="d1e446">Complétant sa pensée un peu plus loin dans la lettre, Diderot
+                précise :</p>
+            <q rend="quotation">Je trouve le désaveu de ses sentiments, surtout en matière grave,
+                honteux. Je ne saurois souffrir qu’un homme qui se laisse appeler philosophe,
+                préfère sa vie, sa misérable vie, au témoignage qu’il doit à la vérité. Je ne veux
+                pas qu’on mente devant la justice. Je ne saurois souffrir qu’on imprime blanc et
+                qu’on parle noir. Quelle confiance le peuple, et il y a bien du peuple, aura-t-il de
+                vos discours, si vous les abjurez ? Il vous laissera dire, et vous jugeant d’après
+                votre conduite, il vous méprisera, et il fera bien ; et vous remarquerez que ceux
+                qui blâment Vanini, Jordan Brun<note type="standard" xml:id="ftn11" place="foot" n="11">
+          <p> Giordano Bruno, brûlé à Rome en 1600 après avoir soutenu sans
+                        faiblesse devant le tribunal du Saint-office que l’univers était infini.
+                    </p>
+        </note> et quelques autres, font un crime à de Voltaire de faire ses pâques.
+                Ce n’est pourtant pas un désaveu aussi formel de ses opinions, que celui que je fais
+                à un tribunal, en présence d’un peuple assemblé ; et puis, croyez-vous que cet acte
+                de fermeté ne donne pas une sanction plus grande aux discours ? Les lignes tracées
+                avec le sang du philosophe sont bien d’une autre éloquence.</q>
+            <p xml:id="d1e455">Ces deux évocations montrent quelle est l’estime que porte Diderot à
+                Vanini. En fait, l’anecdote du pique-nique se déroule sur un mode théâtral, comme un
+                véritable procès. Diderot est accablé par les « raisons » de ses amis, mais il tient
+                le choc. De sanctions, il n’y en a d’autres que d’essuyer leur moquerie. Jamais
+                question importante n’a été traitée plus gaiement et avec moins de pédanterie. Mais
+                la discussion est allée loin. Diderot en est retourné. Le but de sa lettre, au-delà
+                du plaisir de raconter une aimable partie de campagne à sa correspondante, est de
+                solliciter son avis.</p>
+            <q rend="quotation">Cela me soucie ; car je voudrois bien n’être pas fou. À votre avis,
+                qui est-ce qui sent juste, d’eux ou de moi ? Décidez sans partialité. Si j’ai tort,
+                il faut que je me fasse une autre âme que la mienne, et cela sans être mécontent de
+                celle que j’ai.</q>
+            <p xml:id="d1e459">« Cela me soucie »… Diderot ne ment pas. Comment ne pas évoquer la
+                vie de l’écrivain et du penseur, celle du maître d’œuvre de l’<hi rend="italic">Encyclopédie ?</hi> Il a connu la censure, les condamnations, il a été
+                incarcéré… Son quotidien est marqué depuis des années par les tracas, les embûches
+                qui guettent un homme aux idées aussi sulfureuses. Tous les dangers ne sont, bien
+                sûr, pas écartés : Calas, les Sirven ou le chevalier de La Barre<note type="standard" xml:id="ftn12" place="foot" n="12">
+          <p> Accusé du meurtre de son
+                        fils, le protestant toulousain Calas a été roué vif en 1762 après un procès
+                        bâclé. La campagne de Voltaire a permis la réhabilitation de Calas en 1765.
+                        Pour un motif identique (la mort de leur fille), les protestants Sirven ont
+                        été condamnés à mort par contumace et leurs effigies brûlées à Mazamet en
+                        1764. Le chevalier de La Barre, accusé de sacrilège et de blasphèmes à
+                        Abbeville, a été exécuté en 1766…</p>
+        </note> témoignent, en cette fin du
+                règne de Louis XV, que l’intolérance conserve de puissants partisans dont il faut
+                savoir se garder. Mais Diderot évalue sa situation personnelle sans dramatisation
+                excessive. Il le dit d’ailleurs avec modestie à Madame de Maux :</p>
+            <q rend="quotation">Rassurez-vous, mon amie, le temps des folies de cette espèce est
+                passé pour moi. Je ne m’estime pas assez pour défendre ma propre cause. C’est une
+                question où je n’entre pour rien.</q>
+            <p xml:id="d1e471">Un tel dégagement est-il totalement sincère ? Diderot certes a su
+                toujours rester digne, mais il a parfois dû composer. Certains de ses amis, comme
+                Rousseau, lui ont reproché d’être un « homme d’intrigue<note type="standard" xml:id="ftn13" place="foot" n="13">
+          <p> Cité par Y. Benot, in D. <hi rend="small-caps">Diderot</hi> et Étienne-Maurice <hi rend="small-caps">Falconet</hi>, <hi rend="italic">Le pour et le contre, Correspondance
+                            polémique sur le respect de la postérité, Pline et les anciens</hi>,
+                        introduction et notes d’Y. <hi rend="small-caps">Benot</hi>, Éditeurs
+                        français réunis, Paris, 1958, p. 19.</p>
+        </note> ». La question se pose donc
+                bel et bien. Mais elle se pose en termes d’éthique. Socrate et – plus incidemment –
+                Vanini ou Giordano Bruno lui renvoient l’image d’un idéal d’héroïsme intellectuel
+                assignant au penseur une responsabilité sociale et l’exposant au jugement de la
+                postérité. Il distingue trois exigences, qui se situent sur des plans
+                différents.</p>
+            <p xml:id="d1e490">– <hi rend="italic">Le respect de la vérité :</hi> une vérité qui,
+                pour un matérialiste, n’a aucun statut transcendant mais que nulle contrainte ne
+                doit trahir. On comprend mieux ainsi que par-delà une plus grande proximité de
+                conviction doctrinale, Diderot se réclame, contre Helvétius, de Socrate ou même de
+                Vanini. Philosophie et vérité sont deux termes indissolublement liés pour Diderot.
+                Le philosophe n’est-il pas celui qui « satisfait un penchant invincible à dire la
+                vérité, au hasard d’exciter l’indignation et même de boire dans la coupe de
+                    Socrate<note type="standard" xml:id="ftn14" place="foot" n="14">
+          <p>
+                        <hi rend="italic">Observations sur le Nakaz</hi>, XX, in D. <hi rend="small-caps">Diderot</hi>, <hi rend="italic">Œuvres
+                        politiques</hi>, éd. P. Vernière, Paris, Garnier, 1963,
+                p. 367.</p>
+        </note> » ?</p>
+            <p xml:id="d1e509">– <hi rend="italic">Le respect de la justice</hi> : on relèvera à ce
+                sujet la distinction qu’établit Diderot entre se déjuger devant un tribunal et faire
+                des concessions mineures dans la vie courante : les pâques de Voltaire ne sont que
+                des compromis bénins, comparables à ceux que Diderot a été parfois obligé, lui
+                aussi, d’accepter. Mais ces accommodements trouvent vite des limites qu’on ne doit
+                franchir, sous aucun prétexte et quel que soit le risque encouru. Le tribunal de la
+                cité – l’exemple de Socrate s’impose encore – même injuste, se situe au-delà de ces
+                limites. La solennité de l’institution transforme tout compromis en reniement ;
+                celui qui renonce à son devoir de vérité y perd pour toujours son statut de
+                philosophe.</p>
+            <p xml:id="d1e514">
+        <hi rend="italic">– Le respect du « peuple »</hi>, destinataire du
+                discours du philosophe : cette considération pour un public, qui ne se limite pas à
+                une élite lettrée et éclairée mais qui est assimilé au peuple dans son acception la
+                plus large, est un témoignage parmi d’autres des tendances démocratiques de Diderot.
+                Cela le distingue nettement de la majorité des libres penseurs de son siècle qui
+                acceptaient volontiers la religion pour contenir un peuple borné et incapable de se
+                rendre de lui-même aux lumières de la raison.</p>
+            <p rend="break" xml:id="d1e519">*</p>
+            <p xml:id="d1e521">Toutefois, pour Diderot la question ne se limite pas à ces seules
+                considérations. Elle a des incidences plus larges, qui touchent aux fondements mêmes
+                de ses convictions matérialistes. Le débat champêtre avec Naigeon et Bron de 1769,
+                peut en effet n’apparaître que comme l’écho du long échange épistolaire avec
+                Falconet qui s’est déroulé quelques années plus tôt, entre décembre 1765 et décembre
+                    1766<note type="standard" xml:id="ftn15" place="foot" n="15">
+          <p> Voir :<hi rend="italic"> Œuvres</hi>, t. XV<hi rend="italic">, Correspondance,
+                        </hi>t. V-VI, et <hi rend="italic">Le pour et le contre, op. cit. </hi>Le
+                        texte de ces lettres fut remanié en vue d’une publication qui ne vit jamais
+                        le jour du vivant des deux auteurs. Il est à remarquer qu’en 1768-1769 –
+                        soit au moment où se déroule le pique-nique avec Naigeon et Bron – la
+                        retouche du manuscrit est l’une des préoccupations de Diderot.</p>
+        </note>.
+                Le philosophe était en France, où il travaillait à l’<hi rend="italic">Encyclopédie</hi>, et le sculpteur à Saint-Pétersbourg, où il réalisait la
+                statue équestre de Pierre le Grand. Cet échange de lettres entre les deux amis
+                porte, au départ, sur le problème de la postérité puis dérive vers un débat
+                d’esthétique – <hi rend="italic">via </hi>un détour par Pline – sur la considération
+                que l’on doit avoir pour l’art antique. C’est essentiellement le premier point qui
+                nous intéresse ici.</p>
+            <p xml:id="d1e543">Les deux hommes partent d’un postulat commun : ils sont athées. Pour
+                eux, donc, nulle survie après la mort. Cet anéantissement de l’être devient, par
+                contrecoup, la source d’une grave interrogation existentielle : quel sens donner à
+                leur vie ? Et plus, pour cet écrivain philosophe comme pour cet artiste : à qui
+                s’adressent leurs œuvres ? Le philosophe doit-il se renier pour préserver sa vie ?
+                Falconet dénie toute valeur à la postérité. Il simplifie le fond de sa pensée en le
+                ramenant à ce constat prosaïque :</p>
+            <q rend="quotation">Je ne veux pas voir plus loin que mon nez ; je suis fait pour
+                ramper. Tout cela est vrai. Mais si mes contemporains trouvent quelques parties de
+                mes ouvrages dignes de vivre après moi, je dirai volontiers avec le poète :<hi rend="italic"> non omnis moriar</hi>
+        <note type="standard" xml:id="ftn16" place="foot" n="16">
+          <p> « Je ne serai pas mort complètement », Horace, <hi rend="italic">Odes</hi>, III, 30. Diderot répondra : « Lorsque, sur la
+                        garantie de tout un siècle éclairé qui m’environne, je puis m’écrier aussi :
+                            <hi rend="italic">Non omnis moriar</hi> ; que je laisse après moi la
+                        meilleure partie de moi-même, que les seuls instants de ma vie dont je fasse
+                        quelque cas sont éternisés, il me semble que la mort en a moins
+                        d’amertume », Lettre du 15 février 1766, <hi rend="italic">Correspondance</hi>, t. VI, p. 60.</p>
+        </note>, et je serai sensible à
+                l’éloge de la postérité quand je l’entendrai des deux oreilles dont j’entends en
+                vous écrivant ramager les oiseaux de mon jardin<note type="standard" xml:id="ftn17" place="foot" n="17">
+          <p> Lettre du 15 janvier 1766, <hi rend="italic">Correspondance</hi>, t. VI, p. 21.</p>
+        </note>.</q>
+            <p xml:id="d1e571">Diderot refuse de souscrire à un tel matérialisme dépourvu
+                d’horizons. Sans plus de succès que plus tard devant ses compagnons de pique-nique,
+                il prend le parti de la postérité en qui il a une confiance absolue, faisant en cela
+                preuve de ce bel optimisme des Lumières dans le progrès et dans l’avenir :</p>
+            <q rend="quotation">Et ces philosophes, et ces ministres et ces hommes véridiques qui
+                ont été les victimes des peuples stupides, des prêtres atroces, des tyrans enragés,
+                quelle consolation leur restoit-il en mourant ? C’est que le préjugé passeroit et
+                que la postérité renverseroit l’ignominie sur leurs ennemis. Ô Postérité sainte et
+                sacrée, soutien du malheureux qu’on opprime ; toi qui es juste, toi qu’on ne
+                corrompt point, qui venges l’homme de bien, qui démasques l’hypocrite, qui flétris
+                le tyran, idée sûre, idée consolante, ne m’abandonne jamais. La postérité pour le
+                philosophe, c’est l’autre monde de l’homme religieux<note type="standard" xml:id="ftn18" place="foot" n="18">
+          <p> Lettre du 15 février 1766, <hi rend="italic">Correspondance</hi>, t. VI, p. 67.</p>
+        </note>.</q>
+            <p xml:id="d1e583">Page splendide, empreinte d’une haute élévation d’esprit et d’une
+                grandeur qui – malheureusement pour le philosophe ! – en imposeraient plus à un
+                croyant qu’à un athée comme Falconet. Comment le convaincre en évoquant la sainteté
+                et le caractère sacré de la postérité ? Lui qui n’a que faire d’un « autre monde »,
+                fût-il celui des philosophes. Falconet a des motivations différentes : « Le génie,
+                    <hi rend="italic">ce pur don de nature</hi>, est la cause unique des grandes
+                    productions<note type="standard" xml:id="ftn19" place="foot" n="19">
+          <p> Lettre
+                        du 10 février 1766, <hi rend="italic">Correspondance</hi>, t. VI,
+                    p. 49.</p>
+        </note>. » Nul besoin, donc, d’une chimérique projection dans le futur
+                et de l’attente hypothétique d’un jugement – dont rien, au demeurant, ne garantit
+                qu’il sera plus juste que celui du présent – pour donner un sens à l’œuvre d’une
+                vie. Celle-ci est le produit de prédispositions naturelles dont chaque individu est
+                (ou n’est pas) porteur. Il en va de même du courage dont savent faire preuve les
+                philosophes persécutés – et Falconet convoque au passage Vanini – mais aussi… les
+                croyants ou les criminels !</p>
+            <q rend="quotation">La postérité a ses dévôts, comme la béatitude éternelle a les siens.
+                Si la vue de ces deux perspectives agrandit quelques âmes, il en est d’autres assez
+                étendues pour mériter la couronne sans la vouloir. St Augustin, si je ne me trompe,
+                disoit que, s’il n’y avoit ni Paradis ni Enfer, et qu’il dût retourner dans le
+                néant, il n’en aimeroit pas moins son Dieu. Je ne sçais si c’est le même saint qui
+                souhaitoit d’être damné pour aimer Dieu bien plus singulièrement encore. Celui là
+                est fort ; je ne vous le garantis pas. Vous connoissez l’amour pur de Fénelon ; vous
+                sçavez le conte de la bonne femme qui vouloit brûler le Paradis et éteindre l’Enfer
+                afin que, disoit-elle, n’y ayant plus de peine à redouter ni de récompense à
+                espérer, les hommes fassent le bien sans crainte et sans intérêt. Si la religion
+                donne cette force, l’athéisme n’a-t-il pas ses martyrs ? Vanini dans les flammes, et
+                tant d’autres sur l’échafaud n’ont-ils pas eu le funeste courage de nier la
+                divinité ? Voyez de quoi l’homme est capable quand il a reçu de la nature cette
+                énergie que vous avez. Oui ingrat, cette chose qui seule opère les belles et grandes
+                choses, vous l’avez reçue de la nature comme ceux qui l’employoient pour le
+                    crime<note type="standard" xml:id="ftn20" place="foot" n="20">
+          <p> Idem, <hi rend="italic">Correspondance</hi>, t. VI, p. 50.</p>
+        </note>.</q>
+            <p rend="break" xml:id="d1e606">*</p>
+            <p xml:id="d1e608">Restons-en là. Accumulant, au fil de leurs missives, exemples et
+                réfutations, les deux protagonistes ne rajouteront rien d’essentiel.</p>
+            <p xml:id="d1e610">Cette fracture entre deux tendances du matérialisme, Yves Benot l’a
+                bien montré, révèle les orientations opposées qui, sur les plans politique et
+                social, distinguent le matérialisme fataliste – et, au bout du compte, conformiste
+                et conservateur – du matérialisme progressiste – et, au bout du compte,
+                militant.</p>
+            <p xml:id="d1e613">Le premier se ramène à un plat cynisme individualiste, que Diderot
+                réprouve totalement :</p>
+            <q rend="quotation">On fait l’éloge du présent, on rapporte tout au petit moment de son
+                existence et de sa durée ; le sentiment de l’immortalité, le respect de la postérité
+                sont des mots vides de sens qui font sourire de pitié. On veut jouir, <hi rend="italic">après soi le déluge</hi>
+        <note type="standard" xml:id="ftn21" place="foot" n="21">
+          <p>
+                        <hi rend="italic">Salon de 1769</hi>, in <hi rend="italic">Œuvres</hi>, t.
+                        XVI, p. 656. « Après moi le déluge » est une formule attribuée à Louis
+                        XV.</p>
+        </note>.</q>
+            <p xml:id="d1e630">Le second ne se sépare pas d’une vision éthique qui, sans nier que la
+                volonté humaine dépende d’une chaîne causale qui la détermine en dernière instance,
+                n’exclut pas la possibilité d’une transformation de l’homme dans laquelle la
+                philosophie trouverait sa place :</p>
+            <q rend="quotation">Quoique l’homme bien ou malfaisant ne soit pas libre, l’homme n’en
+                est pas moins un être qu’on modifie […]. De là les bons effets de l’exemple, des
+                discours, de l’éducation, du plaisir, de la douleur, des grandeurs, de la misère,
+                    etc.<note type="standard" xml:id="ftn22" place="foot" n="22">
+          <p> Lettre à
+                        Landois, 29 juin 1756, <hi rend="italic">Correspondance</hi>, t. I, p. 214.
+                        Grimm, l’éditeur de la lettre, faisait preuve de moins de nuances en
+                        écrivant dans le « chapeau » qui présentait le texte : « Tout ce qui doit
+                        être est, par cela même que cela est. Voilà la seule bonne philosophie.
+                        Aussi longtemps que nous ne connaîtrons pas cet univers, comme on dit dans
+                        l’école, <hi rend="italic">a priori</hi>, tout est nécessité. La liberté est
+                        un mot vide de sens » (cité par Y. <hi rend="small-caps">Benot</hi> in <hi rend="italic">Le pour et le contre…</hi>, <hi rend="italic">op.
+                            cit.,</hi> p. 18).</p>
+        </note>.</q>
+            <p xml:id="d1e654">Ce sont des exemples comme ceux de Socrate ou de Vanini qui
+                enracinent le philosophe dans la conviction que le parti choisi n’est pas
+                désespérant. Ils ruinent les arguments de ceux qui affirment, avec Falconet, qu’« un
+                philosophe pendu (ou anéanti, ou grillé) n’est plus bon à rien. S’il se conserve,
+                s’il travaille, il est utile<note type="standard" xml:id="ftn23" place="foot" n="23">
+          <p> Cette note interlinéaire de Falconet figure sur le manuscrit de la
+                        lettre de Diderot du 17 mars 1766. Voir : <hi rend="italic">Le pour et le
+                            contre…,</hi>
+                        <hi rend="italic">op. cit</hi>., p. 312. </p>
+        </note> ». En œuvrant pour
+                l’avenir, ils n’ont pas poursuivi un rêve insensé. Au contraire, parce qu’ils ont
+                hâté le cours de l’histoire – une histoire qui se lit comme un mouvement vers
+                l’émancipation de l’homme –, leur farouche détermination s’est trouvée, <hi rend="italic">a posteriori</hi>, légitimée. Ils avaient vu juste avant les
+                autres et la postérité, en ce Siècle des Lumières, leur donne raison. Elle condamne,
+                par le même coup, les forces obscurantistes qui les avaient injustement condamnés.
+                Ferme sur ce point, Diderot conservera jusqu’à ses derniers jours la même admiration
+                pour les penseurs qui n’ont pas eu peur de mettre leur vie en péril pour défendre
+                leurs idées. Deux ans avant de mourir, en 1781, dans la <hi rend="italic">Lettre
+                    apologétique de l’abbé Raynal</hi>, il s’en prend véhémentement à la
+                pusillanimité de Grimm en soutenant les arguments qui lui avaient valu jadis les
+                moqueries de Naigeon, Bron et Falconet :</p>
+            <q rend="quotation">Comment sommes-nous sortis de la barbarie ? C’est qu’heureusement il
+                s’est trouvé des hommes qui ont plus aimé la vérité qu’ils ont redouté la
+                persécution. Certes, ces hommes-là n’étaient pas des lâches. Les appellerons-nous
+                des fous<note type="standard" xml:id="ftn24" place="foot" n="24">
+          <p>
+                        <hi rend="italic">Lettre apologétique de l’abbé Raynal à Monsieur
+                        Grimm</hi>, in D. <hi rend="small-caps">Diderot</hi>, <hi rend="italic">Œuvres complètes</hi>, Paris, Le Club français du Livre, 1972, t. XIII,
+                        p. 68.</p>
+        </note> ?</q>
+            <p xml:id="d1e689">Socrate mais aussi Vanini ou d’autres philosophes persécutés
+                confirment Diderot dans l’exigence éthique qu’il s’est assignée et qu’il ne doit à
+                aucun prix bafouer.</p>
+            <p xml:id="d1e691">Nous sommes là sur une des lignes de crête du matérialisme de ce
+                philosophe sans système et si étrangement humain. Un matérialisme conséquent et
+                exigeant, où la raison n’écarte pas la passion de découvrir la vérité ou de lutter
+                pour la défendre, et où le déterminisme n’écrase pas la volonté de chaque homme
+                d’œuvrer à l’émancipation du genre humain.</p>
+        </body>
+    </text>
+</TEI>

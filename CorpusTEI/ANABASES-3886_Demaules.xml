@@ -1,0 +1,1138 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-3886_Demaules">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">
+                    <hi xml:lang="fr">La classification des songes de Macrobe en moyen français :
+                        continuité, ruptures et déplacements</hi>
+                </title>
+                <author>
+                    <persName>
+                        <forename>Mireille</forename>
+                        <surname>Demaules</surname>
+                    </persName>
+                    <affiliation> &#xD; Université d’Artois (pôle d’Arras), Centre « Textes et
+                        Cultures » EA 4028<lb/>mireille.demaules@wanadoo.fr </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+                        Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>« Savoirs » est une plateforme de publication numérique vouée à l’histoire et à
+                    l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS
+                    (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une
+                    archive d’articles ou une collection de livres, il s’agit d’une bibliothèque
+                    « intelligente » et expérimentale qui propose des parcours de lecture
+                    heuristiques et réflexifs entre les textes, grâce à différents algorithmes de
+                    recherche et de suggestions reposant notamment sur un balisage des lieux, des
+                    dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs
+                        (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel
+                        XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données
+                        géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour
+                        l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références
+                        Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes
+                        pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>translation</item>
+                        <item>classification</item>
+                        <item>continuity</item>
+                        <item>popular beliefs</item>
+                        <item>displacement</item>
+                        <item>etymology</item>
+                        <item>Latin language</item>
+                        <item>vulgar language</item>
+                        <item>transposition</item>
+                        <item>typology (dream</item>
+                        <item>nightmare).</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>traduction</item>
+                        <item>classification</item>
+                        <item>continuité</item>
+                        <item>croyances populaires</item>
+                        <item>déplacement</item>
+                        <item>étymologie</item>
+                        <item>langue latine</item>
+                        <item>langue vulgaire</item>
+                        <item>transposition</item>
+                        <item>typologie (songe</item>
+                        <item>rêve</item>
+                        <item>cauchemar)</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart level="a" type="main">
+                        <hi xml:lang="fr">La classification des songes de Macrobe en moyen
+                            français : continuité, ruptures et déplacements</hi>
+                    </titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Mireille Demaules</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e248">
+                <p xml:id="d1e249">Parmi les classifications des rêves de l’Antiquité, celle de
+                    Macrobe, grammairien latin du <hi rend="small-caps">iv</hi>
+          <hi rend="sup">e</hi>-<hi rend="small-caps">v</hi>
+          <hi rend="sup">e</hi> siècle après
+                    Jésus-Christ, a connu une très large diffusion dans les milieux lettrés jusqu’au
+                        <hi rend="small-caps">xv</hi>
+          <hi rend="sup">e</hi> siècle comme en témoigne
+                    la fidèle traduction dans la langue française de tous les termes latins
+                    dénommant les catégories de songes.<lb/>Toutefois la typologie savante de
+                    Macrobe n’a pas totalement pénétré la langue populaire, notamment quand il
+                    s’agit d’évoquer les variétés du songe illusoire. Ainsi s’imposent peu à peu en
+                    moyen français et dans la langue classique des mots nouveaux comme « rêve » et
+                    « cauchemar » dont le sémantisme et l’étymologie sont plus étranges et
+                    mystérieux. L’article explique pourquoi la savante classification macrobienne,
+                    fidèlement retranscrite par les lettrés, n’a pu se maintenir et comment les
+                    croyances populaires ont fini par imposer de nouveaux substantifs pour nommer
+                    jusqu’à ce jour toutes nos expériences oniriques.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e268">
+                <p xml:id="d1e269">
+          <hi xml:lang="en">Amid Antiquity’s classifications of dreams,
+                        that of Macrobius, a Latin grammarian of the IV-Vth century A.D., knew a
+                        highly extensive distribution in the learned circles as late as the XVth
+                        century, as testifies the accurate translation into the French language of
+                        all the Latin terms naming the categories of dreams.</hi>
+          <hi xml:lang="en">
+            <lb/>Macrobius’s learned typology however did not thoroughly penetrate the
+                        common language, notably when the various forms of illusory dreaming have to
+                        be evoked. </hi>As a consequence new words gradually prevail in middle
+                    French such as “rêve” and “cauchemar”, whose semantism and etymology are
+                    stranger and more mysterious. <hi xml:lang="en">The article explains why the
+                        learned Macrobian classification, so accurately handed down by the scholars,
+                        failed to hold its ground and how popular beliefs finally imposed new
+                        substantives to name until today all our experiences of dreaming.</hi>
+        </p>
+            </div>
+        </front>
+        <body>
+            <p xml:id="d1e282">Pour nommer l’expérience onirique, le français moderne dispose
+                essentiellement de trois substantifs : le plus courant est le mot <hi rend="italic">rêve</hi>, le plus littéraire est le mot <hi rend="italic">songe</hi>, un peu
+                suranné ; à côté, pour dénommer le mauvais rêve existe le substantif <hi rend="italic">cauchemar</hi>. D’une certaine manière, la dénomination n’est pas
+                très riche et nous avons coutume de ranger sous les hyperonymes <hi rend="italic">songe</hi> ou <hi rend="italic">rêve</hi>, selon le niveau de langue, des
+                expériences très diverses que les Anciens distinguaient par des dénominations
+                propres. Ainsi, il existait dans l’Antiquité grecque et latine de savantes
+                classifications des rêves, qui ont permis de penser le rêve et sont restées valides
+                jusqu’à l’aube de la Renaissance. L’une d’entre elles a été particulièrement célèbre
+                au Moyen Âge, c’est celle de Macrobe, un grammairien latin de la fin du <hi rend="small-caps">iv</hi>
+        <hi rend="sup">e</hi> siècle – début du <hi rend="small-caps">v</hi>
+        <hi rend="sup">e</hi> siècle après Jésus-Christ, qui a
+                été transmise en langue latine par des traités savants, puis en langue vulgaire par
+                des traductions dans des ouvrages didactiques. Ces transpositions en langue
+                vernaculaire à l’usage d’un lectorat cultivé, voire savant, témoignent d’une
+                certaine continuité dans la transmission de la classification antique des songes,
+                mais également de ruptures ou de déplacements dans la dénomination que nous
+                aimerions examiner, en tant qu’ils révèlent des changements dans la représentation
+                du rêve. De plus, il faudra se demander pourquoi les termes français issus des
+                classifications antiques ne se sont pas imposés dans la langue vulgaire. Pour finir,
+                nous tenterons de déterminer pourquoi des mots d’origine obscure, tels que <hi rend="italic">rêve</hi> et <hi rend="italic">cauchemar</hi>, ont fini par
+                s’imposer au détriment de termes reliés à la culture antique. </p>
+            <div type="div1" xml:id="d1e316">
+                <head subtype="level1" xml:id="d1e317">La classification des songes de
+                    Macrobe</head>
+                <p xml:id="d1e319">Macrobe est célèbre au Moyen Âge pour avoir écrit un commentaire
+                    mathématique, astronomique et philosophique sur un récit de rêve, composé par
+                    Cicéron dans le livre VI de son traité <hi rend="italic">De re publica</hi>
+          <note type="standard" xml:id="ftn1" place="foot" n="1">
+            <p> Voir Macrobe, <hi rend="italic">Commentaire au Songe de Scipion</hi>, texte établi,
+                            traduit et commenté par M. <hi rend="small-caps">Armisen-Marchetti</hi>,
+                            2 vol., Paris, Les Belles Lettres, 2001-2003.</p>
+          </note>
+          <hi rend="italic">. </hi>Dans ce récit, Cicéron prête à un général romain,
+                    Scipion Émilien, un rêve prémonitoire alors qu’il était venu en Afrique pour
+                    donner l’assaut à Carthage. Scipion Émilien voyait en rêve apparaître son
+                    grand-père, Scipion l’Africain, qui lui annonçait qu’il allait détruire
+                    Carthage. Outre cette prophétie, le rêve dévoile des secrets de l’univers.
+                    Scipion Émilien monte en effet dans les régions célestes d’où il contemple le
+                    monde. Son père et son grand-père l’invitent également à se tourner vers le bien
+                    pour gagner l’immortalité de l’âme. Commentant cette fable, Macrobe écrit un
+                    traité encyclopédique d’inspiration néo-platonicienne, qui initie aux sciences
+                    de la nature et à la philosophie. Pour lui, la fable du rêve est une voie
+                    d'accès au dévoilement de mystères sur l’immortalité de l’âme, que l’on ne peut
+                    approcher directement par le discours rationnel. </p>
+                <p xml:id="d1e336">En préambule à son commentaire, Macrobe veut prouver la valeur de
+                    vérité du rêve auquel il accorde la même fonction que Platon attribuait au
+                    mythe : il peut révéler des vérités inaccessibles à la raison. Il entame donc
+                    une dissertation sur les songes en distinguant d’une part les songes vrais et
+                    d’autre part les songes faux<note type="standard" xml:id="ftn2" place="foot" n="2">
+            <p>
+                            <hi rend="italic">Id</hi>., I, 3, 1-20, p. 10-16.</p>
+          </note>. </p>
+                <p xml:id="d1e346">Parmi les songes faux, illusoires, il distingue tout d’abord
+                        l’<hi rend="italic">insomnium. </hi>Le mot est un composé de la préposition
+                        <hi rend="italic">in</hi>- et du mot <hi rend="italic">somnium</hi>
+                    signifiant le sommeil. L’<hi rend="italic">insomnium </hi>désigne ainsi la
+                    vision intérieure au sommeil et qui s’évanouit avec lui sans laisser de trace.
+                        L’<hi rend="italic">insomnium</hi> est d’origine physique ou psychique. Il
+                    peut être provoqué par les besoins du corps, la faim ou la soif, ou inversement
+                    par un excès de nourriture ou de boisson. Lorsqu’il a une origine psychique, il
+                    s’agit d’un rêve provoqué par les préoccupations de la veille, les désirs,
+                    l’amour et les soucis. Par le terme <hi rend="italic">visum</hi>, Macrobe
+                    désigne les visions hypnagogiques qui apparaissent entre la veille et le
+                    sommeil. Ce sont des visions confuses et désordonnées. Il classe dans cette
+                    catégorie un type de songe qu’il dénomme par un terme grec, <hi rend="italic">ephialtes, </hi>et qu’il définit en se référant à une croyance populaire :
+                    il serait provoqué par un démon incube qui, pesant sur la poitrine du dormeur,
+                    produit un cauchemar oppressant. </p>
+                <p xml:id="d1e370">À ces songes illusoires, Macrobe oppose ceux qui contiennent une
+                    vérité oraculaire et qui induisent chez le dormeur qui les reçoit une
+                    disposition mentale propice à la divination. L’<hi rend="italic">oraculum</hi>
+                    est un songe clair, de nature programmatique : il se produit lorsqu’un parent,
+                    un ami ou une personne inspirant le respect – ce peut être un dieu ou un prêtre
+                    – révèle clairement un événement à venir ou invite à tenir une conduite de toute
+                    urgence. La <hi rend="italic">visio</hi> préfigure en clair un événement qui se
+                    réalise peu de temps après. Quant au terme <hi rend="italic">somnium,</hi> il
+                    désigne le songe allégorique. Il cache sous des symboles, des voiles et des
+                    énigmes la signification du rêve qui demeure incompréhensible sans
+                    interprétation. </p>
+                <p xml:id="d1e381">Cette classification des songes appelle quatre remarques.<lb/>1.
+                    Le latin <hi rend="italic">somnium</hi>, qui est l’hyperonyme de toutes les
+                    catégories de songe dégagées, dérive de <hi rend="italic">somnus</hi>, terme
+                    désignant le sommeil et la divinité du sommeil chez Virgile et Ovide. La forme
+                    crée un rapport étroit entre les deux mots. Indirectement, le rêve appartient au
+                    sommeil, ce qui peut être un critère permettant de le distinguer des autres
+                    expériences oniriques, telles que l’apparition ou l’extase. Le mot <hi rend="italic">somnus</hi> possède des connotations négatives en latin,
+                    puisque au sens figuré il peut désigner la paresse, l’inaction, l’oisiveté,
+                    notamment chez Cicéron. Il peut aussi par métaphore évoquer la mort. Par
+                    contamination métonymique, le songe peut prendre des connotations négatives et
+                    ainsi être perçu comme une illusion. En français, <hi rend="italic">somnium</hi>
+                    a donné par évolution phonétique le mot <hi rend="italic">songe</hi>, mais le
+                    lien entre le songe, le sommeil, le somme n’apparaît plus si nettement qu’en
+                    latin dans la forme des mots<note type="standard" xml:id="ftn3" place="foot" n="3">
+            <p> Voir F. <hi rend="small-caps">Schalk</hi>, « Somnium und verwandte
+                            Wörter in den romanischen Sprachen », in <hi rend="italic">Exempla
+                                romanischer Wortgeschichte</hi>, Francfort-sur-le-Main, éd.
+                            Klostermann, 1966, p. 295-337.</p>
+          </note>.<lb/>2. La catégorie du <hi rend="italic">visum</hi> est assez hétérogène chez Macrobe, puisque le mot
+                    traduit deux termes grecs distincts que donne le grammairien : celui de <hi rend="italic">phantasma</hi> qui désigne une apparition, une image sans
+                    consistance, et celui d’<hi rend="italic">ephialtes</hi> qui dénomme un spectre
+                    induisant un songe oppresseur. Pour la catégorie de l’<hi rend="italic">ephialtes</hi>, Macrobe ne produit pas de correspondant latin. La création
+                    lexicale des langues vernaculaires remédiera à ce manque dans la terminologie
+                    latine.<lb/>3. Tout autant qu’une suite d’images ou de choses vues, le songe est
+                    compris comme un message oral qui s’entend : il est un oracle, c’est-à-dire une
+                    parole prophétique. Il dit quelque chose. C’est une conception qui est commune à
+                    la Bible et à l’Antiquité gréco-latine.<lb/>4. La conception des rêves véhiculée
+                    par la typologie de Macrobe est ambiguë : elle est à la fois empreinte de magie
+                    et rationaliste. En effet elle rend compte de croyances populaires. Elle
+                    confirme le lien du songe au domaine de la magie en lui accordant une valeur
+                    oraculaire. Elle fait également référence de manière indirecte à des pratiques
+                    religieuses propres au paganisme et dont héritera la culture chrétienne. Ainsi
+                    dans la catégorie des songes insignifiants le terme <hi rend="italic">ephialtes</hi> renvoie à la croyance selon laquelle des démons oppressent
+                    la poitrine du dormeur. Macrobe rapporte que selon la croyance populaire (<hi rend="italic">publica persuasio</hi>), il s’agit d’un être réel. Mais
+                    lui-même attribue une origine naturelle au songe oppresseur : l’être fantastique
+                    qui agresse le rêveur entre veille et sommeil n’existe que dans son imagination.
+                    Enfin la catégorie de l’<hi rend="italic">oraculum</hi> renvoie sans doute au
+                    songe homérique, mais implicitement aussi à la pratique du songe incubatoire :
+                    dans l’Antiquité, il était d’usage de dormir dans les temples dans l’espoir
+                    d’obtenir un rêve curatif ou un rêve oraculaire qui prophétise le destin du
+                        rêveur<note type="standard" xml:id="ftn4" place="foot" n="4">
+            <p> On pourra
+                            se reporter sur ce point à C. A. <hi rend="small-caps">Meier</hi>, « Le
+                            rêve et l’incubation dans l’ancienne Grèce », in R. <hi rend="small-caps">Caillois</hi> et G. E. <hi rend="small-caps">Von
+                                Grunebaum</hi> (dir.), <hi rend="italic">Le rêve et les sociétés
+                                humaines</hi>, Paris, Gallimard, coll. « Bibliothèque des Sciences
+                            Humaines », 1967, p. 290-304. Voir aussi Aelius Aristide, <hi rend="italic">Discours sacrés. Rêve, religion, médecine au </hi>
+              <hi rend="italic">
+                <hi rend="small-caps">ii</hi>
+              </hi>
+              <hi rend="sup">
+                <hi rend="italic">e</hi>
+              </hi>
+              <hi rend="italic"> siècle après
+                                J.-C.</hi>, introduction et traduction par A. J. <hi rend="small-caps">Festugiere</hi>, préface de J. <hi rend="small-caps">Le Goff</hi>, Paris, Macula, coll. « Propylées »,
+                            1986. </p>
+          </note>. Le terme <hi rend="italic">oraculum</hi> désigne
+                    d’ailleurs en latin à la fois un lieu de prières, de culte, et l’oracle des
+                    dieux obtenu par un songe. Toutefois Macrobe ne développe pas cette catégorie de
+                    rêve par des exemples précis, ce qui suggère peut-être une certaine réserve de
+                    sa part. Mais le point de vue rationaliste de Macrobe ne va pas toutefois
+                    jusqu’à rejeter l’oniromancie, en particulier parce que son but est de montrer
+                    la valeur de vérité du rêve. </p>
+            </div>
+            <div type="div1" xml:id="d1e479">
+                <head subtype="level1" xml:id="d1e480">Traduction et créations savantes en moyen
+                    français</head>
+                <p xml:id="d1e482">Le <hi rend="italic">Commentaire au Songe de Scipion</hi> a été
+                    recopié et glosé durant tout le Moyen Âge<note type="standard" xml:id="ftn5" place="foot" n="5">
+            <p> Sur la réception médiévale du <hi rend="italic">Commentaire au Songe de Scipion</hi>, voir principalement I. <hi rend="small-caps">Caiazzo</hi>, <hi rend="italic">Lectures
+                                médiévales de Macrobe</hi>, Paris, Vrin, coll. « Études de
+                            philosophie médiévale », 2002, p. 15-19 et p. 36. Sur sa réception dans
+                            les différentes langues vernaculaires<hi rend="italic">, </hi>on se
+                            reportera également à l’ouvrage d’A. <hi rend="small-caps">Hüttig</hi>,
+                                <hi rend="italic">Macrobius im Mittelalter : ein Beitrag zur
+                                Rezeptionsgeschichte der</hi> Commentarii in Somnium Scipionis,
+                            Francfort-sur-le-Main, P. Lang, 1990, « Schriften der
+                            Nationalsprachen », p. 171-173.</p>
+          </note>, mais la classification de
+                    Macrobe a été surtout commentée à partir du <hi rend="small-caps">xii</hi>
+          <hi rend="sup">e</hi> siècle. Elle est glosée par Guillaume de Conches<note type="standard" xml:id="ftn6" place="foot" n="6">
+            <p> Voir P. <hi rend="small-caps">Dronke</hi>, <hi rend="italic">Fabula,
+                                explorations into the uses of myth in medieval platonism</hi>, Leyde
+                            et Cologne, E. J. Brill, 1974, chap. 1, « Fabula : critical theories »,
+                            p. 13-68. On se reportera aussi à l’<hi rend="italic">excursus</hi>
+                            (p. 68-78) qui propose une sélection des gloses de Guillaume de Conches
+                            extraites de son <hi rend="italic">Commentaire sur Macrobe</hi>, encore
+                            inédit dans son ensemble.</p>
+          </note> et, en dehors de la tradition des
+                    commentaires, reprise par Jean de Salisbury dans le <hi rend="italic">Policraticus</hi> (vers 1159)<note type="standard" xml:id="ftn7" place="foot" n="7">
+            <p> Jean de Salisbury, <hi rend="italic">Policraticus,
+                            </hi>édition <hi rend="small-caps">Webb</hi>, 2 vol., Londres‑Oxford,
+                            Clarendon Press, 1909, t. I, chap. XV-XVII, 429a-436a. Pour une édition
+                            plus récente, Jean de Salisbury, <hi rend="italic">Policraticus</hi>
+                            <hi rend="italic">(I-IV)</hi>, éd. K. S. B. <hi rend="small-caps">Keats-Rohan</hi>, Turnhout, Brepols, Corpus Christianorum,
+                            Continuatio Mediævalis, 118, 1993, p. 94-106. </p>
+          </note>
+          <hi rend="italic">, </hi>au livre II, dans les chapitres XV à XVII, et chez un
+                    auteur cistercien, identifié à Alcher de Clairvaux, dans le <hi rend="italic">Liber de spiritu et anima</hi>
+          <note type="standard" xml:id="ftn8" place="foot" n="8">
+            <p> Alcher de Clairvaux est identifié comme le
+                            Pseudo-Augustin, auteur du <hi rend="italic">Liber de spiritu et anima,
+                                Patrologie Latine</hi>, éd. <hi rend="small-caps">Migne</hi>, t. XL,
+                            chap. XXV, col. 798. Alcher de Clairvaux reprend les cinq catégories des
+                            songes de Macrobe, mais remplace <hi rend="italic">visum</hi> par le
+                            terme d’origine grecque <hi rend="italic">phantasma</hi>. </p>
+          </note>.
+                    Chez ces auteurs latins la terminologie macrobienne est reprise avec fidélité. </p>
+                <p xml:id="d1e578">Aux <hi rend="small-caps">xiv</hi>
+          <hi rend="sup">e</hi> et <hi rend="small-caps">xv</hi>
+          <hi rend="sup">e</hi> siècles la langue vulgaire
+                    commence à investir des champs du savoir réservés jusqu’alors à la langue
+                    latine, de sorte que l’on traduit en français des traités latins des siècles
+                    antérieurs. Ainsi le traité de Jean de Salisbury est transposé en langue
+                    vulgaire, en 1372, par un traducteur de Charles V, un frère mineur nommé Denis
+                    Foulechat, sous le titre <hi rend="italic">Le</hi>
+                    <hi rend="italic">Policratique</hi>
+          <note type="standard" xml:id="ftn9" place="foot" n="9">
+            <p> Denis Foulechat, <hi rend="italic">Le
+                                Policratique</hi>
+                            <hi rend="italic">de Jean de Salisbury </hi>(1372), Livres I-III, éd. C.
+                                <hi rend="small-caps">Brucker</hi>, Genève, Droz, 1994, Livre II,
+                            chap. XV, p. 149-152.</p>
+          </note>. Au milieu du <hi rend="small-caps">xv</hi>
+          <hi rend="sup">e</hi> siècle, Antoine de La Sale, précepteur des
+                    fils de Louis de Luxembourg, comte de Saint-Pol, écrit à l’usage de ses élèves
+                    un traité intitulé <hi rend="italic">La Sale</hi>, une compilation de grands
+                    auteurs et d’histoires qu’il a entendues ou vécues. Au livre III, il consacre
+                    deux chapitres aux songes : l’un est une typologie des songes, visiblement
+                    calquée de Macrobe, l’autre est le récit d’un rêve célèbre du roi Crésus<note type="standard" xml:id="ftn10" place="foot" n="10">
+            <p> Antoine de La
+                                Sale,<hi rend="italic"> Œuvres Complètes</hi>, éd. F. <hi rend="small-caps">Desonay</hi>, 2 vol., Liège, Faculté de
+                            Philosophie et Lettres, Paris, Droz, 1935-1941, t. II, <hi rend="italic">La Sale</hi>, p. 229-231. </p>
+          </note>. Or, il nous a semblé
+                    intéressant d’examiner comment la langue vulgaire transposait les dénominations
+                    de Macrobe. Parvenait-elle à rendre compte par une terminologie adéquate des
+                    distinctions subtiles opérées par la langue latine ? Que nous révèle de la
+                    conception du rêve la transposition en langue française<note type="standard" xml:id="ftn11" place="foot" n="11">
+            <p> Je remercie Jean-Marie Fritz d’avoir
+                            attiré mon attention sur ces deux textes.</p>
+          </note> ? </p>
+                <p xml:id="d1e637">La traduction de la typologie de Macrobe en moyen français
+                    présente <hi rend="italic">a priori</hi> une certaine continuité avec son
+                    original latin. En effet les traducteurs conservent les cinq catégories de rêves
+                    ainsi que la bipartition entre songes vrais et songes illusoires, laquelle donne
+                    son architecture conceptuelle à la typologie de Macrobe. Denis Foulechat débute
+                    ainsi son chapitre :</p>
+                <q rend="quotation">« Il sont pluseurs especes de songes et pluseurs causes et
+                    diverses figures et significacions ; car ou c’est ensonge ou fantosme ou songe
+                    ou enseignement de Dieu ou vision<note type="standard" xml:id="ftn12" place="foot" n="12">
+            <p>
+                            <hi rend="italic">Le Policratique</hi>, chap. XV, 1-2,
+                        p. 149.</p>
+          </note>. »</q>
+                <p xml:id="d1e652">Quant à Antoine de La Sale, il introduit son exposé en ces
+                    termes :</p>
+                <q rend="quotation">« Il convient savoir, selon que les philosophes dient, et
+                    premier Macrobe assez près du commencement de son livre qui est nommé
+                    Disposicion de Songes, ou il dist que sont .V. manieres de songes : dont la
+                    premiere est simplement appellee songe ; la seconde est appellee vision ; la
+                    tierce est appellee oracle ; la quarte est appellee insonge ; la quinte est
+                    appellee fantosme. Dont de ces .II. dernieres : de insonge et de fantosme, dit
+                    que on ne doit faire compte<note type="standard" xml:id="ftn13" place="foot" n="13">
+            <p>
+                            <hi rend="italic">La Sale</hi>, p. 229.</p>
+          </note>. »</q>
+                <p xml:id="d1e664">La traduction des termes dénommant les songes vrais semble avoir
+                    été aisée tant les mots de la langue vulgaire présentent une filiation nette par
+                    les sons et le sémantisme avec leur étymon latin. Ainsi <hi rend="italic">somnium</hi> est-il traduit facilement par <hi rend="italic">songe</hi> et
+                        <hi rend="italic">visio</hi> par <hi rend="italic">vision</hi>. Le mot <hi rend="italic">oracle,</hi> qui est bien le descendant transparent du mot
+                    latin <hi rend="italic">oraculum</hi> et qui comme tel est conservé dans les
+                    deux textes, embarrasse néanmoins Denis Foulechat et Antoine de La Sale. Cet
+                    embarras est imputable à deux raisons. La première est purement linguistique :
+                    en moyen français le mot <hi rend="italic">oracle</hi> n’évoque pas d’emblée un
+                    type de rêve, mais plutôt un type d’énoncé : « une réponse divine dans
+                    l’Antiquité » ou « un lieu où la divinité rend l’oracle » selon le <hi rend="italic">Dictionnaire du Moyen Français</hi>. La deuxième raison tient
+                    au rejet du paganisme, à l’impossibilité d’inclure dans la catégorie des songes
+                    vrais des rêves où apparaissent des dieux païens. Accessoirement s’ajoute le
+                    rejet de la pratique du songe incubatoire condamnée par l’Église, sans qu’elle
+                    parvienne, tout du moins jusqu’au Haut Moyen Âge, à éradiquer totalement la
+                    coutume, puisqu’on allait incuber auprès de tombeaux de saints<note type="standard" xml:id="ftn14" place="foot" n="14">
+            <p> Voir J. <hi rend="small-caps">Le Goff</hi>, <hi rend="italic">Le christianisme
+                                et les rêves </hi>
+              <hi rend="italic">
+                <hi rend="small-caps">(ii</hi>
+              </hi>
+              <hi rend="sup">
+                <hi rend="italic">e</hi>
+              </hi>
+              <hi rend="italic">-</hi>
+              <hi rend="italic">
+                <hi rend="small-caps">vii</hi>
+              </hi>
+              <hi rend="sup">
+                <hi rend="italic">e</hi>
+              </hi>
+              <hi rend="italic"> siècle)</hi>, in <hi rend="italic">L’imaginaire
+                                médiéval</hi>, Paris, Gallimard, coll. « Bibliothèque des
+                            Histoires », 1985, p. 265-316, et, plus particulièrement p. 289. On
+                            consultera également P. <hi rend="small-caps">Saintyves</hi>, <hi rend="italic">En marge de la légende dorée. Songes, miracles et
+                                survivances</hi>, Paris, Robert Laffont, coll. « Bouquins », 1987
+                            [Émile Nourry, 1930], « Des songes provoqués et de l’incubation »,
+                            p. 518-523.</p>
+          </note>. La traduction du mot <hi rend="italic">oraculum</hi> par <hi rend="italic">oracle </hi>requiert donc une glose qui
+                    manifeste la distance du chrétien vis-à-vis des croyances païennes. Ainsi Denis
+                    Foulechat évite dans un premier temps le mot <hi rend="italic">oracle</hi> et
+                    emploie pour présenter cette catégorie de rêve la périphrase : « enseignement de
+                        Dieu<note type="standard" xml:id="ftn15" place="foot" n="15">
+            <p>
+                            <hi rend="italic">Le Policratique</hi>, 1, p. 149.</p>
+          </note>. »
+                    Ensuite, lorsqu’il définit plus précisément ce type de rêve, il emploie le terme
+                        <hi rend="italic">oracle</hi>, mais précédé du mot <hi rend="italic">espece</hi> – « espece de oracle<note type="standard" xml:id="ftn16" place="foot" n="16">
+            <p> « Mais, quant la chose par repos esclarcist a
+                            l’annunciacion d’autrui, toutesvoies se la personne de celui qui
+                            l’annunce est honeste et honorable, ce est espece de oracle, c’est a
+                            dire response du ciel. », <hi rend="italic">Le Policratique</hi>, 42,
+                            p. 151.</p>
+          </note> » – qui marque sa réticence, puis il glose cette
+                    expression par une périphrase explicative absente de son original latin :
+                    « C’est a dire response du ciel. » L’oracle est défini comme une annonciation,
+                    une « devine volenté par bouche d’omme annunciee<note type="standard" xml:id="ftn17" place="foot" n="17">
+            <p>
+                            <hi rend="italic">Ibid</hi>. </p>
+          </note> ». L’apparition des dieux
+                    anciens est rejetée comme une croyance diabolique par Jean de Salisbury et Denis
+                    Foulechat ou attribuée à une « maniere du parler de Macrobe<note type="standard" xml:id="ftn18" place="foot" n="18">
+            <p>
+                            <hi rend="italic">La Sale</hi>, p. 230 : « Oracle est quant lui appert
+                            pere ou mere ou aulcune sainte personne, prestres ou aulcuns dieux,
+                            selon la maniere du parler de Macrobe. » </p>
+          </note> » par Antoine de La
+                    Sale. Afin d’éclairer la signification de l’oracle, les auteurs médiévaux
+                    ajoutent des exemples qui illustrent la définition macrobienne et construisent
+                    sous les yeux du lecteur la traduction : ils sont principalement tirés du
+                    Nouveau Testament et prennent la forme de l’apparition d’un ange qui transmet la
+                    volonté divine à des humains. Sont cités comme oracle par exemple le songe des
+                    Rois Mages (Matthieu 2, 12), dans lequel un ange les avertit de ne pas retourner
+                    auprès d’Hérode ; ou celui de Joseph (Matthieu 2, 13), dans lequel un ange lui
+                    ordonne de fuir en Égypte avec la Vierge et le Christ nouveau-né. Hors de ces
+                    exemples, le songe oraculaire est considéré comme une superstition diabolique.
+                    Jean de Salisbury et son traducteur Denis Foulechat condamnent très expressément
+                    les rêves oraculaires de l’<hi rend="italic">Énéide</hi> où apparaissent les
+                    dieux ou le défunt Anchise :</p>
+                <q rend="quotation">« Eneas, par l’enseigne de leur devins respons, trouva Ytalie,
+                    qui par eulz li estoit promise et de luy tres diligenment avoit esté quise et
+                    poursuye, et en ycelle, par l’inspiracion non pas tant des esperis, que il
+                    appellent leurs dieux, comme par l’inspiracion de dyables, il establi son siege
+                    et sema la semence du lignage romain ou jardin qui mieulx leur plaisoit. Et
+                    quelle autre chose feist en songe le pere Anchises et quelle autre Jupiter et
+                    quelle Apollo et aussy les autres, qui seroit longue chose a raconter<note type="standard" xml:id="ftn19" place="foot" n="19">
+            <p>
+                            <hi rend="italic">Le Policratique</hi>, chap. XV, 48-49,
+                        p. 151.</p>
+          </note> ? »</q>
+                <p xml:id="d1e790">Ce jugement explique sans doute la disparition dans l’<hi rend="italic">Eneas, </hi>adaptation médiévale (vers 1160) du texte
+                    virgilien, de tous les songes prophétiques de l’<hi rend="italic">Énéide </hi>:
+                    les trois songes où apparaissent successivement à Énée Hector<note type="standard" xml:id="ftn20" place="foot" n="20">
+            <p> Virgile, <hi rend="italic">Énéide</hi>, éd. et trad. de J. <hi rend="small-caps">Perret</hi>, 3 vol., Paris, Les Belles Lettres, 1977-1980, t. I,
+                            livre II, v. 268-297, p. 48-49.</p>
+          </note>, les dieux Pénates<note type="standard" xml:id="ftn21" place="foot" n="21">
+            <p>
+                            <hi rend="italic">Id</hi>., t. I, livre III, v. 147-171,
+                        p. 80-81.</p>
+          </note> et Mercure<note type="standard" xml:id="ftn22" place="foot" n="22">
+            <p>
+                            <hi rend="italic">Id</hi>., t. I, livre IV, v. 553-570,
+                        p. 131-132.</p>
+          </note>. En revanche, l’apparition d’Anchise à Énée est
+                    conservée, peut-être parce qu’elle est conçue comme une vision éveillée<note type="standard" xml:id="ftn23" place="foot" n="23">
+            <p>
+                            <hi rend="italic">Id</hi>., t. II, livre V, v. 722-739, p. 32-33. Voir
+                                <hi rend="italic">Eneas</hi>, roman du <hi rend="small-caps">xii</hi>
+              <hi rend="sup">e</hi> siècle, éd. J.-J. <hi rend="small-caps">Salverda de Grave</hi>, 2 vol., Paris, Champion,
+                            1925-1929, t. I, v. 2161-2220, p. 66-68.</p>
+          </note>.</p>
+                <p xml:id="d1e845">C’est pour la traduction des termes désignant les songes
+                    illusoires que l’on observe la tension la plus nette entre un effort de
+                    continuité, voire de fidélité, par rapport à la source latine et la nécessité de
+                    son abandon au profit d’un déplacement de la terminologie. Le mot <hi rend="italic">insomnium, </hi>qui désigne le songe le plus banal, le plus
+                    quotidien chez Macrobe, est rendu par le néologisme <hi rend="italic">ensonge</hi> qui est le calque de l’étymon latin. Le terme <hi rend="italic">ensonge</hi> est bien attesté au <hi rend="small-caps">xiv</hi>
+          <hi rend="sup">e</hi> siècle, chez Froissart, dans le roman de <hi rend="italic">Méliador</hi> (1373-1388), au sens de « rêve », « songe »,
+                    « imagination trompeuse » : il rime avec une forme du verbe <hi rend="italic">mensongier</hi>
+          <note type="standard" xml:id="ftn24" place="foot" n="24">
+            <p>
+                            « Plus a de .X. jours que n’oÿ / Parolle qui si bien m’agrée / Et, ou
+                            cas que je m’i recrée, / Si me di ci presentement, / De tout ton
+                            meilleur sentement, / Se tu dis voir u tu mençonges / Pour moi oster de
+                            telz <hi rend="italic">ensonges</hi>. » (Jean Froissart, <hi rend="italic">Meliador</hi>, éd. A. <hi rend="small-caps">Longnon</hi>, 3 vol., Paris, Firmin-Didot, <hi rend="small-caps">satf</hi>, 1895-1899, t. II, v. 11867-11873, p. 74).</p>
+          </note>. Il
+                    est encore attesté au <hi rend="small-caps">xv</hi>
+          <hi rend="sup">e</hi> siècle,
+                    chez Antoine de La Sale, sous la forme <hi rend="italic">insonge</hi>, mais il
+                    n’est plus attesté dans le <hi rend="italic">Dictionnaire de la langue française
+                        du </hi>
+          <hi rend="italic">
+            <hi rend="small-caps">xvi</hi>
+          </hi>
+          <hi rend="sup">
+            <hi rend="italic">e</hi>
+          </hi>
+          <hi rend="italic"> siècle</hi> d’Edmond
+                    Huguet et semble avoir disparu de la langue à cette époque. On peut supposer que
+                    ce mot n’a jamais vraiment pénétré la langue courante, en raison peut-être de sa
+                    proximité phonique avec le mot <hi rend="italic">ensoigne</hi> signifiant
+                    « inquiétude », « difficulté ». </p>
+                <p xml:id="d1e908">Le mot <hi rend="italic">visum</hi> n’est pas traduit par son
+                    descendant monosyllabique <hi rend="italic">vis</hi> dont les sens s’étaient
+                    trop écartés de sa racine et qui signifiait principalement « avis »,
+                    « opinion », « impression ». Il est traduit par Denis Foulechat et par Antoine
+                    de La Sale par le mot <hi rend="italic">fantosme,</hi> qui a pour origine le mot
+                    grec ionien *<hi rend="italic">phantagma,</hi> altéré en *<hi rend="italic">phantauma</hi> dans le grec massaliote. L’emploi du mot <hi rend="italic">fantosme</hi> contourne l’imprécision du mot latin <hi rend="italic">visum</hi> en faisant retour au mot grec <hi rend="italic">phantasma</hi>,
+                    dont il était la traduction dans le texte de Macrobe<note type="standard" xml:id="ftn25" place="foot" n="25">
+            <p> Voir Macrobe, <hi rend="italic">Commentaire au Songe de Scipion</hi>, I, 3, 1, p. 10 et I, 3, 7,
+                            p. 12.</p>
+          </note>. En moyen français, le mot <hi rend="italic">fantosme</hi> désigne « une illusion », « une chimère », « le fruit de
+                    l’imagination » et plus spécialement « une apparition », « un esprit
+                    malfaisant », « un être fantomatique ». Dans tous les exemples cités par le <hi rend="italic">Dictionnaire du Moyen Français</hi>, le terme est en
+                    collocation avec des mots ou des expressions qui lui donnent une signification
+                    négative, voire diabolique : <hi rend="italic">illusion</hi>, <hi rend="italic">euvre dyabolique</hi>, <hi rend="italic">deableries</hi>. Les deux auteurs
+                    que nous avons retenus présentent le <hi rend="italic">fantosme</hi> ou <hi rend="italic">le songe de fantosme</hi> comme la création de l’état
+                    intermédiaire entre veille et sommeil. </p>
+                <p xml:id="d1e965">Dans cette catégorie, Macrobe classait le songe oppresseur qu’il
+                    dénommait par le substantif grec <hi rend="italic">ephialtes</hi>
+          <note type="standard" xml:id="ftn26" place="foot" n="26">
+            <p>
+                            <hi rend="italic">Id</hi>., I, 3, 7, p. 12. </p>
+          </note>. Les Latins ne
+                    semblent pas avoir eu de mot particulier pour désigner le cauchemar et les
+                    lettrés employaient l’expression <hi rend="italic">suppressio (subp)
+                        nocturna</hi> (= « oppression nocturne »). Denis Foulechat décrit le songe
+                    oppresseur sans le nommer ni reprendre le mot grec qui se trouve pourtant dans
+                    son texte original ; il laisse à cette variété de mauvais rêve le nom de <hi rend="italic">fantosme</hi> et la définit comme une maladie : </p>
+                <q rend="quotation">« En ceste maniere est il de une maladie dont aucuns par
+                    diverses oppressions cuide estre grevé d’aucun fais sus lui aussi comme se il
+                    feust esveillié, et cuide estre esveillié, et toutesvoies il dort, mais il
+                    repose mal ; tele puet estre dite fantosme. Et ces choses ont mieulx mestier de
+                    cure et de medecine que de nostre determinacion, et par especial quant il
+                    n’appert rien vray en eulz fors tant que ce sont tres vraies et angoisseuses
+                    passions dont personne est grevee<note type="standard" xml:id="ftn27" place="foot" n="27">
+            <p>
+                            <hi rend="italic">Le Policratique</hi>, chap. XV, 11-12,
+                        p. 149.</p>
+          </note>. »</q>
+                <p xml:id="d1e993">Selon lui, le rêve oppresseur est une illusion des sens du
+                    dormeur comme l’indique l’emploi du verbe <hi rend="italic">cuidier</hi>
+                    signifiant « croire à tort », ou de la locution conjonctive « comme se ». Se
+                    fondant sur l’autorité des « phisiciens », il donne au rêve oppresseur une cause
+                    endogène, qui peut être de nature physiologique ou psychologique. Il associe le
+                        <hi rend="italic">fantosme</hi> à une condition pathologique, curable, mais
+                    néanmoins extrêmement pénible pour le rêveur. Sa compréhension du songe
+                    oppresseur est rationaliste. </p>
+                <p xml:id="d1e1001">Antoine de La Sale s’inscrit de la même manière dans une
+                    tradition rationaliste, mais il donne une désignation spécifique au songe
+                    oppresseur et le nomme <hi rend="italic">incube</hi> : </p>
+                <q rend="quotation">« Aussi quant il samble que aulcune chose viengne assaillir, qui
+                    samble que monte sur luy et le charge si fort que on ne se poeut remouvoir ne
+                    parler. Et ce appellent les medecins incubz ; et est une malle maladie pour tant
+                    qu’elle dure<note type="standard" xml:id="ftn28" place="foot" n="28">
+            <p>
+                            <hi rend="italic">La Sale</hi>, p. 229-230.</p>
+          </note>. »</q>
+                <p xml:id="d1e1016">Par cette définition, Antoine de La Sale se réfère à la
+                    tradition médicale de l’incube et non à la tradition théologique qui le définit
+                    comme un démon, un satyre qui agresse le rêveur, pèse sur sa poitrine et lui
+                    insuffle ainsi un rêve effrayant<note type="standard" xml:id="ftn29" place="foot" n="29">
+            <p> M. <hi rend="small-caps">Dulaey</hi>, <hi rend="italic">Le rêve dans la vie et la pensée de saint
+                                Augustin</hi>, Paris, Études augustiniennes, 1973, « Le cauchemar »,
+                            p. 132-133. </p>
+          </note>. Pour Antoine de La Sale le rêve oppresseur, qui
+                    annihile la mobilité et la faculté de parole chez le dormeur, n’a pas de cause
+                    réelle, comme l’indique l’emploi du verbe <hi rend="italic">sembler, </hi>et il
+                    est causé par un état de conscience particulier. </p>
+                <p xml:id="d1e1032">Au contraire de Macrobe, qui faisait allusion à la croyance
+                    populaire selon laquelle ce type de rêve est provoqué par la présence d’un être
+                    pesant sur la poitrine du dormeur, aucun des deux commentateurs ne mentionne
+                    précisément une telle croyance. De même aucun des deux ne précise l’origine de
+                    l’oppression ressentie : ils demeurent vagues. Pour Denis Foulechat il s’agit
+                    d’un poids (« fais »), tandis que selon Antoine de La Sale, l’oppression
+                    ressentie semble être due à l’agression d’« aulcune chose ». Aucun des deux ne
+                    mentionne la croyance selon laquelle le rêve effrayant serait causé par
+                    l’agression d’un animal, d’un démon ou d’une vieille femme sur la poitrine du
+                    rêveur. Pour avoir une idée des croyances que ces lettrés répugnent à
+                    mentionner, sans doute parce qu’ils y voient une résurgence du paganisme ou une
+                    superstition, il faut se reporter à l’ouvrage du médecin Bernard de Gordon, le
+                        <hi rend="italic">Lilium medicine</hi> (vers 1305), dans lequel l’incube est
+                    précisément défini : </p>
+                <q rend="quotation">« <hi rend="italic">Incubus</hi> est un fantasme qui, pendant le
+                    sommeil oppresse le corps, provoquant le mouvement et la parole. <hi rend="italic">Incubus</hi> est le nom d’un démon : certains pensent que
+                    lorsque l’incube se dirige vers le corps humain – surtout si l’homme est allongé
+                    sur le dos –, par le fait d’une influence corrompue, il pèse sur le corps et
+                    fait croire à une suffocation. Lorsque cela survient aux nourrissons, ils
+                    s’étouffent souvent, parce qu’ils ne peuvent soutenir une si grande corruption :
+                    telle est l’opinion des théologiens. Mais le vulgaire pense que c’est une
+                    vieille femme qui foule et comprime le corps : il n’en est rien. Les médecins
+                    ont une meilleure opinion<note type="standard" xml:id="ftn30" place="foot" n="30">
+            <p> Bernard de Gordon, <hi rend="italic">Lilium medicine</hi>, II,
+                            24, (Lyon, G. Rouillium, 1550, p. 220-221), cité et traduit par D. <hi rend="small-caps">Jacquart</hi> et C. <hi rend="small-caps">Thomasset</hi>, <hi rend="italic">Sexualité et savoir médical au
+                                Moyen Âge</hi>, Paris, <hi rend="small-caps">puf</hi>, 1985, p. 227.
+                            Pour l’analyse de ce texte et les différentes traditions de l’incube, on
+                            se reportera à M. <hi rend="small-caps">Van Der Lugt</hi>, <hi rend="italic">Le ver, le démon et la Vierge</hi>. <hi rend="italic">Les théories médiévales de la génération extraordinaire</hi>,
+                            Paris, Les Belles Lettres, coll. « L’âne d’or », 2004, en particulier
+                            « La théorie de l’incube dans la littérature onirique et médicale »,
+                            p. 317-336.</p>
+          </note>. »</q>
+                <p xml:id="d1e1075">L’exposé de Bernard de Gordon nous éclaire sur l’existence de
+                    trois interprétations différentes de l’incube. Il mentionne une interprétation
+                    théologique, sans donner de référence ni préciser la définition de l’incube
+                    élaborée par les théologiens. Selon la tradition théologique, dont on trouve la
+                    trace chez saint Augustin par exemple<note type="standard" xml:id="ftn31" place="foot" n="31">
+            <p> Augustin, <hi rend="italic">De civitate Dei</hi>,
+                            XV, XXIII, 1, trad. G. <hi rend="small-caps">Combès</hi>, Bibliothèque
+                            Augustinienne 36, p. 142.</p>
+          </note>, l’incube est un démon qui attaque
+                    les nourrissons pour les tuer ou les dormeurs pour avoir un commerce sexuel.
+                    Bernard de Gordon fait également état d’une croyance populaire selon laquelle il
+                    s’agit d’une vieille femme maléfique. Enfin, il rend compte de la tradition
+                    médicale, rationaliste, qui conçoit l’incube comme un simple mauvais rêve. On
+                    constate que les commentateurs de la typologie des songes de Macrobe se
+                    rattachent à cette dernière catégorie et se refusent même à évoquer précisément
+                    les croyances qu’ils taisent. Elles demeurent du domaine du non-dit.</p>
+                <p xml:id="d1e1088">L’examen des traductions de la typologie de Macrobe révèle une
+                    réticence à accorder une valeur oraculaire au songe et une difficulté à
+                    concevoir l’origine du songe effrayant. Nous avons vu que sous l’espèce du <hi rend="italic">fantosme</hi>, il est une sorte de pathologie. Les catégories
+                    de songes qui sont l’émanation de croyances relevant du paganisme, que ce soit
+                    l’oracle ou l’<hi rend="italic">ephialtes</hi>, sont définies avec
+                    circonspection et réticence. Le terme grec <hi rend="italic">ephialtes</hi> est
+                    abandonné, le terme <hi rend="italic">oracle</hi> est admis avec une glose.
+                    Toutes ces réticences attestent l’émergence d’un doute sur la validité de cette
+                    typologie. Nous allons voir maintenant que la langue vulgaire courante a opéré
+                    des ruptures et des déplacements bien plus radicaux vis-à-vis de cette
+                    classification et nous essaierons d’en déterminer l’origine.</p>
+            </div>
+            <div type="div1" xml:id="d1e1102">
+                <head subtype="level1" xml:id="d1e1103">Les créations de la langue vernaculaire et
+                    l’empreinte de la culture folklorique</head>
+                <p xml:id="d1e1105">À partir du moyen français la langue vulgaire ne retient, parmi
+                    toutes les catégories de songe définies par Macrobe, que celles du songe et de
+                    la vision, mais sans considérer comme nécessairement vrai le phénomène onirique
+                    désigné. Les changements les plus frappants concernent la catégorie du songe
+                    illusoire, avec l’abandon de la terminologie héritée de Macrobe et
+                    l’installation dans la langue vulgaire de mots d’origine obscure qui désignent
+                    de manière adéquate les croyances folkloriques attachées à ce type de songe. On
+                    peut émettre l’hypothèse que la dénomination savante, partagée comme un trésor
+                    par le milieu clérical lettré, n’a jamais pu s’imposer en face de vocables
+                    d’origine populaire véhiculés par la masse parlante.</p>
+                <p xml:id="d1e1107">Le terme <hi rend="italic">ensonge, insonge</hi> qui désigne le
+                    songe le plus banal, le plus quotidien, a disparu de la langue à la Renaissance.
+                    Mais s’était-il vraiment implanté dans la langue ? A-t-il jamais été populaire ?
+                    Il était usité pour dénommer le songe quotidien, sans signification. Le terme
+                    qui s’est progressivement imposé pour dénommer ce type d’expérience est le
+                    substantif <hi rend="italic">rêve </hi>qui n’est attesté dans les dictionnaires
+                    qu’au <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">e</hi> siècle,
+                    postérieurement au verbe <hi rend="italic">resver</hi> entré dans la langue dès
+                    le <hi rend="small-caps">xii</hi>
+          <hi rend="sup">e</hi> siècle. En ancien
+                    français <hi rend="italic">resver</hi> signifie au sens propre « errer »,
+                    « aller çà et là », « se promener », « rôder », « vagabonder ». Par métaphore il
+                    a pris le sens de « divaguer », « délirer » et avec cette signification il est
+                    souvent lié à la rime avec le verbe <hi rend="italic">desver</hi> signifiant
+                    « être fou », <hi rend="italic">endesver</hi> « devenir fou ». Par extension il
+                    a pu s’appliquer à l’activité nocturne déréglée, au sens de « se livrer à une
+                    réjouissance nocturne », « se livrer à la débauche ». Le sens moderne « avoir
+                    une vision durant le sommeil » est attesté au <hi rend="small-caps">xiv</hi>
+          <hi rend="sup">e</hi> siècle, mais ne s’imposera progressivement qu’au <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">e</hi> siècle. Pour bien
+                    comprendre le lien entre tous ces différents sens, qui sont dépréciatifs, il
+                    faut se reporter à l’étymologie de <hi rend="italic">resver</hi> qui est sans
+                    doute liée à celle de <hi rend="italic">desver</hi>. Ces deux verbes ont
+                    probablement pour racine un adjectif <hi rend="italic">vagus</hi>, qui signifie
+                    « errant », « vagabond » et qui se rattache au latin classique <hi rend="italic">vagari </hi>ayant pour sens « aller çà et là », « errer ». Jakob Jud a
+                    supposé l’existence d’un verbe gallo-roman *<hi rend="italic">re</hi>-<hi rend="italic">exvagare </hi>de même sens avec une valeur intensive<note type="standard" xml:id="ftn32" place="foot" n="32">
+            <p> Sur cette étymologie
+                            de <hi rend="italic">resver, rêver, </hi>voir J. <hi rend="small-caps">Jud</hi>, « <hi rend="italic">Rêver</hi> et <hi rend="italic">Desver</hi> », <hi rend="italic">Romania</hi>, t. LXII, 1936,
+                            p. 145-157. Pour une synthèse des hypothèses étymologiques, on se
+                            reportera à l’article « rêver » du <hi rend="italic">Dictionnaire
+                                historique de la langue française</hi>, établi sous la direction
+                            d’A. <hi rend="small-caps">Rey</hi>, 2 vol., Paris, Dictionnaires Le
+                            Robert, 1992, t. II, p. 1797-1798.</p>
+          </note>. <hi rend="italic">Rêver</hi> signifie donc essentiellement « vagabonder », « divaguer », puis
+                    au sens figuré « vagabonder en esprit », « délirer ». On peut donc se demander
+                    pourquoi ce mot d’origine obscure s’est progressivement imposé dans la langue
+                    vulgaire au point de remplacer le mot <hi rend="italic">songe</hi>. </p>
+                <p xml:id="d1e1201">Il est possible que <hi rend="italic">resver</hi>, puis le
+                    substantif <hi rend="italic">resve,</hi> se soient imposés parce qu’ils
+                    véhiculaient un ensemble de croyances très anciennes et largement répandues
+                    selon lesquelles la nuit, durant le sommeil, l’âme ou l’esprit se détache du
+                    corps pour voyager, vagabonder<note type="standard" xml:id="ftn33" place="foot" n="33">
+            <p> Sur ce point voir l’article de D. <hi rend="small-caps">Fabre</hi>, « Rêver, le mot, la chose, l’histoire », <hi rend="italic">Terrain</hi> 26 (mars 1996), p. 69-82.</p>
+          </note>.
+                    Cette croyance est bien attestée par des légendes recueillies au Moyen Âge et
+                    dans des contes populaires parvenus jusqu’à nos jours. Au Moyen Âge, dans la
+                    deuxième partie du <hi rend="italic">Roman de la Rose</hi> (écrite vers
+                    1270-1280), Jean de Meun expose et réfute la légende de dame Habonde. Cette
+                    réfutation s’inscrit dans le discours de Nature qui rapporte que maintes gens
+                    s’imaginent devenir la nuit des « estries » (v. 18396), c’est-à-dire des
+                    stryges, des vampires ou des sorcières, qui errent la nuit en compagnie de dame
+                    Habonde. De vieilles femmes prétendent que le tiers de l’humanité possède cette
+                    faculté de quitter le corps, trois fois la semaine, durant le sommeil, pour
+                    accompagner les « bonnes dames » et pénétrer avec elles dans les maisons à
+                    travers les fentes, les chatières ou les crevasses. Au réveil, l’âme qui a couru
+                    le monde durant la nuit réintègre le corps, mais si celui-ci a été retourné,
+                    elle ne peut plus rentrer en lui<note type="standard" xml:id="ftn34" place="foot" n="34">
+            <p> Guillaume de Lorris et Jean de Meun, <hi rend="italic">Le Roman de la Rose</hi>, éd. F. <hi rend="small-caps">Lecoy</hi>, 3 vol., Paris, Champion, <hi rend="small-caps">cfma</hi>, 1965-1970, t. III, v. 18395-18484, p. 52-55. Sur ce
+                            passage du <hi rend="italic">Roman de la Rose</hi>, nous nous permettons
+                            de renvoyer à notre ouvrage, <hi rend="italic">La Corne et l’Ivoire.
+                                Étude sur le récit de rêve dans la littérature romanesque des
+                                </hi>
+              <hi rend="italic">
+                <hi rend="small-caps">xii</hi>
+              </hi>
+              <hi rend="sup">
+                <hi rend="italic">e</hi>
+              </hi>
+              <hi rend="italic"> et
+                                </hi>
+              <hi rend="italic">
+                <hi rend="small-caps">xiii</hi>
+              </hi>
+              <hi rend="sup">
+                <hi rend="italic">e</hi>
+              </hi>
+              <hi rend="italic"> siècles</hi>, Paris, Champion, coll. « Nouvelle Bibliothèque du
+                            Moyen Âge », 2010, p. 583-590. </p>
+          </note>. Les « bonnes dames » et
+                    « dame Habonde » en particulier sont des femmes surnaturelles, dotées de la
+                    faculté de voler dans les airs. Dans les maisons qu’elle visite, et où elle
+                    trouve des offrandes sous forme de quelque boisson ou nourriture, dame Habonde
+                    apporte l’abondance de biens. Selon Nature, qui est le porte-parole du
+                    rationaliste Jean de Meun, cette légende est une « folie horrible » (v. 18419),
+                    des « fables » (v. 18446) véhiculées par de « foles vielles » (v. 18459).
+                    Toutefois, même s’il lui dénie une quelconque vérité, Jean de Meun transmet et
+                    fait rayonner malgré lui cette légende qui semble bien accréditée au <hi rend="small-caps">xiii</hi>
+          <hi rend="sup">e</hi> siècle. </p>
+                <p xml:id="d1e1266">Par ailleurs, il existe un conte type (1645 A) répertorié par
+                    A. Aarne et S. Thompson sous le titre <hi rend="italic">Dream of Treasure
+                        Bought,</hi> qui témoigne de la croyance au vagabondage de l’âme durant le
+                        sommeil<note type="standard" xml:id="ftn35" place="foot" n="35">
+            <p> A. <hi rend="small-caps">Aarne</hi> et S. <hi rend="small-caps">Thompson</hi>, <hi rend="italic">The types of the folktale : a
+                                classification and bibliography</hi>, <hi rend="italic">Folklore
+                                fellows communications, </hi>n° 184, Helsinki, 1961, « Dream of
+                            Treasure Bought. Treasure has been seen by man’s soul absent in sleep in
+                            form of fly (or bubble). The purchaser of the dream finds the
+                            treasure. » (p. 469).</p>
+          </note>. Ce conte met en scène deux
+                    personnages, un rêveur et un observateur. Tandis que l’un est endormi, l’autre
+                    aperçoit sortant de sa bouche un petit animal : un lézard, une mouche, une
+                    souris, un serpenteau, qui cherche à franchir un ruisseau, visite le crâne d’un
+                    cheval, d’un âne ou s’enfonce dans un trou de la montagne. L’animal réintègre
+                    ensuite le corps endormi et le dormeur s’éveille aussitôt : il raconte qu’en
+                    rêve il a visité un palais et découvert un trésor. Le rêveur et l’observateur
+                    confrontent leurs points de vue et, creusant la terre sous le crâne de l’animal,
+                    découvrent un trésor<note type="standard" xml:id="ftn36" place="foot" n="36">
+            <p>
+                            Voir D. <hi rend="small-caps">Fabre</hi>, « Rêver, le mot, la chose,
+                            l’histoire », p. 72-74. </p>
+          </note>. Une célèbre version de ce récit est
+                    relatée par Paul Diacre dans l’<hi rend="italic">Histoire des Lombards</hi> qui
+                    met en scène le roi Gontran de Bourgogne dans le rôle du rêveur<note type="standard" xml:id="ftn37" place="foot" n="37">
+            <p> C. <hi rend="small-caps">Ginzburg</hi> rapporte l’histoire dans <hi rend="italic">Le sabbat des sorcières</hi>, Paris, Gallimard, coll.
+                            « Bibliothèque des histoires », 1992, p. 147 : « L’historien lombard
+                            Paul le Diacre, qui vécut au <hi rend="small-caps">viii</hi>
+              <hi rend="sup">e</hi> siècle, raconte que, un jour, de la bouche du roi
+                            burgonde Guntram, qui dormait veillé par un écuyer, sortit soudain un
+                            animal, une sorte de petit serpent. Celui-ci se dirigea vers un ruisseau
+                            non loin de là, qu’il tenta en vain de traverser. Alors l’écuyer posa
+                            son épée en travers, d’une rive à l’autre. Le serpent passa de l’autre
+                            côté et disparut derrière une colline ; quelque temps plus tard, il fit
+                            le même chemin à l’envers, et se glissa dans la bouche du dormeur. Le
+                            roi s’éveilla et dit qu’il avait rêvé qu’il passait sur un pont de fer,
+                            pour entrer ensuite dans une montagne où était caché un trésor (qui fut
+                            effectivement trouvé). »</p>
+          </note>, une autre est recueillie lors de
+                    l’interrogatoire du berger Pierre Maury par l’inquisiteur Jacques Fournier et
+                    relatée par Emmanuel Le Roy Ladurie dans <hi rend="italic">Montaillou, village
+                        occitan de 1294 à 1324</hi>
+          <note type="standard" xml:id="ftn38" place="foot" n="38">
+            <p> E. <hi rend="small-caps">Le Roy Ladurie</hi>, <hi rend="italic">Montaillou, village occitan de 1294 à 1324</hi>, Paris, Gallimard,
+                            coll. « Bibliothèque des Histoires », 1982 [1<hi rend="sup">re</hi> éd.
+                            1975], p. 608-609. Dans cette version, c’est un lézard qui sort de la
+                            bouche du dormeur et passe une rivière sur une planche avant d’aller
+                            visiter le crâne d’un âne. L’observateur ôte la planche, de sorte que le
+                            lézard ne pouvant plus passer la rivière, le corps du dormeur s’agite
+                            énormément. Le veilleur ayant remis la planche, le lézard peut traverser
+                            la rivière et réintégrer le corps du dormeur en passant par la bouche.
+                            Le parfait cathare qui interprète l’aventure déclare que l’âme demeure
+                            attachée au corps, mais que l’esprit s’évade et vagabonde en
+                        rêve.</p>
+          </note>, enfin Félix Arnaudin dans les <hi rend="italic">Contes
+                        populaires de la Grande-Lande</hi> la recueille en 1881 sous le titre <hi rend="italic">Lou rèbe</hi>
+          <note type="standard" xml:id="ftn39" place="foot" n="39">
+            <p> F. <hi rend="small-caps">Arnaudin</hi>, <hi rend="italic">Contes
+                                populaires de la Grande-Lande</hi>, éd. J. <hi rend="small-caps">Boisgontier</hi> et G. <hi rend="small-caps">Latry</hi>, Bordeaux,
+                            Confluences, 1994, p. 276-277. En l’occurrence l’animal qui s’échappe de
+                            la bouche du rêveur est une mouche.</p>
+          </note>. Ce conte, dans lequel
+                    l’animal représente l’âme ou l’esprit du rêveur qui s’échappe de son corps à
+                    l’occasion du rêve, reflète une représentation du rêve comme vagabondage, voyage
+                    de l’esprit ou de l’âme en dehors de son enveloppe charnelle. Par son étymologie
+                    supposée, le mot « rêve » s’accorde ainsi avec des croyances très anciennes
+                    refoulées par la culture savante mais bien présentes dans le folklore, de sorte
+                    qu’il se serait peut-être imposé dans la langue sous la pression d’un usage
+                    populaire. Ce phénomène pourrait expliquer pourquoi, alors que le substantif
+                    « rêve » n’est attesté pour la première fois qu’au <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">e</hi> siècle, il est noté inexplicablement comme
+                    « vieux » par Antoine Furetière et commenté en ces termes dans la première
+                    édition du <hi rend="italic">Dictionnaire de l’Académie Française</hi> (1694) :
+                    « Il est de peu d’usage et bas. » Il est « vieux » et « bas » peut-être parce
+                    qu’il véhicule un ensemble de croyances très anciennes, et « de peu d’usage »
+                    parce qu’il n’est pas généralisé dans la culture savante écrite, ce qui ne
+                    signifie pas qu’il ne l’était pas dans la culture orale.</p>
+                <p xml:id="d1e1363">On retrouverait un phénomène de rupture et de déplacement
+                    similaires pour la catégorie définie par Macrobe sous le terme de <hi rend="italic">visum</hi>. Le mot <hi rend="italic">fantosme</hi> qui le
+                    traduit dans les classifications des <hi rend="small-caps">xiv</hi>
+          <hi rend="sup">e</hi> et <hi rend="small-caps">xv</hi>
+          <hi rend="sup">e</hi> siècles s’est spécialisé dans la langue savante tout d’abord pour
+                    désigner les spectres et les apparitions de défunts. Dans la langue vulgaire, il
+                    existait pour dénommer le cauchemar le substantif masculin <hi rend="italic">apesart</hi>, dérivé du verbe <hi rend="italic">peser</hi> et qui exprime
+                    la sensation d’oppression que ressent le rêveur. Mais ce terme relevé, selon le
+                    dictionnaire d’ancien français de Tobler et Lommatzsch, au <hi rend="small-caps">xiv</hi>
+          <hi rend="sup">e</hi> siècle chez Raoul de Presles, ne semble pas
+                    avoir connu une large diffusion : il n’est pas attesté dans le <hi rend="italic">Dictionnaire du Moyen Français</hi>. Le substantif <hi rend="italic">incube
+                    </hi>(1372), calque savant du latin <hi rend="italic">incubus</hi>, est resté un
+                    terme de théologie désignant un démon masculin censé abuser des femmes durant
+                    leur sommeil, par opposition à <hi rend="italic">succube</hi> désignant un démon
+                    féminin. Le terme d’ancien français <hi rend="italic">enquibedes</hi>, résultat
+                    probable d’un croisement entre <hi rend="italic">incubus</hi> et <hi rend="italic">equipedes </hi>(« pieds de cheval »), est usité vers 1200-1210
+                    dans le <hi rend="italic">Roman de Merlin</hi> de Robert de Boron pour désigner
+                    la variété de démon aérien, à laquelle appartient le père de Merlin :</p>
+                <q rend="quotation">« Je voil [dit Merlin] que tu saiches et croies que je sui filz
+                    d’un enemi qui engigna ma mere, et cele meniere d’enemi qui me conçut a non
+                    enquibedes et sont et repairent en l’air<note type="standard" xml:id="ftn40" place="foot" n="40">
+            <p> Robert de Boron, <hi rend="italic">Merlin, roman du
+                                </hi>
+              <hi rend="italic">
+                <hi rend="small-caps">xiii</hi>
+              </hi>
+              <hi rend="sup">
+                <hi rend="italic">e</hi>
+              </hi>
+              <hi rend="italic"> siècle</hi>, éd. A. <hi rend="small-caps">Micha</hi>,
+                            Paris-Genève, Droz, 1980, 15, 20, p. 68. </p>
+          </note>. »</q>
+                <p xml:id="d1e1439">Ce mot, qui ne bénéficie d’aucune entrée ni dans le dictionnaire
+                    de Tobler-Lommatzsch ni dans celui de Godefroy, est un hapax plaisant, qui,
+                    selon Anne Berthelot, « a l’avantage de laisser affleurer les origines mythiques
+                    de ces créatures, proches des “chèvre-pieds” ou satyres de l’Antiquité, réputés
+                    pour leur luxure<note type="standard" xml:id="ftn41" place="foot" n="41">
+            <p>
+                            <hi rend="italic">Merlin</hi>, texte établi par I. <hi rend="small-caps">Freire</hi>-<hi rend="small-caps">Nunes</hi>, présenté par P. <hi rend="small-caps">Walter</hi>, traduit et annoté par A. <hi rend="small-caps">Berthelot</hi>, dans <hi rend="italic">Le Livre du
+                                Graal</hi>, 3 vol., Paris, Gallimard, coll. « Bibliothèque de la
+                            Pléiade », 2001-2009, t. I, p. 1774, note 3. Pour le terme <hi rend="italic">enquibedes</hi>, le manuscrit S 526 de la Bibliothèque
+                            Universitaire de Bonn, sur lequel est fondée l’édition de la Pléiade,
+                            présente la variante <hi rend="italic">esquibedes, </hi>traduit par
+                            « équipède » (voir p. 606, § 34).</p>
+          </note> ». Mais il reste une
+                    création de clerc. Le substantif qui s’impose pour désigner le rêve oppressant
+                    est un mot de la langue rustique, d’origine picarde : le mot <hi rend="italic">cauchemar.</hi> Précisons que, si l’étymologie de <hi rend="italic">resver</hi> est obscure, celle de <hi rend="italic">cauchemar</hi> est elle
+                    aussi assez embrouillée, ce qui témoigne d’une origine orale se perdant dans la
+                    nuit des temps. Ce terme est tout d’abord attesté sous la forme <hi rend="italic">cauquemare</hi> (1375), puis <hi rend="italic">cauchemare</hi>
+                    (1584), avant de se fixer en <hi rend="italic">cauchemar</hi> (1677). Il a des
+                    variantes régionales recueillies dans le <hi rend="italic">Grand dictionnaire
+                        universel</hi>
+                    <hi rend="italic">du </hi>
+          <hi rend="italic">
+            <hi rend="small-caps">xix</hi>
+          </hi>
+          <hi rend="sup">
+            <hi rend="italic">e</hi>
+          </hi>
+          <hi rend="italic"> siècle</hi> de Pierre Larousse et le <hi rend="italic">Trésor de la Langue
+                        Française</hi>, parmi lesquelles on peut citer les termes <hi rend="italic">cauquevieille</hi> (lyonnais), <hi rend="italic">chauchi-vieilli</hi>
+                    (Isère), <hi rend="italic">chauce-vieille</hi> (Rhône), <hi rend="italic">chaouce-vielio</hi> (Languedoc). Le premier élément du mot (<hi rend="italic">cauche</hi>) est une forme verbale de <hi rend="italic">cauchier</hi>, résultant d’un croisement entre le picard <hi rend="italic">cauquier</hi> et l’ancien français <hi rend="italic">chauchier</hi>
+                    signifiant « presser », « fouler aux pieds », « piétiner ». L’origine de ces
+                    verbes est probablement le latin <hi rend="italic">calcare</hi> de même sens. La
+                    seconde partie du mot est l’ancien picard <hi rend="italic">mare</hi>, emprunté
+                    au moyen néerlandais <hi rend="italic">mare</hi>, « fantôme qui provoque le
+                    cauchemar ». Ce mot néerlandais est attesté dans toutes les langues d’origine
+                    germanique : il correspond à l’anglais <hi rend="italic">mare</hi> « spectre »
+                    qui entre dans la composition du mot <hi rend="italic">nightmare</hi>, à
+                    l’ancien haut allemand <hi rend="italic">mar</hi> et <hi rend="italic">mara</hi>
+                    et au moyen haut allemand <hi rend="italic">mar, </hi>à l’allemand moderne <hi rend="italic">Marh</hi>, au norrois <hi rend="italic">mara. </hi>L’origine
+                    du deuxième constituant du mot est encore discutée par les étymologistes, mais
+                    l’hypothèse soutenue par Claude Lecouteux est que le mot <hi rend="italic">mar
+                    </hi>remonterait à une racine indo-européenne *<hi rend="italic">mer</hi>
+                    signifiant « mourir<note type="standard" xml:id="ftn42" place="foot" n="42">
+            <p>
+                            C. <hi rend="small-caps">Lecouteux</hi>, « Mara-Ephialtes-Incubus. Le
+                            Cauchemar chez les Peuples germaniques », <hi rend="italic">Études
+                                germaniques</hi>, 42<hi rend="sup">e</hi> année, janvier-mars 1987,
+                            p. 1-24, et plus particulièrement p. 5.</p>
+          </note> ». Cette étymologie
+                    correspond bien à la description du « songe de fantôme » : c’est un spectre
+                    malfaisant qui revient hanter le vivant. À partir de cette origine sémantique,
+                    qui correspond sans doute à la croyance originelle, on peut repérer une
+                    superposition de croyances d’origine culturelle parfois différente (latine,
+                    autochtone), ce dont témoigne par exemple au début du <hi rend="small-caps">xiii</hi>
+          <hi rend="sup">e</hi> siècle le livre III des <hi rend="italic">Otia Imperialia </hi>de Gervais de Tilbury, qui rapporte plusieurs légendes
+                    au sujet du cauchemar. Selon certaines croyances, l’être irréel qui agresse le
+                    rêveur est un démon ou encore, une lamie, monstre fabuleux qui passait pour
+                    dévorer les enfants :</p>
+                <q rend="quotation">« Les lamies, appelées communément « masques » ou « estries » en
+                    français, sont, aux dires des médecins, des visions nocturnes qui, du fait de
+                    l’épaississement des humeurs, troublent les âmes des dormeurs et les écrasent de
+                    leur poids. </q>
+                <p xml:id="d1e1596">Augustin d’autre part dit, en citant certains auteurs, que ce
+                    sont des démons qui, à partir d’âmes malfaisantes, emplissent des corps
+                        aériens<note type="standard" xml:id="ftn43" place="foot" n="43">
+            <p>
+                            <hi rend="italic">Le Livre des merveilles : divertissement pour un
+                                empereur (troisième partie) de Gervais de Tilbury</hi>, trad. fr.
+                                A. <hi rend="small-caps">Duchesne</hi>, Paris, Les Belles Lettres,
+                            coll. « La Roue à Livres », 1992, 86, p. 94.</p>
+          </note>. »</p>
+                <p xml:id="d1e1609">Gervais mentionne une autre croyance qui comprend les démons
+                    oppresseurs comme une catégorie d’êtres humains – des sorciers et des sorcières
+                    – qui tourmentent les dormeurs. Il s’agit là d’une anthropomorphisation de la
+                    croyance : </p>
+                <q rend="quotation">« Mais pour ne pas heurter les habitudes et les oreilles des
+                    hommes, posons que c’est le destin fatal de certaines femmes et certains hommes
+                    qu’ils parcourent la nuit les pays d’un vol très rapide, pénètrent dans les
+                    maisons, tourmentent les dormeurs, leur donnent des songes lourds qui les font
+                    pleurer : on les voit aussi manger, allumer les lumières, disjoindre les os des
+                    hommes pour les remettre parfois dans un autre ordre, boire le sang humain et
+                    déplacer les petits enfants d’un endroit à l’autre<note type="standard" xml:id="ftn44" place="foot" n="44">
+            <p>
+                            <hi rend="italic">Ibid</hi>., p. 94-95.</p>
+          </note>. »</q>
+                <p xml:id="d1e1622">On observe ainsi une évolution de la croyance qui fait de l’être
+                    irréel qui oppresse le rêveur un démon, puis un être humain maléfique, le plus
+                    souvent une vieille femme, doté de pouvoirs surnaturels. À ces croyances
+                    s’oppose la doctrine des médecins qui attribuent le cauchemar à un simple
+                    épaississement des humeurs. Ces déplacements dans les croyances s’observent dans
+                    la polysémie du mot <hi rend="italic">cauquemare</hi>, qui signifie à la fin du
+                    Moyen Âge « être féerique », « démon de la nuit » et « sorcière ». Dans les <hi rend="italic">Évangiles des Quenouilles</hi>
+          <note type="standard" xml:id="ftn45" place="foot" n="45">
+            <p> M. <hi rend="small-caps">Jeay</hi>,
+                                <hi rend="italic">Les Évangiles des Quenouilles</hi>, Montréal,
+                            Presses de l’Université de Montréal et Paris, Vrin, 1985. Voir la
+                            traduction d’A. <hi rend="small-caps">Paupert</hi>, in <hi rend="italic">Voix de femmes au Moyen Âge. Savoir, mystique, poésie, amour,
+                                sorcellerie </hi>
+              <hi rend="italic">
+                <hi rend="small-caps">xii</hi>
+              </hi>
+              <hi rend="sup">
+                <hi rend="italic">e</hi>
+              </hi>
+              <hi rend="italic">-</hi>
+              <hi rend="italic">
+                <hi rend="small-caps">xv</hi>
+              </hi>
+              <hi rend="sup">
+                <hi rend="italic">e</hi>
+              </hi>
+              <hi rend="italic"> siècle</hi>, Paris, Robert Laffont, coll.
+                            « Bouquins », 2006, p. 727-817. Du même auteur, on lira <hi rend="italic">Les fileuses et le clerc. Une étude sur les
+                            </hi>Évangiles des Quenouilles, Paris, Champion, 1990. Voir aussi P. <hi rend="small-caps">Uhl</hi>, « De la “cauquemare”et du “luiton”. Le
+                            témoignage complémentaire des <hi rend="italic">Évangiles des
+                                Quenouilles</hi> et de <hi rend="italic">Perceforest</hi> », in <hi rend="italic">Le Cauchemar, mythologie, folklore, arts et
+                                littérature</hi>, textes réunis par B. <hi rend="small-caps">Terramorsi</hi>, Paris, <hi rend="small-caps">sedes</hi>-Le
+                            Publieur, 2003, p. 87-107.</p>
+          </note>, recueil de propos échangés à la
+                    veillée par des matrones, entre Noël et la Chandeleur, écrit dans la seconde
+                    moitié du <hi rend="small-caps">xv</hi>
+          <hi rend="sup">e</hi> siècle, la <hi rend="italic">cauquemare</hi> est un être fantastique de la nuit, associé au
+                    lutin et au loup-garou, qui vient tourmenter l’homme durant son sommeil<note type="standard" xml:id="ftn46" place="foot" n="46">
+            <p> Voir M. <hi rend="small-caps">Jeay</hi>, <hi rend="italic">Les Évangiles des
+                                Quenouilles</hi>, p. 143 : « Se un homme a tele destinee d’estre leu
+                            warou, c’est fort se son filz n’en tient. Et se fille a et nulz filz,
+                            volentiers sont quauquemaires. » La <hi rend="italic">quauquemaire</hi>
+                            peut descendre d’un loup-garou. Il existe ainsi une parenté des esprits
+                            malfaisants.</p>
+          </note>. À l’articulation des <hi rend="small-caps">xv</hi>
+          <hi rend="sup">e</hi> et <hi rend="small-caps">xvi</hi>
+          <hi rend="sup">e</hi> siècles, chez le poète Jean Lemaire de Belges (1474-<hi rend="italic">ca</hi> 1525), le mot <hi rend="italic">cauquemare</hi> a pour
+                    sens « succube » en collocation avec <hi rend="italic">luiton</hi>, et peut-être
+                    « sorcière » lorsqu’il est précédé de l’adjectif « vieille », comme dans ces
+                    exemples cités par <hi rend="italic">Le Dictionnaire de la langue française du
+                        </hi>
+          <hi rend="italic">
+            <hi rend="small-caps">xvi</hi>
+          </hi>
+          <hi rend="sup">
+            <hi rend="italic">e</hi>
+          </hi>
+          <hi rend="italic"> siècle de
+                    Huguet </hi>:<lb/>– « [Le diamant] chasse ces fantosmes nocturnes, qu’on appelle
+                    Incubes et Succubes. Ce sont Luittons et Cauquemares, et dissipe toutes vanitez
+                    de songes. » (<hi rend="italic">La Couronne Margaritique</hi>, IV, 76) ;<lb/>–
+                    « Griffons hideux, qui mengent gens barbares ; Fiers Loups garoux, et vieilles
+                    Cauquemares. » (<hi rend="italic">2</hi>
+          <hi rend="sup">
+            <hi rend="italic">e</hi>
+          </hi>
+          <hi rend="italic"> Epistre de l’Amand Verd,</hi> III, 25).</p>
+                <p xml:id="d1e1755">Au <hi rend="small-caps">xvi</hi>
+          <hi rend="sup">e</hi> siècle,
+                    dans le traité <hi rend="italic">De la démonomanie des sorciers</hi> de Jean
+                    Bodin (1580), la <hi rend="italic">cauquemare</hi> est la face nocturne de la
+                    sorcière :</p>
+                <q rend="quotation">« Au pays de Valois et de Pycardie, il y a une sorte de
+                    sorcieres qu’ils appellent cochemares, et de faict Nicolas Noblet, riche
+                    laboureur demeurant a Hautefontaine en Valois, m’a dit que luy estant jeune
+                    garçon il sentoit souvent la nuict tels incubes, ou ephialtes, qu’il appelloit
+                    cochemares, et le jour suyvant au matin la vieille sorciere, qu’il craignoit, ne
+                    failloit point a venir querir du feu ou autre chose, quand la nuit cela luy
+                    estoit advenu.  » (<hi rend="italic">Demon</hi>., 108, v°, [G]).</q>
+                <p xml:id="d1e1773">Dans cet exemple, le mot <hi rend="italic">cochemare</hi>
+                    fonctionne comme une réalisation dialectale de l’hyperonyme <hi rend="italic">sorcière</hi>. Ce sens semble s’imposer au moment de la répression de la
+                    sorcellerie. Parce qu’il était d’usage courant, et que son origine rustique lui
+                    permettait d’agréger des sémantismes divers, reflétant des croyances populaires,
+                    le terme <hi rend="italic">cauquemare, cauchemar</hi> a ainsi remplacé les mots
+                    savants <hi rend="italic">incube</hi>, calque du latin, et <hi rend="italic">fantosme</hi>, d’origine grecque. Ce sont donc des mots « sans pedigree »,
+                    selon l’heureuse expression de Daniel Fabre définissant le mot <hi rend="italic">rêve</hi>
+          <note type="standard" xml:id="ftn47" place="foot" n="47">
+            <p> D.
+                                <hi rend="small-caps">Fabre</hi> : « […] Rêve était vraiment un mot
+                            sans pedigree, peut-être sorti tout cru du parler ordinaire » (« Rêver,
+                            le mot, la chose, l’histoire », p. 70). Cette remarque vaut également
+                            pour <hi rend="italic">cauchemar</hi>, c’est ce que nous avons voulu
+                            montrer.</p>
+          </note>, au sémantisme lourd de croyances populaires qui ont
+                    remplacé les termes issus de la classification des songes de Macrobe, restée
+                    l’apanage lexicologique d’une élite lettrée.</p>
+                <p xml:id="d1e1804">Si l’on observe le devenir de la classification des songes de
+                    Macrobe au Moyen Âge, on remarque tout d’abord une diffusion large dans les
+                    milieux lettrés jusqu’au <hi rend="small-caps">xv</hi>
+          <hi rend="sup">e</hi> siècle, comme en témoignent les traductions en langue vulgaire. On
+                    mesure la validité de cette classification dans les esprits à la création
+                    lexicale du terme <hi rend="italic">ensonge</hi>, censé rendre le plus
+                    fidèlement possible la catégorie de l’<hi rend="italic">insomnium</hi>.
+                    Toutefois, l’examen comparatif de deux textes rédigés au <hi rend="small-caps">xv</hi>
+          <hi rend="sup">e</hi> siècle, l’un relevant de la culture savante,
+                        <hi rend="italic">La Sale</hi>, l’autre de la langue populaire, <hi rend="italic">Les Évangiles des Quenouilles</hi>, révèle que la typologie
+                    savante n’a pas pénétré la langue vulgaire commune, en particulier pour dénommer
+                    les variétés du songe illusoire. Les mots qui s’imposent à partir du moyen
+                    français puis du français classique sont des mots d’origine obscure, sans doute
+                    rustique, qui véhiculent des croyances populaires, au rang desquelles il faut
+                    placer celle de la migration de l’âme et celle de l’oniropompie, pouvoir qu’ont
+                    certaines créatures, démons ou sorcières, d’insuffler des rêves. L’étude du
+                    devenir de la terminologie macrobienne des songes démontre que l’histoire de la
+                    vie des mots s’explique parfois grâce au croisement de données mythologiques et
+                    linguistiques. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

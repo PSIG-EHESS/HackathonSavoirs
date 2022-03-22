@@ -1,0 +1,615 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-2836_Gras">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Savoirs érudits, savoirs archéologiques à l’École
+                    française de Rome. </title>
+                <title type="sub">S’adapter au monde</title>
+                <author>
+                    <persName>
+                        <forename>Michel</forename>
+                        <surname>Gras</surname>
+                    </persName>
+                    <affiliation>
+                        <hi rend="italic">Directeur de l’École française de
+                        Rome</hi>
+            <lb/>direction@efrome.it </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+                        Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>« Savoirs » est une plateforme de publication numérique vouée à l’histoire et à
+                    l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS
+                    (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une
+                    archive d’articles ou une collection de livres, il s’agit d’une bibliothèque
+                    « intelligente » et expérimentale qui propose des parcours de lecture
+                    heuristiques et réflexifs entre les textes, grâce à différents algorithmes de
+                    recherche et de suggestions reposant notamment sur un balisage des lieux, des
+                    dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs
+                        (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel
+                        XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données
+                        géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour
+                        l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références
+                        Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes
+                        pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart level="a" type="main">Savoirs érudits, savoirs archéologiques à
+                        l’École française de Rome. </titlePart>
+                    <titlePart type="sub">S’adapter au monde</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Michel Gras</docAuthor>
+                </byline>
+            </titlePage>
+        </front>
+        <body>
+            <p xml:id="d1e171">Je voudrais partir de l’histoire de l’École française de Rome<note type="standard" xml:id="ftn1" place="foot" n="1">
+          <p> Sur cette histoire, voir
+                        « À l’École de toute l’Italie ». Pour une histoire de l’Ecole française de
+                        Rome, textes réunis par M. <hi rend="small-caps">Gras</hi>, Rome, 2010.
+                    </p>
+        </note>, pour montrer comment on est passé dans cette institution d’une
+                culture humaniste à des enjeux de société, sans rompre une tradition, mais par une
+                adaptation de la recherche au monde de notre temps.</p>
+            <p xml:id="d1e181">Albert Dumont et Auguste Geffroy, les premiers directeurs de l’École
+                de 1873 à 1895, furent de grands directeurs, trop souvent oubliés, qui contribuèrent
+                aussi à construire l’enseignement supérieur de la <hi rend="small-caps">iii</hi>
+        <hi rend="sup">e</hi> République, même s’ils disparurent tous deux avant la loi du
+                10 juillet 1896 qui marque le grand retour de l’Université supprimée en 1793 par la
+                    Convention<note type="standard" xml:id="ftn2" place="foot" n="2">
+          <p> En 1888,
+                        Louis <hi rend="small-caps">Liard</hi>, directeur de l’enseignement
+                        supérieur, publie une étude ambitieuse sur L’enseignement supérieur en
+                        France 1789-1889, avec une dédicace « à la mémoire de mon prédécesseur
+                        Albert Dumont » (décédé en 1884). </p>
+        </note>. Ils voulurent une École de
+                Rome comme complément et renfort de l’École d’Athènes, et comme prolongement naturel
+                de la science française hors de ses frontières, au contact de la science allemande
+                et internationale, se confrontant, depuis Rome comme depuis Athènes, au terrain,
+                c’est-à-dire aux monuments et aux archives.</p>
+            <p xml:id="d1e196">Aujourd’hui ce terme d’École gêne souvent. Nos contemporains le
+                comprennent de moins en moins. Ils songent au « primaire » plus qu’au « supérieur »,
+                même si le prestige de Normale « Sup », de Polytechnique, de Centrale ou des Mines,
+                ou encore « des Chartes » ou des diverses « Hautes Études » est toujours présent :
+                ce sont les « Grandes Écoles », à qui l’on reproche parfois une concurrence déloyale
+                vis-à-vis des Universités. Les Écoles humanistes – littéraires, historiques ou
+                archéologiques – peuvent cependant souvent échapper à ce type de reproche. </p>
+            <p xml:id="d1e198">Le label d’« Institut de recherche » serait sans doute plus adapté,
+                et pourtant la grandeur de ces institutions, à Athènes, à Rome, à Madrid et au
+                Caire, c’est d’être précisément des « Écoles », c’est-à-dire des lieux de formation,
+                de transmission et d’élaboration de nouveaux savoirs, ce qui explique et justifie la
+                tutelle du ministre en charge de l’Enseignement supérieur et de la Recherche. </p>
+            <p xml:id="d1e200">Les Écoles prolongent et amplifient le travail effectué dans les
+                Écoles doctorales. Elles sont, pour quatre d’entre elles, des Écoles de recherche et
+                de formation à la recherche sur la Méditerranée, sur son histoire passée et
+                présente, sur l’évolution des sociétés riveraines. Elles offrent un regard
+                contemporain sur nos savoirs dans le domaine des Humanités, celui des sciences
+                humaines et plus particulièrement des sciences philologiques, historiques et
+                archéologiques. Tout ce qu’elles font est construit sur le partenariat avec les pays
+                de la rive Nord comme de la rive Sud de la Méditerranée, et dans le cadre de la
+                collaboration internationale la plus large.</p>
+            <p xml:id="d1e202">On doit partir précisément de 1876 et de Geffroy. Cette année-là, une
+                chaire d’archéologie est créée pour la première fois et son titulaire en Sorbonne
+                est Georges Perrot, ancien « Athénien » ; en 1883, quand Perrot devient directeur de
+                l’École normale supérieure, lui succède Maxime Collignon, à la fois normalien,
+                « Romain » et « Athénien » puisqu’il a fait sa première année d’École à Rome en
+                1873-1874 avant de partir pour Athènes. Un modèle se construit, avec retard par
+                rapport à l’Allemagne qui avait eu, dès 1844, la première chaire d’archéologie à
+                Berlin avec Eduard Gerhard.</p>
+            <p xml:id="d1e204">Toujours en 1876, Gabriel Monod fonde la <hi rend="italic">Revue
+                    Historique</hi>. Parmi les savants qui sont cités en ouverture du premier volume
+                pour soutenir l’initiative, on relève ceux de Dumont, Duruy, Fustel de Coulanges,
+                Geffroy, Lavisse, Perrot, Renan, Renier, Sorel et Taine. Les directeurs des Écoles
+                d’Athènes et de Rome sont donc en bonne compagnie, et Monod, dans l’article qui
+                ouvre la revue et où il propose un exposé sur le progrès des études historiques en
+                France depuis le <hi rend="small-caps">xvi</hi>
+        <hi rend="sup">e</hi> siècle, cite
+                les deux Écoles<note type="standard" xml:id="ftn3" place="foot" n="3">
+          <p> Revue
+                        historique 1 (1876), p. 32.</p>
+        </note>.</p>
+            <p xml:id="d1e219">La même année, Geffroy fait une longue communication<note type="standard" xml:id="ftn4" place="foot" n="4">
+          <p> A. <hi rend="small-caps">Geffroy</hi>, « L’École française de Rome. Ses origines, son objet, ses
+                        premiers travaux », Comptes rendus de l’Académie des sciences morales et
+                        politiques, septembre 1876, 55 p.</p>
+        </note> sur l’École française de Rome,
+                qui a été republiée et commentée dans un livre qui vient de paraître à Rome<note type="standard" xml:id="ftn5" place="foot" n="5">
+          <p> Voir « À l’École de toute
+                        l’Italie ».</p>
+        </note>. Ce texte est à bien des égards étonnamment moderne,
+                comme souvent les écrits de Geffroy. Se mettre à l’École de l’Italie, pour un homme
+                cultivé de la fin du <hi rend="small-caps">xix</hi>
+        <hi rend="sup">e</hi> siècle,
+                c’était se mettre dans les pas de Mabillon et de Montfaucon qui, deux siècles plus
+                tôt, avaient initié ce qui allait devenir les « missions scientifiques et
+                littéraires » soutenues par la France pour permettre à des érudits de travailler sur
+                le terrain, dans les bibliothèques et les archives : concept singulièrement actuel,
+                que Georges Vallet, alors directeur, a revivifié en 1974 par la création des
+                boursiers de l’École française de Rome. L’expression « bourses de voyage » est
+                d’ailleurs utilisée par Geffroy<note type="standard" xml:id="ftn6" place="foot" n="6">
+          <p> A. <hi rend="small-caps">Geffroy</hi>, « L’École française de Rome »,
+                        p. 14.</p>
+        </note>. Ces missions donnaient lieu à de savants comptes rendus,
+                souvent nourris, publiés dans les « Archives des missions ». Tant Louis Duchesne que
+                Charles Bayet, membres de la première promotion romaine de 1873-1874, étaient en
+                fait encore des « chargés de mission » comme les nomme Geffroy. </p>
+            <p xml:id="d1e247">Toutefois, l’objectif de Dumont et de Geffroy, soutenus par des
+                membres de l’Académie des Inscriptions et Belles-Lettres comme Félix Ravaisson et
+                Léon Renier, c’était de passer de missions ponctuelles à une mission permanente ; de
+                capitaliser ces actions individuelles et répétées, bref d’institutionnaliser. Croire
+                à l’institution, c’est en fait croire à l’efficacité, à la coordination, à la
+                programmation, au collectif. On dit aujourd’hui « mutualiser les ressources », mais
+                il s’agissait alors surtout de faire plus et de faire mieux. Geffroy, lui, le disait
+                ainsi : « Il s’agissait de réunir des éléments épars, de rassembler nos forces, de
+                former un groupe studieux capable de faire promptement ses preuves<note type="standard" xml:id="ftn7" place="foot" n="7">
+          <p> A. <hi rend="small-caps">Geffroy</hi>, « L’École française de Rome », p. 10.</p>
+        </note>. »
+                Travail de groupe, respect des échéances, dirions-nous aujourd’hui. Les mots seuls
+                changent, non les idées. Le travail de Dumont et de Geffroy se fit main dans la main
+                avec le directeur de l’enseignement supérieur Du Mesnil. Il y a, en effet, une
+                liaison étroite entre Paris, Rome et Athènes où Dumont, ancien « Athénien », est
+                retourné comme directeur dès la parution du décret de novembre 1875 sur l’École de
+                Rome. Et ce ne sera pas une surprise que de retrouver, quelques années après, Dumont
+                comme directeur de l’enseignement supérieur, poste qu’il occupa, aux côtés de son
+                ministre Jules Ferry, jusqu’à sa mort brutale et prématurée, à 42 ans, en 1884, au
+                terme d’un parcours dont la fulgurance étonne. On se prend à rêver à ce qu’aurait pu
+                être le destin de Dumont s’il n’avait pas été brisé ainsi : son successeur, à sa
+                mort, se nomme Louis Liard, qui devait être en charge de l’enseignement supérieur
+                jusqu’en 1902, puis recteur à Paris jusqu’en 1917.</p>
+            <p xml:id="d1e257">Le ministère de l’Instruction publique, dans les années 1875-1880,
+                met les Écoles d’Athènes et de Rome au cœur de son nouveau dispositif. Ce sont des
+                Écoles au contact du terrain et des sources, qui accueillent des jeunes gens venant,
+                pour la plupart, d’autres Écoles, de « Normale », des « Chartes », ou des « Hautes
+                Études », celle-ci fondée en 1868 avec Léon Renier comme premier président de la
+                section des sciences historiques et philologiques. Le même Renier joua un rôle
+                décisif dans la création de l’École de Rome. Les mêmes hommes sont derrière toutes
+                les innovations. Athènes et Rome, transposées dans le vocabulaire d’aujourd’hui,
+                sont donc des Écoles de formation à la recherche, c’est-à-dire des structures où
+                l’on met en œuvre sa formation initiale, tout en l’approfondissant : le passage
+                entre le savoir reçu et le savoir utilisé pour ouvrir de nouvelles voies. Le
+                vocabulaire pour désigner les utilisateurs en dit long, même s’il semble aujourd’hui
+                désuet : des « pensionnaires » ou des « membres » et non plus des « élèves ».</p>
+            <p xml:id="d1e260">Geffroy ne sous-estimait pas la dimension internationale : « Rome est
+                le rendez-vous des savants du monde entier<note type="standard" xml:id="ftn8" place="foot" n="8">
+          <p> A. <hi rend="small-caps">Geffroy</hi>, « L’École
+                        française de Rome », p.13.</p>
+        </note>. » Bon connaisseur de l’Allemagne et
+                de sa science, il avait été choisi précisément pour cela, comme Claude Nicolet,
+                ancien directeur de l’École française de Rome, l’a montré dans <hi rend="italic">La
+                    fabrique d’une nation</hi>
+        <note type="standard" xml:id="ftn9" place="foot" n="9">
+          <p> Cl. <hi rend="small-caps">Nicolet</hi>, La fabrique d’une nation,
+                        Paris, Perrin, 2003, p. 248-250.</p>
+        </note>
+        <hi rend="italic"> </hi>: Geffroy
+                était l’homme juste pour la reprise du dialogue avec l’Allemagne après la guerre de
+                1870, la création de l’Institut archéologique allemand et la perte du rêve européen
+                qu’avait constitué, depuis 1829, l’Institut de correspondance archéologique de Rome,
+                pulvérisé par les stratégies politiques. On rapporte que Geffroy sut résister aux
+                provocations de Mommsen et bâtir une relation plus confiante entre savants allemands
+                et savants français. En 1882, il permit à Camille Jullian, futur professeur au
+                Collège de France et grand historien de la Gaule, de passer six mois à Berlin tout
+                en étant membre de l’École ; et Jullian lui écrit le 23 septembre : « Croyez que je
+                partirai pour l’Allemagne pénétré du désir de justifier vos espérances et de mériter
+                votre approbation<note type="standard" xml:id="ftn10" place="foot" n="10">
+          <p> O. <hi rend="small-caps">Motte</hi>, Camille Jullian élève de Mommsen à
+                        l’Université de Berlin, Ius commune, 9 (1980), p. 441.</p>
+        </note>. »
+                Toutefois, Geffroy n’oubliait pas l’Italie et les Italiens, « un peuple ami » dont
+                il fallait « gagner les sympathies<note type="standard" xml:id="ftn11" place="foot" n="11">
+          <p> A. <hi rend="small-caps">Geffroy</hi>, « L’École française de Rome »,
+                        p.10.</p>
+        </note> ».</p>
+            <p xml:id="d1e298">Le champ de l’international c’était, pour Dumont et Geffroy, le
+                terrain « d’une émulation salutaire et d’une vive concurrence<note type="standard" xml:id="ftn12" place="foot" n="12">
+          <p> Ibid., p. 13.</p>
+        </note> », et donc de la
+                stimulation. Certes, le contexte politique, quoique en train de s’apaiser peu à peu,
+                poussait à la confrontation. L’ambition de la France – dans le terrain des Humanités
+                – c’était d’égaler l’Allemagne ; le domaine de la philologie et de l’histoire
+                ancienne s’y prêtait particulièrement. En effet, l’Allemagne était la patrie de la
+                philologie depuis que Friedrich-August Wolf, en 1777, eut pris son inscription à
+                l’Université de Göttingen sous le titre de <hi rend="italic">studiosus
+                    philologiae</hi>. Avec des savants de l’envergure d’August Boeckh (1785-1867) et
+                de son élève Karl-Otfried Müller (1797-1840), le « prince des philologues », lui
+                aussi mort très jeune à 43 ans, l’Allemagne était devenue la référence. La
+                philologie était, pour eux, l’ensemble des savoirs sur le passé ; Boeckh avait
+                réfléchi à la fois sur les concepts de philologie et d’encyclopédie, et Salomon
+                Reinach, futur « Athénien », écrivit en 1879-1880, dès ses années d’École normale,
+                un <hi rend="italic">Manuel de philologie</hi> qui avait pour ambition de présenter
+                à un public français l’état du savoir et « de la vie intellectuelle des anciens<note type="standard" xml:id="ftn13" place="foot" n="13">
+          <p> S. <hi rend="small-caps">Reinach</hi>, Manuel de philologie classique, Paris, 1880, p.
+                    3.</p>
+        </note> » : deux volumes, souvent en petits caractères, remplis de
+                références qui sont aujourd’hui trop oubliées ; une deuxième édition fut nécessaire
+                dès 1883. Ce savoir s’accroît alors de manière vertigineuse : on disait que Boeckh
+                connaissait 10 000 inscriptions grecques, et Reinach en 1880 cite le chiffre de
+                20 000 pour les inscriptions grecques et de 120 000 pour les inscriptions latines.
+                On n’ose aujourd’hui avancer un chiffre après les travaux de Louis Robert, de
+                Hans-Georg Pflaum, et de leurs élèves, pour ne parler que de la France. </p>
+            <p xml:id="d1e319">L’initiative de Reinach, qui montre le souci de construire des outils
+                pour les nouveaux savoirs d’alors, pourrait trouver beaucoup d’autres termes de
+                comparaison, en Allemagne notamment, avec les recueils de fragments des auteurs
+                grecs, avec les corpus d’inscriptions, avec les travaux des <hi rend="italic">Geographi graeci minores</hi>, pour ne citer que quelques exemples. Ces grands
+                outils, dus à Karl Müller, à Felix Jacoby et à bien d’autres, ont été utilisés par
+                des générations d’étudiants et de chercheurs à travers le monde. Ils sont toutefois
+                peu à peu oubliés aujourd’hui, marginalisés sans avoir été toujours remplacés. Nul
+                doute qu’il faille réfléchir – pour transmettre une érudition adaptée au temps
+                présent – à la fabrication de nouveaux outils. Au moment où l’informatique donne des
+                moyens inédits, il faut repenser ces instruments qui ne peuvent pas être mis en
+                ligne tels quels. </p>
+            <p xml:id="d1e324">La transmission du savoir est devenue, comme à la fin de l’Antiquité
+                et dans le haut Moyen Âge, une priorité. De nombreux débats contemporains montrent
+                en effet que des concepts qui faisaient partie du patrimoine intellectuel de tous,
+                et qui avaient été élaborés par Platon, Aristote, la science arabe, la Chrétienté
+                médiévale, la Renaissance, les Lumières, la Révolution française et la Révolution
+                industrielle, sont aujourd’hui maltraités, mal compris, mal acceptés ou simplement
+                oubliés parce qu’ignorés. Les sciences humaines servent d’abord à cela : assurer une
+                transmission correcte, efficace et moderne de tous les savoirs afin que ceux-ci
+                soient facilement compris et mobilisables par les décideurs, puis aisément expliqués
+                aux citoyens. </p>
+            <p xml:id="d1e326">Envisageons à présent le contenu des savoirs. Geffroy montrait la
+                nécessité de ne pas réformer pour réformer, mais cette position n’était
+                conservatrice qu’en apparence. Elle s’accompagnait en effet d’un profond désir de
+                renouveler les approches, notamment en mettant en évidence les processus de
+                formation et de transmission. Relisons-le<note type="standard" xml:id="ftn14" place="foot" n="14">
+          <p> A. <hi rend="small-caps">Geffroy</hi>, op. cit. p.
+                        22-23.</p>
+        </note> : « Comment saurons-nous la langue même dont nous nous
+                servons aujourd’hui si nous ne sommes pas curieux d’en connaître la formation et les
+                origines ? ». Il était enthousiaste de l’archéologie et de l’épigraphie, ne voulant
+                pas « renoncer à prendre notre part du mouvement qui transforme depuis trente ans la
+                science de l’antiquité ». L’érudition était pour lui le vecteur de la modernité.
+                Geffroy fut profondément novateur dans le domaine archéologique, champ du savoir
+                bien éloigné de sa propre spécialité, mais dont il avait une admirable vision
+                historiographique et stratégique : il suffit pour s’en convaincre de lire son
+                article de la <hi rend="italic">Revue des deux mondes</hi> de 1883<note type="standard" xml:id="ftn15" place="foot" n="15">
+          <p> A. <hi rend="small-caps">Geffroy</hi>, « L’École française de Rome. Ses premiers travaux »,
+                        Revue des deux mondes 57 (1883). </p>
+        </note>. Il comprit que le terrain
+                était indispensable mais que fouiller en Italie était difficile face à un légitime
+                protectionnisme des dirigeants de la nouvelle Italie désireux de prendre en main
+                leur patrimoine et de ne plus le laisser aux mains des voyageurs et surtout des
+                collectionneurs incontrôlés. Dès lors il fallait aller en Afrique, où les vestiges
+                romains abondaient. La prise de Tunis fut en mai 1881 un coup de tonnerre qui
+                résonna fort dans le Palais Farnèse. Et Camille Jullian rapporte l’enthousiasme
+                général et le désir de partir fonder une « École française de Carthage », un peu
+                comme ces colons grecs qui, installés depuis peu dans une nouvelle fondation,
+                partaient à leur tour pour en fonder une autre. Le premier qui franchit le pas fut
+                de La Blanchère, nommé à l’automne 1881 sur une chaire d’épigraphie à l’École
+                supérieure des Lettres d’Alger<note type="standard" xml:id="ftn16" place="foot" n="16">
+          <p> CRAI 1881, p. 392.</p>
+        </note>. Beaucoup d’autres suivront à partir de
+                1888, début des fouilles des membres de l’École – comme celles de Jules Toutain à
+                Tabarka –, jusqu’à aujourd’hui. L’École a publié en 2008 un volume sur Tabarka
+                médiévale, 120 ans après<note type="standard" xml:id="ftn17" place="foot" n="17">
+          <p>
+                        Ph. <hi rend="small-caps">Gourdin</hi>, Tabarka. Histoire et archéologie
+                        d’un préside espagnol et d’un comptoir génois en terre africaine (XV<hi rend="sup">e</hi>- XVIII<hi rend="sup">e</hi> siècle), Rome, 2008.
+                    </p>
+        </note>. Belle continuité scientifique malgré les changements profonds du
+                contexte politique.</p>
+            <p xml:id="d1e366">Suivre Geffroy aujourd’hui, c’est sans doute faire entrer d’une autre
+                manière l’archéologie dans nos savoirs, dans nos pratiques et dans nos
+                enseignements. C’est d’abord reconnaître que cette science permet de renouveler nos
+                connaissances sur notre propre territoire, celui que nous croyons connaître alors
+                que, très souvent, nous ne répétons que des poncifs élaborés il y a longtemps. La
+                « Carte archéologique de la France », menée à un rythme d’enfer, a permis de
+                rassembler l’état du savoir. Mais que pouvions-nous dire de l’histoire de la vallée
+                du Rhône dans l’Antiquité avant que les fouilles financées par le projet du TGV
+                Méditerranée ne permettent de dresser un état des lieux complet entre Lyon et
+                Marseille ? Que pouvions-nous dire de la partie méridionale de régions comme la
+                Champagne-Ardenne ou la Lorraine avant que le TGV Paris-Strasbourg ne permette aux
+                archéologues d’y mettre au jour plus d’une centaine de sites préhistoriques, et
+                protohistoriques ? Et les exemples pourraient se multiplier. Avec plus de 2000
+                interventions chaque année, l’Institut national de recherches archéologiques
+                préventives (INRAP) renouvelle nos connaissances sur notre propre sol, et l’on
+                entend pourtant encore curieusement des interrogations sur son utilité, alors que
+                nos voisins européens le considère comme un fleuron de la recherche française. Et il
+                n’est pas le seul à opérer : le ministère de la Culture, le CNRS, les Universités
+                travaillent aussi. Que pouvait-on dire il y a 40 ans de Lattes, jadis marais infecté
+                de moustiques, alors que plus de vingt volumes<note type="standard" xml:id="ftn18" place="foot" n="18">
+          <p> Série Lattara. Mélanges d’histoire et d’archéologie de
+                        Lattes.</p>
+        </note> ont été publiés depuis sur ce site préromain ? </p>
+            <p xml:id="d1e373">Sur l’utilité de l’archéologie pour les sociétés contemporaines, il y
+                aurait beaucoup à dire : qu’il suffise de rappeler ici que certaines inondations
+                tragiques du Sud de la France auraient pu être en partie évitées si, au fil des
+                décennies, on n’avait pas oublié l’histoire des territoires ; et par histoire, il
+                faut entendre précisément ici, non les événements historiques qui s’y sont déroulés
+                mais la longue histoire millénaire des paysages et de l’intervention des hommes sur
+                eux. Autre exemple, en rapport avec des recherches modernes : le Pont du Gard n’est
+                plus un monument isolé mais devient un élément au sein d’un aqueduc qui permet de
+                comprendre le ravitaillement de la ville romaine de Nîmes ; or, le fonctionnement de
+                cet aqueduc nécessite la connaissance du territoire tout entier<note type="standard" xml:id="ftn19" place="foot" n="19">
+          <p> G. <hi rend="small-caps">Fabre</hi>,
+                        J.-L. <hi rend="small-caps">Fiches</hi>, Ph. <hi rend="small-caps">Leveau</hi>, J.-L. <hi rend="small-caps">Paillet</hi>, Le pont du
+                        Gard : l’eau dans la ville antique, Paris, 1992.</p>
+        </note>. Toujours un
+                retour à Geffroy est nécessaire : « L’historien de l’Antiquité doit faire sa lumière
+                à lui-même en recueillant avec dextérité les faibles vestiges épars<note type="standard" xml:id="ftn20" place="foot" n="20">
+          <p> A. <hi rend="small-caps">Geffroy</hi>, « L’École française de Rome », p. 24.</p>
+        </note>. » Pour
+                renouveler les savoirs, il faut être capable de renouveler les sources, et
+                l’archéologie offre un magnifique exemple, contrairement à l’image parfois véhiculée
+                par les médias : les trésors nouveaux ne sont pas ceux que l’on croit. </p>
+            <p xml:id="d1e400">D’autres disciplines ont su renouveler leurs sources : les
+                assyriologues par l’étude des textes cunéiformes ont porté à notre connaissance des
+                milliers de textes nouveaux, et une nouvelle littérature, antérieure au texte
+                homérique, est aujourd’hui disponible, à côté des textes égyptiens, alors qu’elle
+                était inconnue il y a un demi-siècle encore. Son apport est d’autant plus important
+                que le Proche-Orient contemporain est l’un des territoires fragiles du monde
+                méditerranéen.</p>
+            <p xml:id="d1e402">« Pour que le moulin puisse moudre, il y faut confier du grain »
+                concluait Geffroy<note type="standard" xml:id="ftn21" place="foot" n="21">
+          <p> Ibid.,
+                        p. 24.</p>
+        </note>, tout en recommandant « plus d’air et de liberté », et
+                « un nouveau souffle de saine critique<note type="standard" xml:id="ftn22" place="foot" n="22">
+          <p> Ibid., p. 24-25.</p>
+        </note> ». Ces Écoles d’Athènes et
+                de Rome devaient-elles suivre des routes totalement parallèles ? Non, selon Geffroy
+                qui savait bien que Rome était née comme succursale d’Athènes, expression blessante
+                peut-être, car trop péjorative, et que les directeurs de Rome ont souvent voulu
+                oublier. Elle fait toutefois partie de l’histoire des premiers décrets de 1873
+                et 1874. Sans doute Geffroy est-il, en 1876, le directeur d’une École indépendante
+                et autonome mais il n’oublie pas l’intérêt des actions conjointes et il écrit :
+                « Les deux Écoles d’Athènes et de Rome se prêtant un mutuel appui, deux ou plusieurs
+                de leurs membres peuvent se réunir pour quelque mission lointaine<note type="standard" xml:id="ftn23" place="foot" n="23">
+          <p> Ibid., p.
+                32.</p>
+        </note>. » Depuis plus d’un siècle on trouverait sans doute quelques exemples
+                de collaboration, mais il faut bien reconnaître qu’ils sont à la marge. Certes, les
+                nouveaux « Athéniens » ont longtemps continué à passer à Rome quelques semaines, et
+                quelques « Farnésiens » sont allés à Athènes faire leur troisième année : cela n’a
+                pas changé la stratégie des institutions et il s’est agi tout au plus de parcours
+                personnels. Les deux Écoles ont leur histoire et se trouvent surtout dans des pays
+                qui ont la leur. La Grèce et l’Italie sont des nations amies et unies, aujourd’hui
+                ensemble dans l’Union européenne, mais ce ne sont pas des nations jumelles. L’Italie
+                a une <hi rend="italic">Scuola archeologica</hi> à Athènes depuis 1908 mais la Grèce
+                ne réussit pas à faire de même à Rome malgré quelques efforts louables ; les
+                Italiens fouillent en Grèce depuis longtemps (la célèbre mission de Crète) et
+                maintiennent leur engagement (aujourd’hui dans l’île de Lemnos, entre autres) ;
+                grâce à ce partenariat, les Grecs ont récemment fouillé en Italie, à Sybaris, site
+                symbole. Rome, elle, a surtout la chance d’avoir en son sein des archives qui
+                concernent le monde entier (<hi rend="italic">Archivio segreto vaticano, Propaganda
+                    fide</hi>…), ainsi que des bibliothèques uniques, comme la Bibliothèque
+                apostolique vaticane avec ses manuscrits.</p>
+            <p xml:id="d1e425">Les stratégies des deux Écoles ont aussi été conditionnées par les
+                pratiques : on ne pouvait fouiller en Italie avant la fin de la Seconde Guerre
+                mondiale, et Geffroy et ses successeurs ont envoyé leurs archéologues en Afrique du
+                Nord, alors que les Athéniens ont pu travailler en Grèce, à Délos depuis 1873, à
+                Delphes à partir de 1892 – début de la « Grande Fouille » –, et ne sont allés en
+                Crète (Malia) qu’en 1922 et à Chypre qu’en 1975. Enfin pendant longtemps, les
+                « Athéniens » de certaines générations, à de notables exceptions près, ne crurent
+                pas beaucoup à la Grèce d’Occident et à l’intérêt d’y travailler comme le faisaient
+                et le font toujours l’École française de Rome et le Centre Jean Bérard de
+                    Naples<note type="standard" xml:id="ftn24" place="foot" n="24">
+          <p> Unité de
+                        service et de recherche sous la double tutelle du CNRS et de l’École
+                        française de Rome.</p>
+        </note> : que n’entendait-on sur ce point dans les
+                années 1960 du siècle dernier ! Certes les choses ont bien changé depuis mais le pli
+                de l’histoire a été pris. D’une certaine manière, cela a été mieux ainsi et les
+                cohérences territoriales l’ont emporté sur les logiques thématiques : sans le savoir
+                ni le vouloir, les frilosités d’un temps ont anticipé sur des évolutions récentes de
+                l’archéologie. Il serait absurde que Rome ait le monopole des interventions sur les
+                sites romains de la Méditerranée. C’est naturellement en Albanie que les deux Écoles
+                avaient vocation à se retrouver, à mi-chemin entre Athènes et Rome, et elles
+                coopèrent ensemble avec la mission du ministère des Affaires étrangères sur le site
+                    d’Apollonia<note type="standard" xml:id="ftn25" place="foot" n="25">
+          <p>
+                        Récemment, Apollonia d’Illyrie. 1. Atlas archéologique et historique, Rome,
+                        2008.</p>
+        </note>, une colonie de Corinthe qui n’est finalement rien d’autre
+                qu’une jeune sœur de Syracuse. </p>
+            <p xml:id="d1e437">Cette stratigraphie culturelle doit être méditée au moment où le
+                ministère de tutelle invite les Écoles à penser à des stratégies convergentes et à
+                des modes de fonctionnement croisés. Sans doute peut-on progresser même si le chemin
+                est balisé d’embûches. Surtout il faut ne pas oublier les spécificités, moins celles
+                de l’histoire des institutions que celles des territoires : les Écoles françaises à
+                l’étranger ne sont implantées ni dans le désert ni sur la lune, et il faut rester
+                proches du terrain, à l’écoute des hôtes et partenaires, tout en ne refusant aucune
+                ouverture, aucun appel d’air comme Geffroy le recommandait déjà. Travailler autour
+                de la Méditerranée, sur la rive Nord comme sur la rive Sud, come le font aujourd’hui
+                l’École française de Rome et la Casa de Velázquez de Madrid, c’est contribuer à
+                tisser des réseaux intellectuels de dialogue et de collaboration. Depuis 1975, de
+                jeunes Maghrébins ont franchi régulièrement le portail du palais Farnèse pour
+                travailler dans la bibliothèque de l’École avec des bourses de l’institution. Et les
+                publications de l’EFR contiennent un nombre significatif de volumes publiés sous le
+                double sceau de l’École et des partenaires tunisiens et marocains. Si les Écoles
+                sont plus présentes au Maghreb dans le domaine de l’archéologie antique et médiévale
+                que dans le domaine des études contemporaines, c’est en partie en raison de
+                l’histoire, mais aussi de la présence, sur la rive sud, de deux institutions du
+                ministère des Affaires étrangères et du CNRS, à Rabat (le Centre Jacques Berque pour
+                les études en sciences humaines et sociales depuis 1999) et à Tunis (l’Institut de
+                recherche sur le Maghreb contemporain depuis 1992). Chacun travaille dans le respect
+                de l’autre. Des projets entre les Écoles et ces Centres sont à l’étude<note type="standard" xml:id="ftn26" place="foot" n="26">
+          <p> Convention-cadre signée
+                        en avril 2011 entre la Casa de Velazquez, l’EFR et les Centres de Rabat et
+                        de Tunis.</p>
+        </note>.</p>
+            <p xml:id="d1e445">Il faut aborder plus largement mais aussi plus précisément la
+                relation que les Humanités ont avec la recherche. On entend souvent dire, en effet,
+                que les sciences humaines ne sont pas vraiment des sciences : on n’y ferait pas de
+                « découvertes » à proprement parler, si ce n’est en archéologie, et quand l’on dit à
+                certains interlocuteurs que les livres du <hi rend="small-caps">xix</hi>
+        <hi rend="sup">e</hi> siècle, voire antérieurs, sont toujours des livres importants,
+                on se classe dans la catégorie des « érudits », cette expression – devenue trop
+                souvent péjorative – désignant ceux qui prennent du plaisir à la lecture de récits
+                anciens, sans aucune relation avec l’activité scientifique telle que nous
+                l’entendons aujourd’hui. Certes, les chercheurs prennent souvent du plaisir mais
+                cela n’est que le résultat de leur passion pour la recherche. L’essentiel est de
+                produire une recherche de qualité, reconnue comme performante au niveau
+                international et servant de référence.</p>
+            <p xml:id="d1e452">Dans ce contexte, les Écoles donnent une contribution majeure à
+                l’émergence de nouvelles générations qui maintiennent un niveau d’excellence, non en
+                raison d’un cursus privilégié et protégé mais du fait de la qualité des projets.
+                Elles servent aussi à rendre possible une formation permanente du milieu
+                scientifique, en lui permettant de revenir dans de bonnes conditions travailler soit
+                dans les archives et en bibliothèque, soit sur le terrain, et à se confronter aux
+                autres communautés scientifiques dans des programmes et des opérations de recherche.
+                Les Écoles d’aujourd’hui et de demain ont donc vocation à tisser des liens, toujours
+                plus nombreux et plus variés, en ouvrant les partenariats. Les relations bilatérales
+                qu’elles construisent depuis un siècle avec les pays de l’Europe du Sud (Espagne,
+                Grèce, Italie, Portugal) mais aussi avec les pays du Maghreb, du Sud-Est européen,
+                de l’Albanie à la Croatie et à la Roumanie, avec l’Égypte grâce à l’IFAO, avec
+                l’Inde, l’Asie du Sud-Est, la Chine et le Japon grâce à l’EFEO, sont le fondement
+                nécessaire pour une internationalisation de la recherche et contre le maintien de
+                cheminements trop « parallèles ». On pourrait distinguer trois réseaux en fonction
+                de trois aires géographiques et culturelles : la Méditerranée, les Proche et
+                Moyen-Orient, enfin l’Extrême-Orient. Le ministère des Affaires étrangères depuis
+                longtemps, et le CNRS, plus récemment, sont particulièrement engagés, au Proche et
+                au Moyen-Orient (du Caire jusqu’à Istanbul en passant par Damas et Téhéran) et le
+                nom d’Henri Seyrig vient naturellement à l’esprit ; Seyrig, qui, avant sa grande
+                carrière proche-orientale, notamment dans les Instituts du ministère des Affaires
+                étrangères (Damas, Beyrouth), se forma à l’École française d’Athènes comme membre à
+                partir de 1922, puis en fut le secrétaire général en 1928-1929. </p>
+            <div type="div1" xml:id="d1e454">
+                <head subtype="level1" xml:id="d1e455">Conclusion</head>
+                <p xml:id="d1e457">La recherche en sciences humaines est un grand laboratoire qui
+                    désormais opère avec des outils modernes. Elle ne saurait cependant oublier les
+                    fondamentaux : la qualité des chercheurs qui nécessite des formations lourdes
+                    que l’on ne saurait compter en années dans la mesure où un chercheur en sciences
+                    humaines (mais pas seulement) apprend toujours, ne cesse de découvrir. Pour
+                    commencer à avoir un regard large sur le domaine ne faut-il pas chercher à
+                    maîtriser au moins l’histoire de la culture et celle-ci n’a de sens qu’à
+                    condition de prendre en considération l’histoire de l’écriture, l’histoire des
+                    bibliothèques, l’histoire de l’imprimerie, l’histoire de la lecture, l’histoire
+                    du patrimoine sous toutes ses formes (architectural, archéologique, artistique,
+                    ethnologique, textuel, immatériel, etc.). Toutes ces histoires sont
+                    particulièrement importantes pour notre identité culturelle, individuelle et
+                    collective.</p>
+                <p xml:id="d1e459">L’histoire des savoirs, des pratiques et des techniques a
+                    toujours été, curieusement, marginalisée dans nos formations. Nos jeunes élèves
+                    du collège ou du lycée se souviennent plus facilement des noms d’Austerlitz,
+                    d’Arcole ou de Rivoli, que de ceux des grands monastères de Bobbio ou de
+                    Vivarium, qui ont contribué à transmettre au Moyen Âge le savoir antique, et
+                    Waterloo retient autant l’attention que le Code Civil. Et qui, en entrant dans
+                    son « lycée », a une pensée pour Aristote ? Cette histoire des savoirs est une
+                    conquête permanente et parfois récente. Les auteurs grecs ou latins ne sont pas
+                    connus depuis toujours. C’est grâce à deux papyrus d’Égypte que nous connaissons
+                    la <hi rend="italic">Constitution d’Athènes</hi> d’Aristote, et ce seulement
+                    depuis la fin du <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi> siècle
+                    (1880 et 1891). L’édition <hi rend="italic">princeps </hi>du <hi rend="italic">de Republica</hi> de Cicéron ne remonte qu’à 1822, à partir d’un manuscrit
+                    de la Bibliothèque vaticane (Vat.lat.5757). En archéologie, c’est à l’École
+                    française d’Athènes que l’on doit la connaissance des grands sites du monde
+                    antique que furent Delphes ou Délos ; et c’est à Georges Vallet et François
+                    Villard et à la fouille de l’École française de Rome à Mégara Hyblaea (Sicile)
+                    que l’on doit de dater la naissance de la ville grecque – et donc de la ville
+                    occidentale – à la fin du <hi rend="small-caps">viii</hi>
+          <hi rend="sup">e</hi> siècle ou peu après, soit plus de deux siècles avant Hippodamos de
+                    Milet, à qui l’on continue d’en attribuer la paternité dans beaucoup de livres.
+                    C’est un premier « urbanisme », même si ce mot n’apparaît qu’en 1867. </p>
+                <p xml:id="d1e481">Dans le contexte actuel, les Écoles françaises apportent au
+                    dispositif français de recherche et de formation à la recherche deux éléments
+                    fondamentaux. D’une part, des possibilités de mobilité pour les
+                    enseignants-chercheurs et les chercheurs en leur permettant des séjours de
+                    travail à l’étranger et en leur offrant des points d’appui, des outils de
+                    travail et des contacts internationaux : dimension appréciable alors que l’un
+                    des problèmes du milieu est précisément de pouvoir dégager des plages de temps
+                    dans un environnement scientifique performant. D’autre part, les Écoles
+                    proposent des découpages thématiques qui ne recoupent pas, loin de là, les
+                    segmentations disciplinaires de l’Université : ce décalage salutaire introduit
+                    des dynamiques nouvelles et sont un ferment pour une activité scientifique
+                    renouvelée. Ces laboratoires, atypiques par leur histoire, sont donc des
+                    éléments qui ne sont en rien marginaux pour le présent et pour le futur.</p>
+                <p xml:id="d1e483">On évoquera en terminant deux grands savants, exemplaires.
+                    Henri-Irénée Marrou (1904-1977) rappelait<note type="standard" xml:id="ftn27" place="foot" n="27">
+            <p> In Reynolds <hi rend="small-caps">Wilson</hi>, op.
+                            cit., p. XIII.</p>
+          </note> que, si les papyrus sont toujours en
+                    fragments, c’est parce que leur destin naturel les avait conduits d’abord dans
+                    la corbeille à papier des Anciens. Dérisoire transmission du savoir mais
+                    grandeur de la recherche : les archéologues eux aussi fouillent les poubelles de
+                    l’Histoire. Fulvio Orsini (1529-1600) a été le premier bibliothécaire du Palais
+                    Farnèse et a travaillé pendant des décennies, au cours du <hi rend="small-caps">xvi</hi>
+          <hi rend="sup">e</hi> siècle, dans les espaces où est installée
+                    depuis 1876 l’École française de Rome. Ce grand érudit a fait basculer
+                    l’érudition puis la recherche : à partir de lui, ce ne sont plus seulement les
+                    textes mais ce sont aussi les objets qui ont été systématiquement collectionnés
+                    et étudiés. Une révolution dans les pratiques et dans notre approche des
+                    savoirs.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

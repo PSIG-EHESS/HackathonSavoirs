@@ -1,0 +1,1093 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-3757_Seidengart">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">
+                    <hi xml:lang="fr">Bruno et Galilée face à l’infinité cosmique et à la
+                        relativité</hi>
+                </title>
+                <author>
+                    <persName>
+                        <forename>Jean</forename>
+                        <surname>Seidengart</surname>
+                    </persName>
+                    <affiliation> &#xD; Professeur de philosophie<lb/>&#xD; Université Paris
+                        Ouest-Nanterre<lb/>jean.seidengart@u-paris10.fr </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+                        Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>« Savoirs » est une plateforme de publication numérique vouée à l’histoire et à
+                    l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS
+                    (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une
+                    archive d’articles ou une collection de livres, il s’agit d’une bibliothèque
+                    « intelligente » et expérimentale qui propose des parcours de lecture
+                    heuristiques et réflexifs entre les textes, grâce à différents algorithmes de
+                    recherche et de suggestions reposant notamment sur un balisage des lieux, des
+                    dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs
+                        (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel
+                        XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données
+                        géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour
+                        l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références
+                        Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes
+                        pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>relativism</item>
+                        <item>relativity</item>
+                        <item>cosmology</item>
+                        <item>copernicianism</item>
+                        <item>space</item>
+                        <item>infinity</item>
+                        <item>geocentrism</item>
+                        <item>universe</item>
+                        <item>limit</item>
+                        <item>aristotelism</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>relativisme</item>
+                        <item>relativité</item>
+                        <item>cosmologie</item>
+                        <item>copernicianisme</item>
+                        <item>espace</item>
+                        <item>infinité</item>
+                        <item>géocentrisme</item>
+                        <item>univers</item>
+                        <item>limite</item>
+                        <item>aristotélisme</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart level="a" type="main">
+                        <hi xml:lang="fr">Bruno et Galilée face à l’infinité cosmique et à la
+                            relativité</hi>
+                    </titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Jean Seidengart</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e240">
+                <p xml:id="d1e241">La représentation du cosmos édifiée par Platon, Aristote et
+                    Ptolémée régnait sans partage sur la pensée occidentale depuis plus d’un
+                    millénaire et demi, lorsque cette architecture cosmique traditionnelle s’écroula
+                    en quelques décennies seulement à la Renaissance. La mise en place progressive
+                    d’un nouveau système du monde, plus cohérent et plus hautement unifié nécessita
+                    l’instauration d’une nouvelle physique solidaire d’une nouvelle philosophie de
+                    la connaissance et de la nature. Cet article a pour objet de montrer comment
+                    l’infinitisation de l’univers et la naissance du principe de relativité ont
+                    permis de renverser la tradition antico-médiévale, tout en ouvrant de nouvelles
+                    perspectives indispensables à la mise en place de la science classique. Ces deux
+                    questions, étroitement liées entre elles, présentent des perspectives
+                    convergentes dans la philosophie naturelle de Giordano Bruno et dans l’œuvre de
+                    Galilée (qui ne pouvait pourtant s’y référer).</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e243">
+                <p xml:id="d1e244">
+                    <hi xml:lang="en">The representation of the cosmos built up by Plato, Aristotle
+                        and Ptolemy had been holding indisputable sway over western thought for over
+                        a millennium and a half when this traditional cosmic architecture collapsed
+                        within only a few decades at the Renaissance. The progressive installation
+                        of a new world system, more coherent and more highly unified, required the
+                        institution of a new interdependent physics, of a new philosophy of
+                        knowledge and nature. This article intends to show how the infinitisation of
+                        the universe and the emergence of the principle of relativity made it
+                        possible to topple the antico-medieval tradition while opening up new
+                        perspectives necessary to the establishment of classical science. Those two
+                        issues, closely linked together, present converging perspectives in Giordano
+                        Bruno’s natural philosophy and in Galileo’s work (which could not however
+                        refer to it).</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <p xml:id="d1e251">La conjecture qui anime notre propos, du moins dans le cadre de la
+                science classique naissante, c’est qu’il était impossible de penser la <hi rend="italic">relativité</hi> du mouvement sans remettre en cause la conception
+                    <hi rend="italic">finitiste</hi> du système du monde (comme ce fut le cas de
+                l’héliocentrisme copernicien), car la preuve de sa finité reposait sur le mouvement
+                diurne de la sphère des fixes. En outre, il était impossible de concevoir un univers
+                infini contenant une pluralité innombrable de mondes finis sans relativiser toutes
+                les déterminations d’ordre spatial ou temporel. En ce sens, nous voudrions montrer
+                que c’est l’idée d’infini qui permettait, mieux que toute autre, de détruire toutes
+                les déterminations absolues de la cosmologie antico-médiévale, tout en constituant
+                le cadre idéal indispensable à l’établissement de la science classique. Sur ce
+                point, nous rejoignons en partie la perspective traditionnelle des historiens des
+                sciences établie depuis le milieu du <hi rend="small-caps">xix</hi>
+        <hi rend="sup">e</hi> siècle et dont Alexandre Koyré est l’un des derniers représentants.</p>
+            <p xml:id="d1e264">Tout d’abord, nous nous proposons de cerner l’idée de <hi rend="italic">relativité</hi> telle qu’elle est apparue initialement chez les
+                Anciens, puis telle qu’elle fut remaniée par Copernic pour défendre et illustrer son
+                système héliocentrique. Ensuite, nous analyserons comment elle fut reprise, élargie
+                et transformée par Bruno pour donner lieu à la construction de sa cosmologie
+                infinitiste. Enfin, nous tenterons de déterminer jusqu’à quel point la <hi rend="italic">relativité</hi> fournit à Galilée le moyen de justifier le
+                copernicianisme tout en le généralisant à l’instar de Bruno, mais pour des raisons
+                liées à la mathématisation de la science du mouvement des graves.</p>
+            <div type="div1" xml:id="d1e272">
+                <head subtype="level1" xml:id="d1e273">Du <hi rend="italic">relativisme</hi> à
+                    l’idée de <hi rend="italic">relativité</hi> au sens de Copernic</head>
+                <p xml:id="d1e281">Il semble que la découverte du relatif soit liée à celle de la
+                        <hi rend="italic">différence</hi> et de la <hi rend="italic">variabilité</hi> des points de vue sur le monde, sur le cours de
+                    l’histoire, sur la valeur des choses, des actions et des connaissances. Les
+                    Anciens, déjà sensibles à cette variabilité des points de vue, l’avaient déjà
+                    dénoncé surtout au niveau des jugements de valeur, tel Héraclite qui disait :
+                    « Les cochons se complaisent davantage dans la fange que dans l’eau pure<note type="standard" xml:id="ftn1" place="foot" n="1">
+            <p> Héraclite, fragment DK,
+                            B, <hi rend="small-caps">xiii ;</hi> tr. fr. Dumont, Delattre, in <hi rend="italic">Les Présocratiques</hi>, Paris, Gallimard, 1988,
+                            Pléiade, p. 149.</p>
+          </note>. » </p>
+                <p xml:id="d1e300">Très tôt, les penseurs dits « socratiques » se sont efforcés de
+                    distinguer entre ce qui est <hi rend="italic">en soi</hi> et ce qui est <hi rend="italic">pour nous</hi> (comme entre l’invariant et le variable, ou
+                    l’absolu et le relatif) pour faire de la philosophie la quête des <hi rend="italic">invariants</hi> et la recherche de l’<hi rend="italic">en
+                        soi</hi>. Au contraire, les adversaires de Socrate restaient résolument
+                    attachés au <hi rend="italic">relatif</hi>, à ce qui est <hi rend="italic">pour
+                        nous</hi>, en arguant de notre impuissance à atteindre l’<hi rend="italic">en soi</hi> des choses : telle était la thèse du sophiste Protagoras, que
+                    rapporte Platon dans le <hi rend="italic">Théétète</hi>
+          <note type="standard" xml:id="ftn2" place="foot" n="2">
+            <p> Platon, <hi rend="italic">Théétète</hi>, 152 a, Paris, Garnier-Flammarion, 1967 ; tr. Chambry,
+                            p. 73 : « Protagoras dit […] que l’homme est la mesure de toutes choses.
+                            […] Ne veut-il pas dire à peu près ceci, que telle elle est pour moi et
+                            que telle elle t’apparaît à toi, telle elle est aussi pour
+                        toi ? »</p>
+          </note>. D’un côté, cette thèse de l’homme-mesure de toutes
+                    choses soulignait l’émergence de la <hi rend="italic">subjectivité</hi> dans
+                    l’Antiquité, mais elle constituait aussi la matrice du <hi rend="italic">scepticisme</hi>. En effet, suivant le pyrrhonisme, le célèbre argument du
+                        <hi rend="italic">prós ti</hi> (c’est-à-dire de la relativité) déclarait
+                    impossible, par principe, l’accès à l’<hi rend="italic">en soi</hi> des choses,
+                    en raison du caractère variable, instable et subjectif des impressions que
+                    produisent les objets empiriques sur nos divers sens. Ainsi, nous ne connaissons
+                    jamais les propriétés absolues des choses, mais seulement les impressions
+                    fugaces qu’elles produisent sur nous :</p>
+                <q rend="quotation">« Le mode selon le relatif <hi rend="italic">(ho dè apò toû prós
+                        ti)</hi>, comme nous l’avons dit plus haut, est celui dans lequel l’objet
+                    réel apparaît tel ou tel relativement à ce qui le juge et à ce qui est observé
+                    conjointement, et sur ce qu’il est selon la nature nous suspendons notre
+                    assentiment <hi rend="italic">(épéchomen)</hi>
+          <note type="standard" xml:id="ftn3" place="foot" n="3">
+            <p> Sextus Empiricus, <hi rend="italic">Esquisses pyrrhoniennes</hi>, I, 15, 167 ; tr. Pellegrin, Paris,
+                            Seuil, 1997, p. 140-143.</p>
+          </note>. »</q>
+                <q rend="quotation">« Ces trois modes [s.e. “celui d’après ce qui juge, celui
+                    d’après ce qui est jugé, celui qui vient des deux”] à leur tour se ramènent à
+                    celui du relatif <hi rend="italic">(eis tòn prós ti)</hi>, de sorte que le
+                        relatif<hi rend="italic"> (tòn prós ti) </hi>est le genre le plus haut, dont
+                    les trois nommés sont des espèces, auxquelles sont subordonnés les dix<note type="standard" xml:id="ftn4" place="foot" n="4">
+            <p>
+                            <hi rend="italic">Ibid</hi>. I, 14, 39 ; tr. Pellegrin, Paris, Seuil,
+                            1997, p. 76-77.</p>
+          </note>. »</q>
+                <p xml:id="d1e378">Au moins, tous les Anciens étaient d’accord entre eux pour
+                    définir le <hi rend="italic">relatif</hi> comme le fit Aristote qui écrivait
+                    dans son traité <hi rend="italic">Des Catégories :</hi>
+        </p>
+                <q rend="quotation">« On appelle <hi rend="italic">relatives</hi> ces choses dont
+                    tout l’être consiste en ce qu’elles sont dites dépendre d’autres choses, ou se
+                    rapporter de quelque façon à autre chose<note type="standard" xml:id="ftn5" place="foot" n="5">
+            <p> Aristote, <hi rend="italic">Des Catégories</hi>, tr.
+                            fr., Paris, Vrin, rééd. 1997, p. 29. </p>
+          </note>. »</q>
+                <p xml:id="d1e398">Être relatif, c’est donc <hi rend="italic">dépendre de</hi>
+                    quelque chose. Or, les discussions autour du <hi rend="italic">relatif</hi> et
+                    de la <hi rend="italic">relativité</hi> des phénomènes n’ont de sens qu’à partir
+                    de la distinction de l’<hi rend="italic">en soi</hi> et du <hi rend="italic">pour nous</hi>. Toutefois, si l’on redescend dans le monde des phénomènes
+                    et de l’observation courante, les catégories opératoires sont celles de l’<hi rend="italic">observateur</hi> et de l’<hi rend="italic">observé</hi>. Or,
+                    le phénomène où la relativité se manifeste de la manière la plus obvie, c’est
+                    bien celui du <hi rend="italic">mouvement</hi>.</p>
+                <p xml:id="d1e425">La relativité dite « optique » ou descriptive<note type="standard" xml:id="ftn6" place="foot" n="6">
+            <p> Cette dénomination
+                            « relativité optique », bien que traditionnelle chez les historiens des
+                            sciences, n’est pas tout à fait adéquate à ce qu’elle dénote : on
+                            devrait parler plutôt de relativité « descriptive », comme le suggère
+                            très justement M.-A. <hi rend="small-caps">Tonnelat</hi> in <hi rend="italic">Histoire du principe de relativité</hi>, Paris,
+                            Flammarion, 1971, p. 22. Nous emploierons de préférence l’expression de
+                            « relativité descriptive » pour éviter toute équivoque.</p>
+          </note> du
+                    mouvement était déjà bien connue depuis l’Antiquité : elle est même aussi
+                    ancienne que l’humanité. Mais, de tous les cas de relativité descriptive, c’est
+                    sûrement celui du <hi rend="italic">bateau</hi> qui retint l’attention des
+                    Anciens dans la stricte mesure où le mouvement propre du bateau est <hi rend="italic">en lui-même</hi>
+                    <hi rend="italic">imperceptible</hi> (évidemment par brise légère, avec une mer
+                    calme et une vitesse stabilisée, etc.). D’où le fameux passage (qui n’est pas
+                    innocent) du <hi rend="italic">De Revolutionibus</hi> de Copernic qui cite et
+                    commente un vers de Virgile :</p>
+                <q rend="quotation">« Pourquoi hésiterions-nous plus longtemps de lui [s.e. à la
+                    Terre] attribuer une mobilité s’accordant par sa nature avec sa forme, plutôt
+                    que d’ébranler le monde entier, dont on ignore et ne peut connaître les
+                    limites ? Et n’admettrions-nous pas que la réalité de cette révolution
+                    quotidienne appartient à la Terre, et son apparence seulement au ciel ! Et qu’il
+                    en est par conséquent comme lorsqu’Énée (chez Virgile) dit : “<hi rend="italic">Nous sortons du port et les terres et les villes reculent</hi>.” En effet,
+                    lorsqu’un navire flotte sans secousses, les navigateurs voient se mouvoir, à
+                    l’image de son mouvement, toutes les choses qui lui sont extérieures et,
+                    inversement, ils se croient être en repos, avec tout ce qui est avec eux. Or, en
+                    ce qui concerne le mouvement de la Terre, il se peut que c’est de façon pareille
+                    que l’on croit le monde entier se mouvoir autour [d’elle]<hi rend="sup"/>
+          <note type="standard" xml:id="ftn7" place="foot" n="7">
+            <p>
+                            <hi rend="small-caps">Copernic</hi>, <hi rend="italic">De Revolutionibus
+                                orbium coelestium</hi>, Nuremberg, 1543, tr. fr. partielle Koyré,
+                            Paris, Alcan, 1934 ; rééd. Blanchard, 1970, livre I, ch. VIII, p. 92-93.
+                            Ici, Copernic cite Virgile, <hi rend="italic">Énéide</hi>, III, v. 72 :
+                                <hi rend="italic">Provehimur portu, terraeque urbesque
+                                recedunt.</hi>
+            </p>
+          </note>. »</q>
+                <p xml:id="d1e472">Cette métaphore du navire reçoit une signification cosmologique
+                    qui repose sur le principe épistémologique de la <hi rend="italic">relativité</hi> descriptive du mouvement que Copernic avait défini
+                    préalablement au chapitre V de son <hi rend="italic">De Revolutionibus</hi>, car
+                    il lui permet de montrer que le mouvement de la Terre est aussi plausible que
+                    celui de la sphère des fixes :</p>
+                <q rend="quotation">« En effet, tout mouvement local apparent provient soit du
+                    mouvement de la chose vue, soit de celui du spectateur, soit d’un mouvement,
+                    inégal bien entendu, des deux. Car lorsque les mobiles (je veux dire : le
+                    spectateur et l’objet vu) sont animés d’un mouvement égal, le mouvement n’est
+                    pas perçu. Or, c’est de la Terre que ce circuit céleste est vu et représenté
+                    pour notre vision. Si donc quelque mouvement appartenait à la Terre, celui-ci
+                    apparaîtrait en toutes les choses qui lui sont extérieures, comme si elles
+                    étaient entraînées avec la même [vitesse], mais en sens contraire ; et telle est
+                    en premier lieu la révolution diurne<note type="standard" xml:id="ftn8" place="foot" n="8">
+            <p>
+                            <hi rend="small-caps">Copernic</hi>, <hi rend="italic">De Revolutionibus
+                                orbium coelestium</hi>, Nuremberg, 1543 ; tr. fr. Koyré, Paris, I,
+                            chap. V, p. 73-74.</p>
+          </note>. »</q>
+                <p xml:id="d1e494">Sur ce point, Copernic s’était expressément appuyé sur un passage
+                    célèbre des <hi rend="italic">Académiques</hi> de Cicéron qui nous apprend (en
+                    se référant à un passage de Théophraste<note type="standard" xml:id="ftn9" place="foot" n="9">
+            <p> Le passage en question de Théophraste se trouve in
+                                <hi rend="italic">Phys. Opin.</hi>, fr. 18, D. 492 ; cité par
+                            Cicéron, in <hi rend="italic">Académiques</hi>, II, ch. XXXIX, § 123 ;
+                            tr. Kany-Turpin, Paris, Garnier-Flammarion, 2010, p. 257.</p>
+          </note>)
+                    que Hicétas de Syracuse faisait tourner la Terre sur elle-même mais qu’il
+                    immobilisait « le ciel, le soleil, la lune, les étoiles […] car rien dans
+                    l’univers ne se meut à l’exception de la Terre<note type="standard" xml:id="ftn10" place="foot" n="10">
+            <p> Cicéron, <hi rend="italic">Académiques</hi>, II, ch. XXXIX, § 123 ; tr. Kany-Turpin, Paris,
+                            Garnier-Flammarion, 2010, p. 257-259.</p>
+          </note>. » La suite du fragment
+                    de Cicéron contient une remarque témoignant d’une compréhension profonde de la
+                        <hi rend="italic">relativité descriptive</hi> du mouvement, parce que
+                    c’est</p>
+                <q rend="quotation">« la Terre, qui en tournant <hi rend="italic">(convertat)</hi>
+                    extrêmement vite sur son axe avec un mouvement de torsion <hi rend="italic">(torqueat),</hi> produit les mêmes effets que si elle était fixe, le ciel
+                    restant immobile<note type="standard" xml:id="ftn11" place="foot" n="11">
+            <p>
+                            Cicéron, <hi rend="italic">op. cit</hi>., p. 259.</p>
+          </note>. »</q>
+                <p xml:id="d1e537">Pour Copernic, cette remarque constituait une sorte de caution
+                    antique favorable à la réduction des apparences géostatiques par
+                    l’héliocentrisme copernicien :</p>
+                <q rend="quotation">« Partant de là, j’ai commencé, moi aussi, à penser à la
+                    mobilité de la Terre. Et quoique l’opinion semblait absurde, cependant, puis
+                    donc que je savais qu’à d’autres avant moi fut accordée la liberté d’imaginer
+                    n’importe quels cercles afin d’en déduire les phénomènes des astres, je pensais
+                    qu’il me serait également permis de faire l’expérience de rechercher si, en
+                    admettant quelque mouvement de la Terre, on ne pouvait trouver une théorie plus
+                    solide des révolutions des orbes célestes que ne l’étaient celles de
+                        ceux-ci<note type="standard" xml:id="ftn12" place="foot" n="12">
+            <p>
+                            <hi rend="small-caps">Copernic</hi>, <hi rend="italic">De Revolutionibus
+                                orbium coelestium</hi>, Nuremberg, 1543, tr. fr. partielle Koyré,
+                            Paris, Alcan, 1934 ; rééd. Blanchard, 1970, Lettre-Préface,
+                            p. 44-45.</p>
+          </note>. »</q>
+                <p xml:id="d1e552">Cet argument de la relativité descriptive du mouvement implique
+                    la distinction entre un mouvement apparent et un mouvement réel, alors qu’il
+                    devient très difficile de dépasser le simple plan des apparences pour trancher
+                    de façon décisive entre l’-<hi rend="italic">apparence</hi> et la <hi rend="italic">réalité</hi> du mouvement. En effet, le risque de la
+                    relativité descriptive est de sombrer dans un nivellement général des apparences
+                    observationnelles qui alimenterait un scepticisme contre-productif pour la
+                    connaissance scientifique.</p>
+                <p xml:id="d1e560">Copernic, bien au contraire, produisit une subversion profonde du
+                    concept de <hi rend="italic">réalité</hi>, puisque c’est dans le détour par le
+                    théorique que surgit la « vraie » réalité (imperceptible de façon immédiate pour
+                    les sens), tandis que les apparences observationnelles sont proprement
+                    « réduites » au statut de pures illusions imputables à l’ignorance des <hi rend="italic">véritables</hi> rapports entre l’observateur et l’observé.
+                    Désormais, grâce à la puissance de ses ressources théoriques, le sujet met <hi rend="italic">préalablement</hi> en question les données observationnelles,
+                    afin de déjouer les pièges éventuels qu’introduirait nécessairement la
+                    méconnaissance (c’est-à-dire l’absence de toute prise en compte) de notre propre
+                    position d’observateurs terrestres et qui aurait pu immanquablement nous duper.
+                    On passe avec Copernic de l’apparence décrite « naïvement » à l’apparence
+                    déjouée ou réduite, c’est-à-dire reconduite aux raisons par l’effet desquelles
+                    l’apparence ne peut être autrement qu’elle n’est. Autant dire que Copernic sort,
+                    grâce aux ressources du théorique, de ce nivellement relativiste, ce qui lui
+                    confère une <hi rend="italic">situation</hi>
+                    <hi rend="italic">privilégiée</hi>, puisqu’il est à la fois <hi rend="italic">dans</hi> le système du monde et <hi rend="italic">hors</hi> de ce même
+                    système, indissociablement <hi rend="italic">terrien</hi> et <hi rend="italic">théoricien</hi>. Or, c’est précisément ce renversement des apparences qui
+                    fascina Giordano Bruno, parce qu’il trouvait, dans ce renversement opéré par
+                    Copernic, la confirmation d’une expérience de jeunesse qui le conduisit à
+                    renverser la cosmologie d’Aristote et à lui substituer un univers infini
+                    contenant une pluralité infinie de mondes finis.</p>
+            </div>
+            <div type="div1" xml:id="d1e590">
+                <head subtype="level1" xml:id="d1e591">Relativité « descriptive » et relativité <hi rend="italic">physique</hi> dans l’univers infini de Bruno</head>
+                <p xml:id="d1e596">Aristote avait fondé son géocentrisme et son finitisme
+                    cosmologique sur des arguments rationnels, mais en s’appuyant également sur les
+                    données observationnelles qu’il voulait toujours prendre en compte. Ainsi,
+                    contre l’idée d’une Terre en mouvement, Aristote remarquait, à propos de son
+                    éventuelle rotation axiale vers l’orient, que nous devrions voir, dans ce cas,
+                    les nuages et les oiseaux se diriger vers l’occident. De même, les mobiles
+                    lancés verticalement vers le haut ne pourraient jamais revenir à leur point de
+                    départ, pas plus qu’une pierre lâchée du haut d’une tour ne pourrait jamais
+                    tomber au pied de celle-ci, en raison de la grande vitesse de rotation de la
+                    Terre durant leur élévation et leur chute :</p>
+                <q rend="quotation">« On voit donc que c’est une nécessité manifeste pour la Terre
+                    d’être au centre et d’y rester immobile. Les raisons déjà données le prouvent,
+                    et, avec elles, le fait que les [corps] lourds lancés verticalement vers le haut
+                    retombent à leur point de départ, même si la force les projetait infiniment
+                    loin. D’après ces considérations, il est donc évident que la Terre n’est ni mue,
+                    ni située hors du centre. De notre exposé ressort en outre la raison de sa
+                        fixité<note type="standard" xml:id="ftn13" place="foot" n="13">
+            <p> Aristote,
+                                <hi rend="italic">Traité du ciel</hi> ; tr. fr. Paul Moraux, Paris,
+                            Belles Lettres, 1965, II, 14, 296 b 21-27, p. 97.</p>
+          </note>. »</q>
+                <p xml:id="d1e608">Or, c’est justement pour réfuter cette objection aristotélicienne
+                    contre le mouvement de la Terre et pour prendre la défense de Copernic que Bruno
+                    a voulu approfondir la question de la relativité du mouvement et tenté de passer
+                    de la <hi rend="italic">relativité descriptive</hi> à la <hi rend="italic">relativité physique</hi> du mouvement. Dans ce but, il montre que : 1°)
+                    tout mobile appartient à un système (Bruno n’emploie pas le terme de
+                    référentiel) et possède le mouvement de son système d’appartenance (cf. le
+                    navire ou la Terre) ; 2°) c’est par rapport à son système d’appartenance que
+                    l’on peut parler du mouvement propre du mobile, sans pouvoir déterminer à
+                    l’intérieur de ce système si le système est lui-même en mouvement ou en repos, à
+                    condition que le navire ne prenne pas de gîte. Bien sûr, Bruno ne songe qu’à
+                    écarter les mouvements parasites du système sans thématiser la question de la
+                    vitesse uniforme ou stabilisée de son mouvement. Fort, ainsi, de cet argument
+                    qui relève d’une quasi-relativité physique, Bruno était certain de détenir une
+                    réponse suffisante à l’objection d’Aristote. D’où sa remarque :</p>
+                <q rend="quotation">« [<hi rend="small-caps">Smitho</hi>]. […] il y a une différence
+                    entre le mouvement d’un navire et le mouvement de ce que le navire contient.
+                    S’il n’en était pas ainsi, on ne pourrait jamais traîner un objet en ligne
+                    droite d’un bord à l’autre du navire, quand celui-ci court au large ; ni
+                    retomber après un saut, à l’endroit même d’où l’on s’est élancé.</q>
+                <q rend="quotation">[<hi rend="small-caps">Teofilo</hi>]. Ainsi se meut avec la
+                    terre tout ce qui se trouve sur la terre. Si donc, d’un point extérieur à la
+                    terre, on y jetait quelque objet, le mouvement terrestre l’empêcherait d’avoir
+                    une trajectoire droite<note type="standard" xml:id="ftn14" place="foot" n="14">
+            <p> G. <hi rend="small-caps">Bruno</hi>, <hi rend="italic">La cena de
+                                le ceneri</hi>, 1584 ; tr. fr. Y. Hersant, Paris, Belles Lettres,
+                            1994, <hi rend="italic">Dialogo Terzo</hi>, <hi rend="italic">cinquième
+                                proposition de Nundinio</hi>, p. 182-188. </p>
+          </note>. »</q>
+                <p xml:id="d1e643">De façon plus générale, c’est cet attachement aux fausses
+                    évidences sensibles caractéristique des philosophes péripatéticiens que dénonce
+                    Bruno, non pas en ce sens qu’il répudie les enseignements de la perception, mais
+                    parce que ceux-ci doivent être soumis au jugement de l’intellect pour déjouer
+                    les illusions des sens. Bruno écrit : « C’est à l’intellect (intelletto) qu’il
+                    convient de juger et de rendre raison des choses absentes et séparées par
+                    distance de temps et intervalle des lieux<note type="standard" xml:id="ftn15" place="foot" n="15">
+            <p> G. <hi rend="small-caps">Bruno</hi>, <hi rend="italic">De l’infinito, </hi>1584 ; tr. fr. J.-P. Cavaillé,
+                            Paris, Belles Lettres, 1995, p. 58-60.</p>
+          </note>. » Bruno part du fait
+                    que nos sens sont bornés parce qu’ils ne peuvent appréhender que les objets qui
+                    sont à leur portée, ce qui restreint considérablement la valeur de leurs
+                    informations :</p>
+                <q rend="quotation">« Les sens […] confessent et rendent évidentes leur faiblesse et
+                    leur insuffisance en suscitant, avec leur horizon, une apparence de finitude
+                    dont la formation fait voir de surcroît combien ils sont inconsistants. Or comme
+                    nous savons par expérience qu’ils nous trompent au sujet de la surface de ce
+                    globe où nous nous trouvons, à plus forte raison les devons-nous tenir pour
+                    suspects quant à ce terme qu’ils nous font concevoir dans la concavité
+                        stellifère<note type="standard" xml:id="ftn16" place="foot" n="16">
+            <p>
+                            <hi rend="italic">Ibid., Dialogo Primo</hi>, p. 60.</p>
+          </note>. »</q>
+                <p xml:id="d1e666">Plus encore que la relativité du mouvement, c’est la relativité
+                    des données observationnelles que Bruno analyse et qui l’ont conduit à l’<hi rend="italic">infinitisation</hi> de l’univers, tandis que Copernic avait
+                    délibérément écarté cette question en la laissant expressément aux <hi rend="italic">philosophes</hi>.</p>
+                <p xml:id="d1e674">C’est précisément ce phénomène de l’<hi rend="italic">horizon</hi> que Bruno analyse en évoquant un souvenir d’enfance avec
+                    émotion, dans un célèbre passage de son <hi rend="italic">De immenso et
+                        innumerabilibus</hi> de 1591. Lorsqu’il observait le Vésuve avec ses yeux
+                    d’enfant depuis le haut du mont Cicala, près de Nola, sa ville natale, il
+                    croyait voir en lui le bout du Monde :</p>
+                <q rend="quotation">« C’est ainsi que dans mon enfance, j’ai cru qu’il n’y avait
+                    plus rien au-delà du Vésuve, sous prétexte qu’il n’y avait rien au-delà qui soit
+                    accessible à mes sens<note type="standard" xml:id="ftn17" place="foot" n="17">
+            <p> G. <hi rend="small-caps">Bruno</hi>, <hi rend="italic">De immenso
+                                et innumerabilibus</hi>, 1591, II, chap. <hi rend="small-caps">viii</hi>, in <hi rend="italic">Op. lat., </hi>I, 1, éd. Fiorentino
+                            &amp; Tocco, 1879/1891, p. 285 ; cf. aussi <hi rend="italic">Ibid</hi>.,
+                            III, chap. <hi rend="small-caps">i</hi>. C’est nous qui
+                        traduisons.</p>
+          </note>. »</q>
+                <p xml:id="d1e709">L’horizon semble enclore dans son confinement circulaire le monde
+                    perçu, et pourtant chacun de nos déplacements franchit cette limite illusoire
+                    qui n’a donc pas d’existence propre ou absolue. Il n’y a pas d’horizon <hi rend="italic">en soi</hi>, mais toujours <hi rend="italic">pour un
+                        observateur</hi> déterminé : c’est, en quelque sorte, le corrélat de la
+                    limitation de nos sens. Le phénomène d’horizon ne cesse d’accompagner les
+                    déplacements de l’observateur situant celui-ci immanquablement au centre de <hi rend="italic">sa</hi> propre perspective. Ainsi, le confinement circulaire
+                    de l’horizon perceptif résulte bien de la projection de la finitude de nos sens,
+                    et non pas de la structure de l’Univers. L’expérience du phénomène d’horizon
+                    nous procure un <hi rend="italic">double enseignement</hi>, car elle nous
+                    présente à la fois la <hi rend="italic">détermination distincte d’une
+                        limite</hi> et le <hi rend="italic">franchissement de cette limite</hi>
+                    suscitant ainsi en nous la pensée d’une « avancée au-delà » que rien ne peut
+                    réprimer ou contenir dans sa progression illimitée. Toutefois, cela ne signifie
+                    pas que pour Bruno l’idée d’un espace infini soit, en quelque sorte, comme
+                    l’aboutissement de cette progression illimitée de la pensée ou de l’imagination
+                    qui réitérerait indéfiniment son interrogation sur l’au-delà de la limite.</p>
+                <p xml:id="d1e730">Au fond de la pensée brunienne il y a une intuition de l’infini
+                    qui ne parvient pas à s’expliciter entièrement dans une démonstration en forme :
+                    c’est l’intuition d’un <hi rend="italic">Univers infini en acte</hi>, et c’est
+                    sur le fond (entendu également comme fondement) de cet infini extensif que se
+                    détache ou se découpe, pour lui, le confinement illusoire de l’horizon. Le
+                    franchissement de la limite ne fait que suggérer l’infini extensif qui le
+                    précède ontologiquement et logiquement. Puisque l’idée d’un monde clos confiné
+                    par une limite ultime et infranchissable est impensable sans contradiction,
+                    Bruno s’appuie sur son <hi rend="italic">impensabilité </hi>à la fois pour
+                    incliner ses lecteurs vers l’infinitisme et pour réfuter tous les arguments
+                    finitistes.</p>
+                <p xml:id="d1e738">Bruno a repris à Copernic : le renversement du système ptoléméen
+                    en faveur d’une astronomie héliocentrique ; le principe de relativité
+                    descriptive ; et, surtout, la réduction de l’illusion géocentrique, la première
+                    de toutes nos illusions.</p>
+                <p xml:id="d1e740">Mais il ne faut pas oublier pour autant que Bruno rejette de
+                    l’œuvre de Copernic : son finitisme cosmologique, son système complexe
+                    d’épicycles et d’excentriques, ses sphères cristallines concentriques emboîtées
+                    les unes dans les autres, son culte de la sphéricité, sa conception d’un unique
+                    système solaire. Ainsi, Bruno a supprimé tout ce qui subsistait de l’astronomie
+                    alexandrine dans le système de Copernic, mais ce n’est pas pour des raisons
+                    « modernes ». En fait, il a détruit les restes d’aristotélisme que contenait
+                    encore le système copernicien. Bruno s’est appuyé sur la pensée des atomistes
+                    antiques pour critiquer et rejeter le finitisme cosmologique
+                    aristotélico-ptoléméen. Il a repris, notamment à Épicure et à Lucrèce,
+                    l’argument du bâton, de la main ou du javelot tentant de franchir les limites du
+                    Monde clos :</p>
+                <q rend="quotation">« Si quelqu’un étendait la main au-delà de cette convexité [de
+                    la sphère des fixes], cette main ne se trouverait pas en un lieu ; elle ne
+                    serait nulle part : et par conséquent elle n’aurait pas l’être. […] J’ajoute
+                    aussi à cela qu’il n’y a point d’esprit qui ne conçoive la contradiction
+                    impliquée dans ce propos péripatéticien<note type="standard" xml:id="ftn18" place="foot" n="18">
+            <p>
+                            <hi rend="small-caps">Bruno</hi>, <hi rend="italic">De l’infinito</hi>,
+                            1584 ; tr. fr. Cavaillé, Paris, Les Belles-Lettres, 1995, <hi rend="italic">Dialogo Primo</hi>, p. 64. </p>
+          </note>. »</q>
+                <p xml:id="d1e758">Il n’a pas échappé à certains commentateurs que cet argument
+                    épicurien selon lequel un trait lancé par une catapulte pourrait traverser les
+                    « murailles du monde » présentait une analogie avec l’axiome d’Eudoxe-Archimède.
+                    En définitive, cet argument très ancien montre l’impossibilité de penser et
+                    d’assigner une limite ultime (ou absolue) à l’univers, puisqu’il est de
+                    l’essence d’une limite d’introduire une séparation entre deux régions <hi rend="italic">dans</hi> l’espace, et non pas à l’espace. En outre, tout ce
+                    qui viendrait limiter l’espace devrait à son tour être étendu, ce qui ne fait
+                    que reculer le problème. Du reste, la pensée brunienne se complaît à
+                    transgresser toutes les limites : aussi bien dans Aristote que dans Copernic.
+                    C’est dans cette expérience intellectuelle de l’impensabilité de toute <hi rend="italic">limite ultime</hi> de l’univers que s’enracine l’infinitisme
+                    brunien. La métaphore de l’<hi rend="italic">envol</hi> devient, elle aussi, un
+                    véritable procédé intellectuel et non pas une simple figure de style pour
+                    comprendre cette impensabilité :</p>
+                <q rend="quotation">« Voici alors apparaître l’homme qui a franchi les airs,
+                    traversé le ciel, parcouru les étoiles, outrepassé les limites du monde, dissipé
+                    les murailles imaginaires des première, huitième, neuvième, dixième et autres
+                    sphères qui auraient pu leur être ajoutées selon de vains mathématiciens et
+                    suite à l’aveuglement des philosophes vulgaires. […] C’est lui qui avec les
+                    clefs de sa compétence a ouvert par ses recherches ceux des cloîtres de la
+                    vérité auxquels nous pouvions avoir accès. Il a mis à nu la nature, que des
+                    voiles enveloppaient ; il a donné des yeux aux taupes et rendu la lumière aux
+                    aveugles. […] Notre raison n’est plus entravée par les fers des huit, neuf et
+                    dix mobiles imaginaires avec leurs moteurs. Nous le savons : il n’y a qu’un
+                    ciel, une immense région éthérée où les magnifiques foyers lumineux conservent
+                    les distances qui les séparent au profit de la vie perpétuelle et de sa
+                    répartition. Ces corps flamboyants, les astres, sont les messagers de la gloire
+                    et de la majesté suprêmes de Dieu. Ils se découvrent à nous comme l’effet infini
+                    d’une cause infinie, comme le vrai et vivant vestige d’une énergie infinie<note type="standard" xml:id="ftn19" place="foot" n="19">
+            <p>
+                            <hi rend="small-caps">Bruno</hi>, <hi rend="italic">La cena de le
+                                ceneri</hi>, 1584 ; tr. fr. Y. Hersant, Paris, Les Belles Lettres,
+                            1994, <hi rend="italic">Dialogo Primo</hi>, p. 46-50.</p>
+          </note>. »</q>
+                <p xml:id="d1e785">L’infinité de l’Univers, c’est-à-dire de l’espace cosmique,
+                    devient la solution logique à ce problème :</p>
+                <q rend="quotation">« Ceci [c’est-à-dire un univers fini] est plus difficile à
+                    imaginer, que de penser l’univers infini et immense, car nous ne pouvons éviter
+                    le vide, si nous voulons poser l’univers fini<note type="standard" xml:id="ftn20" place="foot" n="20">
+            <p>
+                            <hi rend="small-caps">Bruno</hi>, <hi rend="italic">De l’infinito,
+                            </hi>1584 ; tr. fr. Cavaillé, Paris, Les Belles Lettres, 1995, <hi rend="italic">Dialogo Primo</hi>, p. 66.</p>
+          </note>. »</q>
+                <p xml:id="d1e803">Autrement dit, Bruno élargit et multiplie à l’infini le système
+                    global de Copernic. Chacune des « étoiles fixes » que nous percevons est, pour
+                    Bruno, un Soleil semblable au nôtre avec son cortège de planètes et de
+                    satellites ; et il ne convient pas de se limiter aux étoiles visibles, mais
+                    Bruno pense en outre à l’infinité des étoiles dont nous ne pouvons percevoir
+                    qu’une quantité infime en raison de notre situation locale dans l’Univers.
+                    L’Univers infini de Bruno est constitué d’une <hi rend="italic">infinité</hi> de
+                    mondes <hi rend="italic">finis</hi>, véritable miroir de l’infinité divine.
+                    L’infinité de Dieu est, cependant, différente de l’infinité de l’Univers, mais
+                    seul un Univers infini peut convenir raisonnablement à l’infinie puissance,
+                    sagesse et bonté de Dieu comme son expression sensible : l’infinité de l’Univers
+                    est « l’effet infini de la Cause infinie ».</p>
+                <p xml:id="d1e811">Est-ce à dire que Bruno attribue l’infinité de manière équivoque
+                    à Dieu et à l’Univers ? Certes, il est clair que rien ne peut être extérieur à
+                    l’Univers infini, puisque son infinité implique précisément qu’il n’ait pas
+                    d’Autre. Le Dieu de Bruno se caractérise à la fois par son <hi rend="italic">Unité </hi>et par son <hi rend="italic">immanence</hi> totale au sein de
+                    l’Univers infini :</p>
+                <q rend="quotation">« Dieu est infini dans l’infini, partout en toutes choses, ni
+                    au-dessus ni à l’extérieur mais totalement intime à toutes choses<note type="standard" xml:id="ftn21" place="foot" n="21">
+            <p>
+                            <hi rend="small-caps">Bruno</hi>, <hi rend="italic">De immenso</hi>,
+                            1591, Livre VIII, ch. X, in <hi rend="italic">Op. lat., </hi>I, 2,
+                            p. 312. C’est nous qui traduisons.</p>
+          </note>. »</q>
+                <p xml:id="d1e836">La théologie brunienne est solidaire de son ontologie et de sa
+                    cosmologie. L’infinité de l’Univers est comme dispersée dans cet « immense
+                    simulacre corporel<note type="standard" xml:id="ftn22" place="foot" n="22">
+            <p>
+                            <hi rend="small-caps">Bruno</hi>, <hi rend="italic">De immenso</hi>,
+                            Livre II, ch. XIII, in<hi rend="italic"> Op. lat., </hi>I, 1,
+                            p. 312.</p>
+          </note> » qui exprime et représente à sa manière l’infinité
+                    divine. L’univers, pourrait-on dire, participe de la perfection divine qui se
+                    reflète en lui, mais d’une façon seconde, dérivée, infiniment dispersée. D’autre
+                    part, chaque monde fini, chaque atome et chaque individu expriment
+                    respectivement <hi rend="italic">un</hi> des aspects infinis de l’être infini ;
+                    mais chacun d’eux étant enclos dans sa détermination distincte, il ne peut à lui
+                    seul épuiser la variété infinie de la totalité de l’être. Dieu c’est donc
+                    l’Unité de l’Être qui « s’explique » à travers l’immensité cosmique et la
+                    multiplicité infinie des mondes innombrables, et qui se « complique » dès lors
+                    que l’esprit remonte de cette multiplicité infinie des êtres à leur « Cause, à
+                    leur Principe et à l’Un ». Bruno emploie ici la terminologie de l’<hi rend="italic">explicatio</hi>-<hi rend="italic">complicatio</hi> qu’il
+                    emprunte à Nicolas de Cues, en lui rendant hommage. Pourtant, ce dernier ne
+                    cessait de clamer la transcendance de Dieu, alors que Bruno considère que Dieu
+                    est immanent à l’univers. Dieu assure l’Unité de l’Être, l’Uni-totalité de
+                    l’Univers, et finalement l’Unité de la pensée du Nolain dans l’immanence.</p>
+            </div>
+            <div type="div1" xml:id="d1e861">
+                <head subtype="level1" xml:id="d1e862">De la relativité physique à la généralisation
+                    du copernicianisme chez Galilée</head>
+                <p xml:id="d1e864">Le copernicianisme de Galilée a pris ses distances avec la lettre
+                    même du <hi rend="italic">De Revolutionibus </hi>de Copernic. Très tôt, Galilée
+                    rejeta l’existence de la sphère des fixes, à laquelle était resté très attaché
+                    le chanoine polonais, car il découvrit grâce aux observations du monde sidéral
+                    effectuées à l’aide de sa lunette que là où l’œil ne percevait aucun objet, son
+                    réfracteur pouvait en faire apparaître des myriades. En raisonnant par
+                    récurrence, Galilée pensait que si l’on pouvait se rendre sur l’une de ces
+                    étoiles (« télescopiques », en langage moderne), il ne manquerait pas de nous
+                    apparaître d’autres étoiles qui échappent aux lunettes situées sur la Terre en
+                    raison de leur trop grand éloignement. À partir du moment où les astronomes ont
+                    pu commencer à sonder quelque peu par des procédés optiques la troisième
+                    dimension du ciel, la sphère des fixes devint un simple moyen commode pour
+                    représenter la distribution des étoiles à partir d’un système de coordonnées
+                    angulaires équatoriales centré sur la Terre (ou sur le Soleil), mais elle finit
+                    par perdre toute réalité physique.</p>
+                <p xml:id="d1e869">En outre, cette apparente sphéricité de la « voûte céleste »
+                    n’est simplement que la projection du mouvement diurne de la Terre sur le fond
+                    du ciel nocturne, donc une simple illusion dès que l’on se place dans une
+                    perspective copernicienne. D’où l’insistance avec laquelle Galilée s’est attaché
+                    à expliquer les raisons <hi rend="italic">physiques</hi> de la relativité du
+                    mouvement. Il veut faire comprendre à Simplicio, le représentant du
+                    péripatétisme, qu’il est impossible de mettre expérimentalement en évidence le
+                    mouvement d’un système mécanique <hi rend="italic">à l’intérieur</hi> dudit
+                    système, car il peut être imperceptible : ce qui rendait parfaitement plausible
+                    le système héliocentrique de Copernic. Pour montrer que le système
+                    héliocentrique est non seulement possible, mais aussi <hi rend="italic">réel</hi>, Galilée a dû recourir à d’autres preuves (dont certaines sont
+                    d’ordre optique comme les phases de Vénus) sans détenir pour autant une preuve
+                    décisive.</p>
+                <p xml:id="d1e880">Par ailleurs, Copernic avait déjà pris expressément conscience
+                    que son géocinétisme soulevait nécessairement la question de savoir si l’Univers
+                    est fini ou infini. Or, cette question conduisait à mettre en doute l’existence
+                    de la sphère des fixes qu’il venait « d’immobiliser ». C’est précisément cette
+                    même question que souleva Galilée avec ses grands talents de polémiste dans son
+                        <hi rend="italic">Dialogo</hi> de 1632, en insistant sur le fait que la
+                    preuve de la finité du cosmos aristotélicien était réduite à néant dans la
+                    perspective héliocentrique qui immobilise la sphère des étoiles fixes :</p>
+                <q rend="quotation">« S<hi rend="small-caps">implicio</hi>. – Si en effet le globe
+                    terrestre doit se mouvoir en un an sur la circonférence d’un cercle,
+                    c’est-à-dire sur le zodiaque, il ne peut pas en même temps être le centre de ce
+                    zodiaque ; or Aristote, Ptolémée et d’autres ont prouvé de bien des façons que
+                    la Terre est en ce centre. […] Par centre, j’entends celui de l’Univers, celui
+                    du monde, celui de la sphère étoilée, celui du ciel.</q>
+                <q rend="quotation">S<hi rend="small-caps">alviati</hi>. – Je pourrais très
+                    raisonnablement soulever la question de l’existence d’un tel centre dans la
+                    nature : ni vous ni personne n’a jamais prouvé que le monde est fini et possède
+                    une forme, ou bien qu’il est infini et sans terme. […]</q>
+                <q rend="quotation">S<hi rend="small-caps">implicio</hi>. – Que le monde soit fini,
+                    limité et sphérique, Aristote le prouve par cent démonstrations.</q>
+                <q rend="quotation">S<hi rend="small-caps">alviati</hi>. – Mais elles se réduisent
+                    toutes à une seule qui, elle, se réduit à rien. Si en effet je nie son
+                    hypothèse, que l’Univers est mobile, alors toutes ses démonstrations
+                    s’écroulent, car il ne prouve la finitude et la limitation que d’un Univers
+                    mobile. Mais, pour ne pas multiplier ces disputes, je vous concède pour
+                    l’instant que le monde est fini et sphérique et qu’il a un centre ; puisque
+                    c’est de sa mobilité qu’on conclut à sa forme et à son centre. […] Or,
+                    dites-moi, Signor Simplicio, si Aristote s’était trouvé contraint par des
+                    expériences très évidentes de changer en partie la disposition et l’ordre qu’il
+                    avait retenus pour l’Univers et d’avouer qu’il s’est trompé sur l’une de ces
+                    deux propositions – à savoir que la Terre est au centre et que la sphère étoilée
+                    se meut autour de ce centre –, lequel des deux aveux croyez-vous qu’il aurait
+                    choisi de faire<note type="standard" xml:id="ftn23" place="foot" n="23">
+            <p>
+                            <hi rend="small-caps">
+                <hi xml:lang="en">Galilée</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Dialogo
+                                    sopra i due massimi sistemi del mondo</hi>
+              </hi>
+              <hi xml:lang="en">, 1632, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Giornata
+                                    terza</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Opere</hi>
+              </hi>
+              <hi xml:lang="en">, Ed. Nat., VII,
+                                p. 347-348 ; trad. fr. </hi>De Gandt, Paris, Seuil, 1992,
+                            p. 324-325.</p>
+          </note> ? »</q>
+                <p xml:id="d1e931">Tandis que Copernic préférait conserver l’existence de la sphère
+                    des fixes, Galilée pour sa part la niait, du moins sur le plan physique. À cet
+                    égard, Galilée était plus proche de Bruno que de Copernic, bien qu’il n’existe
+                    absolument aucun passage de son œuvre ni de sa correspondance qui cite ou évoque
+                    la pensée du Nolain, même quand Kepler lui demande expressément son sentiment à
+                    ce sujet<note type="standard" xml:id="ftn24" place="foot" n="24">
+            <p> Tel est
+                            bien le cas de la <hi rend="italic">Dissertatio cum Nuncio Sidereo</hi>
+                            de Kepler qui pose des questions précises à Galilée à propos de
+                            Mélissos, Démocrite, Edmond Bruce et Giordano Bruno. Dans ses réponses
+                            Galilée ne dit mot sur le Nolain : cf. <hi rend="italic">Opere</hi>, Ed.
+                            Nat., III, p. 106-123 et X, p. 320-335.</p>
+          </note>. En effet, mieux
+                    valait être prudent et faire silence à propos d’un auteur dont l’œuvre entière
+                    avait été mise à l’Index et qui a fini sur le bûcher de l’Inquisition. Galilée,
+                    à l’instar du Nolain, dénonçait le mouvement apparent de la « sphère des fixes »
+                    et l’existence même de cette sphère comme deux illusions du même ordre. Il est
+                    vrai que Bruno ne disposait pas des observations optiques de Galilée, mais il
+                    s’était appuyé sur les découvertes faites par Tycho Brahe au sujet des comètes
+                    et dont les conséquences venaient de « volatiliser » toutes les sphères
+                    cristallines emboîtées (encore chères à Copernic) à l’exception de la sphère des
+                    fixes. En revanche, Galilée, qui avait nié l’existence « supralunaire » des
+                    comètes, ne pouvait s’appuyer comme le Nolain sur les arguments de Tycho qu’il
+                    préférait ignorer purement et simplement. Puisque l’existence de la sphère
+                    « stellifère » n’était qu’une illusion pour Galilée, il lui fallait aussi
+                    écarter la notion tenace de <hi rend="italic">centre de l’univers</hi> et, par
+                    la même occasion, toute la cosmologie péripatéticienne traditionnelle, comme il
+                    le rappelle dans une lettre au savant aristotélicien Fortunio Liceti :</p>
+                <q rend="quotation">« Le problème du centre de l’Univers et la question de savoir si
+                    la Terre y est située sont des moins considérables en astronomie, attendu que
+                    les meilleurs astronomes se contentent de supposer que le globe terrestre est
+                    d’une grandeur infime en comparaison de l’orbe étoilé et, quant à sa situation,
+                    qu’il se trouve, ou au centre de la révolution diurne de cet orbe, ou séparé
+                    dudit centre par une distance négligeable. Mieux vaut donc s’épargner l’illusion
+                    de pouvoir démontrer, ou que les étoiles fixes sont logées dans un espace
+                    circonscrit par une surface sphérique, ou qu’elles sont situées en tel ou tel
+                    lieu et immédiatement éloignées les unes des autres. Aussi bien, vouloir
+                    assigner un centre à cet espace dont on ne sait et dont on ne peut savoir quelle
+                    est sa forme ni même s’il a forme et figure, c’est là, à mon sentiment, une
+                    entreprise oiseuse et vaine ; et croire que la Terre est constituée en un centre
+                    dont on ne sait s’il existe au monde est, comme je l’ai dit, une entreprise
+                        décevante<note type="standard" xml:id="ftn25" place="foot" n="25">
+            <p>
+                            <hi rend="small-caps">Galilée</hi>, Lettre à Fortunio Liceti de janvier
+                            1641, <hi rend="italic">Opere</hi>, Ed. Nat., XVIII, p. 293-294 ; tr.
+                            fr. P. H. Michel in <hi rend="italic">Galilée : Dialogues et Lettres
+                                choisies</hi>, Paris, Hermann, 1966, p. 428.</p>
+          </note>. »</q>
+                <p xml:id="d1e963">Du reste, l’idée de l’incommensurabilité des dimensions du globe
+                    terrestre avec celles de la sphère des fixes était déjà communément reçue chez
+                    les astronomes formés à l’École de Ptolémée. C’est d’ailleurs ce qu’enseignait
+                    Galilée lui-même dans son manuel de cosmographie (encore entièrement
+                    ptoléméen) : le <hi rend="italic">Trattato della Sfera</hi> de 1597. Ainsi, pour
+                    démontrer que « le globe terrestre est une masse insensible en comparaison du
+                    Ciel », Galilée s’appuyait sur quatre arguments dont l’un des plus convaincants,
+                    qui figure aussi dans l’<hi rend="italic">Almageste</hi> de Ptolémée, faisait
+                    valoir que si la Terre possédait des dimensions notables par rapport au Ciel,
+                    « nous ne pourrions voir la moitié de celui-ci, mais une portion nettement
+                        inférieure<note type="standard" xml:id="ftn26" place="foot" n="26">
+            <p>
+                            <hi rend="small-caps">Galilée</hi>, <hi rend="italic">Trattato della
+                                Sfera ovvero Cosmografia</hi>, 1597, in <hi rend="italic">Opere</hi>, Ed. Nat., II, p. 221-222 : <hi rend="italic">Che la Terra
+                                sia d’insensibil grandezza in comparazione del cielo. Esser di mole
+                                insensibile il globo terrestre paragonato col cielo, lo demostrano…
+                                ragioni… La prima è, che se la terra fusse di notabil grandezza
+                                rispetto alla sfera stellata, noi non potremmo vedere la metà del
+                                cielo, ma parte sensibilmente minore…</hi> Notons, toutefois, que
+                            cet argument avait permis à Galilée d’affirmer que la Terre était au
+                            centre de l’Univers (ce qu’il ne croyait nullement depuis au moins deux
+                            ans).</p>
+          </note> ». Or, la suite du texte de la lettre à Fortunio
+                    Liceti, qui évoquait l’éventualité copernicienne d’une Terre orbitant autour du
+                    Soleil, montrait que la distance de la Terre au Soleil (donc, le rayon de
+                    l’orbite terrestre annuelle) est également une grandeur insensible par rapport
+                    aux dimensions de la sphère stellifère. Ce qui revient à dire qu’il est stérile
+                    de chercher à situer le centre d’une sphère dont on ignore les dimensions, parce
+                    que le rayon de la Terre, aussi bien que le rayon de son orbite annuelle, ne
+                    constituent pas des bases suffisamment grandes pour trianguler une distance
+                    stellaire. Dans ce cas, la trigonométrie ne nous est d’aucun secours, puisque
+                    nous ne disposons d’aucune parallaxe stellaire annuelle. Tycho Brahe le savait
+                    fort bien, et c’est d’ailleurs l’une des raisons qui l’avaient conduit à
+                    abandonner le système copernicien pour établir à sa place un système
+                    géo-héliocentrique. Galilée, pour sa part, préférait abandonner l’existence de
+                    la sphère des fixes pour conserver l’Univers déjà « immensément » agrandi par
+                    Copernic. Mais, contrairement à Copernic, Galilée laissait ouverte la question
+                    de savoir si l’Univers possède ou non une forme ; c’est même pour cette raison
+                    qu’il préférait parler d’« espace<note type="standard" xml:id="ftn27" place="foot" n="27">
+            <p> Les termes originaux de <hi rend="small-caps">Galilée</hi> sont les suivants : <hi rend="italic">Parimente il
+                                voler assegnar centro a quello spazio che non si sa nè si puo sapere
+                                quale sia la sua figura, nè pure se egli di qualche figura sia
+                                figurato, è impresa, al mio parere, supervacanea e vana.</hi> Cf.
+                                <hi rend="italic">Opere</hi>, Ed. Nat., XVIII,
+                        p. 293-294.</p>
+          </note> » <hi rend="italic">(spazio) </hi>plutôt que de ciel,
+                    puisque la voûte apparente de celui-ci n’est désormais qu’un effet de
+                    perspective dû à notre situation <hi rend="italic">locale</hi> d’observateurs
+                    terrestres.</p>
+                <p xml:id="d1e1010">En outre, Galilée affirmait, tout comme le fit Bruno dès 1584,
+                    que toutes les étoiles sont des Soleils en tous points semblables au nôtre, ce
+                    qui n’exclut nullement qu’elles puissent être à leur tour le centre de systèmes
+                    planétaires comparables à notre système solaire. Galilée considérait ainsi que
+                    l’univers comprend en lui une pluralité innombrable de systèmes coperniciens,
+                    bien qu’il ne puisse expliquer comment les étoiles fixes peuvent demeurer en
+                    suspens dans l’espace cosmique :</p>
+                <q rend="quotation">« Vous voyez aussi, dit Salviati, combien il convient mieux
+                    d’ôter à l’Univers le mouvement vertigineux en vingt-quatre heures et de
+                    permettre aux étoiles qui sont autant de Soleils de jouir comme notre Soleil
+                    d’un perpétuel repos. Voyez comme il est facile, dans cette première ébauche, de
+                    rendre raison des apparences si imposantes des corps célestes<note type="standard" xml:id="ftn28" place="foot" n="28">
+            <p>
+                            <hi rend="small-caps">Galilée</hi>, <hi rend="italic">Dialogo sopra i
+                                due massimi sistemi del mondo</hi>, 1632, <hi rend="italic">Giornata
+                                terza</hi>, <hi rend="italic">Opere</hi>, Ed. Nat., VII, p. 354 ;
+                            trad. fr. De Gandt, Paris, Seuil, 1992, p. 330 :<hi rend="italic">
+                                Vedete poi quanto acconciamente vien levato dall’universo il
+                                precipitosissimo moto delle 24 ore, e come </hi>le stelle fisse, che
+                            sono tanti Soli<hi rend="italic">, conforme al nostro Sole godono una
+                                perpetua quiete. Vedete in oltre quanta agevolezza si trovi in
+                                questo primo abozzamento, per render le ragioni di apparenze tanto
+                                grandi ne’ corpi celesti.</hi> C’est nous qui
+                    soulignons.</p>
+          </note>. »</q>
+                <p xml:id="d1e1038">Ce qui nous importe le plus ici, c’est que Galilée ait admis non
+                    seulement l’immensité de l’espace cosmique, mais aussi l’existence d’une
+                    quantité innombrable d’étoiles semblables à notre Soleil. Certes, on pourrait
+                    objecter que ce n’est là qu’une façon de parler et de laisser ouverte la
+                    question de la finité ou de l’infinité de l’Univers en se gardant bien (au moins
+                    par prudence) d’essayer de la trancher. En fait, si l’on examine soigneusement
+                    le texte du <hi rend="italic">Dialogo</hi>, on découvre un passage de la <hi rend="italic">Giornata terza</hi> qui a des résonances fortement bruniennes
+                    (comme l’a remarqué justement M. Clavelin<note type="standard" xml:id="ftn29" place="foot" n="29">
+            <p> M. <hi rend="small-caps">Clavelin</hi>, <hi rend="italic">La philosophie naturelle de Galilée</hi>, Paris,
+                            Colin, 1968, II<hi rend="sup">e</hi> partie, p. 216 et note 101 : « D’où
+                            l’inclination dont Galilée témoigne à certains moments pour une
+                            interprétation infinitiste, soit qu’il compare comme Bruno les étoiles à
+                            autant de Soleils, soit qu’il évoque ce point de “l’espace infini” d’où
+                            la sphère des fixes de l’astronomie ptoléméenne ne paraît pas plus
+                            grande qu’une seule étoile vue de la Terre. »</p>
+          </note>), tant sur le
+                    plan du vocabulaire que de l’argumentation, en ce qu’elle relativise les termes
+                    de grand et de petit :</p>
+                <q rend="quotation">« Je dis que grand, petit, immense, très petit <hi rend="italic">(grande, piccolo, immenso, minimo)</hi> etc., ne sont pas des termes
+                    absolus, mais relatifs ; la même chose, quand on la compare à des choses
+                    différentes, pourra être dite tantôt immense, tantôt plus que petite,
+                    imperceptible. Dans ces conditions, je demande par rapport à quoi la sphère de
+                    Copernic est déclarée trop vaste. À mon avis, on ne peut la comparer et la dire
+                    trop vaste que par rapport à une autre chose du même genre. […] Si à chaque fixe
+                    on devait attribuer pour la contenir autant d’espace dans le monde [s. e. que
+                    les sphères de Jupiter et de Saturne], il faudrait que l’orbe qui contiendrait
+                    leur multitude innombrable soit des milliers et des milliers de fois plus grand
+                    que celui qui suffit à Copernic. Ne dites-vous pas aussi d’une étoile fixe
+                    qu’elle est très petite (et même je veux parler des étoiles les plus visibles et
+                    non de celles qui échappent à notre vue) ? Si on les dit très petites, c’est par
+                    rapport à l’espace qui les entoure. Si toute la sphère étoilée n’était qu’un
+                    seul corps brillant, qui ne comprendra que, dans l’espace infini <hi rend="italic">(nello spazio infinito)</hi>, on peut assigner une distance
+                    assez grande pour que cette sphère lumineuse paraisse aussi petite, et même
+                    plus, qu’une étoile fixe vue maintenant de la Terre ? On considérerait donc
+                    comme petit ce qu’actuellement on dit immensément grand<note type="standard" xml:id="ftn30" place="foot" n="30">
+            <p>
+                            <hi rend="small-caps">Galilée</hi>, <hi rend="italic">Dialogo sopra i
+                                due massimi sistemi del mondo</hi>, 1632, <hi rend="italic">Giornata
+                                terza</hi>, in <hi rend="italic">Opere</hi>, Ed. Nat., VII,
+                            p. 396-397 ; trad. fr. De Gandt, Paris, Seuil, 1992,
+                        p. 364-365.</p>
+          </note>. »</q>
+                <p xml:id="d1e1085">Tout d’abord, cette <hi rend="italic">relativisation</hi> des
+                    termes de grand et de petit, d’immense et de minimum est l’un des thèmes
+                    essentiels de Bruno pour anéantir l’absoluité des déterminations cosmologiques
+                    qu’impliquait immanquablement le finitisme aristotélicien. Cependant, malgré ces
+                    ressemblances frappantes entre les propos de Galilée et ceux du Nolain, leurs
+                    intentions respectives les séparent ici profondément. Tandis que Bruno
+                    s’installait d’emblée dans une perspective infinitiste à partir de laquelle il
+                    montrait les inconséquences du finitisme cosmologique d’Aristote, Galilée ne
+                    considérait nullement l’infinité de l’univers comme une évidence première, mais
+                    comme une simple <hi rend="italic">quaestio disputata</hi> parmi d’autres. De
+                    plus, Galilée avait écarté l’idée naïve des péripatéticiens d’après laquelle
+                    tout devrait être ordonné en fonction de la Terre et de l’homme. D’ailleurs,
+                    l’ignorance où nous sommes de l’utilité que peuvent présenter les planètes
+                    lointaines, les distances interstellaires énormes et l’immensité de l’Univers
+                    copernicien ne sauraient être un argument suffisant pour les récuser ! Galilée a
+                    même décuplé la puissance de cet argument en soulignant que si l’univers de
+                    Copernic est bien plus grand que celui d’Aristote et de Ptolémée, on ne peut
+                    s’empêcher d’en concevoir un autre qui soit encore incomparablement plus grand !
+                    En effet, chacune des étoiles visibles à l’œil nu représente pour Galilée autant
+                    de systèmes coperniciens avec leurs planètes respectives, sans oublier les
+                    étoiles innombrables qui n’apparaissent qu’à la lunette, car « il y en a cent
+                    fois autant que nous ne pouvons voir<note type="standard" xml:id="ftn31" place="foot" n="31">
+            <p>
+                            <hi rend="small-caps">Galilée</hi>, <hi rend="italic">op. cit.</hi>, <hi rend="italic">Giornata Terza</hi>, <hi rend="italic">Opere</hi>, Ed.
+                            Nat., VII, p. 398 ; trad. fr. De Gandt, Paris, Seuil, 1992, p. 366 : <hi rend="italic">E cento volte tante ve ne sono del tutto a noi
+                                invisibili.</hi>
+            </p>
+          </note> ». Bref, cet accroissement
+                    incommensurable des dimensions de l’univers anéantit l’idée qu’un ordre cosmique
+                    implique nécessairement un système clos où toutes ses parties doivent être
+                    justement proportionnées entre elles. C’est la voie ouverte au thème du ciron
+                    avant Pascal, à celui des <hi rend="italic">Voyages de Gulliver</hi> avant
+                        Swift<hi rend="italic"> </hi>et à celui de <hi rend="italic">Micromégas</hi>
+                    avant Voltaire. Toutefois, s’il est vrai que dans l’infini les notions de plus
+                    grand, de plus petit, d’égal et d’inégal perdent toute leur pertinence, est-ce à
+                    dire que Galilée soit passé dans le camp infinitiste en sautant par-dessus
+                    l’abîme qui sépare conceptuellement l’immensité de l’infinité proprement
+                    dite ?</p>
+                <p xml:id="d1e1122">Certes, Galilée n’ignorait pas les paradoxes qu’implique la
+                    notion d’infini si on l’emploie sans précautions, car il avait commencé à
+                    rédiger dès 1610 un ouvrage sur le problème de la « composition du continu » qui
+                    ne vit jamais le jour, mais qui fut réutilisé dans ses <hi rend="italic">Discorsi e dimostrazioni matematiche</hi> de 1638. Loin de se complaire
+                    dans ces paradoxes, Galilée s’était soucié de montrer qu’il existe une
+                    différence radicale entre les propriétés du fini et de l’infini, d’où il suit
+                    que tous les paradoxes de l’infini naissent justement de l’ignorance de cette
+                    différence radicale. Donc, si l’on veut échapper à toutes les difficultés,
+                    apories et absurdités qui accompagnent l’idée d’infini, il faut exclure du
+                    traitement de l’infini tous les prédicats qui ne conviennent qu’au fini, comme
+                    le nombre, la mesure et surtout les concepts comparatifs d’égalité et
+                    d’inégalité, de plus grand et de plus petit.</p>
+                <p xml:id="d1e1127">Les Anciens avaient préféré éliminer l’infini (en le contournant
+                    à l’aide d’expédients potentialistes<note type="standard" xml:id="ftn32" place="foot" n="32">
+            <p> Je pense ici, par exemple, au concept de quantité
+                            « aussi grande que l’on voudra ». Ainsi, Aristote concluait dans son
+                            étude du concept d’infini, in <hi rend="italic">Physique</hi>, III, 7,
+                            207b 2-13, tr. fr. H. Carteron, Paris, Belles Lettres, t. 1,
+                            p. 107-108 : « Les considérations des mathématiciens, en supprimant
+                            l’infini qui existerait en acte dans le sens de l’accroissement, […]
+                            n’ont pas besoin et ne font point usage de l’infini, mais seulement de
+                            grandeurs aussi grandes qu’ils voudront, mais limitées. »</p>
+          </note>)
+                    pour sauvegarder la logique traditionnelle, tandis que Galilée pour sa part
+                    avait préféré <hi rend="italic">limiter</hi> le champ d’application légitime de
+                    celle-ci pour ménager une place à l’infini. En effet, puisque notre entendement
+                    est fini, nous ne disposons que d’une approche <hi rend="italic">négative</hi>
+                    de l’infini. Pour éviter les paradoxes de l’infini, il faut nous abstenir : 1°)
+                    de comparer deux infinis et 2°) de comparer le fini et l’infini. Si nous
+                    respectons cette limitation dans l’emploi de nos facultés cognitives, plus
+                    aucune absurdité ne saurait désormais venir miner notre réflexion sur
+                    l’infini :</p>
+                <q rend="quotation">« <hi rend="small-caps">Salviati</hi> : Ainsi, de votre
+                    ingénieux discours, il résulte que le plus grand, le plus petit et l’égal sont
+                    des attributs inapplicables non seulement aux infinis, mais même aux infinis et
+                    aux finis comparés entre eux<note type="standard" xml:id="ftn33" place="foot" n="33">
+            <p>
+                            <hi rend="small-caps">Galilée</hi>, <hi rend="italic">Discorsi e
+                                dimostrazioni matematiche intorno a due nuove scienze attenenti alla
+                                meccanica</hi>, Leyde, 1638, ed. Nat., VIII, p. 79-80 ; tr. fr. P.
+                            H. Michel in <hi rend="italic">Galilée : Dialogues et Lettres
+                                choisies</hi>, Paris, Hermann, 1966, p. 258.</p>
+          </note>. »</q>
+                <p xml:id="d1e1162">En somme, Galilée est prêt à admettre l’existence de quelque
+                    chose qui échappe à la puissance de notre faculté de comprendre, alors que pour
+                    le péripatéticien Simplicio il suffit qu’une notion nous soit incompréhensible
+                    pour que nous soyons assurés de sa non-existence. Simplicio faisait de l’esprit
+                    humain la mesure de ce qui est, de ce qui peut être et de ce qui n’est pas. Pour
+                    Galilée, c’est Dieu seul, dont la puissance et l’omniscience sont infinies, qui
+                    peut vraiment décider de ce qui est ou de ce qui n’est pas<note type="standard" xml:id="ftn34" place="foot" n="34">
+            <p>
+                            <hi rend="small-caps">Galilée</hi>, <hi rend="italic">Dialogo</hi>,
+                            1632, <hi rend="italic">Giornata terza</hi>, <hi rend="italic">Opere</hi>, Ed. Nat., VII, p. 397 ; trad. fr. De Gandt, Paris,
+                            Seuil, 1992, p. 365 : « <hi rend="small-caps">Sagredo</hi> – Quelle
+                            énorme ineptie : ils [s. e. les Péripatéticiens] veulent que Dieu ait
+                            fait l’Univers proportionné à la faible capacité de leur raison plutôt
+                            qu’à sa puissance immense et même infinie ! »</p>
+          </note>. Tel était bien
+                    le nouvel état d’esprit propre à Galilée lorsqu’il en vint à se demander si
+                    l’univers est fini ou infini.</p>
+                <p xml:id="d1e1184">Nombre de commentateurs furent frappés par l’extrême prudence de
+                    Galilée sur la question de l’infinité de l’univers. Il est vrai que
+                    l’observation ne permet nullement de trancher en faveur du fini ou de l’infini.
+                    La lunette montre seulement qu’il existe bien plus d’étoiles que ce que nos yeux
+                    nous permettent d’apercevoir : notamment la profusion incroyable d’étoiles que
+                    contient la Voie lactée. La lunette de Galilée lui donna l’impression que le
+                    monde sidéral était dépourvu de forme propre et que l’espace est d’une
+                    profondeur insondable, comme il le confia à Francesco Ingoli, le Secrétaire de
+                    la Congrégation <hi rend="italic">De propaganda fide</hi> :</p>
+                <q rend="quotation">« Ni vous ni personne d’autre au monde ne sait ni ne peut
+                    humainement savoir non seulement quelle est la figure [de l’Univers], ni même
+                    s’il possède une quelconque figure<note type="standard" xml:id="ftn35" place="foot" n="35">
+            <p> Lettre de <hi rend="small-caps">Galilée</hi> à
+                            Ingoli de 1624, in <hi rend="italic">Opere</hi>, Ed. Nat., VI, p. 518 :
+                                <hi rend="italic">Nè voi nè altro uomo del mondo sappia o possa
+                                umanamente sapere, non solo qual sia la figura sua, ma se egli ha
+                                figura veruna.</hi>
+            </p>
+          </note>. »</q>
+                <p xml:id="d1e1205">Galilée était prêt à admettre l’éventualité que l’Univers soit
+                    infini, puisqu’il savait qu’il venait de détruire le principal argument de la
+                    cosmologie traditionnelle en faveur du fini en adoptant le système
+                    héliocentrique qui immobilise l’armée des étoiles fixes. En effet, pour
+                    Aristote, ce qui est infini ne peut tourner ; or, il est manifeste que le ciel
+                    tourne, donc il est limité. Or, Galilée, à la suite de Copernic, attribuait à la
+                    Terre le mouvement apparent du ciel, ce qui réduit à néant l’option finitiste
+                    d’Aristote.</p>
+                <p xml:id="d1e1207">En outre, une lettre de Galilée à Fortunio Liceti présentait un
+                    tout nouvel argument assez original en faveur d’une conception infinitiste de
+                    l’univers qui s’appuyait sur la théorie de la connaissance :</p>
+                <q rend="quotation">« Les raisons qui furent alléguées en faveur d’un parti ou de
+                    l’autre [sur la grandeur finie ou infinie de l’Univers] sont très subtiles, mais
+                    dans mon cerveau ni les unes ni les autres n’aboutissent à des conclusions
+                    nécessaires, en sorte que je reste dans le doute en me demandant laquelle de ces
+                    deux assertions est vraie. Toutefois, un seul argument, qui m’est personnel,
+                    m’incline plutôt vers l’infini que vers le fini <hi rend="italic">(un solo mio
+                        particolare discorso m’inclina più all’infinito che al terminato)</hi>, vu
+                    que je ne me l’imagine ni ne peux me l’imaginer ni limité ni illimité et infini.
+                    Et puisque l’infini, en raison de sa nature propre, ne peut être compris par
+                    notre intellect limité, ce qui ne se produit pas dans le cas de ce qui est fini
+                    et enclos à l’intérieur d’une limite, je dois référer mon incapacité de
+                    comprendre plutôt à l’infinité qu’à la finité dans laquelle il n’y a pas à
+                    chercher de raison pour son incompréhensibilité. Mais c’est là une de ces
+                    questions, comme l’affirme volontiers votre Excellence, heureusement
+                    inexplicables par des raisonnements humains, et peut-être semblables à celles
+                    qui ont trait à la prédestination, au libre-arbitre et aux autres où seules les
+                    Pages Sacrées et les divines assertions peuvent pieusement nous apaiser<note type="standard" xml:id="ftn36" place="foot" n="36">
+            <p>
+                            <hi rend="small-caps">Galilée</hi>, lettre à Fortunio Liceti du 24
+                            septembre 1639, <hi rend="italic">Opere</hi>, Ed. Nat., XVIII,
+                            p. 106.</p>
+          </note>. »</q>
+                <p xml:id="d1e1225">L’argument, si l’on peut s’exprimer ainsi, ne vaut pas <hi rend="italic">kat’alètheian</hi> mais seulement <hi rend="italic">kat’anthrôpon</hi>, c’est-à-dire qu’il ne tranche pas selon la vérité de la
+                    chose, mais uniquement par rapport aux moyens limités dont nous disposons pour
+                    appréhender celle-ci. Si nous suivons de très près le texte, nous constatons que
+                    Galilée suit une démarche <hi rend="italic">apagogique</hi>, c’est-à-dire par
+                    l’absurde. En effet, il pose qu’il lui est également impossible d’imaginer un
+                    univers fini et un Univers infini. Cela signifie que l’infini échappe par
+                    définition, ou par principe, aux capacités limitées de notre imagination et de
+                    notre entendement. En revanche, ce qui est moins évident, c’est que Galilée ne
+                    se puisse représenter un univers fini : peut-être parce qu’il peut toujours se
+                    figurer d’autres étoiles au-delà de ses limites, comme on vient de le voir. Bien
+                    qu’il ne nous donne aucune indication supplémentaire, il semble que l’idée d’un
+                    univers fini, mais qui ne serait pourtant limité par rien, soit contradictoire.
+                    Raisonnant par l’absurde, Galilée montre seulement que si l’Univers était fini,
+                    son entendement également limité devrait pouvoir le comprendre, ce qui n’est pas
+                    le cas. Il ne reste plus alors qu’une seule possibilité logique : il est donc
+                    tout à fait compréhensible que l’incompréhensibilité de l’Univers soit due à son
+                        <hi rend="italic">infinité</hi>, attendu que l’infinité est par nature
+                    incompréhensible à un entendement fini. L’argument de Galilée, de forme purement
+                        <hi rend="italic">négative</hi>, a réussi à surmonter la balance entre le
+                    fini et l’infini tout en débouchant sur une sorte de « docte ignorance ». Que
+                    l’infini reste pour nous incompréhensible, cela ne saurait exclure que l’univers
+                    soit en lui-même infini.</p>
+                <p xml:id="d1e1242">Contrairement à Bruno, Galilée ne prétend nullement que l’infini
+                    soit accessible en quelque manière à notre esprit fini, mais il admet volontiers
+                    que ce qui nous dépasse (comme l’idée d’infini) puisse exister. Mais, absolument
+                    parlant, Galilée confesse prudemment que ce problème de l’infinité cosmique
+                    restera à jamais insoluble pour l’humanité et qu’il est donc préférable de s’en
+                    remettre sur ce point aux enseignements de la révélation. C’est une attitude
+                    fort habile pour la tranquillité personnelle du savant, mais on peut
+                    légitimement se demander si la révélation apporte une réponse. Si l’on en croit
+                    l’Évêque Tempier avec ses interdits de 1277, l’Écriture et la théologie nous
+                    enjoignent de croire, contrairement à ce que prétendaient les Péripatéticiens
+                    médiévaux, que Dieu, en vertu de sa toute-puissance, a pu créer une infinité de
+                    mondes. En se déclarant soumis à l’autorité de l’Église et de l’Écriture,
+                    Galilée en revenait, <hi rend="italic">ironiquement</hi>, à l’argument de
+                    Sagredo suivant lequel : « Dieu a fait l’Univers… proportionné à sa puissance
+                    immense et même infinie. » Sur ce point, Galilée rejoint la position de Bruno,
+                    mais pour de toutes autres raisons.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

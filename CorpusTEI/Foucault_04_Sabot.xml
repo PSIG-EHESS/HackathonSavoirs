@@ -1,0 +1,1383 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="Foucault_04_Sabot">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Reconstituer un corpus à partir des
+        archives</title>
+        <title type="sub">Foucault et la phénoménologie au début des années
+        1950</title>
+        <title type="collection">L’archive Foucault à l’ère du numérique.
+        Fiches et fichiers dans la pratique philosophique. Sous la direction
+        de Laurent Dartigues et de Camille Noûs</title>
+        <author role="aut">
+          <forename>Philippe</forename>
+          <surname>Sabot</surname>
+          <idno type="IDREF">055755151</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2022">2022</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/ZFAK7UBI" type="conferencePaper" xml:lang="fre">
+          <analytic>
+            <title level="a">Reconstituer un corpus à partir des archives.
+            Foucault et la phénoménologie au début des années 1950</title>
+            <author>
+              <forename>Philippe</forename>
+              <surname>Sabot</surname>
+            </author>
+            <editor>
+              <forename>Laurent</forename>
+              <surname>Dartigues</surname>
+            </editor>
+            <editor>
+              <forename>Camille</forename>
+              <surname>Noûs</surname>
+            </editor>
+          </analytic>
+          <monogr>
+            <title type="conferenceName">L’archive Foucault à l’ère du
+            numérique. Fiches et fichiers dans la pratique
+            philosophique.</title>
+            <editor>
+              <forename>Jean-François</forename>
+              <surname>Bert</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <date>2022</date>
+              <biblScope unit="ordre">4</biblScope>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>Foucault</item>
+            <item>Husserl</item>
+            <item>phénoménologie</item>
+            <item>ontologie</item>
+            <item>monde</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>Foucault</item>
+            <item>Husserl</item>
+            <item>phenomenology</item>
+            <item>ontology</item>
+            <item>world</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1932">1932</date>
+          </term>
+          <term>
+            <date from="1953" to="1954" type="_temp">1953-1954</date>
+          </term>
+          <term>
+            <date from="1950" to="1959" type="_temp">années 1950</date>
+          </term>
+          <term>
+            <date from="1939-01-01" to="1939-01-31" type="_temp">janvier
+            1939</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-02-05T09:37:00" who="Agnès">Révision</change>
+      <change who="Sara Nadal">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Reconstituer un <hi rend="italic">corpus</hi>
+          à partir des archives</titlePart>
+          <titlePart type="sub">Foucault et la phénoménologie au début des
+          années 1950</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Philippe Sabot</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">Cet article propose de reconstituer, à partir des
+        fiches de lecture disponibles sur la plateforme FFL-EMAN, le dossier
+        phénoménologique établi par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Michel Foucault</persName> au début
+        des années <date type="_temp" when="1950">1950</date>. Ce dossier très
+        volumineux vient éclairer en particulier le projet de thèse rédigé en
+        <date from="1953" to="1954" type="_temp">1953-1954</date> et consacré
+        à la « notion de ‘Monde’ dans la phénoménologie ». En partant d’une
+        description des éléments les plus saillants de ce <hi rend="italic">corpus</hi> phénoménologique foucaldien, il est possible
+        d’interroger à nouveau frais le rapport singulier de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> à la
+        phénoménologie husserlienne, envisagée elle-même à partir des lectures
+        proposées par <persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName> et par
+        <persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Fink</persName>. Cette circulation
+        dans le fichier foucaldien permet ainsi, d’une part, de rendre compte
+        de l’orientation ontologique du manuscrit consacré à la « notion de
+        ‘Monde’ » et, d’autre part, de mieux cerner ce qui constitue aux yeux
+        de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> l’ambiguïté de la
+        position de <persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName>, qui
+        revendique pour la phénoménologie un double ancrage dans le monde et
+        dans le vécu existentiel.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e95">Cette contribution porte sur un manuscrit de
+        <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Michel Foucault</persName> datant du
+        début des <date from="1950" to="1959" type="_temp">années 1950</date>
+        et consacré à la phénoménologie de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Ce travail éditorial a fait l’objet d’une publication aux
+            Éditions du Seuil à l’automne 2021 (<hi rend="small-caps">Foucault</hi>, 2021b). Il s’inscrit dans la
+            série « Cours et travaux de Michel Foucault avant le Collège de
+            France » et a suivi la publication au printemps 2021 d’un autre
+            manuscrit inédit de Foucault consacré à <hi rend="italic">Ludwig
+            Binswanger et l’analyse existentielle</hi> (<hi rend="small-caps">Foucault</hi>, 2021a).</p>
+          </note>. Ce manuscrit inédit se trouve dans la boîte n<hi rend="sup">o</hi> 46 du fonds d’archives « <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Michel
+        Foucault</persName> » déposé à la Bibliothèque nationale de France
+        sous la cote NAF 28730. Il porte comme titre « Phénoménologie et
+        psychologie » et est daté par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> lui-même de
+        1953-1954. Prenant ce document d’archive comme objet du présent
+        article, il s’agit pourtant moins de le parcourir pour lui-même<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Cette présentation d’ensemble du manuscrit fait l’objet de la
+            « Situation » dans <hi rend="small-caps">Foucault</hi>, 2021b,
+            p. 365-399.</p>
+          </note> que de comprendre l’intérêt du recours aux fiches de lecture
+        qui forment le soubassement matériel de l’entreprise intellectuelle de
+        <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>.</p>
+        <p xml:id="d1e120">Se dessine ainsi un double enjeu pour notre propos.
+        D’abord, nous voudrions mieux identifier une pratique de mise en
+        fiches et d’archivage qui a certes accompagné l’ensemble du travail de
+        recherche de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> mais qui a pu se
+        modifier, se préciser, se redéfinir selon ses projets éditoriaux ou
+        d’enseignement. Comment se caractérise, au début des <date from="1950" to="1959" type="_temp">années 1950</date>, cette élaboration d’un
+        fichier de notes et de références plus ou moins développées, et
+        surtout comment connecter ce fichier au travail de recherche,
+        notamment pour ce qui concerne la phénoménologie husserlienne ? Est en
+        jeu ici à la fois l’articulation des dimensions matérielle et
+        intellectuelle du travail de Foucault, ressaisi à l’état naissant, et
+        l’articulation de ces deux dimensions dans notre propre démarche
+        éditoriale : quelle place accorder à ces archives dans l’édition
+        critique d’un manuscrit ?</p>
+        <p xml:id="d1e122">Un autre enjeu important concerne ce que l’on
+        pourrait nommer le rapport de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> à la
+        phénoménologie, à condition d’entendre par là non pas seulement une
+        espèce de position systématique et stable à l’égard de ce courant de
+        pensée mais une série d’évolutions complexes faites de continuités
+        souterraines et de ruptures explicites<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Voir à ce sujet les études proposées dans la revue <hi rend="italic">Les Études philosophiques</hi>, juillet 2013-3 :
+            « Foucault et la phénoménologie ». Voir également <hi rend="small-caps">Nalli</hi>, 2006.</p>
+          </note>. Notre ambition reste limitée par rapport à un examen
+        détaillé de ces évolutions. Dans le cadre de cette étude, il s’agira
+        surtout pour nous de cerner les contours de la phénoménologie telle
+        que Foucault se l’approprie au début des <date from="1950" to="1959" type="_temp">années 1950</date>, c’est-à-dire les contours de cette
+        interprétation de la phénoménologie qui ressortent à la fois des
+        positions affirmées dans le manuscrit de <date from="1953" to="1954" type="_temp">1953-1954</date> et des éléments de <hi rend="italic">corpus</hi> qui étayent ces positions et orientent en
+        réalité fortement la réflexion phénoménologique de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>. Dans cette
+        perspective, nous souhaitons montrer que les fiches de lecture,
+        rendues disponibles grâce au projet ANR « Foucault Fiches de lecture »
+        sur la plateforme FFL-EMAN<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>On trouve une présentation d’ensemble du projet « Foucault
+            Fiches de lecture » (FFL) à l’adresse suivante : <ref target="about:blank">
+                <hi rend="underline">http://eman-archives.org/Foucault-fiches/objectifs-projet</hi>
+              </ref>. Le projet FFL a été financé par l’ANR entre 2017 et
+            2020. Coordonné par Michel Senellart puis par Laurent Dartigues
+            (UMR Triangle, CNRS-ENS LSH/Lyon), ce projet a bénéficié également
+            des partenariats du CAPHÉS (CNRS-ENS/PSL) et de la Bibliothèque
+            nationale de France. Je tiens à remercier Elisabetta Basso et
+            Vincent Ventresque pour leur aide précieuse dans la préparation de
+            cette étude et de l’édition du manuscrit de Foucault sur
+            « Phénoménologie et psychologie ». Je remercie également Carolina
+            Verlengia pour son invitation à présenter les premiers résultats
+            de ce travail lors d’un séminaire organisé à l’ENS-LSH le 15 mars
+            2019.</p>
+          </note>, viennent éclairer d’un jour nouveau le profil
+        phénoménologique de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> en même temps
+        qu’elles offrent un témoignage sur l’importance prise par la référence
+        à la phénoménologie dans sa formation intellectuelle.</p>
+        <div type="section1" xml:id="d1e145">
+          <head subtype="level1" xml:id="d1e146">Le fichier phénoménologique
+          de Foucault</head>
+          <p xml:id="d1e148">Pour rendre compte du type d’opération matérielle
+          et intellectuelle que représente l’élaboration des fiches de lecture
+          consacrées par <persName ref="061404691" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> à la
+          phénoménologie, il convient de préciser en premier lieu la nature
+          des archives disponibles dans ce que l’on peut désigner comme le
+          dossier « <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName> ». Il est
+          possible de reconstituer ce dossier à partir des très nombreuses
+          notes et références de lecture rassemblées principalement dans la
+          boîte d’archives n<hi rend="sup">o</hi> 42<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Une simple recherche par mot-clé sur la plateforme EMAN fait
+              apparaître 346 fiches relatives à « Husserl », une grande partie
+              de ces fiches se trouvant dans la boîte n<hi rend="sup">o</hi> 42, où l’on trouve également, à la suite des
+              notes sur Husserl, des fiches portant sur Binswanger, la
+              psychiatrie phénoménologique et l’histoire de la psychologie et
+              de la psychanalyse. La première partie de la boîte n<hi rend="sup">o</hi> 42 est accessible à l’adresse suivante : <ref target="about:blank">
+                  <hi rend="underline">http://eman-archives.org/Foucault-fiches/collections/show/99</hi>
+                </ref>.</p>
+            </note>. Cet ensemble est lui-même composé de deux séries de
+          fiches.</p>
+          <p xml:id="d1e167">Il y a d’abord les fiches de lecture proprement
+          dites portant sur les ouvrages et les principaux textes de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>. Ces fiches sont
+          rassemblées dans une quinzaine de chemises qui constituent un
+          parcours très complet des grandes œuvres de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>, de la <hi rend="italic">Philosophie de l’arithmétique</hi> à la <hi rend="italic">Krisis</hi> en passant par les <hi rend="italic">Idées
+          directrices</hi>, les <hi rend="italic">Leçons sur la conscience
+          intime du temps</hi>, <hi rend="italic">Expérience et jugement</hi>,
+          <hi rend="italic">Logique formelle et logique transcendantale</hi>,
+          <hi rend="italic">Recherches logiques</hi>
+            <note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Les fiches de lecture de cette première série s’ordonnent aux
+              principaux ouvrages de Husserl que Foucault lit le plus souvent
+              dans leur langue originale et auxquels il consacre des
+              sous-dossiers spécifiques. Dans la boîte n<hi rend="sup">o</hi> 42, on trouve ainsi des chemises consacrées
+              successivement aux ouvrages suivants (les intitulés sont ceux de
+              Foucault) : <hi rend="italic">Ideen</hi> II ; <hi rend="italic">Beilage à Ideen</hi> II ; <hi rend="italic">Ideen</hi> III ; <hi rend="italic">Die Idee der
+              Phänomenologie </hi>; <hi rend="italic">Conscience du
+              temps </hi>; <hi rend="italic">Philosophie als strenge
+              Wissenschaft </hi>; <hi rend="italic">Logique formelle et
+              logique transcendantale </hi>; <hi rend="italic">Nachwort </hi>;
+              <hi rend="italic">Erfahrung und Urteil </hi>; <hi rend="italic">Écrits sur l’histoire</hi> (il s’agit
+              principalement de notes sur <hi rend="italic">Ursprung der
+              Geometrie</hi>) ; <hi rend="italic">Premiers écrits –
+              Philosophie der Arithmetik</hi> (1891), <hi rend="italic">Psychologische studien</hi> (1894), Compte-rendu
+              de Palagyi (1903) ; <hi rend="italic">Logische
+              Untersuchungen</hi>.</p>
+            </note>. Nous pouvons observer dans cette première série de fiches
+          de lecture le type de démarche et l’ambition que l’on retrouvera une
+          décennie plus tard dans le « Dossier préparatoire » des <hi rend="italic">Mots et les choses</hi>
+            <note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>La reconstitution du « Dossier préparatoire des <hi rend="italic">Mots et les choses</hi> » a fait l’objet du projet
+              ANR Corpus « La bibliothèque foucaldienne » (2008-2010), porté
+              par l’EHESS et l’ENS-LSH. On en trouve la présentation à
+              l’adresse suivante : <ref target="http://lbf-ehess.ens-lyon.fr/">
+                  <hi rend="underline">http://lbf-ehess.ens-lyon.fr/</hi>
+                </ref>. Sur l’articulation de ce dossier d’archives au projet
+              archéologique des <hi rend="italic">Mots et les choses</hi>,
+              voir <hi rend="small-caps">Sabot</hi>, 2016.</p>
+            </note>. Il s’agit alors, pour <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>,
+          de parcourir l’intégralité de l’archive d’une époque en vue d’en
+          constituer le <hi rend="italic">corpus</hi> et d’en étudier les
+          déclinaisons particulières : trame d’ensemble, dénivellations,
+          cohérence épistémique et réélaborations conceptuelles. Une
+          différence notable entre le dossier phénoménologique des <date from="1950" to="1959" type="_temp">années 1950</date> et le dossier
+          archéologique des <date from="1960" to="1969" type="_temp">années
+          1960</date> réside toutefois dans la restriction qu’impose ici
+          l’appropriation d’un <hi rend="italic">corpus</hi> associé à un nom
+          d’auteur (qui lui donne son unité et le découpe dans l’ordre des
+          discours), là où, dans le dossier préparatoire des <hi rend="italic">Mots et les choses, </hi>les mêmes auteurs, les mêmes
+          œuvres peuvent également être cités dans différents intercalaires,
+          plutôt constitués à partir de grands ensembles thématiques
+          (« Analyse des richesses », « Grammaire », « Histoire naturelle »,
+          « Homme », « Philosophie du langage ») et croisant approche par <hi rend="italic">corpus</hi> et approche historique. Le fichier
+          foucaldien fonctionne déjà au début des <date from="1950" to="1959" type="_temp">années 1950</date> sur le mode du recueil de citations,
+          mais il ne réalise pas d’emblée l’opération proprement archéologique
+          d’extraction, de soustraction, voire de fragmentation qui dénoue les
+          parentés premières (celles liées à l’auteur ou à l’œuvre en
+          particulier) pour réarticuler les archives du savoir (la masse de
+          choses dites et pensées) à l’archive d’une époque.</p>
+          <p xml:id="d1e273">Il est possible néanmoins de noter que cohabitent
+          des fiches portant de manière assez continue sur des œuvres ou des
+          extraits d’œuvre et des fiches thématiques, dans l’esprit de celles
+          qui composent le dossier des <hi rend="italic">Mots et les
+          choses</hi>, même s’il s’agit le plus souvent de thèmes associés à
+          une œuvre déterminée, et non pas, comme ce sera le cas plus tard, de
+          thèmes plus transversaux, permettant d’associer des citations issues
+          de textes différents. Dans le fichier « phénoménologique » de
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, on trouve
+          ainsi une chemise intitulée sobrement « <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName> »
+          et comportant 36 notices d’une ou plusieurs pages consacrées à des
+          entrées thématiques<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Cette chemise « Husserl » et les notices qui la composent
+              sont accessibles via la plateforme EMAN à l’adresse suivante :
+              <ref target="http://eman-archives.org/Foucault-fiches/collections/show/127">
+                  <hi rend="underline">http://eman-archives.org/Foucault-fiches/collections/show/127</hi>
+                </ref>.</p>
+            </note>. Mentionnons quelques-unes de ces thématiques : « Noèse et
+          noème », « Constitutions. Constitutions transcendantales », « La vie
+          et l’intentionnalité », « Doxa originaire et science »,
+          « L’antéprédicatif comme exigence d’une théorie des jugements »,
+          « La réflexion », « Transcendantal et transcendance », « La
+          conscience et le monde », « Le monde », « La phénoménologie comme
+          science », « L’évidence, fondement de la connaissance », « Le corps.
+          Non objectivité du corps », « <hi rend="italic">Umwelt</hi> », « La
+          perception », « Autrui et l’intersubjectivité », « La notion
+          d’objet. L’objet idéal », « L’intuition des essences. Sa
+          nécessité », « Autrui », « L’horizon » … Chacune de ces notices est
+          composée d’une ou de plusieurs citations, extraites de différents
+          ouvrages de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>. Ces thèmes et
+          leur traitement dans les travaux de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>
+          font l’objet d’analyses dans le manuscrit de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> portant sur
+          « la notion de “Monde“ dans la phénoménologie ». Ils nourrissent et
+          orientent le parcours que celui-ci propose à l’intérieur la
+          phénoménologie. La plupart de ces fiches thématiques sont
+          manuscrites mais, à l’intérieur de cette chemise « <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName> », on trouve
+          également trois fiches dactylographiées (« Doxa originaire et
+          science », « La perception », « L’horizon ») qui ont pu servir de
+          support de citations pour des cours réalisés au même moment et dont
+          les notes sont conservées également dans la boîte n<hi rend="sup">o</hi> 46<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Ces notes de cours ne sont pas accessibles via la plateforme
+              EMAN qui ne met en ligne que les fiches de lecture. Les notes
+              consacrées à la phénoménologie sont publiées en annexes du
+              manuscrit « Phénoménologie et psychologie » dont elles sont
+              contemporaines (<hi rend="small-caps">Foucault</hi>, 2021b).</p>
+            </note>.</p>
+          <p xml:id="d1e299">Il faut encore ajouter une remarque pour
+          présenter ce fichier phénoménologique de <persName ref="194281108" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>.
+          En effet, si les fiches de lecture consacrées à la phénoménologie de
+          <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName> témoignent déjà
+          à leur niveau du principe d’exhaustivité que Foucault revendiquera
+          plus tard dans <hi rend="italic">Les Mots et les choses</hi> à
+          l’échelle du savoir d’une époque<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Alors que <hi rend="italic">L’archéologie du savoir</hi>
+              affirme que « l’archive d’une société » ne peut être décrite
+              exhaustivement.</p>
+            </note>, réaliser cette ambition le confronte néanmoins à la
+          difficulté de l’appréhension d’une œuvre pour une part encore
+          inédite (les <hi rend="italic">Husserliana</hi> n’ont pas au début
+          des <date from="1950" to="1959" type="_temp">années 1950</date> le
+          développement que nous leur connaissons aujourd’hui<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Les trois premiers volumes des <hi rend="italic">Husserliana.
+              Edmund Husserl, Gesammelte Werke</hi> (rassemblant <hi rend="italic">Cartesianische Meditationen</hi>, <hi rend="italic">Die Idee der Phänomenologie</hi> et <hi rend="italic">Ideen zu einer reinen Phänomenologie und
+              phänomenologischen Philosophie</hi> I) paraissent en 1950. Les
+              volumes 4 et 5 consacrées aux <hi rend="italic">Ideen</hi> II et
+              III paraissent en 1952. <hi rend="italic">Die Krisis der
+              europäischen Wissenschaften und die transzendentale
+              Phänomenologie </hi>est publiée en 1954 (volume 6), suivie en
+              1956 et en 1959 de deux volumes (7 et 8) consacrés à<hi rend="italic"> Die erste Philosophie (1923-1924).</hi>
+              </p>
+            </note>) et encore largement non traduite. Le travail de
+          transcription et d’appropriation des idées husserliennes prend donc
+          souvent la tournure d’un travail de traduction continu de longs
+          passages, de paragraphes entiers<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Voir par exemple la suite de notes prises sur les <hi rend="italic">Ideen</hi> II qui ne représentent pas moins de 38
+              feuillets recto-verso (boîte 42a, chemise « <hi rend="italic">Ideen</hi> II », feuillets 335 à 362).</p>
+            </note>. Cette opération de traduction se donne elle-même
+          différentes médiations : si <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> va le plus
+          souvent chercher les textes de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>
+          directement dans les revues qui les ont publiés pour les transcrire
+          en français, il utilise aussi différentes traductions
+          disponibles<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Voir par exemple les notes prises sur <hi rend="small-caps">Husserl</hi>, 1950 (posthume). Foucault
+              utilise aussi régulièrement les traductions anglaises données
+              par Marvin Farber (<hi rend="small-caps">Farber</hi>, 1943). Au
+              moment où Foucault s’intéresse à la pensée de Husserl, le
+              lecteur français ne disposait que de quelques traductions :
+              outre celle mentionnée ci-dessus, on peut mentionner celle des
+              <hi rend="italic">Méditations cartésiennes</hi> (1947,
+              traduction de G. Peiffer et E. Levinas), celle des <hi rend="italic">Ideen</hi> I (1950, traduction de P. Ricœur),
+              celle de « La crise des sciences européennes et la
+              phénoménologie transcendantale. Une introduction à la
+              philosophie phénoménologique » (traduction Edmond <hi rend="small-caps">Gerrer</hi> dans <hi rend="italic">Les Études
+              philosophiques</hi>, n<hi rend="sup">o</hi> 2, avril-juin 1949,
+              p. 126-157 et n<hi rend="sup">o</hi> 3/4, juillet-décembre 1949,
+              p. 229-301) et celle de « La crise de l’humanité européenne et
+              la philosophie » (traduction de P. <hi rend="small-caps">Ricœur</hi> dans la <hi rend="italic">Revue de
+              Métaphysique et de Morale</hi>, n<hi rend="sup">o</hi> 3,
+              juillet-septembre 1950, p. 225-258).</p>
+            </note>. Dans une partie de son manuscrit de <date from="1953" to="1954" type="_temp">1953-1954</date>, il renvoie explicitement au
+          travail réalisé par <persName ref="027099717" type="idref" xml:base="https://www.idref.fr/">Paul Ricœur</persName> qui publie
+          en <date type="_temp" when="1950">1950</date> une traduction des <hi rend="italic">Ideen</hi> I (sous le titre <hi rend="italic">Idées
+          directrices pour une phénoménologie</hi>), précédée d’une importante
+          préface du traducteur qui en restitue la genèse et dessine le sens
+          d’une phénoménologie transcendantale à partir d’une « histoire de la
+          pensée de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>, des <hi rend="italic">Logische Untersuchungen</hi> aux <hi rend="italic">Ideen</hi>
+            <note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>
+                <hi rend="small-caps"> Husserl</hi>, 1950 (1913), p. <hi rend="small-caps">xii</hi>.</p>
+            </note> ». Certaines fiches de lecture, en particulier celles qui
+          sont consacrées aux <hi rend="italic">Leçons pour une phénoménologie
+          de la conscience intime du temps</hi>
+            <note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>
+                <hi rend="small-caps">Husserl, 1964 (1928).</hi>
+              </p>
+            </note>, font état également d’une appropriation collective de la
+          pensée husserlienne avec l’apport de traductions proposées par
+          <persName ref="027287130" type="idref" xml:base="https://www.idref.fr/">Jacques Derrida</persName>
+            <note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Voir, dans la chemise consacrée à « Conscience du temps »
+              (boîte n<hi rend="sup">o</hi> 42a), les fiches intitulées « Le
+              temps préobjectif » (feuillet 442) et « Le présent » (feuillet
+              443). Y figurent des citations extraites des § 33, § 39 et § 59
+              de <hi rend="italic">Zeitbewusstsein</hi> présentées par
+              Foucault comme des traductions de Derrida. Les deux premières
+              traductions se trouvent dans le mémoire de Derrida [<hi rend="small-caps">Derrida</hi>, 1990 (1954), p. 128 et
+              p. 129].</p>
+            </note>. Rappelons à cet égard qu’au moment même où Foucault
+          s’engage dans la rédaction de son manuscrit sur « Phénoménologie et
+          psychologie », <persName ref="027287130" type="idref" xml:base="https://www.idref.fr/">Derrida</persName> réalise un
+          mémoire pour le diplôme d’études supérieures sur <hi rend="italic">Le Problème de la genèse dans la philosophie de
+          Husserl</hi>
+            <note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>
+                <hi rend="small-caps"> Derrida</hi>, 1990 (1954). Dans
+              l’avertissement rédigé au moment de la publication de ce
+              mémoire, J. Derrida précise les conditions de sa rédaction :
+              « Je le préparai en 1953-1954 sous la direction bienveillante et
+              vigilante de Maurice de Gandillac, professeur à la Sorbonne,
+              alors que j’étais élève de deuxième année à l’École normale
+              supérieure. Grâce à M. de Gandillac et au P. Van Breda, j’avais
+              pu, au cours de la même année, consulter certains inédits de
+              Husserl aux Archives de Louvain » (p. <hi rend="small-caps">vi</hi>).</p>
+            </note>. Ce travail prend son point de départ dans le même
+          problème que celui de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, le problème du
+          psychologisme et l’interprétation du rapport entre psychologisme et
+          logicisme dans la phénoménologie<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Il s’agit d’un thème classique dans les études husserliennes
+              de l’époque. Marvin Farber y consacre le premier chapitre de son
+              ouvrage (<hi rend="small-caps">Farber</hi>, 1943), à partir
+              d’une mise en contexte dans le champ de la philosophie allemande
+              que Foucault reprend à son compte au début de son manuscrit de
+              1953-1954.</p>
+            </note> ; il interroge également le « motif transcendantal » en
+          tant qu’il éclaire et oriente une certaine histoire de la
+          philosophie ; et il propose une importante bibliographie où il est
+          possible de retrouver, jusque dans la littérature secondaire, la
+          plupart des références mobilisées par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          dans sa propre recherche<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>On y trouve par exemple un article d’Yvonne Picard (paru dans
+              <hi rend="italic">Deucalion</hi>, I, 1946), intitulé « Le temps
+              chez Husserl et chez Heidegger » que Foucault utilise comme
+              guide de lecture de l’ouvrage de Husserl sur la conscience
+              intime du temps. Un certain nombre des citations répertoriées
+              dans les fiches de la chemise « Conscience du temps » provient
+              de cet article dont Derrida fait l’éloge dans son propre
+              mémoire. Cf. <hi rend="small-caps">Derrida</hi>, 1990 (1954),
+              p. 123, note 39.</p>
+            </note> : cette bibliographie (établie par Derrida) constitue
+          ainsi une aide précieuse pour le chercheur qui se confronte au
+          manuscrit inédit de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, car celui-ci
+          comporte un grand nombre de notes de bas de page avec des références
+          précises aux textes de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>, mais aucune
+          bibliographie générale<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Cette absence de bibliographie s’explique probablement par le
+              fait que le manuscrit a été abandonné et que Foucault ne lui a
+              jamais donné la forme académique d’une thèse.</p>
+            </note>.</p>
+          <p xml:id="d1e462">Les fiches de lecture consacrées à la
+          phénoménologie de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName> font également
+          apparaître un autre ensemble de références, à première vue
+          disparates mais qui constituent une part importante du <hi rend="italic">corpus</hi> que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> a constitué
+          pour écrire son essai sur « Phénoménologie et psychologie » en <date from="1953" to="1954" type="_temp">1953-1954</date>. Ces références
+          sont issues de la littérature secondaire que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> avait à sa
+          disposition. Elles permettent de préciser le profil de « sa »
+          phénoménologie, de son appropriation de l’œuvre et de la pensée
+          husserliennes en fournissant au lecteur d’aujourd’hui une sorte de
+          grille de lecture. Dans les fiches disponibles apparaissent ainsi
+          des notes sur des penseurs contemporains ou disciples de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName> (<persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Eugen
+          Fink</persName>
+            <note n="21" place="fot" type="standard" xml:id="ftn21">
+              <p>Dans une chemise consacrée à « Fink » (boîte n<hi rend="sup">o</hi> 38), on trouve notamment des notes prises par
+              Foucault sur les textes suivants : « Das Problem der Philosophie
+              Edmund Husserls » (<hi rend="small-caps">Fink, 1939</hi>), « Die
+              phänomenologische Philosophie Husserls in der gegenwärtigen
+              Kritik » [<hi rend="small-caps">Fink, 1975 (1933)</hi>],
+              « L’analyse intentionnelle et le problème de la pensée
+              spéculative » (<hi rend="small-caps">Fink</hi>, 1952). Dans la
+              boîte n<hi rend="sup">o</hi> 42b, chemise « Jaspers », on trouve
+              encore deux pages de notes sur l’article « Vergegenwärtigung und
+              Bild, Beiträge zur Phänomenologie der Unwirklichkeit »
+              (1930).</p>
+            </note>, <persName ref="066755468" type="idref" xml:base="https://www.idref.fr/">Ludwig Landgrebe</persName>
+            <note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Foucault prend douze pages de notes sur l’article de
+              Landgrebe intitulé « Das Problem der Geschichtlichkeit des
+              Lebens und die Phänomenologie Husserls » (1932) et 6 pages de
+              notes sur l’article « Husserls Phänomenologie und die Motive zu
+              ihrer Umbildung » (<hi rend="small-caps">Landgrebe</hi>, 1939).
+              Voir boîte n<hi rend="sup">o</hi> 42a, feuillet 661 et suiv. et
+              feuillet 647 et suiv.</p>
+            </note>, <persName ref="028558960" type="idref" xml:base="https://www.idref.fr/">Marvin Farber</persName> – dont
+          l’ouvrage <hi rend="italic">The Foundation of
+          Phenomenology</hi>
+            <note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>
+                <hi rend="small-caps"> Farber</hi>, 1943. Dans son
+              « Introduction à <hi rend="italic">Ideen</hi> I de Edmund
+              Husserl », Paul Ricœur recommande la lecture de l’ouvrage de
+              Marvin Farber où selon lui se trouve un ample résumé de la
+              pensée husserlienne [<hi rend="small-caps">Husserl</hi>, 1950
+              (1913), p. <hi rend="small-caps">xi</hi>, note 1].</p>
+            </note> constitue une source majeure du travail de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>). Les fiches
+          renvoient également à certains lecteurs et passeurs français de la
+          pensée husserlienne : <persName ref="035163550" type="idref" xml:base="https://www.idref.fr/">Aron Gurwitsch</persName>
+            <note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Voir la fiche « Contre la critique husserlienne de la
+              Gestalt » (qui renvoie à un compte-rendu du <hi rend="italic">Nachwort</hi> paru en 1932 dans la <hi rend="italic">Deutsche Literaturzeitung</hi>. Voir boîte n<hi rend="sup">o</hi> 44b, chemise « La Gestalt et la
+              phénoménologie », feuillet 557.</p>
+            </note>, <persName ref="027099717" type="idref" xml:base="https://www.idref.fr/">Paul Ricoeur</persName>
+            <note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>Dans la boîte n<hi rend="sup">o</hi> 37, on trouve une
+              chemise « Ricœur » qui mentionne en particulier un article paru
+              dans la revue <hi rend="italic">Esprit</hi> en décembre 1953 et
+              intitulé « Sur la phénoménologie » (<hi rend="small-caps">Ricœur</hi>, 1953, p. 821-839). On trouve
+              plusieurs pages de notes consacrées à cet article important.</p>
+            </note>, <persName ref="030292042" type="idref" xml:base="https://www.idref.fr/">Trần-Ðức-Thảo</persName>
+            <note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>On trouve dans la chemise « Ricœur » des notes consacrées à
+              l’« interprétation de Husserl par Thao » (boîte n<hi rend="sup">o</hi> 37, feuillets 393-394). Ces notes sont prises
+              à partir de la troisième partie de l’article de Ricœur « Sur la
+              phénoménologie » (<hi rend="small-caps">Ricœur</hi>, 1953,
+              p. 827-836), intégralement consacrée à <hi rend="italic">Phénoménologie et matérialisme dialectique</hi>
+              (<hi rend="small-caps">Thảo</hi>, 1951). Dans la boîte n<hi rend="sup">o</hi> 42a (feuillets 573-574), Foucault prend
+              également des notes sur l’article de Trần Ðức Thảo sur « Les
+              origines de la réduction phénoménologique » (<hi rend="small-caps">Thảo</hi>, 1950).</p>
+            </note>, <persName type="_temp">Jean Wahl</persName>
+            <note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Foucault prend en particulier plusieurs pages de notes sur un
+              article de Jean Wahl : « Notes sur la première partie de <hi rend="italic">Erfahrung und Urteil</hi> de Husserl », <hi rend="italic">Revue de métaphysique et de morale</hi>, 56, 1,
+              1951, p. 6-34. Voir boîte n<hi rend="sup">o</hi> 42a, chemise
+              « Erfahrung und Urteil », feuillets 519-522.</p>
+            </note>, <persName ref="028522443" type="idref" xml:base="https://www.idref.fr/">Pierre Thévenaz</persName>
+            <note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>
+                <hi rend="small-caps">Thévenaz</hi>, 1966 (1952).</p>
+            </note>. <persName ref="027123227" type="idref" xml:base="https://www.idref.fr/">Sartre</persName> est rapidement
+          évacué dans une note consacrée à la « transcendance de l’Ego »<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>Cette note est rangée dans une chemise intitulée « Husserl.
+              Hyppolite » (boîte n<hi rend="sup">o</hi> 42a). Il s’agit sans
+              doute de notes prises à partir de cours dispensés par Jean
+              Hyppolite à l’École normale supérieure. Dans la même chemise, on
+              trouve des notes assez variées consacrées par exemple à
+              « Essence et réflexion », « La géométrie et l’exemple de
+              l’idéalisation », « La réduction phénoménologique », « La
+              phénoménologie » ...</p>
+            </note>. Comme nous le verrons plus loin, Foucault semble lui
+          préférer l’orientation « mondaine » de la philosophie de <persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName>.</p>
+          <p xml:id="d1e589">Cette partie du fichier foucaldien témoigne de
+          l’ambiance phénoménologique dans laquelle s’est réalisée la
+          formation de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+            <note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>Il est possible de relever l’absence de références aux
+              travaux d’Emmanuel Levinas dont deux ouvrages majeurs avaient
+              pourtant été publiés au moment où Foucault s’intéresse à la
+              phénoménologie (<hi rend="small-caps">Levinas</hi>, 1930 et
+              1949). Ces ouvrages sont par contre mentionnés en bonne place
+              dans la bibliographie du mémoire de Derrida [<hi rend="small-caps">Derrida</hi>, 1990 (1954), p. 288] et ils sont
+              également cités dans l’introduction de Ricœur à sa traduction
+              aux <hi rend="italic">Ideen</hi> I [voir <hi rend="small-caps">Husserl</hi>, 1950 (1913), p. <hi rend="small-caps">xxvi </hi>et<hi rend="small-caps">
+              xxxiii]</hi>.</p>
+            </note>. Elle démontre aussi la grande connaissance que ce dernier
+          avait des débats internes à la phénoménologie, alors même que la
+          réception française de celle-ci n’était pas encore complète. À sa
+          manière, le manuscrit de <date from="1953" to="1954" type="_temp">1953-1954</date> prend position dans ces discussions
+          phénoménologiques, il s’y installe même pour développer une thèse
+          qui est à la fois originale (par rapport aux propres positions de
+          <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>) et cohérente
+          avec certaines orientations philosophiques puisées chez ses
+          contemporains, des orientations qui sont notamment liées au
+          privilège accordé à la question du monde (par rapport à une
+          philosophie de la nature) et à l’ontologie (par rapport à une
+          philosophie de la connaissance) et qui sont marquées par le débat
+          fondamental, entre phénoménologie et psychologie, tel qu’il affleure
+          chez <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName> et chez un grand
+          nombre de ses lecteurs à l’époque, <persName ref="027287130" type="idref" xml:base="https://www.idref.fr/">Derrida</persName> en
+          tête.</p>
+          <p xml:id="d1e614">Ce débat porte en un sens la marque de
+          l’influence de <persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName> sur
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> dans ces années
+          de formation intellectuelle. On le perçoit nettement au cœur de
+          notes plus développées, qui se trouvent dans la même boîte que le
+          manuscrit de <date from="1953" to="1954" type="_temp">1953-1954</date> et qui sont consacrées pour une large
+          part à l’exploration des rapports entre phénoménologie et
+          psychologie et à la confrontation entre <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName> et
+          <persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName>. En écho
+          au manuscrit, ces notes sont intitulées « Psychologie et
+          phénoménologie », « Les thèmes psychologiques de la phénoménologie
+          de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName> et de <persName type="_temp">Merleau-Ponty</persName> », « Essence phénoménologique
+          et notion psychologique »<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Ces notes complémentaires sont publiées à la suite du texte
+              consacré à « Phénoménologie et psychologie » (<hi rend="small-caps">Foucault</hi>, 2021b).</p>
+            </note>. Ce dernier ensemble est le plus développé puisqu’il
+          occupe cinquante feuillets et qu’il propose un plan : « Psychologie
+          et théorie de la conscience », « <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName> et
+          la psychologie », « Les constitutions et le problème de la
+          totalité », « Le fondement des régions », « Le monde et
+          l’histoire ». Il est difficile d’établir avec certitude le statut de
+          ces notes. S’agit-il de notes en vue de cours (comme l’indique
+          parfois, en marge de ces notes, la référence à des fiches de
+          citations) ou de textes à la fois préparatoires et exploratoires au
+          sens où ces notes s’attachent à dessiner la trame d’une recherche en
+          cours – celle qui est précisément déployée dans le manuscrit
+          « Phénoménologie et psychologie » ? En ce sens, elles préparent ou
+          esquissent les grandes lignes de cette recherche en forgeant une
+          série de plans détaillés pour parvenir à saisir la nature de
+          l’articulation entre phénoménologie et psychologie, une question qui
+          préoccupe fortement <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> au début des
+          <date from="1950" to="1959" type="_temp">années 1950</date> et sur
+          laquelle il ne cesse de revenir. L’orientation générale de ces notes
+          et réflexions du début des <date from="1950" to="1959" type="_temp">années 1950</date> peut être caractérisée suivant deux
+          lignes : elles correspondent pour une part à un effort pour
+          ressaisir l’héritage phénoménologique de <persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName> (dont
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, au même
+          moment, suit les enseignements au Collège de France) ; elles
+          participent d’autre part à une interrogation concernant le rapport
+          entre phénoménologie, psychologie et anthropologie (cette
+          interrogation est reprise et amplifiée au même moment à propos de
+          <persName ref="02672930X" type="idref" xml:base="https://www.idref.fr/">Binswanger</persName>
+            <note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 2021a.</p>
+            </note>).</p>
+        </div>
+        <div type="section1" xml:id="d1e629">
+          <head subtype="level1" xml:id="d1e630">La phénoménologie selon
+          Foucault : du vécu au monde</head>
+          <p xml:id="d1e632">Il est possible à présent d’en venir au manuscrit
+          de <date from="1953" to="1954" type="_temp">1953-1954</date> dont
+          les fiches de lecture permettent donc de présenter le terrain
+          d’élaboration ainsi que l’orientation philosophique propre. Ce
+          manuscrit constitue à la fois une immersion dans la pensée de
+          <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>, dont les textes
+          et les préoccupations sont au premier plan de la recherche
+          foucaldienne, et une exploration assez libre des possibilités que la
+          phénoménologie offre à la pensée, notamment en rapport avec la
+          perspective d’une ontologie qui dispose face à face, et au-delà du
+          prisme subjectif d’une conscience, le monde et le langage. Plutôt
+          que de reprendre dans le détail la teneur de ce manuscrit, nous
+          allons surtout le mettre en regard de certaines fiches de lecture ou
+          de certaines indications tirées de ces fiches, qui ont pu nourrir
+          l’orientation philosophique du propos de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>.
+          Il s’agit de cette manière de mieux définir le type de démarche
+          qu’impose la confrontation à ces documents d’archives que sont un
+          manuscrit d’une part, et des fiches de lecture de l’autre. Pour
+          présenter d’un mot ce manuscrit de <date from="1953" to="1954" type="_temp">1953-1954</date>, on pourrait dire qu’il ne s’agit pas
+          seulement d’une étude exégétique du rapport entre psychologisme et
+          logicisme et de son évolution au sein de la pensée de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>, mais plutôt
+          d’un travail de problématisation dont le centre de gravité se
+          déplace de la psychologie (et de l’eidétique de la conscience qui
+          peut en être le support) à l’ontologie (avec la question du monde,
+          de son sens d’être et de son « Logos »). Cette caractérisation
+          sommaire rend compte d’enjeux importants du propos développé par
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> et qui
+          s’articulent aux fiches de lecture dont nous disposons.</p>
+          <p xml:id="d1e634">L’un de ces enjeux porte sur le découplage entre
+          un sens authentique de la phénoménologie (qui l’oriente vers la
+          problématique du monde) et son sens inauthentique, correspondant à
+          une sorte de déviation « existentialiste » de la phénoménologie qui
+          en brouille l’héritage. Dans le manuscrit « Phénoménologie et
+          psychologie », <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> est très clair
+          à ce sujet : il souligne que l’existentialisme n’est pas l’héritage
+          de la phénoménologie mais qu’il témoigne plutôt de l’oubli de cet
+          héritage et ce qu’est la phénoménologie dans son sens véritable<note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 2021b, p. 207. Voir
+              sinon boîte n<hi rend="sup">o</hi> 42, feuillets 340-341.</p>
+            </note>. La distinction amorcée entre une phénoménologie
+          authentique (qui serait portée par la pensée de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>) et sa version
+          inauthentique développée par une philosophie du vécu et de
+          l’existence semble opératoire pour rendre compte de la
+          phénoménologie telle que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> l’envisage. Or,
+          cette distinction se trouve développée dans les fiches de lecture à
+          partir de deux références importantes du <hi rend="italic">corpus</hi> phénoménologique foucaldien.</p>
+          <p xml:id="d1e648">La première référence, majeure, renvoie à
+          <persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Eugen Fink</persName>. Dans les
+          notes qu’il consacre à un article intitulé « Vergegenwärtigung und
+          Bild. Beiträge zur Phänomenologie der Unwirklichkeit »<note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>Cet article est paru dans <hi rend="italic">Jahrbuch für
+              philosophische und phänomenologische Forschung</hi>, XI,
+              1930.</p>
+            </note>, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> écrit, citation
+          à l’appui :</p>
+          <quote rend="quotation" xml:id="d1e658">Contre l’existentialisme :
+          « […] La monstruosité de la mauvaise subjectivation du tout de
+          l’étant, d’une réduction du monde à un étant intramondain : l’homme.
+          La retombée de l’énoncé transcendantal dans la conceptualité
+          mondaine ontique est la perte constante de la phénoménologie<note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>La citation renvoie à <hi rend="small-caps">Fink</hi>, 1930,
+              p. 250. Voir boîte n<hi rend="sup">o</hi> 42b, chemise
+              « Jaspers », feuillet 49.</p>
+            </note>. »</quote>
+          <p xml:id="d1e670">Pour bien comprendre la complexité et la richesse
+          du maillage des citations et des références tel que permet de
+          l’établir le fichier foucaldien, il est possible de relever que ce
+          passage, comme les autres extraits de cet article de <persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Fink</persName> relevés par
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, est
+          explicitement cité à partir de la traduction proposée par <persName ref="027190749" type="idref" xml:base="https://www.idref.fr/">Jules
+          Vuillemin</persName> dans son livre <hi rend="italic">L’Héritage de
+          Kant et la révolution copernicienne. Fichte, Cohen,
+          Heidegger</hi>
+            <note n="36" place="foot                                 " type="standard" xml:id="ftn36">
+              <p>
+                <hi rend="small-caps"> Vuillemin</hi>, 1954, p. 239, note
+              4.</p>
+            </note>. Dans la troisième partie de cet ouvrage, qui est
+          consacrée à Heidegger, <persName ref="027190749" type="idref" xml:base="https://www.idref.fr/">Vuillemin</persName> souligne en
+          effet lui-même la « confusion constante » que l’existentialisme
+          entretient entre subjectivité mondaine et subjectivité
+          transcendantale. C’est une manière de mettre au cœur de ce débat
+          entre phénoménologie et existentialisme la question du
+          transcendantal, centrale pour <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> dès la fin des
+          <date from="1940" to="1949" type="_temp">années 1940</date> comme en
+          témoigne son mémoire de fin d’études consacré à « La constitution
+          d’un transcendantal dans <hi rend="italic">La Phénoménologie de
+          l’Esprit</hi> de Hegel<note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>
+                <hi rend="small-caps"> Foucault</hi>, 1949.</p>
+            </note> ». L’autre référence importante qui émerge du fichier
+          foucaldien et qui complète cette distinction entre des usages de la
+          phénoménologie renvoie à <persName ref="028522443" type="idref" xml:base="https://www.idref.fr/">Pierre Thévenaz</persName> et aux
+          études qu’il consacre successivement à <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>,
+          <persName type="_temp">Heidegger</persName>, <persName ref="027123227" type="idref" xml:base="https://www.idref.fr/">Sartre</persName> et <persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName> : ces
+          études sont publiées en <date type="_temp" when="1952">1952</date>
+          dans la <hi rend="italic">Revue de théologie et de
+          philosophie</hi>
+            <note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>
+                <hi rend="small-caps"> Thévenaz</hi>, 1966 (1952).</p>
+            </note>, et commentées par <persName ref="027099717" type="idref" xml:base="https://www.idref.fr/">Ricœur</persName> dans l’article
+          « Sur la phénoménologie » de <date type="_temp" when="1953">1953</date>
+            <note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>On trouve les notes de Foucault sur les articles de Thévenaz
+              dans la boîte n<hi rend="sup">o</hi> 37, chemise « Ricœur »
+              (feuillets 391-392). L’article de Paul Ricœur « Sur la
+              phénoménologie » leur consacre en effet sa deuxième partie sous
+              le titre : « L’unité d’intention de la phénoménologie
+              husserlienne » (<hi rend="small-caps">Ricœur</hi>, 1953,
+              p. 825-827).</p>
+            </note>.</p>
+          <p xml:id="d1e708">Au point de rencontre de ces deux références, une
+          certaine idée de la phénoménologie se dégage. Au lieu de se
+          concentrer sur les figures de la conscience, elle offre une
+          compréhension renouvelée du « monde » et fait même du « monde »
+          l’enjeu ontologique majeur, au cœur de l’entreprise
+          phénoménologique. Cette découverte permet d’assurer à la
+          phénoménologie une singularité au sein des philosophies
+          transcendantales (notamment celle de <persName type="_temp">Kant</persName>) et de rendre compte de sa portée
+          philosophique, voire de sa portée pour la philosophie elle-même. La
+          fin du manuscrit de <date from="1953" to="1954" type="_temp">1953-1954</date> est d’ailleurs largement consacrée à
+          une redéfinition de ce qu’est la philosophie. Cette orientation
+          métaphilosophique des réflexions finales de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> permet
+          également de comprendre que son projet initial s’est trouvé
+          reconfiguré au fur à mesure qu’il se développait : en particulier,
+          l’interrogation sur les sciences humaines et le lien entre la
+          phénoménologie et les sciences de l’homme (qui figure pourtant dans
+          l’intitulé du projet de thèse principale tel que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> le formule
+          initialement : « Étude sur la notion de “Monde“ dans la
+          phénoménologie et son importance pour les sciences de l’homme »<note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>Comme le rappelle Didier Eribon (<hi rend="small-caps">Eribon</hi>, 1994, p. 112), cet intitulé
+              figure dans le <hi rend="italic">curriculum vitae</hi> que
+              Foucault adresse à Georges Dumézil en vue de sa candidature à un
+              poste de lecteur de français à Uppsala en Suède. D. Eribon
+              ajoute que cet intitulé est sans doute « totalement ficti[f] et
+              destin[é] uniquement à répondre aux attentes de ceux à qui ce
+              papier était destiné » (p. 113). La découverte du manuscrit
+              « Phénoménologie et psychologie », daté par Foucault lui-même
+              1953-1954, prouve qu’il n’en est rien.</p>
+            </note>) a disparu pour se recentrer sur une question proprement
+          philosophique, celle du « Monde » justement.</p>
+          <p xml:id="d1e720">Concernant cette problématisation du monde, que
+          privilégie donc le manuscrit de <date from="1953" to="1954" type="_temp">1953-1954</date>, on peut relever également qu’elle
+          renvoie à une orientation manifestement heideggérienne de
+          l’interprétation de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName> proposée par
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+            <note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>Les fiches de notes consacrées au « Monde » dans la chemise
+              « Husserl » renvoient toutefois à <hi rend="italic">Ideen</hi> I
+              et à <hi rend="italic">Erfahrung und Urteil</hi> (voir par
+              exemple boîte n<hi rend="sup">o</hi> 42a, feuillets 618, 619 et
+              622). Les extraits recopiés par Foucault sont utilisés dans son
+              manuscrit de 1953-1954.</p>
+            </note>. Rappelons qu’en <date type="_temp" when="1950">1950</date>, <persName ref="026727943" type="idref" xml:base="https://www.idref.fr/">Walter Biemel</persName> qui est
+          alors collaborateur scientifique des Archives Husserl de Louvain,
+          publie un ouvrage entier consacré au <hi rend="italic">Concept de
+          monde chez Heidegger</hi>
+            <note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>
+                <hi rend="small-caps"> Biemel</hi>, 1950.</p>
+            </note>
+            <hi rend="italic">.</hi> Cette étude est basée
+          principalement sur <hi rend="italic">Sein und Zeit</hi> dont il est
+          pourtant très peu fait mention dans le manuscrit de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> – ce qui peut
+          étonner. Notre hypothèse à ce sujet est que ce qui intéresse et
+          jusqu’à un certain point fascine <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>,
+          c’est surtout le débordement possible de la phénoménologie vers une
+          ontologie (<persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> parle souvent
+          d’approfondissement ou même de « radicalisation », à la suite de
+          <persName type="_temp">Thévenaz</persName> et de <persName ref="027099717" type="idref" xml:base="https://www.idref.fr/">Ricœur</persName>), selon un
+          mouvement de pensée qui correspond en effet à la démarche
+          heideggérienne et qui correspond également à l’interprétation
+          critique que <persName type="_temp">Heidegger</persName> a pu faire
+          de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>. Dans ces
+          conditions, même si la référence à <persName type="_temp">Heidegger</persName> reste assez marginale dans le
+          manuscrit, il semble bien qu’elle oriente quand même en sous-main le
+          propos de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> dans son
+          parcours attentif de l’ensemble de l’œuvre de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName> et dans son
+          analyse des héritages de la phénoménologie (qui ne sont donc pas à
+          chercher du côté de l’existentialisme mais bien du côté de cette
+          ontologie qui coïncide avec une philosophie du monde). En somme, et
+          pour le dire dans les termes mêmes de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>,
+          si la phénoménologie a pu engager le « remplacement d’une
+          problématique de la nature par une problématique du monde », ce
+          mouvement appelle son propre prolongement dans « le dépassement
+          d’une philosophie du phénomène dans une philosophie de l’être<note n="43" place="fot" type="standard" xml:id="ftn43">
+              <p>
+                <hi rend="small-caps"> Foucault</hi>, 2021b, p. 226. Voir
+              sinon boîte n<hi rend="sup">o</hi> 42, feuillet 351.</p>
+            </note> ».</p>
+          <p xml:id="d1e757">Or, cette orientation générale de l’analyse (qui
+          replace la préoccupation du « monde » au cœur de la phénoménologie,
+          en l’écartant de sa déviation existentialiste) permet aussi de
+          ressaisir certains effets de cohérence qui opèrent au sein même du
+          fichier phénoménologique de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> et notamment au
+          sein de la littérature secondaire qu’il mobilise à l’appui de sa
+          démonstration. L’un de ces effets concerne l’évaluation ou la
+          réévaluation de la place de la pensée de <persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName> dans ce
+          dispositif phénoménologique d’ensemble. Cette place est instable et
+          témoigne d’une ambiguïté non résolue dans l’analyse de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> au début des
+          <date from="1950" to="1959" type="_temp">années 1950</date>.</p>
+          <p xml:id="d1e759">En un sens, la phénoménologie de la perception
+          semble devoir être versée du côté de cette philosophie du vécu qui
+          enracine le sens dans la disposition intentionnelle de la
+          conscience. <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> écrit même, en
+          prenant ses distances par rapport à <persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName> : « Il
+          cherche à découvrir le sens transcendantal à l’intérieur même des
+          structures eidétiques de la conscience »<note n="44" place="foot" type="standard" xml:id="ftn44">
+              <p>
+                <hi rend="small-caps"> Foucault</hi>, 2021b, p. 137. Voir
+              sinon boîte n<hi rend="sup">o</hi> 42, feuillet 297.</p>
+            </note>. Mais il peut lire également, dans l’étude que <persName ref="028522443" type="idref" xml:base="https://www.idref.fr/">Pierre
+          Thévenaz</persName> consacre à la pensée de <persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName>, une
+          position plus en phase avec celle qu’il cherche à défendre dans son
+          manuscrit :</p>
+          <quote rend="quotation" xml:id="d1e770">La position de [<persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName>] implique
+          que la conscience n’est plus première, si centrale soit-elle comme
+          toujours en phénoménologie. « Le véritable transcendantal », c’est
+          le monde (<hi rend="italic">Phénoménologie de la perception</hi>,
+          p. 418), et non plus l’être (comme pour <persName type="_temp">Heidegger</persName>) ni la conscience (comme pour
+          <persName ref="027123227" type="idref" xml:base="https://www.idref.fr/">Sartre</persName>). […] <persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName> fait de
+          l’<hi rend="italic">être-au-monde </hi>de <persName type="_temp">Heidegger</persName> (plus originaire que la
+          conscience) le véritable aboutissement de la réduction
+          husserlienne<note n="45" place="foot" type="standard" xml:id="ftn45">
+              <p>
+                <hi rend="small-caps"> Thévenaz</hi>, 1966 (1952),
+              p. 108.</p>
+            </note>.</quote>
+          <p xml:id="d1e785">Cet accent mis sur l’« être-au-monde » correspond
+          bien à la lecture que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> fait de
+          <persName type="_temp">Heidegger</persName>, que ce soit une lecture
+          directe de <hi rend="italic">Sein und Zeit</hi> ou une appréhension
+          de cet ouvrage à partir d’un article très important de <persName ref="066755468" type="idref" xml:base="https://www.idref.fr/">Ludwig
+          Landgrebe</persName>, transcrit dans le fichier foucaldien. Cet
+          article s’intitule : « Husserls Phänomenologie und die Motive zu
+          ihrer Umbildung »<note n="46" place="foot" type="standard" xml:id="ftn46">
+              <p>Voir supra, note 21. <hi rend="small-caps">Landgrebe</hi>,
+              1939, p. 277-325. Voir boîte n<hi rend="sup">o</hi> 42a,
+              feuillet 647 et suiv.</p>
+            </note>. La troisième partie de l’étude porte sur « <persName type="_temp">Heidegger</persName> et le problème d’une limite de la
+          méthode phénoménologique » [<hi rend="italic">Heidegger und das
+          Problem einer Grenze der phänomenologischen Methode</hi>]. Dans les
+          notes conséquentes que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> consacre à cet
+          article de <persName type="_temp">Landgrebe</persName>, on lit
+          notamment ceci, à l’appui d’une référence à <hi rend="italic">Sein
+          und Zeit</hi> :</p>
+          <quote rend="quotation" xml:id="d1e806">
+            <persName type="_temp">Heidegger</persName> interprète l’intentionnalité comme
+          un rapport à l’étant, et il objecte que ce rapport ne peut se
+          comprendre que sur le fondement de l’<hi rend="italic">In-der-Welt-sein </hi>et qu’inversement l’<hi rend="italic">In-der-Welt-sein </hi>ne peut pas se comprendre à
+          travers l’analyse intentionnelle. L’analyse intentionnelle n’a de
+          sens valable que subordonnée, à l’intérieur d’une structure
+          déterminée de l’<hi rend="italic">In-der-Welt-sein</hi>
+            <note n="47" place="foot" type="standard" xml:id="ftn47">
+              <p>Voir <hi rend="small-caps">Landgrebe</hi>, 1939, p. 307.</p>
+            </note>.</quote>
+          <p xml:id="d1e823">Cette circulation dans les notes prises par
+          Foucault présente un double intérêt. Elle permet d’abord de
+          souligner que la référence à <persName type="_temp">Heidegger</persName> s’impose de manière indirecte et
+          qu’on la voit surtout s’imposer comme une grille de lecture de la
+          phénoménologie husserlienne et post-husserlienne. Finalement, il
+          n’est pas besoin de citer Heidegger pour que la tournure
+          heideggerienne d’une pensée du monde imprègne la phénoménologie et
+          la prémunisse contre les dérives psychologisantes et
+          existentialistes de certaines de ses interprétations contemporaines.
+          L’autre élément important que l’on peut retenir de ce détour par les
+          notes de lectures consacrées aux articles de <persName ref="028522443" type="idref" xml:base="https://www.idref.fr/">Thévenaz</persName> et <persName type="_temp">Landgrebe</persName>, c’est l’ambiguïté de la position
+          philosophique de <persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName> que
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> envisage comme
+          étant en quelque sorte suspendue entre une pensée du vécu
+          anté-prédicatif et une ontologie du monde (relayée par un <hi rend="italic">logos</hi> de l’être du monde, un « langage de
+          l’être » pour dire le monde, suivant l’inspiration de la dernière
+          partie du manuscrit de <date from="1953" to="1954" type="_temp">1953-1954</date>).</p>
+          <p xml:id="d1e828">Pour rendre compte de cette ambiguïté et de
+          l’importance que <persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName> conserve
+          aux yeux de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> à ce stade de
+          développement de sa réflexion philosophique, il faut alors sans
+          doute repasser par <persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Eugen Fink</persName>. On trouve en
+          effet dans le manuscrit de <date from="1953" to="1954" type="_temp">1953-1954</date> une citation de la <hi rend="italic">Sixième Méditation cartésienne</hi> rédigée par
+          <persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Eugen Fink</persName> pour
+          <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName> (et dans le
+          prolongement des <hi rend="italic">Méditations cartésiennes</hi> de
+          ce dernier) en <date type="_temp" when="1932">1932</date>
+            <note n="48" place="foot" type="standard" xml:id="ftn48">
+              <p>
+                <hi rend="small-caps"> Fink</hi>, 1994 (1932).</p>
+            </note>. Or, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> a probablement
+          eu accès à ce texte de <persName ref="072471492" type="idref" xml:base="https://www.idref.fr/">Fink</persName> à travers <persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName> qui cite
+          la <hi rend="italic">Méditation</hi> de <persName ref="072471492" type="idref" xml:base="https://www.idref.fr/">Fink</persName> à
+          plusieurs reprises dans l’avant-propos de la <hi rend="italic">Phénoménologie de la perception</hi> (en notant
+          d’ailleurs lui-même qu’il a pris connaissance de ce texte de
+          <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>
+            <hi rend="italic">via</hi>
+            <persName ref="030596807" type="idref" xml:base="https://www.idref.fr/">Gaston Berger</persName>
+            <note n="49" place="foot" type="standard" xml:id="ftn49">
+              <p>
+                <hi rend="small-caps"> Berger</hi>, 1941.</p>
+            </note> ...). En témoigne notamment ce long passage, où <persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName> met
+          clairement l’accent sur la problématique du « monde », en rapport à
+          la fois avec l’opération « technique » de la réduction et avec la
+          vocation générale de la philosophie, et où il s’installe d’une
+          certaine façon dans l’ambiguïté mentionnée plus haut en revendiquant
+          pour la phénoménologie un double ancrage dans le monde et dans le
+          vécu existentiel :</p>
+          <quote rend="quotation" xml:id="d1e858">C’est parce que nous sommes
+          de part en part rapport au monde que la seule manière pour nous de
+          nous en apercevoir est de suspendre ce mouvement, de lui refuser
+          notre complicité (de le regarder <hi rend="italic">ohne
+          mitzumachen</hi>, dit souvent <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>), ou encore de
+          le mettre hors-jeu. Non qu’on renonce aux certitudes du sens commun
+          et de l’attitude naturelle, - elles sont au contraire le thème
+          constant de la philosophie, - mais parce que, justement comme
+          présupposés de toute pensée, elles « vont de soi », passent
+          inaperçues, et que, pour les réveiller et pour les faire apparaître,
+          nous avons à nous en abstenir un instant. La meilleure formule de la
+          réduction est sans doute celle qu’en donnait <persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Eugen
+          Fink</persName>, l’assistant de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>,
+          quand il parlait d'un « étonnement » devant le monde. La réflexion
+          ne se retire pas du monde vers l’unité de la conscience comme
+          fondement du monde, elle prend recul pour voir jaillir les
+          transcendances, elle distend les fils intentionnels qui nous relient
+          au monde pour les faire paraître, elle seule est conscience du monde
+          parce qu'elle le révèle comme étrange et paradoxal. […] Loin d’être,
+          comme on l’a cru, la formule d’une philosophie idéaliste, la
+          réduction phénoménologique est celle d’une philosophie
+          existentielle : l’« <hi rend="italic">In-der-Welt-Sein</hi> » de
+          <persName type="_temp">Heidegger</persName> n’apparaît que sur le
+          fond de la réduction phénoménologique<note n="50" place="foot" type="standard" xml:id="ftn50">
+              <p>
+                <hi rend="small-caps"> Merleau-Ponty</hi>, 1945, p. <hi rend="small-caps">viii-ix</hi>.</p>
+            </note>.</quote>
+          <p xml:id="d1e875">La référence à l’« étonnement », que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> reprend
+          largement à son compte dans son manuscrit<note n="51" place="foot" type="standard" xml:id="ftn51">
+              <p>À la fin de son « Introduction à <hi rend="italic">Ideen</hi>
+              I de E. Husserl », Paul Ricœur note l’importance de cet
+              « étonnement » dans la perspective de Merleau-Ponty, en rapport
+              avec l’accès à une couche originaire de l’expérience, située
+              dans le monde : la phénoménologie « ne “réfléchit“ que pour
+              faire jaillir au-delà de toute naïveté l’assurance que le monde
+              est toujours “déjà là“ ; elle ne “réduit“ notre participation à
+              la présence du monde que pour rompre un moment notre familiarité
+              avec le monde et nous restituer l’“étonnement“ devant
+              l’étrangeté et le paradoxe d’un monde qui nous situe ; elle ne
+              va aux essences que pour prendre du recul et reconquérir la
+              “facticité“ de notre être-au-monde » [<hi rend="small-caps">Husserl</hi>, 1950 (1913), p. <hi rend="small-caps">xxxviii, </hi>note 1].</p>
+            </note>, provient d’un article de <persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Fink</persName> publié
+          en <date from="1939-01-01" to="1939-01-31" type="_temp">janvier
+          1939</date> dans la <hi rend="italic">Revue Internationale de
+          Philosophie</hi>
+            <note n="52" place="foot" type="standard" xml:id="ftn52">
+              <p>
+                <hi rend="small-caps"> Fink</hi>, 1939, p. 229-231.</p>
+            </note>, et auquel <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> consacre
+          également une fiche de lecture conséquente. De manière plus
+          générale, il est possible de souligner qu’au-delà même de la pensée
+          de <persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName>, mais
+          peut-être aussi à travers elle, la pensée de <persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Fink</persName> semble bien
+          commander l’orientation d’ensemble du développement de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>. <persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Fink</persName> se propose bien en
+          effet d’articuler la phénoménologie husserlienne et l’ontologie
+          heideggerienne en mettant au cœur de cette articulation la question
+          du monde.</p>
+          <p xml:id="d1e898">Dans les notes prises sur un autre article de
+          <persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Fink</persName> intitulé « Die
+          phänomenologische Philosophie <persName type="_temp">E. Husserls</persName> in der gegenwärtigen
+          Kritik »<note n="53" place="foot" type="standard" xml:id="ftn53">
+              <p>
+                <hi rend="small-caps"> Fink</hi>, 1975 (1933).</p>
+            </note>, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> approfondit ce
+          point en retenant l’idée d’une distinction entre criticisme et
+          phénoménologie, sur fond d’un même attachement à la problématique
+          transcendantale mais suivant des orientations différentes, liées à
+          ce que <persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Fink</persName> nomme une
+          « différence de problème fondamental »<note n="54" place="foot" type="standard" xml:id="ftn54">
+              <p>
+                <hi rend="small-caps"> Fink</hi>, 1975 (1933), p. 118. Nous
+              reprenons ici la traduction de Didier Franck qui diffère
+              légèrement de celle proposée par Foucault dans ses notes de
+              lecture.</p>
+            </note>. Selon <persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Fink</persName>, « le criticisme
+          formule son problème fondamental comme celui de la possibilité d’une
+          connaissance objectivement valable, ou sous la forme de la
+          question : comment les jugements synthétiques <hi rend="italic">a
+          priori</hi> sont-ils possibles ? ». Le criticisme s’en tient alors à
+          l’expérience de l’étant et du monde en tant qu’horizon de sens de
+          l’étant. Mais c’est un monde dont il faut rendre compte dans la
+          forme d’une connaissance objective. Or, « la question fondamentale
+          de la phénoménologie […] et qui manifeste son opposition radicale au
+          criticisme, peut se formuler comme la question de l’origine du
+          monde<note n="55" place="foot" type="standard" xml:id="ftn55">
+              <p>
+                <hi rend="small-caps"> Fink</hi>, 1975 (1933), p. 119.</p>
+            </note> ». Ou encore :</p>
+          <quote rend="quotation" xml:id="d1e921">Déterminée au regard de son
+          problème central, la phénoménologie prétend réaliser une
+          compréhension philosophique du monde qui transcende toutes les
+          formes mondaines d’élucidation, de compréhension, de fondation,
+          etc. : elle vise à rendre compréhensible le monde dans toutes ses
+          déterminités idéales à partir du fondement ultime de son être<note n="56" place="foot" type="standard" xml:id="ftn56">
+              <p>
+                <hi rend="small-caps"> Fink</hi>, 1975 (1933), p. 121.</p>
+            </note>.</quote>
+          <p xml:id="d1e929">S’oppose ainsi à la connaissance des phénomènes
+          du monde l’effort en direction d’une compréhension de ce qui fonde
+          non pas seulement cette connaissance mais son être lui-même.</p>
+          <p xml:id="d1e931">Sur le fond, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          rejoint donc <persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Fink</persName> dans son
+          interprétation de la phénoménologie. Il reprend à son compte le
+          mouvement général de la <hi rend="italic">Sixième Méditation </hi>où
+          s’opère une radicalisation des opérations majeures de la
+          phénoménologie que sont réduction et constitution. <persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Fink</persName> reproche ainsi à
+          <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName> de n’accomplir
+          la réduction que vis-à-vis des objets du monde laissant cette
+          réduction incomplète dans la mesure où il ne soumettrait pas à la
+          réduction la subjectivité transcendantale qui accomplit la
+          réduction. Sur la base de ces critiques, <persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Eugen Fink</persName>
+          apparaît alors comme le promoteur d’un tournant « cosmologique » de
+          la phénoménologie husserlienne. Alors que <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>
+          persisterait à accorder à l’<hi rend="italic">ego</hi> le statut de
+          sphère fondamentale (ce qui autorise les analyses du vécu chez
+          <persName ref="027123227" type="idref" xml:base="https://www.idref.fr/">Sartre</persName> et chez <persName ref="026664151" type="idref" xml:base="https://www.idref.fr/">Merleau-Ponty</persName>), c’est au
+          « monde » que <persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Fink</persName> attribue la
+          primordialité essentielle. Pour conclure ce circuit référentiel, il
+          est possible d’ajouter que l’on trouve, dans l’avant-propos du
+          travail que <persName type="_temp">Derrida</persName> consacre à
+          <persName type="idref" xml:base="https://www.idref.fr/">Husserl</persName> en <date from="1953" to="1954" type="_temp">1953-1954</date>, la note
+          suivante qui lie la préoccupation finkienne pour l’« origine du
+          monde » à la notion d’« archéologie » dont <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          n’aura de cesse de retravailler la caractérisation
+          phénoménologique<note n="57" place="foot" type="standard" xml:id="ftn57">
+              <p>
+                <hi rend="small-caps"> Sabot</hi>, 2016, p. 761-765.</p>
+            </note> :</p>
+          <quote rend="quotation" xml:id="d1e945">
+            <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>
+          aurait voulu restaurer, dans un sens phénoménologique qui n’est pas
+          celui de la science « mondaine », le mot d’« archéologie » (cf.
+          E. Fink, « Das problem der Phänomenologie E. Husserls », in <hi rend="italic">Revue Internationale de Philosophie</hi>, janvier
+          1939, p. 246). La recherche du commencement absolu est présente dans
+          toute l’œuvre de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>, et aussi chez
+          <persName ref="026865327" type="idref" xml:base="https://www.idref.fr/">Fink</persName>, qui, hautement
+          approuvé par <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>, définit la
+          question de Husserl comme la question de « l’origine du monde » [<hi rend="italic">die Frage nach dem Ursprung der Welt</hi>]<note n="58" place="foot" type="standard" xml:id="ftn58">
+              <p>
+                <hi rend="small-caps"> Derrida</hi>, 1990 (1954), p. 3, note
+              4.</p>
+            </note>.</quote>
+          <p rend="break" xml:id="d1e960">*</p>
+          <p xml:id="d1e962">Notre propos avait comme point de départ un
+          double questionnement sur la délimitation d’un <hi rend="italic">corpus</hi> phénoménologique propre à <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> à partir des
+          fiches de lecture (ce que l’on peut appeler le niveau de la
+          description matérielle d’une archive et de sa cohérence interne) et
+          sur l’usage de ce <hi rend="italic">corpus</hi> pour rendre compte
+          du développement que celui-ci propose sur la phénoménologie
+          husserlienne dans le manuscrit de <date from="1953" to="1954" type="_temp">1953-1954</date> (le niveau d’analyse étant cette fois
+          celui de l’interprétation de ce manuscrit). Ces deux niveaux
+          d’analyse correspondent bien au travail rendu possible par le
+          développement de la plateforme EMAN, et au type de démarche
+          éditoriale qu’elle rend à son tour envisageable. Au point de
+          convergence de ces deux opérations (descriptive et interprétative),
+          il y a le brassage et le maillage de références qui font ressortir
+          sinon l’unité du moins la cohérence globale d’une lecture
+          foucaldienne de la phénoménologie au début des <date from="1950" to="1959" type="_temp">années 1950</date>. Cette lecture s’inscrit
+          dans une trame de réflexions phénoménologiques qui constituent à
+          bien des égards le symptôme d’une époque, dominée après <date type="_temp" when="1945">1945</date> par le débat entre marxisme et
+          phénoménologie<note n="59" place="foot" type="standard" xml:id="ftn59">
+              <p>Dans cette perspective, le travail de Trần Ðức Thảo présente
+              un intérêt particulier qui justifie la place à part qu’il a pu
+              occuper dans le champ philosophique français de l’époque. Voici
+              comment Thảo présente lui-même dans la préface de son ouvrage
+              l’orientation d’ensemble de sa démarche, allant de la
+              phénoménologie au matérialisme dialectique, d’une investigation
+              sur « la méthode phénoménologique et son contenu effectivement
+              réel » (première partie) à « La dialectique du mouvement réel »
+              (seconde partie) : « De l’éternité des essences à la
+              subjectivité vécue, de l’Ego singulier à la genèse universelle,
+              l’évolution de la pensée husserlienne témoignait de l’aspiration
+              constante de l’idéalisme vers ce contenu réel dont seule la
+              dialectique matérialiste définit le concept authentique » (<hi rend="small-caps">Thảo</hi>, 1951, p. 18). Foucault privilégie
+              pour sa part dans son manuscrit de 1953-1954 un débordement
+              interne de la phénoménologie vers l’ontologie.</p>
+            </note>. On sait que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> s’attachera,
+          dans la décennie suivante, à mettre à distance ces réflexions et
+          même ce type de lecture, en s’efforçant justement d’interroger de
+          manière critique, archéologique, ce que signifie se rapporter à une
+          époque de la pensée – jusqu’à se fixer le devoir d’y contredire.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e978">
+        <head xml:id="d1e979">BIBLIOGRAPHIE</head>
+        <listBibl xml:id="d1e981">
+          <bibl xml:id="d1e982">
+            <hi rend="small-caps">Berger</hi>, 1941 :
+          Gaston <hi rend="small-caps">Berger</hi>, <hi rend="italic">Le
+          Cogito dans la philosophie de Husserl</hi>, Paris, Aubier, coll.
+          « Philosophie de l'Esprit ».</bibl>
+          <bibl xml:id="d1e992">
+            <hi rend="small-caps">Biemel</hi>, 1950 :
+          Walter <hi rend="small-caps">Biemel</hi>, <hi rend="italic">Le
+          Concept de monde chez Heidegger</hi>, Paris, Vrin, coll.
+          « Bibliothèque d’histoire de la philosophie ».</bibl>
+          <bibl xml:id="d1e1002">
+            <hi rend="small-caps">Derrida</hi>, 1990
+          (1954) : Jacques <hi rend="small-caps">Derrida</hi>, <hi rend="italic">Le Problème de la genèse dans la philosophie de
+          Husserl</hi>, Paris, PUF, coll. « Épiméthée ».</bibl>
+          <bibl xml:id="d1e1012">
+            <hi rend="small-caps">Eribon</hi>, 1994 :
+          Didier <hi rend="small-caps">Eribon</hi>, <hi rend="italic">Michel
+          Foucault et ses contemporains</hi>, Paris, Fayard.</bibl>
+          <bibl xml:id="d1e1022">
+            <hi rend="small-caps">Farber</hi>, 1943 :
+          Marvin <hi rend="small-caps">Farber</hi>, <hi rend="italic">The
+          Foundation of Phenomenology. Edmund Husserl and the Quest for a
+          Rigourous Science of Philosophy</hi>, Cambridge, Harvard University
+          Press.</bibl>
+          <bibl xml:id="d1e1032">
+            <hi rend="small-caps">Fink</hi>, 1939 : Eugen
+          <hi rend="small-caps">Fink</hi>, « Das Problem der Phänomenologie
+          Edmund Husserls », <hi rend="italic">Revue Internationale de
+          Philosophie</hi>, 1, 2, p. 226-270.</bibl>
+          <bibl xml:id="d1e1042">
+            <hi rend="small-caps">Fink</hi>, 1952 : Eugen
+          <hi rend="small-caps">Fink</hi>, « L’analyse intentionnelle et le
+          problème de la pensée spéculative », dans Herman LeoVan Breda (éd.),
+          <hi rend="italic">Problèmes actuels de la phénoménologie</hi>,
+          Paris, Desclée de Brouwer, coll. « Textes et études
+          philosophiques », p. 53-87.</bibl>
+          <bibl xml:id="d1e1052">
+            <hi rend="small-caps">Fink</hi>, 1975
+          (1933) : Eugen <hi rend="small-caps">Fink</hi>, « Die
+          phänomenologische Philosophie Edmund Husserls in der Gegenwärtigen
+          Kritik », dans <hi rend="italic">De la phénoménologie</hi>, trad.
+          fr. Didier Franck, Paris, Éditions de Minuit, coll.
+          « Arguments ».</bibl>
+          <bibl xml:id="d1e1062">
+            <hi rend="small-caps">Fink</hi>, 1994
+          (1932) : Eugen <hi rend="small-caps">Fink</hi>, <hi rend="italic">Sixième Méditation cartésienne. L’idée d’une théorie
+          transcendantale de la méthode</hi>, trad. fr. Nathalie Depraz,
+          Grenoble, Jérôme Million, coll. « Krisis ».</bibl>
+          <bibl xml:id="d1e1072">
+            <hi rend="small-caps">Foucault</hi>, 1949 :
+          Michel <hi rend="small-caps">Foucault</hi>, « La constitution d’un
+          transcendantal dans <hi rend="italic">La Phénoménologie de
+          l’Esprit</hi> de Hegel ». Manuscrit inédit.</bibl>
+          <bibl xml:id="d1e1082">
+            <hi rend="small-caps">Foucault</hi>, 2021a :
+          Michel <hi rend="small-caps">Foucault, </hi>
+            <hi rend="italic">Binswanger et l’analyse existentielle</hi>, édition
+          établie, sous la responsabilité de François Ewald, par Elisabetta
+          Basso, Paris, Éditions du Seuil/Gallimard/EHESS, coll. « Hautes
+          Études ».</bibl>
+          <bibl xml:id="d1e1092">
+            <hi rend="small-caps">Foucault</hi>, 2021b :
+          Michel <hi rend="small-caps">Foucault</hi>
+            <hi rend="small-caps">,
+          </hi>
+            <hi rend="italic">Phénoménologie et psychologie</hi>, édition
+          établie, sous la responsabilité de François Ewald, par Philippe
+          Sabot, Éditions du Seuil/Gallimard/EHESS, coll. « Hautes
+          Études ».</bibl>
+          <bibl xml:id="d1e1103">
+            <hi rend="small-caps">Husserl,</hi> 1950
+          (1913) : Edmund <hi rend="small-caps">Husserl</hi>, <hi rend="italic">Idées directrices pour une phénoménologie</hi>, trad.
+          fr. Paul Ricœur, Paris, Gallimard, coll. « Bibliothèque de
+          philosophie ».</bibl>
+          <bibl xml:id="d1e1113">
+            <hi rend="small-caps">Husserl</hi>, 1950
+          (posthume) : Edmund <hi rend="small-caps">Husserl</hi>, « La
+          philosophie comme prise de conscience de l’humanité », texte établi
+          et présenté par Walter Biemel, trad. fr. Paul Ricœur, <hi rend="italic">Deucalion</hi> 3, 1950 : « Vérité et liberté », 30,
+          p. 109-127.</bibl>
+          <bibl xml:id="d1e1123">
+            <hi rend="small-caps">Husserl</hi>, 1964
+          (1928) : Edmund <hi rend="small-caps">Husserl</hi>, <hi rend="italic">Leçons pour une phénoménologie de la conscience intime
+          du temps, </hi>trad. fr. Henri Dussort, Paris, PUF, coll. 
+          « Épiméthée ».</bibl>
+          <bibl xml:id="d1e1133">
+            <hi rend="small-caps">Landgrebe</hi>, 1939 :
+          Ludwig <hi rend="small-caps">Landgrebe</hi>, « Husserls
+          Phänomenologie und die Motive zu ihrer Umbildung », <hi rend="italic">Revue Internationale de Philosophie</hi>, 1, 2,
+          p. 277-316.</bibl>
+          <bibl xml:id="d1e1143">
+            <hi rend="small-caps">Levinas</hi>, 1930 :
+          Emmanuel <hi rend="small-caps">Levinas</hi>, <hi rend="italic">La
+          Théorie de l’intuition dans la phénoménologie de Husserl</hi>,
+          Paris, Vrin.</bibl>
+          <bibl xml:id="d1e1153">
+            <hi rend="small-caps">Levinas</hi>, 1949 :
+          Emmanuel <hi rend="small-caps">Levinas</hi>, <hi rend="italic">En
+          découvrant l’existence avec Husserl et Heidegger</hi>, Paris,
+          Vrin.</bibl>
+          <bibl xml:id="d1e1163">
+            <hi rend="small-caps">Merleau</hi>-<hi rend="small-caps">Ponty</hi>, 1945 : Maurice <hi rend="small-caps">Merleau</hi>-<hi rend="small-caps">Ponty</hi>, <hi rend="italic">Phénoménologie de la perception</hi>, Paris,
+          Gallimard, coll. « Bibliothèque des idées ».</bibl>
+          <bibl xml:id="d1e1179">
+            <hi rend="small-caps">Nalli</hi>, 2006 :
+          Marcos <hi rend="small-caps">Nalli</hi>, <hi rend="italic">Foucault
+          e a phenomenologia</hi>, São Paulo, Edições Loyola.</bibl>
+          <bibl xml:id="d1e1189">
+            <hi rend="small-caps">Ricœur</hi>, 1953 :
+          Paul <hi rend="small-caps">Ricœur</hi>, « Sur la phénoménologie »,
+          <hi rend="italic">Esprit</hi>, 21<hi rend="sup">e</hi> année, 12,
+          p. 821-839 ; étude reprise en 2004 dans <hi rend="italic">À l’école
+          de la phénoménologie</hi>, chap. V., Paris, Vrin, coll. 
+          « Bibliothèque d’histoire de la philosophie ».</bibl>
+          <bibl xml:id="d1e1205">
+            <hi rend="small-caps">Sabot, 2016 :
+          </hi>Philippe <hi rend="small-caps">Sabot</hi>, « Dans les archives
+          de l’archéologie. Relire <hi rend="italic">Les Mots et les
+          choses</hi> aujourd’hui », <hi rend="italic">Revista de Filosofia
+          Aurora</hi>, 28 (45), p. 747-766, <ref target="https://periodicos.pucpr.br/index.php/aurora/article/view/1980-5934.28.045.DS01">
+              <hi rend="underline">https://periodicos.pucpr.br/index.php/aurora/article/view/1980-5934.28.045.DS01</hi>
+            </ref>.</bibl>
+          <bibl xml:id="d1e1223">
+            <hi rend="small-caps">Thảo</hi>, 1950 : Trần
+          Ðức <hi rend="small-caps">Thảo</hi>, « Les origines de la réduction
+          phénoménologique », <hi rend="italic">Deucalion</hi>, 3,
+          p. 128-142.</bibl>
+          <bibl xml:id="d1e1233">
+            <hi rend="small-caps">Thảo</hi>, 1951 : Trần
+          Ðức <hi rend="small-caps">Thảo</hi>, <hi rend="italic">Phénoménologie et matérialisme dialectique</hi>,
+          Paris, Éditions Minh-Tân.</bibl>
+          <bibl xml:id="d1e1243">
+            <hi rend="small-caps">Thévenaz</hi>, 1966
+          (1952) : Pierre <hi rend="small-caps">Thévenaz</hi>, « Qu’est-ce que
+          la phénoménologie ? », <hi rend="italic">Revue de théologie et de
+          philosophie</hi>, 1952/1, p. 9-30 ; 1952/3, p. 126-140 ; 1952/4,
+          p. 294-316. Études reprises en 1966 dans <hi rend="italic">De
+          Husserl à Merleau-Ponty. Qu’est-ce que la phénoménologie ?</hi>,
+          Neuchâtel, Éditions de la Baconnière, coll. « Être et penser.
+          Cahiers de philosophie ».</bibl>
+          <bibl xml:id="d1e1256">
+            <hi rend="small-caps">Vuillemin</hi>, 1954 :
+          Jules <hi rend="small-caps">Vuillemin</hi>, <hi rend="italic">L’Héritage de Kant et la révolution copernicienne.
+          Fichte, Cohen, Heidegger</hi>, Paris, PUF, coll. « Bibliothèque de
+          philosophie contemporaine ».</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

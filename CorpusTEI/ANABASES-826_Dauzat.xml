@@ -1,0 +1,915 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-826_Dauzat">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">
+                    <hi xml:lang="fr">Erreurs de traduction volontaires et paresse du
+                        contresens</hi>
+                </title>
+                <author>
+                    <persName>
+                        <forename>Pierre-Emmanuel</forename>
+                        <surname>Dauzat</surname>
+                    </persName>
+                    <affiliation> (traducteur et écrivain)<lb/>
+            <hi rend="author-email">pierre.dauzat@wanadoo.fr</hi>
+                    </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+                        Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>« Savoirs » est une plateforme de publication numérique vouée à l’histoire et à
+                    l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS
+                    (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une
+                    archive d’articles ou une collection de livres, il s’agit d’une bibliothèque
+                    « intelligente » et expérimentale qui propose des parcours de lecture
+                    heuristiques et réflexifs entre les textes, grâce à différents algorithmes de
+                    recherche et de suggestions reposant notamment sur un balisage des lieux, des
+                    dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs
+                        (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel
+                        XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données
+                        géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour
+                        l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références
+                        Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes
+                        pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>translation</item>
+                        <item>mistranslation</item>
+                        <item>figure of the translator</item>
+                        <item>Augustine</item>
+                        <item>Jerome</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>traduction</item>
+                        <item>contresens</item>
+                        <item>figure du traducteur</item>
+                        <item>Augustin</item>
+                        <item>Jérôme</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+            <docTitle>
+                <titlePart type="main">
+                    <hi xml:lang="fr">Erreurs de traduction volontaires et paresse du
+                        contresens</hi>
+                </titlePart>
+            </docTitle>
+            <byline>
+                <docAuthor>Pierre-Emmannuel Dauzat</docAuthor>
+            </byline>
+        </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e205">
+                <p xml:id="d1e206">Si rarement on avoue des erreurs volontaires de traduction, le
+                    paradoxe est celui de la persistance des erreurs de traduction corrigées dans
+                    les textes dits canoniques  : il existe une véritable « paresse » du contresens,
+                    qui est l’envers de ce que Marc Bloch appelait la « passivité ». Dans les deux
+                    cas, le texte traduit manque à sa vocation téléologique, qui est de servir la
+                    discipline qui la mobilise (histoire, épigraphie, archéologie, philosophie,
+                    etc.). L’analyse menée au <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">e</hi> siècle par Claude Gaspar Bachet de Meziriac dans <hi rend="italic">De la
+                        traduction</hi> (1635), avec sa typologie des erreurs de traduction, n’a
+                    rien perdu de son actualité, mais son application à deux traductions exemplaires
+                    – les <hi rend="italic">Analectes</hi> de Confucius – et le <hi rend="italic">Testimonium Flavianum</hi> – oblige à relativiser les conséquences que l’on
+                    peut en tirer. Répondant à des choix plus ou moins délibérés ou avoués, l’erreur
+                    acquiert une certaine légitimité. Il apparaît alors qu’un choix de traduction,
+                    légitime en soi parmi d’autres choix possibles, fait jurisprudence au risque du
+                    contresens quand il finit par exclure d’autres traductions. L’augustinisme
+                    politique, avec le thème du recours de Jésus à la violence, ou la théologie du
+                    mariage née de contresens de saint Jérôme sont deux exemples, parmi bien
+                    d’autres, que l’erreur de traduction devenue un fait acquis crée son propre
+                    espace de signification, entre paresse du contresens et erreur volontaire.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e222">
+                <p xml:id="d1e223">
+                    <hi xml:lang="en">If wilful errors of translation are seldom confessed, there is
+                        a paradox in the persistance of the errors of translation corrected in the
+                        so-called canonical texts</hi>
+                    <hi xml:lang="en">: there is a real sluggishness of the mistranslation which is
+                        the reverse of what Marc Bloch called “passivity”. In either case, the
+                        translated text flouts its teleological vocation, which is to assist the
+                        discipline that sets it to work (history, epigraphy, archeology, philosophy,
+                        etc.). The analysis carried out in the </hi>
+                    <hi rend="small-caps">
+                        <hi xml:lang="en">xvii</hi>
+                    </hi>
+                    <hi xml:lang="en">th century by Claude Gaspar Bachet de Meziriac in </hi>
+                    <hi rend="italic">
+                        <hi xml:lang="en">De la traduction</hi>
+                    </hi>
+                    <hi xml:lang="en"> (1635) with its typology of the errors of translation has
+                        lost nothing of its relevance for the present, but its application to two
+                        exemplary translations – Confucius’</hi>
+                    <hi rend="italic">
+                        <hi xml:lang="en">Analecta</hi>
+                    </hi>
+                    <hi xml:lang="en"> - and the </hi>
+                    <hi rend="italic">
+                        <hi xml:lang="en">Testimonium</hi>
+                    </hi>
+                    <hi xml:lang="en"> </hi>
+                    <hi rend="italic">
+                        <hi xml:lang="en">Flavianum</hi>
+                    </hi>
+                    <hi xml:lang="en"> - compels us to tone down the consequences that can be
+                        derived from it. Answering more or less deliberate or avowed choices, error
+                        acquires some kind of legitimacy. It therefore appears that a choice of
+                        translation, legitimate in itself among other possible choices, becomes law
+                        to the risk of a misconstruction when it eventually excludes other
+                        translations. Political augustinism with the theme of Jesus resorting to
+                        violence, or the theology of marriage born out of a misconstruction by St
+                        Jerome are two instances, among many others that an error of translation, by
+                        becoming acquired fact, creates its own space of meaning, between sluggish
+                        mistranslation and wilful error. </hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <p xml:id="d1e258">Les erreurs de traduction ont mauvaise réputation. On les dénonce et
+                on les pourchasse au point de vouloir, à l’exemple du philosophe Jacques d’Hondt,
+                les « qualifier juridiquement ». « J’enverrais tous ces Messieurs les traducteurs en
+                Sibérie pour manque de patriotisme et légèreté », rageait déjà le doux Tchékhov. Ce
+                faisant, on oublie trop souvent que la traduction n’est pas une discipline autonome,
+                qu’elle est souvent en position ancillaire, et que les erreurs commises, notamment
+                dans le domaine de la théologie, mais aussi en philosophie ou en histoire, font
+                jurisprudence et créent des précédents<note type="standard" xml:id="ftn1" place="foot" n="1">
+          <p> Sur cette notion, voir P.-E. <hi rend="small-caps">Dauzat</hi>, « Jurisprudence(s) de la traduction », Colloque de Toulon,
+                        24-25 novembre 2005, in J.-J. <hi rend="small-caps">Sueur</hi>, éd., <hi rend="italic">Interpréter et traduire</hi>, Bruxelles, Bruylant, 2007,
+                        p. 217-231 ; et “L’expédient en traduction  : du parler-en-langues au
+                        contresens volontaire”, in P. <hi rend="small-caps">Loraux</hi> et C. <hi rend="small-caps">Énaudeau</hi>, <hi rend="italic">La Méthode de
+                            l’expédient</hi>, Paris, Kimé, 2006, p. 165-180.</p>
+        </note>. L’erreur
+                involontaire devient alors volontaire, et la correction de l’erreur de traduction ne
+                change rien à ses conséquences. Ces quelques observations de traducteur praticien
+                sur l’histoire de la traduction n’ont d’autre but que de donner un aperçu de la
+                place que devrait occuper la réflexion sur l’erreur dans l’histoire et la théorie de
+                la traduction pour remettre en cause l’idée reçue que l’erreur de traduction est,
+                « pis qu’un crime, une faute ».</p>
+            <p xml:id="d1e284">Tous les traducteurs ou auteurs de contresens n’ont pas les
+                obligeances ni les élégances de Ronsard, dans l’<hi rend="italic">Hymne à la
+                    mort</hi> :</p>
+            <q rend="quotation">Adonc la Mort se sied dessus leur blanche teste<lb/>Qui demande sa
+                debte, et la veut avoir preste  ;<lb/>Ou bien si quelques jours, pour leur faire
+                plaisir,<lb/>Les souffre dans le lict languir, tout à loisir,<lb/>Si est-ce que
+                soudain, après l’usure grande<lb/>D’yeux, de braz, ou de piedz, sa debte
+                redemande,<lb/>Et veut avec l’usure avoir le principal.</q>
+            <p xml:id="d1e304">S’inspirant de la traduction par Marsile Ficin de l’<hi rend="italic">Axiochos</hi> du Pseudo-Platon, avec son suggestif <hi rend="italic">astans
+                    super caput natura</hi>, il commence en effet par en donner une traduction
+                littérale à contresens, avec l’image de « la mort assise sur la tête de ses
+                débiteurs », avant d’effacer ce contresens volontaire et de se faire traducteur plus
+                orthodoxe en retraduisant, à quelques vers plus loin, la même formule, <hi rend="italic">super caput</hi>, par « veut avec l’usure avoir le principal ». La
+                reprise de la même formule traduite l’une à contresens, l’autre avec exactitude
+                signe en effet le contresens volontaire. Qui lit le dernier vers cité ne saurait
+                douter que Ronsard savait son latin et l’a bien traduit<note type="standard" xml:id="ftn2" place="foot" n="2">
+          <p> J. <hi rend="small-caps">Céard</hi>,
+                        “Ronsard, lecteur de l’Axiochos : une source inconnue de l’‘Hymne à la
+                        mort’”, in L. <hi rend="small-caps">Zilli</hi>, éd., <hi rend="italic">Parcours et rencontres. Mélanges de langue, d’histoire et de
+                            littérature françaises offerts à Enea Balmas</hi>, Paris, Klincksieck,
+                        1993, tome 1, p. 105-115, ici p. 107.</p>
+        </note>. Ce faisant, Ronsard
+                s’inscrit dans la droite ligne de son confrère de la Pléiade, à savoir Du Bellay et
+                    sa<hi rend="italic"> Deffence et illustration de la langue françoyse</hi> de
+                1549, qui tout en forgeant par paronomase le faux couple italien <hi rend="italic">traduttore-traditore</hi>, revendique le « droit à l’erreur » pour éviter le
+                psittacisme : bref, il faut « oser faire des traductions erronées ». François
+                Rigolot observe : « En termes derridiens on pourrait parler d’une théorie de l’<hi rend="italic">erratum</hi> puisque l’incorrection y est la condition <hi rend="italic">sine qua non</hi> de la production de sens. En termes
+                judéo-chrétiens, la transgression se trouve rachetée par une économie
+                sotériologique : <hi rend="italic">felix culpa</hi>
+        <note type="standard" xml:id="ftn3" place="foot" n="3">
+          <p> F. <hi rend="small-caps">Rigolot</hi>, <hi rend="italic">L’Erreur de la Renaissance. Perspectives littéraires</hi>,
+                        Paris, Champion, 2002, p. 309-311. <hi xml:lang="en">Cf. O.P. </hi>
+            <hi rend="small-caps">
+              <hi xml:lang="en">Norton</hi>
+            </hi>
+            <hi xml:lang="en">,
+                            </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Ideology and Langage of
+                                Translation in Renaissance France and their Humanist
+                                Antecedents</hi>
+            </hi>
+            <hi xml:lang="en">, Genève, Droz, 1984, p. 292
+                            </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">sq.</hi>
+            </hi>
+          </p>
+        </note>. »
+                Autrement dit, Ronsard sait traduire, mais il revendique le droit à l’erreur pour
+                faire naître un autre Cupidon de ses noces avec la philologie.</p>
+            <p xml:id="d1e370">Mais la double traduction à la Ronsard, avec son contresens
+                volontaire, n’est pas sans surprises et risque de déboucher sur des « faux
+                contresens » et non plus un « contresens volontaire ». Michel Zink l’a bien vu à
+                propos du « faux Haimon » et de sa référence à Matthieu 21,1-9 sur l’arrivée à
+                Bephtague, qualifié de « rue » (<hi rend="italic">vinculus</hi>), parce que sans
+                murs, puis l’entrée à Jérusalem<note type="standard" xml:id="ftn4" place="foot" n="4">
+          <p> M. <hi rend="small-caps">Zink</hi>, “Les ‘rues’ de la Terre promise
+                            (<hi rend="italic">vicus </hi> : rue). Une bonne traduction du faux
+                        Haimon et un faux contresens sur saint Matthieu”, <hi rend="italic">Romania</hi>, 378-379, 1974, n° 2-3, p. 351-358.</p>
+        </note>  : <hi rend="italic">In illo tempore, cum appropinquassent Hierosolymis et venissent
+                    Bephtague</hi>. L’auteur traduit par « rue » tout en se justifiant parce que,
+                dit-il, certes tous les villages en Terre sainte sont fortifiés, ainsi que le
+                précise Mat 21,2. Or, le pseudo-Haimon commet ensuite un contresens sur Mat 21,2, où
+                Jésus dit à ses disciples  : <hi rend="italic">Ite est castellum, quod contra vos
+                    est</hi>. Le traducteur comprend que <hi rend="italic">castellum</hi> désigne
+                Jérusalem  ; peut-être s’autorise-t-il d’un commentaire de saint Jérôme  : « … Misit
+                duos discipulos, <hi rend="italic">theôrêtikon kai ergastikon</hi>, id est, <hi rend="italic">scientiam et operam</hi>, ut ingrederentur castellum. Dixitque
+                eis  : <hi rend="italic">Ite in castellum quod contra vos est</hi>. Contra apostolos
+                enim erat, nec jugum doctrinarum volebat accipere » (<hi rend="italic">Comm. Ev.
+                    Mat.</hi>, PM 26, 146-147). Le sermon est le seul à mentionner l’opposition des
+                Juifs, laquelle ne peut être figurée que par Jérusalem. L’auteur, croyant préciser
+                la pensée de saint Jérôme demeuré ambigu, commet un contresens, mais un contresens
+                qui ne porte que sur l’interprétation allégorique du passage : « Le commentaire sur
+                    <hi rend="italic">vinculus</hi> n’empêche pas l’auteur de comprendre la lettre
+                de l’Évangile. […] Sans doute aurait-il hésité à exposer concurremment deux sens
+                contradictoires se rapportant l’un et l’autre à la lettre du texte sacré, ou deux
+                interprétations allégoriques incompatibles. Mais se sentait-il contraint de rendre
+                cohérents et compatibles deux niveaux de signification différents ? Il semble bien
+                que non. » Pour nous résumer, le pseudo-Haimon traduit deux fois <hi rend="italic">castellum</hi> : la première fois, pour en déduire que Bephtague (litt.
+                « maison de bouche », désignant selon certains commentateurs les chiens de garde du
+                seigneur qui rappellent les fidèles dans le droit chemin) est une place fortifiée ;
+                la seconde, l’appliquant à Jérusalem, pour dire que la ville sainte est murée contre
+                le Christ.</p>
+            <p xml:id="d1e417">Ces paramètres du contresens et de son indétermination relative étant
+                définis, venons-en à l’étude concrète et à la possibilité d’appliquer ces notions à
+                la critique des traductions. Dans son essai <hi rend="italic">De la traduction</hi>
+                (1635), Claude Gaspar Bachet de Meziriac, que Descartes admirait fort, s’en prend
+                aux « Belles infidèles » et brave l’adoubement donné par Montaigne à la traduction
+                de Plutarque par Amyot pour dresser une typologie des erreurs de sens en des termes
+                qui rappellent <hi rend="italic">La Manière de bien traduire</hi> d’Étienne Dolet
+                (1540). « […] Si quelqu’un aspire à la louange que mérite une fidèle traduction, il
+                faut qu’il observe exactement ces trois points ; qu’il n’ajoute rien à ce que dit
+                son Auteur, qu’il n’en retranche rien, et qu’il n’y apporte aucun changement qui
+                puisse en altérer le sens<note type="standard" xml:id="ftn5" place="foot" n="5">
+          <p>
+                        Claude Gaspar <hi rend="small-caps">Bachet de Meziriac</hi>, <hi rend="italic">De la traduction</hi> (1635), réédité avec une
+                        introduction de M. <hi rend="small-caps">Ballard</hi> in Artois Presses
+                        Université/Presses de l’Université d’Ottawa, 1998, p. <hi rend="small-caps">xxxiv</hi>
+                        <hi rend="italic">sq</hi>. et 8.</p>
+        </note>. » Pour mesurer la pertinence de
+                ce modèle, apparemment indépassé<note type="standard" xml:id="ftn6" place="foot" n="6">
+          <p> Cf. <hi rend="italic">L’Erreur en traduction</hi>, sous la direction
+                        de R. <hi rend="small-caps">Larose</hi>, <hi rend="italic">
+              <hi rend="small-caps">ttr</hi>
+            </hi>
+            <hi rend="italic">. Traduction,
+                            terminologie, traduction. Études sur le texte et ses
+                            transformations</hi>, 2/2, 1989, qui montre que la problématique de
+                        l’erreur reste largement descriptive et peine à définir une théorie générale
+                        en raison du caractère téléologique de l’activité de traduction.</p>
+        </note>,
+                arrêtons-nous sur la traduction en tous points excellente d’un maître en la matière,
+                celle des <hi rend="italic">Analectes </hi>de Confucius par Pierre Ryckmans, alias
+                Simon Leys<note type="standard" xml:id="ftn7" place="foot" n="7">
+          <p> Confucius, <hi rend="italic">Les Entretiens de Confucius</hi>, trad. et annoté par P.
+                            <hi rend="small-caps">Ryckmans</hi>, préface d’Étiemble, Paris,
+                        Gallimard, 1987, p. 66-67 et note p. 149.</p>
+        </note>  :</p>
+            <p xml:id="d1e477">Ji Zicheng dit : « On est honnête homme par nature ; à quoi bon la
+                culture ? » Zigong dit : « Monsieur, voilà un mot regrettable ; ce qui est dit est
+                dit : un attelage de quatre chevaux ne saurait le rattraper. La culture tient à la
+                nature, la nature tient à la culture, comme sa bigarrure au tigre. […] » (<hi rend="small-caps">xii</hi>, 8).</p>
+            <p xml:id="d1e482">Dans le corps du texte, rien ne signale l’omission, mais la note
+                précise : « <hi rend="italic">Voilà un mot regrettable</hi> : entre cette phrase et
+                la suivante sont insérés les trois mots, <hi rend="italic">jun zi ye</hi>, que j’ai
+                omis dans ma traduction, ne pouvant trancher entre trois sens possibles  : 1) Vous
+                parlez en honnête homme, mais ce que vous avez dit est regrettable ; 2) Ce que vous
+                avez dit au sujet de l’honnête homme est regrettable ; 3) Il est regrettable que
+                vous ayez dit cela ; car quand un honnête homme a parlé, un attelage de quatre
+                chevaux ne pourrait rattraper ses paroles. (Aujourd’hui les grammairiens considèrent
+                que seule la lecture n° 2 est correcte, quoique la lecture n° 3 ne soit pas
+                impossible. Selon nous la lecture n° 1 est à exclure ; mais il faut pourtant
+                remarquer que c’était celle de Zhu Xi. Évidemment, Zhu Xi n’était pas
+                grammairien…). » Pour se refuser à traduire, le traducteur évoque l’ambiguïté, sans
+                chercher à la rendre par une ambiguïté ni prendre le risque du contresens dans sa
+                propre langue qu’il impute à Zhu Xi, lettré de la dynastie Song, lequel joua
+                pourtant un rôle essentiel dans la constitution du canon des classiques chinois.</p>
+            <p xml:id="d1e490">Après le <hi rend="italic">non possumus</hi> du traducteur qui se
+                refuse à trancher et émende, vient l’<hi rend="italic">ajout</hi> qui explicite –
+                    <hi rend="italic">comme sa bigarrure tient au tigre</hi> : « Ces mots ne sont
+                pas dans le texte, mais ils explicitent le double sens de <hi rend="italic">wen </hi> : “culture” au sens dérivé, mais “bigarrure [du pelage d’un animal]”
+                au sens premier. » On retrouve donc ici, pleinement assumés, les trois péchés
+                dénoncés par Bachet de Meziriac en 1635, sous la plume d’un traducteur émérite, il
+                est vrai tenté par l’éloge du contresens<note type="standard" xml:id="ftn8" place="foot" n="8">
+          <p> S. <hi rend="small-caps">Leys</hi>, “Traduction (théorie
+                        et pratique)”, in <hi rend="small-caps">Leys</hi>, <hi rend="italic">L’Ange
+                            et le cachalot</hi>, Paris, Seuil, 1998, p. 135-204.</p>
+        </note>. Ici, le
+                traducteur va à contresens en refusant de traduire puis en ajoutant après avoir
+                    omis<note type="standard" xml:id="ftn9" place="foot" n="9">
+          <p> « Omettre ou
+                        ajouter, abréger ou paraphraser, ce n’est pas traduire », dira
+                        M. Desaintange dans la préface à sa traduction des <hi rend="italic">Métamorphoses</hi> d’Ovide, Paris, 1808, p. <hi rend="small-caps">xlix,
+                        </hi>qui admettait pourtant qu’on puisse « développer par des expressions
+                        interprétatives » sans manquer au devoir du traducteur.</p>
+        </note>. L’examen
+                d’un autre texte, le <hi rend="italic">Testimonium</hi> de Flavius Josèphe,
+                montrerait à l’inverse comment à trop vouloir traduire un texte apparemment simple,
+                on peut s’exposer au contresens inavoué en faisant passer une idéologie sous couvert
+                de traduction<note type="standard" xml:id="ftn10" place="foot" n="10">
+          <p> Cf. S. <hi rend="small-caps">Bardet</hi>, <hi rend="italic">Le Testimonium
+                            flavianum. Examen historique. Considérations historiographiques</hi>,
+                        préface de P. Geoltrain, Paris, Cerf, 2002 et “Le <hi rend="italic">Testimonium Flavianum</hi>, intraduisible et illimité  ? (Flavius
+                        Josèphe, <hi rend="italic">Antiquités judaïques</hi> XVIII, § 63-64)”, in
+                            C. <hi rend="small-caps">Mimouni</hi> et I. <hi rend="small-caps">Uttern-Weité</hi>, éd., <hi rend="italic">Pierre Geoltrain ou comment
+                            « faire l’histoire des religions »  ? Le chantier des « origines », les
+                            méthodes du doute et la conversation contemporaine entre les
+                            disciplines</hi>, Turnhout, Brepols, 2006.</p>
+        </note>. L’une des
+                conclusions les plus claires est que, quand on traduit, on fait toujours autre chose
+                que traduire, et les décisions de sens opérées ne relèvent pas toutes de la
+                linguistique et de la traductologie – l’exégèse, voire l’acte de foi, suppléant aux
+                lacunes du texte. Serge Bardet conclut : « Bref, un traducteur ne peut pas feindre
+                de croire que son lecteur et lui vont conjointement s’abstraire du passé de la
+                question. » Autrement dit, il n’y a pas une première étape qui serait
+                l’établissement d’un texte et sa traduction, puis une seconde qui serait celle de
+                son interprétation : celle-ci fait partie intégrante de celle-là. Même si certaines
+                décisions jurisprudentielles s’imposent pour éviter de tirer des conclusions avant
+                même que la recherche historique n’ait été accomplie. Il faut donc compter avec la
+                paresse du contresens, qui n’est autre que le fait accompli. L’apparente simplicité
+                du texte de Flavius Josèphe met en évidence un problème majeur théorisé par le
+                philosophe W. Quine, celui de « l’indétermination » de la traduction et de
+                l’indécidabilité du sens, même dans des cas apparemment limpides. Les inflexions
+                virtuelles sont innombrables, suivant les hypothèses de départ, et dès lors que
+                l’exégèse ou la foi vole au secours de la philologie, le « forcènement du sens »,
+                pour parler comme Derrida à propos d’Artaud, peut cesser d’être involontaire pour
+                être volontaire.</p>
+            <p xml:id="d1e560">Il n’est pas innocent que la traduction du nom de Judas
+                « l’Iscariote », dans le Nouveau Testament, se heurte aux mêmes apories, dirimantes
+                sauf pour des traducteurs trop pressés… ou qui acceptent le secours de l’exégèse ou
+                de l’Esprit-saint, comme le suggère Marguerite Harl dans <hi rend="italic">La
+                    Revanche d’Érasme</hi>
+        <note type="standard" xml:id="ftn11" place="foot" n="11">
+          <p> M. <hi rend="small-caps">Harl</hi>, <hi rend="italic">La Bible en
+                            Sorbonne ou la revanche d’Érasme</hi>, Paris, Cerf, 2004,
+                        p. 291-292.</p>
+        </note>. Le nom de l’Iscariote, en effet, est de ces hapax
+                dont la traduction se refuse, ou devrait se refuser, à toute tentative d’annexion,
+                pour la simple raison qu’on ne sait pas de quelle langue on devrait le traduire. Or,
+                l’exégèse impose sa traduction, que la plupart des historiens acceptent, s’ils n’y
+                souscrivent complètement<note type="standard" xml:id="ftn12" place="foot" n="12">
+          <p>
+                        Voir P.-E. <hi rend="small-caps">Dauzat</hi>, “Judas trahi par la
+                        traduction  : traduction, trahison et mort volontaire des évangiles à Sylvia
+                        Plath”, <hi rend="italic">Revue française de psychanalyse</hi>, 2008/4,
+                        p. 973-989.</p>
+        </note>. Un choix de traduction, légitime en soi parmi
+                d’autres choix possibles, fait jurisprudence au risque du contresens quand il finit
+                par exclure d’autres traductions.</p>
+            <div type="div1" xml:id="d1e587">
+                <head subtype="level1" xml:id="d1e588">Paresse du contresens</head>
+                <p xml:id="d1e590">L’envers de la question de l’erreur volontaire est donc la
+                    « paresse du contresens ». S’il est difficile d’imputer une part de volonté dans
+                    une erreur, sa répétition, une fois corrigée, ne prête plus de place au doute.
+                    La formule de La Bruyère à propos des amours supporte la paraphrase à propos des
+                    erreurs : « Les premières erreurs de traduction sont toujours les plus belles,
+                    les autres sont moins involontaires. » John Donne, le poète métaphysique et
+                    théologien anglais qui a contribué plus qu’aucun autre à cette remise à plat des
+                    traductions des textes bibliques, en a bien exposé l’enjeu dans son essai sur le
+                    suicide, le fameux <hi rend="italic">Biathanatos</hi>, au début du <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">e</hi> siècle : « […] Il arrive
+                    très souvent qu’un Père, jouissant d’une grande réputation et d’une grande
+                    autorité en son temps, s’empare de quelque interprétation probable des Écritures
+                    puis, l’assimilant dans ses homélies, l’applique pour encourager ou détourner
+                    ses auditeurs au gré des occasions ou de leurs maladies, ou suivant ce que son
+                    époque exige. Ainsi se plaît-il à imaginer des insinuations figurées qu’il
+                    adapte à la musique de son style […] en sorte que le sens, qui n’était que
+                    probable, devient nécessaire ; et ceux qui lui succèdent ont plutôt apprécié son
+                    esprit qu’ils n’ont troublé le leur. Comme il arrive souvent, nous répugnons à
+                    changer, ou à abandonner, une pierre contrefaite pour la simple raison qu’elle
+                    est posée là<note type="standard" xml:id="ftn13" place="foot" n="13">
+            <p> J. <hi rend="small-caps">Donne</hi>, <hi rend="italic">Biathanatos</hi>,
+                            trad. P.-E. Dauzat, Paris, <hi rend="small-caps">puf</hi>, 2001, 3<hi rend="sup">e</hi> partie, distinction V, section 7.</p>
+          </note>. »
+                    Avec Érasme, Richard Simon, Pierre-Daniel Huet et tant d’autres, John Donne a
+                    cerné avec acuité cette paresse du contresens<note type="standard" xml:id="ftn14" place="foot" n="14">
+            <p> L’expression est empruntée à Daniel
+                                <hi rend="small-caps">Lys</hi>, “La paresse du contresens”, <hi rend="italic">Études théologiques et religieuses</hi>, 78, 2003,
+                            n° 3, p. 309-320.</p>
+          </note> dès le <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">e</hi> siècle. Mais on aurait tort de croire que cette
+                    « paresse » est le propre d’une étape de la pensée en matière de traduction,
+                    celle des « belles infidèles ».</p>
+                <p xml:id="d1e634">Évoquant la persistance des traductions fautives, Guillaume
+                    Gardascia pose trois questions centrales : « Comment un contresens grossier
+                    a-t-il, pu survivre pendant près de deux millénaires  ? Comment une fois
+                    dénoncé, peut-il rester ignoré pendant plusieurs lustres par la quasi-totalité
+                    des interprètes ? Comment enfin, après une correction indiscutable et
+                    suffisamment diffusée, peut-on revenir si souvent à l’erreur ancienne<note type="standard" xml:id="ftn15" place="foot" n="15">
+            <p> G. <hi rend="small-caps">Gardascia</hi>, “‘Trahisons’ bibliques  : Nb 5,31
+                            &amp; Lc 10,25-37”, <hi rend="italic">Revue Biblique</hi>, n° 3,
+                            juillet, 2005, p. 369-371.</p>
+          </note> ? » Sa réponse se limite à un
+                    constat. Dans le même ordre d’idées, l’historien Marc Bloch évoque le caractère
+                    approximatif du mot <hi rend="italic">serf</hi> pour « désigner le <hi rend="italic">chriépostnoï</hi> de l’ancienne Russie tsariste ». Mais il
+                    suggère une réponse en montrant les inconvénients du mot retenu par les
+                    historiens : « Un rapprochement plus malencontreux pouvait difficilement être
+                    imaginé. Là-bas, un régime d’attache à la glèbe, peu à peu transformé en un
+                    véritable esclavage ; chez nous, une forme de dépendance personnelle qui, malgré
+                    sa rigueur, était très loin de traiter l’homme comme une chose dépourvue de tous
+                    droits : le prétendu servage russe n’avait à peu près rien de commun avec notre
+                    servage médiéval. Cependant, dire tout bonnement <hi rend="italic">chriépostnoï</hi> ne nous avancerait guère. Car il a existé en Roumanie, en
+                    Hongrie, en Pologne et jusque dans l’Allemagne orientale, des types de sujétion
+                    paysanne étroitement apparentés à celui qui s’établit en Russie. Faudra-t-il,
+                    tout à tour, parler roumain, hongrois, polonais, allemand ou russe ? Une fois de
+                    plus, l’essentiel échapperait, qui est de restituer les liaisons profondes des
+                    faits, en les exprimant par une juste nomenclature. » Et de conclure :
+                    « L’étiquette a été mal choisie. Une étiquette commune, surimposée, par
+                    conséquent aux noms nationaux au lieu de les copier n’en demeure pas moins
+                    nécessaire. <hi rend="italic">Là encore, la passivité est interdite</hi>
+          <note type="standard" xml:id="ftn16" place="foot" n="16">
+            <p> M. <hi rend="small-caps">Bloch</hi>, <hi rend="italic">Apologie pour
+                                l’histoire</hi>, Paris, Armand Colin, 1974, p. 135.</p>
+          </note>. »
+                    (C’est moi qui souligne.) Paresse et passivité font bon ménage.</p>
+                <p xml:id="d1e669">Mais le problème conceptuel que rencontrent les historiens a son
+                    pendant dans la traduction dite poétique de textes qui, outre leur valeur
+                    littéraire, ont acquis par leur impact la valeur de document historique et
+                    constituent une source pour l’historien. Particulièrement révélateur est le cas
+                    d’Yves Bonnefoy, qui, au fond, refuse de traduire et, comme dit Jean Bollack,
+                    cherche à « se satisfaire dans une créativité plus libre ». Ainsi, quand il
+                    traduit le <hi rend="italic">Winter’s tale</hi> de Shakespeare (V, 1, 106 <hi rend="italic">sq.</hi>), où il est dit que la beauté de Perdita ( !) est
+                    telle que, <hi rend="italic">would she begin a sect, might quench the zeal / of
+                        all professors else ; make proselytes of who she but bid follow </hi> ; le
+                    sens est par trois fois « faussé » quand zèle est rendu par ferveur, prosélytes
+                    par zélateurs, et les derniers mots par « n’importe qui ». Au nom du
+                    « poétique », et parce que le traducteur refuse d’être « lié par la traduction
+                    qui s’est faite dans la langue d’origine, et qui se déchiffre<note type="standard" xml:id="ftn17" place="foot" n="17">
+            <p> Cf. J. <hi rend="small-caps">Bollack</hi>, “Le traducteur”, in Bollack, <hi rend="italic">Poésie contre poésie. Celan et la littérature</hi>,
+                            Paris, <hi rend="small-caps">puf</hi>, 2001, p. 168-179, ici
+                        p. 179.</p>
+          </note> », Shakespeare se trouve ainsi décontextualisé et le
+                    lecteur privé des références historiques, jusque dans le vocabulaire, qui lui
+                    permettrait de comprendre ce qu’il lit<note type="standard" xml:id="ftn18" place="foot" n="18">
+            <p> Ces remarques sont tirées de l’analyse probante de
+                            Éd. <hi rend="small-caps">Will</hi> et Cl. <hi rend="small-caps">Orrieux</hi>, <hi rend="italic">« Prosélytisme Juif »  ? Histoire
+                                d’une erreur</hi>, Paris, Les Belles Lettres, 2004, p. 302, n. 53.
+                            Yves Bonnefoy s’est partiellement corrigé depuis en réintroduisant le
+                            « prosélytes ». <hi xml:lang="en">Cf. Shakespeare, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Le Comte d’hiver</hi>
+              </hi>
+              <hi xml:lang="en">, Paris, Gallimard, Folio/Théâtre, 1996,
+                            p. 182.</hi>
+            </p>
+          </note>. On voit bien que le constat de John Donne vaut
+                    pour tous les domaines sans qu’on puisse apporter de réponses définitives aux
+                    questions de Gardascia. Mais la « paresse du contresens » obéit aussi à d’autres
+                    ressorts : « La philologie biblique progresse, observe Daniel Lys, cependant que
+                    la langue de réception du texte traduit évolue. La combinaison des deux est
+                    génératrice de contresens. Par habitude paresseuse et reposante, on garde des
+                    interprétations dépassées […]. » Souvent une traduction décide d’une
+                    interprétation autant qu’une interprétation dicte une traduction.</p>
+            </div>
+            <div type="div1" xml:id="d1e715">
+                <head subtype="level1" xml:id="d1e716">Fausse pudeur et vrai contresens</head>
+                <p xml:id="d1e718">Si l’on délaisse le domaine religieux pour celui des études
+                    historiques, la problématique est la même. Cherchant à combattre le doute qui
+                    germe dans l’esprit de Bouvard et Pécuchet, l’abbé Jeufroy explique doctement :
+                    « Isaïe ne se dépouilla pas complètement, <hi rend="italic">nudus</hi>, en
+                    latin, signifiant nu jusqu’aux hanches ; ainsi Virgile conseille de se mettre nu
+                    pour labourer, et cet écrivain n’eût pas donné un précepte contraire à la
+                    pudeur ! Ézéchiel dévorant un livre n’a rien d’extraordinaire ; ne dit-on pas
+                    dévorer une brochure, un journal<note type="standard" xml:id="ftn19" place="foot" n="19">
+            <p>
+                            <hi rend="small-caps">Flaubert</hi>, <hi rend="italic">Œuvres</hi>, éd.
+                            A. Thibaudet et R. Dumesnil, Paris, Gallimard, Bibliothèque de la
+                            Pléiade, 1952, vol. 2, p. 936.</p>
+          </note> ? » Dans un roman désopilant,
+                    le grand érudit chinois Qian Zhongshu ne cesse de jouer sur les mots et évoque à
+                    maintes reprises les divers usages de la traduction ; à propos d’une certaine
+                    Miss Bao aux formes avantageuses et aux vêtements plutôt moulants : les uns
+                    l’appellent la Vérité, parce qu’elle n’a rien à cacher, et les autres « Parcelle
+                    de Vérité » parce qu’elle n’était qu’à moitié nue<note type="standard" xml:id="ftn20" place="foot" n="20">
+            <p> Qian <hi rend="small-caps">Zhongshu</hi>, <hi rend="italic">La Forteresse assiégée
+                            </hi>(1947), trad. S. <hi rend="small-caps">Servan-Schreiber</hi> et <hi rend="small-caps">Wang Lou</hi>, préface de L. <hi rend="small-caps">Bianco</hi>, Christian Bourgois, 1987, p. 13.</p>
+          </note>. La nudité
+                    d’Ésaïe est-elle une demi-vérité ou une vérité complète ? Et s’il y a contresens
+                    de l’abbé Jeufroy, est-il ou non volontaire ? Comment s’explique sa
+                    persistance ? Dans leur <hi rend="italic">Dictionnaire étymologique de la langue
+                        latine, </hi>Ernout et Meillet sont prudents : <hi rend="italic">sub
+                        verbo</hi> « nudus », ils indiquent « peut-être », à l’imitation du grec <hi rend="italic">gumnos</hi>, « légèrement vêtu », et renvoient, comme l’abbé
+                    Jeufroy, aux <hi rend="italic">Géorgiques</hi> de Virgile ; dans la Vulgate, il
+                    s’agit certainement d’un « néologisme de sens ». François d’Assise avait compris
+                    au sens littéral, quand il dansa nu pour être plus proche de la nature. Alors,
+                    traduction ou sollicitation, demi-vérité ou vérité ?</p>
+                <p xml:id="d1e767">Dans son étude magistrale, <hi rend="italic">Christianisme,
+                        tolérance sociale et homosexualité</hi>, John Boswell, à propos de
+                    l’histoire des pratiques homosexuelles a montré comment la pratique du
+                    contresens volontaire s’est imposée et a durablement entravé le développement
+                    des recherches<note type="standard" xml:id="ftn21" place="foot" n="21">
+            <p> J.
+                                <hi rend="small-caps">Boswell</hi>, <hi rend="italic">Christianisme,
+                                tolérance sociale et homosexualité</hi>, trad. A. Tachet, Paris,
+                            Gallimard, 1985, p. 40-44.</p>
+          </note>. Les erreurs volontaires ou
+                    manipulations portent autant sur l’édition des textes que sur leur traduction.
+                    Au-delà de l’Ovide moralisé, <hi rend="italic">L’art d’aimer</hi> a été un
+                    terrain d’élection de ces pratiques. Boswell en relève un exemple parmi bien
+                    d’autres. <hi rend="italic">Hoc est quod pueri tangar amore minus</hi>, soit
+                    « j’étais moins attiré par l’amour des garçons » devient  : <hi rend="italic">Hoc est quod pueri tangar amore nihil</hi>, qui justifie la notation
+                    marginale qu’Ovide n’était pas un sodomite. Selon Boswell, « des substitutions
+                    aussi grossières sont aisées à dénoncer et on a trouvé depuis des moyens plus
+                    subtils de déguiser les manifestations d’homosexualité. Il est courant de mettre
+                    au féminin des pronoms masculins au moins depuis que le petit-neveu de
+                    Michel-Ange imagina de rendre les sonnets du grand artiste plus
+                    acceptables […] et cette ruse a gardé la faveur des universitaires même si
+                    aucune réputation morale n’était en jeu ».</p>
+                <p xml:id="d1e792">Loin d’appartenir au passé, la controverse persiste autour des
+                    questions de traduction et de mauvaise foi. Le sens des inscriptions de Théra
+                        (<hi rend="small-caps">vii</hi>
+          <hi rend="sup">e</hi> ou <hi rend="small-caps">vi</hi>
+          <hi rend="sup">e</hi> siècle avant J.-C), graffiti
+                    ou hommages évoquant parfois crument des pratiques homosexuelles, continuent
+                    ainsi de susciter la controverse et les accusations de contresens délibéré ou de
+                    sollicitation. Dans son histoire de l’homosexualité, Bernard Sergent<note type="standard" xml:id="ftn22" place="foot" n="22">
+            <p> B. <hi rend="small-caps">Sergent</hi>, <hi rend="italic">L’homosexualité
+                                initiatique dans l’Europe ancienne</hi>, Paris, Payot, 1986,
+                            p. 34-35 et 242, note 41.</p>
+          </note>, s’en prend ainsi à Marrou qui,
+                    dans son histoire de l’éducation, rend <hi rend="italic">oiphein</hi> par
+                        « saillir<note type="standard" xml:id="ftn23" place="foot" n="23">
+            <p> H.-I.
+                                <hi rend="small-caps">Marrou</hi>, <hi rend="italic">Histoire de
+                                l’éducation dans l’Antiquité</hi>, Paris, Seuil, 1948  ; rééd.
+                            Points-Seuil, <hi rend="italic">1. Le Monde grec</hi>, 1981, p. 356 §
+                            10.</p>
+          </note> » : contresens « délibéré », selon lui puisque <hi rend="italic">oiphein</hi> n’est pas un mot grossier et ne se dit pas des
+                    animaux (cf. Chantraine)<note type="standard" xml:id="ftn24" place="foot" n="24">
+            <p> Cf. aussi K. <hi rend="small-caps">Dover</hi>, in <hi rend="italic">Homosexualité grecque</hi>, trad. S. <hi rend="small-caps">Saïd,</hi> La Pensée sauvage, 1982, p. 152, précisant que le mot
+                            n’est pas aussi argotique que « baiser » ou grossier que « foutre »,
+                            mais traduit ensuite par « fait l’amour ».</p>
+          </note>. Autrement dit,
+                    Marrou aurait choisi par le simple biais de la traduction de dénaturer le sens
+                    de ces inscriptions pour en faire des salacités. Il est difficile, en
+                    l’occurrence, de faire la part de la polémique et celle de l’analyse savante :
+                    si les quelques pages de Marrou sur la parenté entre la culture homosexuelle
+                    chez les nazis et la culture homosexuelle chez les Grecs peuvent paraître
+                    problématiques aujourd’hui, rien n’autorise à y voir autre chose que le souci
+                    d’un disciple de Raymond Aron et précurseur de G. Mosse pour jeter des ponts
+                    entre le monde antique et les phénomènes contemporains. Il serait difficile de
+                    lui imputer un désir de tromper<note type="standard" xml:id="ftn25" place="foot" n="25">
+            <p> Sur la question de l’imputation de l’erreur à l’ignorance, la
+                            facilité ou la malveillance, voir désormais E. <hi rend="small-caps">Brongersma</hi>, “The Thera inscriptions ritual or slander  ?”, <hi rend="italic">Journal of Homosexuality</hi>, 20 (4) 1990,
+                            p. 31-39.</p>
+          </note>.</p>
+            </div>
+            <div type="div1" xml:id="d1e861">
+                <head subtype="level1" xml:id="d1e862">Jérôme et le célibat</head>
+                <p xml:id="d1e864">L’erreur et la paresse se mêlent dans un autre domaine voisin où
+                    aucune correction traductologique ne saurait corriger la <hi rend="italic">doxa</hi>. Dans la Vulgate, Jérôme insère un texte de l’histoire de Tobie
+                    qui diffère du texte grec des Septante plus ancien. Lui-même avoue sa traduction
+                    hâtive. Quand le texte alexandrin fait dire au jeune Tobie, avant de s’unir à
+                    son épouse : « Et maintenant, ce n’est pas le plaisir que je cherche en prenant
+                    ma sœur », Jérôme traduit : « Tu le sais, ce n’est pas par concupiscence que je
+                    prends ta sœur pour épouse, mais par amour de la postérité. » La traduction est
+                    l’occasion d’une moralisation. Et pour faire bonne mesure, Jérôme supprime la
+                    citation de la Genèse : « Il n’est pas bon que l’homme soit seul. » La
+                    traduction est ainsi l’occasion d’une double mutilation du texte, introduisant
+                    la procréation, absente de l’original, et supprimant la communauté des époux,
+                    pourtant explicitement mentionnée. Jérôme a eu d’autant plus d’influence que sa
+                    vision s’accordait avec une vision pessimiste de la sexualité<note type="standard" xml:id="ftn26" place="foot" n="26">
+            <p> Cf. M. <hi rend="small-caps">Rouche</hi>, <hi rend="italic">Le plaisir sexuel
+                                est-il un péché  ?</hi>, Paris, Éd. Le Prat, 1983, p. 42-69,
+                            notamment p. 47-48, sur les traductions hiéronymiennes.</p>
+          </note>,
+                    alors même que son interprétation repose sur une erreur de traduction.</p>
+                <p xml:id="d1e880">Jérôme est aussi un des pères de l’idée que le célibat est
+                    supérieur au mariage. Il a lancé cette idée en interprétant Matthieu 13,8, la
+                    parabole du grain semé qui rapporte 30, 60 ou 100 selon la qualité de la terre.
+                    Jérôme en conclut que les célibataires consacrés rapportent 100, les veufs et
+                    les veuves qui ne se remarient pas offrent 60 et ceux qui donnent 30 sont les
+                    gens mariés<note type="standard" xml:id="ftn27" place="foot" n="27">
+            <p> Jérôme,
+                                <hi rend="italic">Sur saint Matthieu, 13-23</hi>, tome I, Sources
+                            chrétiennes, Cerf, 1977, p. 272-274  ; voir aussi son <hi rend="italic">Adv. Jovinianum</hi>, I, 3  ; et lettre 49 à Pammachius, 2, éd.
+                            Labourt, II, p. 121-122, où Jérôme se défend d’avoir jamais rabaissé le
+                            mariage.</p>
+          </note>. Quand il traduit, commente Michel Rouche, Jérôme
+                    précise : <hi rend="italic">tricesimum, sexagesimum et centesimum</hi>, non pas
+                        <hi rend="italic">trigenta, sexaginta, centum</hi>. Et crée alors un
+                    contresens, car la bonne traduction donne « un trentième, un soixantième et un
+                    centième » (le taux d’intérêt de 1 % étant celui que fixe le code théodosien
+                    pour le remboursement mensuel des prêts)  : « Ce qui signifie […], selon la
+                    traduction exacte, qu’un champ qui rapporte un centième rapporte en fait 12 %
+                    par an, un soixantième 20 % et un trentième 40 %  ! L’échelle de la mesure s’en
+                    trouve inversée<note type="standard" xml:id="ftn28" place="foot" n="28">
+            <p> M.
+                                <hi rend="small-caps">Rouche</hi>, <hi rend="italic">Sexualité,
+                                intimité et société sous le regard de l’Histoire</hi>, Paris, <hi rend="small-caps">cld</hi>, 2002, p. 80-81.</p>
+          </note>. » Augustin
+                    donnera raison à Jérôme<note type="standard" xml:id="ftn29" place="foot" n="29">
+            <p> Pour le point de vue de Jérôme, cf. sa lettre 49 à
+                        Pammachius.</p>
+          </note>. Dès lors Pascal pourra parler du « mariage, la plus
+                    basse condition du christianisme ».</p>
+                <p xml:id="d1e918">Or le mariage deviendra un sacrement et prendra un caractère
+                    rigoureux du fait de la traduction latine du grec <hi rend="italic">mystêrion</hi> in Eph. 5,32, à propos du mariage  : après avoir invoqué la
+                    Genèse pour dire « les deux deviendront une chair », Paul ajoute  : « Ce mystère
+                    est grand  : je dis par rapport au Christ et à l’Église. » <hi rend="italic">Mystêrion</hi> n’a pas à l’origine le sens de rite initiatique. Dans son
+                    œuvre apologétique, cependant, Tertullien avait joué sur les mots avec son
+                    emploi spécifique du nom <hi rend="italic">sacramentum</hi> qui, du serment des
+                    latins, devint une traduction du grec <hi rend="italic">musterion</hi>, partant
+                    acquit <hi rend="italic">ipso facto</hi> son sens spécifiquement chrétien<note type="standard" xml:id="ftn30" place="foot" n="30">
+            <p> Fr. <hi rend="small-caps">Refoulé</hi>, introd. à Tertullien, <hi rend="italic">Le Baptême</hi>, Paris, Cerf, 1976, p. 66-70 et
+                            surtout R. <hi rend="small-caps">Braun</hi>, <hi rend="italic">Deus
+                                christianorum. Recherches sur le vocabulaire doctrinal de
+                                Tertullien</hi>, Paris, Études Augustiniennes, 1977,
+                        p. 435-443.</p>
+          </note>. Dès lors, quand la Vulgate traduira <hi rend="italic">megas mystêrion</hi> par <hi rend="italic">sacramentum
+                        magnum</hi>, elle créera le malentendu. Sans être totalement fausse
+                    puisqu’on peut comprendre <hi rend="italic">sacramentum</hi> au sens de
+                    « profonde réalité sacrée », plutôt qu’au sens technique reçu depuis son
+                    élaboration par la théologie médiévale<note type="standard" xml:id="ftn31" place="foot" n="31">
+            <p> Sur l’évolution des termes <hi rend="italic">sacramentum</hi> et <hi rend="italic">mystêrion</hi> au début du
+                            christianisme, voir H.M. <hi rend="small-caps">Féret</hi>, “Sacramentum
+                            Res dans la langue théologique de saint Augustin”, <hi rend="italic">Revue des Sciences Philosophiques et Théologiques</hi>, 29, 1940,
+                            p. 219-223.</p>
+          </note>.</p>
+            </div>
+            <div type="div1" xml:id="d1e979">
+                <head subtype="level1" xml:id="d1e980">Augustin et les marchands du temple</head>
+                <p xml:id="d1e982">Quand, au soir de sa vie, Augustin se penche sur son œuvre et
+                    compose des <hi rend="italic">Retractationes</hi>, il avoue s’être trompé (<hi rend="italic">Révisions</hi>, I, <hi rend="small-caps">xii</hi>, 6). En
+                    affirmant que Jésus n’avait jamais rien fait par la violence, « je ne m’étais
+                    pas souvenu qu’il avait chassé du temple “les vendeurs et les acheteurs” avec un
+                    fouet » (Mc 11, 15-17, Mat 21,12, Lc 19,45). Cette « correction » découle
+                    assurément du point de vue qu’il avait développé et affûté au cours de la
+                    controverse donatiste, à savoir que la force est parfois nécessaire pour ramener
+                    les récalcitrants à des idées « justes<note type="standard" xml:id="ftn32" place="foot" n="32">
+            <p>
+                            <hi xml:lang="en">Voir E. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Clark</hi>
+              </hi>
+              <hi xml:lang="en">, “On not retracting the
+                                unconfessed”, in J. D. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Caputo</hi>
+              </hi>
+              <hi xml:lang="en"> et M. J. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Scanlon</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Augustine
+                                    and Postmodernism. Confessions and Circumfession</hi>
+              </hi>
+              <hi xml:lang="en">, Bloomington et Indianapolis, Indiana University
+                                Press, 2005, p. 222-243, ici p. 231 (trad. fr. in </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Jacques Derrida-Saint Augustin. Des
+                                    confessions</hi>
+              </hi>
+              <hi xml:lang="en">, trad.</hi>
+              <hi rend="italic">
+                <hi xml:lang="en"> </hi>
+              </hi>
+              <hi xml:lang="en">P.-E.
+                                Dauzat, Paris, Stock, 2006, p. 457). Peter </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Brown</hi>
+              </hi>
+              <hi xml:lang="en"> examine l’évolution d’Augustin de plus en plus partisan de la
+                                « coercition » à l’égard des donatistes in </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Religion and Society in the Age of Saint
+                                    Augustine</hi>
+              </hi>
+              <hi xml:lang="en">, New York, Harper &amp;
+                                Row, 1972, p. 260-278, 301-331.</hi>
+            </p>
+          </note> ». À l’exemple
+                    d’Augustin, la Vulgate et les traductions consacrées laissent entendre que le
+                    fouet a été utilisé contre les marchands. Augustin se corrige, mais que
+                    corrige-t-il  : une traduction ou une interprétation  ? Sa bévue philologique ou
+                    sa faiblesse doctrinale  ? Force est de constater que l’unanimité était loin
+                    d’être acquise en son temps. Dans un texte copte donnant l’évangile de Matthieu,
+                    récemment publié par Hans-Martin Schenke, Jésus n’effectue aucun acte violent
+                    lorsqu’il s’en prend aux vendeurs installés dans le Temple (Mt 21,12-13). Pour
+                    certains, ce détail important se lisait, non pas dans l’évangile de Matthieu,
+                    mais dans une forme archaïque de l’évangile de Jean qui, dans le manuscrit,
+                    aurait remplacé le texte matthéen primitif<note type="standard" xml:id="ftn33" place="foot" n="33">
+            <p> M.-E. <hi rend="small-caps">Boismard</hi>, “Jésus
+                            a-t-il usé de violence en chassant les vendeurs du temple  ?”, <hi rend="italic">Revue Biblique</hi>, 2003, vol. 110, n° 1,
+                            p. 33-37.</p>
+          </note>. Pour d’autres, le problème est à la fois
+                    d’idéologie et de traduction : tout tourne autour d’une conjonction présente
+                    chez Jean 2,15. Le sens normal de la conjonction <hi rend="italic">te kai</hi>
+                    est d’initier une liste, non pas de continuer une série commençant par « eux
+                    tous » <hi rend="italic">(pantas)</hi>, lequel peut renvoyer aux « vendeurs et
+                    changeurs » qui précèdent autant qu’aux « moutons et bœufs » qui suivent. Quant
+                    au verbe <hi rend="italic">exebalen</hi>, il signifie simplement « renvoyer » et
+                    n’implique aucune violence<note type="standard" xml:id="ftn34" place="foot" n="34">
+            <p> J. <hi rend="small-caps">Lasserre</hi>, “Un contresens tenace”,
+                                <hi rend="italic">Cahier de la Réconciliation</hi>, Paris, octobre
+                            1967, n° 10, p. 7 <hi rend="italic">sq.</hi> L’auteur relève 91
+                            occurrences de cette conjonction  : dans 86 cas, une traduction de même
+                            nature que « aussi bien que les moutons et les bœufs » serait
+                            impossible. Dans cinq cas, elle serait possible, mais tel n’a pas été le
+                            choix des traducteurs. La traduction de Jean 2,15 est donc la seule
+                            exception.</p>
+          </note>. Au <hi rend="small-caps">vi</hi>
+          <hi rend="sup">e</hi> siècle, le témoignage du Grec Cosmas Indicopleustès (v. 530), au
+                    livre III de sa <hi rend="italic">Topographie chrétienne</hi>, 18-24 (144B-148A)
+                    dissipe toute ombre d’un doute : Jésus était armé d’un fouet (cf. Jn 2,15), mais
+                    « il ne frappa que les bêtes », les « êtres privés de raison » ; les autres, il
+                    les a « corrigés par la parole<note type="standard" xml:id="ftn35" place="foot" n="35">
+            <p> Cosmas Indicopleustès, <hi rend="italic">Topographie
+                                chrétienne</hi>, éd. W. Wolska-Conus, Paris, Cerf/Sources
+                            chrétiennes, 1968, p. 458-459 (III, 22).</p>
+          </note> ». Barhadbšabba
+                    (mort en 628), donne l’origine de cette interprétation en exposant les raisons
+                    de l’inimitié de Rabbula pour Théodore de Mopsueste : « Rabbula montrait
+                    auparavant beaucoup d’amitié pour le célèbre Interprète et étudiait ses
+                    ouvrages. Mais étant allé à Constantinople pour assister au concile des Pères
+                    (381), il fut accusé de frapper les clercs ; ayant répondu que Notre Seigneur
+                    frappa lui aussi quand il entra au temple, l’Interprète se leva et le réprimanda
+                    en disant : Notre Seigneur ne fit pas cela  ; aux hommes il adressa seulement la
+                    parole, disant  : Ôtez-cela d’ici, et renversa les tables. Mais il fit sortir à
+                    coups de fouet les taureaux et les moutons<note type="standard" xml:id="ftn36" place="foot" n="36">
+            <p> Cité in W. <hi rend="small-caps">Wolska</hi>, <hi rend="italic">La Topographie de Cosmas Indicopleustès. Théologie et
+                                science au </hi>
+              <hi rend="italic">
+                <hi rend="small-caps">vi</hi>
+              </hi>
+              <hi rend="sup">
+                <hi rend="italic">e</hi>
+              </hi>
+              <hi rend="italic"> siècle</hi>, Paris, <hi rend="small-caps">puf</hi>,
+                            1962, p. 91-92.</p>
+          </note>. » En l’occurrence, le témoignage de
+                    l’histoire et de la philologie ne suffisent pas à corriger une légende tenace.
+                    D’involontaire, peut-être, l’erreur est devenue volontaire, et s’est installée
+                    au prix d’une certaine paresse.</p>
+            </div>
+            <div type="div1" xml:id="d1e1115">
+                <head subtype="level1" xml:id="d1e1116">En guise de conclusion</head>
+                <p xml:id="d1e1118">À ceux qui se désoleraient de cette paresse et de ces
+                    manipulations, je rappellerai une curiosité, à savoir que la persistance de
+                    l’erreur de traduction ne change pas forcément quelque chose à la compréhension
+                    parce que la compréhension n’est pas liée ou pas subordonnée de manière univoque
+                    à l’erreur de traduction ; là encore on peut trouver des équivalents dans le
+                    domaine profane. La traduction n’est qu’un moment, voire un outil, du travail de
+                    déchiffrement : elle est téléologique, sans être une fin en soi. Dans les <hi rend="italic">Vexations de l’art</hi> Svetlana Alpers<note type="standard" xml:id="ftn37" place="foot" n="37">
+            <p>
+                            <hi xml:lang="en">Paris, Gallimard, 2008.</hi>
+            </p>
+          </note> cite à
+                    plusieurs reprises une inscription de Vélasquez. À ses débuts à la cour (1625),
+                    où l’on reprocha au cheval qu’il avait peint dans un portrait du roi de
+                    contrevenir aux règles de l’art, Velázquez prit la mouche et refusa de corriger
+                    ses erreurs. Il préféra simplement effacer la majeure partie du tableau et
+                    remplaça sa signature par les mots suivants : <hi rend="italic">Didacus
+                        Velazquius, Pictor Regis, expinxit</hi>, soit « Diego Velázquez, peintre du
+                    roi, l’a peint » ; comprenant ce qu’il avait fait, l’historien d’art traduit <hi rend="italic">expinxit</hi> tantôt par <hi rend="italic">expunged</hi>
+                    tantôt par <hi rend="italic">unpainted/erased</hi>
+          <note type="standard" xml:id="ftn38" place="foot" n="38">
+            <p>
+                            <hi xml:lang="en">S. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Alpers</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">The Vexations of Art</hi>
+              </hi>
+              <hi xml:lang="en">,
+                                New Haven, Yale University Press, 2005, p. 160 et
+                        257.</hi>
+            </p>
+          </note>,<hi rend="italic"> </hi>l’a supprimé, « dé-peint » ou
+                    effacé, ce qui est très exactement un contresens : <hi rend="italic">expingere</hi> veut dire peindre, représenter. Si le contresens flagrant
+                    ici commis n’a pas induit davantage en erreur les historiens d’art, c’est qu’ils
+                    disposaient d’une biographie d’un contemporain de Velázquez, Antonio Palomino,
+                    qui avait relaté l’épisode par le menu, permettant d’« effacer » <hi rend="italic">(expingere)</hi> à son tour l’erreur de traduction.</p>
+                <p xml:id="d1e1168">Velázquez, s’exprimant par antiphrase, a provoqué un contresens.
+                    Il a cédé à l’ironie, laissant entendre une chose en en disant une autre : le
+                    procédé dont il a joué exploite la possibilité de contresens ou
+                    d’incompréhension, non pas dans le passage d’une langue à l’autre, mais dans sa
+                    propre langue. Comme dit Philippe Hamon : « L’ironie, d’un certain point de vue,
+                    pourrait donc être définie soit comme un “contresens”, le contresens volontaire
+                    d’un énonciateur parlant “contre” un sens appartenant à autrui, soit comme un
+                    acte de réécriture, réécriture qu’opère le lecteur à partir du texte de
+                    l’auteur : il réécrit “beau” en “laid”, “intelligent” en “stupide<note type="standard" xml:id="ftn39" place="foot" n="39">
+            <p> P. <hi rend="small-caps">Hamon</hi>, <hi rend="italic">L’Ironie littéraire.
+                                Essai sur les formes de l’écriture oblique</hi>, Paris, Hachette,
+                            1996, p. 20-21. Et cette pratique de l’ironie n’est pas l’apanage de la
+                            modernité. Cf. également D. <hi rend="small-caps">De Courcelles</hi>,
+                            “Entre la folie et les pleurs  : la fonction de l’ironie lullienne dans
+                            le <hi rend="italic">Desconhort</hi> (1295)”, <hi rend="italic">Estudis
+                                Romànics</hi>, Barcelone, Institut d’Estudis Catalans, 24, 2002,
+                            p. 139-148, ici, p. 142.</p>
+          </note>”. » L’énonciateur Velázquez aurait
+                    commis un contresens volontaire ; l’historien d’art se serait prévalu de sa
+                    qualité de lecteur pour réécrire et traduire le mot litigieux par son
+                    antonyme  ; et le traducteur, en l’occurrence moi-même, cédant à la peur de la
+                    rhétorique du contresens, a d’un seul geste rectifié le contresens, interdit la
+                    réécriture et effacé l’ironie en pensant que l’ironie pourrait échapper au
+                    critique de la traduction, qui aurait cru à une démarche inverse, avec un
+                    contresens de traduction avéré, mais qui a fait loi et qui est ensuite justifié,
+                    entre ironie, mauvaise foi et innocente paresse.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

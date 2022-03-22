@@ -1,0 +1,1541 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-1437_Bonnet">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">
+                    <hi xml:lang="fr">Carthage, l’« autre nation » dans l’historiographie ancienne
+                        et moderne</hi>
+                </title>
+                <author>
+                    <persName>
+                        <forename>Corinne</forename>
+                        <surname>Bonnet</surname>
+                    </persName>
+                    <affiliation> &#xD; Université de Toulouse-Le Mirail<lb/>corinne.bonnet@sfr.fr
+                    </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+                        Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>« Savoirs » est une plateforme de publication numérique vouée à l’histoire et à
+                    l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS
+                    (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une
+                    archive d’articles ou une collection de livres, il s’agit d’une bibliothèque
+                    « intelligente » et expérimentale qui propose des parcours de lecture
+                    heuristiques et réflexifs entre les textes, grâce à différents algorithmes de
+                    recherche et de suggestions reposant notamment sur un balisage des lieux, des
+                    dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs
+                        (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel
+                        XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données
+                        géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour
+                        l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références
+                        Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes
+                        pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>Carthage</item>
+                        <item>fascisme</item>
+                        <item>Droysen Johann Gustav</item>
+                        <item>Mommsen Theodor</item>
+                        <item>analogie</item>
+                        <item>guerres Puniques</item>
+                        <item>Londres</item>
+                        <item>Première et Deuxième guerres mondiales</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>Carthage</item>
+                        <item>fascism</item>
+                        <item>Droysen Johann Gustav</item>
+                        <item>Mommsen Theodor</item>
+                        <item>analogy</item>
+                        <item>Punic wars</item>
+                        <item>London</item>
+                        <item>First and Second world wars</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">
+                        <hi xml:lang="fr">Carthage, l’« autre nation » dans l’historiographie
+                            ancienne et moderne</hi>
+                    </titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Corinne Bonnet</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e226">
+                <p xml:id="d1e227">Dans l’historiographie grecque et surtout romaine, Carthage
+                    apparaît comme le paradigme d’une altérité irréductible. Elle est la nation
+                    vaincue par excellence. La rhétorique politique et polémique, ainsi que
+                    l’historiographie moderne, tout spécialement en Allemagne, France et Italie ont
+                    réactualisé ce paradigme dans divers contextes et par le biais de multiples
+                    analogies. On examine ici les étapes principales et les ressorts majeurs de ce
+                    parcours fortement conditionné par les modèles mis en place dès l’Antiquité.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e229">
+                <p xml:id="d1e230">
+          <hi xml:lang="en">In the Greek and Roman historiography, Carthage
+                        appears as the paradigm of the Other, the model of the vanquished nation.
+                    </hi>The political and polemical rhetoric, as well as the modern historiography,
+                    especially in Germany, France and Italy, have advanced a reassessment of this
+                    paradigm in different contexts, through various analogical images. This paper
+                    deals with the most important moments and mechanisms of this process, heavily
+                    influenced by the models created in Antiquity.</p>
+            </div>
+        </front>
+        <body>
+            <p rend="epigraph" xml:id="d1e238">« Ce qui fit la beauté des Romaines
+                antiques,<lb/>C’étaient leurs humbles toits, leurs vertus domestiques<lb/>Leurs
+                doigts que l’âpre laine avait faits noirs et durs,<lb/>Leurs courts sommeils, leur
+                calme, Annibal près des murs,<lb/>Et leurs maris debout sur la porte
+                Colline. <lb/>Victor <hi rend="small-caps">Hugo</hi>, <hi rend="italic">L’année
+                    terrible</hi> (1871)</p>
+            <div type="div1" xml:id="d1e257">
+                <head subtype="level1" xml:id="d1e258">1. Introduction<note type="standard" xml:id="ftn*" place="foot" n="*">
+            <p> Tous mes remerciements vont à Philippe
+                            Foro et à Hinnerk Bruhns pour leur précieuse relecture. Je dédie cet
+                            article à Pascal Payen, pionnier en <hi rend="italic">Anabases</hi>.
+                        </p>
+          </note>
+        </head>
+                <p xml:id="d1e267">Qui parle de la postérité de Carthage évoque presque
+                    automatiquement le fantôme de Flaubert, avec <hi rend="italic">Salammbô</hi>,
+                    parue en 1862 <note type="standard" xml:id="ftn1" place="foot" n="1">
+            <p> Sur la
+                            genèse de ce livre et la conception de l’Orient qu’il véhicule, cf. I.
+                                L<hi rend="small-caps">örinszky</hi>, <hi rend="italic">L’Orient de
+                                Flaubert. Des écrits de jeunesse à </hi>Salammbô : <hi rend="italic">la construction d’un imaginaire mythique</hi>, Paris, 2002.
+                        </p>
+          </note>. Il n’en sera cependant guère question ici, dans la mesure où ce
+                    n’est pas la mémoire littéraire de Carthage qui a retenu notre attention, mais
+                    sa postérité historiographique. Nous allons en effet nous efforcer de mettre en
+                    lumière la manière dont le destin de Carthage a nourri la réflexion des
+                    historiens et corollairement des penseurs et acteurs politiques <note type="standard" xml:id="ftn2" place="foot" n="2">
+            <p> Pour une approche plus
+                            large de la problématique historiographique de la guerre, voir P. <hi rend="small-caps">Payen</hi>, “ L’historien, la guerre, l’écriture,
+                            les vaincus (Vème siècle avant J.-C. - IIème siècle après J.-C.) ”, <hi rend="italic">Storia della storiografia</hi> 41 (2002), p. 45-70.
+                        </p>
+          </note>. C’est essentiellement à deux niveaux, nous semble-t-il, que se
+                    situent les enjeux de cette réflexion historico-politique sur Carthage : elle
+                    porte, d’une part, sur les fondements et le destin des empires (empire punique
+                    et empire romain, mis en parallèle avec les empires modernes, français, allemand
+                    et britannique en particulier), elle sollicite, d’autre part, le concept
+                    d’esprit des peuples ou des « races » (le <hi rend="italic">Volksgeist</hi> de
+                    la tradition allemande) comme facteur déterminant des processus historiques. </p>
+                <p xml:id="d1e300">Précisons cependant, en guise d’introduction, que les
+                    vicissitudes historiographiques de Carthage doivent être interprétées à la
+                    lumière de trois données qui ont, d’une certaine manière, constitué la toile de
+                    fond de cette enquête. </p>
+                <p xml:id="d1e302">
+          <hi rend="italic">En premier lieu</hi>, <hi rend="italic">le</hi>
+                    <hi rend="italic">grave déficit documentaire sur l’histoire de Carthage</hi>.
+                    Toute la littérature punique, quelle qu’ait été sa nature, a en effet
+                        disparu <note type="standard" xml:id="ftn3" place="foot" n="3">
+            <p> V. <hi rend="small-caps">Krings</hi>, <hi rend="italic">La littérature
+                                phénicienne et punique</hi>, in <hi rend="small-caps">Ead.</hi>, <hi rend="italic">La civilisation phénicienne et punique. Manuel de
+                                recherche</hi> (HdO 20), Leiden-New York-Cologne, 1995, p. 31-38.
+                        </p>
+          </note>. On possède certes quelques fragments d’historiens puniques
+                    hellénophones, transmis par le biais de l’historiographie grecque et latine,
+                    mais, dans l’ensemble, notre regard sur Carthage souffre d’une myopie
+                    dommageable. C’est en effet toujours à travers le regard des autres que nous est
+                    restituée l’histoire de la métropole punique : le regard des Grecs et celui des
+                    Romains, jamais anodin ni neutre, dès lors qu’il s’agit d’une concurrente dans
+                    le meilleur des cas, de l’ennemi public numéro un pour Rome. L’absence de
+                    tradition historiographique carthaginoise, donc de modèles interprétatifs de
+                    Carthage sur Carthage oblige les historiens – ceux d’hier et ceux d’aujourd’hui
+                    – à proposer des lectures du passé punique qui font un recours fréquent – nous
+                    allons le voir – à un mécanisme dont Luciano Canfora et Pascal Payen ont bien
+                    démonté les ressorts : l’analogie <note type="standard" xml:id="ftn4" place="foot" n="4">
+            <p> L. <hi rend="small-caps">Canfora</hi>, <hi rend="italic">La Tolérance et la vertu. De l’usage politique de
+                                l’analogie</hi>, Paris, 1989 ; P. <hi rend="small-caps">Payen</hi>,
+                            “ Le recours analogique à l’Antiquité : problèmes et propositions pour
+                            une histoire comparée de la culture ”, <hi rend="italic">Bulletin de
+                                littérature ecclésiastique</hi> 102 (2001), p. 5-24. </p>
+          </note>.
+                    Puisque Carthage ne dit pas « qui » elle est, elle sera dès lors saisie par le
+                    biais de la comparaison, des rapprochements, donc à travers la grille de lecture
+                    du semblable et du différent, de l’identité et de l’altérité. </p>
+                <p xml:id="d1e346">
+          <hi rend="italic">Second paramètre</hi> : <hi rend="italic">l’obsession des guerres Puniques</hi> qui constituent très vite un miroir
+                    déformant de toute l’histoire punique, des origines à la destruction de la
+                    métropole. Carthage est enfermée dans le rôle d’<hi rend="italic">aemula
+                        imperii</hi>, l’ennemie de Rome. Dans la tradition historiographique
+                    romaine, Carthage est donc l’« autre nation », le symbole d’une altérité que les
+                    auteurs vont s’efforcer de projeter rétrospectivement dans le passé, aussi loin
+                    que possible, jusqu’aux temps des origines, celui de la fondation de <hi rend="italic">Qarthadasht</hi>, la « Ville Nouvelle » ; une altérité que les
+                    historiens des temps modernes vont exploiter comme un paradigme à géométrie
+                    variable. On pourrait parler de crispation historiographique autour de
+                    l’expérience des guerres Puniques qui a pour effet de reconstruire l’histoire
+                    comme un diptyque spéculaire – Rome et Carthage s’opposant pratiquement en tout
+                    et sur tout – et de réduire Carthage à un symbole, une image : celle de
+                    l’ennemi, de l’autre, du vaincu. En vertu de quoi, elle va constituer une
+                    référence historiographique, voire rhétorique commode, mais de plus en plus
+                    décharnée, dénuée de substance, sans plus guère d’ancrage historique sinon
+                    l’issue fatale d’un empire vaincu et anéanti. On signalera, par exemple, que
+                    dans l’enseignement dispensé par les Jésuites en France, avant la Révolution,
+                    l’habitude était de diviser les classes en deux groupes afin de stimuler
+                    l’émulation réciproque ; ces deux classes étaient baptisées les « Romains » et
+                    les « Carthaginois » ! Le vainqueur aux exercices publics recevait le titre
+                        d’<hi rend="italic">imperator</hi>, tandis que l’élève classé second était
+                    le chef des Carthaginois <note type="standard" xml:id="ftn5" place="foot" n="5">
+            <p> Cf. G. <hi rend="small-caps">Snyders</hi>, <hi rend="italic">La
+                                pédagogie en France aux XVII</hi>
+              <hi rend="sup">
+                <hi rend="italic">e</hi>
+              </hi>
+              <hi rend="italic"> et XVIII</hi>
+              <hi rend="sup">
+                <hi rend="italic">e</hi>
+              </hi>
+              <hi rend="italic"> siècles</hi>, Paris,
+                            1965, p. 51. </p>
+          </note>. </p>
+                <p xml:id="d1e383">Enfin, <hi rend="italic">troisième ingrédient</hi> : <hi rend="italic">l’antisémitisme</hi>. Les Carthaginois sont des Sémites et
+                    leur défaite, sous les coups de Rome, apparaît comme le signe d’une infériorité
+                    congénitale, la victoire d’une « race supérieure ». Nombreux sont en effet ceux
+                    qui font intervenir le facteur racial dans l’explication de la faiblesse de
+                    Carthage face à Rome. Sa punicité est assimilée au sémitisme des Hébreux, un
+                    rapprochement renforcé par la vision « mercantiliste » que l’on a des uns et des
+                    autres, les Carthaginois dans le passé, les Juifs dans le présent. On n’oubliera
+                    cependant pas que l’usage du concept de « race » n’avait pas la même connotation
+                    au XIXe siècle que de nos jours et l’on fera une distinction entre l’histoire
+                        <hi rend="italic">raciale</hi> et l’histoire <hi rend="italic">raciste</hi> <note type="standard" xml:id="ftn6" place="foot" n="6">
+            <p> Cf.
+                            M. <hi rend="small-caps">Olender</hi>, <hi rend="italic">Les langues du
+                                paradis . Aryens et Sémites: un couple providentiel</hi>, Paris
+                            1989. </p>
+          </note>. Tous les historiens qui se sont référés aux races
+                    comme catégorie historique n’étaient pas des Gobineau ou des Chamberlain. Reste
+                    néanmoins que l’antisémitisme a eu des répercussions sur la (re)présentation de
+                    Carthage et de ses habitants, par exemple dans l’Allemagne nazie ou dans
+                    l’Italie fasciste <note type="standard" xml:id="ftn7" place="foot" n="7">
+            <p> Cf.
+                                <hi rend="italic">infra</hi>, p. 154-160. </p>
+          </note>. </p>
+            </div>
+            <div type="div1" xml:id="d1e417">
+                <head subtype="level1" xml:id="d1e418">2. <hi rend="italic">Ab ovo</hi>
+        </head>
+                <p xml:id="d1e422">Le décor étant ainsi planté, nous pouvons à présent entamer notre
+                    analyse en partant de l’épisode de la <hi rend="italic">byrsa</hi> qui, aux
+                    dires des sources anciennes, est à l’origine de la fondation de Carthage <note type="standard" xml:id="ftn8" place="foot" n="8">
+            <p> Cf. l’analyse de J. <hi rend="small-caps">Scheid - J. Svenbro</hi>, “ Byrsa. La ruse
+                            d’Élissa et la fondation de Carthage ”, <hi rend="italic">Annales
+                                E.S.C.</hi> 40 (1985), p. 328-342. </p>
+          </note>. Ce mythe,
+                    certainement d’inspiration grecque – il a vraisemblablement été élaboré en
+                    Sicile au IIIe siècle av. J.-C. à l’occasion de la première Guerre Punique – a
+                    été repris par les Romains afin de présenter d’emblée Carthage comme une réalité
+                    négative, une anti-Rome <note type="standard" xml:id="ftn9" place="foot" n="9">
+            <p> G. <hi rend="small-caps">Piccaluga</hi>, “ Fondare Roma domare
+                            Cartagine ”, in <hi rend="italic">Atti del primo Congresso
+                                internazionale di studi fenici e punici</hi>, I, Rome, 1987, p.
+                            409-424. </p>
+          </note>. En effet, tandis que Rome est fondée par un homme,
+                    Carthage l’est par une femme ; alors que l’insertion de Rome dans le contexte
+                    ambiant se fait par le biais de mariages exogamiques (suite au rapt des
+                    Sabines), à Carthage, Elissa-Didon se suicide pour échapper au mariage avec
+                    Hiarbas, le prince local, signe d’une tendance à l’endogamie connotée
+                    négativement. On pourrait pousser la mise en opposition plus loin encore, mais
+                    l’essentiel est que l’on perçoit un travail subtil sur la tradition mythique
+                    afin d’en faire un instrument idéologique anti-carthaginois. Rien, en effet,
+                    dans ce récit ne renvoie à un fonds authentiquement punique. L’histoire de la
+                    ruse de la peau de bœuf découpée en lanières pour entourer un territoire aussi
+                    vaste que possible repose sur des jeux de mots grecs ou latins (<hi rend="italic">byrsa, circumscrivere</hi>), comme l’ont bien montré J. Scheid
+                    et J. Svenbro. En définitive, le message que fait passer le mythe, c’est que,
+                    dès les premiers temps, les Carthaginois se sont comportés comme des êtres
+                    perfides, sournois, voués à l’échec. Le célèbre <hi rend="italic">topos</hi> de
+                    la <hi rend="italic">fides punica</hi>, qui est en fait la négation même de la
+                        <hi rend="italic">fides</hi>, ici inscrite dans la dimension sempiternelle
+                    du mythe, repose implicitement sur une opposition à la <hi rend="italic">fides
+                        romana </hi>
+          <note type="standard" xml:id="ftn10" place="foot" n="10">
+            <p> Cf.
+                            N. M<hi rend="small-caps">antel</hi>, <hi rend="italic">Poeni
+                                Foedifragi. Untersuchungen zur Darstellung römisch-karthagischer
+                                Verträge zwischen 241 und 201 v. Chr. durch die römische
+                                Historiographie</hi>, Munich, 1998. </p>
+          </note>. </p>
+                <p xml:id="d1e475">Bien avant d’avoir rencontré le premier Romain, les Carthaginois
+                    étaient donc voués à un conflit inévitable – un choc de cultures, un choc de
+                    valeurs, pourrait-on dire – et à une défaite inscrite dans l’<hi rend="small-caps">adn</hi> de l’histoire. La construction spéculaire et
+                    antagoniste du destin des deux métropoles se met en place <hi rend="italic">ab
+                        ovo</hi>. Qu’il s’agit bien d’une partition savamment orchestrée et
+                    interprétée par les auteurs latins est ultérieurement démontré par la manière
+                    dont la fin de Carthage est mise en scène dans leurs témoignages <note type="standard" xml:id="ftn11" place="foot" n="11">
+            <p> Cf. C. <hi rend="small-caps">Bonnet</hi>, “ Les connotations sacrées de la
+                            destruction de Carthage ”, in<lb/>H. <hi rend="small-caps">Devijver</hi>
+                            - E. <hi rend="small-caps">Lipinski</hi> (éd.), <hi rend="italic">Studia
+                                Phoenicia-X. Punic Wars</hi>, Leuven, 1989, p. 289-305. </p>
+          </note>.
+                    Lorsqu’en 146 av. J.-C., la capitale punique est sur le point de succomber,
+                    l’épouse d’Hasdrubal, le général qui guide l’ultime résistance, se suicide en se
+                    jetant dans l’incendie d’un temple. Comme Didon pour échapper aux Numides, cette
+                    héroïne se jette dans un bûcher plutôt que de se livrer aux Romains. La boucle
+                    est symboliquement bouclée et le destin de Carthage apparaît dès lors comme un
+                    cycle dont le début (<hi rend="italic">Urzeit</hi>) annonçait et préfigurait la
+                    fin dramatique (<hi rend="italic">Endzeit</hi>). Or, dès Thucydide, puis surtout
+                    avec Polybe, qui propose l’anacyclose comme clé de lecture de l’histoire, le
+                    destin des civilisations apparaît comme une des grandes leçons que le présent
+                    est en droit de tirer du passé <note type="standard" xml:id="ftn12" place="foot" n="12">
+            <p> Cf. F. <hi rend="small-caps">Hartog</hi>, introduction à la
+                            traduction française par D. <hi rend="small-caps">Roussel</hi> de <hi rend="small-caps">Polybe</hi>, Paris, 2003, p. 27-29 ; C. <hi rend="small-caps">Nicolet</hi>, “ Anacyclose, progrès de l’esprit,
+                            fin de l’histoire ”, texte prononcé à la rentrée solennelle des cinq
+                            académies en octobre 2003 (disponible sur
+                            http ://www.institut-de-france.fr/reportage_2003.htm). </p>
+          </note>. On
+                    se s’étonnera donc pas que le sort paradigmatique de Carthage ait nourri la
+                    réflexion des intellectuels et des hommes politiques à toutes les époques. </p>
+            </div>
+            <div type="div1" xml:id="d1e526">
+                <head subtype="level1" xml:id="d1e527">3. Comme dans un miroir</head>
+                <p xml:id="d1e529">C’est naturellement l’expérience historique des Guerres Puniques
+                    qui est à l’origine de la vision binaire qui fait que Carthage est à Rome, ce
+                    que Mr Hyde est au Dr Jekyll. J’en prendrai à témoin Tite-Live dont le récit –
+                    destiné à une riche postérité – illustre bien cette tendance à la schématisation
+                    historiographique. Il en est même probablement le principal responsable dans la
+                    longue durée. </p>
+                <p xml:id="d1e531">Avec des accents thucydidéens, Tite-Live annonce au chapitre 1 de
+                    son livre XXI que la guerre contre Hannibal (la deuxième Guerre Punique, que
+                    Polybe appelle πόλεμος Ἀννιβιακός) est « la guerre de beaucoup la plus mémorable
+                    de toutes celles qui ont jamais été menées » : <hi rend="italic">bellum maxime
+                        omnium memorabile quae unquam gesta sint</hi>. Il dresse ensuite, au
+                    chapitre 4, un célèbre portrait d’Hannibal – qui inspirera les pages de Mommsen
+                    que nous allons bientôt examiner <note type="standard" xml:id="ftn13" place="foot" n="13">
+            <p> Cf. <hi rend="italic">infra, </hi>p. 145. Sur ce
+                            portrait, voir, en dernier lieu, S. <hi rend="small-caps">Lancel</hi>,
+                                <hi rend="italic">Hannibal</hi>, Paris, 1995, p. 77-80. </p>
+          </note>
+                    – bâti, lui aussi, sur une double opposition : d’une part, une opposition
+                    interne au personnage d’Hannibal, qui est à la fois audacieux et réflexif,
+                    résistant au froid et à la chaleur, cavalier et fantassin, homme de vertus et de
+                    vices ; opposition externe, d’autre part, dès le moment où Hannibal est dépourvu
+                    de toutes les valeurs qui fondent l’identité des Romains : « nul souci du vrai,
+                    du sacré, aucune crainte des dieux, aucun respect du serment, aucun scrupule ».
+                    Bref, il est l’incarnation d’une <hi rend="italic">perfidia plus quam
+                        Punica</hi>, une « perfidie plus que punique ». Il est la quintessence de la
+                    punicité, la punicité au carré (<hi rend="italic">plus quam</hi>), qui se
+                    définit en creux comme la non-romanité, une altérité radicale <note type="standard" xml:id="ftn14" place="foot" n="14">
+            <p> Autre trace de cette
+                            altérité radicale dans les sources anciennes : la pratique du sacrifice
+                            humain attribuée aux Carthaginois ; cf. S. <hi rend="small-caps">Ribichini</hi>, <hi rend="italic">Il Tofet e il sacrificio dei
+                                fanciulli</hi>, Sassari, 1987. </p>
+          </note>. </p>
+                <p xml:id="d1e567">On notera, en passant qu’avant Tite-Live, Polybe, au livre
+                        IX <note type="standard" xml:id="ftn15" place="foot" n="15">
+            <p> Polybe IX,
+                            7, 22-26 ; sur ce passage, voir l’analyse de <hi rend="small-caps">Lancel</hi>, <hi rend="italic">Hannibal</hi>, p. 349-350.
+                        </p>
+          </note>, tout en précisant qu’il tenait ses informations sur Hannibal
+                    des Carthaginois eux-mêmes et de Massinissa, mettait logiquement, dans son
+                    discours, davantage de nuances ; Polybe avait certes des sympathies pour Rome et
+                    pour les Scipions, mais le nationalisme romain ne l’aveuglait pas : c’est
+                    pourquoi il reconnaît, fort honnêtement, qu’il est difficile de se prononcer sur
+                    la véritable nature (<hi rend="italic">physis</hi>) d’Hannibal, tant les
+                    témoignages sont contradictoires. </p>
+                <p xml:id="d1e583">Très tôt donc, pour des raisons idéologiques liées au
+                    nationalisme romain, le discours historiographique sur Carthage s’est trouvé
+                    « noyauté » et a dérivé vers un schématisme dichotomique et rhétorique qui va
+                    trouver, dans les grandes rivalités nationalistes de l’ère moderne, maintes
+                    occasions de resurgir. </p>
+            </div>
+            <div type="div1" xml:id="d1e585">
+                <head subtype="level1" xml:id="d1e586">4. Le destin d’Hannibal</head>
+                <p xml:id="d1e588">C’est d’abord la forte et riche personnalité d’Hannibal qui capte
+                    l’attention de la postérité <note type="standard" xml:id="ftn16" place="foot" n="16">
+            <p>
+                            <hi xml:lang="en">A.J. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Toynbee</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Hannibal’s Legacy</hi>
+              </hi>
+              <hi xml:lang="en">,
+                                Oxford-New York-Toronto, 1965 ; K. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Christ</hi>
+              </hi>
+              <hi xml:lang="en">, “ Zur
+                                Beurteilung Hannibals ”, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Historia</hi>
+              </hi>
+              <hi xml:lang="en"> 17 (1968), p. 461-495,
+                                repris dans I</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">d.</hi>
+              </hi>
+              <hi xml:lang="en"> </hi>(éd.), <hi rend="italic">Hannibal</hi>, Darmstadt, 1974, puis mis à jour et enrichi dans
+                                I<hi rend="small-caps">d</hi>., <hi rend="italic">Hannibal</hi>,
+                            Darmstadt, 2003, p. 361-407. On prendra aussi en considération les
+                            travaux de J. <hi rend="small-caps">Seibert</hi>, <hi rend="italic">Hannibal</hi>, Darmstadt, 1993 ; <hi rend="italic">Forschungen zu
+                                Hannibal</hi>, Darmstadt, 1993 ; <hi rend="italic">Hannibal.
+                                Feldherr und Staatsmann</hi>, Mainz, 1997 ; ainsi que ceux de G. <hi rend="small-caps">Brizzi</hi>, en particulier <hi rend="italic">Annibale. Strategie e immagine</hi>, Cività di Castello, 1984 ; <hi rend="italic">Annibale. Come un’autobiografia</hi>, Milan, 2003 ;
+                            sans oublier le chapitre intitulé “ L’héritage, la légende et l’image ”,
+                            in <hi rend="small-caps">Lancel</hi>, <hi rend="italic">Hannibal</hi>,
+                            p. 339-360. <hi xml:lang="en">Voir aussi A. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Kopka</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Karthago</hi>
+              </hi>
+              <hi xml:lang="en">
+                                II.</hi>
+              <hi rend="italic">
+                <hi xml:lang="en"> Geschichte und
+                                    Kulturelles Gedächtnis</hi>
+              </hi>
+              <hi xml:lang="en">, in </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">NP</hi>
+              </hi>
+              <hi xml:lang="en"> XIV,
+                                Stuttgart-Weimar, 2000, col. 848-853. </hi>
+            </p>
+          </note>. Lucien, dans
+                    ses <hi rend="italic">Dialogues des morts</hi>, met en scène une étrange
+                    compétition <hi rend="italic">post mortem</hi> entre Alexandre, Hannibal et
+                    Scipion, dont le Punique sort fort malmené (il ne sait même pas parler grec !)
+                    et lanterne rouge du classement des généraux de l’Antiquité <note type="standard" xml:id="ftn17" place="foot" n="17">
+            <p> Lucien, <hi rend="italic">Dialogue des morts</hi> 25 (12). </p>
+          </note>. Le
+                    modèle livien d’un Hannibal malfaisant s’est imposé. </p>
+                <p xml:id="d1e698">Cependant, avec Niccolò Machiavelli, dans <hi rend="italic">Il
+                        principe </hi>
+          <note type="standard" xml:id="ftn18" place="foot" n="18">
+            <p>
+                            N. <hi rend="small-caps">Machiavelli</hi>, <hi rend="italic">Il
+                                principe</hi>, § 16. </p>
+          </note>, paru en 1532, commence la
+                    réhabilitation d’Hannibal. Maître ès-stratégie, le général punique est présenté
+                    comme un des plus grands <hi rend="italic">condottieri</hi> de l’histoire. Cette
+                    vision d’Hannibal comme modèle de clairvoyance politique réapparaît ensuite chez
+                    Montesquieu, dans les <hi rend="italic">Considérations sur les causes de la
+                        grandeur des Romains et de leur décadence</hi> (1734), et inspire également
+                    Napoléon Bonaparte qui le qualifie, dans son <hi rend="italic">Mémorial de Ste
+                        Hélène</hi>, d’homme « le plus audacieux de tous, le plus étonnant
+                    peut-être, si hardi, si sûr, si large en toutes choses » <note type="standard" xml:id="ftn19" place="foot" n="19">
+            <p> Cf. E. <hi rend="small-caps">De Las
+                                Cases</hi>, <hi rend="italic">Mémorial de Sainte-Hélène</hi>, t. II,
+                            Paris, La Pléiade, 1935, ch. XI, p. 338. </p>
+          </note>. Le peintre David
+                    réalisa du reste, en 1801, une toile représentant « Bonaparte franchissant les
+                    Alpes », avec, dans le coin inférieur droit, le nom d’Hannibal gravé sur une
+                    borne. Napoléon prétendait donc marcher dans les pas du Carthaginois, ce qui ne
+                    l’empêchait pas, dans d’autres circonstances, de se référer à Carthage comme à
+                    une métaphore de l’Angleterre en s’identifiant lui-même à Caton et à Scipion.
+                    L’ambivalence de l’analogie avec Carthage commence ainsi à se manifester :
+                    grande puissance, certes, mais puissance vaincue. </p>
+                <p xml:id="d1e733">Un courant important de l’historiographie moderne s’inscrit dans
+                    cette lignée de revalorisation d’Hannibal. Ainsi Barthold Georg Niebuhr
+                    (1776-1831) exprime-t-il, dans ses <hi rend="italic">Vorträge über römische
+                        Geschichte</hi>, parus à Bonn en 1847, un jugement enthousiaste sur
+                    Hannibal : « Diesen Mann bewundere ich und liebe ich fast unbegindt ». Mais
+                    c’est assurément avec Theodor Mommsen que ce processus culmine, par le biais
+                    d’une réhabilitation presque inconditionnelle d’Hannibal, expression symbolique
+                    d’une identité carthaginoise vue sous son meilleur jour <note type="standard" xml:id="ftn20" place="foot" n="20">
+            <p> À cette vision positive d’Hannibal
+                            fera écho, en 1932, le jeune Arnaldo Momigliano dans un article où il le
+                            salue comme « l’ultimo e il massimo dei condottieri ellenistici » :
+                                A. <hi rend="small-caps">Momigliano</hi>, “ Annibale politico ”, <hi rend="italic">La Cultura</hi> 11 (1932), p. 61-72, repris dans <hi rend="italic">Quinto contributo alla storia degli studi classici e
+                                del mondo antico</hi> I, Rome, 1975, p. 333-345. L’image d’Hannibal
+                            grand stratège a eu la vie très longue puisqu’encore durant la première
+                            guerre mondiale, on s’inspira des plans qu’il mit en œuvre à la bataille
+                            de Cannes. </p>
+          </note>. S’inspirant du portrait livien, mais en
+                    valorisant au maximum le modèle et en y mêlant des traits polybiens, Mommsen
+                    fait revivre un personnage attachant, romantique, idéalisé, dans un grand
+                    morceau de littérature <note type="standard" xml:id="ftn21" place="foot" n="21">
+            <p> N’oublions pas que Mommsen reçut le prix Nobel de littérature en
+                            1902, précisément pour son <hi rend="italic">Histoire romaine</hi> dont
+                            le premier volume avait paru, en première édition, dès 1854. Nous
+                            suivons ici l’édition française de l’<hi rend="italic">Histoire
+                                romaine</hi>, sous la direction de Cl. <hi rend="small-caps">Nicolet</hi>
+              <hi rend="italic">
+                <hi rend="small-caps">,
+                            </hi>
+              </hi>Paris 1985, p. 422-423. </p>
+          </note> : </p>
+                <q rend="quotation">« Leste et robuste, il courait et maniait les armes
+                    excellemment ; il était le plus téméraire des écuyers ; il n’avait pas besoin de
+                    sommeil ; en vrai soldat, il savourait un bon repas ou endurait la faim sans
+                    peine. Quoiqu’il eût vécu au milieu des camps, il avait reçu la culture
+                    habituelle chez les Phéniciens des hautes classes. Il apprit le grec, devenu
+                    général, et grâce aux leçons de son fidèle Sosilon (<hi rend="italic">sic</hi>)
+                    de Sparte, pour pouvoir écrire ses dépêches dans cette langue. [...] Là, sa
+                    bravoure éclata et ses talents militaires l’avaient aussitôt signalé entre tous.
+                    [...] Les contemporains ont voulu jeter toutes sortes de taches sur ce grand
+                    caractère : les Romains l’ont dit cruel, les Carthaginois l’ont dit cupide. De
+                    fait, il haïssait comme savent haïr les natures orientales. [...] En vain la
+                    colère, l’envie, les sentiments vulgaires ont noirci son histoire, son image se
+                    dresse toujours pure et grande devant nos regards. [...] Vous ne trouvez rien
+                    dans les récits de sa vie qui ne se justifie ou par la condition des temps ou
+                    par le droit des gens de son siècle. Tous les chroniqueurs lui accordent d’avoir
+                    réuni, mieux que qui que ce soit, le sang-froid et l’ardeur, la prévoyance et
+                    l’action. Il eut par dessus-tout l’esprit d’invention et de ruse, l’un des
+                    caractères du génie phénicien ; il aima à marcher par des voies imprévues,
+                    propres à lui seul. On le vit souvent, déguisé, portant de faux cheveux,
+                    explorant et sondant çà et là. Son génie stratégique est écrit sur toutes les
+                    pages de l’histoire de ce siècle. [...] Grand homme enfin, dans le vrai sens du
+                    mot, il attire à lui tous les regards. »</q>
+                <p xml:id="d1e774">Ce portrait si élogieux, qui passe sous silence les violentes
+                    accusations de Tite-Live, se signale par l’attention portée aux vertus
+                    militaires d’Hannibal et, dans une moindre mesure, à sa <hi rend="italic">Bildung</hi>, deux éléments qui durent faciliter un rapprochement entre les
+                    qualités puniques (le « génie phénicien » ou la « nature orientale ») et les
+                    vertus prussiennes. On y reviendra. Mais avant cela, repartons de Carthage et de
+                    l’historiographie allemande. </p>
+            </div>
+            <div type="div1" xml:id="d1e779">
+                <head subtype="level1" xml:id="d1e780">5. Carthage <hi rend="italic">versus</hi>
+                    Rome, de la Révolution à Droysen et Mommsen</head>
+                <p xml:id="d1e785">Johann Gustav Droysen (1808-1884) affronte, dans le tome II de sa
+                        <hi rend="italic">Geschichte des Hellenismus</hi>, paru en1843 et traduite
+                    en français en 1883-1885, la question des rapports entre Rome et Carthage <note type="standard" xml:id="ftn22" place="foot" n="22">
+            <p> J.G. <hi rend="small-caps">Droysen</hi>, <hi rend="italic">Histoire de
+                                l’Hellénisme</hi>, traduite de l’allemand ss la dir. d’A. <hi rend="small-caps">Bouch</hi>
+              <hi rend="small-caps">É</hi>
+              <hi rend="small-caps">-Leclercq</hi>, Paris, 1883-1885, t. III, p. 282
+                            sv. Réédition intégrale sous la direction de P. <hi rend="small-caps">Payen, </hi>Grenoble, 2005 [= vol. II, p. 1372-1373]. </p>
+          </note>.
+                    Droysen souligne d’abord le fait que Rome et Carthage, plus qu’aucune ville
+                    grecque, restèrent tenacement attachées à leur constitution originelle, tout en
+                    se développant et en progressant dans le temps. Aux yeux de Droysen, qui rêve
+                    d’une Allemagne unifiée et qui projette rétrospectivement cette aspiration sur
+                    le monde hellénistique <note type="standard" xml:id="ftn23" place="foot" n="23">
+            <p> Cf. P. <hi rend="small-caps">Payen</hi>, “ Johann Gustav Droysen et
+                                l’<hi rend="italic">Histoire de l’Hellénisme</hi>. L’époque
+                            hellénistique entre Alexandre et la Prusse ”, Préface à l’édition 2005,
+                            p. 5-10, 24-25, 31-36, 42-54. </p>
+          </note>, elles conservèrent ce qu’il
+                    appelle « leur principe national » ; et il ajoute : « c’est même au milieu de
+                    ces vicissitudes qu’elles en ont la vraie possession et la pleine conscience. Ce
+                    sont des organismes qui ont en eux-mêmes leur principe vital ; une sève
+                    vigoureuse les a fait croître lentement. Chez elles, l’État n’est pas une
+                    institution divine, comme dans l’ancien Orient ; il n’est pas tout, il n’absorbe
+                    pas tout, comme dans les cités de la Grèce ; il est l’œuvre des hommes, dont il
+                    résume et sauvegarde les intérêts particuliers » <note type="standard" xml:id="ftn24" place="foot" n="24">
+            <p>
+                            <hi rend="small-caps">Droysen</hi>, <hi rend="italic">Histoire</hi>, t.
+                            III, p. 282 [= col. 2, p. 1373]. </p>
+          </note>. </p>
+                <p xml:id="d1e833">Droysen lance indirectement un message à ses contemporains : dans
+                    les épreuves, la cohésion nationale se renforce, ainsi que la vitalité de l’État
+                    qui doit être l’expression d’un consensus. Si Carthage et Rome sont ici
+                    embrassées d’un même regard, dans les chapitres qui suivent, en revanche,
+                    Droysen s’emploie, dans la lignée de l’historiographie ancienne, à souligner les
+                    contrastes entre ces deux nations. Leur constitution, en premier lieu, « est
+                    bien différente » : « Rome est un État tout à fait agraire », dont la
+                    constitution républicaine (comme l’affirmait déjà Polybe) repose sur
+                    « l’équilibre approximatif de toutes les obligations et de tous les droits
+                    individuels ». </p>
+                <p xml:id="d1e835">« Il en est tout autrement de Carthage », qui est un « état
+                    commerçant ». « Si le droit régnait à Rome, les intérêts matériels dominaient à
+                    Carthage : ils y réglaient la constitution, les traités de commerce et tous les
+                    actes de la vie politique ». La mise en parallèle de Carthage et de Rome
+                    débouche en quelque sorte sur un exercice plus rhétorique que critique et sur
+                    une reconstruction dichotomique, voire schématique. Droysen rattache la
+                    thalassocratie carthaginoise à « la riche civilisation des Sémites », tandis
+                    qu’ailleurs, à propos de la Sicile, il parle de « race grecque », en accord avec
+                    les catégories mentales et historiographiques du XIXe siècle. En conclusion de
+                    son discours, il recourt à une analogie moderne dont il n’est pas
+                        l’inventeur <note type="standard" xml:id="ftn25" place="foot" n="25">
+            <p> Cf.
+                                <hi rend="italic">infra</hi>, p. 147-149, pour des antécédents.
+                        </p>
+          </note>, mais qui va, après lui, notamment avec Mommsen, s’imposer
+                    durablement dans l’historiographie : à savoir que Carthage est à l’Antiquité ce
+                    que l’Angleterre est aux temps modernes. Pour défendre ses intérêts commerciaux,
+                    en effet, Carthage ne recula devant rien, pas même devant la guerre : elle
+                    déploya « une énergie, une circonspection, une persévérance dont nous ne
+                    trouvons d’exemple que dans la politique anglaise du XVIIIe siècle ». </p>
+                <p xml:id="d1e845">La présentation de Carthage comme une puissance navale, par
+                    opposition à Rome, puissance agraire n’est certes pas dépourvue de quelque
+                    fondement, mais elle fait aussi partiellement violence à la réalité historique.
+                    Rome finit en effet par dominer toute la Méditerranée, tandis que Carthage
+                    (patrie de l’agronome Magon) se souciait grandement de l’exploitation des
+                    ressources agricoles de son immense territoire <note type="standard" xml:id="ftn26" place="foot" n="26">
+            <p> On peut se référer à la synthèse de
+                            S. <hi rend="small-caps">Lancel</hi>, <hi rend="italic">Carthage</hi>,
+                            Paris, 1992, p. 277-323, avec toute le bibliographie utile. Voir aussi,
+                            indirectement, L.-I. <hi rend="small-caps">Manfredi</hi>, <hi rend="italic">La politica amministrativa di Cartagine in
+                            Africa</hi>, Rome, 2003. </p>
+          </note>. Les analyses plus récentes et plus
+                    fines de Max Weber et de Mikhail Rostotvzeff font bien la part des choses à cet
+                        égard <note type="standard" xml:id="ftn27" place="foot" n="27">
+            <p> Cf. M.
+                                <hi rend="small-caps">Weber</hi>, <hi rend="italic">Économie et
+                                société dans l’Antiquité</hi>, intr. d’H. <hi rend="small-caps">Bruhns</hi>, Paris, 1998 (rééd. 2001) ; <hi rend="small-caps">Id</hi>., <hi rend="italic">Wirtschaft und Gesellschaft,
+                            </hi>Tübingen, 1980 (éd. or. 1922), p. 811 sv. Voir aussi M. <hi rend="small-caps">Rostovtzeff</hi>, <hi rend="italic">Histoire
+                                économique et sociale de l’empire romain</hi>, ss la dir. de J. <hi rend="small-caps">Andreau</hi>, Paris, 1988, p. 228-229 (éd. or.
+                            1926). </p>
+          </note>. Quoi qu’il en soit, l’historiographie de la fin du
+                    XIXe siècle trouva, dans l’analogie entre Carthage et l’Angleterre, une grille
+                    de lecture commode au sein de laquelle le passé et le présent s’éclairaient
+                    mutuellement. Carthage était à Rome ce que l’Angleterre était à l’Allemagne : la
+                    rivale de toujours. </p>
+                <p xml:id="d1e894">À vrai dire, Droysen n’a pas innové en la matière. Dès le milieu
+                    du XVIIIe siècle, le rapprochement entre Carthage et l’Angleterre est chose
+                    faite. Montesquieu, dont il a été question ci-dessus à propos de la
+                    réhabilitation d’Hannibal, envisage dès 1734 un rapprochement entre Carthage,
+                    ennemie atavique de Rome, et l’Angleterre, éternelle rivale de la France. En
+                    1757, un opuscule est publié, à Paris, sous la plume de l’abbé Séran de la
+                        Tour <note type="standard" xml:id="ftn28" place="foot" n="28">
+            <p> Cf. C. <hi rend="small-caps">Nicolet</hi>, <hi rend="italic">La fabrique d’une
+                                nation. La France entre Rome et les Germains</hi>, Paris, 2003, p.
+                            35-38. Séran de la Tour avait publié, en 1732, une <hi rend="italic">Histoire de Scipion l’Africain</hi> et, en 1749, une <hi rend="italic">Histoire de Catilina</hi>. </p>
+          </note>, un pâle érudit
+                    qui s’est vaguement intéressé à l’histoire ancienne, sous le titre : <hi rend="italic">Parallèle de la conduite des Carthaginois à l’égard des
+                        Romains dans la seconde guerre punique, avec la conduite de l’Angleterre à
+                        l’égard de la France dans la guerre déclarée par ces puissances en
+                    1756</hi>. À l’époque, dans le Nouveau Monde, Français et Anglais s’affrontent
+                    pour le contrôle du Canada ; c’est la guerre de Sept Ans. Notre abbé met donc en
+                    parallèle, de manière superficielle et assez puérile, selon les termes de Claude
+                    Nicolet, l’histoire ancienne et l’histoire moderne. Les huit chapitres de son
+                    essai sont systématiquement divisés en deux sections, dans le but de mieux
+                    discréditer les Anglais, dignes émules de la <hi rend="italic">fides
+                    punica</hi>. « En récapitulant les événements, en analysant la conduite de
+                    Carthage et celle de Londres, on jugera que quand le peuple moderne se serait
+                    proposé en tout l’imitation du peuple de l’antiquité, il ne se serait pas
+                    conduit autrement. » <note type="standard" xml:id="ftn29" place="foot" n="29">
+            <p> Citation de la page 237 de cet essai. </p>
+          </note>
+        </p>
+                <p xml:id="d1e923">Les Anglais s’empressèrent de répondre, en 1759, avec un essai
+                    d’Edward Wortley Montagu, intitulé <hi rend="italic">Reflexions on the Rise and
+                        Fall of the Ancient Republics Adapted to the Present State of Great
+                        Britain</hi>, traduit en français en 1793, en pleine époque révolutionnaire,
+                    ce qui n’est sans doute pas sans intérêt. L’auteur, un « excentrique de grande
+                        famille » <note type="standard" xml:id="ftn30" place="foot" n="30">
+            <p>
+                            <hi rend="small-caps">Nicolet</hi>, <hi rend="italic">Fabrique</hi>, p.
+                            36. </p>
+          </note>, étudie le sort de cinq Républiques, Sparte, Athènes,
+                    Thèbes, Carthage et Rome, et met en parallèle les deux dernières, comme le
+                    faisait déjà Polybe. Sa conclusion est que seules les constitutions mixtes sont
+                    aptes à assurer la continuité du pouvoir : c’est le cas de Rome dans l’Antiquité
+                    et de l’Angleterre au XVIIIe siècle. La perspective est donc renversée :
+                    l’Angleterre s’identifie ici à Rome et laisse à la France l’héritage de
+                    Carthage, ce qui s’explique notamment par la présence de nombreux mercenaires
+                    dans les armées carthaginoise et française, par opposition à la milice nationale
+                    anglaise (d’inspiration romaine). </p>
+                <p xml:id="d1e939">Cet exemple pittoresque, signalé par Claude Nicolet, met d’emblée
+                    en évidence la ductilité du processus d’analogie historique et
+                    d’instrumentalisation des données du passé à des fins politiques. Cela dit, il
+                    ne faut pas confondre les deux niveaux : dans le second cas de figure, illustré
+                    par Séran de la Tour, le rapprochement a une tournure généralement polémique ou
+                    propagandiste, tandis que, dans le premier, dont témoigne Droysen notamment, il
+                    a une valeur herméneutique, dès lors qu’il est au service de la compréhension de
+                    l’histoire éclairée par le présent. Dans les débats politiques, l’histoire n’est
+                    au fond qu’un réservoir d’exemples, de modèles ou de contre-modèles selon les
+                    nécessités du moment. À Carthage revient forcément le rôle du « méchant », de
+                    l’« autre », de l’anti-héros : c’est la force de la tradition d’inspiration
+                    romaine qui l’impose. </p>
+                <p xml:id="d1e941">À cet égard, une période particulièrement intéressante est celle
+                    de la Révolution française où le paradigme carthaginois a servi de repoussoir
+                    dans maints discours et s’est imposé comme un véritable <hi rend="italic">topos </hi>
+          <note type="standard" xml:id="ftn31" place="foot" n="31">
+            <p> Cf.
+                            J. <hi rend="small-caps">Bouineau</hi>, <hi rend="italic">Les toges au
+                                pouvoir ou la révolution de droit antique, 1789-1799</hi>, Toulouse,
+                            1986, en particulier p. 90. Je remercie Christine Dousset-Seiden qui a
+                            attiré mon attention sur ce livre. </p>
+          </note>. Les statistiques
+                    dressées par J. Bouineau sur les <hi rend="italic">Archives parlementaires</hi>
+                    et le <hi rend="italic">Moniteur</hi> révèlent que les réminiscences antiques
+                    sont très nombreuses : 5312 allusions « à caractère antiquisant », dont la
+                    majorité se rapportent à la Grèce et à Rome. Carthage comptabilise quant à elle
+                    70 allusions, près du double de la Gaule ! Parmi celles-ci, on notera en
+                    particulier la réactualisation, dans la bouche de Bertrand Barère, du célèbre
+                        <hi rend="italic">delenda est Carthago</hi> de Caton, appliqué cette fois à
+                    l’Angleterre :</p>
+                <q rend="quotation">« Carthage était aussi une république <note type="standard" xml:id="ftn32" place="foot" n="32">
+            <p> Sur la qualification de
+                            « république », appliquée à Carthage et, plus singulièrement, à
+                            l’Angleterre, <hi rend="small-caps">Bouineau</hi>, <hi rend="italic">Toges</hi>, p. 90. </p>
+          </note> ; Carthage était navigatrice et
+                    commerçante ; elle avait une marine puissante, des généraux célèbres et une
+                    constitution politique ; mais la foi punique [ <hi rend="italic">scil.</hi> la
+                        <hi rend="italic">fides punica </hi>], mais sa politique astucieuse, mais
+                    ses moyens corrupteurs firent sentir à la république romaine que sa liberté ne
+                    pouvait reposer que sur des débris de Carthage, et Carthage fut
+                        détruite. » <note type="standard" xml:id="ftn33" place="foot" n="33">
+            <p>
+                            <hi rend="italic">Moniteur</hi> II, n° 124, p. 499. Texte cité par <hi rend="small-caps">Bouineau</hi>, <hi rend="italic">Toges</hi>, p.
+                            334, n. 49. Voir aussi, du même auteur, <hi rend="italic">Moniteur</hi>
+                            II, n° 269, p. 1098, cité par <hi rend="small-caps">Bouineau</hi>, <hi rend="italic">Toges</hi>, p. 361, n. 378 : « ils (= les
+                            applaudissements) vont renouveler le serment de destruction de cette
+                            Carthage qui, sans posséder la constitution d’une république, et les
+                            talents d’Annibal, a toute la corruption des monarchies et tous les
+                            crimes de la foi carthaginoise. »</p>
+          </note>
+        </q>
+                <p xml:id="d1e1007">Chateaubriand, du reste, dans son <hi rend="italic">Essai sur
+                        les révolutions</hi>, en 1791, rapproche Marlborough d’Hannibal. Que
+                    l’analogie Carthage-Angleterre ait alors été largement reçue transparaît
+                    clairement de la fréquence des allusions à ce binôme <note type="standard" xml:id="ftn34" place="foot" n="34">
+            <p> Il en est d’autres dans le discours
+                            révolutionnaire qui sont tout aussi récurrents : Sparte-Athènes et
+                            Grèce-Rome. Ils fonctionnent tous sur un mode plus ou moins
+                            « manichéen ». </p>
+          </note>, mais aussi à son utilisation dans un chant
+                    de guerre :</p>
+                <q rend="quotation">« Le crime a rebâti Carthage ;<lb/>Détruisons ces murs
+                    odieux<lb/>D’où l’insulaire audacieux <lb/>Lance le meurtre et
+                    l’esclavage !<lb/>[...]<lb/>Frappez, exterminez les fils de
+                    l’Angleterre ;<lb/>Frappez, plus de quartier pour ces lâches brigands... » <note type="standard" xml:id="ftn35" place="foot" n="35">
+            <p>
+                            <hi rend="italic">Moniteur</hi> II, n° 270, p. 1104. Texte cité <hi rend="small-caps">Bouineau</hi>, <hi rend="italic">Toges</hi>, p.
+                            334-335 n. 50. </p>
+          </note>
+        </q>
+                <p xml:id="d1e1046">La double identification de la France à Rome et de l’Angleterre
+                    à Carthage place <hi rend="italic">ipso facto</hi> les Révolutionnaires du côté
+                    du droit, fût-il historique. Dès lors, les conquêtes prennent-elles la forme de
+                    guerres de libération, de guerres justes et légitimes. L’adresse de la
+                    Convention Nationale aux Hollandais, en mars 1793, annonce : « Bataves, les
+                    Anglais n’ont relevé plusieurs fois le stadhoudérat que pour vous asservir et
+                    vous ruiner ; ils voulaient faire de vous les Indiens de l’Europe, c’est à nous
+                    de faire des Anglais les Carthaginois de l’histoire moderne. » <note type="standard" xml:id="ftn36" place="foot" n="36">
+            <p> Cité par <hi rend="small-caps">Bouineau</hi>, <hi rend="italic">Toges</hi>, p.
+                            408, n. 139. </p>
+          </note>
+        </p>
+                <p xml:id="d1e1061">Le nom de Carthage est donc presque unanimement <note type="standard" xml:id="ftn37" place="foot" n="37">
+            <p> Pour l’exception de
+                            Benjamin Constant, cf. <hi rend="small-caps">Bouineau</hi>, <hi rend="italic">Toges</hi>, p. 90 et 335, n. 61. </p>
+          </note> synonyme
+                    d’infamie, au point que Louis XVI est qualifié de « seconde Carthage » ! Mais,
+                    la réalité des réminiscences étant « beaucoup plus nuancée », Carthage est aussi
+                    ressentie comme une ville opulente, riche de ses commerces et d’une certaine
+                    liberté, donc une <hi rend="italic">république florissante,</hi> « affairiste »
+                    et libérale, un <hi rend="italic">modèle de division du pouvoir</hi>, un <hi rend="italic">bon régime </hi>
+          <note type="standard" xml:id="ftn38" place="foot" n="38">
+            <p> Voir cependant la prise de position de Mirabeau,
+                            dans la discussion du 20 mai 1790, sur le droit de guerre et de paix :
+                            « C’est pour Carthage, c’est pour Rome que des citoyens, tels qu’Annibal
+                            et César étoient dangereux. Tarissez l’ambition ». Cité par <hi rend="small-caps">Bouineau</hi>, <hi rend="italic">Toges</hi>, p.
+                            360, n. 377. </p>
+          </note>. J. Bouineau démonte bien les ressorts du
+                    mécanisme analogique ici en œuvre qui « dépasse [...] le simple énoncé
+                    référentiel d’un double modèle : il introduit, pour ainsi dire un mouvement, une
+                    dynamique dans la réminiscence, génératrice d’une réflexion intuitive chez
+                        l’auditeur » <note type="standard" xml:id="ftn39" place="foot" n="39">
+            <p>
+                            Cf. <hi rend="small-caps">Bouineau</hi>, <hi rend="italic">Toges</hi>,
+                            p. 147. </p>
+          </note>. On ne s’étonnera donc pas de constater que, dans le
+                    discours révolutionnaire, comme chez Napoléon Bonaparte, la figure d’Hannibal
+                    est relativement dissociée de l’image négative de sa patrie : Hannibal est
+                    surtout présenté comme un général talentueux, au même titre qu’Alexandre. </p>
+                <p xml:id="d1e1104">Dans notre cheminement historiographique, Theodor Mommsen
+                    constitue une autre étape très significative. Avec quels paramètres opère-t-il,
+                    dans sa <hi rend="italic">Römische Geschichte </hi>
+          <note type="standard" xml:id="ftn40" place="foot" n="40">
+            <p> Cf. Th. <hi rend="small-caps">Mommsen</hi>, <hi rend="italic">Histoire romaine</hi>, ss la dir.
+                            de Cl. <hi rend="small-caps">Nicolet</hi>, Paris, 1985, livre III,
+                            chapitre I, p. 359-377. À partir du chapitre II, il est question du
+                            début des guerres Puniques en Sicile. </p>
+          </note>, la mise en parallèle
+                    du destin de Rome et de Carthage ?</p>
+                <p xml:id="d1e1122">Son exposé sur les guerres Puniques est placé sous l’autorité de
+                    Salluste : <hi rend="italic">arduum res gestas scribere</hi> (« écrire
+                    l’histoire est chose ardue »). La conscience d’avoir affaire à une matière
+                    première fortement idéologisée (et lourdement déséquilibrée quant aux sources
+                    disponibles) était peut-être pour beaucoup dans cette mise en garde. Mommsen
+                    s’intéresse d’abord aux ancêtres des Carthaginois, les Phéniciens, qui
+                    appartenaient à la « race des Sémites ». Audacieux, intelligents, ils se sont
+                    répandus dans toute la Méditerranée. En revanche, sur le plan intellectuel, ils
+                    ne font pas le poids. Les Phéniciens ont des mythes informes, des cultes cruels
+                    et décadents, un art inconsistant. Certes, ils ont transporté au loin des germes
+                    de civilisation, tel l’alphabet, mais « comme le grain de blé tombant au hasard
+                    du bec de l’oiseau » <note type="standard" xml:id="ftn41" place="foot" n="41">
+            <p>
+                            <hi rend="small-caps">Mommsen</hi>, <hi rend="italic">Histoire</hi>, p.
+                            360. </p>
+          </note>. Pire encore : ils n’avaient aucun génie politique,
+                    aucun sens de la liberté, aucun projet de véritable colonisation, pas même la
+                    dignité de faire eux-mêmes la guerre, bref un déficit de sentiment national, en
+                    dépit d’un amour ardent de la patrie. Là aussi, comme chez Droysen, on sent que
+                    la lecture de Mommsen est alimentée par le souci de favoriser, par le magistère
+                    historique, l’éclosion d’un véritable projet national allemand <note type="standard" xml:id="ftn42" place="foot" n="42">
+            <p> Sur les engagements
+                            politiques de Mommsen, on consultera S. <hi rend="small-caps">Rebenich</hi>, <hi rend="italic">Theodor Mommsen : eine
+                                Biographie</hi>, Munich, 2002. </p>
+          </note>. </p>
+                <p xml:id="d1e1149">Carthage est en tout cas la plus brillante réalisation des
+                    Phéniciens outre-mer. « L’agriculture et le commerce y trouvent donc réunies les
+                    conditions les plus favorables », précise d’emblée Mommsen qui caractérise sa
+                    richesse comme « agricole, mercantile, industrielle » <note type="standard" xml:id="ftn43" place="foot" n="43">
+            <p>
+                            <hi rend="small-caps">Mommsen</hi>, <hi rend="italic">Histoire</hi>, p.
+                            362. </p>
+          </note>. Dans la comparaison entre Rome et Carthage, tout en
+                    reconnaissant en eux deux peuples « agriculteurs et marchands avant tout », peu
+                    enclins à la science et à l’art, il relève le fait que Rome s’efforça d’intégrer
+                    les territoires conquis, tandis que Carthage s’isolait et niait aux Africains
+                    toute participation à ses succès, d’où leur forte hostilité. Sur le plan
+                    militaire aussi, les deux systèmes répondaient à des philosophies différentes,
+                    quoique dans un rapport d’équilibre entre les forces (comme l’affirmait déjà
+                    Polybe). C’est évidemment le recours massif aux mercenaires – une soldatesque
+                    plus nocive que les ennemis eux-mêmes – qui distingua l’armée de Carthage de la
+                    milice nationale romaine. La supériorité de la flotte militaire de Carthage, par
+                    contre, ne fait aucun doute aux yeux de Mommsen. </p>
+                <p xml:id="d1e1162">« En matière de finances, Carthage a droit à la première place
+                    entre tous les États de l’Antiquité », affirme-t-il sans détour <note type="standard" xml:id="ftn44" place="foot" n="44">
+            <p>
+                            <hi rend="italic">Ibidem</hi>, p. 370. </p>
+          </note>. Chez elle seule
+                    étaient appliqués « des principes économiques qui n’appartiennent d’ordinaire
+                    qu’aux temps modernes, aux temps plus avancés dans la science économique ».
+                    Puisque d’immenses capitaux affluaient vers la métropole punique, Mommsen, usant
+                    à son tour de l’analogie, la qualifie de <hi rend="italic">Londres de l’ancien
+                        monde </hi>
+          <note type="standard" xml:id="ftn45" place="foot" n="45">
+            <p>
+                            <hi rend="italic">Ibidem</hi>, p. 372. </p>
+          </note> : « Si un État
+                    pouvait n’être qu’une vaste entreprise de spéculation commerciale, il faudrait
+                    convenir que jamais sa fonction ne s’est mieux et plus complètement réalisée ». </p>
+                <p xml:id="d1e1182">Le parallèle proposé par Mommsen, entre l’empire britannique et
+                    l’empire carthaginois, qui a ici une valeur herméneutique et non pas polémique,
+                    s’insère en réalité dans une réflexion plus générale, tout autant politique
+                    qu’historiographique, sur le concept d’<hi rend="italic">impérialisme</hi>. Ce
+                    débat sur le destin des empires, lancé par Montesquieu et relayé par Gibbon<note type="standard" xml:id="ftn46" place="foot" n="46">
+            <p> Voir l’étude de F.
+                                <hi rend="small-caps">Tessitore</hi>, “ Santo Mazzarino e la
+                            « decadenzidee » ”, <hi rend="italic">Archivio di storia della
+                                cultura</hi> 2 (1989), p. 95-111, repris dans <hi rend="small-caps">Id</hi>., <hi rend="italic">Mazzarino e lo storicismo degli
+                                storici</hi>, Catane, 2003, p. 27-55. </p>
+          </note>, trouva dans
+                    l’analogie historique une méthode exploratoire et comparative extrêmement utile.
+                    Au début du XXe siècle, on trouve de nombreux échos à cette pratique dans la
+                    littérature historique et politique, tant allemande qu’anglaise et francophone,
+                    le point de comparaison étant le plus souvent l’empire romain et non pas
+                    l’empire carthaginois. L’analyse de Mommsen d’une Carthage puissance maritime
+                    comme Londres eut en tout cas un impact profond et durable sur l’historiographie
+                    allemande, par exemple chez Wilamowitz, Spengler et Eduard Meyer <note type="standard" xml:id="ftn47" place="foot" n="47">
+            <p> Cf. E. <hi rend="small-caps">Meyer</hi>, “ Vorläufer des Weltkriegs im
+                            Altertum ”, <hi rend="italic">Sitzungsberichte der preussischen Akademie
+                                der Wissenschaften </hi>1918, p. 18-43 = <hi rend="italic">Kleine
+                                Schriften </hi>II, Halle, 1924, p. 533-544, dans le cadre d’une
+                            réflexion, en 1918, sur l’origine de la Première guerre mondiale.
+                        </p>
+          </note> pour qui l’Allemagne du deuxième <hi rend="italic">Reich</hi>,
+                    au même titre que la Rome du IIIe siècle, se devait de devenir une puissance
+                    navale. Si, dans d’autres contextes, mais selon la même logique, il est arrivé
+                    que Carthage soit assimilée à Venise ou à Gênes, l’analogie avec Londres s’est
+                    avérée la plus riche, mais aussi la plus complexe parce qu’elle véhiculait une
+                    charge politique en rapport avec le rôle de l’Angleterre sur l’échiquier
+                    international de la fin du XIXe et du début du XXe siècle. Par ailleurs, dans
+                    une Allemagne en cours d’unification et bien vite expansionniste, c’est du côté
+                    de Rome que l’imaginaire national chercha une de ses sources d’inspiration et de
+                        légitimation <note type="standard" xml:id="ftn48" place="foot" n="48">
+            <p>
+                            Cf. la contribution d’H. <hi rend="small-caps">Bruhns</hi> dans le
+                            présent volume, p. 17-43. </p>
+          </note> : Carthage devint donc
+                    spontanément l’expression symbolique d’une rivalité remise au goût du jour. </p>
+            </div>
+            <div type="div1" xml:id="d1e1229">
+                <head subtype="level1" xml:id="d1e1230">6. D’une guerre à l’autre : des guerres
+                    Puniques à 14-18 et 39-45</head>
+                <p xml:id="d1e1232">D’une manière générale, un peu partout avec la montée des
+                    nationalismes, la fabrique des imaginaires collectifs opéra sur les paradigmes
+                    tirés de l’histoire et des origines <note type="standard" xml:id="ftn49" place="foot" n="49">
+            <p> Cf. le numéro des <hi rend="italic">Annales
+                                H.S.S.</hi> 58 (2003), intitulé “ Imaginaires nationaux. Origines,
+                            usages, figures ”, proposé par H. <hi rend="small-caps">Bruhns</hi> et
+                            A. <hi rend="small-caps">Burgui</hi>
+              <hi rend="small-caps">È</hi>
+              <hi rend="small-caps">re</hi>, p. 37-39 (présentation), p. 41-133 (les
+                            diverses contributions), p. 181-270 (bulletin bibliographique).
+                        </p>
+          </note>. Dans ce contexte, la France et l’Allemagne, à la faveur des
+                    guerres napoléoniennes d’abord, de la guerre de 1870 ensuite, des deux guerres
+                    mondiales enfin, en vinrent à former un « couple maudit » analogue à celui que
+                    constituait jadis Rome et Carthage. Le caractère cyclique de leurs affrontements
+                    conduisit à l’élaboration, de part et d’autre, du concept d’« ennemi de la
+                    patrie », selon l’expression de M. Jeismann <note type="standard" xml:id="ftn50" place="foot" n="50">
+            <p> M. <hi rend="small-caps">Jeismann</hi>, <hi rend="italic">La patrie de l’ennemi, </hi>Paris, 1997 (éd. or.
+                            1992). </p>
+          </note>. Autour de cette idée se cristallisèrent une série de
+                    clichés visant à démoniser l’autre et à l’affubler de tous les vices et de
+                    toutes les perversions. Ainsi, dans les images et les écrits allemands, Napoléon
+                    est-il décrit comme un animal ou comme Satan, selon les poncifs traditionnels de
+                    l’altérité irréductible. Il ne nous semble cependant pas, sur la base d’un
+                    premier sondage dans ces sources de la fin du XVIIIe et jusqu’en 1870, que
+                    l’analogie carthaginoise ait été mobilisée dans ce contexte. L’enquête
+                    mériterait toutefois d’être approfondie par des modernistes et
+                    contemporanéistes. </p>
+                <p xml:id="d1e1263">La guerre 14-18, en revanche, qui fut l’aboutissement naturel et
+                    prévisible des nationalismes exaspérés, marqua un point d’orgue dans le recours
+                    à l’histoire comme légitimation politique et dans la mobilisation des
+                    intellectuels, y compris des antiquisants <note type="standard" xml:id="ftn51" place="foot" n="51">
+            <p> Sur ce point, je me permets de renvoyer à C. <hi rend="small-caps">Bonnet</hi>, <hi rend="italic">« Le grand atelier
+                                de la science ». Franz Cumont et l’</hi>Altertumswissenschaft, <hi rend="italic">entre héritage et émancipation</hi>. <hi rend="italic">Des études universitaires en Allemagne à la Ie Guerre mondiale
+                                (1888-1923)</hi>, Bruxelles-Rome 2005, sous presse. </p>
+          </note>. De
+                    part et d’autre, se développa une véritable « culture de guerre » qui investit
+                    la société toute entière et mit du temps à se démobiliser <note type="standard" xml:id="ftn52" place="foot" n="52">
+            <p> Cf. C. <hi rend="small-caps">Prochasson</hi> - A. <hi rend="small-caps">Rasmussen</hi>, <hi rend="italic">Au nom de la patrie. Les Intellectuels et la première
+                                guerre mondiale (1910-1919)</hi>, Paris 1996 ; voir aussi V. <hi rend="small-caps">Cal</hi>
+              <hi rend="small-caps">Ì</hi> - G. <hi rend="small-caps">Corni</hi> - G. <hi rend="small-caps">Ferrandi</hi> (éd.), <hi rend="italic">Gli intellettuali e la
+                                Grande guerra</hi>, Bologne, 2000 ; J. <hi rend="small-caps">Horne</hi>, “ Démobilisations culturelles après la Grande Guerre ”,
+                            in <hi rend="italic">14-18 Aujourd’hui - Today - Heute</hi>, 5 (2002),
+                            p. 45-53. </p>
+          </note>. Au moment où la guerre éclata, les batteries
+                    idéologiques étaient prêtes à crépiter, à l’unisson des canons <note type="standard" xml:id="ftn53" place="foot" n="53">
+            <p> Cf., entre autres, K.
+                                <hi rend="small-caps">Flasch</hi>, <hi rend="italic">Die geistiger
+                                Mobilmachung. </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Die deutschen
+                                    Intellektuellen und der Erste Weltkrieg. Ein
+                                Versuch</hi>
+              </hi>
+              <hi xml:lang="en">, Berlin, 2000. </hi>
+            </p>
+          </note>. </p>
+                <p xml:id="d1e1332">Or, dans l’idéologie nationaliste allemande, la référence à Rome
+                    n’est pas rare, en dépit du fait que la Grèce est en quelque sorte la patrie
+                    idéale des intellectuels <note type="standard" xml:id="ftn54" place="foot" n="54">
+            <p> Cf. les contributions d’H. <hi rend="small-caps">Bruhns</hi> et
+                            de L. <hi rend="small-caps">CalviÉ</hi>, dans le présent volume, aux p.
+                            17-43 et 45-57. </p>
+          </note>. Le thème de la <hi rend="italic">translatio
+                        imperii</hi> créa un lien de continuité entre Rome, le Saint-Empire de la
+                    nation germanique et le deuxième <hi rend="italic">Reich</hi> prussien. C’est
+                    pourquoi Guillaume II n’hésita pas à parler de la guerre de 14-18 comme d’une
+                    réédition de la première guerre Punique, en sous-entendant bien évidemment
+                    qu’elle aboutirait à l’anéantissement de la nouvelles Carthage, c’est-à-dire de
+                    l’Angleterre. Mais ce ne fut pas le cas : contre toute attente, ce fut le <hi rend="italic">Reich</hi>, prétendue réincarnation de l’empire romain, qui
+                    « mourut » brutalement. L’intense réflexion historiographique qui se développa
+                    alors en Allemagne, entre la fin du XIXe et les premières décennies du XXe
+                    siècle, autour de la question du destin des empires et de la <hi rend="italic">Dekadenzidee</hi>, fut donc alimentée par les événements du présent. Si, au
+                    moment de la formation et de l’affirmation du <hi rend="italic">Reich,
+                    </hi>Carthage, le grand vaincu de l’histoire, semblait constituer un horizon
+                    étranger à l’Allemagne, la défaite de 1918 renversa la perspective et obligea
+                    les historiens à admettre que, comme Carthage et, plus tard, l’empire romain,
+                    l’empire allemand était mortel. </p>
+                <p xml:id="d1e1361">En 1918, l’armée allemande rentra donc chez elle, démoralisée et
+                    humiliée, après un armistice désastreux. Parmi les vainqueurs eux-mêmes,
+                    certains n’hésiteront pas à qualifier le traité de Versailles de « paix
+                    carthaginoise », c’est-à-dire excessivement humiliante. Les intellectuels
+                    restèrent dès lors longtemps sur pied de guerre, leur démobilisation
+                    s’effectuant avec un retard sensible par rapport aux troupes. L’Allemagne
+                    craignait de devenir une victime sacrificielle dans les mains des vainqueurs :
+                    une « nouvelle Carthage », humiliée par les traités de paix et destinée à être
+                    anéantie. Le 19 octobre 1918, quelques semaines avant l’armistice, dans le
+                    journal <hi rend="italic">Der Tag</hi>, Ulrich von Wilamowitz-Moellendorff, le
+                    prince de l’<hi rend="italic">Altertumswissenschaft</hi>, dont les discours de
+                    guerre (les <hi rend="italic">Kriegsreden</hi>) furent parmi les plus virulents,
+                    publia un article intitulé <hi rend="italic">Der Untergang Karthagos </hi>
+          <note type="standard" xml:id="ftn55" place="foot" n="55">
+            <p> Cf. U. <hi rend="small-caps">von Wilamowitz-Moellendorff</hi>, “ Der Untergang
+                            Karthagos ”, <hi rend="italic">Der Tag</hi>, 19 octobre 1918 ; à ce
+                            propos, cf. L. <hi rend="small-caps">Canfora</hi>, <hi rend="italic">Cultura classica e crisi tedesca</hi>, Turin, 1976, p. 86-88 et <hi rend="small-caps">Bonnet</hi>, <hi rend="italic">Le « grand
+                                atelier », </hi>sous presse. </p>
+          </note>
+          <hi rend="italic">. </hi>Il
+                    s’agissait de mettre en garde les Allemands contre une reddition trop rapide qui
+                    porterait l’Allemagne à la catastrophe : « La discorde interne et la
+                    méconnaissance aveugle de l’ennemi rusé et cruel conduisirent Carthage à la
+                    ruine ». Cette lecture des événements fut reprise, après l’armistice, par Eduard
+                    Meyer dans son <hi rend="italic">Rektoratsrede</hi> à l’Université de Berlin, le
+                    15 octobre 1919 : la politique de Rome durant la IIIe Guerre Punique est
+                    qualifiée de « diabolique » <note type="standard" xml:id="ftn56" place="foot" n="56">
+            <p>
+                            <hi rend="small-caps">
+                <hi xml:lang="en">Meyer</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Kleine
+                                Schriften</hi>
+              </hi>
+              <hi xml:lang="en"> p. 543. </hi>
+            </p>
+          </note>. Dans
+                    le sillage, en 1921, H. Spethmann publia un pamphlet intitulé <hi rend="italic">Karthagos Untergang - Auch unser Schicksal</hi>. La nouvelle identification
+                    de l’Allemagne à Carthage incita dès lors l’historiographie allemande à
+                    réévaluer le paradigme punique : Hannibal devint ainsi un exemple d’<hi rend="italic">Ermattungsstrategie</hi> et, en 1922, Eduard Meyer proposa de
+                    lui un portrait très idéalisé dans un volume collectif sur les <hi rend="italic">Meister der Politik </hi>
+          <note type="standard" xml:id="ftn57" place="foot" n="57">
+            <p>
+                            <hi xml:lang="en">Ed. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Meyer</hi>
+              </hi>
+              <hi xml:lang="en">, “ Hannibal und Scipio ”, in
+                                E. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Marcks</hi>
+              </hi>
+              <hi xml:lang="en"> - K.A. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">von MÜller</hi>
+              </hi>
+              <hi xml:lang="en"> (éd.), </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Meister der Politik</hi>
+              </hi>
+              <hi xml:lang="en">, Stuttgart, 1922, p. 65-117. </hi>
+            </p>
+          </note>. Modèle
+                    de <hi rend="italic">geistiger Kräfte</hi>, préfiguration de Ludendorff et
+                    Hindenburg, Hannibal y incarne la lutte contre l’impérialisme romain, assimilé à
+                    l’impérialisme anglais. Rome est désormais démonisée et Carthage sublimée.</p>
+                <p xml:id="d1e1458">L’Allemagne vaincue se reconnaît donc, au jeu du miroir
+                    historiographique, dans Carthage, l’humiliée qui, chez Mommsen, préfigurait
+                    pourtant la riche Angleterre. Le chassé-croisé historiographique est
+                    étourdissant, mais révélateur d’un processus analogique qui n’a rien de
+                    définitif, de normatif, et qui, au contraire, pour être opératoire, doit
+                    « coller » à la réalité des événements, donc être l’objet de mises à jours
+                    régulières qui n’en minent point la validité. L’analogie trouve sa
+                    justification, non pas dans les contenus qu’elles véhiculent, eux-mêmes soumis
+                    aux aléas de l’histoire, mais dans la démarche qui la sous-tend, démarche
+                    fondamentalement comparative et dynamique. </p>
+                <p xml:id="d1e1460">Incapables de dresser un bilan équilibré de la catastrophe de
+                    14-18, aux prises avec la <hi rend="italic">Kriegsschuldfrage</hi>, bien des
+                    intellectuels allemands ultra-conservateurs, dont Wilamowitz et Meyer,
+                    continuèrent, après la guerre et l’instauration de la République de Weimar, à
+                    agiter le fantôme d’une résistance civile et spirituelle. On mit alors en
+                    circulation la <hi rend="italic">Dolchstoßlegende</hi>, la « légende du coup de
+                    poignard », selon laquelle l’Allemagne aurait été trahie, poignardée de
+                    l’intérieur, et non pas vaincue par l’ennemi extérieur. Cette distorsion
+                    historique, qui mettait en avant le sacrifice de milliers de jeunes patriotes,
+                    un sacrifice qui ne pouvait avoir été vain, alimenta le besoin de revanche qui
+                    déboucha sur la deuxième guerre Mondiale <note type="standard" xml:id="ftn58" place="foot" n="58">
+            <p> Cf. L. <hi rend="small-caps">Canfora</hi>,
+                            “ Wilamowitz e Meyer tra la sconfitta e la « Repubblica di Novembre » ”,
+                                <hi rend="italic">Quaderni di storia</hi> 2 (1976), p. 69 sv. ; I.
+                                <hi rend="small-caps">Kershman</hi> (éd.), <hi rend="italic">Weimar : Why Did German Democracy Fail ?</hi>, Londres, 1990 ; P.
+                                <hi rend="small-caps">Jardin</hi>, “ La légende du « coup de
+                            poignard » dans les manuels scolaires allemands des années ‘20 ”, in
+                            J.J. <hi rend="small-caps">Becker</hi>
+                            <hi rend="italic">et alii</hi> (éd.), <hi rend="italic">Guerres et
+                                cultures 1914-1918</hi>, Paris, 1994, p. 266-277 ; <hi rend="small-caps">Bonnet</hi>, <hi rend="italic">Le « grand
+                                atelier »</hi>. </p>
+          </note>. Celle-ci devait prendre les allures
+                    d’une « deuxième guerre Punique ». Pour les Allemands, il s’agissait de venger
+                    l’affront, mais pour les Anglais, comme en témoignent les discours de
+                    Chamberlain en 1939, l’analogie punique ne pouvait que présager une issue
+                    favorable à l’autre camp : la « deuxième guerre Punique », comme la première, se
+                    solderait forcément par une nouvelle victoire de « Rome », donc de l’Angleterre.
+                    Face à l’ambivalence de l’analogie, le 8 novembre 1939, Hitler lui réplique
+                    explicitement sur ce point : « Wenn man nun in England erklärt, dass dieser
+                    Kampf der 2. Punische Krieg sei, so steht in der Geschichte nur noch nicht fest,
+                    wer in diesem Fall Rom und wer Karthago sein wird. » <note type="standard" xml:id="ftn59" place="foot" n="59">
+            <p>
+                            <hi xml:lang="en">Cf. M. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Domarus</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Hitler. Reden und Proklamationen
+                                1932-1945,</hi>
+              </hi>
+              <hi xml:lang="en"> II. </hi>
+              <hi rend="italic">Untergang</hi>
+                            <hi rend="italic">(1939-1945)</hi>, Leonberg, 1963, p. 1343 et 1411.
+                        </p>
+          </note>
+        </p>
+                <p xml:id="d1e1526">La deuxième guerre Mondiale, avec les mêmes acteurs, voit ainsi
+                    la résurgence de la référence antique comme archétype interprétatif. Un
+                    paramètre nouveau s’insinue toutefois dans le raisonnement, qui remet Carthage à
+                    distance, la rejette dans le camp de l’altérité, aux antipodes de l’Allemagne :
+                    ce paramètre, c’est l’antisémitisme. Hitler était certes un grand partisan de la
+                    culture grecque classique, mais Rome avait le grand mérite d’avoir défait et
+                    anéanti l’empire des Sémites de Carthage <note type="standard" xml:id="ftn60" place="foot" n="60">
+            <p> Voir les textes suivants où Hitler se place
+                            clairement dans une perpective romaine : discours du 30/1/1944 (<hi rend="italic">ibidem</hi>, p. 2084) où la mission civilisatrice du
+                            troisième <hi rend="italic">Reich</hi> est comparée à celle de la Grèce
+                            face aux Perses et de Rome face aux Carthaginois ; discours du 24/2/1945
+                                (<hi rend="italic">ibidem</hi>, p. 2205), où, pour exhorter les
+                            Allemands à tenir bon, il rappelle les moments terribles vécus par Rome
+                            après la défaite de Cannes, dans le cadre d’un <hi rend="italic">Kampf
+                                für sein Dasein</hi>, et entrevoit déjà la possibilité d’une
+                            « troisième guerre Punique » pour s’imposer ; même ton dans le discours
+                            du 11/3/1945 (<hi rend="italic">ibidem</hi>, p. 2212). </p>
+          </note>. De
+                    même que les Juifs étaient dénoncés pour leur avidité dans le discours raciste
+                    du national-socialisme, les Carthaginois étaient décrits comme les capitalistes
+                    par excellence, ce qu’avait bien souligné Mommsen, mais dans la perspective tout
+                    à fait positive d’un historien libéral. Cela dit, dans l’article de Wilamowitz
+                    paru en 1918, où l’Allemagne était identifiée à Carthage, la volonté de ruiner
+                    la métropole punique était attribuée aux « capitalistes d’Italie », comme la
+                    volonté de ruiner l’Allemagne était mise sur le compte des capitalistes anglais.
+                    À chacun sa Carthage...</p>
+                <p xml:id="d1e1548">Au sein de l’historiographie nazie, il faut attirer l’attention
+                    sur un volume collectif, issu d’un Colloque promu par la <hi rend="italic">Deutsche Forschungsgemeinschaft</hi> et paru à Leipzig en 1943, sur
+                    initiative de Joseph Vogt, qui se réclame d’Helmut Berve dont l’orientation
+                    idéologique n’est plus à démontrer : <hi rend="italic">Rom und Karthago. Ein
+                        Gemeinschaftswerk</hi> en est le titre <note type="standard" xml:id="ftn61" place="foot" n="61">
+            <p> Sur l’orientation de ce volume, L. <hi rend="small-caps">Canfora</hi>, <hi rend="italic">Ideologie del
+                                classicismo</hi>, Turin, 1980, p. 149-154. Sur Helmut Berve
+                            (1896-1979), cf. K. <hi rend="small-caps">Christ</hi>, <hi rend="italic">Neue Profile der alten Geschichte</hi>, Darmstadt, 1990, p.
+                            125-187. </p>
+          </note>. Il renvoie à une confrontation traditionnelle dans
+                    l’historiographie, mais débouche tout naturellement sur l’éternel manichéisme
+                    que nous suivons à la trace depuis Tite-Live. Vogt se charge d’introduire le
+                    propos en des termes très clairs : si les aspects politiques et militaires du
+                    conflit Rome-Carthage ont été dûment explorés, en revanche, il n’en va pas de
+                    même des facteurs raciaux, le <hi rend="italic">Blutserbe der Völker </hi>
+          <note type="standard" xml:id="ftn62" place="foot" n="62">
+            <p> Vogt, tout en
+                            reconnaissant le caractère <hi rend="italic">einseitig</hi> (p. 7) des
+                            témoignages relatifs à Carthage, souligne malgré tout la <hi rend="italic">Fremdheit</hi> de Carthage qui trouve son origine dans
+                            la <hi rend="italic">Semitentum</hi> ou <hi rend="italic">Puniertum</hi>
+                            (p. 6 et 7). Il s’efforce du coup de rattacher la <hi rend="italic">oft
+                                genannte punische Treulosigkeit</hi> à des facteurs raciaux (p. 8).
+                        </p>
+          </note>. Les Romains, qualifiés de <hi rend="italic">nordisch</hi>, se
+                    seraient-ils imposés sur les Sémites, un peuple excessivement pragmatique, sans
+                    aucun sens de l’art, grâce aux qualités intrinsèques de leur race ? L’ouvrage
+                    s’inscrit clairement dans un contexte de basse propagande, bien que certains
+                    auteurs, comme Matthias Gelzer, prennent leurs distances par rapport à la <hi rend="italic">Fragestellung</hi> raciste. Avec finesse, Gelzer note que les
+                    facteurs raciaux, s’ils n’ont eu aucun impact direct sur le déroulement des
+                    guerres Puniques, en ont eu, en revanche, sur le plan historiographique, en ce
+                    sens que les Romains ont élaboré une image négative des Carthaginois, basée sur
+                    une opposition à la fois ethnique et politique <note type="standard" xml:id="ftn63" place="foot" n="63">
+            <p> Sa contribution est intitulée : <hi rend="italic">Der Rassengegensatz als geschichtlicher Faktor beim
+                                Ausbruch der römisch-karthagischen Kriege</hi>, p. 178-202.
+                        </p>
+          </note>. </p>
+                <p xml:id="d1e1610">L’idéologie nazie adopta, tous comptes faits, une position
+                    ambivalente à l’égard de Carthage, ce dont témoignent notamment les écrits
+                    d’Adolf Hitler lui-même. Dans ses discours, tout en fustigant la Carthage
+                    sémitique, il fait néanmoins l’éloge de ce symbole de <hi rend="italic">Machtstaat</hi>, c’est-à-dire d’une forme d’État au sein duquel la
+                    puissance économique est en rapport étroit avec la force militaire. « Es keine
+                    karthagische Wirtschaft gab ohne karthagische Flotte und keinen karthagische
+                    Handel ohne karthagische Armee. » <note type="standard" xml:id="ftn64" place="foot" n="64">
+            <p>
+                            <hi rend="small-caps">Domarus</hi>, <hi rend="italic">Hitler</hi>,
+                            discours du 27/1/1932, p. 67-90, en part. p. 80 pour notre citation.
+                            Pour un réexamen de la question du rapport entre économie civile et
+                            économie militaire à Carthage, cf. W. <hi rend="small-caps">Ameling</hi>, <hi rend="italic">Karthago. Studien zu Militär, Staat und
+                                Gesellschaft</hi>, Munich, 1993, avec un important <hi rend="italic">review article</hi> de L. L<hi rend="small-caps">oreto</hi>,
+                            “ Guerra, società e illusioni ottiche a Cartagine. <hi xml:lang="en">Una
+                                presa di posizione su W. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Ameling</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Karthago. Studien zu Militär, Staat
+                                    und Gesellschaft</hi>
+              </hi>
+              <hi xml:lang="en">, Munich, 1993 ”,
+                                </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Quaderni di
+                                storia</hi>
+              </hi>
+              <hi xml:lang="en"> 23 (1997), p. 237-250.
+                        </hi>
+            </p>
+          </note>
+        </p>
+            </div>
+            <div type="div1" xml:id="d1e1655">
+                <head subtype="level1" xml:id="d1e1656">7. L’Italie entre Rome et Carthage</head>
+                <p xml:id="d1e1658">Que l’Italie moderne se sente l’héritière de Rome est une
+                        lapalissade <note type="standard" xml:id="ftn65" place="foot" n="65">
+            <p>
+                            Voir dans le présent volume, la contribution de P. <hi rend="small-caps">Foro</hi>, p. 105-117. </p>
+          </note>. Dans le domaine de l’<hi rend="italic">antichistica</hi>, Ettore Pais est certainement celui qui
+                    illustre le mieux l’empreinte du patriotisme et du nationalisme dans
+                        l’historiographie <note type="standard" xml:id="ftn66" place="foot" n="66">
+            <p> Cf. L. P<hi rend="small-caps">olverini</hi> (éd.), <hi rend="italic">Aspetti della storiografia di Ettore Pais</hi>,
+                            Naples, 2002. </p>
+          </note>. Dès 1920, à l’occasion du cinquantième
+                    anniversaire de la prise de Rome, donc de l’unification de l’Italie, il publia
+                    un essai intitulé <hi rend="italic">Roma antica e la genesi dell’unità
+                        d’Italia </hi>
+          <note type="standard" xml:id="ftn67" place="foot" n="67">
+            <p>
+                            Paru dans <hi rend="italic">Imperialismo romano e politica
+                            italiana</hi>, Bologne, 1920, p. 3-53. </p>
+          </note>, où il s’efforce de
+                    gommer les diversités péninsulaires, au nom de l’unité et de la continuité.
+                    C’est ainsi que passent à la trappe les Étrusques (trop « orientaux »), les
+                    Sicules, les Sicanes et autres groupes indigènes, sans oublier la composante
+                    punique, particulièrement sensible en Sicile et en Sardaigne, tandis que les
+                    populations italiques, elles, garantes de la longue durée nationale, sont mises
+                    au premier plan. </p>
+                <p xml:id="d1e1692">C’est après la première guerre Mondiale, dans les années où le
+                    fascisme s’affirme <note type="standard" xml:id="ftn68" place="foot" n="68">
+            <p>
+                            Voir M. <hi rend="small-caps">Cagnetta</hi>, <hi rend="italic">Antichisti ed impero fascista</hi>, Bari, 1979. </p>
+          </note>, qu’un
+                    intérêt pour Carthage se manifeste clairement chez Pais. En 1924, il donne des
+                    Conférences au Collège de France sur les guerres Puniques et se rend même en
+                    Espagne, en Afrique du Nord et en Orient pour visiter les lieux dont il parle,
+                    en utilisant Gsell <note type="standard" xml:id="ftn69" place="foot" n="69">
+            <p>
+                            S. <hi rend="small-caps">Gsell</hi>, <hi rend="italic">Histoire anciene
+                                de l’Afrique du Nord</hi>, 3e éd., Paris, 1928. </p>
+          </note> et
+                        Meltzer <note type="standard" xml:id="ftn70" place="foot" n="70">
+            <p>
+                            <hi xml:lang="en">O. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Meltzer</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Geschichte der Karthager</hi>
+              </hi>
+              <hi xml:lang="en">, Berlin, 1879. </hi>Sur l’apport de ces auteurs à la
+                            connaissance de l’histoire de Carthage, voir l’introduction
+                            historiographique de W. <hi rend="small-caps">Huss</hi>, <hi rend="italic">Geschichte der Karthager</hi>, Munich, 1985, p. 1-3.
+                        </p>
+          </note> pour guides. En 1925, Pais fait paraître la <hi rend="italic">Storia dell’Italia antica e della Sicilia per l’età anteriore al dominio
+                        romano</hi>, avec les guerres Puniques comme toile de fond <note type="standard" xml:id="ftn71" place="foot" n="71">
+            <p> Première édition
+                            parue à Rome en 1925, la deuxième à Turin en 1933. </p>
+          </note>. Ensuite,
+                    en 1927, il publie la <hi rend="italic">Storia di Roma durante le guerre
+                        Puniche</hi>, dont la deuxième édition, en 1935, est dédiée à Benito
+                        Mussolini <note type="standard" xml:id="ftn72" place="foot" n="72">
+            <p> La
+                            première édition a paru à Rome, la seconde à Turin. </p>
+          </note>. Pais y
+                    reprend l’analogie entre Carthage et l’Angleterre, chère à l’historiographie
+                    allemande depuis Droysen et Mommsen <note type="standard" xml:id="ftn73" place="foot" n="73">
+            <p> Cf. <hi rend="italic">supra</hi>, p. 145-147,
+                            150-151. </p>
+          </note> et reposant sur le concept de ploutocratie. Notre
+                    historien, qui avait avec l’Angleterre une série d’attaches, ne fait cependant
+                    pas un usage dépréciatif de cet accostement : comme chez Mommsen, il a une
+                    valeur fondamentalement interprétative, non sans quelque nuance idéologique. </p>
+                <p xml:id="d1e1765">Quelques années plus tard, en 1938, moment critique dans
+                    l’histoire de l’Italie – avec les lois raciales <note type="standard" xml:id="ftn74" place="foot" n="74">
+            <p> L’antisémitisme de Mussolini ne date
+                            cependant pas de 1938, de même que les persécutions à l’égard des Juifs.
+                            Voir en dernier lieu, le bel essai de G. <hi rend="small-caps">Fabre</hi>, <hi rend="italic">Il contratto. Mussolini editore di
+                                Hitler</hi>, Bari, 2004. </p>
+          </note> – et de l’Europe, au bord du
+                    gouffre, Pais publie deux essais en quelque sorte spéculaire, mais aussi plus
+                    politiques et plus polémiques, l’un intitulé <hi rend="italic">Roma dell’antico
+                        al nuovo impero</hi>, l’autre <hi rend="italic">Imperialismo romano ed
+                        imperialismo britannico </hi>
+          <note type="standard" xml:id="ftn75" place="foot" n="75">
+            <p> Paru dans les <hi rend="italic">Rendiconti
+                                dell’Accademia Nazionale d’Italia</hi> 1938, p. 425-439 ; 2e édition
+                            en 1939. </p>
+          </note>. Le souci de Pais est de souligner tout ce qui
+                    différencie les deux formes d’impérialisme et, corollairement, tout ce qui
+                    rapproche l’Angleterre (« perfide Albion ») du paradigme carthaginois (la <hi rend="italic">fides punica</hi>), sans pour autant verser dans
+                    l’antisémitisme ou la démonisation de Carthage, puissance vaincue, qui plus est
+                    par les ancêtres des Italiens. </p>
+                <p xml:id="d1e1794">Idéologiquement parlant, en effet, ce regain d’intérêt pour
+                    Carthage, la victime de Rome, a une évidente finalité nationaliste : il s’agit
+                    de célébrer la dimension méditerranéenne et même universelle de la <hi rend="italic">romanitas</hi>, donc de légitimer l’expansionnisme fasciste en
+                    Afrique du Nord. Ces ambitions, chères à Mussolini, s’étalent déjà dans le
+                    célèbre discours <hi rend="italic">Roma antica sul mare</hi>, prononcé par
+                    Mussolini le 5 octobre 1926 à Pérouse, dont l’attribution, ou non, à Pais,
+                    présent à Pérouse lors de l’événement, est objet de discussion <note type="standard" xml:id="ftn76" place="foot" n="76">
+            <p>
+                            <hi xml:lang="en">Cf. B. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Mussolini</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Opera omnia</hi>
+              </hi>
+              <hi xml:lang="en">, éd.
+                            </hi>E. et D. <hi rend="small-caps">Susmel</hi>, t. XXII, Florence,
+                            1957, p. 213-227. </p>
+          </note>. Mussolini, désireux de favoriser le
+                    réarmement naval de l’Italie, y trace une vaste fresque historique, très
+                    documentée, visant à accréditer l’idée que Rome était aussi une puissance
+                    maritime. Il évoque naturellement le « terribile secolare duello » avec
+                    Carthage, dont la défaite marque le début d’une ère nouvelle : celle de la
+                    Méditerranée comme « lago romano ». Rome était bien une puissance maritime :
+                    « queste virtù valevano ieri, varranno domani e sempre » ! Au-delà des ambitions
+                    politiques et économiques, l’Italie est présentée, dans le discours fasciste,
+                    comme investie d’une véritable mission culturelle, civilisatrice, en écho à
+                    celle jadis accomplie par Rome ; Mussolini l’exprime en termes très clairs en
+                    1937 : « L’Italia reca in Etiopia la luce della civiltà [...] perché la luce
+                    eterna è di Roma, la quale illumina un’umanità che manifesta combattendo la
+                    gioia di redimersi da uno stato avvilente di barbarie millenaria . » <note type="standard" xml:id="ftn77" place="foot" n="77">
+            <p>
+                            <hi rend="small-caps">Mussolini</hi>, <hi rend="italic">Opera</hi>, t.
+                            XXVIII, Florence, 1959, p. 172-173, discours prononcé à Rome, du balcon
+                            de Piazza Venezia, le 9 mai 1937 pour l’anniversaire de l’empire.
+                        </p>
+          </note>
+        </p>
+                <p xml:id="d1e1833">Dans la même lignée, lorsque Mussolini visite, en 1926, les
+                    territoires italiens de Libye, il est qualifié dans la presse de « nouveau
+                    Scipion ». Des affiches de propagande montrent un marin italien débarquant en
+                    Tripolitaine, d’un air martial, et découvrant le cadavre d’un légionnaire romain
+                    auquel il emprunte son glaive <note type="standard" xml:id="ftn78" place="foot" n="78">
+            <p> C’est l’affiche qui figure en couverture du volume de M. <hi rend="small-caps">Munzi</hi>, <hi rend="italic">L’epica del ritorno.
+                                Archeologia e politica nella Tripolitania italiana</hi>, Rome, 2001.
+                        </p>
+          </note> ! En 1937, sort le célèbre film de Carmine Gallone, intitulé
+                    « Scipione l’Africano » promu par le non moins célèbre <hi rend="italic">Minculpop</hi> (<hi rend="italic">Ministero della cultura popolare</hi>).
+                    Après 1938 et les détestables lois raciales, l’antisémitisme ambiant conforta
+                    une vision totalement négative des Sémites dans l’histoire, donc des
+                    Carthaginois, désormais présentés sous le jour d’une puissance navale et
+                    mercantile perfide, égoïste, qui refusa toute forme d’assimilation culturelle et
+                    se replia sur elle-même, par opposition à Rome, puissance civilisatrice
+                    rayonnante. Mussolini s’efforça même de prouver que le racisme avait été
+                    pratiqué par les Romains eux-mêmes, adversaires farouches des Juifs et des
+                    Carthaginois. En tant qu’ennemis de Rome, en tant qu’ancêtres des Africains et
+                    en tant que Sémites, les Carthaginois étaient donc triplement dévalués. </p>
+                <p xml:id="d1e1852">Au moment où éclata la deuxième guerre Mondiale, le parallèle
+                    entre Carthage et l’Angleterre retrouva, du côté allemand comme du côté italien,
+                    toute sa charge négative. Les Anglais avaient, une fois de plus, fait preuve
+                    d’une mauvaise foi digne de la <hi rend="italic">fides punica</hi>. Dans un
+                    discours prononcé le 12 janvier 1942, Mussolini en vient à qualifier la guerre
+                    en cours de « quatrième guerre Punique » <note type="standard" xml:id="ftn79" place="foot" n="79">
+            <p>
+                            <hi rend="small-caps">Mussolini</hi>, <hi rend="italic">Opera</hi>, t.
+                            XXXI, Florence, 1960, p. 3 (il entendait souligner le rôle de la Sicile
+                            dans les deux contextes). Philippe Foro me signale que, dès le 18
+                            novembre 1940, Mussolini affirme, devant les secrétaires fédéraux du PNF
+                            : « Elle (= la guerre) est comme la troisième guerre punique qui doit se
+                            conclure et se concluera avec l’anéantissement de la Carthage moderne,
+                            l’Angleterre. »</p>
+          </note> : on joue les prolongations d’un match
+                    destiné à confirmer une défaite sans cesse réactualisée, comme un rite
+                    implacable de l’histoire. </p>
+                <p xml:id="d1e1868">Dans le panorama historiographique italien de l’époque, un autre
+                    nom mérite que l’on s’y arrête : c’est celui de Gaetano De Sanctis, le
+                    contemporain et rival d’Ettore Pais. Très tôt dans son œuvre, De Sanctis définit
+                    les affrontements entre Grecs et Puniques en Sicile come « la lotta suprema tra
+                    arii e semiti »<note type="standard" xml:id="ftn80" place="foot" n="80">
+            <p>
+                            Expression qui figure dans G. <hi rend="small-caps">De Sanctis</hi>, “
+                            La guerra e la pace nell’antichità ”, <hi rend="italic">Annuario della
+                                Reale Università di Torino</hi> 1904-1905, p. 14-37. </p>
+          </note>, en
+                    accord avec les catégories de l’historiographie « raciale » de l’époque. Il
+                    reprit et amplifia cette idée en 1931, dans le tome IX de l’<hi rend="italic">Enciclopedia italiana</hi>, où il publia l’entrée « Cartagine » <note type="standard" xml:id="ftn81" place="foot" n="81">
+            <p> À ce sujet, M. <hi rend="small-caps">Cagnetta</hi>, <hi rend="italic">Antichità
+                                classiche nell’enciclopedia italiana</hi>, Rome-Bari, 1990.
+                        </p>
+          </note>. Il y met en scène le conflit entre deux cultures, ou mieux
+                    entre une culture et une anti-culture, c’est-à-dire entre Rome et Carthage, une
+                    approche qui, sur ce point, rejoint les thèses de Pais. Ce thème est encore
+                    présent dans le tome IV de sa <hi rend="italic">Storia dei Romani</hi>, paru
+                    seulement en 1964, mais rédigé peu après la fin de la deuxième Guerre mondiale.
+                    D’une part, De Sanctis place les Phéniciens et les Puniques, de l’autre, les
+                    Grecs et les Romains. Les premiers ont le tort d’être restés à l’écart des
+                    effets et des bénéfices de la civilisation classique, qualifiée de « glorioso
+                    retaggio » des cultures du monde moderne. Cité opulente, riche de biens, mais
+                    pauvre en culture, Carthage n’a nullement contribué aux progrès de l’art et de
+                    l’esprit, ce qui lui vaut la dure étiquette de « poids mort » de l’histoire. En
+                    définitive, conclut De Sanctis, la disparition de Carthage apparaît comme une
+                    « profonde exigence historique », celle de neutraliser l’élément oriental,
+                    néfaste dans l’évolution de l’humanité <note type="standard" xml:id="ftn82" place="foot" n="82">
+            <p> À l’exception de la spiritualité d’origine juive
+                            qui, avec Saül/Paul en particulier, conflua dans le christianisme. Pour
+                            ce qui est plus précisément d’Hannibal, voir M. <hi rend="small-caps">Pavan</hi>,<lb/>“ A proposito del giudizio di G. De Sanctis su
+                            Annibale ”, in <hi rend="italic">Studi annibalici</hi> (=<hi rend="italic">Rivista storica dell’Antichità</hi> 13-14), 1983-84,
+                            p. 154-156. </p>
+          </note>. Le développement de l’Afrique n’a donc pu se
+                    produire qu’au moment de son intégration dans le monde romain, tandis que la
+                    conquête arabe représente une résurgence de l’élément oriental, donc une
+                    nouvelle régression <note type="standard" xml:id="ftn83" place="foot" n="83">
+            <p>
+                            G. <hi rend="small-caps">De Sanctis</hi>, <hi rend="italic">Storia dei
+                                Romani</hi> IV, 3, Rome, 1964, p. 75. </p>
+          </note>. </p>
+                <p xml:id="d1e1926">Faut-il voir, dans ces pages, à certains égards surprenantes, de
+                    De Sanctis, les traces d’une forme d’antisémitisme catholique et un écho aux
+                    préjugés de l’auteur quant à la supériorité des valeurs classiques, elles-mêmes
+                    intégrées dans le christianisme auquel De Sanctis était très attaché <note type="standard" xml:id="ftn84" place="foot" n="84">
+            <p> Sur ces positions,
+                                <hi rend="small-caps">Canfora</hi>, <hi rend="italic">Ideologie</hi>, p. 153, n. 3. </p>
+          </note> ? Une méchante polémique
+                    avait du reste éclaté entre De Sanctis et Pais, dès 1908, celui-ci reprochant à
+                    celui-là de sous-estimer l’apport culturel des Sémites à la civilisation <note type="standard" xml:id="ftn85" place="foot" n="85">
+            <p> Cf. E. P<hi rend="small-caps">Ais</hi>, compte rendu à la <hi rend="italic">Storia romana</hi> I-II de G. De Sanctis, in <hi rend="italic">Studi per l’antichità classica</hi> 1 (1908), p. 136 ; cf. <hi rend="small-caps">Cagnetta</hi>, <hi rend="italic">Antichità</hi>,
+                            p. 102. </p>
+          </note>. Ce qui ne l’empêcha pas, quelques années plus tard,
+                    en 1929-30, d’attaquer à nouveau De Sanctis, sans le nommer, comme
+                    « glorificatore di Cartagine » et anti-romain cette fois !</p>
+                <p xml:id="d1e1959">Au-delà de la polémique <note type="standard" xml:id="ftn86" place="foot" n="86">
+            <p> Pour une relecture de l’orientation de l’œuvre de De
+                            Sanctis, cf. E. <hi rend="small-caps">Gabba</hi>, “ Riconsiderando
+                            l’opera storica di Gaetano De Sanctis ”, <hi rend="italic">Rivista di
+                                filologia e di istruzione classica</hi> 99 (1971), p. 5-25.
+                        </p>
+          </note>, tant Pais que De Sanctis, influencés en cela par la catégorie
+                    historiographique allemande du <hi rend="italic">Volksgeist</hi>, envisagent,
+                    comme jadis Tite-Live, les guerres Puniques sous l’angle du conflit de cultures
+                    et de civilisations, proposant par conséquent une lecture assez caricaturale de
+                    Carthage et de son apport. Les poncifs remontant à l’historiographie romaine
+                    sont remis au goût du jour : les mercenaires, l’avidité, la cruauté, l’absence
+                    de sens artistique, etc. Dans ce fatras de catégories préjudicielles et
+                    traditionnelles, ne reposant sur aucune analyse critique des sources, nos
+                    historiens ne dégagent qu’un mérite à assigner aux Carthaginois, le pragmatisme,
+                    leur grand tort étant, au fond, d’appartenir à une nation perdante : « mort aux
+                    vaincus ! ». </p>
+                <p xml:id="d1e1975">Au grand dam des Italiens, la quatrième guerre Punique de
+                    Mussolini se termina par la défaite de Rome. L’Italie faisait, après
+                    l’Allemagne, l’expérience du destin « à la carthaginoise », ce dont témoigne un
+                    curieux événement <note type="standard" xml:id="ftn87" place="foot" n="87">
+            <p>
+                            Cf. M. <hi rend="small-caps">Cagnetta</hi>, <hi rend="italic">La pace
+                                dei vinti. Un discorso di G. Gonella su pace romana e pace
+                                cartaginese</hi>, con un saggio di Luigi <hi rend="small-caps">Loreto</hi>, Rome, 1997. </p>
+          </note>. Le 16 juin 1947, à Rome,
+                    l’Istituto di Studi Romani inaugura l’année académique en présence du Ministre
+                        <hi rend="italic">democristiano</hi> de l’Instruction publique, Guido
+                    Gonella, un proche des milieux du Saint-Siège, auteur d’articles pour <hi rend="italic">L’Osservatore romano</hi>. L’époque n’était plus à la romanité
+                    triomphante : les Italiens étaient déçus, voire irrités envers les alliés et
+                    surtout les Américains, mais ils en avaient besoin pour la reconstruction. Le
+                    traité de paix mettant un terme à la deuxième guerre mondiale avait été signé le
+                    10 février et Alcide De Gasperi, le président du Conseil italien, s’était rendu,
+                    en janvier, aux États-Unis. Le 5 juin 1947, le plan Marshall alliat être
+                    annoncé. L’Italie s’apprêtait à payer lourdement sa participation à la guerre du
+                    côté des vaincus. Gonella était sans doute de ceux qui estimaient que l’addition
+                    s’annonçait trop salée. </p>
+                <p xml:id="d1e1998">Il donne donc à son discours d’inauguration le titre
+                    emblématique de « Pace romana e pace cartaginese » <note type="standard" xml:id="ftn88" place="foot" n="88">
+            <p> G. <hi rend="small-caps">Gonella</hi>, <hi rend="italic">Pace romana e pace cartaginese</hi>,
+                            Rome, 1947. </p>
+          </note>. Par « pace cartaginese », il entend non pas,
+                    comme les Allemands à propos de Versailles, une paix injuste et humiliante,
+                    comme Carthage en avait subi de la part des Romains, mais, à l’opposé, une paix
+                    semblable à celle que Carthage imposa à ses alliés méditerranéens : en d’autres
+                    termes, un pacte impitoyable, injuste et perfide, imposé par une puissance riche
+                    et dominante. Il est frappant de voir un adversaire du fascisme et un acteur de
+                    la nouvelle démocratie italienne reprendre à son compte les poncifs les plus
+                    balourds de l’historiographie fasciste : « Dove arrivano le navi di Cartagine la
+                    vita dello spirito taceva », affirme-t-il. Le système capitaliste impose, sans
+                    pitié, le droit du plus fort. Il faut sans doute lire ici une allusion au
+                    pouvoir que les États-Unis entendait exercer sur l’Italie en lui imposant un
+                    traité de paix inique. Gonella semble complètement perdre de vue le fait que
+                    Carthage fut anéantie par Rome ! Par ailleurs, les sources relatives à l’empire
+                    punique révèlent que Carthage, loin d’imposer brutalement sa logique aux autres,
+                    négociait ses accords commerciaux et politiques. Le concept de « paix
+                    carthaginoise », dans le sens où Gonnella l’entend, est donc un faux historique
+                    patent. </p>
+                <p xml:id="d1e2011">Le parcours historiographique sélectif que nous venons
+                    d’accomplir montre à quel point le processus d’analogie historique repose sur un
+                    va-et-vient contingent et instrumental entre hier et aujourd’hui, entre « nous »
+                    et les « autres ». Dans le cas qui nous a occupé, le poids des traditions
+                    historiographiques classiques détermine fortement les grilles de lecture
+                    successives, mais, au-delà du répertoire rhétorique et polémique, il importe de
+                    souligner la valeur herméneutique de ce processus d’analyse historique qui
+                    régénère les données de la tradition par le biais d’une contextualisation sans
+                    cesse renouvelée, nourrissant ainsi l’histoire par elle-même. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

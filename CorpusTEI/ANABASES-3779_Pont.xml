@@ -1,0 +1,1151 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-3779_Pont">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">
+                    <hi xml:lang="fr">Épistémologie et méthodologie dans l’œuvre de Galilée<note type="standard" xml:id="ftn1" place="foot" n="1">
+              <p> Le présent article
+                                a été rédigé à partir de la conférence que j’ai donnée à l’occasion
+                                de la journée « Galilée et les autres : Bruno, Kepler, Newton… »
+                                organisée le 29 janvier 2010 par l’Institut de mathématiques et
+                                l’Institut de mécanique des fluides de l’Université Paul Sabatier de
+                                Toulouse. Elle s’adressait donc à un public de physiciens et de
+                                mathématiciens. Je n’ai pas souhaité modifier la perspective dans
+                                laquelle je m’étais placé alors. Aussi est-ce sur la toile de fond
+                                des connaissances qui sont de mise dans leur milieu qu’est écrit cet
+                                article.</p>
+            </note>
+          </hi>
+                </title>
+                <author>
+                    <persName>
+                        <forename>Jean-Claude</forename>
+                        <surname>Pont</surname>
+                    </persName>
+                    <affiliation> &#xD; Professeur à l’université de
+                        Genève<lb/>jean-claude.pont@unige.ch </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+                        Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>« Savoirs » est une plateforme de publication numérique vouée à l’histoire et à
+                    l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS
+                    (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une
+                    archive d’articles ou une collection de livres, il s’agit d’une bibliothèque
+                    « intelligente » et expérimentale qui propose des parcours de lecture
+                    heuristiques et réflexifs entre les textes, grâce à différents algorithmes de
+                    recherche et de suggestions reposant notamment sur un balisage des lieux, des
+                    dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs
+                        (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel
+                        XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données
+                        géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour
+                        l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références
+                        Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes
+                        pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>Galileo</item>
+                        <item>scientific revolution</item>
+                        <item>modern science</item>
+                        <item>epistemology</item>
+                        <item>methodology</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>Galilée</item>
+                        <item>révolution scientifique</item>
+                        <item>science moderne</item>
+                        <item>épistémologie</item>
+                        <item>méthode</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart level="a" type="main">
+                        <hi xml:lang="fr">Épistémologie et méthodologie dans l’œuvre de Galilée<note type="standard" xml:id="ftn1" place="foot" n="1">
+                <p> Le présent
+                                    article a été rédigé à partir de la conférence que j’ai donnée à
+                                    l’occasion de la journée « Galilée et les autres : Bruno,
+                                    Kepler, Newton… » organisée le 29 janvier 2010 par l’Institut de
+                                    mathématiques et l’Institut de mécanique des fluides de
+                                    l’Université Paul Sabatier de Toulouse. Elle s’adressait donc à
+                                    un public de physiciens et de mathématiciens. Je n’ai pas
+                                    souhaité modifier la perspective dans laquelle je m’étais placé
+                                    alors. Aussi est-ce sur la toile de fond des connaissances qui
+                                    sont de mise dans leur milieu qu’est écrit cet
+                                article.</p>
+              </note>
+            </hi>
+                    </titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Jean-Claude Pont</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e210">
+                <p xml:id="d1e211">Les livres et articles consacrés à Galilée sont des milliers. Les
+                    « affaires » qui portent son nom et ses découvertes strictement scientifiques
+                    ont le plus souvent retenu l’attention des auteurs. Pourtant, la révolution
+                    scientifique du <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">e</hi> siècle, qui
+                    devait donner naissance à ce qu’il est convenu d’appeler la « science moderne »
+                     – naissance dont Galilée fut un protagoniste majeur – réside aussi bien dans un
+                    changement d’attitude devant l’épistémologie et la méthode que dans des
+                    résultats proprement scientifiques. Dans la naissance de l’épistémologie
+                    nouvelle qui surgit à cette époque c’est encore Galilée qu’il convient de mettre
+                    devant, malgré le rôle exagéré que la tradition, puis le mythe, ont offert au
+                    tandem Bacon-Descartes dans ce moment crucial pour l’histoire de la pensée. Dans
+                    cet article je m’intéresse à ce côté négligé de l’œuvre du grand Pisan.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e218">
+                <p xml:id="d1e219">
+                    <hi xml:lang="en">Books and articles about Galileo are thousands. Scholars have
+                        mostly paid attention to the “affaires” tied with his name and to his
+                        scientific discoveries. However, the scientific revolution of the </hi>
+                    <hi rend="small-caps">
+                        <hi xml:lang="en">xvii</hi>
+                    </hi>
+                    <hi xml:lang="en">th century, which gave birth to what is admittedly called the
+                        “modern science” – a phenomenon in which Galileo played a major role- lies
+                        at the same time in a change of attitude towards epistemology and
+                        methodology and in proper scientific results. In the birth of a new
+                        epistemology arising at that time, Galileo is again the key person although
+                        an exagerated role is assigned by the tradition, and then by the myth, to
+                        the tandem Bacon-Descartes in this crucial moment for the history of
+                        thought. The paper is focused on this neglected side of the work of the
+                        great scholar from Pisa. </hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <p rend="epigraph" xml:id="d1e231">« À travers l’œuvre galiléenne, c’est bien la
+                conception<lb/> que l’on avait depuis vingt siècles<lb/> de la rationalité
+                scientifique<lb/> qui change brusquement de visage <lb/>et prend pour l’essentiel
+                les traits que<lb/> nous lui connaissons dans la science classique. »<lb/>Clavelin,
+                1996, p. 389</p>
+            <div type="div1" xml:id="d1e246">
+                <head subtype="level1" xml:id="d1e247">En guise d’introduction</head>
+                <p xml:id="d1e249">Le terme « épistémologie » est multivalent et a souvent quitté
+                    ses bases. Je l’ai employé ici d’une façon naïve, comme il est le plus souvent
+                    reçu et apprécié dans le milieu scientifique. L’épistémologie d’un scientifique
+                    comprend l’ensemble de ses croyances et convictions à propos de la science :
+                    nature et valeur des principes, sens et degré de réalité des concepts, etc. Il
+                    s’agit d’une épistémologie qui est généralement tacite et non systématique. Elle
+                    se révèle parfois dans les situations de conflit ou de crise. Elle peut se
+                    traduire par des boutades ou par des aphorismes. Comme le « Dieu ne joue pas aux
+                    dés » d’Einstein ; ou encore le « grand livre de la nature » de Galilée.
+                    L’épistémologie d’un savant est donc sa manière à lui – explicitée ou non – de
+                    concevoir la science. L’épistémologie en ce sens est une théorie empirique de la
+                    science. L’épistémologie de Galilée concerne la façon qu’il avait de considérer
+                    ce que nous appelons aujourd’hui « la science galiléenne ». Les relations entre
+                    science et religion, par exemple, font partie de l’épistémologie de Galilée.
+                    Aussi sa théorie de la science déborde-t-elle largement sur la théorie de la
+                    connaissance.</p>
+                <p xml:id="d1e251">La méthodologie de Galilée rassemble, quant à elle, les
+                    techniques (recours à l’expérience, aux mathématiques, etc.) qu’il a mobilisées
+                    pour parvenir à ses résultats. L’épistémologie est une philosophie, la
+                    méthodologie un ensemble de techniques, non nécessairement coordonnées. C’est
+                    d’ordinaire l’épistémologie qui donne leur sens aux méthodes, mais le mouvement
+                    peut aller dans les deux sens.</p>
+                <p xml:id="d1e253">Lorsqu’on parle du savant pisan, il est commode de distinguer le
+                    Galilée célèbre du Galilée immortel, la célébrité étant liée aux deux affaires
+                    qui ponctuèrent son existence (1616 et 1633). Si deux affaires l’ont rendu
+                    célèbre, des travaux de première magnitude l’ont fait immortel. L’immortalité de
+                    Galilée peut se placer sous deux rubriques différentes. La première est bien
+                    connue et a trait à ses découvertes scientifiques. La seconde est confidentielle
+                    en un certain sens. Elle concerne ses contributions à l’épistémologie et à la
+                    méthodologie. Ce sont elles qui nous occuperont surtout ici. Entre 1890 et 1909,
+                    Antonio Favaro a publié <hi rend="italic">Le Opere di Galileo Galilei</hi>,
+                    ouvrage réédité avec des additions entre 1930 et 1960 ; il contient notamment
+                    plus de 2 000 lettres (publiées dans les tomes 10-18). Une étude approfondie de
+                    la pensée épistémologique et méthodologique de Galilée demanderait un examen de
+                    l’ensemble de cet ouvrage. Mais mon intention est autre. Je me propose de
+                    rassembler des citations éparses dans la littérature, dans le but de dégager les
+                    grands pôles de la pensée épistémologique de Galilée et ainsi d’esquisser son
+                    profil épistémologique ; des ouvrages que je signale en bibliographie permettent
+                    de compléter ces informations (en particulier le remarquable livre de Maurice
+                    Clavelin [Clavelin, 1996]).</p>
+            </div>
+            <div type="div1" xml:id="d1e258">
+                <head subtype="level1" xml:id="d1e259">La science progresse selon deux lignes de
+                    force</head>
+                <p xml:id="d1e261">La science progresse selon deux lignes de force. La première et
+                    la plus visible est constituée par les faits nouveaux qui se révèlent au savant
+                    à l’occasion de ses investigations sur le réel (montagnes de la Lune,
+                    flottaison, lois de la chute des corps, etc.). Mais la science s’inscrit dans
+                    une manière de penser le monde, dans un espace mental, sur un arrière-plan
+                    culturel ; c’est là une seconde ligne de force qui, à son tour, conditionne les
+                    méthodes et dicte les questionnements. Ces deux lignes de force dialoguent en
+                    permanence, chacune gauchissant la trajectoire de l’autre.</p>
+                <p xml:id="d1e263">On connaît bien généralement les grandes et spectaculaires
+                    contributions de Galilée à la première de ces lignes de force, qu’il s’agisse de
+                    découvertes publiées dans le <hi rend="italic">Sidereus Nuncius</hi> (1610) ou
+                    celles des <hi rend="italic">Discours concernant deux sciences nouvelles</hi>
+                    (1638). L’apport de Galilée au développement de l’épistémologie et de la méthode
+                    est, en revanche, plus difficile à mettre en évidence car il n’a rien écrit
+                    spécifiquement sur cet aspect de ses réflexions. Pour le cerner, on doit laisser
+                    les grandes avenues de son œuvre et fureter le long des sentes, sous les
+                    taillis, pour débusquer de petites choses, d’insignifiants galets, à partir
+                    desquels on peut reconstituer des pans de la mosaïque de sa pensée
+                    épistémologique, au demeurant une pensée toujours se construisant, toujours
+                    inachevée. Il faut le traquer entre les lignes, au détour d’un adverbe, dans une
+                    lettre, à l’occasion d’une digression, dans ses combats contre la pensée
+                    dominante. Cet aspect de l’œuvre épistémologique de Galilée explique le nombre
+                    élevé de citations proposées dans le présent article ; il aurait par ailleurs
+                    été dommage de ne pas mettre à la portée du lecteur des textes peu connus de
+                    Galilée et qui méritent attention. De plus, la répétition de loin en loin et en
+                    des termes différents de ses thèses épistémologiques démontre qu’il ne s’agit
+                    pas chez lui de besoins passagers mais bien d’une constante de sa pensée.</p>
+                <p xml:id="d1e271">Des observations qu’il fait à l’occasion d’activités
+                    scientifiques diverses amènent Galilée à s’opposer aux paradigmes de l’époque.
+                    C’est dans cette position de contre-pied qu’apparaissent au mieux les principaux
+                    traits de son épistémologie et de sa méthodologie. <hi xml:lang="fr">Au moment
+                        où il commence à produire, dans les années 1590, l’épistémologie est encore
+                        marquée au coin de l’aristotélisme. Durant ses années de formation, Galilée
+                        a baigné dans le climat ambiant dont l’aristotélisme est une composante
+                        majeure. Il sera amené progressivement et successivement par la suite à
+                        récuser les grands principes de la cosmologie du Stagyrite, en une sorte
+                        d’action de nettoyage de l’épistémologie ; mais aussi à mobiliser des
+                        méthodes auxquelles Aristote n’avait pas recouru. L’essentiel de l’œuvre
+                        épistémologique de Galilée s’inscrit bien dans cette double activité.
+                        L’irruption d’une nouvelle épistémologie, qui se met ainsi en place au cours
+                        du premier </hi>
+          <hi rend="small-caps">
+            <hi xml:lang="fr">xvii</hi>
+          </hi>
+          <hi rend="sup">
+            <hi xml:lang="fr">e</hi>
+          </hi>
+          <hi xml:lang="fr"> siècle, constitue
+                        une révolution conceptuelle majeure, silencieuse comme le sont d’ordinaire
+                        les révolutions conceptuelles. Une activité épistémologique – informelle,
+                        précisons-le encore une fois – qui se heurte à deux sortes d’oppositions du
+                        milieu savant. La première est évidente. En attaquant frontalement des
+                        thèses que le principe d’autorité avait accréditées, Galilée devait se
+                        mettre à dos une partie importante de la communauté philosophique, qui lui
+                        rendra plus tard la monnaie de sa pièce. </hi>Comme il l’écrit le 12 février
+                    1611 à Paolo Sarpi (Galilée, 1997, p. 363) : « Si bien que je n’ai plus contre
+                    moi que les péripatéticiens, plus attachés au parti d’Aristote que ne le serait
+                    Aristote lui-même […]. »</p>
+                <p xml:id="d1e284">
+          <hi xml:lang="fr">La seconde opposition du milieu péripatéticien
+                        est plus subtile. </hi>La croyance du temps admet implicitement que les
+                    Anciens, Aristote en particulier, auraient dit le dernier mot sur le monde, ne
+                    laissant aux temps futurs que des compléments de détail à découvrir.<hi xml:lang="fr"> C’est bien à cela que Galilée fait allusion dans sa lettre à
+                        Pietro Dini du 21 mai 1611 quand il déclare (</hi>
+          <hi rend="italic">Opere</hi>, XI, p. 108 ; cité dans Clavelin, 2004, p. 161) : « […] et de
+                    s’écrier qu’à ce qui a été jusqu’ici trouvé on ne peut rien ajouter de
+                        nouveau. »<hi xml:lang="fr"> De là le principe d’autorité. De surcroît,
+                        l’Église a fait d’Aristote l’un de ses maîtres à penser et s’opposer à lui
+                        ne va pas sans risque. Dès lors, mettre en œuvre des méthodes, des
+                        techniques, des principes qu’Aristote n’a pas marqués de son sceau revient à
+                        admettre l’imperfection, ou au moins l’incomplétude, de sa pensée ; par
+                        exemple lorsqu’il en résulte des conséquences imprévues, qui bousculent le
+                        sens commun. </hi>Comme l’écrit excellemment Jean-François Revel (Revel,
+                    1994, p. 488) : « Ce qui est difficile, dans le fait de penser, ce n’est pas
+                    tant de penser que de détruire les obstacles qui empêchent de le faire. Ces
+                    obstacles, ce sont toutes les croyances et opinions non fondées, ce sont les
+                    peurs, ce sont les institutions sociales qui ont partie liée avec des systèmes
+                    intellectuels […]. »<hi xml:lang="fr"> Dans l’édition nationale des œuvres de
+                        Galilée que j’ai mentionnée plus haut, l’index analytique consacre sept
+                        colonnes à Aristote (Platon et Archimède en ont chacun une) ; ce qui montre
+                        bien la place d’Aristote dans les recherches de Galilée.</hi>
+        </p>
+            </div>
+            <div type="div1" xml:id="d1e298">
+                <head subtype="level1" xml:id="d1e299">Aspects de la cosmologie aristotélicienne.
+                    Oppositions de Galilée</head>
+                <div type="div2" xml:id="d1e301">
+                    <head subtype="level2" xml:id="d1e302">Le cosmos d’Aristote</head>
+                    <p xml:id="d1e304">L’opposition de Galilée aux principes aristotéliciens de la
+                        science apparaît dès ses premiers travaux et se retrouve à des degrés divers
+                        dans l’ensemble de son œuvre, avant tout dans les recherches de mécanique de
+                        ses débuts, dans ses travaux d’astronomie (1604, 1610-1613) ou encore dans
+                        ses recherches en hydrostatique (1613). Il s’agissait de réflexions éparses
+                        et de circonstance. Ces réflexions revêtent une forme de systématique dans
+                        la Première journée des <hi rend="italic">Discours</hi> de 1632. Dans son
+                        ouvrage <hi rend="italic">Galilée copernicien</hi>, Maurice Clavelin
+                        (Clavelin, 2004, p. 527-550) nous offre une reconstruction minutieuse de ces
+                        grands principes aristotéliciens et des arguments avancés par Galilée pour
+                        en montrer l’inanité.</p>
+                    <p xml:id="d1e312">Rappelons d’abord, sommairement, quelques-uns des éléments
+                        les plus fondamentaux de la cosmologie aristotélicienne.<lb/>– Les
+                        phénomènes se déroulent dans un cosmos qui a les particularités suivantes :
+                        il est fermé par la sphère des fixes sur laquelle sont serties les étoiles ;
+                        ce cosmos est inhomogène avec des lieux qualitativement différenciés : un
+                        centre unique, un monde sublunaire et un monde supralunaire ; il est
+                        anisotrope dans le sens qu’il s’y trouve des directions privilégiées : un
+                        haut et un bas absolu.<lb/>– Cinq éléments se partagent le Monde. Le monde
+                        sublunaire est constitué à partir de quatre d’entre eux (eau, air, terre,
+                        feu). Quant au monde supralunaire, il est fait d’éther, la
+                        quintessence.<lb/>– La Terre est immobile au centre et l’ensemble du Ciel
+                        décrit chaque jour autour d’elle un tour complet.</p>
+                    <p xml:id="d1e320">À la différence de Platon, Aristote réhabilite la perception
+                        sensible, qui nous livre les données de base. La science procède par
+                        démonstrations à partir des principes, qui sont premiers : « Par rapport à
+                        nous, les choses qui sont les premières et les mieux connues, ce sont les
+                        choses les plus voisines de la perception sensible » (Duhem, 1997, p. 43 ;
+                        extrait des <hi rend="italic">Seconds analytiques</hi>). L’idée
+                        d’instruments susceptibles de renforcer ou de modifier les données fournies
+                        par le Monde n’est bien sûr pas incluse dans cette approche et ne saurait
+                        l’être.</p>
+                    <p xml:id="d1e325">– Tous les corps sont par nature mobiles et leur nature est
+                        principe de mouvement. Ainsi, à chaque corps simple correspond un mouvement
+                        naturel déterminé. Certaines formes sont privilégiées, sans doute du fait de
+                        l’identité de toutes leurs parties : le cercle, la droite, la sphère. Le
+                        Ciel est sphérique parce que, parmi les solides, la sphère occupe le premier
+                        rang pour être la plus parfaite. Galilée s’oppose à ce point de vue avec sa
+                        finesse et son sens de l’éristique ordinaires :</p>
+                    <q rend="quotation">« Ce n’est pas moi qui veux que le ciel, en tant que corps
+                        le plus noble, ait aussi la figure la plus noble, c’est Aristote lui-même
+                        […]. Pour moi, comme je n’ai jamais lu les chroniques et titres de noblesse
+                        des figures, je ne sais lesquelles sont plus ou moins nobles, plus ou moins
+                        parfaites. Je crois que toutes sont à leur manière antiques et nobles, ou
+                        mieux, qu’en elles-mêmes elles ne sont ni nobles ni parfaites, ni viles et
+                        imparfaites, si ce n’est que pour faire un mur la figure carrée est plus
+                        parfaite que la sphérique, mais que pour rouler ou faire aller une voiture
+                        le rond est plus parfait que le triangulaire » (<hi rend="italic">Il
+                            Saggiatore</hi> ; cité ici d’après Shea, 1992, p. 125).</q>
+                    <p xml:id="d1e332">Galilée avait déjà développé ce point de vue pratiquement
+                        dans les mêmes termes dès 1611 dans une lettre à Gallanzone Gallanzoni (<hi rend="italic">Opere</hi> XI, p. 141-155 ; cité dans Clavelin,
+                        p. 173-174), précisant qu’on ne peut pas affirmer la priorité de la forme
+                        sphérique de manière absolue, mais seulement de manière relative.</p>
+                    <p xml:id="d1e337">Pour Aristote toujours, le mouvement est central en physique,
+                        puisqu’elle étudie l’être en tant qu’il est mobile. Il existe trois sortes
+                        de mouvements locaux : rectiligne, circulaire et mixte.</p>
+                    <p xml:id="d1e339">Le mouvement circulaire est le seul qui puisse se poursuivre
+                        indéfiniment, identique à lui-même. Une autre façon de justifier la priorité
+                        du mouvement circulaire consiste à dire que, en lui, chaque point peut
+                        servir de début ou de fin, c’est donc par essence que ce mouvement
+                        conviendra aux corps éternels qui ne sont pas soumis à la corruption et à la
+                        génération. Aristote s’exprime ainsi (<hi rend="italic">De Caelo,</hi> cité
+                        d’après Duhem, 1997, p. 65) :</p>
+                    <q rend="quotation">« Mais le mouvement qui a la suprématie sur les autres doit
+                        être le mouvement d’un corps simple dont la nature surpasse celle des
+                        autres ; or, d’une part, le mouvement circulaire a la primauté sur le
+                        mouvement rectiligne ; d’autre part, il existe des corps simples dont le
+                        mouvement rectiligne est le mouvement naturel… Il faut donc que le mouvement
+                        de rotation soit le mouvement d’un certain corps simple… Il résulte
+                        évidemment de là qu’il existe une certaine essence corporelle, différente
+                        des substances qui sont autour de nous, supérieure à toutes ces substances
+                        et plus divine qu’elles. »</q>
+                    <p xml:id="d1e346">Duhem (p. 65) note que, d’après Aristote, une substance qui,
+                        éternellement, se meut d’un mouvement de rotation toujours de même sens,
+                        « doit selon la raison, être tenue pour incapable de génération et de
+                        corruption […] elle n’est sujette à aucune altération ».</p>
+                    <p xml:id="d1e349">Ensuite vient le mouvement de translation ; il est de deux
+                        sortes : celui vers le bas, qui est le mouvement naturel des graves ; celui
+                        vers le haut, mouvement naturel des légers, gravité et légèreté étant des
+                        qualités en soi. « Il est par la suite raisonnable que tout corps soit porté
+                        vers son lieu propre. » Ainsi chaque corps a son lieu naturel et les
+                        mouvements prennent une signification ontologique.</p>
+                    <p xml:id="d1e351">Il existe une correspondance entre les (cinq) éléments et les
+                        mouvements simples. Que les éléments et les mouvements se correspondent
+                        chacun à chacun est un principe fondamental de la cosmologie
+                        péripatéticienne. Un corollaire de ce principe est l’unicité du centre.</p>
+                    <p xml:id="d1e353">Dans les années 1590, Galilée rédige un traité intitulé <hi rend="italic">De Motu</hi>. Il s’agit d’une œuvre de combat dans
+                        laquelle il déclare notamment (je cite d’après Shea, 1992, p. 26-27) que
+                        « pratiquement dans tout ce qu’il a écrit sur le mouvement local, Aristote a
+                        écrit le contraire de la vérité ». Dans un autre passage, le Pisan affirme
+                        qu’il est « fatigant et honteux d’avoir à employer tant de paroles pour
+                        réfuter des arguments aussi puérils et des recherches de subtilité aussi
+                        ineptes que ceux dont Aristote se gave dans tout le livre du <hi rend="italic">De Caelo</hi> ». Dès le <hi rend="italic">De Motu</hi>,
+                        Galilée critique la différence ontologique entre le lourd et le léger. C’est
+                        selon lui pour des raisons de densité que certains corps montent, soit des
+                        raisons extérieures à leur essence. L’idée d’un haut absolu perd sa raison
+                        d’être. Cette disparition marque le début de la fin de l’hétérogénéité du
+                        monde, qui est au cœur de la cosmologie du Stagyrite.</p>
+                    <p xml:id="d1e364">Dans le <hi rend="italic">De Motu</hi>, Galilée conteste un
+                        autre principe de la cosmologie aristotélicienne selon lequel le vide n’est
+                        pas possible, les mouvements y ayant une vitesse infinie. Il aura besoin de
+                        la possibilité du vide dans ses lois du mouvement. Plus tard, dans le <hi rend="italic">Discours</hi> de 1638 (Galilée, 1995, p. 52-57), Galilée
+                        traitera en détail, pour la critiquer, la théorie du vide d’Aristote. Shea
+                        remarque (Shea, 1992, p. 268) que sur les 89 pages du <hi rend="italic">De
+                            Motu</hi>, Aristote est cité 109 fois.</p>
+                    <p xml:id="d1e375">Un point fort de l’opposition entre les deux hommes est bien
+                        traduite par l’affirmation suivante de Galilée (lettre à Gallanzone
+                        Gallanzoni du 16 juillet 1611, <hi rend="italic">Opere</hi> XI, p. 141-155 ;
+                        Clavelin, 2004 p. 168) : « […] j’affirme le premier – non plus par
+                        imagination, mais par expérience et démonstration nécessaire […] »,
+                        l’imagination signifiant ici la méthode de l’argumentation
+                        aristotélicienne.</p>
+                </div>
+                <div type="div2" xml:id="d1e380">
+                    <head subtype="level2" xml:id="d1e381">Galilée et les essences</head>
+                    <p xml:id="d1e383">La physique aristotélicienne est une physique de la qualité,
+                        l’essence des choses déterminant leur place et leur mode d’être. Il faudrait
+                        en réalité parler de « physiques » au pluriel, puisque l’hétérogénéité
+                        fondamentale du Monde implique l’existence de deux physiques. Restait donc,
+                        pour une unification totale, à mettre dans le Ciel ce qui semblait
+                        l’attribut exclusif de la Terre : génération et corruption.</p>
+                    <p xml:id="d1e385">Trois phénomènes allaient participer activement à la ruine de
+                        la thèse de l’hétérogénéité du Monde. L’apparition de la grande Nova de
+                        1604, à laquelle Galilée devait consacrer plusieurs cours devant un vaste
+                        public (plus de mille personnes, dit-on), la découverte des inégalités de la
+                        surface lunaire et celle des taches solaires (1611-1612), avec les vastes
+                        débats qui les accompagnèrent (voir Drake, 1995, p. 105).</p>
+                    <p xml:id="d1e387">Pour la Nova, l’absence de parallaxe (c’est-à-dire que le
+                        changement de position de l’observateur ne provoquait aucun changement
+                        perceptible dans celle de l’objet observé) indiquait qu’elle se trouvait
+                        dans le monde stellaire, au-delà de l’orbe de Saturne, comme on disait. Le
+                        moyen de défense implicite de la tradition consistait à retourner le message
+                        à son expéditeur : l’absence de parallaxe tenait sa raison dans le fait
+                        qu’on ne peut pas appliquer aux objets célestes des techniques élaborées
+                        pour le monde sublunaire. Le principe selon lequel la mesure, plutôt qu’une
+                        qualité définie <hi rend="italic">a priori</hi>, gouvernerait les essences,
+                        n’était pas acceptable pour un aristotélicien. Les techniques de mesure
+                        appliquées aux objets du ciel, constitués à partir d’un élément différent de
+                        ceux du monde sublunaire, n’auraient pas été pertinentes.</p>
+                    <p xml:id="d1e392">Pour ce qui regarde les taches solaires, le jésuite
+                        Christophe Scheiner, tirant argument de la perfection des corps célestes,
+                        s’était opposé à l’idée qu’elles auraient résidé à la surface du Soleil. À
+                        quoi Galilée répond joliment : « Les noms et les attributs doivent s’adapter
+                        à l’essence des choses, et non pas l’essence aux noms. Il y a d’abord les
+                        choses, ensuite les noms » (Festa, 1995, p. 181). C’est une réponse
+                        emblématique pour sa critique de la théorie des essences. Dans un cours de
+                        cosmographie qu’il fit à Padoue en 1602 (Drake, 1995, p. 52), Galilée
+                        déclare « laisser aux philosophes de la nature le soin de considérer les
+                        qualités des dites parties du monde. » Dans le même ordre d’idées, je donne
+                        encore quelques citations :<lb/>– dans une note marginale concernant le père
+                        Campanella, Galilée écrit : « J’estime davantage trouver une vérité,
+                        fusse-t-elle légère, que de disputer longuement des questions les plus
+                        grandes sans aboutir à aucune vérité » (<hi rend="italic">Opere</hi> IV,
+                        p. 738, cité dans Poupard, 1983, p. 123) ;<lb/>– une lettre de Galilée à
+                        Fortuno Licetti de janvier 1641 (Galilée, 1997, p. 428-429) :</p>
+                    <q rend="quotation">« Le problème du centre de l’univers et la question de
+                        savoir si la Terre y est située sont des moins considérables en astronomie
+                        […]. Aussi bien, vouloir assigner un centre à cet espace dont on ne sait et
+                        dont on ne peut savoir quelle est sa forme ni même s’il a forme et figure,
+                        c’est là, à mon sentiment, une entreprise oiseuse et vaine. […] Pour
+                        entendre l’astronomie et se rendre maître de cette science, il faut donc
+                        étudier autre chose qu’Aristote, dont les écrits ne laissent pas voir qu’il
+                        ait eu, en pareille matière, plus de connaissances que n’importe quel homme
+                        du commun. »</q>
+                    <p xml:id="d1e403">Remarquons ici qu’Aristote est mort avant la publication des
+                            <hi rend="italic">Éléments</hi> d’Euclide et que, pas davantage, il n’a
+                        pu connaître la méthode archimédienne, qui allait changer le cours de la
+                        pensée scientifique (même si son influence profonde ne devait se faire
+                        ressentir que bien plus tard). On l’oublie souvent dans l’évaluation de sa
+                        théorie physique.</p>
+                    <p xml:id="d1e408">Le traitement le plus systématique de la question du recours
+                        aux essences dans la construction de la science chez Galilée se trouve au
+                        début de la « Troisième lettre sur les taches solaires » (pour une
+                        traduction de la lettre, voir Clavelin, 2004, p. 274-341). J’en propose deux
+                        citations.</p>
+                    <q rend="quotation">« Car nous voulons, par nos spéculations, tenter de pénétrer
+                        l’essence vraie et intrinsèque des substances naturelles, ou nous nous
+                        contentons de connaître certaines de leurs propriétés. Tenter d’atteindre
+                        les essences est à mes yeux une entreprise non moins impossible, et un
+                        labeur non moins vain, dans les substances élémentaires les plus proches et
+                        dans les plus lointaines, comme les substances célestes. Il me semble
+                        ignorer tout autant l’essence de la terre que celle de la lune, celle des
+                        nuages élémentaires que celle des taches du soleil ; et je ne vois pas que
+                        pour la compréhension de ces substances proches nous ayons d’autre avantage
+                        que la foule des détails, d’ailleurs tous également inconnus, entre lesquels
+                        nous errons, passant de l’un à l’autre avec un faible profit, voire aucun »
+                        (Clavelin, 2004, p. 275).</q>
+                    <q rend="quotation">« De la même façon, je ne comprends pas mieux la véritable
+                        essence de la terre ou du feu que celle de la lune ou du soleil […]. En
+                        revanche, si nous acceptons de nous limiter à l’étude de quelques
+                        propriétés, on ne doit pas désespérer de la mener à bien, me semble-t-il,
+                        pour les corps les plus éloignés, tout autant que pour les plus proches, et
+                        peut-être même avec plus d’exactitude pour ceux-là que pour ceux-ci. Ne
+                        connaît-on pas mieux les périodes des mouvements des planètes que celles des
+                        eaux marines ? Qui ne sait que la forme sphérique du corps lunaire a été
+                        comprise bien plus tôt et bien plus vite que celle de la terre ? […]. Je
+                        conclurai donc que si rechercher la substance des taches solaires est une
+                        tentative vaine, il ne s’ensuit nullement que certaines de leurs propriétés
+                        […] ne puissent être étudiées par nous, et nous mettre en mesure de mieux
+                        philosopher sur d’autres aspects plus controversés des substances
+                        naturelles » (Clavelin, 2004, p. 276).</q>
+                    <p xml:id="d1e414">Dans les <hi rend="italic">Istoria e dimostrazioni</hi>
+                        <hi rend="italic">alle macchie solari</hi> de 1612 (<hi rend="italic">Opere
+                        </hi>V, p. 96 ; cité dans Shea, 1997, p. 102-103), Galilée avait déjà
+                        présenté des réflexions voisines de celles qui précèdent quoique à un stade
+                        plus embryonnaire.</p>
+                    <p xml:id="d1e426">Si la recherche des essences est, selon Galilée, vaine, il en
+                        va de même pour celle des causes : « L’occasion ne me semble pas favorable
+                        pour rechercher la cause de l’accélération du mouvement naturel, problème
+                        sur lequel différents philosophes ont formulé différentes opinions […] il
+                        nous faudrait examiner toutes ces imaginations, avec bien d’autres, <hi rend="italic">et sans grand profit »</hi> (Galilée, 1970, p. 135) (je
+                        souligne).</p>
+                    <p xml:id="d1e431">Lodovico delle Colombe, philosophe amateur qui avait écrit
+                        contre le mouvement de la Terre, donne le ton de l’opposition des
+                        péripatéticiens, vers 1610 :</p>
+                    <q rend="quotation">« Il me semble que Galilée a eu tort de se faire
+                        antipéripatéticien. En cette affaire, je souhaiterais me faire antigaliléen,
+                        par gratitude pour Aristote, le prince de tant d’académies, la tête de tant
+                        d’écoles, l’objet de tant de poèmes, le labeur de tant d’historiens. Il a
+                        plus lu de livres qu’il n’a vécu de jours, il a écrit plus d’ouvrages qu’il
+                        n’a connu d’années […] on dit que <hi rend="italic">natura locuta est ex ore
+                            illius</hi> [la nature a parlé par sa bouche] » (Shea, 1992, p. 59).</q>
+                    <p xml:id="d1e438">Galilée était bien conscient de la force de cette opposition
+                        des aristotéliciens. Ainsi écrivait-il à Paolo Sarpi le 12 février 1611
+                        (Clavelin, 2004, p. 139) : « […] si bien qu’actuellement je n’ai plus
+                        d’autres adversaires que les Péripatéticiens, plus partisans d’Aristote que
+                        lui-même ne le serait, et par-dessus tous ceux de Padoue sur lesquels je
+                        n’espère vraiment aucune victoire. »</p>
+                </div>
+                <div type="div2" xml:id="d1e440">
+                    <head subtype="level2" xml:id="d1e441">Galilée et les principes <hi rend="italic">a priori</hi>
+          </head>
+                    <p xml:id="d1e445">La philosophie de la physique que l’on voit chez Aristote se
+                        fonde implicitement sur une connivence qui existerait entre le monde et
+                        nous, une relation en quelque sorte transcendante entre deux réalités
+                        (exemple : les formes nobles ; les essences qui sont de nous, dirigeant les
+                        mouvements qui sont le fait de la Nature). Il s’agit-là d’une connivence qui
+                        n’a pas de fondement, une simple croyance <hi rend="italic">a priori</hi>.
+                        Ici encore Galilée part d’un principe qui est à l’opposé, et que je
+                        qualifierai métaphoriquement de « laïc » : la nature n’a pas à se plier aux
+                        inventions <hi rend="italic">a priori</hi> des hommes. Les passages ne
+                        manquent pas où l’on voit chez lui cette règle de méthode. En voici
+                        quelques-uns.<lb/>– « […] la nature n’a aucune obligation envers les hommes,
+                        n’a passé aucun accord avec eux » (Lettre au père Grienberger du 1<hi rend="sup">er</hi> septembre 1611 (<hi rend="italic">Opere</hi>, XI,
+                        p. 192 ; cité dans Clavelin, 1996, p. 400) ;<lb/>– « nulle est la force de
+                        l’autorité humaine sur les effets de la nature, sourde et inexorable à nos
+                        vains désirs » (<hi rend="italic">Saggiatore</hi>, p. 337) ;<lb/>– « […] et
+                        en vérité il m’apparaît ridicule de croire que les choses de la nature
+                        commencent à exister quand nous commençons à les découvrir et à les
+                        comprendre. Si l’entendement des hommes devait être cause de l’existence des
+                        choses, il faudrait alors ou que les mêmes choses à la fois soient et ne
+                        soient pas […] » (Lettre à Pietro Dini du 21 mai 1611 ; <hi rend="italic">Opere</hi>, XI, p. 108 ; cité dans Clavelin, 2004, p. 155) ;<lb/>–
+                        comme si la nature avait d’abord « construit les cerveaux des hommes, puis
+                        ordonné les choses en conséquence. […] Quant à moi, <hi rend="italic">ajoute
+                            Galilée</hi>, je crois plutôt que la nature a d’abord produit les choses
+                        à son gré, puis fabriqué la raison humaine en la rendant capable de
+                        découvrir (quoique non sans peine) une partie de ses secrets » (Clavelin,
+                        1996, p. 400).</p>
+                    <p xml:id="d1e477">Le contre-pied, en quelque sorte, de la « méthode des
+                        essences » réside dans le recours à l’expérience, qui est omniprésent chez
+                        Galilée.</p>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e479">
+                <head subtype="level1" xml:id="d1e480">Le rôle de l’expérience chez Galilée</head>
+                <p xml:id="d1e482">
+          <hi xml:lang="fr">Pour donner une idée du Galilée
+                        expérimentateur, j’examine quelques situations qui me paraissent
+                        significatives. </hi>Il s’agit d’expériences pures, dans lesquelles les
+                    mathématiques n’interviennent pas. <hi xml:lang="fr">Les deux premières sont
+                        empruntées au </hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">Discours sur les
+                            corps flottants</hi>
+          </hi> de 1612 (<hi rend="italic">Opere</hi> IV ;
+                    cité dans Shea, 1997, p. 47-48 et p. 71-72).</p>
+                <p xml:id="d1e495">Il était généralement admis que la forme avait une incidence sur
+                    la flottaison des corps. Pour trancher la question, Galilée réalise des
+                    vaisseaux en cire, les charge avec de la grenaille, varie leur forme de
+                    différentes manières et montre ainsi – sans recourir à l’autorité d’un ancien –
+                    que la forme n’a pas d’incidence.</p>
+                <p xml:id="d1e497">Selon Aristote, la flottaison d’un vaisseau dépendrait des
+                    dimensions du plan d’eau, autrement dit, un bâtiment flotterait mieux en haute
+                    mer que dans le port. Galilée charge un vase et le plonge dans l’eau jusqu’à la
+                    limite de la flottaison. Puis reproduit l’expérience avec des récipients de
+                    dimensions différentes. L’expérience tranche sans équivoque.</p>
+                <p xml:id="d1e499">Après avoir présenté la démonstration que donne Galilée de la loi
+                    de la chute des corps, Maurice Clavelin écrit (Clavelin, 1996, p. 423) :
+                    « Peut-on souhaiter vérification mieux conçue et conduite plus minutieusement ?
+                    N’est-il pas tentant devant un texte aussi lucide, de faire de Galilée le père
+                    de la méthode expérimentale moderne […] ? »</p>
+                <p xml:id="d1e501">Je cite pour le plaisir une autre expérience de Galilée, aussi
+                    simple qu’astucieuse (Galilée, 1995, p. 59) :</p>
+                <q rend="quotation">« J’ai réussi par un autre artifice à tromper quelques amis
+                    auprès desquels je m’étais vanté de maintenir cette boule de cire en rigoureux
+                    équilibre dans l’eau ; versant dans le fond d’un vase de l’eau salée, puis sur
+                    celle-ci de l’eau douce, je leur montrai comment la boule s’arrêtait au milieu
+                    de l’eau et comment, poussée vers le fond ou attirée vers le haut, elle ne
+                    restait en aucun de ces emplacements, mais retournait vers le milieu » (voir
+                    aussi Drake, 1995, p. 84).</q>
+                <p xml:id="d1e505">Galilée recourt aussi à des expériences de pensée. Voici un
+                    exemple admirable emprunté aux <hi rend="italic">Discours</hi> (Galilée, 1995,
+                    p. 54). Il s’agit d’établir « qu’un mobile plus pesant ne se meut pas plus
+                    rapidement qu’un mobile moins pesant » :</p>
+                <q rend="quotation">« Si donc nous avions deux mobiles possédant des vitesses
+                    naturelles inégales, il est clair qu’en attachant le plus lent au plus rapide la
+                    vitesse de celui-ci serait partiellement ralentie par le plus lent, et celle du
+                    plus lent partiellement accrue par le plus rapide. […] Mais s’il en est ainsi,
+                    et s’il est vrai encore qu’une grande pierre se meut, par exemple avec huit
+                    degrés de vitesse et une plus petite avec quatre degrés, il s’ensuivra, si on
+                    les attache, que l’ensemble se mouvra avec une vitesse inférieure à huit
+                    degrés ; or les deux pierres, réunies, forment une pierre plus grande que celle
+                    qui se mouvait avec huit degrés de vitesse, et la plus grande se meut par
+                    conséquent moins vite que la plus petite, ce qui va contre votre supposition.
+                    Vous voyez donc comment, si vous supposez qu’un mobile plus grave se meut plus
+                    vite qu’un mobile moins grave, j’en conclus, de mon côté, qu’un mobile plus
+                    grave se meut moins vite. »</q>
+                <p xml:id="d1e512">C’est là un argument dont Galilée s’était déjà servi dans le <hi rend="italic">De Motu</hi>.</p>
+                <p xml:id="d1e517">À la réflexion, compte tenu des moyens techniques à disposition à
+                    l’époque, on peut se demander si la vérification expérimentale était vraiment
+                    probante. Ou si Galilée, à son tour, ne tablait pas au fond sur une
+                    correspondance entre l’esprit et le monde ? Le recours fréquent chez lui à ce
+                    que l’on appellera « principe de simplicité » donne aussi à penser que la Nature
+                    et la Raison entretiennent certaines relations particulières.</p>
+            </div>
+            <div type="div1" xml:id="d1e519">
+                <head subtype="level1" xml:id="d1e520">Aristote, Galilée et les mathématiques</head>
+                <p xml:id="d1e522">Lorsqu’on parle de la conception que Galilée se fait des
+                    mathématiques, on pense naturellement à sa fameuse déclaration du <hi rend="italic">Saggiatore</hi> de 1623 :</p>
+                <q rend="quotation">« La philosophie est écrite dans ce très grand livre qui se
+                    trouve continuellement ouvert devant nos yeux (je veux parler de l’univers),
+                    mais il ne peut se comprendre si auparavant on n’a pas appris à comprendre la
+                    langue et à discerner les caractères dans lesquels il est écrit. Il est écrit en
+                    langue mathématique et les caractères en sont des triangles, des cercles et
+                    autres figures géométriques, sans le moyen desquels il est impossible d’en
+                    comprendre humainement aucune parole ; sans eux on erre vainement dans un
+                    labyrinthe obscur » (Shea, 1992, p. 125).</q>
+                <p xml:id="d1e529">Galilée revient encore sur cette image à la veille de sa mort
+                    dans une lettre à Fortuno Licetti de janvier 1641 (Galilée, 1995, p. 430) :
+                    « Pour moi, à vrai dire, j’estime que le livre de la philosophie est celui qui
+                    est perpétuellement ouvert devant nos yeux ; mais comme il est écrit en des
+                    caractères différents de ceux de notre alphabet, il ne peut être lu de tout le
+                    monde ; les caractères de ce livre ne sont autres que triangles, carrés,
+                    cercles, sphères, cônes et autres figures mathématiques, parfaitement
+                    appropriées à telle lecture. » <hi xml:lang="fr">Dans </hi>
+          <hi rend="italic">Istoria e dimostrazioni</hi>
+                    <hi rend="italic">alle macchie solari</hi> de 1612 (<hi rend="italic">Opere</hi>
+                    V, p. 96 ; cité dans Shea, 1997, p. 101<hi xml:lang="fr">), il est encore
+                        question de ce livre de la nature que l’on doit privilégier, au lieu de
+                        « fixer des yeux nuit et jour un monde imprimé sur du papier, sans jamais
+                        les lever vers le monde réel et véritable, qui a été fait par la main de
+                        Dieu lui-même et se tient toujours ouvert devant nos yeux pour notre
+                        instruction. » Signalons que la métaphore du livre de la nature est courante
+                        à l’époque (voir par exemple Shea, 1992, p. 275).</hi>
+        </p>
+                <p xml:id="d1e544">J’examine ailleurs l’interprétation que l’on donne souvent de cet
+                    énoncé célèbre et ce qu’il faut, selon moi, en penser. Pour l’heure, je me
+                    propose de montrer par des exemples comment Galilée envisage l’utilisation des
+                    mathématiques en physique, que ce soit dans ses études de mécanique,
+                    d’astronomie ou d’hydrostatique. Là encore, il s’agit d’une opposition frontale
+                    à Aristote et à ses défenseurs.</p>
+                <p xml:id="d1e546">Dans le <hi rend="italic">De Motu</hi> rédigé vers 1590, Galilée
+                    note : « Aristote ignorait non seulement les découvertes les plus profondes et
+                    les plus abstruses de la géométrie, mais même les plus élémentaires principes de
+                    cette science. » Ceux qui tentent de le défendre, ajoute-t-il, sont « encore
+                    plus ineptes en géométrie » (<hi rend="italic">Opere</hi> I, p. 302-303, cité
+                    dans Shea, p. 27). Le véritable maître vers lequel il faut se tourner est pour
+                    lui, dit-il, « le divin, le surhumain Archimède, dont je ne prononce jamais le
+                    nom sans un sentiment de respect » (<hi rend="italic">Opere</hi> I, p. 300, cité
+                    dans Shea, p. 27). L’épistémologie et la méthodologie de Galilée sont
+                    caractérisées par le passage d’une obédience platono-aristotélicienne à une
+                    orientation de type euclido-archimédienne. Je reviendrai sur le mythe d’un
+                    Galilée platonicien.</p>
+                <p xml:id="d1e557">Voici des citations qui nous renseignent sur la position
+                    galiléenne relativement aux mathématiques, avec un éclairage sur le point de vue
+                    des aristotéliciens en la matière.<lb/>– « La méthode que nous suivrons dans ce
+                    traité consistera à toujours enchaîner les propositions à celles qui les
+                    précèdent […] Cette méthode, je l’ai apprise des mathématiciens qui ont été mes
+                    maîtres » (<hi rend="italic">Opere</hi> I, 285 ; cité dans Geymonat, 1992,
+                        p. 24).<lb/>
+          <hi xml:lang="fr">– Simplicio, dans les </hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">Dialogues</hi>
+          </hi> : <hi xml:lang="fr">« Pourtant,
+                        je dirais bien avec Aristote qu’il [Platon] s’est plongé trop profondément
+                        dans la géométrie et s’est laissé fasciner par elle. Après tout, signor
+                        Salviati, les substances mathématiques sont peut-être très vraies dans
+                        l’abstrait, mais appliquées à la matière sensible et physique, elles ne
+                        correspondent pas » (Shea, 1992, p. 189).<lb/>
+          </hi>– Celui qui signait
+                    « l’académicien inconnu » (probablement Arturo Pannochieschi, professeur à Pise)
+                    écrivait :</p>
+                <q rend="quotation">« Les propositions et preuves des mathématiques ne parviennent
+                    pas à démontrer la force et les causes véritables des opérations de la nature.
+                    […] Avant d’en venir aux démonstrations de Galilée, il semble nécessaire de
+                    prouver combien sont loin de la vérité ceux qui veulent prouver des faits
+                    naturels au moyen de raisonnements mathématiques, et Galilée, si je ne me
+                    trompe, est de ceux-là. […] Par conséquent, quiconque pense pouvoir prouver des
+                    propriétés naturelles avec des arguments mathématiques est insensé, car il
+                    s’agit de deux sciences très différentes. Les sciences naturelles étudient les
+                    corps naturels qui ont le mouvement comme état naturel et propre, alors que les
+                    mathématiques font abstraction de tout mouvement » <hi xml:lang="fr">(Shea,
+                        1992, p. 61).</hi>
+        </q>
+                <p xml:id="d1e579">Galilée n’ignore rien de cette opposition à l’emploi des
+                    mathématiques dans la physique. Ainsi écrit-il dans le <hi rend="italic">Discours sur les corps flottants</hi> (1612) :</p>
+                <q rend="quotation">« Je m’attends à une terrible attaque de l’un de mes
+                    adversaires, et je l’entends presque déjà crier à mes oreilles que c’est une
+                    chose de traiter des questions physiquement et une autre d’en traiter
+                    mathématiquement, et que les géomètres devraient s’en tenir à leurs fantaisies,
+                    et ne pas se mêler de questions philosophiques, où les conclusions sont
+                    différentes des questions mathématiques. Comme si la vérité pouvait n’être pas
+                    une, comme si de nos jours la géométrie était un obstacle à l’acquisition de la
+                    vraie philosophie, comme s’il était impossible d’être géomètre autant que
+                    philosophe, et qu’on dût inférer, comme une conséquence nécessaire que si
+                    quelqu’un connaît la géométrie il ne peut connaître la physique, et ne peut
+                    raisonner physiquement des questions physiques » <hi xml:lang="fr">(Shea, 1992,
+                        p. 61).</hi>
+        </q>
+                <p xml:id="d1e588">
+                    <hi xml:lang="fr">De même à la fin de la Première journée des </hi>
+                    <hi rend="italic">
+                        <hi xml:lang="fr">Dialogues </hi>
+                    </hi>
+                    <hi xml:lang="fr">:</hi>
+                </p>
+                <q rend="quotation">
+                    <hi xml:lang="fr">« […] je dis que l’intellect humain en comprend [compréhension
+                        d’une proposition] parfaitement certaines et en a une certitude aussi
+                        absolue que la nature elle-même peut en avoir ; c’est le cas des sciences
+                        mathématiques pures, c’est-à-dire de la géométrie et de l’arithmétique : en
+                        ces sciences l’intellect divin peut bien connaître infiniment plus de
+                        propositions que l’intellect humain, puisqu’il les connaît toutes, mais à
+                        mon sens la connaissance qu’a l’intellect humain du petit nombre de celles
+                        qu’il comprend parvient à égaler en certitude objective la connaissance
+                        divine, puisqu’elle arrive à en comprendre la nécessité et qu’au-dessus de
+                        cela il n’y a rien de plus assuré » (Galilée, 1992, p. 211).</hi>
+                </q>
+                <p xml:id="d1e600">
+          <hi xml:lang="fr">Ainsi les mathématiques constituent-elles entre
+                        les mains de Galilée un outil essentiel. Pour Aristote, les propriétés
+                        qualitatives révèlent l’essence des choses. Galilée soutient au contraire
+                        que le quantitatif donne la véritable clé. Comme </hi>Shea, parmi d’autres,
+                    l’a bien montré (Shea, 1997, p. 33) : « Ce qui était nouveau dans la voie
+                    d’approche de Galilée, par contraste avec celle de ses adversaires
+                    aristotéliciens, n’était pas tant son attitude face à l’expérimentation que sa
+                    foi dans la portée des mathématiques. » Ou encore (p. 45) :<hi xml:lang="fr">
+                        « </hi>C’est l’analyse mathématique qui attire l’attention sur les
+                    phénomènes extraordinaires, plutôt que les phénomènes extraordinaires qui
+                    viendraient appeler une interprétation mathématique. » Il s’agit là, selon moi,
+                    de généralisations un peu hâtives, l’expérience fonctionnant aussi chez Galilée
+                    comme source d’informations sur lesquelles la pensée mathématique pourra
+                    éventuellement exercer sa compétence.</p>
+                <p xml:id="d1e607">Au terme d’une démonstration purement géométrique, montrant
+                    qu’avec la même surface rectangulaire on construit le récipient cylindrique de
+                    plus grand volume si on prend le plus grand côté pour constituer la base et le
+                    plus petit pour la hauteur, Galilée a ce commentaire : « Ce résultat nous donne
+                    l’explication d’un phénomène qui ne laisse pas d’étonner le vulgaire. » Et
+                    quelques lignes plus bas d’ajouter : « Ainsi, avec notre goût pour la géométrie,
+                    acquérons-nous sans cesse de nouvelles connaissances aussi curieuses qu’utiles »
+                    (Galilée, 1995, p. 49).</p>
+                <p xml:id="d1e609">Galilée, dans son utilisation des mathématiques, recourt souvent
+                    à des sortes de passages à la limite. Les mobiles sont assimilables à des points
+                    matériels, le contact d’une sphère et d’un plan a lieu en un point unique, le
+                    mouvement est continu, etc. On y voit la migration de l’objet perçu vers une
+                    sorte de modèle mathématique, dans lequel la réalité se trouve simplifiée : la
+                    chute des corps, le mouvement des projectiles sont modélisés par des entités
+                    mathématiques, ces mouvements se déroulent dans le vide.</p>
+            </div>
+            <div type="div1" xml:id="d1e611">
+                <head subtype="level1" xml:id="d1e612">Épistémologie de Galilée. Les origines d’une
+                    mutation</head>
+                <p xml:id="d1e614">Du point de vue de l’épistémologie, l’œuvre de Galilée marque un
+                    tournant important dans l’histoire de la pensée. Pas plus Kepler – son quasi
+                    contemporain – que Descartes, pourtant d’une génération plus jeune, ne sont
+                    parvenus, serait-ce de loin, à une telle conception de la science : c’est là un
+                    bon indice de la difficulté de la tâche et du mérite du Pisan. Du côté plus
+                    philosophique, on évoquera de même le nom de Bacon, dont l’œuvre et la théorie
+                    de la science, toutes courageuses et ouvertes qu’elles soient, sont sans commune
+                    mesure avec l’apport de Galilée en matière d’épistémologie.</p>
+                <p xml:id="d1e616">La Renaissance a introduit dans l’espace mental et dans certains
+                    cadres conceptuels des modifications profondes ; elles ont contribué à changer
+                    la mentalité du savant en des points qui devaient s’avérer décisifs pour le
+                    développement de ce que l’on a coutume d’appeler la « science classique ». Voici
+                    trois événements majeurs qui ont marqué cette période de la Renaissance :</p>
+                <p xml:id="d1e618">1. La parution du commentaire de Tartaglia à la traduction latine
+                    des <hi rend="italic">Éléments</hi> d’Euclide (voir Drake, 1995, p. 3-4),
+                    mettant ainsi à la portée du milieu savant des techniques dont Galilée fera un
+                    usage permanent et efficace. Il y trouvera en particulier la théorie eudoxienne
+                    des proportions, qui lui permettra de traiter la continuité du mouvement. Cette
+                    mathématique, Galilée l’aborde avec la mentalité de l’ingénieur, qui est la
+                    sienne. Dans ses années vénitiennes, il enseigne chaque année un cours sur les
+                        <hi rend="italic">Eléments</hi>. À la même époque (Drake, 1995, p. 38), il
+                    compose un traité de mesures des distances et des hauteurs par les méthodes de
+                    la triangulation ; il recourra à des méthodes voisines dans sa détermination de
+                    la hauteur des montagnes de la Lune en 1610.</p>
+                <p xml:id="d1e626">2. Semblablement et toujours par Tartaglia, la publication dans
+                    les années 1540 d’œuvres d’Archimède, que Ricci – disciple de Tartaglia –
+                    enseignera à Galilée ; Archimède fut pour lui une source d’inspiration et un
+                    guide, aussi bien par les contenus que par la méthode (voir aussi Geymonat,
+                    1992, p. 15-16).</p>
+                <p xml:id="d1e628">3. Le changement de mentalité face à la machine et aux arts
+                    mécaniques. C’est vraisemblablement là une mutation qui engagera Galilée à
+                    s’intéresser à ces nouveaux champs d’investigation, qui étaient libres de
+                    préjugés par rapport aux interdits de la philosophie. Il travaille sur
+                    l’architecture militaire, sur les problèmes de fortifications, sur la
+                    balistique, sur les techniques hydrauliques, sur la résistance des matériaux.
+                    Dans la Venise des années 1590, on le voit visiter l’Arsenal de la ville, être
+                    interrogé sur toutes sortes de questions techniques (Drake 1995, p. 33 et
+                    suivantes). Un engagement dans la matière et dans le réel qui devait aussi
+                    développer chez lui la confiance dans les instruments (en particulier dans la
+                    lunette), techniques qui sont constitutives de sa méthodologie et de son
+                    épistémologie. L’apparition de la lunette ou d’instruments de mesures, dans un
+                    milieu où la tradition fondait ses convictions sur des propositions sanctionnées
+                    par l’usage et canonisées par la notoriété des auteurs, avait naturellement de
+                    quoi inquiéter et perturber les esprits.</p>
+                <p xml:id="d1e630">Pour ce qui concerne les arts mécaniques, rappelons avec Paolo
+                    Rossi (Rossi, 1999, p. 34) que « la grande révolution scientifique du <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">e</hi> siècle a pour origine cette
+                    interpénétration entre technique et science qui a marqué (en bien et en mal)
+                    toute la civilisation occidentale » et qui était absente dans les temps
+                    antérieurs. Rossi nous dit comment le terme grec <hi rend="italic">banausi</hi>
+                    signifiait « arts mécaniques » ou « travail manuel » ; et comment Caliclès, dans
+                    le <hi rend="italic">Gorgias</hi> de Platon, affirmait qu’il fallait mépriser le
+                    constructeur de machine, qu’on doit appeler <hi rend="italic">banausos</hi> pour
+                    l’offenser. Quant à Aristote, il avait exclu du rang des citoyens celui qui
+                    s’adonnait à la mécanique. Rossi donne (p. 59) une liste d’ouvrages parus entre
+                    1530 et 1580 et qui, tous, mettent en évidence la dignité des procédés des
+                    artisans. Cette confiance dans la technique est fort utile à Galilée lorsque, en
+                    1609-1610, il disposera d’une lunette et qu’il entreprendra de la tourner vers
+                    le ciel. L’avènement de l’instrument comme médiateur entre le monde et nous est
+                    une autre révolution conceptuelle et on mesure bien l’ampleur de l’événement à
+                    l’aune des résistances rencontrées par Galilée pour convaincre ses
+                    contemporains. La réaction du philosophe Cosimo Sassetti dans une lettre à
+                    Pietro Dini du 14 mai 1611 (<hi rend="italic">Opere</hi> XI, p. 103 ; Clavelin
+                    2004, p. 32 et p. 152) est représentative : « La lunette fait apparaître des
+                    choses qui n’existaient pas. » Ou encore dans sa lettre du 16 juin 1612 à Paolo
+                    Gualdo (Galilée, 1997, p. 382) : « J’ai retrouvé là de quoi me réjouir, surtout
+                    aux dépens de ceux qui, pour n’être pas forcés de croire, se refusent à voir
+                    […]. »</p>
+                <p xml:id="d1e649">Notre mentalité d’aujourd’hui a tendance à traiter ces
+                    résistances comme le fait d’esprits obtus et médiocres, mais elle a tort. Cet
+                    élargissement du domaine des sens, il fallait l’assumer.</p>
+            </div>
+            <div type="div1" xml:id="d1e651">
+                <head subtype="level1" xml:id="d1e652">Galilée et Kepler, épistémologies
+                    contrastées</head>
+                <p xml:id="d1e654">La modernité (par le mot « modernité », j’entends tout ce qui
+                    fait encore partie de notre équipement mental, ce dont nous partageons l’esprit,
+                    sinon la lettre) de Galilée est bien mise en évidence par le jeu des contrastes
+                    avec ses plus grands contemporains, comme je le laissais entendre plus haut :
+                    Bacon (né en 1561), Kepler (né en 1571), Descartes (né en 1596). Une modernité
+                    qui réside en fait principalement dans son épistémologie, en laquelle nous nous
+                    reconnaissons et qui ne s’observe pas chez les trois autres savants. La
+                    comparaison entre Galilée et Kepler est la plus pertinente compte tenu de leurs
+                    intérêts scientifiques ; elle nous éclaire aussi sur ce que j’appellerai leur
+                        <hi rend="italic">mathématisme</hi>, très présent chez eux, mais en des sens
+                    fort différents. Kepler en appelle à des âmes pour diriger les planètes et il
+                    faudra attendre sa deuxième loi pour qu’il abandonne cette idée ; une idée qu’il
+                    conservera pourtant en ce qui concerne la rotation du Soleil. On ne trouve rien
+                    de pareil chez Galilée, dont l’épistémologie est d’emblée « laïque », si l’on
+                    peut utiliser ce terme. Le passage de l’âme qui guide la planète à la force qui
+                    la meut marque un tournant conceptuel qui conditionne tout l’avenir de la
+                    mécanique et de la physique. Dans sa cosmographie, Kepler se fonde sur des
+                    relations métaphysiques entre, d’une part, ce que nous appellerions le « monde
+                    extérieur » et d’autre part le microcosme de la pensée, relations médiatisées
+                    par le nombre et la figure. Ce sont ses fameux agencements polyédriques, dont le
+                    nombre et les proportions régissent le nombre et la marche des cieux. Il n’y a
+                    rien de semblable chez Galilée. Il insiste sur l’existence de différences
+                    profondes dans leur conception de la science. Dans une lettre à Fulgenzio
+                    Micanzio du 19 novembre 1634 il écrit : « [Il est possible] que puisque nous
+                    traitions les mêmes matières […] nous nous soyons quelquefois rencontrés sur des
+                    concepts identiques, mais cela fort rarement. Nous avons donc assigné à certains
+                    phénomènes réels la même raison véritable, mais de telles rencontres entre mes
+                    pensées et les siennes ne se produiront pas une fois sur cent » (<hi rend="italic">Opere</hi> XVI, p. 163 ; cité dans Geymonat, 1992,
+                    p. 234).</p>
+                <p xml:id="d1e662">Il y a certes le fameux passage du grand livre de l’Univers qui
+                    serait écrit en langage mathématique, mais à qui on a donné des interprétations
+                    que je crois erronées, en y voyant notamment une forme de platonisme (voir plus
+                    bas). Une étude fouillée sur l’éventuel platonisme de Galilée se trouve dans
+                    Clavelin (1996, p. 428 ff). Contentons-nous de ces trois remarques :<lb/>– pour
+                    accréditer l’une de ses thèses méthodologiques centrales, à savoir la pertinence
+                    des mathématiques dans la physique, il fallait à Galilée des appuis ; celui de
+                    Platon était tout trouvé et c’est à lui qu’il aurait naturellement choisi de
+                    faire référence (voir par exemple Clavelin, 1996, p. 428-429) ;<lb/>– sa forte
+                    opposition à Aristote pouvait être dangereuse, compte tenu du climat ambiant et
+                    de sa place dans l’Église ; aussi n’était-il pas inutile de se placer sous la
+                    bannière d’un grand philosophe que ni l’Église ni le milieu ne
+                    rejetaient ;<lb/>– Galilée était un esprit assez ouvert pour prendre ce qui lui
+                    paraissait bon, sans pour autant être adepte d’une philosophie particulière.</p>
+                <p xml:id="d1e670">Du point de vue qui nous intéresse ici, le mathématisme peut
+                    s’entendre en deux sens, et qui sont fort différents. Il y a d’abord celui de
+                    Kepler, qui est un mathématisme que je qualifierais « d’essentialiste » en ce
+                    qu’il considère les entités mathématiques, nombre et figure, comme chargées
+                    ontologiquement, comme chargées d’essences qui seraient en quelque sorte des
+                    archétypes du monde (on a parlé de « thèse émanationniste »). Ainsi, les orbes
+                    des planètes sont-ils gouvernés par les solides réguliers, qui appartiennent,
+                    pourrait-on dire, au Monde des Idées. On est dans la droite ligne de la filière
+                    pythagoro-platonicienne, ce que reconnaît d’ailleurs explicitement Kepler à
+                    l’orée de son <hi rend="italic">Mysterium Cosmographicum</hi> de 1597. Tout
+                    autre est le mathématisme qu’on lit dans le fameux passage du <hi rend="italic">Saggiatore</hi> de 1623. Il s’agit d’un mathématisme purement
+                    instrumentaliste à l’œuvre tout au long de l’activité scientifique de Galilée.
+                    Ses mathématiques ne sont guère plus qu’un outil. Il ne se prononce nulle part
+                    sur l’existence d’une éventuelle relation ontologique entre deux mondes et qui
+                    rendrait compte de l’étonnante possibilité offerte par les mathématiques. Il me
+                    semble exagéré de reconnaître dans sa conception des mathématiques l’adhésion à
+                    un platonisme ou à un néo-platonisme à la Kepler ; le plus souvent, elle paraît
+                    de même nature que celle d’Archimède, celle des ingénieurs qui voient dans les
+                    mathématiques non pas tant une réalité supérieure à l’expérience qu’une aide
+                    précieuse pour opérer sur l’expérience. La mécanique galiléenne requérait une
+                    approche des mathématiques qui ne soit pas fondée sur une échelle de dignité des
+                    entités mathématiques. Galilée n’a que faire des perfections numériques ou
+                    géométriques en ce sens.</p>
+                <p xml:id="d1e678">On ne saurait quitter cette confrontation entre Kepler et Galilée
+                    sans noter que, paradoxalement, Galilée n’a pas adhéré aux thèses képlériennes
+                    du mouvement elliptique. Son attachement au mouvement circulaire, on pourrait
+                    l’attribuer à une conviction voisine de celle de Kepler relativement aux
+                    polyèdres réguliers et y voir aussi l’expression de cette connivence dont je
+                    parlais plus haut.</p>
+                <p xml:id="d1e680">La conception émanationniste se rencontre encore de nos jours
+                    chez des savants de premier plan. Ainsi, on trouve dans la correspondance du
+                    grand physicien Wolfgang Pauli (1900-1958) avec le psychologue Carl Gustav Jung
+                    (1875-1961) des passages qui vont dans ce sens. Le psychologue suisse a
+                    développé la thèse de l’existence d’une forme de représentation donnée <hi rend="italic">a priori</hi>, une sorte de forme symbolique inconsciente
+                    relevant de ce qu’il appelle « l’inconscient collectif ». Voici un extrait de la
+                    lettre que Pauli adresse à Jung le 31 mars 1953 (Pauli, 2000, p. 162) : « Je
+                    crois en effet, en y voyant non un dogme mais une hypothèse de travail, à
+                    l’unité fondamentale (homoousie) du mundus archetypus et du monde empirique […].
+                    Si cette hypothèse est juste – et la possibilité de produire des énoncés
+                    parallèles dans les domaines physique et psychologique va dans ce sens – il faut
+                    cependant parvenir à l’exprimer à l’aide de concepts […]. Il existe déjà de tels
+                    concepts, à savoir les concepts mathématiques : le fait qu’il existe des idées
+                    mathématiques pouvant être appliquées également au monde physique ne me paraît
+                    possible qu’en raison de cette homoousie du mundus archetypus et du monde
+                    empirique. »</p>
+            </div>
+            <div type="div1" xml:id="d1e685">
+                <head subtype="level1" xml:id="d1e686">Place de Galilée dans l’histoire des
+                    conceptions épistémologiques</head>
+                <p xml:id="d1e688">Dans sa remarquable <hi rend="italic">Histoire de la philosophie
+                        occidentale de Thalès à Kant</hi>, Jean-Francois Revel nous offre (Revel,
+                    1994, p. 480) un très fin commentaire sur la place de l’œuvre galiléenne dans
+                    l’histoire de la pensée. Après avoir observé que Galilée eût été surpris qu’on
+                    lui demandât quelle était la philosophie qui sous-tendait sa science puisque,
+                    dans le vocabulaire de l’époque, « science » se disait « philosophie », Revel
+                    écrit : « Ce qui s’est passé d’essentiel, c’est l’invention d’un type de pensée
+                    – la pensée expérimentale –, radicalement nouveau par rapport à tout ce que
+                    l’humanité avait pratiqué auparavant. Ce qui n’était jusqu’alors que velléités
+                    de minoritaires, rapidement balayées, devient le type de pensée dominant, sinon
+                    toujours majoritaire. » Et l’auteur d’ajouter : « En somme, une partie de la
+                    philosophie “réussit” dans ce sens qu’elle atteint ses buts. Elle se détache des
+                    autres, démontre même parfois par sa seule existence l’inanité de certaines
+                    d’entre elles. » On pense ici à l’évolution des espèces animales :
+                    l’épistémologie galiléenne crée un isolat sur lequel les espèces vont évoluer
+                    différemment. La science et la philosophie suivant à partir de là chacune son
+                    propre chemin.</p>
+                <p xml:id="d1e693">Maurice Clavelin rejoint Revel quand il écrit (Clavelin, 2004,
+                    p. 24), à propos des conséquences de découvertes de Galilée en astronomie :
+                    « D’abord elle [une situation sans précédent] faisait de l’astronome, seul à
+                    disposer des informations nécessaires, l’héritier légitime du philosophe,
+                    s’agissant du problème capital de la constitution du monde ; à lui de décider,
+                    guidé par ses principes et en étroit accord avec la connaissance objective, quel
+                    système permet le mieux d’appréhender cette constitution […]. » Ici ce n’est
+                    plus l’épistémologie de Galilée dont il s’agit, mais bien de ses découvertes
+                    factuelles. Clavelin s’adresse à la personne, qu’il traite « d’héritier du
+                    philosophe » ; tandis que Revel fait allusion à l’événement : une partie de la
+                    philosophie se détache de la mère patrie et forme un domaine qui deviendra la
+                    science.</p>
+                <p xml:id="d1e695">L’idée de la naissance de la « science classique » au <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">e</hi> siècle (on parle aussi de
+                    « science moderne ») est un <hi rend="italic">topos</hi>. Quand on observe le
+                    premier <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">e</hi>, on y voit une
+                    claire rupture dans le système de pensée à la base de la science et dans les
+                    cadres conceptuels qui la gouvernent. Ce qui est nouveau et décisif ce ne sont
+                    pas tant les découvertes scientifiques <hi rend="italic">strictu senso</hi> (si
+                    l’on excepte les lois de Kepler, mais dont le mode de la découverte appartient
+                    plutôt à une vision de la science qui nous paraît archaïque) qu’un changement
+                    profond dans l’état d’esprit du savant : une épistémologie et une méthodologie
+                    nouvelles prennent le relais. Galilée en est un protagoniste majeur, laissant
+                    loin derrière lui Francis Bacon ou René Descartes, à qui l’histoire octroiera
+                    une place assurément disproportionnée dans le développement de la pensée
+                    nouvelle. Au-delà de ses remarquables découvertes techniques, qui ouvriront la
+                    voie à Newton, on doit à Galilée des réflexions profondes et nouvelles, des
+                    fulgurances dans le sens où elles ne font pas partie d’un plan articulé. Avec
+                    lui s’est mis en marche un mode de penser qui permettra ses triomphes à la
+                    science classique. Comme le note encore Maurice Clavelin (Clavelin, 1996,
+                    p. 389) : « À travers l’œuvre galiléenne, c’est bien la conception que l’on
+                    avait depuis vingt siècles de la rationalité scientifique qui change brusquement
+                    de visage et prend pour l’essentiel les traits que nous lui connaissons dans la
+                    science classique. » Dans les écrits de Galilée, nous nous sentons chez nous ;
+                    et, dans un premier temps, on se demande quel intérêt on peut trouver à ses
+                    textes : ces choses-là, nous les avons bues avec le lait de notre mère. Mais il
+                    n’en va de même ni chez Kepler, ni chez Bacon, et pas davantage chez Descartes ;
+                    notre sentiment d’être devant des banalités tient à ce que, précisément, ces
+                    pensées-là étaient étrangères à leur temps, qu’elles furent inventées – ou
+                    découvertes, c’est comme on voudra – contre lui, au prix de bien des
+                    difficultés, de bien des tourments.</p>
+                <p xml:id="d1e713">La science classique, celle sur l’épistémologie de laquelle nous
+                    vivons encore, n’aurait pas pu se constituer sur le socle de la pensée
+                    aristotélicienne. Il convenait d’abord de nettoyer le terrain, d’éradiquer des
+                    modes de pensée si solidement implantés qu’ils s’étaient cristallisés en dogmes.
+                    Circonstance aggravante, cette vision du Monde était défendue par l’Église, qui
+                    se sentait menacée par les changements de paradigmes que l’on voyait surgir sous
+                    la plume de Galilée. Soit dit en passant, l’œuvre épistémologique de Galilée
+                    n’est pas seulement d’une grande lucidité, mais elle est aussi la manifestation
+                    d’un courage évident, même s’il relevait peut-être plutôt parfois d’un
+                    enthousiasme inconscient. Pensons qu’un Descartes a renoncé à publier son
+                    « Monde » quand il vit ce qu’il advint à Galilée ! Qu’il faille d’abord se
+                    débarrasser de la pensée du Stagyrite en la matière ne doit pas être pris pour
+                    un dénigrement de son œuvre. En effet, la théorie de la science formulée par
+                    Aristote et les anciens Grecs a permis l’ensemble des recherches astronomiques
+                    et mécaniques, sans lesquelles les révolutions scientifiques des <hi rend="small-caps">xvi</hi>
+          <hi rend="sup">e</hi> et <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">e</hi> siècles n’auraient pas pu avoir lieu. Elle a
+                    en quelque sorte servi de la « théorie quelconque » dont parlait Auguste Comte
+                    et sans laquelle il n’y a pas selon lui de recherche possible.</p>
+                <p xml:id="d1e725">Pour conclure et pour résumer, je redirai que l’œuvre de Galilée
+                    est la plus importante de la première moitié du <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">e</hi> siècle, aussi bien par les découvertes
+                    scientifiques que par les percées épistémologiques qu’elle contient. Ce
+                    jugement, presque évident pour tout chercheur qui aura étudié en détail cette
+                    période, est rarement formulé. Alors que, au contraire, on a glorifié <hi rend="italic">ad nauseam</hi> des penseurs comme Descartes ou Bacon, dont
+                    les contributions à la pensée scientifique ne tiennent assurément pas la
+                    comparaison avec celle du Pisan. Ce sont les affaires Galilée qui ont retenu
+                    l’attention, mettant dans l’ombre les parties véritablement importantes de son
+                    œuvre.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e739">
+                <listBibl xml:id="d1e741">
+                    <bibl xml:id="d1e743">
+            <hi rend="small-caps">Clavelin</hi>, C. (1996) : <hi rend="italic">La philosophie naturelle de Galilée. Essai sur les
+                            origines et la formation de la mécanique classique</hi>, Paris, Albin
+                        Michel, Première édition 1968.</bibl>
+                    <bibl xml:id="d1e750">
+            <hi rend="small-caps">Clavelin</hi>, C. (2004) : <hi rend="italic">Galilée copernicien</hi>, Paris, Albin Michel.</bibl>
+                    <bibl xml:id="d1e757">
+            <hi rend="small-caps">
+              <hi xml:lang="en">Drake</hi>
+            </hi>
+            <hi xml:lang="en">, S. (1995) : </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Galileo at Work. </hi>
+            </hi>
+            <hi rend="italic">His Scientific
+                            Biography</hi>, Mineola N.Y, Dover, Édition originale 1978.</bibl>
+                    <bibl xml:id="d1e769">
+            <hi rend="small-caps">Duhem</hi>, P. (1997) : <hi rend="italic">L’aube du savoir. Épitomé du « Système du monde »</hi>,
+                        textes établis et présentés par Anastasios Brenner, Paris, Hermann Éditeurs
+                        des sciences et des arts, 1997.</bibl>
+                    <bibl xml:id="d1e776">
+            <hi rend="small-caps">Festa</hi>, E. (1995) : <hi rend="italic">L’erreur de Galilée</hi>, Paris, Austral.</bibl>
+                    <bibl xml:id="d1e783">
+            <hi rend="small-caps">Galilei</hi>, Galileo :</bibl>
+                    <bibl xml:id="d1e787">—— <hi rend="italic">Le Opere di Galileo Galilei</hi>, éd.
+                            <hi xml:lang="en">A. Favaro, 20 vol., Florence, G. Barbera, 1899-1909.
+                        </hi>Réimpressions : 1929-1939, 1964-1966, 1968.</bibl>
+                    <bibl xml:id="d1e795">—— <hi rend="italic">Discours et démonstrations
+                            mathématiques concernant deux sciences</hi>
+                        <hi rend="italic">nouvelles</hi>, traduction par Maurice Clavelin, Paris,
+                        Presses universitaires de France, 1995. Première édition 1970.</bibl>
+                    <bibl xml:id="d1e803">—— <hi rend="italic">Dialogue sur les deux grands systèmes
+                            du monde</hi>, Paris, Éditions du Seuil, 1992. Traduit par René
+                        Fréreux.</bibl>
+                    <bibl xml:id="d1e808">—— <hi rend="italic">Dialogues. Lettres choisies</hi>,
+                        Choix, traduction, préface de Paul-Henri Michel, Paris, Hermann Éditeurs des
+                        sciences et des arts, 1997.</bibl>
+                    <bibl xml:id="d1e814">
+            <hi rend="small-caps">Geymonat</hi>, L. (1992) : <hi rend="italic">Galilée</hi>, Paris, Éditions du Seuil, traduit de
+                        l’italien sur la première édition de 1957.</bibl>
+                    <bibl xml:id="d1e821">
+            <hi rend="small-caps">Pauli, W.</hi> et <hi rend="small-caps">Jung</hi>, C. J. (2000) : <hi rend="italic">Correspondance 1932-1958</hi>, Paris, Albin Michel, traduit de
+                        l’allemand.</bibl>
+                    <bibl xml:id="d1e831">
+            <hi rend="small-caps">Poupard, </hi>Mgr Paul (sous la
+                        direction de) (1983) : <hi rend="italic">Galileo Galilei, 350 ans d’histoire
+                            1633-1983</hi>, Tournai, Desclée International,</bibl>
+                    <bibl xml:id="d1e838">
+            <hi rend="small-caps">Revel</hi>, J.-F. (1994) : <hi rend="italic">Histoire de la philosophie occidentale de Thalès à
+                            Kant</hi>, Éditions Nil.</bibl>
+                    <bibl xml:id="d1e845">
+            <hi rend="small-caps">Rossi</hi>, P. (1999) : <hi rend="italic">La naissance de la science moderne en Europe</hi>, Paris,
+                        Éditions du Seuil, traduit de l’italien. Édition originale 1997.</bibl>
+                    <bibl xml:id="d1e852">
+            <hi rend="small-caps">Shea</hi>, S. (1992) : <hi rend="italic">La révolution galiléenne</hi>, Paris, Éditions du Seuil,
+                        traduit de l’anglais. Édition originale 1977.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

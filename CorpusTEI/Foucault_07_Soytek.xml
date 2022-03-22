@@ -1,0 +1,887 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="Foucault_07_Soytek">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La réception de la théorie de l’information et de
+        la cybernétique par Michel Foucault, 1948-1969.</title>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-03-14T16:01:00" who="Jeanne FLAMANT">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>La réception de la théorie de l’information et de la
+          cybernétique par Michel Foucault, 1948-1969.</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Gautier Dassonneville (Docteur en
+          philosophie,</docAuthor>
+          <affiliation>Université de Liège et Université de
+          Lille-III)</affiliation>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">Cet article se propose d’interroger la réception de
+        la théorie de l’information et de la cybernétique par Michel Foucault
+        en se basant notamment sur des fiches de lecture composant une partie
+        du fonds Foucault conservé à la Bibliothèque nationale de France et
+        mises à disposition sur la plateforme EMAN. À travers l’analyse de ces
+        fiches de lecture rédigées par Foucault dans les années 1950, ainsi
+        que du dossier <hi rend="italic">L’Information</hi> que Foucault a
+        créé aux abords des années 1962 et notamment du texte <hi rend="italic">Message ou bruit ?</hi>, les éléments centraux de cette
+        réception seront examinés. Il s’agira donc ici de dégager quelques
+        premières caractéristiques de la réception de la cybernétique et de la
+        théorie de l’information par Foucault dans leurs dimensions
+        biographiques, conceptuelles et contextuelles.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <div type="section1" xml:id="d1e63">
+          <head subtype="level1" xml:id="d1e64">Introduction</head>
+          <p xml:id="d1e66">On peut considérer l’histoire de la cybernétique
+          et de la théorie de l’information comme l’histoire d’un savoir sur
+          la transmission qui se transmet.<note n="1" place="end" type="standard" xml:id="ftn1">
+              <p>
+                <hi rend="small-caps">Vogl</hi>, 2004.</p>
+            </note> Mais si l’appropriation des idées cybernétiques est déjà
+          bien étudiée dans les ouvrages de Roland Barthes, Gilbert Simondon,
+          Jacques Lacan et Claude Lévi-Strauss<note n="2" place="end" type="standard" xml:id="ftn2">
+              <p>
+                <hi rend="small-caps">Geoghegan</hi>, 2011; <hi rend="small-caps">Liu</hi>, 2010; <hi rend="small-caps">Lafontaine</hi>, 2004; <hi rend="small-caps">Hui</hi>, 2015.</p>
+            </note>, la question de la réception de la cybernétique et de la
+          théorie de l’information dans les écrits de Michel Foucault n’a été
+          que très rarement posée jusqu’à présent<note n="3" place="end" type="standard" xml:id="ftn3">
+              <p>
+                <hi rend="small-caps">Dotzler</hi>, 2008; <hi rend="small-caps">Kittler</hi>, 2002.</p>
+            </note>. Pourtant, l’analyse de cette relation ne permettrait-elle
+          pas de mieux comprendre le champ discursif dans lequel certains
+          travaux de Foucault se développent ? Une étude fine se heurte
+          toutefois chez Foucault au statut parfois obscur de ses références
+          ou à la façon pointilliste avec laquelle ses <hi rend="italic">Dits
+          et écrits</hi> enregistrent ces théories.<lb/>Or, les fiches de
+          lecture de Foucault disponibles à la Bibliothèque Nationale de
+          France offrent pour la première fois la possibilité d’une telle
+          analyse. Parmi ces fiches se trouvent plus de deux cents feuillets
+          qui concernent la théorie de l’information et de la
+          cybernétique.<note n="4" place="end" type="standard" xml:id="ftn4">
+              <p>BnF, NAF 28730, boîte n° 36, 38, 42b et 44b.</p>
+            </note> Elles constituent la base d’une première analyse sur la
+          réception de la cybernétique et la théorie de l’information par
+          Foucault ce que cet article développera.<lb/>Dans un premier temps,
+          l’article analysera un ensemble de fiches de lecture qui ont été
+          rédigées dans les années 1950 afin d’identifier éventuellement une
+          logique de développement interne de ces fiches de lectures et de
+          reconstruire les premières caractéristiques de sa réception de la
+          théorie de l’information et la cybernétique. Cette première partie
+          s’évertuera à présenter par ailleurs des fragments de notes de
+          Foucault qui se trouvent au sein de ses fiches de lectures des
+          années 1950. Ensuite, nous nous intéresserons au dossier <hi rend="italic">L’Information</hi>, qui regroupe certaines fiches de
+          lectures que Foucault a utilisées pendant les années 1960.</p>
+        </div>
+        <div type="section1" xml:id="d1e116">
+          <head subtype="level1" xml:id="d1e117">Les fiches de lecture sur la
+          cybernétique des années 1950</head>
+          <p xml:id="d1e119">« Je me souviens du moment où la cybernétique et
+          toutes ces techniques de l’information ont commencé à être connues
+          en Occident, peu après la guerre […]<note n="5" place="end" type="standard" xml:id="ftn5">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 1994 (1977), p. 338.</p>
+            </note> », dit Michel Foucault en octobre 1977. La réception de la
+          cybernétique et de la théorie de l’information a été
+          particulièrement intense en France. La maison d’édition parisienne
+          Hermann édite en 1948, en anglais, en même temps que la publication
+          américaine, l’ouvrage <hi rend="italic">Cybernetics</hi> de Norbert
+          Wiener, qui bénéficie très rapidement d’une recension publiée dans
+          <hi rend="italic">Le Monde</hi>. L’année suivante, le Cercle
+          d’études cybernétiques est fondé. La revue <hi rend="italic">Esprit</hi> consacre un numéro spécial à la
+          cybernétique en 1950 sous le titre « Machines à penser ». Au même
+          moment, le Collège de France invite, à l’initiative de Louis
+          Couffignal, Norbert Wiener pour donner une série de conférences tout
+          au long de l’année académique de 1950. Ces conférences furent
+          accompagnées par un colloque international au cours duquel
+          d’éminents représentants de la cybernétique discutèrent des
+          possibilités d’imitations techniques du comportement humain. En
+          parallèle de ce colloque s’est tenue une exposition au cours de
+          laquelle les nouveaux automates cybernétiques étaient présentés au
+          public<note n="6" place="end" type="standard" xml:id="ftn6">
+              <p>
+                <hi rend="small-caps">Mindell</hi>
+                <hi rend="italic">et
+              al.</hi>, 2003, p. 75 ; <hi rend="small-caps">Dubarle</hi>,
+              1948 ; <hi rend="small-caps">Johnson</hi>, 2015, p. 62 ; <hi rend="small-caps">Segal</hi>, 2003, p. 293.</p>
+            </note>.<lb/>À la même période, le jeune Michel Foucault se fraye
+          un chemin dans le système éducatif français. On ne sait pas s’il
+          était dans l’auditoire d’un des cours de Wiener ou s’il se promenait
+          dans les salles d’exposition qui mettaient en scène les nouvelles
+          machines cybernétiques. Cependant, la théorie de l’information et la
+          cybernétique a laissé des traces dans les fiches de lecture de
+          Foucault. Au milieu de fiches à propos de Husserl, Binswanger et
+          d’autres s’en trouvent en effet quelques-unes sur la théorie de
+          l’information et la cybernétique. Elles sont compilées dans six
+          dossiers qui portent les titres suivants : <hi rend="italic">Cybernétique</hi>, <hi rend="italic">Cybernétique et
+          les machines</hi>, <hi rend="italic">EEG</hi>
+            <hi rend="italic">et
+          Cybernétique</hi>, <hi rend="italic">Cybernétique et
+          neurologie</hi>, <hi rend="italic">L’Information</hi> et <hi rend="italic">La Perception et l’information</hi>. La datation
+          approximative de ces documents nous permet d’établir un intervalle
+          de temps compris entre 1948 et 1963, la majorité des textes que
+          Foucault a relevé ayant été publiés entre les années 1948 et
+          1953.<note n="7" place="end" type="standard" xml:id="ftn7">
+              <p>BnF, NAF 28730, boîte n° 36, 38, 42b et 44b.</p>
+            </note> À la lecture de ces fiches apparaît d’emblée un aspect
+          saillant de la réception par Foucault de ces théories. Nous savons
+          qu’il lit ces textes sur la cybernétique peu après leur publication,
+          ce qui confère à sa curiosité un caractère particulièrement actuel,
+          mais Foucault ne saisit pas ce champ dans la dimension de sa
+          constitution historique en relation avec d’autres disciplines mais
+          se contente de noter les dernières nouveautés concernant la théorie
+          de l’information et la cybernétique. On y trouve par exemple des
+          fiches de lecture sur le <hi rend="italic">Maze Solving Machine</hi>
+          de Claude E. Shannon, une machine d’apprentissage avec une mémoire
+          et une logique de commande composée de 110 relais. Foucault n’a pas
+          seulement extrait le texte mais en a également dessiné le dispositif
+          expérimental. En 1953, il produit une fiche de lecture de huit pages
+          du texte « The Limiting information capacity of neuronal links<note n="8" place="end" type="standard" xml:id="ftn8">
+              <p>
+                <hi rend="small-caps">Mcculloch</hi> et <hi rend="small-caps">Mackay</hi>, 1952 ; BnF, NAF 28730, boîte n°
+              44b, p. 573–576 ;
+              http://eman-archives.org/Foucault-fiches/items/show/8362</p>
+            </note> » par Donald MacKay et Warren McCulloch, publié en 1952.
+          Ce texte propose des conclusions relatives au fonctionnement du
+          système nerveux central sur la base des modèles de théorie de
+          l’information. Les fiches de lecture de Foucault archivent également
+          le texte de Warren McCulloch et Walter Pitts intitulé « How we know
+          universals ; the perception of auditory and visual forms » de 1947
+          ainsi que leur article « A logical calculus of the ideas immanent in
+          nervous activity<note n="9" place="end" type="standard" xml:id="ftn9">
+              <p>
+                <hi rend="small-caps">Mcculloch</hi> et <hi rend="small-caps">Pitts</hi>, 1947.</p>
+            </note> » paru dans le <hi rend="italic">Bulletin of mathematical
+          biophysics</hi> de 1943. Ces recherches sont d’une grande actualité
+          pour l’époque, et elles sont également à l’origine de ce qui est
+          aujourd’hui plus familièrement connu sous les termes de réseaux
+          neuronaux ou de « <hi rend="italic">pattern
+          recognition</hi> ».<lb/>L’intérêt permanent de Foucault pour la
+          recherche scientifique contemporaine n’est pas sans rapport avec son
+          environnement académique car, au moment où la cybernétique
+          commençait son tour du monde à travers les revues scientifiques et
+          les congrès internationaux, Foucault travaillait déjà dans une
+          discipline au sein de laquelle les nouveaux concepts de la
+          cybernétique et de la théorie de l’information étaient vivement
+          discutés<note n="10" place="end" type="standard" xml:id="ftn10">
+              <p>
+                <hi rend="small-caps">Mindell</hi>
+                <hi rend="italic">et
+              al.</hi>, 2003, p. 75.</p>
+            </note>. Au début des années 1950, Foucault témoigne de son grand
+          intérêt pour la psychologie : après avoir obtenu sa licence de
+          psychologie en 1949, il est répétiteur de psychologie à l’École
+          normale supérieure, puis assistant de psychologie à l’université de
+          Lille à partir de 1952. En outre, il commence un stage au
+          laboratoire d’électro-encéphalographie de l’hôpital Sainte-Anne dès
+          1951 et passera son diplôme de psychopathologie, puis de psychologie
+          expérimentale<note n="11" place="end" type="standard" xml:id="ftn11">
+              <p>
+                <hi rend="small-caps">Eribon</hi>, 1989; <hi rend="small-caps">Sabot</hi>, 2015.</p>
+            </note>. Ici, Foucault a non seulement appris à mesurer les ondes
+          des cerveaux et à interpréter les anomalies dans les diagnostics de
+          liaisons cérébrales, mais il touche aussi de près à la recherche
+          cybernétique et aux théories de l’information qui émergent<note n="12" place="end" type="standard" xml:id="ftn12">
+              <p>
+                <hi rend="small-caps">Sabot</hi>, 2016.</p>
+            </note>. Il baigne donc dans les débats sur les nouveaux modèles
+          cybernétiques particulièrement virulents au sein de la psychologie
+          expérimentale, car les méthodes employées offrent à la cybernétique
+          la possibilité de poursuivre ses jeux d’analogie entre les circuits
+          logiques et le cerveau humain via notamment des données récoltées
+          par la technique de l’électro-encéphalographie.<note n="13" place="end" type="standard" xml:id="ftn13">
+              <p>
+                <hi rend="small-caps">Pickering</hi>, 2010; <hi rend="small-caps">Schmidgen</hi>, 2020.</p>
+            </note>
+            <lb/>Foucault se penche plus particulièrement sur l’œuvre
+          de William Grey Walter, qui fut l’un des pionniers de la recherche
+          sur l’EEG en exposant ses tortues robotisées lors de l’exposition de
+          1952 à Paris. Ainsi, les fiches de lecture de Foucault rendent
+          compte, entre autres, de la notion de mécanisme de « <hi rend="italic">scanning</hi> » ainsi que de la thèse largement
+          répandue à l’époque d’une analogie entre la télévision et le
+          balayage cérébral.<note n="14" place="end" type="standard" xml:id="ftn14">
+              <p>
+                <hi rend="small-caps">Pickering</hi>, 2010.</p>
+            </note> Le « <hi rend="italic">scanning </hi>» est une forme du
+          « <hi rend="italic">pattern recognition </hi>» qui explique le
+          traitement de l’information dans les machines de Grey Walter. Le
+          livre de Grey Walter, <hi rend="italic">The Living Brain</hi>, que
+          Foucault a pu lire, n’explique pas seulement le fonctionnement
+          technique des EEGs mais plus encore, tente de comprendre le
+          fondement de la connaissance, soit de l’humain et de la machine,
+          comme une reconnaissance des « <hi rend="italic">patterns</hi> » ou
+          comme « […] any sequence of events in time, or any set of comparable
+          objects in space, distinguishable from or comparable with another
+          sequence or set. »<note n="15" place="end" type="standard" xml:id="ftn15">
+              <p>
+                <hi rend="small-caps">Grey Walter</hi>, 1953.</p>
+            </note> On comprend dès lors que Foucault ne s’intéresse pas
+          seulement à la cybernétique et la théorie de l’information d’un
+          point de vue abstrait, avec certains auteurs comme Grey Walter, il
+          se passionne pour une véritable pratique qui cherche à enregistrer
+          différents « <hi rend="italic">pattern</hi> » c’est-à-dire des
+          séries d’événements obéissant à un code dans un flux de signaux.<hi rend="italic">The Living</hi>
+            <hi rend="italic">Brain </hi>est
+          également la seule référence, à part <hi rend="italic">Cybernetics
+          </hi>de<hi rend="italic"/>Norbert Wieners, qui est mentionnée
+          explicitement par Foucault dans son texte <hi rend="italic">La
+          Psychologie de 1850 à 1950</hi>
+            <note n="16" place="end" type="standard" xml:id="ftn16">
+              <p>
+                <hi rend="italic"/>
+                <hi rend="small-caps">Foucault</hi>, 1994
+              (1957).</p>
+            </note>. Ce texte propose un aperçu de l’histoire de la
+          psychologie. Pour Foucault, la cybernétique, contrairement aux
+          « efforts les plus récents de la psychologie », n’essaie pas « de
+          prouver sa possibilité par son existence » ou même de « justifier
+          ses contradictions<note n="17" place="end" type="standard" xml:id="ftn17">
+              <p>Ibid., p. 135.</p>
+            </note> » :</p>
+          <quote rend="quotation" xml:id="d1e316">Sa positivité semble
+          l’éloigner de toute spéculation, et si elle prend pour objet la
+          conduite humaine, c’est pour y retrouver tout ensemble le fait
+          neurologique des circuits en <hi rend="italic">feed-back</hi>, les
+          phénomènes physiques de l’autorégulation et la théorie statistique
+          de l’information. Mais en découvrant dans les réactions humaines les
+          processus mêmes des servomécanismes, la cybernétique ne revient pas
+          à un déterminisme classique : sous la structure formelle des
+          estimations statistiques, elle laisse place aux ambiguïtés des
+          phénomènes psychologiques, et justifie, de son point de vue, les
+          formes toujours approchées et toujours équivoques de la connaissance
+          qu’on peut en prendre.<note n="18" place="end" type="standard" xml:id="ftn18">
+              <p>Ibid., p. 136.</p>
+            </note>
+          </quote>
+          <p xml:id="d1e324">Notons par ailleurs qu’il ne fait de la
+          cybernétique, ni d’ailleurs de Binswanger, l’« avenir de la
+          psychologie ». Effectivement, aux yeux de Foucault, la cybernétique,
+          tout comme la <hi rend="italic">Daseinanalyse</hi>, ne promettent
+          pas de sortir des paradoxes épistémologiques de la psychologie. Dans
+          ce texte assez énigmatique, l’avenir de la psychologie réside pour
+          lui dans l’analyse des conditions de l’existence humaine, et donc
+          dans l’analyse de ce qui serait le plus humain chez l’homme – « son
+          histoire<note n="19" place="end" type="standard" xml:id="ftn19">
+              <p>Ibid., p. 137.</p>
+            </note> ». Ce texte n’indique pas seulement sa connaissance de la
+          cybernétique et de la théorie de l’information, la cybernétique est
+          aussi mise en scène comme un « épistémologiquement Autre » du
+          discours de la psychologie. Ce seront toutefois ses derniers mots
+          sur la cybernétique. Il est vrai, un changement commence à émerger
+          dans les années 1950 qui porte Foucault plus vers la théorie de
+          l’information.<lb/>Dans un manuscrit fragmentaire logé dans le
+          dossier <hi rend="italic">Cyb</hi>, on découvre des indications
+          importantes pour caractériser la relation de Foucault avec la
+          cybernétique et la théorie de l’information. On ne sait si ces
+          fragments constituent une part de ses enseignements ou même une part
+          d’une thèse complémentaire à propos de l’« étude sur la
+          psycho-physique du signal et l’interprétation statistique de la
+          perception » que Foucault mentionne dans une lettre à George
+          Dumézil<note n="20" place="end" type="standard" xml:id="ftn20">
+              <p>
+                <hi rend="small-caps">Eribon</hi>, 1994, p. 112.</p>
+            </note>. Ce fragment en question traite du problème de l’analyse
+          du « champ des événements signalétiques », où se trouve précisément
+          ce « moment intermédiaire » dans lequel le « phénomène énergétique
+          de la physiologie » est relié à un « phénomène psychologique » et
+          acquiert ainsi sa signification<note n="21" place="end" type="standard" xml:id="ftn21">
+              <p>BnF, NAF 28730, boîte n° 42b, p. 375;
+              https://eman-archives.org/Foucault-fiches/items/show/3054</p>
+            </note>. La théorie de l’information, selon une expression obscure
+          de Foucault, « rend libre le champ des événements signalétiques dans
+          lequel s’accomplit la genèse du signe à la signification »<note n="22" place="end" type="standard" xml:id="ftn22">
+              <p>Ibid.</p>
+            </note>. Tout au long de ce fragment l’accent est clairement mis
+          sur la théorie de l’information. La cybernétique, selon ces notes,
+          peut fournir des modèles du comportement humain, « [m]ais cela
+          seulement »<note n="23" place="end" type="standard" xml:id="ftn23">
+              <p>Ibid., p. 380 suites;
+              https://eman-archives.org/Foucault-fiches/items/show/3059</p>
+            </note>. Ce petit texte se demande également comment l’analyse de
+          ce processus pourrait être rendue possible : « le domaine autonome
+          du signal dans lequel s’accomplit la genèse du signe à la
+          signification, comment en faire l’analyse<note n="24" place="end" type="standard" xml:id="ftn24">
+              <p>Ibid., p. 375;
+              https://eman-archives.org/Foucault-fiches/items/show/3054</p>
+            </note> ? »<lb/>Foucault n’aborde cette question que par rapport à
+          la recherche sur l’EEG, mais il y adjoint déjà ses réflexions
+          philosophiques par des références aux écrits de Descartes, Leibniz
+          et de La Mettrie<note n="25" place="end" type="standard" xml:id="ftn25">
+              <p>Ibid., p. 383;
+              https://eman-archives.org/Foucault-fiches/items/show/3061</p>
+            </note>. C’est toutefois par le biais de ses conséquences
+          méthodologiques qu’il appréhende de manière privilégiée la théorie
+          de l’information :</p>
+          <quote rend="quotation" xml:id="d1e368">Or, avec la théorie de
+          l’information, on trouve le moyen de définir d’un coup les processus
+          de la pensée […] et les termes axiomatiques de discontinu et de
+          discernable. […] Ces éléments discontinus et discernables sont
+          justement les signaux […]<note n="26" place="end" type="standard" xml:id="ftn26">
+              <p>Ibid., p. 385;
+              https://eman-archives.org/Foucault-fiches/items/show/3064</p>
+            </note>.</quote>
+          <p xml:id="d1e374">Au bout du compte, les thèses soulevées ici par
+          Foucault restent assez sibyllines, les termes techniques utilisés
+          n’étant en outre pas expliqués.<lb/>Néanmoins, ce fragment révèle
+          une autre dimension de la réception de la théorie de l’information
+          par Foucault que la comparaison avec le manuscrit d’une conférence
+          qu’il donne en Tunisie permet de dessiner. Afin de développer
+          l’analyse de la signification du signe dans l’événement
+          signalétique, Foucault propose, en 1953, de considérer, dans un
+          premier temps, le signal indépendamment de son « support
+          énergétique ». Alors que l’événement neurologique est un événement
+          énergétique, selon Foucault, l’événement signalétique est quant à
+          lui un événement informationnel. Il reprend cette idée de différence
+          entre événement énergétique et événement informationnel dans un
+          manuscrit qui a été très probablement écrit pour préparer sa
+          conférence <hi rend="italic">L’Analyse littéraire et le
+          structuralisme</hi> prononcée le 4 février 1967, dans le club Tahar
+          Haddad à Tunis<note n="27" place="end" type="standard" xml:id="ftn27">
+              <p>BnF, NAF 28730, boîte n° 54.</p>
+            </note>. Foucault y évoque à nouveau la différence entre les
+          analyses portant sur les phénomènes d’information et celles portant
+          sur les phénomènes d’énergie. Depuis un certain temps, écrit-il, la
+          biologie ne s’intéresse pas seulement aux processus énergétiques
+          mais aussi à un certain nombre de phénomènes à travers le prisme de
+          l’information<note n="28" place="end" type="standard" xml:id="ftn28">
+              <p>Ibid.</p>
+            </note>. Mais dans le club Tahar Haddad, il va plus loin que dans
+          son fragment écrit. Cette différence entre l’information et
+          l’énergie se manifeste désormais, selon lui, dans le domaine des
+          « sciences humaines ». Celles-ci devraient analyser, par analogie
+          avec la double dimension d’appréhension des objets de la biologie,
+          ses objets à « deux niveaux » : au niveau économique et au niveau du
+          document, à l’aide d’une nouvelle méthode qu’il nomme la
+          « deixologie<note n="29" place="end" type="standard" xml:id="ftn29">
+              <p>Ibid.</p>
+            </note> ». C’est l’analyse de ce niveau deixologique, l’analyse de
+          la masse documentaire, que Foucault formule méthodologiquement lors
+          de son séjour en Tunisie.<lb/>Cette note fragmentaire
+          montrerait-elle que, dès 1953, Foucault aurait aperçu un véritable
+          potentiel d’ordre méthodologique dans la théorie de l’information ?
+          Rien ne permet de le dire, mais, si tel est le cas, il ne développe
+          cette potentialité que dans les années 1960.</p>
+        </div>
+        <div type="section1" xml:id="d1e396">
+          <head subtype="level1" xml:id="d1e397">Les fiches de lectures sur
+          l’information des années 1960</head>
+          <p xml:id="d1e399">Lorsque Foucault revient d’Uppsala à Paris, en
+          1961, il constitue le dossier qu’il nomme « <hi rend="italic">L’Information »</hi>. Les fiches qui composent ce
+          dossier ont probablement déjà été écrites dans les années 1950<note n="30" place="end" type="standard" xml:id="ftn30">
+              <p>BnF, NAF 28730, boîte n° 36.</p>
+            </note>. Néanmoins cette sélection est assez étonnante, car
+          contrairement à ses fiches de lecture des années 1950, elles font
+          beaucoup plus souvent référence aux aspects techniques généraux de
+          la théorie de l’information. Elles enregistrent, par exemple,
+          l’utilisation du terme « communication » en psychologie sociale ou
+          encore les discussions philosophiques sur la théorie de
+          l’information de Raymond Ruyer<note n="31" place="end" type="standard" xml:id="ftn31">
+              <p>Ibid ; <hi rend="small-caps">Ruyer</hi>, 1952.</p>
+            </note>.<lb/>La plupart des fiches de Foucault des années 1960 ont
+          été rédigées d’après divers textes tirés de l’anthologie <hi rend="italic">La Cybernétique. Théorie du signal et de
+          l’information</hi>
+            <note n="32" place="end" type="standard" xml:id="ftn32">
+              <p>
+                <hi rend="small-caps">De Broglie</hi>, 1951.</p>
+            </note> de 1951 publiée sous la direction de Louis de Broglie.
+          Dans ses fiches, Foucault accorde une attention particulière aux
+          articles qui traitent des définitions théoriques du « message », du
+          « code » et du « signal » dans la théorie de l’information. Quatre
+          fiches de lecture du dossier <hi rend="italic">L’Information</hi>
+          sont consacrées à la différence entre signal et message. Parmi
+          elles, relevons la fiche <hi rend="italic">Le Message et ses
+          probabilités</hi>. Elle a été écrite en se basant sur <hi rend="italic">Cybernetics</hi> de Norbert Wiener, que Foucault a lu,
+          rappelons-le, pour la première fois vers 1950. Sur la fiche, il est
+          noté un passage de la préface de <hi rend="italic">Cybernetics</hi>,
+          dans lequel Wiener définit la notion de « message » comme « <hi rend="italic">time-series</hi> ».</p>
+          <quote rend="quotation" xml:id="d1e443">« Le message est une série
+          continue ou discontinue d’événements mesurables distribués dans le
+          temps. » (Ce que les statisticiens appellent une <hi rend="italic">time-series</hi>.)<note n="33" place="end" type="standard" xml:id="ftn33">
+              <p>BnF, NAF 28730, boîte n° 36, p. 417;
+              https://eman-archives.org/Foucault-fiches/items/show/7539</p>
+            </note>
+          </quote>
+          <p xml:id="d1e452">Cette définition se retrouve dans les fiches de
+          lecture rédigées par Foucault dès 1953. Elle apparaît aussi à
+          plusieurs reprises dans quelques fiches portant sur la théorie de
+          l’information et de la cybernétique. On peut imaginer que Foucault
+          s’intéresse à ces notions de <hi rend="italic">time-series</hi> et
+          <hi rend="italic">patterns</hi> en ce sens où elles signifient que
+          l’interprétation d’une pratique discursive ne doit pas chercher à
+          interroger le sens secret du texte ou ses expressions visibles de
+          rationalité, mais uniquement l’aborder en tant qu’une série
+          d’événements dont il faut établir la loi de leur
+          combinaison.<lb/>Mais la fiche la plus longue de <hi rend="italic">L’Information</hi> (seize feuillets) est consacrée à
+          l’allocution de Donald MacKay intitulée <hi rend="italic">In Search
+          of Basic Symbols</hi>
+            <note n="34" place="end" type="standard" xml:id="ftn34">
+              <p>
+                <hi rend="small-caps">Mackay</hi>, 1951 (2004).</p>
+            </note> et prononcée lors de la huitième conférence Macy en 1951 à
+          New York. Les fiches relatives à ce texte de MacKay furent écrites
+          en 1953 et enregistrent le glossaire de la conférence au cours de
+          laquelle les termes de la théorie de l’information centrale furent
+          définis. Cette fiche présente les caractéristiques de base de la
+          « théorie de l’information générale » de MacKay. Foucault note que
+          cette théorie part du principe que la connaissance peut être
+          représentée par « ce que nous savons par le moyen d’images, de
+          propositions logiques, de modèles symboliques<note n="35" place="end" type="standard" xml:id="ftn35">
+              <p>BnF, NAF 28730, boîte n° 36, p. 421-428.</p>
+            </note> ». Faisant référence au fait que pour MacKay les
+          différences entre deux représentations sont en quelque sorte des
+          différences de connaissance, Foucault écrit :</p>
+          <quote rend="quotation" xml:id="d1e480">La théorie générale de
+          l’information pose la probabilité générale de mesurer les
+          changements du savoir. Il se pose sur le fait que nous pouvons
+          « représenter » ce que nous savons par le moyen d’images, de
+          propositions logiques, de modèles symboliques<note n="36" place="end" type="standard" xml:id="ftn36">
+              <p>Ibid.</p>
+            </note>.</quote>
+          <p xml:id="d1e486">Ces représentations, à leur tour, sont « ce qui
+          permet logiquement au destinataire de faire ou d’ajouter à une
+          représentation de ce qui est le cas, ou de ce qui est supposé ou
+          affirmé comme étant le cas<note n="37" place="end" type="standard" xml:id="ftn37">
+              <p>BnF, NAF 28730, boîte n° 36.</p>
+            </note> ». Alors que dans les autres textes du dossier, les
+          concepts de la théorie de l’information sont toujours liés à des
+          problèmes techniques concrets, les notions issues de MacKay sont
+          généralisées à d’autres domaines. Pas seulement donc celui des
+          signaux mais aussi à toutes formes de représentations,
+          représentations qui sont traitées comme des informations. Ce que
+          l’on peut voir dans cette lecture de Foucault est un véritable souci
+          du transfert des concepts de la théorie de l’information à l’image
+          de ce que ce théoricien comme d’autres promeuvent. Ceci ne signifie
+          nullement que Foucault entretient une relation mimétique avec des
+          auteurs comme MacKay (ou même W. Grey Walter), mais, néanmoins, la
+          sélection de ces textes par Foucault témoigne de sa préoccupation à
+          ce moment-là d’universalisation des concepts de la théorie de
+          l’information.<lb/>Dès 1966, il situe ses propres observations
+          historiographiques dans le contexte d’une « culture
+          non-dialectique » dont les parties essentielles comprennent aux
+          côtés de la logique, du formalisme et de la linguistique, aussi la
+          « théorie de l’information ». En 1969, il plaidera à nouveau
+          explicitement pour une intégration des concepts de la théorie de
+          l’information dans les sciences humaines et sociales. Sur la base
+          des concepts de la théorie de l’information, il défend l’idée que
+          les groupes sociaux ne doivent plus être étudiés en fonction de leur
+          « mentalité » ou de leur <hi rend="italic">Zeitgeist</hi>, mais
+          plutôt comme un « collectif » ou comme un ensemble formé par « les
+          codes qui sont effectivement utilisés et la fréquence et la
+          structure des messages qui sont envoyés ».<note n="38" place="end" type="standard" xml:id="ftn38">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 1994 (1969), 821.</p>
+            </note> La théorie de l’information se trouve en opposition à
+          l’histoire des mentalités et à la <hi rend="italic">Geistesgeschichte</hi>, et remarquons que <hi rend="italic">L’archéologie du savoir</hi> cherche justement à
+          s’affranchir de ces deux thèmes<note n="39" place="end" type="standard" xml:id="ftn39">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 1996 (1969), 159.</p>
+            </note>.<lb/>Mais la réception de la théorie de l’information par
+          Foucault apparaît encore plus clairement dans le texte <hi rend="italic">Message ou bruit ?</hi>. Ici, la clinique est décrite
+          comme un traitement d’informations. Elle devient le lieu où les
+          étudiants en médecine apprennent un code qui leur permet de filtrer
+          un « message » à partir du « bruit » des organes<note n="40" place="end" type="standard" xml:id="ftn40">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 1994 (1966), p. 558.</p>
+            </note>. Ce bruit est décrit par Foucault d’une façon très proche
+          de ce qui est défini par Grey Walter comme un « <hi rend="italic">pattern</hi> »:</p>
+          <quote rend="quotation" xml:id="d1e533">En fait, pour qu’il y ait
+          « message », il faut :<lb/>- qu’il y ait d’abord du bruit […]<lb/>-
+          que ce bruit soit « constitué par » ou du moins « porteur de »
+          divers éléments qui en constituent le sens<lb/>- enfin, que ces
+          éléments se présente liés les uns aux autres selon certaines
+          régularités<note n="41" place="end" type="standard" xml:id="ftn41">
+              <p>Ibid., p. 557.</p>
+            </note>.</quote>
+          <p xml:id="d1e545">À partir de cette définition du bruit, Foucault
+          décrit comment l’expérience clinique isole un certain nombre de
+          traits qui permettent de définir les éléments qui pourraient faire
+          partie d’un « message pathologique ». Cette opération est possible
+          grâce à la constitution d’un code créé selon lui vers 1800 au sein
+          de la médecine occidentale « en tant que corpus de connaissances
+          ainsi qu’en tant qu’institution »<note n="42" place="end" type="standard" xml:id="ftn42">
+              <p>Ibid., p. 559.</p>
+            </note>.<lb/>Toujours dans ce texte, les transformations de ce
+          code sont désormais tenues pour responsables des changements des
+          connaissances médicales.</p>
+          <quote rend="quotation" xml:id="d1e553">- quand ce sont les règles
+          de substitution qui changent, on dit que les « connaissances
+          médicales » progressent ;<lb/>- quand ce sont les principes
+          d’individualisation des éléments du message, on dit que les
+          « méthodes d’observation » se sont perfectionnées ;<lb/>- quand on
+          se met à définir des éléments de message, là où on n’entendait que
+          du bruit, c’est que la médecine s’est adjointe de nouveaux
+          domaines<note n="43" place="end" type="standard" xml:id="ftn43">
+              <p>Ibid., p. 558.</p>
+            </note>.</quote>
+          <p xml:id="d1e563">Le texte se poursuit en présentant l’histoire de
+          la médecine comme une histoire du traitement de l’information.
+          Freud, par exemple, a traité des énoncés de malades qui n’étaient
+          auparavant que des « bruits » comme des « messages » grâce à un
+          nouveau « code ». Les développements dans l’histoire de la médecine
+          sont ainsi liés à ce nouveau « code » modifiable :</p>
+          <quote rend="quotation" xml:id="d1e565">Peut-être aussi fera-t-on un
+          nouveau gain, mais grâce à un nouveau code, etc. Puisque la maladie
+          n’a rien à dire, il n’y a pas de raison qu’un seul code arrive à
+          ‘informer’ tout ce bruit. Cette première opération théorique est
+          faire – et a été faire depuis le début du XIXe siècle – par toute la
+          médecine, prise comme corpus de savoir et comme institution.<note n="44" place="end" type="standard" xml:id="ftn44">
+              <p>Ibid., p. 559.</p>
+            </note>
+          </quote>
+          <p xml:id="d1e571">Les étudiants en médecine apprennent ce code à
+          l’université de même qu’en clinique<note n="45" place="end" type="standard" xml:id="ftn45">
+              <p>Ibid.</p>
+            </note>. Foucault termine son texte en se demandant « si la
+          théorie de la pratique médicale ne pourrait pas être repensée dans
+          les termes qui ne sont plus ceux du positivisme, mais dans ceux qui
+          élaborent actuellement des pratiques comme l’analyse des langues ou
+          les traitements de l’information. » <note n="46" place="end" type="standard" xml:id="ftn46">
+              <p>Ibid., p. 560.</p>
+            </note>.<lb/>Déjà, dans ses notes fragmentaires de 1953 il
+          s’interrogeait sur le sens et les signes à travers la théorie de
+          l’information, théorie qui au même moment était considérée comme une
+          nouvelle possibilité méthodologique, un nouveau « moyen pour définir
+          les processus de la pensée » dans le « champ signalétique ». Treize
+          ans après, elle semble n’avoir rien perdu de cette potentialité
+          méthodologique entrevue, mais devient désormais le moyen de décrire
+          les divers traitements d’informations pratiqués par la médecine. Il
+          s’agit pourtant de deux objets complètement différents. Lorsque dans
+          sa note fragmentaire, Foucault parle du « champ signalétique », il
+          fait référence au traitement du signal du cerveau humain rendu
+          visible par l’EEG. Tandis que lorsqu’il parle de l’histoire de la
+          médecine, ce ne sont pas tant les signaux qui sont visés, mais
+          plutôt la masse documentaire dans laquelle les séries du discours
+          doivent être définies. La transmission des termes de la théorie de
+          l’information reste donc abstraite, mais renvoie néanmoins à un
+          événement technologique et scientifique au sein duquel, Foucault en
+          1966, année de la publication de <hi rend="italic">Les mots et les
+          choses</hi>, voit une telle contemporanéité, une telle gravité,
+          qu’il entreprend une révision de l’histoire de la médecine sur sa
+          base.</p>
+        </div>
+        <div type="section1" xml:id="d1e586">
+          <head subtype="level1" xml:id="d1e587">Conclusion</head>
+          <p xml:id="d1e589">Cette analyse encore parcellaire montre toutefois
+          la nécessité de prendre en compte les fiches de lecture de Foucault
+          afin de réviser ou d’approfondir les (rares) travaux se penchant sur
+          la réception de la théorie de l’information par Foucault. D’une
+          part, ses lectures sur la cybernétique démontrent un engagement bien
+          plus poussé dans le domaine de la science qu’on ne le soupçonnait
+          auparavant. En tant qu’assistant à l’université de Lille, Foucault
+          était certes un familier de la littérature de recherche scientifique
+          contemporaine. Mais surtout, comme il a pu le mentionner dans une
+          lettre adressée à Dumézil, il envisageait aussi une thèse
+          complémentaire sur la « psycho-physique du signal ». Ses fiches de
+          lecture montrent de plus que cette réception de la cybernétique et
+          de la théorie de l’information qui avait commencé au tout début les
+          années 1950 ne se limitait pas aux travaux de Wiener. La note
+          fragmentaire de Foucault montre une attention continue à la question
+          de la différenciation de l’information et de l’énergie,
+          différenciation que l’on retrouve lors de sa conférence au club
+          Tahar Haddad dans laquelle il établit un lien entre la déixologie et
+          la théorie de l’information lui faisant envisager la déixologie
+          comme une sorte de pendant humano-scientifique de la théorie de
+          l’information. Entre 1950 et 1966, Foucault a vu dans la théorie de
+          l’information un potentiel méthodologique, d’abord pour rendre
+          saisissables les processus de pensée puis, en 1966, pour permettre
+          une révision de l’histoire de la médecine. En outre, les fiches
+          montrent que même dans les années 1960 Foucault avait déjà rassemblé
+          des fiches de lectures sur la théorie de l’information sous la forme
+          de divers dossiers. Il continua à y inclure non seulement des textes
+          sur la technologie d’information, mais aussi des travaux comme ceux
+          de MacKay, qui abordent des questions épistémologiques sur la base
+          de concepts de la théorie de l’information. En même temps, ces
+          fiches des années 1960 montrent une convergence dans les écrits de
+          Foucault entre le concept de « <hi rend="italic">pattern</hi> » de
+          Grey Walter, le concept de « <hi rend="italic">time-series</hi> »<hi rend="italic"/>que l’on retrouve dans ses fiches sur Norbert Wiener
+          et sa description des opérations médicales affrontées dans son texte
+          <hi rend="italic">Message ou bruit ? </hi>comme un traitement
+          d’information.</p>
+          <p xml:id="d1e603">Sûrement faudrait-il se pencher plus précisément
+          sur cette réception de la cybernétique et de la théorie de
+          l’information au sein de l’épistémologie française afin de
+          contextualiser la propre réception de Foucault dans ce champ. Il
+          faudrait également examiner les auteurs qui ont critiqué la
+          cybernétique et la théorie de l’information, et qui ont publié au
+          sein de ce que nous pourrions appeler « l’environnement élargi » de
+          Foucault, comme Lucien Febvre ou Raymond Ruyer. Afin d’approfondir
+          la question, des pistes peuvent être dégagées à travers un certain
+          nombre de questions : est-il possible d’établir des rapprochements
+          entre l’archéologie foucaldienne et la théorie de l’information ?
+          Des rapports de subordination ou de complémentarité ne peuvent-ils
+          pas être établis d’une positivité à l’autre, afin d’identifier « la
+          loi de leurs communications<note n="47" place="end" type="standard" xml:id="ftn47">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 1996 (1969), p. 211.</p>
+            </note> ».</p>
+          <bibl xml:id="d1e612">Bibliothèque nationale de France. Fonds Michel
+          Foucault</bibl>
+          <bibl xml:id="d1e614">BNF, NAF 28730, Boîte n° 36, 38, 42b, 44b,
+          54.</bibl>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e617">
+        <head xml:id="d1e618">ArchivesBibliographie</head>
+        <listBibl xml:id="d1e620">
+          <bibl xml:id="d1e621">Bibliothèque nationale de France. Fonds Michel
+          Foucault</bibl>
+          <bibl xml:id="d1e623">BNF, NAF 28730, Boîte n° 36, 38, 42b, 44b,
+          54.</bibl>
+          <bibl xml:id="d1e625">
+            <hi rend="small-caps">De Broglie</hi>, 1951 :
+          Louis <hi rend="small-caps">De Broglie</hi> (éd.), <hi rend="italic">Cybernétique. Théorie du signal et de
+          l’information</hi>, Paris, Éditions de la revue d’optique théorique
+          et instrumentale.</bibl>
+          <bibl xml:id="d1e635">
+            <hi rend="small-caps">Dotzler</hi>, 2008 :
+          Bernhard <hi rend="small-caps">Dotzler</hi>, « Foucault, der
+          Diskurs, die Medien », dans Alexander <hi rend="small-caps">Roesler</hi> et Bernard Stiegler (éd.), <hi rend="italic">Philosophie in der Medientheorie. Von Adorno bis
+          Žižek</hi>, München, Fink, p. 101-116.</bibl>
+          <bibl xml:id="d1e648">
+            <hi rend="small-caps">Dubarle</hi>, 1948 :
+          Pierre <hi rend="small-caps">Dubarle</hi>, « Vers la machine à
+          gouverner », <hi rend="italic">Le Monde</hi>, 28 décembre 1948, p.
+          47-49.</bibl>
+          <bibl xml:id="d1e658">
+            <hi rend="small-caps">Eribon</hi>, 1989 :
+          Didier <hi rend="small-caps">Eribon</hi>, <hi rend="italic">Michel
+          Foucault</hi>, Paris, Flammarion.</bibl>
+          <bibl xml:id="d1e668">
+            <hi rend="small-caps">Eribon</hi>, 1994 :
+          Didier <hi rend="small-caps">Eribon</hi>, <hi rend="italic">Michel
+          Foucault et ses contemporains</hi>, Paris, Fayard.</bibl>
+          <bibl xml:id="d1e678">
+            <hi rend="small-caps">Foucault</hi>, 1994
+          (1957) : Michel <hi rend="small-caps">Foucault</hi>
+            <hi rend="italic">La psychologie de 1850 à 1950</hi>, dans Daniel Defert
+          et François Ewald (éd.), <hi rend="italic">Dits et Écrits I</hi>,
+          Paris, Gallimard, p. 120-137.</bibl>
+          <bibl xml:id="d1e691">
+            <hi rend="small-caps">Foucault</hi>, 1994
+          (1969) : Michel <hi rend="small-caps">Foucault</hi>, <hi rend="italic">Linguistique et sciences sociale</hi>, dans Daniel
+          Defert et François Ewald (éd.), <hi rend="italic">Dits et
+          Écrits</hi>
+            <hi rend="italic">I</hi>, Paris, Gallimard, p.
+          821-841.</bibl>
+          <bibl xml:id="d1e707">
+            <hi rend="small-caps">Foucault</hi>, 1994
+          (1966) : Michel <hi rend="small-caps">Foucault</hi>, <hi rend="italic">Message ou bruit ?</hi> dans Daniel Defert et François
+          Ewald (éd.), <hi rend="italic">Dits et Écrits I</hi>, Paris,
+          Gallimard, p. 557-560.</bibl>
+          <bibl xml:id="d1e720">
+            <hi rend="small-caps">Foucault</hi>, 1994
+          (1977) : Michel <hi rend="small-caps">Foucault</hi>, <hi rend="italic">Enfermement, psychiatrie, prison</hi>, dans Daniel
+          Defert et François Ewald (éd.), <hi rend="italic">Dits et
+          Écrits</hi>
+            <hi rend="italic">III</hi>, Paris, Gallimard, p.
+          332-360.</bibl>
+          <bibl xml:id="d1e737">
+            <hi rend="small-caps">Foucault</hi>, 1996
+          (1969) : Michel <hi rend="small-caps">Foucault</hi>, <hi rend="italic">L’archéologie du savoir</hi>, Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e747">
+            <hi rend="small-caps">Grey Walter</hi>, 1953 :
+          William <hi rend="small-caps">Grey Walter</hi>, <hi rend="italic">The Living Brain</hi>, New York, Norton.</bibl>
+          <bibl xml:id="d1e757">
+            <hi rend="small-caps">Johnson</hi>, 2015 :
+          Christopher<hi rend="small-caps"> Johnson</hi>, « ‟French”
+          Cybernetics », <hi rend="italic">French Studies</hi>, 69, 1, p.
+          60-78.</bibl>
+          <bibl xml:id="d1e767">
+            <hi rend="small-caps">Kittler</hi>, 2002 :
+          Wolf <hi rend="small-caps">Kittler</hi>, « Thermodynamik und
+          Guerilla. Zur Methode von Michel Foucaults Archäologie des
+          Wissens », <hi rend="italic">Trajekte</hi>, 4, p. 16-22.</bibl>
+          <bibl xml:id="d1e777">
+            <hi rend="small-caps">Mcculloch</hi> et <hi rend="small-caps">Mackay</hi>, 1952 : Warren <hi rend="small-caps">Mcculloch</hi> et Donald <hi rend="small-caps">Mackay</hi>, « The limiting information capacity
+          of a neuronal link », <hi rend="italic">Bulletin of mathematical
+          biophysics</hi>, 14, p. 127-135.</bibl>
+          <bibl xml:id="d1e793">
+            <hi rend="small-caps">Mcculloch</hi> et <hi rend="small-caps">Pitts</hi>, 1947 : Warren <hi rend="small-caps">Mcculloch</hi> et Walter <hi rend="small-caps">Pitts</hi>, « How we know universals. The
+          perception of auditory and visual forms », <hi rend="italic">Bulletin of Mathematical Biophysics</hi>, 9,
+          127-147.</bibl>
+          <bibl xml:id="d1e809">
+            <hi rend="small-caps">Mackay</hi>, 1951
+          (2004) : Donald <hi rend="small-caps">Mackay</hi>, « In Search of
+          Basic Symbols », dans Claus Pias (éd.), <hi rend="italic">Cybernetics. The Macy Conferences 1946-1953 Vol.
+          I</hi>, Zurich, Diaphanes, p. 480-508.</bibl>
+          <bibl xml:id="d1e819">
+            <hi rend="small-caps">Mindell</hi> et al.,
+          2003 : David <hi rend="small-caps">Mindell</hi>, Jérôme <hi rend="small-caps">Segal</hi> et Slava <hi rend="small-caps">Gerovitch</hi>, « From Communications Engineering
+          to Communications Science: Cybernetics and Information Theory in the
+          United States, France, and the Soviet Union », dans Mark Walker
+          (éd.), <hi rend="italic">Sciences and Ideology: A comparative
+          History</hi>, London, Rutledge, p. 66-95.</bibl>
+          <bibl xml:id="d1e835">
+            <hi rend="small-caps">Pickering</hi>, 2010 :
+          Andrew <hi rend="small-caps">Pickering</hi>, <hi rend="italic">The
+          Cybernetic Brain. Sketches of another Future</hi>, Chicago, The
+          University of Chicago Press.</bibl>
+          <bibl xml:id="d1e845">
+            <hi rend="small-caps">Ruyer</hi>, 1952 :
+          Rayomond <hi rend="small-caps">Ruyer</hi>, « Le problème de
+          l’information et la cybernétique », <hi rend="italic">Journal de
+          Psychologie</hi>, 45, 4, p. 385-418.</bibl>
+          <bibl xml:id="d1e855">
+            <hi rend="small-caps">Sabot</hi>, 2015 :
+          Philippe <hi rend="small-caps">Sabot</hi>, « Entre psychologie et
+          philosophie. Foucault à Lille, 1952-1955 », dans Jean François Bert
+          et Elisabetta Basso (éd.), <hi rend="italic">Foucault à
+          Münsterlingen</hi>, Paris, Éditions de l’École des hautes études en
+          sciences sociales, p. 105-121.</bibl>
+          <bibl xml:id="d1e866">
+            <hi rend="small-caps">Sabot</hi>, 2016 :
+          Philippe <hi rend="small-caps">Sabot</hi>, « Dans les « Archives »
+          de l’Archéologie. Relire <hi rend="italic">Les Mots et les
+          choses</hi> aujourd’hui », <hi rend="italic">Revista de Filosofia
+          Aurora</hi>, 28, 45, p. 747-766.</bibl>
+          <bibl xml:id="d1e879">
+            <hi rend="small-caps">Schmidgen</hi>, 2020 :
+          Henning <hi rend="small-caps">Schmidgen</hi>, « Cybernetic times:
+          Norbert Wiener, John Stroud, and the ‘brain clock’ hypothesis », <hi rend="italic">History of the Human Sciences</hi>, 33, 1,
+          80-108.</bibl>
+          <bibl xml:id="d1e889">
+            <hi rend="small-caps">Segal</hi>, 2003 :
+          Jérôme <hi rend="small-caps">Segal</hi>, <hi rend="italic">Le zéro
+          et l’un. Histoire de la notion scientifique d’information au
+          20</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> sciècle</hi>,
+          Paris, Syllepse (coll. Matériologiques).</bibl>
+          <bibl xml:id="d1e903">
+            <hi rend="small-caps">Vogl</hi>, 2004 : Joseph
+          <hi rend="small-caps">Vogl</hi>, « Regierung und Regelkreis.
+          Historisches Vorspiel », dans Claus Pias (éd.), <hi rend="italic">Cybernetics. </hi>
+            <hi rend="italic">The Macy
+          Conferences 1</hi>
+            <hi rend="italic">946-1953 Vol. I</hi>, Zurich,
+          Diaphanes, p. 68-79.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

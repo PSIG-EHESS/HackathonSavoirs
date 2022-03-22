@@ -1,0 +1,1036 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-836_Kyriakidis">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">
+                    <hi xml:lang="fr">Erreurs à Delphes. La tholos de Marmaria au fil des
+                        interprétations (<hi rend="italic">ca</hi> 1840-1940)<note type="standard" xml:id="ftn1" place="foot" n="1">
+              <p> J’adresse tous mes remerciements à
+                                S. Rey qui m’a offert l’opportunité de me pencher sur un monument
+                                des plus riches pour qui veut étudier l’historiographie de la
+                                recherche à Delphes. Ma reconnaissance va à Mmes A. Jacquemin,
+                                C. Bonnet et H. Brun-Siard ainsi qu’à M.D. Laroche qui m’ont guidé
+                                de leurs conseils. Toutes les imperfections de ce texte sont de mon
+                                fait.</p>
+            </note>
+          </hi>
+                </title>
+                <author>
+                    <persName>
+                        <forename>Nicolas</forename>
+                        <surname>Kyriakidis</surname>
+                    </persName>
+                    <affiliation> Université de Strasbourg – École française d’Athènes<lb/>
+                            ÉfA<lb/>
+            <hi rend="author-email">nicolas.kyriakidis@efa.gr</hi>
+                    </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+                        Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>« Savoirs » est une plateforme de publication numérique vouée à l’histoire et à
+                    l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS
+                    (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une
+                    archive d’articles ou une collection de livres, il s’agit d’une bibliothèque
+                    « intelligente » et expérimentale qui propose des parcours de lecture
+                    heuristiques et réflexifs entre les textes, grâce à différents algorithmes de
+                    recherche et de suggestions reposant notamment sur un balisage des lieux, des
+                    dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs
+                        (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel
+                        XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données
+                        géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour
+                        l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références
+                        Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes
+                        pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>historiography</item>
+                        <item>Delphi</item>
+                        <item>Tholos</item>
+                        <item>architecture</item>
+                        <item>history of research</item>
+                        <item>error</item>
+                        <item>archaeology</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>historiographie</item>
+                        <item>archéologie</item>
+                        <item>Delphes</item>
+                        <item>Tholos</item>
+                        <item>architecture</item>
+                        <item>erreur</item>
+                        <item>histoire de la recherche</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">
+                        <hi xml:lang="fr">Erreurs à Delphes. La tholos de Marmaria au fil des
+                            interprétations (<hi rend="italic">ca</hi> 1840-1940)<note type="standard" xml:id="ftn1" place="foot" n="1">
+                <p> J’adresse tous
+                                    mes remerciements à S. Rey qui m’a offert l’opportunité de me
+                                    pencher sur un monument des plus riches pour qui veut étudier
+                                    l’historiographie de la recherche à Delphes. Ma reconnaissance
+                                    va à Mmes A. Jacquemin, C. Bonnet et H. Brun-Siard ainsi qu’à
+                                    M.D. Laroche qui m’ont guidé de leurs conseils. Toutes les
+                                    imperfections de ce texte sont de mon fait.</p>
+              </note>
+            </hi>
+                    </titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Nicolas Kyriakidis</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e231">
+                <p xml:id="d1e232">L’article a pour objet d’étudier les principales erreurs qui,
+                    entre 1840 et 1940, ont été commises dans l’étude du monument connu sous le nom
+                    de tholos de Marmaria à Delphes. À travers les différents enjeux de l’étude du
+                    monument, le rapport entre les textes et les vestiges, entre la restitution de
+                    l’élévation et la datation, entre restitution de l’aménagement intérieur et
+                    fonction, entre la conception de l’édifice et sa signification, les principales
+                    sources d’erreurs ont été une lecture naïve du rapport entre sources textuelles
+                    et archéologiques, l’application de postulats théoriques alliés à un défaut
+                    d’observation, que celui-ci soit dû à la force du présupposé qui peut
+                    conditionner le regard de l’archéologue ou à des considérations
+                    extra-scientifiques (enjeux de carrière et d’école, fièvre nationaliste ou haine
+                    personnelle). Dans la plupart des cas, c’est le retour aux vestiges avec un
+                    regard neuf qui permet d’écarter les hypothèses erronées.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e234">
+                <p xml:id="d1e235">
+                    <hi xml:lang="en">The article deals with the chief errors which between 1840 and
+                        1940 were made in the study of a monument known under the name of Marmaria’s
+                        Tholos at Delphi. Running through the various issues at stake in the study
+                        of the monument, the relationship between texts and vestiges, between
+                        restitution of the height and datation, between restitution of the interior
+                        fitting out and function, between the conception of the edifice and its
+                        meaning, the chief sources of errors have sprung from a naive reading of the
+                        relation between textual and archeological sources, the application of
+                        theoretical postulates wedded to faulty observation whether the latter was
+                        due to the strength of the presupposition that could bias the archeologist’s
+                        view or to extra-scientific considerations (careers or school concern at
+                        stake, nationalistic fever or personal hatred). In most cases, it is by
+                        going back to the vestiges with fresh eyes that erroneous hypotheses can be
+                        ruled out. </hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <p xml:id="d1e242">Depuis sa première découverte en 1836, la tholos du sanctuaire
+                d’Athéna Pronaia à Delphes, au lieu-dit Marmaria, édifice aussi exceptionnel que
+                mystérieux, a attiré l’attention des archéologues et a suscité une abondante
+                littérature savante. Des hypothèses, dont nombre sont aujourd’hui tenues pour
+                erronées, ont été proposées pour sa restitution, son affectation et sa datation,
+                jusqu’à ce qu’on parvienne au début des années 1940 à un état de la recherche que
+                l’on peut qualifier de contemporain – quoique la connaissance du bâtiment ait
+                significativement progressé ces dernières années<note type="standard" xml:id="ftn2" place="foot" n="2">
+          <p> Pour un état actuel des connaissances et une première
+                        approche, cf. J<hi rend="small-caps">.-</hi>F<hi rend="small-caps">. </hi>B<hi rend="small-caps">ommelaer</hi>, D<hi rend="small-caps">. </hi>L<hi rend="small-caps">aroche</hi>, <hi rend="italic">Guide de
+                            Delphes. Le site</hi>, 1991, n° 40 et J.-F. <hi rend="small-caps">Bommelaer</hi> (éd.), <hi rend="italic">Marmaria. Le sanctuaire
+                            d’Athéna à Delphes</hi>, 1997, <hi rend="italic">passim.</hi>
+                        Principales contributions depuis 1940  : G. Roux, « Le toit de la tholos de
+                        Marmaria et la couverture des monuments circulaires grecs », <hi rend="italic">Bulletin de correspondance hellénique</hi> 76 (1952),
+                        p. 442-483  ; J. <hi rend="small-caps">Bousquet</hi>, “La destination de la
+                        Tholos de Delphes”, <hi rend="italic">Revue historique</hi> 223 (1960),
+                        p. 287-298  ; G. Roux, “Pausanias, le ‘Contre Aristogiton’ et les ‘Énigmes
+                        de Marmaria’ à Delphes”, <hi rend="italic">Revue des Études anciennes
+                        </hi>67 (1965), p. 37-48  ; S<hi rend="small-caps">. </hi>S<hi rend="small-caps">ettis</hi>, “Un enigma delfico, Pausania, la tholos e
+                        il Phylakeion”, <hi rend="italic">Annuario della Scuola Archeologica di
+                            Atene </hi>45-46 (1967-1968), p. 355-377  ; G. <hi rend="small-caps">Roux</hi>, <hi rend="italic">Delphes, son oracle et ses dieux,</hi>
+                        1976, p. 191-192  ; J<hi rend="small-caps">. </hi>M<hi rend="small-caps">arcadé</hi>, “Les métopes mutilées de la tholos de Marmaria à Delphes”,
+                            <hi rend="italic">Comptes rendus des séances de l’Académie des
+                            inscriptions et belles lettres</hi> (1979), p. 151-170, p. 151-170  ;
+                            J. <hi rend="small-caps">Bousquet</hi>, “Réflexions sur la Tholos de
+                        Delphes”, <hi rend="italic">Revue des Études grecques</hi> 93 (1980),
+                        p. X-XI  ; L<hi rend="small-caps">. </hi>L<hi rend="small-caps">erat</hi>,
+                        “Les ‘énigmes de Marmaria’”, <hi rend="italic">Bulletin de correspondance
+                            hellénique</hi> 109 (1985), p. 255-264  ; F<hi rend="small-caps">. </hi>S<hi rend="small-caps">eiler</hi>, <hi rend="italic">Die
+                            griechische Tholos. Untersuchungen zur Entwicklung, Typologie und
+                            Funktion kunstmässiger Rundbauten</hi>, 1986, p. 56-71  ; G. Roux, “La
+                        tholos d’Athéna Pronaia dans son sanctuaire de Delphes”, <hi rend="italic">Comptes rendus des séances de l’Académie des inscriptions et belles
+                            lettres</hi> (1988), p. 290-309 et 835-839  ; G<hi rend="small-caps">. </hi>R<hi rend="small-caps">oux</hi>, “Une querelle de préséance à
+                        Delphes  : la promantie des Tarentins et des Thouriens”, <hi rend="italic">Zeitschrift für Papyrologie und Epigraphik </hi>80 (1990), p. 23-29  ;
+                            D<hi rend="small-caps">. </hi>L<hi rend="small-caps">aroche</hi>, “La
+                        Tholos de Delphes  : formes et destination”, in J<hi rend="small-caps">.-</hi>F<hi rend="small-caps">. </hi>B<hi rend="small-caps">ommelaer</hi> (éd.), <hi rend="italic">Delphes, centenaire de la
+                            « grande fouille » de l’École française d’Athènes (1892-1903), Actes du
+                            colloque Paul Perdrizet, Strasbourg 6-9 novembre 1991</hi>, 1992,
+                        p. 207-223  ; J<hi rend="small-caps">. </hi>B<hi rend="small-caps">ousquet</hi>, “La tholos de Delphes et les mathématiques
+                        préeuclidiennes”, <hi rend="italic">Bulletin de correspondance
+                            hellénique</hi> 117 (1993), p. 285-313  ; J<hi rend="small-caps">.-</hi>F<hi rend="small-caps">. </hi>B<hi rend="small-caps">ommelaer</hi>, “Sur quelques nouveautés de l’architecture du <hi rend="small-caps">iv</hi>
+            <hi rend="sup">e</hi> siècle”, in P<hi rend="small-caps">. </hi>C<hi rend="small-caps">arlier</hi> (éd.), <hi rend="italic">Le </hi>
+            <hi rend="italic">
+              <hi rend="small-caps">iv</hi>
+            </hi>
+            <hi rend="sup">
+              <hi rend="italic">e</hi>
+            </hi>
+            <hi rend="italic"> siècle av. J.-C. Approches historiographiques, Actes du
+                            colloque Nancy 1994</hi>, 1996, p. 141-151  ; W<hi rend="small-caps">. </hi>H<hi rend="small-caps">oepfner</hi>, “Zur Tholos in Delphi”, <hi rend="italic">Archäologische Anzeiger</hi> (2000), p. 99-107 [cf. <hi rend="italic">Bull. analyt. d’arch</hi>. 2002, 228]. Pour ce qui a trait
+                        à l’histoire de la recherche à Delphes, cf. Collectif, <hi rend="italic">La
+                            redécouverte de Delphes</hi>, 1992.</p>
+        </note>. Cet édifice, remarquable
+                à plusieurs égards, se prête donc particulièrement bien à une enquête
+                historiographique dans le cadre d’une journée d’étude consacrée à l’erreur dans les
+                Sciences de l’Antiquité.</p>
+            <p xml:id="d1e430">L’intérêt que l’on porte à la tholos s’explique pour plusieurs
+                raisons. Le bâtiment se singularise tout d’abord par l’originalité de son plan, la
+                rotonde, rare dans l’architecture grecque. Le défi que représente la conception de
+                l’édifice a justifié que son architecte lui ait consacré un livre dont le titre seul
+                nous est conservé par Vitruve<note type="standard" xml:id="ftn3" place="foot" n="3">
+          <p> Vitruve, VII, préf. 12.</p>
+        </note>. Le coût de sa construction a été
+                très important car les matériaux mis en œuvre (marbre pentélique et calcaire sombre
+                d’Éleusis) ont été importés d’aussi loin qu’Athènes ; la qualité de la finition
+                ensuite est des plus remarquables ; ce bâtiment s’est vu adjoindre un décor sculpté.
+                Toutes ces caractéristiques contribuent à en faire un monument « de prestige » dès
+                l’Antiquité. Sa réputation n’a fait que s’amplifier chez les Modernes. Ainsi,
+                lorsque Th. Homolle informe l’Académie des inscriptions et belles lettres de sa
+                redécouverte en 1901, il précise que « la tholos […] est plus ancienne, plus riche
+                avec simplicité et plus parfaite d’exécution que les édifices analogues d’Épidaure
+                ou d’Olympie<note type="standard" xml:id="ftn4" place="foot" n="4">
+          <p> Th<hi rend="small-caps">. </hi>H<hi rend="small-caps">omolle</hi>, “Séance du
+                        23 octobre 1901”, <hi rend="italic">Comptes rendus des séances de l’Académie
+                            des inscriptions et belles lettres</hi> (1901), p. 639.</p>
+        </note> » et
+                la qualifie peu après de « fin bijou de l’architecture antique<note type="standard" xml:id="ftn5" place="foot" n="5">
+          <p> Th. <hi rend="small-caps">Homolle</hi>,
+                        “Fouilles de Delphes. Les découvertes de Marmaria”, <hi rend="italic">Revue
+                            de l’art ancien et moderne </hi>15 (1904), p. 20.</p>
+        </note> ». Pour
+                É. Bourguet, elle est « un des chef d’œuvres les plus illustres […] un de ces rares
+                modèles que l’on admire dès le premier regard, mais pour lesquels l’admiration
+                grandit à mesure qu’on les connaît mieux<note type="standard" xml:id="ftn6" place="foot" n="6">
+          <p>
+                        <hi rend="small-caps">É. </hi>B<hi rend="small-caps">ourguet</hi>, <hi rend="italic">Les ruines de Delphes</hi>, 1914, p. 320.</p>
+        </note> ».
+                Pourtant, ce monument est très mal documenté : aucune inscription ne nous informe
+                sur les commanditaires de l’ouvrage ou sur sa destination, aucun texte non plus à
+                part le passage allusif de Vitruve. Il semble bien que, pour une raison inconnue qui
+                n’a cessé d’étonner les archéologues, Pausanias n’ait pas mentionné la tholos dans
+                sa description du sanctuaire d’Athéna Pronaia<note type="standard" xml:id="ftn7" place="foot" n="7">
+          <p>
+                        <hi xml:lang="en">Pausanias, X, 8, 6-8.</hi>
+          </p>
+        </note>. Ne pouvant accepter
+                ce silence pour un monument qui leur semblait parmi les plus dignes d’être notés et
+                commentés, les archéologues ont voulu le retrouver dans des bâtiments cités par
+                Pausanias ou mentionnés dans des inscriptions, sans qu’aucune proposition ne
+                parvienne à faire l’unanimité.</p>
+            <p xml:id="d1e483">Ce silence des auteurs anciens ou notre incapacité à repérer les
+                éventuelles mentions textuelles de la tholos expliquent, pour une part, l’abondance
+                de la bibliographie la concernant : on compte une cinquantaine de références, dont
+                plusieurs monographies, qui lui sont entièrement consacrées. C’est à cette
+                production savante, professionnelle, à portée scientifique que je bornerai mon étude
+                en m’intéressant aux scories de la recherche : les hypothèses ou les interprétations
+                erronées. La production scientifique sur ce bâtiment s’articule autour de trois
+                questions, traditionnelles en architecture mais ici particulièrement ardues : celle
+                de la restitution architecturale de l’édifice, celle de sa datation, celle enfin de
+                sa fonction. Ces trois questions entretiennent des relations complexes  : si la
+                datation d’une part et la fonction de l’autre sont relativement indépendantes, elles
+                sont chacune liées à la restitution. C’est pour répondre à ces interrogations que
+                les archéologues ont sollicité les sources textuelles et matérielles en rapport avec
+                ce monument.</p>
+            <p xml:id="d1e485">Sans chercher d’emblée à définir le concept d’erreur, qui pose
+                problème dans le domaine des Sciences de l’homme où, bien souvent, les résultats se
+                placent dans le champ de la vraisemblance ou de la conviction, je me contenterai
+                d’une acception pour ainsi dire « historiographique » : est erroné ce qui n’a plus
+                cours, ce qui n’est plus jugé actuel par la communauté des professionnels de la
+                discipline. S’agissant de la tholos de Delphes, on peut analyser le fonctionnement
+                particulier de ces errances, tant pour ce qui relève de la mise en œuvre du
+                raisonnement scientifique que pour le contexte historique déterminé – et souvent
+                déterminant – dans lequel il se développe.</p>
+            <div type="div1" xml:id="d1e487">
+                <head subtype="level1" xml:id="d1e488">Les textes et l’identification des
+                    vestiges</head>
+                <p xml:id="d1e490">Lorsque l’architecte Laurent, Allemand de Dresde au service du
+                    jeune État grec, fut envoyé à Kastri (nom moderne de Delphes) en octobre 1838
+                    pour des affaires de cadastre, il se saisit de l’occasion pour mener des
+                    fouilles d’ampleur limitée au lieu-dit Marmaria. Le fruit de ses travaux nous
+                    est parvenu grâce à son compatriote l’universitaire H.N. Ulrichs qui prit soin
+                    de les faire connaître en même temps qu’il publiait en 1840 le récit de son
+                    propre voyage archéologique<note type="standard" xml:id="ftn8" place="foot" n="8">
+            <p>
+                            <hi xml:lang="en">H</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">.</hi>
+              </hi>
+              <hi xml:lang="en">N</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">. </hi>
+              </hi>
+              <hi xml:lang="en">U</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">lrichs</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Reisen und
+                                    Forschungen</hi>
+              </hi>
+              <hi xml:lang="en">,</hi>
+              <hi rend="italic">
+                <hi xml:lang="en"> </hi>
+              </hi>
+              <hi xml:lang="en">1840,
+                                p. 263-264.</hi>
+            </p>
+          </note>. Ulrichs présente quatre monuments
+                    fouillés ou plutôt sondés par Laurent sur la terrasse du sanctuaire d’Athéna à
+                    Marmaria. Seule la tholos retint son attention, tant pour son état de
+                    conservation que pour la qualité du travail des blocs de l’élévation. Dès lors,
+                    l’attribution semblait acquise : le plus <hi rend="italic">beau </hi>monument
+                    est forcément le plus <hi rend="italic">important </hi>dans la tradition
+                    textuelle. Il ne pouvait donc s’agir que du temple d’Athéna Pronaia, connu par
+                    des mentions d’Hérodote<note type="standard" xml:id="ftn9" place="foot" n="9">
+            <p> Hérodote, I, 92.</p>
+          </note>, de Démosthène<note type="standard" xml:id="ftn10" place="foot" n="10">
+            <p> Démosthène, <hi rend="italic">Contre
+                                Aristogiton</hi>, I, 34.</p>
+          </note> et de Pausanias<note type="standard" xml:id="ftn11" place="foot" n="11">
+            <p> Pausanias, X, 8,
+                            6-8.</p>
+          </note>. Et si les vestiges n’étaient pas assez loquaces, il
+                    semblait parfaitement licite de les faire parler grâce aux textes. Hérodote et
+                    Pausanias mentionnent le <hi rend="italic">pronaos</hi> du temple d’Athéna. Ce
+                    qui est banal pour un édifice rectangulaire est très rare pour une rotonde.
+                    Comment imaginer une rotonde à <hi rend="italic">pronaos</hi> ? Un exemple
+                    prestigieux offre un modèle tout trouvé : le panthéon dit d’Agrippa à Rome.
+                    C’est donc à sa ressemblance qu’Ulrichs proposa de restituer la tholos, hors de
+                    toute preuve matérielle. Les tambours trouvés en fouille furent interprétés
+                    comme étant ceux du <hi rend="italic">pronaos</hi>, et de tenter de faire
+                    correspondre les fragments de statues découverts avec ceux des œuvres citées par
+                    les auteurs antiques.</p>
+                <p xml:id="d1e559">Plus d’une génération après, dans les années 1860, P. Foucart,
+                    premier membre de l’École française d’Athènes à entreprendre des travaux
+                    d’importance à Delphes, visita Marmaria. Force lui fut de constater qu'« il est
+                    impossible d’y rien reconnaître<note type="standard" xml:id="ftn12" place="foot" n="12">
+            <p> P<hi rend="small-caps">. </hi>F<hi rend="small-caps">oucart</hi>,
+                                <hi rend="italic">Mémoire sur les ruines et l’histoire de
+                                Delphes</hi>, 1865, p. 12-13.</p>
+          </note> ». Les vestiges ont
+                    tellement été perturbés que l’interprétation n’en est plus possible. P. Foucart
+                    fut contraint de paraphraser, en la citant, la présentation d’Ulrichs. Il alla
+                    cependant plus loin que lui en datant, explicitement, la tholos d’avant
+                    Hérodote, c’est-à-dire, au plus tard, de la fin de l’époque archaïque. Une de
+                    ses remarques est particulièrement intéressante. Il nota la différence
+                    d’appareil entre le mur de terrasse, polygonal à joints courbes qui est daté
+                    aujourd’hui du <hi rend="small-caps">vi</hi>
+          <hi rend="sup">e</hi> s. et qu’il
+                    attribue à une « haute antiquité », et celui de la tholos. Plutôt que de
+                    remettre en cause l’identification entre le <hi rend="italic">beau</hi> temple
+                    des textes et les <hi rend="italic">beaux</hi> vestiges de la fouille, il
+                    supposa alors l’existence d’un état antérieur, contemporain de la terrasse, les
+                    vestiges encore visibles, c’est-à-dire la tholos, restant interprétés comme le
+                    temple de la fin de l’archaïsme vu par Hérodote. Or, l’étude architecturale
+                    postérieure a établi que, pour des raisons de datation, cette identification
+                    était impossible<note type="standard" xml:id="ftn13" place="foot" n="13">
+            <p>
+                            C’est le « temple en tuf » qui est interprété comme le temple d’Athéna
+                            de la fin de l’archaïsme. Cf. J.-F. <hi rend="small-caps">Bommelaer</hi>, D. <hi rend="small-caps">Laroche</hi>, <hi rend="italic">Guide de Delphes</hi>, n° 29.</p>
+          </note>. Cet exemple
+                    montre le danger, permanent, qu’il y a à voir le terrain et les vestiges à
+                    travers le prisme déformant des sources textuelles au mépris de
+                    l’observation.</p>
+                <p xml:id="d1e600">Achevons sur une dernière considération pour montrer comment l’on
+                    passe de <hi rend="italic">l’erreur</hi> à la <hi rend="italic">faute</hi>.
+                    Ulrichs donne dans son ouvrage un plan levé par Laurent. Les vestiges de
+                    Marmaria y sont peu visibles, car il s’agit d’un relevé (cf. <hi rend="italic">infra </hi>fig. 1). Ulrichs récupère le fond de carte pour y restituer les
+                    monuments antiques (cf. <hi rend="italic">infra </hi>fig. 2). Cette rotonde si
+                    belle promue au rang de temple d’Athéna se doit d’« accrocher » le regard du
+                    lecteur. Si l’on se fie à l’échelle de son plan, c’est un monument de près de
+                    25 m de diamètre. Or, le diamètre de la tholos est de 13,50 m<note type="standard" xml:id="ftn14" place="foot" n="14">
+            <p> J.-F. <hi rend="small-caps">Bommelaer</hi> (éd.), <hi rend="italic">Marmaria…</hi>, p. 59.</p>
+          </note> au dernier degré de la <hi rend="italic">krépis</hi>. Approximation normale pour un plan à si petite
+                    échelle ? Dessin au hasard en l’absence de relevé précis, comme semble
+                    l’indiquer l’absence de toute donnée chiffrée dans son rapport des activités de
+                    Laurent ? Volonté de faire correspondre l’ampleur topographique à l’importance
+                    littéraire ? En tout cas, à identification fausse, plan faux.</p>
+                <p rend="figure-title" xml:id="d1e629">Fig. 1 : site de Delphes, plan des vestiges
+                    antiques relevés par Laurent (1838) in H<hi rend="small-caps">. </hi>N<hi rend="small-caps">. </hi>U<hi rend="small-caps">lrichs</hi>, <hi rend="italic">Reisen und Forschungen</hi>, vol. I, deuxième planche hors
+                    texte.</p>
+                <p xml:id="d1e643">
+                    <figure xml:id="d1e644">
+                        <graphic url="http://journals.openedition.org/anabases/docannexe/image/836/img-1.png"/>
+                    </figure>
+                </p>
+                <p rend="figure-title" xml:id="d1e646">Fig. 2 : site de Delphes, plan restitué par
+                    Ulrichs (1840) in H<hi rend="small-caps">.</hi>N<hi rend="small-caps">. </hi>U<hi rend="small-caps">lrichs</hi>, <hi rend="italic">Reisen und
+                        Forschungen</hi>, vol. I, première planche hors texte.</p>
+                <p xml:id="d1e660">
+                    <figure xml:id="d1e661">
+                        <graphic url="http://journals.openedition.org/anabases/docannexe/image/836/img-2.png"/>
+                    </figure>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e663">
+                <head subtype="level1" xml:id="d1e664">Restitution et datation : la colonnade
+                    extérieure et la datation du monument</head>
+                <p xml:id="d1e666">Les fouilleurs français qui mettent au jour les monuments et leur
+                    attribuent les fragments ainsi découverts se servent de deux critères – les plus
+                    évidents car les mieux étudiés à l’époque – pour dater la tholos. Le premier est
+                    le profil de l’échine de son chapiteau dorique, le second, le style des métopes
+                    sculptées. Th. Homolle place les premiers dans la continuité du Parthénon
+                    (achevé pour l’essentiel en 438), les seconds entre l’Érechtheion et le Mausolée
+                    (fin <hi rend="small-caps">v</hi>
+          <hi rend="sup">e</hi> et 1<hi rend="sup">re</hi> moitié du <hi rend="small-caps">iv</hi>
+          <hi rend="sup">e </hi>s.)<note type="standard" xml:id="ftn15" place="foot" n="15">
+            <p> Th.
+                                <hi rend="small-caps">Homolle</hi>, “Séance du 23 octobre 1901”,
+                            p. 639.</p>
+          </note>. Avec les sculptures d’Épidaure, invoquées par
+                        É. Bourguet<note type="standard" xml:id="ftn16" place="foot" n="16">
+            <p> É.
+                                <hi rend="small-caps">Bourguet</hi>, <hi rend="italic">Les ruines de
+                                Delphes</hi>, p. 320.</p>
+          </note>, qui, lui, situe la tholos au
+                    premier tiers du <hi rend="small-caps">iv</hi>
+          <hi rend="sup">e</hi> s., les
+                    principaux parallèles sont trouvés. Dès lors, il s’agit de trancher : « fin <hi rend="small-caps">v</hi>
+          <hi rend="sup">e</hi> ou début <hi rend="small-caps">iv</hi>
+          <hi rend="sup">e </hi>»<note type="standard" xml:id="ftn17" place="foot" n="17">
+            <p> Rappelons que la tholos est aujourd’hui datée vers
+                            380-370, cf. J.-F. <hi rend="small-caps">Bommelaer</hi>, D. <hi rend="small-caps">Laroche</hi>, <hi rend="italic">Guide de
+                                Delphes</hi>, n° 40.</p>
+          </note> ? La question est plus importante
+                    qu’il peut sembler à première vue : cela fait d’abord une bonne génération
+                    d’écart  ; mais, surtout, il s’agit de savoir si, dans l’histoire de l’art et de
+                    l’architecture, la tholos tient plus du style parthénonien, de la <hi rend="italic">haute</hi> période qui est la <hi rend="italic">bonne</hi>
+                    période, ou s’il faut la ranger au <hi rend="small-caps">iv</hi>
+          <hi rend="sup">e</hi> s. parmi les prodromes du second classicisme.</p>
+                <p xml:id="d1e742">Les deux premières études globales du monument sont celle de
+                    H. Pomtow et de son architecte H. Wenzel, publication « pirate » parue dans la
+                    revue <hi rend="italic">Klio</hi> en 1912<note type="standard" xml:id="ftn18" place="foot" n="18">
+            <p>
+                            <hi xml:lang="en">H</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">. </hi>
+              </hi>
+              <hi xml:lang="en">R</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">. </hi>
+              </hi>
+              <hi xml:lang="en">P</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">omtow</hi>
+              </hi>
+              <hi xml:lang="en">, “Die grosse Tholos zu Delphi und die Bestimmung der delphischen
+                                Rundbauten”, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Klio
+                                </hi>
+              </hi>
+              <hi xml:lang="en">12 (1912), p. 179-218 et
+                            281-307.</hi>
+            </p>
+          </note> et celle de J. Charbonneaux et K. Gottlob, la
+                    publication officielle, dans la série des <hi rend="italic">Fouilles de
+                        Delphes</hi> en 1925<note type="standard" xml:id="ftn19" place="foot" n="19">
+            <p> J<hi rend="small-caps">. </hi>C<hi rend="small-caps">harbonneaux</hi>, <hi rend="italic">FD </hi>II 4, <hi rend="italic">Le sanctuaire d’Athéna Pronaia. La Tholos</hi>, 1925.</p>
+          </note>.
+                    Ces deux études, concurrentes et de qualité bien inégale, ont eu à relever le
+                    défi de la restitution de l’élévation d’une tholos qui n’était connue qu’en
+                    plan. La seule certitude que l’on pouvait tirer des tambours de colonne, qui
+                    avaient beaucoup souffert et se laissaient mal mesurer, était qu’ils étaient
+                    tous de la même hauteur, ce qui est exceptionnel<note type="standard" xml:id="ftn20" place="foot" n="20">
+            <p> Mesures extrêmes  : 1,105 m et 1,129
+                            m  ; h. moy. autour de 1,115 m.</p>
+          </note>. Dès lors que le chapiteau de
+                    la colonne orientait vers la fin du <hi rend="small-caps">v</hi>
+          <hi rend="sup">e</hi> s., la question du nombre de tambours ne semble même pas s’être
+                    posée  : tant Pomtow et Wenzel<note type="standard" xml:id="ftn21" place="foot" n="21">
+            <p> H.R. <hi rend="small-caps">Pomtow</hi>, « Die grosse Tholos… »,
+                            p. 184-185.</p>
+          </note> que Charbonneaux et Gottlob<note type="standard" xml:id="ftn22" place="foot" n="22">
+            <p> J. <hi rend="small-caps">Charbonneaux</hi>, <hi rend="italic">FD </hi>II 4. <hi rend="italic">La Tholos</hi>, p. 4.</p>
+          </note> restituèrent sans
+                    hésiter quatre tambours à la colonne, soit une hauteur de 4,813 m (chapiteau
+                    compris), avec un diamètre inférieur à 0,868 m. On obtenait ainsi la proportion
+                    de référence de 5,54 (hauteur de la colonne/diamètre inf.). Cette proportion
+                    prenait place dans une série bien étudiée, les colonnes devenant plus élancées
+                    avec le temps : 5,5 au Parthénon  ; 6,09 au temple d’Athéna Aléa à Tégée (ca
+                    345-335)  ; 6,64 au temple de Zeus à Némée (ca 330-320)<note type="standard" xml:id="ftn23" place="foot" n="23">
+            <p> Pour une introduction à ces questions
+                            et une bibliographie, cf. par ex. M.-C. <hi rend="small-caps">Hellmann</hi>, <hi rend="italic">L’architecture grecque, </hi>I.
+                            Les principes de la construction, 2002, p. 136-137.</p>
+          </note>. Comme
+                    l’écrit H. Pomtow, c’est la hauteur <hi rend="italic">normale</hi>, attendue
+                    pour la période<note type="standard" xml:id="ftn24" place="foot" n="24">
+            <p> H.R.
+                                <hi rend="small-caps">Pomtow</hi>, “Die grosse Tholos…”, p. 185
+                            n. 4.</p>
+          </note> et en retour, la restitution justifie la datation de ce
+                    bâtiment d’aspect post-parthénonien<note type="standard" xml:id="ftn25" place="foot" n="25">
+            <p> Cf. par exemple J. <hi rend="small-caps">Charbonneaux</hi>, <hi rend="italic">FD </hi>II 4.<hi rend="italic"> La Tholos</hi>, pl. XXVIII et XXX. Nous n’abordons pas ici le
+                            problème de la restitution de la toiture qui justifierait à lui seul une
+                            étude séparée.</p>
+          </note>. Dans une fourchette de datation qui va de la
+                    fin du <hi rend="small-caps">v</hi>
+          <hi rend="sup">e</hi> s. au milieu du <hi rend="small-caps">iv</hi>
+          <hi rend="sup">e</hi>, la proportion des colonnes
+                    s’ajoute au profil des chapiteaux et à la modénature des moulures qui tous vont
+                    dans le sens d’une datation haute. C’est à partir de ces éléments « nobles » du
+                    bâtiment que J. Charbonneaux défend la datation la plus haute possible : dernier
+                    quart du <hi rend="small-caps">v</hi>
+          <hi rend="sup">e</hi> s.<note type="standard" xml:id="ftn26" place="foot" n="26">
+            <p> J. <hi rend="small-caps">Charbonneaux</hi>, <hi rend="italic">FD </hi>II
+                                4.<hi rend="italic"> La Tholos</hi>, p. 32.</p>
+          </note>. Par
+                    attraction, il considère que les sculptures permettent une datation au dernier
+                    quart du <hi rend="small-caps">v</hi>
+          <hi rend="sup">e</hi>/1<hi rend="sup">er</hi> quart du <hi rend="small-caps">iv</hi>
+          <hi rend="sup">e</hi>, alors
+                    qu’elles passaient plutôt comme étant du 1<hi rend="sup">er</hi> tiers du <hi rend="small-caps">iv</hi>
+          <hi rend="sup">e</hi>.</p>
+                <p xml:id="d1e916">Cette datation haute rencontra le scepticisme de R. Demangel,
+                    exprimé dans le fascicule suivant des <hi rend="italic">Fouilles de
+                    Delphes</hi>, consacré à la topographie du sanctuaire de Marmaria, qui parut un
+                    an plus tard, en 1926  ; cet auteur se fondait sur les techniques constructives
+                    (scellements en crampons) et sur divers détails architectoniques (hauteur des
+                    gouttes du larmier) pour proposer une datation au premier tiers du <hi rend="small-caps">iv</hi>
+          <hi rend="sup">e</hi> s. qu’il confina cependant à
+                    une note de bas de page<note type="standard" xml:id="ftn27" place="foot" n="27">
+            <p> R<hi rend="small-caps">. </hi>D<hi rend="small-caps">emangel</hi>,
+                                <hi rend="italic">FD</hi> II<hi rend="italic">. Le sanctuaire
+                                d’Athéna Pronaia (Marmaria). Topographie du sanctuaire</hi>, 1926,
+                            p. 190 n. 3.</p>
+          </note>.</p>
+                <p xml:id="d1e943">Tel était l’état de la recherche lorsqu’en 1936, à la suite d’un
+                    enchaînement de circonstances qui n’éclaire pas notre propos, l’École française
+                    d’Athènes obtint de J. Zay, ministre de l’Instruction Publique, des crédits
+                    exceptionnels dont une partie fut consacrée à l’anastylose – c’est-à-dire à la
+                    restauration et au remontage – de trois des colonnes extérieures de la tholos.
+                    Deux jeunes membres en poste à Athènes, P. Amandry et J. Bousquet, furent
+                    chargés de l’ingrate tâche de faire, d’après publication, l’inventaire des
+                    tambours disponibles afin de voir ceux dont l’état permettait l’utilisation dans
+                    l’anastylose. Grâce notamment à une technique de mesure minutieuse du <hi rend="italic">fond des cannelures</hi> là où J. Charbonneux et K. Gottlob
+                    n’avaient mesuré que la hauteur des tambours (il est en effet très difficile de
+                    prendre le diamètre des colonnes, car le pentélique se délite verticalement),
+                    ils se rendirent compte que les tambours ne se répartissaient pas en quatre
+                    groupes, mais en cinq, d’après le diamètre régulièrement décroissant<note type="standard" xml:id="ftn28" place="foot" n="28">
+            <p> P<hi rend="small-caps">. </hi>A<hi rend="small-caps">mandry</hi>, J<hi rend="small-caps">. </hi>B<hi rend="small-caps">ousquet</hi>, “La
+                            colonne dorique de la Tholos de Marmaria”, <hi rend="italic">Bulletin de
+                                correspondance hellénique</hi> 64-65 (1940/1),
+                        p. 121-124.</p>
+          </note>. C’est donc une colonne à cinq tambours, telle qu’on
+                    peut encore la voir sur le site, qui fut remontée. La nécessité de préparer la
+                    reconstruction par une nouvelle étude avait eu vertu d’archéologie expérimentale
+                    et avait conduit à remettre en cause ce qui ne l’avait jamais été auparavant,
+                    transformant du même coup un bâtiment qui semblait occuper une place bien
+                    définie dans une série en un <hi rend="italic">unicum</hi>
+          <note type="standard" xml:id="ftn29" place="foot" n="29">
+            <p> La légende qui attribue aux marbriers
+                            chargés de l’anastylose la découverte de la nécessité d’un tambour
+                            supplémentaire, J.-F. <hi rend="small-caps">Bommelaer</hi> (éd.), <hi rend="italic">Marmaria…</hi>, p. 59, a été démentie par P. Amandry.
+                            Elle n’est pas sans intérêt pour l'histoire des représentations en ce
+                            qu’elle opposait savoir abstrait des savants et savoir-faire technique
+                            des gens de métier, le second l’emportant sur le premier.</p>
+          </note>. La
+                    colonne à cinq tambours a une hauteur de 5,928 m, soit un rapport de 6,82
+                    (h/diam. max.).</p>
+                <p xml:id="d1e981">La manière dont ce changement dans la restitution fut reçu par la
+                    communauté scientifique ne manque pas d’intérêt, notamment parce qu’il créait un
+                    hiatus entre la datation du monument et son insertion dans les typo-chronologies
+                    architecturales. R. Demangel y vit la validation de sa datation vers 370-360 :
+                    la tholos avait désormais une apparence rien moins que post-parthénonienne<note type="standard" xml:id="ftn30" place="foot" n="30">
+            <p> R<hi rend="small-caps">. </hi>D<hi rend="small-caps">emangel</hi>, H<hi rend="small-caps">. </hi>D<hi rend="small-caps">ucoux</hi>,
+                            “L’anastylose de la Tholos de Marmaria”, <hi rend="italic">Bulletin de
+                                correspondance hellénique</hi> 62 (1938), p. 377.</p>
+          </note>. Le
+                    caractère plus récent des colonnes justifiait d’adopter une chronologie basse
+                    dans la fourchette précédemment définie. Avec une grande prudence, F. Robert se
+                    fit l’écho d’une tentation de remettre en cause l’ensemble des datations
+                        habituelles<note type="standard" xml:id="ftn31" place="foot" n="31">
+            <p> Le
+                            ton semble indiquer qu’il se fait plus l’écho de discussions qu’il ne
+                            s’engage lui-même dans le débat  ; F. <hi rend="small-caps">Robert</hi>,
+                                <hi rend="italic">Thymélè. Recherches sur la signification et la
+                                destination des Monuments circulaires dans l’architecture religieuse
+                                de la Grèce</hi>, 1939, p. 413.</p>
+          </note>. Il s’agissait à nouveau
+                    de privilégier, comme Charbonneaux et Gottlob, une datation d’après l’insertion
+                    dans les séries chronologiques du rapport hauteur/diamètre inférieur. Plus
+                    élancée qu’à Némée, la colonne de Marmaria ne pouvait être comparée qu’à des
+                    monuments de la fin du <hi rend="small-caps">iv</hi>
+          <hi rend="sup">e</hi> et du
+                    début du <hi rend="small-caps">iii</hi>
+          <hi rend="sup">e</hi> s.,
+                    « rajeunissant » ainsi d’une centaine d’années ! Une autre manière, très
+                    minoritaire, de « sauver » la typologie fut de refuser purement et simplement
+                    l’adjonction d’un tambour. Si l’idée circule parfois, seul W.B. Dinsmoor l’a
+                        publiée<note type="standard" xml:id="ftn32" place="foot" n="32">
+            <p>
+                            <hi xml:lang="en">W</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">. </hi>
+              </hi>
+              <hi xml:lang="en">B</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">. </hi>
+              </hi>
+              <hi xml:lang="en">D</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">insmoor</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">The
+                                    Architecture of Ancient Greece. An Account of its Historic
+                                    Development</hi>
+              </hi>
+              <hi xml:lang="en">, 1950, p. 234
+                            n. 3.</hi>
+            </p>
+          </note> et J.-F. Bommelaer affirmait encore récemment à
+                    quel point elle lui semblait impossible<note type="standard" xml:id="ftn33" place="foot" n="33">
+            <p> J.-F. <hi rend="small-caps">Bommelaer</hi> (éd.),
+                                <hi rend="italic">Marmaria…</hi>, p. 59-60.</p>
+          </note>. Enfin,
+                    dernière manière, qui ne manque pas de sel puisqu’elle est celle des inventeurs
+                    de la nouvelle restitution, P. Amandry et J. Bousquet, c’est de considérer que
+                    la modénature, le décor sculpté et le style des colonnes corinthiennes devaient
+                    l’emporter dans la datation du monument : ils proposaient de ne rien changer à
+                    la date alors communément admise, « aux alentours de 400<note type="standard" xml:id="ftn34" place="foot" n="34">
+            <p> P. <hi rend="small-caps">Amandry</hi>, J. <hi rend="small-caps">Bousquet</hi>, “La colonne
+                            dorique de la Tholos de Marmaria”, p. 125.</p>
+          </note> », faisant ainsi
+                    de la tholos un bâtiment <hi rend="italic">atypique</hi> pour son époque.</p>
+                <p xml:id="d1e1077">Ainsi, il n’est pas toujours aisé de déterminer si c’est une
+                    restitution qui permet une datation ou une datation qui entraîne une
+                    restitution ; l’un et l’autre vont souvent de pair, mais grand est alors le
+                    risque de se laisser enfermer dans un raisonnement circulaire.</p>
+                <p xml:id="d1e1079">Néanmoins, à force d’erreurs, de tâtonnements et de corrections,
+                    même si des incertitudes demeurent, la restitution du bâtiment dans ses grandes
+                    lignes peut être tenue pour acquise. Cependant, la question de la fonction du
+                    bâtiment et de son identification demeure ouverte à ce jour. Malgré cela, la
+                    communauté scientifique s’accorde aujourd’hui, parmi toutes les propositions
+                    avancées, et elles sont nombreuses, à en reconnaître un certain nombre comme
+                    erronées ou impossibles. C’est celles-là qui vont nous occuper. Elles
+                    ressortissent à deux types de démarches. La première est celle qui entend
+                    découvrir la fonction d’un bâtiment à travers son aménagement intérieur. La
+                    seconde entend dévoiler un principe de conception qui serait révélateur de la
+                    fonction. Souvent, ces démarches s'accompagnent d’interprétations textuelles
+                    erronées.</p>
+            </div>
+            <div type="div1" xml:id="d1e1081">
+                <head subtype="level1" xml:id="d1e1082">Restitution de l’aménagement intérieur et
+                    fonction</head>
+                <p xml:id="d1e1084">Lors de la redécouverte de la tholos, les archéologues furent
+                    frappés par ce qui semblait être une fosse appareillée au centre du
+                        monument<note type="standard" xml:id="ftn35" place="foot" n="35">
+            <p> J. <hi rend="small-caps">Charbonneaux</hi>, <hi rend="italic">FD </hi>II
+                                4.<hi rend="italic"> La Tholos</hi>, pl. II.</p>
+          </note>. Grande fut
+                    la tentation d’interpréter ce dispositif comme un <hi rend="italic">bothros</hi>, un puits sacrificiel, bien connu par les sources littéraires et
+                    déjà attesté dans la « consultation des morts » de l’<hi rend="italic">Odyssée</hi> d’Homère qui faisait partie de la culture classique enseignée
+                    au lycée. Le <hi rend="italic">bothros, </hi>qui plonge dans les entrailles de
+                    la terre, est un moyen d’entrer en communication, par le sacrifice, avec les
+                    divinités infernales, spécifiquement avec les héros, ces morts à qui l’on rend
+                    des honneurs divins. Cette tentation, R. Demangel et F. Poulsen y
+                        succombèrent<note type="standard" xml:id="ftn36" place="foot" n="36">
+            <p>
+                                F<hi rend="small-caps">. </hi>P<hi rend="small-caps">oulsen</hi>,
+                            “Recherches sur quelques questions relatives à la topographie de
+                            Delphes”, <hi rend="italic">Bulletin de l’Académie du Danemark</hi>
+                            (1908) <hi rend="italic">[non vidi], </hi>cité par Karo, cf. n.
+                        38.</p>
+          </note>, et ils établirent immédiatement le rapport avec le
+                    sanctuaire du héros Phylacos, connu pour être situé dans les environs du
+                    sanctuaire d’Athéna grâce à Hérodote et Pausanias<note type="standard" xml:id="ftn37" place="foot" n="37">
+            <p> Hérodote, VIII, 36-39  ; Pausanias,
+                            X, 8, 7-8.</p>
+          </note>. Phylacos, qui avait contribué à sauver Delphes
+                    des Perses en 480, méritait bien de recevoir un culte dans un bâtiment aussi
+                    prestigieux. La tholos aurait été une châsse destinée à protéger autant qu’à
+                    magnifier un vénérable lieu de culte. G. Karo<note type="standard" xml:id="ftn38" place="foot" n="38">
+            <p> G. K<hi rend="small-caps">aro</hi>,
+                            “En marge de quelques textes delphiques. Suite (1)”, <hi rend="italic">Bulletin de correspondance hellénique</hi> 34 (1910),
+                            p. 218-220.</p>
+          </note> démontra, suivi notamment par J. Charbonneaux et
+                        K. Gottlob<note type="standard" xml:id="ftn39" place="foot" n="39">
+            <p> J.
+                                <hi rend="small-caps">Charbonneaux</hi>, <hi rend="italic">FD
+                            </hi>II 4. <hi rend="italic">La Tholos</hi>, p. 18.</p>
+          </note>, que le
+                    trou au centre du bâtiment était le fruit d’une fouille sauvage à époque
+                    tardive. Les parois des dalles contiguës présentent en effet un cadre
+                    d’anathyrose qui montre qu’il était recouvert par une dalle. Au demeurant, cette
+                    dalle manquante a été retrouvée, elle avait été brisée à la masse, et tant ses
+                    dimensions que le matériau dont elle est faite rendent sa restitution
+                        indiscutable<note type="standard" xml:id="ftn40" place="foot" n="40">
+            <p> J.
+                                <hi rend="small-caps">Charbonneaux</hi>, <hi rend="italic">FD
+                            </hi>II 4. <hi rend="italic">La Tholos</hi>, pl. XXI.</p>
+          </note>. De
+                    plus, Hérodote place le sanctuaire de ce héros <hi rend="italic">au-dessus</hi>
+                    de celui d’Athéna, définition à laquelle l’emplacement de la tholos ne semble
+                    pas pouvoir correspondre<note type="standard" xml:id="ftn41" place="foot" n="41">
+            <p> S. <hi rend="small-caps">Settis</hi>, “Un’enigma delfico, Pausania,
+                            la tholos e il Phyalakeion”, p. 355-377, a repris à son compte cette
+                            ancienne proposition d’identification, sans emporter la conviction, cf.
+                                L. <hi rend="small-caps">Lerat</hi>, “Les énigmes de Marmaria”,
+                            p. 257.</p>
+          </note>. C’est au nom d’une mauvaise compréhension des
+                    vestiges, née de la recherche d’une réalité décrite dans les textes, qu’en
+                    retour l’on faisait violence au texte.</p>
+                <p xml:id="d1e1185">Une autre hypothèse d’aménagement de l’espace intérieur de la
+                    tholos avait été proposée dès 1904 par Th. Homolle. Il s’agissait de placer au
+                    centre du bâtiment un autel rond trouvé dans le voisinage<note type="standard" xml:id="ftn42" place="foot" n="42">
+            <p> Cf. l’étude, très fouillée, de
+                                M.-A. Z<hi rend="small-caps">agdoun</hi>, <hi rend="italic">FD
+                            </hi>IV, 6 <hi rend="italic">Les reliefs</hi>, 1977, p. 79-99
+                            (photographie p. 81).</p>
+          </note>. Il vaut la peine de citer les raisons
+                    de la restitution : « L’autel de marbre […] semble avoir été placé au centre de
+                    la tholos. Il est rond comme ce monument, il fut sculpté vers le temps où on le
+                    bâtit, et la sculpture est digne des morceaux charmants dont ce temple était
+                        décoré<note type="standard" xml:id="ftn43" place="foot" n="43">
+            <p> Th. <hi rend="small-caps">Homolle</hi>, “Fouilles de Delphes. Les
+                            découvertes de Marmaria”, p. 18.</p>
+          </note>. » On voit que c’est sur une
+                    vague analogie de style et de forme que l’autel est placé dans la tholos. Le
+                    fait qu’il soit également en marbre pentélique a pu influencer Th. Homolle, bien
+                    que l’argument ne soit pas invoqué. H. Pomtow accepta cette restitution pour
+                    laquelle il fournit une illustration<note type="standard" xml:id="ftn44" place="foot" n="44">
+            <p> H.R. <hi rend="small-caps">Pomtow</hi>, “Die grosse
+                            Tholos…”, p. 205-207, pl. II et IV.</p>
+          </note>. À cette occasion, il
+                    proposa sa propre interprétation du bâtiment<note type="standard" xml:id="ftn45" place="foot" n="45">
+            <p> H.R. <hi rend="small-caps">Pomtow</hi>, “Die grosse
+                            Tholos…”, p. 289 sqq.</p>
+          </note>, qui fut reprise en 1914 par
+                    É. Bourguet dans la première grande synthèse consacrée à Delphes après la Grande
+                        fouille<note type="standard" xml:id="ftn46" place="foot" n="46">
+            <p> É. <hi rend="small-caps">Bourguet</hi>, <hi rend="italic">Les ruines de
+                                Delphes</hi>, p. 324-326.</p>
+          </note>. La présence d’un autel
+                    circulaire – désormais daté du <hi rend="small-caps">iii</hi>
+          <hi rend="sup">e</hi> s. et non plus contemporain du bâtiment – dans un bâtiment rond
+                    ainsi que d’une banquette courant le long du mur incitait à identifier la tholos
+                    avec le prytanée de Delphes et son <hi rend="italic">hestia koinè</hi>, son
+                    foyer commun connu par les inscriptions. En effet, la double fonction d’un
+                    prytanée est d’abriter le foyer de la cité et de servir de lieu de réunion aux
+                    magistrats que sont les prytanes. Un bâtiment rond bien connu également appelé
+                    tholos, celui de l’Agora d’Athènes, pouvait servir de parallèle et d’antécédent
+                    avec d’autant plus de facilité qu’on le savait associé au prytanée. Quant au
+                    plan circulaire du bâtiment, on le croyait, depuis J.G. Frazer<note type="standard" xml:id="ftn47" place="foot" n="47">
+            <p>
+                            <hi xml:lang="en">J</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">. </hi>
+              </hi>
+              <hi xml:lang="en">G</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">. </hi>
+              </hi>
+              <hi xml:lang="en">F</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">razer</hi>
+              </hi>
+              <hi xml:lang="en">, “The Prytaneum, the Temple of Vesta, the Vestals, Perpetual
+                                Fires”, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Journal of
+                                    Philology </hi>
+              </hi>
+              <hi xml:lang="en">14 (1885)
+                            p. 145-172.</hi>
+            </p>
+          </note>, particulièrement lié dans le monde
+                    gréco-romain au culte d’Hestia/Vesta dont les travaux de Fustel de Coulanges
+                    avaient rappelé l’importance dans la cité grecque. Cette affectation permettait
+                    en outre d’expliquer l’irritante énigme du silence de Pausanias au sujet de la
+                    tholos : si le Périégète ne la mentionnait pas, c’est qu’il s’agissait d’un
+                    bâtiment civil alors qu’il ne s’intéressait qu’aux édifices religieux.</p>
+                <p xml:id="d1e1272">On doit à J. Charbonneaux la réfutation de cette théorie<note type="standard" xml:id="ftn48" place="foot" n="48">
+            <p> J. <hi rend="small-caps">Charbonneaux</hi>, <hi rend="italic">FD </hi>II
+                                4.<hi rend="italic"> La Tholos</hi>, p. 18-19  ; J. <hi rend="small-caps">Charbonneaux</hi>, “Tholos et prytanée”, <hi rend="italic">Bulletin de correspondance hellénique </hi>49 (1925),
+                            p. 158-178.</p>
+          </note>. Tout d’abord, aucune trace sur le dallage ne
+                    laisse supposer la présence d’un autel. Au contraire, les dalles centrales sont
+                    lisses, de sorte qu’il est probable que rien ne les dérobait à la vue. Ce qui
+                    passait pour le banc des prytanes semblait trop haut pour cette fonction,
+                    comparé aux autres dispositifs connus, mais se laissait plutôt rapprocher d’une
+                    banquette destinée à supporter des statues. Ensuite, les dimensions de la
+                    plinthe de l’autel restitué – qui était sans doute carré – rendaient peu
+                    probable son insertion dans la tholos. Le parallèle athénien invoqué était
+                    trompeur : la bâtiment rond était la salle à manger des prytanes et non le
+                    prytanée. En outre, les parallèles de prytanées connus ou supputés à l’époque (à
+                    Délos, à Latô, à Olympie) étaient tous de plan carré et comportaient plusieurs
+                    pièces. Enfin, Pausanias parle parfois des prytanées. De la théorie tirée par
+                    H. Pomtow et É. Bourguet des travaux de Th. Homolle, il ne restait rien<note type="standard" xml:id="ftn49" place="foot" n="49">
+            <p> Seul G. Roux a repris
+                            l’idée, sans convaincre, de placer l’autel au centre de la tholos.
+                            Néanmoins, cet aménagement aurait été fait très tardivement selon lui, à
+                            l’époque où le bâtiment aurait été converti en édifice du culte
+                            impérial, G. <hi rend="small-caps">Roux</hi>, <hi rend="italic">Delphes…</hi>, p. 206.</p>
+          </note>. On voit cependant comment, à
+                    partir d’une restitution d’aménagement intérieur née d’une observation
+                    superficielle et présentée comme un fait matériel peut se construire, par
+                    accumulation de parallèles, approximatifs mais illustres, et de généralisations
+                    tirées de textes ou de monuments postérieurs, une analyse – très cohérente – qui
+                    possède tous les attributs de la démonstration.</p>
+            </div>
+            <div type="div1" xml:id="d1e1305">
+                <head subtype="level1" xml:id="d1e1306">Conception et signification</head>
+                <p xml:id="d1e1308">Pour finir, nous aborderons les interprétations qui, à partir
+                    d’une théorie prétendant expliquer la conception générale d’un bâtiment, veulent
+                    déduire une fonction et, plus encore, une signification.</p>
+                <p xml:id="d1e1310">H. Thiersch<note type="standard" xml:id="ftn50" place="foot" n="50">
+            <p>
+                            <hi xml:lang="en">H</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">. </hi>
+              </hi>
+              <hi xml:lang="en">T</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">hiersch</hi>
+              </hi>
+              <hi xml:lang="en">, “Antike
+                                Bauten für Musik I et II”, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Zeitschrift für Geschichte der Architektur </hi>
+              </hi>
+              <hi xml:lang="en">2 (1908-1909), p. 71-72.</hi>
+            </p>
+          </note>, à partir
+                    d’un texte de Plutarque mal interprété, conclut que l’odéon de Périclès à
+                    Athènes était de forme circulaire, conclusion qu’il tenta d’élargir à plusieurs
+                    rotondes du monde grec, notamment aux tholos de Delphes et d’Épidaure, situées
+                    dans des sanctuaires où se déroulaient des concours musicaux. Un essai de
+                    comparatisme l’amena à penser que cette forme était particulièrement adaptée aux
+                    édifices de spectacle (il invoque pour son propos, photographies à l’appui, une
+                    piste de danse contemporaine et un kiosque à musique<note type="standard" xml:id="ftn51" place="foot" n="51">
+            <p> H. <hi rend="small-caps">Thiersch</hi>, “Antike Bauten für Musik I et II”, ill. 17 et
+                            18.</p>
+          </note>). Rien n’indique une telle destination pour la tholos. De
+                    plus, le bâtiment semble trop luxueux pour être un édifice de spectacle et il
+                    fut facile d’ironiser sur la musique de chambre que l’on y jouait, vu la
+                    faiblesse du public qui aurait pu assister aux représentations. Cette théorie,
+                    « ingénieuse sinon vraisemblable » pour reprendre le mot de J. Charbonneaux<note type="standard" xml:id="ftn52" place="foot" n="52">
+            <p> J. <hi rend="small-caps">Charbonneaux</hi>, <hi rend="italic">FD </hi>II
+                                4.<hi rend="italic"> La Tholos</hi>, p. 28.</p>
+          </note>, fut ruinée
+                    par la fouille de l’odéon de Périclès qui montra que le monument sur lequel on
+                    prétendait la fonder était en fait quadrangulaire et elle fut abandonnée par son
+                    auteur même.</p>
+                <p xml:id="d1e1356">Plus récente et mieux étayée en apparence, la théorie de
+                    F. Robert visait à voir dans les édifices circulaires ou absidaux du monde grec
+                    des monuments de type chtonien : « Que la rotonde de Marmaria, la rotonde
+                    d’Épidaure, et l’Arsinoéion, soient tout ensemble exceptions, merveilles, et
+                    énigmes, n’est-ce point un groupement d’indices cohérents et suggestifs ?
+                    Quelque pensée religieuse, <hi rend="italic">unique</hi> et <hi rend="italic">importante</hi>, n’a-t-elle point dicté cette <hi rend="italic">permanente</hi> association de <hi rend="italic">somptuosité</hi> et de <hi rend="italic">mystère</hi> ? [nous soulignons]<note type="standard" xml:id="ftn53" place="foot" n="53">
+            <p> F. <hi rend="small-caps">Robert</hi>,
+                                <hi rend="italic">Thymélè</hi>…, p. 13.</p>
+          </note>. » Remarquons
+                    comment, à partir d’un double postulat : « Le circulaire est chtonien » et
+                    « tous les monuments circulaires ne peuvent avoir qu’une signification
+                    commune », on peut parvenir à trouver ce que l’on cherche. F. Robert part de
+                    l’autel rond que nous avons vu précédemment. Il est creux, donc en contact avec
+                    la terre, donc chtonien. Il considère alors comme démontré qu’il y avait une
+                    dimension chtonienne dans le culte d’Athéna, alors même que d’autres cultes que
+                    celui de la déesse sont présents sur la terrasse. Pour lui, « on <hi rend="italic">doit nécessairement</hi> conclure de là que la tholos, dont
+                    nous ignorons l’usage, a reçu sa forme circulaire par allusion directe à des
+                    rites chtoniens qui se célébraient encore ou qui avaient été célébrés jadis dans
+                    le sanctuaire d’Athéna [nous soulignons] » Et après avoir rappelé que la tholos
+                    n’est pas un hérôon, « il ne reste plus <hi rend="italic">qu’une hypothèse
+                        possible</hi>, et c’est celle de MM. Ch. Picard et P. de la
+                    Coste-Messelière : un culte chtonien féminin aurait précédé celui de l’Athéna
+                    olympienne, et c’est de ce culte que la Tholos porterait témoignage [nous
+                    soulignons] ». La découverte de statuettes féminines mycéniennes dans les
+                    fouilles du sanctuaire venait encore étayer cette théorie<note type="standard" xml:id="ftn54" place="foot" n="54">
+            <p> F. <hi rend="small-caps">Robert</hi>,
+                                <hi rend="italic">Thymélè</hi>…, p. 414-420.</p>
+          </note>.</p>
+                <p xml:id="d1e1402">La dimension chtonienne de la tholos n’est plus soutenue par
+                    personne depuis une cinquantaine d’années ; elle est difficile à réfuter, car
+                    elle est également impossible à démontrer. Les arguments sur lesquels elle
+                    repose sont des plus faibles : les statuettes en question sont aujourd’hui
+                    interprétées comme des dépôts d’offrandes funéraires perturbés par les travaux
+                    de construction antiques. Quant à l’autel, il est plus récent de deux siècles au
+                    moins que la tholos et n’a rien de spécifiquement chtonien. Il est intéressant
+                    d’observer la démarche de l’auteur : présence des deux postulats mentionnés plus
+                    haut, « sur-sollicitation » d’indices disparates éloignés chronologiquement les
+                    uns des autres et dont le contexte archéologique est problématique, les
+                    statuettes et un autel. Ces indices sont mis au service de sa croyance en des
+                    modèles d’explication évolutionnistes généraux venus de l’histoire des
+                    religions, tel que la succession de divinités chtoniennes et ouraniennes. Enfin,
+                    il utilise une rhétorique qui relève plus de la conviction que de la
+                    démonstration : « nécessairement », « plus qu’une hypothèse possible ».
+                    Remarquons qu’a pu jouer chez un homme relativement jeune (entré à l’ÉfA en
+                    1932) la volonté de généraliser et de démontrer à tout prix, dans une démarche
+                    qui se voulait scientifique et définitive, ce qui avait été chez ses maîtres une
+                    intuition. La mention de Ch. Picard, ancien directeur de l’École, et de P. de La
+                    Coste Messelière qui exerça une forte influence sur la plupart des Delphiens de
+                    cette époque, est significative et leur pensée irrigue tout l’ouvrage.</p>
+                <p xml:id="d1e1404">Le point commun de ces deux méthodes est qu’elles ont procédé
+                    par extrapolation, sans tenir aucun compte des particularités de chacun des
+                    monuments étudiés, ceci au nom d’une théorie générale fondée sur quelques
+                    exemples disparates interprétés souvent de manière abusive et érigés en série.
+                    L’idée que tous les bâtiments d’un même plan doivent s’interpréter de la même
+                    manière et que la conception d’un monument vaut signification justifie tous les
+                    égarements, puisque tout silence semble confirmer la théorie et qu’on ne
+                    s’embarrasse guère de chronologie.</p>
+                <p xml:id="d1e1406">À passer en revue ces différentes erreurs sur la tholos, on peut
+                    être saisi de trouble en constatant que, dans la plupart des cas, ce n'est pas
+                    la démarche mise en œuvre qui est la cause de la faillite du raisonnement
+                    scientifique, mais plutôt la mauvaise application, naïve et péremptoire, de
+                    pratiques normalement en vigueur pour restituer, dater et identifier les
+                    monuments : trouver des parallèles, chercher dans les textes, partir de la
+                    forme, partir de l’aménagement intérieur considéré comme un indice de la
+                    fonction… Dans le cas de la tholos toutefois, ces démarches sont biaisées parce
+                    que nous manque le sens qui permettrait d’interpréter en toute certitude les
+                    indices matériels repérés et que, bien souvent, la construction du sens est
+                    précisément le postulat de départ que l’on va démontrer : ainsi en est-il par
+                    exemple de la prétendue signification chtonienne de la tholos, ou encore de la
+                    restitution de la tholos en prytanée… la circularité du raisonnement s’appuie de
+                    surcroît sur une observation peu rigoureuse. La figure de H. Pomtow est
+                    emblématique de ce cas jusqu’à la caricature : il avait d’abord renoncé à
+                    étudier la tholos faute de temps, puisque son architecte Wenzel lui avait
+                    affirmé que l’étude nécessitait le travail de deux architectes pendant 4 à 5
+                    jours. Mais, à la suite d’une petite découverte, c’est en deux séances de 40
+                    minutes de travail chacune qu’ils firent le relevé du bâtiment<note type="standard" xml:id="ftn55" place="foot" n="55">
+            <p> H.R. <hi rend="small-caps">Pomtow</hi>, “Die grosse Tholos…”, p. 182
+                            n. 1.</p>
+          </note>. Il n’y a plus lieu de s’étonner s’ils ne surent pas
+                    voir les traces de la présence d’une colonnade intérieure. L’esprit de système
+                    qui extrapole les données lorsqu’elles n’existent pas est également cause d’une
+                    série d’erreurs ; spécifiquement, l’approche idéaliste de l’histoire des
+                    religions et l’approche symboliste de l’architecture se sont révélées être des
+                    voies particulièrement aventureuses : à ne pas tenir compte de l’observation, on
+                    trouve toujours ce que l’on cherche. Les errances sur la tholos sont ainsi
+                    emblématiques des pratiques ordinaires de l’archéologie, mais témoignent aussi
+                    des limites de la possibilité d’interprétation.</p>
+                <p xml:id="d1e1416">La hâte ou la recherche du sensationnel s’imposent comme
+                    d'autres grandes causes d’erreur. Elles peuvent s’expliquer par l’insertion de
+                    l’érudit dans son milieu. Le travail du savant peut être ainsi affecté par des
+                    enjeux socioprofessionnels ou politiques. Revenons à H. Pomtow : professeur de
+                    lycée, il se vit confier par l’académie de Prusse la charge de réaliser le
+                    corpus des inscription de Phocide et milita pour que l’Empire allemand
+                    entreprenne des fouilles sur le site du sanctuaire d'Apollon Pythien<note type="standard" xml:id="ftn56" place="foot" n="56">
+            <p> Pour un premier
+                            aperçu sur le sujet, sans fond, des querelles entre Pomtow et les
+                            archéologues français, cf. Collectif (éd.), <hi rend="italic">La
+                                redécouverte de Delphes</hi>, p. 198-199.</p>
+          </note>. Il se rêva
+                    sans doute comme l’homme de Delphes. Son rêve s’écroula lorsque la France se vit
+                    accorder le monopole de l’exploration archéologique et de la publication sur le
+                    site pendant dix ans. À l’expiration de ce délai et avec l’accord du service
+                    archéologique grec, il revint à Delphes et entreprit de publier le résultat des
+                    fouilles françaises qui n’étaient plus protégées par un monopole. Cette course
+                    pour être le premier à publier est particulièrement sensible pour la tholos et
+                    le poussa à travailler vite et mal<note type="standard" xml:id="ftn57" place="foot" n="57">
+            <p> Voir par exemple le ton polémique de H.R. <hi rend="small-caps">Pomtow</hi>, “Die grosse Tholos…”,
+                        p. 180-182.</p>
+          </note>. Certaines de ces remarques peuvent s’appliquer
+                    également au cas de F. Robert évoqué plus haut.</p>
+                <p xml:id="d1e1434">Ainsi, l’étude de l’erreur, en plus d’une vertu prophylactique
+                    relative, certes, mais réelle, permet d’esquisser une histoire de la pensée et
+                    de la pratique d’un milieu social, celui des chercheurs, des savants, des
+                    universitaires, pour laquelle elle offre une entrée. Elle peut également
+                    apporter une contribution à l’histoire culturelle : à travers les erreurs, c’est
+                    l’histoire des passions d’une époque qui se révèle à nous.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,900 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-872_Burlot">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">
+                    <hi xml:lang="fr">Le faux, source intentionnelle d’erreurs : le cas des
+                        contrefaçons de peintures antiques</hi>
+                </title>
+                <author>
+                    <persName>
+                        <forename>Delphine</forename>
+                        <surname>Burlot</surname>
+                    </persName>
+                    <affiliation> Docteur en archéologie (université Paris IV)<lb/>
+            <hi rend="author-email">delphine.burlot@free.fr</hi>
+                    </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+                        Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>« Savoirs » est une plateforme de publication numérique vouée à l’histoire et à
+                    l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS
+                    (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une
+                    archive d’articles ou une collection de livres, il s’agit d’une bibliothèque
+                    « intelligente » et expérimentale qui propose des parcours de lecture
+                    heuristiques et réflexifs entre les textes, grâce à différents algorithmes de
+                    recherche et de suggestions reposant notamment sur un balisage des lieux, des
+                    dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs
+                        (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel
+                        XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données
+                        géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour
+                        l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références
+                        Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes
+                        pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>Pompéi</item>
+                        <item>faux</item>
+                        <item>faussaires</item>
+                        <item>peintures antiques</item>
+                        <item>Herculanum</item>
+                        <item>antiquaires</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>Pompei</item>
+                        <item>forgery</item>
+                        <item>forgers</item>
+                        <item>antique paintings</item>
+                        <item>Herculanum</item>
+                        <item>antiquarians</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">
+                        <hi xml:lang="fr">Le faux, source intentionnelle d’erreurs : le cas des
+                            contrefaçons de peintures antiques</hi>
+                    </titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Delphine Burlot</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e216">
+                <p xml:id="d1e217">Les faux ne sont réalisés que s’il existe une demande pour le
+                    type d’œuvres qu’ils cherchent à imiter. Ainsi, les contrefaçons de peintures
+                    murales antiques n’apparaissent qu’à la fin du <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">e</hi> siècle, à Rome, alors que l’on commence à
+                    collectionner les fragments peints. Au milieu du <hi rend="small-caps">xviii</hi>
+          <hi rend="sup">e</hi> siècle, plusieurs amateurs d’antiquités s’y
+                    sont laissé prendre, comme Mead, Caylus et Winckelmann. Le faussaire qui les a
+                    trompés, Giuseppe Guerra, a réalisé ses œuvres à partir de fragments d’enduits
+                    antiques sur lesquels il a peint de nouvelles compositions. À la fin du <hi rend="small-caps">xviii</hi>
+          <hi rend="sup">e</hi> siècle, les fausses
+                    peintures antiques sont réalisées à l’encaustique, conformément aux théories
+                    d’alors sur l’ancienne technique des peintres romains. Le faux cristallise les
+                    espérances de l’antiquaire, qui, abusé, tombe souvent dans l’erreur
+                    d’interprétation.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e234">
+                <p xml:id="d1e235">
+                    <hi xml:lang="en">Forgeries are produced only if there exists a demand for the
+                        type of works they try to imitate. </hi>
+                    <hi xml:lang="en">Thus counterfeited antique wall paintings occurred at the end
+                        of the </hi>
+                    <hi rend="small-caps">
+                        <hi xml:lang="en">xvii</hi>
+                    </hi>
+                    <hi xml:lang="en">th century at Rome, when painted fragments started being
+                        collected. ln mid-</hi>
+                    <hi rend="small-caps">
+                        <hi xml:lang="en">xviii</hi>
+                    </hi>
+                    <hi xml:lang="en">th century several antiquarians such as Mead, Caylus and
+                        Winckelmann were taken in. </hi>
+                    <hi xml:lang="en">The forger who took them in, Giuseppe Guerra, produced his
+                        works from fragments of antique coatings upon which he painted new
+                        compositions. </hi>
+                    <hi xml:lang="en">By the end of the </hi>
+                    <hi rend="small-caps">
+                        <hi xml:lang="en">xviii</hi>
+                    </hi>
+                    <hi xml:lang="en">th century, forged antique paintings were produced on wax
+                        coatings in accordance with the theories of the time regarding the ancient
+                        technique of Roman painters. </hi>
+                    <hi xml:lang="en">Forgery crystallized the antiquarian’s expectations, who, from
+                        deception often fell into mistaken interpretation.</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <p xml:id="d1e265">L’histoire d’un objet dépend des aléas du temps. Elle est constituée
+                d’une succession d’événements comprenant sa fabrication, son utilisation, sa
+                disparition et son « invention » (ou découverte) par l’archéologue. Ce dernier
+                cherche alors à remonter le fil chronologique en s’appuyant sur toutes les
+                informations que peut lui fournir l’objet. Il étudie les matériaux employés, l’état
+                de conservation de l’objet, le contexte de sa découverte et il peut compléter son
+                étude par des analyses en laboratoire. L’interprétation qu’il fait dépend des
+                données qu’il a recueillies lors de son étude ainsi que de ses connaissances. La
+                découverte d’un objet du passé offre donc à l’archéologue la possibilité d’en
+                retrouver l’histoire. </p>
+            <p xml:id="d1e267">Dans le cas du faux, l’histoire de l’objet précède bien souvent sa
+                fabrication et la chronologie est inversée. Le faussaire donne une « ancienneté » à
+                son œuvre afin de séduire l’archéologue ou le collectionneur. Il lui invente un
+                passé antique car il souhaite que l’objet soit pris pour tel, et pour cela il
+                s’inspire d’œuvres dont il imite le style, la technique de réalisation et la
+                composition. Mais le faussaire invente également le reste de l’histoire de l’œuvre,
+                et crée une fable relatant un enfouissement et une prétendue découverte. Pour
+                appuyer sa supercherie, il fabrique de multiples preuves matérielles censées prouver
+                l’antiquité de l’objet. Il utilise pour cela différents truchements, comme
+                l’application de fausses patines, la réalisation de fausses cassures ou de fausses
+                restaurations anciennes.</p>
+            <p xml:id="d1e269">Rien n’est laissé au hasard dans la fabrication de la contrefaçon, ni
+                les matériaux employés, ni le vieillissement feint de l’œuvre, ni l’invention de son
+                histoire. Tous ces éléments concourent à la fabrication d’une œuvre nouvelle,
+                unique, rare et attrayante : un faux<note type="standard" xml:id="ftn1" place="foot" n="1">
+          <p> Il faut bien faire attention à ne pas confondre une copie, une
+                        réplique et un faux. La copie et la réplique consistent en la reproduction
+                        de tout ou partie d’une œuvre, sans intention délictueuse, contrairement au
+                        faux. L’artiste qui fait une copie reproduit le sujet et la composition de
+                        l’original sans forcément en imiter le style. Plusieurs peintres célèbres se
+                        sont adonnés à cet exercice La réplique est une copie réalisée par l’auteur
+                        de l’original. Il s’agit de la seconde version d’un même
+                tableau.</p>
+        </note>.</p>
+            <p xml:id="d1e276">La fable racontée par le faussaire à son client participe de la
+                supercherie et dans certains cas la « victime », un archéologue ou un
+                collectionneur, est connue du faussaire. Le faussaire est en effet souvent proche
+                des archéologues, il travaille pour eux comme artiste ou comme restaurateur. Il est
+                donc au fait des dernières découvertes, et ses connaissances de la matière lui
+                permettent de l’imiter.</p>
+            <p xml:id="d1e278">Le faux répond à une demande et il varie suivant les goûts et les
+                modes. L’erreur qu’il produit de manière intentionnelle est la conséquence du
+                « désir » antiquaire. Nous allons voir dans cet article quelques exemples de
+                contrefaçons de peinture antique réalisées par d’habiles faussaires qui ont cherché
+                à tromper les plus grands archéologues du <hi rend="small-caps">xviii</hi>
+        <hi rend="sup">e</hi> siècle, au moment où la découverte d’Herculanum provoquait
+                l’apparition d’un véritable engouement pour la peinture des anciens Romains.</p>
+            <div type="div1" xml:id="d1e285">
+                <head subtype="level1" xml:id="d1e286">Premières déposes de peintures antiques et
+                    premières contrefaçons</head>
+                <p xml:id="d1e288">Déjà bons connaisseurs des monnaies et de la sculpture antiques,
+                    les collectionneurs et les antiquaires ne semblent pas s’intéresser à la
+                    peinture antique avant le début du <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">e</hi> siècle, car l’évolution technique qui permet de détacher les
+                    peintures ne survient que tardivement. À partir du moment où une technique de
+                    dépose est mise au point, les peintures ne sont plus laissées<hi rend="italic">
+                        in situ</hi> mais elles sont extraites des « grottes » (où seuls les plus
+                    téméraires des amateurs d’antiquité pouvaient jusque là les admirer), pour être
+                    placées chez des collectionneurs, qui les exposent comme de petits tableaux<note type="standard" xml:id="ftn2" place="foot" n="2">
+            <p> La dépose des Noces
+                            Aldobrandini en 1601 est un événement majeur dans l’histoire de la
+                            réception de la peinture antique car elle fut à l’origine de
+                            l’engouement pour cet art. Le cardinal Aldobrandini, propriétaire de
+                            l’œuvre, l’avait incrustée dans le mur de l’un des pavillons qui se
+                            trouvait dans le jardin de sa villa à Magnanapoli, à Rome. Au sujet de
+                            cette peinture, voir G. <hi rend="small-caps">Fusconi</hi>, <hi rend="italic">La fortuna delle Nozze Aldobrandini</hi>, (<hi rend="italic">Studi e testi, 363</hi>), Vatican, 1994.</p>
+          </note>.
+                    Dès lors, l’intérêt pour ces œuvres atteint un public plus large, et les
+                    collectionneurs, désireux de faire valoir leur bien, les présentent aux
+                    visiteurs de leurs palais et les font copier par des artistes afin qu’elles
+                    puissent être diffusées<note type="standard" xml:id="ftn3" place="foot" n="3">
+            <p> Pietro Santo Bartoli et Gian Pietro Bellori publièrent différents
+                            ouvrages sur ces peintures dont le plus célèbre est <hi rend="italic">Le
+                                pitture antiche del Sepolcro dei Nasoni</hi>, Rome,
+                    1680.</p>
+          </note>.</p>
+                <p xml:id="d1e320">Or parmi ces premiers fragments d’enduit antique conservés dans
+                    les collections privées romaines se trouvent des œuvres dont l’authenticité est
+                    douteuse. Le cardinal Barberini, qui était fier de présenter une grande peinture
+                    de paysage trouvée dans les fondations de son palais, ainsi qu’un fragment
+                    représentant la déesse Rome, trouvé sur l’Esquilin, possédait également
+                    plusieurs peintures antiques, qui, selon les visiteurs du <hi rend="small-caps">xviii</hi>
+          <hi rend="sup">e</hi> siècle, étaient fort « dans le goût de
+                        Raphaël<note type="standard" xml:id="ftn4" place="foot" n="4">
+            <p> J. <hi rend="small-caps">Richardson</hi>, <hi rend="italic">Traité de la
+                                peinture et de la Sculpture</hi>, Genève, 1972, III,
+                        p. 265.</p>
+          </note> ». Nous savons par des témoignages plus récents, auxquels
+                    nous devons nous référer car ces œuvres ont disparu aujourd’hui, qu’il s’agit
+                    d’œuvres modernes<note type="standard" xml:id="ftn5" place="foot" n="5">
+            <p> Ces
+                            peintures représentaient une Vénus et trois Amours, une Parque et un
+                            Cupidon endormi. Elles furent relativement célèbres au début du <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> siècle. Les
+                            gravures de ces œuvres montrent des compositions très chargées, au style
+                            plus baroque qu’antique. Lucia Faedo pense que le Cupidon endormi était
+                            antique, voir L. <hi rend="small-caps">Faedo</hi>, “Vivere con gli
+                            antichi. Una pittura antica a Palazzo Barberini e la sua fruizione tra
+                                <hi rend="small-caps">xvii</hi> e <hi rend="small-caps">xviii</hi>
+                            secolo”, in L. <hi rend="small-caps">Mochi</hi> O<hi rend="small-caps">nori</hi>, S. S<hi rend="small-caps">chütze</hi>, F. S<hi rend="small-caps">olinas</hi> (éd.), <hi rend="italic">I Barberini e
+                                la cultura europea del Seicento</hi>, Rome 2007. <hi xml:lang="en">Voir aussi H. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Whitehouse</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Ancient Mosaics and
+                                Wallpaintings</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">wallpaintings, the paper museum of Cassiano
+                                    dal Pozzo</hi>
+              </hi>
+              <hi xml:lang="en"> (</hi>
+              <hi rend="italic">
+                <hi xml:lang="en">The paper museum of Cassiano dal Pozzo,
+                                    series A, antiquities and architecture, 1</hi>
+              </hi>
+              <hi xml:lang="en">), Londres, 2001, p. 55.</hi>
+            </p>
+          </note>. Il s’agit de
+                    contrefaçons, réalisées peut-être à la demande du cardinal Barberini lui-même,
+                    qui accroissait ainsi le prestige de sa collection.</p>
+                <p xml:id="d1e396">Au début du <hi rend="small-caps">xviii</hi>
+          <hi rend="sup">e</hi> siècle, l’engouement pour la peinture antique se propage chez les
+                    voyageurs britanniques, qui découvrent ces œuvres dans les palais romains lors
+                    de leur Grand Tour, et en ramènent des copies en souvenir, voire en achètent des
+                    fragments.</p>
+                <p xml:id="d1e403">L’un d’eux, le docteur Mead, médecin du roi, mais aussi
+                    collectionneur et numismate, attache rapidement beaucoup d’importance à cet art
+                    et dans les années 1740 il achète de nombreux fragments d’enduit peint retrouvés
+                    à Rome. Plusieurs d’entre eux faisaient partie de la collection du cardinal
+                    Massimi, mais d’autres étaient de provenance plus incertaine<note type="standard" xml:id="ftn6" place="foot" n="6">
+            <p>
+                            <hi rend="italic">Ibid.</hi>, fig. 77-80.</p>
+          </note>. Ainsi, une
+                    peinture représentant Auguste et sa cour se trouvait dans l’atelier d’un
+                    peintre, Camillo Paderni, lorsqu’un voyageur britannique la vit et décida de
+                    l’acheter pour Mead<note type="standard" xml:id="ftn7" place="foot" n="7">
+            <p>
+                            L’œuvre fut achetée par Alexander Cunningham, qui voyageait en Italie
+                            avec son ami le peintre Allan Ramsay. <hi xml:lang="en">A.</hi>
+              <hi xml:lang="en"> </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Cunningham</hi>
+              </hi>
+              <hi xml:lang="en">, “The fine arts at Rome
+                                in the years 1736 and 1737”, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Gentleman’s magazine</hi>
+              </hi>
+              <hi xml:lang="en">,
+                                40 (1853), p. 240 et M. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Forcellino</hi>
+              </hi>
+              <hi xml:lang="en">, “La formazione e il
+                                metodo di Camillo Paderni”, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Eutopia</hi>
+              </hi>
+              <hi xml:lang="en">, II 2 (1993),
+                                p. 49-64.</hi>
+            </p>
+          </note>. Il est certain que Mead y attachait
+                    beaucoup d’importance, car il la montrait fréquemment à ses hôtes et dans ses
+                    dispositions testamentaires il ordonna que l’œuvre restât dans sa famille<note type="standard" xml:id="ftn8" place="foot" n="8">
+            <p> A. <hi rend="small-caps">Michaelis</hi>, <hi rend="italic">Ancient Marbles
+                                in Great Britain</hi>, Cambridge, 1882, p. 49, n. 27.</p>
+          </note>.
+                    Malheureusement pour lui, Mead croyait détenir une des plus belles peintures de
+                    l’Antiquité alors qu’il avait été joué par un ­faussaire. La composition et le
+                    sujet représenté semblent bien étranges pour une peinture romaine : l’œuvre
+                    représenterait Auguste rendant sa couronne à Phraatès, comme l’a décrit Horace.
+                    On reconnaît Auguste ainsi que Mécène et Agrippa dont les portraits sont souvent
+                    représentés sur des médailles et des intailles. Or, nous n’avons pas d’autres
+                    exemples de représentations de l’empereur entouré de sa cour en peinture
+                    romaine. De plus, la ressemblance des personnages avec leurs portraits sur les
+                    médailles, loin de nous confirmer la valeur historique de l’œuvre comme semblait
+                    le penser le docteur Mead, tendrait au contraire à nous faire douter de son
+                    authenticité. La provenance supposée de l’œuvre (le Palatin), l’histoire
+                    représentée et la trop grande similitude avec le texte d’Horace laissent penser
+                    qu’il s’agit d’une contrefaçon, réalisée dans le but de plaire à un
+                    collectionneur épris d’histoire romaine et de numismatique comme le docteur
+                    Mead.</p>
+            </div>
+            <div type="div1" xml:id="d1e453">
+                <head subtype="level1" xml:id="d1e454">Peintures volées… ou contrefaites ?</head>
+                <p xml:id="d1e456">La découverte d’Herculanum en 1738 éveilla l’intérêt des
+                    antiquaires de toute l’Europe. Pour la première fois un grand nombre de
+                    peintures antiques était mis au jour. De nombreux fragments étaient déposés afin
+                    d’être placés dans la collection du roi de Naples. Celui-ci exerçait un contrôle
+                    très strict sur les découvertes et il empêchait la diffusion d’informations sur
+                    les peintures. Il attisa ainsi la curiosité du public, avide de voir les œuvres,
+                    mais seuls quelques privilégiés étaient admis au musée de Portici. Très vite, la
+                    demande fut plus pressante, et plusieurs collectionneurs bravèrent
+                    l’interdiction du roi de Naples en achetant à Rome ou à Naples des fragments
+                    d’enduit peint provenant clandestinement d’Herculanum. Le comte de Caylus
+                    (1692-1765) reçut d’Italie un fragment représentant un guerrier grec qu’il
+                    publia rapidement dans le premier volume de son recueil d’antiquités, non sans
+                    fierté, car il est persuadé qu’elle provient des fouilles d’Herculanum, comme on
+                    le lui a assuré<note type="standard" xml:id="ftn9" place="foot" n="9">
+            <p> A. de
+                                <hi rend="small-caps">Caylus</hi>, <hi rend="italic">Recueil
+                                d’Antiquités</hi>, t. I, 1752, pl. LV, 1. Cette œuvre est
+                            aujourd’hui conservée au cabinet des Médailles.</p>
+          </note>. Il écrit :
+                    « Ce morceau de peinture à fresque est recommandable par son antiquité, et par
+                    le lieu d’où il vient. Il a été trouvé dans cette ville infortunée d’Herculanum,
+                    que le Vésuve engloutit au temps de Pline. » Il remarque plus loin : « Cet
+                    ouvrage, en un mot, m’a rappelé tout ce que je connaissais des peintures
+                    Romaines ou trouvées à Rome<note type="standard" xml:id="ftn10" place="foot" n="10">
+            <p>
+                            <hi rend="italic">Ibid</hi>.</p>
+          </note>. »</p>
+                <p xml:id="d1e477">Cela n’est pas étonnant, si l’on considère ce dessin de Bartoli
+                    copiant une peinture antique trouvée à Rome en 1684 près des <hi rend="italic">Sette Sale</hi>, sur l’Oppius. Ce dessin, largement diffusé au <hi rend="small-caps">xviii</hi>
+          <hi rend="sup">e</hi> siècle, présente de
+                    grandes similitudes avec la peinture de Caylus. On pourrait imaginer que le
+                    Guerrier grec soit un fragment de cette frise mais il n’en est rien. Des
+                    analyses effectuées au laboratoire de la Bibliothèque nationale de France par
+                    Nathalie Buisson, ingénieur de recherche, ont montré que l’œuvre était un faux :
+                    la présence de grande quantité de blanc de plomb, un pigment peu utilisé en
+                    peinture murale romaine, a permis de confirmer nos doutes sur l’authenticité de
+                    cette œuvre<note type="standard" xml:id="ftn11" place="foot" n="11">
+            <p> Voir N.
+                                <hi rend="small-caps">Buisson</hi>, D. <hi rend="small-caps">Burlot</hi>, “La supercherie du faussaire Giuseppe Guerra”, <hi rend="italic">Techné</hi>, Brigitte Bourgeois éd., 28 (2008),
+                            p. 29-35.</p>
+          </note>. Elle a été réalisée par le faussaire Giuseppe
+                    Guerra, qui a fabriqué un grand nombre de contrefaçons de peinture antique dans
+                    les années 1750-1760<note type="standard" xml:id="ftn12" place="foot" n="12">
+            <p>
+                            Giuseppe Guerra Veneziano (1709-1761) était peintre et graveur, mais il
+                            s’est rendu célèbre pour son activité de faussaire de peintures
+                            antiques. Entre 1750 et 1760 il réalisa près d’une centaine de
+                            contrefaçons imitant les peintures retrouvées à Herculanum et Pompéi. Il
+                            fut découvert en 1758 suite à une enquête de la cour napolitaine mais il
+                            ne fut pas véritablement inquiété car il était protégé par le Vatican.
+                            Il poursuivit son activité jusqu’à sa mort. Voir J.-J. <hi rend="small-caps">Barthélemy</hi>, <hi rend="italic">Voyage en
+                                Italie</hi>, Paris, 1802, p. 101-103, et <hi rend="small-caps">Accademia Ercolanese</hi>, <hi rend="italic">Le Antichità di
+                                Ercolano esposte</hi>, Naples, vol. <hi xml:lang="en">II, 1760,
+                                préface (n. p.). Son autoportrait dessiné est conservé à Windsor,
+                                A. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Blunt</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Venetian
+                                    drawings of the </hi>
+              </hi>
+              <hi rend="italic">
+                <hi rend="small-caps">
+                  <hi xml:lang="en">xvii-xviii</hi>
+                </hi>
+              </hi>
+              <hi rend="italic">
+                <hi xml:lang="en"> centuries in the collection of Her
+                                    Majesty the Queen at Windsor Castle</hi>
+              </hi>
+              <hi xml:lang="en">,
+                                Londres, 1957, p. 27. </hi>Un tableau de lui réalisé en
+                            collaboration avec Canaletto représentant l’Etna en éruption a récemment
+                            été vendu aux enchères chez Christie’s, <hi rend="italic">Important Old
+                                Master Paintings</hi>, New York, 26 janvier 2001, lot
+                        n° 165.</p>
+          </note>.</p>
+                <p xml:id="d1e542">La plus grande erreur de Caylus n’est sans doute pas de s’être
+                    laissé tromper, mais d’avoir publié l’œuvre sans contrôler son origine. Pourtant
+                    Taitbout, le consul de France à Naples, l’avait mis en garde sur les fausses
+                    peintures antiques d’Herculanum que l’on pouvait y acheter : « Bien que je
+                    m’assure que le morceau que ce religieux vous a procuré, soit bien tel qu’il
+                    vous l’a dit, et qu’on ne saurait vous en imposer ; l’avis, au moins, pourra
+                    vous mettre encore plus sur vos gardes<note type="standard" xml:id="ftn13" place="foot" n="13">
+            <p> Lettre de Taitbout au comte de Caylus datée du 8
+                            novembre 1751, <hi rend="small-caps">Serieys</hi> Antoine, <hi rend="italic">Lettres inédites d’Henri IV et de plusieurs
+                                personnages célèbres</hi>, Paris, 1802, p. 207.</p>
+          </note>. »
+                    Pourquoi Caylus a-t-il publié le guerrier grec malgré tout ? Peut-être la
+                    volonté d’être le premier à publier une peinture d’Herculanum lui a-t-elle fait
+                    prendre un risque<note type="standard" xml:id="ftn14" place="foot" n="14">
+            <p> Il
+                            est possible également que Caylus ait reçu la mise en garde trop tard,
+                            alors que son ouvrage était déjà sous presse.</p>
+          </note>. N’ayant jamais
+                    été à Herculanum, Caylus n’avait pas d’élément de comparaison et pouvait être
+                    facilement trompé. Et l’aubaine était sans doute trop importante pour la laisser
+                    passer !</p>
+                <p xml:id="d1e560">Ses confrères s’aperçurent de son erreur et certains s’en
+                    moquèrent. Winckelmann relate l’histoire une dizaine d’années plus tard dans un
+                    ouvrage sur les découvertes d’Herculanum<note type="standard" xml:id="ftn15" place="foot" n="15">
+            <p>
+                            <hi rend="italic">Der Herr Graf Caylus ließ eins dergleichen als ein
+                                altes Gemälde in seinen Sammlungen von Altherthümern stechen, weil
+                                man es ihm als ein Stück aus dem Herculano verkauft hatte</hi>,
+                            J.J. <hi rend="small-caps">Winckelmann</hi>, <hi rend="italic">Sendschreiben von den Herculanischen Entdeckungen</hi>, Dresde,
+                            1762, p. 31.</p>
+          </note>. Caylus décide de traduire cet ouvrage de
+                    l’allemand au français. Caylus cherche à faire connaître le livre de Winckelmann
+                    à une audience plus large que le seul public germanophone, et ce dessein semble
+                    louable. Or, il espère ainsi que les autorités napolitaines s’aperçoivent ainsi
+                    que Winckelmann brave leur interdiction en publiant des informations sur les
+                    découvertes, ce qui pourrait les offenser. Caylus ne rend donc pas service à
+                    Winckelmann en traduisant son livre, il lui rend l’accès à Herculanum plus
+                        difficile<note type="standard" xml:id="ftn16" place="foot" n="16">
+            <p> E. <hi rend="small-caps">Décultot</hi>, “Winckelmann et Caylus”, in N. <hi rend="small-caps">Cronk</hi>, K. <hi rend="small-caps">Peeters</hi>
+                            (éd.), <hi rend="italic">Le comte de Caylus, les arts et les
+                                lettres</hi> (colloque international, Université d’Anvers et
+                            Voltaire Foundation, Oxford, 2000), Amsterdam, New York, 2004,
+                            p. 62.</p>
+          </note>. Il profite de la traduction pour corriger le texte,
+                    notamment le passage concernant le guerrier grec, auquel il ajoute cette note :
+                    « M. le comte de Caylus n’a rien fait graver de semblable, &amp; bien loin de
+                    s’être laissé tromper, il a peut-être été le premier à parler de l’imposture de
+                    Guerra. Voyez ce qu’il a écrit sur le sujet dans le tome IV de son <hi rend="italic">Recueil d’antiquités,</hi> p. 220<note type="standard" xml:id="ftn17" place="foot" n="17">
+            <p> J. J. <hi rend="small-caps">Winckelmann</hi>, <hi rend="italic">Lettre de M. l’abbé Winckelmann
+                                à M. le comte de Brühl sur les découvertes d’Herculanum</hi>,
+                            Paris, 1764, p. 32, n. g.</p>
+          </note>. » Caylus nie les faits et dans
+                    aucun de ses écrits il n’a admis avoir publié une œuvre de Guerra<note type="standard" xml:id="ftn18" place="foot" n="18">
+            <p> La correspondance
+                            entre le père Paciaudi et le comte de Caylus fait de nombreuses
+                            références à l’histoire de Guerra. Paciaudi engage Caylus à publier
+                            l’une des peintures du faussaire afin de révéler la supercherie, mais
+                            Caylus refuse. « Je désirerais que vous missiez au jour une de ces
+                            peintures, celle qui est la plus parfaite et qui porte tous les
+                            caractères de la composition de Guerra. Dans trente ans d’ici, on ne
+                            connaîtra plus cette charlatanerie ; on ignorera combien de personnes
+                            furent les dupes de leur bonne foi, et, qui pis est, on considèrera ces
+                            peintures comme antiques », lettre de Paciaudi au comte de Caylus, Rome,
+                            le 2 septembre, 1760, <hi rend="small-caps">Serieys</hi> Antoine, <hi rend="italic">Lettres de Paciaudi au Comte de Caylus</hi>, Paris,
+                            H. Tardieu, 1802, p. 171.</p>
+          </note>. Il semble avoir honte de son
+                    erreur et il préfère l’occulter.</p>
+            </div>
+            <div type="div1" xml:id="d1e618">
+                <head subtype="level1" xml:id="d1e619">La séduction de l’antiquaire</head>
+                <p xml:id="d1e621">Winckelmann, lorsqu’il relate l’affaire des peintures de Guerra,
+                    insiste sur le fait qu’il n’a jamais été dupé par le faussaire, cherchant ainsi
+                    à affirmer sa supériorité par rapport à Caylus. Or, cette même année, Giovanni
+                    Casanova, qui travaillait pour lui comme graveur, lui parla de peintures
+                    antiques très belles, conservées chez un collectionneur français, le chevalier
+                    Diel de Marsilly, résidant à Rome<note type="standard" xml:id="ftn19" place="foot" n="19">
+            <p> Giovanni Casanova (1730-1795) est le frère cadet de
+                            Gian Giacomo Casanova. Formé comme peintre et graveur, il exerça à Rome
+                            à partir de 1752, et partit s’installer à Dresde en 1764.</p>
+          </note>.
+                    Casanova obtint pour Winckelmann une permission exceptionnelle d’aller voir
+                    l’une de ces œuvres, représentant Jupiter et Ganymède. Winckelmann fut conquis.
+                    Il fut émerveillé par le Ganymède, que selon lui « seul le pinceau de Mengs, le
+                    Raphaël moderne<note type="standard" xml:id="ftn20" place="foot" n="20">
+            <p>
+                            <hi xml:lang="en">J. J. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Winckelmann</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Geschichte der Kunst des
+                                Alterthums</hi>
+              </hi>
+              <hi xml:lang="en">, Walther, Dresde, 1764,
+                                p. 283.</hi>
+            </p>
+          </note> », pourrait décrire. Le caractère
+                    homoérotique de la composition ne l’a sans doute pas laissé indifférent. Il
+                    publie dans la première édition de son Histoire de l’art un commentaire sur
+                    cette œuvre<note type="standard" xml:id="ftn21" place="foot" n="21">
+            <p>
+                            <hi rend="italic">Ibid.</hi>, p. 283.</p>
+          </note>.</p>
+                <p xml:id="d1e653">Winckelmann publie également dans cet ouvrage deux autres
+                    peintures de la collection Diel de Marsilly, qu’il n’a pas vues, mais dont il
+                    connaît des gravures réalisées par Casanova, et mentionne quatre autres
+                    fragments, qui seraient passés en Angleterre à la mort de Diel. Les deux
+                    peintures dont il publie la gravure représentent l’Éducation d’Érichtonios
+                    (fig. 1) et des Ménades dansant<note type="standard" xml:id="ftn22" place="foot" n="22">
+            <p>
+                            <hi rend="italic">Ibid.</hi>, p. 262 et 263.</p>
+          </note>. Winckelmann est
+                    intéressé par les costumes représentés dans ces peintures, et il pense qu’il
+                    pourrait s’agir d’œuvres très anciennes. Il est intéressé aussi par la
+                    représentation d’un mythe peu connu, qu’il se plaît à identifier. La provenance
+                    des peintures lui est inconnue mais il sait qu’elles ont été achetées à grand
+                    prix par le collectionneur. Le commentaire de Winckelmann sur ces peintures
+                    tient une place non négligeable dans son chapitre consacré à la peinture des
+                    Anciens. Or, peu après la parution de <hi rend="italic">Geschichte der Kunst des
+                        Alterthums</hi>, Winckelmann s’aperçoit qu’il a été trompé par son graveur,
+                    Casanova, car celui-ci a tout inventé : les peintures n’ont jamais existé et les
+                    gravures que Casanova lui a présentées sortaient de son imagination. Winckelmann
+                    se mit fortement en colère lorsqu’il l’apprit et il fit détruire les cuivres
+                    afin que les œuvres ne soient pas publiées à nouveau<note type="standard" xml:id="ftn23" place="foot" n="23">
+            <p> Karl <hi rend="small-caps">Justi</hi>, <hi rend="italic">Winckelmann sein Leben, seine Werke und
+                                seine Zeitgenossen</hi>, Leipzig, II, 1872, p. 304 ; l’édition
+                            française de <hi rend="italic">Geschichte</hi> était en préparation
+                            lorsque Winckelmann s’aperçut de la supercherie.</p>
+          </note>. Il les fit
+                    retirer de l’édition française de son ouvrage, alors en cours d’impression. Il
+                    se brouilla avec Casanova et chercha, sans succès, à l’envoyer aux galères pour
+                    une histoire de falsification de lettre de change.</p>
+                <p rend="figure-title" xml:id="d1e680">Fig.1</p>
+                <p xml:id="d1e682">
+                    <figure xml:id="d1e683">
+                        <graphic url="http://journals.openedition.org/anabases/docannexe/image/872/img-1.png"/>
+                    </figure>
+                </p>
+                <p xml:id="d1e685">Winckelmann se brouilla également avec Mengs, probablement parce
+                    qu’il le soupçonnait d’avoir pris part à la supercherie. Il semblerait qu’il
+                    n’ait jamais su quel rôle avait joué le peintre, mais il savait qu’il n’était
+                    pas étranger à la farce. En réalité, plusieurs auteurs attribuent la peinture de
+                    Jupiter et Ganymède à Mengs, qui se serait inspiré des fresques de Raphaël à la
+                        Farnésine<note type="standard" xml:id="ftn24" place="foot" n="24">
+            <p> Une
+                            analyse de cette peinture se trouve dans S. <hi rend="small-caps">Röttgen</hi> (éd.), <hi rend="italic">Mengs, la scoperta del
+                                neoclassico</hi>, (cat. exp. Padoue, Palazzo Zabarella, 2001,
+                            Dresde, Staatliche Kunstsammlungen, 2001), Venise, 2001,
+                        p. 242.</p>
+          </note>. Azara, son biographe, nous apprend qu’il a fait de
+                    fausses retouches sur la peinture pour laisser croire qu’elle avait été
+                    restaurée après dépose<note type="standard" xml:id="ftn25" place="foot" n="25">
+            <p>
+                            <hi xml:lang="en">G.N. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Azara</hi>
+              </hi>
+              <hi xml:lang="en">, C. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Fea</hi>
+              </hi>
+              <hi xml:lang="en">,
+                                </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Opere di Antonio Raffaello
+                                    Mengs</hi>
+              </hi>
+              <hi xml:lang="en">, Rome, 1787, p.
+                            XXXII.</hi>
+            </p>
+          </note>. Winckelmann n’a jamais su, ou n’a jamais voulu
+                    admettre que cette œuvre était un faux. La désillusion était sans doute trop
+                    grande.</p>
+                <p xml:id="d1e720">Pourquoi Mengs et Casanova ont-ils cherché à duper leur ami et
+                    collègue ? Mengs pensait que les peintures antiques avaient été réalisées à
+                    fresque et il s’opposait ainsi à Winckelmann qui croyait les peintures antiques
+                    exécutées à la détrempe<note type="standard" xml:id="ftn26" place="foot" n="26">
+            <p> Nous savons aujourd’hui que la technique des peintres romains est
+                            un type de peinture à fresque. P. <hi rend="small-caps">Philippot</hi>,
+                                L. <hi rend="small-caps">Mora</hi>, P. <hi rend="small-caps">Mora</hi>, <hi rend="italic">La conservation des peintures
+                                murales</hi>, Bologne, 1977, p. 279-299.</p>
+          </note>. Il est possible
+                    que Mengs ait décidé de peindre à fresque le Jupiter et Ganymède afin de le
+                    présenter à Winckelmann comme un original antique et ensuite lui faire accepter
+                    son hypothèse sur la technique de peinture des anciens<note type="standard" xml:id="ftn27" place="foot" n="27">
+            <p> Cette hypothèse pour expliquer la
+                            mise au point de la supercherie est donnée par Röttgen, <hi rend="italic">op. cit.</hi> n. 24.</p>
+          </note>. Il a monté cette
+                    supercherie avec la complicité de Casanova, et il ne pensait sans doute pas
+                    qu’elle allait prendre autant d’ampleur. Devant la réaction enthousiaste de
+                    Winckelmann, les deux artistes ont eu du mal à lui avouer la vérité. On peut
+                    soupçonner Casanova de malice car il a fait durer la tromperie en produisant
+                    d’autres faux. Cela lui plaisait de duper Winckelmann, qui s’estimait supérieur
+                    aux autres antiquaires, et loin de l’erreur. Winckelmann est tombé dans le piège
+                    que Casanova et Mengs ont fabriqué pour lui. Dans le Jupiter et Ganymède, tout
+                    est conforme à un certain « fantasme » d’antiquaire, peut-on le blâmer d’y avoir
+                    succombé ?</p>
+                <p xml:id="d1e747">La déclaration de Winckelmann, disant qu’il n’avait jamais été
+                    dupé par Guerra doit être nuancée. Winckelmann publie en 1767 dans ses <hi rend="italic">Monumenti Antichi Inediti</hi>, une peinture représentant une
+                    scène de sacrifice (fig. 2), conservée dans la collection du cardinal Albani
+                    pour lequel il travaille comme bibliothécaire<note type="standard" xml:id="ftn28" place="foot" n="28">
+            <p>
+                            <hi xml:lang="en">J.J. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Winckelmann</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Monumenti Antichi Inediti</hi>
+              </hi>
+              <hi xml:lang="en">, Rome, 1821, p. 232, n° 177.</hi>
+            </p>
+          </note>. Il voit
+                    dans cette œuvre la représentation de Livie et Octavie sacrifiant un Mars, et
+                    rapproche la scène d’un passage d’Horace. Winckelmann est surpris par le fait
+                    que Mars soit armé d’une massue, et qui plus est, d’une massue à pointes, « de
+                    celles dont se servaient les Assyriens et les Éthiopiens » (<hi rend="italic">quella specie che era l’arme degli Assirj e degli Etiopi</hi>
+          <hi rend="sup">
+            <note type="standard" xml:id="ftn29" place="foot" n="29">
+              <p>
+                                <hi rend="italic">Ibid</hi>.</p>
+            </note>
+          </hi>), mais cela ne l’alerte
+                    pas et il ne semble pas douter de l’authenticité de l’œuvre.</p>
+                <p xml:id="d1e780">Cette œuvre est proche stylistiquement du Guerrier grec, c’est
+                    donc probablement une peinture de Guerra. Il est possible que Winckelmann n’ait
+                    pas été dupe, mais qu’il ait publié cette œuvre pour faire plaisir au cardinal
+                    Albani. Goethe écrira en substance quelques années plus tard, à propos de la
+                    relation de ces deux hommes : « S’il (Winckelmann) vivait encore […], il serait
+                    le premier à nous donner un remaniement de son travail. […] Et puis, le cardinal
+                    Albani serait mort, par respect duquel il a écrit et peut-être dissimulé tant de
+                        choses<note type="standard" xml:id="ftn30" place="foot" n="30">
+            <p> J. W. von
+                                <hi rend="small-caps">Goethe</hi>, <hi rend="italic">Voyage en
+                                Italie</hi>, Paris, 2003, p. 185.</p>
+          </note>. »</p>
+                <p rend="figure-title" xml:id="d1e793">Fig. 2</p>
+                <p xml:id="d1e795">
+                    <figure xml:id="d1e796">
+                        <graphic url="http://journals.openedition.org/anabases/docannexe/image/872/img-2.png"/>
+                    </figure>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e798">
+                <head subtype="level1" xml:id="d1e799">Inventer le passé</head>
+                <p xml:id="d1e801">En 1744 une peinture antique représentant la muse Polymnie fut
+                    présentée à l’Académie étrusque de Cortone<note type="standard" xml:id="ftn31" place="foot" n="31">
+            <p> Sur cette peinture, voir l’article de M. <hi rend="small-caps">De Vos</hi>, “La Musa Polimnia di Cortona : una
+                            pittura pseudo-antica commissionata da Marcello Venuti”, in P. <hi rend="small-caps">Barocchi</hi>, D. <hi rend="small-caps">Gallo</hi>
+                            (éd.), <hi rend="italic">L’Accademia etrusca</hi>, (cat. exp. Cortone,
+                            Palazzo Casali, 1985), Cortone, 1985, p. 69-72.</p>
+          </note>. Elle avait
+                    été trouvée par un paysan alors qu’il labourait son champ. Il l’avait prise pour
+                    une image de la Madone et l’avait placée au-dessus de sa cheminée. Le
+                    propriétaire du champ, en visite chez son fermier, découvrit l’œuvre et reconnut
+                    une peinture antique. Il l’acheta au paysan et c’est ainsi qu’elle put être
+                    présentée à l’Académie étrusque de Cortone. Cette œuvre, à la différence des
+                    peintures de Pompéi, n’est pas une peinture murale. Il s’agit d’un <hi rend="italic">pinax</hi>, une peinture de chevalet, et de plus, celle-ci est
+                    peinte sur un fragment d’ardoise. Les membres de l’Académie étrusque la jugèrent
+                    grecque… Il semblerait pourtant que cette œuvre ait une autre origine. Son
+                    apparition coïncide avec le retour de Marcello Venuti, éminent antiquaire, dans
+                    sa ville natale de Cortone. Venuti avait travaillé pour le roi de Naples et
+                    avait participé activement à l’organisation des fouilles d’Herculanum.
+                    Cependant, des inimitiés et la divulgation (à ses amis florentins)
+                    d’informations sur les découvertes le mirent dans une position inconfortable,
+                    qui le força à quitter sa fonction et rentrer à Cortone<note type="standard" xml:id="ftn32" place="foot" n="32">
+            <p>
+                            <hi xml:lang="en">D. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Gallo</hi>
+              </hi>
+              <hi xml:lang="en">, “Marcello Venuti tra Napoli
+                                e Cortona”, in P. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Barocchi</hi>
+              </hi>
+              <hi xml:lang="en">, D. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Gallo</hi>
+              </hi>
+              <hi xml:lang="en"> (éd.), </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">L’Accademia
+                                    etrusca</hi>
+              </hi>
+              <hi xml:lang="en">, (cat. exp. </hi>Cortone,
+                            Palazzo Casali, 1985), Cortone, 1985, p. 56.</p>
+          </note>.</p>
+                <p xml:id="d1e851">Venuti cherchait à faire valoir le patrimoine de sa ville, est il
+                    est peut-être allé jusqu’à fabriquer les objets qui y manquaient. C’est en effet
+                    probablement à son initiative que la Muse de Cortone a été réalisée. La
+                    découverte d’une peinture de chevalet, grecque, exécutée sur ardoise, un
+                    matériau rare, de style classique, plus proche de Raphaël que d’Apelle, rendait
+                    le passé de la ville de Cortone plus noble et plus prestigieux que celui
+                    d’Herculanum, où l’on ne trouvait que des peintures murales, romaines et de
+                    « style médiocre<note type="standard" xml:id="ftn33" place="foot" n="33">
+            <p>
+                            Cette opinion était partagée par beaucoup. Les peintures d’Herculanum
+                            n’étaient pas appréciées pour leur beauté mais pour leur Antiquité. Voir
+                            C. <hi rend="small-caps">Michel</hi>, “Les peintures d’Herculanum et la
+                            querelle des Anciens et des Modernes”, <hi rend="italic">Bulletin de la
+                                Société de l’Histoire de l’Art Français</hi>, 1984,
+                        p. 105-117.</p>
+          </note> ». En inventant la Muse de Cortone, Venuti a fabriqué
+                    un passé à sa ville et réalisé son désir d’antiquaire. La contrefaçon est une
+                    commande faite à un artiste, qu’il a pu rencontrer dans le cercle des
+                    restaurateurs ou des copistes travaillant à Herculanum. Il ne lui restait plus
+                    qu’à publier l’œuvre, ce qu’il fit, dans son ouvrage sur les découvertes
+                        campaniennes<note type="standard" xml:id="ftn34" place="foot" n="34">
+            <p>
+                            « […] Non vi restando ne meno un vestigio nel mondo delle antiche
+                            dipinte tavole ? se pure non volessimo eccettuarne una piera lavagna
+                            dipinta, che essendo stata ritrovata in un sotterraneo nel Territorio di
+                            Cortona alcuni anni sono », M. <hi rend="small-caps">Venuti</hi>, <hi rend="italic">Descrizione delle prime scoperte dell’antica città
+                                d’Ercolano ritrovata vicino a Portici, </hi>Venise, 1748,
+                            p. 107-108.</p>
+          </note>. La Muse de Cortone figure en bonne place à côté
+                    des peintures des cités vésuviennes et Venuti souligne sa rareté et sa valeur
+                    historique. C’est probablement parce qu’elle a été réalisée avec la complicité
+                    d’un antiquaire, que la Muse tarda à être dévoilée. Au cours des <hi rend="small-caps">xviii</hi>
+          <hi rend="sup">e</hi>, <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi> et <hi rend="small-caps">xx</hi>
+          <hi rend="sup">e</hi> siècles elle fut fréquemment admirée, citée en exemple et
+                    fut même… imitée.</p>
+                <p xml:id="d1e891">Au début du <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi> siècle à Rome apparaît une autre peinture à l’encaustique sur ardoise,
+                    représentant cette fois-ci la reine Cléopâtre en train de se donner la mort par
+                    le serpent Naja. Elle aurait été découverte à la villa d’Hadrien à Tivoli, près
+                    du Canope et elle serait la peinture qu’Auguste aurait mise sur son char lors de
+                    son triomphe de la bataille d’Actium<note type="standard" xml:id="ftn35" place="foot" n="35">
+            <p> Un ouvrage sur cette œuvre a été rédigé à la fin du
+                                <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle : R. <hi rend="small-caps">Schoener</hi>, <hi rend="italic">Peinture grecque
+                                ancienne à l’encaustique sur ardoise représentant la Reine Cléopatre
+                                se donnant la mort au moyen du serpent africain le « Naja »</hi>,
+                            Paris, 1889.</p>
+          </note>. Elle eut différents propriétaires dont le baron
+                    de Benneval qui à la fin du <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi> siècle tenta de la vendre à un grand musée européen. Malgré plusieurs
+                    articles élogieux sur l’œuvre dans la presse, ni le Louvre, ni le British
+                    Museum, ni l’Ermitage ne se portèrent acquéreurs. En réalité ces articles,
+                    écrits par des amis de Benneval, cherchaient surtout à accroître la valeur de
+                    cette « Cléopâtre » et à prouver qu’elle était authentique. John Sartain,
+                    peintre américain ayant séjourné plusieurs fois chez Benneval, écrit ainsi, dans
+                    une monographie sur l’œuvre : « Bien sûr il y a cette querelle habituelle, à
+                    savoir si cette peinture est antique ou non, car il y a toujours des gens qui
+                    s’amusent à jeter le doute sur presque tous les objets du passé, se souciant peu
+                    de la véracité des preuves en faveur de leur authenticité. Cependant même eux
+                    s’accordent pour croire que la Cléopâtre est une œuvre de la Renaissance.
+                    Toutefois, l'opinion générale des archéologues est en faveur de son antiquité. »
+                        <hi xml:lang="en">(</hi>
+          <hi rend="italic">
+            <hi xml:lang="en">Of course there
+                            has been the usual discussion as to whether this painting is really
+                            antique, for there are always people of that peculiar propensity whose
+                            chief pleasure and amusement consist in throwing doubt on nearly
+                            everything of the past, no matter how well established by proof. But
+                            even these place it in the epoch of the great artists of the
+                            Renaissance. The general decision of the archaeologists, however, is in
+                            favor of its antiquity</hi>
+          </hi>
+          <note type="standard" xml:id="ftn36" place="foot" n="36">
+            <p>
+                            <hi xml:lang="en">J. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Sartain</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">On the antique painting in encaustic of
+                                    Cleopatra : discovered in 1818</hi>
+              </hi>
+              <hi xml:lang="en">,
+                                Philadelphie, 1885, p. 8.</hi>
+            </p>
+          </note>
+          <hi xml:lang="en">.)
+                    </hi>Ainsi, selon lui, la Cléopâtre, malgré les doutes qui pèsent sur son
+                    authenticité, est digne d’intérêt, car si elle n’est pas antique, elle a été
+                    faite à la Renaissance. Sartain est dans l’erreur, puisque cette œuvre
+                    n’appartient à aucune des deux époques : elle a très probablement été réalisée à
+                    la fin du <hi rend="small-caps">xviii</hi>
+          <hi rend="sup">e</hi> siècle, alors
+                    que la peinture à l’encaustique connaissait un certain renouveau ; on pensait
+                    alors que la plupart des peintures antiques et notamment les peintures de
+                    Pompéi, avaient été réalisées à la cire<note type="standard" xml:id="ftn37" place="foot" n="37">
+            <p> Voir E. <hi rend="small-caps">Levi</hi>, “L’articolo
+                            sull’incausto di Ugo Foscolo”, <hi rend="italic">La Bibliofilia</hi>,
+                            vol. XV, 1914, p. 68-90.</p>
+          </note>. Plusieurs recettes avaient été mise
+                    au point par des théoriciens, et testées par des artistes<note type="standard" xml:id="ftn38" place="foot" n="38">
+            <p> Pour le renouveau de la technique de
+                            peinture à la cire, voir D. <hi rend="small-caps">Rice</hi>, <hi rend="italic">The Fire of the Ancients : the Encaustic Painting
+                                Revival, 1755 to 1812</hi>, Ann Arbor, 1979.</p>
+          </note>.</p>
+                <p xml:id="d1e971">Cette mode de l’encaustique eut une conséquence fâcheuse :
+                    considérées comme peintes à la cire, les peintures romaines antiques furent
+                    vernies avec des produits à base de cire, ce qui fut fort préjudiciable pour
+                    leur conservation. De nombreuses peintures de Pompéi ont souffert de ces
+                    traitements.</p>
+                <p xml:id="d1e973">Les faussaires reproduisirent cette erreur dans leurs œuvres :
+                    les contrefaçons de peinture antique qui apparaissent au début du <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi> siècle sont peintes à la
+                    cire, ce qui nous permet de les distinguer des peintures originales, peintes à
+                    fresque, et nous indique un repère chronologique.</p>
+                <p xml:id="d1e980">La réalisation d’un faux ne se limite pas à sa fabrication, il
+                    s’agit d’inventer l’histoire d’un objet, répondant aux envies et aux aspirations
+                    d’un antiquaire. Le faux est destiné à séduire son acheteur. S’il l’induit en
+                    erreur, alors la supercherie est réussie. Le faussaire cherche souvent à prouver
+                    qu’il en sait plus que l’homme de lettres, tout en lui faisant plaisir. Lorsque
+                    le faux est dévoilé, l’antiquaire conçoit souvent une certaine honte à avoir été
+                    trompé et certaines contrefaçons, une fois découvertes, sont détruites. C’est
+                    dommage car les contrefaçons nous renseignent sur les goûts et les modes d’une
+                    époque, sur l’histoire de l’archéologie, et l’histoire des théories. Le faux est
+                    essentiel à la compréhension du contexte historique, il est temps de lui donner
+                    la place qui lui revient dans l’historiographie.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

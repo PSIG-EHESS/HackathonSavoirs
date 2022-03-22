@@ -1,0 +1,1168 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-5997_Chazel">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">
+                    <hi rend="italic">
+                        <hi xml:lang="fr">Observations d’un « profane » sur une réception
+                            singulière, celle de Weber « historien » de l’Antiquité</hi>
+                    </hi>
+                </title>
+                <author>
+                    <persName>
+                        <forename>François</forename>
+                        <surname>Chazel</surname>
+                    </persName>
+                    <affiliation> &#xD; Université Paris-Sorbonne<lb/>&#xD; Groupe d’Étude des
+                        Méthodes de l’Analyse Sociologique de la Sorbonne, GEMASS<lb/>&#xD;
+                        francoischazel@free.fr </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+                        Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>« Savoirs » est une plateforme de publication numérique vouée à l’histoire et à
+                    l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS
+                    (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une
+                    archive d’articles ou une collection de livres, il s’agit d’une bibliothèque
+                    « intelligente » et expérimentale qui propose des parcours de lecture
+                    heuristiques et réflexifs entre les textes, grâce à différents algorithmes de
+                    recherche et de suggestions reposant notamment sur un balisage des lieux, des
+                    dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs
+                        (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel
+                        XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données
+                        géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour
+                        l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références
+                        Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes
+                        pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>Cité antique</item>
+                        <item>grecque</item>
+                        <item>Ville médiévale</item>
+                        <item>Démocratie athénienne</item>
+                        <item>Politiques économiques urbaines</item>
+                        <item>Idéaltype</item>
+                        <item>Méthodologie wébérienne</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>Ancient greek city</item>
+                        <item>medieval town</item>
+                        <item>urban economic policy</item>
+                        <item>idealtype</item>
+                        <item>Weberian methodology</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart level="a" type="main">
+            <hi rend="italic">
+                        <hi xml:lang="fr">Observations d’un « profane » sur une réception
+                            singulière, celle de Weber « historien » de l’Antiquité</hi>
+                    </hi>
+          </titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>François Chazel</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e216">
+                <p xml:id="d1e217">Après une période de purgatoire qui s’étend jusqu’aux années 60,
+                    les travaux de Weber relatifs à l’Antiquité ont acquis une réelle <hi rend="italic">reconnaissance </hi>scientifique, en particulier sous
+                    l’influence d’A. Momigliano et de M. Finley. Cependant, cette réception n’a pas
+                    été exempte d’ambiguïtés et a abouti même à certaines formes de <hi rend="italic">méconnaissance.</hi> La première ambiguïté tient à la
+                    rareté des commentaires de Finley sur l’apport propre de Weber. La seconde est
+                    liée à son interprétation biaisée sur quelques points majeurs  : Finley s’est
+                    plus intéressé à la typologie économique de la ville qu’aux idéaltypes
+                    contrastés de politique économique urbaine construits par Weber dans le cadre
+                    d’une comparaison entre ville médiévale et cité antique  ; la logique de
+                    l’idéaltype paraît lui avoir largement échappé. Enfin, l’œuvre de Weber a été si
+                    étroitement associée à l’approche de Finley qu’elle est devenue tributaire
+                    d’abord de son succès puis de son rejet plus ou moins radical. Comme l’a montré
+                    Christian Meier, Weber ne se laisse pas enfermer dans le vieux débat entre
+                    primitivisme et modernisme  ; sa méthode d’étude, centrée sur la mise en
+                    évidence de la <hi rend="italic">spécificité</hi> du monde antique et le
+                    jeu des <hi rend="italic">interdépendances</hi> entre les phénomènes qui
+                    la produit, conserve sa fécondité heuristique. C’est dans cet esprit qu’il
+                    convient d’approfondir la réception de Weber selon des voies multiples,
+                    brièvement évoquées en conclusion. </p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e231">
+                <p xml:id="d1e232">
+                    <hi xml:lang="en">After a period of ‘purgatory’ lasting until the sixties, Max
+                        Weber’s works on Antiquity enjoyed a true scientific </hi>
+                    <hi rend="italic">
+                        <hi xml:lang="en">recognition</hi>
+                    </hi>
+                    <hi xml:lang="en">, mainly under the guidance of A. Momigliano and M. Finley.
+                        Still, the reception of Weber’s works suffered ambiguities which in part
+                        resulted in some kinds of </hi>
+                    <hi rend="italic">
+                        <hi xml:lang="en">misapprehension</hi>
+                    </hi>
+                    <hi xml:lang="en">. The first uncertainty rises from the rare comments Finley
+                        passed on what he thought was Weber’s specific contribution to the topic.
+                        The second one derives from his biased interpretation on some major points:
+                        Finley paid more attention to the economic typology of towns than to the
+                        sharply contrasted idealtypes of urban economic policy which Weber
+                        elaborated from the comparison between the medieval town and the ancient
+                        city; Finley likely failed to understand the logic of Weberian ideal types.
+                        Finally, Weber’s works on Antiquity were so closely related to the Finleyan
+                        approach that their reception heavily hanged, first on the large acceptance
+                        of Finley’s views, later on their radical discarding. As Christian Meier
+                        established it, Weber’s works cannot be confined within the bounds of the
+                        old controversy between ‘primitivism’ and ‘modernism’; his methodological
+                        approach, focused on the </hi>
+                    <hi rend="italic">
+                        <hi xml:lang="en">distinctiveness</hi>
+                    </hi>
+                    <hi xml:lang="en"> of the ancient civilization and on the </hi>
+                    <hi rend="italic">
+                        <hi xml:lang="en">interdependence</hi>
+                    </hi>
+                    <hi xml:lang="en"> of phenomena which brought it forth, holds its whole
+                        heuristic power. Keeping this assertion in mind is the most suitable path to
+                        deepen Weber’s reception along multiple lines, some of which are suggested
+                        in the concluding part of the paper.</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <p xml:id="d1e259">Les grandes lignes de cette réception sont connues ; et nous ne
+                prétendons nullement en la matière apporter de quelconques « révélations ». Il se
+                peut cependant, l’auteur de ces lignes n’étant ni spécialiste de l’Antiquité ni,
+                plus généralement, historien, qu’un regard extérieur contribue à en éclairer telle
+                ou telle dimension, voire à en isoler tel facteur significatif. Il est peut-être
+                plus facile de surmonter les incompréhensions ou les malentendus entre les
+                différentes disciplines traitant de l’Antiquité lorsque l’on ne s’inscrit dans
+                aucune d’entre elles. Ce texte, écrit en souvenir de mes études classiques et pour
+                saluer le recueil d’articles d’Hinnerk Bruhns récemment paru<note type="standard" xml:id="ftn1" place="foot" n="1">
+          <p> Max Webers historische Sozialökonomie.
+                            L’économie de Max Weber entre histoire et sociologie, Wiesbaden,
+                            Harassowitz Verlag, 2014.</p>
+        </note>, n’en a pas moins – et d’abord
+                – un caractère exploratoire.</p>
+            <p xml:id="d1e266">Pour commencer, nous nous permettrons, puisque la nature de notre
+                propos nous dispense d’une présentation linéaire, de faire un bond de plus de 40 ans
+                après la mort de Weber jusqu’à l’article de l’éminent historien allemand, Alfred
+                Heuss, « Max Webers Bedeutung für die Geschichte des griechisch-römischen
+                Altertums » (1965). Celui-ci y formule le jugement abrupt selon lequel « on peut en
+                définitive affirmer que les sciences de l’Antiquité ont poursuivi leur chemin comme
+                si Weber n’avait pas existé » (p. 554). On doit d’autant plus le déplorer qu’à ses
+                yeux les <hi rend="italic">Agrarverhältnisse im Altertum</hi> constituent
+                « le tableau le plus original, le plus intelligent et le plus pénétrant du
+                développement économique et social de l’Antiquité que l’on ait jamais connu » (p.
+                538). Ce diagnostic de Heuss sur le peu d’intérêt accordé, pendant une assez longue
+                période, aux travaux de Weber relatifs à l’Antiquité est largement justifié, même
+                si, d’une manière apparemment paradoxale, la méconnaissance de Weber a été moins
+                accusée et plus relative en Italie qu’en Allemagne.</p>
+            <p xml:id="d1e271">Mais les choses n’ont pas tardé à changer. Deux hommes ont joué ici
+                un rôle essentiel. Comme le rappelle Luigi Capogrossi Colognesi au début d’un
+                article consacré à l’analyse wébérienne des cités antique et médiévale, « c’est à
+                deux grands savants, Moses Finley et Arnaldo Momigliano, que revient le mérite
+                d’avoir attiré notre attention sur les travaux de Max Weber spécifiquement consacrés
+                à l’histoire du monde antique » (1995, p. 27).</p>
+            <p xml:id="d1e273">La subtilité des analyses de Momigliano ne se laisse pas enfermer en
+                quelques phrases mais il nous semble que son apport essentiel a été de faire
+                reconnaître la richesse sans équivalent des <hi rend="italic">Agrarverhältnisse im Altertum</hi> à travers des textes brefs saluant la
+                traduction en anglais (1976) puis en italien (1981) de cet ouvrage<note type="standard" xml:id="ftn2" place="foot" n="2">
+          <p> Momigliano a rendu compte de
+                            l’édition anglaise dans le Times Literary Supplement (8-4-1977) et
+                            préfacé l’édition italienne.</p>
+        </note> ou dans des articles
+                développant plus complètement son point de vue, dont nous ne mentionnerons ici que
+                le seul « Dopo Max Weber ? » (1981 [1978]). C’est en particulier grâce à Momigliano
+                que, comme le note Capogrossi Colognesi dans le texte déjà cité, l’on a reconnu dans
+                les <hi rend="italic">Agrarverhältnisse</hi> l’œuvre majeure par rapport à
+                    <hi rend="italic">Die römische Agrargeschichte</hi> en raison de la
+                perspective globale, élargie à l’ensemble du système économique et social, qui la
+                caractérise. Il est vraisemblable que Momigliano a surestimé, avec d’autres,
+                l’influence d’Eduard Meyer sur Weber<note type="standard" xml:id="ftn3" place="foot" n="3">
+          <p> On se reportera sur ce plan à l’excellente mise au point de Jürgen
+                            Deininger (1990). Deininger adopte dans ce texte une position mesurée à
+                            l’égard de Meyer en évitant aussi bien les diatribes (à la Finley) que
+                            la ferveur (à la Tenbruck). Il est piquant de voir à quel point l’œuvre
+                            et le personnage de Meyer ont, encore récemment, pu susciter de
+                            passions.</p>
+        </note> ; et il est probable – ce qui est plus grave −
+                qu’il a méconnu l’originalité de la problématique de <hi rend="italic">La
+                    ville</hi> dont le rapport avec les <hi rend="italic">Agrarver­hältnisse</hi> ne peut être pensé en termes de continuité et
+                d’approfondissement. C’est en effet la ville médiévale, et non la cité antique, qui
+                est dans <hi rend="italic">La ville</hi> l’objet central d’intérêt et la
+                question majeure est d’apprécier sa contribution au développement du capitalisme
+                moderne. Il n’en reste pas moins que ses séminaires à l’École Normale Supérieure de
+                Pise ont nourri et entretenu la curiosité pour les travaux de Weber relatifs à
+                l’Antiquité.</p>
+            <p xml:id="d1e304">C’est pourtant, plus encore que Momigliano, Moses Finley qui a été
+                l’instigateur de ce renouveau d’intérêt avec la parution de <hi rend="italic">The Ancient Economy</hi> en 1973, même si la relation de Finley avec Weber est
+                complexe et peut-être même, comme nous essaierons de le montrer, fondamentalement
+                ambiguë.</p>
+            <p xml:id="d1e309">La première difficulté tient au fait que les références explicites de
+                Finley à Weber sont à la fois plutôt parcimonieuses et, de surcroît, tardives dans
+                sa carrière. Certes, comme le signalent Brent D. Shaw et Richard P. Saller dans leur
+                substantielle Introduction à un recueil de textes de Finley (trad. en français,
+                1984), celui-ci a très tôt fait de Weber un de ses auteurs de référence, lors de ses
+                études d’étudiant avancé à Columbia en histoire. Plus fondamentalement, ainsi que le
+                soulignent encore Shaw et Saller, sa pensée a été fortement influencée dans la
+                période de l’après-guerre par la sociologie wébérienne, au moins sur deux aspects, à
+                savoir la préférence pour la notion de « statut » pour traiter de la société antique
+                et la ferme recommandation du recours à « l’idéaltype » (1984, p. 19). Ce sont là
+                des observations importantes mais Finley n’a pas alors éprouvé le besoin
+                d’entreprendre une discussion globale des thèses de Weber relatives à
+                l’Antiquité.</p>
+            <p xml:id="d1e311">Même dans<hi rend="italic"> L’économie antique</hi> dont le
+                retentissement s’est accompagné d’une « redécouverte » de Weber, les références à ce
+                dernier restent ponctuelles et, dans l’ensemble, rares, ce qui ne veut pas dire
+                qu’elles soient d’un intérêt mineur. Parmi les six références que nous avons
+                relevées, deux sont de l’ordre de la simple allusion. Dans le chapitre IV,
+                « Landlords and Peasants », Finley assimile l’absence dans l’Antiquité de toute
+                politique de calcul systématique en matière d’investissement foncier à un manque de
+                rationalité économique, entendue au sens de Weber (p. 117) ; et, quelques pages plus
+                loin, dans le chapitre V, « Town and Country » (p. 122), il confronte la mentalité
+                des aristocraties foncières de l’Antiquité à celle qui sous-tend « l’éthique
+                protestante » en une formulation particulièrement ramassée. Dans un troisième cas,
+                il s’agit d’une note (p. 195, note 64) rappelant, à partir d’un renvoi aux « Causes
+                sociales du déclin de la civilisation antique », que Weber fait partie d’une lignée
+                d’auteurs ayant mis en évidence l’inefficacité, au plan économique, du travail des
+                esclaves. Les trois références restantes ont assurément une plus grande portée.
+                D’abord, dès le premier chapitre, « The Ancients and their Economy », Finley
+                reconnaît à Weber et à son « disciple », Johannes Hasebroek, le mérite essentiel
+                d’avoir démontré de façon convaincante que toute « analyse centrée sur le marché »
+                était « inapplicable au monde antique » (p. 26). Ensuite, dans le chapitre « Town
+                and Country », il se réfère à deux reprises à Weber − et à des passages tirés des
+                    <hi rend="italic">Agrarverhältnisse im Altertum</hi>
+        <note type="standard" xml:id="ftn4" place="foot" n="4">
+          <p> Peut-être vaut-il la peine de
+                            citer le passage le plus significatif auquel se réfère Finley : « Les
+                            villes antiques furent toujours, à un degré beaucoup plus élevé que les
+                            villes médiévales, des centres de consommation, et à un degré moindre
+                            des centres de production» (trad. française, Économie et société dans
+                            l’Antiquité, p. 98). On notera que la proposition de Weber s’inscrit
+                            déjà dans le cadre d’une comparaison entre cité antique et ville
+                            médiévale et qu’elle est formulée non sous la forme d’une dichotomie
+                            abrupte mais en termes de degré.</p>
+        </note> – pour affirmer, en se
+                revendiquant de son soutien, que la cité antique était fondamentalement «  un centre
+                de consommation » (p. 125, p. 138-139). C’est là, on le sait, un thème de
+                prédilection de Finley, que nous allons rencontrer tout au long de cet examen.</p>
+            <p xml:id="d1e323">À partir de ces quelques remarques, on peut déjà déceler certaines
+                « affinités » entre les thématiques wébériennes et celles de Finley, comme la prise
+                de distance à l’égard des perspectives unilatéralement « modernistes », le rôle
+                essentiel de l’esclavage, le poids de l’agriculture, le faible niveau de rationalité
+                économique et l’importance majeure des besoins de consommation. Il faut cependant
+                attendre 1977 pour voir Finley traiter en quelques pages, dans le cadre d’un article
+                sur «  The Ancient City », de ce qui constitue, à ses yeux, l’apport de Weber et,
+                donc, de ce qui fonde en principe leur parenté intellectuelle.</p>
+            <p xml:id="d1e325">Dans cet article, Finley part d’observations générales qui, sans être
+                expli­citement reliées à Weber, ont pour notre propos un réel intérêt. Il souligne,
+                pour commencer, la double signification du terme <hi rend="italic">polis</hi> : ce dernier désigne en effet à la fois une ville (<hi rend="italic">town</hi>) et, dans le langage conventionnel adopté (les
+                deux expressions de <hi rend="italic">city-state</hi> et de <hi rend="italic">Stadtstaat</hi> sont rappelées), la cité-État dans sa
+                signification politique. Le propre de la cité-État est de constituer une unité
+                regroupant à la fois la ville et la campagne : l’arrière-pays est une composante
+                indissociable de l’entité <hi rend="italic">polis</hi>. Or c’est une
+                caractéristique que Weber avait, de son côté, tenue pour fondamentale ; et Finley,
+                qui la rappelle ici, y a vu un trait essentiel de la conception wébérienne de la
+                cité antique<note type="standard" xml:id="ftn5" place="foot" n="5">
+          <p> Selon Hinnerk
+                            Bruhns (« Max Weber, Moses I. Finley et le concept de cité antique », p.
+                            29), « l’indifférenciation entre ville et campagne » est pour Finley la
+                            première caractéristique de la cité antique retenue par
+                        Weber.</p>
+        </note>.</p>
+            <p xml:id="d1e348">Dans les pages qui traitent spécifiquement de Weber, le lecteur
+                risque d’être surpris par la manière prudente, précautionneuse même, avec laquelle
+                Finley entame son développement : il n’y témoigne pas de son habituelle intrépidité.
+                Il y insiste notamment sur la difficulté qu’il y a à saisir la pensée d’un auteur
+                dont le principal ouvrage sur l’Antiquité (<hi rend="italic">Agrarverhältnisse im Altertum</hi>) n’est pas, selon lui, une œuvre d’historien
+                et dont le texte essentiel sur <hi rend="italic">La ville (Die Stadt)</hi>
+                est resté inachevé.</p>
+            <p xml:id="d1e357">C’est pourtant cet ouvrage qui est le principal objet de son
+                attention. Il relève avec intérêt que Weber part, dans la continuité de Sombart,
+                d’une définition économique de la ville et en vient, dans cette première partie, à
+                opposer l’habitant typique de la ville d’aujourd’hui, coupé de la terre, au citoyen
+                de la plupart des <hi rend="italic">polis</hi> antiques qui couvre, au moins
+                à l’origine, ses besoins alimentaires en cultivant sa propriété (MWG, I/ 22-5,
+                p. 68). D’une manière générale, en dépit de l’évolution qu’elle a connue, la cité
+                antique serait restée une ville de consommateurs, avec une prédominance d’intérêts
+                de cet ordre ; et son développement aurait été freiné, sinon inhibé, par le large
+                recours à une main d’œuvre servile. Deux traits ressortent donc de cette lecture de
+                Weber : la cité antique serait une ville de consommation et reposerait sur une
+                économie esclavagiste<note type="standard" xml:id="ftn6" place="foot" n="6">
+          <p> Telles
+                            sont pour Finley les deux autres caractéristiques majeures, avec
+                            l’absence de séparation entre ville et campagne, que Weber aurait
+                            attribuées à la cité antique. Hinnerk Bruhns ne manque pas de les
+                            rappeler dans l’article déjà cité. </p>
+        </note>.</p>
+            <p xml:id="d1e367">Certes Finley ne manque pas de relever que Weber ne se satisfait pas
+                de la définition économique de la ville qu’il juge incomplète. Il en tire la
+                conclusion forcée que Weber, à l’époque de la rédaction de <hi rend="italic">La ville</hi>, en était venu à accorder le primat au politique. Il a pu être
+                induit en erreur par la double décision de Johannes Winckelmann de faire de cet
+                essai une section du chapitre « <hi rend="italic">Die Herrschaft</hi> » (<hi rend="italic">La domination</hi>) et de lui donner le titre, « <hi rend="italic">Die nichtlegitime Herrschaft. Typologie der Städte</hi> ».
+                Si cette formulation est bien due à Weber<note type="standard" xml:id="ftn7" place="foot" n="7">
+          <p> Tel est en effet le titre envisagé pour la section c) du chapitre
+                            8 qui devait être consacré à « la domination » selon l’esquisse
+                            d’organisation de sa propre contribution au Grundriss der
+                            Sozialökonomik. Cette esquisse fait partie du Plan d’ensemble de
+                            l’ouvrage, publié en 1914.</p>
+        </note>, elle ne correspond guère à
+                l’orientation générale du texte dont nous disposons. Cet essai reste une pièce à
+                part, dont les modalités d’intégration à <hi rend="italic">Wirtschaft und
+                    Gesellschaft</hi> restent incertaines.</p>
+            <p xml:id="d1e390">On sera en revanche moins indulgent à l’égard de la lecture très
+                étroite et partielle que Finley en propose. Elle se concentre sur la première
+                partie, plus précisément encore sur son début jusqu’à l’introduction de la notion de
+                «  groupement <hi rend="italic">régulant</hi> l’économie (<hi rend="italic">wirtschaftsregulierender Verband</hi>) » et du thème
+                essentiel de la « politique économique urbaine (<hi rend="italic">Stadtwirtschaftspolitik</hi>) ». Certes Finley évoque un ensemble de pages
+                hautement significatif dans lequel Weber procède à la comparaison du type de ville
+                médiéval avec le type de ville antique mais il n’en retient qu’un des facteurs, à
+                savoir le rôle de l’esclavage. L’opposition des intérêts dominants entre la ville
+                médiévale et la cité antique est sans doute signalée mais la mise en relation de ces
+                intérêts divergents avec une politique destinée à les promouvoir et à les défendre
+                n’est pas clairement mise en lumière. La formulation frappante, selon laquelle le
+                contraste serait radical entre le citoyen de la ville médiévale, en tant qu’« <hi rend="italic">homo oeconomicus</hi> » et celui de la cité antique comme
+                    « <hi rend="italic">homo politicus</hi> » (MWG, I/22-5, p. 275) ne fait
+                même pas l’objet de la moindre allusion. Finley méconnaît l’originalité de <hi rend="italic">La Ville</hi> en considérant que Bücher et Sombart, de
+                l’apport desquels Weber a certes largement tenu compte, sont engagés avec lui dans
+                la même entreprise (<hi rend="italic">coworkers</hi>). <hi rend="italic">La Ville</hi> repose prioritairement en effet sur une
+                comparaison entre ville médiévale et cité antique, menée du point de vue de la
+                première à partir de deux <hi rend="italic">types idéaux contrastés</hi> de
+                politique économique urbaine et destinée à faire ressortir par opposition l’apport
+                de la ville du Moyen Age au développement du capitalisme<note type="standard" xml:id="ftn8" place="foot" n="8">
+          <p> Pour de plus amples justifications de cette
+                            interprétation, qui tend aujourd’hui à prévaloir, on se reportera, entre
+                            autres références, à l’article synthétique d’Hinnerk Bruhns dans Annales
+                            (1996, p. 1259-1287) ainsi qu’à l’Introduction de Wilfried Nippel à
+                            l’édition critique de Die Stadt (MWG, I/22-5).</p>
+        </note>.</p>
+            <p xml:id="d1e425">Finley clôt sa présentation par une défense de l’idéaltype dont
+                l’historien «  ordinaire » aurait tort de se méfier et donc de se passer ; mais
+                induit à nouveau en erreur par le sous-titre (« Typology of Cities ») retenu par
+                Winckelmann, il recherche dans l’essai une « typology of ‘ideal-type cities’«  que
+                celui-ci ne peut lui offrir.</p>
+            <p xml:id="d1e427">En définitive, la partie du texte traitant de la conception
+                wébérienne de la cité antique ne s’avère ni aussi riche ni aussi pertinente que l’on
+                aurait pu l’espérer. On aborde donc avec d’autant plus de curiosité l’article,
+                postérieur de quelques années, dans lequel Finley analyse et discute les
+                propositions avancées par Weber sur un thème qui lui tient à cœur, « la cité- État
+                grecque ». Le lecteur sera probablement décontenancé par la tonalité critique du
+                texte que Finley va même jusqu’à qualifier de « négative » à la fin de son
+                introduction. Il s’en justifie en rappelant qu’il exprime uniquement son
+                insatisfaction à l’égard de la présentation wébérienne des États et de la politique
+                antiques et non pas de l’ensemble de l’œuvre dont les analyses socio-économiques
+                restent inégalées (1986, p. 92). Même si le texte est clairement divisé en trois
+                parties, l’argument essentiel consiste à contester radicalement la position prêtée à
+                Weber, selon laquelle celui-ci aurait vu dans la cité grecque une forme de
+                domination charismatique : Weber aurait ainsi méconnu la vraie nature de la cité
+                grecque, ce qui se traduirait dans une appréciation inadéquate de son droit. Finley
+                en tire la conclusion radicale que la typologie des formes de domination légitime ne
+                pourrait, dans ces conditions, «  prétendre à une validité universelle ».</p>
+            <p xml:id="d1e429">En fait, Finley ne rend pas justice à la pensée de Weber : il affirme
+                plus qu’il ne démontre et dénature sur de nombreux points la démarche de ce dernier.
+                Certes on doit reconnaître que Weber n’avait pas sur la cité grecque le même degré
+                de compétence que sur Rome ; et l’on est en droit de juger inappropriée la formule
+                de « justice de cadi » pour qualifier le fonctionnement des tribunaux athéniens au
+                temps de Périclès. Mais Finley tend à accorder aux appréciations de Weber une portée
+                qu’elles n’ont pas toujours, en manquant par là aux impératifs d’une véritable
+                discussion critique : il se méprend notamment sur la logique du type idéal, comme
+                nous aurons l’occasion de le préciser.</p>
+            <p xml:id="d1e431">Ce texte témoigne ainsi des « embarras » de Finley dans sa
+                compréhension de Weber mais, même s’il a été largement diffusé, il n’a pas remis en
+                cause la parenté postulée entre Finley et Weber quant à l’interprétation de
+                l’économie antique. Le chapitre que Finley a jugé opportun d’ajouter à la seconde
+                édition de <hi rend="italic">The Ancient Economy</hi> (1985), « Further
+                Thoughts » (p. 177-207) ne pouvait que conforter l’idée désormais répandue d’une
+                proximité des deux auteurs, qui se cristalliserait en particulier dans la conception
+                de la ville antique comme « centre de consommation  ».</p>
+            <p xml:id="d1e436">Il est aujourd’hui reconnu, après les mises au point répétées des
+                meilleurs connaisseurs de cet aspect de l’œuvre wébérienne<note type="standard" xml:id="ftn9" place="foot" n="9">
+          <p> Nous nous bornerons à citer ici la
+                            contribution spécifique d’Hinnerk Bruhns à ce débat, « De Werner Sombart
+                            à Max Weber et à Moses I. Finley : la typologie de la ville antique et
+                            la question de la ville de consommation » (1985, p.
+                    255-273).</p>
+        </note>, que Weber n’a pas souscrit à une semblable thèse : si
+                la cité antique se caractérise, en termes « idéaltypiques  », par une p<hi rend="italic">olitique économique urbaine</hi> orientée vers la <hi rend="italic">consommation</hi>, elle n’en est pas, pour autant, une
+                simple « ville de consommateurs ». C’est méconnaître sa complexité que d’établir une
+                telle équivalence ; et il vaut la peine de se demander pourquoi Finley a pu
+                commettre cette erreur. Il nous semble que ce qui est ici fondamentalement en jeu,
+                c’est la signification et la portée de l’idéaltype. Comme le signale Raymond Descat,
+                un historien de la Grèce qui a lu Weber de près, «  la tradition historique a tendu
+                à utiliser un peu indifféremment les deux types de concepts wébériens…, sa typologie
+                économique et son idéaltype [de la ville antique] » (1995, p. 972). Ainsi
+                « l’historien », ajoute-t-il, « est d’une certaine manière pris au piège des
+                concepts wébériens » (p. 975). Cela nous paraît être notamment le cas de Finley. Il
+                semble en effet chercher l’idéaltype là où il n’est pas, dans la typologie
+                économique des villes qui l’intéresse vivement. Il néglige du même coup la base
+                spécifique à partir de laquelle il est construit, c’est-à-dire l’orientation de la
+                politique économique urbaine vers la consommation (comme dans la cité antique) ou
+                vers la production (comme dans la ville médiévale).</p>
+            <p xml:id="d1e449">L’article consacré à « Weber et l’État-cité grecque » offre encore
+                d’autres illustrations des difficultés de Finley avec l’idéaltype wébérien. L’entrée
+                en matière de la seconde partie, « Les démagogues grecs et la typologie de la
+                domination » est à cet égard révélatrice : étant donné que la <hi rend="italic">polis</hi> ne constituait aux yeux de Weber ni une forme de
+                domination traditionnelle ni non plus une expression d’une domination rationnelle
+                (c’est-à-dire bureaucratique), elle devait nécessairement, selon Finley, être
+                assignée au mode de domination charismatique, « puisqu’il ne reste que [celui-ci] »
+                (1986, p. 95). Cette formulation est proprement étonnante : l’hypothèse que la <hi rend="italic">polis</hi> ne puisse être appréhendée correctement qu’à
+                partir d’une <hi rend="italic">combinaison</hi> d’éléments inhérents à deux
+                types de domination, voire aux trois, n’est même pas évoquée. Or Weber n’a cessé
+                d’insister sur le fait que l’idéaltype représente une « accentuation unilatérale »
+                de la réalité. Il souligne en particulier, pour ce qui est de la domination, qu’«
+                aucun des trois types idéaux ne se présente historiquement à l’état pur » (<hi rend="italic">Économie et société</hi>, 1971, p. 222). C’est pourquoi il
+                consacre une brève mais substantielle section à la « combinaison des différents
+                types de domination » (<hi rend="italic">Ibid</hi>., p. 271 sqq.), en
+                rappelant notamment que « sont…rares les dominations exclusivement
+                charismatiques ».</p>
+            <p xml:id="d1e466">Finley n’a guère de mal à réfuter l’homme de paille construit sur
+                l’oubli de ce principe et imputé abusivement à Weber. Certes, pour citer un message
+                de l’ancienne sociologie de la domination, Weber a pu avancer que « la démocratie de
+                Périclès [correspondait], dans l’idée de son créateur, à la domination du démagogue
+                par le charisme de l’esprit et du discours » (MWG, I/22-4, p. 500). Mais deux pages
+                plus loin (p. 502), Weber écrit que « dans la démocratie attique s’applique le
+                principe de la rotation dans l’exercice des charges, dont la mise en œuvre stricte
+                implique formellement comme dans la démocratie directe que la personne élue soit le
+                mandataire et le serviteur de ses électeurs et non leur maître  ». Et il précise :
+                « par là le fondement charismatique est, sous l’angle structurel, complètement
+                abandonné ». La proximité, pour ne pas dire la quasi-juxtaposition, de ces deux
+                passages démontre clairement que la démocratie athénienne ne peut être pensée à
+                partir d’un seul et unique principe. On nous objectera peut-être que, dans la
+                seconde version de la sociologie de la domination, elle fait l’objet d’une
+                présentation différente et constitue un cas de « démocratie plébiscitaire ».
+                Toutefois celle-ci est traitée comme une « forme de transition », trahissant une
+                certaine ambivalence, dans la mesure où son visage anti-autoritaire, en appelant à
+                «  une légitimité issue de la volonté des dominés », s’y marie − sans doute plus ou
+                moins bien − avec l’exigence de reconnaissance due à « l’homme de confiance des
+                masses » (<hi rend="italic">Économie et société</hi>, p. 275-276). Il semble
+                donc légitime de conclure de ce bref examen que Finley donne une image
+                simplificatrice de la conception wébérienne de la cité grecque, pour autant qu’on
+                puisse la reconstruire à partir de notations le plus souvent dispersées dans <hi rend="italic">Wirtschaft und Gesellschaft</hi> (ou dans l’ensemble qui
+                porte ce nom).</p>
+            <p xml:id="d1e474">On pourrait s’en tenir à ces remarques si une ultime généralisation
+                de Finley n’appelait un dernier commentaire. La seconde et essentielle partie de
+                l’article s’achève en effet par une de ces formules carrées dont il use volontiers :
+                selon lui, « un schéma d’explication [c’est- à-dire la typologie de la domination]
+                qui exclut la polis ne saurait prétendre à une validité universelle » (1986,
+                p. 100). Cette formulation trahit, à notre sens, une confusion : un idéaltype, qui
+                est en principe construit à partir des intérêts propres du chercheur, n’est pas une
+                catégorie universelle ; en revanche il peut contribuer à éclairer l’histoire
+                universelle.</p>
+            <p xml:id="d1e477">Finley ne paraît pas, en définitive, se faire une idée très stricte
+                de l’idéaltype, souvent associé à l’idée de modèle dont il n’est pas véritablement
+                différencié. Toujours est-il qu’on est loin de la rigoureuse « méthodologie »
+                wébérienne.</p>
+            <p xml:id="d1e479">On ne peut, nous semble-t-il, échapper à cette conclusion : si Finley
+                a effectivement trouvé dans l’œuvre de Weber une source d’inspiration et s’il en a
+                repris des aspects importants, il n’en propose pas moins une image biaisée, avec,
+                d’une part, « l’enfermement » de la cité antique dans le schéma de la « ville de
+                consommation », et, de l’autre, une appréhension déficiente de la méthodologie
+                wébérienne. La pensée de Weber s’est ainsi trouvée exposée à des reproches
+                injustifiés, qui tendront à se radicaliser lorsque l’influence de Finley et des
+                conceptions qu’il défendait connaîtra un net reflux.</p>
+            <p xml:id="d1e481">Auparavant peut-être faut-il, même si c’est marginal pour notre
+                propos, dire quelques mots des raisons du succès rencontré en France par les thèses
+                de Finley, sur lesquelles un récent numéro d’<hi rend="italic">Anabases</hi>
+                (19, 2014), vient opportunément d’attirer l’attention. Il y a eu, pendant une
+                période d’une vingtaine d’années, une <hi rend="italic">conjonction</hi> de
+                conditions favorables. Nous nous bornerons ici à en rappeler les principales dans
+                une esquisse à grands traits.</p>
+            <p xml:id="d1e489">La première tient au climat intellectuel prévalant dans certains
+                milieux de la recherche et de l’édition. Il s’agissait de trouver une réponse
+                adéquate à une question lancinante que l’on se permettra de formuler ainsi : comment
+                maintenir «  le cap à gauche » sans retomber dans une « orthodoxie » marxiste jugée
+                stérile ? La publication de L<hi rend="italic">’Économie antique</hi> en 1975
+                aux éditions de Minuit, complétée par l’énergique plaidoyer de Finley en faveur de
+                la démocratie antique – <hi rend="italic">Democracy Ancient and Modern</hi>
+                est également parue en 1973 −, est venue à cet égard combler un vide en répondant à
+                ce besoin<note type="standard" xml:id="ftn10" place="foot" n="10">
+          <p> Nous nous sommes
+                            librement inspiré ici de quelques pages de François Hartog dans Partir
+                            pour la Grèce (2015, p. 157-162), reprises de l’Introduction au numéro
+                            d’Anabases déjà cité.</p>
+        </note>.</p>
+            <p xml:id="d1e502">Toute réception favorable suppose des médiateurs influents. Or –
+                c’est la seconde raison essentielle de son succès – la pensée de Finley a bénéficié
+                d’un relais incomparable en la personne de Pierre Vidal-Naquet. Ce dernier paraît
+                s’être largement identifié à Finley : si celui-ci a été une victime directe du
+                maccarthysme, chassée en conséquence de Rutgers, Vidal-Naquet estimait, de son côté,
+                avoir subi de multiples vexations à la suite de son ferme engagement contre la
+                guerre d’Algérie. Cette identification a été renforcée par un long « compagnonnage »
+                et les proximités intellectuelles qu’elle entraîne. Ainsi la parution quasi
+                simultanée du livre de Michel Austin et Pierre Vidal-Naquet, <hi rend="italic">Économies et sociétés en Grèce ancienne</hi> (1972, 2<hi rend="sup">e</hi> éd. revue, 1973) et de <hi rend="italic">The
+                    Ancient Economy </hi>a contribué à élargir l’emprise des thèses de Finley sur
+                les spécialistes de l’Antiquité, même s’il est peut-être excessif de parler de
+                l’instauration d’une « orthodoxie »<note type="standard" xml:id="ftn11" place="foot" n="11">
+          <p> Raymond Descat a, dans son article de 1995 que nous avons déjà
+                            cité, employé l’expression de « nouvelle orthodoxie ». Ce thème est
+                            repris par Christophe Pébarthe dans sa contribution au numéro d’Anabases
+                            sur la réception de Finley (19, p. 55-68).</p>
+        </note>. L’intérêt
+                commun pour les notions d’ordre et de statut, préférées – non sans raison – à celle
+                de classe, est une autre expression significative, avec la référence sous-jacente à
+                Weber, de ce compagnonnage<note type="standard" xml:id="ftn12" place="foot" n="12">
+          <p>
+                            Paulin Ismard a traité de cette dimension importante dans son article
+                            pour le numéro d’Anabases, « Classes, ordres, statuts : la réception de
+                            la sociologie finleyenne et le cas Pierre Vidal-Naquet » (19, p.
+                            39-54).</p>
+        </note>.</p>
+            <p xml:id="d1e523">Toujours est-il qu’à travers cette médiation durable, Finley
+                continua, pour la réception de cette partie de son œuvre, à bénéficier – c’est le
+                troisième aspect sur lequel nous voulions insister − d’un préjugé favorable, fondé
+                sur son association avec la prestigieuse école française d’anthropologie historique.
+                Un lien fort avait été établi lors de la diffusion des premiers travaux majeurs de
+                Finley, en particulier du <hi rend="italic">Monde d’Ulysse</hi> ; et il a,
+                d’une certaine manière, perduré dans cette « seconde » réception de Finley, même
+                s’il s’est sans doute distendu avec la réorientation des intérêts de celui-ci et
+                dans un contexte de large diffusion de ses écrits.</p>
+            <p xml:id="d1e528">Vingt ans après la sortie en français de <hi rend="italic">L’Économie antique</hi> les perspectives s’étaient profondément modifiées et le
+                temps d’un premier bilan était venu. Dans sa « Présentation » d’un dossier sur ce
+                thème (1995, p. 947-960), Jean Andreau, tout en soulignant l’apport de Finley, pose
+                des questions cruciales pour la pertinence du modèle finleyen. Et dans le
+                remarquable article qui suit, Raymond Descat procède à sa franche « mise en
+                question » à propos de la cité grecque, même si c’est en des termes à la fois
+                mesurés et pesés.</p>
+            <p xml:id="d1e533">Cet article constitue un signe marquant de l’ébranlement de la
+                prépondérance dont a joui pendant un temps le modèle élaboré par Finley. Cet
+                ébranlement s’est poursuivi, entre autres, sous les coups de boutoir de ce que l’on
+                a pu appeler, avec quelque facilité, « l’école » bordelaise d’études antiques ; elle
+                a repris et affûté les critiques de Descat, qui est lui-même l’un de ses
+                initiateurs, sur la nature et la portée des échanges dans l’Antiquité, en
+                particulier dans le monde grec. L’absence d’un marché unique n’exclut pas la
+                formation de marchés locaux. Le « schématisme » de Finley lui interdirait
+                d’apprécier dans toute sa complexité la réalité des économies « mixtes » des cités,
+                même s’il a lui-même signalé ce trait marquant de l’économie athénienne.</p>
+            <p xml:id="d1e535">Cette « redécouverte » des échanges s’est accompagnée d’un
+                durcissement des oppositions. La science économique a tendu à devenir, tout au moins
+                dans certaines de ses variantes, le modèle de référence pour quelques-uns des
+                protagonistes, par opposition à l’anthropologie historique, qui a longtemps fourni
+                aux spécialistes les cadres dominants de pensée. Ainsi les travaux de North<note type="standard" xml:id="ftn13" place="foot" n="13">
+          <p> L’ouvrage de Douglas C.
+                            North, Structure and Change in Economic History (1981) constitue, de ce
+                            point de vue, la référence majeure. Mais North n’est pas le seul auteur
+                            auquel Alain Bresson, le chef de file des adversaires de Finley, accorde
+                            une grande importance. Il se réfère aussi - ce qui est moins attendu- à
+                            John Nash et à la théorie des jeux.</p>
+        </note> devinrent l’objet
+                d’une attention soutenue, dans la mesure où ils permettent d’aborder des questions
+                proprement économiques dans une perspective institutionnaliste. Peu à peu s’est mise
+                en place une sorte de front qui évoque la controverse, vieille de plus d’un siècle,
+                entre « primitivistes » et « modernistes ». Le premier résultat de cette joute fut,
+                nous semble-t-il, la perte définitive de la prépondérance reconnue, pendant une
+                vingtaine d’années, au modèle de Finley. Mais elle atteignit aussi, par ricochet,
+                Max Weber, rangé abusivement aux côtés de Finley et des « néo-primitivistes »<note type="standard" xml:id="ftn14" place="foot" n="14">
+          <p> Ce classement arbitraire
+                            témoigne en tout cas d’une connaissance très superficielle de Weber, si
+                            on la compare à celle de Descat. On ne peut lire qu’avec étonnement la
+                            proposition majeure de Bresson, selon laquelle « le wébérisme faisait
+                            des institutions des ‘choses ensoi’, ayant une existence séparée de
+                            l’économie, qu’elles prenaient en charge et surdéterminaient » (2008, p.
+                            29). Weber était en réalité trop marqué par la leçon kantienne pour
+                            attribuer à une quelconque institution le statut d’une chose ensoi. Il
+                            s’est toujours efforcé de mettre en évidence, contrairement à ce
+                            qu’affirme Bresson, les relations entre divers ordres de phénomènes,
+                            notamment, dans les Agrarverhältnisse, le rapport de l’économique avec
+                            le politique et le militaire. Enfin Weber n’a jamais eu recours à la
+                            notion de surdétermination.</p>
+        </note>. Il faut dire que ce genre
+                de querelle ne favorise guère la compréhension à la fois correcte et dépassionnée
+                d’une pensée subtile à laquelle nous allons maintenant revenir.</p>
+            <p xml:id="d1e547">Sans nous attarder ici sur la controverse entre l’historien de
+                l’Antiquité Eduard Meyer et l’économiste de l’école historique Karl Bücher et ses
+                prolongements, qui ont fait l’objet de maintes présentations, peut-être vaut-il la
+                peine de rappeler comment Weber s’est situé dans ce débat. Il a défendu une position
+                originale, qui ne se laisse enfermer ni dans la perspective « primitiviste » ni dans
+                l’approche «  moderniste ». D’une part, il « réhabilite » Bücher en considérant « [
+                l’] économie d’<hi rend="italic">oikos</hi> » comme une construction
+                « idéaltypique » d’un mode d’organisation économique dont l’Antiquité aurait offert
+                une forme relativement ‘pure’ sans que pourtant, considérée globalement, elle ait
+                été réductible à un tel mode (<hi rend="italic">Économie et société dans
+                    l’Antiquité</hi>, 1998, p. 93). D’une manière générale, les stades de
+                développement économique ne sont pas des étapes nécessaires de l’évolution mais de
+                simples instruments conceptuels. D’autre part, tout en suivant Meyer sur nombre de
+                points factuels, Weber conteste certaines de ses formulations les plus abruptes dans
+                le sens moderniste, comme la référence à des usines et à des ouvriers d’usine pour
+                la période de plein épanouissement d’Athènes (<hi rend="italic">Ibid</hi>.,
+                p. 94). Il esquisse ainsi les voies d’une synthèse, amenant à reconnaître
+                l’existence «  d’un niveau relativement élevé d’organisation économique » −
+                conformément aux thèses modernistes – qui, cependant, ne s’inscrirait pas dans le
+                « cadre du système moderne de marché », comme l’affirment les thèses modernistes<note type="standard" xml:id="ftn15" place="foot" n="15">
+          <p> Nous nous référons ici à un
+                            texte souvent négligé d’Harry W. Pearson (1975, p. 43-49) qui fait
+                            ressortir, en dépit de sa brièveté, l’originalité de la démarche
+                            wébérienne.</p>
+        </note>.</p>
+            <p xml:id="d1e563">Si ces remarques ont quelque pertinence, elles conduisent
+                nécessairement à la conclusion que l’on méconnaît le sens de l’argumentation
+                wébérienne si l’on range unilatéralement Weber du côté des « néo-primitivistes ».
+                Pour en saisir toute la portée, il faut encore introduire d’autres éléments et, pour
+                ce faire, nous nous appuierons sur ce modèle de discussion critique que constitue
+                l’article de Christian Meier, « Max Weber und die Antike » (1988, p. 11-24) : sa
+                lecture s’impose, nous semble-t-il, à quiconque s’intéresse aux recherches de Weber
+                touchant à l’Antiquité<note type="standard" xml:id="ftn16" place="foot" n="16">
+          <p> C’est
+                            pourquoi sa traduction dans la revue franco-allemande en ligne Trivium
+                            serait la bienvenue.</p>
+        </note>.</p>
+            <p xml:id="d1e571">Pour Meier deux traits essentiels caractérisent le mode de recherche
+                pratiqué par Weber : ce sont la mise en évidence de la spécificité (<hi rend="italic">die Eigenart</hi>), en l’occurrence de celle qui est propre
+                à l’Antiquité, et l’établissement de connexions (<hi rend="italic">Zusammenhang</hi>) qui relient les différents facteurs à l’œuvre dans la
+                société antique. Connexion et spécificité font partie, relève Meier, de ses
+                concepts-clé (1988, p. 23). Revenons rapidement sur l’un et sur l’autre.</p>
+            <p xml:id="d1e579">Meier rappelle que « Primitivistes » et « Modernistes » ont pu,
+                chacun de leur côté, dégager des facteurs isolés qui allaient dans le sens de leur
+                thèse mais il leur a manqué une vision d’ensemble de ce qui fait la spécificité de
+                la société urbaine antique et, entre autres, de son économie. C’est cette vision
+                d’ensemble, dans laquelle trouvent place à la fois des traits « primitifs » et des
+                caractéristiques modernes, qui a permis à Weber de transcender les positions
+                unilatérales et par là de proposer une approche novatrice<note type="standard" xml:id="ftn17" place="foot" n="17">
+          <p> Nous rappelons ici de façon condensée
+                            l’argument développé par Meier dans le premier § de la page
+                        20.</p>
+        </note>.</p>
+            <p xml:id="d1e586">Cette spécificité ne se donne à voir que si l’on procède à des
+                comparaisons − c’est un point cardinal de la « méthodologie » wébérienne − et que si
+                l’on cherche à saisir les connexions entre les divers ordres de phénomènes. Weber a
+                toujours été attentif à<hi rend="italic"> l’interdépendance</hi> qui existe
+                entre eux et contribue à façonner d’une manière décisive la spécificité d’une
+                culture, d’une société ou d’un système économique. Dans ses études d’histoire
+                antique, il s’est d’abord penché sur les rapports entre économie et droit, avant
+                d’embrasser, de façon plus globale, les relations entre l’économie, le politique et
+                le militaire, sans oublier le soubassement géographique. On mesure ici à quel point
+                l’affirmation d’Alain Bresson, selon laquelle pour Weber « les institutions
+                [auraient] une existence séparée de l’économie » a quelque chose de
+                fantasmagorique.</p>
+            <p xml:id="d1e591">On en est finalement arrivé à cette situation paradoxale pour ce qui
+                est de la réception des travaux de Weber sur l’Antiquité, au moins en France : elle
+                a été, sous l’influence de Finley et de quelques médiateurs, en particulier de
+                Vidal-Naquet, relativement forte mais elle a aussi été en partie biaisée<note type="standard" xml:id="ftn18" place="foot" n="18">
+          <p> Les Allemands diraient
+                            peut-être avec excès « manquée » (verfehlt).</p>
+        </note> parce
+                qu’ils ont été abordés à travers le prisme, à notre sens réducteur, de la lecture de
+                Finley. Ainsi ont pu se donner libre cours des présentations et des discussions qui
+                n’ont qu’un rapport lointain – ou en tout cas douteux – avec la réalité des textes.
+                Il paraît clair que le prétendu « wébérisme », qui englobe indistinctement Finley et
+                Weber, est une pure construction à visée polémique, qui n’a guère de vertus
+                    analytiques<note type="standard" xml:id="ftn19" place="foot" n="19">
+          <p> Hinnerk Bruhns
+                            le démontre de façon rigoureuse, exempte de toute facilité polémique,
+                            dans son article, « Moses I. Finley, coupable de ‘wébérisme’? », pour le
+                            numéro spécial d’Anabases (19, p. 69-82). On lira également sa
+                            contribution aux Mélanges en l’honneur de Jean Andreau dans laquelle il
+                            développe la même critique de fond.</p>
+        </note>. Derrière cet homme
+                de paille Weber a disparu… ou a été oublié. Pour ce qui est de Finley lui-même, la
+                virulence de la polémique a entraîné le rejet radical de son modèle par certains et
+                non son simple et légitime dépassement.</p>
+            <p xml:id="d1e603">Il nous semble pourtant que des conditions favorables sont désormais
+                réunies pour une réception plus sereine de l’œuvre wébérienne. D’abord, on dispose,
+                dans le cadre de la MWG, d’une édition critique des textes relatifs à l’Antiquité.
+                    <hi rend="italic">Die römische Agrargeschichte</hi> a été publié il y a
+                déjà longtemps sous la responsabilité d’un spécialiste reconnu, Jürgen Deininger
+                (MWG, I/2, 1986). C’est le même savant qui a eu la charge d’éditer l’ensemble des
+                écrits de Weber consacrés à «  l’histoire sociale et économique de l’Antiquité »
+                pour la période 1893-1909, c’est-à-dire comportant, outre la version finale des <hi rend="italic">Agrarverhältnisse im Altertum</hi>, les deux versions
+                courtes qui l’avaient précédée et l’article fondamental, « <hi rend="italic">Die sozialen Gründe des Untergangs der antiken Kultur</hi> » (MWG, I/6, 2006).
+                Ajoutons encore que l’édition de <hi rend="italic">Die Stadt</hi> a été en
+                définitive assumée par un autre historien de l’Antiquité, Wilfried Nippel (MWG,
+                I/22-5, 1999)<note type="standard" xml:id="ftn20" place="foot" n="20">
+          <p> Initialement, le
+                            médiéviste Klaus Schreiner devait aussi participer à cette édition
+                            critique mais il s’en est rapidement retiré.</p>
+        </note>. Les
+                introductions respectives de ces deux auteurs fournissent à quiconque se donne la
+                peine de les consulter de précieuses informations sur le contexte de rédaction de
+                ces différents textes mais aussi les bases d’une interprétation respectueuse de la
+                pensée de Weber. De plus, ces chercheurs ne sont pas isolés ; il existe en effet une
+                communauté internationale de bons connaisseurs de cette partie de l’œuvre
+                wébérienne, dans laquelle Luigi Capogrossi Colognesi en Italie et Hinnerk Bruhns en
+                France nous paraissent occuper une place particulière. Il y a là un climat propice à
+                la réception de Weber ; celle-ci peut, nous semble-t-il, être poursuivie et
+                approfondie selon trois voies distinctes.</p>
+            <p xml:id="d1e622">La première voie pourrait être appelée celle de « l’inventaire »,
+                suggérée par Heuss dans le cadre de son important article. Cette dénomination a
+                pourtant quelque chose de réducteur et Hinnerk Bruhns s’est, avec raison, interrogé
+                sur sa pertinence (« Introduction » à <hi rend="italic">Économie et société
+                    dans l’Antiquité</hi>, 1998, p. 38). Déjà malaisée dans son exécution, une telle
+                entreprise ne permettrait guère de dégager le sens de la recherche wébérienne : la
+                collection de propositions à laquelle elle aboutirait, si elle était menée jusqu’au
+                bout, n’en donnerait qu’une image appauvrie, d’esprit positiviste. Cette voie
+                n’aboutit pas pour autant nécessairement à une impasse. Stefan Breuer en garde
+                quelque chose lorsqu’il confronte autour du thème de la domination les analyses
+                wébériennes aux acquis de la recherche contemporaine pour apprécier ce qu’il en
+                reste aujourd’hui ; mais cette appréciation vise d’abord, au delà de telle ou telle
+                proposition, le tableau d’ensemble que propose Weber de la genèse des formes de
+                domination et de leurs potentialités de développement<note type="standard" xml:id="ftn21" place="foot" n="21">
+          <p> Stefan Breuer procède, pour ce qui est de
+                            l’Antiquité, à cette confrontation entre analyses wébériennes et acquis
+                            de la recherche dans le chapitre IV de son livre de 2011 (p. 121-159).
+                            On se permettra de renvoyer, pour une présentation d’ensemble de cet
+                            ouvrage, à notre note critique, « La sociologie de la domination
+                            revisitée. À propos d’un ouvrage de Stefan Breuer », dans L’Année
+                            sociologique (2014, p. 171-190). </p>
+        </note>.</p>
+            <p xml:id="d1e632">La seconde voie consisterait en une discussion critique des critères
+                qui fondent pour Weber la spécificité de l’Antiquité gréco-romaine et, plus
+                globalement, lui confèrent une portée particulière du point de vue de l’histoire
+                universelle. Le premier, le plus général, résulte, dans ce cas, − contrairement à la
+                Mésopotamie ou à l’Égypte – de la victoire de la noblesse sur « la royauté militaire
+                primitive » et de la constitution d’une « cité nobiliaire », « s’administrant
+                elle-même » et, ajoute Weber, «  ce qui est décisif, sans bureaucratie » (<hi rend="italic">Économie et société dans l’Antiquité</hi>, p. 122). La cité
+                peut ensuite évoluer vers « la cité des hoplites » et, ultérieurement, vers «  la
+                cité démocratique de citoyens » mais les deux traits essentiels – et favorables au
+                développement – de l’<hi rend="italic">autonomie et de l’absence de
+                    bureaucratie </hi>y sont préservés. En revanche, un obstacle majeur au
+                développement économique provenait, selon Weber, de l’impossibilité de réunir dans
+                des corporations organisées sur une base professionnelle, comparables à celles du
+                Moyen Âge, les hommes libres et les esclaves travaillant dans les mêmes métiers,
+                puisque l’interdisait leur différence radicale de statut. Facteur aggravant, pour
+                reprendre la célèbre formulation de <hi rend="italic">Die Stadt</hi> (MWG,
+                I/22-5, p. 283), la <hi rend="italic">polis</hi> antique était « une <hi rend="italic">corporation de guerriers</hi> » (en italique dans le
+                texte). La formule de Weber a été, non sans raison, discutée, notamment par Meier
+                dans le texte déjà cité (1988, p. 21)<note type="standard" xml:id="ftn22" place="foot" n="22">
+          <p> La critique de Meier se fait plus vive dans son article portant
+                            sur « le rôle de la guerre dans l’Athènes classique » (1990). Notons
+                            pourtant que Weber ne s’en tient pas à cette seule formulation ; il
+                            écrit aussi que « la démocratie antique était une ‘corporation’ de
+                            citoyens libres » (I/22-5, p. 263). Hinnerk Bruhns est revenu sur cette
+                            critique de Meier dans son article sur « Le rôle de Max Weber dans
+                            l’œuvre de Christian Meier » (Anabases, 2009, 10, p.
+                    41-59).</p>
+        </note>. Il ne faut pas cependant oublier qu’elle vise à
+                préparer le lecteur à la conclusion tranchée selon laquelle «  en principe il ne
+                pouvait être question d’une liberté personnelle de la conduite de vie » (I/22-5,
+                p. 285). C’est d’abord de cette dernière qu’il convient de discuter, à savoir de
+                l’émergence problématique, dans le cadre de la cité antique, d’une conduite autonome
+                sur le plan économique.</p>
+            <p xml:id="d1e655">Parmi les autres thèmes qui appelleraient reconsidération et
+                approfondissement, deux méritent, à notre sens, une attention particulière. L’un
+                touche au rôle, exceptionnel du point de vue de l’histoire universelle, des paysans
+                dans les cités grecques : le lien durable établi entre la citoyenneté et la
+                possession de terres en a été le fondement et a conféré aux propriétaires fonciers
+                un prestige propre, y compris pour les périodes où, comme à Athènes, cette règle
+                restrictive a été abolie. L’autre touche, bien sûr, à la place centrale de
+                l’esclavage dans l’économie antique mais court, encore moins que le précédent, le
+                risque d’être oublié, tant Finley en a fait une pièce essentielle de son
+                argumentation.</p>
+            <p xml:id="d1e657">Une troisième voie, peut-être la plus ambitieuse – au moins pour la
+                partie socio-économique de l’œuvre wébérienne −, vaut la peine d’être signalée ici,
+                même si elle n’a été jusqu’à présent guère empruntée. Hinnerk Bruhns en esquisse
+                l’idée dans son texte d’annonce du colloque de 2003 auquel était, selon le titre
+                initial, assigné l’objectif ambitieux de traiter d’ « Économie antique et économie
+                moderne : le débat entre théorie économique et économie historique (À propos de Max
+                Weber). » Il y invite à prendre en compte le lien, jusque-là négligé, entre les
+                positions prises par Weber à l’égard de la théorie économique moderne et ses
+                analyses des systèmes économiques du monde antique. C’est justement cette
+                articulation qu’il s’efforce de penser dans sa propre intervention (« Max Weber,
+                économie antique et science économique moderne ») ainsi que dans une contribution,
+                très voisine par la date et l’orientation, à un ouvrage collectif<note type="standard" xml:id="ftn23" place="foot" n="23">
+          <p> Il s’agit du chapitre 9, «
+                            Max Weber, théorie économique et histoire de l’économie » dans le livre
+                            Histoire et économie politique en Allemagne de Gustav Schmoller à Max
+                            Weber, paru en 2004 sous la direction d’Hinnerk Bruhns.</p>
+        </note>.
+                À travers les <hi rend="italic">Agrarverhältnisse im Altertum</hi> Weber
+                aurait voulu donner une «  leçon de méthode » privilégiant, conformément à sa
+                conception de la théorie, la construction rigoureuse de concepts et d’idéaltypes.
+                Peut-être pourrait-on encore élargir le champ d’investigation et entreprendre de
+                relire ce même ouvrage à la lumière de la complexe architecture conceptuelle
+                proposée par Weber dans le chapitre II d’<hi rend="italic">Économie et
+                    société</hi> (« Les catégories sociologiques fondamentales de l’économique »).
+                Cette perspective synthétique pourrait permettre de remédier à la vision courante
+                d’une œuvre divisée en une suite de compartiments séparés sans pour autant remettre
+                en question les indéniables déplacements d’intérêt, voire de priorité.</p>
+            <p xml:id="d1e670">Telles sont quelques-unes des voies que pourrait, selon nous,
+                emprunter de façon fructueuse la réception de l’œuvre wébérienne. Nous ne voudrions
+                pas pour autant laisser croire que celle-ci ne comporte pas des lacunes et des
+                faiblesses dans sa compréhension du monde antique. Une nouvelle appréhension du
+                politique s’impose, notamment pour les cités grecques et en particulier pour
+                Athènes. Sur ce plan, c’est plutôt à partir des perspectives ouvertes par Christian
+                    Meier<note type="standard" xml:id="ftn24" place="foot" n="24">
+          <p> Rappelons ici la
+                            forte affirmation d’H. Bruhns dans son article relatif au « rôle de
+                            Weber dans l’œuvre de Meier » (Anabases, 10, 2009) : « La ville antique
+                            de Max Weber et la polis grecque de Christian Meier ne se contredisent
+                            pas, elles se complètent. ». Elle mériterait une discussion
+                            approfondie.</p>
+        </note>, avec son insistance sur l’autonomie du
+                politique et la valorisation inhérente à sa pratique, et non de l’approche trop
+                « instrumentale » de Finley<note type="standard" xml:id="ftn25" place="foot" n="25">
+          <p>
+                            Finley considère en effet dans L’invention de la politique (1985, Chap.
+                            V, p.145) que « pour tous ceux qui ne sont pas politiciens, la politique
+                            est une activité instrumentale, [c’est-à-dire]un [simple] moyen [pour]
+                            atteindre des objectifs [qui sont] en eux-mêmes non politiques ». C’est
+                            en particulier à cette « compréhension instrumentale de la politique »,
+                            jugée trop étroite, que Christian Meier s’en prend dans son compte rendu
+                            du livre de Finley (Gnomon, 1986, 58, p. 496-509). </p>
+        </note>
+                qu’il faudrait, à nos yeux, tenter de cerner son originalité.</p>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e686">
+                <listBibl xml:id="d1e688">
+                    <head subtype="level1" xml:id="d1e689">Bibliographie</head>
+                    <bibl xml:id="d1e691">Andreau J. (1995), « Présentation : vingt ans après <hi rend="italic">L’économie antique</hi> de Moses I. Finley », <hi rend="italic">Annales</hi>
+                        <hi rend="italic">HSS</hi>, 50, p. 947-960.</bibl>
+                    <bibl xml:id="d1e702">Bresson A. (2008), <hi rend="italic">L’économie de
+                            la Grèce des cités (fin VI</hi>
+            <hi rend="sup">e</hi>
+            <hi rend="italic">-1</hi>
+            <hi rend="sup">
+              <hi rend="italic">er</hi>
+            </hi>
+            <hi rend="italic"> siècle a.
+                            C.), I Les structures de la production, II Les espaces de
+                        l’échange</hi>, Paris, A. Colin.</bibl>
+                    <bibl xml:id="d1e716">
+                        <hi xml:lang="de">Breuer S. (2011), « ‘</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="de">Herrschaft‘ in der Soziologie Max Webers </hi>
+                        </hi>
+                        <hi xml:lang="de">», Wiesbaden, Harassowitz Verlag.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e724">Bruhns H. (1985), « De Werner Sombart à Max Weber et Moses
+                        I. Finley : la typologie de la ville antique et la question de la ville de
+                            consommation »<hi rend="italic"> in</hi> P. Leveau (Dir.), <hi rend="italic">L’origine des richesses dépensées dans la ville
+                            antique</hi>, Aix-en-Provence, p. 255-283. Repris dans 2014c, chap. 3 de
+                        la première partie, « Die Stadt ».</bibl>
+                    <bibl xml:id="d1e732">— (1996), « Max Weber, l’économie et l’histoire », <hi rend="italic">Annales</hi>
+                        <hi rend="italic">HSS</hi>, 51, p. 1259-1287. Repris dans 2014c,
+                        chap. 2 de la seconde partie, « Geschichte und Ökonomie  ».</bibl>
+                    <bibl xml:id="d1e740">— (2004), « Max Weber, économie antique et science
+                        économique moderne » in<hi rend="italic"> </hi>: H. Bruhns, J.
+                        Andreau (Dir.), <hi rend="italic">Sociologie économique et économie
+                            de l’Antiquité</hi>, Cahiers du Centre de recherches historiques, 34,
+                        p. 31-45. Repris dans 2014c, chap. 4 de la seconde partie.</bibl>
+                    <bibl xml:id="d1e748">— (2004), « Max Weber, théorie économique et histoire de
+                        l’économie » in<hi rend="italic"> </hi>: H. Bruhns (Dir.), <hi rend="italic">Histoire et économie politique en Allemagne de
+                            Gustav Schmoller à Max Weber</hi>, Paris, MSH, chap. 9.</bibl>
+                    <bibl xml:id="d1e756">— (2009), « Le rôle de Max Weber dans l’œuvre de Christian
+                        Meier », <hi rend="italic">Anabases</hi>, 10, p. 41-59. Version
+                        allemande reprise dans 2014c, chap. 2 de la troisième partie,
+                        « Weberlektüren, Weberleser ».</bibl>
+                    <bibl xml:id="d1e761">— (2014a), « Moses I. Finley, coupable de ‘wébérisme’ ? »,
+                            <hi rend="italic">Anabases</hi>, 19, p. 69-82.</bibl>
+                    <bibl xml:id="d1e766">— (2014b), « Cambridge, Bordeaux ou Heidelberg : à quoi
+                        servent les ‘classiques’  » in : C. Apicella, M.L. Haack et F. Lerouxel
+                        (Dir.), <hi rend="italic">Mélanges en l’honneur de Jean Andreau</hi>,
+                        Bordeaux, Ausonius, p. 29-41.</bibl>
+                    <bibl xml:id="d1e772">
+            <hi xml:lang="de">— (2014c), </hi>
+            <hi rend="italic">
+              <hi xml:lang="de">Max Webers historische Sozialökonomie.
+                            </hi>
+            </hi>
+            <hi rend="italic">L’économie de Max Weber entre
+                            histoire et sociologie</hi>, Wiesbaden, Harassowitz Verlag.</bibl>
+                    <bibl xml:id="d1e781">Bruhns H. et W. Nippel (1991), « Max Weber, Moses I.
+                        Finley et le concept de cité antique » <hi rend="italic">in OPUS,
+                            VI-VIII (1987-1989)</hi> : La cité antique ? <hi xml:lang="en">À partir
+                            de l’œuvre de Moses I. Finley, p. 27-50.</hi>
+          </bibl>
+                    <bibl xml:id="d1e788">
+                        <hi xml:lang="en">Capogrossi Colognesi L. (1995), « The Limits of the
+                            Ancient City and the Evolution of the Medieval City in the Thought of
+                            Max Weber » </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">in</hi>
+                        </hi>
+                        <hi xml:lang="en"> T. J. Cornell, K. Thomas (eds.), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Urban Society in Roman Italy</hi>
+                        </hi>
+                        <hi xml:lang="en">, Londres, University College Press, p. 27-37.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e801">
+                        <hi xml:lang="de">Deininger J. (1990), « Eduard Meyer und Max Weber » </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="de">in</hi>
+                        </hi>
+                        <hi xml:lang="de"> W. Calder III et A. Demandt (Hrsg.), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="de">Eduard Meyer. Leben und Leistung eines
+                                Universalhistorikers</hi>
+                        </hi>
+                        <hi xml:lang="de">, Leiden (Mnemosyne, suppl. 112), E. J. Brill,
+                            p. 132-158.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e814">Descat R. (1995), « L’économie antique et la cité grecque.
+                        Un modèle en question  », <hi rend="italic">Annales</hi>
+                        <hi rend="italic">HSS</hi>, 50, p. 961-989.</bibl>
+                    <bibl xml:id="d1e822">
+                        <hi xml:lang="en">Finley M.I. (1973, 1985 [2</hi>
+                        <hi rend="sup">
+                            <hi xml:lang="en">e</hi>
+                        </hi>
+                        <hi xml:lang="en"> éd.]), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Ancient Economy</hi>
+                        </hi>
+                        <hi xml:lang="en">, Berkeley, University of California Press; trad. fr., </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">L’économie antique</hi>
+                        </hi>
+                        <hi xml:lang="en">, 1975, Paris, éd. de Minuit.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e840">
+                        <hi xml:lang="en">— (1973), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Democracy Ancient and Modern</hi>
+                        </hi>
+                        <hi xml:lang="en">, Londres, Chatto &amp; Windus; trad. fr., Paris, Payot,
+                            1990.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e848">
+                        <hi xml:lang="en">— (1977), « The Ancient City: from Fustel de Coulanges to
+                            Max Weber and beyond », </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Comparative Studies in Society and History</hi>
+                        </hi>
+                        <hi xml:lang="en">, XIX, p. 305-327.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e856">
+            <hi xml:lang="en">— (1983) </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Politics in the Ancient World</hi>
+            </hi>
+            <hi xml:lang="en">. </hi>Cambridge : Cambridge University Press.</bibl>
+                    <bibl xml:id="d1e865">— (1984, trad. fr. ; éd. or., 1981) <hi rend="italic">Économie et société en Grèce ancienne,
+                        </hi>introduction de B.D. Shaw et de R.P. Saller, Paris, La
+                        Découverte.</bibl>
+                    <bibl xml:id="d1e870">
+            <hi xml:lang="de">— (1986), « Max Weber und der
+                            griechische Stadtstaat » in : J. Kocka (Hrsg.), </hi>
+            <hi rend="italic">
+              <hi xml:lang="de">Max Weber, der
+                            Historiker</hi>
+            </hi>
+            <hi xml:lang="de">, G</hi>ö<hi xml:lang="de">ttingen, Vandenhoek &amp; Ruprecht, p. 90-106.</hi>
+          </bibl>
+                    <bibl xml:id="d1e882">Hartog F. (2015), <hi rend="italic">Partir pour la
+                            Grèce</hi>, Paris, Flammarion.</bibl>
+                    <bibl xml:id="d1e887">
+                        <hi xml:lang="de">Heuss A. (1965), « Max Webers Bedeutung für die Geschichte
+                            des griechisch-römischen Altertums », </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="de">Historische Zeitschrift</hi>
+                        </hi>
+                        <hi xml:lang="de">, 201, p. 529-556.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e895">Ismard P. (2014), « Classes, ordres, statuts : la
+                        réception de la sociologie finleyenne et le cas Pierre Vidal-Naquet », <hi rend="italic">Anabases</hi>, 19, p. 39-54.</bibl>
+                    <bibl xml:id="d1e900">
+                        <hi xml:lang="de">Meier C. (1988), « Max Weber und die Antike » in : C.
+                            Gneuss, J. Kocka (Hrsg.), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="de">Max Weber. Ein Symposion</hi>
+                        </hi>
+                        <hi xml:lang="de">, Münich, DTV, p. 11-24.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e908">
+                        <hi xml:lang="de">— (1990), « Die Rolle des Krieges im klassischen Athen », </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="de">Historische Zeitschrift</hi>
+                        </hi>
+                        <hi xml:lang="de">, 251, p. 555-605.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e916">
+                        <hi xml:lang="en">— (1986) Recension de Moses I. Finley, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Politics in the Ancient World</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi xml:lang="it">Cambridge : Cambridge UP 1983, in : </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="it">Gnomon</hi>
+                        </hi>
+                        <hi xml:lang="it"> 58, 496-509.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e931">
+                        <hi xml:lang="it">Momigliano A. (1980 [1977]), « Max Weber and Eduard
+                            Meyer : à propos de City and Country in Antiquity », </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="it">Sesto contributo alla storia degli studi classici e
+                                del mondo antico</hi>
+                        </hi>
+                        <hi xml:lang="it">, Rome, Edizioni di Storia e Letteratura, I, p. 285-
+                            293.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e939">
+                        <hi xml:lang="it">— (1980 [1978], « Dopo Max Weber ? », </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="it">Sesto contributo alla storia degli studi classici e
+                                del mondo antico</hi>
+                        </hi>
+                        <hi xml:lang="it">, I, p. 295-312.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e947">
+                        <hi xml:lang="it">— (1981), Préface à </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="it">Storia economica e sociale dell’antichita. I rapporti
+                                agrari</hi>
+                        </hi>
+                        <hi xml:lang="it">, Rome, Editori Riuniti.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e955">
+                        <hi xml:lang="de">Nippel W. (1986), « Die Kulturbedeutung der Antike.
+                            Marginalien zu Weber » </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="de">in</hi>
+                        </hi>
+                        <hi xml:lang="de"> J. Kocka (Hrsg.), p. 112-118.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e963">
+                        <hi xml:lang="en">North D.C. (1981), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Structure and Change in Economic History</hi>
+                        </hi>
+                        <hi xml:lang="en">, New York, Norton.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e972">Pearson H.W. (1975 ; éd. or., 1957), « Un siècle de débat
+                        sur le primitivisme économique » <hi rend="italic">in</hi> K. Polanyi
+                        , C. Arensberg, <hi rend="italic">Les systèmes économiques dans
+                            l’histoire et dans la théorie,</hi> Paris, Larousse, p. 43-49.</bibl>
+                    <bibl xml:id="d1e980">Pébarthe C. (2014), « Une <hi rend="italic">Économie</hi>
+                        <hi rend="italic">antique</hi> en version française », <hi rend="italic">Anabases</hi>, 19, p. 55-68.</bibl>
+                    <bibl xml:id="d1e991">Weber M. (1986), Max Weber Gesamtausgabe, I/2, Die
+                        römische Agrargeschichte in ihrer Bedeutung für das Staats-und Privatrecht,
+                        édité et introduit par J. Deininger, Tübingen, J.C.B. Mohr (Paul
+                        Siebeck).</bibl>
+                    <bibl xml:id="d1e993">
+                        <hi xml:lang="de">— (2006), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="de">Max Weber Gesamtausgabe, I/6, Zur Sozial- und
+                                Wirtschaftsgeschichte des Altertums</hi>
+                        </hi>
+                        <hi xml:lang="de">, 1893-1908, édité et introduit par J. Deininger.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1001">
+            <hi xml:lang="de">— (1999), </hi>
+            <hi rend="italic">
+              <hi xml:lang="de">Max Weber Gesamtausgabe</hi>
+            </hi>
+            <hi xml:lang="de">, I/ 22-5, </hi>
+            <hi rend="italic">
+              <hi xml:lang="de">Die Stadt</hi>
+            </hi>
+            <hi xml:lang="de">, édité et introduit par
+                            W. Nippel. </hi>Edition française établie par A. Berlan, qui a traduit
+                        et introduit le texte, avec une postface d’Y. Sintomer, <hi rend="italic">La ville</hi>, Paris, La Découverte, 2014.</bibl>
+                    <bibl xml:id="d1e1018">— (2005), <hi rend="italic">Max Weber
+                            Gesamtausgabe</hi>, I/22-4, <hi rend="italic">Herrschaft</hi>,
+                        édité et introduit par Edith Hanke avec la collaboration de T. Kroll.
+                        Edition française sous la responsabilité d’Y. Sintomer, dans une traduction
+                        d’I. Kalinowski, La <hi rend="italic">domi­nation</hi>, Paris, La
+                        Découverte, 2013.</bibl>
+                    <bibl xml:id="d1e1029">— (1971), <hi rend="italic">Économie et
+                            société</hi>, trad. partielle par J. Freund et <hi rend="italic">al</hi>., Paris, Plon.</bibl>
+                    <bibl xml:id="d1e1037">— (1998), <hi rend="italic">Économie et société
+                            dans l’antiquité</hi>, précédé de « Les causes sociales du déclin de la
+                        civilisation antique », traduit par C. Colliot-Thélène et F. Laroche, avec
+                        une Introduction d’ H. Bruhns : « À propos de l’histoire ancienne et de
+                        l’économie politique chez Max Weber », p. 9-59.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

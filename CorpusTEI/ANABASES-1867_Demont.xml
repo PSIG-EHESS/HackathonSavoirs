@@ -1,0 +1,922 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-1867_Demont">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">
+                    <hi xml:lang="fr">Enjeux du traité hippocratique <hi rend="italic">Des airs, des
+                            eaux et des lieux</hi> en 1800 : autour de l’édition de Coray</hi>
+                </title>
+                <author>
+                    <persName>
+                        <forename>Paul</forename>
+                        <surname>Demont</surname>
+                    </persName>
+                    <affiliation> Professeur de langue et littérature grecques<lb/>Université de
+                        Paris-Sorbonne (Paris-IV)<lb/>Paul.Demont@paris-sorbonne.fr </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+                        Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>« Savoirs » est une plateforme de publication numérique vouée à l’histoire et à
+                    l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS
+                    (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une
+                    archive d’articles ou une collection de livres, il s’agit d’une bibliothèque
+                    « intelligente » et expérimentale qui propose des parcours de lecture
+                    heuristiques et réflexifs entre les textes, grâce à différents algorithmes de
+                    recherche et de suggestions reposant notamment sur un balisage des lieux, des
+                    dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs
+                        (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel
+                        XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données
+                        géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour
+                        l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références
+                        Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes
+                        pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>philology</item>
+                        <item>slavery</item>
+                        <item>Hippocrates</item>
+                        <item>hippocratism</item>
+                        <item>Coray Adiamantos</item>
+                        <item>medicine</item>
+                        <item>climate</item>
+                        <item>Ionia</item>
+                        <item>Turkey</item>
+                        <item>despotism</item>
+                        <item>Montesquieu</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>philologie</item>
+                        <item>esclavage</item>
+                        <item>Hippocrate</item>
+                        <item>hippocratisme</item>
+                        <item>Coray Adiamantos</item>
+                        <item>médecine</item>
+                        <item>climat</item>
+                        <item>Ionie</item>
+                        <item>Turquie</item>
+                        <item>despotisme</item>
+                        <item>Montesquieu</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">
+                        <hi xml:lang="fr">Enjeux du traité hippocratique <hi rend="italic">Des airs,
+                                des eaux et des lieux</hi> en 1800 : autour de l’édition de
+                            Coray</hi>
+                    </titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Paul Demont</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e251">
+                <p xml:id="d1e252">L’édition du traité hippocratique <hi rend="italic">Des airs, des
+                        eaux et des lieux</hi> qu’Adiamantos Coray a publiée en 1800 à Paris est un
+                    travail philologique novateur. C’est aussi l’œuvre d’un émigré fier de son pays
+                    natal, hostile au despotisme asiatique. Docteur en médecine de la Faculté de
+                    Montpellier, partisan d’une forme de retour à Hippocrate, Coray doit aussi être
+                    situé par rapport à Montesquieu sur la question du déterminisme climatique et de
+                    l’esclavage.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e257">
+                <p xml:id="d1e258">
+                    <hi xml:lang="en">The edition of the Hippocratic treatise </hi>
+                    <hi rend="italic">
+                        <hi xml:lang="en">Of airs, waters and places </hi>
+                    </hi>
+                    <hi xml:lang="en">which Adiamantos Coray published in Paris in 1800 is a
+                        groundbreaking philological work. It is also the work of an emigrant proud
+                        of his native country and hostile to Asiatic despotism. Doctor of the
+                        Montpellier School of Medicine, he advocated a form of return to
+                        Hippocrates. Coray must also be assessed in comparison with Montesquieu on
+                        the question of climatic determinism and slavery.</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <p xml:id="d1e270">Le traité hippocratique <hi rend="italic">Airs, Eaux, Lieux</hi> fut
+                rédigé probablement dans la seconde moitié du <hi rend="small-caps">v</hi>
+        <hi rend="sup">e</hi> siècle avant notre ère. L’une des éditions les plus
+                importantes qui en aient été proposées est celle que le grec Adiamantos, ou
+                Diamantos ou, dans la version francisée de son prénom, Diamant ou Adamance Coray, a
+                publiée en 1800 à Paris, et rééditée en grec, pour les étudiants grecs de médecine,
+                en 1816. Beaucoup de travaux de grande qualité ont déjà été consacrés en Grèce et en
+                France à Coray et à cette édition : on en aura le meilleur aperçu dans l’édition du
+                traité hippocratique procurée par Jacques Jouanna<note type="standard" xml:id="ftn1" place="foot" n="1">
+          <p> Dans la collection Budé (Hippocrate, t. II, 2, <hi rend="italic">Airs, Eaux, Lieux</hi>, Paris, Les Belles Lettres [<hi rend="italic">
+              <hi rend="small-caps">cuf</hi>
+            </hi>], 1996).</p>
+        </note> et
+                dans les actes du dernier colloque qui, à ma connaissance, lui a été consacré, à
+                Montpellier, en 1998<note type="standard" xml:id="ftn2" place="foot" n="2">
+          <p>
+                        <hi rend="italic">Hellénisme et Hippocratisme dans l’Europe
+                            méditerranéenne : autour de D. Coray</hi>, Actes du Colloque des 20-21
+                        mars 1998, R. <hi rend="small-caps">Andréani</hi>, H. <hi rend="small-caps">Michel</hi>, E. <hi rend="small-caps">Pélaquier</hi> (éd.), université
+                        de Montpellier-III, 2000.</p>
+        </note>.</p>
+            <p xml:id="d1e309">La Grèce était alors sous occupation turque. Coray, né en 1748 à
+                Smyrne dans une famille de négociants de Chio, est arrivé en France en 1782 à 34 ans
+                pour fuir le despotisme, mais aussi probablement le négoce (et peut-être aussi le
+                mariage). Il étudia d’abord la médecine à l’université de Montpellier, et notamment
+                la médecine hippocratique, fondée sur la nature, que la Faculté de Montpellier
+                défendait avec les Encyclopédistes, puis vécut à Paris, où, pendant la tourmente
+                révolutionnaire, il prépara son édition, au milieu d’autres travaux, souvent
+                alimentaires, qui montrent et sa puissance de travail, et que la médecine n’était
+                pas son intérêt unique : une édition des <hi rend="italic">Caractères </hi>de
+                Théophraste l’année précédente, ensuite, sur commande de Bonaparte, et avec
+                d’autres, une édition de la <hi rend="italic">Géographie </hi>de Strabon, tout en se
+                lançant dans sa grande entreprise de la <hi rend="italic">Bibliothèque
+                    hellénique</hi>.</p>
+            <p xml:id="d1e320">Son édition d’<hi rend="italic">Airs, Eaux, Lieux</hi>
+        <note type="standard" xml:id="ftn3" place="foot" n="3">
+          <p> La Bibliothèque
+                        interuniversitaire de médecine (<hi rend="small-caps">bium</hi>) en a
+                        récemment réalisé la numérisation, qui permet sa consultation aisée
+                        (http://www.bium.univ-paris5.fr/histmed/medica/cote?33163x01 et
+                        http://www.bium.univ-paris5.fr/histmed/medica/cote?33163x02). </p>
+        </note>, à
+                laquelle il semble avoir travaillé dès 1788, sera ici envisagée sous cinq aspects
+                différents : c’est un travail de philologie (ou, pour employer le vocabulaire de
+                Coray, de « critique ») ; c’est l’œuvre d’un Grec ; mais est-ce celle d’un
+                Européen ? C’est cependant aussi un travail médical. Et enfin, quels sens peut
+                prendre la théorie des climats autour de 1800 ?</p>
+            <p xml:id="d1e332">Le rôle de Coray comme philologue et éditeur est bien connu. Émile
+                Littré, l’éditeur de l’ensemble de ce qu’on appelle la <hi rend="italic">Collection
+                    hippocratique</hi>, écrit quarante ans plus tard dans son introduction à notre
+                traité : « En sa triple qualité de Grec, de médecin et d’helléniste, Coray était
+                plus propre qu’aucun autre à donner une édition du <hi rend="italic">Traité des
+                    Airs, des Eaux et des Lieux</hi> ; et j’ai cru ne pouvoir trop puiser à une
+                source d’érudition aussi abondante et aussi sûre<note type="standard" xml:id="ftn4" place="foot" n="4">
+          <p> É. Littré, <hi rend="italic">
+              <hi rendition="#style04">œ</hi>
+            </hi>
+            <hi rend="italic">uvres complètes d’Hippocrate</hi>, t.
+                        2, Paris, 1840, p. 11.</p>
+        </note>. » Les éditeurs ultérieurs ont reconnu
+                aussi leur dette. Jacques Jouanna, qui résume les différents apports de Coray,
+                notamment son utilisation de notes d’un érudit italien qui possédait un manuscrit
+                ancien, sa connaissance de la tradition indirecte et son attention à l’établissement
+                du texte, écrit : « Nul philologue, par les seules ressources de son intelligence et
+                de son acharnement, n’a fait progresser autant que lui la compréhension du
+                    texte<note type="standard" xml:id="ftn5" place="foot" n="5">
+          <p> J. <hi rend="small-caps">Jouanna</hi> [cf. n. 1], p. 163.</p>
+        </note>. » Jacques
+                Jouanna a consacré de longues semaines de travail à explorer la bibliothèque de
+                Coray à Chio, ce qui lui a permis de découvrir à quel point Coray, bien après cette
+                édition, a continué de s’intéresser à Hippocrate et il a écrit deux beaux articles
+                sur cet intérêt de « philologue » et sur la façon dont Coray a édité le traité<note type="standard" xml:id="ftn6" place="foot" n="6">
+          <p> “Coray et Hippocrate”, dans
+                            <hi rend="italic">Hippocrate et son héritage. Colloque franco-hellénique
+                            d’Histoire de la médecine</hi>, Fondation Marcel Mérieux, Lyon, 1985,
+                        p. 181-196, et “Place et rôle de Coray dans l’édition du traité
+                        hippocratique des <hi rend="italic">Airs, Eaux, Lieux</hi>”, in D. <hi rend="small-caps">Gourevitch</hi> (éd.), <hi rend="italic">Médecins
+                            érudits de Coray à Sigerist</hi>, Paris, 1995, p. 7-24.</p>
+        </note>, ce
+                qui nous permettra d’être bref sur cet aspect essentiel.</p>
+            <p xml:id="d1e376">Il suffit d’ailleurs de prendre une page de l’édition Jouanna pour
+                voir que le meilleur éditeur actuel de la <hi rend="italic">Collection
+                    hippocratique</hi> dialogue très souvent avec Coray. Dans la description de la
+                Scythie et de ses habitants, sont mentionnés les Monts Rhipées, au nord du pays,
+                dans une description dont voici la traduction par J. Jouanna, avec une partie de son
+                apparat critique<note type="standard" xml:id="ftn7" place="foot" n="7">
+          <p> Chap.
+                        XIX, 2 Jouanna.</p>
+        </note> :</p>
+            <q rend="quotation">C’est que ce pays est situé juste sous les Ourses [ἄρκτοισι Coray :
+                -τοις V] et au pied des Monts Rhipées [τοῖσι Coray : τοῖς V] d’où souffle le Borée ;
+                le soleil n’est au plus près qu’à la fin de sa course, quand il arrive à son circuit
+                estival (= solstice d’été), et même alors, il ne souffle que durant peu de temps et
+                sans être fort [καὶ οὐ σφόδρα]. <hi xml:lang="en">Les vents [</hi>τὰ<hi xml:lang="en"> </hi>δὲ<hi xml:lang="en"> </hi>πνεύματα<hi xml:lang="en"> </hi>
+        <hi xml:lang="en">Littré cf. </hi>
+        <hi rend="italic">
+          <hi xml:lang="en">flatus autem </hi>
+        </hi>
+        <hi xml:lang="en">Lat. cf. </hi>
+        <hi rend="italic">
+          <hi xml:lang="en">the winds </hi>
+        </hi>
+        <hi xml:lang="en">Gal. </hi>(Ar.) :
+                τὰ δειπνεύματα V] soufflant des régions chaudes ne parviennent pas [οὐκ Littré cf.
+                    <hi rend="italic">non</hi> Lat. cf. <hi rend="italic">do not </hi>Gal. (Ar.) :
+                om. V], sinon rarement et faiblement ; en revanche, à partir des Ourses (= du nord),
+                soufflent continuellement des vents froids, dus à la neige, à la glace et aux pluies
+                abondantes ; ces conditions climatiques ne quittent jamais les monts (Rhipées) ;
+                aussi sont-ils inhabitables [ἀοικητά prop. <hi xml:lang="en">Coray. (I, 160 et II,
+                    292) : </hi>
+        <hi xml:lang="en">διοικητά </hi>
+        <hi xml:lang="en">V </hi>
+        <hi rend="italic">
+          <hi xml:lang="en">iniababilia </hi>
+        </hi>
+        <hi xml:lang="en">(lege
+                    </hi>
+        <hi rend="italic">
+          <hi xml:lang="en">inhabitabilia</hi>
+        </hi>
+        <hi xml:lang="en">) Lat. </hi>
+        <hi rend="italic">
+          <hi xml:lang="en">unhabited
+                    </hi>
+        </hi>
+        <hi xml:lang="en">Gal. </hi>
+        <hi xml:lang="en">(Ar.) </hi>δυσοικητά<hi xml:lang="en"> </hi>
+        <hi xml:lang="en">edd. ab Ald.].</hi>
+      </q>
+            <p xml:id="d1e448">Le dernier mot est dans le manuscrit <hi xml:lang="en">διοικητά</hi>,
+                ce qui est manifestement une forme impossible. Coray, au moyen à la fois d’une très
+                bonne connaissance de la littérature grecque (à une époque où on ne disposait pas du
+                    <hi rend="italic">
+          <hi rend="small-caps">tlg</hi>
+        </hi> !)<note type="standard" xml:id="ftn8" place="foot" n="8">
+          <p> Les parallèles que propose Coray entre le
+                        médecin, Hérodote (V, 10) et Aristote (<hi rend="italic">Météor. </hi>II, 5,
+                        362b9) peuvent s’expliquer par des emprunts, notamment pour Aristote, qui
+                        connaît certains textes de la <hi rend="italic">Collection
+                            hippocratique</hi>, mais, en tout cas pour ce qui concerne le médecin et
+                        Hérodote, les désaccords qu’on observe aussi en d’autres cas montrent qu’il
+                        s’agit plutôt, quand ils sont d’accord, de la reprise par les deux auteurs
+                        d’un enseignement sur le climat et son influence qui était répandu dans la
+                        seconde moitié du <hi rend="small-caps">v</hi>
+            <hi rend="sup">e</hi> siècle.</p>
+        </note> et d’une méthode d’analyse des fautes de copie
+                toujours valable (mélectures d’onciales /A), a proposé une correction qui est
+                quasiment certaine, reprise par Jacques Jouanna, que confirment le commentaire de
+                Galien et la traduction latine ancienne (deux documents dont Coray ne disposait
+                pas) : ἀοικητά « inhabitables ». Notons cependant que Jacques Jouanna ne suit pas
+                toujours Coray. Et s’il estime souvent devoir discuter en détail son désaccord<note type="standard" xml:id="ftn9" place="foot" n="9">
+          <p> J. <hi rend="small-caps">Jouanna</hi> [cf. n. 1], p. 233, n. 5.</p>
+        </note>, ici il ne dit rien
+                du passage qui précède immédiatement la correction que nous venons de citer, et pour
+                lequel Coray avait proposé dans son commentaire, un autre texte, avec l’explication
+                suivante, très différente de celle de Jacques Jouanna<note type="standard" xml:id="ftn10" place="foot" n="10">
+          <p> P. 296.</p>
+        </note> :</p>
+            <q rend="quotation">Je ne crois pas avoir manqué au devoir d’un éditeur en changeant le
+                mot διαπνεύματα, qui n’est même pas grec, en εὔδια πνεύματα. Ma correction est
+                d’ailleurs justifiée par son opposé πνεύματα ψυχρὰ du paragraphe suivant (Voyez
+                aussi not. LXI, l. 2, p. 157).</q>
+            <p xml:id="d1e488">Jacques Jouanna édite ici un texte très différent, qui reprend deux
+                corrections de Littré introduisant une proposition supplémentaire, ce qui oblige à
+                introduire aussi une négation supplémentaire dans cette nouvelle proposition. Ce
+                texte est appuyé par les documents que Coray ne connaissait pas, le commentaire de
+                Galien et la traduction latine ancienne. La solution de Coray, plus économique, qui
+                conserve le lien entre οὐ σφόδρα et la suite, mérite cependant peut-être de ne pas
+                tomber dans l’oubli.</p>
+            <p xml:id="d1e490">Coray, on le verra, n’intègre pas toujours dans son texte, comme il
+                le fait ici, les corrections qu’il propose en note. À cet égard, pour reprendre une
+                observation de Jacques Jouanna, Coray se situe à la frontière entre deux époques de
+                la philologie : il n’ose pas encore établir le texte sur nouveaux frais, et propose
+                seulement l’édition reçue de Foes, avec des améliorations. Il est aussi à la
+                frontière d’une façon plus importante : Hippocrate, avec lui, devient un auteur pour
+                philologues et historiens, et plus guère pour médecins. Plus tard, l’édition d’Émile
+                Littré connaîtra une évolution comparable.</p>
+            <p xml:id="d1e493">Notons enfin dans l’apparat critique de cette même page deux
+                corrections de Coray, retenues par les éditeurs suivants, qui visent à rétablir des
+                ionismes. Coray était très attentif au dialecte, un des points sur lequel il dit dès
+                la première édition avoir amélioré son texte de base, qui est l’édition de Foes<note type="standard" xml:id="ftn11" place="foot" n="11">
+          <p> P. CLXXVI.</p>
+        </note>. Il
+                signale aussi plus tard que l’édition de 1816, du point de vue du texte, est encore
+                modifiée en ce sens. Il est attentif en général à la langue, et il estimait avoir
+                sur ce point une compétence supérieure aux non-Grecs. Lui était, comme le note
+                finement Littré, helléniste <hi rend="italic">et</hi> Grec ! Ici nous dépassons la
+                simple philologie et abordons le second aspect de l’édition de Coray.</p>
+            <p xml:id="d1e503">Coray l’émigré, en travaillant à son édition, vit en quelque sorte un
+                peu en Grèce, tout en éprouvant douloureusement l’éloignement de son pays natal.
+                Tout se passe comme si travailler sur <hi rend="italic">Airs, Eaux, Lieux</hi> était
+                pour lui vital<note type="standard" xml:id="ftn12" place="foot" n="12">
+          <p> P.
+                        CLXX-CLXXI du « Discours préliminaire ».</p>
+        </note> :</p>
+            <q rend="quotation">En quittant mon malheureux pays, je n’avais encore aucune idée de la
+                médecine, qui pût m’inspirer le désir de vérifier ces observations sur les lieux
+                mêmes. Les regrets que j’en ai à présent sont d’autant plus douloureux que peut-être
+                je n’aurai jamais la satisfaction de revoir ce pays chéri, jadis berceau des
+                sciences et des arts, et qui est aujourd’hui infecté de la barbarie d’une nation
+                féroce. Mais, je le répète, celui qui nous donnerait une topographie médicale bien
+                détaillée de tous les cantons de la Grèce ferait le meilleur commentaire des
+                ouvrages d’Hippocrate.</q>
+            <p xml:id="d1e515">D’emblée il avait présenté Hippocrate au travail « dans un coin de la
+                    Grèce<note type="standard" xml:id="ftn13" place="foot" n="13">
+          <p> Dès les
+                        premières lignes du « Discours préliminaire ».</p>
+        </note> ». La Grèce dans
+                sa réalité physique renaît et renaîtrait en lisant Hippocrate, tout comme Hippocrate
+                ne redeviendrait vraiment vivant et pertinent qu’en parcourant la Grèce, même si
+                l’on peut et si l’on doit étendre ses remarques sur la Grèce à « la topographie des
+                différents pays de l’Europe<note type="standard" xml:id="ftn14" place="foot" n="14">
+          <p> P. CLXXIII.</p>
+        </note> », notons bien, « de l’Europe ». C’est peut-être
+                aussi en ce sens qu’il faut lire le développement sur les vents de la Grèce qui
+                occupent les p. LXXIII-LXXXIII du <hi rend="italic">Discours préliminaire</hi>
+        <note type="standard" xml:id="ftn15" place="foot" n="15">
+          <p> L’appel à un
+                        approfondissement de la connaissance de la géographie de la Grèce et de la
+                        Méditerranée par les Grecs, dans une perspective nationale et éclairée,
+                        correspond à un intérêt contemporain : cf. la <hi rend="italic">Géographie
+                            moderne</hi> (Γεωγραφία νεωτερική) de Daniel Philippidis et Grégoire
+                        Constandas, en 1791 (je dois cette observation à Mme Danaé Lazaridis, que je
+                        remercie vivement).</p>
+        </note>.</p>
+            <p xml:id="d1e537">Il y a donc un privilège grec pour comprendre Hippocrate, et l’Europe
+                a ainsi quelque chose à apprendre de la Grèce. Coray réclame alors par voie de
+                conséquence la connaissance de la Grèce contemporaine, de sa langue et stigmatise au
+                passage la prononciation érasmienne <hi rend="italic">(ibid.)</hi> :</p>
+            <q rend="quotation">Pour tirer tout le parti d’une pareille topographie, il faudrait que
+                celui qui aurait le courage de l’entreprendre y apportât, outre les connaissances
+                physiques et médicales, la connaissance profonde de la langue grecque d’Hippocrate
+                et de plus de celle que parlent les Grecs modernes. Il faudrait surtout, en
+                abandonnant les préjugés européens, qu’il se résolût à prononcer l’une et l’autre
+                comme on les prononce aujourd’hui en Grèce. Prétendre que les Européens prononcent
+                mieux le grec que les natifs de la Grèce est une extravagance digne du <hi rend="small-caps">xvi</hi>
+        <hi rend="sup">e</hi> siècle, qui la vit naître, mais
+                qui aurait déjà dû disparaître devant les lumières du nôtre.</q>
+            <p xml:id="d1e549">Coray ajoute dans une longue note que le résultat regrettable de ce
+                qui, selon lui, était pour Erasme une « mauvaise plaisanterie », est que les
+                voyageurs européens ne comprennent rien et qu’ils ne sont pas compris. Ainsi, par la
+                continuité de la langue, par la résurrection d’Hippocrate et par la continuité du
+                paysage et du climat, la Grèce moderne (qu’il représente à Paris, bien qu’elle
+                n’existe pas) rejoint la Grèce ancienne, le berceau des sciences et des arts que
+                représente Hippocrate.</p>
+            <p xml:id="d1e551">C’est dans cette perspective que Coray s’adresse à ses compatriotes,
+                « qui lui ont fourni les moyens de publier cet ouvrage » (il s’agit de négociants
+                grecs qui furent ses mécènes), à la fin de son introduction, et se livre à un résumé
+                remarquable de l’histoire de la Grèce<note type="standard" xml:id="ftn16" place="foot" n="16">
+          <p> P. CLXXVII-CLXXX.</p>
+        </note> :</p>
+            <q rend="quotation">Je vous félicite de ce que votre zèle dément, de la manière la plus
+                victorieuse, toutes les absurdes calomnies par lesquelles, dans ces derniers temps,
+                des personnes qui par leurs lumières devraient s’intéresser le plus à nos malheurs,
+                ont cherché à dénigrer notre nation. On aura beau dire : vous n’avez point dégénéré
+                de vos illustres ancêtres, le sang grec coule encore dans vos veines ; il n’attend
+                qu’un heureux concours de circonstances pour prouver à l’univers que vos chaînes
+                n’ont pas été votre ouvrage, et que, loin de les avoir portées avec une <hi rend="italic">stupide</hi> résignation, vous avez été la seule nation subjuguée
+                qui ait voué une haine éternelle à ses tyrans, haine transmise de père en fils,
+                nourrie et conservée, dans vos cœurs indignés, comme un héritage sacré. Des despotes
+                transplantés de l’ancienne Rome, après avoir, par une administration aussi stupide
+                que tyrannique, relâché tous les ressorts de la société, entravé l’influence du plus
+                beau des climats, souillé, ébranlé leur trône par les crimes les plus affreux, ont
+                fini par vous livrer à des tyrans encore plus stupides et plus féroces.</q>
+            <p xml:id="d1e563">Il s’en prend ici, entre autres, à un Dr Weikard, estimable membre
+                des Lumières, mais qui avait développé une théorie très curieuse sur le lien entre
+                la stupidité des Grecs modernes et la disparition de la consommation du vin en Grèce
+                à la suite de l’arrachage des vignes par les Ottomans. D’où la pointe pleine
+                d’humour de la citation finale, donnée uniquement en grec, et sans référence, mais
+                dont voici une traduction : « Même si tu me manges jusqu’à la racine, je porterai
+                tout de même encore du fruit en quantité suffisante pour en faire une libation quand
+                on te sacrifiera, toi, le bouc<note type="standard" xml:id="ftn17" place="foot" n="17">
+          <p> Extraite de l’<hi rend="italic">Anthologie</hi>
+                        <hi rend="italic">grecque</hi>, IX, 75.</p>
+        </note>. » Mais surtout, il
+                applique manifestement à l’histoire grecque la tension qui caractérise la fin du
+                traité hippocratique, et sur laquelle je reviendrai, entre l’influence du climat et
+                celle des institutions politiques.</p>
+            <p xml:id="d1e576">De nouvelles institutions politiques correspondant mieux au climat de
+                la Grèce pourront donc lui rendre sa splendeur perdue. C’est d’ailleurs déjà en
+                bonne voie, selon ce qu’il déclare trois ans plus tard dans son célèbre <hi rend="italic">Mémoire sur l’état actuel de la civilisation dans la Grèce</hi>,
+                qu’il lit en 1803 à la Société des observateurs de l’homme<note type="standard" xml:id="ftn18" place="foot" n="18">
+          <p> Lu à la Société des observateurs de
+                        l’homme le 16 Nivôse an XI (6 janvier 1803) par Coray, docteur en médecine
+                        et membre de ladite Société.</p>
+        </note>.</p>
+            <p xml:id="d1e587">On voit ici que Coray a au moins deux publics, « les Européens » et
+                les « natifs de la Grèce ». L’Europe, la Grèce. Au moins deux publics, parce que
+                chacun d’entre eux se divise à l’infini, bien sûr, non sans entraîner quelques
+                contradictions parfois. Mais pour en rester à ces deux publics, il vaut la peine de
+                tenter de préciser un peu le rapport qu’ils ont entre eux. On connaît les célèbres
+                passages du traité hippocratique dans lesquels le médecin ajoute, à l’influence du
+                climat, celle des lois et des mœurs. Il y en a deux, en particulier, très proches
+                l’un de l’autre, dans les chapitres XVI et XXIII-XXIV actuels, que voici dans la
+                traduction de Coray. Ils offrent une variation peu soulignée, mais intéressante dans
+                notre perspective d’aujourd’hui, surtout dans la traduction qu’en donne Coray<note type="standard" xml:id="ftn19" place="foot" n="19">
+          <p>
+                        <hi xml:lang="en">P. 112-113.</hi>
+          </p>
+        </note> :</p>
+            <q rend="quotation">LXXXVIII<note type="standard" xml:id="ftn20" place="foot" n="20">
+          <p>
+                        <hi xml:lang="en">Cf. c. XVI, 5, p. 229-230 </hi>
+            <hi rend="small-caps">
+              <hi xml:lang="en">Jouanna</hi>
+            </hi>
+            <hi xml:lang="en">.</hi>
+          </p>
+        </note>.
+                Une grande preuve de ce que j’avance, c’est qu’en Asie même tous ceux des Grecs et
+                des Barbares qui se gouvernent par leurs propres lois, sans être soumis à des
+                despotes, et qui par conséquent travaillent pour eux-mêmes, sont les hommes les plus
+                belliqueux de tous. C’est qu’ils ne s’exposent que pour eux-mêmes, et que ce sont
+                eux qui reçoivent le prix de leur courage, ou qui portent la peine de leur
+                lâcheté.</q>
+            <q rend="quotation">[…]</q>
+            <q rend="quotation">CXVII<note type="standard" xml:id="ftn21" place="foot" n="21">
+          <p>
+                        <hi xml:lang="en">Cf. c. XXIII-XIV, p. 243-244 </hi>
+            <hi rend="small-caps">
+              <hi xml:lang="en">Jouanna</hi>
+            </hi>
+            <hi xml:lang="en">.</hi>
+          </p>
+        </note>. C’est sans doute la nature du climat qui rend les Européens
+                plus belliqueux que les Asiatiques, mais la forme du gouvernement y contribue aussi.
+                Les premiers ne sont pas gouvernés par des rois comme le sont les autres, et j’ai
+                déjà observé que partout où l’on est soumis à des rois, on est nécessairement très
+                lâche ; parce que, quand on a l’âme asservie, on ne se soucie point d’exposer sans
+                nécessité sa vie pour augmenter la puissance d’un autre. CXVIII. Les Européens, au
+                contraire, gouvernés par leurs propres lois<note type="standard" xml:id="ftn22" place="foot" n="22">
+          <p>
+                        <hi xml:lang="en">Texte grec : </hi>οὗτοι<hi xml:lang="en"> </hi>δὲ<hi xml:lang="en"> </hi>αὐτόνομοι<hi xml:lang="en"> </hi>·<hi xml:lang="en"> </hi>ὑπὲρ<hi xml:lang="en"> </hi>ἑωυτῶν<hi xml:lang="en"> </hi>γὰρ<hi xml:lang="en">... </hi>Coray commente très bien l’emploi de la particule
+                        γὰρ et propose (p. 376 du <hi rend="italic">Commentaire</hi>) de corriger
+                        éventuellement οὗτοι (codd.) en ὅσοι, correction adoptée par les éditeurs
+                        suivants et confirmée par la traduction latine.</p>
+        </note>, affrontent
+                d’autant plus volontiers les dangers qu’ils ne s’y exposent que pour eux-mêmes, et
+                que ce sont eux seuls qui recueillent l’honneur et le fruit de leurs victoires. Tant
+                il est vrai que les lois influent singulièrement sur le courage. En comparant les
+                Européens avec les Asiatiques, je n’ai parlé que d’une manière générale.</q>
+            <p xml:id="d1e659">Voici l’excellent commentaire du premier passage par Coray, avec un
+                ajout significatif<note type="standard" xml:id="ftn23" place="foot" n="23">
+          <p> P.
+                        158.</p>
+        </note> :</p>
+            <q rend="quotation">LXXXVIII, 1. <hi rend="italic">Tous ceux des Grecs et des barbares
+                    qui se gouvernent par leurs propres lois, </hi>etc. Hippocrate pensait donc que
+                l’influence du climat, quoique réelle, pouvait cependant être modifiée par la forme
+                du gouvernement ou par toute autre cause morale. Il cite pour exemple les Grecs
+                d’Asie, qui, malgré la nature du climat, étaient plus vaillants que leurs voisins,
+                les Perses. Ils auraient fini par triompher de ces derniers, et affirmé leur
+                liberté, s’ils eussent suivi le conseil de Thalès.</q>
+            <p xml:id="d1e671">Coray justifie donc ici Hippocrate au moyen d’Hérodote ; le conseil
+                de Thalès, on le sait, consistait à quitter le continent pour s’expatrier en
+                Sardaigne, y fonder une colonie panionienne, afin de mieux résister au despotisme
+                (I, 170). Inutile d’insister sur le parallélisme sous-jacent avec la situation de
+                Coray lui-même, nouveau Thalès à Paris.</p>
+            <p xml:id="d1e673">Le second passage concerne « les Européens » et « les Asiatiques »
+                dans la traduction de Coray, qui est, notons-le, celle du texte <hi rend="italic">avant correction</hi>. Certains exemples pris par Coray pour illustrer « les
+                Européens » et « les Asiatiques » sont remarquables.</p>
+            <p xml:id="d1e678">Du côté de l’Europe, il est impossible de ne pas le mentionner ici et
+                    aujourd’hui<note type="standard" xml:id="ftn24" place="foot" n="24">
+          <p> Cet
+                        article est en effet issu d’une conférence présentée à l’université de
+                        Genève.</p>
+        </note>, il y a la Suisse<note type="standard" xml:id="ftn25" place="foot" n="25">
+          <p> P. 374.</p>
+        </note> :</p>
+            <q rend="quotation">CXVII.5. […] Le plus grand éloge qu’on puisse faire du gouvernement
+                suisse, c’est cette maladie connue sous le nom de <hi rend="italic">nostalgie</hi>
+                ou de <hi rend="italic">mal du pays</hi>, qui attaque de préférence les naturels de
+                ces heureuses contrées, lorsqu’ils se trouvent en pays étranger. La liberté dont ils
+                jouissent, jointe à la simplicité de leurs mœurs, fait naître en eux cette
+                inquiétude et ce désir si vif de retourner dans leur patrie.</q>
+            <p xml:id="d1e698">Du côté de l’Asie, il y a par exemple les Turcs, qui, soumis au
+                despotisme, se battent sans vigueur. L’histoire toute récente a permis à Coray de
+                vérifier l’analyse d’Hippocrate : les Russes ont battu les Turcs au terme d’une
+                longue guerre (1787-1792) et imposé au Sultan un accord qui favorisa le
+                développement de la diaspora et du commerce grecs. Les Russes, pourtant eux aussi
+                soumis à un despotisme, mais moindre, sont plus favorisés par le climat que les
+                Turcs, du point de vue du courage.</p>
+            <p xml:id="d1e701">La Suisse, une Suisse assez rousseauiste, incarne donc une sorte de
+                quintessence de l’Europe hippocratique pour Coray, on pourrait presque dire un
+                double de la Grèce idéale dont le climat et les mœurs concordent dans le bon sens.
+                Et les Suisses ont un sens de la nostalgie bien proche de celui qu’éprouve Coray
+                lui-même.</p>
+            <p xml:id="d1e703">Mais pourquoi la Suisse, et non la France ? C’est que d’autres
+                nations européennes, elles, plus puissantes, et peut-être gouvernées par des
+                despotes elles aussi (cela, je l’ajoute, car Coray se garde d’être trop précis sur
+                ce point), ont été corrompues par leurs mœurs. Il faut ici revenir au <hi rend="italic">Discours préliminaire</hi>. Coray donne des exemples des
+                transformations que la morale et les lois installent dans une population, notamment
+                en Europe, en étendant une observation de Strabon à la situation à l’époque moderne,
+                dans une gradation construite d’une façon caractéristique<note type="standard" xml:id="ftn26" place="foot" n="26">
+          <p> P. XXIII-XXIV.</p>
+        </note> :</p>
+            <q rend="quotation">Strabon observe que les Scythes Nomades, tant vantés par Homère, à
+                cause de leur amour pour la justice, étaient de son temps tellement pervertis, pour
+                avoir embrassé le commerce maritime, qu’ils pillaient, assassinaient les étrangers,
+                quoique d’ailleurs ils parussent plus policés. Quelqu’un s’imaginera peut-être que
+                le commerce n’a pas, à beaucoup près, produit les mêmes effets chez les peuples
+                modernes : mais qu’il songe à l’effusion de sang qui a accompagné la découverte de
+                l’Amérique, et au trafic infâme des nègres que la culture de cette partie du monde a
+                nécessité ; qu’ils songent à l’oppression que plusieurs nations européennes exercent
+                encore aujourd’hui sur les malheureux indigènes de leurs possessions en Asie et en
+                Afrique ; qu’ils songent enfin que ce n’est qu’aux avantages du commerce du Levant
+                que les nations policées de l’Europe sacrifient sans pitié comme sans remords la
+                liberté de la Grèce ; et qu’ils osent après cela décider si l’on est aujourd’hui
+                plus humain que ne l’étaient autrefois les Scythes.</q>
+            <p xml:id="d1e715">La découverte de l’Amérique et le massacre des populations indigènes,
+                puis la traite négrière, enfin l’indifférence devant l’asservissement de la Grèce :
+                quelle gradation ! Il semble, à lire ces protestations très émouvantes contre le
+                mythe du progrès de la nature humaine, que Coray se fasse un malin plaisir de
+                montrer que si, d’un côté, les Grecs ont été, en apparence, transformés par des
+                siècles de despotisme, puis par la tyrannie turque, les Européens de leur côté ont
+                aussi été corrompus par leurs mœurs commerciales (il corrigera cette attaque dans
+                son <hi rend="italic">Mémoire</hi> trois ans plus tard, peut-être pour ne pas trop
+                heurter ses mécènes, par un éloge des effets positifs du commerce en Grèce). Ils
+                sont, dans cette mesure, responsables eux aussi de l’état actuel de la Grèce. La
+                conséquence implicite en est que les Grecs peuvent et doivent retrouver leur ancien
+                état, et que l’Europe peut et doit retrouver aussi, pour lutter avec les natifs de
+                la Grèce, la vertu et le courage qui la caractérisent fondamentalement.</p>
+            <p xml:id="d1e720">Autre difficulté : pour Hippocrate, il y a en Asie une région médiane
+                qui a le climat le plus beau (XII, 2-3, p. 219-220 Jouanna), et, comme la
+                comparaison avec un passage très proche d’Hérodote (I, 142, 1-2) le montre d’une
+                façon certaine, il s’agit notamment, sinon exclusivement, de l’Ionie du Panionion.
+                Or certains peuples en Asie ont néanmoins un caractère qu’on pourrait qualifier
+                d’européen, en raison de leur mode de gouvernement (XVI, 5, p. 229 Jouanna).</p>
+            <p xml:id="d1e722">On a noté avec raison<note type="standard" xml:id="ftn27" place="foot" n="27">
+          <p> Voir notamment J. <hi rend="small-caps">Jouanna</hi>
+                        [cf. n. 1], p. 229 n. 5 et p. 68-69.</p>
+        </note>, qu’Hippocrate parle alors
+                de « Grecs ou Barbares », ce qui tend à effacer la distinction politique entre Grecs
+                et Barbares au profit d’une distinction « scientifique » entre Européens et
+                Asiatiques. Mais on voit aussi à quel point il est nécessaire, pour le médecin
+                antique, de compléter l’influence du climat par l’influence des lois, afin de faire
+                coïncider, notamment dans le cas de l’Asie mineure, les idéaux climatiques naturels
+                avec les idéaux politiques et moraux. Or c’est aussi vrai pour le médecin moderne,
+                qui voit justement dans l’Ionie, et dans l’île de sa famille, Chio, le point de
+                départ de la régénération grecque. C’est ce qu’il déclare du moins dans son <hi rend="italic">Mémoire </hi>ultérieur, et cela colore d’un contexte très
+                contemporain les ionismes réintroduits par Coray dans le texte d’Hippocrate<note type="standard" xml:id="ftn28" place="foot" n="28">
+          <p> P.
+                34-36.</p>
+        </note> :</p>
+            <q rend="quotation">Une des choses les plus remarquables, et qui confirme en quelque
+                manière la doctrine d’Hippocrate, sur l’influence des climats, c’est que les
+                lumières dans la Grèce ancienne avaient commencé par l’Ionie, et que leur
+                renaissance dans la Grèce moderne semblerait affecter la même marche.</q>
+            <q rend="quotation">[…]</q>
+            <q rend="quotation">Le dialecte ionique fut cultivé et perfectionné longtemps avant
+                celui d’Athènes… Jusqu’au siècle d’Hérodote et d’Hippocrate, qui touche au siècle de
+                Platon, il faut que le dialecte des Ioniens ait été regardé comme le plus parfait,
+                puisque le père de l’histoire, comme celui de la médecine, le choisirent, pour y
+                consacrer leurs immortels ouvrages, quoiqu’ils fussent l’un et l’autre doriens
+                d’origine […] J’ai dit que la renaissance des lettres dans la Grèce moderne
+                semblerait affecter la même marche qu’avait prise leur naissance, en commençant par
+                l’Ionie, et en se propageant successivement dans le reste de la Grèce. Car, quoique
+                la révolution qui fait l’objet de mes observations soit commune à tous les Grecs,
+                c’est dans la patrie même d’Homère, dans l’île de Chio, que la Grèce moderne a la
+                satisfaction de voir, depuis quelques années, le premier établissement d’une espèce
+                d’université ou d’école polytechnique.</q>
+            <p xml:id="d1e746">Mais Coray n’est pas seulement « helléniste » et « Grec » : pour
+                reprendre les termes de Littré, même s’il ne pratique pas, il est aussi « médecin »,
+                en tout cas « docteur en médecine ». Certes le professeur de Halle Kurt Sprengel,
+                dans son <hi rend="italic">Histoire de la médecine depuis les origines jusqu’au
+                    </hi>
+        <hi rend="italic">
+          <hi rend="small-caps">xix</hi>
+        </hi>
+        <hi rend="sup">
+          <hi rend="italic">e</hi>
+        </hi>
+        <hi rend="italic"> siècle</hi>, année par année, ne
+                mentionne même pas Coray, sauf erreur, pour l’année 1800<note type="standard" xml:id="ftn29" place="foot" n="29">
+          <p> Voir la traduction française de la
+                        seconde édition, 1815-1820 (t. VI, p. 523 sqq.).</p>
+        </note>. Pas plus que,
+                par exemple, beaucoup plus récemment, l’<hi rend="italic">Histoire de la pensée
+                    médicale en Occident</hi>, dirigée par le Dr M. D. Grmek<note type="standard" xml:id="ftn30" place="foot" n="30">
+          <p> Dans son t. 2, « De la Renaissance aux
+                        Lumières », Paris, Seuil, 1997.</p>
+        </note>. Ni l’influence de Coray, ni
+                l’influence d’Hippocrate sur les milieux médicaux de l’époque ne doivent donc être
+                surestimées.</p>
+            <p xml:id="d1e772">Dans sa préface, Coray n’hésite pourtant pas à se livrer à une sévère
+                critique de l’un des plus grands médecins de son temps, le Bernois Albert von Haller
+                (1708-1777), mais c’est pour ses fautes de grec. Il relève notamment une confusion,
+                à propos d’un malade des <hi rend="italic">Epidémies</hi>, entre le nom propre
+                Cyniscos, que lui, Coray, restitue (avec raison) et l’appellation de « Cynique » que
+                croit lire Haller. Et il conclut : « Il faut être circonspect dans les jugements
+                qu’on porte sur les ouvrages des Anciens, surtout quand on ne possède pas bien la
+                langue dans laquelle ils ont écrit et qu’on n’a pas sans cesse sous les yeux
+                l’ensemble de leur doctrine » (p. LVI). De la même façon, en raison d’une faute dans
+                une traduction latine qu’il utilise, Haller s’est trompé en refusant à Hippocrate la
+                paternité d’<hi rend="italic">Airs, Eaux, Lieux</hi>. Vous vous référez à
+                Hippocrate ? Eh bien mieux vaut savoir le lire, semble dire Coray. Sa connaissance
+                du grec semble d’ailleurs avoir été un élément important de son succès lors de sa
+                thèse, à en juger par le récit qu’il en fait au Protopsalte de Smyrne : « En
+                réfutant les objections, j’ai exposé que beaucoup de choses que l’on croyait être
+                des découvertes modernes, Hippocrate les avait sues deux mille ans auparavant. »</p>
+            <p xml:id="d1e781">Cette phrase livre un aspect essentiel de Coray médecin : il tente
+                une sorte de retour à Hippocrate, à l’Hippocrate authentique, à partir de la
+                modernité. C’est d’ailleurs un aspect non négligeable de l’enseignement qu’il a
+                suivi à la Faculté de Montpellier, et plus généralement de la présentation de la
+                médecine dans l’Encyclopédie, présentation à laquelle cette Faculté a beaucoup
+                contribué, que ce néo-hippocratisme, qui tente de dépasser les conflits entre
+                partisans de la mécanique, de la chimie ou du vitalisme en croyant revenir à
+                l’observation, à la raison et au respect de la nature, ces « forces de la nature »
+                exaltées par les physiologues, et sur lesquelles, selon Sprengel, Hippocrate compte
+                un peu trop. Citons notamment les noms de P.-J. Barthez et du maître de Coray,
+                J.-Ch. Grimaud.</p>
+            <p xml:id="d1e783">On peut prendre un exemple précis, à partir du <hi rend="italic">Discours préliminaire</hi>, d’une tentative, plutôt peu réussie, d’utilisation
+                médicale moderne d’Hippocrate par Coray. Hippocrate, remarque-t-il, après avoir
+                considéré l’exposition des villes à un très grand nombre de vents, ne parle que de
+                « deux états de l’atmosphère », « savoir, de l’état austral et de l’état boréal<note type="standard" xml:id="ftn31" place="foot" n="31">
+          <p> P. LXXXIV.</p>
+        </note> ».
+                Il y a là une difficulté réelle, qui est présentée ainsi par Jacques Jouanna :
+                « Bien que l’auteur établisse quatre orientations possibles de la cité, entraînant
+                quatre états sanitaires possibles dans la population d’une cité, les constitutions
+                des habitants ne répondent en réalité qu’à deux types possibles, ainsi que les
+                maladies qui les affectent. Ce sont les deux types d’hommes opposés correspondant
+                aux deux orientations opposées nord/sud<note type="standard" xml:id="ftn32" place="foot" n="32">
+          <p> P. 47.</p>
+        </note>. » Cette difficulté est explicable,
+                montre-t-il, si l’on considère que l’auteur du traité n’a pas à sa disposition un
+                système de quatre humeurs comparable à celui du traité <hi rend="italic">Nature de
+                    l’homme</hi>, mais un système à deux humeurs, bile et phlegme, associées
+                traditionnellement, et respectivement, à l’été et à l’hiver. Si bien que les
+                orientations est/ouest « ne donnent lieu qu’à des remarques sur l’aspect extérieur
+                des habitants, et non sur leur constitution interne ».</p>
+            <p xml:id="d1e801">Coray a une autre explication. L’état austral et l’état boréal
+                correspondent à une division binaire. « Or, il est prouvé par les observations de
+                Sydenham qu’en Europe, comme en Grèce, les maladies épidémiques, outre l’influence
+                qu’elles reçoivent d’une ou de plusieurs saisons, ont encore un caractère <hi rend="italic">semestral</hi>, si je puis m’exprimer ainsi, caractère que leur
+                impriment l’équinoxe du printemps et celui de l’automne. […] Ce qu’il y a de
+                certain, c’est que cet effet existe<note type="standard" xml:id="ftn33" place="foot" n="33">
+          <p> P. LXXXV-LXXXVII.</p>
+        </note>. » L’Hippocrate anglais, Sydenham<note type="standard" xml:id="ftn34" place="foot" n="34">
+          <p> Cf. M. D. <hi rend="small-caps">Grmek</hi> [n. 30], p. 169 Si « le prétendu “retour à
+                        Hippocrate” n’est qu’un habile cri de guerre, une illusion savamment
+                        entretenue par Sydenham et ses partisans » (en fait disciples de Bacon ; et
+                        distinguant la maladie des cas individuels, « porteurs de la maladie »),
+                        Sydenham « rejoint la tradition épidémiologique de l’hippocratisme classique
+                        par sa quatrième règle : “Enfin, on doit remarquer soigneusement les saisons
+                        qui favorisent le plus chaque genre de maladie”. »</p>
+        </note>, et ses
+                « observations » à la manière des <hi rend="italic">Épidémies</hi>, sont invoqués à
+                l’appui des analyses du traité du <hi rend="small-caps">v</hi>
+        <hi rend="sup">e</hi> siècle et pour mieux les comprendre.</p>
+            <p xml:id="d1e827">Venons-en enfin à ce qui a surtout fait la fortune du traité
+                hippocratique, la théorie du climat, et à ses usages au tournant des <hi rend="small-caps">xviii</hi>
+        <hi rend="sup">e</hi> et <hi rend="small-caps">xix</hi>
+        <hi rend="sup">e</hi> siècles.</p>
+            <p xml:id="d1e839">Tout lecteur français pense bien sûr à Montesquieu. De fait, la
+                tonalité hippocratique d’une réflexion comme celle que Montesquieu propose sur les
+                Anglais dans l’une de ses <hi rend="italic">Pensées</hi> semble évidente, avec le
+                double jeu du climat et des lois<note type="standard" xml:id="ftn35" place="foot" n="35">
+          <p>
+                        <hi rend="small-caps">Montesquieu</hi>, <hi rend="italic">Pensées
+                        </hi>n° 889.</p>
+        </note> :</p>
+            <q rend="quotation">Le caractère des Anglais marqué dans tous les temps est une certaine
+                impatience que le climat leur donne, et qui ne leur permet ni d’agir longtemps de la
+                même manière, ni de souffrir longtemps les mêmes choses : caractère qui n’est point
+                grand en lui-même, mais qui peut le devenir beaucoup, lorsqu’il n’est point mêlé
+                avec de la faiblesse, mais avec ce courage que donnent le climat, la liberté et les
+                lois.</q>
+            <p xml:id="d1e857">Coray lui aussi y pense, mais pour le critiquer. Il reproche en effet
+                à Montesquieu de ne pas avoir avoué sa dette envers le Père de la Médecine et envers
+                ce texte génial qui est utile à la fois au médecin, à l’historien, au cosmographe et
+                au politique, car ils y trouvent chacun « les premiers fondements » de leurs
+                sciences respectives<note type="standard" xml:id="ftn36" place="foot" n="36">
+          <p> P.
+                        III.</p>
+        </note> :</p>
+            <q rend="quotation">Ce jugement a été justifié de nos jours par un autre ouvrage de
+                génie <hi rend="italic">(L’Esprit des lois)</hi>, dont l’auteur n’aurait rien
+                retranché de sa propre gloire, s’il avait eu le noble courage de faire honneur au
+                médecin grec du principe fécond qui lui fournit l’idée de son travail, et ce qui en
+                fut la base.</q>
+            <p xml:id="d1e869">Cependant, cette critique ne semble guère justifiée. Si Montesquieu
+                ne mentionne pas Hippocrate, c’est surtout, selon toute vraisemblance, parce qu’il
+                ne se fonde pas sur lui. Il suffit de lire les premières lignes du chapitre II du
+                livre XIV de <hi rend="italic">L’Esprit des lois</hi> (« Combien les hommes sont
+                différents sous les divers climats ») pour voir toute la différence entre son
+                analyse cardiologique et fibrillaire des effets du climat (ou plutôt, d’ailleurs, de
+                l’air) et la théorie hippocratique, qui n’offre absolument aucun point de
+                comparaison précis :</p>
+            <q rend="quotation">L’air froid resserre les extrémités des fibres extérieures de notre
+                corps, cela augmente leur ressort, et favorise le retour du sang des extrémités vers
+                le cœur : il diminue la longueur de ces mêmes fibres, il augmente donc encore par là
+                leur force. L’air chaud au contraire relâche les extrémités des fibres et les
+                allonge. Il diminue donc leur force et leur ressort. On a donc plus de vigueur dans
+                les climats froids. L’action du cœur et la réaction des extrémités des fibres s’y
+                font mieux, les liqueurs sont mieux en équilibre, le sang est plus déterminé vers le
+                cœur, et réciproquement le cœur a plus de puissance. Cette force plus grande doit
+                produire bien des effets ; par exemple, plus de confiance en soi-même, c’est-à-dire
+                plus de courage.</q>
+            <p xml:id="d1e876">Montesquieu est ici beaucoup plus proche d’un médecin anglais ami de
+                Swift, John Arbuthnot, que d’Hippocrate. Arbuthnot publie en 1733 un essai sur <hi rend="italic">Les effets de l’air sur les corps humains</hi>, ouvrage traduit en
+                1742 à Montpellier, justement, et dédié alors, notons-le, à Helvétius. Je cite une
+                phrase de son introduction dans laquelle il invoque, lui, le patronage
+                d’Hippocrate : « Le docteur Sydenham, rempli du génie d’Hippocrate, nous a laissé
+                des <hi rend="italic">Epidémies</hi> écrites sur le modèle de ce Prince de la
+                Médecine, contenant une histoire des maladies aiguës comme dépendantes de la
+                constitution de la saison. » Montesquieu aurait pu se livrer aussi à cet hommage
+                très convenu. Mais Arbuthnot étudie ensuite minutieusement les ingrédients, les
+                propriétés, les qualités, la nature, les usages, l’influence de l’air, les fièvres
+                pestilentielles transmises par l’air et les explosions naturelles de l’air, et
+                Hippocrate n’est invoqué que dans l’introduction ; le reste du livre explore la
+                physiologie nouvelle des fibres, et tente de mesurer les composants de l’air. De
+                cela, Coray ne parle pas. Voici quelques lignes d’Arbuthnot qu’on pourra aisément
+                comparer au texte de Montesquieu :</p>
+            <q rend="quotation">XV. Le froid condense l’air proportionnellement à ses degrés. II
+                contracte les fibres animales et les fluides aussi loin qu’il les pénètre : les
+                dimensions des animaux, réellement moindres dans le froid, démontrent ce fait. Le
+                froid resserre les fibres non seulement par sa qualité condensante, mais encore en
+                congelant l’humidité de l’air. L’extrême froid agit sur le corps, en manière
+                d’aiguillon, produisant d’abord un picotement, et ensuite une chaleur brûlante, ou
+                un léger degré d’inflammation, dans les parties qui y font exposées. Il produit par
+                son irritation, par le resserrement des fibres et la condensation des fluides, la
+                force, et l’activité, très sensibles à certaines personnes dans un temps clair de
+                gelée. Si les effets de l’air froid font si considérables sur la surface du corps
+                humain, combien plus le sont-ils sur le poumon, où le sang est beaucoup plus
+                chaud.</q>
+            <p xml:id="d1e887">Cela dit, Montesquieu et Coray sont pris dans la même difficulté, qui
+                était déjà celle d’Hippocrate. Y a-t-il un déterminisme du climat ? Coray évoque les
+                critiques virulentes émises par David Hume et, en France, par Helvétius (mais aussi
+                par l’Église, dont Coray ne parle pas, mais à laquelle Montesquieu cherche à
+                répondre dans la deuxième édition de <hi rend="italic">L’Esprit des lois</hi>),
+                contre cette idée, qui pourrait enlever toute importance à l’éducation<note type="standard" xml:id="ftn37" place="foot" n="37">
+          <p> P.
+                XXXIV-XXXV.</p>
+        </note>.</p>
+            <q rend="quotation">
+        <hi rend="italic">Les Chinois</hi>, ajoute encore Hume,<hi rend="italic"> ont par tout leur vaste empire le même caractère national,
+                    quoique leur climat ne soit point partout le même</hi>. Fallait-il aller
+                chercher des exemples chez une nation si éloignée de nous, pour établir une vérité
+                qui, sans détruire l’influence du climat, prouve tout au plus que cette influence
+                peut être modifiée par des causes morales ? Quoique je ne connaisse les Chinois que
+                par les relations des voyageurs, qui les connaissent eux-mêmes fort peu, j’ose
+                affirmer qu’il en est de la Chine comme de tous les autres pays que nous connaissons
+                de manière plus particulière. Le caractère national de ce peuple, le même quant aux
+                causes morales qui l’ont formé, doit présenter par la force des causes physiques
+                autant de nuances qu’il y a de provinces différentes ; de même qu’en France, pays
+                beaucoup moins étendu que la Chine, et qui présente aussi un caractère national bien
+                prononcé, on observe une différence sensible entre un Languedocien et un Normand, un
+                Provençal et un Breton. Et il n’est pas non plus vrai, comme le prétend Hume, que
+                les Juifs soient partout les mêmes, quoique dispersés sur tout le globe. À travers
+                cette uniformité frappante, qui est un effet des causes morales […], on distingue
+                bien, pour peu qu’on y fasse attention, un Juif allemand d’un Juif portugais. Je ne
+                m’arrêterai pas plus longtemps aux objections de cet illustre philosophe [Note : Par
+                la même raison, je crois pouvoir me dispenser de parler du système d’Helvétius, qui
+                rapporte tout à l’éducation].</q>
+            <p xml:id="d1e904">On notera au passage que pour Coray les différences régionales ne
+                peuvent venir que du climat. Mais on notera aussi que, comme Montesquieu, il refuse
+                l’idée d’une opposition absolue entre les causes naturelles et les causes morales.
+                Coray répond ainsi au reproche que tout lecteur ne peut manquer de faire à
+                Hippocrate lui-même<note type="standard" xml:id="ftn38" place="foot" n="38">
+          <p> P.
+                        XVII.</p>
+        </note> :</p>
+            <q rend="quotation">Et que l’on ne m’accuse point de faire un cercle vicieux, si après
+                avoir fait dépendre le moral de l’homme des causes physiques, je considère ici ces
+                dernières comme dépendantes en quelque manière du moral. Ce cercle est dans la
+                nature-même de l’homme, il est la suite nécessaire de cette intime liaison entre
+                l’esprit et le corps.</q>
+            <p xml:id="d1e913">Le caractère de déterminisme que peut avoir le climat se manifeste
+                avec une particulière acuité, chez Montesquieu, dans la question de l’esclavage.
+                Montesquieu, tout en affirmant que les lois doivent corriger les effets néfastes du
+                climat, et tout en condamnant très ironiquement et très vigoureusement les mauvaises
+                justifications qu’on apportait de cette pratique dans le très célèbre chapitre V du
+                livre XV, étudie ensuite, ce qui est beaucoup moins connu, la « véritable origine »,
+                climatique, du droit de l’esclavage, qui entraîne son « inutilité » parmi nous :
+                « Il faut donc borner la servitude naturelle à de certains pays particuliers de la
+                terre. Dans tous les autres, il me semble que, quelques pénibles que soient les
+                travaux que la société y exige, on peut tout faire avec des hommes libres »
+                (chap. VIII). Comme on l’a vu, Coray paraît condamner plus universellement
+                l’esclavage. Il cite, à propos de l’influence des lois, une anecdote à cet égard
+                très révélatrice, dans son commentaire au chap. 23 actuel :</p>
+            <q rend="quotation">
+        <hi rend="italic">Et que ce sont eux seuls qui recueillent l’honneur
+                    et le fruit de leurs victoires</hi>. Une anecdote très curieuse […] trouve ici
+                naturellement sa place. Un nègre favori qui avait suivi le colonel Langhedon (qui
+                allait joindre le général Gazes à Sarragoga), lui dit : <hi rend="italic">Maître,
+                    vous donnez vous bien du mal, mais vous allez combattre pour liberté. Je
+                    souffrirais aussi avec patience, si j’avais liberté à défendre. Qu’à cela ne
+                    tienne,</hi> reprit Langhedon, <hi rend="italic">dès ce moment-ci, je te la
+                    donne</hi>. Le nègre le suivit, se conduisit avec courage, et ne l’a pas quitté
+                depuis.</q>
+            <p xml:id="d1e925">Cette anecdote illustre le plus fameux passage du traité <hi rend="italic">Airs, Eaux, Lieux</hi> d’une manière peut-être un peu inattendue,
+                mais intéressante, à un moment où la question de l’esclavage était particulièrement
+                brûlante.</p>
+            <p xml:id="d1e930">Pour compléter encore la contextualisation de l’édition Coray, on
+                peut enfin évoquer l’édition du traité que publia en 1804 un certain Dr Delavaud,
+                médecin aux armées et donc grand voyageur. Le premier, il rend hommage au travail de
+                Coray et veut lui aussi réhabiliter Hippocrate et le rôle qu’il fait jouer à la
+                nature contre « la doctrine mécanico-chimique de Boerhaave ». Cet excessif esprit
+                d’analyse a fait que les médecins « dédaignèrent jusqu’à l’oubli les observations
+                simples ou naturelles des phénomènes des airs, des eaux, des lieux, dans leurs
+                rapports naturels et dans leurs actions combinées sur l’économie de l’homme »
+                (p. XII). En tant que médecin des armées, le Dr Delavaud peut, lui, faire le
+                portrait détaillé de différents peuples du monde et de leur caractère en relation
+                avec leur climat et leurs usages. Il relève ainsi l’exemple de la Hollande, typique
+                d’une constitution froide et humide<note type="standard" xml:id="ftn39" place="foot" n="39">
+          <p> P. CXII.</p>
+        </note> :</p>
+            <q rend="quotation">J’ai préféré cet exemple, bien que je regarde l’existence des
+                Hollandais comme une maladie continuelle ; mais, en jetant les yeux sur le globe, je
+                n’ai vu, dans un certain état de santé, aucun peuple dans une température froide et
+                humide aussi marquante, et où les usages soient encore plus d’accord avec la
+                température pour en aggraver les maux. Le régime des Anglais est mieux raisonné.</q>
+            <p xml:id="d1e939">On pourra préférer les observations de Coray, bien qu’une phrase de
+                Delavaud puisse aussi, à mon avis, résumer assez bien leurs deux tentatives : « Le
+                mérite d’Hippocrate ne peut exclure celui de Boerhaave. Seulement l’ancien
+                rectifierait beaucoup le moderne<note type="standard" xml:id="ftn40" place="foot" n="40">
+          <p> P. 88. <lb/>Cette étude est issue d’une conférence prononcée à
+                        l’université de Genève le lundi 14 décembre 2009 à l’invitation du
+                        professeur Paul Schubert, que je remercie vivement.</p>
+        </note>. »</p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,1336 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-4462_Tassignon">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Lawrence Durrell, les ruines et l’histoire</title>
+                <author>
+                    <persName>
+                        <forename>Isabelle</forename>
+                        <surname>Tassignon</surname>
+                    </persName>
+                    <affiliation> &#xD; Université de Namur<lb/>&#xD; Département d’Histoire de
+                        l’Art et d’Archéologie<lb/>
+            <hi rend="author-email">isabelle.tassignon@fundp.ac.be</hi>
+                    </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+                        Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>« Savoirs » est une plateforme de publication numérique vouée à l’histoire et à
+                    l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS
+                    (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une
+                    archive d’articles ou une collection de livres, il s’agit d’une bibliothèque
+                    « intelligente » et expérimentale qui propose des parcours de lecture
+                    heuristiques et réflexifs entre les textes, grâce à différents algorithmes de
+                    recherche et de suggestions reposant notamment sur un balisage des lieux, des
+                    dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs
+                        (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel
+                        XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données
+                        géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour
+                        l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références
+                        Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes
+                        pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>ruines</item>
+                        <item>archéologie</item>
+                        <item>histoire</item>
+                        <item>Lawrence Durrell</item>
+                        <item>restaurations</item>
+                        <item>Rhodes</item>
+                        <item>Corfou</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>ruins</item>
+                        <item>archaeology</item>
+                        <item>history</item>
+                        <item>Lawrence Durrell</item>
+                        <item>restoration</item>
+                        <item>Rhodes</item>
+                        <item>Corfu</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart level="a" type="main">
+                        <hi xml:lang="fr">Lawrence Durrell, les ruines et l’histoire</hi>
+                    </titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Isabelle Tassignon</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e223">
+                <p xml:id="d1e224">Que dit l’écrivain britannique L. Durrell de l’archéologie et de
+                    l’histoire dans sa production autre que romanesque ? À lire dans et entre les
+                    lignes de sa correspondance et de ses livres de voyage, nous découvrons un homme
+                    perpétuellement partagé entre son goût des paysages « sauvages », non violés par
+                    l’archéologue, et son désir de compréhension des traces du passé et de
+                    l’histoire, à qui de toute façon, les archéologues n’apportent pas les réponses
+                    qu’il voudrait obtenir. Quelques archéologues échappent à ce jugement : ceux
+                    qu’il a connus personnellement et avec lesquels il a probablement eu l’occasion
+                    de discuter. Relativement bien informé en matière d’archéologie et d’histoire,
+                    il est mû par un souci de rendre compréhensible à son lecteur l’histoire et les
+                    vestiges. Dans ses ouvrages traitant de Corfou et de Rhodes, il devient même
+                    source historique, donnant des informations uniques dont nous éprouverons la
+                    validité. </p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e226">
+                <p xml:id="d1e227">
+                    <hi xml:lang="en">What does the British writer L. Durrel say about archaeology
+                        and history in his production, except his novels? Reading the lines, and
+                        between them, of his correspondence and of his travel books, we discover a
+                        man perpetually divided between his taste for “wild” landscapes, not
+                        violated by archaeology, and his desire for understanding the traces of past
+                        and history, never satisfied with archaeologists’ answers. However, some
+                        archaeologists make an exception to such a view: those he knew in person and
+                        probably had the opportunity to discuss with. Quite well informed in the
+                        domains of archaeology and history, he is pushed by the concern of
+                        elucidating history and vestiges to his reader. Thus, in his works about
+                        Corfu and Rhodes, he becomes also an historical source, giving special
+                        information that we will discover valid. </hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <p xml:id="d1e234">L’écrivain britannique Lawrence Durrell aurait eu cent ans le 12
+                février 2012, l’occasion pour l’<hi rend="italic">International</hi>
+                <hi rend="italic">Lawrence Durrell Society</hi> d’organiser un beau congrès pour
+                fêter l’événement<note type="standard" xml:id="ftn1" place="foot" n="1">
+          <p>
+                        <hi xml:lang="en">Londres, Goodenough College et British Library, 13-18 juin
+                            2012, <hi xml:lang="en">http://www.lawrencedurrell.org</hi>
+              <hi xml:lang="en">. </hi>Le français a toujours été pour L. Durrell une
+                            importante langue de communication ; il débute en français en 1935
+                                (L. <hi rend="small-caps">Durrell</hi>, H. <hi rend="small-caps">Miller</hi>, <hi rend="italic">Correspondance 1935-1980 </hi>[éd.
+                            I. S. MacNiven], Londres et New York, 1988, trad. française B. <hi rend="small-caps">Willerval</hi>, F.J. <hi rend="small-caps">Temple</hi>, F. <hi rend="small-caps">Jaouën</hi>, Paris,
+                            Buchet/Chastel, 2004, p. 30) ; résidant à Sommières à partir de 1957, il
+                            s’exprime en français et contrôle lui-même la qualité des traductions
+                            françaises de ses œuvres. Il a également accordé des interviews en
+                            français (notamment à M. Alyn dans <hi rend="italic">Le grand
+                                suppositoire, entretiens avec Marc Alyn</hi>, 1972, rééd. 2007, ou à
+                            Jacques Chancel, dans l’émission radiophonique <hi rend="italic">Radioscopie</hi> du 17 février 1982). C’est la raison pour laquelle
+                            nous ferons ici référence aux traductions françaises de l’œuvre de
+                            L. Durrell.</hi>
+          </p>
+        </note>. L’auteur du <hi rend="italic">Quatuor
+                    d’Alexandrie</hi> et du <hi rend="italic">Quintet d’Avignon</hi> avait fait de
+                la Méditerranée sa terre d’élection, en s’installant avec toute sa famille, dès
+                1935, à Corfou ; pourtant, rien ne prédisposait ce jeune homme né aux Indes à faire
+                de la Grèce son paradis, si ce n’est sa lumière et son climat<note type="standard" xml:id="ftn2" place="foot" n="2">
+          <p> Lire à ce propos les lignes que G. Durrell
+                        consacre à la décision du départ pour la Grèce dans <hi rend="italic">My
+                            Family and other Animals</hi>, Londres, 1956 ; trad. française L. <hi rend="small-caps">Lack, <hi rend="italic">Ma famille et autres
+                                animaux</hi>, Paris, 1958 ; édition utilisée ici : Paris,
+                            Gallmeister, 2007, p. 18-19 (« J’ai reçu ce matin une lettre de George
+                            [Wilkinson]… il dit que Corfou est merveilleux. Pourquoi ne pas partir
+                            en Grèce ? ») ; voir aussi L. <hi rend="small-caps">Durrell</hi>, <hi rend="italic">L’esprit des lieux. Lettres et essais de voyage</hi>,
+                            trad. française J.-R. <hi rend="small-caps">Major</hi>, Paris,
+                            Gallimard, 1976 (1969), p. 24.</hi>
+          </p>
+        </note> ; il occupe ensuite
+                divers postes diplomatiques au service de la Couronne en Égypte, à Rhodes, à Chypre
+                (avec deux intermèdes en Argentine et en Yougoslavie). Après son installation à
+                Sommières (Gard), il retourne souvent en Grèce, pour « retrouver comme un
+                archéologue les fantômes qui hantent des pays qui ont tant changé<note type="standard" xml:id="ftn3" place="foot" n="3">
+          <p> C. <hi rend="small-caps">Alexandre-Garner, <hi rend="italic">Lawrence Durrell</hi>. <hi rend="italic">Dans l’ombre du soleil grec</hi>, Paris, 2011, p. 245,
+                            n. 10 : propos tenus par L. Durrell à propos de deux films de la <hi rend="italic">
+                <hi rend="small-caps">bbc</hi>
+              </hi>
+              <hi rend="italic">
+                                Television</hi>, 1976-1977, « Lawrence Durrell’s Egypt » et
+                            « Lawrence Durrell’s Greece », pour lesquels l’auteur était retourné en
+                            Égypte et en Grèce.</hi>
+          </p>
+        </note> ». Pour notre part, le propos sera
+                d’aborder les liens entre l’écrivain, l’archéologie et l’histoire dans ses récits de
+                    voyage<note type="standard" xml:id="ftn4" place="foot" n="4">
+          <p> Cette enquête
+                        portera donc sur <hi rend="italic">L’île de Prospéro</hi>, Londres, 1945,
+                        trad. française R. <hi rend="small-caps">Giroux, Paris, Buchet/Chastel,
+                                1962 ;<hi rend="italic"> Vénus et la mer</hi>, Londres, 1953, trad.
+                            française R. <hi rend="small-caps">Giroux</hi>, Paris, Buchet/Chastel,
+                            1969 ; <hi rend="italic">Citrons acides</hi>, Londres, 1957, trad.
+                            française R. <hi rend="small-caps">Giroux</hi>, Paris, Buchet/Chastel,
+                            1961 ; <hi rend="italic">Le Carrousel</hi>
+                            <hi rend="italic">sicilien</hi>, Londres, 1977, trad. française P. <hi rend="small-caps">Guivarch</hi>, Paris, Gallimard, 1979 ; <hi rend="italic">Les îles grecques</hi>, Londres 1978, trad. française
+                            D. <hi rend="small-caps">Coste</hi>, Paris, Albin Michel, 1978 ; édition
+                            utilisée ici : Paris, Bartillat, 2010.</hi>
+          </p>
+        </note> et dans sa
+                    correspondance<note type="standard" xml:id="ftn5" place="foot" n="5">
+          <p> Publiée
+                        dans <hi rend="italic">L’esprit des lieux </hi>(voir<hi rend="italic">
+                            supra</hi>, n. 2)<hi rend="italic"> </hi>et dans <hi rend="italic">Correspondance </hi>(voir <hi rend="italic">supra</hi>, n.
+                    1).</p>
+        </note> et, en tentant de cerner ses principales sources, d’apprécier la
+                qualité de son information en ces deux domaines. On s’interrogera ensuite sur le
+                sort à réserver aux informations archéologiques ou historiques qu’il est le seul à
+                donner, pour répondre à la question suivante : dans quelle mesure les informations
+                livrées par L. Durrell à son lecteur, qu’il soit voyageur, historien ou archéologue,
+                sont-elles fiables ? </p>
+            <p xml:id="d1e385">Si les vestiges archéologiques ne constituent évidemment pas le
+                propos principal de L. Durrell, l’Antiquité, essentiellement grecque, apparaît en
+                filigrane de la plupart de ses ouvrages, de <hi rend="italic">L’île de Prospéro</hi>
+                (sur ses années de jeunesse à Corfou, publié en 1945) aux <hi rend="italic">Îles
+                    grecques</hi> (1978). Ni les artefacts, ni les ruines, les sites fouillés ou les
+                restaurations ne le laissent indifférent et avoir participé, en tant que directeur
+                des presses du gouvernement à Rhodes, à la publication puis à la diffusion de <hi rend="italic">Clara Rodos</hi>, l’ouvrage en neuf volumes consacré aux fouilles
+                italiennes à Rhodes, n’était pas la moindre de ses fiertés<note type="standard" xml:id="ftn6" place="foot" n="6">
+          <p>
+                        <hi rend="italic">Les îles grecques</hi>, p. 142.</p>
+        </note>. À vrai dire,
+                l’archéologie qu’il découvre à son arrivée en Grèce au début des années 30 tourne au
+                ralenti ; en effet, après les fouilles spectaculaires et prestigieuses de l’extrême
+                fin du <hi rend="small-caps">xix</hi>
+        <hi rend="sup">e</hi> siècle et celles du début
+                du <hi rend="small-caps">xx</hi>
+        <hi rend="sup">e</hi> siècle (Mycènes, Delphes,
+                Cnossos, Pergame…) et la restauration des ruines, la diminution des ressources
+                financières des pays européens impliqués dans la Grande Guerre a entraîné une nette
+                baisse des travaux<note type="standard" xml:id="ftn7" place="foot" n="7">
+          <p> A. <hi rend="small-caps">Bielman, dans <hi rend="italic">Deux archéologues
+                                suisses photographient la Grèce, W. Deonna et P. Collart
+                                1904-1939</hi>, Athènes-Genève, 2001, p. 19.</hi>
+          </p>
+        </note> ; dans
+                la Grèce occupée, les fouilles sont à l’arrêt (sauf pour quelques équipes des forces
+                d’occupation) et les équipes d’archéologues travaillent sur le matériel mis au jour
+                    antérieurement<note type="standard" xml:id="ftn8" place="foot" n="8">
+          <p> I. <hi rend="small-caps">Morris, « Archaeologies of Greece », dans <hi rend="small-caps">Id.</hi>, <hi rend="italic">Classical Greece :
+                                Ancient Histories and Modern Archaeologies</hi>,<hi rend="italic"> </hi>Cambridge, 1994, p. 8-47, et particulièrement
+                    p. 35.</hi>
+          </p>
+        </note>. Après la Seconde Guerre mondiale, les recherches restent
+                dans la continuité de ce qui avait été entrepris avant-guerre<note type="standard" xml:id="ftn9" place="foot" n="9">
+          <p>
+                        <hi rend="italic">Ibid</hi>.</p>
+        </note>. Les sites dont parle L. Durrell et
+                qu’il fera découvrir à ses amis – et notamment à Henry Miller – ont été fouillés
+                voire reconstruits quelques trente ans plus tôt. Rhodes et Cos se démarquent de ce
+                paysage puisque, sous l’occupation italienne (1912-1947), plusieurs de leurs sites
+                archéologiques sont fouillés, restaurés et, dans une large mesure, « remontés » (les
+                remparts de la vieille ville de Rhodes, le temple d’Athéna à Lindos, l’Asclépieion
+                de Cos…).</p>
+            <div type="div1" xml:id="d1e449">
+                <head subtype="level1" xml:id="d1e450">L’archéologie ou le monde des
+                    incertitudes</head>
+                <p xml:id="d1e452">L’Italie n’apparaît dans l’œuvre durrellienne que par contraste
+                    avec la Grèce ; néanmoins, ses vestiges romains lui paraissent directement
+                    lisibles et compréhensibles. Des sites archéologiques de Grèce, il ne retire
+                    qu’une impression de grande confusion<note type="standard" xml:id="ftn10" place="foot" n="10">
+            <p>
+                            <hi rend="italic">L’esprit des lieux</hi>, p. 315 (« Delphes ») : « Là
+                            [en Grèce], tout est différent de l’Italie où la beauté provient de la
+                            civilisation – l’empreinte de la main humaine et sage est sur toutes
+                            choses. Tout y a une histoire, peut être remonté à ses origines, décodé,
+                            compris. Mais en Grèce… tout est confus, mêlé, déformé, brûlé par le
+                            soleil, explosé ».</p>
+          </note> ; mais c’est avec le monde grec qu’il se
+                    sent pourtant des affinités électives. </p>
+                <p xml:id="d1e462">Il a vu beaucoup de sites, tant en Grèce continentale et
+                    insulaire qu’à Chypre, mais essentiellement ce qui était visible là où il était
+                    ou ce qui était accessible en auto ; car, ainsi que le relève dans un ouvrage à
+                    visées touristiques l’archéologue F. Chapouthier<note type="standard" xml:id="ftn11" place="foot" n="11">
+            <p> A. <hi rend="small-caps">Bon, F. <hi rend="small-caps">Chapouthier</hi>, <hi rend="italic">En
+                                    Grèce</hi>, Paris, 1932, p. 7.</hi>
+            </p>
+          </note>, l’automobile a
+                    contribué à élargir considérablement les horizons, y compris ceux des
+                    archéologues. Un grand absent toutefois : le temple d’Apollon <hi rend="italic">Epikourios</hi> à Bassae, le site le mieux conservé de Grèce, mais
+                    relativement à l’écart des routes. À cette exception près, il a vu presque tous
+                    les sites classiques. Il a donc eu sous les yeux ce qu’il y avait de plus
+                    directement compréhensible parmi les sites archéologiques. Cependant, la
+                    préhistoire l’intéresse peu : il ne dit rien ou quasi rien des sites importants
+                    de l’archéologie cycladique – son commentaire sur l’île de Syros, si importante
+                    dans le monde de l’archéologie préhistorique pour ses « frying pans », en dit
+                    long sur son peu d’intérêt pour cette période<note type="standard" xml:id="ftn12" place="foot" n="12">
+            <p>
+                            <hi rend="italic">Les îles grecques</hi>, p. 296 : « À terre, il y a peu
+                            à voir et encore moins à apprendre sur le plan historique ».</p>
+          </note>.
+                    Par contre, lorsque la préhistoire se charge de merveilleux, de féerie ou de
+                    magie, il ne rechigne pas à en parler : ainsi évoque-t-il dans trois livres
+                    différents trois îles ayant livré des restes préhistoriques d’éléphants et
+                    d’hippopotames nains (Chypre, la Crète et la Sicile)<note type="standard" xml:id="ftn13" place="foot" n="13">
+            <p> À Chypre, près de Kyrenia : <hi rend="italic">Citrons acides</hi>, p. 135 ; en Crète : <hi rend="italic">Les îles grecques</hi>, p. 70, citant un auteur qu’il
+                            ne nomme pas : « On nous dit qu’on a trouvé des os d’éléphants et
+                            d’hippopotames nains dans des sédiments troglodytiques géologiquement
+                            récents et que le cerf n’a disparu qu’à l’époque historique » ; <hi rend="italic">Carrousel sicilien</hi>, p. 123.</p>
+          </note> ou le
+                    disque de Phaïstos, qui aurait « des pouvoirs magiques<note type="standard" xml:id="ftn14" place="foot" n="14">
+            <p>
+                            <hi rend="italic">Les îles grecques</hi>, p. 101.</p>
+          </note> ».</p>
+                <p xml:id="d1e510">Il conserve une vision romantique des ruines : elles constituent
+                    en quelque sorte la ponctuation du paysage grec, d’un pathétique sauvage<note type="standard" xml:id="ftn15" place="foot" n="15">
+            <p> Par rapport aux
+                            paysages domestiqués, apprivoisés de l’Italie « finie comme un essai sur
+                            l’humanisme » : <hi rend="italic">Vénus et la mer</hi>, p. 226 ; <hi rend="italic">Citrons acides</hi>, p. 106 : « En effet, le péristyle
+                            de l’abbaye formait un vibrant contraste avec ses orangers chargés de
+                            fruits et ses magnifiques berceaux de fleurs… ».</p>
+          </note>, accréditant
+                    par leur présence l’authenticité d’un site ; une cité non totalement dégagée –
+                    comme Camiros – est d’une « beauté chantante<note type="standard" xml:id="ftn16" place="foot" n="16">
+            <p>
+                            <hi rend="italic">Vénus et la mer</hi>, p. 171.</p>
+          </note> ». L’absence
+                    de ruines en un lieu restauré – comme l’acropole de Lindos – laisse planer une
+                    impression d’irréalité<note type="standard" xml:id="ftn17" place="foot" n="17">
+            <p>
+                            <hi rend="italic">Les îles grecques</hi>, p. 142-143 : « Seule l’absence
+                            de ruines donne à l’ensemble un aspect un peu fictif. »</p>
+          </note> ;
+                    mais trop nombreuses, elles sont ennuyeuses<note type="standard" xml:id="ftn18" place="foot" n="18">
+            <p>
+                            <hi rend="italic">Le grand suppositoire</hi>, p. 143.</p>
+          </note>. De ce
+                    point de vue, il se démarque finalement peu de son cercle d’amis voyageurs.
+                    L’amie Freya Stark, par exemple, déclare « qu’elle préfère les amas de ruines
+                    encore non touchés par l’archéologue<note type="standard" xml:id="ftn19" place="foot" n="19">
+            <p> F. <hi rend="small-caps">Stark, <hi rend="italic">Ionia. </hi>
+                <hi rend="italic">
+                  <hi xml:lang="en">A
+                                    Quest</hi>
+                </hi>
+                <hi xml:lang="en">, Londres-New York, 1954,
+                                    édition utilisée Tauris Parke Paperback, 2010, p. 20 : « I am
+                                    one of those who </hi>
+                <hi rend="italic">
+                  <hi xml:lang="en">prefer</hi>
+                </hi>
+                <hi xml:lang="en"> neglected ruins, places
+                                    untouched even by the archaeologist, where one’s thoughts can
+                                    build their own places, and the past, draped and veiled in tis
+                                    garment of earth, lies like the sleeping beauty undiscovered and
+                                    undisturbed » ; ou encore </hi>
+                <hi rend="small-caps">
+                  <hi xml:lang="en">Ead</hi>
+                </hi>
+                <hi xml:lang="en">., </hi>
+                <hi rend="italic">
+                  <hi xml:lang="en">Baghdad Sketches. Journeys
+                                        through Iraq</hi>
+                </hi>
+                <hi xml:lang="en">, 1938, édition
+                                    utilisée Marlboro Press, 1992, p. 159 : « For my own part, not
+                                    being an archaeologist, I like ruins merely as places to sit
+                                    about and think in… ». À ce propos, cf. R. </hi>
+                <hi rend="small-caps">
+                  <hi xml:lang="en">Eisner</hi>
+                </hi>
+                <hi xml:lang="en">, </hi>
+                <hi rend="italic">
+                  <hi xml:lang="en">Travelers to an Antique Land. The History and Literature of
+                                        Travel to Greece</hi>
+                </hi>
+                <hi xml:lang="en">, Ann Arbor,
+                                    1991, p. 231-232.</hi>
+              </hi>
+            </p>
+          </note> ». Mais d’autre part, L.
+                    Durrell est un homme qui aime les savoirs structurés, chronologiquement
+                    établis : d’où la présence discrète, mais récurrente dans son œuvre (de <hi rend="italic">L’île de Prospéro </hi>aux <hi rend="italic">Îles
+                        grecques</hi>, en passant par <hi rend="italic">Vénus et la mer</hi>)
+                    d’éléments de chronologies, absolues ou relatives, voire des tableaux
+                        chronologiques<note type="standard" xml:id="ftn20" place="foot" n="20">
+            <p>
+                            Dans <hi rend="italic">L’île de Prospéro</hi>, présence d’une
+                            chronologie en annexe ; dans<hi rend="italic"> Vénus et la Mer</hi>,
+                            p. 48, Platon est le marqueur chronologique de l’Antiquité ; dans <hi rend="italic">Les îles grecques</hi>, p. 86, il propose un tableau
+                            chronologique de la civilisation crétoise ; cf. aussi <hi rend="italic">L’esprit des lieux,</hi> p. 126 (lettre à Anne Ridler du 17 août
+                            1952, à propos des jalons chronologiques de Rhodes).</p>
+          </note>. Et en
+                    fait de ruines, L. Durrell voudrait qu’elles lui donnent des certitudes ; et il
+                    est décontenancé, non tant par la discontinuité des structures archéologiques,
+                    que par les hésitations que manifestent les historiens et des archéologues
+                    lorsqu’il s’agit de les interpréter. Car malgré le fait qu’il a vu les sites qui
+                    comptaient parmi les mieux conservés de Grèce à cette époque, tout n’est pour
+                    lui qu’incertitude. C’est une constante chez L. Durrell qui évoque la difficulté
+                    de restituer la réalité avec d’aussi maigres témoins, en imaginant l’éventail
+                    des possibles qui s’offrirait à un archéologue minoen placé devant les vestiges
+                    éparpillés d’une Londres dévastée par une explosion atomique<note type="standard" xml:id="ftn21" place="foot" n="21">
+            <p>
+                            <hi rend="italic">Les îles grecques</hi>, p. 85 : « Quelles seraient un
+                            jour les impressions d’un archéologue minoen fouillant un tas de boue
+                            sur l’emplacement de Londres dévasté par une explosion atomique ? Quand
+                            il aurait trouvé des objets aussi disparates qu’un ours en peluche, un
+                            père Noël, un Rembrandt (l’Angleterre était-elle donc pleine de singes,
+                            et à quelle époque ?), une croix de fer, une déclaration d’impôt sur le
+                            revenu, etc., qu’en conclurait-il ? Comment ferait-il pour trier tout
+                            cela et assigner une fonction à chaque objet ? Les Anglais avaient-ils
+                            un ours pour totem ? Le père Noël était-il une sorte de Zeus ? La marge
+                            d’erreur possible est inquiétante et devrait nous mettre un peu en garde
+                            contre les “certitudes” dont parle T. S. Eliot. »</p>
+          </note>. À
+                    plusieurs reprises, il évoque les « balbutiements » ou les « bégayements » des
+                    érudits (angl. <hi rend="italic">scholars</hi>, terme qui, sous sa plume, semble
+                    fort dépréciatif), des historiens et des archéologues<note type="standard" xml:id="ftn22" place="foot" n="22">
+            <p> Voici par exemple, une belle
+                            « sortie » de L. Durrell à propos des archéologues dans <hi rend="italic">L’esprit des lieux</hi>, p. 318 (« Delphes ») : « Le
+                            caractère spéculatif des assertions des érudits a de quoi vous fendre le
+                            cœur. C’est comme si rien n’était plus prouvable, comme si tout était
+                            devenu imprécis, provisoire. L’érudit se met à bégayer ; il peut
+                            difficilement nous dire quoi que ce soit sans employer les mots
+                            “probablement”, “peut-être”. Parfois, avec une grande audace, il se
+                            rapproche d’une phrase telle que “il paraît vraisemblable que…” ». Et
+                                <hi rend="italic">ibid</hi>., p. 318 : « Mais l’oracle, la Pythie ?
+                            Encore une fois, les historiens se mettent à balbutier. »</p>
+          </note>. Ce
+                    trait a déjà été souligné par Jean-Marc Riaume dans un récent article<note type="standard" xml:id="ftn23" place="foot" n="23">
+            <p> J.-M. <hi rend="small-caps">Riaume, « Lawrence Durrell et les îles de la
+                                Méditerranée », <hi rend="italic">Cycnos</hi> 7, mis en ligne le 9
+                                juin 2008, <hi rend="small-caps">url</hi> :
+                                http://revel.unice.fr/cycnos/index.html?id=1159 (site consulté le
+                                16 août 2012).</hi>
+            </p>
+          </note>.</p>
+                <p xml:id="d1e650">
+          <hi rend="italic">Vénus et la mer</hi> (<hi rend="italic">Reflections on a marine Venus</hi>) occupe une place à part dans l’œuvre de
+                    voyage envisagée sous l’angle de son rapport à l’histoire et à l’archéologie.
+                    Son sous-titre<hi rend="italic"> A Companion to the Landscape of Rhodes</hi> en
+                    dit long sur l’objectif didactique, voire scientifique de son auteur ; c’est le
+                    seul de ses ouvrages qui s’achève sur une bibliographie relative à l’histoire de
+                    Rhodes. D’autre part, le sujet même se prêtait mieux que n’importe quel autre à
+                    une réflexion sur l’archéologie, l’histoire et les restaurations. L’île avait
+                    été fouillée – et pour certains sites, reconstruite – par les Italiens
+                    (principalement Amedeo Maiuri et Luigi Morricone). Elle est donc pour lui le
+                    terrain de toutes sortes de spéculations. Sur les archéologues italiens, tout
+                    d’abord. Il leur reconnaît une rare qualité : l’honnêteté, qui les porte à
+                    traiter les vestiges grecs comme ils l’auraient fait de ruines romaines. Sur le
+                    goût des archéologues italiens en fait de restaurations, ensuite : on le sent
+                    plus que réservé sur la question de leurs anastyloses à Rhodes et à Lindos,
+                    puisqu’il évoque les [archéologues] « Italiens malavisés<note type="standard" xml:id="ftn24" place="foot" n="24">
+            <p>
+                            <hi rend="italic">Vénus et la mer</hi>, p. 104.</p>
+          </note> » ; pour lui,
+                    les restaurations intempestives d’édifices gigantesques relèvent clairement
+                    d’une forme de folie<note type="standard" xml:id="ftn25" place="foot" n="25">
+            <p>
+                            <hi rend="italic">Les îles grecques</hi>, p. 148 : « Des fouilles
+                            italiennes importantes menées entre 1916 et 1926, c’est-à-dire longtemps
+                            avant la folie de restaurer le château des Croisades, avaient révélé les
+                            fondations des temples de Zeus et d’Athéna Poliade… ».</p>
+          </note>, voire
+                    de perversion<note type="standard" xml:id="ftn26" place="foot" n="26">
+            <p>
+                            <hi rend="italic">Correspondance</hi>, p. 297, à H. Miller, lettre du 22
+                            juin 1945 : « Les Italiens, dit-on, sont des restaurateurs de grande
+                            valeur, mais je pense, moi, qu’ils sont plutôt des “arrangeurs” de
+                            paysage. Cette île minuscule n’est qu’une masse de petits coins
+                            artistement entourés de murs, décorés de jardins encombrés d’un fouillis
+                            de bougainvillées pourpres : tout cela est trop pensé. »</p>
+          </note> ;
+                    jugement sévère, mais qui n’est pas très éloigné de celui qu’il défend dans ses
+                        <hi rend="italic">Îles grecques</hi>
+          <note type="standard" xml:id="ftn27" place="foot" n="27">
+            <p>
+                            <hi rend="italic">Les îles grecques</hi>, p. 142 : « Mais, bien sûr, si
+                            les techniques de remise au goût du jour adoptées par Evans à Cnossos
+                            nous font nous cabrer, la restauration de Rhodes doit faire l’objet de
+                            critiques du même genre. »</p>
+          </note> sur les restaurations d’Arthur
+                    Evans à Cnossos, et qu’il partage par ailleurs avec une bonne part de
+                    l’intelligentsia de son époque<note type="standard" xml:id="ftn28" place="foot" n="28">
+            <p> Par exemple R. <hi rend="small-caps">Caillois, « Jeux d’ombres
+                                sur l’Hellade. Styles de vie du monde minoen », <hi rend="italic">Le
+                                    voyage en Grèce</hi> 6 (1936), p. 14-20, particulièrement
+                                p. 19 : « Les aspects opposés et parents décrits tout à l’heure se
+                                superposent perceptiblement en ces lieux, dont la voyante crudité
+                                est encore rehaussée par le ciment des restaurations d’Evans. La
+                                complication et le mystère s’y marient avec l’ostentation et
+                                l’apparat. »</hi>
+            </p>
+          </note>. Enfin, sur l’interprétation donnée par
+                    les archéologues et les restaurateurs des ruines à restaurer : là aussi, son
+                    jugement est sans appel puisqu’il évoque une reconstitution de Rhodes davantage
+                    animée par des préoccupations paysagistes que par la vraisemblance
+                        historique<note type="standard" xml:id="ftn29" place="foot" n="29">
+            <p>
+                            <hi rend="italic">Les îles grecques</hi>, p. 142 : « La reconstitution
+                            fut admirablement exécutée, avec tout le bon goût des Italiens en
+                            matière d’architecture paysagiste et décorative. En fait, il n’est même
+                            pas à son avantage qu’elle ait l’air d’un décor de cinéma prêt pour un
+                            tournage. »</p>
+          </note>.</p>
+            </div>
+            <div type="div1" xml:id="d1e713">
+                <head subtype="level1" xml:id="d1e714">Lawrence Durrell et les archéologues</head>
+                <p xml:id="d1e716">Ce que L. Durrell reproche finalement aux « braves mastodontes »
+                    que sont les archéologues, c’est leur ignorance des réalités, qui ne les empêche
+                    cependant pas de creuser à tort et à travers<note type="standard" xml:id="ftn30" place="foot" n="30">
+            <p>
+                            <hi rend="italic">L’île de Prospéro</hi>, p. 81 (12 septembre 1937) :
+                            « Tels de braves mastodontes pétrifiés dans les forêts de leur propre
+                            attirail, les archéologues vont et viennent, avec leur <hi rend="italic">Odyssée</hi> dans la poche et leur ignorance du grec moderne.
+                            Fouillant avec ardeur dans les tas de détritus de quelque antique
+                            bourgade, ils dressent, à partir de quelques tessons ou d’un vestige
+                            d’égouts le portrait maladif d’une civilisation. »</p>
+          </note>. Car,
+                    ainsi qu’on le découvre dans <hi rend="italic">Vénus et la mer</hi>, les
+                    archéologues ne sont rien moins que des violeurs (angl. <hi rend="italic">trespass</hi>), sans que ce viol perpétré à la pioche<note type="standard" xml:id="ftn31" place="foot" n="31">
+            <p>
+                            <hi rend="italic">Vénus et la mer</hi>, p. 171 : « Ils s’élèvent en une
+                            longue procession sur les sentiers crayeux de la ville jusqu’au mur de
+                            terre rouge que l’archéologue n’a pas violé, jusqu’à la colonne votive
+                            d’une poésie exagérée qui, on le devine sans peine, est l’œuvre des
+                            restaurateurs italiens. »</p>
+          </note> aboutisse à une plus grande
+                    compréhension du site, car l’archéologue rend souvent obscur ce qui ne l’est
+                    pas. Dans <hi rend="italic">Le Carrousel sicilien</hi> – ouvrage tardif dans la
+                    production durrellienne – il observe que les archéologues conservent trop de
+                    choses, qui s’en vont finir dans des musées-cimetières<note type="standard" xml:id="ftn32" place="foot" n="32">
+            <p>
+                            <hi rend="italic">Le Carrousel sicilien</hi>, p. 122 : « Il y a là [au
+                            musée de Syracuse] un extraordinaire ramassis de fragments de poterie et
+                            de pierre de toutes sortes, pour la plupart sans aucun intérêt
+                            esthétique et simplement conservés comme reflets d’une époque ou d’une
+                            tendance. Il existe de nos jours d’immenses cimetières de ce genre de
+                            vestiges… ».</p>
+          </note>. De ce point de vue, il n’est pas éloigné
+                    d’H. Miller qui, en juin 1939, sur le bateau qui l’amène en Grèce, fait la
+                    connaissance d’un archéologue français, probablement membre de l’<hi rend="italic">École française d’Athènes ;</hi> manifestement, le courant ne
+                    passe pas entre eux et, à l’escale de Naples, H. Miller, qui redoute une
+                    ennuyeuse visite de Pompéi en compagnie de l’archéologue, s’éclipse afin de
+                    visiter le site sans lui<note type="standard" xml:id="ftn33" place="foot" n="33">
+            <p> H. <hi rend="small-caps">Miller, <hi rend="italic">Le colosse de
+                                    Maroussi</hi>, trad. française G. Belmont, Paris, 1972, p. 9.
+                                « Il y avait un archéologue français qui retournait en Grèce. À
+                                table, il était assis en face de moi. Il aurait pu me dire des tas
+                                de choses sur le pays. Je ne lui en laissai jamais la chance. Il me
+                                déplut au premier coup d’œil. […] À Naples, nous descendîmes à terre
+                                ensemble pour faire un bon repas et visiter Pompéi, dont il
+                                [l’Italien d’Argentine pour qui il se prend d’amitié] n’avait pas
+                                même entendu parler. Il faisait une chaleur écrasante ; n’empêche
+                                que la balade à Pompéi me plut énormément. Si j’y étais allé avec
+                                l’archéologue, je me serais affreusement ennuyé. »</hi>
+            </p>
+          </note>. </p>
+                <p xml:id="d1e768">Ainsi que les sites fouillés se répartissent, selon L. Durrell,
+                    en « sites parlants » (comme Cnossos, Mycènes, Delphes, Epidaure, Rhodes) et
+                    « sites confus » (par exemple, Argos, Eleusis), les archéologues se groupent-ils
+                    en deux catégories : d’une part les « bredouilleurs », les archéologues qui ne
+                    s’expriment que moyennant moult précautions oratoires (« vraisemblablement »,
+                    « peut-être »… : autrement dit, le style des rapports archéologiques et d’une
+                    certaine littérature archéologique qui tente de s’approprier les méthodes et les
+                    moyens d’expression des sciences dures). Ces archéologues-là sont des érudits
+                    farcis de lectures savantes mais qui ne tranchent jamais et peinent à donner au
+                    lecteur un résumé simple et solide. Et d’autre part, il y a les « éclaireurs »,
+                    ceux qui sont attendus sur des sites comme Argos, pour en être les véritables
+                        interprètes<note type="standard" xml:id="ftn34" place="foot" n="34">
+            <p>
+                            <hi rend="italic">L’esprit des lieux</hi>, p. 65 : « Dès notre retour,
+                            nous nous plongeâmes dans l’histoire et l’archéologie de la plaine
+                            d’Argos. Tout cela se trouve dans un si triste état de confusion ! Ce
+                            n’est qu’un tissu de conjectures et d’hypothèses fondées sur des grains
+                            de riz et sur des traces de crottin de cheval. Ce n’est pas cela. Ces
+                            lieux attendent toujours leurs véritables interprètes ; même ce sinistre
+                            Eleusis boueux avec ses affreuses pompes à essence. »</p>
+          </note>. À
+                    cette catégorie appartiennent quelques rescapés, qui ont presque tous comme
+                    point commun de compter parmi les relations personnelles de l’écrivain :
+                    probablement ces archéologues-là ont-ils eu l’occasion de lui expliquer de vive
+                    voix leurs objectifs, leurs méthodes et les résultats auxquels ils avaient
+                    abouti. De fait, ce sont aussi des savants qui ont classé, rangé, expliqué,
+                    restitué, ou reconstruit, bref, qui ont mis en ordre le réel. Les « deux étoiles
+                    permanentes au firmament de l’archéologie grecque<note type="standard" xml:id="ftn35" place="foot" n="35">
+            <p>
+                            <hi rend="italic">Les îles grecques</hi>, p. 84.</p>
+          </note> » sont, pour
+                    L. Durrell, Heinrich Schliemann et surtout Arthur Evans (qu’il connaît
+                        personnellement<note type="standard" xml:id="ftn36" place="foot" n="36">
+            <p>
+                            Evans : entre autres, <hi rend="italic">Correspondance</hi>, p. 71
+                            (lettre de fin décembre ? 1936) : « Si Evans était là, ce serait facile
+                            de lui rendre visite… ». Probablement se connaissent-ils parce qu’Evans
+                            fait partie des illustres expatriés britanniques de Grèce et que les
+                            deux hommes avaient eu l’occasion de se rencontrer à
+                    Athènes.</p>
+          </note>), qui a le mérite de rendre les vestiges parlants<note type="standard" xml:id="ftn37" place="foot" n="37">
+            <p>
+                            <hi rend="italic">Les îles grecques</hi>, p. 84-85 : « C’était plutôt un
+                            gros travailleur qu’un imaginatif, encore qu’il eût écrit dans sa
+                            jeunesse un excellent mémoire de voyage sur la Yougoslavie. Avec le
+                            recul du temps, on a l’impression que tout était à sa disposition et
+                            n’attendait que lui, toute une civilisation qui allait repousser plus
+                            loin la sombre frontière de la préhistoire ». <hi rend="italic">Ibid</hi>., p. 87 : « La question de savoir ce que vaut la
+                            restauration d’Evans ne peut manquer de se poser ; personnellement, je
+                            la trouve sans charme et de mauvais goût. Mais il faut tenir compte du
+                            fait qu’Evans voulait illustrer les rapports des monuments entre eux et
+                            que ce but est atteint. »</p>
+          </note>. On trouve également le nom de
+                    celui qui fut directeur de la <hi rend="italic">British School of Archaeoloy at
+                        Athens</hi> de 1906 à 1914, Richard MacGillivray Dawkins (fouilleur, mais
+                    aussi spécialiste du grec byzantin)<note type="standard" xml:id="ftn38" place="foot" n="38">
+            <p>
+                            <hi rend="italic">Correspondance</hi>, p. 71 (lettre de fin décembre ?
+                            1936), où il dit à H. Miller qu’il a rencontré R. M. Dawkins chez Evans
+                            à Cnossos.</p>
+          </note>, et celui de Peter Megaw<note type="standard" xml:id="ftn39" place="foot" n="39">
+            <p> Arthur Herbert Stanley Megaw (connu
+                            sous le nom de Peter Megaw), né en 1910, mort en 2006 : P. <hi rend="small-caps">Flourentzos, « In memory of A. H. S. Megaw », <hi rend="italic">Report of the Department of Antiquities,
+                                    Cyprus</hi> (2006), p. i.</hi>
+            </p>
+          </note>, directeur du
+                    département des Antiquités de Chypre de 1936 à 1960, qui est remercié par
+                    L. Durrell dans la préface des <hi rend="italic">Citrons acides</hi>. En poste
+                    au Caire, il se lie avec l’égyptologue américain George Andrew Reisner, qui lui
+                    fait la visite de la pyramide de la reine Hetepheres I<note type="standard" xml:id="ftn40" place="foot" n="40">
+            <p>
+                            <hi xml:lang="en">Cf. Th. <hi rend="small-caps">
+                  <hi xml:lang="en">Stephanides</hi>
+                </hi>
+                <hi xml:lang="en">, </hi>
+                <hi rend="italic">
+                  <hi xml:lang="en">Autumn Gleanings. Corfu Memoirs
+                                        &amp; Poems</hi>
+                </hi>
+                <hi xml:lang="en">, Corfou, 2011,
+                                    p. 81-82.</hi>
+              </hi>
+            </p>
+          </note>. Enfin, il y a l’archéologue
+                    écossais de Rhodes qui apparaît sous le pseudonyme de « Sand » dans <hi rend="italic">Vénus et la mer</hi>. C’est le Major Theodore Burton
+                        Brown<note type="standard" xml:id="ftn41" place="foot" n="41">
+            <p>
+                            <hi xml:lang="en">J. <hi rend="small-caps">
+                  <hi xml:lang="en">Leatham</hi>
+                </hi>
+                <hi xml:lang="en">, « Durrell on Rhodes »,
+                                    dans A. </hi>
+                <hi rend="small-caps">
+                  <hi xml:lang="en">Lillios</hi>
+                </hi>
+                <hi xml:lang="en">, </hi>
+                <hi rend="italic">
+                  <hi xml:lang="en">Lawrence Durrell and the Greek
+                                    World</hi>
+                </hi>
+                <hi xml:lang="en">, Susquehanna, 2004,
+                                    p. 145-152, et particulièrement p. 149.</hi>
+              </hi>
+            </p>
+          </note>,
+                    dont la thèse <hi rend="italic">Early Mediterranean Migrations</hi>
+          <note type="standard" xml:id="ftn42" place="foot" n="42">
+            <p> Publiée à Manchester
+                            en 1959. Après les années rhodiennes, Th. Burton-Brown (né en 1902)
+                            semble avoir tourné la page de l’archéologie grecque, puisqu’il fera une
+                            carrière sur des chantiers proche-orientaux et orientaux (en Iran, Iraq
+                            et Géorgie).</p>
+          </note> connaîtra un certain retentissement. De dix ans
+                    l’aîné de l’écrivain, Th. Burton Brown est décrit par L. Durrell comme de bon
+                    caractère mais « têtu » et taciturne<note type="standard" xml:id="ftn43" place="foot" n="43">
+            <p>
+                            <hi rend="italic">Vénus et la mer</hi>, p. 53 ; <hi rend="italic">ibid</hi>., p. 248.</p>
+          </note> ; au cours de ses deux années
+                    rhodiennes, l’archéologue compte parmi ses proches. À Rhodes, Th. Burton Brown a
+                    fait, ainsi qu’on le déduit des rapports annuels d’activités de la <hi rend="italic">British School of Archaeoloy at Athens</hi>
+          <note type="standard" xml:id="ftn44" place="foot" n="44">
+            <p> Cf. T. W. <hi rend="small-caps">French, <hi xml:lang="en">« Notes.
+                                </hi>Archaeology in the Dodecanese 1939-1946 », <hi rend="italic">Journal of Hellenic Studies</hi> 65 (1945), p. 101-102 (dans la
+                                cité fortifiée de Rhodes et notamment près de la porte de
+                                Saint-Athanasios, où fut découvert le règlement relatif au
+                                sanctuaire d’Asclépios, dont il donne une photographie) : <hi rend="italic">ibid</hi>., p. 101 et 102, fig.
+                    1.</hi>
+            </p>
+          </note>, un travail de fouille dans les zones sinistrées par les
+                    bombardements mais surtout, de présentation des objets du musée qui, pendant la
+                    Seconde Guerre mondiale, avaient été mis à l’abri dans les réserves. Il mit sur
+                    pied une exposition des œuvres ainsi remontées des sous-sols<note type="standard" xml:id="ftn45" place="foot" n="45">
+            <p> J. <hi rend="small-caps">Cook, <hi xml:lang="en">« </hi>Archaeology in
+                                Greece, 1945-1947 », <hi rend="italic">Journal of Hellenic
+                                    Studies</hi> 67 (1947), p. 117 : <hi xml:lang="en">« The greater
+                                    part of</hi> the museum collections is still in store, but an
+                                exhibition of sculptures and select vases was arranged in the Rhodes
+                                Museum by Major T. Burton Brown.<hi xml:lang="en"> »</hi>
+              </hi>
+            </p>
+          </note> et notamment la plus attachante des statues – du
+                    moins du point de vue du romancier – celle de la Vénus marine<note type="standard" xml:id="ftn46" place="foot" n="46">
+            <p>
+                            <hi rend="italic">Vénus et la mer</hi>, p. 42-43.</p>
+          </note> : ici
+                    encore, un travail de remise en ordre et de clarification des artefacts qui
+                    devait rendre les réalités archéologiques plus parlantes.</p>
+            </div>
+            <div type="div1" xml:id="d1e935">
+                <head subtype="level1" xml:id="d1e936">Durrell archéologue</head>
+                <p xml:id="d1e938">Son attitude personnelle vis-à-vis de la profession d’archéologue
+                    reflète aussi toute l’ambiguïté de ses rapports à l’archéologie. En effet,
+                    malgré la piètre opinion qu’il a du <hi rend="italic">vulgum pecus</hi>
+                    archéologique, L. Durrell n’hésite pas à jouer à l’archéologue. À Chypre, il se
+                    fait passer pour un archéologue – allemand – lorsqu’il constate que, malgré sa
+                    maîtrise du grec, il ne s’attire, en tant qu’Anglais, que de l’antipathie de la
+                    part des clients de tavernes locales<note type="standard" xml:id="ftn47" place="foot" n="47">
+            <p>
+                            <hi rend="italic">Citrons acides</hi>, p. 253 : « J’étais environné de
+                            regards sombres et hostiles, où passait une fugitive lueur lorsque je
+                            disais quelques mots de grec. Dans le troisième café, je dis que j’étais
+                            un archéologue allemand et aussitôt, l’atmosphère parut se
+                            détendre. »</p>
+          </note>. Cette fonction neutre, nimbée d’autorité, encore
+                    réservée aux étrangers dans la Chypre de la fin des années 50, lui sert de tenue
+                    de camouflage pour s’approcher masqué d’un interlocuteur chypriote soupçonneux.
+                    Mais c’est surtout l’idée de restituer le passé grec et romain qui le conduit à
+                    en rechercher les traces matérielles. Ainsi, à plusieurs reprises, évoque-t-il
+                    ses ramassages archéologiques : il donne au musée de Rhodes des récipients
+                    trouvés sur le site de Camiros<note type="standard" xml:id="ftn48" place="foot" n="48">
+            <p>
+                            <hi rend="italic">Les îles grecques</hi>, p. 166-167 ; découverte de
+                            poteries à Camiros, <hi rend="italic">Vénus et la mer</hi>,
+                        p. 147.</p>
+          </note> ; dans le port de Rhodes, il recherche intensivement des
+                    restes du colosse<note type="standard" xml:id="ftn49" place="foot" n="49">
+            <p>
+                            <hi rend="italic">Vénus et la mer</hi>, p. 130 : « Quant à moi, j’ai
+                            passé des journées entières à en discuter ; des après-midi entiers à
+                            plonger dans les eaux du port à la recherche de quelque fragment de la
+                            grande statue (m’appuyant en cela sur la folle théorie de Gideon selon
+                            laquelle elle était située sur la jetée est)… ».</p>
+          </note>. À Corfou,
+                    il plonge afin de remonter des vestiges de ce qu’il croit être l’ancienne villa
+                    d’été de Tibère à Cassopi<note type="standard" xml:id="ftn50" place="foot" n="50">
+            <p>
+                            <hi rend="italic">Correspondance Durrell-Miller 1935-1980</hi>, p. 70-71
+                            (fin décembre ? 1936) ; <hi rend="italic">L’esprit des lieux</hi>, p. 54
+                            (lettre à Alan G. Thomas, 1937) ; <hi rend="italic">L’île de
+                                Prospéro</hi>, p. 89-90 (25 septembre 1937).</p>
+          </note> et à
+                    Analypsis, il tente de repérer les ruines d’un temple de Poséidon qui aurait été
+                    vu par les officiers de la marine britannique à la fin du <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi> siècle<note type="standard" xml:id="ftn51" place="foot" n="51">
+            <p>
+                            <hi rend="italic">L’île de Prospéro</hi>, p. 113 (16 novembre 1937) ;
+                            J.-M. <hi rend="small-caps">Riaume, « Lawrence Durrell et les îles de la
+                                Méditerranée » (<hi rend="italic">supra</hi>, n. 23), n.
+                            33.</hi>
+            </p>
+          </note>. Enfin, les rudiments qu’il avait du grec ancien –
+                    étudié pendant deux ans en Angleterre<note type="standard" xml:id="ftn52" place="foot" n="52">
+            <p> C. <hi rend="small-caps">Alexandre-Garner, <hi rend="italic">Lawrence Durrell</hi>, p. 54 (entretien avec C.
+                                Alexandre-Garner ; <hi rend="italic">supra</hi>, n.
+                        3).</hi>
+            </p>
+          </note> – lui permettent de se frotter à l’épigraphie,
+                    lorsqu’avec Th. Burton Brown, il déchiffre et interprète une inscription grecque
+                    récemment découverte<note type="standard" xml:id="ftn53" place="foot" n="53">
+            <p>
+                            <hi rend="italic">Vénus et la mer</hi>, p. 128 : « Une inscription
+                            récemment mise au jour par Sand interdisait formellement aux Rhodiens
+                            d’ajouter une autre statue au temple d’Esculape. »</p>
+          </note>. Les
+                    inscriptions grecques antiques retiennent d’ailleurs souvent son attention et, à
+                    plus d’une reprise, il en résume le contenu pour le lecteur, attirant son
+                    attention sur tel ou tel mot, caractéristique d’un formulaire antique<note type="standard" xml:id="ftn54" place="foot" n="54">
+            <p>
+                            <hi rend="italic">Vénus et la mer</hi>, p. 171 (inscriptions de Camiros
+                            avec le nom des pères de la cité, des prêtres et des suppliants) ; <hi rend="italic">ibid</hi>., p. 172 (toujours à Camiros, les
+                            inscriptions funéraires et leur vocabulaire) ; <hi rend="italic">ibid</hi>., p. 185 (inscription reprenant l’ode de Pindare sur
+                            Diagoras de Ialysos) ; <hi rend="italic">Les îles grecques</hi>, p. 74
+                            (consacre un long développement à l’inscription de Gortyne en
+                            Crète).</p>
+          </note>.</p>
+                <p xml:id="d1e1041">Sa correspondance privée témoigne d’ailleurs de son réel souci
+                    d’exhaustivité dans l’information qu’il donne (notamment dans <hi rend="italic">Vénus et la mer</hi>) : il veut faire comprendre à son lecteur le sens des
+                    vestiges archéologiques. Ainsi, dans une lettre à Anne Ridler, – chargée de
+                    publier son livre sur Rhodes –, il s’étonne qu’elle ait supprimé ce qui touchait
+                    au second siège de Rhodes. « Je ne peux m’empêcher de penser que si l’on devait
+                    passer une semaine à Rhodes, en utilisant ce livre comme guide, on se dirait :
+                    “Bon sang ! Pas un mot sur la ville médiévale et elle est là sous nos yeux !” Et
+                    la carte que je veux reproduire et qui indique si minutieusement chaque site…
+                    Imaginez un livre sur Oxford qui ignorerait les monuments actuels et ne
+                    mentionnerait que les vestiges anglo-saxons dont la plupart ne sont pas visibles
+                    à l’œil nu<note type="standard" xml:id="ftn55" place="foot" n="55">
+            <p>
+                            <hi rend="italic">L’esprit des lieux</hi>, p. 126 (lettre du 17 août
+                            1952).</p>
+          </note> ? » Ici encore, L. Durrell fait pour le lecteur non
+                    averti mais intéressé ce qu’il voudrait que les historiens fissent pour lui.</p>
+                <p xml:id="d1e1054">Tout ceci fait de L. Durrell une source littéraire non
+                    négligeable en matière d’histoire ancienne et d’archéologie, à décrypter en
+                    comparant les récits, la correspondance et les interviews.</p>
+            </div>
+            <div type="div1" xml:id="d1e1056">
+                <head subtype="level1" xml:id="d1e1057">Ses sources d’information</head>
+                <p xml:id="d1e1059">Sa bibliographie est anglophone et principalement anglaise, plus
+                    rarement française. Si les ouvrages cités en bibliographie de <hi rend="italic">Vénus et la mer</hi> sont parfois un peu anciens (E. Dodwell, <hi rend="italic">A classical and topographical tour of Greece</hi>, 1819, ou
+                    E. Billiotti et l’abbé Cottret, <hi rend="italic">L’île de Rhodes</hi>, 1881, et
+                    les ouvrages de C. Torr, <hi rend="italic">Rhodes in Ancient Times</hi>, 1885 ;
+                        <hi rend="italic">Rhodes under the Byzantines</hi>, 1886 ; <hi rend="italic">Rhodes in Modern Times</hi>, 1887) ou généraux (on pense au livre de C.
+                        E. Robinson,<hi rend="italic"> Everyday life in Ancient Greece, </hi>Oxford,
+                    1933, qu’il souhaite qu’on lui envoie alors qu’il est en poste à Belgrade<note type="standard" xml:id="ftn56" place="foot" n="56">
+            <p>
+                            <hi rend="italic">L’esprit des lieux</hi>, p. 124 (lettre à Alan Thomas,
+                            1952).</p>
+          </note>), il réactualise ses données avec les ouvrages plus
+                    récents qu’il consulte dans la bibliothèque de Th. Burton-Brown<note type="standard" xml:id="ftn57" place="foot" n="57">
+            <p>
+                            <hi rend="italic">Vénus et la mer</hi>, p. 51.</p>
+          </note> (ou plutôt la
+                    bibliothèque du <hi rend="small-caps">feri</hi>, l’Institut d’histoire orientale
+                    de Rhodes, installée dans une annexe du musée<note type="standard" xml:id="ftn58" place="foot" n="58">
+            <p> Rapport N. Vlachos du 30 septembre
+                            1946 (dans L. <hi rend="small-caps">Divani et Ph. <hi rend="small-caps">
+                  <hi xml:lang="en">Constantopoulou,</hi>
+                </hi>
+                <hi xml:lang="en"> </hi>
+                <hi rend="italic">
+                  <hi xml:lang="en">The
+                                        Dodecanese. The Long Road to Union with Greece</hi>
+                </hi>
+                <hi xml:lang="en">, Athènes, 1997, p. 201).</hi>
+              </hi>
+            </p>
+          </note>),
+                    ou dans la salle à rotonde du British Museum qu’il fréquente lors de ses retours
+                    à Londres<note type="standard" xml:id="ftn59" place="foot" n="59">
+            <p> C. <hi rend="small-caps">Alexandre-<hi rend="small-caps">Garner</hi>, <hi rend="italic">
+                  <hi xml:lang="fr">Lawrence Durrell</hi>
+                </hi>
+                <hi xml:lang="fr">, </hi>p. 70 (<hi rend="italic">supra</hi>, n.
+                                3).</hi>
+            </p>
+          </note>. Probablement rafraîchit-il aussi ponctuellement
+                    ses informations avec les <hi rend="italic">Archaeological Reports </hi>publiés
+                    dans le<hi rend="italic"> Journal of Hellenic Studies, </hi>mais il ne les cite
+                    pas explicitement. La littérature archéologique « pointue » – mais relativement
+                    indigeste pour le profane – n’était en effet étrangère ni à L. Durrell, ni à
+                    H. Miller : en visite à Mycènes, ce dernier s’était installé à une terrasse avec
+                    « un bon gros livre d’archéologie de l’école anglaise en guise de
+                        hors-d’œuvre<note type="standard" xml:id="ftn60" place="foot" n="60">
+            <p> H.
+                                <hi rend="small-caps">Miller, <hi rend="italic">Premiers regards sur
+                                    la Grèce</hi>, Santa Barbara, 1973, trad. française C. <hi rend="small-caps">Chichereau</hi> Paris, 1999,
+                        p. 33.</hi>
+            </p>
+          </note> ».</p>
+                <p xml:id="d1e1158">On retiendra quelques grands noms, nommément cités dans <hi rend="italic">Les</hi>
+                    <hi rend="italic">îles grecques</hi> et dans sa <hi rend="italic">Correspondance :</hi> à nouveau, le nom le plus souvent mentionné est celui
+                    d’Arthur Evans. Cité à la fois par L. Durrell et par H. Miller, <hi rend="italic">The Palace of Minos at Knossos</hi> semble être leur livre de
+                        chevet<note type="standard" xml:id="ftn61" place="foot" n="61">
+            <p>
+                            <hi rend="italic">Les îles grecques</hi>, p. 74. </p>
+          </note>, ce qui en
+                    dit long sur l’effet qu’avaient produit les découvertes d’A. Evans sur le monde
+                    cultivé de l’époque. Dans <hi rend="italic">Les îles grecques</hi>, on trouve
+                    aussi les noms de l’archéologue Jacquetta Hawkes<note type="standard" xml:id="ftn62" place="foot" n="62">
+            <p> Cités dans <hi rend="italic">Les îles
+                                grecques</hi>, p. 76. Il s’agit probablement de l’ouvrage de J. <hi rend="small-caps">Hawkes intitulé <hi rend="italic">Dawn of the
+                                    Gods</hi>, Londres, 1968.</hi>
+            </p>
+          </note> et de Robert
+                        Graves<note type="standard" xml:id="ftn63" place="foot" n="63">
+            <p>
+                            <hi rend="italic">The Greek Myths</hi>, Londres, 1965.</p>
+          </note>,
+                    auteur de nombreux ouvrages académiques sur la littérature, et notamment d’un
+                    livre consacré aux mythes grecs. Ces deux auteurs présentent cependant la
+                    particularité d’être tous deux liés au monde des lettres, puisque la première
+                    est l’épouse du dramaturge John Boynton Priestley et que le second était poète
+                    de renom. Le nom de Moses Finley apparaît dans <hi rend="italic">Les îles
+                        grecques</hi>
+          <note type="standard" xml:id="ftn64" place="foot" n="64">
+            <p>
+                            <hi rend="italic">Les îles grecques</hi>, p. 115.</p>
+          </note>. Enfin,
+                    l’historien Ernle Bradford est cité dans la préface aux <hi rend="italic">Îles
+                        grecques</hi> (pour son <hi rend="italic">Companion Guide to the Greek
+                        Islands</hi>, 1963) et c’est encore à l’une de ses publications que
+                    L. Durrell fait allusion, lorsqu’il évoque le plan au sol de la cité antique de
+                    Rhodes, révélé par photographie aérienne<note type="standard" xml:id="ftn65" place="foot" n="65">
+            <p>
+                            <hi rend="italic">
+                <hi xml:lang="en">Les îles grecques</hi>
+              </hi>,
+                            p. 148 ; <hi xml:lang="en">E. </hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">Bradford</hi>
+              </hi>
+              <hi xml:lang="en">, « Fieldwork
+                                on aerial discoveries in Attica and Rhodes. Part I. The town plan of
+                                Classical Rhodes », </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">The
+                                    Antiquaries Journal </hi>
+              </hi>
+              <hi xml:lang="en">36 (1956),
+                                p. 57-69.</hi>
+            </p>
+          </note>. L. Durrell s’informe donc dans des
+                    sources historiques de bonne qualité, et complète sa documentation avec des
+                    lectures archéologiques plus pointues, mais retient aussi les informations qui
+                    lui sont données de vive voix, qu’elles viennent d’archéologues confirmés ou de
+                    savants locaux, comme l’écrivain Gostan Zarian, source d’informations majeure
+                    dans <hi rend="italic">L’île de Prospéro</hi>
+          <note type="standard" xml:id="ftn66" place="foot" n="66">
+            <p>
+                            <hi rend="italic">L’île de Prospéro</hi>, p. 16-17 : description de
+                            Zarian et de son cabinet de travail : « Il a réussi à transformer le
+                            dernier étage de l’hôtel Saint-Georges en cabinet de travail : un
+                            fouillis de manuscrits et de peintures. C’est là, devant les
+                            fortifications trapues du Fort Oriental, qu’il compile ses articles
+                            littéraires pour divers journaux arméniens du nouveau monde, en
+                            s’arrêtant de temps à autre pour vider un verre de vin » ; p. 111 (entre
+                            autres) « “Pour Napoléon”, dit Zarian qui se délecte des grands noms,
+                            “Corfou était la clé de voûte d’un Empire d’Orient”… ».</p>
+          </note>, ou
+                    le docteur Theodore Stephanides, homme « d’une érudition incroyable pour tout ce
+                    qui concerne l’île<note type="standard" xml:id="ftn67" place="foot" n="67">
+            <p>
+                            <hi rend="italic">L’île de Prospéro</hi>, p. 18.</p>
+          </note> ».</p>
+            </div>
+            <div type="div1" xml:id="d1e1261">
+                <head subtype="level1" xml:id="d1e1262">L. Durrell, une source historique ?</head>
+                <p xml:id="d1e1264">Si L. Durrell apparaît donc comme un auteur soucieux de diffuser
+                    des informations justes, il est des cas où il devient à son tour une source
+                    d’information. Il reste à déterminer si cette source est fiable ou non, et dans
+                    quelles circonstances. Le premier cas que nous envisagerons est celui de la
+                    Rhodes d’après-guerre dans laquelle L. Durrell, envoyé comme officier chargé de
+                    surveiller l’information, se lie d’amitié avec le directeur des antiquités du
+                    Dodécanèse, le Major Burton-Brown cité plus haut. Tous deux sont mandatés par
+                    l’Administration militaire britannique et resteront en poste d’avril 1945 à
+                    février 1947. Contrairement à son habitude qui est de nommer les gens tantôt par
+                    leur nom (Egon Huber, le docteur Theodore Stephanides, Mills, Zarian…), tantôt
+                    par l’initiale de leur prénom (E.[ve], N.[ancy]…), ou encore d’abréger leur nom
+                        (Hoyle/Hoyl[and]<note type="standard" xml:id="ftn68" place="foot" n="68">
+            <p>
+                            J. <hi rend="small-caps">Leatham, « Durrell on Rhodes » (<hi rend="italic">supra</hi>, n. 41), p. 145-152, 149. Il s’agirait
+                                du consul-général de Grande-Bretagne en Grèce, Harold Allan Dilke
+                                Hoyland, nommé à ce poste le 14 juin 1945 (<hi rend="italic">Supplement to the London Gazette</hi>, 14 juin 1945,
+                                p. 2954).</hi>
+            </p>
+          </note>…), L. Durrell utilise ici un pseudonyme
+                    sans lien direct avec le nom du personnage<note type="standard" xml:id="ftn69" place="foot" n="69">
+            <p> Ce nom pourrait être inspiré du nom du juge Emil
+                            Sandström (1886-1962), président de la <hi rend="italic">Greek Relief
+                                Commission</hi> en 1944 : il fit de nombreux déplacements en Grèce
+                            et dans les îles et devint, en 1947, membre de l’<hi rend="italic">United</hi>
+                            <hi rend="italic">Nations Special Committee on Palestine</hi> (<hi rend="italic">
+                <hi rend="small-caps">unscop</hi>
+              </hi>), avant d’être
+                            nommé, en 1950, à la tête de la Croix Rouge de Suède. Ses compétences en
+                            fait de justice et de médiation en firent un homme aimé de tous et ce
+                            patronyme devait être relativement familier à l’écrivain.</p>
+          </note>.
+                    L. Durrell paraît donc nimber sciemment de mystère ce directeur des antiquités :
+                    ceci peut s’expliquer par la nature militaire de sa fonction, dont, par
+                    ailleurs, il ne dit mot. </p>
+                <p xml:id="d1e1297">Rappelons tout d’abord le climat tendu dans lequel L. Durrell et
+                    Th. Burton-Brown prennent leurs fonctions. L’île désertée de l’après-guerre est
+                    désormais en proie à la guerre civile<note type="standard" xml:id="ftn70" place="foot" n="70">
+            <p> On consultera à ce propos l’article de Murielle <hi rend="small-caps">Philippe, « <hi rend="italic">Reflections on a
+                                    Marine Venus</hi> (1953) : le détour par Rhodes dans la trilogie
+                                des îles de Lawrence Durrell », <hi rend="italic">E-rea</hi> [En
+                                ligne], 3.1 | 2005, mis en ligne le 15 juin 2005, <hi rend="small-caps">url</hi> : http://erea.revues.org/535 (site
+                                consulté le 16 août 2012). </hi>
+            </p>
+          </note>. De tout cela,
+                    L. Durrell ne fait pas état – en tout cas dans <hi rend="italic">Vénus et la
+                        mer</hi>, car dans <hi rend="italic">Les îles grecques</hi>, il évoque la
+                    famine qui toucha l’île à la fin de la guerre et le chaos qui lui succéda<note type="standard" xml:id="ftn71" place="foot" n="71">
+            <p>
+                            <hi rend="italic">Les îles grecques</hi>, p. 145 « Il n’était pas
+                            ordinaire de voir les animaux familiers attachés à la poignée de la
+                            porte d’entrée, de crainte qu’ils ne s’échappent et ne soient consommés
+                            par les soldats qui pillaient à droite et à gauche ; chiens, chats ou
+                            cobayes, tout ce qui leur tombait sous la main finissait dans la
+                            marmite ». <hi rend="italic">Ibid</hi>. : « Rhodes se réveilla donc
+                            comme une Belle au bois dormant, mais il fallut plus d’un baiser poilu
+                            de la nouvelle administration militaire pour la remettre sur pied.
+                            C’était un chaos inimaginable. »</p>
+          </note>. Du point de vue de
+                    l’archéologie, l’ambiance n’est pas non plus des meilleures : les Grecs
+                    soupçonnent les Italiens d’avoir volé des antiquités pendant les années
+                        d’occupation<note type="standard" xml:id="ftn72" place="foot" n="72">
+            <p>
+                            Rapport Vlachos du 30 septembre 1946 (repris dans L. <hi rend="small-caps">Divani et Ph. <hi rend="small-caps">Constantopoulou</hi>, <hi rend="italic">The Dodecanese. The
+                                    long road to union with Greece</hi>, Athènes, 1997, p. 201), on
+                                lit l’histoire du marin Mikhaïl Petridis qui, en 1943, alors qu’il
+                                servait sur le « Doukessa », navire réquisitionné par les Italiens,
+                                il convoya des antiquités vers l’Italie.</hi>
+            </p>
+          </note> ; par
+                    ailleurs, la mise sous la tutelle de l’Administration militaire britannique du
+                    Dodécanèse et de son patrimoine devait également susciter des rancœurs. Ici
+                    encore, L. Durrell ne dit rien de ces difficultés, mais on devine que le
+                    caractère « têtu » de l’archéologue a peut-être pu poser quelques problèmes,
+                    entre autres dans ses relations avec les Grecs chargés de préparer la
+                    transition. Nous disposons à ce propos de deux sources de nature diplomatique :
+                    le rapport de N. Vlachos<note type="standard" xml:id="ftn73" place="foot" n="73">
+            <p> Rapport du 30 septembre 1946 ; repris dans l’ouvrage de L. <hi rend="small-caps">Divani et Ph. <hi rend="small-caps">
+                  <hi xml:lang="en">Constantopoulou</hi>
+                </hi>
+                <hi xml:lang="en">,
+                                    </hi>
+                <hi rend="italic">
+                  <hi xml:lang="en">The
+                                    Dodecanese</hi>
+                </hi>
+                <hi xml:lang="en">,
+                        p. 200.</hi>
+              </hi>
+            </p>
+          </note>, rédigé en septembre 1946, à destination des
+                    ministères grecs de l’Éducation nationale et des Affaires étrangères, et le
+                    rapport du gouverneur anglais A. S. Parker<note type="standard" xml:id="ftn74" place="foot" n="74">
+            <p>
+                            <hi xml:lang="en">Rapport de A.S. Parker, « Report of the Governor A. S.
+                                Parker on the Acts of the British Military Administration
+                                1/1/1946-31/12/1946), chap. XXI, <hi rend="italic">Antiquities</hi>
+                                (dans L. <hi rend="small-caps">Divani</hi> et Ph. <hi rend="small-caps">Constantopoulou</hi>, <hi rend="italic">The
+                                    Dodecanese</hi>, p. 281).</hi>
+            </p>
+          </note>, qui dresse un bilan
+                    de ces deux années de tutelle britannique. Si ce dernier montre que l’officier
+                    britannique (qu’il ne nomme pas) responsable de l’archéologie a multiplié les
+                    activités (fouille, recensement des inscriptions dans les îles, dont plusieurs
+                    inconnues, mise sur pied d’une exposition consacrée à l’histoire de Rhodes de
+                    1500 avant n. è. à l’époque des Chevaliers, ouverture du musée au public,
+                    initiatives touchant à la gratuité des musées, reclassement de livres et
+                    d’archives photographiques, publication de guides…), il en va tout autrement du
+                    rapport du professeur N. Vlachos. Ne citant jamais nommément Th. Burton Brown –
+                    qui n’apparaît que sous l’expression consacrée « The British archaeologist and
+                    Director of the museum » –, il semble minimiser son activité en tant que
+                    directeur. Si l’on en croit ce rapport, le travail du directeur du musée se
+                    résumait à établir des estimations financières pour des restaurations ; le
+                    rapport sous entend aussi qu’interrogé avec insistance sur la tenue de
+                    catalogues et d’inventaires des collections, le directeur aurait cherché à
+                    tergiverser… et n’aurait pas rempli sa mission de conservation des
+                        collections<note type="standard" xml:id="ftn75" place="foot" n="75">
+            <p>
+                            <hi rend="italic">Ibid</hi>. (L. <hi rend="small-caps">Divani et Ph. <hi rend="small-caps">
+                  <hi xml:lang="en">Constantopoulou</hi>
+                </hi>
+                <hi xml:lang="en">, </hi>
+                <hi rend="italic">
+                  <hi xml:lang="en">The
+                                        Dodecanese, </hi>
+                </hi>
+                <hi xml:lang="en">p. 200-201) : « The
+                                    British Archaeologist and Director of the Museum, repeatedly
+                                    asked by me whether there catalogues of the contents of the
+                                    archaeological finds and items of the Museum of Rhodes and Cos,
+                                    sought to prevaricate. He merely assured me that the
+                                    archaeological finds and the items of folk art have been
+                                    carefully guarded since the beginning of the war and that there
+                                    is no cause of concern. »</hi>
+              </hi>
+            </p>
+          </note>. Bref, ce rapport
+                    peu louangeur laisse entendre que l’activité de Th. Burton-Brown en tant que
+                    directeur n’aurait été qu’une parenthèse relativement stérile – entre les
+                    « pillages italiens » et la reprise en main, ardemment souhaitée, du service, en
+                    avril 1947, par l’Administration militaire grecque. </p>
+                <p xml:id="d1e1402">On ajoutera que même dans l’introduction de son ouvrage sur
+                    l’histoire de Rhodes, G. Konstantinopoulos élude la question de l’histoire du
+                    musée au cours des deux années où Rhodes fut sous administration militaire
+                        britannique<note type="standard" xml:id="ftn76" place="foot" n="76">
+            <p> G.
+                                <hi rend="small-caps">Konstantinopoulou, <hi rend="italic">Arkaia
+                                    Rhodos</hi>, Athènes, 1986, p. 13.</hi>
+            </p>
+          </note>. Enfin, outre
+                    le rapport officiel du <hi rend="italic">British Committee on the Preservation
+                        and Restitution of Works of Arts, Archives and other Material in Enemy
+                        Hands</hi>
+          <note type="standard" xml:id="ftn77" place="foot" n="77">
+            <p>
+                            <hi rend="italic">
+                <hi xml:lang="en">Works of art in Greece. The Greek
+                                    Islands and the Dodecanese. Losses and Survivals in the
+                                War</hi>
+              </hi>
+              <hi xml:lang="en">, Londres, 1946, p. 55-63 (pages
+                                relatives au Dodécanèse).</hi>
+            </p>
+          </note>, une compilation de
+                    rapports archéologiques où n’apparaît pas le nom de l’archéologue britannique de
+                    Rhodes, le premier rapport archéologique un peu disert sur la question est celui
+                    de T. W. French<note type="standard" xml:id="ftn78" place="foot" n="78">
+            <p> T.
+                            W. <hi rend="small-caps">French, <hi xml:lang="en">« Notes. Archaeology
+                                    in the Dodecanese 1939-1946 » </hi>(<hi rend="italic">supra</hi>, n. 44), p. 101-104 : <hi xml:lang="en">« numerous finds
+                                    were made but work was concentrated on preservation, and
+                                    excavation was only undertaken when it was clearly essential to
+                                    do so. »</hi>
+              </hi>
+            </p>
+          </note>, qui souligne le travail de
+                    conservation des vestiges accompli pendant ces deux années. Mais finalement, le
+                    seul document officiel à mentionner en toutes lettres le nom et l’activité de
+                    Th. Burton-Brown est le rapport annuel d’activités de la <hi rend="italic">British School of Archaeology</hi> des années 1945-1947, signé de
+                        J. Cook<note type="standard" xml:id="ftn79" place="foot" n="79">
+            <p>
+                            <hi xml:lang="en">J. <hi rend="small-caps">
+                  <hi xml:lang="en">Cook</hi>
+                </hi>
+                <hi xml:lang="en">, « </hi>Archaeology in Greece,
+                                1945-1947 » <hi xml:lang="en">(</hi>
+                <hi rend="italic">
+                  <hi xml:lang="en">supra,</hi>
+                </hi>
+                <hi xml:lang="en"> n. 45),
+                                    p. 117.</hi>
+              </hi>
+            </p>
+          </note>. </p>
+                <p xml:id="d1e1464">C’est ici que l’œuvre de L. Durrell apporte des indications très
+                    intéressantes touchant à l’histoire de l’archéologie et de la muséologie à
+                    Rhodes qui recoupent le rapport du gouverneur A. S. Parker – puisque L. Durrell
+                    est le seul à donner son titre de « directeur des Antiquités de Rhodes », un
+                    poste à responsabilités, donc –, mais aussi à conserver, en filigrane, égrenées
+                    au fil des pages de <hi rend="italic">Vénus et la mer</hi>, des traces du
+                    travail mené par Th. Burton-Brown, et notamment de ses activités de
+                    conservateur, de fouilleur et d’épigraphiste. L’allusion au déchiffrement de
+                    l’inscription trouvée par l’archéologue à la porte d’Aghios Athanasios dans la
+                    vieille ville de Rhodes donne un exemple intéressant de ce qui se produisit.
+                    Découverte par Th. Burton-Brown, déchiffrée par lui (et L. Durrell…) ainsi que
+                    ce dernier le relate dans <hi rend="italic">Vénus et la mer</hi>
+          <note type="standard" xml:id="ftn80" place="foot" n="80">
+            <p>
+                            <hi rend="italic">Vénus et la mer</hi>, p. 128. </p>
+          </note>,
+                    l’inscription est, la même année, mentionnée dans le rapport annuel du directeur
+                    de l’École britannique (il en donne une photo mais ne mentionne ni le
+                    découvreur, ni la première lecture qui en a été faite)<note type="standard" xml:id="ftn81" place="foot" n="81">
+            <p> T. W. <hi rend="small-caps">French,
+                                    <hi xml:lang="en">« Notes. Archaeology in the Dodecanese
+                                    1939-1946 » </hi>(<hi rend="italic">supra</hi>, n. 44)<hi xml:lang="en">,</hi> p. 102, fig. 1.</hi>
+            </p>
+          </note> ; l’année
+                    suivante, L. Robert en signale l’importance du point de vue de l’histoire de la
+                    pratique religieuse grecque – c’est un règlement qui interdit de placer des
+                    statues à un endroit du sanctuaire d’Asclépios à Rhodes, où elles gêneraient les
+                    promenades –, la restitue et la commente<note type="standard" xml:id="ftn82" place="foot" n="82">
+            <p> J. et L. <hi rend="small-caps">Robert, « Bulletin
+                                épigraphique », <hi rend="italic">Revue des Études Grecques</hi> 61
+                                (1948), p. 183, 172.</hi>
+            </p>
+          </note>. Enfin, G. Pugliese-Caratelli
+                    en assure la publication scientifique, l’insérant dans un ensemble de cent neuf
+                    autres inscriptions rhodiennes mises au jour avant-guerre<note type="standard" xml:id="ftn83" place="foot" n="83">
+            <p> G. <hi rend="small-caps">Pugliese-<hi rend="small-caps">Carratelli</hi>, « Nuovo supplemento
+                                epigraphico Rodio », <hi rend="italic">Annali della Scuola
+                                    Archeologica di Atene </hi>33-34 n. s., 17-18 (1955-1956),
+                                p. 157-181, et particulièrement p. 157, n° 1 ; voir plus récemment
+                                    <hi rend="italic">Supplementum Epigraphicum Graecum</hi> 55
+                                (2005), n° 907 avec la bibliographie.</hi>
+            </p>
+          </note>. La plus
+                    intéressante découverte épigraphique faite au cours de ces années a donc ainsi
+                    progressivement échappé à son découvreur, rejoignant discrètement le lot
+                    d’inscriptions mises au jour lors des fouilles italiennes. Au-delà du récit
+                    plaisant d’un séjour rhodien et des anecdotes relatives à telle ou telle
+                    promenade archéologique, le texte de L. Durrell se révèle donc être une source
+                    d’informations de première main touchant à un moment douloureux de l’histoire et
+                    de l’archéologie du Dodécanèse, où le contrôle sur le patrimoine se révèle un
+                    enjeu majeur pour la nouvelle administration militaire grecque.</p>
+                <p xml:id="d1e1521">Par contre, l’ironie du sort ou la notoriété de L. Durrell ont
+                    voulu qu’il soit devenu à son tour une source littéraire sur l’archéologie – en
+                    tout cas pour les touristes et certains utilisateurs du web –, mais une source
+                    hélas fausse. Sur le site de Cass(i)opi, à la pointe septentrionale de Corfou –
+                    non loin de Calami, l’endroit où les Durrell habitaient pendant leurs années
+                    corcyréennes –, il y aurait, selon L. Durrell, les restes d’une des villas d’été
+                    de Tibère. C’est une idée qu’il développe très tôt, dès 1939, dans <hi rend="italic">L’île de Prospéro</hi>, qu’il évoque à plusieurs reprises dans
+                    ses <hi rend="italic">Îles grecques ;</hi> en 1983, encore, en voyage à Corfou
+                    avec la comédienne Laure Casteil, il lui montre les « ruines du palais de
+                        Tibère<note type="standard" xml:id="ftn84" place="foot" n="84">
+            <p> Interview
+                            accordée par Laure Casteil au <hi rend="italic">Midi libre</hi>, article
+                            du 26 février 2012 mis en ligne
+                            http://sommieres.blogs.midilibre.com/archive/2012/02/26/les-cent-ans-de-lawrence-durrell.html
+                            (site consulté le 23 septembre 2012).</p>
+          </note>. » Il fait ailleurs des
+                    considérations d’ordre topographique, mettant en parallèle le choix de Cassopi
+                    avec celui de Rhodes<note type="standard" xml:id="ftn85" place="foot" n="85">
+            <p>
+                            <hi rend="italic">Les îles grecques</hi>, p. 31 et 152. </p>
+          </note>, où
+                    Tibère avait séjourné.</p>
+                <p xml:id="d1e1545">L’origine de cette légende n’est pas claire. On dénombre au
+                    moins trois toponymes Cass(i)opi dans cette région : un promontoire et un port
+                    sur l’île de Corcyre, et un port sur la côte épirote, près de Buthrint<note type="standard" xml:id="ftn86" place="foot" n="86">
+            <p> L. <hi rend="small-caps">Bürchner, <hi rend="italic">s.v.
+                                </hi>« Kassiope », <hi rend="italic">RE</hi>, X 2, 1919, col.
+                                2314-2315 ; en ce qui concerne le port corfiote dont parle L.
+                                Durrell, voir aussi D. <hi rend="small-caps">Strauch</hi>, <hi rend="italic">s.v.</hi> « Kassiope », <hi rend="italic">Der Neue
+                                    Pauly,</hi> 6 (1999), p. 322.</hi>
+            </p>
+          </note>. Quant aux ruines
+                    de la Cassopi corcyréenne, elles sont effectivement d’époque romaine<note type="standard" xml:id="ftn87" place="foot" n="87">
+            <p> Les vestiges les plus
+                            anciens semblent remonter à l’époque romaine : K. <hi rend="small-caps">Kostoglou-<hi rend="small-caps">Despini</hi>, « Anaskaphi is
+                                Kassiopin Kerkiras », <hi rend="italic">Archaiologika Analekta ex
+                                    Athinon</hi> 4 (1971), p. 202-206 ; « Chronique archéologique »,
+                                    <hi rend="italic">Bulletin de Correspondance Hellénique</hi> 100
+                                (1976), p. 621 ; outre le temple de Zeus <hi rend="italic">Cassios</hi>, on a mis au jour les vestiges d’un autre bâtiment
+                                important daté des <hi rend="small-caps">iii</hi>
+                <hi rend="sup">e</hi>-<hi rend="small-caps">iv</hi>
+                <hi rend="sup">e</hi> s. :
+                                « Chronique archéologique », <hi rend="italic">Bulletin de
+                                    Correspondance Hellénique</hi> 117 (1993), p. 808-809.
+                        </hi>
+            </p>
+          </note> et sont celles du temple de Zeus <hi rend="italic">Cassios</hi> (temple connu des sources antiques, et mentionné par
+                        L. Durrell<note type="standard" xml:id="ftn88" place="foot" n="88">
+            <p>
+                            <hi rend="italic">L’île de Prospéro</hi>, p. 97 (7 octobre
+                        1937).</p>
+          </note>). Aucune source antique n’associe Corcyre – et
+                    particulièrement Cassopi – à Tibère ; par contre, Suétone – entre autres –
+                    rapporte que Néron a chanté devant l’autel de Zeus <hi rend="italic">Cassios</hi>
+          <note type="standard" xml:id="ftn89" place="foot" n="89">
+            <p>
+                            Tacite, <hi rend="italic">Annales</hi>, XVI, 48 ; Suétone, <hi rend="italic">Vies, Néron</hi>, XXII.</p>
+          </note>. Identifier un
+                    auteur plus tardif (par exemple des ouvrages des <hi rend="small-caps">xviii</hi>
+          <hi rend="sup">e</hi> et <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi> siècles) comme origine à cette légende n’a pas non plus
+                    été possible. Nous en déduisons que les informations de L. Durrell viennent
+                    probablement d’une légende locale, voire d’informations peut-être transmises par
+                    Gostan Zarian, qui s’était installé à Corfou, et avec lequel il était lié
+                    pendant ses années corfiotes<note type="standard" xml:id="ftn90" place="foot" n="90">
+            <p>
+                            <hi xml:lang="en">Th. <hi rend="small-caps">
+                  <hi xml:lang="en">Stephanides</hi>
+                </hi>
+                <hi xml:lang="en">, </hi>
+                <hi rend="italic">
+                  <hi xml:lang="en">Autumn Gleanings </hi>
+                </hi>
+                <hi xml:lang="en">(</hi>
+                <hi rend="italic">
+                  <hi xml:lang="en">supra</hi>
+                </hi>
+                <hi xml:lang="en">, n. 40), p. 35, n.
+                                    28.</hi>
+              </hi>
+            </p>
+          </note>. Néanmoins, à l’heure actuelle, Cassopi
+                    est associée – sur les sites web – à une villa de Tibère et on assiste, depuis
+                    la publication des écrits de L. Durrell et à cause de la notoriété dont il jouit
+                    en matière de « choses grecques », à la création d’une fausse archéologie et
+                    d’une fausse histoire.</p>
+                <p xml:id="d1e1659">Par l’intérêt qu’il porte à l’archéologie, L. Durrell est un
+                    témoin privilégié de l’histoire et de l’histoire de l’archéologie telles
+                    qu’elles se firent dans l’est de la Méditerranée. Partagé entre son goût des
+                    paysages « sauvages » de Grèce, celui des ruines inviolées qui gardent leur
+                    secret et ses relations tissées avec quelques archéologues de grand format, il
+                    éprouve une soif ardente de comprendre (les traces du passé, l’histoire) et de
+                    faire comprendre : probablement, est-il même en cela un vrai romantique, ainsi
+                    qu’il se définit à M. Alyn : « Un romantique est éternellement en conflit avec
+                        lui-même<note type="standard" xml:id="ftn91" place="foot" n="91">
+            <p>
+                            <hi rend="italic">Le grand suppositoire </hi>(<hi rend="italic">supra</hi>, n. 1), p. 107.</p>
+          </note>. » Aussi faut-il considérer
+                    comme une marque de reconnaissance le fait que ce soit à lui que les historiens
+                    Andrew Robert et Mary Burn aient confié la préface de leur ouvrage, <hi rend="italic">The Living Past of Greece. A time-traveller’s tour of historic
+                        and prehistoric places</hi>, publié à Londres en 1980. Ainsi, de simple
+                    observateur de l’archéologie L. Durrell est-il devenu un véritable expert en
+                    matière de ruines grecques.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

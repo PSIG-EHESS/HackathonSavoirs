@@ -1,0 +1,652 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:marcrel="http://www.loc.gov/loc.terms/relators" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:trans="http://docbook.org/ns/transclusion" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xila="http://www.w3.org/2001/XInclude/local-attributes" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="ndufournaud" time="2021-07-08T15:33:42.829+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_05_Dege">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Écrire et relire</title>
+        <title type="collection">La Revue de la BNU n<hi rend="sup">o</hi> 3</title>
+        <author role="aut">
+          <forename>Guillaume</forename>
+          <surname>Dégé</surname>
+          <idno type="IDREF">034565868</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2021">2021</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/2.0/fr/">BNU
+          BY-NC-SA Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/P9TQF54T" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Écrire et relire</title>
+            <author>
+              <forename>Guillaume</forename>
+              <surname>Dégé</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <imprint>
+              <biblScope unit="issue">3</biblScope>
+              <biblScope unit="page">28-39</biblScope>
+              <date>2011</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de
+          l'information</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-mqdxwy9r">instrument
+          d'inscription</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support
+          d'inscription</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-3ryxnaxd">style</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="3077311" type="geonames" xml:base="https://www.geonames.org/">République
+            tchèque</placeName>
+          </term>
+          <term>
+            <placeName ref="3117732" type="geonames" xml:base="https://www.geonames.org/">Madrid</placeName>
+          </term>
+          <term>
+            <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1800" to="1899" type="_temp">XIXe siècle</date>
+          </term>
+          <term>
+            <date from="1600" to="1699" type="_temp">XVII<hi rend="sup">e</hi> siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-08-21T07:52:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Écrire et relire</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Guillaume Dégé</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="prelim" xml:id="d1e111">
+        <epigraph>
+          <quote xml:id="d1e115">“Je me suis souvent demandé pourquoi j’aimais
+          écrire (manuellement s’entend), au point que dans bien des occasions
+          l’effort souvent ingrat du travail intellectuel est racheté à mes
+          yeux par le plaisir d’avoir devant moi (telle la table du bricoleur)
+          une belle feuille de papier et une bonne plume : tout en
+          réfléchissant à ce que je dois écrire (c’est ce qui se passe en ce
+          moment même), je sens ma main agir, tourner, lier, plonger, se lever
+          et bien souvent, par le jeu des corrections, raturer ou faire
+          éclater la ligne, agrandir l’espace jusqu’à la marge, construisant
+          ainsi à partir de traits menus et apparemment fonctionnels (les
+          lettres) un espace qui est tout simplement celui de l’art : je suis
+          artiste, non en ce que je figure un objet, mais plus
+          fondamentalement parce que dans l’écriture, mon corps jouit de
+          tracer, d’inciser rythmiquement une surface vierge (le vierge étant
+          l’infiniment possible).”<lb/>Roland Barthes, préface à <hi rend="italic">La civilisation de l’écriture </hi>de Roger Druet et
+          Herman Grégoire (Fayard, 1976)</quote>
+        </epigraph>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="d1e128">
+        <p xml:id="d1e130">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-rkp2ctq5">pratique manuelle<term ref="doi:10.34817/sv-kitjm6kp">geste</term>
+            </term>
+          </term>Les mots ont
+        un sens, mais quel est celui de l’écriture ? La façon de former une
+        lettre, sa place dans la page, son ornement, révèlent des intentions
+        secrètes ou manifestes et modifient la perception que nous avons d’un
+        texte. Cette parure est rarement mise en avant, tant elle semble
+        évidente par son immédiateté ; elle demeure pourtant notre premier
+        contact avec la pensée, notre première émotion de lecteur, ainsi que
+        notre premier acte de « scripteur ». Il s’agit de la matérialité de la
+        chose écrite, de cette richesse marginale, de son esthétique comme de
+        son efficacité.</p>
+        <p xml:id="d1e133">
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support
+        d'inscription</term>
+            </term>
+          </term>D’une équation tracée dans le sable
+        à une inscription gravée sur un temple, parchemin, papier, écran,
+        confidents entretenus de chimères polycéphales, la chose écrite reste
+        l’ultime traducteur de l’esprit. Entre la pensée et le papier
+        s’immisce la main de l’homme, petit outil usuel et intemporel, qu’il
+        faut sans cesse aguerrir, entretenir, ouvrir. Éduquer la main, la lier
+        aux yeux, l’obliger à la curiosité et à l’errement.</p>
+        <p>Le fond <persName ref="174103751" type="idref" xml:base="https://www.idref.fr/">Soennecken</persName>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Voir aussi le portrait de Soennecken p. 100</p>
+          </note> de la Bibliothèque nationale et universitaire de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> pose
+        d’emblée ce questionnement : le rôle de la main, de l’apprentissage,
+        de l’outil, et surtout de l’étonnante plasticité des formes
+        d’écriture.</p>
+        <p xml:id="d1e145">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-h5xg2swx">collectionneur</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-mqdxwy9r">instrument
+        d'inscription</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support
+        d'inscription</term>
+            </term>
+          </term>Il est toujours touchant de rentrer
+        dans une collection par son semblant d’exhaustivité, par la pathologie
+        du collectionneur. Même si <persName ref="174103751" type="idref" xml:base="https://www.idref.fr/">Soennecken</persName>, industriel
+        papetier, fabriquant de fournitures de bureaux, a toutes les raisons
+        professionnelles de constituer ce fonds, son acharnement à enrichir
+        son sujet et la diversité des champs abordés montrent une obstination
+        qui dépasse largement l’amateurisme d’un hobby. Un tel ensemble est le
+        fruit d’une ligne directrice qui s’enracine dans une durée, confirme
+        l’obsession d’une vie, et devient en quelque sorte une « œuvre par
+        destination ». Le collectionneur n’est pas un consommateur
+        papillonnant au gré des soldes, sa monomanie n’a pas de limites,
+        d’autant que le sujet particulier de cette passion semble avoir
+        interrogé les Occidentaux de façon durable et renouvelée depuis que
+        l’imprimerie existe. Constituer une bibliothèque d’une telle ampleur
+        est la preuve d’années d’affût, d’un réseau de rabatteurs, d’une
+        attention particulière au marché et aux apparitions sporadiques des
+        volumes recherchés. Aujourd’hui encore, même soutenu par la
+        multiplicité des réseaux de ventes en ligne, de sites dédiés à la
+        bibliophilie, il est impossible de constituer en quelques clics et
+        beaucoup d’argent un ensemble aussi cohérent que vaste : certains
+        livres n’apparaissent que très rarement, souvent incomplets,
+        n’existant qu’à un très petit nombre d’exemplaires, ou déjà
+        exclusivement conservés dans des fonds publics ; d’autres encore, les
+        manuscrits, les dessins, sont uniques, leur quête totalement
+        aléatoire.</p>
+        <p xml:id="d1e148">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-tu296j9f">comparaison</term>
+            </term>
+          </term>La
+        collection ne procède pas de la génération spontanée, elle s’amplifie
+        par échos et par analogie. Un thème peut se profiler de façon
+        certaine, mais pour un collectionneur privé il s’agira de tisser des
+        affinités plutôt que d’en entreprendre la bibliographie ultime ; c’est
+        pourquoi le temps et la réflexion sont ses meilleurs alliés. Si les
+        axes initiaux ne fléchissent pas, les goûts mûrissent.</p>
+        <p xml:id="d1e151">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d'interaction<term ref="doi:10.34817/sv-eqzly7gt">alliance</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-gxq8nbkj">marchand</term>
+            </term>
+          </term>De plus,
+        le collectionneur doit avoir un rapport direct avec le libraire, une
+        relation de confiance s’établit, qui transforme la parole commerciale
+        en une tentation exacte, une réponse adéquate à l’insatiabilité. Un
+        bon marchand ne cherchera pas à étouffer le collectionneur au-delà de
+        ses attentes, à lui vendre trop et trop cher ; difficile dans ces
+        conditions d’établir un échange durable par écrans interposés. Là
+        encore, un nouveau mode de relation pérenne est à inventer.</p>
+        <p xml:id="d1e155">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-h5xg2swx">collectionneur</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-drzsfy9d">artiste</term>
+            </term>
+          </term>La
+        créativité d’un bibliophile est différente de celle de l’artiste. Chez
+        l’un, l’expérience fait évoluer le regard, le pousse au-delà de
+        l’épuisement momentané de ses étagères, chez l’autre elle peut devenir
+        synonyme de recette, d’habitude, et comble de violence, de soumission
+        au marché. Il est donné au collectionneur de rajeunir en vieillissant,
+        son œuvre étant l’agrégat de celle des autres, alors que l’artiste,
+        épuisé autant par le succès qu’il peut symétriquement l’être par
+        l'insuccès, peut s’arrêter en chemin, patiner à s’y méprendre, devenir
+        l’ombre de sa promesse.</p>
+        <p xml:id="d1e158">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-rkp2ctq5">pratique manuelle<term ref="doi:10.34817/sv-5gggmaol">inscription</term>
+            </term>
+          </term>Comme
+        tout collectionneur non dépourvu d’argent, <persName ref="174103751" type="idref" xml:base="https://www.idref.fr/">Soennecken</persName> a
+        pu acquérir des pièces incontournables comme le <hi rend="italic">Champ fleury </hi>de Geoffroy Tory ou l’<hi rend="italic">
+            <foreign xml:lang="ger">Underweysung der Messung</foreign>
+          </hi>d’Albrecht Dürer, qui signe l’acte de naissance d’une
+        conceptualisation de l’imprimerie, ou bien encore <hi rend="italic">Les écritures financière et</hi>
+          <hi rend="italic">italienne-bastarde dans leur naturel… </hi>de Barbedor,
+        bible de la calligraphie classique ; mais aussi, à côté de ces
+        références incontournables, ces recueils d’écritures manuscrites qui
+        d’<placeName ref="2803138" type="geonames" xml:base="https://www.geonames.org/">Anvers</placeName> à <placeName ref="3117732" type="geonames" xml:base="https://www.geonames.org/">Madrid</placeName> en passant par
+        <placeName ref="3181927" type="geonames" xml:base="https://www.geonames.org/">Bologne</placeName>, <placeName ref="3176958" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName> ou
+        <placeName ref="2886242" type="geonames" xml:base="https://www.geonames.org/">Cologne</placeName> parcourent
+        l’Europe. La plupart sont gravés, à l’eau-forte ou au burin, et
+        témoignent de l’importance de la lettre manuscrite dans les actes de
+        la vie officielle, économique ou politique de l’Europe, avant la
+        généralisation de l’imprimerie dans la <date from="1850" to="1899" type="_temp">seconde moitié du XIX<hi rend="sup">e</hi> siècle</date>.
+        Ils sont aussi la trace d’une communauté culturelle formelle, même si
+        là comme ailleurs se décèlent les provenances et les habitus créatifs
+        régionaux.</p>
+        <p xml:id="d1e198">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-rkp2ctq5">pratique manuelle<term ref="doi:10.34817/sv-kitjm6kp">geste</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-3ryxnaxd">style</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+          </term>La
+        chose écrite à la main a valeur de pièce à conviction. Plus l’écriture
+        en est complexe, plus elle soulignera le poids du document.
+        Paradoxalement, l’abondance de fioritures, la débauche
+        d’« emberlificotages » fait disparaître jusqu’à la raison même de la
+        lettre. L’illisibilité acquiert alors un caractère de véracité et
+        d’authenticité qui aurait manqué à une calligraphie claire et déliée.
+        Un dessin abstrait et même parfois assez éloigné du propos central
+        permet de figurer par une image voisine du geste de la lettre
+        l’importance du document. L’écriture perd ici l’immédiateté de son
+        message, c’est l’élégance de son tracé et de ses marges qui frappent
+        dès l’abord. Le mouvement de la main se décale de son utilité
+        première, tout en utilisant les mêmes ressorts, les mêmes élans de
+        plume. L’oiseau poursuit sa course en tête de lettres de change,
+        d’actes notariés, de brevets de noblesse, de lettres commerciales, de
+        traités diplomatiques.</p>
+        <p xml:id="d1e201">
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-mqdxwy9r">instrument
+        d'inscription</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-dujlzfqq">dessin</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image<term ref="doi:10.34817/sv-dujlzfqq">dessin</term>
+              </term>
+            </term>
+          </term>Les
+        oiseaux sont choisis et déplumés, les canifs taillent et précisent
+        l’angle d’attaque des lettres, les biseaux sont tranchés en fonction
+        des caractères à tracer, des correspondances à envoyer. Il convient
+        d’apprêter l’outil dans l’idée du dessin à venir, comme un artiste
+        lyrique chauffe sa voix, ou un musicien accorde l’instrument à sa
+        partition. L’écriture n’a aucune neutralité, elle est déjà par sa
+        forme ce qu’elle sera par son sens. Dans cette acception elle devient
+        un dessin qui signifie par ce qu’il représente autant, voire au-delà
+        des simples mots qu’il incarne.</p>
+        <p xml:id="d1e204">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-m6tdpkvp">imprimé</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-ednljukn">discontinuité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-mqdxwy9r">instrument
+        d'inscription</term>
+            </term>
+          </term>Cette économie de moyens, plume
+        d’oiseau, encre de seiche, canif, que l’on qualifierait aujourd’hui de
+        « low tech », d’« écologique », requiert cependant une habileté hors
+        du commun, une gymnastique précise et invraisemblable : travail de
+        professionnel, copistes soumis aussi bien que virtuoses décadents.
+        Certains se souviennent encore des lignes de lettres tracées à la
+        plume Sergent-major, des inévitables pâtés, de l’encrier incrusté dans
+        le pupitre. Que d’efforts boiteux, de courbes difformes, d’équilibres
+        vacillants, oblitérés par les touches du clavier que j’effleure
+        aujourd’hui pour écrire ce texte. La rature invisible, qui avale tout
+        repentir, donne le texte aussi propre qu’à la sortie de l’imprimerie,
+        le temps qui sépare l’épiphanie de l’idée à sa transmission est
+        considérablement réduit : l’éloignement de l’encre et du papier a déjà
+        métamorphosé la façon d’écrire, avant même que la dématérialisation
+        annoncée du support de lecture ne modifie notre façon de lire et notre
+        rapport à la littérature. Entrer dans un livre n’est pas fragmenter
+        une pensée en mille morceaux, tenter d’en débusquer les périphéries
+        les plus imprévues avant que de trouver le coeur, mais au contraire en
+        poursuivre les méandres dans une continuité voulue par l’auteur.
+        Feuilleter n’est pas lire. Cette attention à la lecture et à sa
+        matérialité reste un axe fondamental de l’exposition organisée à la
+        médiathèque <persName ref="02700483X" type="idref" xml:base="https://www.idref.fr/">André Malraux</persName> de
+        <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> comme du
+        programme européen <hi rend="italic">Et lettera</hi>
+          <note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Le projet <hi rend="italic">Et lettera</hi>, centré sur les
+            thèmes de l’illustration et de l’écriture en Europe et cofinancé
+            par la Commission européenne dans le cadre du Programme culture,
+            rassemble six villes partenaires (Arad en Roumanie, Barcelone,
+            Brno en République tchèque, Debrecen en Hongrie, Strasbourg et
+            Varsovie). Centré sur le phénomène de la lettre et plus
+            particulièrement sur la relation entre le signe d’écriture et
+            l’image graphique qu’elle constitue concomitamment, il s’intéresse
+            aussi aux processus d’apprentissages de l’écriture. Le projet
+            associe expositions, colloques et résidences d’artistes.</p>
+          </note>. Nous y reviendrons plus loin, à propos des problèmes quasi
+        insolubles posés par l’organisation d’une exposition de livres.</p>
+        <p xml:id="d1e253">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-8whc6vwk">imprimeur</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture<term ref="doi:10.34817/sv-24fbfrzm">calligraphie</term>
+            </term>
+          </term>En
+        Occident, une distinction très nette s’opère entre la forme d’écriture
+        et les qualités littéraires de l’écrivain, distinction qui dans la
+        culture classique chinoise peut souvent être confondue, la
+        calligraphie étant partie prenante de la beauté du poème. L’écart se
+        réduit à l’impression : ainsi les libraires-éditeurs pionniers,
+        <persName ref="02730762X" type="idref" xml:base="https://www.idref.fr/">Alde Manuce</persName> à <placeName ref="3164603" type="geonames" xml:base="https://www.geonames.org/">Venise</placeName>, <persName ref="031001041" type="idref" xml:base="https://www.idref.fr/">Simon de
+        Colines</persName> à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> ou <persName ref="030800757" type="idref" xml:base="https://www.idref.fr/">Johann
+        Froben</persName> à <placeName ref="2661602" type="geonames" xml:base="https://www.geonames.org/">Bâle</placeName> ont dès le début
+        de l’imprimerie su lier l’exigence d’un répertoire à la beauté de
+        l’impression, comme s’il existait un lien secret entre différentes
+        productions de l’esprit. La forme n’est jamais loin, elle est rarement
+        aussi superficielle qu’elle en a l’air. La lisibilité comme la lecture
+        passent par l’imprimeur, les règles orthotypographiques, la
+        modernisation des langues vernaculaires, la redécouverte du latin et
+        du grec naissent dans l’effervescence de la
+        <date>Renaissance</date>.</p>
+        <p xml:id="d1e269">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des savoirs<term ref="doi:10.34817/sv-t5ioxzdk">innovation</term>
+            </term>
+          </term>Cette
+        dernière est autant dans la recherche d’un devenir que dans
+        l’affirmation d’une généalogie, c’est-à-dire que les formes posées
+        permettent d’entreprendre, de se démultiplier, elles deviennent la
+        condition de l’invention, de la diversité prise dans son flot, dans ce
+        qui n’est pas encore révélé. Avec elles se développent, dans un même
+        élan, la structuration du savoir, la création graphique et l’essor de
+        l’économie éditoriale. Dès lors, chaque bouleversement technique,
+        gravure sur bois de fil, gravure à l’eau-forte, puis sur bois de bout,
+        lithographie, offset, et maintenant numérique sera le théâtre d’une
+        invention (qui n’est pas simplement la réadaptation de figures
+        anciennes à des nécessités nouvelles) jamais démentie. C’est ce dont
+        le fonds Soennecken est le fidèle témoin.</p>
+        <p xml:id="d1e272">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>On
+        imagine donc la richesse du corpus réuni ici, et la difficulté de son
+        exploitation. Formes de lettres, de mises en pages, beaux livres,
+        éditions courantes : la bigarrure des occurrences nécessite des choix,
+        des interprétations et pose un autre problème difficile à résoudre en
+        une exposition : faut-il rendre la collection dans sa complétude ou
+        mettre en avant les exemples les plus emblématiques ?</p>
+        <p xml:id="d1e275">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-3ryxnaxd">style</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture<term ref="doi:10.34817/sv-24fbfrzm">calligraphie</term>
+            </term>
+          </term>La
+        découverte de ce fonds est un heureux concours de circonstances. C’est
+        par le créateur de typographies et calligraphe <persName ref="127576975" type="idref" xml:base="https://www.idref.fr/">Jean
+        Midolle</persName> qu’il nous a été donné de le connaître. <persName ref="069664153" type="idref" xml:base="https://www.idref.fr/">Agathe
+        Bischoff-Morales</persName> m’avait montré, issu du fonds patrimonial
+        de la bibliothèque municipale de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, un
+        extraordinaire album de calligraphies en noir et blanc et en couleurs
+        de Midolle, imprimé par Simon, fameux lithographe strasbourgeois de la
+        <date from="1800" to="1849" type="_temp">première moitié du XIX<hi rend="sup">e</hi> siècle</date>. <persName ref="127576975" type="idref" xml:base="https://www.idref.fr/">Midolle</persName>, dont
+        la biographie est plutôt discrète, est en soi un sujet de thèse ou de
+        roman : son extravagance sans borne, sa grâce, sa bizarrerie et
+        parfois sa lourdeur en font un sujet tellement outré qu’il en devient
+        atypique, une nouvelle espèce de fou littéraire, dans le sens que
+        Blavier et Queneau ont donné à cette expression, à lui tout seul. D’un
+        travail normatif, la création typographique, il dérive dans des excès
+        rarement atteints, rejoignant les plus baroques des calligraphes
+        hollandais ou allemands du <date from="1600" to="1699" type="_temp">XVII<hi rend="sup">e</hi> siècle</date>. Son œuvre résume
+        à elle seule l’esprit de l’opération qu’<persName ref="069664153" type="idref" xml:base="https://www.idref.fr/">Agathe
+        Bischoff-Morales</persName> et moi-même menons au sein d’<hi rend="italic">Et lettera</hi>.</p>
+        <p xml:id="d1e296">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>Quelque
+        temps après cette première découverte, <persName ref="068917678" type="idref" xml:base="https://www.idref.fr/">Philippe
+        Delangle</persName>, professeur de communication graphique à l’Ecole
+        des arts décoratifs de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, me révèle
+        l’existence de deux autres volumes de <persName ref="127576975" type="idref" xml:base="https://www.idref.fr/">Midolle</persName>
+        imprimés par Simon à la BNU, ainsi que d’un fonds étonnant sur
+        l’écriture. C’est Marie-Laure Ingelaere, alors bibliothécaire dans
+        l’établissement, qui aura la gentillesse et la patience de nous en
+        ouvrir les portes. Dès lors, en accord avec la mairie de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, la BNU et
+        la BMS, le sujet du projet européen <hi rend="italic">Et lettera</hi>
+        était trouvé. Devant le surgissement du numérique dans la vie
+        courante, les difficultés rencontrées par l’apprentissage de la
+        lecture, l’actualité d’une telle exposition ne faisait aucun doute.
+        Entre inventaire et prospective, à un moment où la lecture est
+        bouleversée, sinon malmenée par de nouveaux modes de transmission, il
+        était pertinent de donner le goût de son élaboration graphique.</p>
+        <p xml:id="d1e308">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l'information<term ref="doi:10.34817/sv-u6ndhgi9">vue en
+        coupe</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de
+        l'information</term>
+            </term>
+          </term>Mais que faire ? Monter une
+        exposition de livres est une gageure, car le livre par définition
+        n’est pas un objet de « monstration » collective. Il serait plutôt de
+        nature inverse : il retranche le lecteur de sa collectivité, il est
+        fait pour être manipulé, les pages tournées, lues, par une personne à
+        la fois. Certes, en s’attachant dans une exposition à souligner la
+        beauté de certaines pages, on peut atténuer légèrement la frustration
+        du lecteur, mais rien a priori ne peut remplacer le regard
+        consciencieux qui va de la première à la dernière page d’un volume.
+        C’est affaire de gourmandise et de soif. Seuls ceux qui n’aiment pas
+        les gâteaux peuvent résister à la vitrine d’une pâtisserie. La
+        peinture, elle, se donne à voir en un plan, et le spectateur pourrait
+        même se priver du cartel qui l’accompagne, car elle est non
+        manipulable et sa force est livrée entièrement, d’un seul coup. Ce
+        caractère abrupt en fait sa valeur d’exposition. Inversement, le
+        catalogue d’une exposition devient un commentaire de l’œuvre, qui se
+        trouve détrônée de sa matérialité et perd de sa puissance : un
+        catalogue de <persName ref="027329739" type="idref" xml:base="https://www.idref.fr/">Monet</persName> n’est pas <persName ref="027329739" type="idref" xml:base="https://www.idref.fr/">Monet</persName>.</p>
+        <p>Il s’agit donc de biaiser, de livrer une sorte de théorie générale
+        qui ne serait servie que par du fragment, la constitution d’une
+        « histoire naturelle ». <persName ref="174103751" type="idref" xml:base="https://www.idref.fr/">Soennecken</persName>, par les choix
+        qu’il opère, donne toutes les pistes d’exploitation possibles,
+        scénarise le travail de commissariat. Il fait remonter non seulement à
+        l’origine du projet mais en fait voir aussi les blancs, ou le contexte
+        dans lequel peuvent s’insérer ou se continuer les chemins tracés.
+        Cette ouverture autorise l’adjonction de différentes sources sans que
+        soit dénaturé le propos initial.</p>
+        <p xml:id="d1e311">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-jp7d3sgm">pratique musicale</term>
+            </term>
+          </term>A
+        cette vue en coupe s’ajoute la scénographie, qui aura pour lourde
+        tâche de mettre en musique ces morceaux de partition, en les rendant
+        visibles dans leur crudité, ou leur individualité, tout en les
+        replaçant dans le contexte plus général de l’exposition.</p>
+        <p rend="break" xml:id="d1e315"> </p>
+        <p xml:id="d1e318">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l'information<term ref="doi:10.34817/sv-u6ndhgi9">vue en
+        coupe</term>
+              </term>
+            </term>
+          </term>Entrer dans cette collection fut une
+        sorte de privilège, même si nous n’y avons pas, loin de là, passé
+        autant de temps qu’il aurait fallu pour en jouir complètement. La vue
+        en coupe que nous avons pratiquée, <persName ref="069664153" type="idref" xml:base="https://www.idref.fr/">Agathe
+        Bischoff-Morales</persName>, Mireille Pétry et moi, nous a réservé de
+        nombreuses surprises, et a permis de retravailler l’idée que nous nous
+        faisions de l’exposition.</p>
+        <p xml:id="d1e321">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de
+        l'information</term>
+            </term>
+          </term>Le livre, lorsqu’il a été conservé
+        correctement, apparaît dans une fraîcheur enviable : le temps ne le
+        corrompt pas. Les images sont données à voir dans un état presque
+        identique à celui qu’elles ont à la sortie de l’imprimerie. Si l’on
+        fait abstraction des couvertures sujettes aux outrages du temps et des
+        lecteurs, la fraîcheur des intérieurs restitue un contexte et un
+        esprit mais aussi et avant tout une surprise. Cette découverte
+        progressive a fait évoluer les détails de l’exposition et a entretenu
+        l’émerveillement des débuts. Dans ce cadre précisément, exposer un
+        livre ancien n’est pas organiser un culte autour d’une relique,
+        ressortir un savoir poussiéreux et inutile. Au contraire, c’est offrir
+        au regard des perspectives esthétiques peu traitées, des aventures
+        graphiques méconnues et exceptionnelles, et aussi, plus politiquement,
+        participer à un travail d’acculturation dans des domaines aussi
+        fréquentés qu’ignorés. A l’époque où nous vivons, il est plus que
+        temps de résister à l’arrogance débilitante du marché, en affirmant et
+        en montrant des partis pris esthétiques, anciens et contemporains, des
+        chemins de pensée accessibles et déroutants. En plaçant cet événement
+        sous le double signe de la lecture et de son aventure graphique, il
+        nous appartient de donner à voir des œuvres de l’esprit, loin du
+        « temps de cerveau disponible » mis en avant par les impératifs de la
+        publicité.</p>
+        <p xml:id="d1e324">Enfin, gageons que notre relative ignorance de la
+        richesse de ce fonds aura sorti ce programme d’un débat de
+        spécialistes, qui n’aurait eu pour seul intérêt que des ratiocinations
+        de clercs.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,578 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-3804_Andurand">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">
+                    <hi xml:lang="fr">Fabrique du mythe et production des savoirs : la Grèce des
+                        hellénistes allemands au miroir du <hi rend="italic">Griechenmythos
+                        </hi>(1790-1945)</hi>
+                </title>
+                <author>
+                    <persName>
+                        <forename>Anthony</forename>
+                        <surname>Andurand</surname>
+                    </persName>
+                    <affiliation>
+                        <hi rendition="#style04">plh-erasme<lb/>
+            </hi>Université de Toulouse (<hi rendition="#style04">utm</hi>)<lb/>anthonyandurand@yahoo.fr
+                    </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+                        Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>« Savoirs » est une plateforme de publication numérique vouée à l’histoire et à
+                    l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS
+                    (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une
+                    archive d’articles ou une collection de livres, il s’agit d’une bibliothèque
+                    « intelligente » et expérimentale qui propose des parcours de lecture
+                    heuristiques et réflexifs entre les textes, grâce à différents algorithmes de
+                    recherche et de suggestions reposant notamment sur un balisage des lieux, des
+                    dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs
+                        (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel
+                        XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données
+                        géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour
+                        l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références
+                        Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes
+                        pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart level="a" type="main">
+                        <hi xml:lang="fr">Fabrique du mythe et production des savoirs : la Grèce des
+                            hellénistes allemands au miroir du <hi rend="italic">Griechenmythos
+                            </hi>(1790-1945)</hi>
+                    </titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Anthony Andurand</docAuthor>
+                </byline>
+            </titlePage>
+        </front>
+        <body>
+            <div type="div1" xml:id="d1e176">
+                <head subtype="level1" xml:id="d1e177">Qu’est-ce que le « mythe grec »
+                    allemand ?</head>
+                <p xml:id="d1e179">Dans une conférence prononcée en 1919, le philologue Werner
+                    Jaeger, s’interrogeant sur la place et la signification de l’hellénisme dans la
+                    vie savante et culturelle de l’Allemagne, déclarait :</p>
+                <q rend="quotation">L’hellénisme est un destin historique auquel on ne saurait
+                    échapper, pas plus qu’on ne peut rendre nulle et non avenue l’histoire de
+                    l’esprit ou obturer une source vivante. On ne peut arracher au cœur de l’être
+                    allemand cette fibre profonde sans détruire dans le même temps la trame de son
+                    étoffe intime, sans se rendre étranger aux plus pures créations de l’esprit
+                    allemand, à la compréhension de nos grands maîtres, presque tous sans
+                        exception<note type="standard" xml:id="ftn42" place="foot" n="42">
+            <p> W.
+                                J<hi rend="small-caps">aeger</hi>, « Der Humanismus als Tradition
+                            und Erlebnis » [1919], in <hi rend="italic">Humanistische Reden und
+                                Vorträge, </hi>Berlin, De Gruyter, 1960<hi rend="sup">2</hi> (l<hi rend="sup">re</hi> éd. : 1937), p. 30.</p>
+          </note>.</q>
+                <p xml:id="d1e200">Dans le discours jaegerien, l’hellénisme apparaît ainsi comme une
+                    source <hi rend="italic">(Quelle) </hi>en même temps qu’un destin <hi rend="italic">(Schicksal) </hi>pour l’Allemagne, un héritage au miroir
+                    duquel semble se jouer une partie de son avenir et de son identité. La tradition
+                    de retour aux Grecs initiée par Winckelmann dans la seconde moitié du <hi rend="small-caps">xviii</hi>
+          <hi rend="sup">e</hi> siècle et dont Jaeger –
+                    initiateur, dans l’entre-deux-guerres, du « Troisième humanisme » – se veut à la
+                    fois le continuateur et le rénovateur, est présentée comme un élément
+                    constitutif de la nature, de 1’« être » allemand <hi rend="italic">(deutsches
+                        Wesen). </hi>La Grèce, si l’on en croit le philologue, serait pour
+                    l’Allemagne autant une nécessité historique, ancrée dans la trajectoire de
+                    l’esprit allemand à l’époque moderne, qu’un besoin de l’existence, conforme aux
+                    aspirations secrètes de l’âme germanique. C’est à l’histoire de cette
+                    « croyance » que nous avons choisi de consacrer les recherches menées dans le
+                    cadre de notre thèse de doctorat<note type="standard" xml:id="ftn43" place="foot" n="43">
+            <p> « Les Grecs anciens et le “mythe grec” allemand :
+                            histoire d’une “affinité élective” », thèse préparée sous la direction
+                            de C. B<hi rend="small-caps">onnet </hi>et de P. P<hi rend="small-caps">ayen</hi> et soutenue le 27 juin 2011 à l’université de Toulouse-Le
+                            Mirail.</p>
+          </note>. Nous lui avons donné le nom de « mythe grec »
+                    allemand, selon un concept emprunté à l’historiographie allemande récente<note type="standard" xml:id="ftn44" place="foot" n="44">
+            <p> C’est à la fin des
+                            années 1980 que se développent, outre-Rhin surtout, les recherches sur
+                            le <hi rend="italic">Griechenmythos, </hi>dans le sillage de ce qu’on a
+                            pu appeler la « nouvelle mythologie ». La réflexion philosophique et le
+                            travail théorique opérés autour de la notion de « mythe » visent, alors,
+                            à fournir de nouveaux concepts à l’étude des imaginaires sociaux,
+                            culturels et politiques, à l’intérieur des sociétés modernes et
+                            « démythologisées ». Il convient de souligner, dans l’émergence du
+                            « mythe grec » allemand comme objet d’étude, l’importance des travaux de
+                            M. F<hi rend="small-caps">uhrmann</hi> (« Der Griechenglaube der
+                            Goethezeit und das Nationalbewusstsein der Deutschen », <hi rend="italic">Humanistische Bildung </hi>13 (1989), p. 87-100 ;
+                            « Die Deutschen, die Griechen der Neuzeit : über die Entstehung eines
+                            denkwürdigen Versuchs deutscher Selbstdarstellung », in <hi rend="italic">Europas fremd gewordene Fundamente, </hi>Zurich,
+                            Artemis &amp; Winkler, 1995, p. 167-177) et de M. L<hi rend="small-caps">andfester</hi> (« Griechen und Deutsche : der Mythos einer
+                            “Wahlverwandtschaft” », in H. B<hi rend="small-caps">erding</hi> (Hg.),
+                                <hi rend="italic">Mythos und Nation, </hi>Frankfurt am Main,
+                            Suhrkamp, 3 vol., 1996, III, p. 198-219).</p>
+          </note>. La notion renvoie
+                    à un motif idéologique forgé, en Allemagne, à l’extrême fin du <hi rend="small-caps">xviii</hi>
+          <hi rend="sup">e</hi> siècle et appelé à se
+                    maintenir jusqu’au lendemain de la Seconde Guerre mondiale. Les formes et les
+                    significations multiples que ce motif, repris, décliné, modulé pendant un siècle
+                    et demi, a pu revêtir sont autant de variations sur un même thème, dont on peut
+                    restituer ainsi la phrase fondamentale : l’Allemagne est une « nouvelle
+                    Hellade », les Allemands sont les « Grecs de l’époque moderne » ; ils sont unis
+                    à eux par un rapport particulier et privilégié, une « affinité » ou une
+                    « parenté » idéale – puisque c’est ainsi que l’on peut traduire,
+                    alternativement, la notion de <hi rend="italic">Verwandtschaft, </hi>que l’on
+                    utilise le plus fréquemment et avec une étonnante constance, dans les sources de
+                    notre enquête, pour décrire cette relation toute singulière.</p>
+                <p xml:id="d1e263">Une précision semble toutefois nécessaire : si les spécialistes
+                    allemands désignent ce phénomène par le terme de <hi rend="italic">Griechenmythos, </hi>parfois aussi de <hi rend="italic">Griechenglaube,
+                    </hi>le locuteur non-allemand est obligé de préciser mythe grec <hi rend="italic">allemand, </hi>comme pour en marquer le caractère
+                    spécifiquement « national ». Car c’est bien dans le mythe grec et le thème de
+                    l’affinité gréco-allemande qu’il mobilise que s’exprime ce que la relation de
+                    l’Allemagne à la Grèce recèle de singulier. L’hellénomanie ne fut certes pas, à
+                    l’époque moderne, une exclusivité allemande, et le culte des Grecs peut être
+                    considéré, pour la période qui nous intéresse, comme un phénomène européen. Dans
+                    la seconde moitié du <hi rend="small-caps">xviii</hi>
+          <hi rend="sup">e</hi> siècle, en effet, c’est pour ainsi dire toute l’Europe qui
+                    s’enthousiasme pour la « noble simplicité » et la « grandeur sereine » de la
+                    Grèce de Winckelmann. Pourtant, si le <hi rend="italic">Griechenmythos
+                    </hi>implique bien une vision « mythique », idéale et idéalisée, du passé et de
+                    l’héritage helléniques – celle, au fond, qu’ont longtemps partagée les nations
+                    modernes –, il ne saurait se confondre avec celle-ci. Aucune nation européenne,
+                    de ce point de vue, ne s’est voulue grecque avec autant de passion et
+                    d’opiniâtreté que l’Allemagne. Le thème de 1’« affinité » avec les Grecs est un
+                    thème proprement <hi rend="italic">allemand, </hi>qui confère au <hi rend="italic">Griechenmythos </hi>sa tonalité caractéristique : l’Allemagne
+                    seule, en vertu de cette <hi rend="italic">sympatheia </hi>unique en son genre,
+                    est élevée à la dignité d’héritière directe et légitime, de relais, de
+                    destination finale de 1’« esprit » grec, appelé à renaître dans sa patrie
+                    d’élection. C’est à la lumière de ce motif, sédimenté, avec le temps, en une
+                    véritable tradition, que nous avons souhaité rouvrir le dossier de la réception
+                    de l’Antiquité grecque en Allemagne.</p>
+            </div>
+            <div type="div1" xml:id="d1e292">
+                <head subtype="level1" xml:id="d1e293">Entre science et croyance : construction d’un
+                    problème historiographique</head>
+                <p xml:id="d1e295">Au seuil de notre enquête, toutefois, le champ d’investigation
+                    ainsi délimité apparaissait encore trop vaste. Le phénomène de l’hellénisme
+                    allemand des <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi>-<hi rend="small-caps">xx</hi>
+          <hi rend="sup">e</hi> siècles a fait l’objet,
+                    depuis les années 1930 au moins, de nombreuses publications<note type="standard" xml:id="ftn45" place="foot" n="45">
+            <p> Depuis les travaux pionniers d’E.M.
+                                B<hi rend="small-caps">utler</hi>
+                            <hi rend="italic">(The Tyranny of Greece over Germany, </hi>Cambridge,
+                            1935) et de W. R<hi rend="small-caps">ehm</hi>
+                            <hi rend="italic">(Griechentum und Goethezeit, </hi>Bern, 1936),
+                            consacrés à l’image de la Grèce dans la littérature et l’esthétique de
+                            la <hi rend="italic">Goethezeit, </hi>l’historiographie de l’hellénisme
+                            allemand s’est enrichie de nombreuses publications. Pour notre enquête,
+                            centrée sur le domaine de la science de l’Antiquité, nous avons pu nous
+                            appuyer, en particulier, sur les remarquables synthèses de M. L<hi rend="small-caps">andfester</hi>, <hi rend="italic">Humanismus und
+                                Gesellschaft im 19. </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Jahrhundert, </hi>
+              </hi>
+              <hi xml:lang="en">Darmstadt,
+                                Wissenschaftliche Buchgesellschaft, 1988, de S. M</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">archand</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Down from
+                                    Olympus. Archaeology and Philhellenism in Germany, 1750-1970,
+                                </hi>
+              </hi>
+              <hi xml:lang="en">Princeton, Princeton University Press,
+                                1996 et de G. L</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">eghissa</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Incorporare l’Antico. Filologia classica e
+                                    invenzione della modernità, </hi>
+              </hi>
+              <hi xml:lang="en">Milano,
+                                Mimesis Edizioni, 2007.</hi>
+            </p>
+          </note>. Le <hi rend="italic">Griechenmythos, </hi>la croyance en l’<hi rend="italic">affectio
+                    </hi>gréco-allemande se présente par ailleurs comme un objet historiographique
+                    aux multiples ramifications : depuis la <hi rend="italic">Goethezeit </hi>jusque
+                    dans les premières décennies du <hi rend="small-caps">xx</hi>
+          <hi rend="sup">e</hi> siècle, c’est à vrai dire l’Allemagne savante tout entière, celle
+                    des historiens et des philologues certes, mais aussi celle des poètes et des
+                    philosophes, qui s’est efforcée de « chercher de l’âme le pays des Grecs<note type="standard" xml:id="ftn46" place="foot" n="46">
+            <p>
+                            <hi xml:lang="en">J. W V</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">on</hi>
+              </hi>
+              <hi xml:lang="en"> G</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">oethe</hi>
+              </hi>
+              <hi xml:lang="en">, </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Iphigenie auf Tauris </hi>
+              </hi>
+              <hi xml:lang="en">[1779], in </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Gesamtausgabe, </hi>
+              </hi>
+              <hi xml:lang="en">Munich, 1968,
+                            </hi>X, <hi xml:lang="en">p. 81.</hi>
+            </p>
+          </note> » (Goethe). Il ne
+                    pouvait être question, dans ces conditions, de proposer une histoire « totale »
+                    du <hi rend="italic">Griechenmythos, </hi>d’étudier, de façon exhaustive,
+                    l’ensemble des manifestations (littéraires, philosophiques, artistiques…) qui
+                    s’y rapportent. Après avoir déterminé les contours de notre objet d’étude, il
+                    fallait encore élaborer un véritable problème historiographique, susceptible de
+                    resserrer les limites de notre enquête et d’en orienter la mise en œuvre.</p>
+                <p xml:id="d1e408">Le champ de l’érudition classique se présentait comme un terrain
+                    privilégié. Si le mythe grec allemand a exercé une certaine emprise sur
+                    l’ensemble de la vie intellectuelle et culturelle de l’Allemagne moderne, la
+                    communauté des hellénistes fut, aux <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi>-<hi rend="small-caps">xx</hi>
+          <hi rend="sup">e</hi> siècles, son
+                    principal relais. C’est dans le domaine des études grecques, de Friedrich August
+                    Wolf à Werner Jaeger – deux noms qui encadrent commodément les limites
+                    chronologiques de notre travail –, que s’élabore et se réinvente le <hi rend="italic">Griechenglaube. </hi>Ce constat recèle que chose de paradoxal.
+                    L’Allemagne, en effet, est considérée comme la patrie de la philologie moderne,
+                    de cette « science de l’Antiquité » <hi rend="italic">(Altertumswissenschaft)
+                    </hi>méthodique et rigoureuse unanimement saluée, hier et aujourd’hui, pour son
+                    sérieux et sa solidité. Durant toute la période qui nous intéresse, elle fut le
+                    centre mondial de la production des savoirs sur l’Antiquité, ce « grand atelier
+                    de la science<note type="standard" xml:id="ftn47" place="foot" n="47">
+            <p> C.
+                                B<hi rend="small-caps">onnet</hi>, <hi rend="italic">Le « grand
+                                atelier de la science ». Franz Cumont et
+                                l’</hi>Altertumswissenschaft<hi rend="italic">. Héritages et
+                                émancipation. Des études à la Première Guerre mondiale
+                                (1888-1923)</hi>, Rome, Institut Historique Belge de Rome, 2 vol.,
+                            2005. La paternité de cette formule revient à A. V<hi rend="small-caps">on</hi> H<hi rend="small-caps">arnack, </hi>« Vom Großbetrieb der
+                            Wissenschaft », <hi rend="italic">Preußische Jahrbücher</hi> 119 (1905),
+                            p. 193-201.</p>
+          </note> », pour reprendre le titre de l’ouvrage de C.
+                    Bonnet, qui faisait l’honneur de ses représentants et suscitait l’admiration de
+                    ceux qui l’avaient fréquenté. Mais précisément, tandis que l’Allemagne
+                    s’affirmait comme le laboratoire et la vitrine de l’érudition classique, elle
+                    fut aussi, pourrait-on dire, la « grande fabrique » du <hi rend="italic">Griechenmythos. </hi>Tout on long du <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi> siècle, le projet de l’<hi rend="italic">Altertumswissenschaft </hi>n’a cessé d’être animé par les présupposés du
+                    mythe grec, de puiser à la croyance, quelque forme qu’elle revêtît, que
+                    l’Allemagne était une Grèce à venir. Ainsi se dessinait un programme de travail,
+                    centré sur les rapports entre <hi rend="italic">Griechenmythos </hi>et <hi rend="italic">Altertumswissenschaft, </hi>sur l’interaction dynamique qui
+                    unit, au cours d’un <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi> siècle
+                    élargi, « mythe » et « savoir », « science » et « croyance ».</p>
+            </div>
+            <div type="div1" xml:id="d1e474">
+                <head subtype="level1" xml:id="d1e475">Réception de l’Antiquité et imaginaire
+                    savant : esquisse d’un parcours</head>
+                <p xml:id="d1e477">Notre étude, centrée sur le cas particulier des études grecques
+                    en Allemagne, revêt ainsi la forme d’une enquête sur l’imaginaire savant. Elle
+                    vise à ressaisir les traits du <hi rend="italic">Griechenbild </hi>construit par
+                    la science allemande et le paysage idéologique dont il participe, dans une
+                    démarche attentive à la place et au rôle de l’imaginaire savant dans le
+                    processus de construction des savoirs sur l’Antiquité. Un tel projet exige –
+                    c’est du moins la perspective que nous avons choisi d’adopter – de mobiliser les
+                    ressources d’une histoire de la réception de l’Antiquité à l’époque moderne. Il
+                    s’agit ainsi, dans cette histoire croisée du <hi rend="italic">Griechenmythos
+                    </hi>et de l’<hi rend="italic">Altertumswissenschaft, </hi>de situer l’analyse à
+                    l’articulation de trois « plans » historiques :<lb/>– l’histoire grecque, d’une
+                    part, ce passé que l’on s’applique à reconstituer au moyen des sources anciennes
+                    et par l’étude duquel on espère parvenir à une compréhension renouvelée des
+                    événements et des enjeux contemporains ;<lb/>– l’histoire allemande des <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi>-<hi rend="small-caps">xx</hi>
+          <hi rend="sup">e</hi> siècles, d’autre part, ce présent marqué,
+                    entre autres, par les débats autour de la formation de l’État-nation,
+                    l’évolution de la place de la culture classique dans l’éducation et la société,
+                    l’accès progressif de l’Allemagne à une certaine modernité, un présent à la
+                    lumière duquel les hellénistes, dans un va-et-vient permanent entre la Grèce et
+                    l’Allemagne, réinterprètent et « actualisent » le passé grec ;<lb/>– l’histoire
+                    de l’érudition classique, enfin, rythmée par les découvertes et les progrès
+                    scientifiques, le renouvellement des méthodes, des paradigmes et des
+                    problématiques, une histoire ancrée à la fois dans le quotidien et l’actualité
+                    de la recherche, mais aussi dans le temps, plus long, des filiations
+                    intellectuelles et des traditions savantes.</p>
+                <p xml:id="d1e505">Placée à la croisée de ces trois niveaux d’analyse, l’enquête
+                    ambitionne de montrer comment l’<hi rend="italic">Altertumswissenschaft,
+                    </hi>conçue comme relais privilégié du dialogue entre le passé grec et le
+                    présent de l’Allemagne, n’a cessé de façonner et de réinventer le <hi rend="italic">Griechenmythos. </hi>Le parcours que nous avons esquissé,
+                    construit autour de trois moments principaux, nous a mené de l’époque
+                    napoléonienne à la fin du III<hi rend="sup">e</hi> Reich. La première séquence
+                    de notre étude, consacrée à la période néo-humaniste, est placée sous le signe
+                    de la rencontre entre le <hi rend="italic">Griechenmythos </hi>et<hi rend="italic"> </hi>l’<hi rend="italic">Altertumswissenschaft. </hi>C’est en
+                    effet sous l’égide du <hi rend="italic">Griechenglaube </hi>que s’élabore, dans
+                    les dernières décennies du <hi rend="small-caps">xviii</hi>
+          <hi rend="sup">e</hi> siècle, le projet de la science de l’Antiquité. Durant cette période,
+                    une véritable synergie – la collaboration entre Wilhelm von Humboldt, inventeur
+                    du discours sur la « ressemblance<note type="standard" xml:id="ftn48" place="foot" n="48">
+            <p> Le motif de la « ressemblance » <hi rend="italic">(Ähnlichkeit) </hi>entre Grecs et Allemands apparaît pour la
+                            première fois dans une lettre de W. von Humboldt à F. Schiller, datée du
+                            22 septembre 1795 <hi rend="italic">(Schillers Werke. </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Nationalausgabe, </hi>
+              </hi>
+              <hi xml:lang="en">G. S</hi>
+              <hi rend="small-caps">
+                <hi xml:lang="en">chulz</hi>
+              </hi>
+              <hi xml:lang="en"> (Hg.), Weimar, Hermann
+                                Böhlaus Nachfolger, 1964, </hi>XXXV, <hi xml:lang="en">p. 349).</hi>
+            </p>
+          </note> » entre la Grèce et l’Allemagne, et Friedrich
+                    August Wolf, héros fondateur de la nouvelle discipline en témoigne – s’opère
+                    entre les croyances portées par le mythe grec et le programme élaboré par les
+                    hellénistes de métier. Les savoirs produits dans le champ des études grecques, à
+                    cette époque, transformaient la Grèce idéale de Winckelmann et de la <hi rend="italic">Goethezeit, </hi>jusqu’alors objet de passion et de phantasme,
+                    en objet de science. Dans le même temps, l’effort patient d’exégèse systématique
+                    des sources anciennes, les premiers succès de cette vaste entreprise de
+                    résurrection intégrale de la vie grecque semblaient confirmer l’intuition
+                    formulée par Humboldt : seuls les Allemands, unis aux Grecs par une manière de
+                    parenté spirituelle idéale, étaient en mesure de saisir fidèlement 1’« esprit »
+                    de l’Hellade. Aux spécialistes de l’Antiquité hellénique, en retour, le <hi rend="italic">Griechenglaube </hi>assignait la plus noble des missions :
+                    maîtres du passé grec, c’est à eux qu’il appartenait de révéler à l’Allemagne,
+                    éternelle <hi rend="italic">verspätete Nation, </hi>l’essence du <hi rend="italic">Griechentum, </hi>modèle par excellence d’une nation déjà
+                    « accomplie ». Avec l’espérance que l’Allemagne, au terme de cette anamnèse du
+                    passé hellénique, miroir de ses ambitions, pût accomplir, précisément, sa
+                    destinée de nouvelle Hellade. C’est à partir de cette grille de lecture, par
+                    exemple, que nous avons examiné le dossier de la réception de Démosthène à
+                    l’époque des guerres napoléoniennes (dans les travaux de B.G. Niebuhr, F. Jacobs
+                    et W. von Humboldt), quand l’Allemagne, au sortir de la défaite d’Iéna, semblait
+                    connaître un sort similaire à celui des cités grecques après Chéronée.</p>
+                <p xml:id="d1e570">La deuxième séquence, centrée sur la période 1815-1890, est pour
+                    le mythe grec celle des remises en cause et des mutations. Au sortir de la
+                    période néo-humaniste, la convergence initialement réalisée entre le <hi rend="italic">Griechenmythos, </hi>le programme scientifique et éducatif des
+                    spécialistes de l’Antiquité et le projet identitaire de la jeune nation
+                    allemande devint plus problématique. Le mythe grec, tout d’abord, fondé naguère
+                    sur l’identification de l’Allemagne à la <hi rend="italic">Kulturnation
+                    </hi>grecque, s’avérait difficilement compatible avec les exigences nouvelles du
+                    mouvement national. Réinterprétée à l’aune du débat contemporain sur l’unité,
+                    porté sur le devant de la vie politique allemande à l’issue du Congrès de
+                    Vienne, l’histoire de la Grèce à l’époque classique tendait à devenir, dans la
+                    reconfiguration historiographique dont Droysen peut être considéré comme
+                    l’initiateur, l’histoire d’une faillite, celle d’Athènes et des cités grecques,
+                    incapables de réaliser leur unité dans le cadre de structures politiques
+                    communes. Pour la nouvelle génération de savants, la Grèce apparaissait
+                    désormais comme l’exemple d’une « nation qui a échoué<note type="standard" xml:id="ftn49" place="foot" n="49">
+            <p> Sur la genèse et le succès de ce
+                            motif historiographique dans l’érudition allemande, de J.G. Droysen à
+                            K.J. Beloch : P. F<hi rend="small-caps">unke</hi>, « Das antike
+                            Griechenland : eine gescheiterte Nation ? Zur Rezeption und Deutung der
+                            antiken griechischen Geschichte in der deutschen Historiographie des 19.
+                            Jahrhunderts », <hi rend="italic">Storia della storiografia </hi>33
+                            (1998), p. 17-32.</p>
+          </note> » <hi rend="italic">(gescheiterte Nation).
+                    </hi>Mais si la construction d’un <hi rend="italic">Nationalstaat </hi>allemand
+                    ne pouvait que malaisément s’adosser au modèle grec, celui-ci parvint à
+                    conserver, pour l’Allemagne en quête d’unité et celle d’après 1871, une forme
+                    d’actualité. L’échec des cités grecques sur le plan politique n’enlevait rien,
+                    en effet, à la cohésion culturelle de la « nation » grecque. Dans la seconde
+                    moitié du <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi> siècle, on
+                    s’applique ainsi, dans les rangs des hellénistes allemands, à mobiliser le passé
+                    grec au profit de la notion d’unité nationale. Ce n’est qu’au prix de ce
+                    changement de perspective – qu’illustre notamment, à cette époque, le projet des
+                    fouilles d’Olympie porté par Ernst Curtius – que la référence grecque a pu
+                    servir l’effort pour la construction de l’unité non pas « extérieure », mais
+                    « intérieure » <hi rend="italic">(innere Staatsbildung) </hi>du nouveau Reich
+                    allemand.</p>
+                <p xml:id="d1e604">Fragilisé par les exigences du mouvement national, le <hi rend="italic">Griechenmythos </hi>est aussi, dès les années 1820, peu à peu
+                    remis en cause par les progrès réalisés dans le champ même des études grecques.
+                    À mesure que la science allemande, mue par l’ambition de reconstituer
+                    l’Antiquité hellénique dans sa totalité idéale, certes, mais aussi dans toute sa
+                    « réalité », concrétisait son projet initial, alors que les spécialistes, au gré
+                    des découvertes documentaires et du renouvellement des approches, dévoilaient de
+                    nouveaux aspects, même les plus prosaïques et les plus concrets, du passé grec,
+                    la Grèce du néo-humanisme perdit un peu de son charme originel et de son aura
+                    « mythique ». De Boeckh à Wilamowitz, ce processus de « désenchantement<note type="standard" xml:id="ftn50" place="foot" n="50">
+            <p> C’est à H. B<hi rend="small-caps">ruhns</hi> (« Grecs, Romains et Germains au <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle : quelle
+                            Antiquité pour l’État national allemand ? », <hi rend="italic">Anabases
+                            </hi>1 (2005), p. 17-43, p. 26) que nous empruntons l’idée,
+                            d’inspiration weberienne, d’un « désenchantement » <hi rend="italic">(Entzauberung) </hi>du passé grec sous l’effet de la
+                            rationalisation scientifique.</p>
+          </note> » du monde grec sous l’effet de
+                    la science s’affirme avec toujours plus de force. À l’heure de la science « à
+                    grande échelle<note type="standard" xml:id="ftn51" place="foot" n="51">
+            <p> La
+                            formule est due à T. M<hi rend="small-caps">ommsen</hi>, « Antwort an
+                            Harnack, 3. <hi xml:lang="en">Juli 1890 », in </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Reden und Vorträge, </hi>
+              </hi>
+              <hi xml:lang="en">Berlin, Weidmann, 1905, p. 209.</hi>
+            </p>
+          </note> » <hi rend="italic">(Großwissenschaft) </hi>et de l’historisme triomphant, les hellénistes de
+                    l’époque wilhelmienne, soucieux d’épouser les aspirations d’une Allemagne
+                    résolument tournée vers la modernité, avaient comme renoncé à une certaine idée
+                    de la Grèce.</p>
+                <p xml:id="d1e646">De ces prétentions nouvelles, toutefois – c’est l’objet de la
+                    troisième partie de notre travail, dédiée aux tentatives de rénovation du mythe
+                    grec allemand, depuis l’époque wilhelmienne jusqu’à la fin du III<hi rend="sup">e</hi> Reich –, le <hi rend="italic">Griechenmythos </hi>parvint à
+                    s’accommoder. L<hi rend="italic">’Altertumswissenschaft, </hi>au gré de son
+                    développement, avait peut-être façonné une autre Grèce, plus conforme aux
+                    exigences de la science moderne, mais elle n’avait pas renoncé au <hi rend="italic">Glaube </hi>qui avait présidé à la formation de son projet. Si
+                    l’Allemagne, pour la majorité des hellénistes d’alors, ne pouvait plus regarder
+                    l’Hellade comme un « modèle » à imiter, comme un « idéal » dont elle devait
+                    s’inspirer, elle avait toujours besoin des potentialités formatrices contenues
+                    dans l’expérience historique de l’« hellénité » <hi rend="italic">(Hellenentum),
+                    </hi>pour reprendre un concept forgé par Wilamowitz à l’heure des réformes
+                    scolaires. Dans cette quête d’une nouvelle relation à l’Hellade, un nouveau
+                    discours se fait jour à la fin du <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi> siècle : parce que l’Allemagne, depuis l’époque néo-humaniste,
+                    s’était voulue <hi rend="italic">grecque </hi>par-dessus tout, parce qu’elle
+                    n’avait cessé, depuis lors, de puiser à la « source » <hi rend="italic">(Quelle)
+                    </hi>revigorante et libératrice de l’hellénisme, elle ne pouvait abandonner le
+                        <hi rend="italic">Griechenglaube </hi>sans renoncer, dans le même temps, à
+                    une tradition au miroir de laquelle elle pouvait espérer ressaisir sa
+                    singularité. Ainsi s’esquissait, dans le travail réflexif opéré par la science
+                    allemande à cette époque, l’idée d’un <hi rend="italic">Sonderweg, </hi>d’une
+                    « voie particulière » de l’Allemagne dans sa relation à l’Antiquité, fondée sur
+                    l’accès direct au pouvoir magnétique de l’hellénisme, expression d’un besoin
+                    vital de Grèce dont elle ne pouvait se défaire. Telle est la forme, par exemple,
+                    que revêt le <hi rend="italic">Griechenmythos </hi>dans l’œuvre de Wilamowitz.
+                    Tel est aussi, d’une certaine manière, l’aspect qu’il acquiert dans le Troisième
+                    humanisme de Werner Jaeger, quand la « source » grecque, au temps des épreuves
+                    de l’entre-deux-guerres, devenait la condition du salut de l’Allemagne. C’est à
+                    partir de cette tradition, enfin, qu’ils détournèrent au profit de l’idéologie
+                    du III<hi rend="sup">e</hi> Reich, que les savants de l’époque
+                    nationale-socialiste firent de l’homme grec le passé et le destin de la race
+                    nordique-germanique, précipitant dans le même temps la disparition du <hi rend="italic">Griechenmythos </hi>au lendemain de la « catastrophe »
+                    allemande.</p>
+            </div>
+            <div type="div1" xml:id="d1e691">
+                <head subtype="level1" xml:id="d1e692">La science allemande a-t-elle cru à son <hi rend="italic">Griechenmythos ?</hi> Essai de bilan</head>
+                <p xml:id="d1e697">Par une remarquable plasticité, le <hi rend="italic">Griechenmythos </hi>a su, au gré de ses métamorphoses, traverser les
+                    époques, accompagner les transformations de la société contemporaine, se faire
+                    le support des manques et des aspirations de la nation allemande. Qu’a-t-il
+                    cependant représenté, pendant près d’un siècle et demi, pour la science
+                    allemande elle-même ? Notre enquête est orientée par l’hypothèse que
+                    l’imaginaire – nous aurions pu parler, également, de « croyance » ou
+                    d’« idéologie » – peut être appréhendé non comme un résidu pré-scientifique ou
+                    un ornement du discours savant, mais comme un élément constitutif de
+                    l’élaboration des savoirs. Le mythe, en effet, dans le cas qui nous occupe –
+                    nous retrouvons là, au fond, l’analyse de M. Detienne sur 1’« invention » du
+                    mythe et celle de P. Veyne sur la pluralité des registres de croyance<note type="standard" xml:id="ftn52" place="foot" n="52">
+            <p> M. D<hi rend="small-caps">etienne</hi>, <hi rend="italic">L’invention de la
+                                mythologie, </hi>Paris, Gallimard, 1981 ; P. V<hi rend="small-caps">eyne</hi>, <hi rend="italic">Les Grecs ont-ils cru à leur mythe ?,
+                            </hi>Paris, Seuil, 1983.</p>
+          </note>–, n’est pas du côté de
+                    1’« illusion » ou de la « falsification », de 1’« erreur » ou de
+                    1’« ignorance » ; il apparaît au contraire, au terme de l’analyse, comme à la
+                    fois la condition de possibilité et le réceptacle du <hi rend="italic">logos
+                    </hi>et de la <hi rend="italic">praxis </hi>scientifiques. L’historien du <hi rend="italic">Griechenglaube, </hi>de ce point de vue, est frappé par la
+                    circularité de la relation qui unit, ici, fabrique du mythe et production de la
+                    connaissance. C’est en étudiant la Grèce, en faisant du passé grec l’objet d’une
+                    science ancrée dans les méthodes les plus rigoureuses que les hellénistes,
+                    outre-Rhin, ont pu espérer réaliser la promesse inscrite au principe du mythe
+                    grec, à savoir faire de l’Allemagne une nouvelle Hellade. Dans le même temps,
+                    l’affinité avec les Grecs garantit le succès de l’entreprise de reconstitution
+                    du passé grec et la supériorité du projet de l’<hi rend="italic">Altertumswissenschaft</hi> : si les Allemands sont les Grecs de l’époque
+                    moderne, alors ils peuvent légitimement prétendre à une connaissance plus
+                    « authentique » et plus « profonde », presque intuitive, de l’Antiquité
+                    hellénique.</p>
+                <p xml:id="d1e732">Dans cet entrelacement du <hi rend="italic">muthos </hi>et du <hi rend="italic">logos, </hi>le motif de la <hi rend="italic">Verwandtschaft
+                    </hi>entre Grecs et Allemands est investi d’une pluralité de significations et
+                    de rôles<note type="standard" xml:id="ftn53" place="foot" n="53">
+            <p> Notre
+                            analyse s’inspire ici des pages lumineuses que P. R<hi rend="small-caps">icœur</hi> consacre au problème des rapports entre « science »,
+                            « idéologie » et « imaginaire » : « Science et idéologie » [1974] et
+                            « Idéologie et utopie : deux expressions de l’imaginaire social »
+                            [1983], in <hi rend="italic">Du texte à l’action. Essais d’herméneutique
+                                II, </hi>Paris, Seuil, 1986, p. 335-366 et p. 417-431.</p>
+          </note>.
+                    Il apparaît tout d’abord, à l’intérieur du projet de l’<hi rend="italic">Altertumswissenschaft, </hi>comme une instance de <hi rend="italic">légitimation :</hi> par lui s’expliquent sans doute – c’est l’une des
+                    hypothèses que nous avons formulées à l’issue de notre travail – une partie de
+                    l’aura qui entoure la science allemande au <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi> siècle et la fascination qu’elle a longtemps exercée sur
+                    l’érudition européenne. Le <hi rend="italic">Griechenmythos, </hi>si l’on se
+                    place maintenant au niveau des hellénistes allemands eux-mêmes, remplit
+                    également, si l’on peut dire, une fonction <hi rend="italic">mobilisatrice.
+                    </hi>Il est peut-être cette intuition qui transforme le projet scientifique en
+                    une véritable mission – permettre à l’Allemagne d’embrasser son destin de
+                    nouvelle Grèce –, dans laquelle les spécialistes trouvent le sens idéal de leur
+                    entreprise en même temps que l’élan, l’impulsion nécessaire à son
+                    accomplissement. Enfin, le <hi rend="italic">Griechenglaube </hi>acquiert
+                    probablement, dans le champ des études grecques, une valeur que l’on pourrait
+                    qualifier d’<hi rend="italic">intégrative. </hi>Il se présente comme cette
+                    croyance qui manifeste l’attachement à un groupe, à une communauté, à une
+                    tradition ; il est ce récit – récit de la rencontre, sans cesse réactualisée et
+                    toujours à venir, entre la Grèce et l’Allemagne – à partir duquel les
+                    spécialistes définissent leur vocation, mettent en scène la force de leur projet
+                    collectif et construisent, peut-être, une part de leur identité.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

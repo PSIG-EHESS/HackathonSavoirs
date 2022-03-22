@@ -1,0 +1,792 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Le roman historique est-il archéocompatible<note type="standard" xml:id="ftn1" place="foot" n="1">
+            <p> Ce texte est la version
+                            abrégée d’une conférence faite le 18 octobre 2014, au Musée
+                            archéologique de Nîmes, dans le cadre d’un cycle sur
+                        l’Archéologie.</p>
+          </note> ?</title>
+                <author>
+                    <persName>
+                        <forename>Claude</forename>
+                        <surname>Aziza</surname>
+                    </persName>
+                    <affiliation> &#xD; Université de la Sorbonne Nouvelle, Paris III<lb/>
+            <hi rend="author-email">claude.aziza@laposte.net</hi>
+                    </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+                        Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>« Savoirs » est une plateforme de publication numérique vouée à l’histoire et à
+                    l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS
+                    (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une
+                    archive d’articles ou une collection de livres, il s’agit d’une bibliothèque
+                    « intelligente » et expérimentale qui propose des parcours de lecture
+                    heuristiques et réflexifs entre les textes, grâce à différents algorithmes de
+                    recherche et de suggestions reposant notamment sur un balisage des lieux, des
+                    dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs
+                        (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel
+                        XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données
+                        géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour
+                        l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références
+                        Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes
+                        pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>Rome</item>
+                        <item>Carthage</item>
+                        <item>archéologie</item>
+                        <item>Pompéi</item>
+                        <item>Égypte</item>
+                        <item>égyptologie</item>
+                        <item>roman historique</item>
+                        <item>Jérusalem</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>Rome</item>
+                        <item>Carthage</item>
+                        <item>Egypt</item>
+                        <item>historical novel</item>
+                        <item>Egyptology</item>
+                        <item>Archaeology</item>
+                        <item>Pompeii</item>
+                        <item>Jerusalem</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart level="a" type="main"> Le roman historique est-il
+                            archéocompatible<note type="standard" xml:id="ftn1" place="foot" n="1">
+              <p> Ce texte est la version abrégée d’une conférence faite le
+                                18 octobre 2014, au Musée archéologique de Nîmes, dans le cadre d’un
+                                cycle sur l’Archéologie.</p>
+            </note> ? </titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Claude Aziza</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e232">
+                <p xml:id="d1e233">Le roman historique et l’archéologie sont nés pour ainsi dire en
+                    même temps. Chacun d’eux plonge ses racines dans l’Histoire mais le premier fait
+                    partie des Belles Lettres alors que la seconde entre dans le champ des sciences
+                    humaines. Pourtant, tout au long du <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi> siècle, se tissent d’invisibles liens entre les découvertes
+                    archéologiques et les productions fictionnelles à sujet antique. L’Égypte, la
+                    Grèce, Rome, l’Afrique inspirent les romanciers qui marchent sur les pas des
+                    archéologues. Thèbes, Pompéi, Rome, Carthage, Jérusalem, autant de noms qui
+                    suscitent un imaginaire dont la poésie masque l’érudition.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e240">
+                <p xml:id="d1e241">
+                    <hi xml:lang="en">Historical novel and archaeology are not, so to speak, born
+                        together. Each one is rooted in History but the first one is part of Belles
+                        Lettres, while the second one of Human Sciences. Nonetheless, all along the
+                        19</hi>
+                    <hi rend="sup">
+                        <hi xml:lang="en">th</hi>
+                    </hi>
+                    <hi xml:lang="en"> century, invisible links have been created between
+                        archaeological discoveries and fictions about Antiquity. Egypt, Greece,
+                        Rome, Africa inspired novelists, who walked on the footprints of
+                        archaeologists. Thebes, Pompeii, Rome, Carthage, Jerusalem, so many names
+                        that evoke an imaginary where the poetic masks the erudite. </hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <p xml:id="d1e253">On voudra bien pardonner ici un terme volontairement ludique pour un
+                sujet qui risque de l’être moins, à savoir examiner les liens entre la toute jeune
+                archéologie et ce nouveau genre littéraire qu’est le roman, qu’il soit historique ou
+                autre. Tous deux sont nés à la fin du <hi rend="small-caps">xviii</hi>
+        <hi rend="sup">e</hi> siècle, ont prospéré tout au long du siècle suivant, ont fait les beaux
+                jours du <hi rend="small-caps">xx</hi>
+        <hi rend="sup">e</hi> et se portent à
+                merveille aujourd’hui. Ce type de roman a-t-il une dette envers cette jeune
+                science  ? Les chantiers de fouilles ont-ils inspiré des romans historiques  ?
+                Tentative de réponse en six romans et autant de nouvelles.</p>
+            <div type="div1" xml:id="d1e265">
+                <head subtype="level1" xml:id="d1e266">
+          <hi rend="italic">Les Derniers Jours de
+                        Pompéi </hi>ou l’Antiquité ressuscitée (1834)</head>
+                <p xml:id="d1e270">Peu de temps avant <hi rend="italic">Les Martyrs</hi> (1809), en
+                    1804, Chateaubriand, secrétaire d’ambassade à Rome depuis 1803, est allé voir
+                    Pompéi. Il en a retiré une impression, très en avance pour son temps  : «  Il
+                    faut laisser les choses, écrit-il dans son <hi rend="italic">Voyage en
+                        Italie</hi>, dans l’endroit où on les trouve. Ne serait-ce pas là le plus
+                    merveilleux musée de la terre  ? Une ville romaine conservée tout entière, comme
+                    si ses habitants venaient d’en sortir un quart d’heure auparavant  ?  » Un autre
+                    écrivain ira encore plus loin, E.G. Bulwer-Lytton (1803-1873).</p>
+                <p xml:id="d1e278">Car, en ce début de siècle, pour ressusciter la vie des siècles
+                    passés, il fallait à la fois se faire historien et «  antiquaire  », terme qui
+                    englobera au siècle suivant à la fois l’historien et l’archéologue des siècles
+                    passés. Walter Scott survint alors, qui commença à vouloir faire revivre cette
+                    Écosse, d’où il était originaire.<hi rend="italic"> </hi>Ses romans furent
+                    portés aux nues dans toute l’Europe. Mais, bien qu’elle ne touchât en rien à
+                    l’Antiquité, l’œuvre romanesque de Scott allait jeter les bases d’une nouvelle
+                    vision historique qui inspirera tout le siècle, mais, au premier chef, le plus
+                    grand des disciples du romancier, Edward George Bulwer-Lytton, l’immortel auteur
+                    des <hi rend="italic">Derniers Jours de Pompéi</hi>.</p>
+                <p xml:id="d1e286">Edward George Bulwer, qui deviendra plus tard (en 1866) baron
+                    Lytton de Knebworth, reste aujourd’hui, l’homme d’un seul roman mais en réalité
+                    ses œuvres dépassent la centaine. Poète couronné, auteur dramatique à succès,
+                    romancier doué, homme d’État, grand voyageur, il a été tout cela.</p>
+                <p xml:id="d1e288">Mais revenons à cet hiver 1832-1833 qui voit notre jeune
+                    romancier, marié depuis peu, partir en Campanie avec une épouse pour laquelle il
+                    n’éprouve pas une grande passion. Laquelle goûte peu aux charmes d’une région
+                    alors insalubre et préfère les agréments napolitains aux rêveries sur les cités
+                    disparues. Va-t-elle peu ou prou rendre jaloux son tiède époux  ? Va-t-il
+                    retrouver au pied du Vésuve, alors éteint, le souvenir d’un amour de jeunesse
+                    déçu  ? Peu importe. Le cœur a ses raisons qui nourrissent la création
+                    littéraire  : c’est l’essentiel. Il faut imaginer notre jeune écrivain
+                    romantique errant, seul, le cœur en écharpe, dans une cité alors ouverte à tous,
+                    devenue, depuis un petit demi-siècle, le lieu de passage obligé de toute
+                    l’Europe. Le Vésuve prend part à la fête  : il gronde en 1794, perd encore deux
+                    cent mètres de haut mais se rattrape en dévorant Torre Del Greco  ; il s’épanche
+                    encore en 1822. </p>
+                <p xml:id="d1e290">Mais rien n’y fait  : écrivains et princes affluent  : Goethe,
+                    puis Walter Scott, en compagnie de William Gell, auteur d’ouvrages savants sur
+                    Pompéi, à qui Bulwer-Lytton – qui fut son hôte à Naples – dédicacera son roman
+                    en lui témoignant toute son admiration. C’est sans doute par lui qu’il connut
+                    les réactions de Scott visitant Pompéi  : «  La cité de la Mort  ! La cité de la
+                    Mort.  » On peut imaginer que cette réflexion lui a donné le désir de refaire de
+                    Pompéi une cité de la Vie. Il arrivait d’ailleurs au bon moment  ; les
+                    découvertes succédaient aux découvertes  : en 1810, des amulettes trouvées dans
+                    le temple d’Isis, un des hauts lieux du roman, en 1815, l’amphithéâtre est
+                    dégagé, en 1824, c’est le tour du temple de la Fortune Auguste et, un an plus
+                    tard, c’est la découverte d’une maison que l’on baptise «  Maison du poète
+                    tragique  ». Ce sera la demeure de Glaucos, le héros du roman. En 1831, encore,
+                    on découvre la superbe mosaïque d’«  Alexandre à Issus  ». </p>
+                <p xml:id="d1e292">Le secret du roman se trouve alors dans la préface  :
+                    «  Repeupler une fois encore ces rues désertes, restaurer ces ruines élégantes
+                    et réanimer des ossements encore cachés (au) regard, traversant un gouffre de
+                    dix-huit siècles et éveillant à une seconde existence la cité de la Mort  !  »
+                    Il s’agit non seulement de rivaliser avec le Maître mais, bien plus, de le
+                    surpasser. Mais la tâche est difficile, «  car, nous sommes sans lien domestique
+                    ou familier avec l’âge classique […]  ; et ces choses, liées à des souvenirs
+                    d’étude imposées comme besogne et non cultivées comme plaisir, nous furent
+                    rendues encore plus usées par les pédanteries scolastiques qui en premier lieu
+                    nous les firent connaître.  » </p>
+                <p xml:id="d1e294">
+          <hi rend="italic">Les Derniers Jours de Pompéi</hi> paraissent en
+                    1834, le romancier a choisi une fiction directement liée à l’histoire mais il a
+                    mis l’érudition à son service. Certes il sait se montrer latiniste, archéologue,
+                    historien, moraliste, philosophe. Mais il refuse la pédanterie, adopte un
+                    langage vivant, n’hésite pas devant les situations mélodramatiques et se veut
+                    poète romantique. Pompéi, sous les auspices de Scott et de Goethe, est redevenue
+                    une cité vivante que l’on peut visiter avec pour guide le roman de
+                    Bulwer-Lytton. Bien plus, au-delà d’un fatras romantique, un peu dépassé
+                    aujourd’hui, on y trouvera une mine de renseignements, dont certains donnent à
+                    voir des étapes aujourd’hui disparues de la résurrection de la cité. Avec les
+                    ans, le roman s’est fait à la fois guide archéologique, témoin d’un temps
+                    disparu, sans perdre sa force et son charme, fût-il parfois suranné.</p>
+                <p xml:id="d1e298">Avant Bulwer, il y avait eu, à Pompéi, Goethe, le 11 mars 1787
+                    que l’exiguïté de la cité surprend et qui regrette, lors de sa visite à
+                    Herculanum, le lendemain que «  les fouilles n’aient pas été faites
+                    méthodiquement par des mineurs allemands.  » Il est vrai que trois ans plus tôt,
+                    en 1784, Winckelmann comptait dans les quelque cinquante travailleurs attribués
+                    aux fouilles – et dont seuls huit étaient au travail lors de sa visite  ! –
+                    «  les esclaves d’Alger et de Tunis  »…</p>
+                <p xml:id="d1e300">Après Chateaubriand, ce seront Madame de Staël, en 1805,
+                    Lamartine, en 1811, Stendhal, en 1817. Après lui Nerval, en 1834, l’année même
+                    de la parution du roman, puis, de retour d’Orient en 1843. Pompéi lui inspire un
+                    curieux texte, <hi rend="italic">Le Temple d’Isis, souvenir de Pompéi</hi>, qui
+                    deviendra <hi rend="italic">Isis</hi> (1845), une nouvelle reprise ensuite dans
+                    le recueil, <hi rend="italic">Les Filles du feu</hi> (1854). Son ami Gautier,
+                    visite la cité en 1850. Cette visite lui inspirera, en 1852, une nouvelle, <hi rend="italic">Arria Marcella</hi>. Flaubert, le suivra d’une année  ; Taine
+                    viendra en 1864, Freud, enfin, en 1902.</p>
+                <p xml:id="d1e314">Reste Alexandre Dumas qui suit d’une année Bulwer-Lytton, lui
+                    aussi à la recherche d’une Antiquité plus vivante que celle de ses souvenirs
+                    d’études.</p>
+            </div>
+            <div type="div1" xml:id="d1e316">
+                <head subtype="level1" xml:id="d1e317">
+          <hi rend="italic">Acté</hi> ou l’Antiquité
+                    flamboyante (1839)</head>
+                <q rend="quotation">«  Quand je suis bien las, bien fatigué, bien abruti, je trouve
+                    un prétexte pour aller à Rome et j’y vais. Quand je ne trouve pas de prétexte,
+                    j’y vais encore.<lb/>– Mais que faites-vous à Rome  ? me demanderez-vous.<lb/>–
+                    Oh  ! ce que je fais à Rome, c’est bien facile à dire  : je vais voir la via
+                    Appia  ; je vais regarder couler le Tibre  ; je vais m’asseoir sous une arcade
+                    du Colisée, et je dis à part moi  : “Il faut pourtant que je fasse une histoire
+                    de Rome.”<lb/>– Pourquoi ne la faites-vous pas alors  ?<lb/>– Parce qu’elle
+                    serait trop amusante  ; personne ne la lirait.  »</q>
+                <p xml:id="d1e331">Aveu faussement naïf ou vraiment roublard  ? Lorsque Dumas écrit
+                    ces lignes, en 1860, il a depuis longtemps compris que pour séduire avec
+                    l’Histoire, la vraie, la grande, les lecteurs, il vaut mieux avoir le sens de
+                    l’épopée ou du drame que celui de la pédagogie. Le secret  ? Le romancier nous
+                    le livre dans la préface de <hi rend="italic">Caligula</hi> (1837), une tragédie
+                    en cinq actes et en vers  : faire revivre «  toute une époque inconnue, ou, qui
+                    pis est, mal connue  ; une époque que, arrivés à un certain âge, nous ne
+                    revoyons plus qu’à travers les souvenirs fastidieux du collège […]. Ajoutez à
+                    cela que l’Antiquité […] était tombée dans un si merveilleux discrédit, que
+                    l’ennui qu’elle traînait à sa suite était devenu proverbial […]. Je partis pour
+                    l’Italie, afin de voir Rome  ; car, ne pouvant étudier le cadavre, je voulais au
+                    moins visiter le tombeau. Je restais deux mois dans la ville aux sept collines,
+                    visitant le Vatican le jour, et la nuit le Colisée  ; mais après avoir tout
+                    rebâti dans ma pensée, depuis les prisons Mamertines jusqu’aux bains de Titus,
+                    je m’aperçus que je n’avais qu’une face du Janus antique  ; face grave et sévère
+                    […]. C’était Naples, la belle esclave grecque, qui devait m’offrir ce second
+                    visage, voilé, pour nos grands maîtres, sous la lave d’Herculanum et la cendre
+                    de Pompéi.  »</p>
+                <p xml:id="d1e336">Arrivé le 19 juin en Italie, Dumas part donc pour Naples le
+                    2 août, quasiment sur les traces de Bulwer-Lytton. Il y restera jusqu’au 23,
+                    après avoir longuement visité la ville, Pouzzoles, le Vésuve, Herculanum et
+                    Pompéi où il décide de séjourner, mais à sa façon  : «  Je descendis dans les
+                    souterrains de Résina, je m’établis dans la maison du Faune  ; pendant huit
+                    jours je vécus, m’éveillant et m’endormant dans une habitation romaine, touchant
+                    du doigt l’Antiquité.  » Faut-il le croire  ? Avec ce diable d’homme, tout est
+                    possible  !</p>
+                <p xml:id="d1e338">Cet amour pour Pompéi laissera chez Dumas une trace si profonde,
+                    cet émerveillement sera si durable, qu’en septembre 1860 – il vient de terminer
+                    son second roman sur Rome, les <hi rend="italic">Mémoires d’Horace –</hi> il
+                    demande à Garibaldi, le nouveau maître du royaume de Naples, en récompense de
+                    ses services – fourniture d’armes – … la direction des musées de Naples et des
+                    fouilles de Pompéi. Et il l’obtient. Pour peu de mois, il est vrai  : Fiorelli,
+                    l’inventeur des moulages, lui succédera en décembre.</p>
+                <p xml:id="d1e343">Comment est donc venu à Dumas le désir de parler de
+                    l’Antiquité  ? Sans doute pour les mêmes raisons que Bulwer-Lytton  : dans les
+                    deux cas, il s’agit d’une Antiquité qui a pris les couleurs romantiques  : un
+                    amour fou, auquel l’héroïne – tendre et touchante comme il se doit – succombe
+                    immédiatement. Elle y était prédestinée. Mais chez l’un, après avoir vaincu la
+                    folie des hommes et la rage de la nature, il triomphera. Alors que chez l’autre
+                    cet amour est sans espoir. Bien plus, il entraînera l’innocente Acté dans le
+                    péché au point qu’elle devra trouver dans la religion chrétienne – telle une
+                    nouvelle Marie-Madeleine – son salut par le rachat. Car chez nos deux
+                    romanciers, le christianisme n’est jamais bien loin. Parfois, comme chez le
+                    premier, en faisant fi de toute vérité historique.</p>
+                <p xml:id="d1e345">Mais la radicale nouveauté d’<hi rend="italic">Acté</hi> se
+                    trouve dans le portrait que le romancier a donné de Néron. La réputation
+                    sulfureuse de celui que les Pères de l’Eglise, avec une complaisance sans cesse
+                    renouvelée, ont nommé «  l’Antéchrist  », n’a jamais cessé de croître et
+                    d’embellir. Or Dumas, en l’absence de toute documentation scientifique sérieuse
+                    sur le personnage, en donne – comme beaucoup d’historiens contemporains – un
+                    portrait somme toute positif.</p>
+                <p xml:id="d1e350">Le roman est construit comme une tragédie en cinq actes  : les
+                    jeux de Corinthe, la cour de Néron, les catacombes, les noces impériales, la
+                    mort du tyran. Mais si Dumas ne résiste pas à décrire les jeux du cirque,
+                    bizarrement, il bâcle en quelques lignes, la tarte à la crème – si l’on ose dire
+                    – de tous les romans qui suivront  : l’incendie de Rome de 64. Le romancier
+                    refuse la description pour la description  : son héroïne n’est pas mêlée à
+                    l’incendie dont le complaisant tableau n’obéirait à aucune nécessité
+                    dramatique.</p>
+                <p xml:id="d1e352">Si, avec <hi rend="italic">Acté,</hi> la littérature française
+                    entrait, avec toute la pompe du triomphe romain, dans le roman à l’antique,
+                    l’influence de Chateaubriand restait trop grande pour qu’on puisse abandonner si
+                    vite l’Antiquité chrétienne. Il aura un successeur de talent en la personne du
+                    cardinal Wiseman, qui écrit en 1854 <hi rend="italic">Fabiola ou l’église des
+                        catacombes.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e360">
+                <head subtype="level1" xml:id="d1e361">
+          <hi rend="italic">Fabiola</hi> ou l’Antiquité
+                    chrétienne (1854)</head>
+                <p xml:id="d1e365">La vie et la carrière du romancier, né à Séville en 1802, la même
+                    année que Dumas et Hugo, ne manquent pas d’intérêt. Brillantes études
+                    classiques, docteur en théologie, linguiste confirmé, spécialiste de l’hébreu et
+                    du syriaque. Ordonné prêtre en 1825, professeur d’hébreu et de syro-chaldéen au
+                    collège où il avait fait ses études, il commence une belle carrière à la fois
+                    scientifique et littéraire. Évêque en 1840, vicaire apostolique de Rome en 1850,
+                    nommé cardinal la même année par le pape Pie IX.</p>
+                <p xml:id="d1e367">Après la publication d’<hi rend="italic">Essais</hi> en 1853,
+                    Wiseman songe à une façon agréable et efficace de raconter les débuts du
+                    christianisme. Il y travaillait par à-coups déjà. Profitant d’une maladie et
+                    d’un lent voyage à Rome, il compose <hi rend="italic">Fabiola</hi> dont le
+                    succès est immédiat. Il sera durable. À sa mort, en 1865, il aura droit à des
+                    funérailles nationales.</p>
+                <p xml:id="d1e375">Une lecture rapide du roman y verrait un ouvrage de patronage,
+                    relevé des structures littéraires nouvelles. Au mélodrame il emprunte son ton
+                    larmoyant, ses accents insupportable (du moins aujourd’hui), ses ressorts usés.
+                    Au feuilleton, ses coups de théâtre, ses reconnaissances subites, ses familles
+                    déchirées dont, ici, la fille est déjà «  chrétienne de cœur  », comme disait
+                    Tertullien en parlant de Pilate, tandis que le père est un Romain de la vieille
+                    espèce. Pourtant le roman puise aux meilleures sources de la recherche
+                    historique du siècle. Wiseman, antiquisant confirmé, est au fait de la toute
+                    nouvelle archéologie chrétienne, illustrée par Giovanni Battista de Rossi. Ainsi
+                        <hi rend="italic">Fabiola</hi> peut, à la limite, se présenter comme un
+                    manuel d’archéologie chrétienne à l’usage des jeunes lecteurs du <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi> siècle, des adultes du <hi rend="small-caps">xx</hi>
+          <hi rend="sup">e</hi> siècle et des savants du <hi rend="small-caps">xxi</hi>
+          <hi rend="sup">e</hi> siècle…</p>
+                <p xml:id="d1e395">Le hasard fait que paraît en cette même année 1854, cette somme
+                    monumentale qu’est l’<hi rend="italic">Histoire romaine </hi>de Theodor Mommsen
+                    (1817-1903). Quant aux résultats des recherches de Rossi, ils ont certes été
+                    publiés après le roman (en 1861, ses <hi rend="italic">Inscriptiones Christianae
+                        Urbis Romae</hi>, suivies par le <hi rend="italic">Dictionnaire des
+                        Antiquités chrétiennes </hi>de Martigny, en 1865) mais ses travaux ne sont
+                    pas restés inconnus de Wiseman qui les cite sans cesse dans ses notes. Enfin, il
+                    faudrait pouvoir démontrer – mais la chose est difficile – que le roman de
+                    Wiseman est aussi un jalon important dans l’histoire de l’Église au <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi> siècle. On ne peut que
+                    signaler quelques éléments qu’on voudrait signifiants. Il est clair que le
+                    public, déjà fasciné par les découvertes de l’archéologie païenne, notamment à
+                    Pompéi, a goûté aux charmes de celle chrétienne. Un exemple, entre cent, le plus
+                    spectaculaire peut-être  : c’est en 1854 – encore une coïncidence – que fut mise
+                    à jour la «  crypte des papes  », une chambre souterraine qui abrite les
+                    dépouilles de nombre de papes du <hi rend="small-caps">iii</hi>
+          <hi rend="sup">e</hi> siècle, la plupart morts en martyrs. Tout près se trouve le<hi rend="italic"> cubiculum</hi> qui abritait jusqu’au <hi rend="small-caps">x</hi>
+          <hi rend="sup">e</hi> siècle, la tombe de sainte Cécile, la Caecilia
+                    du roman.</p>
+                <p xml:id="d1e425">Tout comme pour Pompéi, le public sera fasciné par ces mondes
+                    souterrains au point de s’en faire une idée aussi romantique qu’inexacte. S’il
+                    fallait une clé pour expliquer le succès de <hi rend="italic">Fabiola</hi>
+                    (voire celui de ses épigones), nous la rechercherions volontiers dans le roman
+                    de Bulwer. Ici et là un monde enseveli que fait redécouvrir l’archéologie, un
+                    monde souterrain, une descente aux enfers, païens ou chrétien, peu importe. Une
+                    société paisible tournée vers l’amour – païen ou divin – qu’une catastrophe
+                    imminente, volcan ou persécution, menace de détruire. Quant au portrait que fait
+                    Wiseman des tyrans persécuteurs que sont Dioclétien et Galère, il emprunte des
+                    traits à celui – moins traditionnel – du héros du roman de Dumas.</p>
+                <p xml:id="d1e430">Mais, il est temps de revenir en France pour découvrir d’autres
+                    horizons antiques, du haut des pyramides ou dans les ruines de Carthage.
+                    Changement de décor  !</p>
+            </div>
+            <div type="div1" xml:id="d1e432">
+                <head subtype="level1" xml:id="d1e433">
+          <hi rend="italic">Le Roman de la momie</hi>
+                    ou l’Antiquité refuge (1857)</head>
+                <p xml:id="d1e437">Qui mieux que Baudelaire a pu comprendre Gautier (1811-1872) qui
+                    fut son maître et son modèle  ? «  Le goût du beau, écrit-il dans <hi rend="italic">L’Art romantique</hi>, est pour lui un <hi rend="italic">fatum</hi>. […] La muse de Théophile Gautier habite un monde plus éthéré.
+                    […] Elle aime ressusciter les villes défuntes, et faire redire aux morts
+                    rajeunis leurs passions interrompues. […] Mais ce qu’elle aime surtout, c’est,
+                    debout sur les rivages parfumés de la mer Intérieure, nous raconter avec sa
+                    parole d’or cette gloire qui fut la Grèce et cette grandeur qui fut Rome…  »</p>
+                <p xml:id="d1e445">Pour Gautier dont la sensibilité tient à la fois du peintre qu’il
+                    aurait voulu être et du poète qu’il refusa toujours d’éteindre en lui, malgré
+                    les vicissitudes d’une vie tout entière de labeur, pour Gautier, donc,
+                    l’Antiquité, plus que ce Moyen Âge – mythique – où se réfugièrent ses pairs,
+                    est, d’abord, un monde de grâces, de charmes et de beauté. Cette beauté sous
+                    toutes ses formes, les récits, roman et nouvelles, où Gautier évoque le monde
+                    antique permettent d’en saisir les multiples aspects.</p>
+                <p xml:id="d1e447">Qu’y a-t-il de commun, en effet, entre l’Égypte des pharaons du
+                        <hi rend="italic">Roman de la momie</hi> (1857) et l’Athènes de Périclès de
+                        <hi rend="italic">La Chaîne d’or ou l’amant partagé</hi> (1837)  ? Entre la
+                    mythique Lydie du <hi rend="italic">Roi Candaule </hi>(1844) et la troublante
+                    Pompéi d’<hi rend="italic">Arria Marcella</hi> (1852)  ? Entre la Cléopâtre
+                        d’<hi rend="italic">Une nuit de Cléopâtre</hi> (1838) et l’Omphale d’<hi rend="italic">Omphale, ou la tapisserie amoureuse</hi> (1834)  ? Peu de
+                    choses, sinon que toutes, peu ou prou, sont associées à des contrées fabuleuses
+                    où le rêve peut prendre son essor sans entraves et où l’imagination se donne
+                    libre cours dans une luxuriance de formes et de couleurs.</p>
+                <p xml:id="d1e468">Mais d’où vient l’amour de l’Égypte chez Gautier  ? S’il est lié
+                    aux découvertes archéologiques de son temps, on le fera remonter à cette année
+                    1817 où Belzoni découvre l’hypogée de Séti I<hi rend="sup">er</hi> qu’il
+                    reconstitue à Paris en 1823. À moins que ce ne soit l’exposition de la
+                    collection Passalacqua à la galerie Vivienne, à Paris, cette même année 1826 qui
+                    voit la création, le 16 mai, au Louvre d’une salle (ouverte au public le
+                    6 janvier 1828) consacrée aux monuments égyptiens dont Champollion est le
+                    conservateur. Ce même Champollion, de retour en 1829, d’un voyage en Égypte avec
+                    un cadeau… pharaonique  : l’obélisque de Louxor et qui prononce sa leçon
+                    inaugurale d’Égyptologie le 10 mai 1831 au Collège de France, avant de mourir le
+                    4 mars 1832, laissant des <hi rend="italic">Lettres écrites d’Égypte et de Nubie
+                        en 1828 et 1829</hi>, publiées en 1833 et où l’on trouve le nom de l’héroïne
+                    du roman de Gautier, Tahoser, mais orthographié ici Thaoser.</p>
+                <p xml:id="d1e476">À moins qu’il ne faille chercher du côté des «  orientalistes  »,
+                    surtout chez Prosper Marilhat qui expose au salon de 1834 une vue du Caire  :
+                        <hi rend="italic">Place de l’Esbekieh</hi>. Dont Gautier dira dans un
+                    article du 9 mars 1836, repris dans la <hi rend="italic">Revue des Deux
+                        Mondes</hi> le 1<hi rend="sup">er</hi> juillet 1848  : «  Aucun tableau ne
+                    fit sur moi une impression plus profonde et plus longtemps vibrante […]. Je crus
+                    que je venais de reconnaître ma véritable patrie.  » Ou du côté de la musique
+                    avec l’opéra de Rossini, <hi rend="italic">Moïse ou le passage de la mer
+                        Rouge</hi> que l’opéra de Paris reprend en 1852.</p>
+                <p xml:id="d1e490">Mais dans l’œuvre de l’écrivain tout commence en 1840 par un pied
+                    charmant qui trouble et qui fascine celui qui le contemple. À lui en faire
+                    perdre la raison. C’est un pied de femme, bien sûr, bien conservé des outrages
+                    du temps qu’il a traversé, derrière le rempart de ses bandelettes, pour vanter
+                    les charmes vénéneux du passé et flatter les fantasmes… de son créateur. On
+                    l’aura deviné, c’est un pied de momie et Théophile Gautier, l’auteur de la
+                    nouvelle homonyme (parue en septembre 1840 dans <hi rend="italic">Le Musée des
+                        familles</hi>), fait partie de ces hommes du <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi> siècle pour qui la femme est d’autant plus
+                    objet de désir qu’elle se présente sous la forme de morceaux choisis  ! Entre le
+                    pied et la momie tout entière dix-sept ans. Marqués par l’exposition de «  la
+                    chambre des Rois  » de Karnak à la Bibliothèque nationale en 1844 et par les
+                    «  Nostalgies d’obélisques  » de Gautier, publiées dans <hi rend="italic">la
+                        Presse</hi> du 4 août 1851. Surtout peut-être, par la publication, en 1856,
+                    de l’<hi rend="italic">Histoire des usages funèbres et des sépultures des</hi>
+                    <hi rend="italic">peuples anciens</hi> d’Ernest Feydeau dont l’écrivain fera un
+                    compte rendu nourri le 31 octobre 1856 dans <hi rend="italic">Le Moniteur
+                        universel</hi>.</p>
+                <p xml:id="d1e513">On y est ou presque  : du 11 mars au 6 mai 1857 <hi rend="italic">Le Roman de la momie</hi> paraît dans <hi rend="italic">Le Moniteur
+                        universel</hi>, puis en librairie en avril de l’année suivante.
+                    L’Égyptomanie avait enfin son drapeau littéraire  ! Deux ans avant le début des
+                    travaux de creusement du futur canal de Suez. Là, se mêlent harmonieusement
+                    thèmes bibliques, l’Exode et la traversée de la mer Rouge, égyptomaniaques, la
+                    recherche archéologique, fantastiques, un amour qui traverse le temps et…
+                    oniriques, la recherche – presque platonicienne – de l’objet du désir qui
+                    permettra au Moi divisé de retrouver son unité. Roman de l’amour impossible,
+                    celui que l’on retrouvera dans toutes les nouvelles de Gautier. </p>
+                <p xml:id="d1e521">Mais le retour à la réalité réservera bien des déceptions au
+                    poète quand il sera confronté en juin 1867, lors de l’Exposition universelle, au
+                    démaillotage, si à la mode à l’époque, d’une momie, Nes-Khons, qui n’a que de
+                    lointains rapports avec la charmante Tahoser. Mais surtout, deux ans plus tard,
+                    lorsqu’il part, enfin, en Égypte pour l’inauguration du canal de Suez et que,
+                    victime d’une chute sur le bateau, il ne peut jouir pleinement de ce moment tant
+                    attendu. Une seule et maigre consolation  : il sera logé à l’hôtel Sheppeard…
+                    place de l’Esbekieh. «  On nous logeait dans notre rêve<hi rend="italic">  »</hi>, s’écrie-t-il, avec le ravissement d’un désir enfin réalisé et la
+                    mélancolie qui en suit nécessairement sa satisfaction. Car Gautier restera toute
+                    sa vie un «  animal triste post scriptum  ». Merci Lucrèce…</p>
+                <p xml:id="d1e526">Domaine du beau, refuge de l’idéal, l’Antiquité c’est aussi le
+                    territoire de «  la rétrospective évocatrice  », pour reprendre les termes de
+                    Georges Poulet dans ses <hi rend="italic">Études sur le temps humain
+                    </hi>(1949). «  C’est une espèce d’évocation magique du passé, où ce que les
+                    yeux ont vu et ne reverront plus, se relève un moment de sa tombe d’oubli, et
+                    apparaît avec les couleurs d’une vie fantasmatique.  » L’art peut donc par une
+                    sorte d’effet, que Gautier lui-même nomme «  galvanisme  » – un terme à la mode
+                    –, ressusciter les morts, si bien qu’on finit par s’intéresser aux fantômes
+                    qu’évoque la magie du poète, qu’on les prend pour les individualités historiques
+                    dont il a voulu remuer les cendres.</p>
+                <p xml:id="d1e531">Ces cendres ne sont-elles point précisément celles qui
+                    recouvrirent, en 79 de notre ère, la ville de Pompéi et qui enchâssèrent dans un
+                    sarcophage de boue durcie Arria Marcella  ? Que le regard d’Octavien, le héros
+                    de la nouvelle de Gautier, délivrera de sa prison, tout comme celui de lord
+                    Evandale fera revivre la momie Tahoser. Ainsi l’imagination recrée un monde
+                    antique qui éveille le désir et transporte l’esprit hors du temps. C’est ce que
+                    va, à son tour, tenter Flaubert.</p>
+            </div>
+            <div type="div1" xml:id="d1e533">
+                <head subtype="level1" xml:id="d1e534">
+          <hi rend="italic">Salammbô</hi>
+          <hi rend="italic"> </hi>ou l’Antiquité évasion (1862)</head>
+                <p xml:id="d1e540">«  Peu de gens devineront combien il a fallu être triste pour
+                    entreprendre de ressusciter Carthage  ! C’est là une Thébaïde où le dégoût de la
+                    vie moderne m’a poussé.  » C’est ainsi que Gustave Flaubert (1821-1880) annonce,
+                    le 29 novembre 1859, son projet à Ernest Feydeau, le même qui inspira – on l’a
+                    vu – Gautier. En fait, il remonte bien plus loin, à cette année 1850, où il
+                    voyage en Égypte, avec son ami Du Camp. Un «  conte égyptien (lui) trotte dans
+                    la tête  »  : <hi rend="italic">Anubis </hi>ou l’histoire d’un amour impossible.
+                    La rédaction de <hi rend="italic">Madame Bovary</hi> va l’épuiser  : «  Cette
+                    cohabitation morale avec des bourgeois me tourne sur le cœur et m’épuise. Je
+                    sens le besoin de vivre dans des milieux plus propres […]. Il est temps que je
+                    m’amuse […] C’est pourquoi je me perds, tant que je peux, dans l’Antiquité.  »
+                    Annoncé depuis 1857, maintes fois retardé après son voyage à Carthage en 1858,
+                    le roman est repris de fond en comble à partir de juillet 1858.</p>
+                <p xml:id="d1e548">Primitivement, il devait s’appeler <hi rend="italic">Les
+                        Mercenaires, </hi>puis il se<hi rend="italic"> </hi>transforme en<hi rend="italic"> Salammbô, roman carthaginois</hi>, enfin il s’intitule <hi rend="italic">Salammbô.</hi> Le nom même de l’héroïne a considérablement
+                    varié  : Pyra, Pyrrha, Hanna, Salambô (avec un seul M). Avant d’aboutir au titre
+                    final dont le sens, voulu par l’écrivain par l’ajout d’un second M (qui oblige à
+                    prononcer <hi rend="small-caps">salamm</hi>), renvoie à la fois à Emma Bovary –
+                    ce que comprendra fort bien Sainte-Beuve dans sa critique du roman – et à la
+                    formule orientale Salamm qui est une sorte de salut. C’est donc une façon de
+                    saluer Emma Bovary à laquelle Salammbô emprunte bien des traits mais en même
+                    temps de dire adieu – pour un temps du moins – à la forme réaliste romanesque
+                    qui avait été jusque-là celle de Flaubert, pour aborder un style baroque et
+                    flamboyant. Soutenu par «  un travail archéologique formidable  » («  J’ai une
+                    indigestion de bouquins. Je rote de l’in-folio […] Savez-vous combien je me suis
+                    ingurgité de volumes sur Carthage  ? Environ 100  »).</p>
+                <p xml:id="d1e565">Car beaucoup d’ouvrages ont paru depuis 1833 et les travaux de
+                    C.T. Falbe, consul général du Danemark à Tunis, qui dresse une carte
+                    archéologique de Carthage pour accompagner ses <hi rend="italic">Recherches sur
+                        l’emplacement</hi>
+                    <hi rend="italic">de Carthage. </hi>Quatre ans plus tard on crée une «  Société
+                    pour l’exploration de Carthage  », dont le président, Dureau de la Malle, avait
+                    publié, en 1835, des <hi rend="italic">Recherches sur la topographie de
+                        Carthage.</hi> Mais c’est en 1859 que commence vraiment, avec Charles-Ernest
+                    Beulé, «  l’inventeur  » des Propylées de l’Acropole d’Athènes, la résurrection
+                    de Carthage. Bientôt Edmond de Sainte-Marie découvre 2 000 stèles puniques.
+                    Ernest Renan fait, de 1860 à 1861, une mission d’exploration en Phénicie. On
+                    peut imaginer que la création, en 1885, d’un service des Antiquités à Carthage
+                    doit beaucoup à l’immense succès du roman de Flaubert.</p>
+                <p xml:id="d1e576">En l’écrivant, le romancier a voulu, comme il l’écrit à
+                    Sainte-Beuve, «  fixer un mirage  ». Mais ce mirage, il n’a pu lui donner forme
+                    qu’en «  appliquant à l’Antiquité les procédés du roman moderne  ». Roman
+                    historique  ? Roman archéologique  ? «  Roman antique  », le terme est de
+                    l’écrivain lui-même  ? Roman réaliste même  ? «  Roman carthaginois  », voire  ?
+                    Flaubert sait bien que «  si le roman est aussi embêtant qu’un bouquin
+                    scientifique, bonsoir, il n’y a plus d’Art.  » Voila pourquoi le formidable
+                    travail archéologique, théorique et pratique, sur le terrain, à Carthage, auquel
+                    s’est livré l’écrivain, ne vise pas à une vérité, impossible, du moins à
+                    l’époque, à atteindre. Il s’agit surtout de «  faire vrai  », de créer une
+                    «  illusion  » de réalité, bref d’aboutir à cet «  effet de réel  », au sens où
+                    l’entendra Barthes, un siècle plus tard.</p>
+                <p xml:id="d1e578">Cette Antiquité punique, dont le visage barbare tranche avec
+                    celui plus policé de la grecque ou de la romaine, se veut comme une provocation
+                    lancée à la face de la société gourmée du temps de Flaubert. Ne déclare-t-il pas
+                    lui-même  : «  <hi rend="italic">Salammbô </hi>1° embêtera les bourgeois,
+                    c’est-à-dire tout le monde  ; 2° révoltera les nerfs et le cœur des personnes
+                    sensibles  ; 3° irritera les archéologues  ; 4° semblera inintelligible aux
+                    dames  ; 5° me fera passer pour pédéraste anthropophage  ? Espérons-le  »
+                    (Lettre à E. Feydeau, octobre 1862). Mais là ne se situe pas la scandaleuse
+                    nouveauté du roman. Les moments sadiques (la fameuse «  grillade des
+                    moutards  ») ne font plus frémir et la version définitive a émoussé les audaces
+                    érotiques (la «  baisade sous le péplos  »).</p>
+                <p xml:id="d1e583">C’est sur le plan de l’écriture, dans le choix du vocabulaire,
+                    dans les hardiesses de la forme, cette forme poétique appliquée au romanesque.
+                    Ajoutons que s’intéresser à «  une civilisation perdue, anéantie  ; un pays de
+                    ruines  » – les mots sont de Sainte-Beuve –, c’est relever un défi  : «  Ce
+                    n’est pas une petite ambition que de vouloir entrer dans le cœur des hommes
+                    quand ces hommes ont vécu il y a plus de deux mille ans et dans une civilisation
+                    qui n’a rien d’analogue avec la nôtre.  » On croirait lire la préface des <hi rend="italic">Derniers Jours de Pompéi</hi> ou retrouver les mots de l’ami
+                    Gautier, qui avait joué un si mauvais tour à Flaubert  ! Ne lui avait-il pas
+                    chipé cette Égypte qui l’avait tant fait rêver  ? À la suite du romancier,
+                    l’Antiquité prit de nouvelles couleurs. Dont certaines seront bibliques grâce à
+                    Lewis Wallace.</p>
+            </div>
+            <div type="div1" xml:id="d1e588">
+                <head subtype="level1" xml:id="d1e589">
+          <hi rend="italic">Ben-Hur </hi>ou l’Antiquité
+                    messianique (1880)</head>
+                <p xml:id="d1e593">Lewis Wallace (on dira ensuite Lew) est né le 10 avril 1827 à
+                    Brookville, dans l’Indiana. Des études de droit le mènent au barreau mais, il
+                    s’engage, en 1846-1847, dans la guerre que les États-Unis mènent contre le
+                    Mexique. Colonel au début de la guerre de Sécession, il s’y illustre en sauvant
+                    même Washington d’un coup de main ennemi. Major général à la fin de la guerre,
+                    il devient gouverneur du Nouveau Mexique de 1878 à 1881 (on peut même
+                    l’apercevoir dans un coin de western  !), puis ambassadeur en Turquie de 1881 à
+                    1885. Retiré alors de la vie politique, il continuera une carrière littéraire
+                    commencée en 1873 avec <hi rend="italic">Le Dieu de beauté, </hi>un roman qui
+                    relate son expérience mexicaine et continuée avec le succès qu’on sait, en 1880,
+                    avec <hi rend="italic">Ben-Hur. Un récit messianique</hi>. Il reviendra à
+                    l’Antiquité évangélique, en 1885, avec <hi rend="italic">Le Prince de
+                        l’Inde</hi>, un récit qui met en scène le Juif Errant. Il meurt en 1905.</p>
+                <p xml:id="d1e604">Musicien, peintre, écrivain, soldat, diplomate, Lew Wallace avait
+                    tous les dons. Mais rien pourtant ne le prédisposait à écrire le roman qui le
+                    rendra universellement célèbre, <hi rend="italic">Ben-Hur. </hi>Roman dont le
+                    héros, le prince Juda Ben-Hur, d’illustre famille, va voir son destin
+                    bouleversé. Capturé, humilié, dépouillé de son bien, envoyé aux galères, le
+                    jeune aristocrate doit se venger de son ancien ami, le Romain Messala. En
+                    chemin, il rencontrera l’amour et la révélation divine. Le sous-titre auquel on
+                    ne prête généralement assez peu d’attention indique bien le sens du récit  : la
+                    venue d’un prophète nommé Jésus, fils de David, qui passait, aux yeux de
+                    certains Juifs, pour le Messie tant attendu.</p>
+                <p xml:id="d1e609">Ce qui étonne dans l’accueil enthousiaste fait à <hi rend="italic">Ben-Hur,</hi> à moins que ce ne soit un début d’explication,
+                    c’est la complète étrangeté de l’œuvre dans la production littéraire américaine
+                    de l’époque. <hi rend="italic">Ben-Hur </hi>demeure, dans la littérature
+                    américaine de la fin du <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi> siècle, littérature qui ne s’est jamais soucié d’Antiquité, un
+                    «  apax  ». Peut-on en trouver la source en Europe  ? Rien n’est moins sûr  :
+                    entre <hi rend="italic">Fabiola </hi>et <hi rend="italic">Quo Vadis  ?
+                    </hi>entre 1854 et 1895, rien, ou si peu, qui puisse, du moins dans le domaine
+                    romanesque, inspirer Wallace.</p>
+                <p xml:id="d1e628">En revanche la science historique avait marché à grands pas et la
+                    figure de Jésus, dégagée des enluminures christiques, prenait, peu à peu,
+                    difficilement mais sûrement, épaisseur humaine. Dès 1835-1836, D.F. Strauss,
+                    dans sa <hi rend="italic">Vie de Jésus</hi>,<hi rend="italic"> </hi>tentait
+                    d’unir les faits historiques, à savoir l’existence d’un Jésus ancré dans une
+                    réalité historique, et les éléments mythiques ajoutés par la suite  : double
+                    portrait d’un Jésus historique face à un Christ idéalisé. Sans avoir publié de
+                    vie de Jésus, F.C. Baur, dans son <hi rend="italic">Paul apôtre de Jésus
+                    </hi>(1845) appliqua à l’histoire du christianisme primitif la fameuse triade
+                    hégélienne  : thèse (le courant judéo-chrétien de Pierre et de Jacques),
+                    antithèse (le courant hellénistico-chrétien de Paul), synthèse (l’Église
+                    catholique). Sans nier toutefois l’existence de Jésus. Ce que finit par faire
+                    radicalement son adversaire, Bauer, qui voyait le christianisme primitif comme
+                    une fusion entre le stoïcisme et le judaïsme hellénistique. Cette thèse coûta à
+                    son auteur, en 1842, la défense d’enseigner.</p>
+                <p xml:id="d1e639">Ce qui arriva, vingt ans plus tard, à E. Renan (1823-1892). Sa
+                        <hi rend="italic">Vie de Jésus</hi> (1863) fut le premier pas de la critique
+                    française sur un terrain dont elle n’avait pas l’habitude et déclencha un tollé
+                    général et… un immense succès. Dix rééditions et onze traductions à la fin de
+                    l’année 1863. L’année suivante, une version plus accessible, <hi rend="italic">Jésus</hi>, se vend à un million d’exemplaires. En juin 1864 Renan est
+                    révoqué de sa chaire d’hébreu du Collège de France, chaire qu’il ne retrouvera
+                    qu’en 1870. Historien, linguiste, archéologue, homme d’étude et de terrain,
+                    Renan, qui vient de publier en 1874, son fameux <hi rend="italic">Recueil des
+                        inscriptions sémitiques</hi>, ne pouvait pas ne pas être connu de
+                    Wallace.</p>
+                <p xml:id="d1e650">Mais ce sont surtout les avancées de la recherche archéologique
+                    qui ont dû retenir son attention  : Américains, comme Edward Robinson qui
+                    découvre à Jérusalem ce qu’on nomme depuis «  l’arche de Robinson  », au pied du
+                    mont du Temple  ; Français, comme F. de Saulcy qui creuse, en 1863, et met au
+                    jour, à l’extérieur de la vieille ville, des tombes royales  ; Anglais qui
+                    s’activent depuis la fondation, en 1863, du «  Palestine Exploration Fund  » et
+                    dont l’un deux, Charles Warren, repère, entre 1867 et 1870, dans la cité de
+                    David, le «  puits de Warren  ». Bref, le roman de Wallace a les couleurs de
+                    l’actualité.</p>
+                <p xml:id="d1e652">L’action relève à la fois de la parabole  : un Juif va, peu à
+                    peu, ouvrir les yeux sur le Christ  ; qui plus est, un Juif de noble famille. Et
+                    du roman-feuilleton  : la vengeance d’un homme dépouillé de ses biens et trahi
+                    par son meilleur ami. C’est ce mélange de ficelles romanesques et de ton inspiré
+                    qui donne au récit ce charme si particulier. La structure en est très classique
+                    et le découpage semble appeler déjà le scénariste  ! Des lieux mythiques  :
+                    Jérusalem, Antioche, Rome, le désert. Des morceaux de bravoure  : la bataille
+                    navale, la course de chars, la descente chez les lépreux. La figure de Jésus
+                    dont la main soulage la soif du prisonnier qui, à son tour, tentera ensuite de
+                    lui venir en aide. En vain, on s’en doute. Tout cela vaudra au roman un
+                    triomphal accueil. Il faudra attendre plus de vingt ans pour que, avec Freud,
+                    l’on revienne à Pompéi.</p>
+            </div>
+            <div type="div1" xml:id="d1e654">
+                <head subtype="level1" xml:id="d1e655">
+          <hi rend="italic">Gradiva </hi>ou l’Antiquité
+                    fantasmatique (1903 et 1907)</head>
+                <p xml:id="d1e659">Depuis 1896, Sigmund Freud a pris l’habitude de partir à
+                    l’étranger, la plupart du temps en Italie de la fin août à la mi-septembre. En
+                    1902, avec son frère Alexandre, il s’installe à Sorrente  ; il visite Naples et
+                    la région du Vésuve. L’étape la plus importante est, on s’en doute, Pompéi.</p>
+                <p xml:id="d1e661">Freud possède des ouvrages sur la cité disparue. Il en a étudié
+                    les rues avec passion  : «  J’attends avidement les beaux jours  ; pendant les
+                    quelques semaines où j’ai pu avoir une heure de liberté, je n’ai rien fait
+                    qu’étudier les rues de Pompéi  » (lettre à Fliess du 12 avril 1897). Il en a
+                    rêvé (lettre au même du 28 avril 1897). Il a placé dans son bureau la
+                    reproduction d’un «  fragment de mur pompéien avec un centaure et un faune  »
+                    qui le «  transporte vers son Italie tant désirée  » (lettre au même du 24 mai
+                    1901).</p>
+                <p xml:id="d1e663">À Sorrente se mêlent dans son esprit le parfum des orangers et la
+                    beauté des ruines. Peu à peu, au cours de ses voyages en Italie et en Grèce,
+                    Freud va prendre conscience de l’étroite parenté qui existe entre l’archéologue
+                    et l’analyste. L’un et l’autre essaient d’exhumer ce qui est demeuré enfoui
+                    d’une antique civilisation ou d’un désir infantile.</p>
+                <p xml:id="d1e665">Il aurait pu, s’il avait été plus amateur de fiction, ajouter
+                    l’auteur de romans historiques. Lui aussi, comme l’analyste, remonte dans le
+                    temps, pour retrouver dans le passé ce qui, comme le pensaient Gautier ou
+                    Waltari, est resté enseveli en lui-même  ; pour tenter, à travers des destins
+                    antiques, de comprendre le sien.</p>
+                <p xml:id="d1e667">Durant l’été 1906, Freud lit une nouvelle de Wilhelm Jensen
+                    (1837-1911), parue en 1903  : <hi rend="italic">Gradiva, fantaisie pompéienne,
+                    </hi>que Carl Jung lui a conseillée. Immédiatement il en écrit un commentaire,
+                    qui paraîtra en 1907  : <hi rend="italic">Le Délire et les rêves dans la</hi>
+                    Gradiva <hi rend="italic">de Jensen</hi>. C’est qu’il a pris conscience qu’«  il
+                    n’y a pas de meilleure analogie du refoulement – qui tout à la fois rend un
+                    élément psychique inaccessible et le conserve – qu’un ensevelissement comme
+                    celui qui a été le destin fatal de Pompéi et dont la ville a pu émerger à
+                    nouveau par le travail de la pioche  ». Cette approche ne rencontrera guère
+                    d’écho chez Jensen, qui refusera même de rencontrer Freud, mais elle ouvrira une
+                    voie féconde à l’application de la méthode analytique aux textes littéraires –
+                    et consacrera définitivement Pompéi dans son rôle de cité fantasmatique.</p>
+                <p xml:id="d1e678">Freud, quant à lui, gardera toujours une tendresse secrète pour
+                    cette femme, la Gradiva. À Rome, en 1907, il fait enfin sa connaissance  :
+                    «  Pense à ma joie, écrit-il à son épouse Martha, le 24 septembre, en
+                    rencontrant aujourd’hui au Vatican, après une si longue solitude, le visage
+                    connu d’un être qui m’est cher  ; mais la reconnaissance a été unilatérale, car
+                    il s’agissait de Gradiva, accrochée tout au haut d’un mur.  » Désormais le
+                    moulage du bas-relief montrant une jeune fille traversant une rue figurera dans
+                    son bureau – et dans celui de bien des analystes –, avec des fresques
+                    pompéiennes.</p>
+                <p xml:id="d1e680">La nouvelle de Jensen, grâce à Freud, est devenue universellement
+                    célèbre. Son héros en est Norbert, un jeune archéologue qui croit retrouver à
+                    Pompéi une Pompéienne dont le bas relief l’a troublé  : Gradiva. Il lui parle en
+                    latin, elle lui répond dans la même langue. Il comprendra à la fin du récit
+                    qu’en fait il avait retrouvé une amie d’enfance, bien oubliée depuis des années
+                    et dont il était secrètement épris.</p>
+                <p xml:id="d1e682">Quel dommage que Freud n’ait pas connu <hi rend="italic">Arria
+                        Marcella,</hi>
+                    <hi rend="italic">souvenir de Pompéi</hi>, la nouvelle de Gautier déjà
+                    évoquée  ! Nul doute qu’il y aurait trouvé un plus beau sujet d’études. Car le
+                    récit de cette nuit fantastique où le jeune Octavien, en visite avec des amis à
+                    Pompéi, se retrouve dans la cité redevenue vivante, pourrait aisément faire
+                    l’objet d’une étude psychanalytique avec, bien sûr, toute la part d’arbitraire
+                    qu’elle suppose. Je verrais volontiers, pour ma part, dans le récit de Gautier,
+                    les quatre manifestations du désir et poserait les quatre termes de la phase
+                    fantasmatique  : désir, interdit, transgression, sanction.</p>
+                <p xml:id="d1e690">Au fond, si la cure analytique de Norbert a réussi  : en bonne
+                    analyste, la pseudo Gradiva est entrée dans le fantasme de son
+                    analysant-amoureux, puis, par elle et pour elle, il en est sorti, pour revenir à
+                    la réalité. L’analyse d’Octavien, en revanche, a échoué  : il n’a pas pu
+                    échapper au sien et il sera malheureux toute sa vie. N’en fut-il pas ainsi pour
+                    son créateur  ?</p>
+                <p xml:id="d1e692">On aurait pu aussi évoquer la Crète et les travaux d’Evans qui
+                    eurent un écho de l’œuvre de Nicos Kazantzakis ou l’Afrique du Sud avec les
+                    ruines de Zimbabwe qui firent rêver, en 1885, H. Ridder Haggard et ses <hi rend="italic">Mines du roi Salomon.</hi>
+        </p>
+                <p xml:id="d1e697">Ainsi donc, au siècle qui assiste à la naissance conjointe du
+                    roman historique et de l’archéologie, la pioche des archéologues a souvent
+                    inspiré la plume des romanciers. Sous les couleurs d’une Antiquité nouvelle,
+                    revivifiée, de nouveau vivante.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

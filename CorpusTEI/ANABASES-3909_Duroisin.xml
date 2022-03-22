@@ -1,0 +1,1968 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-3909_Duroisin">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">
+                    <hi xml:lang="fr">Henry de Montherlant « entre les deux mondes » : la leçon des
+                        manuscrits (I)</hi>
+                </title>
+                <author>
+                    <persName>
+                        <forename>Pierre</forename>
+                        <surname>Duroisin</surname>
+                    </persName>
+                    <affiliation> &#xD; duroisin.lenglez@scarlet.be </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+                        Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>« Savoirs » est une plateforme de publication numérique vouée à l’histoire et à
+                    l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS
+                    (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une
+                    archive d’articles ou une collection de livres, il s’agit d’une bibliothèque
+                    « intelligente » et expérimentale qui propose des parcours de lecture
+                    heuristiques et réflexifs entre les textes, grâce à différents algorithmes de
+                    recherche et de suggestions reposant notamment sur un balisage des lieux, des
+                    dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs
+                        (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel
+                        XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données
+                        géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour
+                        l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références
+                        Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes
+                        pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>Catholicism</item>
+                        <item>Montherlant</item>
+                        <item>pagan antiquity</item>
+                        <item>Pan</item>
+                        <item>Julian the Apostate</item>
+                        <item>Heine H.</item>
+                        <item>Guignebert Ch.</item>
+                        <item>Péladan</item>
+                        <item>Larbaud</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>catholicisme</item>
+                        <item>Montherlant</item>
+                        <item>antiquité païenne</item>
+                        <item>Pan</item>
+                        <item>Julien l’Apostat</item>
+                        <item>Heine H</item>
+                        <item>Guignebert Ch.</item>
+                        <item>Péladan</item>
+                        <item>Larbaud</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart level="a" type="main">
+                        <hi xml:lang="fr">Henry de Montherlant « entre les deux mondes » : la leçon
+                            des manuscrits (I)</hi>
+                    </titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Pierre Duroisin</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e236">
+                <p xml:id="d1e237">Concilier l’antiquité païenne et le catholicisme, sinon le
+                    christianisme, fut l’idéal de Montherlant jusqu’aux environs de 1925, et les
+                    notes manuscrites qu’on a ici présentées (elles portent sur la première page la
+                    date du 30 décembre 1922 et s’intitulent <hi rend="italic">La Garde autour de
+                        Pan et Julien l’Apostat</hi>) montrent comment il s’y employa, avant de
+                    reconnaître que cet « idéal respectable et touchant » n’était qu’une « position
+                    fausse de l’esprit », un « jeu de l’imagination et de la poésie ». La matière
+                    étant copieuse, on s’est dans un premier temps limité à <hi rend="italic">La
+                        Garde autour de Pan</hi>, qui nous conduira des <hi rend="italic">Dieux en
+                        exil</hi> de Heine au <hi rend="italic">Christianisme antique</hi> de
+                    Charles Guignebert en passant par <hi rend="italic">Le Vœu de la
+                        Renaissance</hi> de Péladan et le <hi rend="italic">Fermina Márquez</hi> de
+                    Larbaud. Une suite, plus proprement consacrée au volet Julien du manuscrit de
+                    1922, ainsi qu’à un ensemble de manuscrits « Sur la religion », paraîtra dans le
+                    prochain numéro d’<hi rend="italic">Anabases</hi>.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e261">
+                <p xml:id="d1e262">
+                    <hi xml:lang="en">To reconcile pagan antiquity with Catholicism, rather than
+                        with Christianism remained Montherlant’s ideal until about 1925, and the
+                        manuscript notes presented here (the first page is dated 30 December 1922
+                        and the title reads </hi>
+                    <hi rend="italic">
+                        <hi xml:lang="en">La Garde autour de Pan et Julien l’Apostat</hi>
+                    </hi>
+                    <hi xml:lang="en">) demonstrate how he committed himself to this task before
+                        admitting that this “respectable and touching ideal” was nothing but a
+                        “false position of the mind”, a “game of imagination and poetry”. As the
+                        material is abundant, our study will at a first be restricted to </hi>
+                    <hi rend="italic">
+                        <hi xml:lang="en">La Garde autour de Pan</hi>
+                    </hi>
+                    <hi xml:lang="en">, which will take us from Heine’s </hi>
+                    <hi rend="italic">
+                        <hi xml:lang="en">Les Dieux en exil</hi>
+                    </hi>
+                    <hi xml:lang="en"> to Charles Guignebert’s </hi>
+                    <hi rend="italic">
+                        <hi xml:lang="en">Le Christianisme antique</hi>
+                    </hi>
+                    <hi xml:lang="en">, taking in Peladan’s </hi>
+                    <hi rend="italic">
+                        <hi xml:lang="en">Le Vœu de la Renaissance</hi>
+                    </hi>
+                    <hi xml:lang="en"> and Larbaud’s </hi>
+                    <hi rend="italic">
+                        <hi xml:lang="en">Fermina Márquez</hi>
+                    </hi>
+                    <hi xml:lang="en">. A further article, more closely devoted to the Julien
+                        section of the 1922 manuscript, as well as to a set of manuscripts “On
+                        religion”, will appear in the next issue of </hi>
+                    <hi rend="italic">
+                        <hi xml:lang="en">Anabases</hi>
+                    </hi>
+                    <hi xml:lang="en">.</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <p rend="epigraph" xml:id="d1e305">Je voudrais concilier l’antiquité païenne et le
+                catholicisme,<lb/>comme la Rome de la Renaissance,<lb/>une main sur la Louve, une
+                main sur la Croix<note type="standard" xml:id="ftn1" place="foot" n="1">
+          <p> Le mot,
+                        rapporté par Paul Abraham comme étant de 1924, se trouve dans « Un entretien
+                        avec Henry de Montherlant » (<hi rend="italic">Le</hi>
+                        <hi rend="italic">Mail</hi>, n° 1, 1927, p. 8). Remarques pratiques : le
+                        lieu d’édition ne sera pas donné s’il s’agit de Paris et pour les œuvres de
+                        Montherlant éditées dans la Bibliothèque de la Pléiade, les abréviations E,
+                        T, R1 et R2 renverront aux volumes <hi rend="italic">Essais</hi> (1963), <hi rend="italic">Théâtre</hi> (1972), <hi rend="italic">Romans I</hi>
+                        (1959, 2008) et <hi rend="italic">Romans II</hi> (1982,
+                2009).</p>
+        </note>.</p>
+            <p xml:id="d1e335">Parmi les autographes de Montherlant qui se vendirent le 23 mars 2009
+                chez Drouot se trouvait un ensemble de « 10 pages in-4 » daté très précisément du 30
+                décembre 1922 et intitulé <hi rend="italic">La Garde autour de Pan et Julien
+                    l’Apostat</hi>
+        <note type="standard" xml:id="ftn2" place="foot" n="2">
+          <p> Il
+                        s’agissait du lot 245 d’une vente organisée par la société Piasa, la date
+                        étant celle que Montherlant a notée dans le coin supérieur gauche du premier
+                        feuillet : 30-12-1922. La notice du catalogue de vente fait aussi remarquer
+                        que la plupart de ces dix pages sont « au dos d’une circulaire de l’Œuvre du
+                        souvenir des défenseurs de Verdun – Monument de Douaumont ». Montherlant,
+                        comme le rappelle d’ailleurs un post-scriptum de la circulaire, fut le
+                        premier secrétaire général de l’Œuvre de l’Ossuaire et le <hi rend="italic">Chant funèbre pour les morts de Verdun</hi> qu’il publia en 1925 est
+                        l’expression même du soutien qu’il lui apporta entre 1920 et
+                    1924.</p>
+        </note>. C’est ce dossier qu’on va examiner, à commencer d’ailleurs par
+                son titre, qu’il faut lire en deux temps : Montherlant avait d’abord écrit, à
+                l’encre, <hi rend="italic">La Garde autour de Pan</hi>, avant d’ajouter, en dessous
+                et au crayon, <hi rend="italic">et Julien l’Apostat</hi>, comme pour associer
+                l’empereur accusé d’avoir trahi sa foi<note type="standard" xml:id="ftn3" place="foot" n="3">
+          <p> Lucien Jerphagnon a remis les choses à leur place quand
+                        il a donné pour épigraphe à son <hi rend="italic">Julien dit l’Apostat</hi>
+                        (Tallandier, 2008) ce mot de Pierre Renucci : « Il nous paraît incongru
+                        d’affirmer, d’une façon générale, qu’il y a abandon du christianisme s’il
+                        n’y eut au préalable abandon au christianisme. »</p>
+        </note> au dieu dont la
+                mort avait été annoncée, au <hi rend="small-caps">i</hi>
+        <hi rend="sup">er</hi> siècle de notre ère, à des marins croisant au large de Paxos<note type="standard" xml:id="ftn4" place="foot" n="4">
+          <p> Grand lecteur des <hi rend="italic">Vies parallèles</hi>, Montherlant savait probablement,
+                        même s’il ne cite jamais Paxos, que ce soit dans <hi rend="italic">Les
+                            Bestiaires</hi> en 1925 (R1, p. 578) ou dans <hi rend="italic">Le
+                            Solstice de juin</hi> en 1940 (E, p. 954), qu’on tient cette légende de
+                        Plutarque et de son opuscule sur la disparition des oracles.
+                </p>
+        </note>.</p>
+            <p xml:id="d1e381">Sur ce diptyque se grefferont, en temps voulu, quelques pages
+                manuscrites vendues de même chez Drouot, le 15 juin 2011, et intitulées, pour la
+                circonstance, « Sur la Religion<note type="standard" xml:id="ftn5" place="foot" n="5">
+          <p> Il s’agissait du lot 72 d’une vente organisée par Brissonneau, à quoi
+                        on associera le texte d’une « Note sur <hi rend="italic">Pour une Vierge
+                            noire</hi> » qui se vendit chez Piasa le 11 avril 2002.
+                </p>
+        </note> ».</p>
+            <p xml:id="d1e391">S’y ajouteront enfin deux inédits, un « conte antique » de 1912
+                intitulé <hi rend="italic">Le dieu Pan</hi> et un petit texte appelé <hi rend="italic">Guerre</hi>, qu’on doit à M. Jean-Claude Barat, l’exécuteur
+                testamentaire de Montherlant, de quoi fournir une matière assez riche pour qu’on la
+                répartisse sur deux numéros d’<hi rend="italic">Anabases</hi>.</p>
+            <div type="div1" xml:id="d1e402">
+                <head subtype="level1" xml:id="d1e403">Pan et Julien dans l’œuvre de
+                    Montherlant</head>
+                <p xml:id="d1e405">La première fois que Montherlant a évoqué <hi rend="italic">La
+                        Garde autour de Pan</hi>, c’est dans la <hi rend="italic">Nouvelle Revue
+                        française</hi> du 1<hi rend="sup">er</hi> mai 1923, dans des <hi rend="italic">Notes relatives à la religion et aux passions </hi>qu’il avait
+                    sous-titrées <hi rend="italic">À propos du « Songe »</hi>, son roman tout frais
+                    paru chez Grasset<note type="standard" xml:id="ftn6" place="foot" n="6">
+            <p> Ces
+                                <hi rend="italic">Notes</hi> occupent les pages 756 à 769 de la
+                            revue. Cela dit, les extraits qu’on en lira ci-après sont repris du
+                            placard que Montherlant avait reçu le 13 avril de l’imprimerie Paillart
+                            d’Abbeville et qu’il renvoya le 17 avec le bon à tirer, non sans y avoir
+                            apporté d’assez nombreuses corrections. C’est de nouveau à M. Barat que
+                            je dois d’avoir pu lire ce document qui, comme le texte publié, compte
+                            14 pages.</p>
+          </note>. Rien d’autre, selon lui, que « des fragments
+                    décousus et qui sans mal fussent rentrés au tiroir<note type="standard" xml:id="ftn7" place="foot" n="7">
+            <p> Une variante qui intéressera les
+                            historiens de la <hi rend="italic">Nrf</hi> : « qui sans mal fussent
+                            rentrés au tiroir » a, sur le placard même, remplacé « qui fussent
+                            rentrés au tiroir sans l’insistance amicale de Jacques
+                        Rivière ».</p>
+          </note> », rien qu’« un tour de valse avec le sacré » où il
+                    feint de donner la parole à son héros, un Alban de Bricoule que la « critique
+                    catholique » a « déclaré “saugrenu” pour son orgueil, sa “dureté”, sa
+                    sensualité, son manque de vertus chrétiennes », mais qui n’en demeure pas moins
+                    « un exemplaire du catholique ».</p>
+                <p xml:id="d1e439">Mis en présence de ses détracteurs, qui lui reprochent de faire
+                    « les gestes de la foi » sans avoir la foi, Alban rétorque – ou rétorquerait –
+                    qu’il a reçu le Christ dans son héritage et qu’en l’accueillant « avec le
+                    reste » (liturgie, sacrements), il se conforme « à la recommandation du pontife
+                    Aurelius Cotta dans la <hi rend="italic">Nature des dieux</hi>, qu’“un bon
+                    citoyen accepte la religion des anciens et la pratique parce qu’elle est le
+                    fondement de la Cité” », et quand on le taxe d’hypocrisie, il convoque les
+                    « Romains de vieille souche (du type de Celse, de Cœcilius, de Symmaque), qui,
+                    devant le christianisme triomphant, refusaient de rompre avec un culte qui avait
+                    été mêlé à tout ce qu’il y avait eu de bon et de grand dans leur famille et dans
+                    l’Empire et sacrifiaient d’un cœur religieux à une religion à laquelle ils ne
+                    croyaient pas<note type="standard" xml:id="ftn8" place="foot" n="8">
+            <p> Alban
+                            fait allusion au début du chapitre II du livre III, quand Cotta rappelle
+                            qu’il s’en tient à la coutume, en tant que pontife aussi bien qu’à titre
+                            personnel : « J’ai toujours défendu et défendrai toujours la religion et
+                            les cérémonies qui nous sont venues de nos pères », ajoutant que les
+                            auspices, les sacrifices et les prédictions sont pour lui « les
+                            fondements de la cité », <hi rend="italic">fundamenta civitatis</hi>.
+                            Mais c’est sans doute par <hi rend="italic">La Fin du paganisme</hi> de
+                            Gaston Boissier que Montherlant découvrit le personnage de Cotta.
+                            Boissier, en effet, consacre tout un chapitre de son livre à l’<hi rend="italic">Octavius</hi> de Minucius Felix, lequel reprend pour
+                            son Caecilius les arguments que Cicéron a mis dans la bouche de Cotta :
+                            « La religion nationale est une institution comme les autres, il faut la
+                            respecter au même titre. […] Un bon citoyen l’accepte et la pratique,
+                            parce qu’elle est le fondement de la cité. » (<hi rend="small-caps">G.
+                                Boissier</hi>, <hi rend="italic">La Fin du paganisme</hi>, I,
+                            p. 271, Hachette, 1903, 4<hi rend="sup">e</hi> éd.). Caecilius rejoint
+                            d’ailleurs, dans le discours d’Alban, ces deux défenseurs acharnés du
+                            paganisme, l’un du <hi rend="small-caps">ii</hi>
+              <hi rend="sup">e</hi>
+                            s., l’autre du <hi rend="small-caps">iv</hi>
+              <hi rend="sup">e</hi>, que
+                            furent Celse et Symmaque, encore que ce rapprochement ne laisse pas de
+                            surprendre dans la mesure où, tout à la fin de l’<hi rend="italic">Octavius</hi>, le païen Caecilius s’avouera vaincu par son
+                            adversaire. Cela dit, le <hi rend="italic">De Natura deorum </hi>est un
+                            traité sur lequel Montherlant est plusieurs fois revenu : en 1928 dans
+                                <hi rend="italic">Jeux olympiques et Antiquité</hi> (dans <hi rend="italic">Earinus, Troisième Olympique</hi>, p. 137, Hazan,
+                            1929), en 1944 dans <hi rend="italic">La Déesse Cypris</hi> (E, p. 1584
+                            dans <hi rend="italic">Textes sous une occupation</hi>) et dans les
+                            « carnets sans dates et carnets 1972 », où il le cite d’après d’Yves <hi rend="small-caps">Battistini </hi>(<hi rend="italic">Tous Feux
+                                éteints</hi>, p. 134, Gallimard, 1975).</p>
+          </note> ».</p>
+                <p xml:id="d1e503">Et tandis que le héros du <hi rend="italic">Songe</hi> se demande
+                    si cette « attitude […] ne fut pas celle de tous les Romains éclairés dès la fin
+                    de la République : des pratiquants sans la foi », l’auteur rompt avec la fiction
+                    pour feuilleter un album de famille où il se découvre de rudes ancêtres qui
+                    tuèrent et pillèrent mais « n’ont pas plus quitté la communauté catholique
+                    qu’ils n’ont quitté la communauté nationale ». Rejetant « le vieil esprit de
+                    dissociation qui travaille le monde […], le vieil esprit qui a créé les
+                    prétendues antinomies inconciliables entre le corps et l’âme […], entre le divin
+                    et l’humain […], entre la pensée et l’action […], entre le christianisme et le
+                    paganisme et qui ensuite traite de confusion l’union supérieure qu’il a dans
+                    l’abstrait défaite<note type="standard" xml:id="ftn9" place="foot" n="9">
+            <p> On
+                            sent poindre le <hi rend="italic">Syncrétisme et alternance</hi> de
+                            1925.</p>
+          </note> », il entend rétablir « le mot catholique » dans son
+                    statut d’origine, qui est l’universel. Pour lui, pas de doute, c’est le
+                    catholicisme qui « a remis debout ce dont le christianisme avait été le
+                    principal destructeur » :</p>
+                <q rend="quotation">« <hi rend="italic">ROMA capta cœpit </hi>[sic]<hi rend="italic"> ferum victorem</hi>. Le grand Pan n’est pas mort, et c’est l’Église qui,
+                    autour de lui, monte la garde<hi rend="sup">1</hi>. Un Alban de Bricoule peut
+                    être considéré, si l’on veut, comme un de ces produits du monde antique adaptés
+                    à la religion nouvelle à laquelle l’Église les incorpora. Je songe à ces
+                    divinités champêtres évoquées par Heine, qui, au triomphe du christianisme, se
+                    convertirent à la religion nouvelle, parfois même se firent ermites, et
+                    mouraient, le chapelet dans les mains, mais le cœur plein de leurs anciennes
+                        Arcadies<note type="standard" xml:id="ftn10" place="foot" n="10">
+            <p> P. 11
+                            sur les épreuves d’imprimerie, p. 766 de la <hi rend="italic">Nrf</hi>.
+                            Inutile de préciser que le <hi rend="italic">Roma capta cepit…</hi> (car
+                                <hi rend="italic">coepit </hi>fut corrigé <hi rend="italic">in
+                                extremis</hi> dans la revue) s’inspire du <hi rend="italic">Graecia
+                                capta ferum victorem cepit</hi> d’Horace<hi rend="italic"> </hi>(<hi rend="italic">Ép.</hi>, II, I, 156).</p>
+          </note>. »</q>
+                <p xml:id="d1e554">C’est ici, dans la note de bas de page correspondant à l’appel
+                    inséré par Montherlant après « Le grand Pan n’est pas mort, et c’est l’Église
+                    qui, autour de lui, monte la garde », qu’on aura de quoi faire le lien avec le
+                    manuscrit du 30 décembre 1922 :</p>
+                <q rend="quotation">« Voici l’occasion d’annoncer, à seule fin de prendre date, le
+                    livre d’essais qui paraîtra quelque jour sous ce titre : <hi rend="italic">La
+                        garde autour de Pan</hi>
+          <note type="standard" xml:id="ftn11" place="foot" n="11">
+            <p> P. 767 de la <hi rend="italic">Nrf</hi>, p. 11 et 12 du placard,
+                            où le texte retenu a remplacé « À la seule fin de prendre date, je me
+                            permets d’annoncer un livre d’études qui paraîtra quelque jour sous ce
+                            titre : <hi rend="italic">La garde autour de Pan</hi> ». Pierre Sipriot
+                            cite le texte mais sans la note dans <hi rend="italic">Montherlant sans
+                                masque</hi>, p. 194, Le Livre de Poche, 1990.</p>
+          </note>. »</q>
+                <p xml:id="d1e574">Un projet sans lendemain, mais que l’écrivain a pris soin de
+                    rappeler à deux reprises au moins et à trente ans d’intervalle : une première
+                    fois en 1940, dans <hi rend="italic">Paysage des Olympiques</hi>, et une seconde
+                    fois en 1972, dans <hi rend="italic">Mais aimons-nous ceux que nous
+                        aimons ?</hi>
+        </p>
+                <p xml:id="d1e581">1940. L’auteur de <hi rend="italic">Paysage des Olympiques
+                    </hi>vient de renvoyer le lecteur à <hi rend="italic">Pershing 1920</hi>, un
+                    essai vieux de vingt ans qui se terminait par une prière à la façon de Socrate :
+                    « Ô Dieu des corps et des âmes, donnez-moi de mener une vie juste ! Que j’aime
+                    toujours davantage les choses que vous avez créées ! », doublée d’un mot de
+                    Michel-Ange : « Car il doit aimer l’œuvre, celui qui en adore l’auteur. » C’est
+                    alors qu’il commente pour le lecteur de 1940 :</p>
+                <q rend="quotation">« Je retrouve dans ce texte cette aspiration vers l’unité qui me
+                    hanta jusqu’à ma trentième année environ. Résoudre toutes les antinomies, celles
+                    notamment que crée le christianisme, unir par la même piété toutes les croyances
+                    et tous les âges, me semblait tâche haute, et d’ailleurs non difficile. […] Dans
+                    un syncrétisme éperdu, je rêvais sur Septime Sévère qui plaça l’image de Jésus
+                    au Panthéon, sur cette académie platonicienne de Florence qui s’était proposé
+                    formellement pour but de fondre ensemble l’esprit du christianisme et celui du
+                    paganisme, sur ce pape Grégoire que Dante fait prier pour l’âme de Trajan. Je
+                    méditais de composer un livre, <hi rend="italic">La Garde autour de Pan</hi>, où
+                    l’on eût soutenu que le christianisme n’est devenu ce qu’il est aujourd’hui que
+                    par son alliance avec l’antiquité, que Platon et Aristote restaient
+                    incompréhensibles pour les Renaissants, si ceux-ci n’avaient connu Saint Paul et
+                    l’Évangile, et qu’enfin c’est dans l’Église seule que l’on peut retrouver vivant
+                    quelque chose de l’âme antique ; et déjà je dessinais la couverture du volume :
+                    des prêtres en surplis portant sur leurs épaules, avec le plus grand cérémonial,
+                    une châsse de verre où repose Pan endormi<note type="standard" xml:id="ftn12" place="foot" n="12">
+            <p>
+                            <hi rend="italic">Paysage des Olympiques</hi>, p. 43-44, Grasset, 1940.
+                            Le texte de 1920 auquel renvoie Montherlant avait paru dans <hi rend="italic">Le Monde nouveau </hi>de septembre 1920 sous le titre
+                                <hi rend="italic">Quant aux Jeux Olympiques… </hi>avant d’être
+                            inclus en 1929 dans <hi rend="italic">Earinus</hi>, sous le titre <hi rend="italic">Pershing 1920</hi>. La légende du pape Grégoire priant
+                            pour que Trajan ressuscite afin de mourir en chrétien est reprise par
+                            Dante au chant XX de son <hi rend="italic">Paradis</hi>.
+                    </p>
+          </note>. »</q>
+                <p xml:id="d1e618">En 1972, quelques semaines avant sa mort volontaire, Montherlant
+                    termine <hi rend="italic">Mais aimons-nous ceux que nous aimons ?</hi>, où il
+                    avoue, quand il évoque le temps de ses <hi rend="italic">Olympiques</hi>, que
+                    s’il n’allait pas à la messe le dimanche tout en disant à sa pieuse et vénérée
+                    grand-mère qu’il y était allé, c’était « par indifférence ». La suite nous
+                    renverra à <hi rend="italic">Paysage des Olympiques</hi> :</p>
+                <q rend="quotation">« Dans ces années-là, 1920 et 1921, les prêtres cherchaient à
+                    annexer le sport parce qu’il était à la mode ; je faisais comme eux non pour les
+                    suivre mais parce que mêler christianisme et paganisme était un mouvement
+                    inhérent à ma nature, bien que je n’eusse ni foi ni pratique catholique. Je
+                    rêvais sur Septime Sévère qui plaça l’image de Jésus au Panthéon ; sur cette
+                    académie platonicienne de Florence qui s’était donné formellement pour but de
+                    fondre ensemble l’esprit du christianisme et celui du paganisme, sur la phrase
+                    de Michel-Ange : « Il doit aimer l’œuvre, celui qui en adore l’auteur. » Je
+                    méditais de composer un livre, <hi rend="italic">La Garde autour de Pan</hi> –
+                    ce qui vit en nous du paganisme nous a été conservé par le catholicisme, – et
+                    déjà j’en dessinais la couverture : des prêtres en surplis portant sur leurs
+                    épaules, avec le plus grand cérémonial, une châsse de verre dans laquelle repose
+                    Pan endormi<note type="standard" xml:id="ftn13" place="foot" n="13">
+            <p>
+                            <hi rend="italic">Mais aimons-nous ceux que nous aimons ?</hi>,
+                            p. 39-40, Gallimard, 1973. Pour ce qui est de Septime Sévère accueillant
+                            Jésus au Panthéon, on verra dans la note 69 ce qu’il y a lieu d’en
+                            penser. </p>
+          </note>. »</q>
+                <p xml:id="d1e643">Cela posé, entre la note de 1923 et les textes de 1940 et de
+                    1972, où il est nommément question d’un livre qui devait s’appeler <hi rend="italic">La Garde autour de Pan</hi>, s’insèrent deux textes de 1929,
+                        <hi rend="italic">Le dernier Retour</hi> et <hi rend="italic">Trois Jours au
+                        Montserrat</hi>, regroupés dès 1930 sous le titre <hi rend="italic">Pour une
+                        Vierge noire</hi>, puis insérés, en 1945, dans <hi rend="italic">Un Voyageur
+                        solitaire est un diable</hi>.</p>
+                <p xml:id="d1e660">Voici d’abord la plainte du <hi rend="italic">Dernier
+                    Retour</hi> :</p>
+                <q rend="quotation">« Je suis des trois premiers siècles. Le monde adore le Soleil,
+                    et il va se faire chrétien. Je souffre de la souffrance de Pan avant qu’il se
+                    fasse chrétien, quand l’Orient lui a tourné la tête.<lb/>Le tableau de
+                    Signorelli appelé <hi rend="italic">L’École de Pan</hi>, et que j’ai toujours
+                    appelé <hi rend="italic">La Tristesse de Pan</hi>. Si jeune, et quelle
+                    mélancolie, sous sa lourde couronne de joie !<lb/>Ferrero a un bel essai sur la
+                    tristesse des Romains du temps d’Auguste. Flaubert écrit qu’à aucun moment du
+                    monde l’homme ne fut aussi seul entre les dieux auxquels il ne croyait plus, et
+                    le dieu auquel il ne croyait pas encore. Pater dit qu’il n’est aucun accent de
+                    mélancolie que la fin du paganisme ait ignoré<note type="standard" xml:id="ftn14" place="foot" n="14">
+            <p> E, p. 427. D’abord publié dans <hi rend="italic">Les Nouvelles littéraires</hi> du 29 mars 1930,<hi rend="italic"> Le dernier Retour</hi> fut joint à <hi rend="italic">Pour une vierge noire</hi> pour l’édition en volume qui parut peu
+                            après aux Éditions du Cadran. Le mot de Flaubert (qu’on trouve dans une
+                            lettre de 1861 à M<hi rend="sup">me</hi> Roger des Genettes : « Les
+                            dieux n’étant plus et le Christ n’étant pas encore, il y a eu, de
+                            Cicéron à Marc-Aurèle, un moment unique où l’homme seul a été »),
+                            n’était pas dans la version des <hi rend="italic">Nouvelles
+                                littéraires</hi>, cependant que le mot de Pater se trouvait sous une
+                            forme plus explicite dans <hi rend="italic">Pour l’anniversaire de Paul
+                                Adam</hi>, un essai que Montherlant publia dans <hi rend="italic">Les Écrits nouveaux</hi> de janvier 1921 avant de le reprendre près
+                            de dix ans plus tard sous le titre <hi rend="italic">Pour Reims
+                                dévastée</hi> : « Il n’y a presque pas un accent mélancolique dans
+                            l’Église du Moyen Âge que le Polythéisme n’ait connu avant elle. » (<hi rend="italic">Au petit Mutilé</hi>, p. 80, Les Éditions du Portique,
+                            1930). Et ce n’est sans doute pas une coïncidence si, dans le même
+                            recueil mais dans l’essai intitulé <hi rend="italic">Sur le Malheur des
+                                temps</hi>, on lit : « Ferrero consacre toute une étude à montrer la
+                            tristesse et l’inquiétude des Romains du temps d’Auguste » (<hi rend="italic">ibid</hi>., p. 95).</p>
+          </note>. »</q>
+                <p xml:id="d1e716">
+          <hi rend="italic">Trois Jours au Montserrat</hi>, quant à lui,
+                    résulte d’une courte retraite que fit Montherlant à l’abbaye de Montserrat alors
+                    qu’il venait de découvrir le jansénisme dans le <hi rend="italic">Port-Royal</hi> de Sainte-Beuve<note type="standard" xml:id="ftn15" place="foot" n="15">
+            <p> Voir à ce sujet la « Note sur “Port-Royal” »<hi rend="italic"> </hi>jointe au<hi rend="italic"> Maître de
+                                Santiago</hi> (T, p. 526) et aussi <hi rend="italic">Le Treizième
+                                César</hi>, p. 155, Gallimard, 1970. Le texte qu’on lit sous le
+                            titre <hi rend="italic">Trois Jours au Montserrat</hi> est en fait
+                            composé de deux éléments bien distincts : une brève évocation qui parut
+                            d’abord dans <hi rend="italic">L’Intransigeant</hi> du 9 mars 1926, puis
+                            dans le recueil <hi rend="italic">Trois Images de l’Espagne</hi> en
+                            1928, puis dans le recueil <hi rend="italic">Le Génie et les fumisteries
+                                du Divin</hi> en 1929, sous le titre <hi rend="italic">Remparts
+                                flambants du monde</hi> (les pages 373 à 375 <hi rend="italic">partim</hi> de l’édition de la Pléiade), et l’essai qui fut publié
+                            dans <hi rend="italic">Les Nouvelles littéraires</hi> des 26 avril et 3
+                            mai 1930 sous le titre <hi rend="italic">Montserrat</hi> avant de
+                            paraître sous le titre <hi rend="italic">Pour une vierge noire</hi> dans
+                            le recueil du même nom publié peu après par le Cadran (l’équivalent,
+                            même s’il y aura d’importants ajouts et variantes, des pages 375 à 401
+                            de l’édition de la Pléiade).</p>
+          </note>.</p>
+                <p xml:id="d1e766">Notre diable de voyageur a commencé par rappeler que le
+                    Montserrat, dénoncé par les chrétiens comme le <hi rend="italic">Mons
+                        Luxuriae</hi> parce qu’on y avait bâti un éphémère temple à Vénus, fut ainsi
+                    « perdu et repris, tour à tour, par Pan et par Jésus-Christ ». Il a ensuite
+                    raconté, à sa manière, la légende de Juan Guarin, le jouisseur qui se fait
+                    ermite, puis retombe dans le péché (avant de retourner pour de bon à son
+                    ermitage) quand « l’esprit de Pan a repris possession du libertin de jadis ». Il
+                    a démasqué le Tentateur dans « le petit chat » où Saint-Cyran reconnaissait une
+                    créature de Dieu : « Inquiétant petit chat ! Je le vois cousin du barbet de
+                    Faust. Il est éternel, il est Pan. Il est le Diable, en parler chrétien. » Il
+                    tire enfin la leçon du baptême qui, même s’il n’a pas la foi, le « maintient
+                    catholique », estimant qu’il a désormais du catholicisme « une vue plus saine et
+                    plus digne que celle qu’[il] en prenai[t], ou plutôt qu’[il] voulai[t] [s]’en
+                    faire, autrefois » :</p>
+                <q rend="quotation">« Chercher à concilier Pan et Jésus-Christ sera toujours un
+                    exercice souverain pour vous faire jouir l’imagination, si vous n’êtes pas
+                    croyant : cela mène à s’exciter l’esprit, et se fouetter le sang […]. Mais si
+                    l’on croit ! Si l’on croit, même en faisant le départ entre ce qu’il y a de
+                    vivant et ce qu’il y a de mort dans l’Évangile ! L’Église catholique mêlant
+                    Jésus-Christ aux patries, Jésus-Christ à l’argent, Jésus-Christ au sport, que
+                    sais-je, donnant pour dames d’honneur à Jésus-Christ les trois Concupiscences en
+                    habits de fête, c’est un spectacle qui vous remplit d’une poésie trouble et
+                    âcre, si vous êtes au dehors, mais qui vous fige si vous vous mettez seulement
+                    un instant dans la peau d’un homme qui aime le Crucifix<note type="standard" xml:id="ftn16" place="foot" n="16">
+            <p> E, p. 377- 378, 396-397 et 399
+                            successivement.</p>
+          </note>. »</q>
+                <p xml:id="d1e778">Après 1929, et mis à part un mot des carnets de 1970 sur lequel
+                    on reviendra, Pan se fit plus rare dans l’œuvre de Montherlant. Les textes de
+                    1940 et de 1972 ne sont, à tout prendre, que des retours sur le passé, et
+                    l’auteur de <hi rend="italic">Paysage des Olympiques</hi> a bien dit que « cette
+                    aspiration vers l’unité » qui le poussait à « résoudre toutes les antinomies »,
+                    ce « syncrétisme éperdu » qui devait déboucher sur <hi rend="italic">La Garde
+                        autour de Pan</hi>, ne s’étaient guère étendus au-delà de sa trentième
+                    année. Le dossier du 30 décembre 1922 se situe donc au nœud de la « crise », et
+                    ce n’est pas un hasard si vers 1925 le héros des <hi rend="italic">Bestiaires</hi>, le même que celui du <hi rend="italic">Songe</hi>, évoque
+                    lui aussi « le syncrétisme éperdu qui bouillonne en lui<note type="standard" xml:id="ftn17" place="foot" n="17">
+            <p> E, p. 516.</p>
+          </note> », tout en se
+                    réclamant de ce Julien que ledit dossier associe à <hi rend="italic">La Garde
+                        autour de Pan</hi>. </p>
+                <p xml:id="d1e801">Mais avant d’en venir à Julien, il faut parler d’un dieu Pan qui
+                    est lié à la jeunesse de l’écrivain et qu’on va découvrir, comme on l’a dit plus
+                    haut, grâce à M. Jean-Claude Barat. </p>
+                <p xml:id="d1e803">L’œuvre, intitulée <hi rend="italic">Le dieu Pan</hi> et datée du
+                    7 décembre 1912, devait s’inscrire dans un recueil de <hi rend="italic">Contes
+                        antiques</hi>. Le Christ est seul et songeur dans la nuit, « parmi les
+                    oliviers bleuissants de Gethsémani », quand il voit surgir « une forme étrange »
+                    dont les jambes et le front sont ceux d’un bouc ; c’est le grand Pan, qui
+                    d’emblée lui reproche d’avoir détruit la beauté :</p>
+                <q rend="quotation">« Tu as dit : l’âme seule compte, le corps est méprisable. À
+                    l’époque du grand Pan, les hommes étaient beaux, robustes et sains. On ne se
+                    rassasiait pas de les contempler. Maintenant, absorbés par l’extase spirituelle,
+                    ils laissent leur corps s’étioler, et ils le flagellent ; leur visage sera
+                    creusé par la pensée, leur dos voûté par l’étude, leur poitrine rentrée, leur
+                    peau molle et blanche, car ils savent qu’il n’y a que l’âme qui soit digne
+                    d’être cultivée… »</q>
+                <p xml:id="d1e814">Autre reproche, celui de s’acharner « à perpétuer une espèce
+                    dégradée et impropre à la vie, à faire demeurer tout ce qui est médiocre et
+                    malingre », et quand Jésus répond : « La beauté m’est indifférente », Pan
+                    rétorque :</p>
+                <q rend="quotation">« Je te l’avoue, Jésus, aimer mon prochain quand il est bien
+                    proportionné, cela m’est facile, et le difficile serait de ne pas l’aimer ; mais
+                    aimer les jambes cagneuses, la peau flasque, les ventres proéminents et les
+                    mollets grêles, sans compter les trognes que tu devines, je t’assure, Jésus, tu
+                    n’aurais pas dû demander cela. […] Tu as faussé l’esprit des hommes ; tu as
+                    introduit un amour maladif pour ce qui est humble, pour ce qui est pauvre, pour
+                    ce qui souffre, et c’est contre la nature. Au siècle du grand Pan, l’homme
+                    sympathisait avec ce qui est sain, ce qui est beau, ce qui est la vie ; et
+                    c’était naturel. Aujourd’hui, il n’aime plus ce qui est parfait, mais ce qui est
+                    imparfait. »</q>
+                <p xml:id="d1e818">Autre reproche encore, celui d’avoir « créé le péché » en même
+                    temps qu’une « vertu impraticable » et sans grandeur :</p>
+                <q rend="quotation">« La vertu n’est vertu que désintéressée. Tout acte de vertu
+                    qu’on fera, on le fera par peur de ton enfer, et dans ton ciel immoral, il n’y
+                    aura que les égoïstes et les lâches ! »</q>
+                <p xml:id="d1e822">Tant et si bien que le Christ perd contenance. Quand les hommes
+                    d’armes viennent l’arrêter, il s’étonne que Pan ne l’ait pas plus tôt tué, qu’il
+                    ne le tue pas en cet instant même, mais le faune lui répond en baissant la
+                    tête : « C’est que, moi aussi, je me suis fait chrétien. »</p>
+                <p xml:id="d1e824">L’attrait qu’exerce la beauté, la répulsion que provoque la
+                    laideur seront parmi les thèmes cardinaux, d’ailleurs hérités de Platon, de <hi rend="italic">Thrasylle</hi>, un « conte antique » lui aussi, que
+                    Montherlant commence de rédiger en 1913<note type="standard" xml:id="ftn18" place="foot" n="18">
+            <p> Voir P. D<hi rend="small-caps">uroisin</hi>, « Henry
+                            de Montherlant et <hi rend="italic">L’Amitié antique</hi> de Ludovic
+                            Dugas : les dessous et les à-côtés d’un manuscrit », <hi rend="italic">Bulletin de l’Association Guillaume Budé</hi>, 2010-2012,
+                            p. 173-184.</p>
+          </note>. Le jeune Thrasylle le dira en des termes qui
+                    rappellent ceux de Pan : « N’est-il pas plus logique d’aimer et de choyer la
+                    perfection plutôt que l’imperfection quelle qu’elle soit : misère, maladie,
+                    bêtise, laideur, insignifiance<note type="standard" xml:id="ftn19" place="foot" n="19">
+            <p>
+                            <hi rend="italic">Ibid.</hi>, p. 165-169 et <hi rend="italic">Thrasylle</hi>, p. 52, Laffont, 1984.</p>
+          </note> ? »</p>
+                <p xml:id="d1e854">L’exaltation du corps, avant d’être au cœur des <hi rend="italic">Olympiques</hi>, sera dans <hi rend="italic">Pershing 1920</hi>, où
+                    l’écrivain vitupère les « misérables intellectuels » qui « du fond de leurs
+                    tristes tanières, laids, exsangues et pas soignés […] ont décrété le divorce
+                    entre christianisme et paganisme », semant « la tristesse sur la terre avec
+                    leurs interdictions et leurs exclusions<note type="standard" xml:id="ftn20" place="foot" n="20">
+            <p>
+                            <hi rend="italic">Earinus</hi>, p. 68-69, Hazan 1929 (repris dans <hi rend="italic">Paysage des Olympiques</hi>,
+                    p. 36-37).</p>
+          </note> ».</p>
+                <p xml:id="d1e873">Le refus de l’« amour maladif pour ce qui est humble, pour ce qui
+                    est pauvre, pour ce qui souffre », avant d’être martelé dans l’Appendice
+                    nietzschéen des <hi rend="italic">Lépreuses</hi>
+          <note type="standard" xml:id="ftn21" place="foot" n="21">
+            <p> R1, p. 1537 notamment. À noter que
+                            Montherlant ne découvrit Nietzsche qu’en 1916 (voir J.-N. F<hi rend="small-caps">aure</hi>-B<hi rend="small-caps">iguet</hi>, <hi rend="italic">Les Enfances de Montherlant</hi>, Paris, Plon, 1941,
+                            p. 170 et p. 171).</p>
+          </note>, sera dénoncé en 1926 dans <hi rend="italic">La Mort de Peregrinos</hi>, qu’on retrouvera d’ailleurs dans
+                    le manuscrit de 1922<note type="standard" xml:id="ftn22" place="foot" n="22">
+            <p>
+                            Quand Peregrinos est emprisonné pour s’être converti au christianisme,
+                            autour de lui s’empresse une « multitude de pauvres types, esclaves,
+                            vieillards, femmes, orphelins, et de ratés de toutes sortes », en bref
+                            « les adeptes habituels du “sophiste crucifié” » (E,
+                    p. 250).</p>
+          </note>. </p>
+                <p xml:id="d1e899">Le ciel « immoral » où le faune de 1912 ne trouve « que les
+                    égoïstes et les lâches » annonce la conclusion de <hi rend="italic">Trois Jours
+                        au Montserrat</hi>, où l’écrivain ne voit dans l’espérance qu’un « <hi rend="italic">daemon</hi> funeste aux hommes », estimant qu’« une grande
+                    âme, et qui douterait de son immortalité, devrait vivre et mourir comme si elle
+                    la niait », et que « c’est bien désespérer de l’humanité, que penser qu’il lui
+                    faut une religion pour être haute et pour être honnête<note type="standard" xml:id="ftn23" place="foot" n="23">
+            <p> R1, p. 400-401.</p>
+          </note> ».</p>
+                <p xml:id="d1e912">Comment, enfin, ne pas penser, devant ce Pan de 1912 qui
+                    confesse : « Moi aussi, je me suis fait chrétien », à celui auquel s’assimilera,
+                    en 1929, l’auteur du <hi rend="italic">Dernier Retour :</hi> « Je souffre de la
+                    souffrance de Pan avant qu’il se fasse chrétien, quand l’Orient lui a tourné la
+                    tête » ? Déchirements d’un jeune adulte, puis d’un homme fait qui jusqu’en 1925
+                    (il l’a dit en termes exprès dans l’avant-propos de <hi rend="italic">Service
+                        inutile</hi>) était « imbu des <hi rend="italic">sine caritate Romani</hi> »
+                    tout en « faisant joujou » avec le christianisme<note type="standard" xml:id="ftn24" place="foot" n="24">
+            <p> E, p. 577-578. L’avant-propos de <hi rend="italic">Service inutile</hi> est de 1935.</p>
+          </note>. </p>
+                <p xml:id="d1e931">Pour le Grand Pan, on est parti des <hi rend="italic">Notes
+                        relatives à la religion et aux passions</hi> de 1923 ; pour Julien, il faut
+                    commencer par deux témoignages : celui de Jacques-Napoléon Faure-Biguet, ami
+                    d’enfance de Montherlant, qui rapporte qu’« en 1922, tandis que les catholiques
+                    célébraient <hi rend="italic">la Relève du Matin</hi>, il méditait déjà d’écrire
+                    une vie de Julien l’Apostat, et, enflammé par son modèle, louait un petit
+                    logement rue de la Harpe, afin d’être tout proche des thermes de Julien<note type="standard" xml:id="ftn25" place="foot" n="25">
+            <p>
+                            <hi rend="italic">Les Enfances de Montherlant</hi>,
+                    p. 176.</p>
+          </note> », et celui de l’écrivain lui-même, qu’on lira dans <hi rend="italic">Moustique</hi>, un récit des années vingt mais publié après sa
+                    mort : </p>
+                <q rend="quotation">« J’ai loué à Paris un petit appartement meublé. Malgré le
+                    quartier que j’ai en horreur, je me suis décidé pour lui parce que, de mes
+                    fenêtres, je vois les thermes de Julien, que les chrétiens appellent
+                        l’Apostat<note type="standard" xml:id="ftn26" place="foot" n="26">
+            <p>
+                            <hi rend="italic">Moustique</hi>, p. 113, La Table Ronde,
+                        1986.</p>
+          </note>. »</q>
+                <p xml:id="d1e961">Cette dévotion pour Julien, comme on l’a dit plus haut,
+                    Montherlant la prêtera bientôt au Bricoule des<hi rend="italic">
+                    Bestiaires</hi>, roman qui paraît en 1926. Fort travaillé par « la religion du
+                    Taureau » et les légendes entourant Mithra, Bricoule est aussi un admirateur de
+                    Julien : </p>
+                <q rend="quotation">« Son esprit voletait avec insistance autour de l’empereur
+                    Julien, – et Julien était un fervent de Mithra, dont il célébrait les mystères
+                    dans son palais de Constantinople<note type="standard" xml:id="ftn27" place="foot" n="27">
+            <p> R1, p. 513. Pour l’origine de la relative « dont il
+                            célébrait… », voir P. D<hi rend="small-caps">uroisin</hi>, <hi rend="italic">Montherlant et l’Antiquité</hi>, Bibl. de la Faculté
+                            de Philosophie et Lettres de l’<hi rend="small-caps">ul</hi>g<hi rend="small-caps">, ccl</hi>, Paris, Les Belles Lettres, 1987,
+                            p. 230.</p>
+          </note>. »</q>
+                <p xml:id="d1e985">De là vient sans doute qu’en 1925 l’auteur d’<hi rend="italic">Aux Fontaines du désir</hi>, devant une mosquée de Tolède convertie en
+                    église, imaginait que « quelque Julien, restaurant Pallas Athéné, l’installerait
+                    dans Notre-Dame de Paris<note type="standard" xml:id="ftn28" place="foot" n="28">
+            <p> E, p. 274.</p>
+          </note> », et qu’en 1929 l’auteur de <hi rend="italic">Trois Jours au Montserrat</hi>, rappelant que « c’est toujours
+                    dans les grottes que devait être célébré le culte de Mithra », évoque à nouveau
+                    Julien, même si l’image qu’il s’en fait alors est un peu écornée :</p>
+                <q rend="quotation">« Souvent, sur ces hauteurs aimées des aigles […], m’est apparu
+                    le Génie de l’Empire, tenant une proie dans sa bouche pleine de sang. Julien,
+                    auquel il se montra deux fois, le vit plus aimable. Mais Julien n’était pas tout
+                    à fait celui dont ont soif nos imaginations romantiques, le jeune homme brûlant
+                    et dur, voué par son double baptême d’eau chrétienne et de sang de taureau à un
+                    grand destin ambigu ; c’était un foutriquet hirsute, au nez en l’air, “à peine
+                    un homme”, dit Ammien Marcellin, et l’on comprend que ses visitations aient été
+                    d’une nature un peu éthérée<note type="standard" xml:id="ftn29" place="foot" n="29">
+            <p> E, p. 380. Pour la lecture quelque peu maligne du texte d’Ammien
+                                (<hi rend="italic">Mediocris erat staturae…</hi>), voir P. D<hi rend="small-caps">uroisin</hi>, <hi rend="italic">Montherlant et
+                                l’Antiquité</hi>, p. 21.</p>
+          </note>. »</q>
+                <p xml:id="d1e1014">Aigreur toute passagère si l’on en juge par la <hi rend="italic">Lettre à M. Pioch, maire des Saintes-Maries, sur le sacrifice du Taureau et
+                        la sauvegarde du Vaccarès</hi> qui parut dans <hi rend="italic">Comœdia</hi>
+                    le 13 juin 1930. </p>
+                <p xml:id="d1e1022">Sollicité pour faire partie du Comité des Fêtes du Centenaire de
+                    Mistral pour la Camargue, Montherlant commence par renvoyer le lecteur au
+                    « paganisme toujours respirant sur la montagne catalane du Montserrat » qu’il
+                    vient de célébrer dans <hi rend="italic">Pour une Vierge noire</hi> (le futur
+                        <hi rend="italic">Trois Jours au Montserrat</hi>), avant de se réjouir de ce
+                    que « la même voix » lui arrive « d’un autre sanctuaire méditerranéen » :
+                    « C’est la voix de la Bonne Nouvelle, qui dément celle que Tibère entendit sur
+                    les eaux : “Le Grand Pan n’est pas mort !” » Suit la lettre au maire, où il dit
+                    son émotion à l’idée du « peuple méridional rallumant le feu générateur et
+                    pacificateur allumé par Aurélien et Julien contre la menace chrétienne, comme
+                    ces feux qu’on allume, en Afrique, autour des campements, contre les bêtes
+                    sinistres de la nuit ». Un bel élan de lyrisme, mais qui débouche sur un refus :
+                    « Il n’eût manqué à ma joie que celle d’être moi-même le sacrificateur. J’aurais
+                    pu l’être il y a quelques années encore. Je ne le peux plus<note type="standard" xml:id="ftn30" place="foot" n="30">
+            <p> Jean José <hi rend="small-caps">Marchand</hi>, <hi rend="italic">Montherlant</hi>, Paris, Éd.
+                            Jean-Michel Place, Archives du <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle, 1980, p. 89-90, où l’article de <hi rend="italic">Comœdia</hi>, dont le brouillon fut vendu chez Drouot
+                            le 23 mars 2009, est repris sous le titre <hi rend="italic">Le Grand Pan
+                                n’est pas mort</hi>. Pour le fond, on a noté le raccourci à propos
+                            de Tibère, à qui le cri fatidique fut seulement rapporté, et le
+                            rapprochement entre Julien et cet Aurélien qui mérita le surnom de
+                            « restaurateur du monde romain » pour avoir réintroduit à Rome le culte
+                            du Soleil invincible.</p>
+          </note>. »</p>
+                <p xml:id="d1e1052">Pourquoi « Je ne le peux plus » ? Jean Datain eut raison de
+                    suggérer qu’après <hi rend="italic">Montserrat</hi>, où s’exprimait encore « le
+                    regret de ne pouvoir concilier Pan et Jésus-Christ », Montherlant s’en tint à
+                    l’alternance parce qu’il avait admis que « les syncrétismes ne pouvaient
+                    demeurer qu’à l’état de vœu<note type="standard" xml:id="ftn31" place="foot" n="31">
+            <p>
+                            <hi rend="italic">Montherlant et l’héritage de la Renaissance</hi>,
+                            Amiot-Dumont, 1956, p. 68-69.</p>
+          </note> », mais enfin ce refus n’était
+                    pas un reniement. Julien reviendra dans les carnets de 1931, dans ceux de
+                        1937<note type="standard" xml:id="ftn32" place="foot" n="32">
+            <p> E, p. 989
+                            et 1217 respectivement. Le lecteur pouvait s’attendre à ce qu’on
+                            mentionne ici les carnets de 1930, où l’écrivain se réfère à la <hi rend="italic">Nouvelle Histoire romaine</hi> de Léon Homo pour
+                            évoquer les empereurs qui, avant de mourir, demandent à boire : Néron,
+                            Othon et Julien (E, p. 987). Les références que donne Montherlant
+                            (p. 340, 341 et 501) sont bien exactes, mais l’ouvrage de Homo n’ayant
+                            paru qu’en 1941 chez Arthème Fayard, puis, en 1943, chez Firmin Didot,
+                            c’est évidemment par erreur que cette note fut insérée dans des carnets
+                            de 1930.</p>
+          </note> et dans <hi rend="italic">L’Assomption du Roi des
+                        Rois </hi>en 1942, et ce n’est pas un hasard si Montherlant à deux reprises,
+                    en 1942 comme en 1931, cite les mots de Vigny pour qui l’empereur « prend la
+                    résolution de se faire tuer quand il est sûr qu’il a été plus avant que les
+                    masses stupides et grossières ne peuvent aller », avant de les commenter, dans
+                    une parenthèse peu amène pour les tenants de la religion nouvelle : « (les
+                    masses qui veulent être chrétiennes)<note type="standard" xml:id="ftn33" place="foot" n="33">
+            <p> E, p. 1445 dans <hi rend="italic">Textes sous une
+                                occupation</hi>.</p>
+          </note>. »</p>
+                <p xml:id="d1e1084">Parenthèse qui va nous ramener à 1940 pour l’essai qui donna son
+                    titre au<hi rend="italic"> Solstice de juin</hi>. On y retrouvera ensemble,
+                    comme dans le manuscrit de 1922, le dieu déchu et l’empereur traité d’apostat,
+                    Pan à cause de l’annonce de sa mort, Julien pour le mot qu’il aurait prononcé
+                    avant de rendre l’âme : « Tu as vaincu, Galiléen. »</p>
+                <p xml:id="d1e1089">L’écrivain est à Marseille, l’armistice a été signé une semaine
+                    auparavant, au solstice d’été, et « la croix gammée, qui est la Roue solaire,
+                    triomphe en une des fêtes du Soleil » :</p>
+                <q rend="quotation">« Le soir, j’ai été marcher le long de cette côte livide : quand
+                    on arrive du large, comme on voit tout de suite que mon pays a toujours été
+                    saigné. Rien n’a lieu sur la grande eau, plus douce que la terre. Elle vague
+                    vaguement, jouant un peu sur son bord. Saute parfois une petite vague, comme un
+                    chien qui bondit pour avaler une mouche. C’est la mer où une voix passa qui
+                    disait : “Le grand Pan est mort”, traduisez : “Tu as vaincu, Galiléen.” Et où
+                    j’entends ce soir une autre voix qui passe : “Tu es vaincu, Galiléen<note type="standard" xml:id="ftn34" place="foot" n="34">
+            <p> E,
+                    p. 954.</p>
+          </note>”. »</q>
+                <p xml:id="d1e1099">Montherlant évoque ensuite le mois qu’il a passé dans la zone
+                    des armées, entre le 20 mai et le 20 juin, comme correspondant de guerre de <hi rend="italic">Marianne</hi>. Il y eut d’abord l’attente : </p>
+                <q rend="quotation">« J’étais parmi les troupes chrétiennes et numides, et les
+                    nègres portant au poignet des “Immaculée Conception” pour grigris. Longtemps
+                    j’avais eu faim de voir cette armée en face, et de savoir quelle était sa
+                    contenance, quels étaient ces hommes “qui nomment dieu le secret des bois” [en
+                    note : Tacite, <hi rend="italic">La Germanie</hi>] ; dont c’était la gloire
+                    ancienne d’avoir haï le christianisme [en note : Goethe, <hi rend="italic">Xénies</hi>], et dont maintenant c’était la mission de ruiner la morale
+                    bourgeoise et la morale ecclésiastique, depuis les rives de l’Atlantique
+                    jusqu’aux marches de Russie<note type="standard" xml:id="ftn35" place="foot" n="35">
+            <p>
+                            <hi rend="italic">Ibid.</hi>, p. 955.</p>
+          </note>. »</q>
+                <p xml:id="d1e1120">Puis vint la débâcle, qui de nouveau appelle le mot de Tacite,
+                    associé au retour de Julien :</p>
+                <q rend="quotation">« À nos trousses, la païennie déferlait, ses casques ceints de
+                    couronnes de branchages : “Ils nomment dieu le secret des bois” […]. Et je
+                    pensais que la terre qu’elle gagnait maintenant lui était acquise […], et qu’un
+                    jour viendrait où je verrais flotter l’étendard de la Roue solaire sur les tours
+                    de Notre-Dame de Paris. La cité n’était plus la cité de Geneviève, mais la cité
+                    de Julien. Le pays n’était plus le pays des Saintes, mais le pays de
+                    l’Empereur. »</q>
+                <p xml:id="d1e1124">Des lignes assez dures pour que l’auteur (Christopher Gérard l’a
+                    noté dans son essai sur Julien) décide de les éliminer de la version revue du
+                        <hi rend="italic">Solstice</hi>
+          <note type="standard" xml:id="ftn36" place="foot" n="36">
+            <p> Voir <hi rend="italic">Julianus Redivivus,</hi>
+                            Bruxelles, Antaios, 2002, p. 16 (repris dans <hi rend="italic">La Source
+                                pérenne</hi>, Lausanne, L’Âge d’Homme, 2007). Pour ce passage du <hi rend="italic">Solstice</hi>, voir la p. 303 de l’édition originale
+                            publiée par Grasset en 1941. </p>
+          </note>, des lignes qui lui furent
+                    vivement reprochées en 1945 et lui sont encore reprochées aujourd’hui, bien
+                    qu’elles soient dans le droit fil de ce qu’il disait en 1925 devant la mosquée
+                    de Tolède transformée en église, dans le droit fil aussi des <hi rend="italic">Notes relatives à la religion et aux passions</hi> de mai 1923, parentes
+                    enfin, ne serait-ce que par l’allusion à Tacite, de cette page du <hi rend="italic">Songe</hi> où Bricoule considère, sur sa table de travail, le
+                    christ d’ivoire qu’il « avait nommé Génie de son travail » :</p>
+                <q rend="quotation">« Il lui avait demandé davantage de valeur, demandé le pouvoir
+                    de créer la phrase secrète qui rapprocherait de son autel “ceux qui nomment Dieu
+                    le secret des bois”. Et telle était la disposition du lieu, que, lorsqu’il était
+                    à sa table, le jeune homme s’apercevait, sous le geste de ce christ, réfléchi
+                    dans la vitre de sa bibliothèque […]. Et à côté d’eux, suspendu dans l’air, vrai
+                    spectre d’un monde refroidi, un diaphane visage féminin […] : le marbre rapporté
+                    d’Achaïe […], qui du fond de la pièce venait mettre son image […] auprès des
+                    images d’Alban et de la Croix<note type="standard" xml:id="ftn37" place="foot" n="37">
+            <p> R1, p. 12-13. Entre <hi rend="italic">Le Songe</hi> et <hi rend="italic">Le Solstice de juin</hi>, on aura cette application
+                            très particulière de la formule de Tacite dans les carnets de 1934 :
+                            « Arrivé au nid de toutes les délices, qui était un beau bosquet, je me
+                            redisais le mot de Tacite sur les Germains : “Ils nomment dieu le secret
+                            des bois” » (E, p. 1114).</p>
+          </note>. »</q>
+                <p xml:id="d1e1161">Le voilà bien le héros « saugrenu » qui déplut aux lecteurs
+                    catholiques du <hi rend="italic">Songe</hi>, celui qui attend d’un crucifix
+                    qu’il lui souffle les mots capables de réaliser l’utopie que son créateur
+                    entretint « jusqu’à sa trentième année environ » (on en revient une fois de plus
+                    à <hi rend="italic">Paysage des Olympiques</hi>) et qui était d’« unir par la
+                    même piété toutes les croyances et tous les âges ». Ce n’était pourtant, ici
+                    encore, que l’amorce de ce que dira en 1925 l’auteur de <hi rend="italic">Syncrétisme et alternance</hi> quand à l’élan syncrétiste il associera la
+                    nécessité « d’alterner les idéals<note type="standard" xml:id="ftn38" place="foot" n="38">
+            <p> E, p. 244.</p>
+          </note> », l’amorce aussi de ce que le
+                    Montherlant du <hi rend="italic">Solstice </hi>jugera bon de rappeler à ses
+                    lecteurs de 1941 lorsque, dans une note fort explicite et dont nul ne fit grand
+                    cas, il les renverra à ses écrits des années vingt et trente, dont le fameux
+                    essai, précisément, de 1925<note type="standard" xml:id="ftn39" place="foot" n="39">
+            <p> Cette note qui figure aux pages 312 et 313 de l’édition de 1941
+                            du <hi rend="italic">Solstice</hi> sera reprise dans l’édition de la
+                            Pléiade (E, p. 961), mais elle est nettement plus explicite dans
+                            l’édition originale.</p>
+          </note>.</p>
+                <p xml:id="d1e1189">On s’étonne moins, après cela, de retrouver dans <hi rend="italic">Le Solstice </hi>le mot de Tacite qu’on a lu dans <hi rend="italic">Le Songe</hi>, à vrai dire sorti des <hi rend="italic">Mémoires d’outre-tombe</hi> que le soldat Montherlant s’était fait envoyer
+                    par sa grand-mère fin 1917, quand il était à Mirecourt dans les Vosges<note type="standard" xml:id="ftn40" place="foot" n="40">
+            <p> Voir <hi rend="italic">Album Montherlant</hi> de la Bibl. de la Pléiade,
+                            p. 78.</p>
+          </note>. </p>
+                <p xml:id="d1e1208">Chateaubriand vient d’exalter « la jeune Allemagne » de 1813 qui
+                    s’est rebellée contre Napoléon ; il commente : « Les Allemands adorent
+                    aujourd’hui la liberté dans un vague indéfinissable, de même qu’autrefois ils
+                    appelaient <hi rend="italic">Dieu</hi> le secret des bois : <hi rend="italic">Deorumque nominibus appellant secretum illud</hi>
+          <note type="standard" xml:id="ftn41" place="foot" n="41">
+            <p>
+                            <hi rend="italic">Mémoires d’outre-tombe</hi>, XXII, 5. Pour le <hi rend="italic">De Germania</hi>, voir IX, 2 : <hi rend="italic">Lucos
+                                ac nemora consecrant deorumque nominibus appellant secretum illud
+                                quod sola reverentia vident</hi>. (« Ils sanctifient les bois et les
+                            bosquets et donnent les noms des divinités à ce mystère qu’ils ne voient
+                            que par les yeux de la vénération. »)</p>
+          </note>
+          <hi rend="italic">…</hi> » On ne conçoit pas traduction plus libre, ni plus originale, ni qui
+                    fasse davantage rêver, pour ces quelques mots de <hi rend="italic">La
+                        Germanie</hi>. Montherlant eut la bonne idée de la retenir, mais derrière
+                    Chateaubriand, c’est aussi l’étroite parenté du<hi rend="italic"> Songe</hi> et
+                        du<hi rend="italic"> Solstice </hi>qui s’impose au lecteur, pour lui
+                    rappeler qu’il s’agit toujours de la guerre opposant la France à l’Allemagne,
+                    autant dire la chrétienté au paganisme.</p>
+                <p xml:id="d1e1241">Pour annoncer <hi rend="italic">La Garde autour de Pan</hi>, on
+                    avait <hi rend="italic">Le dieu Pan</hi> de décembre 1912. On n’aura pas de <hi rend="italic">Julien l’Apostat</hi> avant l’heure pour annoncer celui de
+                    décembre 1922, mais on tient quand même une piste avec le manuel d’histoire que
+                    Montherlant avait utilisé en sixième à Janson de Sailly. Il s’agit en
+                    l’occurrence de <hi rend="italic">L’Histoire de l’Antiquité</hi> d’Albert Malet,
+                    où il a volontiers picoré pour ses écrits de jeunesse et qu’il a consulté sa vie
+                        durant<note type="standard" xml:id="ftn42" place="foot" n="42">
+            <p> Pour les
+                            emprunts des jeunes années, voir P. D<hi rend="small-caps">uroisin</hi>,
+                            « Le <hi rend="italic">De Augusto</hi> du jeune Henry de Montherlant
+                            (suite et fin) », dans <hi rend="italic">Les Lettres romanes</hi> 63/3-4
+                            (2009), p. 242-243, et plus encore des textes inédits des années
+                            1906-1907 comme <hi rend="italic">Suprême défi</hi> et <hi rend="italic">Nadia</hi>. Pour les témoignages de l’âge mûr, voir <hi rend="italic">Port-Royal et le puritanisme romain</hi> (T, p. 921)
+                            ou le texte intitulé <hi rend="italic">Poissons</hi> (<hi rend="italic">Coups de soleil</hi>, Paris, Gallimard, 1972, p. 186).</p>
+          </note>.
+                    Or on trouve à la page 401 de Malet une illustration qui s’intitule
+                    « Restauration d’une partie des thermes de Julien à Paris – Le Frigidarium », et
+                    aux pages 428-429 tout un paragraphe consacré à Julien lui-même :</p>
+                <q rend="quotation">« La tentative de restauration du paganisme fut l’œuvre de
+                    l’empereur <hi rend="italic">Julien</hi>, neveu de Constantin, qui était né
+                    chrétien. Il avait longtemps vécu à Athènes dans l’étude des belles-lettres et
+                    de la philosophie grecque. Quand les guerres civiles l’eurent porté à l’empire,
+                    il s’empressa d’abjurer le Christianisme, adopta le culte de Mithra, rouvrit les
+                    temples abandonnés et restaura toutes les cérémonies de l’ancien culte. Les
+                    Chrétiens le surnommèrent l’<hi rend="italic">Apostat</hi>. Cependant il ne
+                    procéda pas à des persécutions sanglantes. Il disait lui-même : “J’ai résolu
+                    d’user de douceur et d’humanité envers tous les Galiléens.” Mais il s’efforça de
+                    ruiner leur influence ; il les exclut des fonctions publiques et leur interdit
+                    d’enseigner les lettres profanes en leur disant : “Contentez-vous de croire et
+                    cessez de vouloir connaître.” Sa tentative n’aboutit pas ; car il mourut bientôt
+                    dans une expédition contre les Perses (360-363). – Il avait, au début de son
+                    règne, résidé à Lutèce-Paris, et il avait embelli ce séjour qu’il affectionnait.
+                    Il reste de lui des <hi rend="italic">Thermes</hi>, qui sont aujourd’hui compris
+                    dans le Musée de Cluny. »</q>
+                <p xml:id="d1e1297">Pour un jeune lecteur qui avait « sauté dans <hi rend="italic">Quo vadis</hi> les pages consacrées à l’apôtre Pierre<note type="standard" xml:id="ftn43" place="foot" n="43">
+            <p> C’est ce qu’affirme Montherlant de
+                            l’Alban des <hi rend="italic">Bestiaires</hi> (R1, p. 385), mais qui va
+                            dans le sens de ce qu’il dira pour lui-même dans <hi rend="italic">Le
+                                Treizième César</hi>, p. 151 à 155. </p>
+          </note> », il y avait là
+                    matière à réflexion et à rêveries.</p>
+            </div>
+            <div type="div1" xml:id="d1e1313">
+                <head subtype="level1" xml:id="d1e1314">Le manuscrit du 30 décembre 1922</head>
+                <p xml:id="d1e1316">Quand on a devant soi un ensemble de pages qui ne sont pas
+                    numérotées ou ne le sont que partiellement, on commence par les lire dans
+                    l’ordre où elles se présentent, quitte à le modifier ensuite, s’il apparaît
+                    qu’il n’était pas le plus approprié. Qu’en est-il dans le cas présent ?</p>
+                <p xml:id="d1e1318">Pour la première et la dernière page, c’est assez simple.
+                    D’abord maintenue par une épingle qui laissa une marque dans le coin supérieur
+                    gauche de chaque page<note type="standard" xml:id="ftn44" place="foot" n="44">
+            <p> En l’espèce, deux petits trous distants d’un peu moins de 2
+                        cm.</p>
+          </note>, la liasse le fut ensuite par deux trombones juxtaposés qui
+                    laissèrent eux aussi leur empreinte sur les dix pages. L’un des trombones a de
+                    surcroît déposé de sa rouille au recto d’une page qui est tout justement celle
+                    portant la date et le double titre, ainsi qu’au verso d’une autre page qu’on
+                    tiendra, en principe, pour la dernière<note type="standard" xml:id="ftn45" place="foot" n="45">
+            <p> Pour les plus minutieux, on dira pourquoi l’épingle,
+                            dont la tête et l’extrémité laissèrent elles aussi un point de rouille
+                            sur le premier et le dernier feuillet, précéda les trombones. Dans
+                            l’angle supérieur gauche de l’une des pages numérotées par ses soins,
+                            Montherlant a collé un bout de papier destiné à corriger la
+                            numérotation ; or ce bout de papier a masqué les trous de l’épingle,
+                            mais il porte les empreintes des trombones.</p>
+          </note>. Suivront six
+                    pages, dont cinq numérotées par Montherlant, qui développent le canevas figurant
+                    sur la première. Pour les trois dernières pages, essentiellement consacrées à
+                    Julien, on renvoie le lecteur au n° 17 d’<hi rend="italic">Anabases</hi>.</p>
+                <p xml:id="d1e1333">Une autre difficulté surgit quand on entreprend de transcrire le
+                    manuscrit, Montherlant ayant semé des notes et des références un peu partout :
+                    dans la marge de gauche le plus souvent (si on peut parler de marge), mais
+                    aussi, parfois, en bas de page, voire au verso. Une note en italique et entre
+                    crochets droits précisera leur place sur la page. </p>
+                <p xml:id="d1e1335">Les remords de l’écrivain seront soigneusement notés : les mots
+                    barrés seront repris comme tels, et les corrections signalées par un espacement
+                    étendu. </p>
+                <p xml:id="d1e1337">La lecture et le commentaire se feront par tranches, en fonction
+                    de la teneur même du document. On lira d’abord la première page, où figure, en
+                    cinq points, le plan de <hi rend="italic">La Garde autour de Pan</hi>, puis les
+                    six pages où ces cinq points sont inégalement développés, les trois dernières
+                    pages étant, comme on vient de le dire, renvoyées à plus tard. </p>
+                <p xml:id="d1e1342">Dernière remarque : pour éviter toute confusion entre les pages
+                    numérotées par Montherlant et les pages du manuscrit en tant que tel, on parlera
+                    désormais de pages et de feuillets.</p>
+                <q rend="quotation">
+          <hi rendition="#style04">
+            <hi rend="small-caps">Feuillet</hi>
+          </hi>
+          <hi rendition="#style04"> 1<lb/>
+          </hi>30-12-1922 <hi rend="italic">[coin supérieur gauche]</hi>
+        </q>
+                <q rend="quotation">
+                    <hi rendition="#style05">La Garde autour de Pan.<lb/>et Julien l’Apostat</hi>
+                    <hi rend="italic">[ajouté au crayon]</hi>
+                </q>
+                <q rend="quotation">1. comment ils deviennent amis---------ds le Nord</q>
+                <q rend="quotation">2. leur dignité<lb/>lui se sent romain et antique,
+                    uniquement<lb/>l’autre est devant lui un nazaréen<lb/>(de ma part aucune idée de
+                    conciliation : tout d’une pièce, antique)</q>
+                <q rend="quotation">3. aux thermes de Julien<lb/>il est le symbole de l’envie de
+                    retour au paganisme<lb/>le grand Pan est mort<lb/>la tristesse de Pan<lb/>les
+                    dieux en exil<lb/>tjrs antique tout d’une pièce <hi rend="italic">[dans la marge
+                        en regard des quatre lignes précédentes]</hi>
+        </q>
+                <q rend="quotation">4. Dans les Vosges<lb/>Kyriolés – Pagani<lb/>Il voit que toutes
+                    choses sont l’une et l’autre<lb/>Symphonie : vœu de conciliation.</q>
+                <q rend="quotation">5. Office<lb/>Se rend compte que le catholicisme a tué le
+                    christianisme et est en réalité le paganisme continué, tout ce qui nous reste de
+                    vivant de la res romana. Certitude joyeuse</q>
+                <p xml:id="d1e1400">Que voilà un plan des plus précis pour… mais pour quoi au fait ?
+                    Un « livre d’essais » comme annoncé dans la <hi rend="italic">Nrf</hi> du 1<hi rend="sup">er</hi> mai 1923 ? Les cinq temps que définit ce plan donnent
+                    plutôt l’idée d’un récit unique avec une structure bien charpentée et des
+                    péripéties qui se déroulent dans le Nord, puis à Paris-Lutèce, puis dans les
+                    Vosges.</p>
+                <p xml:id="d1e1408">
+          <hi rend="italic">Acte I</hi>. C’est dans le Nord que les
+                    protagonistes se rencontrent et se lient d’amitié. Quel Nord ? L’auteur lui-même
+                    n’y a, semble-t-il, pensé qu’après coup, un blanc séparant très nettement les
+                    groupes de mots « comment ils deviennent amis » et « dans le Nord ».</p>
+                <p xml:id="d1e1412">
+          <hi rend="italic">Acte II.</hi> Cette amitié n’entame nullement
+                    les convictions des deux hommes, du Romain comme du pseudo-Nazaréen. Mais s’ils
+                    ont l’un et l’autre « leur dignité » (un mot qui s’éclairera plus loin),
+                    l’auteur insiste sur le caractère entier du païen : « Lui se sent romain et
+                    antique, uniquement », « de ma part aucune idée de conciliation », et on lit
+                    bien « de <hi rend="italic">ma</hi> part », comme si les mots sortaient de la
+                    bouche même du personnage.</p>
+                <p xml:id="d1e1419">
+          <hi rend="italic">Acte III</hi>. La scène se passe aux thermes
+                    de Julien. Le « Romain » ne rêve que du « retour au paganisme » et restera
+                    inflexible tout au long de l’acte III, « toujours antique, tout d’une pièce ».
+                    C’est ici que Pan se manifeste, avec le cri annonçant sa mort et avec cette
+                    « tristesse » dont parlera en 1929 l’auteur du <hi rend="italic">Dernier
+                        Retour</hi> quand il évoquera le tableau de Signorelli<note type="standard" xml:id="ftn46" place="foot" n="46">
+            <p> Voir plus haut dans le texte. Le
+                            tableau, qui se trouvait à Berlin, fut détruit par un incendie en mai
+                            1945. </p>
+          </note>.</p>
+                <p xml:id="d1e1431">Autre « invité », Henri Heine, avec « les dieux en exil ».
+                    Faut-il ici rappeler ce qu’en disait l’auteur des <hi rend="italic">Notes
+                        relatives à la religion et aux passions</hi> quand il voyait en son Alban
+                    « un de ces produits du monde antique adapté à la religion nouvelle à laquelle
+                    l’Église les incorpora » : « Je songe à ces divinités champêtres évoquées par
+                    Heine » ?</p>
+                <p xml:id="d1e1436">On connaît le thème des <hi rend="italic">Dieux en
+                        exil</hi>
+          <note type="standard" xml:id="ftn47" place="foot" n="47">
+            <p>
+                            D’abord publié dans la <hi rend="italic">Revue des deux mondes</hi> du
+                            15 février 1852, il fut édité chez Lebègue, à Bruxelles, en 1853, puis
+                            chez Lévy, à Paris, en 1855, dans le recueil intitulé <hi rend="italic">De l’Allemagne</hi>.</p>
+          </note>. Le très savant Henri Kitzler a
+                    terminé <hi rend="italic">La Magnificence du christianisme</hi>, dont il était
+                    fort satisfait jusqu’à ce que « quelques écrivains modernes », parmi lesquels
+                    Gibbon, lui révèlent les crimes de ces « chrétiens vainqueurs » qui de
+                    persécutés devinrent persécuteurs. Poursuivant son enquête, il découvre les
+                    pages où Libanius « conjurait les dévots barbares » d’épargner les temples
+                    grecs. Résultat, il prend fait et cause pour le paganisme et jette au feu son
+                    manuscrit. Le narrateur intervient alors pour dénoncer la responsabilité des
+                    philosophes grecs dans leur lutte contre les Pères de l’Église :</p>
+                <q rend="quotation">« Il n’importait pas en effet de donner par des subtilités
+                    néo-platoniciennes une signification plus profonde à la mythologie, d’infuser
+                    aux dieux défunts une nouvelle vie, un nouveau sens symbolique, de se tuer à
+                    réfuter la polémique grossière et matérielle de ces premiers pères de l’église,
+                    qui attaquaient, par des plaisanteries presque voltairiennes, la moralité des
+                    dieux ! – Il importait plutôt de défendre l’essence de l’hellénisme, la manière
+                    de penser et de sentir, toute la vie de la société hellénique, et de s’opposer
+                    avec force à la propagation des idées et des sentiments sociaux importés de
+                    Judée. La véritable question était de savoir si le monde devait appartenir
+                    dorénavant à ce judaïsme spiritualiste que prêchaient ces Nazaréens
+                    mélancoliques qui bannirent de la vie toutes les joies humaines pour les
+                    reléguer dans les espaces célestes, – ou si le monde devait demeurer sous la
+                    joyeuse puissance de l’esprit grec, qui avait érigé le culte du beau et fait
+                    épanouir toutes les magnificences de la terre<note type="standard" xml:id="ftn48" place="foot" n="48">
+            <p> P. 189 dans l’édition
+                        Lévy.</p>
+          </note> ! »</q>
+                <p xml:id="d1e1461">Dans ce monde christianisé, « Neptune resta le souverain de
+                    l’empire des mers, de même que Pluton, malgré sa métamorphose diabolique,
+                    conserva le trône du Tartare ». Les habitants de l’Olympe, en revanche, furent
+                    moins heureux, et notamment Jupiter, que des marins voyageant dans les mers de
+                    glace avaient, paraît-il, retrouvé seul et sous les traits d’un vieillard ravagé
+                    par les ans dans une île seulement peuplée de lapins où il se lamente désormais
+                    sur sa gloire passée.</p>
+                <p xml:id="d1e1464">Que Montherlant ait fait son miel d’un tel récit et qu’il ait
+                    songé à s’en inspirer pour son Romain aux thermes de Julien, quoi de plus
+                    normal ? Il avait sans doute reconnu dans « la joyeuse puissance de l’esprit
+                    grec, qui avait érigé le culte du beau et fait épanouir toutes les magnificences
+                    de la terre » ce qu’il avait lui-même écrit en décembre 1912, qu’« au siècle du
+                    grand Pan, l’homme sympathisait avec ce qui est sain, ce qui est beau, ce qui
+                    est la vie ».</p>
+                <p xml:id="d1e1466">
+          <hi rend="italic">Acte IV</hi>. Nous voici dans les Vosges (où
+                    Julien guerroya en 357 pour le compte de Constance II, où Montherlant a servi de
+                    décembre 1917 à juin 1918, à Mirecourt d’abord, comme on l’a vu plus haut, puis
+                    à Remiremont, Gérardmer et Bande-Laveline), et c’est dans ce contexte qu’il est
+                    d’abord question de <hi rend="italic">kyriolés</hi> et de <hi rend="italic">pagani</hi>. </p>
+                <p xml:id="d1e1476">Le mot <hi rend="italic">pagani</hi>, qui l’ignore ? a d’abord
+                    désigné les paysans avant de désigner les païens, la campagne étant restée plus
+                    longtemps fidèle aux cultes anciens ; le mot <hi rend="italic">kyriolés</hi>, en
+                    revanche, est lorrain et désigne des cantiques populaires comme ceux que
+                    chantaient, chaque lundi de Pentecôte, les jeunes filles venues en procession
+                    des villages voisins pour honorer l’abbesse et les dames chanoinesses en leur
+                    église de… Remiremont. On peut rêver que le païen est ému par ces kyriolés comme
+                    le fut en avril 1916, par des « cantiques populaires » lui aussi, l’auteur d’<hi rend="italic">Atlantes</hi>
+          <note type="standard" xml:id="ftn49" place="foot" n="49">
+            <p> L’essai fut intégré dans <hi rend="italic">La Relève du
+                                matin</hi> (E, p. 111).</p>
+          </note>, et qu’il découvre, dans un
+                    mouvement très « montherlantien », que « toutes choses sont l’une et l’autre ».
+                    Le voilà moins « tout d’une pièce » désormais et animé d’un désir de
+                    « conciliation » dans le sens, une fois encore, où l’entendra l’auteur de <hi rend="italic">Syncrétisme et alternance</hi> quand il dira « qu’être humain,
+                    c’est comprendre tous les mouvements des hommes », et que « tout le monde a
+                    raison, toujours », et que « l’univers n’ayant aucun sens, il est parfait qu’on
+                    lui donne tantôt l’un et tantôt l’autre<note type="standard" xml:id="ftn50" place="foot" n="50">
+            <p> Voir E, p. 239 et 244, respectivement dans <hi rend="italic">Aux Fontaines du désir</hi>.</p>
+          </note> ». Dans ce
+                    texte cardinal de 1925, Montherlant a repris un mot de Romain Rolland, à qui
+                    l’essai était d’abord adressé : « L’humanité est une symphonie de grandes âmes
+                    collectives » ; ce n’est peut-être pas un hasard si le mot « symphonie » est
+                    aussi celui qui devait terminer l’épisode vosgien : il rappelle les kyriolés,
+                    tout en suggérant le syncrétisme. </p>
+                <p xml:id="d1e1505">
+          <hi rend="italic">Acte V</hi> et dernier. Comment faut-il
+                    entendre le mot « office » ? Notre païen a-t-il assisté à une messe de Pentecôte
+                    où l’on chantait de ces kyriolés, à l’image de la messe de Pentecôte qui avait
+                    tant ému l’auteur des <hi rend="italic">Enfants du matin</hi>
+          <note type="standard" xml:id="ftn51" place="foot" n="51">
+            <p> Cet essai, daté de
+                            décembre 1916, fut incorporé, lui aussi, à <hi rend="italic">La Relève
+                                du matin</hi> (voir E, p. 123).</p>
+          </note>
+          <hi rend="italic"> ?</hi>
+                    A-t-il alors compris, au point d’en tirer une « certitude joyeuse », que « le
+                    catholicisme a tué le christianisme » et qu’il « est en réalité le paganisme
+                    continué, tout ce qui nous reste de vivant de la res romana » ?</p>
+                <p xml:id="d1e1521">C’est par commodité qu’on a défini les grandes lignes de <hi rend="italic">La Garde autour de Pan</hi> comme s’il s’était agi d’un
+                    « mystère », alors que l’épisode qui a pour cadre les thermes de Julien fait
+                    davantage penser à un dialogue dans le genre du <hi rend="italic">De Natura
+                        deorum</hi> auquel l’auteur des <hi rend="italic">Notes relatives à la
+                        religion et aux passions</hi> renverra bientôt ses lecteurs. Dans ces
+                    entretiens philosophiques à l’ancienne, on voit des amis conférer sur les sujets
+                    les plus graves dans les lieux les plus aimables qui soient : une palestre, une
+                    villa ou le lieu de rencontre par excellence que sont les thermes<note type="standard" xml:id="ftn52" place="foot" n="52">
+            <p> Tous les romans
+                            « antiques » de la fin du <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> s. y ont recouru, et Arthur Koestler encore en 1939 pour son
+                                <hi rend="italic">Spartacus</hi>. Anatole France a choisi le forum
+                            pour les personnages de <hi rend="italic">Sur la pierre
+                            blanche</hi>.</p>
+          </note>. Pour <hi rend="italic">La Garde autour de
+                        Pan</hi>, ceux de Julien s’imposaient, que Montherlant avait découverts,
+                    enfant, dans son Malet et qu’il avait sous les yeux en décembre 1922, tandis que
+                    les Vosges, et pourquoi pas l’église de Remiremont, auraient servi de cadre à la
+                    « révélation ». </p>
+                <p xml:id="d1e1551">Simple hypothèse, bien sûr, que n’infirment ni ne confirment les
+                    six feuillets qu’on va lire et dont le contenu même donne à penser que la date
+                    figurant sur la page du sommaire est à prendre comme un point de repère à la
+                    fois précis et relatif. </p>
+                <q rend="quotation">
+                    <hi rendition="#style04">
+                        <hi rend="small-caps">Feuillet</hi>
+                    </hi>
+                    <hi rendition="#style04"> 2</hi>
+                </q>
+                <q rend="quotation">1<hi rend="italic"> [coin supérieur gauche au crayon bleu]</hi>
+                </q>
+                <q rend="quotation">espérance : le pain des faibles tout était inutilisé alors
+                    qu’aujourd’hui tout est utilisé </q>
+                <q rend="quotation">Ce qu’il y a eu de beau dans le monde antique, c’est son
+                    désintéressement. On vivait, on luttait, on mourait pcq. on avait le talent de
+                    vivre <hi rendition="#style06">et</hi> de lutter, de mourir. L’acte était pur,
+                    parfait en soi.<lb/>Du jour où l’important a été rejeté dans une autre vie, les
+                    actes ont perdu leur éminente dignité, sont descendus d’un rang, parce qu’ils
+                    n’étaient plus des fins mais des moyens (à cette même époque, les choses
+                    inanimées perdirent leur valeur). La vie a perdu sa netteté, <hi rendition="#style06">parce que</hi> rien n’y éta<hi rendition="#style06">i</hi>nt jamais <hi rendition="#style06">fini</hi> totalement accompli,
+                    puisque cela se continuait dans l’au-delà : excellente justification pour toute
+                    médiocrité. À tous les points de vue, le <hi rendition="#style05">tremblement</hi> est entré dans le monde. Il devait y devenir une des
+                    nouvelles divinités.</q>
+                <q rend="quotation">laissent au ciel le soin de punir les coupables. Laissez-vous
+                    dépouiller. Ne savez-vous pas que les injustes n’auront pas le royaume de Dieu
+                        S<hi rend="sup">t</hi> Paul, Corinth. I, p. 196 <hi rend="italic">[dans la
+                        marge]</hi>
+        </q>
+                <q rend="quotation">Dans le monde ancien, l’homme avait une conscience. C’est pour
+                    elle qu’il agissait. Ceci toujours plus ou moins, mais jamais autant que vers ce
+                    qu’on a appel(l)é la <hi rendition="#style05">décadence</hi> romaine. <hi rendition="#style06">À cette époque de « décadence »</hi> Jamais la dignité
+                    personnelle n’a été si grande qu’à cette époque de <hi rendition="#style05">décadence</hi> où, la religion étant déconsidérée, Dieu est descendu du
+                    ciel pour se mettre dans la conscience de l’homme <hi rend="italic">[dans la
+                        marge </hi>III, 193<hi rend="italic">]</hi>. L’exemplaire de Marc Aurèle
+                    marque le plus haut degré de l’accomplissement intérieur. À aucune époque n’a
+                    été fait par l’homme un plus violent effort pour se substituer à Dieu. On
+                    comprend <hi rendition="#style06">l’irritation</hi> la rage du dieu des Juifs :
+                    « Je prendrai les sages dans leurs ruses » – « Le Seigneur connaît les pensées
+                    des sages : il sait qu’elles sont vaines » <hi rend="sup">(1)<lb/>(1)</hi> Paul,
+                    I <hi rendition="#style06">Ep</hi>. Corinth.</q>
+                <q rend="quotation">ISRAËL <hi rend="italic">[isolé en bas à droite]</hi>
+        </q>
+                <q rend="quotation">
+                    <hi rendition="#style04">
+                        <hi rend="small-caps">Feuillet</hi>
+                    </hi>
+                    <hi rendition="#style04"> 3</hi>
+                </q>
+                <q rend="quotation">2 1 <hi rend="italic">
+            <hi rendition="#style05">[</hi>
+          </hi>
+          <hi rend="italic">coin supérieur gauche au crayon bleu, le </hi>1 <hi rend="italic">surchargeant le </hi>2<hi rend="italic">]</hi>
+        </q>
+                <q rend="quotation">Guign. p. 41 <hi rend="italic">[dans la marge]<lb/>
+          </hi>lui,
+                    c’est une matière religieuse dans cette action p[arce] qu’il vit moins la
+                    coutume des ancêtres, l’hérédité romaine<lb/>moi c’est un peuple qui a toujours
+                    été digne et à sa hauteur</q>
+                <q rend="quotation">G. 42 <hi rend="italic">[dans la marge]<lb/>
+          </hi>lui un peuple
+                    qui a souffert, déporté par le roi de Babylone<lb/>exilés, pleins de la croyance
+                    à l’obligation de se racheter<lb/>
+          <hi rendition="#style05">une doctrine
+                        d’exilés</hi>, de patients (Guignebert 46)<lb/>cette sorte d’espérance est
+                    une chose juive (Guigneb<hi rend="sup">t</hi> 47)<lb/>le frère du mangeur de
+                    sauterelles</q>
+                <q rend="quotation">p 68 / 74 sqq.<hi rend="italic"> [en dessous et au
+                    crayon]</hi>
+        </q>
+                <q rend="quotation">
+                    <hi rendition="#style04">
+                        <hi rend="small-caps">Feuillet</hi>
+                    </hi>
+                    <hi rendition="#style04"> 4</hi>
+                </q>
+                <q rend="quotation">1 2 <hi rend="italic">[sur le </hi>1<hi rend="italic">]
+                        </hi>2<hi rend="italic"> [au crayon bleu sur un bout de papier oblitérant
+                        les </hi>1<hi rend="italic"> et </hi>2 <hi rend="italic">précédents]</hi>
+                </q>
+                <q rend="quotation">Il fallait qu’ils eussent durement souffert pour avoir accepté
+                    cette religion qui 1° renonçait à la vie 2° était apportée à eux, <hi rendition="#style06">citoyens</hi> romains, par des circoncis, à eux, hommes
+                    libres, par une race infiniment servile ! Certes ils devaient être à leur point
+                    de moindre résistance.</q>
+                <q rend="quotation">Me voici devant lui, semblable à un de ces vieux romains du 1<hi rend="sup">er</hi> temps de notre ère, écoutant avec un certain dédain, une
+                    certaine répulsion la doctrine qu’apporte Israël. Car lui, se heurtant à l’ordre
+                    antique, soudain se trouve allié avec le christianisme : il n’y a plus chrétien
+                    d’une part et juif de l’autre ; il est un apôtre chez les Gentils. Il tient pour
+                    la religion orientale du Salut ; moi pour la dignité de l’homme pris en soi.
+                    Romain et barbare, face à face<lb/>Derrière lui il a Isis l’Égyptienne d’Égypte,
+                    Cybèle la Phrygienne, Mithra le Perse et le Syrien Adonis<lb/>Israël a subi
+                    l’influence syro-chaldéenne <lb/>Guign 40 et voir tout le haut de la p. 41 <hi rend="italic">[en regard et en dessous de </hi>Israël a subi…<hi rend="italic">]<lb/>
+          </hi>les Nazaréens justification de Pilate p. 54
+                    Guignebert </q>
+                <q rend="quotation">
+                    <hi rendition="#style04">
+                        <hi rend="small-caps">Feuillet</hi>
+                    </hi>
+                    <hi rendition="#style04"> 5</hi>
+                </q>
+                <q rend="quotation">
+          <hi rendition="#style06">On se demande comment un idéal va
+                        pouvoir se substituer à peut être placé moins haut</hi> que Il est trop
+                    facile de comprendre, par la naturelle faiblesse laisser-aller de l’homme, qu’un
+                    autre idéal ait pu se substituer à celui de l’homme qui agit bien parce qu’il
+                    est son juge, sans demande, sans espérance et sans recours. Il est plus
+                    difficile de comprendre comment il n’y a pas une opinion unanime pour
+                    reconnaître loyalement que cet idéal abandonné était <hi rendition="#style06">cependant</hi> plus haut. On voudrait que les chrétiens, qui aiment bien
+                    parler de leur faiblesse, reconnussent qu’il y a bien quelque faiblesse dans
+                    leur perpétuel <hi rendition="#style05">besoin</hi> de ceci et de cela ; on
+                    voudrait que ces tenants du <hi rendition="#style05">quia absurdum</hi>
+                    condamnassent la <hi rendition="#style06">position de l’âme antique</hi>
+                    autrement morale sans sanction autrement que par un : c’est absurde.</q>
+                <q rend="quotation">Saugrenu<lb/>
+          <hi rendition="#style05">pas saugrenu dans
+                        l’espèce</hi>
+                    <hi rend="italic">[dans la marge] </hi>conforme à une sa tradition et à son
+                    hérédité<lb/>un certain nombre de réactions plus extraordinaires à garder que la
+                    trace de tel sentiment ou le nez long des difformes<lb/>la vie violente étant
+                    réapparue ces sentiments peuvent avoir disparu et reviennent<hi rend="italic">
+                        [sur un béquet] <lb/>
+          </hi>le peuple, toujours en retard, encore païen
+                    q[uan]d les cl[asses] cultivées sont chrétien[nes], aujourd’hui croyant q[uan]d
+                    les hautes classes sont incrédules, est le grand unificateur, et l’unité etc.
+                    (voir Vœu Renaissance)<hi rend="italic"> [sur un second béquet]</hi>
+        </q>
+                <q rend="quotation">
+                    <hi rendition="#style04">
+                        <hi rend="small-caps">Feuillet</hi>
+                    </hi>
+                    <hi rendition="#style04"> 6</hi>
+                </q>
+                <q rend="quotation">4 <hi rend="italic">[coin supérieur gauche au crayon
+                    bleu]</hi>
+        </q>
+                <q rend="quotation">
+          <hi rendition="#style05">Vosges</hi> Conciliation <hi rend="italic">[le tout au crayon bleu]</hi>
+        </q>
+                <q rend="quotation">La voix du peuple, surtout des paysans, appelait pour cette
+                    conciliation. Toujours en retard (p 14), païen quand ils étaient chrétiens,
+                    incroyant quand nous sommes incrédules, la lenteur insensible de sa mutation
+                    maintenait une unité et un syncrétisme, mêlait aussi les uns et les autres et
+                    appelait pour cette unité de la croyance dont la science a hérité.<lb/>Guign<hi rend="sup">bt</hi> 15 <hi rend="italic">[dans la marge à la hauteur du texte
+                        précédent]</hi>
+        </q>
+                <q rend="quotation">Tayac : entrée de la chapelle – colonnes temple ancien à la
+                    rivière</q>
+                <q rend="quotation">p 17 <hi rend="italic">[référence associée par une flèche à
+                    </hi>cette unité de la croyance…<hi rend="italic">]</hi>
+        </q>
+                <q rend="quotation">
+                    <hi rendition="#style04">
+                        <hi rend="small-caps">Feuillet</hi>
+                    </hi>
+                    <hi rendition="#style04"> 7</hi>
+                </q>
+                <q rend="quotation">5 <hi rend="italic">[coin supérieur gauche au crayon bleu]</hi>
+                </q>
+                <q rend="quotation">
+                    <hi rendition="#style05">Office</hi>
+                    <hi rend="italic">[au crayon bleu]</hi>
+                </q>
+                <q rend="quotation">Guignebert 236. Revanche du paganisme éternel, <hi rendition="#style06">re</hi> l’Église catholique a rendu supportable le
+                    christianisme en le trahissant, en devenant l’Église. Le rôle de l’Église a été
+                    de reprendre la tradition romaine et de corriger l’idée
+                    évangélique.<lb/>Songe<lb/>Valery Larbaud<lb/>Chacun de ces hommes est un consul
+                    etc…<lb/>moi, comme les dieux de Heine, un dieu devenu chrétien</q>
+                <p xml:id="d1e1833">Les six pages qu’on vient de lire – autrement dit les feuillets
+                    2 à 7 – développent les points qui figuraient sur la toute première page du
+                    manuscrit, à l’exception toutefois du point 1 : « Comment ils deviennent amis
+                    dans le Nord », qui n’était sans doute qu’un préambule.</p>
+                <p xml:id="d1e1835">Ce qu’on lit sur la page 1 (feuillet 2) est du pur Montherlant,
+                    un premier jet mais de belle venue, et avec quelques corrections qu’on aurait
+                    plaisir à relever, tel ce « On vivait, on mourait parce qu’on avait le talent de
+                    vivre et de mourir » devenu « On vivait, on luttait, on mourait parce qu’on
+                    avait le talent de vivre, de lutter, de mourir ». </p>
+                <p xml:id="d1e1837">Pour le fond, on est à mi-chemin des reproches qu’adressait à
+                    Jésus le dieu Pan de 1912 : « La vertu n’est vertu que désintéressée. Tout acte
+                    de vertu qu’on fera, on le fera par peur de ton enfer, et dans ton ciel immoral,
+                    il n’y aura que les égoïstes et les lâches !… », et des anathèmes qu’on lira en
+                    1929 dans <hi rend="italic">Le dernier Retour</hi> comme dans <hi rend="italic">Trois Jours au Montserrat</hi>.</p>
+                <p xml:id="d1e1845">« Ce qu’il y a eu de beau dans le monde antique, c’est son
+                    désintéressement », lit-on dans le manuscrit ; et un peu plus loin : « Le
+                    tremblement est entré dans le monde. Il devait y devenir une des nouvelles
+                    divinités. » L’auteur du <hi rend="italic">Dernier Retour</hi> s’en est de toute
+                    évidence souvenu, jusqu’à reprendre des formules vieilles de près de sept ans,
+                    quand il a décrété qu’« un homme en bonne santé ne s’occupe pas de son
+                    âme » :</p>
+                <q rend="quotation">« Des hommes qui tremblaient de l’âme décidèrent que le
+                    tremblement serait le meilleur de l’homme. Dans le Panthéon des grands hommes,
+                    ceux qui ont tremblé sont au rayon d’honneur ; jamais quelqu’un d’équilibré n’y
+                    accédera. À cela désormais rien à faire. La religion du tremblement est une des
+                    maladies du monde moderne ; c’est la forme évoluée du convulsionnisme sacré des
+                        primitifs<note type="standard" xml:id="ftn53" place="foot" n="53">
+            <p> E,
+                            p. 436-437 dans <hi rend="italic">Un Voyageur
+                    solitaire.</hi>
+            </p>
+          </note>. »</q>
+                <p xml:id="d1e1859">Et le point de vue est le même dans <hi rend="italic">Trois
+                        Jours au Montserrat</hi>, où l’auteur, en bon disciple de Lucrèce, décrète
+                    que « le Grand Criminel, avec des majuscules, c’est le premier homme qui inventa
+                    l’idée de Dieu » et que « c’est bien désespérer de l’humanité, que penser qu’il
+                    lui faut une religion pour être haute et pour être honnête<note type="standard" xml:id="ftn54" place="foot" n="54">
+            <p> E, p. 400-401 dans <hi rend="italic">Un Voyageur solitaire</hi>. </p>
+          </note> ». </p>
+                <p xml:id="d1e1872">D’où le blâme, si l’on retourne au manuscrit, dirigé contre
+                    Paul, pour qui l’homme est jugé après sa mort et toute sagesse vaine aux yeux de
+                        Yawhé<note type="standard" xml:id="ftn55" place="foot" n="55">
+            <p> C’est bien
+                            à l’<hi rend="italic">Épître I aux Corinthiens</hi>, au verset 6, 9,
+                            puis au verset 3, 19-20, que renvoie Montherlant, mais les références
+                            « p. 196 » et « III, 193 » restent mystérieuses.</p>
+          </note>. De là
+                    aussi, <hi rend="italic">a contrario</hi>, la réhabilitation de la
+                    « décadence », ou prétendue décadence, qui va de pair avec l’éloge de Marc
+                    Aurèle : l’empereur philosophe est devenu pour un païen du <hi rend="small-caps">iv</hi>
+          <hi rend="sup">e</hi> ou <hi rend="small-caps">v</hi>
+          <hi rend="sup">e</hi> siècle l’image même de la « dignité personnelle ». On s’était
+                    demandé, en lisant la toute première page du manuscrit, comment il fallait
+                    entendre « leur dignité » ; il est clair que pour le païen elle réside dans le
+                        « désintéressement<note type="standard" xml:id="ftn56" place="foot" n="56">
+            <p> Inutile de se perdre en conjectures sur le mot Israël en bas de
+                            page, aide-mémoire peut-être pour l’auteur.</p>
+          </note> ».</p>
+                <p xml:id="d1e1901">La seconde page 1 (feuillet 3), qui a d’abord porté un numéro
+                        2<note type="standard" xml:id="ftn57" place="foot" n="57">
+            <p> Il semble en
+                            tout cas que c’est bien le 1 qui surcharge le 2, et non
+                        l’inverse.</p>
+          </note>, nous conduit à un ouvrage de Charles Guignebert dont
+                    il sera désormais question tout au long des « chapitres » à venir. Le nom de
+                    l’ouvrage n’apparaît nulle part dans le manuscrit, mais les références ne
+                    laissent aucune place au doute ; il s’agit du <hi rend="italic">Christianisme
+                        antique</hi> que Guignebert avait fait paraître chez Flammarion en 1921<note type="standard" xml:id="ftn58" place="foot" n="58">
+            <p> Un ouvrage tout
+                            récent par rapport au manuscrit. La <hi rend="small-caps">bn</hi> en a
+                            évidemment un exemplaire.</p>
+          </note>. C’est que Montherlant, qui parle
+                    ici pour son héros (« lui-moi »), voulait opposer au païen un Nazaréen ou un
+                    converti qui fût conforme à l’histoire. Quand il le définit comme « une matière
+                    religieuse », il cite un mot de Guignebert à la page 41 : « Il y avait là […]
+                    une matière religieuse énorme » ; quand il évoque l’exil à Babylone, il est à la
+                    page 42 : « Les exilés […] se persuadèrent que les maux d’Israël venaient de ce
+                    qu’il s’était montré infidèle à l’Alliance et qu’il ne lui restait qu’un moyen
+                    d’apaiser Dieu, c’était de se soumettre à la plus grande rigueur dans
+                    l’observance cultuelle » ; quand il affirme que « cette sorte d’espérance est
+                    une chose juive », il se souvient d’avoir lu à la page 47 que « l’espérance
+                    messianique dont Israël attendait la réparation éclatante de ses infortunes »
+                    allait au contraire « le jeter dans les plus désastreuses aventures », et s’il
+                    écrit de son Nazaréen qu’il est « le frère du mangeur de sauterelles », c’est
+                    pour avoir lu à la page 49 de Guignebert qu’« il se peut que Jésus ait connu
+                    Jean le Baptiste ». Quant à dire ce qu’il avait retenu ou se proposait de
+                    retenir des pages 68, 74 et suivantes… Peut-être ceci, que les Juifs hellénisés
+                    « se pénétraient de plus en plus de l’idée grecque du <hi rend="italic">dualisme</hi> de la nature humaine », et très certainement les pages sur
+                    « les combinaisons <hi rend="italic">syncrétistes</hi> », comme on va tout de
+                    suite le constater en lisant la page 2.</p>
+                <p xml:id="d1e1925">Cette page 2 (feuillet 4), qui fut d’abord numérotée 1<note type="standard" xml:id="ftn59" place="foot" n="59">
+            <p> Montherlant donne
+                            d’abord à cette page un n° 1, puis 2, avant de coller un bout de papier
+                            avec un 2 qui confirme son premier remords. On a vu de même sur le
+                            feuillet 3 un n° 1 surchargeant le 2.</p>
+          </note>, est intéressante à
+                    plus d’un titre. </p>
+                <p xml:id="d1e1933">Elle est intéressante parce qu’elle donne à lire, comme la
+                    première page 1, une forme plus accomplie de l’écriture. Elle est intéressante
+                    parce que ses premiers mots : « Il fallait qu’ils eussent durement souffert pour
+                    avoir accepté cette religion » préfigurent ceux qu’on lira en 1927 dans <hi rend="italic">La Mort de Peregrinos</hi> : « Il fallait être durement excédé
+                    pour avoir accepté Jésus-Christ<note type="standard" xml:id="ftn60" place="foot" n="60">
+            <p> E, p. 253, dans <hi rend="italic">Aux Fontaines du désir</hi>.
+                        </p>
+          </note> », et ceux qu’on lira en 1929 dans <hi rend="italic">Earinus :</hi> « Il fallait avoir durement souffert pour accueillir comme
+                    un sauveur Jésus-Christ<note type="standard" xml:id="ftn61" place="foot" n="61">
+            <p> Dans l’essai <hi rend="italic">Jeux olympiques et Antiquité</hi>
+                            déjà cité dans la note 8, p. 138.</p>
+          </note>. » Elle est intéressante
+                    enfin parce qu’on y voit se dessiner la personnalité de « l’autre ».</p>
+                <p xml:id="d1e1957">Cet adversaire pourrait être l’un de ces Romains qui ont accepté
+                    une religion par quoi ils « renonçaient à la vie », se heurtant ainsi à
+                    « l’ordre antique » auquel est resté fidèle celui qui parle à la première
+                    personne. De cet antagonisme où reparaît la « dignité » dont il fut plus haut
+                    question (« Il tient pour la religion orientale du Salut ; moi pour la dignité
+                    de l’homme pris en soi ») émerge une nouvelle définition de la barbarie :
+                    « Romain et barbare, face à face. » Le Barbare, désormais, est celui qui a tout
+                    absorbé et s’est du même coup renié. À preuve, la suite du texte : « Derrière
+                    lui il a Isis d’Égypte, Cybèle la Phrygienne, Mithra le Perse et le Syrien
+                    Adonis », qui vient tout droit de la page 255 du <hi rend="italic">Christianisme
+                        antique :</hi>
+                </p>
+                <q rend="quotation">« <hi rend="italic">Le christianisme est une religion orientale
+                        par ses origines et par ses caractères fondamentaux ;</hi> et, s’il était
+                    resté ce qu’il fut d’abord, il portait en lui beaucoup moins de chances de
+                    conquérir le monde occidental que n’en avait rassemblées la religion d’Isis
+                    l’Égyptienne, celle de la Grande Mère Cybèle la Phrygienne, celle du Syrien
+                    Adonis ou celle du Perse Mithra. »</q>
+                <p xml:id="d1e1967">Guignebert rappelle en quoi cette religion-là est « plus riche
+                    et plus simple que les autres religions du Salut », et c’est le mot de
+                    Montherlant avec sa majuscule. Il dit aussi pourquoi elle pouvait « opposer […]
+                    sa science divine révélée à la vaine <hi rend="italic">sagesse du monde</hi>,
+                    qui est <hi rend="italic">folie devant Dieu</hi> », et ce sont les paroles de
+                    saint Paul qu’on a lues un peu plus haut. Il explique enfin comment « dès le <hi rend="small-caps">ii</hi>
+          <hi rend="sup">e</hi> siècle elle s’ouvrit aux
+                    désabusés de la philosophie profane<note type="standard" xml:id="ftn62" place="foot" n="62">
+            <p>
+                            <hi rend="italic">Le Christianisme antique</hi>, p. 257.</p>
+          </note> »,
+                    autrement dit : « Il fallait qu’ils eussent durement souffert pour avoir accepté
+                    cette religion. »</p>
+                <p xml:id="d1e1988">Restent les notes que Montherlant a griffonnées, en deux temps,
+                    au bas de cette page 2, et qui n’ont pas toutes le même intérêt. Dans la mesure
+                    où on vient d’en lire l’essentiel sous une forme achevée qui dérive de la page
+                    255 du <hi rend="italic">Christianisme antique</hi>, on peut tenir les renvois
+                    aux pages 40 et 41, ainsi que les mots « Israël a subi l’influence
+                    syro-chaldéenne », pour les aléas d’un brouillon. Mais ce qu’il faut considérer
+                    de près, c’est la toute dernière ligne : « Les Nazaréens justification de Pilate
+                    p. 54 Guignebert. »</p>
+                <p xml:id="d1e1993">Pilate était une belle matière pour les écrivains. Qui ne se
+                    rappelle <hi rend="italic">Le Procurateur de Judée</hi> d’Anatole France ou le
+                        <hi rend="italic">Ponce Pilate</hi> de Roger Caillois<note type="standard" xml:id="ftn63" place="foot" n="63">
+            <p> Les récits de France (1891) et de
+                            Caillois (1961), pour passionnants qu’ils soient, relèvent surtout de la
+                            légende de Pilate. Le Pilate de l’Histoire, c’est celui de Jean-Pierre
+                            Lémonon dans le <hi rend="italic">Ponce Pilate</hi> qu’il a publié en
+                            2007 aux Éditions de l’Atelier.</p>
+          </note> ? On connaît moins la
+                    « nouvelle » intitulée <hi rend="italic">La Mort de Pilate</hi> que Montherlant
+                    composa en 1908, à treize ans, mais dont il fut assez content pour en confier
+                    l’édition près de trente ans plus tard à son ami Ventura García Calderón :
+                    obsédé par la vision du « Nazaréen en croix » et persuadé que seule la mort lui
+                    apportera la « guérison », l’homme va se noyer dans une rivière proche de
+                        Jérusalem<note type="standard" xml:id="ftn64" place="foot" n="64">
+            <p> La
+                            nouvelle occupe les pages 90 à 97 d’<hi rend="italic">Explication de
+                                Montherlant</hi>, Bruxelles, Les Cahiers du Journal des Poètes,
+                            Série Essais, n° 41 de septembre 1937. M. Barat m’a communiqué le texte
+                            original, que Montherlant avait intégré dans le carnet <hi rend="italic">Érold et Sylvaine</hi> ; il n’y a que fort peu de différences entre
+                            les deux versions.</p>
+          </note>. Celui qui avait écrit, adolescent,
+                        cette<hi rend="italic"> Mort de Pilate</hi> ne pouvait que retenir, adulte,
+                    la page où Guignebert s’étonne que d’aucuns veuillent « prouver que, si Jésus ne
+                    s’est pas lui-même avoué ouvertement Messie, il a cru qu’il l’était, il l’a
+                    laissé croire à ses disciples, il a péri pour l’avoir laissé croire à Pilate ;
+                    et que, s’il en avait été autrement, jamais les Apôtres n’auraient pu penser que
+                    le Crucifié était ressuscité des morts ». </p>
+                <p xml:id="d1e2027">Le chapitre 3 de <hi rend="italic">La Garde autour de Pan</hi>
+                    était censé se passer aux thermes de Julien, mais si le manuscrit compte bien
+                    une page 4 intitulée « Vosges Conciliation » qui correspond au chapitre 4 et une
+                    page 5 intitulée « Office » qui correspond au chapitre 5, on n’y voit aucune
+                    page 3 qui développe le chapitre 3 « Aux thermes de Julien ». On y trouve
+                    seulement une page sans numéro (le feuillet 5) où furent collés deux béquets.
+                    C’est même la note figurant sur le second béquet, encore que l’argument ne soit
+                    pas très solide<note type="standard" xml:id="ftn65" place="foot" n="65">
+            <p> On
+                            pourrait s’épuiser en conjectures, se fonder par exemple sur les
+                            différences d’écriture (car Montherlant n’a pas utilisé le même stylo
+                            tout au long des dix pages), ou sur les différences de support (un des
+                            « versos » témoigne d’un échange, daté des 16 et 21 mars 1922, entre
+                            l’écrivain et la revue <hi rend="italic">France-Amérique</hi>).</p>
+          </note>, qui nous fera lire cette page avant la
+                    page « Vosges Conciliation ». Cela étant, le texte lui-même réserve quelques
+                    surprises. Sinon le texte continu, où Montherlant revient sur l’idéal
+                    désintéressé du monde antique tout en opposant aux chrétiens leurs
+                    inconséquences et leur intransigeance, en tout cas celui des deux béquets. </p>
+                <p xml:id="d1e2040">Le « saugrenu » du premier béquet<note type="standard" xml:id="ftn66" place="foot" n="66">
+            <p> Ce béquet est découpé dans la lettre
+                            circulaire décrite dans la note 2.</p>
+          </note>, c’est l’épithète que « la
+                    critique catholique » avait décernée à l’Alban du <hi rend="italic">Songe</hi>
+                    et que Montherlant réfutera dans ses <hi rend="italic">Notes relatives à la
+                        religion et aux passions :</hi> celui qui passe pour saugrenu ne l’est que
+                    pour la société de son temps ; replacé « dans son espèce », le voilà « conforme
+                    à sa tradition et à son hérédité ». Quant au second béquet, s’il retient
+                    l’attention, c’est moins pour le texte, qu’on retrouvera page 4, que pour
+                    l’allusion, dans la parenthèse « (Voir Vœu Renaissance) », à l’ouvrage de
+                    Joséphin Péladan publié en 1905 chez Sansot.</p>
+                <p xml:id="d1e2053">Jean-François Domenget a bien défini l’intérêt de Montherlant
+                    pour cet auteur fin-de-siècle que fut le Sâr Péladan<note type="standard" xml:id="ftn67" place="foot" n="67">
+            <p> Il faut ici lire les pages 29, 38, 40
+                            et 173 de son <hi rend="italic">Montherlant critique</hi> qui parut à
+                            Genève, chez Droz, en 2003.</p>
+          </note>. Il a ainsi relevé, dans les <hi rend="italic">Malatestiana</hi> des années cinquante, une note où l’écrivain
+                    se retranche derrière <hi rend="italic">Le Vœu de la Renaissance</hi> pour
+                    justifier une réplique de son Porcellio, l’assassin de Malatesta<note type="standard" xml:id="ftn68" place="foot" n="68">
+            <p> Voici le texte des
+                                <hi rend="italic">Malatestiana</hi> : « La réplique de Porcellio :
+                            “En tant qu’homme raisonnable, je ne crois pas en Dieu. Mais en tant que
+                            chrétien baptisé, je suis bien obligé d’y croire”, est authentique, mais
+                            dans la bouche d’un autre humaniste, cité par Péladan (<hi rend="italic">Le Vœu de la Renaissance</hi>) » (T, p. 427), et voici le texte de
+                            la p. 47 du <hi rend="italic">Vœu de la Renaissance</hi>, d’où il
+                            ressort que Montherlant a davantage exploité le commentaire de Péladan
+                            que le mot de Pomponace cité par lui : « “L’immortalité de l’âme ne
+                            souffre de ma part aucun doute, puisque les Écritures canoniques qui
+                            doivent être préférées à toute raison et à toute expérience, confirment
+                            cette thèse. Mais l’objet de mon doute, c’est de savoir si cette thèse
+                            n’excède pas les limites de la raison.” Voilà du comique philosophique
+                            et de l’excellent comique. Comme chrétien Pomponace croit ; comme
+                            philosophe, il ne croit pas. »</p>
+          </note>, et dans des carnets de la
+                    même période, une note où, présentant son œuvre comme une « œuvre de
+                    réconciliation » (c’est quasiment le chapitre 4 de <hi rend="italic">La Garde
+                        autour de Pan</hi>), il renvoie le lecteur « à ce livre de Péladan, <hi rend="italic">Le Vœu de l’unité </hi>[<hi rend="italic">sic</hi>], où
+                    Péladan disait que ce vœu fut celui des hommes de la Renaissance<note type="standard" xml:id="ftn69" place="foot" n="69">
+            <p>
+                            <hi rend="italic">Garder tout en composant tout</hi>, Paris, Gallimard,
+                            2001, p. 214, dans une note du 27 janvier 1954 intitulée « Garder tout
+                            en composant tout ». Un peu plus loin dans cette même note, l’écrivain,
+                            parlant du catholicisme comme de quelque chose qui « n’est pas cru, mais
+                            accueilli », ajoute qu’il est « accueilli à une place secondaire, comme
+                            Jésus qui a sa place dans le panthéon d’Alexandre Sévère ». Il
+                            corrigeait ainsi l’erreur qu’il avait commise en 1940 dans <hi rend="italic">Paysage des Olympiques</hi> (et qu’il reproduira en
+                            1972 dans <hi rend="italic">Mais aimons-nous ceux que nous
+                            aimons ?</hi>) lorsqu’il imputait à Septime Sévère, empereur de 193 à
+                            211, un éclectisme qui fut en réalité celui d’Alexandre Sévère, empereur
+                            de 222 à 235, ou du moins l’éclectisme que lui attribue l’<hi rend="italic">Histoire Auguste</hi> quand elle rapporte qu’il avait
+                            un laraire où l’image du Christ voisinait avec d’autres (<hi rend="italic">H. A.</hi>, <hi rend="italic">Alex. Sev.</hi>, XXIX,
+                            2).</p>
+          </note> ».</p>
+                <p xml:id="d1e2117">D’irréfutables témoignages que renforcent ceux qu’on grappillera
+                    dans les parages immédiats du manuscrit, à commencer par l’article que
+                    Montherlant avait publié dans <hi rend="italic">Les Écrits nouveaux</hi> de
+                    janvier 1921 sous le titre <hi rend="italic">Pour l’anniversaire de Paul
+                        Adam</hi>
+          <note type="standard" xml:id="ftn70" place="foot" n="70">
+            <p> Voir
+                            la note 14 pour les références.</p>
+          </note>. Jeune écrivain, il se rallie
+                    à la majorité pour saluer en lui « un homme de la Renaissance », mais « en
+                    partie » seulement, et quand il range parmi ses vertus « le pli de juxtaposer
+                    sans exclure », il se permet une restriction : « Encore que les Renaissants
+                    aient cherché une conciliation que lui ne cherchait pas », où l’on reconnaît
+                    l’empreinte de Péladan autant que le leitmotiv de notre manuscrit<note type="standard" xml:id="ftn71" place="foot" n="71">
+            <p> Sans oublier, peu
+                            après, l’éloge appuyé de « ces régions où nulle chose ne rompt de façon
+                            formelle avec une autre, où le paganisme épuré d’un Platon ne contredit
+                            en rien d’important le christianisme et d’où l’on voit se lever au
+                            lointain le vieux rêve d’une pensée libre et d’une vie libre dans le
+                            sein de la communauté catholique » (<hi rend="italic">Les Écrits
+                                nouveaux</hi>, p. 5 et 10 ;<hi rend="italic"> Au Petit Mutilé</hi>,
+                            p. 55 et 70). Pour tout ce qui concerne Montherlant et Adam, voir, ici
+                            encore, J.-Fr. D<hi rend="small-caps">omenget,</hi>
+                            <hi rend="italic">Montherlant critique</hi>, p. 33-41, <hi rend="italic">passim</hi>.</p>
+          </note>.</p>
+                <p xml:id="d1e2149">Mais enfin, la marque la plus évidente du <hi rend="italic">Vœu
+                        de la Renaissance</hi> est en aval du manuscrit, dans le final des <hi rend="italic">Notes relatives à la religion et aux passions</hi> où se
+                    dessine l’image de l’homme qui « réalise tout l’humain » et à qui revient le
+                    droit de chanter l’hymne à la gloire du Père que Péladan produisait comme une
+                    preuve de la hauteur d’âme de Laurent le Magnifique :</p>
+                <q rend="quotation">Grand Dieu ! toi dont la loi régit cet univers<lb/>et entre
+                    l’âme dans ce corps<lb/>[…]<lb/>de toi, premier auteur, tout prend sa vie<note type="standard" xml:id="ftn72" place="foot" n="72">
+            <p> P. 70 du<hi rend="italic"> Vœu de la Renaissance</hi> et, dans une version
+                            légèrement revue, p. 13 et 14 du placard (769 de la <hi rend="italic">Nrf</hi>).</p>
+          </note>.</q>
+                <p xml:id="d1e2177">Faut-il encore, après cela, tenir pour un hasard que l’ami
+                    Faure-Biguet, dans l’opuscule qu’il publia en 1925 sous le titre <hi rend="italic">Montherlant homme de la Renaissance</hi>, ait rapproché telle
+                    ou telle page de la <hi rend="italic">Première Olympique</hi> des écrits d’un
+                    Pic de la Mirandole ou d’un Marcile Ficin tant célébrés par Péladan ? Faut-il
+                    s’étonner qu’il ait enfin évoqué <hi rend="italic">Le</hi>
+                    <hi rend="italic">Vœu de la Renaissance</hi> en précisant que « ce vœu, c’était
+                        l’unité<note type="standard" xml:id="ftn73" place="foot" n="73">
+            <p>
+                            <hi rend="italic">Montherlant, homme de la Renaissance</hi>, p. 43 et
+                            63-64 respectivement, Plon-Nourrit et C<hi rend="sup">ie</hi>,
+                        1925.</p>
+          </note> » ?</p>
+                <p xml:id="d1e2202">On a suggéré que le chapitre « Dans les Vosges » du sommaire
+                    avait pour cadre un lieu de prières dans un milieu rustique et que le païen, le
+                    « saugrenu », avait alors pris conscience de l’indifférence de toutes choses,
+                    l’indifférence selon Montherlant, c’est-à-dire celles de Pyrrhon (« À toute
+                    raison s’oppose une égale raison ») et de Montaigne (« Il n’y a raison qui n’en
+                    aye une contraire »)<note type="standard" xml:id="ftn74" place="foot" n="74">
+            <p>
+                            « L’univers n’ayant aucun sens, il est parfait qu’on lui donne tantôt
+                            l’un et tantôt l’autre », dira l’auteur de <hi rend="italic">Syncrétisme
+                                et alternance</hi> (E, p. 244).</p>
+          </note>. Il n’est rien dans la
+                    page « Vosges Conciliation » qui n’aille dans le même sens. Quand on lit que
+                    « la voix du peuple […] appelait pour cette conciliation », on se rappelle ce
+                    qu’écrivait en décembre 1916 l’auteur des <hi rend="italic">Enfants du
+                        matin</hi>, qu’avec le plain-chant « nous recréons quelque chose de l’âme
+                        antique<note type="standard" xml:id="ftn75" place="foot" n="75">
+            <p> E,
+                            p. 121 dans <hi rend="italic">La Relève du matin</hi>.</p>
+          </note> ». Il
+                    parlait alors d’un « <hi rend="italic">ethos</hi> » de la musique, l’<hi rend="italic">ethos</hi> dans <hi rend="italic">La Garde autour de Pan</hi>
+                    jaillit de l’appel « pour cette unité de la croyance dont la science a
+                    hérité ».</p>
+                <p xml:id="d1e2233">Que viennent faire ici, cependant, les pages 14 et 15 du<hi rend="italic"> Christianisme antique</hi> ?</p>
+                <p xml:id="d1e2238">Guignebert, après avoir rappelé que « chaque société se façonne
+                    la religion qui lui convient », mais aussi que « dans une même société, chaque
+                    milieu social […] se crée de cette religion une variété qui réponde à ses
+                    besoins particuliers », commence par donner un exemple qui ne pouvait échapper à
+                    l’attention de Montherlant : « Aux derniers temps de la République romaine la
+                    religion des esclaves retardait de deux ou trois siècles sur celle de leurs
+                    maîtres. » Après quoi il explique que le peuple « d’instinct […] s’attache
+                    toujours […] à une conception et à une pratique religieuses qui ne correspondent
+                    exactement ni à l’enseignement de la religion officielle, ni à la mentalité de
+                    ses ministres instruits, ni à la représentation de ses dogmes et de ses
+                    préceptes qui prévaut parmi les fidèles éclairés » ; il dit encore que « cette
+                    religion populaire se révèle à l’analyse comme un syncrétisme, un mélange de
+                    croyances et d’usages, divers par l’origine, l’âge et le sens, et qui ne
+                    subsistent côte à côte que parce que ceux qui les acceptent ne les comparent
+                    jamais » ; il termine en disant que « le peuple, et particulièrement celui des
+                    campagnes, ne fait jamais tout à fait table rase de ses croyances et de ses
+                    rites », mais qu’« il les adapte spontanément à la religion nouvelle qui
+                    s’impose à lui, ou bien, si elle s’y refuse, les refoule au tréfonds de sa
+                    conscience et dans le secret de sa vie, où ils durent à l’état d’actives
+                    superstitions ». Condensé par Montherlant, cela donnait sur le béquet de la page
+                    précédente « Le peuple, toujours en retard etc. », avant d’aboutir à la version
+                    de « Vosges Conciliation » : </p>
+                <q rend="quotation">« La voix du peuple, surtout des paysans, appelait pour cette
+                    conciliation. Toujours en retard, païen quand ils étaient chrétiens, croyant
+                    quand nous sommes incrédules, la lenteur insensible de sa mutation maintenait
+                    une unité et un syncrétisme, mêlait aussi les uns et les autres et appelait pour
+                    cette unité de la croyance dont la science a hérité. »</q>
+                <p xml:id="d1e2242">La difficulté sera de démêler dans cette version revue ce que
+                    Guignebert appelait le milieu social. C’est bien le païen, l’incrédule
+                    d’aujourd’hui, qui parle du peuple, dont il se démarque parce qu’il fait
+                    lui-même partie des « classes cultivées », mais pourquoi « quand <hi rend="italic">ils étaient</hi> chrétiens », plutôt que « quand <hi rend="italic">nous étions</hi> chrétiens » ? Un lapsus de Montherlant, qui
+                    tout juste après corrigera « incroyant » en « croyant » ? Ce n’est peut-être
+                    qu’une question de perspective : « nous » valant pour « nous aujourd’hui »,
+                    « ils », pour « nous hier ».</p>
+                <p xml:id="d1e2250">On hésitera moins sur la clausule « cette unité de la croyance
+                    dont la science a hérité », associée par Montherlant à une page 17 qu’il faut
+                    chercher non pas chez Guignebert mais dans <hi rend="italic">Le</hi>
+                    <hi rend="italic">Vœu de la Renaissance</hi>, quand Péladan proclame que « le
+                    vœu admirable des humanités fut sans cesse de travailler à la paix spirituelle,
+                    c’est-à-dire de concilier les doctrines, d’établir leurs concordances, pour
+                    préparer cette unité idéale de la croyance dont la science a hérité<note type="standard" xml:id="ftn76" place="foot" n="76">
+            <p> Un texte qu’on trouve
+                            à vrai dire aux pages 19 et 20 du <hi rend="italic">Vœu de la
+                                Renaissance</hi>, mais on aura la faiblesse de croire que c’est par
+                            inadvertance que Montherlant a écrit 17 plutôt que 19. Cette référence à
+                            la p. 17 fut du reste notée, comme il ressort très clairement du
+                            manuscrit, après la note sur Tayac.</p>
+          </note> ». De quoi éclairer <hi rend="italic">a posteriori</hi> les mots « et l’unité etc. » qu’on a lus sur
+                    le second béquet du précédent feuillet, tout en conférant à cette page « Vosges
+                    Conciliation » un statut proprement littéraire : ce ne sont pas de banales notes
+                    de lecture, c’est un texte élaboré, avec un de ces « arrangements »
+                    qu’affectionnait Montherlant.</p>
+                <p xml:id="d1e2269">Reste la note sur Tayac, l’entrée de la chapelle et les colonnes
+                    du temple ancien à la rivière. Une note qui pour le fond annonce la mosquée de
+                    Tolède convertie en église ou la « colonne engagée » de la façade de
+                    Sainte-Marie in Cosmedin que Mathilde Pomès signale à Montherlant quand elle le
+                    guide dans Rome en octobre 1947 : « Il tire son calepin, prend une note ; cette
+                    colonne reparaîtra. Ce sera la colonne de la <hi rend="italic">collaboration</hi> (le paganisme forcé de servir le christianisme)<note type="standard" xml:id="ftn77" place="foot" n="77">
+            <p>
+                            <hi rend="italic">À Rome avec Montherlant</hi>, p. 14, André Bonne,
+                            1951.</p>
+          </note>. » Mais enfin 1922 n’est pas 1947, ni 1925. « Tayac »
+                    est le souvenir du stage bucolique en Dordogne auquel fut astreint, en août
+                    1917, le soldat Montherlant. Envoyé aux Eyzies après une semaine à l’École
+                    militaire, le nouvel engagé gagne Périgueux, qui le déçoit, puis les
+                    Eyzies-de-Tayac, qui le ravit. Il fait même, à cette occasion, de longues
+                    promenades le long de la Vézère, allant à pied jusqu’à Saint-Léon, où il visite
+                    « une église bâtie sur un ancien temple romain, car il aime par dessus tout,
+                    comme il l’écrit alors à sa grand-mère, ces “combinaisons
+                        pagano-chrétiennes<note type="standard" xml:id="ftn78" place="foot" n="78">
+            <p> Pour tout cet épisode, voir P. S<hi rend="small-caps">ipriot</hi>,
+                                <hi rend="italic">Montherlant sans masque</hi>, p. 84-87. Lorsque
+                            Montherlant parle de l’église Saint-Léon comme d’une église « bâtie sur
+                            un ancien temple romain », il reprend une théorie qui était admise en
+                            1917. On est aujourd’hui plus nuancé. Max Sarradet, par exemple, dit
+                            qu’« il semble qu’elle fasse suite à un lieu de culte remontant à la fin
+                            de la période gallo-romaine » (« Fouilles archéologiques dans l’église
+                            de Saint-Léon-sur-Vézère (1961-1962) », p. 73-100 dans <hi rend="italic">Documents d’Archéologie et d’Histoire Périgourdines</hi>, t. 8,
+                            1993, article qui me fut généreusement fourni par la Mairie de
+                            Saint-Léon-sur-Vézère).</p>
+          </note>” ». La note de 1922 sur Tayac<note type="standard" xml:id="ftn79" place="foot" n="79">
+            <p> Montherlant parle
+                            d’une chapelle, alors que Saint-Martin de Tayac est une
+                            église-forteresse, mais qui sans doute n’avait pas en 1917 l’allure
+                            qu’elle a maintenant retrouvée. Pour ce qui est des colonnes provenant
+                            d’un temple ancien, rien de plus vrai : l’une des archivoltes du portail
+                            repose sur deux colonnes antiques de marbre vert qui pourraient provenir
+                            de l’antique Vesunna (et je remercie au passage l’Office de Tourisme
+                            Terre de Cro-Magnon et M. Bernard Coste de la Bibliothèque municipale de
+                            Périgueux, qui m’ont aidé dans toutes ces recherches). Pourquoi
+                            Montherlant a-t-il ajouté « à la rivière » ? Parce qu’il était admis en
+                            1917 que ces colonnes avaient été repêchées dans la Vézère, ou qu’elles
+                            avaient été transportées par bateau de Vesunna à Tayac ? À moins qu’il
+                            n’ait voulu écrire « face à la rivière », l’entrée de l’église
+                            Saint-Martin se trouvant face à la Vézère. </p>
+          </note>, c’est quelque
+                    chose de similaire à ce « kyriolés » du premier feuillet qui nous avait ramenés
+                    au Remiremont de 1918 dans les Vosges.</p>
+                <p xml:id="d1e2301">Les premières lignes de la page intitulée <hi rend="italic">Office</hi> (feuillet 7) s’accordent si étroitement avec le point 5 du plan
+                    initial : « Se rend compte que le catholicisme a tué le christianisme et est en
+                    réalité le paganisme continué, tout ce qui nous reste de vivant de la <hi rend="italic">res romana</hi>. Certitude joyeuse<note type="standard" xml:id="ftn80" place="foot" n="80">
+            <p> Voir le feuillet 1.</p>
+          </note> »,
+                    qu’on pourrait se passer de les commenter, ou se contenter de lire, avec
+                    Montherlant, les pages 236 et suivantes du <hi rend="italic">Christianisme
+                        antique</hi>, où Guignebert oppose à la « religion du prophète galiléen,
+                    humble et doux » le christianisme « universaliste et guerrier » du Moyen Âge
+                    qu’il voit comme un retour du paganisme : </p>
+                <q rend="quotation">« Il semble que, sous le nom du Christ, ce soit la vie
+                    philosophique et religieuse du paganisme, avec tous ses contrastes et toutes ses
+                    incohérences, qui ait repris vigueur et triomphé de la religion en esprit et en
+                    vérité que le Maître juif avait vécue. »</q>
+                <p xml:id="d1e2320">La conclusion de Guignebert est sans équivoque :</p>
+                <q rend="quotation">« C’est la vie gréco-romaine tout entière qui revêt une
+                    apparence chrétienne et elle se juxtapose à cet idéal qui la désavoue sans la
+                    gêner. Le grand résultat visible, au seuil du <hi rend="small-caps">v</hi>
+          <hi rend="sup">e</hi> siècle, c’est […] que le triomphe du christianisme n’a
+                    été, à tous points de vue, qu’une apparence et que, loin d’avoir transformé le
+                    monde gréco-romain, il a été réellement absorbé par lui […]. Et parce que c’est
+                    l’Église, en tant qu’elle est devenue une puissance de gouvernement et, comme
+                    telle, qu’elle a incliné aux compromis et aux concessions, parce que c’est
+                    l’Église qui a <hi rend="italic">triomphé</hi> dans de pareilles conditions,
+                    après s’être identifiée au christianisme, c’est elle qui est responsable de
+                    l’inévitable résultat<note type="standard" xml:id="ftn81" place="foot" n="81">
+            <p>
+                            <hi rend="italic">Le Christianisme antique</hi>, p. 236 à 239, <hi rend="italic">passim</hi>.</p>
+          </note>. »</q>
+                <p xml:id="d1e2343">On est à plein dans <hi rend="italic">La Garde autour de
+                        Pan</hi>, qu’il s’agisse du point 5 du plan initial, la joie de celui à qui
+                    on ne sait quel office a révélé la connivence de l’Église et du paganisme, ou
+                    des premières lignes de la page 5 : « Revanche du paganisme éternel, l’Église
+                    catholique a rendu supportable le christianisme. »</p>
+                <p xml:id="d1e2348">Reste à faire un sort aux quelques annotations qui terminent
+                    cette page 5 : </p>
+                <q rend="quotation">« Songe / Valery Larbaud / Chacun de ces hommes est un consul
+                    etc. / moi, comme les dieux de Heine, un dieu devenu chrétien. »</q>
+                <p xml:id="d1e2352">Les allusions au <hi rend="italic">Songe</hi> et aux dieux de
+                    Heine sont limpides pour qui se souvient de l’image que donnera de Bricoule
+                    l’auteur des <hi rend="italic">Notes relatives à la religion et aux
+                        passions</hi> : « Je songe à ces divinités champêtres évoquées par Heine… ». </p>
+                <p xml:id="d1e2360">« Chacun de ces hommes est un consul etc. » semble amorcer une
+                    citation (de la même façon qu’au feuillet 5 « et l’unité etc. » annonçait la
+                    formule de Péladan qui fut incorporée au texte de « Vosges Conciliation »), et
+                    s’il en est ainsi, le mot serait lié à la « donation » qu’aurait faite
+                    Constantin au pape Sylvestre pour le remercier de l’avoir guéri de la lèpre.
+                    L’humaniste Lorenzo Valla, explique Péladan, avait été le premier à dénoncer le
+                    caractère apocryphe de ce document qui fondait « la dignité impériale » de
+                    Sylvestre et de ses successeurs, et il avait pointé les assimilations qui le
+                    rendaient d’emblée suspect : « Les révérendissimes clercs sont assimilés à des
+                    sénateurs ; on les crée tous patrices et consuls. Ils auront des chevaux
+                    caparaçonnés de blanc<note type="standard" xml:id="ftn82" place="foot" n="82">
+            <p>
+                            <hi rend="italic">Le Vœu de la Renaissance</hi>, p. 56.</p>
+          </note>… »
+                    Simple hypothèse, faut-il le dire.</p>
+                <p xml:id="d1e2370">On hésitera beaucoup moins pour Valery Larbaud, que Montherlant
+                    tenait alors pour « un très grand écrivain<note type="standard" xml:id="ftn83" place="foot" n="83">
+            <p> Voir ici encore D<hi rend="small-caps">omenget</hi>,
+                                <hi rend="italic">Montherlant critique</hi>, p. 137, texte et note
+                            14.</p>
+          </note> » et qu’il faut ici voir comme le père spirituel du
+                    Joanny Léniot de <hi rend="italic">Fermina Márquez</hi>.</p>
+                <p xml:id="d1e2386">Ce Léniot a de l’Église une vision proche de celle de Bricoule.
+                    Il est « partisan d’un retour à l’hégémonie impériale romaine, telle que cette
+                    hégémonie existait sous Constantin et sous Théodose », et s’il déplore que
+                    Clovis, sous sa « pourpre consulaire », n’en fut « pas moins roi des Francs »,
+                    il s’en console en reconnaissant dans l’Église « ce qui reste de
+                    l’Empire » :</p>
+                <q rend="quotation">« Je ne suis pas français. Mon catéchisme me dit que je suis
+                    catholique romain, et moi je traduis cela ainsi : Romain et maître du monde !
+                    Mon souverain, mon unique maître, c’est […] le divin-auguste Léon, empereur
+                    d’Occident ! […] Lorsque je regarde l’autel, ce ne sont pas des cierges allumés,
+                    des draps et des fleurs d’or, c’est la majesté romaine que je vois. Le prêtre,
+                    les fidèles, tous sont assemblés là en qualité de catholiques romains ; autant
+                    dire, de Romains, n’est-ce pas ? La Ville est aux mains des infidèles ; les
+                    divinités de l’Empire sont tous les jours insultées ; et cependant, ceux qui
+                    sont dans cette maison se glorifient d’être appelés Romains. Ô mânes de Caton,
+                    voici les derniers citoyens !… Là, dans cette maison du Seigneur, j’entends
+                    parler encore la langue de ma vraie patrie : le latin<note type="standard" xml:id="ftn84" place="foot" n="84">
+            <p>
+                            <hi rend="italic">Fermina Márquez</hi>, p. 353-355, <hi rend="italic">passim</hi> dans le vol. <hi rend="italic">Œuvres</hi> de la Bibl.
+                            de la Pléiade, Paris, Gallimard, 1984. Ce sera l’occasion de signaler
+                            que Léniot est, comme son créateur, un lecteur assidu de l’<hi rend="italic">Histoire des Romains</hi> de Victor Duruy et qu’il
+                            fait l’éloge de <hi rend="italic">La Cité antique</hi> de Fustel de
+                            Coulanges et du <hi rend="italic">Cicéron et ses amis</hi> de Gaston
+                            Boissier, autant d’ouvrages qui ont beaucoup compté pour
+                            Montherlant.</p>
+          </note>. »</q>
+                <p xml:id="d1e2414">Cet acte de foi <hi rend="italic">sui generis</hi> a dû plaire à
+                    Montherlant, lequel méditait sans doute, fin 1922, l’essai <hi rend="italic">Tibre et Oronte </hi>qu’il mettra bientôt en tête de sa <hi rend="italic">Première Olympique</hi> en le datant du 15 août 1923. On connaît les
+                    « principes » de cette dissertation :</p>
+                <q rend="quotation">« Deux philosophies se disputent le monde, où elles ont tour à
+                    tour installé leur empire. L’une, féminine dans son génie, est fondée sur
+                    l’invérifiable […]. Née en Orient […], elle a enfanté l’utopie, qui a enfanté le
+                    désordre. Alexandrinisme, messianisme, christianisme, byzantinisme, Réforme,
+                    concepts de liberté et de progrès, Révolution française, romantisme,
+                    humanitarisme (libéralisme, cosmopolitisme, pacifisme), bolchevisme enfin, voilà
+                    de ses génitures. Sur son sceau est gravé un cœur. L’autre, virile, est fondée
+                    sur la nature et la raison : esprit et corps. Elle tient pour le fini et elle
+                    tente d’y réaliser l’ordre, c’est-à-dire une valeur de qualité. Elle a atteint
+                    son expression la plus complète dans la Rome antique, après la conquête de la
+                    Grèce. Elle a inspiré le catholicisme romain, la Renaissance, les concepts de
+                    tradition et d’autorité, le classicisme, les nationalismes, les protectionnismes
+                    matériels et moraux<note type="standard" xml:id="ftn85" place="foot" n="85">
+            <p>
+                            <hi rend="italic">Première Olympique Le Paradis à l’ombre des
+                            épées</hi>, p. 7-8, Grasset, « Les Cahiers verts », n° 31, 1924. Le
+                            titre de l’essai inaugural s’inspire d’un vers de Juvénal : « Il y a
+                            beau temps que l’Oronte syrien s’est déversé dans le Tibre. » (<hi rend="italic">Iam pridem Syrus in Tiberim defluxit Orontes</hi> –
+                            III, 62.)</p>
+          </note>. »</q>
+                <p xml:id="d1e2439">Une idéologie de cette sorte, où le christianisme et le
+                    catholicisme romain sont tenus pour des valeurs « répugnantes », se situe, comme
+                    on voit, dans le droit fil de <hi rend="italic">La Garde autour de Pan</hi>
+                    aussi bien que du <hi rend="italic">Christianisme antique</hi> de Guignebert. Et
+                    la suite est de la même farine : l’essayiste exalte les vertus « doriennes », en
+                    clair le sport, qu’il pratiquait en ces temps-là avec assiduité<note type="standard" xml:id="ftn86" place="foot" n="86">
+            <p> Montherlant, sur ce
+                            point, se démarque du personnage de Larbaud. Alors que Théodose
+                            symbolise pour Léniot « l’hégémonie impériale romaine », pour l’auteur
+                            de <hi rend="italic">Tibre et Oronte</hi> il est le chrétien qui ruina
+                            la gymnastique en supprimant les Jeux Olympiques (<hi rend="italic">Le
+                                Paradis à l’ombre des épées</hi>, p. 9).</p>
+          </note>, déplore que
+                    l’heureuse combinaison du spirituel et du temporel, « retrouvée à la
+                    Renaissance, confortée par les papes, vivifiée en quelques créatures », ait été
+                    ruinée par Luther, et cite, dans un mouvement comparable à celui qu’on a vu dans
+                    les <hi rend="italic">Notes </hi>de mai 1923, l’exemple de ses aïeux (le
+                    trisaïeul guillotiné par une Révolution « dirigée contre la survivance
+                    spirituelle de Rome », le bisaïeul légitimiste et ultramontain, le grand-père
+                    zouave pontifical défendant par les armes « l’héritage des Césars »), qu’il ne
+                    voit pas comme des « tenants du catholicisme », mais bien comme les « tenants
+                    d’un <hi rend="italic">ordre du Tibre</hi> dont le catholicisme fait
+                    partie ».</p>
+                <p xml:id="d1e2464">Cela posé, Montherlant s’est assez vite distancié de ces
+                    « généralisations » qu’il qualifiait, dès 1926, de « bulles de savon
+                        intellectuelles<note type="standard" xml:id="ftn87" place="foot" n="87">
+            <p>
+                            À l’occasion d’un article qu’il consacre à Louis Hémon dans <hi rend="italic">Les Nouvelles littéraires</hi> du 6 février (voir D<hi rend="small-caps">omenget</hi>, <hi rend="italic">Montherlant
+                                critique</hi>, p. 92).</p>
+          </note> », et s’il conserva dans toutes
+                    les éditions des <hi rend="italic">Olympiques</hi> la conclusion de <hi rend="italic">Tibre et Oronte</hi>, en bref<hi rend="italic"> </hi>« La
+                    grande affaire n’est pas de renoncer. La grande affaire est de garder tout en
+                    composant tout<note type="standard" xml:id="ftn88" place="foot" n="88">
+            <p> P. 16
+                            à 24 dans l’édition originale, sous le titre « L’Angelus sur le Stade »,
+                            et p. 157-163, comme <hi rend="italic">Note</hi>, dans l’édition de 1938
+                            regroupant les deux <hi rend="italic">Olympiques</hi> (R1, p. 307-309).
+                        </p>
+          </note> », il y pratiqua aussi quelques élagages lourds de sens :
+                    éliminée la symbolique du Tibre et de l’Oronte ; disparue l’exaltation de « la
+                    minute complète » où la Trinité « Force, beauté, mystique » se traduisait
+                    « Rome, Athènes, Bethléem » ; gommée l’idée d’un catholicisme perçu comme « un
+                    gage donné au pacte social<note type="standard" xml:id="ftn89" place="foot" n="89">
+            <p> P. 20 et 21 de l’édition originale.</p>
+          </note> ». </p>
+                <p xml:id="d1e2506">Ces considérations, en fait, s’accordaient mal avec l’homme qui,
+                    le 15 janvier 1925, quitte la France « avec deux valises » pour devenir le
+                    « voyageur traqué » qui se découvrira dans <hi rend="italic">Aux Fontaines du
+                        désir</hi>, <hi rend="italic">La petite Infante de Castille</hi>, <hi rend="italic">Un voyageur solitaire est un diable</hi>. Et le temps n’est
+                    pas si éloigné où on le verra prendre ses distances avec l’idéal prôné dans les
+                        <hi rend="italic">Notes relatives à la religion et aux passions</hi>. À
+                    preuve, ce qu’on lira au tout début de 1929 dans <hi rend="italic">Earinus :</hi>
+        </p>
+                <q rend="quotation">« Essayer, comme je l’ai fait durant toute mon adolescence, et
+                    jusqu’à ces dernières années, de concilier une foi catholique sincère avec
+                    l’amour des corps, pour leur beauté et pour leurs réalisations, cela peut être
+                    un idéal respectable et touchant, – ce fut celui de la Renaissance. Ce ne peut
+                    être jamais, je le crois aujourd’hui, qu’une position fausse de l’esprit<note type="standard" xml:id="ftn90" place="foot" n="90">
+            <p>
+                            <hi rend="italic">Earinus</hi>, p. 132 touchant un essai publié en 1924
+                            sous le titre <hi rend="italic">Sport et catholicisme</hi>. À rapprocher
+                            de ce qu’on a lu dans <hi rend="italic">Mais aimons-nous ceux que nous
+                                aimons ?</hi> : « Dans ces années-là, 1920 et 1921, les prêtres… »
+                        </p>
+          </note>. »</q>
+                <p xml:id="d1e2538">À preuve aussi, les pages de <hi rend="italic">Trois Jours au
+                        Montserrat</hi> où se renforcera l’idée, le <hi rend="italic">Port-Royal</hi> de Sainte-Beuve ayant semé sa graine, qu’on ne peut
+                    « prendre le christianisme au sérieux » qu’à la condition de choisir « la voie
+                    qui toujours se rétrécit ». On l’a vu plus haut, Montherlant reconnaîtra
+                    volontiers – alors – que « chercher à concilier Pan et Jésus-Christ » est un
+                    « exercice » réservé à ceux qui, comme lui, sont « à l’extérieur du
+                        catholicisme<note type="standard" xml:id="ftn91" place="foot" n="91">
+            <p> E,
+                            p. 398-399. Il est remarquable que ces considérations aient longtemps
+                            figuré en marge de <hi rend="italic">Service inutile</hi>. On les trouve
+                            encore en 1943 dans l’édition bruxelloise de la Toison d’or (p. 24, note
+                            1) et en 1947 dans l’édition Laffont (p. 23-24, note 2) ; elles ne
+                            figurent plus dans l’édition de la Pléiade. </p>
+          </note> », et encore
+                    l’exercice est-il franchement aléatoire :</p>
+                <q rend="quotation">« J’incline volontiers à respecter Jésus-Christ, sans croire en
+                    lui, mais que le soleil se lève, que retentisse une musique entraînante, me
+                    voici païen, qui me reprends au monde. Et inversement, quand j’en serai à la
+                    satiété. Les autres font de même : tel croit parce qu’il a pleuré, ou parce
+                    qu’il a eu une déception sentimentale, ou parce qu’il vieillit. Tel autre ne
+                    croit plus parce qu’il a vu un mauvais prêtre. […] Voilà le sérieux de nos
+                        opinions<note type="standard" xml:id="ftn92" place="foot" n="92">
+            <p> E,
+                            p. 986 dans des carnets de 30-31. On a noté l’allusion au mot de
+                            Chateaubriand : « J’ai pleuré et j’ai cru. »</p>
+          </note>. »</q>
+                <p xml:id="d1e2561">Une note manuscrite en marge de <hi rend="italic">Pour une
+                        Vierge noire</hi> (de <hi rend="italic">Trois Jours au Montserrat</hi>, si
+                    l’on préfère<note type="standard" xml:id="ftn93" place="foot" n="93">
+            <p>
+                            L’équation est un peu abusive, mais on renvoie ici le lecteur à la note
+                            15. Quant au texte qu’on va lire, on le trouve sur la Toile dans le lot
+                            n° 167 du catalogue de vente de Piasa du jeudi 11 avril
+                    2002.</p>
+          </note>) permettra de faire le point :</p>
+                <q rend="quotation">« Il y a unité dans mon œuvre de 1920 à 1925, et unité nouvelle
+                    de 1925 à 1930 […]. Dans <hi rend="italic">Les Bestiaires</hi> qui sont de 1926,
+                    je me plaisais à mêler encore, comme dans <hi rend="italic">Le Songe</hi>,
+                    catholicisme et paganisme. Aujourd’hui, dans <hi rend="italic">La Vierge
+                        noire</hi>, je reconnais qu’il n’y a là qu’un jeu de l’imagination et de la
+                    poésie. Le christianisme est autre chose […], l’idée que je me fais de lui me
+                    permet de le respecter beaucoup plus que quand je le mêlais aux mythes païens
+                    des premiers siècles. »</q>
+                <p xml:id="d1e2585">Le « tour de valse avec le sacré » de mai 1923 a fini par
+                    prendre les allures d’une valse-hésitation. Ce que confirme à sa manière le
+                    dossier « Sur la Religion » qu’on lira dans le prochain numéro d’<hi rend="italic">Anabases</hi> avant d’en revenir – pour son volet « Julien » –
+                    au manuscrit de 1922.</p>
+            </div>
+        </body>
+        <back>
+            <div type="appendix" xml:id="d1e2594">
+                <p rend="figure-title" xml:id="d1e2596">Feuillet 1</p>
+                <p rend="appendix" xml:id="d1e2598">
+                    <figure xml:id="d1e2599">
+                        <graphic url="http://journals.openedition.org/anabases/docannexe/image/3909/img-1.png"/>
+                    </figure>
+                </p>
+                <p rend="figure-title" xml:id="d1e2601">Feuillet 5</p>
+                <p rend="appendix" xml:id="d1e2603">
+                    <figure xml:id="d1e2604">
+                        <graphic url="http://journals.openedition.org/anabases/docannexe/image/3909/img-2.png"/>
+                    </figure>
+                </p>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,1214 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="Foucault_03_Basso">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Les usages de la plate-forme FFL au soutien des
+        projets d’édition de Michel Foucault</title>
+        <title type="collection">L’archive Foucault à l’ère du numérique.
+        Fiches et fichiers dans la pratique philosophique. Sous la direction
+        de Laurent Dartigues et de Camille Noûs</title>
+        <author role="aut">
+          <forename>Elisabetta</forename>
+          <surname>Basso</surname>
+          <idno type="IDREF">117686565</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2022">2022</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/C7BGK5N3" type="conferencePaper" xml:lang="fre">
+          <analytic>
+            <title level="a">Les usages de la plate-forme FFL au soutien des
+            projets d’édition de Michel Foucault</title>
+            <author>
+              <forename>Elisabetta</forename>
+              <surname>Basso</surname>
+            </author>
+            <editor>
+              <forename>Laurent</forename>
+              <surname>Dartigues</surname>
+            </editor>
+            <editor>
+              <forename>Camille</forename>
+              <surname>Noûs</surname>
+            </editor>
+          </analytic>
+          <monogr>
+            <title type="conferenceName">L’archive Foucault à l’ère du
+            numérique. Fiches et fichiers dans la pratique
+            philosophique.</title>
+            <editor>
+              <forename>Jean-François</forename>
+              <surname>Bert</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <date>2022</date>
+              <biblScope unit="ordre">3</biblScope>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>manuscrits</item>
+            <item>archives numériques</item>
+            <item>Foucault Fiches de Lecture</item>
+            <item>Ludwig Binswanger</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>manuscripts</item>
+            <item>digital archives</item>
+            <item>Foucault Reading Notes</item>
+            <item>Ludwig Binswanger</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2998324" type="geonames" xml:base="https://www.geonames.org/">Lille</placeName>
+          </term>
+          <term>
+            <placeName ref="3448433" type="geonames" xml:base="https://www.geonames.org/">São Paulo</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1941">1941</date>
+          </term>
+          <term>
+            <date from="1500" to="1599" type="_temp">
+              <hi rend="small-caps">xvi</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          </term>
+          <term>
+            <date type="_temp" when="1969">1969</date>
+          </term>
+          <term>
+            <date from="1961-05-01" to="1961-05-31" type="_temp">mai
+            1961</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-01-19T18:30:00" who="Agnès">Révision</change>
+      <change who="Sara Nadal">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Les usages de la plate-forme FFL au soutien
+          des projets d’édition de Michel Foucault</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Elisabetta Basso</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">Cet article est consacré à la présentation des plus
+        récents projets d’édition ayant pour objet les manuscrits conservés
+        dans le Fonds Michel Foucault de la Bibliothèque nationale de France,
+        aussi bien qu’à la mise en lumière des liens entre ces projets et le
+        projet ANR <hi rend="italic">Foucault Fiches de lecture</hi>. Je
+        focalise mon attention,<hi rend="italic"/>en particulier, sur le
+        rapport entre le projet de publication des <hi rend="italic">Cours et
+        travaux de Michel Foucault avant le Collège de France</hi>
+        (Seuil/Gallimard/EHESS, coll. « Hautes Études ») et l’usage d’un
+        prototype de plate-forme collaborative pour ce projet FFL. Pour ce
+        faire, je prends comme exemple les archives foucaldiennes des années
+        1950, en particulier le manuscrit intitulé <hi rend="italic">Binswanger et l’analyse existentielle</hi>, dont j’ai
+        assuré l’édition critique. La possibilité offerte par la plate-forme
+        FFL de repérer rapidement des concepts et des données bibliographiques
+        dans les fiches de lecture de Foucault tout en gardant un lien direct
+        et immédiat avec les images des fiches est l’aspect à mon avis le plus
+        important dans ce travail de recherche et d’édition.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e102">Les pages qui suivent seront consacrées à la
+        présentation des plus récents projets d’édition ayant pour objet les
+        manuscrits conservés dans le Fonds Foucault de la Bibliothèque
+        nationale de France (BnF), aussi bien qu’à la mise en lumière des
+        liens entre ces projets et le projet ANR <hi rend="italic">Foucault
+        Fiches de lecture</hi>. Je focaliserai mon attention,<hi rend="italic"/>en particulier, sur le rapport entre certains de ces
+        projets et l’usage d’un prototype de plate-forme collaborative
+        développé dans le cadre de l’ANR-FFL. Pour ce faire, je prendrai comme
+        exemple les archives foucaldiennes des années 1950, à savoir la partie
+        du Fonds Foucault sur laquelle j’ai travaillé à la fois dans le cadre
+        du projet ANR-FFL, du financement Marie Skłodowska-Curie (Horizon
+        2020) dont je suis titulaire à l’École normale supérieure de Lyon
+        (projet intitulé : « EDIFOU : <hi rend="italic">Michel Foucault’s
+        manuscripts on phenomenology (1950s) at </hi>Bibliothèque nationale de
+        France<hi rend="italic"> archive. A digital approach to the
+        edition</hi> »), et des divers projets éditoriaux dans lesquels je
+        suis actuellement engagée.</p>
+        <div type="section1" xml:id="d1e116">
+          <head subtype="level1" xml:id="d1e117">De nouveaux projets
+          d’édition</head>
+          <p xml:id="d1e119">Depuis la création du Fonds Michel Foucault à la
+          BnF en <date type="_temp" when="2013">2013</date>
+            <note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>
+                <hi rend="small-caps">Germain</hi>, 2014a ;<hi rend="small-caps"> Germain</hi>, 2014b ;<hi rend="small-caps">
+              Sforzini,</hi> 2017.</p>
+            </note>, les projets d’édition du corpus du philosophe se sont
+          multipliés, non sans donner lieu par ailleurs à un vif débat
+          concernant la pratique et l’éthique de l’édition posthume<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>
+                <hi rend="small-caps">Bert</hi> et<hi rend="small-caps">
+              Lamy</hi>, 2018 ; <hi rend="small-caps">Pouradier</hi>, 2019<hi rend="italic">
+                  <hi rend="italic"> ;</hi>
+                </hi>
+                <hi rend="small-caps"> Sforzini</hi>, 2020.</p>
+            </note>. En plus des publications isolées d’entretiens et
+          conférences inédits, fragments de manuscrits et de cours – plus
+          rarement de fiches de lecture<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Voir, en particulier, la longue fiche de lecture que Foucault
+              a consacrée à l’essai de Ludwig Binswanger « Traum und
+              Existenz », publiée dans <hi rend="small-caps">Bert</hi> et <hi rend="small-caps">Basso</hi>, 2015.</p>
+            </note> – parus dans des revues ou des recueils et qui pourraient
+          un jour constituer un ultérieur volume de <hi rend="italic">Dits et
+          écrits</hi>
+            <note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Ces titres ont été recensés par <hi rend="small-caps">Bert</hi> et <hi rend="small-caps">Lamy</hi>,
+              2018<hi rend="italic">.</hi> À la liste publiée ici, on ajoutera
+              aussi la publication de <hi rend="small-caps">Foucault</hi>,
+              2019b.</p>
+            </note>, l’éditeur Vrin a lancé en <date type="_temp" when="2013">2013</date> la collection « Philosophie du présent.
+          Foucault inédit », dirigée par <persName ref="026750457" type="idref" xml:base="https://www.idref.fr/">Jean-François
+          Braunstein</persName>, <persName ref="03574247X" type="idref" xml:base="https://www.idref.fr/">Arnold Davidson</persName> et
+          <persName ref="165122889" type="idref" xml:base="https://www.idref.fr/">Daniele Lorenzini</persName>. Cette
+          collection compte déjà cinq volumes<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 2013, 2015b, 2016, 2017
+              et 2019a.</p>
+            </note>. À la publication chez Gallimard du quatrième volume de
+          l’<hi rend="italic">Histoire de la sexualité, Les aveux de la
+          chair</hi> en 2018<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 2018a.</p>
+            </note> a fait suite dans la même année la parution aux Éditions
+          du Seuil, Gallimard et EHESS (coll. « Hautes Études ») des cours sur
+          la sexualité, prononcés par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>,
+          respectivement, en <date type="_temp" when="1964">1964</date> à
+          l’Université de Clermont-Ferrand et en <date type="_temp" when="1969">1969</date> à l’Université de Vincennes<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 2018b.</p>
+            </note>. Réunis en un seul volume, ces cours ont inauguré la
+          nouvelle série intitulée <hi rend="italic">Cours et travaux de
+          Michel Foucault avant le Collège de France</hi>, laquelle a pour but
+          de publier les manuscrits rédigés par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          avant <date type="_temp" when="1970">1970</date>. Plusieurs volumes
+          sont prévus jusqu’au moins en <date type="_temp" when="2025">2025</date>, parmi lesquels trois comprendront les cours
+          et travaux des <date from="1950" to="1959" type="_temp">années
+          1950</date> (<hi rend="italic">Binswanger et l’analyse
+          existentielle</hi>
+            <note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 2021.</p>
+            </note>
+            <hi rend="italic"> </hi>; <hi rend="italic">Phénoménologie
+          et psychologie</hi>
+            <note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Édition établie, sous la responsabilité de François Ewald,
+              par Philippe Sabot.</p>
+            </note>
+            <hi rend="italic"> </hi>; <hi rend="italic">La question
+          anthropologique. Cours 1954-1955</hi>
+            <note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Édition établie, sous la responsabilité de François Ewald,
+              par Arianna Sforzini.</p>
+            </note>), et trois autres concerneront les <date from="1960" to="1969" type="_temp">années 1960</date> : en plus des cours sur la
+          sexualité déjà mentionnés, seront publiées les leçons prononcées à
+          <placeName ref="3448433" type="geonames" xml:base="https://www.geonames.org/">São Paulo</placeName> en <date type="_temp" when="1965">1965</date> sur <hi rend="italic">Les Mots
+          et les choses</hi>
+            <note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Édition établie, sous la responsabilité de François Ewald,
+              par Philippe Sabot.</p>
+            </note>, les cours prononcés à l’Université de Tunis <date from="1966" to="1968" type="_temp">entre 1966 et 1968</date>
+          respectivement sur <hi rend="italic">Le Discours philosophique</hi>
+          et sur <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">Descartes</persName>
+            <note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Édition établie, sous la responsabilité de François Ewald,
+              par Orazio Irrera et Daniele Lorenzini.</p>
+            </note>, ainsi que des cours inédits sur <persName ref="086200038" type="idref" xml:base="https://www.idref.fr/">Nietzsche</persName>
+          datant de <date from="1969" to="1970" type="_temp">1969-1970</date>
+          (Université de Vincennes) et <date type="_temp" when="1971">1971</date> (Université McGill). En annexe à ces
+          derniers, seront publiés également des textes de jeunesse sur la
+          philosophie de <persName ref="086200038" type="idref" xml:base="https://www.idref.fr/">Nietzsche</persName>, datant de
+          <date from="1953" to="1956" type="_temp">1953-1956</date>
+            <note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Édition établie, sous la responsabilité de François Ewald,
+              par Bernard E. Harcourt. Au projet éditorial <hi rend="italic">Cours et travaux de Michel Foucault avant le
+              Collège de France</hi> est consacré un numéro spécial de la
+              revue britannique <hi rend="italic">Theory, Culture &amp;
+              Society</hi> : <hi rend="italic">Foucault before the Collège de
+              France</hi>, dirigé par Stuart Elden, Orazio Irrera et Daniele
+              Lorenzini (à paraître). Voir la présentation dans le site
+              internet de la revue : <ref target="https://www.theoryculturesociety.org/blog/special-issue-foucault-before-the-college-de-france">
+                  <hi rend="underline">https://www.theoryculturesociety.org/blog/special-issue-foucault-before-the-college-de-france</hi>
+                </ref>.</p>
+            </note>.</p>
+          <p xml:id="d1e274">L’ordre de parution de ces volumes ne suivra pas
+          un critère chronologique et de toute manière, un certain nombre de
+          décisions ou choix d’édition seront prises à fur et à mesure,
+          puisque le travail de fouille des archives donne souvent lieu à des
+          surprises. Il se pourrait, par exemple, que d’autres textes trouvent
+          leur place dans cette collection en plus de ceux déjà programmés. En
+          outre, en ce qui concerne en particulier les volumes recueillant les
+          trois manuscrits des <date from="1950" to="1959" type="_temp">années
+          1950</date> – qui dans un premier temps avaient été tous catalogués
+          comme « Cours de Lille » – les chercheurs se sont aperçus en les
+          étudiant de manière approfondie que deux d’entre eux ne
+          constituaient pas des cours, mais des projets de thèse ou d’ouvrage.
+          En effet, <hi rend="italic">Binswanger et l’analyse
+          existentielle</hi> et <hi rend="italic">Phénoménologie et
+          psychologie</hi> semblent avoir été rédigés autour de <date from="1952" to="1954" type="_temp">1952-1954</date>, à l’époque où
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, jeune agrégé
+          de philosophie et diplômé de l’Institut de psychologie de Paris,
+          recruté à l’Université de Lille à la rentrée <date type="_temp" when="1952">1952</date> sur un poste d’assistant de psychologie,
+          hésite parmi de différents projets de thèse qui devaient à la fois
+          constituer la base pour ses cours et probablement aboutir à des
+          ouvrages<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Voir à ce propos <hi rend="small-caps">Basso</hi>, 2019,
+              2020a et 2020c.</p>
+            </note>.</p>
+          <p xml:id="d1e289">De nombreux chercheurs, en outre, ont commencé à
+          étudier les archives de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> à l’époque où
+          il était étudiant à l’ENS, au point que les ayants droit de
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> envisagent de
+          publier le mémoire de maîtrise soutenu par le philosophe en <date type="_temp" when="1949">1949</date>, ayant pour titre <hi rend="italic">La constitution d’un transcendantal historique dans la
+          Phénoménologie de l’esprit de Hegel</hi>
+            <note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>BnF, Fonds Michel Foucault, boîte 1, dossier 1, cote NAF
+              28803.</p>
+            </note>. Il se pourrait donc que ce volume soit inclus dans la
+          série des <hi rend="italic">Cours et travaux avant le Collège de
+          France</hi>. L’examen de ce texte, à côté de l’analyse de nombreuses
+          notes d’étudiant de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> également
+          conservées à la BnF<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Pour une présentation des notes d’étudiant de Foucault, nous
+              renvoyons à l’exposition virtuelle des fiches de lecture conçue
+              par Gautier Dassonneville dans la plate-forme publique
+              FFL-Eman : cf. <hi rend="small-caps">Dassonneville</hi>,
+              2020.</p>
+            </note>, a contribué à ouvrir un nouveau front dans les études
+          foucaldiennes, de sorte que l’œuvre du jeune <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> est destinée
+          désormais à être considérée comme partie intégrante du parcours
+          intellectuel du philosophe.</p>
+          <p xml:id="d1e307">La disponibilité des archives a donné lieu en
+          même temps à un projet éditorial ultérieur, à savoir la réédition
+          des cours au Collège de France en édition de poche, dans la
+          collection « Points. Essais » des éditions du Seuil. L’objectif de
+          cette nouvelle opération éditoriale est non seulement de réviser les
+          transcriptions des cours, qu’elles proviennent d’enregistrements ou
+          de manuscrits, afin de corriger d’éventuelles erreurs, mais surtout
+          d’enrichir et d’homogénéiser le travail d’édition. En effet, il y a
+          parfois des différences significatives entre les cours effectivement
+          prononcés et les manuscrits. Au cours de la période dans laquelle
+          s’est échelonnée l’édition des treize cours au Collège de France
+          – de <date type="_temp" when="1997">1997</date> (<hi rend="italic">Il faut défendre la société</hi>
+            <note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 1997.</p>
+            </note>) à <date type="_temp" when="2015">2015</date> (<hi rend="italic">Théories et institutions pénales</hi>
+            <note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 2015a.</p>
+            </note>) – l’utilisation qui a été faite des manuscrits des cours
+          a sensiblement évolué : en particulier, les appareils critiques des
+          derniers cours édités sont remarquablement plus étoffés que ceux des
+          premiers, puisqu’ils ont pu tenir compte des notes de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, aussi bien que
+          du journal intellectuel qu’il avait commencé à rédiger au début des
+          <date from="1960" to="1969" type="_temp">années 1960</date>
+            <note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>BnF, Fonds Michel Foucault, boîtes 91 et 92, cote NAF
+              28730.</p>
+            </note>. Cette réédition des cours est enfin l’occasion de
+          procéder à une simplification de l’index des notions et à son
+          homogénéisation d’un cours à l’autre. Les cours seront publiés dans
+          l’ordre chronologique selon lequel ils ont été prononcés par
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, à raison d’un
+          cours par volume et selon le rythme de deux cours par an, à partir
+          de <date type="_temp" when="2021">2021</date>
+            <note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Les deux premiers cours ont paru en 2021 : <hi rend="small-caps">Foucault</hi> 2021a et 2021b.</p>
+            </note>.</p>
+          <p xml:id="d1e338">Dans les pages qui suivent, je concentrerai mon
+          attention, en particulier, sur le projet susmentionné des <hi rend="italic">Cours et travaux de Michel Foucault avant le Collège
+          de France</hi>, qui va donc me permettre d’illustrer de manière
+          détaillée comment le travail de recherche visant à l’édition des
+          manuscrits de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> profite de
+          manière avantageuse des outils développés dans le cadre de
+          l’ANR-FFL. Pour ce faire, je m’appuierai de manière spécifique sur
+          l’exemple de l’édition du manuscrit consacré à <hi rend="italic">Binswanger et l’analyse existentielle</hi>
+            <note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>En réalité, aucun titre ne figure sur le manuscrit original :
+              nous lui avons donné celui de <hi rend="italic">Binswanger et
+              l’analyse existentielle </hi>qui correspond au thème traité.</p>
+            </note>, un travail que j’ai effectué en de 2017 à 2019<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Une partie de ce travail de recherche a pu être effectuée en
+              2016-2017 grâce à un financement européen EURIAS (European
+              Institutes for Advanced Study) à l’Institut d’études avancées
+              Collegium de Lyon, Université de Lyon et, en 2018, grâce à un
+              financement de la Fondation Alexander von Humboldt à la
+              Technische Universität, Berlin, Institut für Philosophie.</p>
+            </note>, en parallèle au développement par <persName ref="176332421" type="idref" xml:base="https://www.idref.fr/">Vincent Ventresque</persName> d’un
+          prototype de plateforme collaborative pour l’ANR-FFL.</p>
+        </div>
+        <div type="section1" xml:id="d1e358">
+          <head subtype="level1" xml:id="d1e359">Exploiter les archives au
+          moyen de la plate-forme FFL</head>
+          <p xml:id="d1e361">À la différence de l’édition des cours au Collège
+          de France, pour lesquels, à l’exception des deux premiers, les
+          chercheurs ont travaillé principalement sur les enregistrements
+          vocaux des séances de cours, le travail éditorial sur les cours et
+          travaux de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> des deux
+          décennies qui précèdent <date type="_temp" when="1970">1970</date>
+          se fonde exclusivement sur les manuscrits. C’est la raison pour
+          laquelle les documents d’archives qui accompagnent ces textes
+          – comme les notes préparatoires, les fiches de lecture, parfois les
+          brouillons, jusqu’aux correspondances avec les collaborateurs et les
+          éditeurs, etc. – sont fondamentaux pour aider l’éditeur non
+          seulement à établir le texte final à publier, mais aussi à le
+          compléter avec un appareil critique qui aide le lecteur à mieux le
+          comprendre en le contextualisant par rapport à la fois aux autres
+          textes inédits et à l’œuvre publiée du philosophe.</p>
+          <p xml:id="d1e363">Les trois manuscrits de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          qui vont constituer les volumes couvrant les <date from="1950" to="1959" type="_temp">années 1950</date> dans la collection des <hi rend="italic">Cours et travaux avant le Collège de France</hi> se
+          trouvent dans la boîte 46 du fonds Foucault de la BnF<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>Cote NAF 28730.</p>
+            </note>, laquelle est composée d’à peu près 400 feuillets
+          manuscrits (la plupart en recto verso), regroupés en quatre dossiers
+          rassemblant : les manuscrits, respectivement, d’un cours sur
+          l’anthropologie philosophique que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, à
+          cette époque-là, avait prononcé à l’Université de Lille et avait
+          repris également à l’ENS, et les deux projets de thèse/livre sur
+          <persName ref="02672930X" type="idref" xml:base="https://www.idref.fr/">Binswanger</persName> et sur <hi rend="italic">Phénoménologie et psychologie</hi>. La boîte 46
+          contient également un ensemble de manuscrits autographes assez
+          hétérogènes datant toujours du début des <date from="1950" to="1959" type="_temp">années 1950</date>, qui ont été inventoriés de manière
+          hypothétique comme des « Cours pour agrégratifs rue d’Ulm » et qui
+          pourraient être soit des notes préparatoires de cours soit des
+          esquisses préparatoires de livres.</p>
+          <p xml:id="d1e375">Pour l’édition des trois manuscrits de la période
+          lilloise, il est fondamental de tenir compte également des fiches de
+          lecture qui se trouvent dans trois autres boîtes du fonds Foucault,
+          à savoir, les boîtes 33 (« La philosophie allemande. Nietzsche,
+          Schopenhauer, Hegel etc. »), 38 (« Rue d’Ulm, circa 1944-1950 ») et
+          42 (« Littérature, sodomie, hérésie, homosexualité »), qui
+          comprennent un total d’à peu près un millier de feuillets ayant pour
+          objet la psychologie, la phénoménologie et la psychopathologie
+          phénoménologique, surtout de langue allemande. Par ailleurs, grâce à
+          ces fiches nous avons pu découvrir qu’à l’époque où <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> rédige son
+          « Introduction » à l’essai de <persName ref="02672930X" type="idref" xml:base="https://www.idref.fr/">Binswanger</persName>, <hi rend="italic">Le Rêve et l’existence</hi>
+            <note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>
+                <hi rend="small-caps">Binswanger</hi>, 1930-1954.</p>
+            </note>, il a déjà lu non seulement toute l’œuvre de Binswanger
+          alors disponible, mais aussi les écrits de la plupart des
+          psychiatres, médecins, philosophes et anthropologues germanophones
+          dont le nom est lié au développement de la psychopathologie
+          phénoménologique. Si l’on parcourt en outre les divers inventaires
+          bibliographiques rédigés par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> dans la
+          première moitié des <date from="1950" to="1959" type="_temp">années
+          1950</date> – auxquels nous avons désormais accès toujours grâce aux
+          fiches de lecture – on en tire effectivement l’impression qu’il
+          avait envisagé de préparer une thèse sur la psychiatrie
+          existentielle. Lorsqu’il entreprend, en <date type="_temp" when="1953">1953</date>, de collaborer avec <persName ref="027180476" type="idref" xml:base="https://www.idref.fr/">Jacqueline Verdeaux</persName> à la
+          traduction de « Traum und Existenz », <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> a
+          donc déjà une connaissance très poussée de la psychopathologie
+          phénoménologique.</p>
+          <p xml:id="d1e386">Ces plusieurs centaines de fiches de lecture ont
+          été donc fondamentales pour établir l’édition du manuscrit sur <hi rend="italic">Binswanger et l’analyse existentielle</hi>,
+          puisqu’elles m’ont donné accès à un très grand nombre d’informations
+          concernant non seulement l’imposante bibliographie qui demeure
+          lacunaire dans le manuscrit, mais aussi les références conceptuelles
+          et les auteurs qui sont présents dans le texte de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> souvent de
+          manière cachée. Il était pourtant difficile d’enregistrer et de
+          retrouver toutes ces informations parmi le millier de feuillets que
+          j’avais pu consulter soit directement au Département des manuscrits
+          de la BnF soit dans les très lourds fichiers pdf qui m’avaient été
+          transmis par les ayants droit du fonds Foucault. C’est là que la
+          plate-forme FFL a été essentielle pour mon travail. Puisqu’en <date type="_temp" when="2017">2017</date> les boîtes 33, 38 et 42
+          venaient d’être numérisées et insérées dans la plate-forme FFL, j’ai
+          pu utiliser cet outil comme une base de données, une base qui s’est
+          constituée à partir des informations que j’ai moi-même contribué à
+          insérer au fur et à mesure en consultant les fiches disponibles sur
+          la plate-forme elle-même.</p>
+          <p xml:id="d1e391">Quelques exemples seront peut-être utiles pour
+          mieux comprendre comment j’ai pu procéder. Dans le manuscrit, de
+          nombreuses données bibliographiques sont soit incomplètes soit
+          totalement manquantes : <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> renvoie souvent
+          à une note en bas de page ou bien à un auteur sans en fournir la
+          référence. C’est le cas, par exemple, du psychanalyste hongrois
+          <persName ref="031683991" type="idref" xml:base="https://www.idref.fr/">Franz Alexander</persName>
+          (1891-1964), que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> cite dans son
+          manuscrit à propos de « certaines tendances récentes de la méthode
+          thérapeutique chez les analystes<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 2020, p. 164.</p>
+            </note> » qui consisteraient en un « effort […] pour orienter la
+          cure moins vers la récupération totale du passé que vers l’ouverture
+          des possibilités d’avenir<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>
+                <hi rend="italic">Ibid.</hi>, p. 165.</p>
+            </note> ». Or, pour chercher la référence précise que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> pouvait avoir à
+          l’esprit lorsqu’il a rédigé ce passage, j’ai lancé une recherche par
+          auteur dans la plateforme et j’ai appris que dans la boîte 38 il y
+          avait, en particulier, deux fiches intitulées, respectivement :
+          « Les psychonévroses selon Alexander<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Fiche n<hi rend="sup">o</hi> b038_f0454. Cf. la plate-forme
+              publique FFL-Eman : <ref target="http://eman-archives.org/Foucault-fiches/items/show/6647">
+                  <hi rend="underline">http://eman-archives.org/Foucault-fiches/items/show/6647</hi>
+                </ref>.</p>
+            </note> », et « Nouvelle orientation de la psychanalyse<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>Fiche n<hi rend="sup">o</hi> b038_f0455-456. Cf. la
+              plate-forme publique FFL-Eman : <ref target="http://eman-archives.org/Foucault-fiches/items/show/6648">
+                  <hi rend="underline">http://eman-archives.org/Foucault-fiches/items/show/6648</hi>
+                </ref>.</p>
+            </note> ».</p>
+          <figure xml:id="d1e429">
+            <head xml:id="d1e430">Fig. 1 : Capture d’écran : recherche ‘Franz
+            Alexander’.</head>
+          </figure>
+          <p xml:id="d1e432">J’ai donc sélectionné les deux fiches afin de
+          pouvoir les consulter et, dans la deuxième, j’ai retrouvé la même
+          idée contenue dans le passage mentionné par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> dans son
+          manuscrit – « il peut y avoir de bonnes thérapeutiques sans guère de
+          conscience du passé » – avec en plus l’indication bibliographique
+          qui manquait dans celui-ci : <hi rend="italic">Psychoanalytic
+          Therapy. </hi>
+            <hi rend="italic">Principles and Application</hi> (New
+          York, The Ronald Press Company, 1946), p. 18-22.</p>
+          <figure xml:id="d1e439">
+            <head xml:id="d1e440">Fig. 2 : Fiche n<hi rend="sup">o</hi> b038_f0455-456.</head>
+          </figure>
+          <figure xml:id="d1e445">
+            <head xml:id="d1e446">Fig. 3 : Fiche n<hi rend="sup">
+            o</hi> b038_f0455-456.</head>
+          </figure>
+          <p xml:id="d1e451">Je vais mentionner un autre exemple. En
+          présentant l’analyse d’un cas clinique, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          mentionne la notion de « <hi rend="italic">Weltuntergangswahn</hi> »
+          ou « délire de catastrophe cosmique », selon sa traduction qu’il
+          attribue aux « psychiatres allemands », sans fournir aucune
+          indication ultérieure concernant ses sources. Comment se repérer
+          pour rédiger une note critique afin de mieux contextualiser cette
+          notion ? J’ai lancé une recherche par notions dans la plate-forme
+          FFL et j’ai obtenu des indications pertinentes concernant non
+          seulement la bibliographie, mais aussi l’usage de ce terme, dans une
+          série de fiches de lecture contenues toujours dans les boîtes
+          susmentionnées, où Foucault cite des études germanophones ayant pour
+          objet précisément le « délire de fin du monde » ou de « catastrophe
+          cosmique » dans la schizophrénie<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>Voir, respectivement, les fiches n<hi rend="sup">o</hi> b038_f0167 (<ref target="http://eman-archives.org/Foucault-fiches/items/show/6360">
+                  <hi rend="underline">http://eman-archives.org/Foucault-fiches/items/show/6360</hi>
+                </ref>) et n<hi rend="sup">o</hi> b042_B_f0290 (<ref target="http://eman-archives.org/Foucault-fiches/items/show/2969">
+                  <hi rend="underline">http://eman-archives.org/Foucault-fiches/items/show/2969</hi>
+                </ref>).</p>
+            </note> :</p>
+          <quote rend="quotation" xml:id="d1e475">Rudolf <hi rend="small-caps">Bilz</hi>, « Die Metapher des Untergangs in der
+          Schizophrenie », <hi rend="italic">Der Nervenarzt</hi>, 20 (1949),
+          p. 258‑262 ;</quote>
+          <quote rend="quotation" xml:id="d1e483">Alfred <hi rend="small-caps">Storch</hi> et Caspar <hi rend="small-caps">Kulenkampff</hi>, « Zum Verständnis des
+          Weltuntergangs der Schizophrenen », <hi rend="italic">Der
+          Nervenartz</hi>, 21, 3 (1950), p. 102‑108.</quote>
+          <p xml:id="d1e494">Ces articles sont également cités par Foucault
+          dans une autre fiche portant sur l’article de L. Binswanger,
+          « Daseinsanalytik und Psychiatrie »<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>
+                <hi rend="small-caps">Binswanger</hi>, 1951.</p>
+            </note>, où il est question du rapport entre la <hi rend="italic">Daseinsanalyse </hi>et la psychopathologie et, en
+          particulier, des « métaphores des schizophrènes<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Fiche n<hi rend="sup">o</hi> b038_f0167 (<ref target="http://eman-archives.org/Foucault-fiches/items/show/6360">
+                  <hi rend="underline">http://eman-archives.org/Foucault-fiches/items/show/6360</hi>
+                </ref>).</p>
+            </note> ». Le concept de <hi rend="italic">Weltuntergang</hi> est
+          mentionné aussi dans une fiche contenue dans la boîte 42B et
+          intitulée : « Histoire du malade - Storch, Die Daseinsfrage der
+          Schizophrenen »<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>Fiches n<hi rend="sup">o</hi> b042_B_f0101-102. Cf. la
+              plate-forme publique FFL-Eman dans <ref target="http://eman-archives.org/Foucault-fiches/items/show/2781">
+                  <hi rend="underline">http://eman-archives.org/Foucault-fiches/items/show/2781</hi>
+                </ref>.</p>
+            </note>. Dans cette fiche, il est question justement du « vécu de
+          la fin du monde » (<hi rend="italic">Erlebnis des
+          Weltuntergangs</hi>) dans un cas de schizophrénie illustré en <date type="_temp" when="1947">1947</date> par le psychiatre allemand
+          <persName ref="187492697" type="idref" xml:base="https://www.idref.fr/">Alfred Storch</persName>
+          (1888-1962) dans un article intitulé « Die Daseinsfrage der
+          Schizophrenen »<note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>
+                <hi rend="small-caps">Storch</hi>, 1947.</p>
+            </note>, que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> résume dans ses
+          notes en concentrant son attention sur l’histoire du malade.</p>
+          <figure xml:id="d1e542">
+            <head xml:id="d1e543">Fig. 4 : Fiche n<hi rend="sup">o</hi> b042_B_f0102.</head>
+          </figure>
+          <p xml:id="d1e548">J’aimerais maintenant mentionner un exemple
+          concernant, cette fois-ci, la recherche des sources lexicales et
+          conceptuelles qui sont seulement implicites dans le manuscrit et
+          qu’il fallait pourtant développer dans les notes critiques de
+          l’édition. Au fur et à mesure de ma consultation des fiches de
+          lecture dans la plate-forme FFL, j’ai indexé les concepts évoqués
+          par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> en restreignant
+          mon choix aux thématiques spécifiques rencontrées en étudiant le
+          manuscrit <hi rend="italic">Binswanger et l’analyse
+          existentielle</hi>. J’ai donc créé des indicateurs directement liés,
+          du point de vue conceptuel, à ce texte spécifique en vue de son
+          édition critique. Des notions telles que, par exemple, « <hi rend="italic">Dasein</hi> », « angoisse », « amour » sont parmi les
+          plus récurrentes dans les fiches de lecture qui accompagnent ce
+          manuscrit, mais il y a aussi de nombreux termes allemands dont il
+          était important de connaître non seulement la source et la
+          traduction adoptée par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, mais aussi le
+          parcours conceptuel à travers lequel il était venu à les utiliser
+          dans son texte.</p>
+          <p xml:id="d1e556">Un exemple parmi les nombreux que l’on pourrait
+          citer concerne le terme « <hi rend="italic">Verweltlichung</hi> » ou
+          « mondanéisation », que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> évoque au
+          chapitre 5 du manuscrit, consacré à l’anthropologie existentielle.
+          La question, à ce sujet, était compliquée par le fait que cette
+          notion apparaît d’emblée dans le manuscrit, après des pages
+          manquantes qui n’ont malheureusement pas été retrouvées, ce qui fait
+          qu’elle est privée d’un contexte précis. Puisque dans l’appareil
+          critique du manuscrit il était nécessaire d’insérer une note
+          expliquant le concept en question – dont la source possible pouvait
+          être repérée non seulement dans la pensée de <persName ref="02672930X" type="idref" xml:base="https://www.idref.fr/">Binswanger</persName>, mais aussi
+          dans d’autres auteurs sur lesquels Foucault travaillait à cette
+          époque, notamment <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>, <persName type="_temp">Fink</persName>, <persName type="_temp">Heidegger</persName> – le recours systématique aux
+          fiches de lecture s’est révélé encore une fois indispensable. À
+          l’aide d’une recherche terminologique effectuée dans la plate-forme
+          FFL, j’ai pu retrouver toutes les occurrences du concept de « <hi rend="italic">Verweltlichung</hi> » dans les fiches de lecture
+          contemporaines du manuscrit et apprendre ainsi, que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> l’utilise
+          uniquement en se référant à l’œuvre de <persName ref="02672930X" type="idref" xml:base="https://www.idref.fr/">Binswanger</persName>,
+          plus précisément aux deux cas cliniques dans lesquels ce concept est
+          développé, à savoir, les cas de Lola Voss<note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>
+                <hi rend="small-caps">Binswanger</hi>, 1949.</p>
+            </note> et Jürg Zünd<note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>
+                <hi rend="small-caps">Binswanger</hi>, 1946-1947.</p>
+            </note>. Il y a plusieurs fiches dans lesquelles ce concept est
+          évoqué : nous nous limitons ici à mentionner un exemple pris d’une
+          fiche contenue dans la boîte 38 et intitulée « Daseinsanalyse et
+          psychopathologie », où il est question de la « <hi rend="italic">Verweltlichung der selbst</hi> » (mondanéisation du
+          soi) et où <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> écrit :</p>
+          <quote rend="quotation" xml:id="d1e581">L’intérêt de la
+          psychopathologie commence ici : elle parle de symptômes, de <hi rend="italic">Krankheitserscheinungen</hi> (manifestations de la
+          maladie), de comportements stéréotypés, de dissociation de
+          personnalité, d’autisme, etc. Ce sont des catégories appliquées de
+          l’extérieur à l’homme : elles servent à classifier, à diagnostiquer.
+          Tout ceci est intéressant quand se produit la « <hi rend="italic">Verweltlichung des Selbst</hi> », là où il n’est plus
+          possible de parler d’existence et d’amour ; quand les malades ont
+          cessé d’être des <hi rend="italic">Selbst </hi>libres<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>Fiche n<hi rend="sup">o</hi> b038_f0116 (<ref target="http://eman-archives.org/Foucault-fiches/items/show/6309">
+                  <hi rend="underline">http://eman-archives.org/Foucault-fiches/items/show/6309</hi>
+                </ref>).</p>
+            </note>.</quote>
+          <figure xml:id="d1e603">
+            <head xml:id="d1e604">Fig. 5 : Fiche n<hi rend="sup">o</hi> b038_f0116.</head>
+          </figure>
+          <p xml:id="d1e609">Il y a un aspect ultérieur de l’interaction entre
+          le travail de recherche et d’édition des manuscrits de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> et la
+          plate-forme FFL que j’aimerais mentionner. Il s’agit de la manière
+          dont celle-ci pourra contribuer, grâce à la base de données qu’elle
+          met à disposition pour les chercheurs, à les guider dans la
+          rédaction des index des noms et des notions dans les ouvrages qui
+          vont être publiés. De ce point de vue, cette base de données sera
+          très utile également dans le cadre du projet de réédition des cours
+          au Collège de France en poche, pour lequel il est prévu, une fois
+          qu’il sera complété, de dresser un index intégratif des notions de
+          tous les cours.</p>
+        </div>
+        <div type="section1" xml:id="d1e611">
+          <head subtype="level1" xml:id="d1e612">Les nouvelles pistes de
+          recherche ouvertes par les fiches de lecture</head>
+          <p xml:id="d1e614">La possibilité de repérer des concepts, des
+          auteurs et des titres d’ouvrage tout en gardant un lien direct et
+          immédiat avec les fiches de lecture est l’aspect que j’ai trouvé le
+          plus utile dans mon travail d’édition des manuscrits de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>. Une fois ces
+          ouvrages publiés, le lecteur aura la possibilité de consulter soit
+          la plate-forme EMAN<note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>
+                <ref target="http://eman-archives.org/Foucault-fiches/">
+                  <hi rend="underline">http://eman-archives.org/Foucault-fiches/</hi>
+                </ref>
+              </p>
+            </note>, soit la bibliothèque numérique Gallica<note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>Voir à ce propos le post de Laurence Le Bras dans le blog de
+              la bibliothèque numérique de la BnF Gallica : <hi rend="small-caps">Le Bras</hi>, 2020.</p>
+            </note> pour visionner directement et intégralement les fiches
+          mentionnées dans les volumes, où leur contenu est seulement
+          mentionné ou transcrit de manière partielle. Ces outils pourront
+          être utilisés également par les chercheurs qui ont intérêt à étudier
+          non seulement les manuscrits, mais aussi les ouvrages publiés par
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> de son vivant à
+          la lumière du travail de recherche qui a amené le philosophe à les
+          concevoir. En effet, si les références à de nombreux auteurs et
+          ouvrages sont souvent partielles ou manquantes dans l’œuvre publiée
+          du philosophe, en revanche, elles sont présentes massivement dans
+          les fiches de lecture. Grâce à celles-ci on peut ainsi découvrir non
+          seulement les sources d’inspiration tacites, mais aussi les diverses
+          pistes que Foucault avait suivies ou abandonnées, lorsqu’il
+          s’apprêtait à entreprendre la rédaction d’un ouvrage.</p>
+          <p xml:id="d1e630">À ce propos, on pourrait mentionner par exemple
+          le très vaste travail de recherche que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          avait effectué au sujet de la sorcellerie au <date from="1500" to="1599" type="_temp">
+              <hi rend="small-caps">xvi</hi>
+              <hi rend="sup">e</hi> siècle</date> à l’époque où il travaillait à sa
+          thèse sur <hi rend="italic">Folie et déraison</hi>, et
+          qu’apparemment, il a finalement décidé de ne pas inclure dans la
+          version finale, alors que plusieurs dizaines de fiches de lecture
+          témoignent du grand intérêt qu’il portait à cette thématique en
+          relation avec la folie et la possession. Toutes ces fiches se
+          trouvent dans la boîte 35B, qui appartient à une série de quatre
+          boîtes (34A et B : « Histoire de la folie. Préparatifs », et 35A et
+          B : « Autour de l’Histoire de la folie ») datant de la deuxième
+          moitié des <date from="1950" to="1959" type="_temp">années
+          1950</date>, à savoir l’époque à laquelle le philosophe rassemble
+          les sources pour la rédaction de sa thèse qu’il soutiendra en <date from="1961-05-01" to="1961-05-31" type="_temp">mai 1961</date>. Ces
+          boîtes ont été récemment numérisées dans le cadre des projets
+          ANR FFL et Marie Curie-EDIFOU, elles ont été insérées sur la
+          plate-forme FFL et sont désormais disponibles en libre accès sur la
+          plate-forme EMAN et dans Gallica.</p>
+          <p xml:id="d1e640">Les fiches de lecture, en outre, nous fournissent
+          des informations précieuses sur la méthode de travail de Foucault,
+          qui se laisse guider par les ouvrages qu’il lit en en suivant les
+          références bibliographiques. Si certaines parmi celles-ci restent de
+          seconde main dans les écrits de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          – comme on a pu le découvrir justement en étudiant attentivement les
+          fiches – on peut cependant découvrir les textes qui avaient attiré
+          le plus son attention, les passages qu’il avait soulignés, les
+          concepts sur lesquels il s’était arrêté. On pourrait mentionner à ce
+          sujet l’exemple d’une fiche bibliographique que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> a rédigée après
+          sa lecture d’un article du philosophe allemand <persName ref="171325745" type="idref" xml:base="https://www.idref.fr/">Hans
+          Kunz</persName> (1904‑1982), dont l’œuvre est très souvent citée
+          dans les manuscrits et les ouvrages de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          des <date from="1950" to="1959" type="_temp">années 1950</date>
+            <note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>En particulier, dans les pages finales de l’article de 1957
+              sur « La psychologie de 1850 à 1950 », on peut lire le propos
+              suivant : « Ressaisir l’homme comme existence dans le monde et
+              caractériser chaque homme par le style propre à cette existence,
+              c’est, pour L. Binswanger, pour H. Kunz, atteindre, au-delà de
+              la psychologie, le fondement qui lui donne sa possibilité et
+              rend compte de ses ambiguïtés » (Foucault, 1957-1994,
+              p. 136).</p>
+            </note>. L’article en question, qui date de <date type="_temp" when="1941">1941</date>, est intitulé : « Die anthropologische
+          Betrachtungsweise in der Psychopathologie » (La méthode
+          anthropologique en psychopathologie)<note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>Kunz, 1941.</p>
+            </note> et <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> le résume dans
+          une longue fiche contenue dans la boîte 42B, dossier 1, consacré à
+          la psychopathologie phénoménologique<note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>Fiches n<hi rend="sup">o</hi> b042_B_f0311-314 (<ref target="http://eman-archives.org/Foucault-fiches/items/show/2990">
+                  <hi rend="underline">http://eman-archives.org/Foucault-fiches/items/show/2990</hi>
+                </ref>).</p>
+            </note>. Or, dans une fiche contenue dans la boîte 37 (« Années de
+          formation : Sorbonne, rue d’Ulm »), à l’intérieur d’une chemise
+          consacrée au thème de l’anthropologie, on peut lire la liste
+          bibliographique suivante<note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>Fiche n<hi rend="sup">o</hi> b037_f0718 (<ref target="http://eman-archives.org/Foucault-fiches/exhibits/show/binswanger-analyse-existentiel/item/3931">
+                  <hi rend="underline">http://eman-archives.org/Foucault-fiches/exhibits/show/binswanger-analyse-existentiel/item/3931</hi>
+                </ref>) : Erich Volland, <hi rend="italic">Die Stellung des
+              Menschen in der naturwissenschaftlichen und in der
+              philosophischen Anthropologie der Gegenwart</hi>, Halle, Klinz,
+              1936 ; Paul Ludwig Landsberg, <hi rend="italic">Einführung in
+              die philosophische Anthropologie</hi>, Frankfurt am Main,
+              Klostermann, 1934 ; Otto Friedrich Bollnow, « Existenzerhellung
+              und philosophische Anthropologie. Versuch einer
+              Auseinandersetzung mit Karl Jaspers », <hi rend="italic">Blätter
+              für Deutsche Philosophie</hi>, 12 (1938), p. 133-174 ; Dolf
+              Sternberger, <hi rend="italic">Der verstandene Tod: eine
+              Untersuchung zu Martin Heideggers Existenzialontologie</hi>,
+              Leipzig, Hirzel, 1934 ; Otto Friedrich Bollnow,
+              « Existenzphilosophie », dans Nicolai Hartmann, éd.,<hi rend="italic"> Systematische Philosophie</hi>, 2e éd.,
+              Stuttgart, Kohlhammer, 1942 ; Matthias Thiel, « Was ist der
+              Mensch? », <hi rend="italic">Divus Thomas</hi>, 20 (1942),
+              p. 3-34 ; Helmuth Plessner, <hi rend="italic">Macht und
+              menschliche Natur: ein Versuch zur Anthropologie der
+              geschichtlichen Weltansicht</hi>, Berlin, Junker und Dünnhaupt,
+              1931 ; Max Horkheimer, « Bemerkungen zur philosophischen
+              Anthropologie », <hi rend="italic">Zeitschrift für
+              Sozialforschung</hi>, 4-1 (1935), p. 1-25 ; Joachim Ritter, <hi rend="italic">Über den Sinn und die Grenze der Lehre vom
+              Menschen</hi>,<hi rend="italic"/>Potsdam, Protte, 1933 ; Theodor
+              Litt, <hi rend="italic">Die Selbsterkenntnis des Menschen</hi>,
+              Leipzig, Meiner, 1938 ; Franz Josef Brecht, <hi rend="italic">Der Mensch und die Philosophie</hi>, Halle,
+              Niemeyer, 1932.</p>
+            </note> :</p>
+          <figure xml:id="d1e710">
+            <head xml:id="d1e711">Fig. 6 : Fiche n<hi rend="sup">o</hi>
+            b037_f0718.</head>
+          </figure>
+          <p xml:id="d1e716">Même si <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> ne l’explicite
+          pas, cette liste est dressée à partir de sa lecture de l’article de
+          <persName ref="171325745" type="idref" xml:base="https://www.idref.fr/">Kunz</persName> que je viens de
+          mentionner, dans lequel figurent ces titres en note. Il est donc
+          intéressant de remarquer qu’un article lu dans le cadre d’une
+          recherche sur la psychopathologie pouvait lui servir dans le
+          contexte d’un questionnement plus large du bien-fondé de
+          l’anthropologie philosophique, un sujet qui occupera largement
+          l’attention du philosophe au-delà des <date from="1950" to="1959" type="_temp">années 1950</date>. <persName ref="171325745" type="idref" xml:base="https://www.idref.fr/">Kunz</persName>, en
+          effet, est mentionné encore une fois dans le manuscrit du cours de
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> sur
+          l’anthropologie qu’il donne en même temps à <placeName ref="2998324" type="geonames" xml:base="https://www.geonames.org/">Lille</placeName> et à
+          l’ENS<note n="43" place="foot" type="standard" xml:id="ftn43">
+              <p>
+                <hi rend="italic">Connaissance de l’homme et réflexion
+              transcendantale </hi>: BnF, Fonds Michel Foucault, boîte 46,
+              dossier 1, cote NAF 28730. Ce cours sera publié en 2022 sous
+              l’intitulé : <hi rend="italic">La question anthropologique.
+              Cours 1954-1955</hi>. En réalite, aucun titre ne figure sur le
+              manuscrit original. « Connaissance de l’homme et réflexion
+              transcendantale », titre par lequel le manuscrit a été souvent
+              identifié, est l’'intitulé du premier chapitre.</p>
+            </note> À ce sujet, il est utile de rappeler qu’à cette époque
+          l’anthropologie est au cœur de plusieurs projets de publications du
+          jeune philosophe. Si la note finale qu’il ajoute à la « Notice
+          historique » qui accompagnera la publication de sa traduction de
+          l’<hi rend="italic">Anthropologie</hi> kantienne en <date type="_temp" when="1964">1964</date> – dans laquelle <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> mentionne un
+          « ouvrage ultérieur » ayant pour objet « les rapports de la pensée
+          critique et de la réflexion anthropologique »<note n="44" place="foot" type="standard" xml:id="ftn44">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 1964-1994, p. 293,
+              n. 1</p>
+            </note> – annonce directement <hi rend="italic">Les mots et les
+          choses</hi>, d’autres déclarations, antérieures, du philosophe
+          renvoient à des projets de textes. Parmi ceux-ci, on mentionnera
+          surtout l’« ouvrage ultérieur » que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          annonce dans son introduction à <hi rend="italic">Le rêve et
+          l’existence</hi> en <date type="_temp" when="1954">1954</date>, un
+          ouvrage – précise-t-il – qui « s’efforcera de situer l’analyse
+          existentielle dans la réflexion contemporaine sur l’homme<note n="45" place="foot" type="standard" xml:id="ftn45">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 1954-1994, p. 65.</p>
+            </note> ».</p>
+          <p xml:id="d1e752">À travers l’analyse des fiches de lecture, on
+          voit une fois de plus comment la méthode de travail de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, sa création de
+          thèses originales et de nouveaux concepts se construisent sur la
+          base d’une quantité impressionnante de lectures et d’auteurs et
+          passe par des transferts de savoirs entre disciplines différentes
+          comme la philosophie, la psychologie, la psychopathologie,
+          l’anthropologie – pour ne citer que celles qui ont le plus attiré
+          l’attention du jeune <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>. Comme je viens
+          de le montrer, le travail d’édition des manuscrits de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> n’est guère
+          qu’à ses débuts et il est certain que l’exploitation des archives
+          réservera encore de nombreuses surprises aux chercheurs engagés dans
+          la publication des manuscrits. Ce n’est que l’interaction entre les
+          chercheurs et les ingénieurs qui travaillent au développement et à
+          la pérennisation des plates-formes numériques créés dans le cadre du
+          projet ANR-FFL que le travail de recherche sur le Fonds Foucault
+          pourra être incrémenté des deux côtés<note n="46" place="foot" type="standard" xml:id="ftn46">
+              <p>Je tiens à remercier vivement toute l’équipe de l’ANR-FFL
+              pour les outils qu’ils ont mis à ma disposition et pour les
+              échanges que nous avons pu entretenir tout au long de la durée
+              du projet, sans lesquels je n’aurais sans doute pas pu mener au
+              bien mes recherches.</p>
+            </note>.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e759">
+        <head xml:id="d1e760">Bibliographie</head>
+        <listBibl xml:id="d1e762">
+          <bibl xml:id="d1e763">
+            <hi rend="small-caps">Basso</hi>, 2019 :
+          Elisabetta <hi rend="small-caps">Basso</hi>, « De la philosophie à
+          l’histoire, en passant par la psychologie : que nous apprennent les
+          archives Foucault des années 1950? », <hi rend="italic">Astérion</hi>, 21, 2, <ref target="https://journals.openedition.org/asterion/4164">
+              <hi rend="underline">https://journals.openedition.org/asterion/4164</hi>
+            </ref>.</bibl>
+          <bibl xml:id="d1e781">
+            <hi rend="small-caps">Basso</hi>, 2020a :
+          Elisabetta <hi rend="small-caps">Basso, « </hi>Between Psychology
+          and Philosophy: Foucault’s Critique of the Human Sciences in the
+          1950s », <hi rend="italic">Theory, Culture &amp; Society</hi> [On
+          line first] <ref target="https://journals.sagepub.com/doi/abs/10.1177/0263276420950824?journalCode=tcsa">
+              <hi rend="underline">https://journals.sagepub.com/doi/abs/10.1177/0263276420950824?journalCode=tcsa</hi>
+            </ref>
+          </bibl>
+          <bibl xml:id="d1e795">
+            <hi rend="small-caps">Basso</hi>, 2020b :
+          Elisabetta <hi rend="small-caps">Basso, </hi>« Les dossiers sur la
+          psychopathologie existentielle », plate-forme <hi rend="italic">EMAN
+          (Édition de Manuscrits et d’Archives Numériques</hi>), consulté le
+          03 février 2021, <ref target="http://eman-archives.org/Foucault-fiches/exhibits/show/binswanger-analyse-existentiel/les-dossiers-sur-la-psychopath">
+              <hi rend="underline">http://eman-archives.org/Foucault-fiches/exhibits/show/binswanger-analyse-existentiel/les-dossiers-sur-la-psychopath</hi>
+            </ref>.</bibl>
+          <bibl xml:id="d1e809">
+            <hi rend="small-caps">Basso</hi>, 2020c :
+          Elisabetta <hi rend="small-caps">Basso, </hi>« Situation du texte »,
+          dans Michel Foucault, <hi rend="italic">Binswanger et l’analyse
+          existentielle</hi>, éd. établie, sous la responsabilité de François
+          Ewald, par Elisabetta Basso, Paris, Éditions du
+          Seuil/Gallimard/EHESS, coll. « Hautes Études », p. 179-204.</bibl>
+          <bibl xml:id="d1e819">
+            <hi rend="small-caps">Bert </hi>et <hi rend="small-caps">Basso, 2015 :</hi> Jean-François <hi rend="small-caps">Bert</hi> et Elisabetta <hi rend="small-caps">Basso</hi>, « Lire et traduire “ Traum und
+          Existenz”. Foucault aux prises avec la Daseinsanalyse », dans
+          Jean-François <hi rend="small-caps">Bert</hi> et Elisabetta <hi rend="small-caps">Basso (</hi>dir<hi rend="small-caps">.),</hi>
+            <hi rend="italic">Foucault à Münsterlingen</hi>, avec des photographies
+          de Jacqueline Verdeaux, Paris, éditions EHESS, coll. « L’Histoire et
+          ses représentations », p. 132-140.</bibl>
+          <bibl xml:id="d1e845">
+            <hi rend="small-caps">Bert </hi>et <hi rend="small-caps">Lamy</hi>, 2018 : Jean-François <hi rend="small-caps">Bert</hi> et Jérôme<hi rend="small-caps">
+          Lamy</hi>, « Michel Foucault “inédit” », <hi rend="italic">Cahiers
+          d’histoire. Revue d’histoire critique</hi>, 140, p. 149-164, <ref target="https://journals.openedition.org/chrhc/8578">
+              <hi rend="underline">https://journals.openedition.org/chrhc/8578</hi>
+            </ref>
+          </bibl>
+          <bibl xml:id="d1e864">
+            <hi rend="small-caps">Binswanger,
+          1930-1954 :</hi> Ludwig Binswanger, « Traum und Existenz », <hi rend="italic">Neue Schweizer Rundschau</hi>, 23, 9, p. 673-685, 10,
+          p. 766-779 ; trad. fr. de Jacquline Verdeaux, <hi rend="italic">Le
+          Rêve et l’Existence</hi>, introduction et notes de Michel Foucault,
+          Paris, Desclée de Brouwer, coll. « Textes et études
+          anthropologiques ».</bibl>
+          <bibl xml:id="d1e874">
+            <hi rend="small-caps">Binswanger, 1946-1947 :
+          </hi>Ludwig <hi rend="small-caps"/>
+            <hi rend="small-caps">Binswanger</hi>, « Studien zu Schizophrenie
+          Problem. Zweite Studie. Der Fall Jürg Zünd », <hi rend="italic">Schweizer Archiv für Neurologie und Psychiatrie</hi>,
+          56, p. 191‑220 ; 58, p. 1‑43 ; 59, p. 21‑36 (repris dans <hi rend="italic">Schizophrenie</hi>, Pfullingen, Günther Neske, 1957,
+          p. 189‑288).</bibl>
+          <bibl xml:id="d1e889">
+            <hi rend="small-caps">Binswanger, 1949 :
+          </hi>Ludwig <hi rend="small-caps"/>
+            <hi rend="small-caps">Binswanger</hi>, « Studien zum
+          Schizophrenienproblem. Der Fall Lola Voss », <hi rend="italic">Schweizer Archiv für Neurologie und Psychiatrie</hi>,
+          63, p. 29‑97 (repris dans <hi rend="italic">Schizophrenie</hi>,
+          Pfullingen, Günther Neske, 1957 ; trad. fr. par Philippe Veysset,
+          <hi rend="italic">Le Cas Lola Voss. Schizophrénie : quatrième
+          étude</hi>, Paris, PUF, 2011).</bibl>
+          <bibl xml:id="d1e907">
+            <hi rend="small-caps">Binswanger, 1951 :
+          </hi>Ludwig <hi rend="small-caps"/>
+            <hi rend="small-caps">Binswanger</hi>, « Daseinsanalytik und
+          Psychiatrie », <hi rend="italic">Der Nervenarzt</hi>, 22, p. 1‑10
+          (repris dans <hi rend="italic">Ausgewählte Vorträge und
+          Aufsätze</hi>, t. II, <hi rend="italic">Zur Problematik der
+          psychiatrischen Forschung und zum Problem der Psychiatrie</hi>,
+          Berne, Francke, 1955, p. 279-302).</bibl>
+          <bibl xml:id="d1e925">
+            <hi rend="small-caps">Dassonneville,
+          2020 </hi>: Gautier<hi rend="small-caps"> Dassonneville,</hi>
+          « Foucault auditeur : les études de philosophie et de psychologie à
+          Paris, 1946-1953 », plate-forme <hi rend="italic">EMAN (Édition de
+          Manuscrits et d’Archives Numériques</hi>), consulté le 03 février
+          2021, <ref target="http://eman-archives.org/Foucault-fiches/exhibits/show/foucault-auditeur-les-ann--es-">
+              <hi rend="underline">http://eman-archives.org/Foucault-fiches/exhibits/show/foucault-auditeur-les-ann--es-</hi>
+            </ref>
+          </bibl>
+          <bibl xml:id="d1e939">
+            <hi rend="small-caps">Foucault</hi>,
+          1954-1994 : Michel <hi rend="small-caps">Foucault,
+          </hi>« Introduction » à Ludwig Binswanger<hi rend="italic">, Le rêve
+          et l’existence</hi> [1954], dans <hi rend="italic">Dits et
+          Écrits</hi>, <hi rend="italic">1954</hi>
+            <hi rend="italic">‑</hi>
+            <hi rend="italic">1988</hi>, éd. établie sous la dir. de Daniel Defert
+          et François Ewald, avec la collab. de Jacques Lagrange, Paris,
+          Gallimard, coll. « Bibliothèque des sciences humaines », t. I : <hi rend="italic">1954</hi>
+            <hi rend="italic">‑</hi>
+            <hi rend="italic">1969</hi>, n<hi rend="sup">o </hi>1, p. 65-119.</bibl>
+          <bibl xml:id="d1e970">
+            <hi rend="small-caps">Foucault</hi>,
+          1957-1994 : Michel <hi rend="small-caps">Foucault, « L</hi>a
+          psychologie de 1850 à 1950 » [1957], dans <hi rend="italic">Dits et
+          Écrits. 1954</hi>
+            <hi rend="italic">‑</hi>
+            <hi rend="italic">1988</hi>, éd. établie sous la dir. de Daniel Defert
+          et François Ewald, avec la collab. de Jacques Lagrange, Paris,
+          Gallimard, coll. « Bibliothèque des sciences humaines », t. I : <hi rend="italic">1954</hi>
+            <hi rend="italic">‑</hi>
+            <hi rend="italic">1969</hi>, n° 2, p. 120‑137.</bibl>
+          <bibl xml:id="d1e991">
+            <hi rend="small-caps">Foucault</hi>,
+          1964-1994 : Michel <hi rend="small-caps">Foucault</hi>, « Notice
+          historique » [1964], dans <hi rend="italic">Dits et Écrits.
+          1954</hi>
+            <hi rend="italic">‑</hi>
+            <hi rend="italic">1988</hi>, éd.
+          établie sous la dir. de Daniel Defert et François Ewald, avec la
+          collab. de Jacques Lagrange, Paris, Gallimard, coll. « Bibliothèque
+          des sciences humaines », t. I : <hi rend="italic">1954</hi>
+            <hi rend="italic">‑</hi>
+            <hi rend="italic">1969</hi>, n<hi rend="sup">o</hi> 19, p. 288-293.</bibl>
+          <bibl xml:id="d1e1016">
+            <hi rend="small-caps">Foucault</hi>, 1997 :
+          Michel <hi rend="small-caps">Foucault, </hi>
+            <hi rend="italic">Il
+          faut défendre la société</hi>. <hi rend="italic">Cours au Collège de
+          France, 1976</hi>, éd. établie sous la direction de François Ewald
+          et Alessandro Fontana, par Mauro Bertani et Alessandro Fontana,
+          Paris, Gallimard/Seuil/EHESS, coll. « Hautes Etudes ».</bibl>
+          <bibl xml:id="d1e1028">
+            <hi rend="small-caps">Foucault</hi>, 2013 :
+          Michel <hi rend="small-caps">Foucault, </hi>
+            <hi rend="italic">L’origine de l’herméneutique de soi :</hi>
+            <hi rend="italic">conférences prononcées à Dartmouth College, 1980,</hi>
+          éd. établie par Henri-Paul Fruchaud et Daniele Lorenzini ;
+          introduction et appareil critique par Laura Cremonesi, Arnold I.
+          Davidson, Orazio Irrera, Daniele Lorenzini et Martina Tazzioli,
+          Paris, Vrin, coll. « Philosophie du présent. Foucault
+          inédit ».</bibl>
+          <bibl xml:id="d1e1040">
+            <hi rend="small-caps">Foucault</hi>, 2015a :
+          Michel <hi rend="small-caps">Foucault, </hi>
+            <hi rend="italic">Théories et institutions pénales</hi>. <hi rend="italic">Cours au Collège de France</hi>, <hi rend="italic">1971-1972</hi>, éd. établie sous la direction de
+          François Ewald et Alessandro Fontana, par Bernard E. Harcourt et
+          Claude-Olivier Doron, avec la collaboration de Elisabetta Basso et
+          le concours de Daniel Defert, Paris, Gallimard/Seuil/EHESS, coll.
+          « Hautes Etudes ».</bibl>
+          <bibl xml:id="d1e1055">
+            <hi rend="small-caps">Foucault</hi>, 2015b :
+          Michel <hi rend="small-caps">Foucault, </hi>
+            <hi rend="italic">Qu’est-ce que la critique ?</hi>, suivi de <hi rend="italic">La culture de soi</hi>, éd. établie par Henri-Paul
+          Fruchaud et Daniele Lorenzini ; introduction et appareil critique
+          par Daniele Lorenzini et Arnold I. Davidson, Paris, Vrin, coll.
+          « Philosophie du présent. Foucault inédit ».</bibl>
+          <bibl xml:id="d1e1067">
+            <hi rend="small-caps">Foucault</hi>, 2016 :
+          Michel <hi rend="small-caps">Foucault,</hi>
+            <hi rend="italic">
+          Discours et vérité</hi>, précédé de <hi rend="italic">La
+          parrêsia</hi>, éd. et appareil critique par Henri-Paul Fruchaud et
+          Daniele Lorenzini ; introduction par Frédéric Gros, Paris, Vrin,
+          coll. « Philosophie du présent. Foucault inédit ».</bibl>
+          <bibl xml:id="d1e1079">
+            <hi rend="small-caps">Foucault</hi>, 2017 :
+          Michel <hi rend="small-caps">Foucault, </hi>
+            <hi rend="italic">Dire
+          vrai sur soi-même</hi>,<hi rend="italic"/>conférences prononcées à
+          l’Université Victoria de Toronto, 1982, édition, introduction et
+          appareil critique par Henri-Paul Fruchaud et Daniele Lorenzini,
+          Paris, Vrin, coll. « Philosophie du présent. Foucault
+          inédit ».</bibl>
+          <bibl xml:id="d1e1091">
+            <hi rend="small-caps">Foucault</hi>, 2018a :
+          Michel <hi rend="small-caps">Foucault,</hi>
+            <hi rend="italic"> Les
+          Aveux de la chair</hi>, édition établie par Frédéric Gros, Paris,
+          Gallimard, coll. « Bibliothèque des histoires ».</bibl>
+          <bibl xml:id="d1e1100">
+            <hi rend="small-caps">Foucault</hi>, 2018b :
+          Michel <hi rend="small-caps">Foucault, </hi>
+            <hi rend="italic">La
+          sexualité : cours donné à l’Université de Clermont-Ferrand,
+          1964 </hi>; suivi de <hi rend="italic">Le discours de la sexualité :
+          cours donné à l’Université de Vincennes, 1969</hi>, édition établie,
+          sous la responsabilité de François Ewald, par Claude-Olivier Doron,
+          Paris, Éditions du Seuil/Gallimard/EHESS, coll. « Hautes
+          Études ».</bibl>
+          <bibl xml:id="d1e1113">
+            <hi rend="small-caps">Foucault</hi>, 2019a :
+          Michel <hi rend="small-caps">Foucault, </hi>
+            <hi rend="italic">Folie,
+          langage, littérature</hi>, édition établie par Henri-Paul Fruchaud,
+          Daniele Lorenzini et Judith Revel ; introduction par Judith Revel,
+          Paris, Vrin, coll. « Philosophie du présent. Foucault
+          inédit ».</bibl>
+          <bibl xml:id="d1e1122">
+            <hi rend="small-caps">Foucault</hi>, 2019b :
+          Michel <hi rend="small-caps">Foucault, </hi>« Un manuscrit de Michel
+          Foucault sur la psychanalyse », éd. par Elisabetta Basso, <hi rend="italic">Astérion</hi>, 21, 2, <ref target="https://journals.openedition.org/asterion/4410">
+              <hi rend="underline">https://journals.openedition.org/asterion/4410</hi>
+            </ref>.</bibl>
+          <bibl xml:id="d1e1136">
+            <hi rend="small-caps">Foucault</hi>, 2020 :
+          Michel <hi rend="small-caps">Foucault, </hi>
+            <hi rend="italic">Binswanger et l’analyse existentielle</hi>, édition
+          établie, sous la responsabilité de François Ewald, par Elisabetta
+          Basso, Paris, Éditions du Seuil/Gallimard/EHESS, coll. « Hautes
+          Études ».</bibl>
+          <bibl xml:id="d1e1145">
+            <hi rend="small-caps">Foucault</hi>, 2021 :
+          Michel <hi rend="small-caps">Foucault, </hi>
+            <hi rend="italic">Phénoménologie et psychologie</hi>, sous la
+          responsabilité de François Ewald, par Philippe Sabot, Editions du
+          Seuil/Gallimard/EHESS, coll. « Hautes Études ».</bibl>
+          <bibl xml:id="d1e1154">
+            <hi rend="small-caps">Foucault</hi>, 2021a :
+          Michel <hi rend="small-caps">Foucault</hi>, <hi rend="italic">Leçons
+          sur la volonté de savoir. Cours au Collège de France 1970-1971,</hi>
+          suivi de <hi rend="italic">Le savoir d'Oedipe</hi>, édition établie
+          sous la direction de François Ewald et Alessandro Fontana, par
+          Daniel Defert, et revue par Arianna Sforzini pour la présente
+          édition, Paris, Gallimard/Seuil, « Points. Essais ».</bibl>
+          <bibl xml:id="d1e1167">
+            <hi rend="small-caps">Foucault</hi>, 2021b :
+          Michel <hi rend="small-caps">Foucault</hi>, <hi rend="italic">Théorie et institutions pénales. Cours au Collège de
+          France 1971-1972</hi>, édition établie sous la direction de François
+          Ewald et Alessandro Fontana, par Bernard E. Harcourt avec la
+          collaboration de Elisabetta Basso (transcription du texte),
+          Claude-Olivier Doron (notes et appareil critique), et le concours de
+          Daniel Defert, et revue par Elisabetta Basso pour la présente
+          édition, Paris, Gallimard/Seuil, « Points. Essais ».</bibl>
+          <bibl xml:id="d1e1177">
+            <hi rend="small-caps">Germain</hi>, 2014a :
+          Marie-Odile<hi rend="small-caps"> Germain</hi>, « Michel Foucault de
+          retour à la BnF », <hi rend="italic">Chroniques de la Bibliothèque
+          nationale de France</hi>, 70, p. 26-27, <ref target="http://chroniques.bnf.fr/chroniques_70/index.htm">
+              <hi rend="underline">http://chroniques.bnf.fr/chroniques_70/index.htm</hi>
+            </ref>
+            <hi rend="underline"/>
+          </bibl>
+          <bibl xml:id="d1e1192">
+            <hi rend="small-caps">Germain</hi>, 2014b :
+          Marie-Odile<hi rend="small-caps"> Germain</hi>, « Un continent
+          inexploré », <hi rend="italic">Le Magazine Littéraire</hi>, 540,
+          dossier : <hi rend="italic">Foucault inédit</hi>, p. 53-55.</bibl>
+          <bibl xml:id="d1e1205">
+            <hi rend="small-caps">Kunz</hi>, 1941 : Hans
+          <hi rend="small-caps">Kunz</hi>, « Die anthropologische
+          Betrachtungsweise in der Psychopathologie », <hi rend="italic">Zeitschrift für die gesamte Neurologie und
+          Psychiatrie</hi>, 172, p. 145-180.</bibl>
+          <bibl xml:id="d1e1215">
+            <hi rend="small-caps">Le Bras</hi>, 2020 :
+          Laurence <hi rend="small-caps">Le Bras</hi>, « Les fiches de lecture
+          de Michel Foucault », <hi rend="italic">Le Blog Gallica</hi>, 18
+          novembre 2020, consulté le 04 février 2021, <ref target="https://gallica.bnf.fr/blog/18112020/les-fiches-de-lecture-de-michel-foucault?mode=desktop">
+              <hi rend="underline">https://gallica.bnf.fr/blog/18112020/les-fiches-de-lecture-de-michel-foucault?mode=desktop</hi>
+            </ref>.</bibl>
+          <bibl xml:id="d1e1229">
+            <hi rend="small-caps">Pouradier, 2019 :</hi>
+          Maud<hi rend="small-caps"> Pouradier</hi>, « <hi rend="italic">Les
+          aveux de la chair</hi> de Michel Foucault. Réflexions sur les enjeux
+          éthiques et scientifiques d’une édition posthume », <hi rend="italic">Archives de philosophie</hi>, 82, 4,
+          p. 808-812.</bibl>
+          <bibl xml:id="d1e1243">
+            <hi rend="small-caps">Sforzini, 2017 :
+          </hi>Arianna<hi rend="small-caps"> Sforzini</hi>, « Les nouvelles
+          archives Foucault. Temporalités errantes », dans<hi rend="italic"/>Franck Jedrzejewski et Diogo Sardinha (éd.),<hi rend="italic"> La philosophie et l’archive. Un dialogue
+          international</hi>, Paris, L’Harmattan, coll. « La Philosophie en
+          commun », p. 41-51.</bibl>
+          <bibl xml:id="d1e1256">
+            <hi rend="small-caps">Sforzini,
+          2020 :</hi>
+            <hi rend="italic">
+              <hi rend="italic"/>
+            </hi>Arianna <hi rend="small-caps">Sforzini</hi>, « <anchor xml:id="_gjdgxs"/>Des archives, de l’archive. L’“exception
+          Foucault” ? », <hi rend="italic">Aisthesis. </hi>
+            <hi rend="italic">Pratiche, linguaggi e saperi dell’estetico</hi>, 13,
+          2, p. 119-129, <ref target="https://doi.org/10.13128/Aisthesis-12053">
+              <hi rend="underline">https://doi.org/10.13128/Aisthesis-12053</hi>
+            </ref>.</bibl>
+          <bibl xml:id="d1e1277">
+            <hi rend="small-caps">Storch, 1947 :
+          </hi>Alfred <hi rend="small-caps">Storch, </hi>« Die Daseinsfrage
+          der Schizophrenen », <hi rend="italic">Schweizer Archiv für
+          Neurologie, Neurochirurgie und Psychiatrie</hi>, 59,<hi rend="italic"/>p. 330-385.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>
