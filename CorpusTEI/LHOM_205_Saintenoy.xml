@@ -1,0 +1,1479 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LHOM_205_Saintenoy">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">“Sur le chemin d’Apurimaq”</title>
+        <title type="sub">Essai sur la représentation géographique du
+        territoire dans la culture inca</title>
+        <title type="alt" xml:lang="en">“On the Apurimaq Road”. An Essay on
+        the Geographical Representation of Territory in Incan Culture</title>
+        <author role="aut">
+          <forename>Thibault</forename>
+          <surname>Saintenoy</surname>
+          <affiliation>
+            <s>Centro de investigaciones del hombre en el desierto (<hi rendition="#T10">Cihde</hi>)Depto de antropologia, universidad de
+            Tarapacá, Arica (Chili)UMR 8096 Archéologie des Amériques,
+            Paris</s>
+          </affiliation>
+          <email>
+            <s>
+              <ref target="mailto:tsaintenoy@gmail.com">tsaintenoy@gmail.com</ref>
+            </s>
+          </email>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification 3.0 non transposé - CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/NG5ZTAP4" type="journalArticle" xml:lang="fr">
+          <analytic>
+            <title level="a">"Sur le chemin d'Apurimaq". Essai sur la
+            représentation géographique du territoire dans la culture
+            inca</title>
+            <idno type="DOI">10.4000/lhomme.24419</idno>
+            <author>
+              <forename>Thibault</forename>
+              <surname>Saintenoy</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">L’Homme. Revue française d’anthropologie</title>
+            <idno type="ISSN">0439-4216</idno>
+            <imprint>
+              <biblScope unit="issue">205</biblScope>
+              <biblScope unit="page">7-33</biblScope>
+              <date>2013</date>
+              <note type="url">https://journals.openedition.org/lhomme/24419</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>culture inca</item>
+            <item>géosymbolique</item>
+            <item>territoire</item>
+            <item>paysage</item>
+            <item>Andes</item>
+            <item>Apurimac</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>Inca Culture</item>
+            <item>Geosymbolic</item>
+            <item>Territory</item>
+            <item>Landscape</item>
+            <item>Wak’a (huaca)</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="3932488" type="geonames" xml:base="https://www.geonames.org/">Pérou</placeName>
+          </term>
+          <term>
+            <placeName ref="8349974" type="geonames" xml:base="https://www.geonames.org/">Mollepata</placeName>
+          </term>
+          <term>
+            <placeName ref="3941583" type="geonames" xml:base="https://www.geonames.org/">Cuzco</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1533">1533</date>
+          </term>
+          <term>
+            <date from="1800" to="1899" type="_temp">
+              <hi rendition="#T10">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          </term>
+          <term>
+            <date from="1550" to="1559" type="_temp">les années 1550</date>
+          </term>
+          <term>
+            <date type="_temp" when="1946">1946</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">“Sur le chemin d’Apurimaq”</titlePart>
+          <titlePart type="sub">Essai sur la représentation géographique du
+          territoire dans la culture inca</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Thibault Saintenoy</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="abstract" xml:id="d1e91" xml:lang="fr">
+        <p xml:id="d1e92">Au carrefour de la géographie, de l’archéologie et
+        de l’ethnohistoire, cet article s’intéresse à la géographicité de la
+        culture inca des Andes préhispaniques. La réflexion est fondée sur
+        l’étude de la section de la grande route inca qui traversait la vallée
+        de l’Apurimac, non loin de <placeName ref="3941583" type="geonames" xml:base="https://www.geonames.org/">Cuzco</placeName> dans les Andes
+        centrales. La région du pont franchissant la rivière était associée à
+        une figure mythique du monde inca. Cette étude indique que le mythe
+        avait pour objet de spécifier la perception du paysage expérimenté par
+        les voyageurs qui parcouraient le chemin au sein d’un environnement
+        qui était ainsi territorialisé dans sa double dimension matérielle et
+        idéelle. Ainsi, l’histoire du <hi rend="italic">wak’a</hi> de la
+        rivière Apurimac met en relief les dimensions symboliques et pratiques
+        de la territorialité inca. Dans une civilisation porteuse d’une
+        science géographique prémoderne sans cartographie topographique, les
+        mythes, l’architecture du paysage et les mouvements rituels étaient,
+        en effet, des piliers des systèmes de représentation et de
+        structuration géographique du territoire.</p>
+      </div>
+      <div type="abstract" xml:id="d1e97" xml:lang="en">
+        <p xml:id="d1e98">“On the Apurimaq Road”<lb/>At the juncture between
+        geography, archeology and ethno-history, this article on the
+        « geographicity » of Incan culture in the pre-Hispanic Andes focuses
+        on the section of the main road, which crossed the Apurimaq valley,
+        not far from Cuzco in the central Andes. The area around the bridge
+        that crosses the river was associated with a mythical Incan figure.
+        The myth specifies the perception of the landscape experienced by
+        travelers on this road in an environment that was « territorialized »
+        in its double dimension, material and ideal. The story about the wak’a
+        of the Apurimaq River sheds light on the symbolic and practical
+        dimensions of Incan territoriality. In a civilization endowed with a
+        premodern science of geography without cartography, myths, landscape
+        architecture and ritual movements were the pillars of systems of
+        representation and of a geographical « structuration » of the
+        territory.</p>
+      </div>
+      <note resp="author">
+        <p>Cette étude a été menée dans le cadre d’un programme de recherches
+        du laboratoire Archéologie des Amériques (<hi rendition="#T10">Umr</hi> 8096-<hi rendition="#T10">Cnrs</hi>-Université Paris 1), portant sur l’histoire
+        du site archéologique Choqek’iraw et de sa région, financé par la
+        Commission des fouilles du ministère des Affaires étrangères. Je
+        remercie chaleureusement son directeur, <persName ref="052611329" type="idref" xml:base="https://www.idref.fr/">Patrice
+        Lecoq</persName>, ainsi que l’ensemble des personnes ayant collaboré
+        au projet <date from="2004" to="2011" type="_temp">entre 2004 et
+        2011</date>. Ces recherches ont également été soutenues par l’Institut
+        français d’études andines (<hi rendition="#T10">Umifre</hi> 17-<hi rendition="#T10">Cnrs</hi>-<hi rendition="#T10">Maee</hi>) où j’ai été
+        en poste <date from="2006" to="2008" type="_temp">entre 2006 et
+        2008</date>. Je tiens aussi à remercier mes compagnons de route sur le
+        terrain – <persName ref="161734219" type="idref" xml:base="https://www.idref.fr/">Miriam Araoz</persName>, <persName type="_temp">Isabel Bejar</persName> et <persName ref="032732562" type="idref" xml:base="https://www.idref.fr/">Brian Bauer</persName> –
+        pour m’avoir fait partager leurs connaissances de la région. Enfin,
+        <persName ref="03405815X" type="idref" xml:base="https://www.idref.fr/">César Itier</persName> et <persName ref="088742105" type="idref" xml:base="https://www.idref.fr/">Jean-Jacques Decoster</persName> ont
+        eu la gentillesse de relire et commenter des versions préliminaires de
+        cet article que leurs critiques ont contribué à améliorer.</p>
+      </note>
+    </front>
+    <body>
+      <div>
+        <p xml:id="d1e121">D<hi rendition="#T10">ans la culture inca</hi> des
+        Andes préhispaniques, l’organisation sociopolitique, la religion, le
+        calendrier et l’histoire avaient en commun d’être conçus et organisés
+        suivant une trame spatiale sophistiquée. Comme le signalait déjà le
+        chroniqueur métis <persName ref="027179214" type="idref" xml:base="https://www.idref.fr/">Garcilaso de la Vega</persName> en
+        <date type="_temp" when="1609">1609</date>, les Incas avaient en effet
+        développé une véritable « science géographique » (Claval 2007). Cette
+        géographie prémoderne disposait d’un système d’orientation basé sur
+        l’astronomie de position et se fondait sur une connaissance structurée
+        de la grande diversité des milieux andins mise au service de sa
+        gestion et de son exploitation. Cette science a notamment permis
+        l’aménagement d’un territoire multiculturel étendu à l’échelle de la
+        cordillère des Andes : l’Empire inca nommé <hi rend="italic">Tawantinsuyu</hi>.</p>
+        <p xml:id="d1e130">Bien documentée dans les sources ethnohistoriques
+        et par ses vestiges archéologiques, la région de <placeName ref="3941583" type="geonames" xml:base="https://www.geonames.org/">Cuzco</placeName> au cœur de
+        l’Empire fournit un exemple fondamental de la « configuration
+        socio-spatiale » du territoire inca (Di Méo &amp; Buléon 2005).
+        L’espace géographique cuzquénien, dans ses dimensions écologiques,
+        sociopolitiques, religieuses et temporelles, était structuré au sein
+        d’un système territorial de nature holistique (Bauer 2000 ; Zuidema
+        2010). La territorialité inca était inscrite dans les paysages andins
+        de <placeName ref="3941583" type="geonames" xml:base="https://www.geonames.org/">Cuzco</placeName> et ses
+        environs, avec plus de trois cents lieux sacrés organisés en quarante
+        et une lignes imaginaires (dénommées <hi rend="italic">siq’i</hi>
+          )<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>À l’exception des citations, des toponymes et des mots
+            francisés dans la langue française, l’ensemble des termes quechuas
+            sont donnés en italique et transcrits selon le système graphique
+            cuzquénien (Itier 1997). Concernant les toponymes, nous
+            conservons, le plus souvent, la graphie donnée par les sources
+            bibliographiques et cartographiques de référence.</p>
+          </note> irradiant depuis le temple du soleil de <placeName ref="3941583" type="geonames" xml:base="https://www.geonames.org/">Cuzco</placeName> qui formait
+        ainsi le centre du monde inca. De même, la spatialité quadripartite du
+        <hi rend="italic">Tawantinsuyu</hi> était conçue en termes de franges
+        dont quatre grandes routes [Fig. 1], au départ de <placeName ref="3941583" type="geonames" xml:base="https://www.geonames.org/">Cuzco</placeName>, déterminaient
+        la projection (Hyslop 1992).</p>
+        <p xml:id="d1e143">Mais en l’absence, dans la culture inca, d’un art
+        cartographique « topographique » (comparable à celui développé à la
+        même époque en Europe ou dans les mondes arabe et asiatique, et, plus
+        tôt, durant l’<date>Antiquité grecque et romaine</date>), se pose la
+        question des systèmes de représentation du territoire et d’information
+        de la territorialité. Parmi les vestiges de la culture matérielle
+        inca, on trouve – dans l’art textile, dans le système de quipous et
+        dans la sculpture (sur bois et sur roche) – des exemples de
+        représentation du territoire, mais celui-ci n’y est figuré que de
+        façon hautement stylisée et conceptuelle (Gartner 1998). En revanche,
+        les sources ethnohistoriques relatent nombre de mythes faisant
+        référence, parfois de façon assez détaillée, à l’espace géographique,
+        comme dans les cas de Huarochiri (Taylor 1980) et de Paqaritampu
+        (Bauer 1991), par exemple. Le système de représentation inca du
+        territoire reposait en effet sans doute beaucoup sur la culture orale.
+        Or, pour être effective, cette mytho-géographie devait être associée à
+        des pratiques rituelles.</p>
+        <p xml:id="d1e146">Les cérémonies incas donnaient souvent lieu à des
+        processions : à des dates précises du calendrier, certains groupes
+        sociaux convergeaient vers des sanctuaires spécifiques, souvent situés
+        en dehors de leur espace de vie, pour des raisons politico-religieuses
+        (Rostworowski de Diez Canseco 2008). Dans les Andes, les pèlerinages
+        sont, encore aujourd’hui, une tradition bien vivante s’exprimant dans
+        les fêtes chrétiennes qui, pour la plupart, conservent des héritages
+        précoloniaux (Sallnow 1987 ; Abercrombie 2006 ; Molinié 2003 ;
+        Bellenger 2005 ; Ricard Lanata 2007). N’oublions pas que, d’une
+        manière générale, les voyages interrégionaux – religieux ou non – ont
+        toujours constitué une expérience culturelle bénéfique pour ceux qui
+        les entreprenaient. Par exemple, les ethnographies montrent bien que,
+        outre leur dimension économique, les caravanes de lamas participaient
+        à la réaffirmation du cosmos et de l’identité de la communauté (Flores
+        Ochoa 1977 ; Tomoeda 1985 ; Lecoq 1987). C’est l’une des raisons pour
+        lesquelles les caravanes étaient aussi une composante importante dans
+        l’éducation et la socialisation des jeunes.</p>
+        <p xml:id="d1e149">Façonnés par les mythes et l’architecture (qui
+        construisent idéellement et matériellement des lieux dans les contrées
+        andines), les territoires parcourus sont chargés, par la sémantisation
+        des paysages qu’ils donnent à voir, d’une riche symbolique. Les
+        figures du paysage (montagnes et rochers, lacs et rivières, arbres)
+        évoquent l’histoire et l’ordre du monde, et donc l’identité de ses
+        habitants, faisant du parcours une expérience géographique essentielle
+        (Raffestin 1989). Tout porte à croire que du temps des Incas, le
+        voyage à travers l’espace territorialisé contribuait fortement à la
+        diffusion de la culture inca. Cela faisait du grand réseau routier
+        inca, le fameux <hi rend="italic">qhapaq ñan</hi>, non seulement une
+        infrastructure territoriale fondamentale mais aussi le principal média
+        de la culture inca qui donnait son identité et sa légitimité au
+        territoire.</p>
+        <p xml:id="d1e155">Pour illustrer cette idée sur la géographicité de
+        la culture inca, nous étudions ici le cas d’un mythe qui possède une
+        relation étroite avec l’espace géographique et son expérimentation par
+        le voyage : celui d’une figure sacrée du paysage qui était associée au
+        pont sur la rivière Apurimac.</p>
+        <p rend="figure-title" xml:id="d1e158">Fig. 1. La vallée de l’Apurimac
+        au cœur des Andes incas</p>
+        <p xml:id="d1e160">
+          <figure xml:id="d1e161">
+            <graphic url="docannexe/image/24419/img-1.jpg"/>
+          </figure>
+        </p>
+        <p xml:id="d1e163">À trois jours de marche (80km) au sortir de
+        <placeName ref="3941583" type="geonames" xml:base="https://www.geonames.org/">Cuzco</placeName>, dans la frange
+        territoriale dénommée <hi rend="italic">Chinchaysuyu</hi>, le <hi rend="italic">qhapaq ñan</hi> traversait l’une des plus profondes
+        vallées des Andes centrales où coulent les eaux de la plus grande
+        rivière du sud du <placeName ref="3932488" type="geonames" xml:base="https://www.geonames.org/">Pérou</placeName>, à la source de
+        l’Amazone. Aujourd’hui, cette rivière est appelée Apurimac. Pour la
+        traverser, un pont de fibres végétales était suspendu aux parois
+        rocheuses d’un canyon à une trentaine de mètres au-dessus des eaux,
+        entre les régions de Mollepata et Curahuasi, à l’interface des
+        départements de <placeName ref="3941583" type="geonames" xml:base="https://www.geonames.org/">Cuzco</placeName> et d’Apurimac.
+        D’après les études ethnohistoriques (Zuidema 1979 ; Farrington 1992),
+        le pont sur l’Apurimac était la limite occidentale du territoire
+        cuzquénien.</p>
+        <div type="div1" xml:id="d1e171">
+          <head subtype="level1" xml:id="d1e172">Le <hi rend="italic">wak’a
+          Apurimaq</hi> dans les sources écrites du <date from="1500" to="1599" type="_temp">
+              <hi rendition="#T10">xvi</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          </head>
+          <p xml:id="d1e182">Du temps des Incas, « Apurimac » n’était pas
+          seulement le nom d’une rivière. Selon les sources ethnohistoriques
+          et comme l’indique aussi sans doute son étymologie, il s’agissait
+          surtout du nom d’une figure sacrée du paysage, un <hi rend="italic">wak’a</hi>
+            <note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>Le terme quechua <hi rend="italic">wak’a</hi> se réfère à
+              l’ensemble des objets naturels ou construits du paysage qui
+              incarnaient une divinité, un ancêtre ou tout autre principe
+              numineux (Taylor 1980).</p>
+            </note>. En quechua, <hi rend="italic">rimaq</hi> signifie « celui
+          qui parle », or parler était le propre des <hi rend="italic">wak’a</hi> dont les plus importants étaient consultés
+          par les Incas pour leurs pouvoirs oraculaires (Curatola Petrocchi
+          2008). Quant au terme <hi rend="italic">apu</hi>, il qualifiait
+          généralement les grands hommes et marquait leur autorité (Santo
+          Tomás 1951 [1560] : 109 et 165 ; Holguin 1989 [1608] : 31 et
+          317).</p>
+          <p xml:id="d1e203">Comme nous allons le voir, <hi rend="italic">Apurimaq</hi>
+            <note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Nous userons dorénavant de deux orthographes pour distinguer
+              la rivière « Apurimac » du <hi rend="italic">wak’a</hi>
+              « Apurimaq ».</p>
+            </note> était vraisemblablement la figure centrale d’un mythe inca
+          dont font brièvement écho certains récits espagnols du <date from="1500" to="1599" type="_temp">
+              <hi rendition="#T10">xvi</hi>
+              <hi rend="sup">e</hi> siècle</date>.</p>
+          <p xml:id="d1e220">La plus ancienne mention connue du <hi rend="italic">wak’a Apurimaq</hi> se trouve dans la chronique du
+          conquistador <persName ref="031321275" type="idref" xml:base="https://www.idref.fr/">Pedro Pizarro</persName> (1978
+          [1571]). Au cours de son récit de la marche des troupes espagnoles
+          sur <placeName ref="3941583" type="geonames" xml:base="https://www.geonames.org/">Cuzco</placeName> en <date type="_temp" when="1533">1533</date>, il fait une digression au
+          sujet d’un certain « Aporima, par l’intermédiaire duquel le démon
+          parlait aux Indiens »<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>La traduction est la nôtre, comme l’ensemble des citations
+              produites dans le texte.</p>
+            </note>. Sa description du <hi rend="italic">wak’a</hi> est la
+          plus étayée qui nous soit parvenue. D’après lui :</p>
+          <q rend="quotation">« […] dans cet Aporima se trouvait un édifice
+          abondamment peint abritant un gros tronc. Plus gros qu’un obèse,
+          celui-ci était aspergé de sang de sacrifices. Il était paré d’une
+          ceinture d’or sur laquelle étaient soudés deux gros seins en or qui
+          lui donnaient l’apparence d’une femme. Ce tronc était aussi revêtu
+          de fines tuniques féminines ornées de nombreuses fibules d’or. Sur
+          sa tête, large et plane, pendaient des grelots. De part et d’autres
+          du dit gros tronc, s’en trouvaient alignés d’autres, plus petits,
+          qui étaient également aspergés de sang et revêtus de tuniques, comme
+          s’il s’agissait de femmes. Il se disait que le démon, dénommé
+          Aporima, parlait dans le gros tronc ».(<hi rend="italic">Ibid</hi>. : 81-82)</q>
+          <p xml:id="d1e239">
+            <persName ref="031321275" type="idref" xml:base="https://www.idref.fr/">Pizarro</persName> relate aussi
+          qu’en 1536, le premier <hi rend="italic">encomendero</hi>
+          (« administrateur colonial ») de la région, <persName type="_temp">Diego Nuñez de Mercado</persName>, s’empara du tronc
+          sacré, au grand dam des Indiens. Une prêtresse inca au service du
+          sanctuaire, dénommée Azarpay<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>L’étymologie du nom de la prêtresse Azarpay est difficile à
+              interpréter. Mais il est intéressant de signaler sa similarité
+              avec <hi rend="italic">Asafray</hi>, nom de l’espèce d’arbre
+              épineux qui peuple le fond de vallée de l’Apurimac (identifié
+              par Euridice Honorio comme <hi rend="italic">Ziziphus
+              mistol</hi>). Notons que cette hypothèse étaye la relation
+              étroite entre l’art oraculaire inca et le paysage.</p>
+            </note>, de désespoir, se serait jetée dans la rivière depuis le
+          sommet d’une falaise, non loin du pont.</p>
+          <p xml:id="d1e256">Dans sa présentation des provinces du <placeName ref="3932488" type="geonames" xml:base="https://www.geonames.org/">Pérou</placeName>, le
+          chroniqueur <persName ref="027209229" type="idref" xml:base="https://www.idref.fr/">Pedro Cieza de Léon</persName> fait
+          également mention du fameux <hi rend="italic">wak’a</hi> de la
+          rivière Apurimac. D’après lui, un sanctuaire était localisé sur la
+          rive droite où « des demeures incas abritaient un oracle et où le
+          démon répondait aux questions des Indiens à travers un tronc d’arbre
+          au pied duquel ceux-ci enterraient de l’or et faisaient des
+          sacrifices » (Cieza de Léon 1946 [1553] : 423). Mais il convient de
+          se demander comment <persName ref="027209229" type="idref" xml:base="https://www.idref.fr/">Cieza</persName>, qui se rendit
+          pour la première fois dans la région en <date type="_temp" when="1543">1543</date>, put voir le tronc sacré qui aurait été
+          dérobé (puis vendu) par <persName type="_temp">Nuñez de
+          Mercado</persName> plusieurs années auparavant. Faut-il en déduire
+          que <persName ref="027209229" type="idref" xml:base="https://www.idref.fr/">Cieza</persName> avait eu
+          connaissance des dires de <persName ref="031321275" type="idref" xml:base="https://www.idref.fr/">Pizarro</persName> sur la base
+            desquels il aurait étayé son récit<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Cieza de Léon emploie le passé dans son récit (« <hi rend="italic">donde tenían un oráculo</hi> [où se tenait un
+              oracle] »), ce qui suggère qu’il ne s’agit pas d’une description
+              de première main.</p>
+            </note>, à l’instar de la version bien plus tardive écrite par le
+          <persName type="_temp">jésuite Cobo</persName> (1964 [1653] : 199)
+          qui est un pur plagiat des écrits de <persName ref="031321275" type="idref" xml:base="https://www.idref.fr/">Pizarro</persName> ?
+          On peut aussi supposer qu’il ait existé une tradition orale au sujet
+          des troncs sacrés.</p>
+          <p xml:id="d1e269">Pour <persName ref="029794366" type="idref" xml:base="https://www.idref.fr/">Cristóbal de Albornoz</persName>,
+          ecclésiastique espagnol qui mena de nombreuses enquêtes de terrain
+          sur l’idolâtrie indigène durant les décennies <date from="1560" to="1569" type="_temp">1560</date> et <date from="1570" to="1579" type="_temp">1570</date>, et établit des inventaires des lieux
+          sacrés indigènes, « Aporimac était un rocher d’apparence
+          anthropomorphe faisant l’objet de grandes superstitions » (cité in
+          Duviols 1967 : 28). Avec « Salcantay, une haute montagne au sommet
+          éternellement enneigé qui était très vénérée » (qui le précède dans
+          la liste publiée par Duviols) et « Guainarimac, une longue roche qui
+          se trouvait sur le <hi rend="italic">qhapaq ñan</hi> » (qui le suit
+          dans la liste) <hi rend="italic">(Ibid.)</hi>, il s’agissait de l’un
+          des principaux <hi rend="italic">wak’a</hi> de la « province de
+          Quichuas ». <persName ref="029794366" type="idref" xml:base="https://www.idref.fr/">De Albornoz</persName> ne fait donc
+          pas référence aux célèbres troncs d’arbre, peut-être du fait que
+          ceux-ci n’existaient plus dans <date from="1560" to="1569" type="_temp">les années 1560</date>. Car comment un extirpateur
+          aussi méticuleux aurait-il pu laisser passer une idole si réputée ?
+          Toujours est-il qu’il mentionne donc deux <hi rend="italic">wak’a</hi>, incarnés par deux rochers sacrés,
+            localisés dans les environs du pont<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>D’après Pierre Duviols (1967), la liste des <hi rend="italic">wak’a</hi> établie par Albornoz dans le manuscrit
+              publié dans le <hi rend="italic">Journal de la Société des
+              américanistes</hi> ne serait qu’une synthèse (confectionnée sur
+              demande durant les années 1580) de milliers de pages de notes de
+              terrain inédites. Ainsi est-il probable que ce document ne cite
+              que les <hi rend="italic">wak’a</hi> les plus importants parmi
+              ceux identifiés dans la région.</p>
+            </note> : non seulement « Aporimac », mais aussi « Guainarimac »
+          qui est aujourd’hui le nom d’un ravin, situé à quelque 5 km en amont
+          du pont, sur la rive gauche de l’Apurimac dont nous aurons
+          l’occasion de reparler<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Comme le suggère César Itier (communication personnelle
+              2011), le couple antonymique <hi rend="italic">Apu/Wayna-Rimaq</hi> donne une solution à
+              l’interprétation d’<hi rend="italic">Apu-Rimaq</hi> car il est
+              courant de trouver, dans la toponymie andine, deux éminences
+              physiographiques conçues comme une paire. C’est par exemple le
+              cas du célèbre <hi rend="italic">Machu/Wayna-Piqchu</hi> où le
+              complexe architectural inca est construit sur deux reliefs
+              conjoints et complémentaires dénommés <hi rend="italic">Machu</hi> et <hi rend="italic">Wayna-Piqchu.</hi>
+              </p>
+            </note>.</p>
+          <p xml:id="d1e316">Pour compléter cette présentation succincte des
+          sources écrites au sujet du <hi rend="italic">wak’a</hi> associé à
+          l’Apurimac, il faut signaler que, d’après <persName ref="02835169X" type="idref" xml:base="https://www.idref.fr/">Cristóbal de
+          Molina</persName>, autre religieux espagnol (1947 [1573] : 71), la
+          rivière était la destination d’une importante procession rituelle
+          effectuée lors de la grande fête de la <hi rend="italic">Citua</hi>,
+          qui était célébrée chaque année avant les premières pluies et visait
+          à expulser symboliquement les maux de <placeName ref="3941583" type="geonames" xml:base="https://www.geonames.org/">Cuzco</placeName>. Tilka, la
+          montagne localisée sur la rive gauche dans les environs de Mollepata
+          dominant l’ensemble de la région du pont, était une étape majeure de
+          cette procession qui, après avoir parcouru le <hi rend="italic">qhapaq ñan</hi> le long du 9<hi rend="sup">e</hi>
+            <hi rend="italic">siq’i</hi> du <hi rend="italic">Chinchaysuyu</hi> de
+          la géographie sacrée cuzquénienne, terminait son parcours par des
+          bains purificateurs dans la rivière Apurimac.</p>
+        </div>
+        <div type="div1" xml:id="d1e337">
+          <head subtype="level1" xml:id="d1e338">Historicité et localisation
+          du <hi rend="italic">wak’a</hi>
+          </head>
+          <p xml:id="d1e342">En résumé, les mentions du <hi rend="italic">wak’a Apurimaq</hi> dans les sources écrites sont,
+          somme toute, assez rares. À croire les témoignages espagnols de
+          l’époque coloniale, la région du pont sur l’Apurimac comptait
+          plusieurs <hi rend="italic">wak’a</hi> et autres lieux sacrés.
+          Ainsi, différentes figures du paysage auraient pu incarner <hi rend="italic">Apurimaq</hi> : la rivière (à laquelle il donne son
+          nom), un tronc d’arbre paré d’attributs féminins (au sein d’un
+          sanctuaire) et/ou un rocher d’apparence anthropomorphe (bien visible
+          depuis le <hi rend="italic">qhapaq ñan</hi>).</p>
+          <p xml:id="d1e357">Notons que, des trois sources qui mentionnent le
+          tronc d’arbre, seul le témoignage de <persName ref="031321275" type="idref" xml:base="https://www.idref.fr/">Pizarro</persName>
+          pourrait être de première main. Or, même si sa description paraît
+          détaillée, rien ne dit que le conquistador ait vu de ses propres
+          yeux le sanctuaire abritant les troncs sacrés. Il ne livre, par
+          exemple, aucune donnée précise quant à sa localisation, si bien que
+          ses écrits pourraient tout à fait rapporter soit un mythe qui, telle
+          une tradition orale, était conté au moment de traverser la rivière,
+          soit des dires entendus à <placeName ref="3941583" type="geonames" xml:base="https://www.geonames.org/">Cuzco</placeName> à l’évocation
+          du fameux pont.</p>
+          <p xml:id="d1e360">À propos la symbolique du <hi rend="italic">wak’a</hi>, l’ethnohistorien <persName ref="097890022" type="idref" xml:base="https://www.idref.fr/">Tom Zuidema</persName>
+          (1979) pense qu’elle renvoie à un événement mytho-historique. Il
+          l’associe à un mythe relaté par <persName ref="034058095" type="idref" xml:base="https://www.idref.fr/">Juan de Santa Cruz
+          Pachacuti Yamqui Salcamayhua</persName> (de Santa Cruz 1993) au
+          sujet de la victoire inca sur leurs traditionnels rivaux chankas
+          dont le territoire était situé au-delà de l’Apurimac, dans la région
+          d’Andahuaylas. « Sur le chemin d’Aporima […] au-dessus de la
+          rivière », la dépouille d’un général chanka dénommé « Uillca Quire »
+          aurait été disposée dans un tronc d’arbre de wilka <hi rend="italic">(Anadenanthera colubrina)</hi> (<hi rend="italic">Ibid.</hi> : 220). À la suite de ce sacrifice, le
+          tronc (qui pourrait bien se rapporter au même mythe que celui évoqué
+          par Pizarro) aurait ainsi constitué une sorte de monument historique
+          au carrefour des territoires incas et chankas, interprétation sur
+          laquelle nous reviendrons.</p>
+          <p xml:id="d1e372">Concernant la localisation du sanctuaire des
+          troncs d’arbre, il existe plusieurs hypothèses. On doit la plus
+          argumentée à <persName type="_temp">Kenneth Heffernan</persName>
+          (1996b) qui effectua des prospections dans la vallée de Limatambo.
+          D’après lui, les vestiges d’architecture inca du site archéologique
+          dénommé Markawasi au pied de la montagne Tilka, à une demi-journée
+          de marche du pont, pourraient être le « <hi rend="italic">tampu</hi>
+          Apurimaq » mentionné par <persName ref="060264179" type="idref" xml:base="https://www.idref.fr/">Cristóbal Vaca de Castro</persName>
+          (1989 [1543]) et <persName ref="029009014" type="idref" xml:base="https://www.idref.fr/">Felipe Guaman Poma de
+          Ayala</persName> (1615), et correspondre au sanctuaire oraculaire
+          localisé par <persName ref="027209229" type="idref" xml:base="https://www.idref.fr/">Cieza de Léon</persName> sur la
+          rive droite. <persName type="_temp">Heffernan</persName> illustre
+          son propos par un témoignage assez obscur remontant aux années 1930,
+          époque à laquelle, d’après <persName ref="257194967" type="idref" xml:base="https://www.idref.fr/">José Wagner</persName> (1937 :
+          239), sept monolithes de forme tronconique étaient toujours érigés
+          et alignés au lieudit du « Castillo de Markawasi », évoquant
+          vaguement les fameux troncs d’arbre décrits par <persName ref="031321275" type="idref" xml:base="https://www.idref.fr/">Pizarro</persName>.</p>
+          <p xml:id="d1e378">Cependant, d’autres chercheurs situent le
+          sanctuaire sur l’autre rive de l’Apurimac, dans la vallée de
+          Curahuasi. C’est le cas de John Hemming et Edward Ranney (2010
+          [1982]), suivis par <persName ref="081206615" type="idref" xml:base="https://www.idref.fr/">César Paternosto</persName> (1996)
+          et <persName ref="072317272" type="idref" xml:base="https://www.idref.fr/">John Staller</persName> (2008) pour
+          lesquels le grand établissement inca du site de Saywite serait le
+          fameux sanctuaire. Ceux-ci extrapolent même un mythe relaté par
+          <persName type="_temp">Hernando de Santillan</persName> (1968
+          [1563] : 110) suivant lequel Saywite serait l’un des « quatre
+          fils-oracles de Pachacamac », celui qui se trouvait dans les
+          environs d’Andahuaylas. Avec ses deux grandes plateformes
+          cérémonielles, sa <hi rend="italic">phaqcha</hi> (« fontaine ») et
+          ses rochers finement taillés, Saywite était sans aucun doute l’un
+          des plus importants établissements incas de la région dont la
+          symbolique était étroitement liée à l’eau et à la libation de
+          fluides (Staller 2008). Mais rien ne dit que l’oracle cité par de
+          Santillan est bien Apurimaq et encore moins que Saywite, situé à
+          plus de 15km du pont, bien au-delà du <hi rend="italic">tampu</hi>
+          de Curahuasi, abritait le sanctuaire des troncs d’arbre. Du reste,
+          aucun des rochers ne possède une apparence anthropomorphe.</p>
+          <p xml:id="d1e388">Compte tenu de la nature des informations
+          ethnohistoriques qui sont loin d’être aussi étayées que celles des
+          <hi rend="italic">wak’a</hi> du système de <hi rend="italic">siq’i</hi> de <placeName ref="3941583" type="geonames" xml:base="https://www.geonames.org/">Cuzco</placeName> (Bauer 2000),
+          l’attribution d’un site archéologique spécifique au mythe du <hi rend="italic">wak’a Apurimaq</hi> est un exercice épineux. Aucune
+          des hypothèses présentées ci-dessus n’est vraiment fondée, d’autant
+          plus que leurs auteurs ne connaissaient apparemment pas le site du
+          pont suspendu sur l’Apurimac, ni ses environs immédiats de part et
+          d’autre de la rivière. Or, s’il existe une constante dans les récits
+          des chroniqueurs, il s’agit de l’association du <hi rend="italic">wak’a</hi> au fameux pont.</p>
+        </div>
+        <div type="div1" xml:id="d1e402">
+          <head subtype="level1" xml:id="d1e403">Le pont sur l’Apurimac</head>
+          <p xml:id="d1e405">Le pont se trouve dans la région de Conoc au
+          niveau d’un méandre au carrefour des <hi rend="italic">quebradas</hi> (« ravins ») Honda et Mallao. Avec ses
+          45m de large, le pont suspendu à quelque 40 m au-dessus des eaux
+          tourbillonnantes de la rivière était un ouvrage monumental, le plus
+          grand pont des Andes incas (Bauer 2006).</p>
+          <p rend="figure-title" xml:id="d1e410">Fig. 2. Le pont sur
+          l’Apurimac</p>
+          <p xml:id="d1e412">
+            <figure xml:id="d1e413">
+              <graphic url="docannexe/image/24419/img-2.jpg"/>
+            </figure>
+          </p>
+          <p rend="figure-license" xml:id="d1e415">(in Markham 2001
+          [1856])</p>
+          <p xml:id="d1e417">Comme l’indiquent les témoignages des voyageurs,
+          la traversée du pont était redoutable (Cieza de Léon 1946 [1553] ;
+          Squier 1974 [1877] ; Wiener 1993 [1880]). Elle se faisait de
+          préférence le matin car, l’après-midi, les vents qui s’engouffraient
+          dans le canyon rendaient périlleux son franchissement. Aussi
+          était-il courant que des bêtes de bât soient perdues au moment de la
+          traversée. Sur les pentes abruptes de la vallée, le chemin menant au
+          pont était parfois impraticable pendant plusieurs semaines
+          (Garcilaso de la Vega 1976 [1609] ; Wiener 1993 [1880]).</p>
+          <p xml:id="d1e420">Tous les témoignages que l’on possède concordent
+          sur le fait que les environs du pont étaient perçus comme une région
+          difficile non seulement pour son relief des plus accidentés, mais
+          aussi pour son climat souvent qualifié de malsain, où « la chaleur
+          et les nuages d’insectes vous suffoquent […] et où régnaient le
+          paludisme et le coto », comme l’écrivait l’historien <persName ref="026669250" type="idref" xml:base="https://www.idref.fr/">José
+          de la Riva-Agüero y Osma</persName> (1964 : 9), auteur d’un article
+          inspiré sur ce paysage singulier. Il ne fait pas de doute que, vue
+          depuis Cuzco et Andahuaylas – les deux grands pôles de peuplement
+          durant l’Horizon Récent (<hi rend="italic">ca.</hi> 1400-1532) –,
+          tous deux situés à plus de 3000m d’altitude, la région du pont sur
+          l’Apurimac était conçue comme un « milieu autre » : un territoire de
+          basse altitude pourvu d’une identité géographique propre.
+          D’ailleurs, les Incas y auraient établi des colons originaires des
+          chaudes vallées du désert de la côte Pacifique, car le climat était
+          impropre à la vie des populations montagnardes (Garcilaso de la Vega
+          1976 [1609] ; Ocampo Conejeros 1906).</p>
+          <p xml:id="d1e426">Pour les populations montagnardes du sud du
+          <placeName ref="3932488" type="geonames" xml:base="https://www.geonames.org/">Pérou</placeName> qui
+          transitaient par cet axe de circulation principal, la traversée de
+          la région du pont sur l’Apurimac constituait donc une expérience
+          humaine forte, propre à la construction d’une représentation
+          géographique singulière de ce paysage. Ainsi, d’un point de vue
+          géographique, il n’est pas étonnant que la région ait été associée à
+          un mythe qui lui conférait son identité et expliquait sa situation
+          au sein du territoire inca (Guillaud 2008).</p>
+          <p xml:id="d1e430">Dès lors, il faut se demander si l’attribution
+          d’un site spécifique au <hi rend="italic">wak’a</hi> de l’Apurimac
+          est une démarche réellement pertinente. Afin de comprendre la
+          symbolique et de saisir les spécificités et la fonction de ce <hi rend="italic">wak’a</hi> dans le monde inca, une approche régionale
+          offre, il me semble, une perspective de recherche mieux adaptée. En
+          effet, tout indique que le mythe était, rappelons-le, étroitement
+          lié à la rivière et au franchissement du pont suspendu. Par
+          conséquent, sa dimension dépassait sans doute celle d’un sanctuaire
+          spécifique. Aussi faut-il croire que le mythe était incarné dans les
+          paysages qu’offrait le parcours du <hi rend="italic">qhapaq ñan</hi>
+          dans les environs du pont. Pour cette raison, le cheminement du <hi rend="italic">qhapaq ñan</hi> constitue une trame appropriée afin
+          d’étudier les lieux et les vestiges archéologiques potentiellement
+          associés au <hi rend="italic">wak’a Apurimaq</hi>. Mais avant cela,
+          il convient d’en détailler l’itinéraire.</p>
+        </div>
+        <div type="div1" xml:id="d1e447">
+          <head subtype="level1" xml:id="d1e448">Le <hi rend="italic">qhapaq
+          ñan</hi>
+          </head>
+          <p xml:id="d1e452">Les chroniques espagnoles des <date from="1500" to="1599" type="_temp">
+              <hi rendition="#T10">xvi</hi>
+              <hi rend="sup">e</hi>
+            </date> et <date from="1600" to="1699" type="_temp">
+              <hi rendition="#T10">xvii</hi>
+              <hi rend="sup">e</hi> siècles</date>
+          n’offrent pas de descriptions géographiques suffisamment précises de
+          la région pour situer en détail le tracé du <hi rend="italic">qhapaq
+          ñan</hi>. Les meilleures sources disponibles sont les récits des
+          grands voyageurs du <date from="1800" to="1899" type="_temp">
+              <hi rendition="#T10">xix</hi>
+              <hi rend="sup">e</hi> siècle</date> qui
+          relatent leur traversée du pont suspendu, avant <date from="1885" to="1899" type="_temp">la fin des années 1880</date>, époque à
+          laquelle il fut définitivement abandonné.</p>
+          <p xml:id="d1e473">
+            <persName ref="030026652" type="idref" xml:base="https://www.idref.fr/">Charles Wiener</persName> (1993
+          [1880]) et <persName ref="067067158" type="idref" xml:base="https://www.idref.fr/">Ephraïm Squier</persName> (1974
+          [1877]) ont brossé chacun un tableau détaillé de leur itinéraire. Le
+          premier, en provenance de Curahuasi sur la rive gauche, se rendit à
+          l’<hi rend="italic">hacienda</hi> Jésus Maria, zone située au pied
+          du <hi rend="italic">cerro</hi> (« mont ») Qoriwayrachina, d’où il
+          chemina jusqu’au pont en passant par un certain lieudit Puquiura qui
+          est appelé aujourd’hui Sietevueltas, en référence à la descente en
+          zigzags représentée sur le dessin du pont fait par <persName ref="084978465" type="idref" xml:base="https://www.idref.fr/">Clements Markham</persName> (2001
+          [1856]). Rendu sur la rive droite, il effectua l’ascension de la <hi rend="italic">quebrada</hi> Mallao pour se rendre à l’<hi rend="italic">hacienda</hi> Bellavista. De là, il se dirigea vers
+          Mollepata en passant par la région de basse altitude de Wamanpata,
+          située au pied du mont Tilka. Quant à <persName ref="067067158" type="idref" xml:base="https://www.idref.fr/">Squier</persName>, il
+          décrit plus ou moins le même itinéraire (qu’il suivit en sens
+          inverse), mis à part qu’il emprunta, pour se rendre à l’<hi rend="italic">hacienda</hi> Bellavista depuis <placeName ref="8349974" type="geonames" xml:base="https://www.geonames.org/">Mollepata</placeName>, une
+          route au nord du Tilka, passant par le col Markhu <hi rend="italic">q’asa</hi> au pied du site inca Chuqechurku (Heffernan
+          1996a). Il remarque qu’il s’agit d’un chemin tortueux qui, de prime
+          abord, n’aurait pas pu être confondu avec le <hi rend="italic">qhapaq ñan</hi> si ne s’y trouvaient les vestiges d’un
+          petit établissement inca aux édifices bâtis en adobe, au bord de la
+          voie, dans les hauteurs de la <hi rend="italic">quebrada</hi>
+          Huananchocce.</p>
+          <p rend="figure-title" xml:id="d1e500">Fig. 3. Le territoire inca
+          des environs du pont sur l’Apurimac</p>
+          <p xml:id="d1e502">
+            <figure xml:id="d1e503">
+              <graphic url="docannexe/image/24419/img-3.jpg"/>
+            </figure>
+          </p>
+          <p xml:id="d1e505">De ces deux récits, il faut déduire qu’il
+          existait, sur la rive droite, au moins deux grandes voies menant au
+          pont suspendu de Conoc. Elles passaient de part et d’autre du
+          Tilka : l’une tortueuse par les hauteurs, l’autre plus rectiligne
+          par une zone de basse altitude<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Le fait que Wiener ait traversé la région durant la saison
+              des pluies et Squier durant la saison sèche explique peut-être
+              pourquoi ils n’ont pas emprunté la même route. En effet, le
+              chemin tortueux qui passe au nord du Tilka pourrait avoir été
+              impraticable durant la saison des pluies.</p>
+            </note>. La présence de vestiges incas le long des deux voies
+          confirme qu’elles étaient toutes deux empruntées à l’époque inca <hi rend="italic">(Ibid.)</hi>.</p>
+          <p rend="figure-title" xml:id="d1e514">Fig. 4. Échantillons de
+          céramique de style inka dans les environs du pont sur l’Apurimac</p>
+          <p xml:id="d1e516">
+            <figure xml:id="d1e517">
+              <graphic url="docannexe/image/24419/img-4.jpg"/>
+            </figure>
+          </p>
+          <p xml:id="d1e519">Mais le réseau routier inca de la région pourrait
+          bien avoir été plus complexe. C’est, en effet, ce que suggère
+          l’existence des vestiges de trois grands sites archéologiques
+          implantés sur les promontoires de fond de vallée de la rive gauche,
+          aux lieudits Wilkamuqu, Sinchimuqu et Waynarimaq. Méconnus, ces
+          grands complexes architecturaux (entre 3 et 5ha) recèlent quelques
+          bâtiments de facture inca et une proportion très importante de
+          céramique inca en surface. Ils témoignent de la forte implantation
+          inca sur la rive gauche. Ainsi, il ne serait pas surprenant qu’une
+          voie joignant Waynarimaq à Markawasi ait traversé l’Apurimac en
+          amont du pont suspendu de Conoc. Un pont pourrait avoir existé à
+          l’emplacement du pont colonial Tablachaka, non loin duquel <persName type="_temp">Heffernan</persName> (1996a) releva des concentrations
+          de céramiques incas. En fait, l’Apurimac était franchissable et sans
+          doute traversé en plusieurs points par des câbles à nacelles et des
+          radeaux. D’ailleurs, sur sa carte de la région publiée en <date type="_temp" when="1876">1876</date>, le géographe <persName ref="033256594" type="idref" xml:base="https://www.idref.fr/">Antonio Raimondi</persName> situe
+          un autre pont, localisé en aval de Curawasi, qui pourrait
+          correspondre à l’actuel pont suspendu de l’<hi rend="italic">hacienda</hi> San Francisco.</p>
+          <p xml:id="d1e526">Le réseau routier inca parcourant la région de la
+          vallée de l’Apurimac au sortir de <placeName ref="3941583" type="geonames" xml:base="https://www.geonames.org/">Cuzco</placeName> était donc
+          bien plus complexe que ne le laisse entrevoir le cliché faisant du
+          <hi rend="italic">qhapaq ñan</hi> une grande voie unilinéaire.
+          L’emprunt de telle ou telle route dépendait sûrement de la saison,
+          des motifs du voyage et de l’identité des voyageurs. Cela étant dit,
+          il ne fait pas de doute que, du temps des Incas, le pont suspendu de
+          Conoc était la voie la plus noble pour franchir le fleuve. Elle
+          traversait des paysages et passait par des lieux, construits
+          matériellement et idéellement, qui possédaient une signification
+          particulière dans la culture inca.</p>
+        </div>
+        <div type="div1" xml:id="d1e531">
+          <head subtype="level1" xml:id="d1e532">Cheminement à travers les
+          paysages du <hi rend="italic">wak’a Apurimaq</hi>
+          </head>
+          <p xml:id="d1e536">Afin de présenter les vestiges de l’aménagement
+          territorial inca des environs du pont sur l’Apurimac, ainsi que les
+          lieux et les paysages potentiellement associés au <hi rend="italic">wak’a</hi>, nous allons parcourir la section du <hi rend="italic">qhapaq ñan</hi> comprise entre les <hi rend="italic">tampu Apurimaq</hi> et Curahuasi. Ces derniers
+          correspondent vraisemblablement aux sites archéologiques des
+          lieudits Markawasi et Raqay raqay qui se trouvent, tous deux, à une
+          journée de marche de part et d’autre du pont.</p>
+          <p xml:id="d1e548">Outre les établissements incas, nous allons
+          prêter une attention particulière aux vestiges de miradors d’origine
+          préhispanique qui se trouvent aux abords du chemin. Ponctuant le
+          parcours du <hi rend="italic">qhapaq ñan</hi>, ces sites, aménagés
+          pour la plupart sur des sommets, ont en commun de donner à voir les
+          contrées montagnardes suivant une perspective spécifiée. Il est donc
+          possible de décrire, d’après ces points de vue, quels étaient les
+          principaux objets du paysage que les Incas souhaitaient mettre ainsi
+          en valeur. Il convient, en effet, de signaler qu’ici, notre démarche
+          ne vise pas à dévoiler la signification de ces paysages, mais à
+          identifier quels en étaient les objets signifiants. L’objectif est
+          d’étudier de quelle manière les Incas ont aménagé un parcours
+          donnant à incorporer un paysage vraisemblablement construit en
+          relation avec le mythe du <hi rend="italic">wak’a Apurimaq</hi>.</p>
+          <p xml:id="d1e557">Juste au-dessus de Markawasi, notre point de
+          départ, se dresse Tilka, la montagne de Mollepata qui, nous l’avons
+          évoqué, était une étape importante des processions rituelles incas.
+          De par son élévation, son volume et son isolement physiographique,
+          il s’agit du principal relief de la région du pont sur l’Apurimac.
+          Il forme ainsi un repère géographique visible au loin sur le <hi rend="italic">qhapaq ñan</hi>, depuis les hauteurs des vallées de
+          Limatambo et de Curahuasi. Au sommet du Tilka, à près de 3800m, se
+          trouvent les vestiges d’un complexe architectural de facture inca
+          (Heffernan 1996a). Ses pics culminants ont été aménagés pour former
+          deux plateformes voisines offrant un panorama exceptionnel sur la
+          région. De par sa morphologie escarpée et sa proximité, la section
+          nord-ouest de la ligne d’horizon est la plus remarquable. Elle est
+          formée de l’Ampay et des plus hauts glaciers de la cordillère de
+          Vilcabamba, parmi lesquels le légendaire Salqantay. À la vue de ce
+          paysage spectaculaire, il faut croire que le site inca était
+          certainement étroitement lié à la visualisation des montagnes
+          sacrées (Saintenoy 2011). Le Salqantay incarnait en effet un
+          puissant <hi rend="italic">wak’a paqarisqa</hi> du monde inca
+          (Duviols 1967 ; de Santa Cruz 1993) – le <hi rend="italic">wak’a</hi> qui précédait Apurimaq dans la liste
+          établie par <persName ref="029794366" type="idref" xml:base="https://www.idref.fr/">Cristóbal de Albornoz</persName>
+          évoquée plus haut.</p>
+          <p rend="figure-title" xml:id="d1e568">Fig. 5. Séquence paysagère
+          d’après trois miradors situés le long du chemin</p>
+          <p xml:id="d1e570">
+            <figure xml:id="d1e571">
+              <graphic url="docannexe/image/24419/img-5.jpg"/>
+            </figure>
+          </p>
+          <p xml:id="d1e573">Le pont sur l’Apurimac se trouve à une
+          demi-journée de marche du Tilka. Aujourd’hui, les vestiges de trois
+          établissements incas se trouvent sur les deux chemins menant au
+          pont<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Les trois sites sont : Chuqechurku et Wamanpata, décrits par
+              Heffernan (1996a), ainsi que le petit complexe architectural en
+              adobe de la <hi rend="italic">quebrada</hi> Huananchocce
+              mentionné par Squier (1974 [1877]), dont l’attribution inca
+              reste à vérifier. Méconnue, la région de l’ex-<hi rend="italic">hacienda</hi> Bellavista, qui se trouve à une
+              courte distance du pont, demande à être prospectée de façon
+              intensive.</p>
+            </note>. Le plus important est sans doute Choqechurku, qui recèle
+          plusieurs rochers taillés, à l’instar des autres sites cérémoniels
+          incas se trouvant le long du 9<hi rend="sup">e</hi>
+            <hi rend="italic">siq’i</hi> du <hi rend="italic">Chinchaysuyu</hi> (Van
+          de Guchte 1990). À notre connaissance, il n’existe pas de vestiges
+          de plateformes ou autres miradors potentiels sur le trajet entre le
+          Tilka et le pont de Conoc.</p>
+          <p xml:id="d1e595">Immédiatement après le pont suspendu, le chemin
+          se poursuit dans un tunnel, long d’une trentaine de mètres, creusé
+          dans la paroi rocheuse de la rive gauche. Comme l’avait déjà noté
+          autrefois <persName ref="067067158" type="idref" xml:base="https://www.idref.fr/">Squier</persName> (1974 [1877]), le
+          tunnel possède des ouvertures dans sa partie haute, laissant
+          entrevoir les sommets de la rive opposée (les neiges éternelles du
+          mont Fernandoy et le piton rocheux de l’un des promontoires du fond
+          de vallée). Associée au grondement sourd de l’Apurimac, la vue sur
+          ces sommets façonne un paysage singulier. Le tunnel pourrait donc
+          avoir été aménagé non seulement pour faciliter la circulation sur
+          les flancs abrupts du canyon, mais aussi comme une architecture
+          visant à mettre en scène les principaux objets du paysage qui
+          apparaissent lors du franchissement du pont (Espinoza Cornejo
+          2011).</p>
+          <p xml:id="d1e599">Une fois dans la vallée de Curahuasi, après
+          l’ascension de la rive gauche, le <hi rend="italic">qhapaq ñan</hi>
+          passe juste au pied d’une grande butte, aujourd’hui dénommée
+          Qoriwayrachina, se dressant à une centaine de mètres au-dessus du
+          chemin. Son sommet est terrassé, formant une plateforme de près de 1
+          000m<hi rend="sup">2</hi> où quelques fragments de céramique
+          préhispanique jonchent le sol.</p>
+          <p xml:id="d1e608">Depuis ses 2 600m d’altitude, la plateforme de
+          Qoriwayrachina offre un panorama saisissant. On découvre, en effet,
+          la profondeur du canyon de l’Apurimac, s’écoulant 1000m en
+          contrebas, qui contraste avec l’élévation des pics enneigés des
+          sommets de Vilcabamba, culminant à près de 6 000 m d’altitude. De
+          plus, cet endroit rend compte de l’ampleur de la vallée et de
+          l’extension de la rivière dont on visualise le cours sur plus de 20
+          km, tant en amont qu’en aval où l’on repère, même au loin, par temps
+          clair, l’éperon du palais inca de Choqek’iraw. Dans un rayon plus
+          restreint, plusieurs objets physiographiques, de par leur
+          proéminence topo-graphique, se distinguent dans le paysage de la
+          vallée : parmi eux, deux pitons rocheux du fond de vallée se situent
+          le long du <hi rend="italic">qhapaq ñan</hi>. L’un, en amont, domine
+          la zone du pont et en marque ainsi l’emplacement. L’autre, en aval,
+          qui semble figurer un profil anthropomorphe, se trouve juste
+          au-dessus d’un établissement inca.</p>
+          <p xml:id="d1e614">Aujourd’hui, le site archéologique correspondant
+          à cet établissement est dénommé Raqay raqay. Il comprend les ruines
+          d’un complexe architectural de plus de 2 ha, en mauvais état de
+          conservation mais où la céramique préhispanique abonde en surface.
+          En raison de son emplacement sur le <hi rend="italic">qhapaq
+          ñan</hi>, de son plan au sol d’apparence orthogonale et de la
+          présence d’une proportion assez importante de céramique inca, ce
+          site pourrait être candidat au titre de <hi rend="italic">tampu</hi>
+          de Curahuasi (Vaca de Castro 1989 [1543] ; <persName ref="027209229" type="idref" xml:base="https://www.idref.fr/">Cieza de
+          Léon</persName>
+            <date type="_temp" when="1946">1946</date>
+          [1553]).</p>
+          <p xml:id="d1e623">Au-delà de Raqay raqay, le <hi rend="italic">qhapaq ñan</hi> se prolonge dans la vallée de
+          Curahuasi. Nous pourrions terminer ici notre cheminement, mais
+          l’approche régionale serait incomplète si nous ne mentionnions pas
+          les vestiges préhispaniques de la crête du promontoire qui domine la
+          vallée. Il ne fait, en effet, aucun doute que ceux-ci étaient liés
+          au paysage culturel qui nous intéresse. Situé à plus de 3 000m
+          d’altitude, le sommet du promontoire offre un panorama, encore plus
+          ouvert que celui de Qoriwayrachina, sur le canyon de l’Apurimac
+          avec, en toile de fond, la cordillère de Vilcabamba. Aussi
+          donne-t-il à voir l’ensemble des lieux et des objets
+          physiographiques associés à la section du <hi rend="italic">qhapaq
+          ñan</hi> que nous venons de décrire.</p>
+          <p rend="figure-title" xml:id="d1e631">Fig. 6. Le grand rocher
+          dénommé Capitan Rumi</p>
+          <p xml:id="d1e633">
+            <figure xml:id="d1e634">
+              <graphic url="docannexe/image/24419/img-6.jpg"/>
+            </figure>
+          </p>
+          <p xml:id="d1e636">L’ensemble de la crête exhibe des vestiges de
+          terrassements et de matériel céramique d’origine préhispanique
+          (Araoz Silva 2005). Au lieudit Capitan Rumi, un rocher aux
+          dimensions monumentales forme une plateforme naturelle, juste au
+          bord du précipice. Le point culminant du rocher correspond à une
+          extrémité en surplomb, plus de 1 000m au-dessus des eaux de
+          l’Apurimac. À cet endroit, la roche est percée d’une cavité
+          cylindrique (7 cm de diamètre pour 6 cm de profondeur) [fig. 6].
+          Bien que son origine préhispanique soit impossible à déterminer, il
+          est tentant de penser que ce puits miniature aurait pu être destiné
+          aux libations, typiques des cérémonies incas, et que ce rocher
+          monumental, à la forme singulière ait ainsi incarné une idée
+          affiliée au concept d’<hi rend="italic">usnu</hi>
+            <note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Du temps des Incas, l’<hi rend="italic">usnu</hi> était un
+              dispositif destiné aux rituels de libation dont la pratique
+              était essentielle durant les cérémonies. Le puits (ou bassin)
+              qui recevait les liquides était assimilé à un <hi rend="italic">axis mundi</hi> et se trouvait généralement sur
+              une plateforme où les rituels étaient mis en scène. Avec ses
+              dimensions monumentales et son puits miniature au sommet, le
+              rocher Capitan Rumi pourrait avoir formé une plateforme
+              cérémonielle de ce type. En outre, sa position dans le paysage,
+              à l’interface entre les pics enneigés de la cordillère de
+              Vilcabamba et la rivière Apurimac, pourrait évoquer l’idée d’<hi rend="italic">axis mundi</hi> lié à la circulation de l’eau
+              (Lecoq &amp; Saintenoy 2013).</p>
+            </note> (Zuidema 1989 [1980] ; Pino Matos 2010). Si tel était le
+          cas, ce rocher était sûrement un <hi rend="italic">wak’a</hi> dont
+          la dimension numineuse était sans doute liée à sa situation
+          exceptionnelle dans le paysage.</p>
+          <p xml:id="d1e658">Notre cheminement dans la section du <hi rend="italic">qhapaq ñan</hi> associée au pont suspendu sur
+          l’Apurimac étant achevé, force est de constater que l’aménagement
+          inca de la région dépasse largement le cadre de la simple
+          infrastructure routière. La voie est ponctuée de nombreux sites
+          implantés pour donner à voir le paysage qui, pour sa physionomie,
+          est sans doute l’un des plus spectaculaires des Andes centrales.
+          Selon moi, c’est à cette singularité paysagère que se rapporte le
+          mythe du fameux <hi rend="italic">wak’a</hi>.</p>
+        </div>
+        <div type="div1" xml:id="d1e666">
+          <head subtype="level1" xml:id="d1e667">Échos du paysage inca dans
+          les croyances et les pratiques religieuses d’aujourd’hui</head>
+          <p xml:id="d1e669">La plupart des sites archéologiques des abords du
+          <hi rend="italic">qhapaq ñan</hi> se trouvent au sein d’un milieu
+          paysan habité par les communautés de Curahuasi et de Mollepata. Or,
+          même si, aujourd’hui, on ne trouve aucune trace du <hi rend="italic">wak’a Apurimaq</hi> dans la mémoire collective,
+          certains sites aménagés à l’époque préhispanique sont toujours
+          signifiants pour ces communautés. C’est notamment le cas des
+          miradors du Tilka, de Qoriwayrachina et du <hi rend="italic">cerro</hi> San Cristobal où ont été érigés des
+          calvaires. En effet, les campagnes d’extirpation de l’idolâtrie
+          pendant la colonisation espagnole impliquaient l’implantation de
+          croix sur les sanctuaires indigènes (Duviols 2003). Ainsi, la
+          Santisima Cruz del Tilka aurait été dressée peu de temps après la
+          conquête, dans <date from="1550" to="1559" type="_temp">les années
+          1550</date> (Sallnow 1987). Notons qu’une légende, expliquant
+          l’implantation de cette croix à Mollepata alors qu’elle était
+          originellement destinée à Cuzco<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>D’après la légende, la croix aurait été construite en
+              Espagne, puis envoyée au Pérou par Charles Quint et destinée à
+              Cuzco. Mais, à l’image des mythiques « rochers fatigués » (du
+              quechua, <hi rend="italic">wak’a sayk’uska)</hi> gisant dans le
+              grand sanctuaire Saqsawayman –, rappelons que la mythologie inca
+              fait état de voyage de rochers sacrés et que les Incas
+              n’hésitaient effectivement pas à faire barder des rochers sur
+              des centaines de kilomètres, la croix se serait fatiguée en
+              chemin, motif pour lequel elle aurait été implantée à
+              Mollepata.</p>
+            </note>, évoque certains mythes précoloniaux sur le voyage de
+          rochers sacrés du temps des Incas (Van de Guchte 1990), ce qui
+          présente une analogie entre les géographies sacrées hispaniques et
+          incas (Heffernan 1996b). De même, le calvaire principal de la région
+          de Curahuasi, dressé au sommet du promontoire qui domine l’ensemble
+          de la section du <hi rend="italic">qhapaq ñan</hi> traversant la
+          vallée de l’Apurimac, est appelé San Cristobal, du nom du patron des
+          voyageurs qui aurait aidé l’Enfant-Jésus à franchir une rivière<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>La croyance populaire selon laquelle la vue de la statue de
+              saint Christophe met à l’abri des maladies et des infirmités est
+              un autre attribut de cette figure mythique qui pourrait faire
+              écho aux croyances incas associées à <hi rend="italic">Apurimaq</hi>. Car, en effet, la rivière était le
+              théâtre de rituels de purification effectués au moment de la
+              fête de la Citua notamment. Ces indices nous mettent ainsi sur
+              la piste d’un possible syncrétisme géosymbolique entre San
+              Cristobal et le <hi rend="italic">wak’a Apurimaq</hi>.</p>
+            </note>.</p>
+          <p xml:id="d1e702">En plus de ces lieux aménagés, certaines
+          montagnes possèdent également une place importante dans la
+          symbolique géographique de la région. Au cœur de la cordillère de
+          Vilcabamba, le fameux Salqantay est toujours l’objet de croyances
+          religieuses (Nuñez del Prado 1970, 1983). Et le mont Tilka –
+          couronné, rappelons-le, par un sanctuaire d’altitude inca –, était
+          aussi désigné par le syntagme mixte aymara-quechua <hi rend="italic">Auquiorco</hi> (Wiener 1993 [1880]) qui signifie
+          littéralement le « sommet père ».</p>
+          <p xml:id="d1e708">Enfin, il est intéressant de constater que les
+          plus grandes montagnes ne sont pas les seuls objets physiographiques
+          signifiants du paysage pour les habitants de la région. Les pitons
+          rocheux qui s’élèvent au-dessus de la rivière dans le fond de
+          vallée, aux abords du <hi rend="italic">qhapaq ñan</hi>, incarnent
+          également des figures de la géographie locale : une « belle femme
+          endormie », un « lion couché », etc. Ainsi, s’il ne subsiste aucune
+          trace du mythe inca dans la mémoire collective, la représentation de
+          l’espace géographique repose apparemment sur les mêmes objets
+          signifiants du paysage.</p>
+        </div>
+        <div type="div1" xml:id="d1e713">
+          <head subtype="level1" xml:id="d1e714">Un géosymbole</head>
+          <p xml:id="d1e716">Ayant relu les sources ethnohistoriques et
+          parcouru le paysage archéologique de la région, il convient
+          désormais de s’interroger sur la fonction du mythe du <hi rend="italic">wak’a Apurimaq</hi> dans la culture inca. Or, les
+          informations présentées ci-dessus nous invitent à penser qu’il
+          possédait une indéniable dimension géographique. Il visait,
+          semble-t-il, à investir les lieux de symbolique, afin de faire de la
+          région un « géosymbole »<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Auteur du concept, Joël Bonnemaison définit le géosymbole
+              comme « la structure symbolique d’un milieu », soit « un lieu,
+              un itinéraire, une étendue, un accident naturel ou une
+              construction humaine qui donne sens au paysage et qui par-là
+              exprime et conforte l’identité des peuples ou des ethnies »
+              (1981 : 249).</p>
+            </note> de la culture inca. De fait, on remarquera
+          qu’« Apurimac », terme sémantique qui donne aujourd’hui son nom à
+          l’ensemble de la rivière, ne désignait traditionnellement que cette
+          section spécifique de la vallée, car, en aval comme en amont, la
+          rivière portait d’autres noms (Garcilaso de la Vega 1976 [1609] ;
+          Caceres Oliveira 1984 ; Raimondi 1874).</p>
+          <p xml:id="d1e726">D’un point de vue territorial, cette section se
+          trouvait, rappelons-le, au seuil de la région nucléaire inca. Or, en
+          tant qu’objet géographique, la rivière Apurimac en marquait la
+          frontière naturelle. Quant au mythe inca, il expliquait cette
+          frontière, d’un point de vue idéel. En d’autres termes, il visait à
+          générer du territoire par l’attribution d’une identité et d’une
+          historicité inca à cette zone intermédiaire. Ainsi, d’un point de
+          vue symbolique, le <hi rend="italic">wak’a</hi> opérait une sorte de
+          médiation cosmologique entre le territoire inca et le monde
+          environnant, en l’occurrence ici le territoire chanka. C’est suivant
+          cette idée que <persName ref="097890022" type="idref" xml:base="https://www.idref.fr/">Tom Zuidema</persName> (1979)
+          considère le <hi rend="italic">wak’a</hi> comme une sorte de
+          monument historique.</p>
+          <p xml:id="d1e735">Le <hi rend="italic">wak’a Apurimaq</hi>
+          incarnait-il un oracle, comme l’indique <persName ref="027209229" type="idref" xml:base="https://www.idref.fr/">Cieza de
+          Léon</persName> ? Il semble, en effet, que, du temps des Incas,
+          l’autorité politico-religieuse des grands <hi rend="italic">wak’a</hi> émettant des pronostics était telle que ces
+          « oracles » (en termes occidentaux) étaient nombreux et formaient
+          une véritable institution de la société andine (Gose 1996 ; Curatola
+          2008). Cela étant dit, il faut noter que les mentions du <hi rend="italic">wak’a Apurimaq</hi> sont rares en comparaison avec
+          celles des grands oracles du <hi rend="italic">Tawantinsuyu</hi>
+          (Curatola &amp; Ziólkowski 2008). En fait, <persName ref="027209229" type="idref" xml:base="https://www.idref.fr/">Cieza de
+          Léon</persName> est le seul à le qualifier textuellement d’oracle.
+          S’il eut possédé des notions d’histoire antique (MacCormack 2001),
+          il ne serait pas étonnant que le <hi rend="italic">wak’a</hi> d’<hi rend="italic">Apurimaq</hi>, où la principale idole était un tronc
+          servi par une prêtresse, lui ait évoqué le fameux oracle grec de
+          Dodone. En effet, à Dodone, la mantique, analogue, consistait en
+          l’interprétation du bruissement des feuilles d’un chêne situé au
+          centre d’un sanctuaire où officiaient essentiellement des
+          femmes.</p>
+          <p xml:id="d1e757">Ce qui est sûr, c’est que toutes les sources
+            signalent plus ou moins explicitement l’« agence »<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Suivant la proposition de Philippe Descola (2009), nous
+              traduisons le terme sociologique anglais <hi rend="italic">agency</hi> (qui se réfère à la capacité d’agir en
+              société) par le français « agence ».</p>
+            </note> politique du <hi rend="italic">wak’a</hi>. En témoignerait
+          notamment le « <hi rend="italic">Mira como habla mi dios ! (= Vois
+          comment parle mon dieu !)</hi> » allégué par le roi Manqu Inca
+          devant un prisonnier espagnol, du temps de la guerre de résistance
+          (Pizarro 1978 [1571] : 81). Il faut sans doute voir dans cette
+          invocation, l’affirmation de l’autorité du souverain inca conférée
+          par son propre territoire subjectivé. Ici, le géosymbole est donc
+          revendication politique et légitimation du pouvoir.</p>
+          <p xml:id="d1e773">La subjectivité attribuée aux figures du paysage
+          dans la culture inca semble être un aspect fondamental du système de
+          représentation géographique de la territorialité. Dans ce monde à
+          l’ontologie essentiellement animiste (Descola 2009), on ne se
+          contentait pas de produire du paysage suivant la mise en scène et la
+          sémiotisation des contrées andines. Car, au-delà d’une
+          signification, l’architecture (matérielle et idéelle) du paysage
+          donnait une subjectivité aux principaux objets de l’espace
+          géographique, ainsi investis de façon ostensible d’une « agence »
+          géopolitique. Qu’ils incarnassent ancêtres et/ou divinités
+          chtoniennes, les éléments du paysage – rochers, montagnes, arbres,
+          etc. – étaient des habitants agissant des contrées andines (Taylor
+          1980), idée que Carolyn Dean résume bien, dans son essai sur les
+          roches dans la culture inca, par la formule suivante : « Dans les
+          Andes, les roches étaient Nature et Culture, à la fois objet minéral
+          et membre de la société » (2010 : 14).</p>
+        </div>
+        <div type="div1" xml:id="d1e775">
+          <head subtype="level1" xml:id="d1e776">Paysage, parcours et
+          territorialité</head>
+          <p xml:id="d1e778">En parcourant la section du <hi rend="italic">qhapaq ñan</hi> correspondant au pont suspendu sur
+          l’Apurimac, le voyageur expérimentait un paysage singulier. Orientée
+          par la route et rythmée par le passage en des lieux déterminés, son
+          expérience géographique était ainsi spécifiée par la construction
+          inca de l’environnement (Tilley 1996). À travers ce parcours dans un
+          paysage dont le mythe du <hi rend="italic">wak’a Apurimaq</hi>
+          (véhiculé par la tradition orale) structurait le sens, le voyageur
+          incorporait une certaine vision du monde inca, et, dans le même
+          temps, des codes et des règles sociales concernant la culture
+          géographique et la territorialité inca. Comme l’illustrent bien
+          <persName ref="06918559X" type="idref" xml:base="https://www.idref.fr/">Charles Stanish</persName> et
+          <persName ref="032732562" type="idref" xml:base="https://www.idref.fr/">Brian Bauer</persName> (2007 : 50)
+          au sujet du grand pèlerinage inca qui menait des milliers de
+          personnes originaires des quatre coins du <hi rend="italic">Tawantinsuyu</hi> sur les îles du lac Titicaca, les
+          processions organisées par l’État inca constituaient de grands
+          enjeux politiques, car « les pèlerinages et leurs sanctuaires
+          formaient un terrain idéal pour figurer matériellement l’idéologie
+          de la culture officielle » (DeMarrais, Castillo &amp; Earle 1996).
+          Les pèlerins incorporaient ainsi les principes de la géographie
+          sacrée inca auxquels étaient étroitement liés l’ordre impérial et
+          les frontières sociales (Sallnow 1991).</p>
+          <p xml:id="d1e790">Comme c’est le cas ailleurs dans d’autres
+          territoires sacrés des Andes incas (<hi rend="italic">Ibid</hi>. ;
+          Curatola Petrocchi &amp; Ziólkowski 2008), le paysage construit
+          autour du mythe du <hi rend="italic">wak’a</hi> Apurimaq comprenait
+          probablement plus d’un sanctuaire. De même, il est envisageable que
+          différentes figures du paysage associées à la rivière et aux
+          montagnes environnantes aient pu, de façon contextuelle, incarner le
+          mythe véhiculé par la tradition orale. Cela expliquerait pourquoi
+          les sources ethnohistoriques font référence à des figures paysagères
+          et à des lieux distincts. Ainsi, même s’il se trouve à une certaine
+          distance des faits localisés par les chroniqueurs, le palais de
+          Choqek’iraw faisait sans doute également partie du paysage culturel
+          du <hi rend="italic">wak’a Apurimaq</hi>. En effet, comme nous
+          l’avons montré ailleurs (Lecoq 2010 ; Saintenoy 2008, 2011 ; Lecoq
+          &amp; Saintenoy 2013), de par son emplacement, son architecture et
+          son iconographie, y compris sa qualité d’observatoire astronomique,
+          ce palais possédait une relation géosymbolique forte avec
+          l’Apurimac. Aussi, de par sa situation territoriale dans un lieu
+          reculé au sein d’un environnement fortement incaïsé, il aurait
+          constitué un excellent centre de pèlerinage inca associé à la
+          rivière sacrée et aux montagnes environnantes.</p>
+          <p xml:id="d1e802">Si, à travers le mythe, les Incas attribuèrent
+          une signification spécifique à la région, il n’est pas exclu que
+          pour d’autres ethnies, comme les Chankas, par exemple, qui faisaient
+          également des sacrifices au moment de franchir la rivière (Cieza de
+          Léon 1946 [1553]), la symbolique de l’Apurimac ainsi que les <hi rend="italic">wak’a</hi> l’incarnant aient été autres. On pourrait
+          aussi envisager que l’influence des sites sacrés associés au mythe
+          ait pu varier dans le temps, ce qu’illustrerait, par exemple, le
+          dualisme <hi rend="italic">Apu/Wayna-Rimaq</hi>, soit « Rimaq l’aîné
+          / Rimaq le jeune » qui, rappelons-le, nommaient deux <hi rend="italic">wak’a</hi> distincts.</p>
+          <p xml:id="d1e814">Suivant cette hypothèse relativiste, notons qu’un
+          même paysage pouvait donc être associé à différents types de
+          mouvements rituels. Ceux-ci étaient vraisemblablement liés à une
+          même géosymbolique mais étaient entrepris pour des motifs, par des
+          agents et à des dates, distincts. Avec les nombreux autres réalisés
+          à différentes échelles dans le <hi rend="italic">Tawantinsuyu</hi>,
+          ces voyages rituels participaient à la construction et à la
+          reproduction de l’espace géographique et des territoires incas
+          (Sallnow 1987).</p>
+          <p xml:id="d1e820">❖</p>
+          <p xml:id="d1e824">Cet essai sur le mythe du <hi rend="italic">wak’a</hi> de l’Apurimac met en relief les dimensions
+          symbolique et pratique de la territorialité inca. En tant
+          qu’« agencement de ressources matérielles et symboliques capable de
+          structurer les conditions pratiques de l’existence d’un individu ou
+          d’un collectif social et d’informer en retour cet individu et ce
+          collectif sur sa propre identité » (Debarbieux 2003 : 910), le
+          système de représentation du territoire reposait sur la construction
+          de paysages qui, comme l’écrit Christopher Tilley (2008)
+          « possédaient une agence sur les individus et les groupes sociaux »
+          qui les expérimentaient. Ainsi, dans la société inca, comme dans la
+          plupart des cultures prémodernes, les monuments naturels et
+          construits étaient essentiels pour l’inscription géographique des
+          territorialités et pour la communication des limites territoriales
+          (Molinié Fioravanti 1986-1987 ; Harris 1997 ; Ashmore 2008). Même si
+          certains chroniqueurs coloniaux, comme Guaman Poma (1615 : 352),
+          évoquent l’existence de frontières bornées, rien ne certifie leur
+          origine préhispanique. De même, au vu du caractère abstrait, ou tout
+          du moins conceptuel, de l’expression cartographique dans la culture
+          inca, il faut croire que c’est par la pratique de l’espace
+          géographique, principalement au cours de voyages, que les individus
+          incorporaient les principes de la territorialité façonnée par l’État
+          inca.</p>
+          <p xml:id="d1e830">Au carrefour de l’ethnohistoire, de l’archéologie
+          et de la géographie, cet essai illustre aussi toute la difficulté
+          d’une étude rigoureuse des paysages construits par les sociétés du
+          passé. Au départ, mon ambition était d’identifier les objets
+          signifiants du paysage associé au fameux <hi rend="italic">wak’a</hi>. Comme un paysage n’est « reconnu » que par
+          le biais de modèles mentaux culturels (Berque 1994 ; Maby 2005 ;
+          Thomas 2008), je me suis fondé sur le mythe dont j’ai tenté de
+          déterminer la structure spatiale, en considérant que la rivière et
+          le <hi rend="italic">qhapaq ñan</hi> en formaient la trame. Aussi,
+          d’un point de vue méthodologique, j’ai eu recours à une immersion
+          sur le terrain guidée par le cheminement sur la route inca et
+          orientée par les miradors construits afin de spécifier, tel un
+          langage séquentiel, l’expérience du parcours. Du fait de sa
+          complémentarité avec l’analyse cartographique « vue du dessus » de
+          l’information archéogéographique, cette approche subjective, « vue
+          du dedans », s’est, il me semble, révélée pertinente afin
+          d’expliquer l’aménagement territorial inca des environs du pont sur
+          l’Apurimac.</p>
+          <p xml:id="d1e839">Les imbrications entre paysages et territoires
+          forment un champ de recherche humaniste passionnant que la recherche
+          se doit d’aborder sous un angle nécessairement pluridisciplinaire,
+          afin d’expliquer les caractéristiques des sciences géographiques
+          singulières développées dans les sociétés prémodernes.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliography" xml:id="d1e842">
+        <listBibl xml:id="d1e843">
+          <bibl xml:id="d1e844">Abercrombie, Thomas, 2006 [1998] <hi rend="italic">Caminos de la memoria y del poder. Etnografía e
+          historia en una comunidad andina</hi>. La Paz, Instituto francés de
+          estudios andinos – Instituto de estudios bolivianos.</bibl>
+          <bibl xml:id="d1e850">Araoz Silva, Miriam, 2005 <hi rend="italic">Informe 70-2005/<hi rendition="#T10">Inc</hi>/<hi rendition="#T10">Da</hi>/<hi rendition="#T10">Sdic</hi>/<hi rendition="#T10">Mdas</hi>. Informe de la segunda salida al campo de
+          prospección arqueológica.</hi> Abancay, Instituto nacional de
+          cultura Apurimac [texte inédit].</bibl>
+          <bibl xml:id="d1e868">Ashmore, Wendy, 2008 « Visions of the Cosmos :
+          Ceremonial Landscapes and Civic Plan », in Bruno David &amp; Julian
+          Thomas, eds, <hi rend="italic">Handbook of Landscape
+          Archaeology</hi>… : 167-175.</bibl>
+          <bibl xml:id="d1e874">Bauer, Brian, 1991 « Pacariqtambo and the
+          Mythical Origins of the Inca », <hi rend="italic">Latin American
+          Antiquity</hi> 2 : 7-26.</bibl>
+          <bibl xml:id="d1e880">Bauer, Brian, 2000 [1998] <hi rend="italic">El
+          Espacio sagrado de los Incas, el sistema de ceques del Cuzco</hi>.
+          Cuzco, Centro de estudios regionales andinos Bartolomé de Las
+          Casas.</bibl>
+          <bibl xml:id="d1e886">Bauer, Brian, 2006 « Suspension Bridges of the
+          Inca Empire », <hi rend="italic">Andean Archaeology</hi> 3 :
+          468-493.</bibl>
+          <bibl xml:id="d1e893">Bellenger, Xavier, 2005 « El gran pago de
+          Mulsina o el arte de mover las montañas », <hi rend="italic">Bulletin de l’Institut français d’études andines</hi>
+          34 : 235-249.</bibl>
+          <bibl xml:id="d1e899">Berque, Augustin, 1994 « Paysage, milieu,
+          histoire », in A. Berque, ed., <hi rend="italic">Cinq propositions
+          pour une théorie du paysage</hi>. Seyssel, Champs Vallon :
+          11-30.</bibl>
+          <bibl xml:id="d1e905">Bonnemaison, Joël, 1981 « Voyage autour du
+          territoire », <hi rend="italic">Espace géographique</hi> 10 (4) :
+          249-262.</bibl>
+          <bibl xml:id="d1e911">Caceres Olivera, Roberto, 1984
+          « Establecimiento de la gobernación de Vilcabamba de acuerdo a un
+          documento inédito del siglo <hi rendition="#T10">xvi</hi> », <hi rend="italic">Revista del museo e instituto de arqueología</hi> 23 :
+          93-96.</bibl>
+          <bibl xml:id="d1e920">Cieza de Léon, Pedro, 1946 [1553] <hi rend="italic">Crónica del Perú</hi>. México, Editorial nueva
+          España.</bibl>
+          <bibl xml:id="d1e926">Claval, Paul, 2007 <hi rend="italic">Épistémologie de la géographie</hi>. Paris. Armand
+          Colin (« U Géographie »).</bibl>
+          <bibl xml:id="d1e933">Cobo, Bernabé, 1964 [1653] <hi rend="italic">Historia del Nuevo Mundo.</hi> Madrid, Atlas.</bibl>
+          <bibl xml:id="d1e939">Curatola Petrocchi, Marco, 2008 « La función
+          de los oráculos en el Imperio inca », in Marco Curatola Petrocchi
+          &amp; Mariusz S. Ziólkowski, eds, <hi rend="italic">Adivinación y
+          oráculos en el mundo andino antiguo</hi>… : 15-70.</bibl>
+          <bibl xml:id="d1e945">Curatola Petrocchi, Marco &amp; Mariusz S.
+          Ziólkowski, eds, 2008 <hi rend="italic">Adivinación y oráculos en el
+          mundo andino antiguo</hi>. Lima, Instituto francés de estudios
+          andinos – Fondo editorial pontificia universidad catolica del
+          Perú.</bibl>
+          <bibl xml:id="d1e951">David, Bruno &amp; Julian Thomas, eds, 2008
+          <hi rend="italic">Handbook of Landscape Archaeology</hi>. Walnut
+          Creeks, Left Coast Press.</bibl>
+          <bibl xml:id="d1e957">Dean, Carolyn, 2010 <hi rend="italic">A
+          Culture of Stone. Inka Perspective on Rock</hi>. Durham-London, Duke
+          University Press.</bibl>
+          <bibl xml:id="d1e963">Debarbieux, Bertrand, 2003 « Territoire », in
+          Jacques Levy &amp; Michel Lussault, eds, <hi rend="italic">Dictionnaire de la géographie et de l’espace des
+          sociétés</hi>. Paris, Belin : 910-912.</bibl>
+          <bibl xml:id="d1e970">DeMarrais, Elisabeth, Luis Jaime Castillo
+          &amp; Thimothy K. Earle, 1996 « Ideology, Materialization, and Power
+          Strategies », <hi rend="italic">Current Anthropology</hi> 37 :
+          15-31.</bibl>
+          <bibl xml:id="d1e976">Descola, Philippe, 2009 <hi rend="italic">L’Envers du visible : ontologie et iconologie.
+          Histoire de l’art et anthropologie</hi>. Paris, <hi rendition="#T10">Inha</hi> – Musée du quai Branly.</bibl>
+          <bibl xml:id="d1e985">Di Méo, Guy &amp; Pascal Buléon, 2005 <hi rend="italic">L’Espace social. Lecture géographique des
+          sociétés</hi>. Paris, Armand Colin.</bibl>
+          <bibl xml:id="d1e991">Duviols, Pierre, 1967 « Un inédit de Cristóbal
+          de Albornoz : <hi rend="italic">La Instrucción para descubrir todas
+          las guacas del Piru y sus camayos y haciendas</hi> », <hi rend="italic">Journal de la Société des américanistes</hi> 56 :
+          7-40.</bibl>
+          <bibl xml:id="d1e1000">Duviols, Pierre, 2003 <hi rend="italic">Procesos y visitas de idolatrías. Cajatambo, siglo <hi rendition="#T10">xvii</hi>
+            </hi>. Lima, Pontificia universidad
+          católica del Perú – Instituto francés de estudios andinos.</bibl>
+          <bibl xml:id="d1e1008">Espinoza Cornezo, Juan Eduardo, 2011 « El
+          tunel Inca, el puente Pachachaca y el oraculo : una aproximacion a
+          su estudio », <hi rend="italic">Inka Llaqta</hi> 2 (2) :
+          85-98.</bibl>
+          <bibl xml:id="d1e1015">Farrington, Ian, 1992 « Ritual Geography,
+          Settlement Patterns and the Characterization of the Provinces of the
+          Inka Heartland », <hi rend="italic">World Archaeology</hi> 23 :
+          368-385.</bibl>
+          <bibl xml:id="d1e1021">Flores Ochoa, Javier, ed., 1977 <hi rend="italic">Pastores de puna. Uywamichiq punarunakuna</hi>. Lima,
+          Instituto de estudios peruanos.</bibl>
+          <bibl xml:id="d1e1027">Garcilaso de la Vega, Inca, 1976 [1609] <hi rend="italic">Comentarios reales de los Incas</hi>. Caracas,
+          Biblioteca Ayacucho.</bibl>
+          <bibl xml:id="d1e1033">Gartner, William, 1998 « Mapmaking in the
+          Central Andes », in David Woodward &amp; G. Malcolm Lewis, eds, <hi rend="italic">The History of Cartography</hi>. Chicago, University
+          of Chicago Press : 257-300.</bibl>
+          <bibl xml:id="d1e1039">Gose, Peter, 1996 « Oracles, Divine Kingship,
+          and Political Representation in the Inka State », <hi rend="italic">Ethnohistory</hi> 43 : 1-32.</bibl>
+          <bibl xml:id="d1e1045">Guaman Poma de Ayala, Felipe, 1615 <hi rend="italic">El Primer Nueva Crónica y buen gobierno</hi>.
+          Copenhagen, Biblioteca Real de Dinamarca.</bibl>
+          <bibl xml:id="d1e1052">Guillaud, Dominique, 2008 « Le mythe comme
+          fondement des territoires et de l’ordre social dans les îles de
+          l’ouest de Sumatra (Indonésie) : un essai inspiré par l’approche
+          géosymbolique de J. Bonnemaison », <hi rend="italic">EchoGéo</hi> 5
+          [<ref target="http://echogeo.revues.org/5313">http://echogeo.revues.org/5313</ref>].</bibl>
+          <bibl xml:id="d1e1061">Harris, Olivia, 1997 « Los Limites como
+          problema : Mapas etnohistóricos de los Andes Bolivianos », in
+          Thérèse Bouysse-Cassagne, ed., <hi rend="italic">Saberes y Memorias
+          en los Andes. In memoriam T. Saignes</hi>. Lima, Instituto francés
+          de estudios andinos/Paris, Institut des hautes études de l’Amérique
+          latine : 351-374.</bibl>
+          <bibl xml:id="d1e1067">Heffernan, Kenneth, 1996a <hi rend="italic">Limatambo. Archeology, History and the Regional
+          Societies of Inca Cusco</hi>. Oxford, British Archaeological Reports
+          (« <hi rendition="#T10">Bar</hi> » 644).</bibl>
+          <bibl xml:id="d1e1076">Heffernan, Kenneth, 1996b « The Mitimaes of
+          Tilka and the Inka Incorporation of Chinchaysusyu », <hi rend="italic">Tawantinsuyu</hi> 2 : 23-36.</bibl>
+          <bibl xml:id="d1e1082">Hemming, John &amp; Edward Ranney, 2010
+          [1982] <hi rend="italic">Monuments of the Incas</hi>. New York,
+          Thames &amp; Hudson.</bibl>
+          <bibl xml:id="d1e1088">Holguin, Diego Gonzales, 1989 [1608] <hi rend="italic">Vocabulario de la lengua general en todo el Peru
+          llamada lengua Quechua o del Inca</hi>. Lima, Universidad nacionala
+          mayor de San Marcos.</bibl>
+          <bibl xml:id="d1e1095">Hyslop, John, 1992 <hi rend="italic">Qhapaqñan. El sistema vial inkaico</hi>. Lima,
+          Instituto andino de estudios arqueológicos – Petróleos del
+          Perú.</bibl>
+          <bibl xml:id="d1e1101">Itier, César, 1997 <hi rend="italic">Parlons
+          quechua : la langue du Cuzco</hi>. Paris, L’Harmattan.</bibl>
+          <bibl xml:id="d1e1107">Lecoq, Patrice, 1987 « Caravanes de lamas,
+          sels et échanges dans une communauté de Potosi en Bolivie », <hi rend="italic">Bulletin de l’Institut français d’études andines</hi>
+          16 : 1-38.</bibl>
+          <bibl xml:id="d1e1113">Lecoq, Patrice, 2010 « Les terrasses aux
+          mosaïques du site inca de Choqek’iraw, au Pérou : description
+          générale et quelques éléments préliminaires d’interprétations », <hi rend="italic">Journal de la Société des américanistes</hi> 96 :
+          7-73.</bibl>
+          <bibl xml:id="d1e1119">Lecoq, Patrice &amp; Thibault Saintenoy, 2013
+          « The Ceremonial Platform Called Ushnu at Choqek’iraw », in Frank
+          Meddens <hi rend="italic">et al.</hi>, eds, <hi rend="italic">Inca
+          Sacred Space. Landscape, Site and Symbols in the Andes</hi>. London,
+          Archetype Press [à paraître].</bibl>
+          <bibl xml:id="d1e1128">Maby, Jacques, 2005 « Analyse spatiale et
+          modélisation paysagère : problèmes de compatibilité épistémologique
+          et méthodologique », in <hi rend="italic">Actes du SAGEO’05</hi>.
+          Avignon, Université d’Avignon [<hi rendition="#T10">cd</hi>-<hi rendition="#T10">r</hi>om].</bibl>
+          <bibl xml:id="d1e1141">MacCormack, Sabine, 2001 « Cuzco, Another
+          Rome ? », in Susan E. Alcock <hi rend="italic">et al.</hi>, eds, <hi rend="italic">Empires. Perspectives from Archaeology and
+          History</hi>. Cambridge, Cambridge University Press :
+          419-435.</bibl>
+          <bibl xml:id="d1e1150">Markham, Clements, 2001 [1856] <hi rend="italic">Cuzco y Lima.</hi> Lima, Petróleos del Perú.</bibl>
+          <bibl xml:id="d1e1156">Molina, Cristóbal de, 1947 [1573] <hi rend="italic">Ritos y fabulas de los Incas</hi>. Buenos Aires,
+          Editorial futuro.</bibl>
+          <bibl xml:id="d1e1162">Molinié, Antoinette, 2003 « La
+          transfiguración eucarística de un glaciar : una construcción andina
+          del corpus christi », in Antoinette Molinié, ed., <hi rend="italic">Etnografias de Cuzco</hi>. Lima, <hi rendition="#T10">Labethno</hi>, Instituto francés de estudios
+          andinos/Cuzco, Centro de estudios regionales andinos Bartolomé de
+          Las Casas : 69-87.</bibl>
+          <bibl xml:id="d1e1171">Molinié Fioravanti, Antoinette, 1986-1987
+          « El simbolismo de frontera en los Andes », <hi rend="italic">Revista del museo nacional</hi> 48 : 251-287.</bibl>
+          <bibl xml:id="d1e1177">Nuñez del Prado, Juan Victor, 1970 « El mundo
+          sobrenatural de los quechuas del Sur del Perú, a través de la
+          comunidad de Qotobamba », <hi rend="italic">Allpanchis
+          Phuturinqa</hi> 2 : 57-120.</bibl>
+          <bibl xml:id="d1e1184">Nuñez del Prado, Juan Victor, 1983 « La
+          iglesia andina actual », <hi rend="italic">Historia y Cultura</hi>
+          16 : 147-160.</bibl>
+          <bibl xml:id="d1e1190">Ocampo Conejeros, Baltasar de, 1906
+          « Descripción y sucesos históricos de la provincia de Vilcabamba »,
+          in Victor Maurtua, ed., <hi rend="italic">Juicios de limites entre
+          el Perú y Bolivia. Prueba peruana presentada al Gobierno de la
+          Republica Argentina</hi>, 7<hi rend="italic">. Vilcabamba</hi>.
+          Barcelona, Imprenta de Henrich y Compañía : 306-344.</bibl>
+          <bibl xml:id="d1e1199">Paternosto, César, 1996 <hi rend="italic">The
+          Stone and the Thread. Andean Roots of Abstract Art</hi>. Austin,
+          University of Texas Press.</bibl>
+          <bibl xml:id="d1e1205">Pino Matos, José Luis, 2010 « Yllapa usno :
+          rituales de libación, culto a ancestros y la idea del ushnu en los
+          Andes según los documentos coloniales de los siglos <hi rendition="#T10">xvi</hi>-<hi rendition="#T10">xvii</hi> », <hi rend="italic">Arqueologia y Sociedad</hi> 21 : 77-108.</bibl>
+          <bibl xml:id="d1e1217">Pizarro, Pedro, 1978 [1571] <hi rend="italic">Relación del descubrimiento y conquista del Perú</hi>.
+          Lima, Pontificia universidad católica del Perú.</bibl>
+          <bibl xml:id="d1e1223">Raffestin, Claude, 1989 « Théorie du réel et
+          géographicité », <hi rend="italic">EspacesTemps</hi> 40-41 :
+          26-31.</bibl>
+          <bibl xml:id="d1e1230">Raimondi, Antonio, 1874 <hi rend="italic">El
+          Perú</hi>. Lima, Imprenta del Estado. 4 vol.</bibl>
+          <bibl xml:id="d1e1236">Ricard Lanata, Xavier, 2007 <hi rend="italic">Ladrones de sombra. El universo religioso de los
+          pastores del Ausangate (Andes peruanos)</hi>. Lima, Instituto
+          francés de estudios andinos /Cuzco, Centro Bartolomé de Las
+          Casas.</bibl>
+          <bibl xml:id="d1e1242">Riva-Agüero y Osma, José de la, 1964 « Paso
+          del río Apurímac », Cultura y pueblo 2 : 7-9.</bibl>
+          <bibl xml:id="d1e1245">Rostworowski de Diez Canseco, María, 2008
+          « Peregrinaciones y procesiones rituales en los Andes », in Marco
+          Curatola Petrocchi &amp; Mariusz S. Ziólkowski, eds, <hi rend="italic">Adivinacion y óraculos en el mundo andino
+          antiguo…</hi> : 181-204.</bibl>
+          <bibl xml:id="d1e1251">Saintenoy, Thibault, 2008 « Choqek’iraw y el
+          valle del Apurímac : hábitat y paisajes prehispanicos tardíos. Una
+          investigación en curso », <hi rend="italic">Bulletin de l’Institut
+          français d’études andines</hi> 37 : 553-561.</bibl>
+          <bibl xml:id="d1e1257">Saintenoy, Thibault, 2011 <hi rend="italic">Choqek’iraw et la vallée de l’Apurimac. Paysages et
+          sociétés préhispaniques tardives</hi>. Paris, Université Paris
+          1-Panthéon Sorbonne, thèse de doctorat.</bibl>
+          <bibl xml:id="d1e1264">Sallnow, Michael J., 1987 <hi rend="italic">Pilgrims of the Andes. Regional Cults in Cusco</hi>.
+          Washington, Smithsonian Institution Press.</bibl>
+          <bibl xml:id="d1e1270">Sallnow, Michael J., 1991 « Pilgrimage and
+          Cultural Fracture in the Andes », in John Eade &amp; Michael J.
+          Sallnow, eds, <hi rend="italic">Contesting the Sacred. The
+          Anthropology of Pilgrimage</hi>. London-New York, Routledge :
+          137-153.</bibl>
+          <bibl xml:id="d1e1276">Santa Cruz Pachacuti Yamqui Salcamayhua, Juan
+          de, 1993 <hi rend="italic">Relación de antigüedades deste reyno del
+          Pirú.</hi> Éd. par Pierre Duviols &amp; César Itier. Lima, Instituto
+          francés de estudios andinos/Cusco, Centro de estudios regionales
+          andinos Bartolomé de Las Casas.</bibl>
+          <bibl xml:id="d1e1282">Santillan, Hernando de, 1968 [1563] <hi rend="italic">Relación del origen, descendencia, política y gobierno
+          de los Incas</hi>. Madrid, Atlas (« Biblioteca de Autores
+          Españoles » 209) : 97-149.</bibl>
+          <bibl xml:id="d1e1288">Santo Tomás, Fray Domingo de, 1951 [1560] <hi rend="italic">Lexicon o vocabulario de la lengua general del peru,
+          compuesto por el maestro Fray Domingo de Santo Tomás</hi>. Edicion
+          facsimilar publicada, con un prologo, por Raul Porras Barrenechea.
+          Lima, Universidad nacional mayor de San Marcos, Publicaciones del
+          cuarto centenario.</bibl>
+          <bibl xml:id="d1e1294">Squier, Ephraïm George, 1974 [1877] <hi rend="italic">Un viaje por tierras incaicas. Crónica de una
+          expedición arqueológica (1863-1865)</hi>. Edición auspiciada por la
+          Universidad nacional mayor de San Marcos, con la colaboración de la
+          Embajada de los Estados unidos de América, para conmemorar el
+          Sesquicentenario de la Independencia del Perú. Lima.</bibl>
+          <bibl xml:id="d1e1301">Staller, John E., ed., 2008 <hi rend="italic">Pre-Columbian Landscapes of Creation and Origin</hi>.
+          New York, Springer.</bibl>
+          <bibl xml:id="d1e1307">Stanish, Charles &amp; Brian S. Bauer, 2007
+          « Pilgrimage and the Geography of Power in the Inka Empire », in
+          Richard L. Burger, Craig Morris &amp; Ramiro Matos Mendetias, eds,
+          <hi rend="italic">Variations in the Expression of Inka Power</hi>.
+          <hi rend="italic">A Symposium at Dumbarton Oaks, 18-19 October
+          1997</hi>. Washington, Dumbarton Oaks Research Library and
+          Collection/Cambridge, Harvard University Press : 45-84.</bibl>
+          <bibl xml:id="d1e1316">Taylor, Gerald, ed., 1980 <hi rend="italic">Rites et traditions de Huarochirí</hi>. <hi rend="italic">Manuscrit quechua du début du <hi rendition="#T10">xvii</hi>
+              <hi rend="sup">e</hi> siècle</hi>. Paris,
+          L’Harmattan (« Série ethnolinguistique amérindienne »).</bibl>
+          <bibl xml:id="d1e1330">Thomas, Julian, 2008 « Archaeology, Landscape
+          and Dwelling », in Bruno David &amp; Julian Thomas, eds, <hi rend="italic">Handbook of Landscape Archaeology…</hi> :
+          300-306.</bibl>
+          <bibl xml:id="d1e1336">Tilley, Christopher, 1996 « The Powers of
+          Rocks : Topography and Monument Construction on Bodmin Moor », <hi rend="italic">World Archaeology</hi> 28 : 161-176.</bibl>
+          <bibl xml:id="d1e1342">Tilley, Christopher, 2008 « Phenomenological
+          Approaches to Landscape Archaeology », in Bruno David &amp; Julian
+          Thomas, eds, <hi rend="italic">Handbook of Landscape
+          Archaeology…</hi> : 271-276.</bibl>
+          <bibl xml:id="d1e1349">Tomoeda, Hirosayu, 1985 « The llama is my
+          Chacra : Metaphor of Andean Pastoralists », in Shozo Masuda, Izumi
+          Shimada &amp; Craig Morris, eds, <hi rend="italic">Andean Ecology
+          and Civilization. An Interdisciplinary Perspective on Andean
+          Ecological complementarity</hi>. Tokyo, University of Tokyo :
+          277-300.</bibl>
+          <bibl xml:id="d1e1355">Vaca de Castro, Cristóbal, 1989 [1543]
+          « Ordenanza de Tambos, distancias de unos a otros, modo de cargar a
+          los indios y obligaciones de las justicias respectivas. Hecho en la
+          ciudad del Cusco el 31 de mayo de 1543 », <hi rend="italic">Boletín
+          de la Sociedad Geográfica de Lima</hi> 104 : 221-233.</bibl>
+          <bibl xml:id="d1e1361">Van de Guchte, Maarten J. D., 1990 <hi rend="italic">Carving the World. Inca Monumental Sculpture and
+          Landscape</hi>.</bibl>
+          <bibl xml:id="d1e1367">Ann Arbor, University of Illinois at
+          Urbana-Champaign, PhD.</bibl>
+          <bibl xml:id="d1e1370">Wagner, José S., 1937 « Habla de los
+          intihuatanas », <hi rend="italic">Revista del Museo nacional</hi> 6
+          (2) : 233-244.</bibl>
+          <bibl xml:id="d1e1376">Wiener, Charles, 1993 [1880] <hi rend="italic">Perú y Bolivia. Relato de viaje seguido de estudios
+          arqueológicos y etnográficos y de notas sobre la escritura y los
+          idiomas de las poblaciones indígenas</hi>. Lima, Instituto francés
+          de estudios andinos – Universidad nacional mayor de San
+          Marcos.</bibl>
+          <bibl xml:id="d1e1383">Zuidema, Tom, 1979 « El Puente del rió
+          Apurimac y el origen mítico de la Villca », in Roswith Hartmann
+          &amp; Udo Oberem, eds, <hi rend="italic">Estudios
+          americanistas</hi>, 1<hi rend="italic">. Homenaje a H.
+          Trimborn</hi>. Sankt Augustin : 322-334.</bibl>
+          <bibl xml:id="d1e1392">Zuidema, Tom, 1989 [1980] « El ushnu », in
+          Manuel Burga, ed., <hi rend="italic">Reyes y guerreros. Ensayos de
+          cultura andina</hi>. Lima, <hi rendition="#T10">Fomenciencias</hi> :
+          402-454.</bibl>
+          <bibl xml:id="d1e1401">Zuidema, Tom, 2010 <hi rend="italic">El
+          Calendario inca. Tiempo y espacio en la organizacion ritual del
+          Cuzco. La idea del pasado</hi>. Lima, Fondo editorial del Congreso
+          del Perú/San Miguel, Fondo editorial de la pontificia universidat
+          catolica del Perú.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

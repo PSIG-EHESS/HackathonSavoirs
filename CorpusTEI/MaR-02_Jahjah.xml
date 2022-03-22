@@ -1,0 +1,1537 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="MaR-02_Jahjah">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Annoter, extraire, exploiter… vers une pratique
+        imaginale du savoir</title>
+        <author role="aut">
+          <forename>Marc</forename>
+          <surname>Jahjah</surname>
+          <affiliation>Maître de conférences en Sciences de l’Information et
+          de la Communication (Université de Nantes, laboratoire
+          LAMO)</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when=""/> dans le
+        cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/RS35HFTE" type="conferencePaper" xml:lang="">
+          <analytic>
+            <title level="a">Annoter, extraire, exploiter… vers une pratique
+            imaginale du savoir</title>
+            <author>
+              <forename>Marc</forename>
+              <surname>Jahjah</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title type="conferenceName">Matières à raisonner</title>
+            <imprint>
+              <pubPlace>Genève</pubPlace>
+              <date/>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>culture numérique</item>
+            <item>savoirs</item>
+            <item>extractivisme</item>
+            <item>agentivité</item>
+            <item>monde imaginal</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>digital culture</item>
+            <item>knowledge</item>
+            <item>extractivism</item>
+            <item>agentivity</item>
+            <item>imaginal world</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1950">1950</date>
+          </term>
+          <term>
+            <date from="1200" to="1999" type="_temp">
+              <hi rend="small-caps">xiii</hi>
+              <hi rend="sup">e</hi> siècle au <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          </term>
+          <term>
+            <date from="2019-08-01" to="2019-08-31" type="_temp">août 2019</date>
+          </term>
+          <term>
+            <date from="2015-11-01" to="2015-12-31" type="_temp">novembre-décembre 2015</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2021-12-20T10:13:00" who="Céline Barthonnat">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Annoter, extraire, exploiter… vers une
+          pratique imaginale du savoir</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Marc Jahjah</docAuthor>
+          <affiliation>Maître de conférences en Sciences de l’Information et
+          de la Communication (Université de Nantes, laboratoire
+          LAMO)</affiliation>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">À partir d’un ouvrage d’<persName ref="066876982" type="idref" xml:base="https://www.idref.fr/">Ivan Illich</persName>,
+        qui étudie le passage de la lecture monastique à la lecture
+        scolastique au <date from="1100" to="1199" type="_temp">
+            <hi rend="small-caps">xii</hi>
+            <hi rend="sup">e</hi> siècle</date>, je
+        propose d’enquêter sur le régime contemporain des savoirs, marqué par
+        l’exploitation des textes, l’instrumentalisation de la connaissance.
+        De plus en plus inscrit dans un régime libéral, managérial et
+        capitaliste, qui lui demande de produire toujours plus, le monde des
+        professionnels du savoir ne s’oppose pas tant à l’industrie : il la
+        sous-tend ; il est l’une des manifestations des politiques
+        extractivistes. Sans établir un lien de cause à effet déterministe,
+        j’y vois cependant une « résonance constitutive » amorcée avec la
+        scolastique, qui culmine avec l’informatique et les outils
+        productivistes qu’elle met à notre disposition. Avec elle, les textes
+        deviennent des mines dans lesquelles puiser ; elle rejoint en cela les
+        ontologies libérales qui transforment tout en ressources à exploiter.
+        Pour le montrer, j’analyse avec la <hi rend="italic">sémiotique des
+        écrans</hi> un logiciel d’annotation (LiquidText), salué pour son
+        caractère novateur, qui est en fait un avatar contemporain de la
+        rationalisation scolastique quand il est associé à un fonctionnement
+        libéral de la recherche universitaire. Enfin, je rends compte de mon
+        expérience corporelle de ce dispositif en montrant comment il
+        participe d’un accès problématique – hégémonique – du savoir, avant de
+        plaider pour une pratique <hi rend="italic">imaginale</hi>, agentive
+        et sensible.</p>
+        <p xml:lang="eng">Based on a work by Ivan Illich, who studies the
+        transition from monastic to scholastic reading in the 12th century, I
+        propose to investigate modestly the contemporary regime of knowledge,
+        marked by the exploitation of texts and their instrumentalisation.
+        Increasingly inscribed in a liberal, managerial and capitalist regime,
+        the world of knowledge professionals is not so much opposed to
+        industry, as one might think; it underlies it; it is one of the
+        manifestations of extractivist policies. Without establishing a
+        deterministic link between them, I do see a ‘constitutive resonance’
+        that began with scholastic and culminates in computer science and the
+        productivist tools it places at our disposal. With it, texts become
+        mines from which to draw; in this it joins the liberal ontologies that
+        transform everything into resources to be exploited. To show this, I
+        analyse an annotation software (LiquidText), hailed for its innovative
+        character, which is in fact a contemporary avatar of scholastic
+        rationalization when associated with a liberal functioning of
+        university research. Finally, I give an account of my bodily
+        experience of this device by showing how it participates in a
+        problematic—hegemonic—access to knowledge, before arguing for an
+        ‘imaginal‘, agentive and sensitive practice.</p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <div type="chapitre" xml:id="mainDiv">
+          <p xml:id="d1e97">Repérer, surligner, écrire, découper, extraire,
+          coller… les pratiques savantes sont marquées par des micro-activités
+          inscrites dans des écologies documentaires, sociales, matérielles,
+          indexées sur des régimes du savoir. On doit sans doute au <date from="1100" to="1199" type="_temp">
+              <hi rend="small-caps">xii</hi>
+              <hi rend="sup">e</hi> siècle</date> non pas l’invention<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>Ces pratiques sont en effet connues depuis l’antiquité. Voir,
+              entre autres : <hi rend="small-caps">Maehler</hi>, 1999 ; <hi rend="small-caps">Jacob</hi>, 2001 ; <hi rend="small-caps">McNamee</hi>, 2007 ; <hi rend="small-caps">Dickey</hi>, 2007.</p>
+            </note>, mais l’intensification de ce modèle, grâce aux
+          modifications de la page et à la naissance des premières
+          universités, comme l’a montré <persName ref="066876982" type="idref" xml:base="https://www.idref.fr/">Ivan Illich</persName> dans un
+          livre magistral qui servira de guide tout au long de cet
+          article<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>
+                <hi rend="small-caps">Illich</hi>, 1991.</p>
+            </note>. Les modalités d’accès au savoir se métamorphosent alors,
+          passant d’un rapport charnel au corps de la page à une conception
+          utilitaire, instrumentale, propre à la « raison scolastique », « qui
+          veut tout connaître, tout comprendre, tout expliquer, tout
+          dire »<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>
+                <hi rend="small-caps">Boureau</hi>, 2007, p. 14.</p>
+            </note>. Tout au long du <date from="1200" to="1299" type="_temp">
+              <hi rend="small-caps">xiii</hi>
+              <hi rend="sup">e</hi> siècle</date>, les textes deviennent
+          progressivement des mines dans lesquelles puiser pour satisfaire les
+          exigences d’un travail, d’un parcours intellectuel, grâce à la
+          naissance ou au perfectionnement de technologies intellectuelles
+          (rubrication, index, etc.).</p>
+          <p xml:id="d1e140">Nous avons largement hérité de cette conception
+          appareillée du savoir, à travers des transmissions et des médiations
+          complexes ; il ne m’appartient pas ici de les retracer. J’aimerais
+          cependant donner une place à un constat : la pérennité et
+          l’hégémonie de cette conception, non seulement dans mes pratiques,
+          mais dans toutes celles de mes collègues universitaires<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Voir à ce sujet l’état de l’art que j’avais réalisé pour la
+              Bibliothèque nationale de France (BNF) portant sur les pratiques
+              matérielles du savoir (<hi rend="small-caps">Jahjah</hi>,
+              2017b).</p>
+            </note>, de plus en plus indexées sur un management néolibéral de
+          la recherche, qui nous impose un rapport productif au savoir. Or, la
+          plupart des outils qui nous sont aujourd’hui proposés appareillent
+          cette vision hégémonique. Depuis les <date from="1990" to="1999" type="_temp">années 1990</date>, des dizaines de logiciels
+          d’annotation ont ainsi été conçues sur le même modèle de
+          l’extraction, du découpage, de l’exploitation de la circulation.
+          Parmi ces modèles figurent les dispositifs dits « sociaux » (Amazon
+          Kindle, Kobo, etc.), qui ont inscrit la lecture et les lecteurs dans
+          un régime industriel : leurs écrits, surlignements, annotations,
+          sont encouragés, encadrés, exploités d’un point de vue marketing et
+          éditorial<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>
+                <hi rend="small-caps">Jahjah</hi>, 2014.</p>
+            </note>. Certes, ils diffèrent de tous les artefacts produits par
+          les milieux universitaires, mais les relations entre ces deux mondes
+          sociaux sont loin d’être étanches ; la rhétorique des uns semble
+          parfois alimenter celle des autres<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>C’est par exemple le cas du dispositif Hypothes.is qui
+              emprunte parfois au vocabulaire des start-up. Voir mon étude :
+              <hi rend="small-caps">Jahjah</hi>, 2017a.</p>
+            </note>. Il n’y a donc pas lieu de les opposer
+          caricaturalement.</p>
+          <p xml:id="d1e163">Dans cet article, j’aimerais travailler une
+          intuition ou une hypothèse de travail, formulée ailleurs<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>
+                <hi rend="small-caps">Jahjah</hi>, 2020.</p>
+            </note> : à leur manière, les technologies inventées par la
+          scolastique participent à « l’âge des systèmes » décrit par Illich,
+          du capitalisme moderne et du néomanagement du savoir. Il n’y a, pour
+          s’en convaincre, qu’à penser au système d’indexation de Google, aux
+          formes visuelles qu’il impose aujourd’hui à des milliards de pages
+          et au rôle de foreur alors dévolu à l’usager.</p>
+          <p xml:id="d1e172">Restons cependant prudents : il y a peut-être des
+          <hi rend="italic">résonances</hi>
+            <note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Cette notion a été proposée par les anthropologues pour
+              penser l’élaboration d’un devenir commun entre sujets, objets,
+              matières, relations qui s’intersectionnent à mesure qu’ils
+              circulent dans l’espace social. Voir <hi rend="small-caps">Meiu</hi>, 2020.</p>
+            </note> historiques et synchroniques, mais pas de liens de cause à
+          effet, difficiles à prouver, à moins de mener une enquête
+          archéologique hors de ma portée. J’aimerais, de manière plus
+          modeste, mais ambitieuse, montrer combien cette résonance est
+          présente, dans de microgestes, de microsignes, dans les dispositifs
+          informatiques que nous mobilisons au quotidien. J’aimerais aller
+          jusqu’à me demander s’il n’existe pas une résonance entre les
+          pratiques d’extraction scolastique et les politiques extractivistes
+          que dénoncent aujourd’hui des mouvements d’Amérique latine<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>
+                <hi rend="small-caps">Gómez-Barris</hi>, 2017.</p>
+            </note>. Encore une fois, je n’y vois pas de relation causale : je
+          souhaite néanmoins montrer que les pratiques scolastiques
+          s’inscrivent aussi dans une modalité hégémonique d’accès
+          au monde.</p>
+          <p xml:id="d1e190">Pour poser cette critique, je travaillerai à
+          partir d’un logiciel d’annotation (LiquidText) que la rhétorique
+          habituelle du web a qualifié de « révolutionnaire » lors de son
+          lancement en <date type="_temp" when="2015">2015</date>. Comme tous
+          ses concurrents conçus depuis les <date from="1990" to="1999" type="_temp">années 1990</date>, il permet certes d’annoter un
+          texte, de le surligner, d’intégrer des commentaires, mais, bien
+          plus, de le découper, d’en déplacer les unités fragmentées dans un
+          espace dédié, où il peut être de nouveau recomposé, recontextualisé,
+          réélaboré, tout en étant techniquement et sémantiquement lié au
+          texte d’origine. En cela, il s’inscrit manifestement dans une
+          « révolution scribale » (<hi rend="italic">sic</hi>) qui, dès le
+          <date from="1100" to="1199" type="_temp">
+              <hi rend="small-caps">xii</hi>
+              <hi rend="sup">e </hi>siècle</date>, a
+          fait du texte un silo, une mine dans laquelle puiser pour extraire
+          des informations (Illich, 1991).</p>
+          <p xml:id="d1e200">Ce logiciel me semble particulièrement indiqué
+          pour travailler mon hypothèse et identifier les liens, plus étroits
+          qu’on ne le croit, entre les technologies scolastiques, les
+          politiques extractivistes, la capitalisation des savoirs et leur
+          industrialisation technique. Pour le montrer, je présenterai d’abord
+          la thèse historique d’Ivan Illich, dont on trouve des résonances
+          jusque dans des artefacts contemporains. Je mènerai ensuite une
+          analyse dite « sémiotechnique » de LiquidText, en mettant notamment
+          au jour ses mythologies, nichées dans de petits gestes, de petites
+          formes et de petits signes. Enfin, je proposerai quelques éléments
+          de restitution de mon expérience du dispositif, seule à même de
+          montrer comment le pouvoir circule, s’ajuste, passe en nous, en
+          s’insérant dans nos rythmes temporels, matériels, sociaux, avant de
+          formuler des propositions qui nous permettront de diversifier nos
+          topologies mentales. Dans ce cadre, j’évoquerai la notion de « monde
+          imaginal » forgé par <persName type="idref" xml:base="https://www.idref.fr/">Henry Corbin</persName>,
+          spécialiste de philosophie islamique, qui désigne une zone entre le
+          sensible et l’intellectuel, dans laquelle peut être expérimentée une
+          nouvelle manière de sentir, percevoir, vivre, expérimenter
+          le savoir.</p>
+          <div type="section1" xml:id="d1e202">
+            <head subtype="level1" xml:id="d1e203">Le « texte livresque » :
+            une technologie scolastique et un système technique</head>
+            <p xml:id="d1e205">La thèse d’<persName ref="066876982" type="idref" xml:base="https://www.idref.fr/">Illich</persName>
+            s’inscrit dans un ensemble de travaux historiques, qui ont cherché
+            à préciser les apports réels de l’invention de <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName>. Selon lui,
+            la véritable « révolution » du monde du livre n’a pas eu lieu au
+            <date from="1400" to="1499" type="_temp">
+                <hi rend="small-caps">xv</hi>
+                <hi rend="sup">e</hi> siècle</date>, mais
+            beaucoup plus tôt, dans le passage de la lecture monastique à la
+            lecture scolastique, avec une invention inédite : le « texte
+            livresque ».</p>
+            <p xml:id="d1e212">Pour travailler cette notion, <persName ref="066876982" type="idref" xml:base="https://www.idref.fr/">Illich</persName> s’appuie sur
+            l’art de lire d’<persName ref="028685954" type="idref" xml:base="https://www.idref.fr/">Hugues de Saint-Victor</persName>
+            (1096-1141), une figure intellectuelle du Moyen Âge central, en
+            adoptant une démarche anthropologique, matérielle et
+            phénoménologique. À la charnière des mondes monastique et
+            scolastique, l’œuvre d’<persName ref="028685954" type="idref" xml:base="https://www.idref.fr/">Hugues de Saint-Victor</persName>
+            commentée par <persName ref="066876982" type="idref" xml:base="https://www.idref.fr/">Ivan Illich</persName>,
+            permettrait d’identifier une transformation importante dans notre
+            rapport au savoir. L’avènement de la lecture scolastique,
+            encouragée par le développement de technologies éditoriales
+            (index, table des matières, etc.) au <date from="1140" to="1160" type="_temp">milieu du <hi rend="small-caps">xii</hi>
+                <hi rend="sup">e</hi> siècle</date>, aurait en effet entraîné la perte
+            d’un contact charnel, viscéral, avec le corps de la page. À
+            l’inverse, <persName ref="028685954" type="idref" xml:base="https://www.idref.fr/">Hugues de Saint-Victor</persName>
+            la percevait bien différemment :</p>
+            <quote rend="quotation" xml:id="d1e219">[R]egarder un livre était
+            comparable à l’expérience que l’on peut revivre, de bon matin,
+            dans les églises gothiques qui ont conservé leurs vitraux
+            originaux. Quand le soleil se lève, il fait vibrer les couleurs de
+            ces vitraux qui, avant l’aube, ne semblaient qu’un obscur
+            remplissage des arcs de pierre<note n="10" place="foot" type="standard" xml:id="ftn10">
+                <p>
+                  <hi rend="small-caps">Illich</hi>, 1991<hi rend="italic">,</hi> p. 26-27.</p>
+              </note>.</quote>
+            <p xml:id="d1e231">Cette perception était informée par une
+            conception religieuse de la matérialité, à laquelle le livre
+            participait : dès l’incipit, il s’agissait de s’arracher des
+            ténèbres en se mettant au contact d’une source lumineuse puis de
+            cheminer dans le dédale des enluminures qui s’embrasaient au
+            contact de la bougie. Plus cette source était jugée lumineuse
+            (les Écritures), plus elle était susceptible de maximiser la
+            rédemption de l’individu. Le but était d’aider le lecteur à
+            trouver sa place dans l’ordre de la création dont le livre n’était
+            finalement qu’une réplique.</p>
+            <p xml:id="d1e233">La recherche de cette place était tributaire de
+            la mémorisation<note n="11" place="foot" type="standard" xml:id="ftn11">
+                <p>Sur ces questions, le livre classique de <hi rend="small-caps">Carruthers</hi> (1993) fait autorité.</p>
+              </note> : comme les technologies de repérage n’existaient pas
+            encore, le lecteur devait identifier puis incorporer les lieux du
+            texte, avant de les synthétiser dans des architectures mentales
+            (une arche, un coffre) qui lui permettraient de s’unifier<note n="12" place="foot" type="standard" xml:id="ftn12">
+                <p>Jean-Louis Chrétien confirme bien cette interprétation :
+                « mettre en forme ses pensées dispersées et mobiles en tout
+                sens, c’est s’ordonner soi-même et se construire, prendre
+                forme et assise » (<hi rend="small-caps">Chrétien</hi>, 2014,
+                p. 196).</p>
+              </note>. En plus d’être une activité intellectuelle, la lecture
+            était d’abord une aventure spirituelle, qui pouvait
+            s’individualiser une fois maîtrisées certaines techniques.</p>
+            <p xml:id="d1e249">Ce modèle s’affaissa progressivement, à mesure
+            que la page monastique fit place à la page dite scolastique. Grâce
+            aux index, à la classification alphabétique, aux espaces entre les
+            mots, entre autres<note n="13" place="foot" type="standard" xml:id="ftn13">
+                <p>Ces inventions ont largement été étudiées (<hi rend="small-caps">Petrucci</hi>, 1995 ; <hi rend="small-caps">Rouse</hi> et <hi rend="small-caps">Rouse</hi>, 1989 ; <hi rend="small-caps">Weijers</hi>, 2010).</p>
+              </note>, le texte fut peu à peu perçu comme un silo, une mine,
+            comme un espace à survoler, sans avoir à en incorporer lentement
+            les articulations secrètes, énigmatiques :</p>
+            <quote rend="quotation" xml:id="d1e267">Alors que le haut Moyen
+            Âge ne connaissait que de modestes subdivisions du texte, reposant
+            moins sur des signes spécifiques que sur des ornements
+            (rehaussement des lettres initiales par la couleur, changements
+            d’écriture, décorations diverses), on passe à un véritable système
+            de techniques auxiliaires de la lecture et de la consultation du
+            livre, destinées à identifier rapidement le passage que l’on
+            recherche : rubrication, découpage en paragraphes, titres de
+            chapitre, séparation du texte et du commentaire, sommaires, tables
+            des concordances des termes, index et tables analytiques
+            alphabétiques<note n="14" place="foot" type="standard" xml:id="ftn14">
+                <p>
+                  <hi rend="small-caps">Cavallo</hi> et <hi rend="small-caps">Chartier</hi>, 2001, p. 28.</p>
+              </note>.</quote>
+            <p xml:id="d1e279">Selon <persName ref="066876982" type="idref" xml:base="https://www.idref.fr/">Illich</persName>, le texte se
+            déracine alors de la page : il devient un objet autonome et
+            abstrait qu’il nomme le « texte livresque ». Circule ainsi dans
+            l’espace social un fantôme matériel qui va durablement organiser
+            nos topologies mentales, d’autant que l’imprimerie en consacrera
+            l’existence en le reproduisant à une large échelle. Par
+            conséquent, il ne faut pas penser l’âge scolastique uniquement
+            comme une époque ou un milieu déterminés : c’est surtout une
+            modalité d’accès aux savoirs, qui s’est développée, a fini par se
+            généraliser au point d’être hégémonique.</p>
+            <p xml:id="d1e281">Ce passage signe en effet l’affaiblissement
+            d’une lecture lente, méditative et longue des sources. Si les
+            « communautés textuelles », selon l’expression célèbre de
+            <persName ref="028431006" type="idref" xml:base="https://www.idref.fr/">Brian Stock</persName>, existent
+            toujours et continuent bien évidemment de se développer avec la
+            scolastique<note n="15" place="foot" type="standard" xml:id="ftn15">
+                <p>
+                  <hi rend="small-caps">Boureau</hi>, 2007, p. 53-77.</p>
+              </note>, elles remplissent un nouveau cahier des charges :
+            favoriser l’acquisition de concepts et d’un corpus théologique.
+            Ainsi la lecture se professionnalise, alors qu’elle était
+            jusque-là thérapeutique, du moins au Moyen Âge central. En
+            témoigne le passage d’une métaphore (« les lumières de la foi ») à
+            une autre (« les lumières de la raison ») au <date from="1200" to="1299" type="_temp">
+                <hi rend="small-caps">xiii</hi>
+                <hi rend="sup">e</hi> siècle</date>
+              <note n="16" place="foot" type="standard" xml:id="ftn16">
+                <p>
+                  <hi rend="small-caps">Vallet</hi>
+                  <hi rend="italic">et
+                al.</hi>, 2013.</p>
+              </note>. Cette nouvelle lecture se systématise également, selon
+            Illich : la coordination des outils à disposition des lecteurs,
+            les pratiques des étudiants, la formalisation et l’intensification
+            des cours favorisent la germination de « l’âge des systèmes », un
+            âge productiviste, dont le penseur situe la ratification finale
+            autour de <date type="_temp" when="1950">1950</date>, avec le
+            développement des écrans, de l’informatique et de la
+            cybernétique<note n="17" place="foot" type="standard" xml:id="ftn17">
+                <p>J’ai articulé ici le texte d’Illich sur Hugues de
+                Saint-Victor à d’autres passages de ses œuvres, où il cite
+                explicitement le <hi rend="small-caps">xiii</hi>
+                  <hi rend="sup">e</hi> siècle comme frémissement de « l’âge des
+                systèmes ». On retrouve ces échos dans <hi rend="small-caps">Illich</hi>, 2004 et <hi rend="small-caps">Illich</hi> et <hi rend="small-caps">Cayley</hi>, 2007.</p>
+              </note>. Avec ces dernières, nous devenons à la fois usager et
+            partie d’un système dans des espaces visuels où le corps, l’œil et
+            les interactions sont configurés par des icônes. Ainsi, ce constat
+            amène <persName ref="066876982" type="idref" xml:base="https://www.idref.fr/">Illich</persName> à attirer notre
+            attention sur la nécessité d’étudier l’<hi rend="italic">éthique</hi> des outils, c’est-à-dire les forces
+            techniques par lesquelles notre vision, nos sens sont médiatisés,
+            transformés.</p>
+            <p xml:id="d1e326">Le constat d’<persName ref="066876982" type="idref" xml:base="https://www.idref.fr/">Illich</persName>
+            est sans doute exagéré, même s’il se livre à une archéologie
+            souvent minutieuse de l’anthropologie des techniques, des sens et
+            des institutions. En effet, si l’on reste fixé sur l’histoire des
+            pratiques textuelles, savantes, matérielles, il est difficile de
+            généraliser sa thèse. Du <date from="1200" to="1999" type="_temp">
+                <hi rend="small-caps">xiii</hi>
+                <hi rend="sup">e</hi> siècle au <hi rend="small-caps">xx</hi>
+                <hi rend="sup">e</hi> siècle</date>, ces pratiques demeurent
+            hétérogènes, complexes. Certes, dès le <date from="1200" to="1299" type="_temp">
+                <hi rend="small-caps">xiii</hi>
+                <hi rend="sup">e </hi>siècle</date>, les étudiants utilisent des
+            compilations, des florilèges, des index et des concordances qui
+            instrumentalisent bien le savoir<note n="18" place="foot" type="standard" xml:id="ftn18">
+                <p>
+                  <hi rend="small-caps">Letrouit</hi>, 1999.</p>
+              </note>. Mais « à côté des techniques universitaires qui ont eu
+            une influence fondamentale sur la pratique de la lecture, il faut
+            cependant signaler qu’il existait d’autres accès aux textes
+            pratiqués par des intellectuels cultivés, par des bibliophiles qui
+            avaient gardé l’amour des livres<note n="19" place="foot" type="standard" xml:id="ftn19">
+                <p>
+                  <hi rend="small-caps">Hamesse</hi>, 2001, p. 144.</p>
+              </note> ». De la même manière, l’humanisme naissant est marqué
+            par une intimité retrouvée avec les textes<note n="20" place="foot" type="standard" xml:id="ftn20">
+                <p>
+                  <hi rend="small-caps">Eden</hi>, 2012.</p>
+              </note>, dont on trouve des traces jusque chez les scribes
+            islandais<note n="21" place="foot" type="standard" xml:id="ftn21">
+                <p>
+                  <hi rend="small-caps">Schott</hi>, 2012.</p>
+              </note>. À l’inverse, si les humanistes du <date from="1500" to="1599" type="_temp">
+                <hi rend="small-caps">xvi</hi>
+                <hi rend="sup">e</hi> siècle</date> plaident bien en faveur d’un accès
+            renouvelé, personnel, singulier aux textes classiques, enfin
+            délestés de la matrice exégétique supposément envahissante du
+            texte médiéval, ils multiplient plus tard les traités techniques,
+            pour aider les lecteurs à capitaliser leur lecture<note n="22" place="foot" type="standard" xml:id="ftn22">
+                <p>
+                  <hi rend="small-caps">Châtelain</hi>, 1999.</p>
+              </note>. Ainsi, au <date from="1600" to="1699" type="_temp">
+                <hi rend="small-caps">xvii</hi>
+                <hi rend="sup">e</hi> siècle</date>,
+            alors que se perfectionnent les technologies de repérage,
+            l’annotation ne sert plus qu’à indexer l’information. Mais à la
+            même époque, dans d’autres milieux, la <hi rend="italic">devotia
+            moderna</hi> incite les lecteurs à développer une lecture
+            personnelle sans nécessairement passer par ces techniques<note n="23" place="foot" type="standard" xml:id="ftn23">
+                <p>
+                  <hi rend="small-caps">Roudaut</hi>, 2003.</p>
+              </note>. Pareillement, si les <date from="1100" to="1199" type="_temp">
+                <hi rend="small-caps">xvii</hi>
+                <hi rend="sup">e</hi>
+              </date>
+              <hi rend="sup"/>et le <date from="1200" to="1299" type="_temp">
+                <hi rend="small-caps">xviii</hi>
+                <hi rend="sup">e</hi> siècles</date> sont marqués par la
+            multiplication des livres de lieux communs<note n="24" place="foot" type="standard" xml:id="ftn24">
+                <p>
+                  <hi rend="small-caps">Rhodes</hi> et <hi rend="small-caps">Sawsay</hi>, 2002 ; <hi rend="small-caps">Allan</hi>, 2010.</p>
+              </note>, on y observe également une liberté dans les marges<note n="25" place="foot" type="standard" xml:id="ftn25">
+                <p>« Les lecteurs du <hi rend="small-caps">xviii</hi>
+                  <hi rend="sup">e</hi> siècle ne sont pas tous des Richardson.
+                Leurs annotations marginales se sont libérées des obligations
+                des lieux communs et utilisent les blancs de la composition
+                pour manifester leur réaction face au livre, se l’approprier
+                tant dans son existence matérielle d’objet acheté, offert,
+                reçu, dont les pérégrinations sont rappelées sur la page de
+                titre, que dans son texte lui-même, qui suscite émotions,
+                souvenirs, et désirs. » (<hi rend="small-caps">Chartier</hi>,
+                2013, p. 11)</p>
+              </note>. Les siècles suivants sont travaillés par la même
+            dialectique : à l’instrumentalisation des savoirs, liée à des
+            technologies de repérage, à des stratégies institutionnelles et
+            des pratiques plus ou moins codifiées, répondent la méditation des
+            textes, leur rumination, leur intensité. Il suffit de changer de
+            milieux, de formes livresques (album jeunesse, bande dessinée,
+            etc.), pour également changer de constat sur les médiations avec
+            lesquelles nous accédons aux textes.</p>
+            <p xml:id="d1e437">On peut même se demander si celui d’<persName ref="066876982" type="idref" xml:base="https://www.idref.fr/">Illich</persName> n’est pas
+            caractéristique d’une méfiance assez classique, pour ne pas dire
+            stéréotypée, sur l’émiettement des savoirs. Dans son <hi rend="italic">Histoire de la fiche érudite</hi>, <persName ref="117676934" type="idref" xml:base="https://www.idref.fr/">Jean-François Bert</persName>
+            montre ainsi que cette petite architecture a servi de points de
+            crispations entre les savants : les uns considérant qu’elle
+            favorisait l’accumulation vertigineuse, vaine, l’encyclopédisme,
+            au détriment de la critique et de la rhétorique ; les autres
+            estimant qu’elle traduisait au contraire un rapport renouvelé à
+            l’œuvre et au savoir, en expansion constante, plus limité par le
+            règne de la rhétorique, marqué par la célébration de l’extraction,
+            de « la transformation de matières premières, un lieu de
+            production industrielle, un atelier, une usine, une raffinerie »,
+            comme l’écrit <persName ref="026932563" type="idref" xml:base="https://www.idref.fr/">Christian Jacob</persName> dans
+            sa belle préface au livre de <persName ref="117676934" type="idref" xml:base="https://www.idref.fr/">Bert</persName>. De
+            manière saisissante, on retrouve ici, quelques siècles plus tard,
+            la conception que se faisaient les scolastiques du texte, pensé
+            comme un silo.</p>
+            <p xml:id="d1e442">Le constat d’<persName ref="066876982" type="idref" xml:base="https://www.idref.fr/">Illich</persName>
+            mérite cependant d’être entendu. En effet, ce n’est pas tant
+            l’existence de ces techniques qui l’inquiétait que leur hégémonie,
+            articulée au « texte livresque ». Car les modèles extensifs ou
+            intensifs du savoir ne sont que les deux faces de cette même
+            pièce : que l’on se prononce en faveur de l’expansion ou qu’on la
+            condamne, c’est toujours à partir du « texte livresque ». Bien
+            évidemment, d’autres pratiques se sont affirmées depuis le <date from="1100" to="1199" type="_temp">
+                <hi rend="small-caps">xii</hi>
+                <hi rend="sup">e</hi> siècle</date>, qui
+            ne reposent pas que sur la collecte, l’extraction, l’exploitation
+            des textes – et quand bien même, cette exploitation aboutit
+            parfois à d’heureux exercices. Mais on peut se montrer plus
+            inquiet par la rencontre entre les techniques scolastiques et
+            l’informatique. Non qu’il faille la condamner ; encore une fois,
+            c’est la présence hégémonique de cette rencontre
+            qui interroge.</p>
+          </div>
+          <div type="section1" xml:id="d1e449">
+            <head subtype="level1" xml:id="d1e450">LiquidText : un avatar
+            contemporain et rationalisant du texte livresque</head>
+            <p xml:id="d1e452">Il est aujourd’hui rare d’accéder à une
+            information sans passer par un moteur de recherche et plus
+            particulièrement Google. Or, toute son économie repose sur des
+            techniques nées au <date from="1200" to="1299" type="_temp">
+                <hi rend="small-caps">xiii</hi>
+                <hi rend="sup">e</hi> siècle</date>,
+            dont les avatars contemporains sont la scientométrie et la
+            sociométrie : le dispositif de Google consiste à indexer des
+            textes et à les organiser selon des règles algorithmiques<note n="26" place="foot" type="standard" xml:id="ftn26">
+                <p>Pour plus de détails : <hi rend="small-caps">Gomez-Mejia</hi>, <hi rend="small-caps">Nicey</hi> et <hi rend="small-caps">Vaezi</hi>, 2016.</p>
+              </note>, qui changent régulièrement au point d’obliger un
+            certain nombre d’acteurs (journalistes, blogueurs, etc.) à
+            s’adapter d’un point de vue stratégique, graphique, éditorial,
+            langagier<note n="27" place="foot" type="standard" xml:id="ftn27">
+                <p>
+                  <hi rend="small-caps">Fabre</hi>, 2016.</p>
+              </note>. Google a inventé un nouveau « texte livresque »,
+            c’est-à-dire une forme fantomatique qui régit nos productions
+            médiatiques, jusqu’aux techniques scolastiques elles-mêmes. Ainsi,
+            en <date type="_temp" when="2013">2013</date>, le dispositif
+            Inkling sur iPad, qui propose des manuels scolaires dits
+            « interactifs », annonça que l’ensemble de leurs unités
+            documentaires (chapitres, paragraphes, sons, vidéos, etc.) avaient
+            été indexées par Google et qu’elles étaient consultables
+            séparément, monnayant quelques euros. Journalisme, éducation,
+            université, littérature, politique : il y a peu de lieux, de
+            genres, de discours et de milieux qui ne soient pas investis par
+            des « architextes<note n="28" place="foot" type="standard" xml:id="ftn28">
+                <p>« Du banal traitement de texte au logiciel d’écriture
+                multimédia, on ne peut pas produire un texte à l’écran sous
+                outils d’écriture situés en amont. Le texte à l’écran est donc
+                placé en abîme dans une autre structure textuelle, un
+                architexte, qui le régit et lui permet d’exister. Les
+                architextes (de <hi rend="italic">archè</hi>, origine et
+                commandement), sont les outils qui permettent l’existence de
+                l’écrit à l’écran et qui, non contents de représenter la
+                structure du texte, en commandent l’exécution et la
+                réalisation. » (<hi rend="small-caps">Jeanneret</hi> et <hi rend="small-caps">Souchier</hi>, 2009, p. 158-159)</p>
+              </note> », ces systèmes d’écriture qui écrivent en amont notre
+            écriture, la régissent, la capturent. Sans tomber, encore une
+            fois, dans un déterminisme sociotechnique, d’autant qu’il existe
+            des alternatives et des usages artistiques<note n="29" place="foot" type="standard" xml:id="ftn29">
+                <p>
+                  <hi rend="small-caps">Jahjah</hi>, 2018 ; <hi rend="small-caps">Saemmer</hi>, 2020.</p>
+              </note>, il nous faut prendre au sérieux les métamorphoses du
+            « texte livresque ».</p>
+            <p xml:id="d1e502">Dans ma thèse de doctorat<note n="30" place="foot" type="standard" xml:id="ftn30">
+                <p>
+                  <hi rend="small-caps">Jahjah</hi>, 2014<hi rend="italic">.</hi>
+                </p>
+              </note>, j’ai pu montrer comment cette technologie avait été
+            saisie par les industries du web contemporain : en permettant aux
+            lecteurs de surligner des textes collaborativement, de les éditer,
+            de partager leurs productions médiatiques, des acteurs comme
+            Amazon, Kobo ou Readmill ont su tirer parti des opportunités du
+            « texte livresque », d’un point de vue marketing et économique.
+            L’Université n’est pas en reste : depuis des dizaines d’années,
+            elle multiplie les projets qui font rarement du texte autre chose
+            qu’un « silo », qu’une « mine » à exploiter, qu’une « fouille » à
+            mener. Nous ne sommes pas sortis du texte livresque : nous ne
+            faisons qu’assister à ses métamorphoses, qui sont parfois
+            spectaculaires. C’est dans cette filiation que j’aimerais situer
+            le logiciel LiquidText, récemment lancé sur la tablette iPad.</p>
+            <p xml:id="d1e513">En effet, il a rapidement été présenté comme
+            « révolutionnaire » par ses concepteurs, dans une rhétorique
+            propre au web. C’est qu’il ne permet pas seulement de surligner,
+            d’annoter, voire de constituer des index et des tables de matières
+            de ses annotations. Contrairement à tous les logiciels
+            d’annotation conçus depuis les <date from="1990" to="1999" type="_temp">années 1990</date>, il permet aussi d’extraire des
+            éléments textuels, de les déplacer dans un espace dédié pour les
+            recombiner, les « remembrer » dans un nouveau lieu de mémoire, qui
+            pourra être réactivé en fonction des besoins, sans perdre
+            cependant de vue le lien intrinsèque avec le texte où ces
+            fragments ont été prélevés<note n="31" place="foot" type="standard" xml:id="ftn31">
+                <p>Voir la vidéo de présentation officielle de LiquidText
+                en 2015, « LiquidText - Comprehend More » : <ref target="https://www.youtube.com/watch?v=sfPEi5BSyHU">https://www.youtube.com/watch?v=sfPEi5BSyHU</ref>
+                (consultée le 10 octobre 2020).</p>
+              </note>.</p>
+            <p xml:id="d1e522">Je propose maintenant d’analyser ce dispositif
+            en mobilisant l’approche communicationnelle et la sémiotique des
+            écrans<note n="32" place="foot" type="standard" xml:id="ftn32">
+                <p>
+                  <hi rend="small-caps">Souchier</hi>
+                  <hi rend="italic">et
+                al.</hi>, 2019.</p>
+              </note>, qui me permettront d’identifier ce à quoi participe
+            LiquidText et ce à quoi nous participons potentiellement lorsque
+            nous le mobilisons, en tenant compte de ses discours, de ses
+            signes, de ses gestes, de ses acteurs. Dans ce cadre, j’analyserai
+            non seulement le logiciel en tant que tel, mais, bien plus, ses
+            vidéos de présentation, son site web, sa documentation pour
+            comprendre comment le « texte livresque » est travaillé.</p>
+            <p xml:id="d1e534">Cet outil d’écriture, lancé en <date type="_temp" when="2015">2015</date>, est emblématique des
+            relations étroites entre l’université et « l’esprit
+            entrepreneurial » : au lieu de les opposer, il vaut ainsi mieux
+            montrer comment ils s’ajustent pour comprendre comment « ils
+            élaborent dans la durée les normes, croyances, confiances et
+            postures<note n="33" place="foot" type="standard" xml:id="ftn33">
+                <p>
+                  <hi rend="small-caps">Jeanneret</hi> (2014, p. 87) définit
+                ainsi l’« ajustement ».</p>
+              </note> ». Le concepteur de LiquidText, <persName type="_temp">Craig Tashman</persName>, a rédigé une thèse sur le
+            sujet et publié plusieurs articles, avant de fonder son
+            entreprise, d’être rejoint par des investisseurs et des
+            spécialistes du marketing. LiquidText a les caractéristiques des
+            écologies institutionnelles<note n="34" place="foot" type="standard" xml:id="ftn34">
+                <p>
+                  <hi rend="small-caps">Griesemer</hi> et <hi rend="small-caps">Leigh Star</hi>, 1989.</p>
+              </note>, de ces lieux de brassage où se rencontrent des mondes
+            sociaux différents, qui finissent par tisser un vocabulaire, des
+            pratiques, des dispositifs à partir d’un même objet (ici
+            l’annotation), dont ils s’emparent, qu’ils transforment,
+            actualisent alors.</p>
+            <p xml:id="d1e553">La métaphore de l’eau, annoncée dans le nom
+            même du logiciel, structure l’ensemble des discours, des gestes,
+            des conceptions de LiquidText. Elle constitue ce que <persName type="_temp">Bachelard</persName> appelle une « auréole
+            imaginaire », c’est-à-dire une image qui en suscite d’autres, se
+            met au contact de tout un ordre temporel, gestuel, cognitif,
+            matériel, qu’elle vivifie. Elle fonctionne également, dans le
+            cadre des mythologies du web, comme un « discours d’escorte » qui
+            accompagne l’usage d’un dispositif technique, en célèbre les
+            vertus, fabrique « un argumentaire mobilisateur»<note n="35" place="foot" type="standard" xml:id="ftn35">
+                <p>
+                  <hi rend="small-caps">Souchier</hi>
+                  <hi rend="italic">et
+                al.</hi>, 2019<hi rend="italic">.</hi>
+                </p>
+              </note> prêt à l’emploi. La liquidité, les images de l’eau sont
+            manifestement puissantes : depuis les années 1990, elles servent
+            en effet à qualifier notre expérience sur le web (nous
+            « surfons »). Elle a permis à ses promoteurs d’en vendre la
+            facilité, en conciliant nouveauté, gestes et opérations
+            intellectuelles pour en masquer les logiques techniques,
+            discursives, sociales, idéologiques. De la même manière, la
+            métaphore de l’eau sert à qualifier l’expérience des usagers de
+            LiquidText : ils évolueraient ainsi dans un espace où tout serait
+            fluide, par opposition au « papier », une matière généralement
+            brandie par les acteurs du web, qui serait le marqueur d’une
+            culture supposément fixe, lente, bureaucratique depuis les <date from="1960" to="1969" type="_temp">années 1960</date>
+              <note n="36" place="foot" type="standard" xml:id="ftn36">
+                <p>
+                  <hi rend="small-caps">Jahjah</hi>, 2018.</p>
+              </note>. LiquidText s’inscrit explicitement dans cette
+            trajectoire rhétorique dès l’entrée (Fig. 1).</p>
+            <figure xml:id="d1e574">
+              <head xml:id="d1e575">Fig. 1 - Page d’accueil du site de
+              LiquidText</head>
+              <p xml:id="d1e577">Source : <ref target="https://www.liquidtext.net/">
+                  <hi rend="underline">https://www.liquidtext.net/</hi>
+                </ref>, consulté le 12 décembre 2021</p>
+            </figure>
+            <p xml:id="d1e583">Il s’agit bien d’aller au-delà d’une matière
+            métonymique, qui concentrerait toutes les tares, à partir d’un
+            rapport de force mis en scène par LiquidText dans un comparatif de
+            supériorité (<hi rend="italic">Better than paper</hi>), auquel son
+            outil apporterait une solution. Sur l’ensemble de son site de
+            présentation, on voit ainsi disséminés des indices de problèmes
+            (perte de temps, lourdeur du papier, etc.), dans une scénarisation
+            verticale qui va de leur expression à leur résolution progressive,
+            à mesure que les fonctionnalités du logiciel sont exposées. Chaque
+            fois, ce sont les propriétés prêtées à l’eau qui organisent
+            l’argumentation linguistique et visuelle : d’un cadre à l’autre,
+            d’un espace à l’autre, les fragments textuels peuvent ainsi être
+            déplacés, liés entre eux. À la manière de gouttes d’eau, ils sont
+            susceptibles de prendre toutes les formes possibles. Le processus
+            semble transparent, ne souffrir d’aucune difficulté, n’avoir pour
+            limites que celles de l’imagination. C’est sans doute pourquoi
+            plusieurs vidéos d’usagers sont proposées sur le site web de
+            LiquidText, du monde juridique aux étudiants : l’outil d’écriture
+            s’adapte manifestement à toutes les pratiques, à tous les
+            travailleurs du savoir. Ces vidéos peuvent également être lues
+            comme des projets de communication, c’est-à-dire comme des
+            opérateurs d’un emploi idéal, qui consiste à capitaliser
+            l’information, à partir d’opérations de repérage, de sélection,
+            d’extraction, de remodelage, de mémorisation, de réécriture.</p>
+            <p xml:id="d1e588">Si ces opérations sont déjà propres à tous les
+            logiciels d’annotation, elles ne bénéficient cependant pas des
+            propriétés supposées de l’eau, d’autant plus visibles qu’elles
+            font l’objet d’un spectacle : les plans audiovisuels des vidéos
+            promotionnelles se focalisent sur la trajectoire des fragments
+            textuels, en suivent les transformations, les coagulations. Le
+            corps des usagers représentés semble moins animer LiquidText
+            qu’ils sont animés par lui, tant ils sont rapidement réduits à
+            quelques parties (doigts, mains) et à une fonction illustrative de
+            la voix explicative<note n="37" place="foot" type="standard" xml:id="ftn37">
+                <p>Voir note 32.</p>
+              </note>. Par rapport à elles, l’écran est en situation
+            hyperonymique : il inclut tout le corps de l’usager, capté par les
+            formes manipulées. En cela, l’eau et l’écran relèvent d’une
+            « forme spectacle<note n="38" place="foot" type="standard" xml:id="ftn38">
+                <p>
+                  <hi rend="small-caps">Pedler</hi> et <hi rend="small-caps">Cheyronnaud</hi>, 2018.</p>
+              </note> » : en eux viennent se mirer les usagers ébahis par les
+            possibilités offertes.</p>
+            <p xml:id="d1e604">Mais quelque chose résiste dans la structure
+            même du texte et de l’annotation : le lien sémantique qui les unit
+            et permet de déterminer une hiérarchie entre eux, entre un centre
+            et ses périphéries. Or, à ce niveau, l’espace du logiciel respecte
+            nos habitudes ou nos attentes, alors même que l’histoire des
+            pratiques d’annotation témoigne de relations graphiques complexes,
+            qui ont parfois marginalisé le texte, en plaçant par exemple son
+            commentaire au centre<note n="39" place="foot" type="standard" xml:id="ftn39">
+                <p>Sur toutes ces questions, voir l’étude marginalia de <hi rend="small-caps">Tura</hi>, 2005.</p>
+              </note>. Certes, un jeu d’échelle permet d’agrandir le
+            cadre-document de droite, celui des marges et de l’espace de
+            travail, pour lui donner une place visuelle plus importante,
+            jusqu’à minimiser totalement le texte commenté. Mais en cliquant
+            sur un fragment détaché, placé dans cet espace, je retrouve
+            systématiquement le lieu du texte où il a été prélevé. Par
+            conséquent, d’un point de vue technique et sémantique, LiquidText
+            est tributaire d’une vieille technologie antique (les commentaires
+            à lemmes), perfectionnée par la scolastique. C’est déjà l’indice
+            que la « révolution » annoncée est en partie rhétorique, même s’il
+            ne s’agit pas ici de minimiser les apports de ce logiciel ou de
+            considérer que rien n’a changé avec lui. Il nous faut cependant
+            déconstruire ses <hi rend="italic">fantasmagories</hi>,
+            c’est-à-dire l’ensemble des productions médiatiques qui donnent
+            « une portée et une valeur imaginaires<note n="40" place="foot" type="standard" xml:id="ftn40">
+                <p>
+                  <hi rend="small-caps">Jeanneret</hi>, 2014, p. 12.</p>
+              </note> » à cette marchandise informatique, avant de situer les
+            transformations que cette marchandise informatique fait subir au
+            texte livresque.</p>
+            <p xml:id="d1e624">De toute évidence, LiquidText est tendu entre
+            deux exigences : faire la démonstration de sa plus-value par
+            rapport à l’offre existante, sans désarçonner trop fortement
+            l’usager, qui doit pouvoir se décider rapidement sur les
+            plateformes d’achat (Apple Store). C’est la raison pour laquelle
+            dans ses vidéos de présentation, sur son site web comme sur
+            l’interface même du logiciel, on trouve une logique intermédiale,
+            malgré une dépréciation de la matière papier<note n="41" place="foot" type="standard" xml:id="ftn41">
+                <p>Voir la présentation officielle de 2015, « LiquidText -
+                Comprehend More », déjà citée et celle de 2020, « LiquidText:
+                Better than Paper! iPad, Mac and Windows » : <ref target="https://www.youtube.com/watch?v=VYqa6FfyjkA">https://www.youtube.com/watch?v=VYqa6FfyjkA</ref>
+                (consultée le 10 octobre 2020).</p>
+              </note>.</p>
+            <p xml:id="d1e633">Tout l’univers métonymique du papier y est,
+            avec l’ensemble de sa quincaillerie tangible (le stylet, qui
+            accompagne la version pour les professionnels) ou iconisée :
+            stylo, crayon, gomme, surligneurs fluo, couleurs… l’usager évolue
+            dans un environnement familier, dont il reconnaît immédiatement
+            les formes et les objets, pour peu qu’il appartienne à la culture
+            qui les promeut. Les gestes eux-mêmes (entourer, relier,
+            surligner…) relèvent de l’habitude : ils imitent de manière
+            iconique<note n="42" place="foot" type="standard" xml:id="ftn42">
+                <p>La sémiotique contemporaine distingue en effet trois
+                niveaux d’iconisation : iconique, figuratif, figural. Voir <hi rend="small-caps">Marrone</hi>, 2016.</p>
+              </note> les gestes attendus, inscrits dans notre mémoire
+            graphique.</p>
+            <p xml:id="d1e642">De la même manière, les liens possibles entre
+            les différents fragments découpés, qui appartiennent parfois à des
+            documents différents, relèvent des bases de données auxquelles
+            nous ont habitués les annotateurs virtuoses, les humanistes, les
+            travailleurs du savoir. La culture informatique et numérique a su
+            tirer parti de cette tentation encyclopédique en proposant, avec
+            l’« hypertexte », un moyen de lier un univers en pleine expansion.
+            Dans LiquidText, cet univers est matérialisé par le cadre de
+            droite, qui propose un espace de travail lui-même découpé en une
+            multitude de petits cadres, dont les fragments peuvent être
+            organisés, sans doute dans des unités de sens. Ainsi, l’expansion
+            est elle-même contenue dans un cadre, qui rappelle la fonction de
+            la page, sur laquelle se sont construites nos topologies mentales,
+            nos gestes intellectuels.</p>
+            <p xml:id="d1e644">Il faut ainsi davantage penser LiquidText comme
+            un espace livresque, ou un avatar contemporain de cette
+            technologie qui fit du texte une mine, un silo. Tout, dans
+            l’interface, rappelle en effet une logique productiviste : les
+            documents intégrés peuvent être classés en « dossiers » selon une
+            logique arborescente. Le logiciel permet de les convoquer via le
+            « cloud », une technologie si caractéristique des espaces
+            bureautiques professionnels, qui participe d’une négation de la
+            matérialité technique. Deux éléments (l’eau, l’air) sont donc
+            convoqués pour donner l’impression d’une transparence du geste,
+            qui ne connaîtrait aucune limite matérielle, même si nous avons vu
+            que cette matérialité était partout présente. Elle pousse même la
+            logique du « texte livresque » jusqu’à son extrême limite : chaque
+            trace de l’usager se trouve inscrite dans le logiciel, qui lui
+            fait subir un traitement technique et éditorial. Ainsi, un
+            surlignement effectué fait l’objet d’une discrète indication dans
+            la barre de défilement de gauche du texte. Contrairement aux
+            humanistes, qui réalisaient des index et des tables de matières à
+            partir de leurs annotations, ces derniers sont conçus par le
+            logiciel lui-même, qui maximise les potentialités du texte
+            livresque, tout en se référant intégralement à sa logique.</p>
+            <p xml:id="d1e646">De la même manière, l’ensemble des
+            fonctionnalités proposées permettent de commenter les fragments
+            découpés dans l’espace de travail, de les réunir, de les éditer,
+            de les désassembler, de modifier la typographie, la couleur ;
+            bref, de les faire changer d’état sémiotique. Ces transformations
+            mettent l’usager dans la position d’un éditeur paradoxal : le
+            texte commenté reste toujours intact. Ce qui est modifié, découpé,
+            prélevé est un double, une image, qui subit toutes les
+            modifications souhaitées et nécessaires. Par conséquent, il ne
+            peut littéralement intervenir qu’à la marge, sans jamais affecter
+            la hiérarchie entre centre et périphérie.</p>
+            <p xml:id="d1e648">Au terme de ce parcours, on observe un point
+            fondamental : la tendance du dispositif LiquidText à maximiser les
+            potentialités du « texte livresque » qui ressemble davantage à un
+            « textiel livresque ». En reprenant à mon compte le concept de <hi rend="italic">textiel</hi>
+              <note n="43" place="foot" type="standard" xml:id="ftn43">
+                <p>Voir <hi rend="small-caps">Jacquot</hi> et <hi rend="small-caps">Jahjah</hi>, 2020.</p>
+              </note>, qui désigne les propriétés du texte à l’écran
+            (configuration actancielle, anticipation d’habitudes de lecture,
+            etc.), articulé au concept d’Illich, je souhaite souligner une
+            tendance de l’informatique : elle ne recycle pas uniquement notre
+            héritage matériel ; elle le reconfigure pour le porter à son plus
+            haut degré de réalisation. Dans cette perspective, toutes les
+            caractéristiques du texte livresque (extraction, capitalisation
+            des savoirs) se trouvent ici facilitées par l’informatique. Plus
+            encore : elles rencontrent la mentalité entrepreneuriale et
+            productiviste qui s’est chargée depuis une trentaine d’années et
+            plus de nous fournir tous les « outils » dont nous aurions besoin
+            pour accomplir nos tâches professionnelles. Cette rencontre entre
+            les technologies scolastiques et la culture informatique, qui
+            pourraient sembler éloignées, est ici particulièrement
+            efficace.</p>
+          </div>
+          <div type="section1" xml:id="d1e662">
+            <head subtype="level1" xml:id="d1e663">L’expérience vécue
+            du « textiel livresque »</head>
+            <p xml:id="d1e665">Ce « texte livresque » s’est coulé dans mes
+            pratiques universitaires et dans les logiques qui les régissent
+            aujourd’hui, que je fais fonctionner au quotidien. J’aimerais le
+            montrer rapidement, à partir d’un retour d’expérience – je n’ose
+            pas parler d’autoethnographie, ce serait trop ambitieux. Je me
+            concentrerai plutôt sur quelques éléments de pratiques, qui datent
+            d’<date from="2019-08-01" to="2019-08-31" type="_temp">août 2019</date> et d’<date from="2020-08-01" to="2020-08-31" type="_temp">août 2020</date>. Je veux montrer, en
+            suivant <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+              <note n="44" place="foot" type="standard" xml:id="ftn44">
+                <p>
+                  <hi rend="small-caps">Lorenzini</hi>, 2015.</p>
+              </note> ou l’ethnométhodologie, que le pouvoir institutionnel
+            passe dans les pratiques ordinaires, auquel elles répondent,
+            auquel elles s’ajustent, qu’elles font fonctionner, qu’elles
+            rendent, un temps, tolérable, qu’elles digèrent, avant qu’il ne se
+            manifeste de nouveau dans sa dureté. C’est dire que le pouvoir
+            n’est pas centralisé, mais qu’il se distribue en nous : il passe
+            par nous à travers l’optimisation de la vie ordinaire, par tout un
+            jeu de relais, d’ajustements, d’adaptations, de réseaux
+            sociotechniques, bureaucratiques, qui nous inscrivent dans une
+            texture dont il est difficile de s’extraire, parce qu’elle informe
+            aussi bien nos gestes que nos comportements, nos habitudes, nos
+            énoncés. C’est pourquoi j’adopterai maintenant un style d’écriture
+            plus personnel, à même de rendre compte de mon expérience, à la
+            fois de LiquidText et de la texture temporelle, spatiale,
+            professionnelle dans laquelle j’ai été pris. On pourra qualifier
+            cette proposition de perspectiviste ou de située : elle consiste à
+            adopter à un point de vue qui permet de déplier un ordre social et
+            institutionnel.</p>
+            <p xml:id="d1e674">J’utilise LiquidText régulièrement, mais je
+            l’ai surtout mobilisé deux fois, lors de la correction pendant les
+            vacances d’été des rapports de soutenances de mes étudiant·es de
+            licence. Chaque fois, j’en eu à lire une quarantaine de rapports
+            d’une cinquantaine de pages, sans la certitude, le jour de la
+            soutenance (fin août), de m’en souvenir. Or, ces soutenances sont
+            parfois accompagnées des tuteurs des étudiant·es en entreprise.
+            J’ai rapidement compris que je pouvais mobiliser LiquidText comme
+            une mémoire distribuée pour me remobiliser dans une situation qui
+            comporte un enjeu social et professionnel et à une période où je
+            dois à la fois gérer la rentrée d’une licence, d’un master,
+            déposer des appels à projets, préparer des cours, aider mes
+            étudiant. e. s à trouver des contrats d’alternance, continuer à
+            écrire des articles. Je dois donc maximiser mon temps en trouvant
+            mon <hi rend="italic">rythme</hi>, pour reprendre <persName ref="026984903" type="idref" xml:base="https://www.idref.fr/">Leroi-Gourhan</persName>
+              <note n="45" place="foot" type="standard" xml:id="ftn45">
+                <p>
+                  <hi rend="small-caps">Bidet</hi>, 2007.</p>
+              </note> : je dois me faire une place habitable dans un champ de
+            forces sociales, matérielles, temporelles, organisationnelles en
+            opposition, alors que les tâches dévolues aux
+            enseignant·es-chercheurs/euses se sont multipliées avec
+            l’autonomie libérale des universités françaises<note n="46" place="foot" type="standard" xml:id="ftn46">
+                <p>Le carnet de recherche <hi rend="italic">Academia</hi>
+                documente parfaitement toute cette histoire en cours : <ref target="https://academia.hypotheses.org/">https://academia.hypotheses.org/</ref>.</p>
+              </note>.</p>
+            <p xml:id="d1e696">La capture d’écran ci-dessous synthétise
+            l’usage que j’ai fini par faire de LiquidText, après quelques
+            essais lors de premières soutenances en 2019. Elles m’ont permis
+            de comprendre quel usage optimal je pourrais faire de ces
+            inscriptions, compte tenu de la situation décrite.</p>
+            <figure xml:id="d1e698">
+              <head xml:id="d1e699">Fig. 2 – LiquidText en action</head>
+              <p xml:id="d1e701">Capture d’écran personnel d’un usage datant
+              d’août 2020.</p>
+            </figure>
+            <p xml:id="d1e703">À droite, l’espace de travail de LiquidText
+            peut être investi de différentes manières. J’ai pour ma part
+            choisi de condenser le rapport de stage en une série de formes
+            énonciatives (le « plan », les « citations », les « notes », etc.)
+            afin de mobiliser rapidement les informations qui me permettraient
+            d’être présent à chaque moment de l’exercice de la soutenance (la
+            question posée au tuteur, la main tendue au co-jury, la remarque à
+            l’étudiant·e, aussi bien sur son oral que sur son stage). Ainsi,
+            durant la soutenance des étudiant·es, je pouvais rapidement relire
+            les quelques informations décrites pour poser une question
+            pertinente à un tuteur (évolution de l’entreprise, difficultés
+            éventuelles pendant le Covid, etc.). Les situations vécues ont
+            fini par se couler elles-mêmes dans le « texte livresque » et par
+            définir les conditions de sa formation, en liste, en extraits, en
+            articulations. C’est tout le génie de cette forme ; elle s’adapte
+            en permanence, en même temps que nous l’expérimentons. Elle se
+            niche dans nos microgestes, elle participe de nos rythmes
+            temporels, sociaux ; elle s’incarne dans la matière vivante de nos
+            calendriers, de nos interactions. Mais elle est ici secondée par
+            LiquidText, parfaitement aligné sur des logiques productivistes,
+            qui est modulable, qui permet la mobilité des formes à l’écran.
+            Textiel et texte livresque forment une équipe efficace, qui
+            s’adapte manifestement à nos rythmes productivistes, parce que ces
+            deux formes textuelles sont nées d’une telle logique.</p>
+            <p xml:id="d1e705">L’âge des systèmes décrit par Illich fournit
+            ainsi des réponses aux situations que nous vivons
+            quotidiennement : il nous permet de nous ajuster, de nous adapter
+            à l’ordre, au pouvoir qui nous travaille continuellement, habite
+            nos corps. Jusqu’au moment où j’ai développé des tendinites, une
+            fatigue lancinante, douloureuse, qui a fini par gagner tous les
+            pans de ma vie, à mesure que je développais des stratégies
+            matérielles pour juguler les tâches, toujours plus nombreuses. Les
+            premières douleurs sont apparues en <date from="2015-11-01" to="2015-12-31" type="_temp">novembre-décembre 2015</date> dans
+            les épaules, alors que j’étais post-doctorant à la Sorbonne. Là
+            encore, j’ai essayé de mettre en place des calendriers, de mieux
+            gérer mes courriels, de leur attribuer des dossiers associés à
+            d’autres outils de gestion de tâches, pour faire face. Puis, ces
+            douleurs se sont étendues à l’ensemble du corps, jusqu’à se
+            solidifier dans les muscles. Chaque fois, j’ai tenté de m’adapter
+            à la situation en recourant à des « outils » chargés de me
+            seconder, sans voir qu’eux-mêmes n’étaient qu’une réponse à un
+            problème créé par l’ordre productiviste auquel ils sont liés.
+            C’est dire que le pouvoir institutionnel, que ses tressages et ses
+            relais techniques, s’inscrivent dans la chair même des
+            enseignant·es-chercheurs/euses. M’adapter, m’ajuster à des
+            cadences difficiles à tenir, en articulant administration,
+            pédagogie, recherche scientifique : voilà ce qu’un tel outil
+            – associé à d’autres, bien évidemment –, m’aura en partie permis,
+            sans en faire pour autant le responsable désigné ; il participe
+            plutôt à un <hi rend="italic">rythme</hi>, un <hi rend="italic">agencement</hi> problématiques, entre des politiques
+            libérales, des situations personnelles, des dispositifs. La
+            question est de savoir non pas si ces « outils » sont toxiques ou
+            pas, ni quel usage heureux pourrait en être fait mais de
+            comprendre si d’autres rencontres sont <hi rend="italic">encore</hi> possibles, compte tenu de la manière
+            dont les politiques libérales et managériales investissent
+            nos espaces.</p>
+            <p xml:id="d1e716">Comment sortir de cette « sorcellerie
+            capitaliste », comme dirait <persName ref="027148378" type="idref" xml:base="https://www.idref.fr/">Isabelle Stengers</persName>
+              <note n="47" place="foot" type="standard" xml:id="ftn47">
+                <p>
+                  <hi rend="small-caps">Pignarre</hi> et <hi rend="small-caps">Stengers</hi>, 2007.</p>
+              </note>, qui nous piège en nous donnant les moyens de résoudre
+            les problèmes qu’elle pose par ailleurs. On peut sans doute
+            trouver dans l’écologie politique, les philosophies du vivant, les
+            anthropologues de la nature ou les artistes décoloniaux d’Amérique
+            latine<note n="48" place="foot" type="standard" xml:id="ftn48">
+                <p>Par exemple : <hi rend="small-caps">Gómez-Barris</hi>,
+                2017.</p>
+              </note> de premières pistes. En effet, l’extraction des savoirs,
+            telle que je l’ai décrite, ressemble en partie à l’extractivisme
+            prédateur et les ontologies libérales<note n="49" place="foot" type="standard" xml:id="ftn49">
+                <p>
+                  <hi rend="small-caps">Landivar</hi>, 2021. Merci à ma
+                collègue Laurence Allard pour l’indication de cette précieuse
+                ressource.</p>
+              </note> qui officient sur l’ensemble de la planète, contre
+            lesquels résistent quelques autochtones<note n="50" place="foot" type="standard" xml:id="ftn50">
+                <p>
+                  <hi rend="small-caps">Cepek</hi> et <hi rend="small-caps">Guerra</hi>, 2018.</p>
+              </note>. Or, cet extractivisme recourt à la raison
+            instrumentale, qui est la nôtre, comme l’ont montré les
+            épistémologies du sud<note n="51" place="foot" type="standard" xml:id="ftn51">
+                <p>
+                  <hi rend="small-caps">Santos</hi>, 2011.</p>
+              </note>. J’y vois ainsi une « résonance » entre raison
+            instrumentale, texte (iel) livresque et extractivisme des
+            ressources, suffisante pour suivre les réflexions menées par un
+            ensemble de courants écologistes dont les travaux inspirent
+            d’autres manières de faire science, qu’on pense aux coopératives
+            de recherche, à la proclamation de zones autonomes, aux plaidoyers
+            en faveur d’une <hi rend="italic">slow science</hi>. Il s’agit de
+            faire coexister d’autres points de vue pour rééquilibrer les
+            modalités d’accès au monde qui, nous l’avons vu, passe en grande
+            partie par le forage des textes et l’exploitation productiviste,
+            même si je ne nie évidemment pas l’existence, çà et là, d’autres
+            pratiques, en marge de nos logiques industrielles.</p>
+            <p xml:id="d1e763">J’aimerais faire une proposition, en partant de
+            ma perspective et de mes intérêts, qui croisent ceux des courants
+            précédemment cités. Tous nous enjoignent à reconnaître que nous ne
+            sommes pas seuls pour sortir de nos logiques prédatrices,
+            extractivistes, productivistes. Cette reconnaissance implique
+            ainsi d’admettre d’autres formes de vie, d’autres sensibilités,
+            jusqu’aux êtres végétaux, jusqu’aux morts, jusqu’aux êtres situés
+            dans des zones floues<note n="52" place="foot" type="standard" xml:id="ftn52">
+                <p>Je pense ici à toute la philosophie écologique (Desprets,
+                Morizot, Latour, Stengers, etc.) mais également aux <hi rend="italic">Queer Death Studies</hi> qui s’intéressent aux
+                êtres oubliés, minorés, méprisés, comme les fœtus, les
+                esprits, les insectes (<hi rend="small-caps">Radomska</hi>,
+                <hi rend="small-caps">Mehrabi</hi> et <hi rend="small-caps">Lykke</hi>, 2020).</p>
+              </note>, jusqu’aux êtres « imaginaux ». <persName ref="026798786" type="idref" xml:base="https://www.idref.fr/">Henry Corbin</persName>, le grand
+            spécialiste de philosophie islamique, a forgé un concept (le
+            « monde imaginal<note n="53" place="foot" type="standard" xml:id="ftn53">
+                <p>
+                  <hi rend="small-caps">Corbin</hi>, 2005 (1977).</p>
+              </note> »), pour qualifier une région et un processus, situés
+            entre le monde sensible et le monde intellectuel. Médiane, à
+            l’intersection, elle assure la circulation et la transformation
+            d’un fond archétypal d’images et de savoirs, qui s’expriment dans
+            une subjectivité propre, que nous devons mobiliser pour y avoir
+            accès. C’est une région que nous pouvons expérimenter en
+            pratiquant, par exemple, l’autohypnose, en développant une <hi rend="italic">conversation écologique</hi> avec le monde<note n="54" place="foot" type="standard" xml:id="ftn54">
+                <p>
+                  <hi rend="small-caps">Roustang</hi> (1994) pense l’hypnose
+                comme une pratique écologique, qui nous rend plus sensible à
+                notre environnement et nous permet d’expérimenter des régimes
+                variés d’expérience, des gammes perceptives denses, comme nous
+                y invite le taoïsme (<hi rend="small-caps">Billeter</hi>,
+                2014). En association l’écologie des relations à la notion de
+                <hi rend="italic">conversation</hi> (à partir de la définition
+                de<hi rend="italic"/>
+                  <hi rend="small-caps">Laugier</hi>,
+                2011), je souhaite insister sur le plaisir que l’on peut
+                ressentir en passant du temps avec ces entités (animaux,
+                visages, images, phrases qui se présentent dans les situations
+                d’autohypnose). Pour autant, je ne recommanderai pas de se
+                livrer à cette activité sans accompagnement.</p>
+              </note>, en prêtant une attention aux rêves, à de
+            micro-intuitions, des images qui surgissent et émergent dans le
+            flux continu de la vie. Or, ces phrases, ces images surgissent
+            singulièrement, dans une syntaxe renouvelée, passant de la veille
+            au rêve, du rêve à la conversation amicale, de la conversation
+            amicale au rêve et ainsi de suite. J’appelle ces formes des
+            « êtres imaginaux » : ce sont des passe murailles qui fendent les
+            ordres du réel, recyclent les savoirs incorporés et les
+            réinvestissent dans le corps social. Pour illustrer mon propos,
+            qui peut paraître mystique et quelque peu déconnecté de l’article
+            en question, je propose maintenant de commenter quelques exemples
+            de phrases, parmi un corpus d’une centaine que je publie
+            régulièrement sur le réseau social Instagram<note n="55" place="foot" type="standard" xml:id="ftn55">
+                <p>Voir <ref target="https://www.instagram.com/marc_jahjah/">https://www.instagram.com/marc_jahjah/</ref>.</p>
+              </note> après chaque séance d’autohypnose. Elles m’ont permis,
+            en convoquant d’autres ressources (les groupes de sororité, par
+            exemple), de comprendre ce que je vivais et d’y faire face
+            progressivement en accueillant pleinement ce qu’elles avaient à me
+            dire, ce que j’avais à me dire et qu’il m’était difficile
+            d’entendre.</p>
+            <list type="ordered" xml:id="d1e816">
+              <item>« Que feras-tu de l’énigme de la vérité ? » Cette phrase,
+              qui a surgi en <date type="_temp" when="2020">2020</date> lors
+              d’une séance d’autohypnose, est un défi pour un chercheur, que
+              je reçois comme un conseil précieux : la vérité n’est jamais
+              donnée ; elle est ce à quoi nous pouvons seulement aspirer, ce
+              vers quoi nous pouvons tendre, avant de la rejouer.</item>
+              <item>« Tu n’es pas le diable que tu veux. » Dans des situations
+              universitaires libérales, où l’individu est rendu
+              systématiquement responsable des dysfonctionnements systémiques,
+              j’aime penser cet énoncé comme un petit talisman, que je porte à
+              mon cou et qui me rappelle la manière dont le pouvoir se
+              distribue dans nos corps, au point de faire porter sur nos
+              épaules la charge affective, sociale, corporelle.</item>
+              <item>« Il faut de l’herbe pour pousser. » On a sans doute ici
+              affaire à une réminiscence d’une lecture de Voltaire qui, à la
+              fin de <hi rend="italic">Candide</hi>, nous enjoint à cultiver
+              notre propre jardin, au lieu de spéculer sans fin. Ce qui me
+              frappe le plus ici, c’est la juxtaposition des états : les
+              conditions de ma propre croissance dépendent de celles de
+              l’herbe ; nous sommes pris dans un devenir commun. Pour le
+              néolibéralisme, qui fait de nous des autoentrepreneurs, c’est
+              une provocation et sans doute un poison : notre salut viendra
+              sans doute de notre capacité à envisager des
+              « contre-conduites » (<persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>) à partir
+              d’affiliations impropres, en incluant un ensemble d’êtres
+              relégués à l’arrière-plan.</item>
+            </list>
+            <p xml:id="d1e826">Ces quelques exemples, modestes, trop rapides,
+            permettent néanmoins de montrer l’intérêt à penser le savoir à
+            partir de la <hi rend="italic">pratique imaginale</hi>, en tenant
+            compte d’autres êtres, en construisant de nouvelles alliances pour
+            nous relier autrement à nos espaces de travail, à nos collègues, à
+            nos rythmes, à nos lectures, sans chercher nécessairement à les
+            capitaliser en forant le texte : il suffit de « laisser être »
+            (Maître Eckhart). Ce n’est évidemment pas cette seule réponse qui
+            jugulera les effets du néolibéralisme et qui ouvrira d’autres
+            voies. Mais elle offre des outils pour se relever, pour devenir ce
+            que <persName type="_temp">Bachelard</persName> appelait un
+            « arbre aérien » : bien enraciné, ancré, mais tourné vers d’autres
+            mondes, capable d’envisager des scénarios alternatifs en étant
+            suffisamment fidèles à ces phrases et ces images pour en explorer
+            toute l’épaisseur.</p>
+            <p xml:id="d1e832">Cet accès ou cette métamorphose nécessitent de
+            faire un pas de côté : le savoir ne peut plus être seulement pensé
+            comme « l’ensemble des procédures mentales, discursives,
+            techniques et sociales par lesquelles une société, les groupes et
+            les individus qui la composent, donnent sens au monde qui les
+            entoure et se donnent les moyens d’agir sur lui ou d’interagir
+            avec lui<note n="56" place="foot" type="standard" xml:id="ftn56">
+                <p>Jacob, 2014, § 16.</p>
+              </note> ». La conception imaginale du savoir invite à donner au
+            monde le statut d’un acteur à part entière, qui agit en nous : en
+            devenant un temps son hôte, nous nous donnons les moyens de
+            répondre à ce qui nous habite et nous violente. En cela, la
+            pratique imaginale des savoirs relève des techniques de
+            l’ordinaire ; des « contre-conduites<note n="57" place="foot" type="standard" xml:id="ftn57">
+                <p>Lorenzini, 2015.</p>
+              </note> ». Elle s’inscrit dans les épistémologies du sud et dans
+            « la sociologie des absences<note n="58" place="foot" type="standard" xml:id="ftn58">
+                <p>Santos,<hi rend="italic"/>2011.</p>
+              </note> », qui cherche à rendre visible, audible, ce qui est
+            invisibilisé, tu, et qui, lorsque nous l’accueillons, lui faisons
+            place, se révèle une ressource puissamment douce, capable de
+            s’impliquer dans notre existence, d’y prendre sa part, de l’ouvrir
+            à des solutions inaperçues. Au pouvoir institutionnel, qui passe
+            en nous et affaiblit notre puissance d’agir, il s’agit d’opposer
+            et d’affirmer la pratique imaginale du savoir, qui nous traverse
+            continuellement et nous offre les moyens d’aller là où nous sommes
+            déjà.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e850">
+        <head xml:id="d1e851">Bibliographie</head>
+        <listBibl xml:id="d1e853">
+          <bibl xml:id="d1e854">
+            <hi rend="small-caps">Allan</hi>, 2010 : David
+          <hi rend="small-caps">Allan</hi>, <hi rend="italic">Commonplace
+          books and reading in Georgian England</hi>, Cambridge, Cambridge
+          University Press.</bibl>
+          <bibl xml:id="d1e864">
+            <hi rend="small-caps">Bert</hi>, 2017 :
+          Jean-François <hi rend="small-caps">Bert</hi>
+            <hi rend="italic">, Une
+          histoire de la fiche érudite</hi>, Lyon, Presses de l’ENSSIB.</bibl>
+          <bibl xml:id="d1e873">
+            <hi rend="small-caps">Bidet</hi>, 2007 :
+          Alexandra <hi rend="small-caps">Bidet</hi>, « Le corps, le rythme et
+          l’esthétique sociale chez André Leroi-Gourhan », <hi rend="italic">Techniques &amp; Culture</hi>, 48-49, p. 15-38.</bibl>
+          <bibl xml:id="d1e883">
+            <hi rend="small-caps">Billeter</hi>, 2014 :
+          Jean-François <hi rend="small-caps">Billeter</hi>, <hi rend="italic">Leçons sur Tchouang-Tseu</hi>, Paris, Allia.</bibl>
+          <bibl xml:id="d1e893">
+            <hi rend="small-caps">Boureau</hi>, 2007 :
+          Alain <hi rend="small-caps">Boureau</hi>, <hi rend="italic">L’Empire
+          du livre. Pour une histoire du savoir scolastique (1200-1380)</hi>,
+          t. 12, <hi rend="italic">La Raison scolastique</hi>, Paris, Les
+          Belles lettres.</bibl>
+          <bibl xml:id="d1e906">
+            <hi rend="small-caps">Carruthers</hi>, 1993 :
+          Mary <hi rend="small-caps">Carruthers</hi>, <hi rend="italic">The
+          Book of Memory</hi>, Cambridge, Cambridge University Press.</bibl>
+          <bibl xml:id="d1e916">
+            <hi rend="small-caps">Cavallo </hi>et<hi rend="small-caps"> Chartier</hi>, 2001 <hi rend="small-caps">:</hi>
+          Guglielmo <hi rend="small-caps">Cavallo</hi> et Roger <hi rend="small-caps">Chartier</hi>, « Introduction », dans Guglielmo
+          Cavallo et Roger Chartier (dir.), <hi rend="italic">Histoire de la
+          lecture dans le monde occidental</hi>, Paris, Seuil.</bibl>
+          <bibl xml:id="d1e935">
+            <hi rend="small-caps">Cepek</hi>, 2018 :
+          Michael L. <hi rend="small-caps">Cepek,</hi>
+            <hi rend="italic">Life
+          in Oil: Cofán Survival in the Petroleum Fields of Amazonia</hi>,
+          Texas, University of Texas Press.</bibl>
+          <bibl xml:id="d1e945">
+            <hi rend="small-caps">Chartier</hi>, 2013 :
+          Roger <hi rend="small-caps">Chartier</hi>, « Pouvoirs de l’écrit et
+          manières de lire », dans Michel Jeanneret <hi rend="italic">et al.</hi>, <hi rend="italic">Le lecteur à
+          l’œuvre</hi>, Gollion, Infolio.</bibl>
+          <bibl xml:id="d1e958">
+            <hi rend="small-caps">Chatelain</hi>, 1999 :
+          Jean-Marc <hi rend="small-caps">Chatelain</hi>, « Humanisme et
+          culture de la note », <hi rend="italic">Revue de la Bibliothèque
+          nationale de</hi> <hi rend="italic">France</hi>, 2, Jean-Marc
+          Chatelain (dir.), <hi rend="italic">Le livre annoté</hi>,
+          p. 26-37.</bibl>
+          <bibl xml:id="d1e974">
+            <hi rend="small-caps">Chrétien</hi>, 2014 :
+          Jean-Louis <hi rend="small-caps">Chrétien</hi>, <hi rend="italic">L’Espace intérieur</hi>, Paris, Éditions
+          de Minuit.</bibl>
+          <bibl xml:id="d1e985">
+            <hi rend="small-caps">Corbin</hi>, 2005
+          (1977) : Henry <hi rend="small-caps">Corbin</hi>, <hi rend="italic">Corps spirituel et Terre céleste</hi>. <hi rend="italic">De l’Iran Mazdéen à l’Iran Shî’ite</hi>, 3<hi rend="sup">e</hi> éd., Paris, Buchet Chastel.</bibl>
+          <bibl xml:id="d1e1001">
+            <hi rend="small-caps">Dickey, 2007 :</hi>
+          Eleanor <hi rend="small-caps">Dickey</hi>, <hi rend="italic">Ancient
+          Greek Scholarship: A Guide to Finding, Reading, and Understanding
+          Scholia, Commentaries, Lexica, and Grammatical Treatises, from their
+          Beginnings to the Byzantine Period</hi>, Oxford, Oxford University
+          Press.</bibl>
+          <bibl xml:id="d1e1011">
+            <hi rend="small-caps">Eden</hi>, 2012 : Kathy
+          <hi rend="small-caps">Eden</hi>, <hi rend="italic">The Renaissance
+          Rediscovery of Intimacy</hi>, Chicago, University of Chicago
+          Press.</bibl>
+          <bibl xml:id="d1e1021">
+            <hi rend="small-caps">Fabre</hi>, 2016 :
+          Sylvie <hi rend="small-caps">Fabre</hi>, « Référencement naturel et
+          production des écrits web », <hi rend="italic">Semen. Revue de
+          sémio-linguistique des textes et discours</hi>, 41, <hi rend="italic">L’énonciation éditoriale</hi>, <ref target="https://doi.org/10.4000/semen.10583">https://doi.org/10.4000/semen.10583</ref>.</bibl>
+          <bibl xml:id="d1e1037">
+            <hi rend="small-caps">Gómez-Barris</hi>,
+          2017 : Macarena <hi rend="small-caps">Gómez-Barris</hi>, <hi rend="italic">The Extractive Zone: Social Ecologies and Decolonial
+          Perspectives</hi>, Durham, Duke University Press Books.</bibl>
+          <bibl xml:id="d1e1047">
+            <hi rend="small-caps">Gomez-Mejia</hi>, <hi rend="small-caps">Nicey</hi> et <hi rend="small-caps">Vaezi</hi>,
+          2016 : Gustavo <hi rend="small-caps">Gomez-Mejia</hi>, Jérémy <hi rend="small-caps">Nicey</hi> et Shabnam <hi rend="small-caps">Vaezi</hi>, « Questionner les pouvoirs éditoriaux
+          de Google », <hi rend="italic">Communication &amp; langages</hi>,
+          188, 2, p. 23-43.</bibl>
+          <bibl xml:id="d1e1070">
+            <hi rend="small-caps">Griesemer</hi> et <hi rend="small-caps">Leigh Star</hi>, 1989 : James R. <hi rend="small-caps">Griesemer</hi> et Susan <hi rend="small-caps">Leigh Star</hi>, « Institutional Ecology,
+          ‘Translations’ and Boundary Objects: Amateurs and Professionals in
+          Berkeley’s Museum of Vertebrate Zoology, 1907-39 », <hi rend="italic">Social Studies of Science</hi>, 19, 3,
+          p. 387-420.</bibl>
+          <bibl xml:id="d1e1086">
+            <hi rend="small-caps">Hamesse</hi>, 2001 :
+          Jacqueline <hi rend="small-caps">Hamesse</hi>, « Le modèle
+          scolastique de la lecture », dans Guglielmo Cavallo et Roger
+          Chartier (dir.)<hi rend="italic">, </hi>
+            <hi rend="italic">Histoire
+          de la lecture dans le monde occidental</hi>, Paris, Seuil.</bibl>
+          <bibl xml:id="d1e1098">
+            <hi rend="small-caps">Illich</hi>, 1991 :
+          Ivan <hi rend="small-caps">Illich</hi>, <hi rend="italic">Du lisible
+          au visible. La naissance du texte, un commentaire du
+          « Didascalicon</hi>
+            <hi rend="italic"> </hi>
+            <hi rend="italic">» de
+          Hugues de Saint-Victor</hi>, Paris, Cerf.</bibl>
+          <bibl xml:id="d1e1112">
+            <hi rend="small-caps">Illich</hi>, 2004 :
+          Ivan <hi rend="small-caps">Illich</hi>, <hi rend="italic">La perte
+          des sens</hi>, Paris, Fayard.</bibl>
+          <bibl xml:id="d1e1122">
+            <hi rend="small-caps">Illich</hi> et <hi rend="small-caps">Cayley,</hi> 2007 : Ivan <hi rend="small-caps">Illich</hi> et David <hi rend="small-caps">Cayley</hi>, « L’Âge des systèmes », dans Ivan
+          Illich et David Cayley, <hi rend="italic">La corruption du meilleur
+          engendre le pire</hi>, Arles, Actes Sud.</bibl>
+          <bibl xml:id="d1e1139">
+            <hi rend="small-caps">Jacquot</hi>, <hi rend="small-caps">Jahjah</hi>, 2020 : Clémence <hi rend="small-caps">Jacquot</hi> et Marc <hi rend="small-caps">Jahjah</hi>, « L’énigme du textiel littéraire »,
+          <hi rend="italic">Corela</hi>, HS 33, <hi rend="italic">Textuel,
+          textiel. Repenser la textualité numérique</hi>, <ref target="https://doi.org/10.4000/corela.11828">https://doi.org/10.4000/corela.11828</ref>.</bibl>
+          <bibl xml:id="d1e1162">
+            <hi rend="small-caps">Jacob</hi>, 2001 :
+          Christian <hi rend="small-caps">Jacob</hi>, « La carte des mondes
+          lettrés », dans Lucie Giard et Christian Jacob (dir.), <hi rend="italic">Des Alexandries</hi>, t. 1,<hi rend="italic"> Du livre
+          au texte</hi>, Paris, Éditions de la BnF, p. 11-40.</bibl>
+          <bibl xml:id="d1e1175">
+            <hi rend="small-caps">Jacob</hi>, 2014 :
+          Christian Jacob, <hi rend="italic">Qu’est-ce qu’un lieu de
+          savoir</hi>
+            <hi rend="italic"> </hi>
+            <hi rend="italic">?</hi>,
+          Marseille, OpenEdition Press, en ligne : <ref target="https://books.openedition.org/oep/652">https://books.openedition.org/oep/652</ref>.</bibl>
+          <bibl xml:id="d1e1189">
+            <hi rend="small-caps">Jahjah</hi>, 2014 :
+          Marc <hi rend="small-caps">Jahjah</hi>, « Les marginalia de lecture
+          dans les “réseaux sociaux” du livre (2008-2014) : mutations, formes,
+          imaginaires », thèse de doctorat, EHESS.</bibl>
+          <bibl xml:id="d1e1196">
+            <hi rend="small-caps">Jahjah</hi>, 2017a :
+          Marc <hi rend="small-caps">Jahjah</hi>, « “Annoter le monde et
+          améliorer l’humanité” : les imaginaires matériels d’un logiciel
+          d’annotation », dans Gérald Kembellec et Évelyne Broudoux (dir.),
+          <hi rend="italic">Écrilecture augmentée dans les communautés
+          scientifiques</hi>, Londres, ISTE éditions, p. 71-88.</bibl>
+          <bibl xml:id="d1e1206">
+            <hi rend="small-caps">Jahjah</hi>, 2017b :
+          Marc Jahjah, « État de l’art théorique, méthodologique et critique
+          sur les “usages” et les “pratiques” », rapport pour la Bibliothèque
+          nationale de France, en ligne : <ref target="https://multimedia-ext.bnf.fr/pdf/mettre_en_ligne_patrimoine_etat_art.pdf">https://multimedia-ext.bnf.fr/pdf/mettre_en_ligne_patrimoine_etat_art.pdf</ref>.</bibl>
+          <bibl xml:id="d1e1213">
+            <hi rend="small-caps">Jahjah</hi>, 2018 :
+          Marc <hi rend="small-caps">Jahjah</hi>, « Culture imprimée et
+          culture numérique : au-delà de Gutenberg, les enjeux du “texte
+          livresque” », <hi rend="italic">Revue de la bibliothèque nationale
+          universitaire de Strasbourg</hi>, hors-série Gutenberg (1468-2018),
+          p. 90-99.</bibl>
+          <bibl xml:id="d1e1223">
+            <hi rend="small-caps">Jahjah</hi>, 2020 :
+          Marc <hi rend="small-caps">Jahjah</hi>, « Du lisible au visible : la
+          naissance du texte, une méthode critique pour penser l’“éthique
+          perceptive” de la culture numérique ? », <hi rend="italic">Communication &amp; Langages</hi>, 204, 2,
+          p. 79-93.</bibl>
+          <bibl xml:id="d1e1233">
+            <hi rend="small-caps">Jeanneret</hi> et <hi rend="small-caps">Souchier</hi>, 2009 : Yves <hi rend="small-caps">Jeanneret</hi> et Emmanuel <hi rend="small-caps">Souchier</hi>, « Architextes », dans Driss Ablali
+          et Dominique Ducard (dir.), <hi rend="italic">Vocabulaire des études
+          sémiotiques et sémiologiques</hi>, Paris/Besançon, Honoré
+          Champion/Presses universitaires de Franche-Comté, p. 158-159.</bibl>
+          <bibl xml:id="d1e1249">
+            <hi rend="small-caps">Landivar</hi>, 2021 :
+          Diego <hi rend="small-caps">Landivar</hi>, « Animisme, patrimoine,
+          communs. Revendications ontologiques face au libéralisme tardif et à
+          l’anthropocène », <hi rend="italic">In Situ. Au regard des sciences
+          sociales</hi>, <hi rend="italic">Patrimoine et commun(s)</hi>, <ref target="https://doi.org/10.4000/insituarss.1338">https://doi.org/10.4000/insituarss.1338</ref>.</bibl>
+          <bibl xml:id="d1e1265">
+            <hi rend="small-caps">Laugier, 2011</hi> :
+          Sandra <hi rend="small-caps">Laugier</hi>, « Le commun comme
+          ordinaire et comme conversation », <hi rend="italic">Multitudes</hi>, 45, 2, p. 104-112.</bibl>
+          <bibl xml:id="d1e1276">
+            <hi rend="small-caps">Letrouit</hi>, 1999 :
+          Jean <hi rend="small-caps">Letrouit</hi>, « La prise de notes de
+          cours sur support imprimé dans les collèges parisiens au <hi rend="small-caps">xvi</hi>
+            <hi rend="sup">e</hi> siècle », <hi rend="italic">Revue de la Bibliothèque nationale de</hi> <hi rend="italic">France</hi>, 2, Jean-Marc Chatelain (dir.), <hi rend="italic">Le livre annoté</hi>, p. 47-57.</bibl>
+          <bibl xml:id="d1e1298">
+            <hi rend="small-caps">Lorenzini</hi>, 2015 :
+          Daniele <hi rend="small-caps">Lorenzini</hi>, <hi rend="italic">Éthique et politique de soi. Foucault, Hadot, Cavell
+          et les techniques de l’ordinaire</hi>, Paris, Vrin.</bibl>
+          <bibl xml:id="d1e1308">
+            <hi rend="small-caps">Maehler</hi>, 1999 :
+          Herwig <hi rend="small-caps">Maehler</hi>, « L’évolution matérielle
+          de l’hypomnema jusqu’à la basse époque », dans Marie-Odile
+          Goulet-Cazé (dir.), <hi rend="italic">Le commentaire entre tradition
+          et innovation</hi>, Paris, Vrin, p. 101-119.</bibl>
+          <bibl xml:id="d1e1318">
+            <hi rend="small-caps">Marrone</hi>, 2016 :
+          Gianfranco <hi rend="small-caps">Marrone</hi>, <hi rend="italic">Principes de la sémiotique du texte</hi>, Paris,
+          Mimesis.</bibl>
+          <bibl xml:id="d1e1328">
+            <hi rend="small-caps">McNamee</hi>, 2007 :
+          Kathleen <hi rend="small-caps">McNamee</hi>, <hi rend="italic">Annotations in Greek and Latin texts from Egypt</hi>,
+          Durham, American Society of Papyrologists.</bibl>
+          <bibl xml:id="d1e1338">
+            <hi rend="small-caps">Meiu</hi>, 2020 :
+          Georges Paul <hi rend="small-caps">Meiu</hi>, « Panics over
+          Plastics: A Matter of Belonging in Kenya », <hi rend="italic">American Anthropologist</hi>, 122, 2,
+          p. 222-235.</bibl>
+          <bibl xml:id="d1e1348">
+            <hi rend="small-caps">Pedler</hi> et <hi rend="small-caps">Cheyronnaud</hi>, 2018 : Emmanuel <hi rend="small-caps">Pedler</hi> et Jacques <hi rend="small-caps">Cheyronnaud</hi> (dir.), <hi rend="italic">La forme spectacle</hi>, Paris, Éditions de
+          l’EHESS.</bibl>
+          <bibl xml:id="d1e1364">
+            <hi rend="small-caps">Petrucci</hi>, 1995 :
+          Armando <hi rend="small-caps">Petrucci</hi>, <hi rend="italic">Writers and Readers in Medieval Italy: Studies in the
+          History of Written Culture</hi>, New Haven, Yale University
+          Press.</bibl>
+          <bibl xml:id="d1e1374">
+            <hi rend="small-caps">Pignarre</hi> et <hi rend="small-caps">Stengers</hi>, 2007 : Philippe <hi rend="small-caps">Pignarre</hi> et Isabelle <hi rend="small-caps">Stengers</hi>, <hi rend="italic">La sorcellerie
+          capitaliste</hi>, Paris, La Découverte.</bibl>
+          <bibl xml:id="d1e1390">
+            <hi rend="small-caps">Rhodes</hi> et <hi rend="small-caps">Sawsay</hi>, 2002 : Neil <hi rend="small-caps">Rhodes</hi> et Jonathan <hi rend="small-caps">Sawsay</hi>, <hi rend="italic">The Renaissance
+          Computer</hi>, Londres, Routledge.</bibl>
+          <bibl xml:id="d1e1406">
+            <hi rend="small-caps">Radomska</hi>, <hi rend="small-caps">Mehrabi</hi> et <hi rend="small-caps">Lykke</hi>,
+          2020 : Marietta <hi rend="small-caps">Radomska</hi>, Tara <hi rend="small-caps">Mehrabi</hi> et Nina <hi rend="small-caps">Lykke</hi>, « Queer Death Studies: Death, Dying
+          and Mourning from a Queerfeminist Perspective », <hi rend="italic">Australian Feminist Studies</hi>, 35, 104,
+          p. 81-100.</bibl>
+          <bibl xml:id="d1e1430">
+            <hi rend="small-caps">Roudaut</hi>, 2003 :
+          François <hi rend="small-caps">Roudaut</hi>, <hi rend="italic">Le
+          Livre au </hi>
+            <hi rend="small-caps italic">xvi</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> siècle. Éléments de
+          bibliologie matérielle et d’histoire</hi>, Paris, Honoré
+          Champion.</bibl>
+          <bibl xml:id="d1e1446">
+            <hi rend="small-caps">Rouse</hi> et <hi rend="small-caps">Rouse</hi>, 1989 : Mary A. <hi rend="small-caps">Rouse</hi> et Richard H. <hi rend="small-caps">Rouse</hi>, « La naissance des index », dans
+          Henri-Jean Martin et Roger Chartier (dir.), <hi rend="italic">Histoire de l’édition française</hi>, t. 1,<hi rend="italic"> Le livre conquérant. Du Moyen Âge au milieu du
+          </hi>
+            <hi rend="small-caps italic">xvii</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> siècle</hi>, Paris,
+          Fayard/Cercle de la Librairie, p. 95-108.</bibl>
+          <bibl xml:id="d1e1472">
+            <hi rend="small-caps">Roustang</hi>, 1994 :
+          François <hi rend="small-caps">Roustang</hi>, <hi rend="italic">Qu’est-ce que l’hypnose</hi>
+            <hi rend="italic"> </hi>
+            <hi rend="italic">?</hi>, Paris, Éditions
+          de Minuit.</bibl>
+          <bibl xml:id="d1e1486">
+            <hi rend="small-caps">Saemmer</hi>, 2020 :
+          Alexandra <hi rend="small-caps">Saemmer</hi>, « De l’architexte au
+          computexte Poétiques du texte numérique, face à l’évolution des
+          dispositifs », <hi rend="italic">Communication &amp; langages</hi>,
+          203, 1, p. 99-114.</bibl>
+          <bibl xml:id="d1e1496">
+            <hi rend="small-caps">Santos</hi>, 2011 :
+          Boaventura de Sousa <hi rend="small-caps">Santos</hi>,
+          « Épistémologies du Sud », <hi rend="italic">Études rurales</hi>,
+          187, p. 21-50.</bibl>
+          <bibl xml:id="d1e1506">
+            <hi rend="small-caps">Schott</hi>, 2012 :
+          Christine Marie <hi rend="small-caps">Schott</hi>, « Intimate
+          Reading: Marginalia in Medieval Manuscripts », thèse de doctorat,
+          University of Virginia.</bibl>
+          <bibl xml:id="d1e1513">
+            <hi rend="small-caps">Souchier</hi>
+            <hi rend="italic">et al.</hi>, 2019 : Emmanuel <hi rend="small-caps">Souchier</hi>, Étienne <hi rend="small-caps">Candel</hi>, Gustavo <hi rend="small-caps">Gomez-Mejia</hi> et Valéry Jeanne-Perrier, <hi rend="italic">Le numérique comme écriture</hi>, Paris,
+          Hermann.</bibl>
+          <bibl xml:id="d1e1532">
+            <hi rend="small-caps">Tura</hi>, 2005 :
+          Adolfo <hi rend="small-caps">Tura</hi>, « Essai sur les marginalia
+          en tant que pratique et documents » dans Danielle Jacquart et
+          Charles Burnett (dir.), <hi rend="italic">Scientia in Margine.
+          Études sur les marginalia dans les manuscrits scientifiques du Moyen
+          Âge à la Renaissance</hi>, Genève, Droz, p. 261-380.</bibl>
+          <bibl xml:id="d1e1542">
+            <hi rend="small-caps">Vallet </hi>
+            <hi rend="italic">et al.</hi>, 2013 : Éric <hi rend="small-caps">Vallet</hi>, Sandra<hi rend="small-caps">
+          Aube</hi> et Thierry<hi rend="small-caps"> Kouamé</hi>, <hi rend="italic">Lumières de la sagesse</hi>. <hi rend="italic">Écoles
+          médiévales d’Orient et d’Occident</hi>, Paris, Publications de
+          la Sorbonne.</bibl>
+          <bibl xml:id="d1e1564">
+            <hi rend="small-caps">Weijers</hi>, 2010 :
+          Olga <hi rend="small-caps">Weijers</hi>, « Les instruments de
+          travail au Moyen Âge, quelques remarques », dans Jean-François
+          Gilmont et Alexandre Vanautgaerden (dir.), <hi rend="italic">Les instruments de travail à la Renaissance</hi>,
+          Turnhout, Brepols.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

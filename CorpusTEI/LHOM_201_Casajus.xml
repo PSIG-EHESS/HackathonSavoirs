@@ -1,0 +1,1454 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:marcrel="http://www.loc.gov/loc.terms/relators" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:ns2="http://www.w3.org/1999/xhtml" xmlns:trans="http://docbook.org/ns/transclusion" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xila="http://www.w3.org/2001/XInclude/local-attributes" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LHOM_201_Casajus">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Écritures ordinaires en pays touareg</title>
+        <author role="aut">
+          <forename>Dominique</forename>
+          <surname>Casajus</surname>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="SN">
+            <forename>Sara</forename>
+            <surname>Nadal</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2020">2020</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification 3.0 non transposé - CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/NRUVXF6H" type="journalArticle" xml:lang="fr">
+          <analytic>
+            <title level="a">Écritures ordinaires en pays touareg</title>
+            <idno type="DOI">10.4000/lhomme.22929</idno>
+            <author>
+              <forename>Dominique</forename>
+              <surname>Casajus</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">L’Homme. Revue française d’anthropologie</title>
+            <idno type="ISSN">0439-4216</idno>
+            <imprint>
+              <biblScope unit="issue">201</biblScope>
+              <biblScope unit="page">31-54</biblScope>
+              <date>2012</date>
+              <note type="url">https://journals.openedition.org/lhomme/22929</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>alphabet – écriture libyco-berbère</item>
+            <item>art épistolaire</item>
+            <item>syllabaire</item>
+            <item>écriture consonantique</item>
+            <item>Touaregs</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>Libyco-Berber Script</item>
+            <item>Letter-Writing</item>
+            <item>Sillabary</item>
+            <item>Vowless Alphabet</item>
+            <item>Tuaregs</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2448083" type="geonames" xml:base="https://www.geonames.org/">Agadez</placeName>
+          </term>
+          <term>
+            <placeName ref="2478217" type="geonames" xml:base="https://www.geonames.org/">Tamanrasset</placeName>
+          </term>
+          <term>
+            <placeName ref="2464461" type="geonames" xml:base="https://www.geonames.org/">Tunisie</placeName>
+          </term>
+          <term>
+            <placeName ref="2378080" type="geonames" xml:base="https://www.geonames.org/">Mauritanie</placeName>
+          </term>
+          <term>
+            <placeName ref="11204220" type="geonames" xml:base="https://www.geonames.org/">Alger</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1700" to="1799" type="_temp">
+              <hi rendition="#T10">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          </term>
+          <term>
+            <date from="1960" to="1969" type="_temp">années 1960</date>
+          </term>
+          <term>
+            <date from="1913" to="1914" type="_temp">1913-1914</date>
+          </term>
+          <term>
+            <date from="-0100" to="-0200" type="_temp">IIe siècle av.
+            J.-C</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Écritures ordinaires en pays
+          touareg</titlePart>
+        </docTitle>
+        <docAuthor>Dominique Casajus</docAuthor>
+      </titlePage>
+      <div type="abstract" xml:id="d1e81" xml:lang="fr">
+        <p xml:id="d1e82">Les Touaregs disposent d’un vieil alphabet dont les
+        caractères reçoivent le nom de <hi rend="italic">tafineq</hi>, terme
+        qui pourrait être un souvenir du mot dont les Grecs désignaient les
+        Phéniciens. Cet alphabet autochtone, qui dérive d’alphabets – dits
+        libyques – dont la plus ancienne attestation datée remonte au milieu
+        du IIe siècle avant J.-C., cohabite avec deux alphabets d’origine
+        étrangère : l’alphabet arabe et l’alphabet latin. Il ne sert qu’à la
+        rédaction de textes courts : lettres à des proches, graffiti sur les
+        arbres, sur les rochers ou les ustensiles quotidiens. L’article se
+        concentre sur l’usage dans cet alphabet dans la pratique épistolaire,
+        tout en faisant sa place à l’usage dans la même pratique de l’alphabet
+        latin. Il aborde également les tentatives faites aujourd’hui pour
+        moderniser cet alphabet.</p>
+      </div>
+      <div type="abstract" xml:id="d1e93" xml:lang="en">
+        <p xml:id="d1e94">The Tuareg have an old alphabet with characters
+        called <hi rend="italic">tafineq</hi>, a word that might refer back to
+        the term used by the Greeks to refer to Phoenicians. This autochtonous
+        alphabet derived from older « Libyco-Berber » scripts, which are
+        attested as far back as the middle of the second century BCE. It
+        coexists with two alphabets of foreign origin : Arabic and Latin. It
+        is only used to write short texts : letters to people who are close,
+        graffiti on trees or rocks, or inscriptions on utensils. This article
+        focuses on how this alphabet is used for letterwriting even though
+        this activity allows for using the Latin alphabet too. Recent attempts
+        to reform the Tuareg’s alphabet are discussed.</p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <p xml:id="d1e106">S<hi rendition="#T10">elon les catégorisations</hi>
+        qu’ils affectionnent, les ethnologues rangeraient plutôt la société
+        touarègue parmi les sociétés de culture orale. Les choses sont en
+        réalité plus complexes, car s’il est un fait que leur littérature est
+        presque exclusivement orale, les Touaregs écrivent, et depuis fort
+        longtemps. Ils disposent pour cela d’un vieil alphabet dont les
+        caractères reçoivent le nom spécifique de <hi rend="italic">tafineq</hi> (pl. <hi rend="italic">tifinagh</hi>), mot
+        qui, au pluriel, sert à désigner l’alphabet lui-même. Cet alphabet
+        autochtone coexiste avec deux alphabets d’origine étrangère :
+        l’alphabet arabe, que l’islam a introduit chez eux il y a plusieurs
+        siècles, et l’alphabet latin, que la scolarisation commence à
+        répandre. Ceux-ci ne reçoivent pas de dénomination particulière : on
+        leur applique un terme générique dont les réalisations dialectales
+        sont <hi rend="italic">esekkil</hi> ou <hi rend="italic">eshekkul</hi>
+        (pl. <hi rend="italic">isekkilen</hi> ou <hi rend="italic">ishekkulen</hi>), et qui désigne tout signe graphique, à
+        quelque système d’écriture qu’il appartienne. Presque tous les
+        Touaregs ont une connaissance au moins rudimentaire de leur propre
+        alphabet, alors que seuls ceux, relativement peu nombreux encore, qui
+        ont fréquenté l’école coranique ou l’enseignement officiel maîtrisent
+        les alphabets arabe ou latin. Je parlerai ici surtout du premier, tout
+        en faisant leur place aux deux autres car leur présence à ses côtés
+        n’est pas sans incidence sur la perception qu’en ont ses utilisateurs.
+        Une perception sur laquelle pèse aussi le passé qu’ils lui supposent.
+        C’est pourquoi je commencerai par évoquer ce passé, avant d’aborder ce
+        qui constitue le principal usage de cet alphabet : l’art épistolaire.
+        Le présent article se veut donc à la fois une contribution à
+        l’ethnographie d’une société particulière et une intervention dans les
+        débats que plusieurs parmi nous consacrent aux écritures qu’ils
+        appellent quotidiennes, ordinaires<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Une première version de cet article a été exposée au colloque
+            « Anthropologie et histoire de la mutation graphique et de ses
+            effets. Autour d’Armando Petrucci » (Rome, janvier 2003).<lb/>Je
+            pense notamment aux volumes édités par Daniel Fabre (1993, 1997),
+            ainsi qu’aux travaux de Bernard Lahire (cf., notamment, 2001 : 211
+            <hi rend="italic">sq</hi>.).</p>
+          </note>, ou encore domestiques<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Pour reprendre le titre de la contribution de Jean-Pierre
+            Albert à l’un des deux volumes cités précédemment (Albert
+            1993).</p>
+          </note>.</p>
+        <div type="div1" xml:id="d1e143">
+          <head subtype="level1" xml:id="d1e144">Un vieil alphabet</head>
+          <p xml:id="d1e146">Pour les Touaregs sahéliens, les inscriptions
+          rupestres qu’on rencontre sur leurs terres de parcours, parfois si
+          vieilles qu’ils ne parviennent pas à les déchiffrer, attestent la
+          grande antiquité de leur écriture. Ils attribuent les plus anciennes
+          à un personnage nommé, selon les régions, Aniguran ou Arigulan, qui
+          les aurait tracées de son doigt aux temps lointains où il pleuvait
+          tant sur le monde que les rochers s’étaient amollis. Quant à
+          l’alphabet lui-même, une légende reçue à l’ouest du <placeName ref="2440476" type="geonames" xml:base="https://www.geonames.org/">Niger</placeName> en fait
+          remonter l’origine à l’antéislam et donne à son inventeur le nom
+          d’<persName type="_temp">Amerolqis</persName> (Aghali-Zakara &amp;
+          Drouin 1979, 2007), vocable sous lequel on reconnaît une figure
+          illustre de l’Arabie archaïque : le poète <persName type="_temp">Imrû’l-Qays</persName>. C’est que, comme l’étude des
+          poésies antéislamiques a été tenue depuis l’époque omayyade pour
+          indispensable à la bonne compréhension du Coran, elles se sont
+          diffusées très tôt jusqu’aux extrémités du monde musulman, avec la
+          geste et le nom de leurs auteurs supposés (Casajus 2000a). Tel est
+          pour les Touaregs le paradoxe de leur alphabet : le nom du héros
+          païen auquel ils attribuent son invention leur a été enseigné par
+          ceux-là mêmes qui, en les convertissant à l’islam, ont répandu parmi
+          eux l’usage d’un autre alphabet. Il nous sera décidément difficile
+          d’oublier que les <hi rend="italic">tifinagh</hi> coexistent avec
+          d’autres <hi rend="italic">isekkilen</hi>.</p>
+          <p xml:id="d1e154">Plus prosaïques qu’eux, nos érudits s’accordent
+          cependant avec les Touaregs sur l’ancienneté des <hi rend="italic">tifinagh</hi>. Dès le milieu du <date from="1800" to="1899" type="_temp">
+              <hi rendition="#T10">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>, ils les ont rapprochées de
+          l’écriture dite libyque, connue par des inscriptions découvertes
+          dans les régions où les Anciens situaient la <placeName ref="8378522" type="geonames" xml:base="https://www.geonames.org/">Numidie</placeName> et la
+          <placeName ref="2378080" type="geonames" xml:base="https://www.geonames.org/">Mauritanie</placeName>.
+          Certaines de ces inscriptions sont des bilingues où l’alphabet
+          libyque côtoie le punique ou le latin, ce qui a permis le
+          déchiffrement au moins partiel de ses variantes les plus orientales.
+          Leur langue elle-même nous est largement inconnue mais quelques mots
+          déchiffrés laissent penser qu’elle se rattache à la famille berbère,
+          dont le touareg fait partie. Aucune de ces inscriptions n’a pu être
+          datée avec certitude, hormis une bilingue mise au jour à <placeName ref="11904208" type="geonames" xml:base="https://www.geonames.org/">Dougga</placeName> (<placeName ref="2464461" type="geonames" xml:base="https://www.geonames.org/">Tunisie</placeName>), et que
+          son incipit situe « en l’an dix du [roi] Micipsa », c’est-à-dire en
+          139 avant J.-C<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Gabriel Camps a cru pouvoir faire remonter au <hi rendition="#T10">vi</hi>
+                <hi rend="sup">e</hi> siècle avant
+              J.-C. une inscription trouvée dans l’Atlas marocain, mais, comme
+              je l’ai montré ailleurs (Casajus 2011), ses arguments, repris un
+              peu hâtivement par Chaker &amp; Hachi (2000), étaient
+              fragiles.</p>
+            </note>. Plusieurs signes libyques se retrouvent parmi les <hi rend="italic">tifinagh</hi> avec la même valeur et des formes
+          semblables. Ces similitudes autorisent à supposer que les alphabets
+          libyques ont évolué vers les <hi rend="italic">tifinagh</hi>
+          modernes, dans une dérive bimillénaire dont des inscriptions
+          sahariennes encore obscures représenteraient les états
+          intermédiaires, et les gravures sahéliennes attribuées à <persName type="_temp">Aniguran</persName>, le stade pénultième.</p>
+          <p xml:id="d1e179">L’origine de l’alphabet libyque a fait l’objet
+          d’un long débat. Certains y ont vu un emprunt au punique. De fait,
+          quelques signes libyques ressemblent à leurs correspondants dans les
+          alphabets sémitiques anciens ; à quoi s’ajoute la proximité, relevée
+          depuis longtemps, entre <hi rend="italic">tafineq</hi>, où l’on peut
+          isoler une racine FNGh ou FYNGh<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Le <hi rend="italic">Gh</hi> (ou <hi rend="italic">gh</hi>)
+              note ici la vélaire constrictive sonore.</p>
+            </note>, et le mot avec lequel les Grecs désignaient les
+          Phéniciens. Si <hi rend="italic">tafineq</hi> remonte à l’Antiquité,
+          il faudrait supposer que les anciens Libyques, eux aussi, disaient
+          écrire avec des <hi rend="italic">phoinikeia grammata</hi>.
+          L’hypothèse de l’emprunt au punique s’exprime cependant aujourd’hui
+          avec quelques nuances : s’il ne fait pas de doute que les peuples
+          auxquels nous devons les inscriptions dites libyques ont emprunté
+          aux colons puniques l’idée de l’écriture alphabétique en tant que
+          telle, les signes en eux-mêmes semblent avoir été pour une bonne
+          part une création locale (Février 1959 : 323 ; Galand 2001 : 2 ;
+          Pichler 2007).</p>
+          <p xml:id="d1e200">Aujourd’hui, les Touaregs n’utilisent les <hi rend="italic">tifinagh</hi> que pour des textes courts : lettres à
+          des proches, graffiti sur les arbres, sur les rochers ou les
+          ustensiles quotidiens. On écrit de droite à gauche, de gauche à
+          droite, de bas en haut, ou en boustrophédon. En principe, seules les
+          consonnes sont notées. Cependant, certains scripteurs notent
+          sporadiquement les voyelles en fin de mot par un point. Au
+          <placeName ref="2508584" type="geonames" xml:base="https://www.geonames.org/">Hoggar</placeName>, ce point
+          note seulement le <hi rend="italic">a</hi>, tandis que le <hi rend="italic">u</hi> ou le <hi rend="italic">i</hi> finaux sont
+          notés respectivement par W et Y, usage qui rappelle les <hi rend="italic">matres lectionis</hi> des anciens Sémites et dont nous
+          allons voir qu’il inspire aujourd’hui les créateurs d’alphabet. Deux
+          consonnes qui se suivent sans intervalle vocalique peuvent être
+          figurées par une ligature. Par exemple, on peut figurer la séquence
+          consonantique <hi rend="italic">rt</hi> par le signe B, où le +
+          notant le <hi rend="italic">t</hi> est inscrit dans le O notant le
+          <hi rend="italic">r</hi>. Ces ligatures n’existent pas pour toutes
+          les séquences susceptibles d’apparaître dans la langue, et seuls les
+          scripteurs les plus expérimentés savent les utiliser. Les signes se
+          suivent le plus souvent sans discontinuité, mais quelques scripteurs
+          ont l’habitude d’isoler les mots par un trait [voir planches].</p>
+          <p xml:id="d1e227">La lecture se fait toujours à haute voix. Pour
+          emprunter un exemple à une des lettres qui seront commentées plus
+          loin, le lecteur ayant à déchiffrer la séquence RGhLFSNSN chante une
+          sorte de récitatif qu’on peut transcrire comme <hi rend="italic">RäGhäLäFäSäNäSäNä</hi>, où <hi rend="italic">ä</hi>
+          transcrit une voyelle d’articulation à peu près centrale ; et il
+          interprète cette séquence sonore comme <hi rend="italic">eRiGh
+          eLFaSeN eSsiN</hi> : « je veux/pioches/deux (= je voudrais deux
+          pioches) ». La lecture suppose donc un passage par l’oral. Non pas
+          seulement parce qu’on lit toujours à haute voix ; ni non plus parce
+          que, comme pour un texte hébraïque ou arabe dépourvu de signes
+          diacritiques, l’absence des voyelles réclame qu’un lecteur vienne
+          les apporter pour rendre le texte compréhensible (Alvarez-Pereyre
+          1989 : 25). Car l’hébraïsant ou l’Arabe qui prononce les voyelles
+          brèves absentes de l’écrit profère une parole immédiatement
+          intelligible. Ce que le Touareg prononce n’est pas un texte où il
+          aurait incorporé les voyelles manquant dans la graphie, mais une
+          séquence sans signification où les voyelles ont une valeur
+          indéterminée. Entre le LFSNSN qu’il a sous les yeux et le <hi rend="italic">eLFaSeN eSsiN</hi> qu’il comprend finalement,
+          s’intercale le <hi rend="italic">LäFäSäNäSäNä</hi> qu’il a prononcé
+          à haute voix, intermédiaire qui n’existe pas pour le lecteur hébreu
+          ou arabe. Celui-ci, comme d’ailleurs un lecteur français qui
+          pratiquerait la lecture à haute voix, s’entend lire ce qu’il
+          déchiffre ; le Touareg déchiffre ce qu’il s’entend lire. La lecture
+          est pour lui la combinaison de deux opérations disjointes :
+          l’émission d’une séquence sonore, et un déchiffrement. Opérations
+          qui peuvent d’ailleurs être effectuées par deux personnes
+          distinctes : lorsqu’un lecteur syllabe à haute voix, ceux qui
+          l’entourent déchiffrent en même temps que lui, en se fondant sur ce
+          qu’ils entendent et non sur ce qu’ils lisent. C’est d’ailleurs
+          souvent comme cela que procédaient les Touaregs qui me demandaient
+          de leur lire leurs lettres. Je devais lire à leur manière, tandis
+          qu’ils déchiffraient la suite de sons que j’émettais à haute voix
+          sans toujours comprendre. Bien entendu, lorsque le lecteur devine
+          d’emblée le sens de ce qu’il a sous les yeux, il peut se dispenser
+          de la syllabation intermédiaire, mais il est forcé d’y revenir dès
+          que ce sens n’est pas immédiatement apparent.</p>
+          <p xml:id="d1e244">Voilà qui justifie une brève digression.
+          <persName type="idref" xml:base="https://www.idref.fr/">Ignace
+          Gelb</persName> (1973) proposa naguère de voir dans les anciennes
+          écritures sémitiques non des alphabets consonantiques comme on le
+          fait généralement, mais des syllabaires où le signe C représenterait
+          une syllabe <hi rend="italic">Cx</hi> composée d’une consonne donnée
+          c et d’une voyelle variable <hi rend="italic">x</hi> que seul le
+          contexte détermine. Ses arguments étaient forcément indirects.
+          Ainsi, le fait que les anciens Sémites aient éprouvé le besoin de
+          créer des marques comme le <hi rend="italic">sukun</hi> arabe ou le
+          <hi rend="italic">shewa</hi> hébreu pour indiquer le manque de
+          voyelle signifiait à ses yeux que « chaque signe valait d’abord pour
+          une syllabe complète, c’est-à-dire une syllabe [il voulait dire
+          “consonne”] plus une voyelle » (<hi rend="italic">ibid</hi>. : 164).
+          De la même manière, le lecteur touareg prononce une suite de
+          syllabes dont les consonnes ont une valeur précise et les voyelles
+          une valeur arbitraire qu’il ne détermine qu’après coup. On serait
+          tenté d’en déduire que les <hi rend="italic">tifinagh</hi> sont un
+          syllabaire si l’argumentation de <persName ref="028777808" type="idref" xml:base="https://www.idref.fr/">Gelb</persName> ne
+          montrait aussi, incidemment, que la frontière est floue entre
+          syllabaire et alphabet consonantique. Considérons, en effet, les
+          ligatures. Quoique de façon moins systématique, elles jouent en
+          touareg le même rôle que le <hi rend="italic">sukun</hi> en arabe.
+          Pour noter la séquence <hi rend="italic">rt</hi> par exemple, le
+          Touareg use du signe ⊕, là où l’Arabe placerait un <hi rend="italic">sukun</hi> entre le <hi rend="italic">r</hi> et le <hi rend="italic">t</hi>. Mettons, pour parler comme <persName ref="028777808" type="idref" xml:base="https://www.idref.fr/">Gelb</persName>, que ce signe note
+          la syllabe <hi rend="italic">RTä</hi>. Il faut alors remarquer,
+          puisque le ⊕ combine le O <hi rend="italic">(r)</hi> et le + <hi rend="italic">(t)</hi>, que le Touareg qui l’utilise perçoit dans la
+          syllabe <hi rend="italic">RTä</hi> des éléments phoniques présents
+          dans les syllabes <hi rend="italic">Rä</hi> et <hi rend="italic">Tä</hi>. Or, si <hi rend="italic">Tä</hi> se retrouve
+          effectivement dans <hi rend="italic">RTä</hi>, le seul élément de
+          <hi rend="italic">Rä</hi> qui <hi rend="italic">s</hi>’y conserve
+          est la consonne <hi rend="italic">R</hi>. L’écriture touarègue isole
+          donc indiscutablement les consonnes, au moins lorsqu’un contexte
+          phonique particulier permet de les percevoir indépendamment de la
+          syllabe dont elles font partie ; il en va de même pour les voyelles,
+          dont on a vu qu’elles sont occasionnellement notées en fin de mot,
+          c’est-à-dire lorsque, la voix s’arrêtant sur elles, il devient
+          possible de les percevoir isolément. En un mot, si la lecture des
+          <hi rend="italic">tifinagh</hi> est assurément une syllabation, le
+          syllabaire que <persName ref="028777808" type="idref" xml:base="https://www.idref.fr/">Gelb</persName> y aurait peut-être
+          vu porte en lui un alphabet, souvent invisible, quelquefois visible.
+          Autant dire qu’elles sont tout de même d’une nature un peu
+          ambiguë.</p>
+          <p xml:id="d1e318">En tout cas, les Touaregs ont bien conscience
+          qu’ils ne lisent pas leur écriture comme leurs clercs lisent
+          l’arabe. La lecture des <hi rend="italic">tifinagh</hi> est désignée
+          par le verbe <hi rend="italic">ennen</hi>, qui pourrait bien être un
+          idéophone formé à partir de <hi rend="italic">ennu</hi>, « dire »,
+          par redoublement de la racine (mode fréquent de formation des
+          idéophones en touareg). Voici ce que <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName>
+          (1951-1952 : III, 1391-1392) écrit sous la rubrique <hi rend="italic">ennen</hi> dans son <hi rend="italic">Dictionnaire
+          touareg-français</hi> :</p>
+          <q rend="quotation">« […] épeler (lire en épelant) […] peut avoir
+          pour rég[ime] dir[ect] n’importe quel écrit, n’importe quels
+          caractères (appartenant à un alphabet et à une langue quelconques).
+          Signifie épeler n’importe comment, intérieurement et sans mouvement
+          de lèvres, à voix basse, à mi-voix, ou à haute voix. Diffère d’<hi rend="italic">egher</hi>, “lire” (n’importe quelle écriture,
+          n’importe quel écrit, n’importe quels caractères appartenant à un
+          alphabet et à une langue quelconques […] intérieurement et sans
+          mouvement de lèvres, ou à voix basse, ou à mi-voix, ou à haute
+          voix). Comme il est rare, par suite du manque de voyelles, de
+          séparation entre les mots et de ponctuation, qu’on puisse lire
+          l’écriture touarègue autrement qu’en épelant lentement et en
+          tâtonnant, c’est habituellement le verbe <hi rend="italic">ennen</hi>, et non le verbe <hi rend="italic">egher</hi>, qui est employé pour exprimer la lecture
+          en caractères touaregs ».</q>
+          <p xml:id="d1e346">En réalité, lorsqu’il est appliqué à la lecture
+          en <hi rend="italic">tifinagh, ennen</hi> ne désigne pas exactement
+          une épellation, mais la syllabation décrite plus haut. Et le verbe
+          <hi rend="italic">egher</hi>, dont l’étymon arabe a donné notre <hi rend="italic">Qoran</hi>, désigne en premier lieu la lecture
+          psalmodiée du texte coranique.</p>
+          <p xml:id="d1e357">Le vocabulaire relatif à l’écriture montre
+          également que les Touaregs perçoivent les diverses sortes d’écrits
+          comme étant de nature différente. Si l’acte d’écrire est rendu de
+          façon générale par le verbe d’origine arabe <hi rend="italic">ekteb</hi>, il n’existe aucun terme générique pour en
+          désigner le résultat, l’écrit. <hi rend="italic">Elkettab</hi>, mot
+          dérivé de <hi rend="italic">ekteb</hi> que certains auteurs
+          prétendent traduire par « livre », s’applique avant tout aux textes
+          rédigés en caractères arabes. Pour désigner un livre écrit en
+          caractères latins, on préfère utiliser les mots d’origine française
+          <hi rend="italic">libr</hi> ou <hi rend="italic">cayé. Tirot</hi>,
+          terme plus compréhensif puisqu’il peut s’appliquer à un texte
+          utilisant n’importe quel alphabet, ne désigne que des pièces assez
+          courtes pour tenir sur quelques feuilles de papier, comme les
+          lettres, les amulettes coraniques, les documents administratifs
+          (Galand 1976 ; Casajus 2000b : chap. VIII).</p>
+          <p xml:id="d1e375">Des intellectuels berbérophones, kabyles ou
+          marocains, ont entrepris depuis quelques décennies de donner aux <hi rend="italic">tifinagh</hi> un statut comparable à celui des
+          alphabets arabe ou latin. À des consonnes inspirées des <hi rend="italic">tifinagh</hi> ou du libyque, ils ont ajouté, en
+          généralisant l’usage que l’écriture touarègue réserve aux syllabes
+          finales, les voyelles <hi rend="italic">a</hi> (notée par un point),
+          u et i (notées par le W et le Y touaregs), ainsi que le <hi rend="italic">shewa</hi> kabyle, pour lequel ils ont forgé un signe
+          particulier. Quelques Touaregs ont tenté à leur tour d’adapter les
+          <hi rend="italic">tifinagh</hi> à une écriture cursive et de leur
+          adjoindre des voyelles. Ces initiatives font l’objet d’un débat dans
+          lequel je me garderai d’intervenir, sauf pour faire remarquer
+          qu’elles aboutissent à la création d’alphabets illisibles pour les
+          Touaregs non scolarisés. Là est, si je comprends bien, la raison
+          pour laquelle le linguiste touareg <persName ref="026678756" type="idref" xml:base="https://www.idref.fr/">Mohamed
+          Aghali-Zakara</persName> (1994) les a sévèrement critiquées : à quoi
+          bon moderniser un système d’écriture si c’est pour le rendre
+          inaccessible à ceux qui l’utilisent fort bien tel qu’il est ?
+          Ceux-ci, en effet, ne peuvent appliquer à cette écriture nouvelle la
+          syllabation à laquelle ils sont habitués, et doivent pour y accéder
+          s’imposer le même apprentissage que ceux qui sont passés par
+          l’école. Pour le dire d’un mot, les créateurs d’alphabets ont manqué
+          à percevoir la différence qualitative qui sépare les deux modes de
+          lecture que les Touaregs appellent respectivement <hi rend="italic">ennen</hi> et <hi rend="italic">egher</hi>. Habitués à
+          la lecture du français ou de l’arabe, ils ont forgé à partir d’une
+          écriture adaptée à la syllabation un instrument qui ne s’y prête
+          plus.</p>
+          <p xml:id="d1e399">Signalons par ailleurs que les Touaregs de la
+          boucle du <placeName ref="2440476" type="geonames" xml:base="https://www.geonames.org/">Niger</placeName>, dont
+          certains parlent aussi bien l’arabe que leur langue maternelle, ont,
+          depuis au moins les <date from="1960" to="1969" type="_temp">années
+          1960</date>, l’habitude d’adjoindre aux <hi rend="italic">tifinagh</hi> le <hi rend="italic">sukun</hi> ainsi
+          que les signes diacritiques dont l’arabe note les voyelles brèves.
+          Les textes ainsi produits restent accessibles à un Touareg non
+          scolarisé, puisque les signes ajoutés se placent sans la modifier en
+          haut ou en bas de la ligne d’écriture à laquelle il est habitué
+          (Coninck &amp; Galand 1960).</p>
+          <p xml:id="d1e407">On voit donc que les tentatives actuelles pour
+          adjoindre des voyelles aux alphabets traditionnels s’inspirent de
+          l’arabe ou du kabyle, peut-être aussi du français. On mesure ici
+          combien les <hi rend="italic">tifinagh</hi> n’existent que dans le
+          voisinage d’autres alphabets – et même d’autres langues. On mesure
+          aussi que ce ne sont pas seulement des alphabets différents qui se
+          côtoient, mais aussi des modes de lecture différents. Je reparlerai
+          plus loin de l’utilisation occasionnelle du français, mais disons
+          déjà qu’on trouve dans certaines régions des clercs qui maîtrisent
+          suffisamment l’arabe pour pouvoir transcrire du touareg en utilisant
+          l’alphabet arabe. Je n’ai personnellement jamais vu de textes ainsi
+          transcrits, la maîtrise de l’arabe étant peu répandue chez les
+          Touaregs auprès desquels j’ai séjourné. La seule utilisation de
+          l’alphabet arabe que je puisse rapporter est celle-ci : mon ami et
+          collaborateur <persName ref="05683988X" type="idref" xml:base="https://www.idref.fr/">Moussa Albaka</persName> y recourt
+          pour remplir son répertoire téléphonique, en notant systématiquement
+          les voyelles comme longues. Sans doute parce qu’il a constaté que
+          les <hi rend="italic">tifinagh</hi> sont mal adaptées à la
+          transcription de noms étrangers où les voyelles ont plus
+          d’importance qu’en touareg.</p>
+        </div>
+        <div type="div1" xml:id="d1e415">
+          <head subtype="level1" xml:id="d1e416">Les lettres au
+          marabout</head>
+          <p xml:id="d1e418">Venons-en maintenant à l’emploi des <hi rend="italic">tifinagh</hi> dans l’art épistolaire. J’utiliserai
+          deux corpus, datant respectivement de <date from="1913" to="1914" type="_temp">1913-1914</date> et de la fin des <date from="1880" to="1889" type="_temp">années 1880</date> : des lettres écrites à
+          <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Charles de Foucauld</persName> par
+          ses amis du <placeName ref="2508584" type="geonames" xml:base="https://www.geonames.org/">Hoggar</placeName> ; des
+          lettres que des Touaregs du Sahara central, emprisonnés à <placeName ref="11204220" type="geonames" xml:base="https://www.geonames.org/">Alger</placeName> pour avoir
+          razzié des campements arabes, ont échangées avec leurs familles.
+          Quoique anciens, ces deux corpus sont très comparables à ceux qu’on
+          pourrait constituer aujourd’hui. Citons pour commencer une lettre
+          écrite en <date from="1913-05-01" to="1913-05-31" type="_temp">mai
+          1913</date>, alors que <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName> voyageait en
+          <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> avec Ouksem,
+          un adolescent de la tribu roturière des Dag-Ghali<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Retraduit d’après Galand (Galand, ed. 1999 : 130-134). La
+              traduction adoptée ici, plus proche du mot à mot, est sur un
+              seul point en désaccord avec celle de l’ouvrage : l’expression
+              « il n’y a pas de nouvelles », fréquente dans les lettres,
+              signifie : « nous n’avons pas de nouvelles particulières à vous
+              donner » et non : « nous n’avons pas de nouvelles de vous ».</p>
+            </note>. Chikat et Choumekki y sont le père et la mère du jeune
+          voyageur ; Mokhammed est son frère ; Fendou est son beau-frère ;
+          Abahag et Ouksem sont ses oncles paternels (portant le même nom que
+          le neveu, l’oncle le salue en l’appelant « mon homonyme »). Litni et
+          Aflan sont des voisins appartenant à la tribu noble qui dominait
+          alors le Hoggar. Adhan et Abdelqadir n’ont pas été identifiés mais
+          pourraient être d’autres Dag-Ghali. Le nom que ses correspondants
+          donnent à Foucauld est écrit MRBW, où le W représente un <hi rend="italic">u</hi> final. C’est le mot français d’origine arabe
+          « marabout », écrit comme devant se prononcer à la française puisque
+          l’arabe eût exigé un <hi rend="italic">t</hi> final.</p>
+          <q rend="quotation">
+            <hi rend="italic">C’est moi Chikat disant : je salue là-bas mon
+            compagnon le marabout beaucoup beaucoup.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Choumekki disant : je salue là-bas le
+            marabout beaucoup je salue ta sœur beaucoup beaucoup.</hi>
+            <lb/>
+            <hi rend="italic">Les gens tous vont bien, il n’y a pas de
+            nouvelles.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Ouksem disant je salue là-bas le
+            marabout beaucoup beaucoup.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Abahag disant je salue là-bas le
+            marabout beaucoup beaucoup.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Litni, le khalifa<note n="6" place="foot" type="standard" xml:id="ftn6">
+                <p>Ce mot désigne le représentant à Tamanrasset du chef
+                suprême du Hoggar, lequel réside à l’époque au nord de
+                l’actuel Mali (voir plus loin).</p>
+              </note>, disant je salue là-bas le marabout beaucoup
+            beaucoup.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Aflan disant je salue là-bas mon vieux
+            le marabout beaucoup beaucoup.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Abdelqadir disant je salue là-bas le
+            marabout beaucoup beaucoup.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Adhan disant je salue là-bas le
+            marabout beaucoup beaucoup.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Adhan disant : je salue là-bas Ouksem
+            beaucoup beaucoup.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Ouksem disant : je salue là-bas mon
+            homonyme beaucoup beaucoup.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Adhan disant : Mokhammed fils de
+            Chikat a eu un fils.</hi>
+            <lb/>
+            <hi rend="italic">Il n’a pas (encore) reçu de nom.</hi>
+          </q>
+          <p xml:id="d1e478">Sur l’autre face de la feuille, on lit :</p>
+          <q rend="quotation">
+            <hi rend="italic">C’est le 22 du mois de Sarat</hi>
+            <lb/>
+            <hi rend="italic">que [la lettre] a été écrite. Les cultivateurs
+            vont bien tous,</hi>
+            <lb/>
+            <hi rend="italic">les hommes de Tamanrasset.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Fendou disant : je salue là-bas le
+            marabout je salue là-bas</hi>
+            <lb/>
+            <hi rend="italic">Ouksem beaucoup beaucoup</hi>
+            <lb/>
+            <hi rend="italic">Les femmes toutes saluent là-bas le marabout
+            beaucoup beaucoup</hi>
+            <lb/>
+            <hi rend="italic">Les femmes toutes saluent là-bas Ouksem beaucoup
+            beaucoup.</hi>
+          </q>
+          <p xml:id="d1e502">Cette lettre présente trois traits qu’on retrouve
+          dans à peu près toutes les lettres touarègues : 1) elle se réduit
+          pour l’essentiel à une liste de salutations toutes formulées dans
+          des termes identiques sur lesquels je vais revenir ; 2) elle se
+          donne comme émanant de tous ceux dont les destinataires pourraient
+          avoir souci, et s’adresse à tous ceux qui se trouvent à leurs
+          côtés ; 3) elle livre peu d’informations. Détaillons chacun de ces
+          trois traits.</p>
+          <p xml:id="d1e504">Tout d’abord les salutations. Leur formulation
+          est la même dans toutes les lettres du <placeName ref="2508584" type="geonames" xml:base="https://www.geonames.org/">Hoggar</placeName> : c’est moi
+          (litt. : « ceci moi ») A disant je salue là-bas + (<hi rend="italic">awa nek A innân : ehûlegh-în B</hi>). La séquence
+          initiale <hi rend="italic">awa nek + nom</hi> n’est pas propre aux
+          lettres ; elle sert aussi d’incipit aux inscriptions que les
+          forgerons tracent sur les objets qu’ils fabriquent (« Ceci moi Untel
+          l’ayant fait »), ainsi qu’à beaucoup d’inscriptions rupestres dont
+          elle est souvent tout ce qu’on peut en déchiffrer. Le verbe <hi rend="italic">ihal</hi> que j’ai traduit par « saluer » est
+          pratiquement toujours présent dans les lettres, au point que le nom
+          dérivé <hi rend="italic">tehult</hi>, « salutation », peut avoir le
+          sens de « lettre ». Ce n’est pas celui qui désigne les salutations
+          échangées lors d’une rencontre ou d’une visite. Pour celles-ci, on
+          recourt à <hi rend="italic">seslem</hi> (causatif d’un verbe <hi rend="italic">eslem</hi> emprunté à l’arabe, où l’on retrouve une
+          racine sémitique SLM dont le champ sémantique recouvre les notions
+          de paix, de salut ou de santé). Un homme doit les faire débuter par
+          <hi rend="italic">asalam akhleykem</hi>, formule arabe un peu
+          déformée par la prononciation touarègue et qui signifie : le salut
+          soit sur toi. Ce à quoi son interlocuteur lui répond : <hi rend="italic">akhleykem asala(m)</hi>. Viennent ensuite les formules
+          proprement touarègues (et une femme n’en utilise pas d’autres) : <hi rend="italic">Oyy-iwen ? Ma d-tulem ? Ma takhlekem ?</hi> « Vous
+          a-t-il laissés ? (= Dieu vous a-t-il laissé dans la paix ?) »,
+          « Comment allez-vous ? », « Comment vous portez-vous ? » À quoi la
+          personne saluée, avant de saluer à son tour, répond à chaque fois :
+          <hi rend="italic">alkher ghas</hi> « rien que la paix », en ajoutant
+          parfois des formules d’action de grâces (« Louanges à Dieu ! »,
+          «Merci à Dieu ! »).</p>
+          <p xml:id="d1e537">
+            <hi rend="italic">Ihal</hi>, qui signifierait
+          plutôt « donner le bonjour »<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>J’ai cependant gardé l’expression « je salue » dans les
+              traductions reproduites ici, pour ne pas trop m’écarter des
+              traductions publiées.</p>
+            </note>, appartient à une catégorie de verbes qui se construisent
+          normalement avec la postposition <hi rend="italic">du</hi> (ou <hi rend="italic">d</hi>) « ici » ou <hi rend="italic">în</hi>
+          « là-bas ». Il est semblable en cela au verbe <hi rend="italic">asu</hi> « se déplacer d’un lieu à un autre », qui
+          signifie « venir » quand il est suivi de <hi rend="italic">du</hi>
+          et « aller » quand il est suivi de <hi rend="italic">în</hi>. Avec
+          <hi rend="italic">ihal</hi>, la postposition à employer dépend de la
+          position respective de celui qui envoie le bonjour, de celui qui est
+          chargé de le transmettre et de celui qui doit le recevoir. Ainsi, A
+          voyant que + s’apprête à prendre la route vers un lieu où il
+          rencontrera C, lui dit : « Tu donneras là-bas le bonjour à C » (<hi rend="italic">tehûlagh-în C</hi>). B, une fois parvenu auprès de C,
+          lui dira : « A te donne le bonjour ici » (<hi rend="italic">A
+          yehûl-ki du ou yehûl-kay-d</hi>). Ordinairement, c’est une fois
+          terminé l’échange de salutations que l’un des partenaires pourra
+          dire à l’autre : « Untel te donne le bonjour ». Autrement dit, on
+          salue (<hi rend="italic">seslem</hi>) d’abord son partenaire, puis
+          on lui transmet (<hi rend="italic">ihal</hi>) le bonjour d’autrui.
+          Peuvent venir ensuite des informations sur la santé des uns et des
+          autres, et éventuellement des échanges plus libres. Mais, dans une
+          rencontre sur le chemin entre deux personnes qui ne sont pas très
+          familières, l’échange peut se limiter à son exorde formel :
+          salutation (<hi rend="italic">seslem</hi>) ; transmission du bonjour
+          (<hi rend="italic">tehult</hi>) ; informations sur la santé des
+          proches.</p>
+          <p xml:id="d1e586">Lorsqu’on transmet ainsi le bonjour, quelqu’un
+          est nécessairement absent. Quand A donne à B mission de transmettre
+          son bonjour à C, il est implicite que C est absent. Quand B
+          s’acquitte de sa mission auprès de C, A est absent. <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName> laisse assez
+          bien apparaître la chose dans le long article que son <hi rend="italic">Dictionnaire</hi> consacre à <hi rend="italic">ihal</hi> (1951-1952 : II, 576-578). Il y fait
+          l’inventaire des personnes auxquelles le verbe peut être conjugué,
+          soit suivi de <hi rend="italic">du</hi> soit suivi de <hi rend="italic">în</hi>. La logique implicite selon laquelle
+          s’organise cet inventaire est la suivante : de celui qui parle, de
+          celui à qui l’on parle, ou de celui de qui l’on parle, l’un au moins
+          doit être absent. En particulier, <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName>
+          remarque que, suivi d’un complément à la première ou à la deuxième
+          personne, <hi rend="italic">ihal</hi> ne peut s’employer avec <hi rend="italic">du</hi> « ici » que si le sujet est à la troisième
+          personne. En d’autres termes, lorsque « toi » ou « moi » sommes
+          salués « ici », ce ne peut être que par « lui », absent : de façon
+          exemplaire, la troisième personne est ici la non-personne. À
+          l’inverse, je ne peux dire à quelqu’un que j’ai en face de moi : je
+          te donne le bonjour là-bas. Une telle phrase ne peut être prononcée
+          qu’entre guillemets, lorsque, par exemple, je dis à un voyageur en
+          partance : quand tu verras Untel, tu lui diras de ma part : « Je te
+          donne le bonjour là-bas ».</p>
+          <p xml:id="d1e607">En réalité, il y a bien une situation où je peux
+          m’entendre adresser cette phrase, c’est lorsque je lis une lettre.
+          Toutes les salutations épistolaires que j’ai citées sont de la
+          forme : « Je te donne le bonjour là-bas » ; « Je vous donne le
+          bonjour là-bas » ; « Ils ou elles te donnent le bonjour là-bas » ;
+          ou bien, ce qui est équivalent, « Je donne le bonjour à Untel
+          là-bas », dans une lettre adressée à Untel, ou dont on sait que
+          Untel la lira, ou l’entendra lire. Bien sûr, il est banal de
+          constater que la lettre que je reçois me met en présence d’un
+          absent, mais je trouve remarquable que la forme même des salutations
+          à quoi se réduisent la plupart des lettres fasse apparaître cette
+          mise en présence de l’absent – comme absent. Et souvenons-nous que
+          ces phrases en principe imprononçables dans une interaction
+          langagière directe, le destinataire d’une lettre ne les lit pas dans
+          un texte, il les entend, ou du moins il entend les séquences sonores
+          dont il les déduit (mais les formules de salutations sont si
+          courantes qu’un lecteur expérimenté les lit en général directement,
+          sans passer par la syllabation intermédiaire). De sorte que le
+          destinataire d’une lettre s’entend dire des phrases qu’on n’entend
+          jamais autrement, soit qu’il les prononce lui-même dans sa lecture à
+          haute voix, soit qu’elles sont prononcées par celui qui déchiffre la
+          lettre pour lui. Comme si tout le contenu de la lettre était entre
+          guillemets.</p>
+          <p xml:id="d1e609">Pour en revenir à la lettre adressée à <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName>, notons que, la
+          graphie y étant assez homogène, on peut penser qu’elle a été rédigée
+          par un scribe unique (ou peut-être deux : un pour chaque face de la
+          feuille) prenant toutes les salutations successives sous la dictée.
+          C’est aujourd’hui encore la situation habituelle. Écrire une lettre
+          est rarement une entreprise solitaire. Le scribe est le plus souvent
+          entouré de plusieurs personnes, dont chacune demande à tour de rôle
+          que ses salutations soient mentionnées et dicte, à l’occasion, telle
+          ou telle nouvelle à ajouter. Quelques indices – ainsi que je l’ai
+          observé moi-même lors de la rédaction de lettres –, me laissent
+          supposer que les épistoliers formaient ici deux cercles. Aux côtés
+          du scribe, les hommes qui envoient nommément leurs salutations, tous
+          nobles ou proches de Chikat. Plus en retrait peut-être, des femmes
+          qui envoient collectivement leurs salutations. Seule, Choumekki, la
+          mère du jeune Ouksem, se nomme. Aucun des cultivateurs – en fait des
+          métayers misérables et, à cette époque, méprisés – n’est nommé, mais
+          il n’en aurait sans doute pas été question s’il ne s’en était pas
+          trouvé au moins un à portée de voix.</p>
+          <p xml:id="d1e612">Deuxième trait, la lettre est présentée comme
+          émanant de tous ceux dont les destinataires pourraient avoir souci.
+          Ceux qui ne sont pas nommés sont implicitement englobés dans la
+          locution que j’ai rendue par « tous » ou « toutes », traduisant
+          ainsi <hi rend="italic">emdân</hi> ou <hi rend="italic">emdânet</hi>, formes du verbe <hi rend="italic">emdu</hi> (« être fini », « être inclus jusqu’au
+          dernier ») qui exprime au Hoggar l’idée de totalité. Dans la formule
+          <hi rend="italic">eddûnet emdân</hi>, « les gens tous » (mot à mot :
+          « les gens, ils sont inclus jusqu’au dernier »), on pourrait presque
+          dire que <hi rend="italic">emdu</hi> est pléonastique. Dérivé de
+          l’arabe <hi rend="italic">duniyya</hi>, « le monde, l’univers », <hi rend="italic">eddûnet</hi> signifie : « L’ensemble des gens auxquels
+          nous avons habituellement affaire, qui composent notre monde » ; le
+          mot a déjà un sens collectif, que <hi rend="italic">emdu</hi> vient
+          encore renforcer. On prend également soin d’adresser la lettre à
+          tous ceux qui pourraient se trouver aux côtés des destinataires lors
+          de sa réception. Ainsi, Choumekki salue la sœur de <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName>, qu’elle ne
+          connaît pas. Il est vrai qu’elle ne s’adresse pas directement à elle
+          mais dit à <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName> : je salue <hi rend="italic">ta</hi> sœur, et c’est le seul usage de la deuxième
+          personne dans toute la lettre.</p>
+          <p xml:id="d1e642">On retrouve ce trait dans les lettres du second
+          corpus. Voici une lettre qu’une femme a envoyée aux prisonniers<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Retraduit d’après Bissuel (1891 : 191-192). Comme pour Galand
+              (Galand, ed. 1999), on a adopté pour ce second corpus une
+              traduction plus proche de l’original touareg.</p>
+            </note> :</p>
+          <q rend="quotation">
+            <hi rend="italic">Tihemt fille d’Amoud disant : je salue là-bas
+            Aggour. Les gens [ici] sont vivants tous : Chikat et Chawa,
+            Samana, Tinaqqar, Ghicha, Kounsi et Fadimata.</hi>
+            <lb/>
+            <hi rend="italic">Je salue là-bas Tassha, et Amastan, Kenan,
+            Moumen.</hi>
+            <lb/>
+            <hi rend="italic">Tihemt disant : je salue là-bas Chikat.
+            Dis-lui : les gens [ici] vont bien, ils sont vivants tous. Elle
+            vit Tifist et Kheta et Taqwa et Biben, Kella.</hi>
+          </q>
+          <p xml:id="d1e657">L’épistolière salue tous les destinataires,
+          qu’elle nomme un à un, et envoie à deux d’entre eux, dont le premier
+          est son père, la nouvelle que tous les leurs (la formule est là
+          encore <hi rend="italic">eddûnet emdân</hi>) vont bien et sont
+          vivants. Chose assez rare, elle écrit en son seul nom, mais nomme
+          tous ceux dont elle rapporte qu’ils vont bien. Même écrite par un
+          individu, la lettre dit quelque chose de « tous » ceux qui
+          l’entourent.</p>
+          <p xml:id="d1e662">Dans une lettre écrite par trois des prisonniers,
+          la formule <hi rend="italic">eddûnet emdân</hi> est appliquée cette
+          fois aux destinataires. L’épistolier la renforce en disant que sa
+          lettre s’adresse aux vieux comme aux jeunes. Les destinataires ne
+          sont pas nommés, mais présentés comme une collectivité dont le
+          scripteur prend bien soin qu’elle soit couverte de façon exhaustive
+          (Bissuel 1891 : 205-206) :</p>
+          <q rend="quotation">
+            <hi rend="italic">C’est Moumen disant : je salue là-bas les gens
+            tous, des vieux jusqu’aux jeunes. Nous allons bien depuis que
+            s’est levée la lune de Sarat.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Moumen disant : je salue les jeunes
+            filles toutes. Ne nous oubliez pas. Je salue les violons et leurs
+            maîtresses toutes.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Bou Setta disant : je salue là-bas les
+            gens tous, des vieux jusqu’aux jeunes.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Bou Setta disant : je salue les jeunes
+            filles toutes. Ne nous oubliez pas.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Abd es Selam disant : je salue les
+            jeunes filles toutes, les célibataires. Ne nous oubliez pas.</hi>
+          </q>
+          <p xml:id="d1e682">Cette lettre est galante, comme l’est une bonne
+          partie des lettres que les jeunes gens s’échangent volontiers
+          aujourd’hui encore (Aghali-Zakara &amp; Drouin 1973-1979) : saluer
+          « les violons et leurs maîtresses », et plus encore « les
+          célibataires », c’est avouer combien on souffre d’être privé des
+          réunions nocturnes où garçons et filles avaient alors coutume de
+          s’assembler pour se divertir et deviser.</p>
+          <p xml:id="d1e684">Troisième trait enfin, la lettre à <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName> livre peu
+          d’informations. Une ligne dit même qu’« il n’y a pas de nouvelles »,
+          c’est-à-dire rien de particulier à annoncer aux destinataires. Puis,
+          tout de même, Adhan, qui a déjà dicté sa salutation, se rappelle que
+          Mokhammed, le frère du jeune voyageur, vient d’avoir un enfant. La
+          naissance n’a pas eu lieu depuis plus de sept jours puisque le
+          nouveau-né n’a pas encore été baptisé. Si Adhan ne s’était pas
+          souvenu de cela, la seule nouvelle apportée par la lettre aurait été
+          que tout le monde à <placeName ref="2478217" type="geonames" xml:base="https://www.geonames.org/">Tamanrasset</placeName> se
+          porte bien. D’autres lettres en apportent encore moins. Ainsi ces
+          quatre lignes que Chikat et ses frères ont écrites à la même époque
+          (Galand, ed. 1999 : 150-152) :</p>
+          <q rend="quotation">
+            <hi rend="italic">C’est moi Chikat disant : je salue là-bas le
+            chef, le marabout.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Ouksem disant : je salue là-bas le
+            marabout beaucoup beaucoup.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Abahag disant : je salue là-bas le
+            marabout beaucoup beaucoup Tu nous manques.</hi>
+          </q>
+          <p xml:id="d1e695">Le « Tu nous manques » venant après trois
+          formules de salutations n’apportait pas vraiment de « nouvelles » au
+          destinataire, mais lui disait simplement l’affection de ses
+          correspondants. Il est vrai que ces quatre lignes n’allaient
+          peut-être pas seules car elles apparaissent au recto d’une enveloppe
+          adressée à <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName> chez sa sœur.
+          On peut penser que celui-ci avait laissé des enveloppes toutes
+          prêtes à ses amis touaregs avant de prendre la route. Ses
+          correspondants auraient ajouté ces mots sur l’enveloppe après
+          l’avoir cachetée. Les éditeurs n’excluent pas que la lettre contenue
+          dans l’enveloppe ait été tout simplement celle que j’ai citée plus
+          haut. Si c’était le cas, lettre et enveloppe n’auraient contenu au
+          bout du compte que bien peu d’informations.</p>
+          <p xml:id="d1e697">Certaines lettres apportent des informations
+          moins attendues, comme la mort ou la maladie d’un proche, mais cette
+          annonce ne modifie pas leur tonalité générale. Elle apparaît dans le
+          chapitre des nouvelles, après des salutations qui restent identiques
+          à ce qu’elles sont d’habitude.</p>
+          <p xml:id="d1e700">On a aussi quelques lettres très brèves, où la
+          seule information est une demande, ou un remerciement (Galand, ed.
+          1999 : 186, 190, 199) :</p>
+          <q rend="quotation">
+            <hi rend="italic">Tedawit disant : je salue là-bas le marabout
+            beaucoup beaucoup je salue là-bas ta sœur beaucoup, merci à vous,
+            merci au marabout et à sa sœur de ne pas nous avoir oubliés. Les
+            remèdes sont arrivés, je vais guérir maintenant. C’est le papier
+            qui fait défaut. Tedawit disant : je salue là-bas Ba-Khammou
+            beaucoup.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Mokhammed fils d’Akroud disant : je
+            salue le marabout. Dis-lui<note n="9" place="foot" type="standard" xml:id="ftn9">
+                <p>Cet impératif s’adresse à la lettre elle-même.</p>
+              </note> : donne une pièce d’étoffe à Eqqesen.</hi>
+            <lb/>
+            <hi rend="italic">C’est moi Ouksem, je salue le marabout beaucoup
+            beaucoup. Je veux deux pioches. Donne-les à Aggag.</hi>
+          </q>
+          <p xml:id="d1e715">Je ne pense pas que <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName>
+          était en France au moment où ces lettres lui ont été envoyées. C’est
+          exclu pour la première puisque Ba-Khammou, le deuxième destinataire
+          de la lettre, n’a jamais quitté le Sahara. L’épistolière salue la
+          sœur de <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName>, mais il s’agit
+          vraisemblablement de salutations qu’elle demande à celui-ci de
+          retransmettre dans sa propre correspondance. Relevons au passage les
+          remerciements qu’elle adresse à ses correspondants, et dont une
+          traduction littérale serait : «Merci au marabout et à sa sœur du
+          non-oubli » <hi rend="italic">(iba n tettawt)</hi>. Quant aux deux
+          autres lettres, elles ont pour objet de menues sollicitations dont
+          on voit mal qu’un homme en voyage à l’étranger ait pu en être
+          l’objet. J’imagine que Mokhammed et Ouksem, en même temps qu’ils
+          chargeaient Eqqesen et Aggag de transmettre oralement leurs
+          salutations et leurs demandes, leur ont confié ces petits billets
+          qui venaient à l’appui du message oral. L’écrit est ici inséparable
+          d’une communication orale, d’abord parce qu’il accompagne et appuie
+          un message oral, ensuite parce que ceux qui écrivent ont vu il y a
+          peu de temps et verront sous peu celui à qui ils écrivent.</p>
+          <p xml:id="d1e720">Toutes ces lettres impersonnelles posent des
+          problèmes d’authentification. On peut certes dire qu’elles sont
+          signées puisque les épistoliers s’y nomment, mais cette mention de
+          son nom par le destinateur n’est pas en mesure de remplir l’une des
+          fonctions dévolues à la signature dans les sociétés faisant un usage
+          courant de l’écriture : authentifier l’écrit où elle figure. Lorsque
+          l’épistolier veut donner à son correspondant la certitude qu’il est
+          bien l’auteur de la lettre, il adjoint à son écrit des indices
+          connus d’eux seuls, et que les Touaregs appellent <hi rend="italic">tametert</hi>. Ainsi dans une des lettres du second
+          corpus, envoyée à des compagnons restés en captivité par un
+          prisonnier fraîchement libéré, on trouve ces mots (Bissuel 1891 :
+          200) : « Pour que vous sachiez l’indice : la boule de chiffons ».
+          L’éditeur explique qu’il s’agit d’une balle dont les prisonniers
+          jouaient entre eux sur l’une des terrasses du fort où ils étaient
+          incarcérés. Dans une autre lettre du même corpus, adressée à un
+          nommé Kenan avec qui le scripteur s’était rendu en France, on lit :
+          « Afin que tu saches l’indice, Kenan, lorsque nous sommes allés à
+          Marseille, le soir, un homme nous a dit : “Aucun Touareg n’est venu
+          ici avant vous” » (<hi rend="italic">Ibid</hi>. : 208).</p>
+        </div>
+        <div type="div1" xml:id="d1e728">
+          <head subtype="level1" xml:id="d1e729">Lettres contemporaines</head>
+          <p xml:id="d1e731">Ces traits se retrouvent, sous une forme un peu
+          différente, dans les lettres qu’on m’a montrées au Niger. La formule
+          d’ouverture y devient : « C’est moi A disant : je fais [mes]
+          salutations [à] B, C, D beaucoup beaucoup et [aux] gens tous » (<hi rend="italic">awa nek A yennân : tihulawén ikânnin B C D wullen
+          wullen entén aghalak kullu – où tihulawén est le pluriel du
+          tehult</hi> déjà mentionné). En général, le scripteur enchaîne sur
+          les formules de salutation normalement utilisées dans le face-à-face
+          (<hi rend="italic">Oyy-iwen ? Mad-tulem</hi> ?, etc.). Autrement
+          dit, après l’envoi du bonjour réservé aux absents, il salue ses
+          correspondants comme s’ils étaient présents. Peuvent venir ensuite
+          des informations sur la santé des uns et des autres semblables à ce
+          qu’on trouve dans les lettres du <placeName ref="2508584" type="geonames" xml:base="https://www.geonames.org/">Hoggar</placeName> ou dans la
+          conversation. Les lettres nigériennes reprennent donc les formules
+          de l’échange en face-àface, mais en introduisant dans l’ordre de
+          leur succession une modification qui me paraît pouvoir s’interpréter
+          ainsi : ceux qui se font face ne se transmettent le bonjour des
+          absents qu’après avoir échangé les salutations qu’ils se doivent
+          l’un à l’autre, tandis qu’un épistolier ne peut en venir à de telles
+          salutations qu’une fois que le bonjour envoyé à ses correspondants
+          les a fictivement mis en sa présence.</p>
+          <p xml:id="d1e739">La locution <hi rend="italic">entén aghalak
+          kullu</hi>, « et [aux] gens tous », répond au verbe <hi rend="italic">emdu</hi> des lettres du Hoggar. On en retrouve
+          l’équivalent dans les lettres en français, dont il faut maintenant
+          parler. Les jeunes gens scolarisés, qui souvent se sentent plus
+          habiles à manier l’alphabet latin que les <hi rend="italic">tifinagh</hi>, écrivent volontiers leurs lettres en
+          français, comptant que leurs destinataires parviendront toujours à
+          trouver un interprète. Il m’est arrivé, lorsque j’étais accueilli
+          dans un campement, qu’on me prie de lire de telles lettres, reçues
+          parfois depuis plusieurs semaines et attendant encore d’être
+          déchiffrées. À l’inverse, mes amis me demandaient parfois d’écrire
+          en français à des parents scolarisés dont ils pensaient qu’ils se
+          débrouilleraient mieux avec le français qu’avec les <hi rend="italic">tifinagh</hi>. J’ai moi-même reçu de telles lettres.
+          Voici l’exorde de deux d’entre elles, tout à fait semblables à
+          celles que les Touaregs s’écrivent entre eux lorsqu’ils utilisent le
+          français. L’auteur, auquel je donnerai ici le nom de Mokhammed,
+          avait suivi sa scolarité jusqu’au certificat d’études et était
+          employé des postes à <placeName ref="2448083" type="geonames" xml:base="https://www.geonames.org/">Agadez</placeName>.</p>
+          <q rend="quotation">
+            <hi rend="italic">Cher ami D. j’ai t’envoi celle-ci pour te mettre
+            au courant de mes nouvelles toute en espérant les tiennes en
+            échange, nous somme en parfaite santé ainsi la famille. La famille
+            Achidou vous salue très bien elles vont très bien pour l’instant
+            aucun mal. Tout ms salutations à ta famille sans oubliers
+            personne.</hi>
+            <lb/>
+            <hi rend="italic">cher ami Dominique j’ai t’envoie celle-ci pour
+            te mettre au courant de me nouvelles tout en spérant les tiennes
+            en échange. J’ai suis en parfaite santé et moi la famille, nous
+            souhaitons une bonne heureuse année 1983 toit et ta famille les
+            sœurs le père la mère sans oublier personne.</hi>
+          </q>
+          <p xml:id="d1e759">Le « sans oublier personne » dont Mokhammed fait
+          suivre ici l’énumération des proches de son correspondant transpose
+          assez fidèlement le <hi rend="italic">entén aghalak kullu</hi> qui,
+          dans les lettres en touareg, suit l’énumération des destinataires.
+          Mais le français dit plus ouvertement un souci que le touareg laisse
+          implicite : il faut que personne, parmi les destinataires et leurs
+          proches, ne se sente oublié. Et c’est bien ainsi que mes amis m’ont
+          commenté aussi bien la formule touarègue que sa transposition
+          française. Se voir oublié par une lettre est un chagrin qu’un bon
+          épistolier se garde d’infliger, surtout qu’il sait bien que la
+          victime l’éprouverait sous le regard de tous. Rappelons-nous, en
+          effet, que ni l’écriture ni la lecture d’une lettre ne sont des
+          actes solitaires. Le scribe, qui doit déjà veiller à associer à sa
+          lettre tous ceux qui l’entourent et transcrire scrupuleusement leurs
+          salutations, doit aussi faire en sorte qu’à la réception de la
+          lettre aucun des présents ne puisse se sentir exclu du cercle des
+          auditeurs. Au fond, les lettres touarègues ne disent rien d’autre
+          que : « Nous qui faisons cercle autour du scribe, nous ne vous
+          oublions pas, vous qui faites cercle autour du lecteur » ; message
+          dont le corollaire parfois explicité est : « Et vous, ne nous
+          oubliez pas ». Telle est finalement la principale « nouvelle »
+          qu’elles sont destinées à transmettre, et les informations dont
+          elles sont pour le reste si avares comptent moins que cette
+          nouvelle-là. À la différence des livres qu’ils voient écrits en
+          arabe ou en français, les Touaregs n’attendent pas de leurs lettres
+          qu’elles disent quelque chose sur le monde, mais qu’elles conjurent
+          la menace de l’oubli – ou, pour le dire dans leur langue, qu’elles
+          garantissent le <hi rend="italic">non-oubli (iba n tettawt)</hi> des
+          absents.</p>
+          <p xml:id="d1e767">Et si les informations sont minces, la crainte de
+          l’oubli se dit avec insistance. J’ai noté plus haut combien le <hi rend="italic">eddûnet emdân</hi> du <placeName ref="2508584" type="geonames" xml:base="https://www.geonames.org/">Hoggar</placeName> était
+          pléonastique. Le <hi rend="italic">entén aghalak kullu</hi> du
+          <placeName ref="2440476" type="geonames" xml:base="https://www.geonames.org/">Niger</placeName> ou son
+          équivalent français « sans oublier personne » le sont plus encore
+          puisque ces formules concluent des énumérations où le scripteur a
+          déjà pris soin de n’omettre aucun nom. Sans doute, précautions
+          prises contre la malencontre d’un oubli toujours possible, ces
+          formules visent-elles à inclure dans l’énumération ceux-là mêmes
+          dont le nom aurait par inadvertance été oublié, mais il me semble
+          qu’elles traduisent encore un autre souci, plus diffus. Car cette
+          propension au pléonasme, l’écrivain irlandais <persName ref="027152936" type="idref" xml:base="https://www.idref.fr/">John
+          Synge</persName> l’avait déjà rencontrée dans les <placeName ref="2966947" type="geonames" xml:base="https://www.geonames.org/">îles Aran</placeName> à la
+          <date from="1885" to="1889" type="_temp">fin des années 1880</date>.
+          Il lisait une lettre reçue de Michaël, un jeune homme connu lors
+          d’un séjour précédent et qui s’était depuis installé sur le
+          continent. Nous ne sommes pas si loin des Touaregs qu’on pourrait le
+          croire. Michaël, tout comme mon ami Mokhammed, a suivi quelques
+          années de scolarité et est allé gagner sa vie loin des siens. Il
+          écrit dans un gaélique solennel et guindé, différent du français de
+          Mokhammed, mais très semblable au français un peu grandiloquent des
+          Nigériens qui ont poussé leurs études jusqu’au lycée. Voici ce qu’il
+          écrit (Synge 1996 [1921] : 91) : « Comment vont ma mère et mes trois
+          frères et mes sœurs, et n’oubliez pas le blanc Michaël [un homonyme]
+          ni le pauvre petit enfant ni la vieille femme grise ni Rory. J’en
+          viens à oublier tous mes amis et tous mes parents ». Et <persName ref="027152936" type="idref" xml:base="https://www.idref.fr/">Synge</persName> de trouver
+          « singulier qu’il s’accuse ainsi d’oubli après avoir demandé
+          nommément des nouvelles de toute la famille ». S’inquiéter de
+          n’avoir oublié personne après avoir salué nommément tous ceux qu’il
+          ne fallait pas oublier est tout aussi singulier. <persName ref="027152936" type="idref" xml:base="https://www.idref.fr/">Synge</persName> a ce commentaire :
+          « Je suppose que la nostalgie du foyer qu’il avait au début
+          s’atténue peu à peu et qu’il considère son indépendance et son
+          bien-être comme une trahison envers les siens ». C’est assurément
+          une interprétation possible, mais la singulière attitude de Michaël,
+          tout comme les formules touarègues tiennent peut-être aussi à la
+          situation épistolaire elle-même. L’effort de mémoire si léger
+          soit-il que je dois faire au moment d’aligner sur le papier les noms
+          de mes absents me rend conscient de ce qu’ils ne sont pas
+          constamment présents à mon esprit. Me souvenir d’eux me fait
+          sournoisement sentir que l’oubli déjà les menace, car je vois bien
+          qu’à l’instant d’avant je ne pensais pas spécialement à eux,
+          préoccupé d’affaires où ils ne sont pas. Bien sûr, je me souviens
+          encore d’eux puisque je viens d’écrire leurs noms mais leur image en
+          moi, qui fluctue et pâlit parfois, n’a pas la ferme présence du nom
+          tracé sur ma feuille. En voyant sur le papier la preuve écrite qu’il
+          n’avait pas oublié les siens, Michaël gémissait de ce que la netteté
+          même de cette preuve la faisait se retourner contre elle-même. Cette
+          inexorable érosion de la mémoire que l’écriture même des lettres
+          rend sensible, les épistoliers touaregs la conjurent par des
+          formules qui ne veulent rien dire d’autre que : « Je crois n’oublier
+          personne mais d’avoir de mon calame tracé la liste de vos noms m’en
+          fait douter, alors pardonnez-moi si le sournois oubli déjà
+          m’aveugle ».</p>
+          <p xml:id="d1e775">Plus encore qu’à celle de Michaël, les lettres de
+          Mokhammed font penser aux lettres d’émigrés béarnais étudiées par
+          <persName type="_temp">Anne Bruneton-Governatori</persName> et
+          <persName ref="029892252" type="idref" xml:base="https://www.idref.fr/">Bernard Moreux</persName> (1997),
+          ou à celles que ses amis tziganes dictaient à <persName type="_temp">Patrick Williams</persName> (1997). Le « j[e]
+          t’envoi[e] celle-ci pour te mettre au courant de me[s] nouvelles
+          tout en espérant les tiennes en échange » par lequel il commence ses
+          lettres a certainement été repris de modèles français mis en
+          circulation à l’époque de la colonisation et adoptés depuis par les
+          Nigériens scolarisés. En revanche, on a vu que « sans oublier
+          personne » transpose une formule touarègue. De même, « La famille
+          [d’]Achidou vous salue très bien elles vont très bien pour l’instant
+          aucun mal » traduit presque mot pour mot la transmission du bonjour
+          et l’envoi de nouvelles rencontrés dans les lettres précédentes.
+          Mokhammed mêle donc un modèle épistolaire autochtone à un modèle
+          venu de France, mais les deux modèles se ressemblent de toute
+          façon : mêmes salutations formulaires, mêmes références stéréotypées
+          à la santé des proches. On associerait volontiers les Touaregs à
+          l’internationale épistolaire que <persName type="_temp">Bruneton-Governatori</persName> et <persName ref="029892252" type="idref" xml:base="https://www.idref.fr/">Moreux</persName> mettaient en
+          évidence à partir de corpus européens du <date from="1800" to="1899" type="_temp">
+              <hi rendition="#T10">xix</hi>
+              <hi rend="sup">e</hi>
+            </date> et du <date from="1700" to="1799" type="_temp">
+              <hi rendition="#T10">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date>,
+          ainsi que de quelques lettres antiques ou médiévales.</p>
+          <p xml:id="d1e787">Le caractérisant comme « populaire », ces auteurs
+          opposent le modèle qu’ils ont dégagé à celui dont les manuels de
+          correspondance ont peu à peu diffusé l’idéal à partir du <date from="1700" to="1799" type="_temp">
+              <hi rendition="#T10">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date>. Les deux modèles se veulent
+          l’écho de l’interaction langagière, mais le second suppose en
+          réalité une pleine maîtrise de l’écrit et, loin de mimer l’échange
+          verbal commun, transpose dans la pratique épistolaire l’art de la
+          conversation qui se répandait alors dans les milieux lettrés (Fabre
+          1997 : 21). De façon comparable, les petits messages commentés
+          jusqu’ici diffèrent de lettres plus recherchées dont je n’ai encore
+          rien dit. Elles sont fort rares et l’une d’entre elles suffira à
+          éclairer mon propos. Elle a été écrite en <date from="1914-01-01" to="1914-01-30" type="_temp">janvier 1914</date> par Moussa agg
+          Amastan, le chef suprême (<hi rend="italic">amenokal</hi>) des
+          Touaregs du <placeName ref="2508584" type="geonames" xml:base="https://www.geonames.org/">Hoggar</placeName>, qui
+          nomadisait alors au nord de l’actuel <placeName ref="2453866" type="geonames" xml:base="https://www.geonames.org/">Mali</placeName>. <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName> revenu de
+          <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> s’est arrêté
+          à <placeName ref="2478217" type="geonames" xml:base="https://www.geonames.org/">Tamanrasset</placeName>, tandis
+          que le jeune Ouksem a continué sa route jusqu’aux tentes de l’<hi rend="italic">amenokal</hi> (Galand, ed. 1999 : 161-163) :</p>
+          <q rend="quotation">
+            <hi rend="italic">C’est moi Moussa, amenokal de
+          l’Ahaggar,</hi>
+            <lb/>
+            <hi rend="italic">Disant : je salue là-bas mon
+          ami affectionné, mon compagnon le marabout, serviteur de Jésus,
+          beaucoup beaucoup. Louanges à Dieu pour ta santé.</hi>
+            <lb/>
+            <hi rend="italic">Tu nous manques fort.</hi>
+            <lb/>
+            <hi rend="italic">J’ai vu ton jeune Ouksem, il nous a donné des
+          nouvelles, merci beaucoup.Je t’ai écrit une lettre que j’ai fait
+          porter au lieutenant à Boughessa, il te la transmettra.</hi>
+            <lb/>
+            <hi rend="italic">Nous, nous allons bien si tu vas bien. Elle te
+          salue ici Tedawit, ainsi que Akhamouk, Litni, et tous, et
+          Rakhma.</hi>
+            <lb/>
+            <hi rend="italic">Je salue là-bas le général
+          Laperrine, Nieger, et la France toute.</hi>
+            <lb/>
+            <hi rend="italic">Le lieutenant avait l’intention de me rejoindre auprès
+          de mes tentes et nous serions allés ensemble dans l’Aïr [au nord du
+          Niger]. Maintenant il a changé d’avis, il m’a donné un délai de deux
+          mois pour que je le rejoigne à Ti-n-Zawaten avec tous mes gens. Il
+          reste quarante jours avant la date fixée.</hi>
+            <lb/>
+            <hi rend="italic">J’écris cette lettre le 7 du mois de Settafet.</hi>
+            <lb/>
+            <hi rend="italic">Ne me délaisse pas. Je te demande une
+          chose : prie beaucoup pour moi.</hi>
+            <lb/>
+            <hi rend="italic">Salut</hi> (asalam).<lb/>
+            <hi rend="italic">Le papier
+          manque [et je ne peux donc pas t’écrire davantage].</hi>
+          </q>
+          <p rend="figure-title" xml:id="d1e835">Lettre d’un prisonnier taytoq
+          à une religieuse qui l’avait soigné à <placeName ref="11204220" type="geonames" xml:base="https://www.geonames.org/">Alger</placeName>
+          </p>
+          <p xml:id="d1e837">
+            <figure xml:id="d1e838">
+              <graphic url="docannexe/image/22929/img-1.jpg"/>
+            </figure>
+          </p>
+          <p rend="figure-license" xml:id="d1e841">(Bissuel 1891, planche
+          hors-texte)</p>
+          <p rend="figure-title" xml:id="d1e843">Lettre d’un prisonnier taytoq
+          à un officier français</p>
+          <p xml:id="d1e845">
+            <figure xml:id="d1e846">
+              <graphic url="docannexe/image/22929/img-2.jpg"/>
+            </figure>
+          </p>
+          <p rend="figure-license" xml:id="d1e848">(Bissuel 1891, planche
+          hors-texte)</p>
+          <p xml:id="d1e850">Moussa n’omet rien des salutations usuelles, mais
+          il y met un ton qui n’appartient qu’à lui. Il appelle <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName> successivement
+          « mon <hi rend="italic">émeri</hi> » et « mon <hi rend="italic">ämîdi</hi> », termes qui dérivent respectivement de
+          <hi rend="italic">är</hi> « aimer » et de <hi rend="italic">iddew</hi> « aller de compagnie avec ». Le <hi rend="italic">Dictionnaire</hi> de <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName>
+          (1951-1952 : IV, 1549) les rend respectivement par « ami
+          affectionné » et « compagnon », précisant même à propos du premier :
+          « signifie non les simples liaisons ni les amitiés ordinaires,
+          lesquelles s’expriment par <hi rend="italic">ämîdi</hi> “compagnon”,
+          mais un amour profond, com[me] celui qui existe entre 2 amis intimes
+          ou entre un h. et une f. qui s’aiment passionnément ». Chikat et son
+          fils Ouksem, à qui Foucauld portait une affection payée de retour,
+          utilisent indifféremment les deux termes ; Moussa, en utilisant
+          successivement l’un puis l’autre, apparaît soucieux de charger <hi rend="italic">émeri</hi> de tout son sens. Il est aussi le seul à
+          donner à <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName> le beau nom de
+          « serviteur de Jésus » (<hi rend="italic">akli n-Ghissa</hi>),
+          attention à laquelle il sait certainement que son destinataire est
+          sensible. Dans une autre lettre, il l’appelle <hi rend="italic">Shaghl</hi> « Charles », transcrivant le <hi rend="italic">r</hi> de <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Charles</persName> par la vélaire
+          constrictive <hi rend="italic">gh</hi> et non l’apicale vibrante <hi rend="italic">r</hi>. Pour une oreille française, ces deux phonèmes
+          correspondent à peu près à un <hi rend="italic">r</hi> grasseyé et à
+          un <hi rend="italic">r</hi> roulé. En général, les Touaregs
+          entendent le r français comme une apicale et non comme une vélaire,
+          alors que les Français s’essayant à la langue touarègue auraient
+          plutôt tendance à le transcrire par une vélaire. C’est dire que
+          Moussa écrit le prénom de Foucauld comme celui-ci l’entendait et non
+          pas comme, selon toute probabilité, il l’entendait lui-même. Marque
+          tout à la fois d’affection et de courtoisie.</p>
+          <p rend="figure-title" xml:id="d1e896">Inscription libyque dite du
+          mausolée d’Atban, <placeName ref="11904208" type="geonames" xml:base="https://www.geonames.org/">Dougga</placeName>, ca <date from="-0100" to="-0200" type="_temp">IIe siècle av. J.-C</date>
+          </p>
+          <p xml:id="d1e898">
+            <figure xml:id="d1e899">
+              <graphic url="docannexe/image/22929/img-3.jpg"/>
+            </figure>
+          </p>
+          <p rend="figure-license" xml:id="d1e901">(Cl. Sophie de Beaune)</p>
+          <p xml:id="d1e903">Le « Louanges à Dieu pour ta santé » qui suit les
+          formules habituelles de salutation équivaut, en plus chaleureux, au
+          « [Dieu] vous a-t-il laissé [dans la paix] ? » que les épistoliers
+          nigériens placent dans leurs lettres à cet endroit. Moussa est le
+          seul à lier la mention de sa santé à celle de son destinataire :
+          « Nous allons bien si tu vas bien » rappelle, en plus affectueux, le
+          « Je vais bien et j’espère que la présente vous trouvera de même »
+          si fréquent dans les lettres européennes. « Je salue là-bas le
+          général <persName ref="034479325" type="idref" xml:base="https://www.idref.fr/">Laperrine</persName>, <persName ref="159791510" type="idref" xml:base="https://www.idref.fr/">Nieger</persName>, et la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> toute », par
+          lequel le chef touareg salue les officiers français qu’il a eu
+          l’occasion de connaître, est une variante altière du « Je salue
+          là-bas les gens tous » dont se contentent ses vassaux dag-ghali. Par
+          ailleurs, ce qu’il dit de ses démêlés avec « le lieutenant » (le
+          chef du peloton méhariste du <placeName ref="2508584" type="geonames" xml:base="https://www.geonames.org/">Hoggar</placeName>) n’a pas le
+          caractère un peu attendu des nouvelles apportées par les autres
+          lettres du corpus. Enfin, le <hi rend="italic">asalam</hi>
+          (normalement réservé aux salutations en face-à-face) dont sa lettre
+          offre l’unique occurrence est précédé d’une phrase où se marque,
+          avec un abandon dont les Touaregs offrent rarement l’exemple, tout
+          ce que le vieil ermite représente pour le pieux <hi rend="italic">amenokal</hi>
+            <note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Sur les relations entre les deux hommes, cf. Casajus (2009),
+              dont j’ai repris quelques éléments ici.</p>
+            </note>.</p>
+          <p xml:id="d1e914">D’autres personnes envoient leur bonjour à
+          <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName>, mais Moussa ne
+          leur donne pas vraiment la parole. Les lettres précédentes
+          commençaient toutes par une série de «Moi, Untel, je te salue
+          là-bas ». Chacun envoyait « là-bas » (<hi rend="italic">în</hi>) en
+          son nom des salutations que le scribe se contentait de transcrire.
+          Dans cette lettre, le scribe (dont je ne sais s’il est Moussa
+          lui-même ou un secrétaire écrivant sous sa dictée) a écrit :
+          « Tedawit, Akhamouk, etc. te saluent <hi rend="italic">ici</hi>. »
+          C’est-à-dire : ils me confient « ici » (<hi rend="italic">d</hi>) le
+          bonjour qu’ils me chargent de te transmettre là-bas. Se posant comme
+          l’unique interlocuteur de <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName>, il tient à
+          rester en tête-à-tête avec lui, imposant à ceux qui ont quelque
+          chose à dire à son correspondant de passer par son intermédiaire. À
+          moins qu’il ne se représente comme lui faisant face, car il lui
+          parle comme si, ayant fait le voyage jusqu’à lui, il lui
+          transmettait « ici » le bonjour de son entourage. Subvertissant les
+          formules traditionnelles de salutation, le chef touareg a su faire
+          passer la force de ses sentiments dans le rigide carcan des
+          conventions épistolaires.</p>
+          <p xml:id="d1e925">Est-ce à dire que, avec son versant populaire et
+          son versant aristocratique, le paysage épistolaire est analogue en
+          pays touareg à ce qu’il est devenu en <placeName ref="6255148" type="geonames" xml:base="https://www.geonames.org/">Europe</placeName> après le
+          <date from="1700" to="1799" type="_temp">
+              <hi rendition="#T10">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date> ? Il
+          existe de fait quelques analogies. Tout comme les épistoliers
+          béarnais considérés par <persName type="_temp">Anne
+          Bruneton-Governatori</persName> et <persName ref="029892252" type="idref" xml:base="https://www.idref.fr/">Bernard
+          Moreux</persName> (1997), Mokhammed n’a acquis de la culture
+          française que quelques éléments, comme eux il a reçu un enseignement
+          élémentaire dans une langue qui n’est pas sa langue maternelle, et
+          comme beaucoup d’entre eux sans doute, un modeste emploi en ville
+          l’a éloigné de ses origines rurales. En revanche, pour les Touaregs
+          qui usent de leur vieil alphabet, l’analogie ne tient plus. Au
+          contraire de ce qu’il en est pour nos épistoliers populaires,
+          l’écriture n’a pas à leurs yeux une dignité à laquelle il leur
+          faudrait péniblement se hisser. Aucun stigmate ne s’attache à son
+          ignorance, et sa maîtrise n’introduit pas à un savoir refusé à
+          l’ignorant, puisqu’il n’y a pas de livres écrits en <hi rend="italic">tifinagh</hi>. Ceux qui manient l’alphabet touareg
+          avec le plus d’aisance n’écrivent pas davantage pour autant ; tout
+          au plus aiment-ils faire étalage de leur virtuosité dans des jeux de
+          société où l’on demande à son partenaire de déchiffrer des
+          inscriptions tracées sur le sable. De plus, avec ses lettres
+          géométriques, son consonantisme, l’écriture touarègue se prête mal à
+          la transcription fluide de la parole. Les jeunes créateurs
+          d’alphabets ont précisément voulu lui donner la fluidité qu’ils ont
+          expérimentée dans les écritures apprises au lycée ou à la medersa,
+          mais les instruments qu’ils ont ainsi forgés n’ont plus grand-chose
+          de commun avec celui que leurs contribules non scolarisés manient
+          depuis toujours. Ceux-ci appliquent au calame et au papier une
+          vieille écriture conçue pour le burin et la pierre, et les plus
+          virtuoses d’entre eux y sont encore maladroits. Cette maladresse ne
+          fait cependant pas d’eux des demi-lettrés, étant consubstantielle à
+          l’écriture elle-même. Et tout malcommode qu’on puisse trouver
+          l’instrument qu’ils manient avec tant de peine, il remplit
+          parfaitement la seule fonction qu’ils lui assignent : préserver ce
+          que l’oubli menace. Quant à la roide formularité de leurs épîtres,
+          nous avons vu qu’elle transpose la formularité des salutations en
+          face-à-face ; elle tient autant aux usages oraux qu’à la maladresse
+          des scripteurs.</p>
+          <p xml:id="d1e936">Fort bien, me dira-t-on, mais l’exemple de Moussa
+          montre pourtant que l’usage des <hi rend="italic">tifinagh</hi> ne
+          condamne pas automatiquement à la maladresse. À cela je répondrais
+          que l’aisance de Moussa lui vient peut-être de sa connaissance
+          d’écritures et de traditions épistolaires étrangères. Ses fonctions
+          lui imposent d’entretenir une abondante correspondance en arabe avec
+          les officiers français et avec ses vassaux. Il dispose pour cela
+          d’un secrétaire car, bien que comprenant l’arabe, il ne l’écrit pas.
+          La lettre citée ici, dont l’onctuosité rappelle celle des
+          épistoliers arabophones du <placeName ref="2212709" type="geonames" xml:base="https://www.geonames.org/">Sahara</placeName> d’alors,
+          s’inspire certainement du modèle qu’il suit dans cette
+          correspondance. Une lettre en arabe qu’il a envoyée à <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName> le <date type="_temp" when="1910-09-20">20 septembre 1910</date> nous est
+          d’ailleurs parvenue. Élégante et affectueuse, elle est assez
+          comparable à celle que j’ai examinée ici. De son côté, <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName> a l’habitude de
+          lui écrire, son diaire en témoigne. Ces lettres sont perdues, mais
+          le brouillon d’un message où l’ermite a traduit en touareg à son
+          intention les instructions d’un officier pourrait en donner quelque
+          idée. Retrouvé dans les papiers de <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName>
+          après sa mort, ce texte ne ressemble guère aux lettres commentées
+          ici. Il est riche en informations et pauvre en salutations, au point
+          d’apparaître comme un peu impoli selon les normes locales : en un
+          mot, il est écrit à la française (Galand, ed. 1999 : 209). La
+          cursive arabe que Moussa a vu manier sous sa dictée, les longues
+          lettres touarègues qu’il a reçues de <persName ref="02732026X" type="idref" xml:base="https://www.idref.fr/">Foucauld</persName>,
+          tout cela lui a appris que l’écriture pouvait servir à d’autres
+          tâches que celles que lui réservent traditionnellement les Touaregs.
+          Comme l’ont fait après lui les militants berbérophones, il a
+          transposé dans son usage des <hi rend="italic">tifinagh</hi> une
+          expérience venue de la fréquentation d’autres écritures, sans
+          attenter toutefois au vieil instrument reçu de ses pères.</p>
+          <p xml:id="d1e944">*</p>
+          <p xml:id="d1e946">Tous ceux qui se sont intéressés aux écritures
+          ordinaires savent combien elles se situent aux frontières entre
+          l’écrit et l’oral, dans une zone où l’écrit agit au sein d’un monde
+          de parole et inversement. Sous ce rapport, les Touaregs nous sont
+          apparus comme exemplairement frontaliers, eux qui utilisent leur
+          alphabet en hommes de la parole autant qu’en hommes de l’écrit.
+          Frontaliers, ils le sont aussi au sens qu’un Gelb aurait peut-être
+          placé leur écriture sinon parmi les syllabaires, du moins sur la
+          limite qui les sépare des alphabets proprement dits. Ils le sont
+          encore au sens que cette écriture autochtone cohabite chez eux avec
+          deux écritures allochtones, cohabitation qui est aussi celle de
+          plusieurs rapports à l’écrit. Ils le sont enfin en un autre sens.
+          Nomades que leurs transhumances ou leurs voyages séparent souvent de
+          leurs proches, ce qu’ils attendent de l’écriture est avant tout de
+          les rendre présents à leurs absents : la majeure partie de ce qu’un
+          Touareg écrit ici sera lu là-bas. Et encore ces écrits destinés à
+          franchir les invisibles frontières de la distance et du temps ne
+          parviennent-ils pas directement à leurs destinataires puisque
+          ceux-ci ne les reçoivent le plus souvent que par l’intermédiaire
+          d’un lecteur qui les déchiffre pour eux et que, même s’il est seul,
+          le destinataire doit séparer en lui le déchiffreur et le lecteur.
+          Tout cela marque entre leur vieil alphabet et les autres alphabets
+          qu’ils connaissent une frontière qu’un Moussa agg Amastan a
+          cependant franchie jadis et que les militants berbérophones brûlent
+          aujourd’hui d’abolir. S’ils y parviennent un jour, les Touaregs
+          verront se modifier non seulement leur rapport aux <hi rend="italic">tifinagh</hi> mais aussi leur rapport à l’écriture
+          elle-même.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliography" xml:id="d1e952">
+        <listBibl xml:id="d1e953">
+          <bibl xml:id="d1e954">
+            <hi rend="bold">Aghali-Zakara, Mohamed</hi>
+          1994 « Graphies berbères et dilemme de diffusion : interaction des
+          alphabets latins, <hi rend="italic">ajami et tifinagh</hi> », <hi rend="italic">Études et documents berbères</hi> 11 : 107-121.</bibl>
+          <bibl xml:id="d1e964">
+            <hi rend="bold">Aghali-Zakara, Mohamed &amp;
+          Jeanine Drouin</hi> 1973-1979 « Recherches sur les <hi rend="italic">tifinagh</hi> », <hi rend="italic">Groupe linguistique
+          d’étude du chamitosémitique</hi> 18-23 (2) : 245-272 et
+          279-292.<lb/>1979 <hi rend="italic">Traditions touarègues
+          nigériennes</hi>. Paris, L’Harmattan.<lb/>2007 <hi rend="italic">Inscriptions rupestres libyco-berbères</hi>. Genève,
+          Droz.</bibl>
+          <bibl xml:id="d1e985">
+            <hi rend="bold">Albert, Jean-Pierre</hi> 1993
+          « Écritures domestiques », in Daniel Fabre, ed., <hi rend="italic">Écritures ordinaires</hi>… : 37-94.</bibl>
+          <bibl xml:id="d1e992">
+            <hi rend="bold">Alvarez-Pereyre, Frank</hi>
+          1989 « Lois et paroles millénaires : la Thora et la Michna entre
+          texte écrit et oralité », in <hi rend="italic">Graines de parole :
+          puissance du verbe et traditions orales. Textes offerts à Geneviève
+          Calame-Griaule</hi>. Paris, <hi rendition="#T10">Cnrs</hi> :
+          23-38.</bibl>
+          <bibl xml:id="d1e1002">
+            <hi rend="bold">Bissuel, Henri</hi> 1891 <hi rend="italic">Le Sahara français</hi>. Alger, Adolphe
+          Jourdan.</bibl>
+          <bibl xml:id="d1e1009">
+            <hi rend="bold">Bruneton-Governatori, Anne
+          &amp; Bernard Moreux</hi> 1997 « Un modèle d’écriture populaire :
+          les lettres d’émigrés béarnais », in Daniel Fabre, ed., <hi rend="italic">Par écrit</hi>…: 79-103.</bibl>
+          <bibl xml:id="d1e1016">
+            <hi rend="bold">Camps, Gabriel</hi> 1973
+          « Recherches sur les plus anciennes inscriptions libyques de
+          l’Afrique du Nord et du Sahara », <hi rend="italic">Bulletin
+          archéologique du CTHS</hi> nouv. ser. 10-11 : 143-166.</bibl>
+          <bibl xml:id="d1e1023">
+            <hi rend="bold">Casajus, Dominique</hi> 2000a
+          « L’errance d’Imrû’l-Qays : poésie arabe et poésie touarègue », <hi rend="italic">Journal des Africanistes</hi> 72 (2) :
+          139-151.<lb/>2000b <hi rend="italic">Gens de parole. Langage, poésie
+          et politique en pays touareg</hi>. Paris, La Découverte.<lb/>2009
+          <hi rend="italic">Charles de Foucauld. Moine et savant</hi>. Paris,
+          <hi rendition="#T10">Cnrs</hi> Éd.<lb/>2011 « Déchiffrages :
+          quelques réflexions sur l’écriture libyco-berbère », <hi rend="italic">Afriques. Débats, méthodes et terrains d’histoire</hi>
+          [<ref target="http://afriques.revues.org/688">http ://afriques.revues.org/688</ref>].</bibl>
+          <bibl xml:id="d1e1052">
+            <hi rend="bold">Chaker, Salem &amp; Slimane
+          Hachi</hi> 2000 « À propos de l’origine et de l’âge de l’écriture
+          libyco-berbère : réflexions du linguiste et du préhistorien », in
+          Salem Chaker &amp; Adam Zaborski, <hi rend="italic">Études berbères
+          et chamito-sémitiques. Mélanges offerts à Karl-G. Prasse</hi>.
+          Louvain, Peeters : 95-111.</bibl>
+          <bibl xml:id="d1e1059">
+            <hi rend="bold">Coninck, P. de &amp; Lionel
+          Galand</hi> 1960 « Un essai des Kel-Antessar pour améliorer
+          l’écriture touarègue », <hi rend="italic">Groupe linguistique
+          d’étude du chamito-sémitique</hi> 8 : 78-83.</bibl>
+          <bibl xml:id="d1e1066">
+            <hi rend="bold">Fabre, Daniel</hi> 1997
+          « Seize terrains d’écriture », in Daniel Fabre, ed., <hi rend="italic">Par écrit</hi>…: 1-56.</bibl>
+          <bibl xml:id="d1e1074">
+            <hi rend="bold">Fabre, Daniel, ed.</hi> 1993
+          <hi rend="italic">Écritures ordinaires</hi>. Paris, Centre national
+          d’art et de culture Georges-Pompidou, BPI.<lb/>1997 <hi rend="italic">Par écrit. Ethnologie des écritures quotidiennes</hi>.
+          Paris, Éd. de la Maison des sciences de l’homme.</bibl>
+          <bibl xml:id="d1e1086">
+            <hi rend="bold">Février, James Germain</hi>
+          1959 <hi rend="italic">Histoire de l’écriture</hi>. Paris,
+          Payot.</bibl>
+          <bibl xml:id="d1e1093">
+            <hi rend="bold">Foucauld, Charles de</hi>
+          1951-1952 <hi rend="italic">Dictionnaire touareg-français. Dialecte
+          de l’Ahaggar</hi>. Paris, Imprimerie nationale. 4 tomes.</bibl>
+          <bibl xml:id="d1e1100">
+            <hi rend="bold">Galand, Lionel</hi> 1976 « La
+          notion d’écriture dans les parlers berbères », <hi rend="italic">Almogaren</hi> 5-6 : 3-97.<lb/>2001 « Un vieux débat :
+          l’origine de l’écriture libyco-berbère », <hi rend="italic">La
+          lettre du Répertoire des inscriptions Libyco-Berbères 7</hi> :
+          1-3.</bibl>
+          <bibl xml:id="d1e1112">
+            <hi rend="bold">Galand, Lionel, ed.</hi> 1999
+          <hi rend="italic">Lettres au marabout. Messages touaregs au Père de
+          Foucauld</hi>. Paris, Belin.</bibl>
+          <bibl xml:id="d1e1119">
+            <hi rend="bold">Gelb, Ignace J.</hi> 1973 <hi rend="italic">Pour une théorie de l’écriture</hi>. Paris,
+          Flammarion.</bibl>
+          <bibl xml:id="d1e1126">
+            <hi rend="bold">Lahire, Bernard</hi> 2001 <hi rend="italic">L’Homme pluriel. Les ressorts de l’action</hi>, Paris,
+          Hachette Littératures.</bibl>
+          <bibl xml:id="d1e1133">
+            <hi rend="bold">Pichler, Werner</hi> 2007 <hi rend="italic">Origin and Development of the Libyco-Berber
+          Script.</hi> Köln, Rüdiger Köppe.</bibl>
+          <bibl xml:id="d1e1140">
+            <hi rend="bold">Synge, John Millington</hi>
+          1996 [1921] <hi rend="italic">Les Îles Aran</hi>. Trad. par P.
+          Leyris. Paris, Payot.</bibl>
+          <bibl xml:id="d1e1147">
+            <hi rend="bold">Williams, Patrick</hi> 1997
+          « L’écriture entre l’oral et l’écrit : six scènes de la vie tzigane
+          en France », in Daniel Fabre, ed., <hi rend="italic">Par
+          écrit</hi>… : 59-78.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

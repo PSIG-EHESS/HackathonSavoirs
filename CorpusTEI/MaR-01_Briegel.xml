@@ -1,0 +1,579 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="MaR-01_Briegel">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Matières à raisonner. Une introduction Françoise
+        Briegel, UNIGE</title>
+        <title type="alt" xml:lang="en">Manners of thinking. An
+        introduction</title>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/NXZ6NVV3" type="conferencePaper" xml:lang="">
+          <analytic>
+            <title level="a">Matières à raisonner. Une introduction</title>
+            <author>
+              <forename>Françoise</forename>
+              <surname>Briegel</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title type="conferenceName">Colloque Matières à raisonner</title>
+            <imprint>
+              <pubPlace>Genève</pubPlace>
+              <date/>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>Inscription des savoirs, Matérialité des savoirs, Ecriture,
+            Visualisation, Instruments, Pratiques intellectuelles,
+            Raisonnement</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6458783" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName>
+          </term>
+          <term>
+            <placeName ref="6447142" type="geonames" xml:base="https://www.geonames.org/">Marseille</placeName>
+          </term>
+          <term>
+            <placeName ref="5277858" type="geonames" xml:base="https://www.geonames.org/">Washburn</placeName>
+          </term>
+          <term>
+            <placeName ref="6453974" type="geonames" xml:base="https://www.geonames.org/">Toulouse</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1000" to="1299" type="_temp">entre les XII<hi rend="sup">e</hi> et XIII<hi rend="sup">e</hi> siècles</date>
+          </term>
+          <term>
+            <date from="1800" to="1899" type="_temp">XIX<hi rend="sup">e</hi>
+            siècle</date>
+          </term>
+          <term>
+            <date from="1700" to="1799" type="_temp">XVIII<hi rend="sup">e</hi> siècle</date>
+          </term>
+          <term>
+            <date from="1100" to="1199" type="_temp">XII<hi rend="sup">e</hi>
+            siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2021-10-21T08:52:00" who="Jeanne FLAMANT">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Matières à raisonner. Une
+          introduction</titlePart>
+          <titlePart type="alt">Manners of thinking. An
+          introduction</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Françoise Briegel</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div>
+        <div xml:id="d1e125">
+          <div type="chapitre" xml:id="mainDiv">
+            <div type="section1" xml:id="d1e141">
+              <p xml:id="d1e143">Né d’un workshop organisé à <placeName ref="6458783" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName> en <date from="2017" to="2018" type="_temp">2017-2018</date>
+                <note n="1" place="foot" type="standard" xml:id="ftn1">
+                  <p>
+                    <hi rend="italic">Matérialités et Raisonnements</hi>
+                  organisé, à l’Université de Genève, par Jean-François Bert
+                  (Université de Lausanne) et Françoise Briegel (Université de
+                  Genève).</p>
+                </note>, <hi rend="italic">Matières à raisonner</hi> est à la
+              croisée de plusieurs travaux ; ceux sur la culture
+              matérielle<note n="2" place="foot" type="standard" xml:id="ftn2">
+                  <p>Plus particulièrement le groupe de travail <hi rend="italic">Matière à penser</hi> (<hi rend="italic">MàP</hi>) fondé par Marie-Pierre Julien,
+                  Céline Rosselin et Jean-Pierre Warnier dont les travaux ont
+                  fait l’objet de plusieurs publications : <hi rend="small-caps">Julien, Warnier </hi>et<hi rend="small-caps"/>W<hi rend="small-caps">arnier
+                  </hi>(eds)<hi rend="small-caps">, 1999 </hi>; <hi rend="small-caps">Warnier</hi>, 1999 ; <hi rend="small-caps">Julien</hi> et <hi rend="small-caps">Rosselin</hi>, 2005</p>
+                </note> comme celui du groupe de travail <hi rend="italic">Matière à penser</hi>
+                <hi rend="italic">MàP
+              </hi>fondé par <persName ref="110989457" type="idref" xml:base="https://www.idref.fr/">Marie-Pierre Julien</persName>,
+              <persName ref="092162622" type="idref" xml:base="https://www.idref.fr/">Céline Rosselin</persName> et
+              <persName ref="02880368X" type="idref" xml:base="https://www.idref.fr/">Jean-Pierre Warnier</persName>,
+              à qui le titre de ce volume renvoie, et ceux sur les pratiques
+              savantes menées par <persName ref="026932563" type="idref" xml:base="https://www.idref.fr/">Christian Jacob</persName>
+                <note n="3" place="foot" type="standard" xml:id="ftn3">
+                  <p>
+                    <hi rend="small-caps">Jacob</hi> (dir.), 2007, 2011</p>
+                </note>. Le projet visait à questionner les objets, leur
+              aspect matériel, les formes graphiques, les images afin de
+              saisir leurs potentiels effets sur les manières dont, au fil des
+              siècles, les individus ont pensé, raisonné ou réfléchi. En
+              d’autres mots, une question a traversé les travaux : une mise
+              forme graphique ou un objet ont-ils produit un effet cognitif
+              particulier ? Le dossier <hi rend="italic">Matières à
+              Raisonner</hi> n’entend pas reprendre l’ensemble des questions
+              relatives au rapport entre matérialité et savoir qui a été
+              traité de façon féconde ces dernières années. Il s’intéresse aux
+              modalités proprement anthropologiques et historiques des
+              allers-retours entre les façons de penser, les objets qui
+              initient ou sont le fruit du raisonnement et les contextes dans
+              lesquels ils opèrent. La réflexion ne se veut pas être une
+              histoire intellectuelle, pas davantage une histoire des idées.
+              Il s’agit d’une pragmatique de la pensée et du raisonnement.</p>
+              <p xml:id="d1e205">Grâce à des cas historiques, anthropologiques
+              ou sociologiques, quelques matérialités singulières ont été
+              analysées : la fiche, la liste, la carte, le cadastre, l’arbre.
+              Les études ont abordé les changements d’échelle dus à
+              l’instrumentation et les logiques induites par les supports qui
+              stockent l’information : le télescope, le microscope, l’écran,
+              le carnet, la liste, le papier. Nous avons gardé à l’esprit la
+              question initiale qui interrogeait ce que produit la matérialité
+              sur la pensée des individus qui la convoquent ou y sont
+              confrontés. Mais nous avons aussi ouvert la perspective inverse
+              qui interrogeait quels modes de raisonnements induisaient ou
+              suggéraient une matérialité particulière. En d’autres mots,
+              est-ce que le tableau a un effet graphique qui invite à la
+              pensée comparative, alors que la liste inviterait, quant à elle,
+              à produire un raisonnement cumulatif ?</p>
+              <p xml:id="d1e208">Les objets, anthropologiques par nature, sont
+              considérés à partir de leurs matérialités et replacés dans les
+              contextes historiques qui les ont produits. Ils en sont le
+              témoignage, de même qu’ils en influencent les contours. Si
+              <persName type="idref" xml:base="https://www.idref.fr/">Jack
+              Goody</persName>, dans la <hi rend="italic">Raison
+              graphique</hi>, a mis en évidence quelques spécificités des
+              formes matérielles de présentation et d’utilisation d’un certain
+              nombre de données (notamment astronomiques et administratives),
+              les matières à raisonner, quant à elles, ne sont pas épuisées.
+              Une des délicates questions soulevées par ce dossier réside dans
+              la tentative de comprendre de ce que signifie « raisonner ». Les
+              modes de raisonnement qui participent du quotidien des individus
+              sont nombreux. Ils embrassent tour à tour, une capacité à
+              analyser, induire, déduire, comparer, synthétiser, généraliser,
+              cumuler, inférer, discriminer, opposer, etc. Conjointement aux
+              émotions ils participent de l’agir humain. S’intéresser aux
+              raisonnements suppose qu’il y ait une traduction possible entre
+              les pensées et les outils qui les matérialisent, que ceux-ci
+              soient scripturaux, graphiques, monumentaux. Si le réel n’est
+              jamais appréhendable dans sa complétude, il est toutefois
+              possible d’en saisir sa portée et ses contours. Cette opération
+              relève d’un processus de traduction dont on sait qu’il est à la
+              fois une aporie et en même temps qu’il est créateur. Ainsi,
+              qu’elle qu’en soit sa matérialisation scripturale, graphique,
+              matérielle, ce qui est donné à voir matériellement est condamné
+              à n’être qu’un flou entaché d’imprécision, dont il faut se
+              contenter. Malgré le constat d’insatisfaction que suppose le
+              projet de ce dossier, on observe néanmoins que la forme
+              matérielle de la cognition et les outils que les individus
+              utilisent au fil des siècles évoluent et dessinent si ce n’est
+              des ruptures, tout au moins des changements notables. Ce dossier
+              invite donc à ne saisir que l’à-peu-près des choses et de leurs
+              effets sur l’individu. Toutefois, selon les périodes
+              considérées, les choses proviennent bel et bien de l’époque où
+              elles se sont formées. À leur tour, elles participent du monde
+              auquel elles appartiennent et dans lequel elles opèrent. La
+              fonction pragmatique attachée aux objets n’est dès lors plus une
+              simple figure de style ou un ornement, c’est une façon de faire
+              qui impacte le monde.</p>
+              <p xml:id="d1e214">Grâce à des études circonstanciées
+              historiques, anthropologiques ou encore inspirées par les
+              recherches en psychologie cognitive, il s’est agi de comprendre
+              comment s’opère la distribution entre des façons de penser plus
+              ou moins abstraites et des incarnations techniques.</p>
+              <p xml:id="d1e217">Pour ce faire nous avons évité de situer <hi rend="italic">a priori</hi> la frontière entre les deux, de même
+              que nous nous sommes refusés de hiérarchiser la prégnance de
+              l’un (l’objet) au détriment de l’autre (la pensée) ; même si la
+              question matérielle paraît plus évidente à circonscrire –
+              l’objet ou la forme graphique sont donnés à voir – que ne
+              peuvent l’être le raisonnement ou les modes de pensées. Car
+              davantage que la désignation de cette césure, le projet <hi rend="italic">Matières à raisonner</hi> tente d’explorer la
+              nature même du lien entre artéfacts et raisonnements.</p>
+              <p xml:id="d1e227">Parfois, il semble que des cas illustrent une
+              homothétie parfaite entre des objets et un type de raisonnement
+              spécifique comme la visualisation, l’accumulation, la
+              spécification ou encore la généralisation. Toutefois ce
+              rapprochement lexical évitera d’être paresseux. Son illusoire
+              évidence mérite d’être déconstruite ou approfondie. De la même
+              façon, nous n’établissons pas, en amont, une distinction entre
+              les différents matériaux ou objets qui instaurent le travail de
+              connaissance. Ce sont les objets en contexte et toutes les
+              configurations sociales, épistémiques et cognitives rendant
+              possibles leurs usages et générant par exemple des activités
+              intellectuelles de relation, de contraste, ou d’opposition nous
+              semblent pertinentes. Ainsi, à partir de différentes
+              matérialités opérationnelles, les contributions chercheront à
+              isoler ou à repérer les conjugaisons d’activités intellectuelles
+              telles que l’accumulation, la discrimination, le désassemblage,
+              la généralisation, la réduction, la distribution, la
+              spatialisation, la combinaison, la comparaison ou encore
+              différentes formes de mise en relation.</p>
+            </div>
+            <div type="section1" xml:id="d1e231">
+              <head subtype="level1" xml:id="d1e233">Ce dossier explore trois
+              pistes.</head>
+              <p xml:id="d1e236">La première réactualise l’interrogation qui a
+              sous-tendu notre démarche et qui porte sur les contextes où
+              s’articulent les liens entre les matérialités et les façons de
+              penser qui s’y inscrivent. Aujourd’hui, sans doute plus que
+              jamais, les développements technologiques des outils
+              intellectuels sont imbriqués dans et par les connaissances
+              produites. Comme elle a pu l’être durant une partie de l’époque
+              moderne, la distinction entre outils et savoirs s’efface à
+              nouveau. Cette actualité nous invite toutefois à nous arrêter
+              aux contextes et aux gestes qui rassemblent, aux conditions qui
+              président la production des savoirs, à la collecte des objets,
+              des écritures, des traces de l’activité humaine que ce soit dans
+              un but muséographique, informatique ou institutionnel. Avant
+              l’assemblage d’objets ou de données singulières, plusieurs
+              sortes d’opérations intellectuelles sont nécessaires : le
+              repérage, la production, l’éventuelle transformation et enfin la
+              réunion des éléments. Parfois, les données ou des objets
+              épousent une logique cumulative configurée selon une procédure
+              standardisée (les données informatiques, l’enregistrement
+              d’actes dans un registre notarial). D’autres fois, il s’agit de
+              faire coïncider des objets singuliers qui répondent à une
+              fonction d’exemplarité tout en procédant de leur unicité (les
+              logiques d’exposition muséale). Dans ce dernier cas, les pièces
+              exposées discutent les unes avec les autres plutôt qu’elles ne
+              matérialisent le milieu duquel elles ont été extraites.</p>
+              <p xml:id="d1e239">Mettre en séries, en vitrines, en colonnes,
+              en listes, produit un tout, un ensemble constitué qui est
+              irréductible au seul assemblage des parties. La collecte
+              dénaturalise en extrayant les artéfacts des milieux qui les ont
+              produits et, dans le même mouvement, les re-naturalise. Elle
+              engendre une impression d’objectivité que tissent les liens
+              réalisés par le geste d’assemblage entre chacun des éléments.
+              Par ailleurs, l’organisation scripturale dans un inventaire ou
+              spatiale dans un espace muséal, inaugure des catégories qui
+              perdurent au fil des siècles, par exemple la notion d’idolâtrie
+              qui se construit au <date from="1600" to="1699" type="_temp">XVII<hi rend="sup">e</hi> siècle</date>. Ainsi, si
+              la mise en ordre apparaît performative dans le sens où
+              l’agencement produit une forme naturellement organisée et
+              logique qui déjoue la critique et suspend la contestation quant
+              à sa fiabilité et à sa pertinence, qu’en est-il du
+              désassemblage ? S’apparente-t-il à un geste de désagrégation qui
+              reconfigure ce qui faisait la valeur juridique ou mémorielle ?
+              Par exemple, les papiers notariaux, couturés en registres et qui
+              possédaient une fonction institutionnelle et légale, perdent-ils
+              toute force juridique par le seul fait du démembrement du
+              registre au moment d’une pénurie de papier dans les colonies
+              espagnoles à la <date from="1770" to="1799" type="_temp">fin du
+              XVIII<hi rend="sup">e</hi> siècle</date> ? Ce cas nous rappelle
+              combien le moment, le lieu, les acteurs et les intentions
+              altèrent la valeur attribuée à la feuille écrite notariale. Or,
+              dans ce contexte, le désassemblage s’apparente-t-il à un geste
+              de la « dé-performativité » qui verrait le démembrement des
+              registres comme une annulation de la force juridique que
+              revêtent les écritures de l’époque moderne ?</p>
+              <p xml:id="d1e248">L’histoire des innovations et des évolutions
+              graphiques a été un domaine bien exploré. Récemment, <persName ref="176050345" type="idref" xml:base="https://www.idref.fr/">Jean-Claude Schmitt</persName>
+              a montré que c’est au <date from="1100" to="1199" type="_temp">XII<hi rend="sup">e</hi> siècle</date> que la
+              pensée par figures s’impose dans les écoles monastiques et
+              canoniales avant que le diagramme ne pénètre les Universités et
+              n’accompagne, dès le <date from="1200" to="1299" type="_temp">XIII<hi rend="sup">e</hi> siècle</date>, bon nombre
+              de textes<note n="4" place="foot" type="standard" xml:id="ftn4">
+                  <p>
+                    <hi rend="small-caps">Schmitt</hi>, 2019, p. 25</p>
+                </note>. Par quels canaux de diffusion ou d’influence les
+              figures utilisées dans un domaine se retrouvent-elles ailleurs ?
+              Par quel moyen, parcours ou hasard, un style<note n="5" place="foot" type="standard" xml:id="ftn5">
+                  <p>
+                    <hi rend="small-caps">Gombrich</hi>, 1971 (1960)</p>
+                </note> percole-t-il dans un autre ? Est-ce la « force magique
+              de la figure » qui lui confère une puissance heuristique
+              tellement souple qu’elle est réutilisable si aisément pour
+              d’autres fins que celles initialement envisagées ? Certaines
+              époques, héritières de traditions visuelles, voient le
+              développement de figures particulières comme en témoigne Le <hi rend="italic">Liber floridus</hi> (1120-1121) de <persName ref="068531028" type="idref" xml:base="https://www.idref.fr/">Lambert de
+              Saint-Omer</persName> qui conjugue des figures communes au
+              <date>Haut Moyen Âge</date> (le cercle, la croix, l’arbre) avec
+              la répétition des listes et des nombres de la tradition
+              scolastique. Ces réseaux de sens graphiques nouveaux qui
+              génèrent un modèle de vertu morale (un <hi rend="italic">habitus</hi>) s’imposent alors chez le lecteur
+              chrétien. L’intérêt pour l’apparition de figures ou de formes
+              graphiques ont été nombreuses dans un autre champ disciplinaire.
+              En effet, l’histoire des sciences et des techniques a contribué
+              à interroger les moments qui imbriquent les innovations et les
+              découvertes avec les outils techniques et les formes
+              matérielles. Le projet <hi rend="italic">Milestones in the
+              History of Thematic Cartography, Statistical Graphics, and Data
+              Visualization</hi>
+                <hi rend="underline">
+                  <note n="6" place="foot" type="standard" xml:id="ftn6">
+                    <p>
+                      <hi rend="italic">Milestones in the History of Thematic
+                      Cartography, Statistical Graphics, and Data
+                      Visualization,</hi>
+                      <hi rend="underline">https://www.datavis.ca/milestones/index.php?page=home</hi>
+                    </p>
+                  </note>
+                </hi> cherche à consigner sur une même ligne temporelle, qui
+              débute en <date>-6200 avant notre ère</date> et qui se densifie
+              de références à l’époque moderne, l’apparition des différentes
+              modes de visualisation dans l’histoire des sciences, proposant
+              ainsi une tradition généalogique qui est classique dans ce champ
+              disciplinaire. On apprend, par exemple que l’historiogramme (<hi rend="italic">bar chart</hi>) apparaît en <date type="_temp" when="1786">1786</date> sous la plume de <persName ref="027076288" type="idref" xml:base="https://www.idref.fr/">William Playfair</persName> qui
+              est tout à la fois économiste, ingénieur, libraire, comptable,
+              ou banquier<note n="7" place="foot" type="standard" xml:id="ftn7">
+                  <p>William <hi rend="small-caps">Playfair</hi>, <hi rend="italic">The commercial and political atlas :
+                  representing, by means of stained copper-plate, charts, the
+                  exports and general trade of England at a single view</hi>,
+                  1786.</p>
+                </note>. Ce dernier le formalise pour visualiser conjointement
+              l’évolution du prix du blé et celle des salaires. Adossée à ces
+              différentes historiographies, le dossier <hi rend="italic">Matières à raisonner</hi> ne cherche pas à
+              compléter la ligne du temps des innovations graphiques, mais
+              interroge spécifiquement ce que font des figures et les formes
+              graphiques particulières (« <hi rend="italic">Carte, arbre,
+              tableau, liste</hi> ») sur la mémoire, la circulation, la
+              spécialisation des savoirs, ou sur la visualisation du
+              territoire. Est-ce que certains modes de représentation ont eu
+              des effets cognitifs particuliers sur les contemporains ? Si la
+              représentation des tracés des propriétés foncières (les mappes)
+              réalisés lors de la réforme fiscale de la Savoie dans le <date from="1200" to="1240" type="_temp">premier tiers du XVIII<hi rend="sup">e</hi> siècle</date> constitue une nouveauté visuelle
+              pour les habitants des contrées montagnardes et rurales, peu
+              familiers des plans, les archives témoignent néanmoins de
+              l’appropriation rapide et persistante de ces dessins par les
+              populations locales. Or, de nombreux plans cadastraux présentent
+              une spécificité graphique – le relief – qui est un élément
+              inutile et concurrent aux codes utilisés dans la schématisation
+              fiscale. Quels rapports entretient la verticalité figurée des
+              montagnes avec l’objet matériel qu’est le cadastre ? N’est-ce
+              que la rémanence d’une image mentale du territoire ? Au fil du
+              temps l’homme a usé de stratégies, d’instruments ou de supports
+              particuliers pour entraîner, développer, affermir ou convoquer
+              sa mémoire. Les moyens mémoriels présentent des natures très
+              différentes selon les époques et les populations qui les
+              convoquent. Ainsi, les structures arborescentes ont joué, dans
+              l’art de la mémoire, un rôle important à <date>la fin du Moyen
+              Âge</date> et à la <date>Renaissance</date>. Comment la figure
+              de l’arbre agit-elle sur la mnémotechnie et les acteurs qui la
+              convoquent ? Pourquoi le choix d’une telle figure, plutôt qu’une
+              autre ? L’arborescence visualise des embranchements qui
+              déploient des réseaux de relations, tout en instituant une
+              origine (le tronc, le début de l’arbre) de laquelle émane
+              l’ensemble. L’organisation spatiale verticale ou horizontale
+              signale des liens, des nœuds, qui sont autant de croisées des
+              chemins possibles pour conduire la mémoire selon un réseau
+              complexe de sens. Alors que la mémoire suit un cheminement
+              spatial conduit par des branchages, l’organisation des
+              disciplines au cours du <date from="1800" to="1899" type="_temp">XIX<hi rend="sup">e</hi> siècle</date> procède
+              encore de cette forme graphique, mais ne s’en satisfait pas.
+              Listes, tableaux sont autant de manière de rendre intelligible
+              l’organisation des savoirs et les liens que les connaissances
+              entretiennent entre elles. Toutefois, la mise en ordre des
+              disciplines en arbres, listes ou tableaux ne produit-elle pas un
+              effet non voulu et visuel sur l’architecture intellectuelle de
+              ce que doit être l’arbre de la connaissance au <date from="1800" to="1899" type="_temp">XIX<hi rend="sup">e</hi> siècle</date> ?
+              Influencés par les formes graphiques structurées, les érudits
+              romantiques cherchent la régularité, l’harmonie, effacent les
+              anomalies ou remplissent les vides dans un souci de rendre le
+              monde conforme à l’image qui s’impose à leur vue.</p>
+              <p xml:id="d1e317">Un dernier aspect traité dans ce dossier
+              s’attarde sur la façon dont les savants ou les chercheurs créent
+              des instruments, se saisissent des objets ou des outils en
+              fonction de leur taille, de leur maniabilité ou des situations
+              dans lesquelles les acteurs se trouvent. La question se pose
+              alors de savoir si l’objet n’est réductible qu’à sa seule
+              fonction. L’exemple du porte-loupe de Trembley et la difficulté
+              à comprendre sa fonctionnalité pour ceux qui n’en sont pas
+              familiers ou les régimes d’utilisations spécifiques ou
+              généralisés des télescopes de <placeName ref="6453974" type="geonames" xml:base="https://www.geonames.org/">Toulouse</placeName>,
+              <placeName ref="6447142" type="geonames" xml:base="https://www.geonames.org/">Marseille</placeName> et
+              <placeName ref="5277858" type="geonames" xml:base="https://www.geonames.org/">Washburn</placeName>,
+              soutiennent cette idée. Toutefois, les objets sont susceptibles
+              de créer le sentiment du beau ou des liens affectifs qui
+              viennent perturber l’énonciation d’une seule relation
+              fonctionnelle. Le rapport aux choses passe par le maniement, le
+              toucher, par leurs valeurs sentimentales et symboliques qui
+              parfois consolident des liens interindividuels et produisent un
+              sentiment communautaire. Nous avons eu un exemple récent :
+              l’altruisme financier et l’élan compassionnel qui se sont
+              exprimés lors de l’incendie de Notre-Dame, ont été contrastés
+              avec la moindre solidarité que reçoivent les associations
+              caritatives. Bien que cet événement soulève des controverses, il
+              signale combien l’objet est mobilisateur. Comment comprendre les
+              ressorts qui génèrent un tel phénomène ? Les objets ont bel et
+              bien un pouvoir : ils rassemblent les individus, ils initient
+              des relations ou les entretiennent. Or, la taille des objets
+              est-elle un paramètre qui entre dans l’équation ? L’attachement
+              aux choses imposantes serait-il plutôt de nature collective ? Et
+              l’attachement aux petits objets serait, quant à lui,
+              individuel ? L’inanimation permet-elle d’accueillir et de
+              répondre à la complexité des attentes et des besoins de chacun
+              et chacune ? Ces questions renvoient à la matérialité, aux
+              rapports des objets aux autres objets, aux ergonomies de
+              travail. Le lien qu’un savant comme Le Sage au <date from="1700" to="1799" type="_temp">XVIII<hi rend="sup">e</hi> siècle</date>
+              entretient avec ses fiches est révélateur. Si cet érudit
+              genevois manifeste d’une forme obsessionnelle de rédaction,
+              d’accumulation et de rangement de ses connaissances, la mise en
+              fiches n’en est pas moins une pratique savante usuelle chez les
+              chercheurs jusque tard dans le <date from="1900" to="1999" type="_temp">XX<hi rend="sup">e</hi> siècle</date>. Il existe
+              sans nul doute un sentiment de satiété produite par l’aspect
+              visuel du fichier bien rempli. Or, le savoir procède de ces
+              façons d’organiser son propre travail. Plus largement, cette
+              structuration par la mise en fiches s’apparente-t-elle à la
+              pensée scolastique encore vivace et qui voit fleurir les
+              raisonnements par listes, par énumérations, par nombres <date from="1000" to="1299" type="_temp">entre les XII<hi rend="sup">e</hi> et XIII<hi rend="sup">e</hi> siècles</date> ?
+              Si la forme du savoir est décisive sur la nature de la
+              connaissance, d’autres ont montré combien les lieux de savoirs
+              et l’organisation même du travail peuvent aussi jouer un rôle.
+              Entre normes culturelles et professionnelles, l’état
+              socioprofessionnel et plus particulièrement la précarité dans
+              laquelle se trouve le chercheur de nos jours laisse des traces
+              sur les façons dont se construit le savoir.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e338">
+        <head xml:id="d1e340">Bibliographie</head>
+        <listBibl xml:id="d1e343">
+          <bibl xml:id="d1e345">
+            <hi rend="small-caps">Gombrich</hi>, 1971
+          (1960) : Ernst <hi rend="small-caps">Gombrich</hi>, <hi rend="italic">L’Art et l’illusion</hi>. . <hi rend="italic">Psychologie de la représentation picturale,</hi>
+          Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e359">
+            <hi rend="small-caps">Jacob </hi>(dir.),
+          2017,2011 : Christian <hi rend="small-caps">Jacob </hi>(dir.), <hi rend="italic">Les lieux de savoirs</hi>, Paris, Albin Michel et <ref target="https://savoirs.ehess.fr">
+              <hi rend="underline">https://savoirs.ehess.fr</hi>
+            </ref>.</bibl>
+          <bibl xml:id="d1e374">
+            <hi rend="small-caps">Julien, Warnier
+          </hi>et<hi rend="small-caps"/>W<hi rend="small-caps">arnier
+          </hi>(eds)<hi rend="small-caps">, 1999 :</hi> Marie-Pierre <hi rend="small-caps">Julien,</hi> Marie &amp; Jean-Pierre W<hi rend="small-caps">arnier</hi> (eds), <hi rend="italic">Approches de
+          la culture matérielle : corps à corps avec l’objet</hi>, Paris,
+          L’Harmattan.</bibl>
+          <bibl xml:id="d1e398">
+            <hi rend="small-caps">Julien</hi> et <hi rend="small-caps">Rosselin</hi>, 2005 : Marie-Pierre <hi rend="small-caps">Julien,</hi> Céline R<hi rend="small-caps">osselin</hi>, <hi rend="italic">La culture
+          matérielle</hi>, Paris, La Découverte.</bibl>
+          <bibl xml:id="d1e415">
+            <hi rend="small-caps">Schmitt</hi>, 2019 :
+          Jean-Claude Schmitt, <hi rend="italic">Penser par figures</hi>,
+          Paris, Arkhê.</bibl>
+          <bibl xml:id="d1e424">
+            <hi rend="small-caps">Warnier</hi>, 1999 :
+          Jean-Pierre W<hi rend="small-caps">arnier</hi>, <hi rend="italic">Construire la culture matérielle. L’homme qui pensait
+          avec ses doigts</hi>, Paris, Presses Universitaires de
+          France.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

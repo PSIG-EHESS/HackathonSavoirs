@@ -1,0 +1,872 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LHOM_201_Ledent">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Claude Lévi-Strauss et les formes symboliques de la
+        musique</title>
+        <author>
+          <forename>David</forename>
+          <surname>Ledent</surname>
+          <affiliation>
+            <s>Mary Immaculate College Université de Limerick, Limerick
+            (Irlande)</s>
+          </affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="SN">
+            <forename>Sara</forename>
+            <surname>Nadal</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification 3.0 non transposé - CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/RSJVXB37" type="journalArticle" xml:lang="fr">
+          <analytic>
+            <title level="a">Claude Lévi-Strauss et les formes symboliques de
+            la musique</title>
+            <idno type="DOI">10.4000/lhomme.22970</idno>
+            <author>
+              <forename>David</forename>
+              <surname>Ledent</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">L’Homme. Revue française d’anthropologie</title>
+            <idno type="ISSN">0439-4216</idno>
+            <imprint>
+              <biblScope unit="issue">201</biblScope>
+              <biblScope unit="page">107-120</biblScope>
+              <date>2012</date>
+              <note type="url">https://journals.openedition.org/lhomme/22970</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>musique</item>
+            <item>formes symboliques</item>
+            <item>formes musicales</item>
+            <item>structuralisme</item>
+            <item>modernité musicale</item>
+            <item>Claude Lévi-Strauss</item>
+            <item>Ernst Cassirer</item>
+            <item>Erwin Panofsky</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>Music</item>
+            <item>Symbolic Forms</item>
+            <item>Musical Forms</item>
+            <item>Structuralism</item>
+            <item>Musical Modernity</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="3472360" type="geonames" xml:base="https://www.geonames.org/">Amazonie</placeName>
+          </term>
+          <term>
+            <placeName ref="3457419" type="geonames" xml:base="https://www.geonames.org/">Mato Grosso</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1955">1955</date>
+          </term>
+          <term>
+            <date from="1800" to="1899" type="_temp">
+              <hi rendition="#T10">xix</hi>
+              <hi rend="sup">e</hi>
+            </date>
+          </term>
+          <term>
+            <date from="1700" to="1799" type="_temp">
+              <hi rendition="#T10">xviii</hi>
+              <hi rend="sup">e</hi>
+            </date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Claude Lévi-Strauss et les formes symboliques
+          de la musique</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>David Ledent</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div>
+        <p xml:id="d1e88">L<hi rendition="#T10">es réflexions sur la
+        musique</hi> dans le champ des sciences humaines se font souvent le
+        devoir de citer <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Claude Lévi-Strauss</persName> selon
+        lequel la musique est « le suprême mystère des sciences de l’homme,
+        celui contre lequel elles butent et qui garde la clé de leur progrès »
+        (1964 : 26). La référence paraît presque obligée, quasi rituelle pour
+        dresser le fait musical au-dessus de toutes les autres manifestations
+        de l’esprit humain. La musique peut en effet apparaître comme un
+        mystère dont le moindre progrès dans sa connaissance constituerait un
+        pas de plus dans la compréhension des sociétés humaines. L’expérience
+        musicale est un mystère car elle échappe à l’analyse du visible et du
+        tangible sinon par le biais de ce qui la matérialise, mais jamais par
+        elle-même. L’univers de la musique est rempli de symboles qui feraient
+        d’elle l’objet anthropologique par excellence. À celui qui affronte
+        l’objet musical, une question récurrente se pose : possède-t-on les
+        moyens de dévoiler une part du mystère musical, là où les plus grands
+        penseurs semblent avoir trébuché ? <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName>
+        fait partie de ces penseurs, un penseur mélomane dont l’intelligence
+        de l’humain et la mélomanie se confrontent et dialoguent sans
+        cesse.</p>
+        <p xml:id="d1e94">Relire aujourd’hui l’œuvre de <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> avec la
+          présence du musical – parce qu’il y a une musicalité de son œuvre<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Et pas seulement la présence ou l’emploi d’une métaphore
+            musicale constante, comme cela est maintenant très largement
+            connu. L’objectif de cette étude est également de saisir
+            l’épaisseur esthétique de l’œuvre de Lévi-Strauss à partir de la
+            musique. Derrière son esthétique musicale se dissimule en effet un
+            enjeu épistémologique permettant de repenser son anthropologie du
+            symbolique. Alors que Lévi-Strauss l’inscrit lui-même dans la
+            filiation de Marcel Mauss qui appréhende la culture comme un
+            « ensemble de systèmes symboliques » (Lévi-Strauss 1997 [1950] :
+            <hi rendition="#T10">xix</hi>), on peut mettre en évidence une
+            distorsion de sa pensée lorsqu’il s’intéresse à la musique.</p>
+          </note> – nous permet de relire en retour son anthropologie du
+        symbolique. Car la musique est avant tout une affaire de mise en forme
+        symbolique, comme le permet de le penser la philosophie d’<persName ref="026770989" type="idref" xml:base="https://www.idref.fr/">Ernst
+        Cassirer</persName> (1972a et b). Pourtant, alors même que
+        l’anthropologie structurale a livré des pistes essentielles pour
+        l’intelligibilité du « musical », cette réflexion fait l’objet d’une
+        remarquable désertion depuis trente ans en France, depuis ce numéro de
+        la revue <hi rend="italic">Musique en Jeu</hi> de 1973 consacré à
+        <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> et à la
+          musique<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Un réveil s’est peut-être effectué avec quelques articles sur
+            ce sujet (Mâche 1999 ; Donin &amp; Keck 2006 ; Hennion 2010). Pour
+            l’essentiel, ces travaux partent de l’esthétique musicale de
+            Lévi-Strauss en accordant un grand crédit à ses jugements de goût
+            en matière de musique, des jugements légitimés par son analyse de
+            la pensée mythique. S’il existe un lien entre une esthétique et
+            une anthropologie chez Lévi-Strauss, il faut, selon nous, chercher
+            leur point de convergence plutôt que des paradoxes et leurs
+            incohérences. Il convient également de mentionner la publication
+            récente d’un livre du musicologue et sémiologue Jean-Jacques
+            Nattiez (2008).</p>
+          </note>.</p>
+        <p xml:id="d1e111">Il nous paraît pourtant crucial de réexplorer la
+        richesse d’une anthropologie des formes symboliques qui découlerait
+        des écrits que <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> consacre à
+        l’expérience musicale, car la pensée n’est pas une idole destinée à
+        être contemplée ou détruite mais une activité vivante de l’esprit qui
+        se dépasse. L’appréhension de la musique à travers ses formulations
+        symboliques est aujourd’hui largement délaissée<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Et ce malgré le travail pionnier de Joseph-François Kremer
+            (2006).</p>
+          </note>. Il semble que la consécration d’un sujet tout-puissant et
+        le culte du temps présent qui colonisent l’espace épistémologique des
+        sciences humaines ont livré la musique à des analyses souvent
+        descriptives qui ont évacué la question du symbolisme. Cette étude se
+        propose de repenser l’héritage lévi-straussien à partir de trois
+        problématiques qui se dégagent de son œuvre : l’esthétique musicale,
+        l’analogie entre mythe et musique et, enfin, la musique comme forme
+        symbolique<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Marcel Hénaff a parfaitement explicité certains éléments de ces
+            problématiques dans son livre consacré à l’œuvre de Lévi-Strauss
+            (1991 : 240-245).</p>
+          </note>, analyse à partir de laquelle on pourra relire le projet
+        structural à l’aune d’une anthropologie des formes symboliques. Loin
+        de relever exclusivement d’un exercice rhétorique, les analyses que
+        <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> consacre à la
+        musique permettent d’interroger à nouveaux frais son
+        « structuralisme » en suivant deux axes : un premier épistémologique
+        révélant la proximité de la pensée du symbolisme de <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> avec celle de
+        <persName ref="026770989" type="idref" xml:base="https://www.idref.fr/">Cassirer</persName>, et un second
+        théorique éclairant les fondements anthropologiques de notre
+        « modernité musicale ».</p>
+        <div type="div1" xml:id="d1e121">
+          <head subtype="level1" xml:id="d1e122">Une esthétique
+          musicale</head>
+          <p xml:id="d1e124">C’est en <date type="_temp" when="1955">1955</date>, dans <hi rend="italic">Tristes
+          Tropiques</hi>, que <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> évoque pour
+          la première fois, sur un mode littéraire, son expérience musicale
+          (1999 [1955] : 451-452). Il s’agit non pas de faire de la musique un
+          objet de connaissance, mais du narrateur à la recherche d’un temps
+          perdu, celui des sociétés éloignées de notre civilisation
+          européenne, un sujet esthétique, un sujet qui réfléchit sur sa
+          propre expérience musicale et la met en récit dans son expérience
+          ethnographique :</p>
+          <q rend="quotation">« Pendant des semaines, sur ce plateau du
+          <placeName ref="3457419" type="geonames" xml:base="https://www.geonames.org/">Mato Grosso</placeName>
+          occidental, j’avais été obsédé, non point par ce qui m’environnait
+          et que je ne reverrais jamais, mais par une mélodie rebattue que mon
+          souvenir appauvrissait encore : celle de l’étude numéro 3, <hi rend="italic">opus</hi> 10, de <persName ref="02728591X" type="idref" xml:base="https://www.idref.fr/">Chopin</persName>, en
+          quoi il me semblait, par une dérision à l’amertume de laquelle
+          j’étais aussi sensible, que tout ce que j’avais laissé derrière moi
+          se résumait »(<hi rend="italic">ibid</hi>. : 451).</q>
+          <p xml:id="d1e139">
+            <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> se donne à
+          voir comme un ethnologue à la recherche du temps perdu qui, dans un
+          élan proustien, fait part à son lecteur de sa sensibilité musicale.
+          La proximité entre l’écriture et la pensée de <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> et celles
+          de <persName ref="084137401" type="idref" xml:base="https://www.idref.fr/">Proust</persName> avait déjà été
+          soulignée par <persName ref="027903036" type="idref" xml:base="https://www.idref.fr/">Roger Bastide</persName> dans sa
+          lecture de <hi rend="italic">Tristes Tropiques</hi> :</p>
+          <q rend="quotation">« On pourrait s’amuser à retrouver certains
+          thèmes proustiens dans <hi rend="italic">Tristes Tropiques</hi>,
+          comparer l’humour des premières pages du livre avec certaines scènes
+          du salon de <persName ref="031372422" type="idref" xml:base="https://www.idref.fr/">Madame Verdurin</persName>. Je n’ai
+          même pas été étonné de découvrir la petite phrase de la sonate de
+          Vinteuil ; je l’attendais depuis longtemps et elle m’est venue, avec
+          sa même saveur, au coin d’une page, avec l’air de <persName ref="02728591X" type="idref" xml:base="https://www.idref.fr/">Chopin</persName> qui hante le
+          solitaire de l’<placeName ref="3472360" type="geonames" xml:base="https://www.geonames.org/">Amazonie</placeName>. C’est que
+          la démarche profonde de <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName>
+          s’apparente, malgré la variété des sujets, à la démarche de
+          <persName ref="084137401" type="idref" xml:base="https://www.idref.fr/">Proust</persName>. Il s’agit bien
+          dans un cas comme dans l’autre de “la recherche du temps
+          perdu” »(1994 [1956] : 90).</q>
+          <p xml:id="d1e151">Envahi par une mélancolie face à un monde
+          apparaissant comme subitement hostile, étranger et désenchanté,
+          l’expérience de l’altérité réveille les souvenirs cachés qu’une
+          mélodie incessante vient révéler.</p>
+          <p xml:id="d1e155">
+            <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> se surprend
+          à entendre cette étude de <persName ref="02728591X" type="idref" xml:base="https://www.idref.fr/">Chopin</persName> alors que ses
+          préférences musicales se portent davantage vers les
+          « impressionnistes », <persName ref="029503655" type="idref" xml:base="https://www.idref.fr/">Ravel</persName> et <persName ref="026816105" type="idref" xml:base="https://www.idref.fr/">Debussy</persName> en tête. Mais
+          dans ce moment de solitude, l’imagination de l’ethnographe sollicite
+          une mélodie teintée de mélancolie dans l’imaginaire occidental. Le
+          choix de l’inconscient pour la musique romantique révèle un
+          questionnement du Moi quand celui-ci se trouve éloigné dans l’espace
+          et dans le temps de tous ses référents culturels habituels. Comme
+          <persName ref="03209034X" type="idref" xml:base="https://www.idref.fr/">Swann</persName>, égaré parmi les
+          mondains, <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> vacille
+          entre son statut d’observateur éloigné et une fuite au cœur de son
+          inconscient. Le détour par l’altérité est bel et bien une recherche
+          du temps perdu indissociable d’une quête de soi. Fuite imaginaire et
+          mode d’intellection du monde, la musique offre fondamentalement à
+          <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> un modèle
+          de la réunion du sensible et de l’intelligible.</p>
+          <p xml:id="d1e158">L’esthétique musicale de <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> se clôt
+          dans <hi rend="italic">Regarder, écouter, lire</hi> où il fait part
+          de son plaisir de mélomane. Ici l’expérience musicale se conjugue
+          avec l’expérience littéraire. Mais toujours subsiste ce mystère face
+          à ce moyen de communication sans mots, la musique sans paroles
+          échappant à toute mise en forme conceptuelle. Elle est une
+          construction à partir de grammaires jamais définitivement
+          formalisées, un agencement de sons qui peut procurer un plaisir de
+          l’écoute, mais dont l’anthropologie ne semble être qu’une
+          mobilisation intérieure qui n’a aucune prise sur l’extériorité, sur
+          l’extériorisation des sentiments. Aussi l’expérience mise en récit
+          est-elle celle de l’opéra, et plus précisément de <persName ref="027191451" type="idref" xml:base="https://www.idref.fr/">Wagner</persName> qui met le mythe
+          en musique. Mais le mystère demeure : « Pour ma part, quand je suis
+          envahi par la musique de <hi rend="italic">Parsifal</hi>, je cesse
+          de me poser des questions » (Lévi-Strauss 1993 : 116). Ainsi, dans
+          son esthétique musicale, <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> met en
+          lumière une affinité anthropologique entre mythe et musique, mais
+          laisse toujours planer le mystère musical comme s’il voulait nous en
+          transmettre seulement les questionnements.</p>
+        </div>
+        <div type="div1" xml:id="d1e166">
+          <head subtype="level1" xml:id="d1e167">La musique comme
+          analogie</head>
+          <p xml:id="d1e169">L’esthétique musicale de <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> interroge
+          un lien entre le mythe et la musique, et dont la résolution est à
+          chercher du côté du « symbolique ». Son esthétique débouche sur une
+          analogie entre mythe et musique, une analogie qui convoque la
+          linguistique saussurienne sur la base de l’étude des relations entre
+          les signes de la vie sociale. Reprenons brièvement les éléments du
+          débat en sémiologie<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Sur ce sujet, les différents ouvrages de Jean-Jacques Nattiez
+              font autorité, notamment <hi rend="italic">Fondements d’une
+              sémiologie de la musique</hi> (1975).</p>
+            </note> en comparant une phrase linguistique à une phrase
+          musicale. Une phrase musicale est constituée d’une succession de
+          sons comme une phrase d’une succession de mots. Ces successions sont
+          dans les deux cas structurées et obéissent à des règles fixées par
+          le système en usage. Cependant, la phrase linguistique donne
+          théoriquement un signifié relativement stable et permet ainsi de
+          communiquer des idées précises. Ce n’est pas le cas pour une phrase
+          musicale qui n’a pas de signification définie, et dont la perception
+          varie en fonction de multiples contingences. Aucun musicien n’est en
+          mesure de donner la signification d’une phrase musicale quand cette
+          même phrase contient un puissant pouvoir d’évocation<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Au mieux, il peut toujours en donner une signification
+              relative à l’effet qu’elle exerce sur lui.</p>
+            </note>. C’est confronté à de multiples problèmes méthodologiques
+          que la sémiologie se propose d’interroger le sens du « langage
+          musical », lequel est difficile à formaliser en une grammaire car il
+          existe autant de langages musicaux que de groupes culturels et
+          autant d’interprétations du sens musical que d’individus. Traiter le
+          phénomène musical comme un phénomène linguistique ne permet de
+          soulever qu’une partie du voile du mystère musical, ce dont
+          <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> rend compte
+          en comparant mythe et musique.</p>
+          <p xml:id="d1e183">Dans l’anthropologie de <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName>, la musique
+          est mobilisée pour éclairer sa conception du mythe : « Le mythe et
+          l’œuvre musicale apparaissent ainsi comme des chefs d’orchestre dont
+          les auditeurs sont les silencieux exécutants » (1971 : 25)<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Cette analogie est présente dans différents textes, mais elle
+              apparaît pour la première fois dans un article de 1955, intitulé
+              « La structure des mythes » et repris dans <hi rend="italic">Anthropologie structurale</hi> (1974 [1958] :
+              242-244).</p>
+            </note>. Le mythe étant intelligible dans ses multiples versions,
+          il faut le soumettre à l’analyse diachronique et à l’analyse
+          synchronique, <hi rend="italic">comme</hi> le chef d’orchestre
+          déchiffre la partition d’une œuvre symphonique. Le mythe
+          s’agencerait comme la musique, et la méthode structurale qui permet
+          la lecture du mythe peut être comparée à la méthode utilisée pour
+          lire une partition. C’est cette analogie entre la partition musicale
+          et la méthode structurale qui guide l’écriture des quatre volumes
+          des <hi rend="italic">Mythologiques</hi>. L’ambition de <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> est de
+          composer une œuvre, sa « symphonie » sur le modèle de <persName ref="027191451" type="idref" xml:base="https://www.idref.fr/">Wagner</persName>, « le père
+          irrécusable de l’analyse structurale des mythes », qui a découvert
+          « que la structure des mythes se dévoile au moyen d’une partition »
+          (ibid. : 23). Comme le montre bien <persName ref="026918560" type="idref" xml:base="https://www.idref.fr/">Marcel
+          Hénaff</persName>, la musique fournit à <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> un « modèle
+          d’<hi rend="italic">exposition</hi> » (1991 : 240) car le
+          déroulement musical est analogue à celui du récit mythique.
+          Parallèlement, Lévi-Strauss livre à l’analyse structurale certaines
+          œuvres musicales comme le <hi rend="italic">Boléro</hi> de <persName ref="029503655" type="idref" xml:base="https://www.idref.fr/">Ravel</persName> (1971 : 590-596).
+          L’exercice est surtout rhétorique car il s’agit de montrer que l’on
+          peut appliquer la méthode structurale de la même manière au mythe et
+          à la musique, mais sans donner la possibilité de généraliser ce
+          modèle pour les œuvres musicales. Cet exercice confine la relation
+          entre mythe et musique à une simple analogie. C’est en ce sens que
+          les <hi rend="italic">Mythologiques</hi> sont indissociablement
+          dédiées aux mythes et à la musique.</p>
+          <p xml:id="d1e209">Cette analogie d’ordre méthodologique permet
+          d’approfondir la question des rapports entre mythe et musique. Le
+          mythe et la musique se signifient dans une temporalité. Ils
+          n’expriment d’eux-mêmes aucun concept, ce pourquoi il est impossible
+          de les traduire dans un autre langage. Car le mythe et la musique
+          sont déjà des traductions, c’est-à-dire des « matrices
+          d’intelligibilité » qui ont une origine symbolique. Les signes que
+          mobilisent les mythes et la musique ne servent pas seulement à
+          représenter mais à explorer l’inconnu pour l’interroger. À la fois
+          intelligible et intraduisible dans un autre langage, une œuvre
+          musicale peut donc être appréhendée comme un mythe à travers ses
+          éléments différentiels : « Mythe codé en sons au lieu de mots,
+          l’œuvre musicale fournit une grille de déchiffrement, une matrice de
+          rapports qui filtre et organise l’expérience vécue, se substitue à
+          elle et procure l’illusion bienfaisante que des contradictions
+          peuvent être surmontées et des difficultés résolues » (Lévi-Strauss
+          1971 : 589-590).</p>
+          <p xml:id="d1e212">Cependant, ce modèle d’analyse ne saurait être
+          généralisable car il n’est applicable qu’à certaines œuvres
+          musicales. Si le langage musical et le langage mythique ont des
+          affinités en tant que systèmes symboliques, les variations de ces
+          systèmes au fil de l’histoire imposent une certaine prudence devant
+          les prétentions sémiologiques du modèle d’analyse structurale. Comme
+          le souligne d’ailleurs lui-même <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName>, l’analogie
+          entre mythe et musique présente des limites. L’interprétation d’un
+          mythe à partir de relations entre des mots (langage parlé) n’est pas
+          assimilable à l’interprétation d’une œuvre musicale à travers des
+          relations entre des notes. La différence fondamentale entre mythe et
+          musique est qu’il n’existe <hi rend="italic">a priori</hi> aucun
+          rapport entre signifiant et signifié dans un système musical : « La
+          musique, c’est le langage moins le sens » (<hi rend="italic">Ibid</hi>. : 579), c’est-à-dire un langage dépourvu de
+          relations définies entre signifiants et signifiés mais pourtant muni
+          de vastes possibilités expressives.</p>
+          <p xml:id="d1e221">
+            <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> rejoint
+          alors <persName ref="256170282" type="idref" xml:base="https://www.idref.fr/">Rousseau</persName> qui montre dans
+          son <hi rend="italic">Essai sur l’origine des langues</hi> que la
+          musique précède le langage (1990 [1781]), que l’expression des
+          sentiments et des émotions passe d’abord par une « musicalité »,
+          laquelle peut s’appliquer indifféremment à la voix humaine ou à un
+          instrument. Il existe dans un même temps une origine symbolique du
+          musical et une origine musicale du symbolique. L’idée selon laquelle
+          la musique n’est finalement pas réductible à un système de signes
+          (les sons codifiés en notes) se trouve déjà dans la réflexion que
+          <persName ref="256170282" type="idref" xml:base="https://www.idref.fr/">Rousseau</persName> consacre à la
+          musique :</p>
+          <q rend="quotation">Tant qu’on ne voudra considérer les sons que par
+          l’ébranlement qu’ils excitent dans nos nerfs, on n’aura point les
+          vrais principes de la musique et de son pouvoir sur les cœurs. Les
+          sons dans la mélodie n’agissent pas seulement sur nous comme sons,
+          mais comme signes de nos affections, de nos sentiments ; c’est ainsi
+          qu’ils excitent en nous les mouvements qu’ils expriment et dont nous
+          y reconnaissons l’image »(<hi rend="italic">ibid</hi>. : 126).</q>
+          <p xml:id="d1e234">Deux siècles plus tard, <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> qui n’a
+          cessé de louer le génie anthropologique de <persName ref="256170282" type="idref" xml:base="https://www.idref.fr/">Rousseau</persName>
+          (1996b [1973]) exprime la même idée. Le problème que pose la musique
+          à l’anthropologie ne tient pas aux propriétés naturelles du son.
+          C’est, dans cette perspective, reconnaître les <hi rend="italic">fonctions symboliques</hi> (mimétiques, cathartiques,
+          esthétiques) de la musique. L’analogie entre mythe et musique repose
+          donc sur ce qu’ils <hi rend="italic">font</hi> et non sur ce qu’ils
+          <hi rend="italic">sont</hi> dans les différents cadres culturels.
+          Comme les mythes, les œuvres musicales exercent des fonctions
+          symboliques qui varient d’un modèle culturel à un autre. C’est,
+          selon nous, l’enjeu d’une anthropologie des formes musicales de
+          mettre au jour et de spécifier ces fonctions symboliques.</p>
+        </div>
+        <div type="div1" xml:id="d1e245">
+          <head subtype="level1" xml:id="d1e246">La musique comme “forme
+          symbolique”</head>
+          <p xml:id="d1e248">Alors qu’il est interrogé sur la musique,
+          <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> exprime
+          l’idée selon laquelle une modernité musicale s’est mise en place et
+          émancipée avec le développement de la rationalité propre aux
+          sociétés modernes. Il affirme en effet sous forme de
+          questionnement : « Est-ce que dans notre société, la musique n’a pas
+          pris en quelque sorte, le relais de la fonction mythique alors que
+          vis-à-vis du mythe dans les sociétés sans écriture, sa fonction est
+          plus modeste ? » (1973 : 109). Ce questionnement appelle plusieurs
+          commentaires :</p>
+          <list type="ordered" xml:id="d1e250">
+            <item>La relation entre mythe et musique n’est plus d’ordre
+            analogique. Pour <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName>, il
+            existe une relation significative entre l’affaiblissement des
+            mythes et l’essor d’une « modernité » musicale. <persName ref="027044998" type="idref" xml:base="https://www.idref.fr/">Jean-Jacques Nattiez</persName>
+            résume ainsi cette idée : « à partir de la Renaissance, et jusqu’à
+            <persName ref="080537898" type="idref" xml:base="https://www.idref.fr/">Stravinsky</persName>, les
+            grandes formes musicales s’expliqueraient par la fin du mythe dont
+            les structures passeraient dans la musique » (1973 : 6). L’essor
+            d’une modernité musicale serait donc lié à la fin de la centralité
+            de la fonction mythique qui aurait favorisé le développement de
+            formes musicales nouvelles fondées sur un processus de
+            rationalisation de l’espace sonore<note n="8" place="foot" type="standard" xml:id="ftn8">
+                <p>Où l’on trouve un étonnant écho avec la sociologie de la
+                musique esquissée par Max Weber (1998 [1921]).</p>
+              </note>.</item>
+            <item>À partir de la Renaissance, la fonction symbolique de la
+            musique se substituerait à celle du mythe. Mythe et musique ne
+            présentent donc pas seulement des analogies car leurs fonctions
+            symboliques peuvent être homologues. Cela signifie que les formes
+            musicales modernes exercent la même fonction symbolique que les
+            mythes dans les sociétés sans écriture. On en déduit que
+            l’invention de l’écriture modifie les formes de rationalité et que
+            cette modification a des conséquences sur les formes
+            musicales.</item>
+            <item>Enfin, il est significatif que <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> parle de
+            « formes musicales » et de « fonction mythique ». On peut alors
+            affirmer qu’il ne raisonne plus en termes de « systèmes
+            symboliques » mais de « formes symboliques » comme activités de
+            l’esprit qui exercent une fonction symbolique pouvant <hi rend="italic">faire époque</hi>. Dans cette anthropologie, l’enjeu
+            est de penser la fonction symbolique de la musique selon ses
+            modalités de réalisation culturelle.</item>
+          </list>
+          <p xml:id="d1e264">
+            <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> nous invite
+          à formuler une anthropologie des formes symboliques dans la
+          continuité de la philosophie des formes symboliques de <persName ref="026770989" type="idref" xml:base="https://www.idref.fr/">Ernst
+          Cassirer</persName>. Dans cette philosophie, les signes ne sont pas
+          des supports vides, prêts à recevoir arbitrairement une
+          signification. Ils existent en tant que tels pour signifier et ils
+          sont des productions de l’esprit humain :</p>
+          <q rend="quotation">« Le signe ne sert pas seulement à représenter
+          mais avant tout à découvrir certains rapports logiques ; il sert non
+          seulement à offrir une abréviation symbolique de ce qui est déjà
+          connu mais aussi à frayer de nouveaux chemins dans l’inconnu, dans
+          ce qui n’est pas donné »(Cassirer 1972a [1923] : 53).</q>
+          <p xml:id="d1e270">Ainsi, les fonctions des formes symboliques
+          « sont moins des reproductions et des copies de l’être que des
+          directions et des modalités de la construction du monde : ce sont
+          des “organes” qui servent moins à maîtriser le monde qu’à lui donner
+          un sens » (Cassirer 1972b [1925] : 254). Si <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> et
+          <persName ref="026770989" type="idref" xml:base="https://www.idref.fr/">Cassirer</persName> situent leur
+          réflexion sur les mythes à deux niveaux différents (une
+          anthropologie à vocation pratique et une philosophie à vocation
+          épistémologique), il existe entre eux une convergence que souligne
+          <persName ref="031766056" type="idref" xml:base="https://www.idref.fr/">Roger Silverstone</persName>
+          (1976). En effet, tous deux appréhendent les mythes non pas
+          directement à travers un signifié définitif mais comme des matrices
+          productrices de différentes significations. Contrairement au langage
+          que <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> définit
+          comme « système de signes » mettant en relation des signifiants et
+          des signifiés, les mythes – comme les œuvres musicales – constituent
+          une mise en forme symbolique. En saisissant les formes musicales
+          comme des formes symboliques, on peut alors préciser les termes
+          d’une anthropologie de la musique faisant le lien entre les analyses
+          de <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> et de
+          <persName ref="026770989" type="idref" xml:base="https://www.idref.fr/">Cassirer</persName>.</p>
+          <p xml:id="d1e273">C’est à l’ethnologue <persName ref="026730332" type="idref" xml:base="https://www.idref.fr/">John
+          Blacking</persName> (1980 [1973]) que revient la tentative de
+          formulation de cette anthropologie. Celui-ci propose en effet
+          d’analyser la production du « sens musical » dans une culture à
+          travers la signification et la fonction des formes musicales.
+          Celles-ci sont des œuvres de l’esprit humain qui ne s’achèvent pas
+          dans une signification définitive. Nous pourrions dire qu’il s’agit
+          d’une anthropologie radicale car il n’existe pas d’absolu musical
+          pour <persName ref="026730332" type="idref" xml:base="https://www.idref.fr/">Blacking</persName>, mais des
+          formes qui se réalisent différemment en fonction du cadre culturel,
+          lui-même considéré comme forme et non comme système. Cette
+          anthropologie se risque cependant au relativisme culturel dans la
+          mesure où elle suppose une critique de l’ethnocentrisme musical qui
+          constitue le point de départ pour poser l’universalité du sens
+          musical : « Ce qui rebute l’un peut fort bien accrocher l’autre, non
+          pas en raison d’une quelconque qualité absolue de la musique
+          elle-même, mais en raison de ce que la musique en est venue à
+          signifier pour lui, ressortissant d’une culture ou d’un groupe
+          social particuliers » (<hi rend="italic">ibid</hi>. : 41-42).
+          Autrement dit, le sens musical est une catégorie universelle de
+          l’esprit humain qui se réalise différemment selon l’univers des
+          représentations symboliques de chaque culture : « On peut admettre
+          que la musique est du son organisé en structures socialement
+          admises, que faire de la musique peut être considéré comme une forme
+          de comportement appris et que les styles musicaux reposent sur ce
+          que l’homme a choisi de prélever dans la nature pour faire partie de
+          son expression culturelle, plutôt que sur ce que la nature lui a
+          imposé » (<hi rend="italic">ibid</hi>. : 34-35). Chaque forme
+          musicale obéit ainsi à une logique sociale et symbolique qui lui est
+          spécifique et qui constitue l’objet de cette anthropologie.</p>
+        </div>
+        <div type="div1" xml:id="d1e281">
+          <head subtype="level1" xml:id="d1e282">L’invention d’une modernité
+          musicale</head>
+          <p xml:id="d1e284">On saisit mieux l’enjeu de cette anthropologie
+          des formes symboliques à partir de la philosophie de <persName ref="026770989" type="idref" xml:base="https://www.idref.fr/">Cassirer</persName>. Il suffit de
+          lire <persName ref="027057100" type="idref" xml:base="https://www.idref.fr/">Panofsky</persName> pour s’en
+          convaincre, celui-ci proposant de repérer des homologies,
+          c’est-à-dire des affinités structurales entre les propriétés des
+          modes de représentation et des modes de pensée. C’est dans cette
+          perspective que <persName ref="027057100" type="idref" xml:base="https://www.idref.fr/">Erwin Panofsky</persName> a dévoilé
+          une homologie entre la vision perspective et la rationalisation de
+          l’espace à la Renaissance (1975 [1932]). <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> reconnaît
+          lui-même en <persName ref="027057100" type="idref" xml:base="https://www.idref.fr/">Panofsky</persName> « un grand
+          structuraliste » (1996a [1973] : 324) pour avoir réussi à mettre au
+          jour une telle homologie, muni des outils de la critique historique.
+          Tout en inscrivant sa réflexion dans le sillage de la philosophie de
+          <persName ref="026770989" type="idref" xml:base="https://www.idref.fr/">Cassirer</persName>, <persName ref="027057100" type="idref" xml:base="https://www.idref.fr/">Panofsky</persName> anticipe les
+          formulations épistémologiques du structuralisme de <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Claude
+          Lévi-Strauss</persName>
+            <note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Et l’on saisit mieux pourquoi il est introduit en France par
+              Pierre Bourdieu (1967) dans le champ des sciences humaines.
+              Bourdieu identifie en effet dans ces analyses des enjeux
+              théoriques pour une sociologie des structures mentales, le
+              recours à l’œuvre de Panofsky permettant de donner une valeur
+              heuristique à la notion d’<hi rend="italic">habitus</hi>.</p>
+            </note> car, en inscrivant une forme esthétique dans un « ensemble
+          du monde historique comme un monde homogène et constamment ordonné »
+          (Panofsky 1975 [1932] : 228), ce n’est plus la forme esthétique
+          elle-même mais ses <hi rend="italic">modalités de réalisation
+          culturelle</hi> qui deviennent l’objet central de l’analyse.</p>
+          <p xml:id="d1e297">En lisant les écrits de <persName ref="027057100" type="idref" xml:base="https://www.idref.fr/">Panofsky</persName>,
+          on peut mettre en évidence une continuité entre <persName ref="026770989" type="idref" xml:base="https://www.idref.fr/">Cassirer</persName> et <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName>, souvent
+          mis en opposition à partir du schéma structuralisme / formalisme.
+          Mais les deux auteurs développent une anthropologie et une
+          philosophie des formes symboliques qui sont solidaires. <persName ref="027057100" type="idref" xml:base="https://www.idref.fr/">Panofsky</persName> a réalisé cette
+          solidarité, en particulier dans son étude sur la « vision
+          perspective ». Il montre dans cette étude comment une nouvelle
+          sensibilité culturelle commune s’est développée en rupture avec les
+          modes de perception du Moyen Âge. À partir de la Renaissance, on
+          assiste en effet à un processus de rationalisation de l’espace
+          visuel qui est la conséquence d’une scission entre le monde objectif
+          et les sujets de l’expérience artistique :</p>
+          <q rend="quotation">« Seulement, il faut nous efforcer de nous
+          représenter ce qu’une telle conquête signifie à l’époque. Outre
+          qu’elle a permis à l’art de s’élever au rang de la “science” (et
+          pour la Renaissance, il s’agissait bien de s’élever), elle pousse si
+          loin la rationalisation de l’impression visuelle du sujet que c’est
+          précisément cette impression subjective qui peut désormais servir de
+          fondement à la construction d’un mode de l’expérience solidement
+          fondé et néanmoins “infini”, au sens tout à fait moderne du
+          terme »(<hi rend="italic">Ibid</hi>. : 159).</q>
+          <p xml:id="d1e306">Or, on retrouve ici l’idée de <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> selon
+          laquelle la fonction des mythes, qui est de fournir une explication
+          finie d’un monde clos, s’est affaiblie, donnant alors aux sujets la
+          possibilité de trouver en eux-mêmes cette explication. C’est toute
+          la révolution cartésienne qui modifie les formes de la
+          sensibilité :</p>
+          <q rend="quotation">« Ceux qui aiment à interpréter les faits
+          historiques de façon symbolique peuvent reconnaître ici l’esprit
+          d’une conception du monde spécifiquement “moderne”, qui permet au
+          sujet de s’affirmer à l’encontre de l’objet en toute indépendance et
+          toute égalité ; tandis que l’Antiquité classique n’avait pas encore
+          autorisé une formulation explicite de cette opposition ; et que le
+          Moyen Âge avait subsumé à la fois le sujet et l’objet sous une unité
+          plus élevée »(Panofsky 1969 [1955] : 93-94).</q>
+          <p xml:id="d1e313">Si <persName ref="027057100" type="idref" xml:base="https://www.idref.fr/">Panofsky</persName> analyse les
+          conséquences de cette révolution des sensibilités sur l’expérience
+          visuelle, <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> propose de
+          la confronter à l’expérience musicale telle qu’elle se redéfinit à
+          partir de la Renaissance.</p>
+          <p xml:id="d1e316">Une modernité se met en place avec la révolution
+          philosophique cartésienne et renouvelle les cadres de l’expérience
+          artistique. L’enjeu d’une anthropologie des formes symboliques est
+          de chercher les conséquences de cette révolution dans <hi rend="italic">tous</hi> les domaines de la vie sociale et
+          culturelle. Il existe alors une « modernité musicale » que l’on peut
+          interroger comme <persName ref="027057100" type="idref" xml:base="https://www.idref.fr/">Panofsky</persName> a interrogé la
+          modernité picturale de la vision perspective. Sur la musique,
+          <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> formule une
+          hypothèse d’envergure mais sans spécifier le contenu de cette
+          « modernité musicale » dont il esquisse les contours par de
+          multiples détours. Si, dans notre société, la fonction symbolique de
+          la musique a pris « le relais de la fonction mythique », c’est sous
+          une forme particulière, celle qui rompt avec les modes de perception
+          de l’Antiquité et du Moyen Âge et qui repose sur le développement
+          d’une rationalité musicale.</p>
+          <p xml:id="d1e322">C’est à partir de la « forme symphonique » que
+          l’on peut repérer un nouveau régime esthétique, une forme qui, à
+          l’instar de la vision perspective, se structure autour de son
+          potentiel indéfini à repousser les limites de l’expression et de
+          l’expressivité musicales. En s’inspirant des analyses de <persName ref="027057100" type="idref" xml:base="https://www.idref.fr/">Panofsky</persName> et de <persName ref="02695334X" type="idref" xml:base="https://www.idref.fr/">Koyré</persName> (1973 [1957]), on
+          peut montrer que ce potentiel repose sur deux conditions
+          anthropologiques qui circonscrivent l’imaginaire de la modernité :
+          la conscience de l’infini et la conscience d’un sujet réflexif. Dans
+          le modèle médiéval, la musique est encore un média pour exercer sa
+          spiritualité selon un idéal de pureté et de perfection de l’âme. Le
+          sens musical est donc limitatif car l’harmonie musicale se symbolise
+          autour de l’harmonie religieuse. Cependant, l’idéal d’élévation et
+          la pensée scolastique ont autorisé la formulation d’un espace
+          polyphonique. Cet espace demeure limité en ressources puisqu’il
+          prend forme dans un monde clos et hiérarchisé. La différenciation de
+          l’espace sonore n’est donc pas acquise au Moyen Âge mais devient
+          possible à partir d’une conception verticale de la musique.</p>
+          <p xml:id="d1e325">Ce renversement est crucial pour comprendre
+          l’avènement d’une conscience polyphonique sans laquelle la musique
+          symphonique serait inconcevable. Dans le modèle de la Renaissance se
+          produit une rupture anthropologique : la conscience d’un univers
+          infini qui bouleverse les modalités d’intellection du monde. Le
+          musicien et l’auditeur découvrent progressivement les virtualités
+          indéfinies d’un nouvel espace sonore, l’espace symphonique. Face à
+          cet espace, il n’y a plus pour le sujet d’interprétation unique et
+          univoque de l’œuvre, le plaisir musical provenant désormais de la
+          profusion potentielle de sens qu’elle contient virtuellement. La
+          forme symphonique s’impose donc aux <date from="1700" to="1799" type="_temp">
+              <hi rendition="#T10">xviii</hi>
+              <hi rend="sup">e</hi>
+            </date> et <date from="1800" to="1899" type="_temp">
+              <hi rendition="#T10">xix</hi>
+              <hi rend="sup">e</hi>
+            </date> siècles avec un nouveau régime esthétique de la musique
+          pour la musique. À une révolution philosophique et politique répond
+          une révolution esthétique et musicale. Un sujet esthétique apparaît,
+          un public qui fait société et non plus communauté prend forme. On
+          comprend alors mieux <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> parlant
+          ainsi de son expérience de l’écoute musicale dans <hi rend="italic">Tristes Tropiques</hi> : une écoute musicale « pour
+          soi et entre soi ».</p>
+          <p xml:id="d1e341">*</p>
+          <p xml:id="d1e344">En spécifiant les formes musicales comme des
+          formes symboliques, plusieurs enjeux se dégagent. Tout d’abord, les
+          formes musicales ne sont plus définies selon des critères
+          exclusivement stylistiques qui renvoient à des « genres musicaux ».
+          Elles apparaissent essentiellement à la fois comme des œuvres de
+          l’esprit humain et comme des activités créatrices. Par ailleurs, les
+          formes symboliques de la musique ne sont pas indépendantes des
+          formulations sociétales et culturelles. Elles font toujours époque
+          et délimitent des « régimes musicaux » que l’on peut saisir à
+          travers leurs logiques sociales et symboliques.</p>
+          <p xml:id="d1e348">
+            <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> n’aurait
+          pas formulé l’hypothèse d’une rupture anthropologique dans la vie
+          musicale s’il n’avait implicitement adhéré à une anthropologie des
+          formes symboliques. Les détours par l’esthétique et par l’analogie
+          entre mythe et musique révèlent une étape de sa pensée car ces
+          détours sont un premier pas pour mieux éclairer le « mystère
+          musical ». À travers cet éclairage, ce sont finalement les
+          ambivalences de sa propre philosophie que met au jour <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName>, une
+          philosophie que l’on rapproche plus souvent de <persName ref="256170282" type="idref" xml:base="https://www.idref.fr/">Rousseau</persName> et de <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName> (des références
+          explicites) que de <persName ref="02694507X" type="idref" xml:base="https://www.idref.fr/">Kant</persName> et de <persName ref="026770989" type="idref" xml:base="https://www.idref.fr/">Cassirer</persName> (des références
+          cachées). Mais il existe des influences multiples pour configurer
+          son anthropologie structurale trop régulièrement lue de manière
+          monolithique. En mettant en exergue le mystère musical, <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> interroge
+          finalement son propre modèle de manière détournée. Les
+          questionnements qui planent sur ce mystère sont loin de trouver une
+          résolution définitive, mais ils auront permis d’éclairer sous un
+          jour nouveau le structuralisme en le confrontant à une anthropologie
+          des formes symboliques.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliography" xml:id="d1e351">
+        <listBibl xml:id="d1e352">
+          <bibl xml:id="d1e353">
+            <hi rend="bold">Bastide, Roger</hi> 1994
+          [1956] « Tristes tropiques : Lévi-Strauss ou l’ethnographe “À la
+          recherche du temps perdu” », <hi rend="italic">Bastidiana</hi> 7-8 :
+          89-96.</bibl>
+          <bibl xml:id="d1e361">
+            <hi rend="bold">Blacking, John</hi> 1980
+          [1973] <hi rend="italic">Le Sens musical</hi>. Paris, Minuit.</bibl>
+          <bibl xml:id="d1e369">
+            <hi rend="bold">Bourdieu, Pierre</hi> 1967
+          « Postface », in Erwin Panofsky, <hi rend="italic">Architecture
+          gothique et pensée scolastique</hi>. Paris, Minuit : 133-167.</bibl>
+          <bibl xml:id="d1e377">
+            <hi rend="bold">Cassirer, Ernst</hi> 1972a
+          [1923] <hi rend="italic">La Philosophie des formes symboliques</hi>,
+          1. <hi rend="italic">Le Langage</hi>. Paris, Minuit.<lb/>1972b
+          [1925] <hi rend="italic">La Philosophie des formes symboliques</hi>,
+          2. <hi rend="italic">La Pensée mythique</hi>. Paris, Minuit.</bibl>
+          <bibl xml:id="d1e396">
+            <hi rend="bold">Donin, Nicolas &amp; Frédéric
+          Keck</hi> 2006 « Lévi-Strauss et “la musique” : dissonances dans le
+          structuralisme », <hi rend="italic">Revue d’histoire des sciences
+          humaines</hi> 14 (1) : 101-136.</bibl>
+          <bibl xml:id="d1e404">
+            <hi rend="bold">Hénaff, Marcel</hi> 1991 <hi rend="italic">Claude Lévi-Strauss et l’anthropologie
+          structurale</hi>. Paris, Belfond.</bibl>
+          <bibl xml:id="d1e413">
+            <hi rend="bold">Hennion, Antoine</hi> 2010
+          « La question de la tonalité : retour sur le partage nature-culture.
+          Relire Lévi-Strauss avec des lunettes pragmatistes ? », <hi rend="italic">L’Année sociologique</hi> 60 (2) : 361-386.</bibl>
+          <bibl xml:id="d1e421">
+            <hi rend="bold">Koyré, Alexandre</hi> 1973
+          [1957] <hi rend="italic">Du monde clos à l’univers infini</hi>.
+          Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e429">
+            <hi rend="bold">Kremer, Joseph-François</hi>
+          2006 [1984] <hi rend="italic">Les Formes symboliques de la
+          musique</hi>. Paris, L’Harmattan.</bibl>
+          <bibl xml:id="d1e437">
+            <hi rend="bold">Lévi-Strauss, Claude</hi> 1964
+          <hi rend="italic">Mythologiques</hi>, 1. <hi rend="italic">Le Cru et
+          le Cuit</hi>. Paris, Plon.<lb/>1971 <hi rend="italic">Mythologiques</hi>, 4. <hi rend="italic">L’Homme
+          nu</hi>. Paris, Plon.<lb/>1973 «Musiques universelles. Entretien
+          avec Claude Lévi-Strauss, Georges Henri Rivière, Gilbert Rouget »,
+          Musique en jeu 12 : <hi rend="italic">Autour de Lévi-Strauss</hi> :
+          101-109.<lb/>1974 [1958] <hi rend="italic">Anthropologie
+          structurale</hi>. Paris, Plon.<lb/>1993 <hi rend="italic">Regarder,
+          écouter, lire</hi>. Paris, Plon.<lb/>1996a [1973] <hi rend="italic">Anthropologie structurale deux</hi>. Paris,
+          Plon.<lb/>1996b [1973] « Jean-Jacques Rousseau, fondateur des
+          sciences de l’homme », in <hi rend="italic">Anthropologie
+          structurale deux</hi>…: 45-56.<lb/>1997 [1950] « Introduction à
+          l’œuvre de Marcel Mauss », in Marcel Mauss, <hi rend="italic">Sociologie et Anthropologie</hi>. Paris, Presses
+          universitaires de France : <hi rendition="#T10">ix-lii</hi>.<lb/>1999 [1955] <hi rend="italic">Tristes Tropiques</hi>. Paris, Plon. (« Terre
+          humaine »).</bibl>
+          <bibl xml:id="d1e497">
+            <hi rend="bold">Mâche, François-Bernard</hi>
+          1999 « Lévi-Strauss et la musique », <hi rend="italic">Critique</hi>
+          620-621 : 154-168.</bibl>
+          <bibl xml:id="d1e505">
+            <hi rend="bold">
+              <hi rend="italic">Musique en jeu</hi>
+            </hi> 1973 <hi rend="italic">Musique en jeu</hi> 12 : <hi rend="italic">Autour de Lévi-Strauss</hi>. Paris, Le Seuil.</bibl>
+          <bibl xml:id="d1e518">
+            <hi rend="bold">Nattiez, Jean-Jacques</hi>
+          1973 « Rencontre avec Lévi-Strauss : le plaisir et la structure »,
+          <hi rend="italic">Musique en jeu</hi> 12… : 3-9.<lb/>1975 <hi rend="italic">Fondements d’une sémiologie de la musique</hi>. Paris,
+          Union générale d’éditions.<lb/>2008 <hi rend="italic">Lévi-Strauss
+          musicien. Essai sur la tentation homologique</hi>. Arles, Actes
+          Sud.</bibl>
+          <bibl xml:id="d1e536">
+            <hi rend="bold">Panofsky, Erwin</hi> 1969
+          [1955] <hi rend="italic">L’Œuvre d’art et ses significations. Essais
+          sur les « arts visuels »</hi>. Paris, Gallimard. 1975 [1932] <hi rend="italic">La Perspective comme forme symbolique</hi>. Paris,
+          Minuit.</bibl>
+          <bibl xml:id="d1e547">
+            <hi rend="bold">Rousseau, Jean-Jacques</hi>
+          1990 [1781] <hi rend="italic">Essai sur l’origine des langues</hi>.
+          Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e555">
+            <hi rend="bold">Silverstone, Roger</hi> 1976
+          « Ernst Cassirer and Claude Lévi-Strauss : Two Approaches to the
+          Study of Myth », <hi rend="italic">Archives des sciences sociales
+          des religions</hi> 41 : 25-36.</bibl>
+          <bibl xml:id="d1e563">
+            <hi rend="bold">Weber, Max</hi> 1998 [1921]
+          <hi rend="italic">Sociologie de la musique. Les fondements
+          rationnels et sociaux de la musique</hi>. Paris, Métailié.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

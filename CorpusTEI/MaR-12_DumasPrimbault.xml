@@ -1,0 +1,1494 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" change="metopes_edition" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="MaR-12_DumasPrimbault">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Leibniz en Créateur</title>
+        <title type="sub">Un regard matériel sur sa machine à calculer</title>
+        <author role="aut">
+          <forename>Simon Dumas</forename>
+          <surname>Primbault</surname>
+          <affiliation>Laboratoire d’histoire des sciences et des techniques
+          de l’École polytechnique fédérale de Lausanne</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>Encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when=""/> dans le
+        cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/NF95BMTN" type="conferencePaper" xml:lang="">
+          <analytic>
+            <title level="a">Leibniz en Créateur. Un regard matériel sur sa
+            machine à calculer</title>
+            <author>
+              <forename>Simon</forename>
+              <surname>Dumas Primbault</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title type="conferenceName">Matières à raisonner</title>
+            <imprint>
+              <pubPlace>Genève</pubPlace>
+              <date/>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>matérialité</item>
+            <item>machine</item>
+            <item>calcul</item>
+            <item>Leibniz</item>
+            <item>media</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>materiality</item>
+            <item>machine</item>
+            <item>reckoning</item>
+            <item>Leibniz</item>
+            <item>media</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6557373" type="geonames" xml:base="https://www.geonames.org/">Göttingen</placeName>
+          </term>
+          <term>
+            <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+          <term>
+            <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName>
+          </term>
+          <term>
+            <placeName ref="2910831" type="geonames" xml:base="https://www.geonames.org/">Hanovre</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1672">1672</date>
+          </term>
+          <term>
+            <date from="1671-06-01" to="1671-06-30" type="_temp">juin 1671</date>
+          </term>
+          <term>
+            <date from="1677" to="1679" type="_temp">entre 1677 et 1679</date>
+          </term>
+          <term>
+            <date from="1685-07-01" to="1685-07-31" type="_temp">1685 au mois
+            de juillet</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2021-12-01T21:06:00" who="Céline Barthonnat">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Leibniz en Créateur</titlePart>
+          <titlePart type="sub">Un regard matériel sur sa machine à
+          calculer</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Simon Dumas Primbault</docAuthor>
+          <affiliation>Laboratoire d’histoire des sciences et des techniques
+          de l’École polytechnique fédérale de Lausanne</affiliation>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">
+          <date from="1671" to="1716" type="_temp">Entre 1671
+        et 1716</date>, le mathématicien allemand <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Gottfried Wilhelm
+        Leibniz</persName> s’est essayé à concevoir une machine à calculer
+        sans jamais réussir à produire un prototype fonctionnel, malgré un
+        travail en étroite collaboration avec l’horloger parisien <persName type="_temp">Ollivier</persName>. Avec la redécouverte en <date type="_temp" when="1879">1879</date> du dernier modèle de la machine,
+        l’échec de l’entreprise fut tour à tour attribué à l’état de la
+        technique de l’époque – réputée trop en retard sur le génie de
+        <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> – ou bien à de
+        simples problèmes de communication entre l’inventeur et
+        l’artisan.<lb/>En plus de sa correspondance, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> nous
+        a légué une importante collection de textes et de schémas afférents
+        aux spécifications techniques de la machine qu’il imaginait. Selon ses
+        termes, cette « machine arithmétique » ambitionnait de
+        « transplanter » l’esprit humain dans une « matière inanimée »
+        – réalisant ainsi une opération de re-médiation. Suivant la
+        métaphysique de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>, il pourrait être
+        argué que son arithmétique de papier serait ainsi parfaitement
+        traduite dans une machine de laiton, sans perte d’un <hi rend="italic">medium </hi>à un autre.<lb/>Cependant, une telle
+        perspective repose sur une dichotomie trop franche entre technique et
+        mathématique, ainsi que sur une indifférence aux divers <hi rend="italic">media</hi> en jeu et leurs effets. En adoptant une
+        perspective matérielle sur les papiers de travail de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> et leur lien avec
+        sa métaphysique, autant qu’avec le prototype d’<persName type="_temp">Ollivier</persName>, je tente de mettre en lumière
+        quelques-unes des étapes d’un long processus de re-médiation du calcul
+        en un dispositif mécanique.</p>
+        <p xml:lang="eng">Between 1671 and 1716, the German mathematician
+        Gottfried Wilhelm Leibniz attempted to design a reckoning machine.
+        Working closely with the Parisian clockmaker Monsieur Ollivier,
+        Leibniz eventually failed at producing a working prototype. After the
+        rediscovery of the machine’s last model in 1879, this failure was
+        usually attributed either to their time’s technology—supposedly not
+        advanced enough for Leibniz’s genius—, or to communication problems
+        between the mathematician and the artisan.<lb/>Along his
+        correspondence, Leibniz left a bounteous collection of texts and
+        schematics dedicated to the technical specification of his envisioned
+        machine. In his own words, this “arithmetic instrument” aimed at
+        “transplanting” human mind into “inanimate matter”—thus performing an
+        operation of re-mediation. Following Leibniz’s own metaphysics, it
+        could be argued that his paper arithmetic would therefore be
+        losslessly translated into a brass machine, from one <hi rend="italic">medium </hi>to another.<lb/>Though, this leaves wide
+        open a gap between technology and mathematics, as well as between
+        media, that this paper aims at bridging. Adopting a material
+        perspective on Leibniz’s working papers and their relation to his
+        metaphysics, as well as to Ollivier’s prototype, I will try to shed
+        light on a few steps of a long process of re-mediating reckoning into
+        a mechanical device.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e110">De mémoire d’archive, la première mention de la
+        machine à calculer de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> se trouve dans une
+        lettre de <date from="1671-06-01" to="1671-06-30" type="_temp">juin 1671</date> que lui adresse l’académicien <persName type="_temp">Pierre de Carcavi</persName>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Akademie Ausgabe (AA) Reihe II, Band 1, N. 65, citée par <hi rend="small-caps">Antognazza</hi>, 2009, p. 109.</p>
+          </note>. Si la lettre initiale du jeune philosophe et mathématicien
+        allemand <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Gottfried Wilhelm Leibniz</persName>
+        (1646-1716) à l’académicien français est aujourd’hui perdue, son
+        intention transparaît dans les suivantes<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Dans deux lettres de juin 1671, Leibniz disserte aussi de
+            théorie du mouvement, de géométrie physique, de chimie ou de
+            philosophie. Il fait également parvenir à Carcavi des exemplaires
+            de ses derniers ouvrages (AA II, 1, N. 66 et 67).</p>
+          </note> : alors au service diplomatique de l’électeur de <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName>
+          <persName type="_temp">Johann Christian von Boynebourg</persName>, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> cherche à se faire
+        remarquer par <persName ref="027274527" type="idref" xml:base="https://www.idref.fr/">Jean-Baptiste Colbert</persName>,
+        fondateur de la récente Académie royale des sciences. D’après la
+        réponse de <persName ref="120900246" type="idref" xml:base="https://www.idref.fr/">Carcavi</persName> qui le place dans
+        le sillage de <persName ref="027059073" type="idref" xml:base="https://www.idref.fr/">Pascal</persName>, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> décrit dans sa
+        missive une machine arithmétique capable de réaliser les quatre
+        opérations fondamentales – addition, soustraction, multiplication,
+        division – sur des nombres à plusieurs chiffres. En décembre de la
+        même année, une autre lettre de <persName ref="120900246" type="idref" xml:base="https://www.idref.fr/">Carcavi</persName> déplore que le
+        projet de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> ne soit pas assez
+        « reel et solide » pour le proposer à <persName ref="027274527" type="idref" xml:base="https://www.idref.fr/">Colbert</persName>, et
+        surtout qu’il ne lui envoie rien qui « merite d’estre <hi rend="italic">veu</hi> »<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>AA II, 1, N. 95, citée par <hi rend="small-caps">Jones</hi>,
+            2016, p. 115-116 (je souligne). Il est à noter que, dans la même
+            lettre, Carcavi reproche également à Leibniz d’être trop évasif
+            concernant une « feuille d’optique » : « Nous vous en dirons
+            nostr’advis, de mesme que des autres choses que vous voudrez nous
+            envoyer, mais il faut s’il vous plaist que vous les estendiez un
+            peu plus [en] long, et que vous n’en envoyiez plustost que peu à
+            la fois, parce que nos messieurs estant assez occuppez à leurs
+            speculations particulieres, ne veulent pas se peyner à deschifrer
+            les choses embarassées, vous voulez bien Monsieur que je vous
+            parle avec cette liberté, et que je vous dise que ce n’est pas
+            satisfaire une personne que de ne luy rendre qu’en passant et en
+            ne disant rien, la raison de ce qu’elle demande. »</p>
+          </note>. L’invention n’en est pas encore une, elle est une idée
+        floue et indistincte, une promesse qui doit lui ouvrir les portes de
+        l’Académie. Comment cette <hi rend="italic">spéculation textuelle</hi>
+        s’est-elle matériellement traduite en un objet technique ?</p>
+        <p xml:id="d1e139">Quelques mois plus tard, en <date type="_temp" when="1672">1672</date>, <persName type="_temp">Boynebourg</persName>
+        envoie <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, qui s’attèle
+        dès son arrivée à la construction de modèles non fonctionnels de sa
+        machine à calculer. Un modèle en bois, réalisé par un artisan parisien
+        inconnu, est montré à la Royal Society en <date type="_temp" when="1673">1673</date> – à cette occasion <persName ref="031941761" type="idref" xml:base="https://www.idref.fr/">Robert Hooke</persName>
+        examine attentivement l’ébauche de mécanisme et développe en quelques
+        semaines une copie dont il ne reste plus trace aujourd’hui<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>
+              <hi rend="small-caps">Jones</hi>, 2016, p. 63-66.</p>
+          </note>. En <date type="_temp" when="1675">1675</date>, c’est devant
+        l’Académie royale des sciences que <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> fait
+        la démonstration d’un modèle réalisé en laiton par l’horloger parisien
+        connu sous le nom de <persName type="_temp">Monsieur
+        Ollivier</persName>. Il est dit que <persName ref="027274527" type="idref" xml:base="https://www.idref.fr/">Colbert</persName>
+        aurait commandé une copie de ce modèle mais <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>
+        n’obtient pas le statut tant désiré d’académicien<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>
+              <hi rend="small-caps">Antognazza</hi>, 2009, p. 162.</p>
+          </note>. C’est au cours de ces mêmes années qu’il posera les bases,
+        sans les publier, de son calcul infinitésimal, de sa caractéristique
+        universelle ou de sa métaphysique combinatoire<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>Voir notamment <hi rend="small-caps">Hofmann</hi>, 2008.</p>
+          </note>. Rappelé par son patron, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>
+        quitte <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> pour <placeName ref="2910831" type="geonames" xml:base="https://www.geonames.org/">Hanovre</placeName> en <date type="_temp" when="1676">1676</date>, sans pour autant abandonner son
+        projet de machine à calculer.</p>
+        <p xml:id="d1e165">Aujourd’hui, deux modèles différents sont connus :
+        l’<hi rend="italic">Altere Maschine</hi> construite à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> par <persName type="_temp">Ollivier</persName>
+          <date from="1677" to="1679" type="_temp">entre 1677 et 1679</date>, tandis que <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> lui envoie ses
+        instructions depuis Hanovre<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>
+              <hi rend="small-caps">Jones</hi>, 2016, chap. 2.</p>
+          </note> ; et la <hi rend="italic">Jungere Maschine</hi> d’un artisan
+        local de <placeName ref="2910831" type="geonames" xml:base="https://www.geonames.org/">Hanovre</placeName>, sur un
+        exemplaire d’<persName type="_temp">Ollivier</persName> emporté par
+        <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>, probablement
+        construite dans les <date from="1680" to="1689" type="_temp">années 1680</date> puis améliorée au début du <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi> siècle</date> à <placeName ref="6557378" type="geonames" xml:base="https://www.geonames.org/">Helmstedt</placeName>. Si le
+        second exemplaire du premier modèle est démonté par <persName type="_temp">Ollivier</persName> en <date type="_temp" when="1679">1679</date> afin de réutiliser les pièces pour son
+        commerce, le deuxième modèle est envoyé en <date type="_temp" when="1755">1775</date>, presque soixante ans après la mort de
+        <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> et avec tous les
+        manuscrits afférents, au mathématicien <persName ref="031798896" type="idref" xml:base="https://www.idref.fr/">Abraham Gotthelf
+        Kästner</persName> de <placeName ref="6557373" type="geonames" xml:base="https://www.geonames.org/">Göttingen</placeName>.</p>
+        <p xml:id="d1e186">Ce n’est qu’en <date type="_temp" when="1879">1879</date> que la machine et les notes seront
+        redécouvertes puis intégrées au fonds leibnizien de la bibliothèque de
+        <placeName ref="2910831" type="geonames" xml:base="https://www.geonames.org/">Hanovre</placeName>
+          <note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>Les manuscrits sont donc conservés dans les archives sous une
+            cote spécifique ajoutée au catalogue de Bodemann.</p>
+          </note>. Si l’idée est généralement acceptée que <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> et ses
+        collaborateurs n’ont pas réussi à construire un exemplaire fonctionnel
+        de machine à calculer, le philosophe est néanmoins souvent crédité de
+        l’invention et, partant, qualifié d’ingénieur. La plupart de ces
+        récits se fondent sur des arguments à la décharge de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>, qu’il s’agisse de
+        remettre en question les compétences techniques des artisans, de faire
+        du mathématicien une figure en avance sur la technique de son époque
+        ou bien d’imputer sa faillite à de simples problèmes de
+        communication<note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>Voir notamment <hi rend="small-caps">Walsdorf </hi>
+              <hi rend="italic">et al.</hi>,<hi rend="italic"/>2014, <hi rend="small-caps">Swade</hi>, 2018, ou <hi rend="small-caps">Lenzen</hi>, 2018.</p>
+          </note>. Aucun n’aborde sérieusement la machine – objet autant que
+        papiers – sous l’angle de ses matérialités et des effets
+        de celles-ci.</p>
+        <p xml:id="d1e212">Deux études historiques plus récentes font
+        intervenir avec profit la problématique matérielle. Dans un premier
+        temps, <persName type="_temp">Florin-Stefan Morar</persName> s’est
+        attelé à déconstruire le contexte historique ainsi que la rhétorique
+        fallacieuse de tous les ingénieurs allemands qui, depuis la <date from="1870" to="1899" type="_temp">fin du <hi rend="small-caps">xix</hi>
+            <hi rend="sup">e</hi>
+          </date> jusqu’au <date from="2000" to="2020" type="_temp">début du <hi rend="small-caps">xxi</hi>
+            <hi rend="sup">e</hi> siècle</date>, se
+        sont, avec grande difficulté, attelés à reconstruire la machine de
+        <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>
+          <note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>
+              <hi rend="italic">A true theory would be one that produced an
+            actually working machine. Only this kind of machine could be
+            considered ‘true to the original’, and it only would completely
+            correspond to ‘Leibniz’s intentions’. […] There is no escape from
+            this logic: a non-working machine would simply be rejected as
+            being below Leibniz’s dignity.</hi> (<hi rend="small-caps">Morar</hi>, 2015, p. 142).</p>
+          </note>. Par ce biais, <persName type="_temp">Morar</persName> a mis
+        en lumière un des modes de réécriture de l’histoire par la
+        reconstruction matérielle d’objets. Plus récemment, dans une
+        monographie consacrée à l’histoire des machines à calculer de
+        <persName ref="027059073" type="idref" xml:base="https://www.idref.fr/">Pascal</persName> à <persName ref="030837960" type="idref" xml:base="https://www.idref.fr/">Babbage</persName>, <persName type="_temp">Matthew L. Jones</persName> a documenté l’émergence
+        pratique d’une conception dite « hylémorphique » de la notion
+        d’invention, selon laquelle l’idée – donc l’invention – précède sa
+        matérialisation, « comme la forme précède la matière<note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>
+              <hi rend="italic">as form precedes matter</hi> (<hi rend="small-caps">Jones</hi>, 2016, p. 9 et <hi rend="italic">passim</hi>. Ma traduction.).</p>
+          </note> ». En s’intéressant à l’aspect social de la matérialité<note n="12" place="foot" type="standard" xml:id="ftn12">
+            <p>
+              <hi rend="italic">Materiality was social: to be undersocialized
+            often led to designs not being materialized.</hi> (<hi rend="small-caps">Jones</hi>, 2016, p. 6).</p>
+          </note>, <persName type="_temp">Jones</persName> a montré comment
+        cette conception de l’invention s’était « partiellement réalisée<note n="13" place="foot" type="standard" xml:id="ftn13">
+            <p>
+              <hi rend="italic">Ibid</hi>., p. 9.</p>
+          </note> », au <date from="1830" to="1860" type="_temp">milieu du <hi rend="small-caps">xix</hi>
+            <hi rend="sup">e</hi> siècle</date>, dans la
+        division du travail, des compétences techniques et des statuts.</p>
+        <p xml:id="d1e274">En reprenant les documents déjà étudiés par
+        <persName type="_temp">Morar</persName> et <persName type="_temp">Jones</persName>, j’aimerais ici poursuivre leur lecture
+        matérielle<note n="14" place="foot" type="standard" xml:id="ftn14">
+            <p>La proposition théorique ici avancée voudrait prolonger une
+            histoire matérielle nourrie notamment d’anthropologie, de
+            philosophie et de comparatisme, attentive aux lieux, aux pratiques
+            et aux rituels dans leurs matérialités changeantes. Voir notamment
+            <hi rend="small-caps">Jacob</hi>, 2007-2011 et <hi rend="small-caps">Bert</hi> et <hi rend="small-caps">Lamy</hi>,
+            2021.</p>
+          </note> selon une perspective plus spécifiquement « médiale » que je
+        détaille maintenant. Pour ce faire, je propose de se saisir du
+        programme avancé par <persName ref="030596033" type="idref" xml:base="https://www.idref.fr/">Friedrich Kittler</persName> visant à
+        prolonger l’analyse foucaldienne des discours jusqu’à leurs conditions
+        de possibilité matérielles et techniques<note n="15" place="foot" type="standard" xml:id="ftn15">
+            <p>
+              <hi rend="small-caps">Kittler</hi>, 1990 (1985).</p>
+          </note>. Afin cependant de ne pas céder à un trop grand déterminisme
+        technologique, il convient de partir du récent travail de généalogie
+        conceptuelle réalisé par <persName ref="031280935" type="idref" xml:base="https://www.idref.fr/">Dieter Mersch</persName> dans
+        l’objectif d’offrir une introduction à la philosophie des <hi rend="italic">media</hi>, entendue comme philosophie de
+        la technique<note n="16" place="foot" type="standard" xml:id="ftn16">
+            <p>
+              <hi rend="small-caps">Mersch</hi>, 2018 (2016).</p>
+          </note>.</p>
+        <p xml:id="d1e309">Dans ce cadre, un <hi rend="italic">medium</hi>
+        peut se définir comme un dispositif technique (textuel, schématique,
+        mécanique…) qui insère une chose encore informe dans un régime
+        signifiant (en la rendant lisible, visible, actionnable selon une
+        grammaire textuelle/visuelle ou un ensemble d’opérations prescrites)
+        tout en contraignant les possibilités de signification du fait même de
+        la matérialité et des affordances qui rendent celle-ci possible<note n="17" place="foot" type="standard" xml:id="ftn17">
+            <p>En ne négligeant pas de considérer l’encre et le papier comme
+            des instruments à part entière, ce programme pourrait trouver
+            certains échos dans l’organologie – et ses quatre catégories : <hi rend="italic">material disposition</hi>, <hi rend="italic">mode of
+            mediation</hi>, <hi rend="italic">map of mediations</hi>, et <hi rend="italic">telos</hi> – proposée par <hi rend="small-caps">Tresch</hi> et <hi rend="small-caps">Dolan</hi>,
+            2013, mais n’entreprend nullement de construire une taxonomie. Par
+            ailleurs, il ne sera pas non plus question d’adopter une
+            perspective diachronique ou génétique des machines à calculer
+            en général.</p>
+          </note> – ainsi, réciproquement, la pratique d’un <hi rend="italic">medium </hi>donné informe en retour le régime signifiant
+        (dans le cas de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>, sa métaphysique).
+        Ce faisant, les <hi rend="italic">media </hi>mettent en relation des
+        altérités autrement sourdes les unes aux autres, c’est là leur
+        fonction « médiale ». Enfin, tout dispositif médial efface son action
+        même : l’appropriation ou l’interprétation de la signification ainsi
+        portée à l’être se fait <hi rend="italic">à travers </hi>le <hi rend="italic">medium</hi> dont les propriétés matérielles ne peuvent
+        plus être tenues pour pertinentes dans la détermination du sens<note n="18" place="foot" type="standard" xml:id="ftn18">
+            <p>C’est aussi une des raisons pour lesquelles de tels dispositifs
+            médiaux sont, par défaut, considérés comme insignifiants par
+            certains courants historiographiques.</p>
+          </note>. Pour reprendre les termes de <persName type="_temp">Mersch</persName> qui voit dans la médiation un
+        « problème philosophique fondamental » : « Voilà comment on pourrait
+        peut-être conceptualiser l’affaire : la médiation “performe” la
+        signification, alors même que ses effets masquent en retour l’acte
+        même de cette performance<note n="19" place="foot" type="standard" xml:id="ftn19">
+            <p>
+              <hi rend="small-caps">Mersch</hi>, 2018, p. 15.</p>
+          </note>. » Selon la conclusion de <persName type="_temp">Mersch</persName>, les <hi rend="italic">media </hi>ne
+        sont saisissables que négativement, par le travers, là où les
+        pratiques se dérèglent et les dispositifs obstruent plutôt qu’ils
+        ne dévoilent<note n="20" place="foot" type="standard" xml:id="ftn20">
+            <p>
+              <hi rend="small-caps">Mersch</hi>, 2018, p. 264 et suiv.</p>
+          </note>.</p>
+        <p xml:id="d1e375">Une étude médiale ou « média-historique<note n="21" place="foot" type="standard" xml:id="ftn21">
+            <p>
+              <hi rend="small-caps">Dumas Primbault</hi>, 2020b.</p>
+          </note> » du legs leibnizien appelle deux prolongements. Il s’agira,
+        d’une part, d’étendre l’analyse de la matérialité du scriptural<note n="22" place="foot" type="standard" xml:id="ftn22">
+            <p>
+              <hi rend="small-caps">Lenoir</hi>, 1998.</p>
+          </note> à celle de la matérialité de tous types de <hi rend="italic">media</hi>. C’est ce que proposent notamment <persName ref="12118465X" type="idref" xml:base="https://www.idref.fr/">Jeremy
+        A. Greene</persName> en envisageant les instruments scientifiques
+        au-delà de leur fonction d’inscription<note n="23" place="foot" type="standard" xml:id="ftn23">
+            <p>
+              <hi rend="italic">As material devices of
+            knowledge-in-the-making, </hi>scientific instruments do more than
+            inscribe<hi rend="italic">: they transmit, materialize, render,
+            transmute, and visualize. </hi>Above all, they mediate<hi rend="italic"> the production of what we come to think of as
+            scientific knowledge.</hi> (<hi rend="small-caps">Greene</hi>,
+            2020, p. 59. Ma traduction, je souligne.).</p>
+          </note>, ou <persName ref="23829496X" type="idref" xml:base="https://www.idref.fr/">Emanuele Clarizio</persName>,
+        <persName ref="050449060" type="idref" xml:base="https://www.idref.fr/">Roberto Poma</persName> et <persName ref="195582985" type="idref" xml:base="https://www.idref.fr/">Michele
+        Spanò</persName> en faisant du <hi rend="italic">medium</hi> un type
+        particulier de milieu<note n="24" place="foot" type="standard" xml:id="ftn24">
+            <p>« Le <hi rend="italic">milieu</hi> conçu comme rapport entre un
+            individu et son environnement, le <hi rend="italic">mi-lieu</hi>
+            analysé comme moyen et comme medium et, finalement, les <hi rend="italic">milieux</hi> décrits comme ambiances, formes de vie
+            et atmosphères. » (<hi rend="small-caps">Clarizio</hi>
+              <hi rend="italic">et al.</hi>, 2020, p. 13.) Sur un lien possible
+            entre <hi rend="italic">media </hi>et milieux de savoirs, voir
+            aussi <hi rend="small-caps">Dumas Primbault</hi>
+              <hi rend="italic">et al.</hi>, 2021.</p>
+          </note>. D’autre part, cette extension aux <hi rend="italic">media
+        </hi>autres que scripturaux incite à s’intéresser aux opérations
+        permettant le passage de l’un à l’autre, c’est-à-dire aux traductions
+        matérielles successives et à leurs conséquences<note n="25" place="foot" type="standard" xml:id="ftn25">
+            <p>
+              <hi rend="small-caps">Sack, 2019,</hi> p. 23.</p>
+          </note>. Cette attention particulière portée aux opérations de
+        traduction dans leur complexité permet ainsi de questionner ce qu’il
+        est possible de penser par la pratique d’un <hi rend="italic">medium</hi> donné, comment des pratiques détournées
+        ouvrent et contraignent l’espace du possible, enfin s’il est des <hi rend="italic">media</hi> et des pratiques plus pertinentes pour la
+        traduction et la communication. C’est d’ailleurs au cours de ces
+        opérations de re-médiation que les dispositifs médiaux deviennent le
+        plus tangibles, notamment par leurs effets d’hypermédiation
+        (textuelle, dans le cas de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>) ou d’immédiateté
+        (rhétorique)<note n="26" place="foot" type="standard" xml:id="ftn26">
+            <p>
+              <hi rend="small-caps">Bolter</hi> et <hi rend="small-caps">Grusin</hi>, 1998.</p>
+          </note>.</p>
+        <p xml:id="d1e475">L’objectif du présent essai n’est donc pas
+        d’apporter une pierre à l’édifice de l’érudition leibnizienne mais
+        plutôt de relire les manuscrits leibniziens sur la machine à calculer
+        au prisme de leurs matérialités. En menant, à la suite de <persName type="_temp">Morar</persName> et <persName type="_temp">Jones</persName>, une lecture des papiers de travail de
+        <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>, j’entends
+        poursuivre la critique de l’hylémorphisme en m’intéressant plus avant
+        à ce que la machine à calculer leibnizienne faite de laiton doit à son
+        idée de papier<note n="27" place="foot" type="standard" xml:id="ftn27">
+            <p>En particulier en suivant une intuition particulièrement
+            saillante dans un court passage de Morar que je rappelle, détaille
+            et prolonge en première partie.</p>
+          </note> ; plus spécifiquement encore en portant le regard vers les
+        opérations de re-médiation menées par <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> et
+        ses collaborateurs afin de traduire l’arithmétique d’un <hi rend="italic">medium </hi>à un autre, du papier au laiton.</p>
+        <div type="section1" xml:id="d1e485">
+          <head subtype="level1" xml:id="d1e486">Traduire des opérations de
+          papier</head>
+          <p xml:id="d1e488">
+            <persName type="_temp">Florin-Stefan
+          Morar</persName> soulève bien l’aspect matériel du processus
+          d’invention lorsqu’il commente une citation de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>, sur laquelle
+          nous reviendrons, lui permettant, selon les termes du philosophe
+          même, d’aborder la machine à calculer sous l’angle de la
+          « transplantation » de l’esprit dans une « matière inanimée ».
+          Ainsi, filant la métaphore leibnizienne, <persName type="_temp">Morar</persName> stipule que « la machine était censée
+          <hi rend="italic">imiter</hi> l’ordre dans lequel les opérations
+          mathématiques sont réalisées <hi rend="italic">sur le
+          papier</hi>
+            <note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>
+                <hi rend="italic">the machine was meant to imitate the order
+              in which mathematical operations are done on paper</hi> (<hi rend="small-caps">Morar, </hi>2015, p. 127. Ma traduction, je
+              souligne.). Paradoxalement, l’approche très positiviste de <hi rend="small-caps">Walsdorf </hi>
+                <hi rend="italic">et al.</hi>,<hi rend="italic"/>2014, laisse
+              également transparaître, mais dans sa partie historique, le
+              problème de la re-médiation en qualifiant les machines de
+              Leibniz d’« expériences de pensée » (<hi rend="italic">Gedankenexperiment</hi>) qui ne fonctionnaient que
+              « sur le papier » (<hi rend="italic">auf dem Papier</hi>)
+              (p. 37, ma traduction).</p>
+            </note> ». Tentons de matérialiser plus avant cette assertion en
+          plongeant dans les papiers personnels de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>.</p>
+          <figure xml:id="d1e521">
+            <head xml:id="d1e522">Fig. 1</head>
+          </figure>
+          <p xml:id="d1e524">Examinons, en particulier, une notice manuscrite
+          intitulée « Machina Arithmetica<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>Gottfried-Wilhelm-Leibniz-Bibliothek (GWLB), Leibniz
+              Handschriften (LH) XLII, 5, ff<hi rend="sup">o</hi> 1r-9v et
+              ff<hi rend="sup">o</hi> 67r-69v.</p>
+            </note> », rédigée en au moins deux exemplaires par Leibniz et
+          dans laquelle l’inventeur décrit une manière d’améliorer la machine
+          à calculer de Pascal afin qu’elle réalise multiplications et
+          divisions directement plutôt que par additions et soustractions
+          successives. Le second exemplaire de cette notice, datant de <date type="_temp" when="1685">1685</date>, est une version mise au propre
+          qui sera redécouverte en même temps que la machine, transcrite,
+          traduite puis publiée en allemand en <date type="_temp" when="1897">1897</date> – opération éditoriale qui relève, selon
+          <persName type="_temp">Morar</persName>, d’une volonté de réécriture
+          de l’histoire matérielle de cette machine<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>
+                <hi rend="small-caps">Jordan</hi>, 1897. Voir <hi rend="small-caps">Morar</hi>, 2015, p. 138-139.</p>
+            </note> –, mais également traduite en anglais en <date type="_temp" when="1929">1929</date> pour paraître dans un ouvrage
+          recueillant les textes fondamentaux de l’histoire des sciences<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>
+                <hi rend="small-caps">Smith</hi>, 1929, p. 173-181.</p>
+            </note>. La première version – un brouillon retouché, corrigé,
+          annoté en marge – non datée, mais probablement de la <date from="1675" to="1679" type="_temp">fin des années 1670</date>,
+          laisse entrevoir brièvement le processus d’invention chez <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>, en particulier
+          ce qu’il doit à la matérialité du papier. En effet, ce qui frappe au
+          premier regard, après l’absolue prédominance de la forme textuelle
+          qui noie les quelques esquisses, c’est la constellation d’additions,
+          soustractions et multiplications longues posées et résolues sur le
+          papier, jusqu’à remplir des folios entiers sans autre indication
+          (voir fig. 1).</p>
+          <figure xml:id="d1e556">
+            <head xml:id="d1e557">Fig. 2</head>
+          </figure>
+          <p xml:id="d1e559">Il ne s’agit pas pour Leibniz d’un exercice, d’un
+          passe-temps ou d’une vérification. Par exemple (voir fig. 1,
+          centre), le choix de la soustraction 391 324 – 147 856 n’est pas
+          fortuit : il permet d’illustrer l’apparition d’une retenue à la
+          première étape (en soustrayant 6 à 4) et sa propagation sur quatre
+          unités de numération (des dizaines aux dizaines de milliers). De
+          même, penchons-nous plus particulièrement sur une multiplication
+          longue posée dans le corps du texte (voir fig. 2, droite). En effet,
+          en choisissant de multiplier 365 par 124, Leibniz pose une opération
+          qui requiert en première étape (365 x 4) la propagation d’une double
+          retenue, en seconde étape (365 x 2) la propagation d’une retenue
+          simple et une dernière étape sans retenue<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>
+                <hi rend="small-caps">Morar, 2015</hi>, p. 127.</p>
+            </note>. Ce qu’avance donc <persName type="_temp">Morar</persName>, sans s’attarder sur les conséquences
+          véritablement matérielles de son observation, c’est que les
+          nombreuses opérations de papier réalisées par <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> relèvent plutôt
+          d’une expérience de pensée visant à épuiser, en les énumérant de
+          manière combinatoire, les cas possibles de génération de retenues
+          – c’est-à-dire de création d’une unité de numération d’ordre
+          supérieur – et leur propagation des dizaines, vers les centaines,
+          etc. En effet, comme l’a montré <persName type="_temp">Jones</persName>
+            <note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>
+                <hi rend="small-caps">Jones</hi>, 2016, p. 26-29.</p>
+            </note>, le principal problème mécanique auquel est confronté
+          l’inventeur est de compter et propager les retenues. Sur un nombre à
+          plusieurs chiffres, cela nécessite non seulement de générer une
+          force suffisante pour se transmettre mécaniquement à travers les
+          unités de numérations, mais encore un système de déplacements
+          discrets permettant de n’avoir toujours affaire qu’à des nombres
+          entiers, plutôt qu’à des décimales. C’est contre ce problème de
+          propagation ou transport des retenues que se battra <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> toute sa vie
+          dans la conception de sa machine à calculer.</p>
+          <p xml:id="d1e577">Néanmoins, l’origine de ce problème de retenue
+          n’est jamais questionnée, prise pour une évidence tant nous sommes
+          habitués à résoudre ainsi des multiplications longues sur le papier.
+          Cette pratique de résolution par retenues n’est pourtant pas le seul
+          moyen de poser des opérations arithmétiques à l’époque de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>. D’autres
+          méthodes de papier existent, aux matérialités bien différentes,
+          comme la multiplication par glissement qui procède de gauche à
+          droite (des centaines aux dizaines aux unités), de bas en haut (le
+          résultat s’écrit sur la ligne supérieure) et implique d’effacer les
+          chiffres du multiplicande au fur et à mesure – nécessitant parfois
+          un instrument particulier, comme un tableau à sable – ; ou bien
+          encore la méthode de la <hi rend="italic">gelosia</hi>, qui repose
+          sur une organisation tabulaire selon deux entrées. Il existe surtout
+          un grand nombre d’outils et d’instruments de calcul que Leibniz ne
+          peut ignorer, des abaques sous toutes leurs formes – de sable, des
+          bouliers… – dont beaucoup de commerçants de l’époque font usage,
+          probablement ces mêmes artisans et horlogers avec lesquels traite
+          <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>. Parmi ces
+          abaques figurent notamment les bâtons de <persName ref="032525877" type="idref" xml:base="https://www.idref.fr/">Napier</persName> qui
+          reposent sur la possibilité algébrique de transformer les
+          multiplications en additions grâce à la fonction logarithme du
+          mathématicien écossais <persName ref="032525877" type="idref" xml:base="https://www.idref.fr/">John Napier</persName>. Ces bâtons
+          sont de petites réglettes gravées dont la manipulation et la
+          réorganisation sur une table ou dans un cadre permettent de réaliser
+          les quatre opérations arithmétiques de base sur des nombres à
+          plusieurs chiffres ainsi que de calculer des racines carrées.
+          Eux-mêmes traduction matérielle, ou re-médiation, de la méthode de
+          calcul par jalousies, les bâtons de <persName ref="032525877" type="idref" xml:base="https://www.idref.fr/">Napier</persName> sont
+          d’ailleurs mécanisés par le mathématicien anglais <persName ref="127941185" type="idref" xml:base="https://www.idref.fr/">Samuel
+          Morland</persName> qui en tire le principe de l’une de ses machines
+          à calculer en cette <date from="1670" to="1699" type="_temp">fin de
+          <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi> siècle</date>
+            <note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>
+                <hi rend="small-caps">Williams</hi>, 1983 ; <hi rend="small-caps">Ratcliff</hi>, 2007.</p>
+            </note>.</p>
+          <figure xml:id="d1e598">
+            <head xml:id="d1e599">Fig. 3</head>
+          </figure>
+          <p xml:id="d1e601">Pourtant, c’est bien la méthode graphique de
+          résolution sur le papier de la multiplication longue qui va donner
+          sa structure à la machine à calculer de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>. En
+          effet, si l’on examine attentivement une esquisse sommaire en marge
+          de la seconde page, seul et unique dessin réalisé par Leibniz dans
+          sa notice (voir fig. 2, gauche), on y retrouve la multiplication
+          précédente (365 x 124), qui cette fois-ci permet de procéder à la
+          matérialisation de chacun des nombres par des schémas de roues à
+          dents variables représentant chacun des ordres de numération
+          – centaines, dizaines et unités. Cette structure, qui reprend les
+          traits fondamentaux de la machine de <persName ref="027059073" type="idref" xml:base="https://www.idref.fr/">Pascal</persName>
+            <note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>C’est précisément parce que Leibniz reprend la structure
+              fondamentale de la Pascaline que Carcavi le place dans le
+              sillage de Pascal. L’innovation principale apportée par Leibniz
+              réside dans la roue à dents variables, ou roue à dents inégales,
+              qui permet de compter des retenues supérieures à 1 donc
+              d’effectuer des multiplications directement. Disparu en même
+              temps que la machine et les manuscrits, ce type de roue sera
+              réinventé indépendamment par Colmar pour son arithmomètre. C’est
+              lors de sa redécouverte qu’il sera rebaptisé cylindre cannelé de
+              Leibniz (<hi rend="small-caps">Kistermann, </hi>1999).</p>
+            </note>, figure partout dans les descriptions et schémas de
+          <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> : un arbre par
+          unité de numération, chacun muni de roues dentées, dont une roue à
+          dents variables selon la position axiale de l’arbre, le tout animé
+          par la mise en rotation d’une manivelle transversale actionnant un
+          axe qui ressemble à s’y méprendre à la barre horizontale d’une
+          opération posée sur le papier (voir fig. 3). Ainsi apparaît le
+          problème mécanique de propagation de la retenue : il ne s’agit pas
+          d’une compétence purement abstraite d’un esprit immatériel et qui
+          serait essentielle au calcul, il s’agit bien plutôt de la
+          conséquence matérielle de la traduction en roues et engrenages de
+          métal d’une technique spécifique de calcul décimal sur
+          le papier.</p>
+          <figure xml:id="d1e611">
+            <head xml:id="d1e612">Fig. 4</head>
+          </figure>
+          <p xml:id="d1e614">D’ailleurs, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> a
+          également couché sur le papier d’autres idées de machines à calculer
+          fondées sur des systèmes de numération différents, par exemple
+          dyadique<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>En effet, d’autres systèmes de numération, par exemple
+              binaire – ou dyadique selon le terme de Leibniz –, impliquent
+              des systèmes de retenue différents.</p>
+            </note>, mais qui ne verront jamais le jour ; c’est qu’il préfère
+          travailler à l’amélioration de la Pascaline qu’il a pu voir à
+          <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>. Ainsi,
+          l’isomorphisme structurel que l’on ne peut manquer de constater
+          entre l’algorithme de papier, les schémas de fonctionnement de
+          <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>, les différents
+          modèles réalisés par ce dernier au <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi> siècle</date> et leurs reconstructions
+          contemporaines (voir fig. 4) illustre bien le travail de
+          re-médiation à même le papier, puis du papier vers le laiton,
+          nécessaire à <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> pour construire
+          sa machine à calculer. Renforcée par la comparaison avec d’autres
+          algorithmes de papier et d’autres mécanismes, comme celui de
+          <persName ref="127941185" type="idref" xml:base="https://www.idref.fr/">Morland</persName>
+            <note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>L’arithmomètre inventé par Colmar dans le courant du <hi rend="small-caps">xviii</hi>
+                <hi rend="sup">e</hi> siècle, par
+              exemple, n’est pas une traduction « fidèle » des opérations
+              longues, la partie fixe et la partie mobile étant échangées.</p>
+            </note>, cette isomorphie atteste que <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>
+          – contrairement à ce qu’il construit comme rhétorique, nous le
+          verrons – n’a pas entrepris d’externaliser le calcul entendu comme
+          compétence intellectuelle réputée abstraite et désincarnée, mais
+          plutôt de mécaniser, par la traduction d’une forme de matérialité à
+          une autre, la méthode de résolution par étapes (l’algorithme)
+          d’opérations longues sur le papier<note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>Cet important détail échappe à Morar qui, trop fidèle à la
+              rhétorique leibnizienne, y voit la transposition de la « faculté
+              de raisonner mathématiquement » (<hi rend="italic">faculty of
+              mathematical reasoning</hi>) par la « mise en métal » (<hi rend="italic">put to metal</hi>) de « toute opération
+              arithmétique » (<hi rend="italic">all mathematical
+              operations</hi>) sans distinction de support, de pratique ou de
+              méthode (<hi rend="small-caps">Morar</hi>, 2015, p. 126). La
+              matière s’est à nouveau dématérialisée.</p>
+            </note>.</p>
+          <p xml:id="d1e654">Envisager ainsi l’effort d’invention de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> comme un
+          exercice de re-médiation d’une pratique matérielle et incarnée,
+          plutôt que comme simple « implémentation » ou transfert
+          d’information sans perte, permet de mettre en lumière ce que cette
+          machine à calculer doit au substrat de papier sur lequel elle a été
+          pensée et conceptualisée et, réciproquement, comment cette nouvelle
+          matérialisation d’une compétence intellectuelle informe en retour
+          une certaine compréhension de l’intelligence humaine selon <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>.</p>
+        </div>
+        <div type="section1" xml:id="d1e656">
+          <head subtype="level1" xml:id="d1e657">De l’image à l’<hi rend="italic">ekphrasis</hi>
+          </head>
+          <p xml:id="d1e661">Le dessin, ou plutôt le schéma, fait partie des
+          outils graphiques dont se dote naturellement <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> comme étape dans
+          le processus de re-médiation des opérations arithmétiques du papier
+          vers le laiton. Il ne reste malheureusement pas trace des échanges
+          qu’<persName type="_temp">Ollivier</persName> et <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> ont pu avoir en
+          tête-à-tête à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> et où ils ont
+          peut-être griffonné divers schémas sur des coins de tables et des
+          feuilles volantes, sûrement échangé des pièces de laiton et de bois,
+          étudié et comparé d’autres mécanismes, notamment la machine
+          de <persName ref="027059073" type="idref" xml:base="https://www.idref.fr/">Pascal</persName>.</p>
+          <figure xml:id="d1e663">
+            <head xml:id="d1e664">Fig. 5</head>
+          </figure>
+          <p xml:id="d1e666">Pour juger de la place qu’occupent les
+          représentations visuelles dans le processus d’invention de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>, il subsiste
+          bien peu de documents, mais un folio manuscrit non daté peut nous
+          venir en aide<note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>GWLB, LH XLII, 5, f<hi rend="sup">o</hi> 59rv. Probablement
+              antérieures à 1682 car Leibniz y fait encore référence à la roue
+              à dents inégales.</p>
+            </note>. Il s’agit d’une feuille volante, écrite sur ses deux
+          faces et dont les marges sont laissées vierges, pour éviter que
+          l’encre de la face opposée ne rende la lecture trop difficile,
+          autant que pour laisser place à des corrections ultérieures comme
+          <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> en a l’habitude
+          (voir fig. 5). À nouveau frappe la prédominance du texte qui
+          entoure, presque jusqu’à les noyer, les dessins réalisés par
+          <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>. Et puis,
+          lorsque l’on porte plus précisément son attention sur ceux-ci, c’est
+          leur aspect éminemment schématique qui surprend, ils ressemblent à
+          ces figures dont le mathématicien fait usage pour résoudre des
+          problèmes géométriques ou d’analyse et que l’on retrouve dans
+          d’autres de ses papiers de travail<note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>
+                <hi rend="small-caps">Dumas Primbault</hi>, 2018.</p>
+            </note>. Ce ne sont donc pas des dessins qui représenteraient de
+          manière naturaliste un artefact technique potentiellement
+          matérialisé, ce sont des schémas filaires détaillant le
+          fonctionnement <hi rend="italic">de principe</hi> d’une machine
+          encore à l’état de proposition conceptuelle.</p>
+          <p xml:id="d1e687">Une vision téléologique de l’histoire pourrait
+          nous présenter <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> comme le
+          précurseur des schémas cinématiques contemporains, mais ce serait
+          lui prêter une volonté et des compétences anachroniques ; faire de
+          lui, à nouveau, un génie trop en avance sur son temps. Force est de
+          constater plutôt que <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> n’est pas maître
+          dans l’art de la représentation visuelle des mécanismes : les pièces
+          n’ont pas d’épaisseur, les proportions ne sont pas respectées, les
+          perspectives sont fausses, lorsqu’elles ne sont pas mélangées à des
+          projections, pas de trait de crayon avant l’encre, que le papier
+          boit jusqu’à devenir difficilement lisible. S’il est vrai qu’il
+          n’existe pas de mode standardisé de représentation des objets
+          techniques à cette époque, il existe néanmoins depuis plus d’un
+          siècle des techniques mathématiques de dessin en perspective utiles
+          à l’ingénieur, comme le <hi rend="italic">disegno</hi> en
+          Italie<note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>
+                <hi rend="small-caps">Dumas Primbault</hi>, 2020a.</p>
+            </note>, des vues en projection, en coupe, ou éclatées<note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>
+                <hi rend="small-caps">Lefèvre</hi>, 2004.</p>
+            </note> dont font usage les contemporains de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>, autant que ses
+          collaborateurs directs. C’est le cas en particulier de son élève et
+          secrétaire <persName ref="200909983" type="idref" xml:base="https://www.idref.fr/">Rudolf Christian Wagner</persName>
+          qui s’est occupé des dernières améliorations de la machine à
+          <placeName ref="6557378" type="geonames" xml:base="https://www.geonames.org/">Helmstedt</placeName> au <date from="1700" to="1710" type="_temp">tout début du <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date> et a
+          laissé les premières représentations en perspective connues de la
+          roue à dents inégales<note n="43" place="foot" type="standard" xml:id="ftn43">
+              <p>
+                <hi rend="small-caps">Walsdorf</hi>
+                <hi rend="italic">et
+              al.</hi>, 2014, p. 187. Voir aussi <hi rend="small-caps">Wilberg</hi>, 1977.</p>
+            </note>, rebaptisée roue de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> au <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date> bien qu’elle ait été indépendamment
+          réinventée avant sa redécouverte<note n="44" place="foot" type="standard" xml:id="ftn44">
+              <p>
+                <hi rend="small-caps">Kistermann, </hi>1999.</p>
+            </note>.</p>
+          <p xml:id="d1e741">Il a souvent été argué qu’il s’agissait là d’un
+          simple problème de communication – entendue en un sens très
+          restreint de transmission sans perte d’une idée lui préexistant –,
+          que <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> n’aurait
+          simplement pas su transmettre clairement et distinctement son idée
+          pourtant claire et distincte<note n="45" place="foot" type="standard" xml:id="ftn45">
+              <p>C’est un argument majeur pour les ingénieurs qui s’attèlent
+              aujourd’hui à reconstruire la machine de Leibniz (<hi rend="small-caps">Morar</hi>, 2015).</p>
+            </note>. Mais s’arrêter à ce constat c’est donc, d’une part,
+          réduire l’acte de communication à la transmission d’un déjà-là et,
+          d’autre part, postuler que la pratique du dessin serait
+          essentiellement communicationnelle. Selon ces deux réductionnismes
+          imbriqués, le dessin viendrait donc traduire sans perte et sans
+          équivoque une image mentale qui lui précéderait. L’on retomberait
+          alors dans une conception hylémorphique de l’invention, avant même
+          sa matérialisation en artefact technique, qu’il soit fonctionnel
+          ou non.</p>
+          <p xml:id="d1e751">Si <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> pense
+          géométriquement ou schématiquement, il ne pense pas picturalement.
+          Très myope depuis le plus jeune âge<note n="46" place="foot" type="standard" xml:id="ftn46">
+              <p>Leibniz en témoigne dans un récit autobiographique inédit de
+              son vivant (<hi rend="small-caps">Leibniz</hi>, 1847, t. I,
+              vol. 4, p. 169-170).</p>
+            </note>, il n’a laissé aucune note sur l’art pictural ou
+          l’architecture de son temps malgré son Grand Tour<note n="47" place="foot" type="standard" xml:id="ftn47">
+              <p>
+                <hi rend="small-caps">Robinet</hi>, 1988, p. 2.</p>
+            </note>. Jamais formé au dessin, il ne trace sur ses papiers de
+          travail que des schémas géométriques abstraits qui lui serviront à
+          développer un calcul symbolique qu’il qualifiera, symptomatiquement,
+          de « pensée aveugle<note n="48" place="foot" type="standard" xml:id="ftn48">
+              <p>
+                <hi rend="small-caps">Krämer, </hi>2012; <hi rend="small-caps">Dumas Primbault</hi>, 2018.</p>
+            </note> ». Ainsi le problème de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>
+          n’est pas initialement, ni essentiellement, un problème de
+          communication entre l’inventeur et son artisan, mais bien plutôt un
+          problème épistémologique portant sur ce qu’il est possible de penser
+          dans un <hi rend="italic">medium </hi>en fonction de ses compétences
+          pratiques, puis un problème de traduction matérielle d’un <hi rend="italic">medium</hi> à un autre. S’il est difficile de nier que
+          de meilleures compétences en dessin auraient facilité la
+          communication de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>, il faut
+          dépasser l’argument communicationnel afin d’envisager la pratique du
+          dessin dans sa matérialité comme une manière de penser, ouvrant un
+          espace des possibles différent de celui ouvert par le schéma ou le
+          texte, un espace qui reste majoritairement interdit à <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>.</p>
+          <p xml:id="d1e786">Ainsi, puisque Carcavi dit n’avoir rien reçu qui
+          « merite d’estre veu » et qu’<persName type="_temp">Ollivier</persName> se plaint de ne pas comprendre ses
+          dessins<note n="49" place="foot" type="standard" xml:id="ftn49">
+              <p>AA III, 2, N. 50, p. 164. Voici ce qu’écrit Jones à propos du
+              mémoire envoyé par Leibniz à Ollivier: <hi rend="italic">Leibniz’s memoire is a testament to the difficulty
+              of technical communication before the age of standardized
+              written and pictorial communication practices in engineering.
+              […] Leibniz wrote characteristically in the language of
+              combinations and claimed to demonstrate that the machine so
+              specified would work correctly for all six possible combinations
+              of situations</hi>. (<hi rend="small-caps">Jones</hi>, 2016,
+              p. 69).</p>
+            </note>, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> se donne un
+          autre moyen, non seulement de communiquer, mais surtout de penser :
+          le texte. Une forme textuelle tellement prédominante qu’elle noie
+          les schémas réalisés par l’inventeur. Cette hiérarchie des <hi rend="italic">media</hi> et la nécessité pour <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> d’en recourir à
+          la description textuelle étaient déjà visibles dans la notice
+          « Machina Arithmetica », ou encore dans une longue description mise
+          au propre de sa « Machine d’Arithmétique<note n="50" place="foot" type="standard" xml:id="ftn50">
+              <p>GWLB, LH XLII, 5, ff<hi rend="sup">o</hi> 54r-57v.</p>
+            </note> » dans laquelle ne figure aucun schéma en huit pages. Le
+          texte est également prééminent dans la rédaction en <date type="_temp" when="1682">1682</date> d’une « Nouvelle et derniere
+          maniere pour achever ma machine Arithmetique<note n="51" place="foot" type="standard" xml:id="ftn51">
+              <p>GWLB, LH XLII, 5, ff<hi rend="sup">o</hi> 46r-53v.</p>
+            </note> », où <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> s’essaie à
+          décrire, en six pages pour seulement une esquisse grossière de
+          schéma, de quelle manière il voudrait remplacer sa roue à dents
+          inégales par une « roue de transport » – pièce maîtresse puisqu’elle
+          permet de générer et propager les retenues.</p>
+          <figure xml:id="d1e818">
+            <head xml:id="d1e819">Fig. 6</head>
+          </figure>
+          <p xml:id="d1e821">Mais c’est dans un manuscrit daté de <date type="_temp" when="1685">1685</date> que le rapport de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> au texte est le
+          plus patent. « Ma Machine Arithmétique de la manière que je l’ay
+          fait faire à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> l’an <date type="_temp" when="1674">1674</date> » est un texte de sept
+          pages<note n="52" place="foot" type="standard" xml:id="ftn52">
+              <p>GWLB, LH XLII, 5, ff<hi rend="sup">o</hi> 11r-14v.</p>
+            </note>, contenant quelques schémas sommaires également noyés dans
+          les mots, auquel est ajoutée en en-tête la mention suivante : « j’ay
+          fait cette description à <placeName ref="2910831" type="geonames" xml:base="https://www.geonames.org/">Hanover</placeName> l’an <date from="1685-07-01" to="1685-07-31" type="_temp">1685 au mois de
+          juillet</date>, ayant la machine devant moy<note n="53" place="foot" type="standard" xml:id="ftn53">
+              <p>
+                <hi rend="italic">Ibid.</hi>, f<hi rend="sup">o</hi> 11r.</p>
+            </note> » (voir fig. 6). Par le moyen de cette longue <hi rend="italic">ekphrasis</hi>, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> entend donc
+          faire la description textuelle de son invention telle qu’il la
+          voit : comme une arborescence d’ensembles (« [la machine] consiste
+          en deux pieces dont l’une est mobile l’autre immobile<note n="54" place="foot" type="standard" xml:id="ftn54">
+              <p>
+                <hi rend="italic">Ibid.</hi> Ainsi que toutes les citations
+              suivantes jusqu’à précision du contraire.</p>
+            </note> ») et de sous-ensembles (« la partie immobile peut estre
+          consideree comme divisée en autant de parties, qu’il y a de degres
+          dans les chifres ») de pièces liées les unes aux autres par des
+          relations mécaniques (« [l’arbre horizontal] perce la premiere
+          [barre verticale], et n’est qu’appuyé dans la seconde »), des
+          rapports de taille (« aussi longues que la machine ») ou des
+          ressemblances formelles (« en forme de hache »). Les références
+          spatiales, données en fonction de la position de l’observateur (« de
+          droit à gauche (à l’égard de celui qui se sert de la machine) »),
+          sont absolues (« perpendiculaire à l’horizon ») ou relatives sans
+          indication de mesure (« au-delà de »). Les pièces sont nommées en
+          les soulignant (« <hi rend="underline">la roue conte-chifre</hi> »)
+          afin de pouvoir les désigner par une lettre de façon univoque
+          lorsqu’elles apparaissent dans un des schémas, tous filaires, sans
+          indication d’échelle et restreints à des sous-parties du mécanisme
+          complet. À titre d’exemple, voici comment est décrit l’axe
+          permettant d’entrer dans la machine les chiffres des nombres
+          à multiplier :</p>
+          <quote rend="quotation" xml:id="d1e855">
+            <hi rend="underline">L’arbre
+          vertical</hi> est porté par une lame horizontale, attachee a la
+          premiere barre, entre elle et la roue <hi rend="underline">b</hi>.
+          et cet arbre vertical a deux roues horizontales egales entre elles
+          aussi bien qu’à la roue b. chacune a dix dens, dont l’inferieure est
+          menée par la roue b et par consequent le canon qui la joint avec
+          la superieure.</quote>
+          <p xml:id="d1e863">Après avoir décrit une telle arborescence des
+          sous-ensembles du mécanisme, ces derniers sont repris dans l’ordre
+          dans lequel ils sont mobilisés lors de l’usage de la machine.
+          <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> s’attèle de
+          cette manière à écrire le récit de son fonctionnement : « jusqu’icy
+          la machine est disposée au transport il faut maintenant l’achever et
+          remettre les pièces de transport dans l’estat ou elles estoient
+          avant la disposition au transport<note n="55" place="foot" type="standard" xml:id="ftn55">
+              <p>
+                <hi rend="italic">Ibid</hi>., f<hi rend="sup">o</hi> 12r.</p>
+            </note> ». L’usage de verbes d’action et la mise en série des
+          déplacements permettent alors de détailler chronologiquement le
+          mouvement des pièces ainsi que les causes mécaniques de la
+          transmission du mouvement – donc du transport des retenues, la
+          « chose » se répétant pour chaque unité de numération : « La même
+          chose se fait pour le transport des dizaines aux centaines c’est
+          pourquoy je n’en feray point de redite<note n="56" place="foot" type="standard" xml:id="ftn56">
+              <p>
+                <hi rend="italic">Ibid</hi>., f<hi rend="sup">o</hi> 12v.</p>
+            </note>. »</p>
+          <p xml:id="d1e887">Une fois le manuscrit de Leibniz largement
+          amendé, corrigé, complété, l’invention fonctionne donc, <hi rend="italic">sur le papier</hi>. Pourtant, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> s’épanche durant
+          les quatre dernières pages sur « quelques remarques […] utiles à la
+          perfection de la machine<note n="57" place="foot" type="standard" xml:id="ftn57">
+              <p>
+                <hi rend="italic">Ibid</hi>., f<hi rend="sup">o</hi> 12v et
+              suiv.</p>
+            </note> », c’est qu’il voudrait se passer de la roue à dents
+          inégales afin d’améliorer le mécanisme de propagation des retenues.
+          Sur le même mode exactement que dans les pages qui précèdent,
+          <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> décrit un
+          système de pièces mécaniques dont les actions sont maintenant
+          conjuguées au futur ou au conditionnel. Cette description n’est
+          pourtant pas d’un ordre plus prospectif ou fictif que la précédente
+          qui, rappelons-le, se rapporte à un exemplaire fort probablement non
+          fonctionnel. Le <hi rend="italic">medium </hi>textuel n’est donc pas
+          seulement un outil de description d’une machine déjà-là – un
+          exemplaire du premier modèle apparemment construit à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> par <persName type="_temp">Ollivier</persName> puis emporté à <placeName ref="2910831" type="geonames" xml:base="https://www.geonames.org/">Hanovre</placeName> par
+          <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> – mais également
+          un espace d’invention.</p>
+          <p xml:id="d1e906">Ainsi, c’est plutôt par l’<hi rend="italic">ekphrasis</hi> que par l’image que <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> conçoit sa
+          machine. Mais l’<hi rend="italic">ekphrasis</hi> de quoi ? Ici d’un
+          artefact qu’il a sous les yeux, là d’une idée floue et indistincte,
+          de quelque chose qu’il n’arrive pas à mettre sous forme visuelle et
+          matérielle, et qui prend forme textuelle avec d’évidentes
+          difficultés. Puisqu’il relève de l’essence même de l’<hi rend="italic">ekphrasis </hi>que de transcrire, de traduire en mots
+          ce qui est vu, ce procédé met en lumière la dépendance matérielle de
+          l’invention leibnizienne à l’égard de ses <hi rend="italic">media</hi> et des traductions de l’un à l’autre. La
+          prédominance d’une forme textuelle, qui plus est relativement vague,
+          laisse une grande liberté d’interprétation à son lecteur – qu’il
+          soit horloger parisien du <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi>
+            </date> ou ingénieur allemand du <date from="1900" to="1999" type="_temp">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi> siècle</date> – dans l’opération de re-médiation
+          du papier au laiton<note n="58" place="foot" type="standard" xml:id="ftn58">
+              <p>
+                <hi rend="italic">Bringing the carry mechanism into practice
+              would require that Leibniz and his artisans convert all the
+              vague, qualitative descriptions in his working papers—“a
+              reasonable length,” “enough speed”—into physical mechanisms
+              grounded in the properties of available materials.</hi> (<hi rend="small-caps">Jones</hi>, 2016, p. 63).</p>
+            </note>. Si <persName type="_temp">Jones</persName> veut attribuer
+          l’usage que fait <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> de termes
+          imprécis à sa volonté de laisser suffisamment de marge à ses
+          collaborateurs dans la pratique de leur artisanat, il faut néanmoins
+          pousser plus avant la perspective matérialiste afin de se défaire de
+          l’hylémorphisme résiduel dans l’argument communicationnel : les
+          espaces matériels de pensée ouverts à <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> ne
+          lui ont pas permis de traduire son idée en une invention. Peu ou pas
+          formé au dessin et par conséquent incapable de dessiner correctement
+          en perspective, manifestant peu de sensibilité à la culture visuelle
+          de son temps, héraut d’une pensée aveugle dont relève la
+          multiplication longue, il ne manque pas seulement à Leibniz les
+          moyens de communiquer son invention, mais plutôt de la <hi rend="italic">penser</hi>. Pour reprendre les termes de
+          l’épistémologie de son temps, son idée est par trop confuse,
+          indistincte<note n="59" place="foot" type="standard" xml:id="ftn59">
+              <p>Bien sûr, cet état de confusion et d’indistinction de la
+              pensée se présente comme une nécessité créatrice pour qui se
+              propose d’<hi rend="italic">inventer</hi> mais les essais et
+              échecs répétés de Leibniz qui ne semble pas pouvoir penser sa
+              machine, par exemple, à travers le dessin illustrent bien qu’il
+              se heurte là aux contraintes épistémiques des <hi rend="italic">media</hi> qui lui sont propres.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e957">
+          <head subtype="level1" xml:id="d1e958">Transplanter l’esprit dans
+          l’inanimé</head>
+          <p xml:id="d1e960">Tous les récits hylémorphiques de l’invention de
+          la machine à calculer reposent sur l’argument qu’une seule preuve de
+          concept – la machine fonctionne <hi rend="italic">sur le
+          papier</hi> – suffit à démontrer que <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> a
+          atteint son objectif – la machine en laiton <hi rend="italic">doit
+          </hi>fonctionner. Cette forme de raisonnement est soutenue par la
+          rhétorique de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> lui-même qui
+          rédige et publie de nombreux textes décrivant sa machine <hi rend="italic">comme si</hi> elle fonctionnait. C’est le cas
+          notamment d’une « Brevis descriptio Machinae » publiée en <date type="_temp" when="1710">1710</date> dans les <hi rend="italic">Miscellanea Berolinensia</hi> de l’Académie des
+          sciences de Berlin<note n="60" place="foot" type="standard" xml:id="ftn60">
+              <p>
+                <hi rend="small-caps">Leibniz</hi>, 1710.</p>
+            </note>, créée quelques années plus tôt par <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> et dont il sera
+          président jusqu’à sa mort. Cette description reprend les brouillons
+          précédents, parfois <hi rend="italic">verbatim</hi>, afin
+          d’expliciter textuellement le fonctionnement d’une machine
+          représentée par une gravure qui ne laisse rien voir de son
+          mécanisme, une boîte noire à proprement parler. Une fois de plus,
+          cette <hi rend="italic">ekphrasis</hi> présente une machine
+          fonctionnelle. Alors que la machine n’existe manifestement qu’<hi rend="italic">en puissance</hi>, cette description se veut preuve de
+          concept de l’existence <hi rend="italic">en acte </hi>de
+          l’invention. Ce faisant, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> escamote toutes
+          les opérations de re-médiation – opérations qui pourtant
+          maintiennent sa machine à l’état de projet.</p>
+          <p xml:id="d1e995">Il suppose ainsi que le passage de la
+          potentialité à l’actualité peut et doit se faire sans solution de
+          continuité, qu’une traduction parfaite et sans perte de la machine
+          papier en rouages de laiton est possible. Comme il transparaît du
+          dernier contrat que <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> rédige et fait
+          parvenir à <persName type="_temp">Ollivier</persName> pour signature
+          en <date type="_temp" when="1679">1679</date>, cette matérialisation
+          de son invention ne serait que l’affaire d’un travailleur salarié
+          qui répondrait à une commande sans accroc, ni effort : « Le dit
+          sieur <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> m’ayant informé
+          partie par écrit et partie de vive voix et par quelques modelles
+          d’une machine Arithmetique de son invention ; en sorte que je n’y ay
+          plus trouvé aucune difficulté je me suis engagé à l’executer de la
+          manière suivante<note n="61" place="foot" type="standard" xml:id="ftn61">
+              <p>AA III, 2, N. 259, p. 598.</p>
+            </note> ». S’ensuit une liste numérotée de fonctionnalités, de
+          descriptions textuelles vagues de parties du mécanisme, de mots de
+          contrition que Leibniz met dans la bouche de son artisan au sujet de
+          son travail passé, d’un calendrier (« trois mois ») et de diverses
+          sommes d’argent. Quelques mois plus tard, après qu’<persName type="_temp">Ollivier</persName> se soit montré indisponible à
+          <persName type="_temp">Monsieur Hansen</persName>, l’homme de
+          confiance parisien de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>, leur
+          collaboration prend fin. Ainsi, comme le montre <persName type="_temp">Jones</persName>, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>
+          participe activement de la division du travail et des
+          compétences<note n="62" place="foot" type="standard" xml:id="ftn62">
+              <p>Voir aussi <hi rend="small-caps">Daston</hi>, 1994 et
+              2017.</p>
+            </note>, de la dichotomie radicale entre une idée et sa
+          matérialisation – ou son « implémentation » –, donc d’une conception
+          hylémorphique de l’invention. C’est pourquoi il ne peut voir, ou ne
+          veut reconnaître, les effets de la re-médiation.</p>
+          <p xml:id="d1e1010">Plus encore, ses années parisiennes sont un
+          moment fécond dans le développement de son « imaginaire
+          computationnel<note n="63" place="foot" type="standard" xml:id="ftn63">
+              <p>
+                <hi rend="small-caps">Gray</hi>, 2018.</p>
+            </note> » avec son travail sur une <hi rend="italic">characteristica universalis</hi>. Cette dernière se
+          propose comme un langage universel fondé sur un alphabet de la
+          pensée et de l’action humaines constitué de tous les concepts
+          simples – discrets et en nombre fini – à partir de la combinaison
+          desquels il est possible de retrouver l’ensemble infini des concepts
+          complexes qui représentent le monde sensible. La caractéristique
+          leibnizienne permettrait d’abord de résoudre tout différend
+          philosophique sur un mode combinatoire et computationnel, selon la
+          fameuse injonction : « <hi rend="italic">Calculemus !</hi>
+            <note n="64" place="foot" type="standard" xml:id="ftn64">
+              <p>AA, VI, 4, p. 913. Les philosophes y sont présentés comme des
+              <hi rend="italic">computistas</hi>.</p>
+            </note> ». Elle est également pour <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> le
+          moyen de formaliser et coucher sur le papier les pratiques
+          matérielles des artisans de son temps – un « projet de
+          rationalisation des pratiques<note n="65" place="foot" type="standard" xml:id="ftn65">
+              <p>
+                <hi rend="small-caps">Dubourg Glatigny </hi>et <hi rend="small-caps">Vérin</hi>, 2008.</p>
+            </note> » qui porte aussi le nom de « réduction en art » –, les
+          re-médiant ainsi, prétendument sans perte, du corps de l’artisan
+          dans son atelier au papier du savant dans sa bibliothèque. Sa
+          machine est l’une de ces inventions de papier permettant
+          d’automatiser un labeur qui autrement encombre l’esprit.</p>
+          <p xml:id="d1e1044">Car pour <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>, raisonner c’est
+          calculer : l’exercice de la raison n’est ni plus ni moins qu’un
+          calcul nécessitant un ensemble de symboles – <hi rend="italic">i. e.
+          </hi>de signes sensibles dénotant des idées abstraites – et de
+          règles algébriques – celles de la logique notamment. Les opérations
+          arithmétiques sont un genre de raisonnement, leur mécanisation le
+          début de la formalisation d’un calcul propositionnel plus large. Si
+          au <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi> siècle</date> il
+          est le seul tenant avec <persName type="_temp">Hobbes</persName>
+          d’une telle épistémologie<note n="66" place="foot" type="standard" xml:id="ftn66">
+              <p>
+                <hi rend="small-caps">jones</hi>, 2016, p. 4-5. Et ce n’est
+              pas avant la fin du <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi> siècle que ressurgit un discours sur
+              l’équivalence entre raison et calcul.</p>
+            </note>, c’est pourtant sur celle-ci qu’est fondée sa rhétorique
+          de l’im-médiateté, de la possibilité d’une transplantation parfaite
+          des opérations de la raison dans un artefact : la structure de la
+          raison n’a pas de <hi rend="italic">medium</hi> ou de matérialité
+          privilégiée, elle résulte d’un ensemble de règles abstraites,
+          universelles et immatérielles. C’est le cas, en particulier, de la
+          méthode de résolution des opérations longues qui se réduirait à un
+          ensemble de règles de manipulation de symboles dont le papier ne
+          serait que le support neutre.</p>
+          <p xml:id="d1e1070">Réciproquement, la matérialisation effective des
+          opérations de l’esprit dans une machine de laiton aurait servi de
+          fondement matériel à la démonstration de l’équivalence entre une
+          preuve mathématique et une preuve de concept basée sur la prédiction
+          d’un comportement mécanique. À tel point que l’on pourrait avancer
+          que l’entreprise de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> est
+          tautologique, ou à tout le moins que la construction de sa machine
+          est fortement téléologique, orientée vers une cause finale d’ordre
+          épistémologique, donc formatée dans l’intérêt de satisfaire
+          celle-ci<note n="67" place="foot" type="standard" xml:id="ftn67">
+              <p>Sans oublier que la cause finale réelle de l’entreprise
+              leibnizienne est d’abord sociale et politique : la machine à
+              calculer devait lui assurer un poste d’académicien à Paris. <hi rend="italic">Leibniz created for his public a complete
+              rhetorical package centered on the idea of utility.</hi> (Morar,
+              2015, p. 132). C’est là la véritable réciproque de
+              l’immédiateté : une hypermédiation de son invention <hi rend="italic">comme si </hi>elle fonctionnait, par une abondante
+              communication publique qui a longtemps fait foi, avant que l’on
+              ne songe à plonger dans sa correspondance et ses papiers
+              de travail.</p>
+            </note>.</p>
+          <p xml:id="d1e1083">En escamotant ainsi la nécessité et les effets
+          de la re-médiation d’une pratique matérielle dans un artefact
+          technique, <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> déclare possible
+          en acte cette transplantation qui avait mis la puce à l’oreille
+          de <persName type="_temp">Morar</persName> :</p>
+          <quote rend="quotation" xml:id="d1e1085">La machine dont nous
+          donnons icy la description exterieure, fait voir que l’esprit humain
+          peut trouver le moyen de se transplanter de telle façon dans une
+          matière inanimée qu’il luy donne le pouvoir, de faire bien plus
+          qu’il n’auroit fait lui-même : pour convaincre sensiblement ceux qui
+          ont de la difficulté à concevoir comment le Createur puisse loger
+          une apparence d’esprit un peu plus générale dans les corps des
+          bestes qoyque fourni de tant d’organes ; puisque le laiton même a
+          peu recevoir l’imitation d’une opération de la raison qui est à la
+          vérité particulière ou determinée, mais des plus difficiles […]<note n="68" place="foot" type="standard" xml:id="ftn68">
+              <p>GWLB, LH XLII, 5, f<hi rend="sup">o</hi> 33r.</p>
+            </note>.</quote>
+          <p xml:id="d1e1095">Ignorer les opérations de re-médiation qui
+          président à cette transplantation, c’est donc jeter un pont entre
+          l’esprit (<hi rend="italic">anima</hi>) et la matière <hi rend="italic">inanimée</hi> et, pour Leibniz, se poser en
+          « Créateur ».</p>
+          <p rend="break" xml:id="d1e1103">⁂</p>
+          <p xml:id="d1e1105">En s’intéressant ainsi aux matérialités
+          multiples de la machine à calculer de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>, en
+          se penchant sur certaines opérations de re-médiation d’un <hi rend="italic">medium </hi>à un autre puis sur les discours qui
+          effacent ces médiations, il devient possible de mettre en lumière
+          des pratiques et opérations intellectuelles autrement négligées par
+          l’historiographie et qui nous renseignent sur les manières de penser
+          d’un savant au <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi> siècle</date>.
+          Au-delà des récits hylémorphiques, une approche média-historique,
+          montre la dépendance matérielle de la pensée de <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> à l’égard d’un
+          certain usage du papier – schématique, analytique, discursif. Une
+          dépendance telle que cette pensée a pu se montrer difficilement
+          traduisible pour <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> lui-même et ses
+          collaborateurs, autant que pour une petite armée d’ingénieurs
+          contemporains à la suite de la redécouverte du second modèle
+          en <date type="_temp" when="1879">1879</date>.</p>
+          <p xml:id="d1e1116">À l’aune de ces quelques remarques, on pourrait
+          alors se demander si l’on peut encore qualifier <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> d’ingénieur<note n="69" place="foot" type="standard" xml:id="ftn69">
+              <p>Malgré sa critique de la conception hylémorphique et son
+              analyse érudite de la part jouée par Leibniz dans la réalisation
+              de cette conception, Jones persiste à le qualifier de
+              « philosophe-ingénieur » (<hi rend="italic">philosopher-engineer</hi>) (<hi rend="small-caps">Jones, </hi>2016, p. 98 et <hi rend="italic">passim</hi>, ma traduction)<hi rend="italic">.
+              </hi>Pourtant, en redonnant à l’artisan ses compétences
+              pratiques, savoir-faire, savoirs tacites et incarnés des
+              matériaux et des mécanismes, il conviendrait, devant l’évidence
+              et dans un mouvement symétrique, de revoir la part
+              de Leibniz.</p>
+            </note>. Il faudrait prolonger la perspective matérielle dans
+          l’étude des moulins du <placeName ref="2909965" type="geonames" xml:base="https://www.geonames.org/">Harz</placeName> qui n’ont
+          jamais fonctionné<note n="70" place="foot" type="standard" xml:id="ftn70">
+              <p>
+                <hi rend="small-caps">Wakefield</hi>, 2010 et <hi rend="small-caps">Heinz</hi>, 2011.</p>
+            </note> et dans celle des autres machines – géométrique,
+          algébrique, analytique – envisagées par <persName ref="027328341" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName>,
+          dont <persName type="_temp">Jones</persName> dit qu’elles ne se
+          réaliseront que dans l’apparente immatérialité de son calcul
+          symbolique<note n="71" place="foot" type="standard" xml:id="ftn71">
+              <p>
+                <hi rend="italic">geometrical machines were realized not in
+              any physical machine but in his new symbolic calculus that
+              permitted just such transformations of figures</hi> (<hi rend="small-caps">Jones</hi>, 2016, p. 57). Voir <hi rend="small-caps">Jones</hi>, 2016, p. 266, n. 10 pour les cotes
+              des archives traitant de ces machines.</p>
+            </note>. Il faudrait également doubler le récit de <persName type="_temp">Morar</persName> d’une histoire <hi rend="italic">matérielle</hi> des reconstructions et
+          reconstitutions, jusqu’aux récentes modélisations 3D présentant une
+          version non moins virtuelle d’une machine à calculer fonctionnant à
+          la perfection, jusqu’à la dépouiller même de son usager, s’<hi rend="italic">animant</hi> d’elle-même sans intervention extérieure,
+          complètement automatisée<note n="72" place="foot" type="standard" xml:id="ftn72">
+              <p>Voir <ref target="http://www.leibnizcentral.de">http://www.leibnizcentral.de</ref>.</p>
+            </note>.</p>
+          <p xml:id="d1e1175">Si, avec <persName type="_temp">Jones</persName>, on veut voir dans ces tentatives les
+          « fondations matérielles d’un âge numérique<note n="73" place="foot" type="standard" xml:id="ftn73">
+              <p>
+                <hi rend="italic">Material Foundations of a Digital Age
+              </hi>(<hi rend="small-caps">Jones</hi>, 2016, p. 247 et suiv,
+              ma traduction).</p>
+            </note> », alors une autre des vertus d’une perspective
+          média-historique sur ces techniques de papier et de laiton est de
+          continuer à déconstruire une distinction trop marquée dans
+          l’histoire des sciences entre logiciel (<hi rend="italic">software</hi>) et matériel (<hi rend="italic">hardware</hi>), entre histoire des mathématiques et
+          histoire des techniques. En se gardant toutefois de vouloir lui
+          substituer une continuité trop marquée, mais en envisageant plutôt
+          une histoire faite de traductions successives d’un <hi rend="italic">medium</hi> à un autre, d’une matérialité
+          à l’autre.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e1198">
+        <head xml:id="d1e1199">Sources et bibliographie</head>
+        <listBibl xml:id="d1e1201">
+          <head subtype="level2" xml:id="d1e1202">Sources manuscrites</head>
+          <bibl xml:id="d1e1204">Gottfried-Wilhelm-Leibniz-Bibliothek (GWLB),
+          Leibniz Handschriften (LH) XLII, 5.</bibl>
+        </listBibl>
+        <listBibl xml:id="d1e1206">
+          <head subtype="level2" xml:id="d1e1207">Sources imprimées</head>
+          <bibl xml:id="d1e1209">Akademie Ausgabe (AA) Reihe III, Band 2, N.
+          V, 50 et 259 : correspondance entre Leibniz et Ollivier.</bibl>
+          <bibl xml:id="d1e1211">AA II, 1, N. 65 : lettre de Carcavi à
+          Leibniz, juin 1671.</bibl>
+          <bibl xml:id="d1e1213">AA II, 1, N. 66 et 67 : lettres de Leibniz à
+          Carcavi, juin 1671.</bibl>
+          <bibl xml:id="d1e1215">AA II, 1, N. 95 : lettre de Carcavi à
+          Leibniz, décembre 1671.</bibl>
+          <bibl xml:id="d1e1217">AA, VI, 4 : Écrits philosophiques.</bibl>
+          <bibl xml:id="d1e1219">
+            <hi rend="small-caps">Leibniz</hi>, 1710 :
+          Gottfried Wilhelm <hi rend="small-caps">Leibniz</hi>, « Brevis
+          descriptio Machinae », <hi rend="italic">Miscellanea
+          Berolinensia</hi>, 1, p. 317-319.</bibl>
+          <bibl xml:id="d1e1229">
+            <hi rend="small-caps">Leibniz, </hi>1847 :
+          Gottfried Wilhelm <hi rend="small-caps">Leibniz</hi>, <hi rend="italic">Leibnizens gesammelte Werke: aus den Handschriften der
+          Königlichen Bibliothek zu Hannover</hi>, 4 Bd., Pertz G.H. (éd.),
+          Hanovre, Hahnschen Hof-Buchhandlung.</bibl>
+        </listBibl>
+        <listBibl xml:id="d1e1239">
+          <head subtype="level2" xml:id="d1e1240">Bibliographie</head>
+          <bibl xml:id="d1e1242">
+            <hi rend="small-caps">Antognazza</hi>, 2009 :
+          Maria Rosa <hi rend="small-caps">Antognazza</hi>, <hi rend="italic">Leibniz: An Intellectual Biography</hi>, Cambridge,
+          Cambridge University Press.</bibl>
+          <bibl xml:id="d1e1252">
+            <hi rend="small-caps">Bert</hi> et <hi rend="small-caps">Lamy</hi>, 2021 : Jean-François <hi rend="small-caps">Bert</hi> et Jérôme <hi rend="small-caps">Lamy</hi>, <hi rend="italic">Voir les savoirs.
+          Pour une histoire de la matérialité savante</hi>, Paris,
+          Anamosa.</bibl>
+          <bibl xml:id="d1e1268">
+            <hi rend="small-caps">Bolter</hi> et <hi rend="small-caps">Grusin</hi>, 1998 : Jay David <hi rend="small-caps">Bolter</hi> et Richard <hi rend="small-caps">Grusin</hi> (éd.), <hi rend="italic">Remediation:
+          Understanding New Media</hi>, Cambridge, MIT Press.</bibl>
+          <bibl xml:id="d1e1284">
+            <hi rend="small-caps">Clarizio</hi>
+            <hi rend="italic">et al.</hi>, 2020 : Emanuele <hi rend="small-caps">Clarizio</hi>, Roberto <hi rend="small-caps">Poma</hi> et Michele <hi rend="small-caps">Spanò</hi> (éd.), <hi rend="italic">Milieu,
+          mi-lieu, milieux</hi>, Sesto S. Giovanni, Mimésis.</bibl>
+          <bibl xml:id="d1e1303">
+            <hi rend="small-caps">Daston</hi>, 1994 :
+          Lorraine <hi rend="small-caps">Daston</hi>, « Enlightenment
+          Calculations », <hi rend="italic">Critical Inquiry</hi>, 21, 1,
+          p. 182-202.</bibl>
+          <bibl xml:id="d1e1313">
+            <hi rend="small-caps">Daston</hi>, 2017 :
+          Lorraine <hi rend="small-caps">Daston</hi>, « Calculation and the
+          Divison of Labor, 1750-1950 », <hi rend="italic">Report of the
+          31</hi>
+            <hi rend="sup italic">st</hi>
+            <hi rend="italic"> Annual
+          Lecture of the German Historical Institute, </hi>Washington DC,
+          p. 9-30.</bibl>
+          <bibl xml:id="d1e1327">
+            <hi rend="small-caps">Dubourg Glatigny</hi>
+          et <hi rend="small-caps">Vérin</hi>, 2008 : Pascal <hi rend="small-caps">Dubourg Glatigny</hi> et Hélène <hi rend="small-caps">Vérin</hi> (éd.), <hi rend="italic">Réduire en
+          art. La technologie de la Renaissance aux Lumières</hi>, Paris,
+          Maison des sciences de l’homme.</bibl>
+          <bibl xml:id="d1e1343">
+            <hi rend="small-caps">Dumas</hi>
+            <hi rend="small-caps">Primbault</hi>, 2018 : Simon <hi rend="small-caps">Dumas</hi>
+            <hi rend="small-caps">Primbault</hi>,
+          <hi rend="italic">Esprits de papier. Une histoire matérielle du
+          travail savant à travers les brouillons de Viviani et Leibniz (ca.
+          1650-1700)</hi>, European University Institute, Florence, 658 pages,
+          en ligne : <ref target="https://cadmus.eui.eu/handle/1814/59886">https://cadmus.eui.eu/handle/1814/59886</ref>.</bibl>
+          <bibl xml:id="d1e1362">
+            <hi rend="small-caps">Dumas</hi>
+            <hi rend="small-caps">Primbault</hi>, 2020a : Simon <hi rend="small-caps">Dumas</hi>
+            <hi rend="small-caps">Primbault</hi>,
+          « Le compas dans l’œil. La “mécanique géométrique” de Viviani au
+          chevet de la coupole de Brunelleschi », <hi rend="italic">Revue
+          d’histoire des sciences</hi>, 73, 1, p. 5-52.</bibl>
+          <bibl xml:id="d1e1378">
+            <hi rend="small-caps">Dumas</hi>
+            <hi rend="small-caps">Primbault</hi>, 2020b : Simon <hi rend="small-caps">Dumas</hi>
+            <hi rend="small-caps">Primbault</hi>,
+          « An Ink-and-Paper Automaton: The Conceptual Mechanization of
+          Cognition and the Practical Automation of Reasoning in Leibniz’s De
+          Affectibus (1679) », <hi rend="italic">Society and Politics</hi>,
+          13, 2, p. 87-113.</bibl>
+          <bibl xml:id="d1e1395">
+            <hi rend="small-caps">Dumas</hi>
+            <hi rend="small-caps">Primbault</hi>
+            <hi rend="italic">et al.</hi>,
+          2021 : Simon <hi rend="small-caps">Dumas</hi>
+            <hi rend="small-caps">Primbault</hi>, Paul-Arthur <hi rend="small-caps">Tortosa</hi> et Martin <hi rend="small-caps">Vailly</hi> (éd.), <hi rend="italic">Lieux et
+          milieux de savoirs : pour une écologie des pratiques savantes</hi>,
+          numéro spécial des <hi rend="italic">Cahiers François Viète</hi>,
+          III, 10.</bibl>
+          <bibl xml:id="d1e1424">
+            <hi rend="small-caps">Gray</hi>, 2018 :
+          Jonathan <hi rend="small-caps">Gray</hi>, « Computational
+          Imaginaries: Some Further Remarks on Leibniz, Llull, and Rethinking
+          the History of Calculating Machines », dans Amador Vega, Peter
+          Weibel et Siegfried Zielinski (éd.), <hi rend="italic">DIA–LOGOS:
+          Ramon Llull’s Method of Thought and Artistic Practice</hi>,
+          Minneapolis, University of Minnesota Press, p. 293-300.</bibl>
+          <bibl xml:id="d1e1434">
+            <hi rend="small-caps">Greene</hi>, 2020 :
+          Jeremy A. <hi rend="small-caps">Greene</hi>, « Knowledge <hi rend="italic">In Media Res</hi>: Toward a Media History of Science,
+          Medicine, and Technology », <hi rend="italic">History and
+          Theory</hi>, 58, p. 48-66.</bibl>
+          <bibl xml:id="d1e1447">
+            <hi rend="small-caps">Heinz</hi>, 2011 :
+          Dorothea Heinz, <hi rend="italic">La cosmologie leibnizienne à
+          l’épreuve des mines du Harz, 1677–1686</hi>, Mémoire de M2 en
+          histoire moderne, Sciences Po, Paris.</bibl>
+          <bibl xml:id="d1e1454">
+            <hi rend="small-caps">Hofmann</hi>, 2008 :
+          Joseph E. <hi rend="small-caps">Hofmann</hi>, <hi rend="italic">Leibniz in Paris 1672–1676: His Growth to Mathematical
+          Maturity</hi>, Cambridge, Cambridge University Press.</bibl>
+          <bibl xml:id="d1e1464">
+            <hi rend="small-caps">Jacob</hi>, 2007-2011 :
+          Christian <hi rend="small-caps">Jacob</hi> (éd.), <hi rend="italic">Lieux de savoirs</hi>, 2 volumes, Paris, Albin
+          Michel.</bibl>
+          <bibl xml:id="d1e1474">
+            <hi rend="small-caps">Jones</hi>, 2016 :
+          Matthew L. <hi rend="small-caps">Jones</hi>, <hi rend="italic">Reckoning with Matter: Calculating Machines,
+          Innovation, and Thinking about Thinking from Pascal to Babbage</hi>,
+          Chicago, University of Chicago Press.</bibl>
+          <bibl xml:id="d1e1484">
+            <hi rend="small-caps">Jordan</hi>, 1897 :
+          Wilhem <hi rend="small-caps">Jordan</hi>, « Die Leibnizsche
+          Rechenmaschine », <hi rend="italic">Zeitschrift für
+          Vermessungswesen</hi>, 26, p. 289-315.</bibl>
+          <bibl xml:id="d1e1494">
+            <hi rend="small-caps">Kistermann</hi>, 1999 :
+          Friedrich W. <hi rend="small-caps">Kistermann</hi>, « When Could
+          Anyone Have Seen Leibniz’s Stepped Wheel? », <hi rend="italic">Annals of the History of Computing</hi>, 21, 2,
+          p. 68-72.</bibl>
+          <bibl xml:id="d1e1504">
+            <hi rend="small-caps">Kittler</hi>, 1990
+          (1985) : Friedrich <hi rend="small-caps">Kittler</hi>, <hi rend="italic">Discourse Networks 1800/1900</hi>, Stanford, Stanford
+          University Press, tr. ang. Michael Meteer et Chris Cullens.</bibl>
+          <bibl xml:id="d1e1514">
+            <hi rend="small-caps">Krämer</hi>, 2012 :
+          Sybille <hi rend="small-caps">Krämer</hi>, « The ‘eye of the mind’
+          and the ‘eye of the body’: Descartes and Leibniz on truth,
+          mathematics, and visuality », dans Friedrich G. Barth, Patrizia
+          Giamperi-Deutsch et Hans-Dieter Klein (éd.), <hi rend="italic">Sensory Perception: Mind and Matter</hi>, Vienne,
+          Springer, p. 369-382.</bibl>
+          <bibl xml:id="d1e1525">
+            <hi rend="small-caps">Lefèvre</hi>, 2004 :
+          Wolfgang <hi rend="small-caps">Lefèvre</hi> (éd.), <hi rend="italic">Picturing Machines 1400–1700</hi>, Cambridge, MIT
+          Press.</bibl>
+          <bibl xml:id="d1e1535">
+            <hi rend="small-caps">Lenoir</hi>, 1998 :
+          Timothy <hi rend="small-caps">Lenoir</hi> (éd.), <hi rend="italic">Inscribing Science: Scientific Texts and the
+          Materiality of Communication</hi>, Stanford, Stanford University
+          Press.</bibl>
+          <bibl xml:id="d1e1545">
+            <hi rend="small-caps">Lenzen</hi>, 2018 :
+          Wolfgang <hi rend="small-caps">Lenzen</hi>, « Leibniz and the
+          Calculus Ratiocinator », dans Sven Ove Hansson (éd.), <hi rend="italic">Technology and Mathematics: Philosophical and
+          Historical Investigations</hi>, Cham, Springer, p. 47-78.</bibl>
+          <bibl xml:id="d1e1555">
+            <hi rend="small-caps">Mersch</hi>, 2018
+          (2016) : Dieter <hi rend="small-caps">Mersch</hi>, <hi rend="italic">Théorie des médias. Une introduction</hi>, Dijon,
+          Les presses du réel, tr. fr. Stephanie Baumann, Philippe Farah et
+          Emmanuel Alloa.</bibl>
+          <bibl xml:id="d1e1565">
+            <hi rend="small-caps">Morar</hi>, 2015 :
+          Florin-Stefan <hi rend="small-caps">Morar</hi>, « Reinventing
+          machines: the transmission history of the Leibniz calculator », <hi rend="italic">British Journal for the History of Science</hi>, 48,
+          1, p. 123-146.</bibl>
+          <bibl xml:id="d1e1575">
+            <hi rend="small-caps">Ratcliff</hi>, 2007 :
+          Jessica R. <hi rend="small-caps">Ratcliff</hi>, « Samuel Morland and
+          his calculating machines c.1666: the early career of a
+          courtier-inventor in Restoration London », <hi rend="italic">British
+          Journal for the History of Science</hi>, 40, 2, p. 159-179.</bibl>
+          <bibl xml:id="d1e1585">
+            <hi rend="small-caps">Robinet</hi>, 1988 :
+          André <hi rend="small-caps">Robinet</hi>, <hi rend="italic">G.W.
+          Leibniz : Iter Italicum (mars 1689-mars 1690). La dynamique de la
+          République des lettres. Nombreux textes inédits</hi>, Florence,
+          Olschki.</bibl>
+          <bibl xml:id="d1e1595">
+            <hi rend="small-caps">Sack</hi>, 2019 :
+          Warren <hi rend="small-caps">Sack</hi>, <hi rend="italic">The
+          Software Arts</hi>, Cambridge, MIT Press.</bibl>
+          <bibl xml:id="d1e1605">
+            <hi rend="small-caps">Smith</hi>, 1929 :
+          David E. <hi rend="small-caps">Smith</hi> (éd.), <hi rend="italic">A
+          Source Book in Mathematics</hi>, New York, McGraw.</bibl>
+          <bibl xml:id="d1e1615">
+            <hi rend="small-caps">Swade</hi>, 2018 :
+          Doron <hi rend="small-caps">Swade</hi>, « Mathematics and Mechanical
+          Computation », dans Sven Ove Hansson (éd.), <hi rend="italic">Technology and Mathematics: Philosophical and
+          Historical Investigations</hi>, Cham, Springer, p. 79-106.</bibl>
+          <bibl xml:id="d1e1625">
+            <hi rend="small-caps">Tresch</hi> et <hi rend="small-caps">Dolan</hi>, 2013 : John <hi rend="small-caps">Tresch</hi> et Emily <hi rend="small-caps">Dolan</hi>, « Toward a New Organology: Instruments
+          of Music and Science », <hi rend="italic">Osiris</hi>, 28, 1,
+          p. 278-298.</bibl>
+          <bibl xml:id="d1e1642">
+            <hi rend="small-caps">Wakefield</hi>, 2010 :
+          Andre <hi rend="small-caps">Wakefield</hi>, « Leibniz and the Wind
+          Machines », <hi rend="italic">Osiris</hi>, 25, 1, p. 171-188.</bibl>
+          <bibl xml:id="d1e1652">
+            <hi rend="small-caps">Walsdorf</hi>
+            <hi rend="italic">et al.</hi>,<hi rend="italic"/>2014 : Ariane <hi rend="small-caps">Walsdorf</hi>, Klaus <hi rend="small-caps">Badur</hi>, Erwin <hi rend="small-caps">Stein</hi>
+          et Franz Otto <hi rend="small-caps">Kopp</hi>, <hi rend="italic">Das
+          letzte Original die Leibniz: Rechenmaschine der Gottfried Wilhelm
+          Leibniz Bibliothek</hi>, Hildesheim, Olms Georg.</bibl>
+          <bibl xml:id="d1e1678">
+            <hi rend="small-caps">Wilberg</hi>, 1977 :
+          Ernst Eberhard <hi rend="small-caps">Wilberg</hi>, <hi rend="italic">Die Leibniz’sche Rechenmaschine und die
+          Julius-Universität in Helmstedt</hi>, Braunschweig,
+          Universitätbibliothek der Technischen Universität
+          Carolo-Wilhelmina.</bibl>
+          <bibl xml:id="d1e1688">
+            <hi rend="small-caps">Williams</hi>, 1983 :
+          Michael R. <hi rend="small-caps">Williams</hi>, « From Napier to
+          Lucas: The Use of Napier’s Bones in Calculating Instruments », <hi rend="italic">Annals of the History of Computing</hi>, 5, 3,
+          p. 279-296.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

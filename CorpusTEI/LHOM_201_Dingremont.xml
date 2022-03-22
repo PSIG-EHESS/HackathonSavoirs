@@ -1,0 +1,1872 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LHOM_201_Dingremont">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Homère, le génie du paganisme et les
+        philosophes</title>
+        <title type="sub">Un conflit des sagesses</title>
+        <author>
+          <forename>François</forename>
+          <surname>Dingremont</surname>
+          <affiliation>
+            <s>EHESS, Paris</s>
+          </affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>Odyssée (Homère)</item>
+            <item>anthropologie homérique</item>
+            <item>épopée</item>
+            <item>mémoire</item>
+            <item>polythéisme</item>
+            <item>monothéisme</item>
+            <item>interprétation allégorique</item>
+            <item>philosophie antique</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>Odyssey (Homer)</item>
+            <item>Homeric Anthropology</item>
+            <item>Epic</item>
+            <item>Memory</item>
+            <item>Polytheism</item>
+            <item>Monotheism</item>
+            <item>Allegorical Interpretation</item>
+            <item>Ancient Philosophy</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Homère, le génie du paganisme et les
+          philosophes.</titlePart>
+          <titlePart type="sub">Un conflit des sagesses</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>François Dingremont</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="abstract" xml:id="d1e96" xml:lang="fr">
+        <p xml:id="d1e97">Résumé<lb/>
+          <hi rend="bold">François Dingremont, <hi rend="italic">Homère, le génie du paganisme et les philosophes : un
+        conflit des sagesses</hi>
+          </hi>. — En rouvrant la discussion sur la
+        réception antique d’Homère et d’Hésiode, nous tentons de montrer les
+        arrière-pensées tactiques qui mènent, d’un côté, Xénophane de
+        Colophon, Platon, de l’autre les cyniques et les stoïciens à porter
+        tel ou tel jugement sur la poésie archaïque. Les premiers condamnent
+        cette poésie la jugeant impie. Les seconds prétendent la sauver, mais
+        ce sauvetage se fait, de notre point de vue, au prix d’un dépassement
+        de l’horizon archaïque et païen de la sagesse homérique. Dans tous les
+        cas, la sagesse homérique, constituante d’une anthropologie dont nous
+        tenterons d’esquisser les contours, apparaît comme un obstacle à la
+        mise en place de leur système philosophique respectif.</p>
+      </div>
+      <div type="abstract" xml:id="d1e105" xml:lang="en">
+        <p xml:id="d1e106">Abstract<lb/>
+          <hi rend="bold">François Dingremont,
+        <hi rend="italic">Homer, the Spirit of Paganism, and Philosophers : A
+        Conflict Between Sorts of Wisdom</hi>
+          </hi>. — This return to the
+        discussion about how Homer and Hesiod were understood in ancient times
+        tries to grasp the tactical ulterior motives that led Xenophanes of
+        Colophon and Plato, on the one hand, and, on the other, the Cynics and
+        Stoics to form a judgement about archaic poetry. The former condemned
+        this poetry for being impious, whereas the latter claimed to be
+        rescuing it. From our point of view, this rescue involved moving
+        beyond the archaic and pagan horizon of Homeric wisdom. This wisdom,
+        as part of an anthropology outlined herein, turns out to be an
+        obstacle to establishing their systems of philosophy.</p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <p xml:id="d1e115">S<hi rendition="#T10">i l’on gratte un peu</hi> le
+        vernis de la célébration littéraire qui a recouvert la poésie
+        d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> et d’<persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName>, on s’aperçoit
+        que, dans l’Antiquité, les deux poètes faisaient moins unanimement
+        l’objet de louanges que de nos jours, notamment chez les philosophes.
+        Les discussions antiques autour de la réception de la poésie archaïque
+        sont des sources inestimables pour tous ceux qui s’intéressent aux
+        relations entre poétique, anthropologie et philosophie<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Dominique Casajus (2010) a montré tout l’intérêt
+            anthropologique de la réception de la poésie homérique.</p>
+          </note>.</p>
+        <p xml:id="d1e125">Notre propos, dans cet article, ne sera pas
+        d’analyser dans le détail l’anthropologie poétique d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> et d’<persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName>
+          <note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Parmi le grand nombre d’ouvrages, notamment ceux de Claude
+            Calame et de David Bouvier, sur la question de l’anthropologie
+            homérique, citons Giulia Sissa &amp; Marcel Detienne (1989), ainsi
+            que le numéro «Homère » de la revue <hi rend="italic">Europe</hi>,
+            coordonné par Bernard Mezzadri (2001).<lb/>Tous mes remerciements
+            vont, en premier lieu, à François Flahault, dont la lecture et les
+            conseils m’ont permis de donner une plus grande clarté à mon
+            propos, ensuite à Barbara Cassin pour les discussions
+            enrichissantes que nous avons eues autour du thème de la réception
+            philosophique de la poésie homérique. Le titre de cet article
+            indique toute la dette intellectuelle que je dois à Marc Augé et à
+            son ouvrage <hi rend="italic">Génie du paganisme</hi> (1982).</p>
+          </note>, mais, d’abord, de mettre en lumière les problèmes qu’elle
+        pose à l’anthropologie philosophique de <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName>, des
+        cyniques et des stoïciens, ensuite, de donner quelques indications sur
+        les stratégies employées par ces derniers pour se libérer de son
+        emprise.</p>
+        <p xml:id="d1e140">Dans l’Antiquité, les récits des poètes ne plaisent
+        pas à tout le monde. <persName ref="031983855" type="idref" xml:base="https://www.idref.fr/">Xénophane de Colophon</persName> et
+        <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> les condamnent, les
+        cyniques et les stoïciens, au contraire, tentent de les réhabiliter,
+        mais au prix, telle est notre hypothèse, d’un dépassement de leur
+        ancrage anthropologique traditionnel<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Le but de cet article n’est pas de proposer une réflexion
+            générale et théorique sur la tradition, bien qu’elle apparaisse en
+            toile de fond de notre analyse ; pour donner une indication
+            bibliographique sur cette question, nous renvoyons, entre autres
+            références, à Jean Pouillon (1975 : 155-173) et Gérard Lenclud
+            (1994). Si l’on tient compte de la nature orale de la poésie
+            homérique, on peut avancer que la tradition repose sur ce qui est
+            entendu, sur les récits véhiculés de bouche à oreille, sur une
+            mémoire vivante que l’aède, le poète épique, donne en spectacle
+            lors de la performance de son chant. Pour une définition de la
+            tradition épique, citons John Miles Foley : « une ressource
+            entendue comme une dynamique, un corps multiforme de
+            significations qui conserve non seulement ce qu’un groupe a
+            inventé et transmis, mais aussi inclut, nécessairement, des
+            caractéristiques fondamentales qui sont à la fois une
+            indétermination inhérente et une prédisposition à différentes
+            formes de changements et de modifications » (1995 : XII).</p>
+          </note>.</p>
+        <p xml:id="d1e147">Nous voudrions proposer ici un panorama succinct et
+        forcément incomplet des différentes manières philosophiques de réagir
+        à la sagesse homérique et, plus particulièrement à l’idée qu’elle
+        s’appuie sur l’efficacité de la mémoire. La sagesse homérique nous
+        semble, en effet, liée au travail de la mémoire et à la recherche
+        d’une expression vivante du souvenir<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Selon Andrew Ford (1992 : 49-56), la principale caractéristique
+            de la poésie épique homérique est la vivacité et l’efficacité de
+            la représentation du passé. Quel intérêt pouvait avoir Homère à
+            répéter, d’une manière impersonnelle, le passé ? Homère voulait-il
+            divertir ou instruire ? Ford répond que le plaisir pris à entendre
+            le chant n’est pas esthétique, au sens que l’on donnerait de nos
+            jours à ce terme, mais qu’il s’agissait d’une expérience efficace
+            d’un passé que seuls le poète et les muses connaissent. Le
+            meilleur poète est celui qui parvient à convaincre de sa proximité
+            avec un passé éloigné. Cette ambition se juge sur la façon dont il
+            en parle sans omettre aucun détail. Tout doit être chanté en
+            suivant un certain ordre (<hi rend="italic">kosmos</hi>) et un
+            certain sens (<hi rend="italic">moira</hi>). Ce qui mène Ford à
+            avancer que le plaisir pris par l’auditoire homérique venait de ce
+            que le chant satisfaisait son désir de connaissance. Plaisir et
+            savoir sont donc intimement liés.</p>
+          </note>.</p>
+        <p xml:id="d1e160">La thématique de la mémoire est omniprésente dans
+        l’<hi rend="italic">Odyssée</hi>. Le souvenir du passé permet à
+        <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> et <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName> d’endurer les
+        épreuves du présent. Les héros homériques sont fondamentalement
+        nostalgiques :</p>
+        <q rend="quotation">« Le plus cher objet de mes vœux, je te jure, est
+        cette vie de tout un peuple en bon accord, lorsque, dans les manoirs,
+        on voit en longues files les convives siéger pour écouter l’aède,
+        quand, aux tables, le pain et les viandes abondent et qu’allant au
+        cratère, l’échanson vient offrir et verser les coupes. Voilà, selon
+        mon gré, la plus belle des vies », déclare <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> au roi
+        phéacien <persName type="_temp">Alkinoos</persName>(<hi rend="italic">Odyssée</hi> IX, 5-10).</q>
+        <p xml:id="d1e173">Le héros fait allusion à <placeName ref="261707" type="geonames" xml:base="https://www.geonames.org/">Ithaque</placeName> et à un passé
+        dont il se souvient très précisément et qu’il entend bien restaurer,
+        de retour sur son île. Ce « cri du cœur » d’Ulysse pourrait donner une
+        idée de l’anthropologie homérique. <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> y
+        définit la finalité de son existence qui consiste en une vie au sein
+        d’une organisation sociale, l’<hi rend="italic">oikos</hi>, où tout
+        est pensé en fonction de la recherche d’une joie <hi rend="italic">(euphrosynè)</hi> (IX, 6) qui n’est ni intérieure ni
+        spirituelle. La notion d’<hi rend="italic">euphrosynè</hi> recouvre
+        tout le domaine du plaisir odysséen, de la bonne chair en passant par
+        les divertissements, les jeux ou la danse. <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> quitte
+        <persName ref="059443014" type="idref" xml:base="https://www.idref.fr/">Calypso</persName> parce qu’il veut
+        retrouver un esprit <hi rend="italic">euphrôn</hi>, joyeux (cf. XX, 8
+        et VI, 156). La question centrale, pour notre propos, est de
+        comprendre ce que signifie cette joie, et par quel moyen on s’en
+        approche ou on s’en éloigne. La sagesse qu’elle mobilise et confère
+        est-elle de même nature que celle recherchée et promise par les
+        philosophes ? Ce questionnement place notre réflexion dans la lignée
+        de celle proposée par <persName ref="026696126" type="idref" xml:base="https://www.idref.fr/">Marc Augé</persName> dans <hi rend="italic">Génie du paganisme</hi> (1982) : il s’agit, dans les
+        deux cas, de faire le bilan des gains et des pertes de la philosophie
+        et du monothéisme face au polythéisme.</p>
+        <p xml:id="d1e191">
+          <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> juge que le bonheur
+        tel qu’il est défini par <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> est
+        philosophiquement scandaleux : le plaisir pris à écouter les
+        performances des poètes auquel fait allusion <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> est
+        futile et dangereux, car leurs récits sont plein d’impiétés (<hi rend="italic">République</hi> III, 390b). Une vie marquée par les
+        joies de l’<hi rend="italic">oikos</hi> n’est pas non plus du goût des
+        cyniques et des stoïciens, pourtant ardents défenseurs de la poésie
+        homérique. Si <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> rejette la poésie
+        homérique, à l’inverse, les cyniques et les stoïciens prétendent la
+        sauver, mais pas à n’importe quel prix. L’entreprise de réhabilitation
+        leur offre essentiellement, nous allons le voir, la possibilité de
+        bénéficier d’un « coefficient de traditionalité » (Lenclud 1994 : 28),
+        par la projection d’une linéarité, d’une continuité allant d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> à leur
+        philosophie.</p>
+        <p xml:id="d1e200">Le projet des cyniques et des stoïciens vise à
+        épurer le récit homérique d’affects susceptibles de s’écarter de la
+        norme éthique qu’ils ambitionnent de mettre en place. Pour ce faire,
+        ils s’appuient sur une interprétation allégorique de la sagesse
+        d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>. Cette lecture
+        ascétique tend à gommer les épisodes où <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> est
+        littéralement submergé par un certain nombre d’affects, joie ou
+        tristesse, qu’il ne parvient pas à contrôler. Pourtant, les évocations
+        de ces moments de bonheur ou de douleur relient <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> à un passé dont le
+        rappel fait tout le charme du récit. Le héros non seulement ne cesse
+        de se souvenir de son passé, mais aussi, en le narrant tel un aède
+        devant l’assemblée des Phéaciens, il obtient d’eux, en échange du
+        magnifique récit qu’il vient de produire, le moyen de regagner
+        <placeName ref="261707" type="geonames" xml:base="https://www.geonames.org/">Ithaque</placeName>. Or, les
+        stoïciens évacuent de leur interprétation de l’<hi rend="italic">Odyssée</hi> les éléments qui renvoient à ce que l’on
+        pourrait appeler une intelligence, une économie et un plaisir de la
+        parole<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>Il y a, chez les stoïciens, un refus de prendre en compte les
+            éléments de rhétorique de la poésie homérique. Ces éléments sont
+            pourtant utiles face à la conception rousseauiste, naïve et
+            simplificatrice – fondée sur le préjugé que les poètes archaïques
+            ne recourraient jamais à des sens implicites – de l’oralité
+            homérique.</p>
+          </note>. Ils posent qu’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> est tourné vers un
+        avenir qui n’est en rien inspiré par le souvenir des plaisirs du
+        passé ; au contraire, le comportement du héros indiquerait la voie
+        permettant de s’en libérer. L’identité épique d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> entre difficilement
+        dans ce cadre de pensée antinostalgique. Elle est, en effet,
+        constituée d’un mélange de joie et de tristesse, de plaisirs et de
+        peines. Cette ambivalence caractérise la condition de l’homme pour les
+        poètes grecs archaïques.</p>
+        <p xml:id="d1e210">La poésie homérique célèbre la mémoire<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>Elle est un « lieu de mémoire collectif », écrit Françoise
+            Létoublon (2002 : 13). Cf. également Eric A. Havelock (1963 :
+            145-164).</p>
+          </note>. Afin que le souvenir des héros ne tombe pas dans l’oubli,
+        que le culte de ces derniers se transmette et perdure, l’expression de
+        la mémoire épique, dont a la charge l’aède, le poète épique, doit être
+        efficace et vivante, comme l’est le récit d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> devant
+          les Phéaciens qui, de ce point de vue, fournit un modèle<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>Pour une définition de la performance épique, cf. Hainsworth
+            (1988 : 349) ; et du statut de l’aède, cf. Ford (1992), Segal
+            (1994 : 113-141) et Foley (1995).</p>
+          </note>. Cette efficacité de la mémoire poétique fondée sur des
+        récits est concurrencée, dès le <date from="0500" to="0600" type="_temp">
+            <hi rendition="#T10">vi</hi>
+            <hi rend="sup">e</hi> siècle
+        av. J.-C.</date>, par l’aspect novateur du projet philosophique de
+        <persName ref="031983855" type="idref" xml:base="https://www.idref.fr/">Xénophane</persName>, <persName ref="027058697" type="idref" xml:base="https://www.idref.fr/">Parménide</persName> ou <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName>, où l’oralité n’est
+        plus le véhicule de transmission des récits du passé destinés à
+        instruire le présent, mais celui d’un message, d’une promesse et d’un
+        enseignement. Pour le formuler un peu brutalement, <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> discrédite les
+        récits des poètes afin de donner un éclat et une légitimité à sa
+        philosophie. Il lutte pour imposer son enseignement dans un espace
+        dominé par les mots d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> et d’<persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName>. Tactiquement,
+        <persName ref="028260929" type="idref" xml:base="https://www.idref.fr/">Socrate</persName> avance que la
+        sagesse qu’il propose d’enseigner est aussi attirante que la poésie
+        et, qu’en plus, elle permet d’éduquer correctement. Ce que révèlent
+        les différents messages philosophiques est censé permettre de se
+        libérer d’une tradition, de récits jugés philosophiquement inutiles et
+        dangereux. Sauf qu’à l’époque où <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> énonce
+        ses idées, le rapport de force n’est pas en sa faveur, et les récits
+        des poètes, parce qu’ils sont vivants, plaisants, marquent toujours
+        les esprits des contemporains du philosophe : « leur savoir, depuis le
+        début, les Grecs le tiennent d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> », déplorait, avant
+        <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName>, <persName ref="031983855" type="idref" xml:base="https://www.idref.fr/">Xénophane</persName> (<hi rend="italic">Fragment</hi> 10). La philosophie, s’affirmant comme une
+        autre façon de transmettre la connaissance, va donc tenter, en premier
+        lieu, de délégitimer la méthode poétique « traditionnelle »<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>Sur le thème de la performance épique comme temps et espace de
+            transmission de la connaissance, cf. Havelock (1986 : 215-233). De
+            la même manière, la philosophie s’en prendra à la sophistique.</p>
+          </note>. C’est à cette entreprise que vont ouvertement s’employer
+        <persName ref="031983855" type="idref" xml:base="https://www.idref.fr/">Xénophane</persName> et <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName>, mais aussi,
+        insidieusement et indirectement cette fois, les cyniques et les
+        stoïciens.</p>
+        <p xml:id="d1e233">Ces derniers ne réhabiliteront pas la vivacité,
+        l’efficacité de la mémoire épique, convaincus, eux aussi, de l’impiété
+        dont elle serait imprégnée. Ils chercheront plutôt à dépasser
+        l’ancrage traditionnel de la poésie homérique, afin de proposer, au
+        moyen d’une lecture allégorique de l’<hi rend="italic">Odyssée</hi>,
+        une éthique philosophique. La thématique de la mémoire devient alors
+        secondaire. Les projections stoïciennes créent la figure d’un
+        <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> choisissant de
+        mettre à distance son passé. Non pas que le héros apparaisse
+        amnésique : il a simplement trop affaire avec ce que lui révèlent les
+        découvertes de son voyage pour se souvenir de ce qui le lie à un
+        passé. Dans l’interprétation allégorique des stoïciens, le passé
+        d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, à savoir le fait
+        qu’il soit attaché à un <hi rend="italic">oikos</hi> et à une famille,
+          mais aussi à la mémoire vive de l’aède, est un passé révolu<note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>Sylvie Perceau (2002) décrit très précisément les aspects vifs
+            de la poésie homérique.</p>
+          </note>. Ce qu’il découvre lors de ses pérégrinations vaudrait plus
+        que ce dont il se souvient. Que découvrirait-il de si important ?
+        L’attrait d’une sagesse nouvelle, inédite. Pour les cyniques et les
+        stoïciens, <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> est le premier
+        homme à avoir fait le choix d’une existence pleinement et
+        authentiquement philosophique. Cette interprétation nous semble
+        décalée par rapport à la logique narrative de l’<hi rend="italic">Odyssée</hi> qui narre une lutte de chaque instant
+        contre l’oubli, un combat pour le rétablissement d’une mémoire
+        foisonnante, inépuisable, dont l’évocation suffit à combler de joie le
+        héros. Le bonheur intérieur à la fois spirituel et philosophique,
+        censé être une découverte ulysséenne, paraît, de notre point de vue,
+        en porte-à-faux avec l’« usage des plaisirs » odysséen.</p>
+        <p xml:id="d1e249">Rejet ou dépassement de la tradition poétique
+        archaïque, nous allons tenter de montrer que les projets de <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> et des stoïciens se
+        rejoignent, même si, en apparence, ils prennent des chemins
+        différents, voire opposés. Derrière ces postures antiques, critiques
+        ou prétendument salvatrices, se dissimulent, nous semble-t-il, des
+        éléments tactiques. Stratégiquement, les uns et les autres tentent de
+        limiter ce qu’on pourrait appeler l’efficacité de la parole
+        épique<note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>Sur l’efficacité de la parole, cf. Detienne (1967).</p>
+          </note>.</p>
+        <p xml:id="d1e257">Nous suivrons successivement trois lignes
+        directrices dans notre analyse. Une première, où nous recenserons les
+        éléments des représentations polythéistes homériques que <persName ref="031983855" type="idref" xml:base="https://www.idref.fr/">Xénophane</persName> et <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> jugent impies. Une
+        deuxième, dans laquelle nous analyserons la réhabilitation morale de
+        l’<hi rend="italic">Odyssée</hi> effectuée grâce à l’interprétation
+        allégorique des cyniques et des stoïciens, pour lesquels <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> est perçu comme un
+        voyageur, un sage, un apprenti philosophe, en définitive comme un
+        « idéal d’humanité »<note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>L’expression « idéal d’humanité » est empruntée à Félix
+            Buffière (1973 : 365-391).</p>
+          </note>. Enfin, nous montrerons les limites de ces lectures.</p>
+        <div type="div1" xml:id="d1e266">
+          <head subtype="level1" xml:id="d1e267">L’impiété des représentations
+          polythéistes d’Homère et d’Hésiode</head>
+          <p xml:id="d1e269">En toile de fond des critiques et défenses de la
+          poésie homérique, on discerne les antagonismes entre des
+          représentations qui tendent vers le monothéisme (<persName ref="031983855" type="idref" xml:base="https://www.idref.fr/">Xénophane</persName>, <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName>) et d’autres
+            relevant d’un système pleinement polythéiste (Homère, Hésiode)<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Pour une analyse stimulante du polythéisme grec, cf. Detienne
+              (1998).</p>
+            </note>. En spéculant un Dieu unique et éternel, <persName ref="031983855" type="idref" xml:base="https://www.idref.fr/">Xénophane de
+          Colophon</persName>
+            <note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>À propos de Xénophane, cf. Detienne (1981 : 124-133).</p>
+            </note>, philosophe et poète présocratique, conteste la réalité du
+            changeant et du multiple de l’univers poétique<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Pindare (<hi rend="italic">Fragment</hi>, 179) utilise
+              l’adjectif <hi rend="italic">poikilos</hi> pour qualifier le
+              chant qu’il est en train de composer. À la différence de
+              Xénophane et de Platon, Aristote (<hi rend="italic">Poétique</hi>, notamment III et IV) reçoit d’une
+              manière positive cet aspect de la poésie homérique.</p>
+            </note>, ce qu’on appellerait en utilisant des termes homériques
+          l’<hi rend="italic">aiolos</hi> et le <hi rend="italic">poikilos</hi>. Ces qualificatifs pourraient
+          s’appliquer à la mémoire vive épique et à la <hi rend="italic">mimèsis</hi>, l’art de rendre vivante la transmission
+          de la tradition, que pratique <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>
+            <note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Une appréciation trop théorique et littéraire, collée à la
+              définition platonicienne, de la <hi rend="italic">mimèsis</hi>
+              nous fait perdre le sens homérique du terme. Sur ce point, cf.
+              Nagy (2000 : 17-53).</p>
+            </note>. Les rhapsodes de la tradition homérique n’inventent, ni
+            ne révèlent rien, ils jouent sur la variation<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Sur cet aspect du chant épique, cf. Lord (1990 [1960] : 94 et
+              119).</p>
+            </note>. Ils font évoluer une façon de faire, ils agencent,
+          ajustent, combinent différents récits. Ils explorent et exploitent
+          les diverses facettes d’une tradition<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Sur ce point, cf. Havelock (1963 : 88-89).</p>
+            </note>. La performance du chant épique, d’après <persName ref="050429027" type="idref" xml:base="https://www.idref.fr/">Paul
+          Zumthor</persName> et <persName ref="028848799" type="idref" xml:base="https://www.idref.fr/">Gregory Nagy</persName>, est
+          mouvante, parce qu’elle n’a ni origine ni limite, ce qui rend
+          possible son inépuisable actualisation<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>« Chaque poème nouveau se projette sur ceux qui le précèdent,
+              réorganise leur ensemble et leur confère une autre cohérence. La
+              performance d’une œuvre poétique trouve ainsi la plénitude de
+              son sens dans le rapport qui la lie à celles qui l’ont précédée
+              et à celles qui la suivront », écrit Paul Zumthor (1983 : 253).
+              « L’innovation est pensée dans les termes mêmes de la
+              tradition », écrit Patrice Bidou (1986 : 70), dont l’article
+              donne une parfaite illustration du principe de mouvance suivant
+              l’« incorporation » d’éléments allogènes et de « modification »
+              dans les mythes.</p>
+            </note>. Le terme « mouvance » caractérise parfaitement cet aspect
+          fondamental de variabilité, d’instabilité qui donne son caractère
+          vivant à la tradition épique<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Paul Zumthor présente la « mouvance » comme le « caractère de
+              l’œuvre qui, comme tel, avant l’âge du livre, ressort d’une
+              quasi-abstraction, les textes concrets qui la réalisent
+              présentant, par le jeu des variantes et des remaniements, comme
+              une incessante vibration et une instabilité fondamentale »
+              (1972 : 507). Cf. également Kirk (1976). Ce constat devrait
+              amener, comme nous y invite Jean Pouillon, à une relativisation
+              du critère d’ancienneté de la tradition.</p>
+            </note>.</p>
+          <p xml:id="d1e326">
+            <hi rend="italic">Aiolos</hi> est l’adjectif qui
+          rend, chez <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>, l’impression de
+            vivant<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>
+                <hi rend="italic">Aiolos</hi> est de la même racine que le
+              substantif <hi rend="italic">aiôn</hi> qui signifie le
+              « vivant », la « matière de la vie » (cf. Onians 1999 : 245 ;
+              Sissa &amp; Detienne 1989 : 16).</p>
+            </note>, tandis que le complément <hi rend="italic">poikilos</hi>,
+          souvent traduit par « chatoyant » ou « bigarré », donne à la mémoire
+          une sorte de texture. Ce chatoiement de la mémoire épique tient à ce
+          que les récits qu’elle véhicule sont non seulement multiples, divers
+          et changeants, mais aussi complexes, ambigus, équivoques,
+          composites<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>Cet aspect ondoyant et chatoyant tient pour beaucoup à
+              l’oralité à laquelle cette mémoire est attachée. Sur ce point,
+              cf. les thèses divergentes de Havelock (1986 : 65) et Assmann
+              (2010 : 231-241).</p>
+            </note>. On trouve de nombreuses occurrences chez <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> et <persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> de l’association
+          entre l’<hi rend="italic">aiolos</hi> ou le <hi rend="italic">poikilos</hi> et la <hi rend="italic">mètis</hi>
+          (l’« intelligence rusée »), ce qui indique une complémentarité entre
+          les qualités de vivacité, de bigarrure et de tromperie<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Dans la <hi rend="italic">Théogonie</hi> 511, Hésiode parle
+              de l’<hi rend="italic">aiolomètis</hi> de Prométhée.</p>
+            </note>. Maintenir le vivant par tous les moyens, tel est l’un des
+          objectifs de la poésie homérique. Or, la chose peut devenir
+          théologiquement scandaleuse lorsque ce modèle de maintien d’une
+          relation vivante n’excluant pas la tromperie fonde aussi la relation
+          entre les hommes et les dieux. <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> et
+          <persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> décrivent, en
+          effet, des Immortels essayant continuellement de se tromper entre
+          eux et de tromper les mortels. Ces descriptions plaisantes de
+          duperies et de ruses sont jugées impies par Xénophane :</p>
+          <q rend="quotation">« Homère et Hésiode ont attribué aux dieux tout
+          ce qui, chez les hommes, est honteux et blâmable ; le plus souvent
+          ils leur prêtent des actions criminelles : vols, adultères,
+          tromperies réciproques » (<hi rend="italic">Fragment</hi> 11).</q>
+          <p xml:id="d1e373">Voulant faire des dieux des compagnons des
+            mortels<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>Comme le remarquent Giulia Sissa et Marcel Detienne (1989 :
+              17), les dieux grecs naissent sur terre.</p>
+            </note>, <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> et <persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> pratiquent une
+          <hi rend="italic">mimèsis</hi> de ce qu’il y a de plus condamnable
+          dans la société des hommes, à savoir le penchant pour la
+          manipulation. Les dieux d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> sont agissants et
+          intrigants. <persName type="_temp">Hermès</persName>, tel qu’il est
+          décrit dans l’<hi rend="italic">Hymne</hi> qui lui est consacré,
+          donne une magnifique illustration de représentation pouvant être
+          jugée impie : le Messager des dieux est un voleur, qui utilise le
+          parjure et la tromperie, ce qui n’empêche pas la poésie homérique de
+          le présenter sous des traits tout à fait flatteurs<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Ajoutons à la liste des griefs à l’encontre du Messager des
+              dieux, son attirance sexuelle pour Aphrodite, l’épouse
+              d’Héphaïstos (<hi rend="italic">Odyssée</hi> VIII, 266-369).
+              Comme le note Marc Augé (1982 : 208), le statut intermédiaire
+              entre mortels et immortels d’Hermès accentue son ambivalence et
+              son ambiguïté. Sur ces figures, voir l’ouvrage classique de
+              Radin, Kerényi &amp; Jung (1958).</p>
+            </note>. Insaisissable, tourbillonnante et charmeuse, l’efficacité
+          d’<persName type="_temp">Hermès</persName> relève de la <hi rend="italic">poikilomètis</hi> (<hi rend="italic">Hymne à
+            Hermès</hi>, 155)<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>Sur la <hi rend="italic">poikilomètis</hi>, cf. Detienne
+              &amp; Vernant (1974 : 25).</p>
+            </note>.</p>
+          <p xml:id="d1e407">La <hi rend="italic">poikilia</hi>, la mutabilité
+          propre au polythéisme, crée une sorte de voile opacifiant sur les
+          figures divines qui va à l’encontre de la prétention à la clarté, à
+          la transparence du monothéisme. Le système polythéiste accueille une
+          pluralité de dieux multiples, ou une multiplicité de dieux eux-mêmes
+          pluriels. C’est dans ce sens que nous comprenons la particule <hi rend="italic">polus</hi> associée à <hi rend="italic">théoi</hi>
+          (« dieux ») : elle indique la présence d’une quantité importante,
+          voire innombrable, de divinités aux caractéristiques et modes
+          d’actions variés. Cette quantité, ce nombre que traduit le préfixe
+          polus est dépendant d’un contexte de <hi rend="italic">poikilia</hi>, de multiplicité et de diversité. Les
+          dieux de l’Olympe sont nombreux, multiples, en association ou en
+          conflit entre eux, et <persName type="_temp">Hermès</persName>, pour
+          qui plusieurs épithètes sont formées avec <hi rend="italic">polus</hi> (<hi rend="italic">polumèkhanos, polumètès,
+          polutropos</hi>), laisse particulièrement bien entrevoir cette
+          qualité de duplicité, voire de multiplicité (cf. <hi rend="italic">Odyssée</hi> I, 10, 330 et <hi rend="italic">Hymne à
+          Hermès</hi> 13, 439). Les épithètes traditionnelles qui lui sont
+          attribuées par les poètes renvoient à l’idée d’une réserve
+          d’astuces, de ruses, de tours qui lui permettent d’échapper à ses
+          adversaires de l’Olympe en les dupant, en leur tendant des pièges.
+          <persName type="_temp">Hermès</persName> charme <persName ref="02747237X" type="idref" xml:base="https://www.idref.fr/">Zeus</persName> avec ses ruses
+          langagières et <persName type="_temp">Apollon</persName> avec sa
+            musique<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Apollon, fin connaisseur de l’art musical, est fasciné par la
+              prestation du jeune fils de Zeus. Il lui demande d’où lui vient
+              cet art (<hi rend="italic">tekhnè</hi>) de dissiper les
+              chagrins : « je n’ai jamais senti dans mon cœur autant de zèle
+              que pour tes chants, parmi les plus habiles prouesses de jeunes
+              gens dans les festins. J’admire (<hi rend="italic">thaumadzô</hi>), fils de Maïa, ta grâce à jouer de
+              la cithare » (<hi rend="italic">Hymne à Hermès</hi>, 453-456).
+              Pour Apollon, le chant et la musique d’Hermès contiennent à la
+              fois trois plaisirs : la gaieté (<hi rend="italic">euphrosynè</hi>), l’amour (eros) et le doux
+              sommeil (<hi rend="italic">hèdumon hypnon</hi>) (<hi rend="italic">Ibid</hi>. : 449).</p>
+            </note>. Incontestablement, la tromperie fait partie des modes de
+          relations entre les dieux, mais ce mode se reproduit lorsque les
+          dieux ont directement affaire aux hommes. Pour être plus efficaces,
+          les apparitions et les interventions d’Hermès dans la société des
+          mortels sont dissimulées derrière l’illusion de la vraisemblance, de
+          la familiarité et de la proximité. Ainsi <persName type="_temp">Hermès</persName> et <persName type="_temp">Athéna</persName> prennent-ils des apparences
+            humaines<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Pour Hermès, cf. <hi rend="italic">Odyssée</hi> X,
+              277-280.</p>
+            </note>. La déesse aux yeux pers, fille de <persName ref="02747237X" type="idref" xml:base="https://www.idref.fr/">Zeus</persName> et de <persName type="_temp">Mètis</persName>, est partout, comme le fait remarquer
+          <persName type="_temp">Ulysse</persName> (<hi rend="italic">Odyssée</hi> XIII, 313), et surtout au milieu de la
+          foule des figures épiques. Elle se glisse à proximité de ses
+          protégés et leur souffle à l’oreille des conseils et des
+          encouragements. Plus blâmable encore, d’un point de vue théologique,
+          est le changement d’apparence de <persName ref="078600782" type="idref" xml:base="https://www.idref.fr/">Poséidon</persName>,
+          qui lui permet d’abuser la nymphe <persName type="_temp">Tyro</persName> et d’obtenir ses faveurs (XI, 235-245).
+          Même les dieux prennent plaisir au spectacle de la tromperie : ne
+          sont-ils pas pris d’un rire qu’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>
+          qualifie d’inextinguible quand <persName ref="027219550" type="idref" xml:base="https://www.idref.fr/">Aphrodite</persName>
+          et <persName type="_temp">Arès</persName> se sont laissé piéger par
+          <persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaistos</persName> lors de leurs
+            ébats adultérins<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>La condamnation par Platon de cet épisode est sans ambages
+              (République III, 389a). Alors que la bienséance aurait exigé que
+              les dieux jugent, critiquent, condamnent, à l’inverse, …/… [<hi rend="italic">Suite de la note 28</hi>] ils rient et
+              plaisantent : «Hermès […] je crois que, volontiers, tu te
+              laisserais prendre sous de pesants réseaux, pour dormir en ce
+              lit de l’Aphrodite d’or », s’exclame Apollon. Son frère lui
+              répond : « Ah ! plût au ciel […]. Qu’on me charge, Apollon ! et
+              trois fois plus encore, de chaînes infinies et venez tous me
+              voir, vous tous, dieux et déesses ; mais que je dorme aux bras
+              de l’Aphrodite d’or ». Et comme si cela n’était pas suffisant,
+              Homère ajoute : « il [Hermès] disait et le rire éclata chez les
+              dieux » (<hi rend="italic">Odyssée</hi> VIII, 335-343). Comme le
+              notent Giulia Sissa et Marcel Detienne (1989 : 51-52), les
+              hommes et les dieux sont égaux face au désir.</p>
+            </note> ?</p>
+          <p xml:id="d1e480">Avec ces exemples, nous avons un aperçu de
+          l’aspect plaisant, joueur, vivant de la poésie homérique et des
+          effets, du charme qu’elle opère. Mais, de son côté, <persName ref="031983855" type="idref" xml:base="https://www.idref.fr/">Xénophane</persName> juge que le
+          transport de sens qu’est censée produire la poésie se fait à
+          l’envers : plutôt que d’élever l’esprit des hommes, elle corrompt la
+          représentation du divin en détruisant la distance de pure altérité
+          nécessaire au travail spéculatif de la poésie philosophique. Les
+          épiphanies chrétiennes se démarqueront de ce jeu sur les apparences,
+          et le décriront comme l’outil du Malin, figure fluide de la
+          manipulation et de l’hypocrisie.</p>
+          <p xml:id="d1e483">
+            <persName ref="031983855" type="idref" xml:base="https://www.idref.fr/">Xénophane</persName> fustige, dans
+          sa critique du polythéisme, tout ce qui peut ressembler à des
+          représentations anthropomorphiques de Dieu ou des dieux : « Unique
+          et tout-puissant, souverain des plus forts, Dieu ne ressemble à nous
+          ni d’esprit ni de corps. Les humains, en faisant les dieux à leur
+          image, leur prêtent leurs pensées, leurs voix et leurs
+          visages »<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>On ne s’étonnera pas que ce soit Clément d’Alexandrie, l’un
+              des Pères de l’Église, qui reprenne (<hi rend="italic">Stromates</hi> V) cette expression de
+              Xénophane.</p>
+            </note>, et leurs imperfections, pourrait-on ajouter. Le dieu de
+          <persName ref="031983855" type="idref" xml:base="https://www.idref.fr/">Xénophane</persName> n’a ni origine
+          ni devenir. On ne saurait donc lui attribuer, comme le fait
+          <persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> dans sa <hi rend="italic">Théogonie</hi>, un récit contant sa naissance, car le
+          commencement n’est jamais qu’un début qui cède le pas au changeant,
+          au multiple, à l’entropie, à la dissémination et à la
+          transformation, et donc à la pluralité. Ce dieu sans <hi rend="italic">génos</hi>, sans généalogie, est immobile, immuable et
+          éternel, il n’est pas soumis à la temporalité. À l’inverse de ce
+          qu’induisent les représentations anthropomorphiques du divin, ce
+          sont les hommes qui viennent à lui, mus par le désir de retrouver un
+          principe d’unicité<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>Pour Giulia Sissa et Marcel Detienne (1989 : 40), le fait
+              qu’Homère représente des dieux sous les traits de l’homme,
+              indique son penchant anthropologique. Pour un tableau de
+              l’anthropomorphisme antique, cf. Koch (2005 : 16-25).</p>
+            </note>.</p>
+          <p xml:id="d1e503">
+            <persName ref="031983855" type="idref" xml:base="https://www.idref.fr/">Xénophane</persName> regrette que
+          la poésie archaïque, plutôt que de pousser les hommes, dans un élan
+          spirituel, à se détacher des réalités inessentielles, produise des
+          représentations vaines et futiles. Cette poésie ne les incite pas à
+          se tourner vers la voie de l’authenticité ; au contraire, à cause
+          d’elle, ils s’attachent à une fausse proximité avec des dieux qu’ils
+          s’imaginent multiples, complexes, composites et changeants, en un
+          mot semblables à eux<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Xénophane poursuit sa charge contre les polythéismes d’une
+              façon « pleine d’esprit » : «Mais les mortels disent que leurs
+              dieux sont nés, qu’ils ont des vêtements comme les leurs et une
+              voix et un corps (<hi rend="italic">Fragment</hi> 14). Les
+              Éthiopiens disent que leurs dieux sont camus et noirs ; les
+              Thraces que les leurs ont les yeux bleu vert et les cheveux roux
+              (<hi rend="italic">Fragment</hi> 16). Mais si les bœufs, les
+              chevaux ou les lions avaient des mains et pouvaient avec leurs
+              mains peindre et produire des Œuvres comme le font les hommes,
+              c’est pareil à des chevaux, et pareil à des bœufs qu’ils
+              peindraient des figures et ils feraient leur corps tel
+              précisément que se trouve être celui de chacun (<hi rend="italic">Fragment</hi> 15) ». Chez Homère, les traits des
+              hommes et des dieux sont si proches, qu’une mortelle de belle
+              apparence sera prise pour une déesse (cf. <hi rend="italic">Odyssée</hi> VI, 149-150).</p>
+            </note>. C’est sur cette condamnation que s’édifiera le
+          monothéisme chrétien. Dieu est distant et nécessite de la part des
+          hommes un mouvement, un déplacement de l’esprit jusqu’à lui, une
+          conversion<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>Dans le monothéisme disparaît également la représentation de
+              dieux vivant en société, suivant des règles et des coutumes. À
+              ce propos, cf. Sissa &amp; Detienne (1989 : 30).</p>
+            </note>. Le thème du mouvement, du voyage, notamment de l’âme, est
+          un élément central des doctrines théologiques antiques. À une époque
+          plus tardive, l’homme sera appelé à quitter le monde obscur des
+          opinions et à s’ouvrir à la lumière du divin, mais aussi de la
+          raison, telle est la voie de la sagesse pensée par les philosophes
+          de l’Antiquité classique, de <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> aux
+          stoïciens.</p>
+          <p xml:id="d1e526">Pour <persName ref="031983855" type="idref" xml:base="https://www.idref.fr/">Xénophane</persName> encore, le
+          cheminement sur la voie spirituelle et individuelle de la sagesse
+          doit se faire en se gardant d’écouter les sornettes des poètes. Ces
+          derniers, loin de se démarquer d’une vision trompeuse de la
+          condition humaine, ne cessent d’y ramener, d’y réduire le mortel,
+          par une démarche représentative non pas centrifuge vis-à-vis d’elle,
+          mais centripète. La poésie archaïque ne parvient pas à libérer
+          l’homme, à l’émanciper d’une condition soumise à la loi du changeant
+          et du divers. Puisque Dieu est immobile et immuable, il n’a rien à
+          faire dans la société <hi rend="italic">poikilon</hi> des hommes.
+          L’anthropomorphisation des dieux est donc le signe d’un déplacement
+          qualitatif de la représentation du divin dans le mauvais sens, le
+          mouvement devant être inverse et suivre la route d’un détachement
+          des formes du sensible vers le monde des idées, pour s’exprimer en
+          platonicien. Elle devrait mener du concret vers l’abstrait. Ce
+          mauvais cheminement de la poésie homérique qui ramène l’homme à une
+          relation avec ses semblables, et les dieux à l’homme, est donc
+          contraire aux prétentions de l’esprit, dira-t-on du point de vue
+          théologique, et de la raison, du point de vue de l’idéalisme
+          philosophique<note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>Xénophane est présenté par Timon comme le railleur de la
+              tromperie homérique, cf. Sextus Empiricus (<hi rend="italic">Esquisses pyrrhoniennes</hi> I, 33). Héraclite et
+              Pythagore reprochent aussi aux poètes leurs manières impies, cf.
+              Diogène Laërce (<hi rend="italic">Vies et doctrines des
+              philosophes illustres</hi> VIII, I, 21 ; IX, 1). Le premier
+              considère qu’Homère mérite le fouet, le second rapporte
+              qu’Hiéronymus descendu aux Enfers, « vit l’âme d’Hésiode
+              attachée à une colonne de bronze et hurlant, et celle d’Homère
+              suspendue à un arbre et entourée de serpents, […] il apprit que
+              tous ces supplices venaient des contes qu’ils avaient faits sur
+              les dieux ».</p>
+            </note>.</p>
+          <p xml:id="d1e542">On retrouve chez <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName>, à
+          côté d’une critique bien connue de la <hi rend="italic">mimèsis</hi>
+          homérique, une condamnation, elle aussi théologique, de la poésie
+          homérique (<hi rend="italic">République</hi> II, 378d-e, 380d-383c ;
+          III, 398a-b). Il stigmatise la même tendance que <persName ref="031983855" type="idref" xml:base="https://www.idref.fr/">Xénophane</persName> : la tradition
+            poétique archaïque prête aux dieux des passions humaines<note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>Les dieux d’Homère sont querelleurs et les malheurs des héros
+              achéens sont dus aux courroux d’Apollon (<hi rend="italic">Iliade</hi>) et de Poséidon (<hi rend="italic">Odyssée</hi>) : « les Olympiens dépendent de leur
+              <hi rend="italic">thumos</hi> (“cœur”) ni plus ni moins que les
+              mortels » (Sissa &amp; Detienne 1989 : 56).</p>
+            </note>. Mais, pour <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName>, l’essence divine
+          n’est plus seulement immobile et immuable, elle repose aussi sur la
+          bonté, raison pour laquelle les dieux ne peuvent tromper les
+          mortels. Dans le Livre II de la <hi rend="italic">République</hi>,
+          il établit des règles poétiques qui lui serviront à exclure la
+          tradition homérique. On ne saurait représenter un dieu piégeant des
+          hommes. L’impératif est plus catégorique que chez <persName ref="031983855" type="idref" xml:base="https://www.idref.fr/">Xénophane</persName>, car il s’agit
+          de protéger la jeunesse des sirènes de la poésie. Et, puisque cette
+          dernière représente un danger pour les jeunes (cf. Havelock 1963 :
+          146), <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> ambitionne de
+          renverser le pouvoir de parole dont disposent les poètes. Pour lui,
+          Dieu n’est la cause que du bien (380c). Après l’unicité, la bonté,
+          la troisième essence qualitative du divin à laquelle le poète doit
+          se conformer lorsqu’il décrit un dieu est la simplicité. À l’opposé,
+          <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> et <persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> font leur miel
+          de la complexité et de l’ambiguïté, ainsi cette annonce des muses
+          hésiodiques : « nous savons inventer beaucoup de mensonges
+          semblables à la vérité ; mais nous savons aussi dire ce qui est
+          vrai, quand tel est notre désir » (<hi rend="italic">Théogonie</hi>
+          29). Chez <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>, l’opacité et
+          l’altération sont des moyens de se protéger : « Les dieux prennent
+          les traits de lointains étrangers et, sous toutes les formes, s’en
+          vont de ville en ville inspecter les vertus des humains et leurs
+          crimes ». Ce passage de l’<hi rend="italic">Odyssée</hi> (XVII,
+          485-487), autre exemple de représentation complexe et ambiguë du
+          divin, n’est pas acceptable pour <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName>.</p>
+          <p xml:id="d1e574">La plus grande fraude, la plus grande tromperie
+          théologique d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> est donc d’avoir
+          fait des dieux des fraudeurs et des trompeurs et d’avoir laissé
+          entendre que ces traits étaient ceux d’une intelligence partagée
+          entre mortels et immortels<note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>Sont comparables, non seulement l’intelligence, mais aussi
+              les corps des dieux et des hommes (cf. <hi rend="italic">Ibid</hi>. : 41-57).</p>
+            </note>. Le problème stratégique pour <persName ref="031983855" type="idref" xml:base="https://www.idref.fr/">Xénophane</persName>
+          et <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> vient de
+          l’importance et de l’influence des mythes d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> et d’<persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> : ce sont en
+          effet des « fables menteuses que l’on a racontées et <hi rend="italic">que l’on raconte encore</hi> » (<hi rend="italic">République</hi> II, 337d). La réserve des récits
+            épiques semble inépuisable, la source est féconde<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>
+                <hi rend="italic">Poikilia</hi> peut traduire aussi l’idée de
+              fertilité et de fécondité.</p>
+            </note>. Les deux philosophes s’en prennent ici très clairement à
+          l’actualité d’une tradition qui instruit autant qu’elle divertit
+          (cf. Detienne 1981 : 124). « La “sophie”, la sagesse des anciens
+          avec sa mémoire de violences, de guerres impies, voilà l’adversaire,
+          l’ennemie de l’intérieur de ce qui menace l’eunomiè, la cité et
+          l’ordre du monde, le cosmos dont le philosophe est désormais le seul
+          cartographe », écrit <persName ref="02682891X" type="idref" xml:base="https://www.idref.fr/">Marcel Detienne</persName> résumant
+          une position de <persName ref="031983855" type="idref" xml:base="https://www.idref.fr/">Xénophane</persName> (<hi rend="italic">Ibid</hi>. : 126). La poésie homérique n’est pas
+          philosophique. Si <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> et <persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> donnent à voir
+          une condition humaine, ils le font de la plus mauvaise manière,
+          selon <persName ref="031983855" type="idref" xml:base="https://www.idref.fr/">Xénophane</persName> et <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName>.</p>
+          <p xml:id="d1e600">S’ils accusent <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>
+          d’impiété, c’est, de notre point de vue, qu’à la sagesse
+          traditionnelle qu’illustre l’<hi rend="italic">Odyssée</hi>, ils
+          veulent substituer une nouvelle forme de sagesse : la philosophie.
+          Pour que se mette en place cette philosophie, l’évocation de la
+          condition humaine ne peut plus se confondre avec sa représentation
+          traditionnelle, celle marquée au sceau de l’ambivalence, de
+          l’ambiguïté et de l’équivoque<note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>Par manque de place, nous ne pouvons pas traiter ce point si
+              fondamental anthropologiquement. Nous renvoyons à Vernant
+              (2005), où est clairement exposée l’idée d’une condition humaine
+              ambivalente, issue de la compétition de Zeus et de
+              Prométhée.</p>
+            </note>. Ces orientations philosophiques et théologiques récusent
+          le cosmothéisme des religions païennes et l’absence de distinction
+          entre Dieu et le monde qu’il implique<note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>Sur l’anticosmothéisme du monothéisme, cf. Assmann (2007 :
+              66-73).</p>
+            </note>.</p>
+        </div>
+        <div type="div1" xml:id="d1e613">
+          <head subtype="level1" xml:id="d1e614">La réhabilitation de la
+          poésie homérique par l’interprétation allégorique</head>
+          <p xml:id="d1e616">En réponse à cette tradition de condamnation
+          théologique, s’établit, dès le <date from="0400" to="0500" type="_temp">
+              <hi rendition="#T10">v</hi>
+              <hi rend="sup">e</hi> siècle
+          avant notre ère</date>, un courant de réhabilitation de la poésie
+          homérique ; il est le fait des cyniques et des stoïciens, et, avant
+          eux, de rhapsodes, de récitants d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>. Ils
+          tentent de montrer l’existence d’<hi rend="italic">huponoia</hi>, de
+            « sous-entendus »<note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>Socrate y fait allusion dans <hi rend="italic">Ion</hi>.</p>
+            </note>, de « messages enfouis » dans la poésie homérique que
+          l’œuvre du temps et l’évolution des consciences permettraient de
+          découvrir. De sorte que, pour les cyniques et les stoïciens, l’<hi rend="italic">Odyssée</hi> serait un modèle de pensée que l’on
+          pourrait anachroniquement qualifier d’évolutionniste, au sens donné
+          à ce terme au <date from="1800" to="1899" type="_temp">
+              <hi rendition="#T10">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>. En
+          effet, l’intrigue indiquerait allégoriquement la voie de sortie, de
+          détachement d’un monde traditionnel soumis au changeant, à
+          l’indistinction et au désordre, à une nébuleuse nourrie de
+          représentations impies. L’allégorie annulerait l’effet trompeur et
+          impie de la lettre du poème ; elle permettrait de se libérer du
+          charme envoûtant de la littéralité. Le procédé est simple : l’idée
+          contenue dans le poème serait inscrite d’une façon cryptée dans sa
+          lettre, cette dernière étant à déchiffrer et à interpréter. C’est
+          donc en déplaçant la lecture, en la détachant de la brume de
+          l’impression initiale, auditive, que le voile du sens serait levé.
+          Une fois cette nuée dissipée, le retour à la littéralité deviendrait
+          fécond, puisque se révélerait le message contenu dans le poème
+          d’Homère : le voyage d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> ne serait pas
+          qu’un déplacement physique, mais sa conscience, son esprit, son fort
+          intérieur seraient aussi en mouvement. On saisit sur quoi se fonde
+          cette approche : sur l’interprétation allégorique du <hi rend="italic">voyage</hi>
+            <note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>Notre projet ici n’est pas de faire le procès de l’exégèse ou
+              de l’herméneutique en général. Nous nous tenons, en effet, aussi
+              à distance de la pensée rousseauiste et de l’idée d’une
+              spontanéité originelle et naturelle de l’expression orale que
+              viendraient souiller la fixation par écrit et le procédé
+              d’interprétation, phénomène dont Dominique Casajus rend compte
+              dans son article (2010). Nous nous intéressons moins à la parole
+              perdue de l’aède, qu’à la lettre du poème, en ce qu’elle est
+              ambiguë, complexe et subtile. L’efficacité rhétorique du poème
+              homérique mérite autant l’attention que les idées qu’il est
+              censé exposer.</p>
+            </note>. Ce dernier est celui de la conscience pour les stoïciens,
+          de l’âme pour les néo-platoniciens, se débarrassant de l’instabilité
+          du monde mythique. La lecture allégorique permet aussi un voyage
+          dans le texte épique : l’intelligence qu’elle mobilise est en
+          mouvement, elle s’ouvre à la spéculation, aux exercices spirituels.
+          « On a fait à <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> un procès
+          colossal, acharné, pour son irrévérence envers la divinité. Tout
+          chez lui n’est qu’impiété si rien n’est allégorique », affirme le
+          Pseudo-Héraclite, au premier siècle de notre ère, dans une ligne
+          purement stoïcienne (<hi rend="italic">Allégories d’Homère</hi> I,
+          1). L’interprétation allégorique fut l’outil providentiel pensé pour
+          sauver le poème de la futilité des représentations de mortels et
+          d’immortels passant leur temps à se jouer des tours.</p>
+          <p xml:id="d1e652">Du côté de la réception de la poésie, d’un
+          plaisir pris collectivement à suivre une épopée de la mémoire, nous
+          passons, avec les stoïciens, à la satisfaction individuelle de la
+          découverte du sens caché de la poésie homérique. Cette orientation
+          entre dans une dynamique plus générale : platoniciens, cyniques et
+          stoïciens vantent les mérites de l’ascèse, de l’exercice spirituel,
+          auxquels il faut rattacher l’interprétation allégorique de l’<hi rend="italic">Odyssée</hi>
+            <note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>Exercice et ascèse sont des mots formés à partir du même
+              verbe aschéô. C’est cet ascétisme que pourfend Nietzsche dans la
+              <hi rend="italic">Généalogie de la Morale</hi>, Troisième
+              dissertation : <hi rend="italic">Que signifient les idéaux
+              ascétiques</hi> ? Sur la notion d’exercice spirituel et de
+              sagesse dans l’Antiquité, cf. Hadot (1995).</p>
+            </note>. L’interprétation allégorique tendra à réduire la <hi rend="italic">poikilia</hi> du texte à une thématique unique : le
+          voyage initiatique d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>. À partir de ce
+          point de vue, commença à se dessiner l’idée que l’<hi rend="italic">Odyssée</hi> ne serait pas la production d’une
+          tradition mémorielle vivante, plurielle et variée, mais l’œuvre d’un
+          auteur : <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>.</p>
+          <p xml:id="d1e673">Les cyniques et les stoïciens s’éloignent des
+          considérations théologiques, ils s’intéressent aux questions
+          d’éthique. Les dieux d’Homère, si prompts à mal se conduire, sont
+          placés en arrière-plan pour ne pas faire d’ombre à celui par qui ils
+          voient un idéal d’humanité : <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>. Délaissant les
+          Olympiens, ils analysent et spéculent sur les comportements, selon
+          eux exemplaires, du héros. Les cyniques et les stoïciens ne
+          s’offusqueront plus du déplacement centripète des dieux vers la
+          société des hommes, thème qu’ils laissèrent totalement de côté, et
+          loueront la tendance centrifuge du voyage d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>. Quittant un
+          <placeName ref="261707" type="geonames" xml:base="https://www.geonames.org/">Ithaque</placeName>, puis une
+          grotte de <persName ref="059443014" type="idref" xml:base="https://www.idref.fr/">Calypso</persName> plongée dans
+          l’obscurité et l’indistinction, <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>
+          cheminerait sur la voie de la clarté, son errance serait, en fait,
+          une initiation ; sur la route, <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>
+          apprendrait, se formerait. De retour à <placeName ref="261707" type="geonames" xml:base="https://www.geonames.org/">Ithaque</placeName>, c’est avec
+          un autre regard, celui d’un homme sage, raisonnable, qu’il
+          découvrirait le sens réel de sa condition. Le héros, en voyageant,
+          se couperait, se libérerait de liens qui, jusque-là, le tenaient
+          prisonnier d’un monde confus, indistinct et impie.</p>
+          <p xml:id="d1e676">C’est donc l’image d’un <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>
+          apprenti-philosophe, dont on trouvera l’écho aussi bien dans le
+          classicisme que dans le romantisme allemand, que nous voudrions
+          maintenant analyser, puis critiquer. À en juger par l’abondance de
+          textes contemporains mettant en valeur la sagesse d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, il semble
+          opportun de se demander de quelle forme de sagesse il s’agit. La
+          réponse est souvent la même, celle non pas de la tradition
+          homérique, mais celle que les stoïciens et les néostoïciens ont
+          projetée sur l’<hi rend="italic">Odyssée</hi> au risque de dénaturer
+          l’anthropologie homérique. L’influence du stoïcisme est, par
+          exemple, indéniable dans cet extrait du texte introductif
+          d’<persName ref="028375351" type="idref" xml:base="https://www.idref.fr/">Eva Cantarella</persName> à l’<hi rend="italic">Odyssée</hi>. Elle y résume la conception positive du
+          voyage ulysséen :</p>
+          <q rend="quotation">« Selon une interprétation si connue qu’elle ne
+          mérite pas qu’on s’y attarde, <placeName ref="261707" type="geonames" xml:base="https://www.geonames.org/">Ithaque</placeName> est la fin
+          d’un voyage, d’une expérience à travers laquelle le héros mûrit, se
+          forme à la douleur, et ce faisant, se transforme. Son objectif est
+          de permettre, au prix de fatigues et de souffrances infinies, de se
+          réapproprier son individualité, de prendre conscience d’une
+          condition humaine ; le voyageur, tout en connaissant les coûts,
+          décide d’accepter les limites de sa nature, affirmant par la même
+          occasion l’autonomie de sa conscience et la liberté de se
+          déterminer »(Cantarella 2001 : <hi rendition="#T10">xxx-xxxi</hi>).</q>
+          <p xml:id="d1e692">L’interprétation a beau être si connue, elle
+          mérite qu’on s’y attarde, car elle impose, indirectement, l’idée
+          contestable d’une continuité entre la poésie homérique et la pensée
+          cynico-stoïcienne.</p>
+          <p xml:id="d1e695">Le raisonnement des stoïciens repose au départ
+          sur une idée que <persName ref="028260929" type="idref" xml:base="https://www.idref.fr/">Socrate</persName> développe dans
+          <hi rend="italic">Hippias mineur</hi> : le discernement propre à
+          l’intelligence d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> lui permettrait
+            de faire des choix, de s’améliorer, de changer d’état<note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>Sur l’apparition et l’importance de la thématique du choix
+              dans la pensée grecque, cf. Detienne (1967 : 183-236).</p>
+            </note>. Les thèmes du choix et de la progression individuelle
+          sont fondamentaux dans la lecture stoïcienne, ceux du changement
+          d’état, du parcours initiatique et de l’élévation spirituelle le
+          sont dans l’interprétation néoplatonicienne. Par le prisme
+          allégorique, le comportement d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>
+          devient un modèle, voire un idéal philosophique. Sur ce mythe se
+          construira, à l’époque classique, l’idée du génie de l’homme grec et
+          d’une condition humaine fondée sur le choix raisonnable et
+          individuel. <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, abandonnant ce
+          qui est superflu, découvrirait le noyau, le centre à partir duquel
+          rayonnera la pensée grecque, à savoir un éveil de l’esprit par la
+          découverte d’une autonomie de la conscience.</p>
+          <p xml:id="d1e705">À quelle fin <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> se
+          déplace-t-il, quel est le bénéfice des épreuves passées ? Sur ce
+          point, les cyniques et les stoïciens répondront que, littéralement,
+          le texte ne nous donne pas directement, pas clairement, d’éléments
+          de réponse<note n="43" place="foot" type="standard" xml:id="ftn43">
+              <p>La lettre du texte serait un intermédiaire, une médiation.
+              Pour que les esprits tendent vers l’idée, il faut que la lettre
+              se donne comme intrinsèquement insuffisante sans être
+              aporétique. Pour qu’il y ait une interprétation allégorique, il
+              faut au préalable un voilement du texte qui soit en même temps
+              un appel au déplacement de la lecture, au transport du sens.
+              Rappelons que le verbe <hi rend="italic">huponoein</hi>
+              signifie, au sens propre, « soupçonner » (cf. Pépin 1958 :
+              85).</p>
+            </note>. L’astuce d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> est d’avoir
+          laissé affleurer dans sa narration des signes à explorer, à suivre,
+          menant à l’idée. L’intelligence interprétative consiste donc à
+          différencier la donnée concrète, perçue dans le texte, de l’idée qui
+          dépasse la représentation sensible. En spéculant sur le sens caché
+          du texte, on découvrirait l’enseignement théorique du poète, à
+          savoir que le comportement d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, son parcours,
+          serait moralement exemplaire. Ce cheminement mènerait à la sagesse,
+          mais, avant cela, il subirait un processus initiatique. Au cours de
+          son voyage, <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> serait, dans un
+          premier temps, dépossédé de lui-même, de sa nature et de son passé ;
+          dans un second temps, des vérités se révéleraient à lui, se
+          dévoileraient.</p>
+          <p xml:id="d1e715">Le voyage d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>
+          serait un mélange de pertes et de profits. Que perdrait <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, chemin faisant
+          et épreuves passant ? Sa nature primitive, archaïque, mythique, en
+          bref, son passé. Telle serait la ligne narrative de l’<hi rend="italic">Odyssée</hi>. Les traits permettant de définir
+          <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> ne seraient plus
+          les mêmes une fois le périple accompli, ils auraient évolué. Le
+          héros sur la route, parce qu’il est éprouvé, se fortifierait,
+          s’enrichirait. Que gagnerait-il ? La raison, l’intérêt pour la
+          connaissance et la sagesse. <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> serait le héros
+          de l’énergie positive, qui jamais, malgré les douleurs, ne succombe
+          au désespoir. Le <hi rend="italic">télos</hi> de l’épopée serait
+          celui de la souffrance, puis de l’éveil et, enfin, de
+          l’accomplissement. L’idée est simple : le voyage ouvrirait les
+          esprits, rendrait clairvoyant. Reprenons les termes employés par
+          <persName ref="028375351" type="idref" xml:base="https://www.idref.fr/">Eva Cantarella</persName> pour
+          décrire le <hi rend="italic">télos</hi> des déplacements d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> : quête de
+          l’individualité, conscience de soi et de la condition humaine,
+          acceptation de sa nature, autonomie, liberté, autodétermination. Ce
+          vocabulaire n’est pas épique, mais éthique.</p>
+          <p xml:id="d1e727">Lorsqu’ils soulignent la tempérance et
+          l’endurance d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, les stoïciens
+          sont sur une ligne homérique, le décalage a lieu lorsqu’ils posent
+          que la tempérance est le moyen qu’utilise le héros pour se mettre
+          sur la voie de la conscience de soi. Pour eux, <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> est un frère
+          d’<persName ref="027575055" type="idref" xml:base="https://www.idref.fr/">Héraklès</persName>
+            <note n="44" place="foot" type="standard" xml:id="ftn44">
+              <p>L’idée est d’Antisthène (cf. Pépin 1958 : 105-109).</p>
+            </note>, héros solitaire et sans attaches : « Ceux-ci [Ulysse et
+          Héraklès], nos stoïciens les ont déclarés sages, invincibles dans
+          leurs travaux, ayant le mépris des plaisirs » (Sénèque, <hi rend="italic">De la constance du sage II</hi>…, cf. 1997 : 636).
+          L’endurance vue par les cyniques et les stoïciens est donc avant
+          tout le fruit d’une résistance aux plaisirs, tel est le sens de
+          l’épreuve, qui, selon eux, mène à la tempérance des passions<note n="45" place="foot" type="standard" xml:id="ftn45">
+              <p>Jean Pépin rapporte ce passage des <hi rend="italic">Mémorables</hi> de Xénophon (I, 3-7), où
+              Antisthène – que Xénophon aurait confondu avec Socrate, selon
+              Pépin (1958 : 107) – déclare : « Socrate [Antisthène] disait en
+              se moquant que, à son avis, Circé changeait en porcs ses invités
+              en leur faisant manger une grande quantité ; pour Ulysse, c’est
+              le conseil d’Hermès, sa propre tempérance, sa répugnance à
+              prendre des nourritures passée la satiété qui lui avait valu de
+              ne pas devenir porc ». L’éloge de la tempérance, du contrôle de
+              soi, de la satiété est une projection sur l’<hi rend="italic">Odyssée</hi> d’une idée qui ne trouve aucune
+              correspondance dans le passage cité. Comme l’écrit Pépin, nous
+              sommes dans l’allégorie éthique dont le souci n’est pas de
+              comprendre la littéralité du poème, mais de stigmatiser la
+              supposée goinfrerie des compagnons d’Ulysse. Le
+              Pseudo-Héraclite, quant à lui, parle de « la coupe de la
+              volupté » que Circé fait boire aux compagnons d’Ulysse (<hi rend="italic">Allégories d’Homère</hi> 77, 2d ).</p>
+            </note>.</p>
+          <p xml:id="d1e750">Après la fraternité d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> et
+          d’<persName ref="027575055" type="idref" xml:base="https://www.idref.fr/">Héraklès</persName>
+            <note n="46" place="foot" type="standard" xml:id="ftn46">
+              <p>Héraklès a lui aussi une place de choix dans les <hi rend="italic">Allégories d’Homère</hi> du Pseudo-Héraclite : il
+              est « initié à la sagesse céleste, qui fit briller d’un vif
+              éclat la philosophie, jusqu’alors plongée si l’on peut dire dans
+              un épais brouillard : c’est aussi l’opinion admise par les plus
+              illustres stoïciens » (33, 1).</p>
+            </note>, le second point fort de l’interprétation morale
+          stoïcienne consiste à prendre en considération, toujours dans un
+          sens allégorique, le <hi rend="italic">môlu</hi> – qui désigne
+          l’« herbe », l’« antidote » – qu’offre <persName type="_temp">Hermès</persName> à <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> pour
+          rendre inoffensives les drogues de <persName ref="032292198" type="idref" xml:base="https://www.idref.fr/">Circé</persName>. Le
+          <hi rend="italic">môlu</hi> est « la raison, grâce à laquelle élans
+          et passions sont calmés (<hi rend="italic">môluontai</hi>) »,
+          écrivait <persName ref="035575506" type="idref" xml:base="https://www.idref.fr/">Cléanthe</persName>
+            <note n="47" place="foot" type="standard" xml:id="ftn47">
+              <p>Cité par Félix Buffière, in Pseudo-Héraclite, Allégories
+              d’Homère (cf. 1962 : 129).</p>
+            </note>. L’antidote offert à <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>
+          serait d’ordre spirituel.</p>
+          <p xml:id="d1e774">Le troisième point fort de l’allégorèse morale
+          est le choix d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> de quitter
+          <persName ref="059443014" type="idref" xml:base="https://www.idref.fr/">Calypso</persName> pour rejoindre
+          <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName>. L’allégorie
+          philosophique recoupe la lecture morale de l’<hi rend="italic">Odyssée</hi> où <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName> fait figure
+          d’aboutissement. La reine est le modèle de la femme moralement
+          désirable, l’antithèse, selon le cynique <persName ref="03494107X" type="idref" xml:base="https://www.idref.fr/">Antisthène</persName>,
+          de <persName ref="059443014" type="idref" xml:base="https://www.idref.fr/">Calypso</persName>. Si <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> prend congé de la
+          nymphe, c’est parce qu’il aurait bien compris que la sagesse vaut
+          mieux que la luxure. La sagesse triomphant de la débauche et la
+          connaissance de l’ignorance, tels sont les axes de lecture
+          allégorique d’<persName ref="03494107X" type="idref" xml:base="https://www.idref.fr/">Antisthène</persName>. Il déplace
+          le sens de la sagesse homérique, il ne s’agit plus de la mémoire
+          triomphant de l’oubli, mais de la raison et de la connaissance
+          l’emportant sur les désirs et l’ignorance. Dans la logique
+          stoïcienne, <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> incarne
+          l’humain : il fait des expériences, est confronté au monde
+          sensible ; tandis que Pénélope est désincarnée : elle est une
+          représentation, une image.</p>
+          <p xml:id="d1e780">Ulysse passe son temps à se plaindre d’être
+          éloigné de <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName>. Mais que
+          pleure-t-il ? Une image, une idée abstraite ou, au contraire, une
+          réalité concrète, une épouse ? Pour les premiers stoïciens, les
+          pleurs d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> ont quelque chose
+          de positif, car ils endurcissent son cœur et ouvrent son esprit. Si
+          <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName> ne vit que pour
+          revoir son mari, <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, pour sa part,
+          non seulement peut, mais doit se passer temporairement d’elle, afin
+          de comprendre et d’atteindre ce qu’elle représente, à savoir la
+          sagesse. Au départ, <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> n’aurait vu
+          <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName> que sous
+          l’aspect charnel, mais les souffrances de son errance lui auraient
+          appris l’inconsistance de cette enveloppe.</p>
+          <p xml:id="d1e783">
+            <persName type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> souhaite quitter
+          <persName ref="059443014" type="idref" xml:base="https://www.idref.fr/">Calypso</persName> pour retrouver
+          <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName>. La donnée
+          textuelle est incontestable. Ce qui pose problème concerne les
+          motivations, les raisons du délaissement de la nymphe et de la
+          préférence accordée à <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName>. La réponse
+          morale est simple : <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName> est plus sage
+          que <persName ref="059443014" type="idref" xml:base="https://www.idref.fr/">Calypso</persName>
+            <note n="48" place="foot" type="standard" xml:id="ftn48">
+              <p>Le triomphe d’Ulysse sur Calypso ne serait que la suite d’une
+              longue série de victoires sur les plaisirs et les vices que
+              représentent les monstres mythiques.</p>
+            </note> ; allégoriquement, elle incarne la récompense offerte non
+          pas au meilleur des concurrents, mais au plus sage. Il ne s’agit
+          plus d’une femme ni d’une épouse, mais de l’image de la finitude, de
+          la complétude, de l’accomplissement. L’identité profonde qu’elle
+          personnifie ne se révélerait pas au commun des mortels, mais à celui
+          qui a fait des choix et a su renoncer à l’inessentiel. La sagesse
+          domestique de <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName>, sa prudence,
+          sa réserve, la distance qui la sépare du monde de luxure que
+          représente <persName ref="059443014" type="idref" xml:base="https://www.idref.fr/">Calypso</persName> seraient les
+          signes permettant d’interpréter l’existence d’une sagesse
+          supérieure, toute spirituelle et intérieure.</p>
+          <p xml:id="d1e790">L’errance d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> lui
+          aurait donc permis de comprendre la véritable nature de <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName>. Il saisit
+          qu’il est attaché à elle, car il l’est à ce qu’elle incarne, la
+          sagesse. Les lecteurs sensibles aux allégories percevront dès lors
+          que l’essentiel du poème a trait à l’évolution des sentiments
+          d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> pour son
+          épouse.</p>
+          <p xml:id="d1e793">Détachement, ascèse, renoncement, endurance, les
+          stoïciens voient en <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> un modèle de
+          vertu. <persName ref="026851822" type="idref" xml:base="https://www.idref.fr/">Épictète</persName>, stoïcien du
+          premier siècle, résume ainsi la position théorique de la tradition
+          morale stoïcienne :</p>
+          <q rend="quotation">« L’homme, outre sa grandeur naturelle et son
+          mépris pour tout ce qui ne dépend pas de sa volonté, possède ce
+          caractère de ne pas être attaché à la terre par des racines, mais de
+          se transporter en des lieux différents, tantôt sous la pression des
+          besoins, tantôt pour voir du nouveau.<lb/>Tel est bien ce qui arriva
+          à <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> : “Il a vu bien
+          des villes et a connu la pensée de bien des hommes”.<lb/>De même
+          auparavant Hercule avait parcouru la terre entière ; “surveillant
+          les excès des hommes et leur bonne conduite”, il donnait aux uns la
+          chasse pour en purger le monde et il les remplaçait par les autres.
+          Et pourtant combien penses-tu qu’il eut d’amis à <placeName ref="252910" type="geonames" xml:base="https://www.geonames.org/">Thèbes</placeName>, à
+          <placeName ref="264670" type="geonames" xml:base="https://www.geonames.org/">Argos</placeName> et à
+          <placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName> ! Combien
+          il en acquit dans ses voyages, lui qui se mariait, qui avait des
+          enfants et les quittait sans plaintes ni regrets ! Il ne les
+          abandonnait pas comme des orphelins ; car il savait bien qu’il n’y a
+          pas d’orphelin, mais que tous les hommes ont toujours un père qui ne
+          cesse de prendre soin d’eux. Car ce n’est pas par ouï-dire qu’il
+          avait appris que <persName ref="02747237X" type="idref" xml:base="https://www.idref.fr/">Zeus</persName> est le père des
+          hommes ; il le tenait pour son propre père, il l’invoquait, et, en
+          agissant, il avait le regard tourné vers lui. Et ainsi il lui était
+          possible de mener en tout lieu une vie heureuse […] ; l’être heureux
+          doit […] donner l’image d’un homme comblé ; il ne doit avoir ni faim
+          ni soif » (<hi rend="italic">Entretiens</hi> III, 24, 9-17).</q>
+          <p xml:id="d1e807">Pour <persName ref="026851822" type="idref" xml:base="https://www.idref.fr/">Épictète</persName>, <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> « n’est pas fait
+          pour prendre racine et pour s’attacher à la terre ». Pour être
+          heureux partout – ce que cherchent les cyniques et les stoïciens –,
+          il faut, comme <persName ref="027575055" type="idref" xml:base="https://www.idref.fr/">Héraklès</persName>, parvenir à se
+          dégager des attaches trop contraignantes. Pour <persName ref="026851822" type="idref" xml:base="https://www.idref.fr/">Épictète</persName> – il développe
+          une idée cynique –, peu importe où l’on se trouve puisque, quel que
+          soit l’endroit du monde, le chemin qui mène à Dieu est le même ;
+          c’est la voie de Dieu qu’il faut privilégier. En somme, <persName ref="027575055" type="idref" xml:base="https://www.idref.fr/">Héraklès</persName>, à force
+          d’endurance, reconnaît la souveraineté, la puissance et le réconfort
+          de <persName ref="02747237X" type="idref" xml:base="https://www.idref.fr/">Zeus</persName>. Il se sent bien
+          partout, conscient que le bonheur de l’<hi rend="italic">oikos</hi>
+            est totalement superficiel<note n="49" place="foot" type="standard" xml:id="ftn49">
+              <p>Le commentaire du texte d’Épictète est on ne peut plus
+              explicite : « Nous ne sommes ni seuls ni abandonnés dans un
+              univers hostile : le monde est une cité dont l’essence est
+              divine. Quoi qu’il arrive, rien ne peut réellement nous faire de
+              mal, nous ne sommes jamais seuls, nul n’est orphelin, tout homme
+              est fils de Dieu », écrit Jean-Noël Duhot (2003 : 93).</p>
+            </note>.</p>
+          <p xml:id="d1e817">La grandeur naturelle de l’homme le rendrait
+          méprisant à l’égard de ce que les stoïciens appellent les bas
+          instincts. C’est dans ce registre négatif qu’il faut, par exemple,
+          placer les ruses visant à récupérer un bien. L’idée d’une lutte pour
+          reprendre possession d’un domaine et d’une épouse est méprisable. Le
+          sage stoïcien comprend et accepte sa nature, indépendamment de
+          l’environnement dans lequel il vit<note n="50" place="foot" type="standard" xml:id="ftn50">
+              <p>Pour les stoïciens, la nature de l’homme est vertueuse, la
+              corruption ne vient qu’avec les désirs et les plaisirs qui ne
+              sont que des suppléments à la nature, cf. Diogène Laërce (<hi rend="italic">Vies et doctrines des philosophes illustres</hi>
+              VII, 87) parlant de Zénon. D’après Cléanthe, « L’être vivant
+              raisonnable est perverti tantôt par la vraisemblance des thèses
+              extérieures, tantôt à cause de l’instruction donnée par
+              l’entourage » (<hi rend="italic">Ibid</hi>. VII, 89).</p>
+            </note>. C’est la raison qui protège le soi, l’autonomie de la
+          conscience, de la mauvaise influence du regard et de la parole des
+          autres.</p>
+          <p xml:id="d1e830">Il nous semble que les tentatives de
+          réhabilitation de la poésie homérique par la lecture allégorique,
+          qui trouveront leur apogée dans le néo-platonisme, ne sont pas
+          pensées pour renouer avec une forme archaïque de sagesse, bien que
+          son maître mot soit bel et bien celui-là. Elles participent, au
+          contraire, d’une volonté là aussi de s’en débarrasser et d’imposer,
+          par le biais d’une interprétation « traditionnante »<note n="51" place="foot" type="standard" xml:id="ftn51">
+              <p>Sur la « grâce traditionnante », cf. Lenclud (1994 : 30).</p>
+            </note>, un horizon philosophico-moral et une forme d’humanité,
+          dont <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, transformé en
+          ascète, serait l’idéal. Prétextant laver la poésie homérique du
+          soupçon d’impiété, les cyniques et les stoïciens tenteront d’y
+          réhabiliter non pas la <hi rend="italic">poikilia</hi>, mais ce qui
+          permet de s’en éloigner. La <hi rend="italic">poikilia</hi>, notion
+          centrale dans l’anthropologie homérique, n’est pas entendue par les
+          stoïciens comme l’éclat, le miroitement de la diversité, mais comme
+          le symbole de la dispersion, de la confusion, de l’indistinction et
+          de l’illusion, en un mot du désordre. Le génie d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> et d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> serait donc
+          l’intelligence dans sa plus grande simplicité, à savoir l’habileté à
+          distinguer et à choisir, dans la confusion, le bon chemin, celui de
+          la raison et de la sagesse. L’<hi rend="italic">Odyssée</hi> devient
+          un poème allégorique qui vante les vertus d’une vie autonome,
+          authentique, voulue, choisie, non foisonnante ni contaminée par la
+          distraction des relations avec l’extérieur, par des attaches
+          superflues.</p>
+        </div>
+        <div type="div1" xml:id="d1e845">
+          <head subtype="level1" xml:id="d1e846">Les limites de
+          l’interprétation allégorique</head>
+          <p xml:id="d1e848">Dans la défense du poème que proposent les
+          cyniques et les stoïciens, il ne s’agit plus, comme dans la
+          performance aèdique, de permettre une communion affective<note n="52" place="foot" type="standard" xml:id="ftn52">
+              <p>Jean-Pierre Vernant (1979 : 121) parle d’une « communauté
+              affective » qui se crée autour de l’aède.</p>
+            </note> et cérémonielle avec des récits mythiques, mais
+          d’indiquer, d’abord, ce qu’ils renferment de positivement édifiants
+          et, ensuite, de montrer que leur philosophie possède une sorte
+          d’ancienneté, qu’elle est en continuité avec les « idées » du poète.
+          Dans ce souci de cohérence et de continuité, ils affirment avoir
+          découvert dans la poésie homérique des modèles, des idéaux. Ces
+          derniers sont, en réalité, moins utiles à la conservation de la
+          mémoire épique qu’à la nécessité de donner une assise patrimoniale à
+          leur philosophie.</p>
+          <p xml:id="d1e855">L’interprétation stoïcienne de la place du <hi rend="italic">môlu</hi> et, d’une façon moins anecdotique, du rôle
+          de <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName> et de sa
+          sagesse est contestable. Poser que le <hi rend="italic">môlu</hi>
+          est allégoriquement un antidote spirituel est un tour de force.
+          L’hypothèse stoïcienne suppose que c’est parce qu’il sait contrôler
+          ses ardeurs, qu’Ulysse refuserait les avances de <persName ref="032292198" type="idref" xml:base="https://www.idref.fr/">Circé</persName>
+            <note n="53" place="foot" type="standard" xml:id="ftn53">
+              <p>Dans la même veine interprétative, Eustathe, dans une <hi rend="italic">Scholie à l’Odyssée</hi>, interprète la cire
+              bouchant les oreilles des compagnons d’Ulysse et les mettant à
+              l’abri du chant des Sirènes comme étant « la philosophie
+              elle-même, dont l’acquisition est laborieuse, mais la possession
+              bien douce. Installée à demeure dans nos oreilles, elle ne
+              laisse pas filtrer le chant des Sirènes, qui peuvent moduler
+              leur sérénade devant la porte, mais non pas en forcer l’entrée »
+              (cf. Buffière 1973 : 382).</p>
+            </note>. Le poème dit le contraire : <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>
+          consomme le <hi rend="italic">môlu</hi> afin de ne pas être
+          transformé en porc par la drogue que lui fait boire la nymphe, et
+          lui fait promettre ensuite, sous la menace de son épée, qu’elle ne
+          cherchera pas lors de leurs ébats à le priver de sa virilité (<hi rend="italic">Odyssée</hi> V, 11-227). Il agit avec astuce pour son
+          profit (<hi rend="italic">kerdos</hi>). Nous avons là un des traits
+          essentiels qui rend, d’emblée, discutables les allégories
+          stoïciennes, à savoir la mise de côté de tout ce qui à trait à
+          l’univers ludique, joueur, de la <hi rend="italic">kerdosynè</hi>,
+          de la recherche astucieuse de profit. Le recours à la <hi rend="italic">kerdosynè</hi> est indispensable dans un environnement
+          agonistique. Cette recherche astucieuse du gain, de la victoire, de
+          la récompense est un des piliers de la vision anthropologique
+          homérique. Le contexte agonistique fait que la logique du récit
+          épique est fondée sur la narration d’attractions, de répulsions, de
+          compétitions et de récompenses : pour parvenir à ses fins, il faut
+          posséder une intelligence du <hi rend="italic">kairos</hi>, il faut
+          savoir saisir l’occasion ; l’important est d’être efficace en gestes
+          et en paroles pour obtenir des bénéfices ; les héros épiques
+          pratiquent la surenchère, afin d’augmenter les mises et les gains.
+          Notons que dans le terme <hi rend="italic">poikilia</hi>, si
+          caractéristique de l’anthropologie homérique, on trouve ce sens de
+          foisonnement, d’abondance, ce qui prouve que la société
+          aristocratique homérique est bien éloignée de l’ascétisme
+          philosophique<note n="54" place="foot" type="standard" xml:id="ftn54">
+              <p>Sur l’idéologie aristocratique des épopées homériques, cf.
+              Létoublon (2002 : 15).</p>
+            </note>.</p>
+          <p xml:id="d1e897">Tâchons de saisir ce qu’il y a de dommageable
+          dans l’affirmation qu’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> serait le héros
+          de la prudence, de la tempérance et de la conservation de soi, pour
+          prendre en compte toutes les interprétations allégorisantes. Elle
+          fait d’Ulysse un héros autonome, sans mémoire et méprisant les
+          plaisirs. Le rapprochement de la figure d’<persName ref="027575055" type="idref" xml:base="https://www.idref.fr/">Héraklès</persName>
+          permet tactiquement aux cyniques et aux stoïciens d’éloigner
+          <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> de ce qui ne
+            relève pas de la force, du courage, de l’endurance<note n="55" place="foot" type="standard" xml:id="ftn55">
+              <p>Héraklès est vu sur un mode idéalisé par les stoïciens ; dans
+              l’<hi rend="italic">Odyssée</hi>, il est une figure surtout
+              pathétique (cf. XI, 618-627).</p>
+            </note>. Les valeurs que nous venons de citer sont les piliers des
+          conceptions cyniques et stoïciennes de la sagesse et, partant, de
+          leur conception de la condition humaine, mais elles sont nettement
+          insuffisantes pour caractériser le héros de l’<hi rend="italic">Odyssée</hi>. Manquent à ces valeurs des contrepoints
+          pragmatiques, en prise avec la réalité, et qui appartiennent au
+          champ de l’intelligence rusée, de la mètis. La construction
+          allégorico-philosophique essentialise les enjeux narratifs de l’<hi rend="italic">Odyssée</hi>
+            <note n="56" place="foot" type="standard" xml:id="ftn56">
+              <p>La fabrication du mythe d’Ulysse se conforme à la tendance
+              philosophique relevée par Vernant : « cette réintégration du
+              mythe dans l’univers de la raison philosophique, dont on pouvait
+              le croire chassé, a sa contrepartie : en lui accordant droit de
+              cité, on le naturalise philosophe ; en l’acceptant on
+              l’absorbe » (1974 : 213-214).</p>
+            </note>, mais elle ne tient qu’à une condition : une domestication
+          de la <hi rend="italic">mètis</hi>
+            <note n="57" place="foot" type="standard" xml:id="ftn57">
+              <p>Nicole Loraux écrit à ce propos, devisant sur Platon, « en
+              conclusion de la <hi rend="italic">République</hi>, le récit
+              d’Er promeut, seul des héros de l’épopée, Ulysse au rang de sage
+              en attribuant à son âme le choix d’une vie philosophique,
+              l’ambivalence homérique de la <hi rend="italic">mètis</hi> est
+              bien oubliée » (1989 : 205).</p>
+            </note> et du rôle de <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName>.
+          L’interprétation stoïcienne s’arc-boute sur l’idée que <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName> serait une
+          image de la sagesse philosophique, c’est ainsi qu’ils traduisent par
+          « sage » l’adjectif <hi rend="italic">periphrôn</hi> qualifiant
+          l’intelligence de la reine. Cet adjectif est dérivé du verbe <hi rend="italic">peri-phronein</hi> qui signifie : « méditer sur tous
+          les points, examiner à fond » et, avec un sens plus abstrait, « être
+          réfléchi, circonspect ». Il associe l’idée de courbe, de
+          circularité, de délimitation, d’enveloppement – avec la préposition
+          <hi rend="italic">peri</hi> (« autour ») (cf. Onians 1999 : 373-374)
+          – à l’activité de penser (<hi rend="italic">phronein</hi>).
+          L’intelligence <hi rend="italic">periphrôn</hi> est celle qui
+          s’étend dans toutes les directions, à laquelle rien n’échappe, car
+          elle parvient à faire le tour de toutes les questions et à lier tous
+          les problèmes. Or, la reine médite sur tous les points, car
+          <persName type="_temp">Athéna</persName> lui a fait don de <hi rend="italic">mètis</hi>. <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName> est donc une
+          figure non pas de la sagesse philosophique, mais de la pensée
+          tactique. Elle pense et, puisque penser signifie pour Homère
+          analyser, prévoir, comploter, elle mobilise une intelligence
+          stratégique. En pensée, <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName> tisse des
+          pièges pour les prétendants.</p>
+          <p xml:id="d1e947">Considérer que c’est avant tout une sagesse
+          d’ordre moral qui unit <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> à <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName>, c’est plaquer
+          sur l’épopée un principe abstrait qui dénature la réalité concrète
+          de l’attirance des deux époux, à savoir un accord d’intelligence,
+          une <hi rend="italic">homophrosynè</hi>, une complicité stratégique
+          (cf. <hi rend="italic">Odyssée</hi> VI, 182-186). Et, puisque
+          l’intelligence d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> a pour synonyme
+          la mètis, il est logique de conclure que ce qui l’attire chez
+          <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName>, c’est
+          l’égalité, la ressemblance et la complémentarité des intelligences
+          tactiques<note n="58" place="foot" type="standard" xml:id="ftn58">
+              <p>Cette forme de relation sociale est impossible dans le monde
+              unidimensionnel que traverse Ulysse au cours de son errance et
+              avec lequel il ne parvient jamais à créer un lien durable.</p>
+            </note>. Pour les stoïciens, il est difficile d’admettre que le
+          <hi rend="italic">télos</hi> des épreuves d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> puisse être les
+          retrouvailles avec une femme dont les qualités premières seraient
+          celles de l’intelligence rusée, soit, entre autres, la fourberie et
+          la malice. N’oublions pas que l’entreprise de réhabilitation
+          allégorique de l’épopée vise, précisément, à rendre mineur le
+          penchant d’Homère pour les ruses.</p>
+          <p xml:id="d1e963">Si <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> est éloigné de
+          ses côtes, c’est bien contre sa volonté. Il est prisonnier d’une
+          intelligence qui lui est supérieure, d’origine divine, qui lui
+          impose un destin et une identité. Les premières reconstructions
+          philosophico-littéraires tendirent à faire passer l’exil d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> pour un voyage
+          alors que l’épopée narre un <hi rend="italic">nostos</hi>, un
+          retour. <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> n’est pas un
+          voyageur, un explorateur, mais un exilé, un « abandonné des dieux »,
+          pour reprendre un qualificatif homérique. La distance est pour lui
+          une souffrance. La nostalgie, dans un sens homérique, c’est l’<hi rend="italic">algos du nostos</hi>, la douleur provoquée par le
+            désir non assouvi du retour<note n="59" place="foot" type="standard" xml:id="ftn59">
+              <p>Sur la question de la nostalgie d’Ulysse, cf. Létoublon
+              (1985).</p>
+            </note>. <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> ne voyage pas, il
+          rentre chez lui (cf. Pucci 1995 : 78). Ce qui compte pour un
+          voyageur, c’est moins le départ et l’arrivée que ce qui se situe
+          entre les deux. <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, lui, n’a en tête
+            que la douleur du départ et la joie de l’arrivée<note n="60" place="foot" type="standard" xml:id="ftn60">
+              <p>Le charme maléfique de la voix des Sirènes a, précisément,
+              pour objectif de faire oublier aux navigateurs le chemin du
+              retour (cf. <hi rend="italic">Odyssée</hi> XII, 43).</p>
+            </note>. Il craint les effets d’une trop grande distance entre
+          heure de départ et heure de retour. L’idée du temps qui passe et du
+          chemin à parcourir l’angoisse. La dissemblance, conséquence de
+          l’éloignement, l’effraie. Si <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> est souvent pris
+          par l’envie de voir ce qui se passe sur les terres qu’il aborde, il
+          parvient toujours à la même conclusion : rien ne vaut l’<hi rend="italic">oikos</hi>. <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> goûte moyennement
+          ce qui lui est étranger. Le réconfort qu’il obtient, chez les
+          Phéaciens par exemple, n’est que passager. Il est davantage un
+          passeur d’épreuves, un exilé, qu’un voyageur.</p>
+          <p xml:id="d1e987">L’<hi rend="italic">Odyssée</hi> n’est donc pas
+          un « roman d’apprentissage ». L’histoire d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> est
+          celle de la perte et des retrouvailles avec des attaches, des
+          liens ; elle narre un détour par un monde inconnu, durant lequel,
+          suivant les recommandations de <persName ref="032292198" type="idref" xml:base="https://www.idref.fr/">Circé</persName>,
+          <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> ne doit songer
+          qu’au retour (XII, 137).</p>
+          <p xml:id="d1e993">La plongée d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> dans
+          l’univers fantastique du mythe a beaucoup plus fasciné les
+          commentateurs que sa réapparition dans le monde de la normalité.
+          L’intérêt s’est porté sur ce qu’Ulysse apprenait au cours de son
+          voyage, sur ce que, réflexion faite, il avait décidé d’abandonner.
+          Le mythe classique a délaissé <placeName ref="261707" type="geonames" xml:base="https://www.geonames.org/">Ithaque</placeName> au profit
+          de l’errance. Ithaque ressemblait trop à la normalité, mais,
+          surtout, on craignait d’y voir un modèle négatif, une mauvaise
+          incarnation venant bouleverser l’ordre normatif voulu par la pensée
+          positive. En effet, si l’on pose que le <hi rend="italic">télos</hi>
+          odysséen est celui de la restauration d’un équilibre, cela signifie,
+          par rapport à Ithaque, que la terre qu’il a quittée vingt ans plus
+          tôt, bien qu’appartenant au passé, est le modèle que le héros
+          souhaite rétablir. Mais où serait alors le progrès, l’évolution,
+          s’il s’agit d’une simple et banale restauration ? Dans le mythe du
+          voyageur, <placeName ref="261707" type="geonames" xml:base="https://www.geonames.org/">Ithaque</placeName> posait un
+          tel problème que, dans la version de <persName ref="026811081" type="idref" xml:base="https://www.idref.fr/">Dante</persName>,
+          <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> privilégie
+          l’acquisition de l’« expérience du monde » au souvenir de l’<hi rend="italic">oikos</hi> et reste un éternel vagabond qui ne reverra
+          jamais sa terre (<hi rend="italic">La Divine Comédie, L’Enfer</hi>
+          XXVI, 90-142). Ulysse tracerait une route, celle de la connaissance.
+          Ayant développé sa propre conscience, il serait apte à faire des
+          choix. L’idée d’une autonomie de conscience d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> comporte une
+            immense lacune : les dieux<note n="61" place="foot" type="standard" xml:id="ftn61">
+              <p>Oswyn Murray écrit : « Le concept d’individu isolé de la
+              communauté est étranger à la pensée grecque : la liberté des
+              Grecs est publique, elle s’exprime dans la parole et l’action.
+              Cette liberté découle de ce qu’un individu appartient tout à la
+              fois à un dème, une phratrie, une famille, un groupe de parents,
+              une association religieuse » (1992 : 36-37).</p>
+            </note>. Si <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> est libre ou
+          raisonnable, que fait-on des dieux et de leurs pouvoirs
+          d’inspiration et d’intervention et donc du fait que, pour reprendre
+          une expression de <persName ref="026843056" type="idref" xml:base="https://www.idref.fr/">Dumézil</persName>, le héros épique
+          est « l’enjeu du jeu des dieux » (cf. <hi rend="italic">Types
+          épiques indo-européens : un héros, un sorcier, un roi</hi>, in
+          Dumézil 1995 : 685-800) ? Le mythe positif du voyageur néglige les
+          Olympiens, leur passion ou leur aversion pour Ulysse<note n="62" place="foot" type="standard" xml:id="ftn62">
+              <p>Le mythe du voyageur parce qu’il est positif cherche à se
+              démarquer du substrat magicoreligieux propre aux sociétés
+              archaïques.</p>
+            </note> et le fait que, si le héros erre, c’est parce qu’il est
+          puni.</p>
+          <p xml:id="d1e1017">
+            <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>
+            <hi rend="italic">polutropos</hi> est l’homme qui tente par tous les
+          moyens de se rapprocher de son foyer ; il est l’homme du retour et
+          du détour, l’un étant lié à l’autre. Homère utilise une formule :
+          <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> est l’homme du
+            « <hi rend="italic">algea on kata thumon</hi> », de l’angoisse<note n="63" place="foot" type="standard" xml:id="ftn63">
+              <p>Ulysse « passa par tant d’angoisses », nous dit Homère (I,
+              4).</p>
+            </note>. Le nom propre <hi rend="italic">Odusseus</hi> exprime
+            d’ailleurs l’idée d’insatisfaction, d’errance et de douleur<note n="64" place="foot" type="standard" xml:id="ftn64">
+              <p>Pietro Pucci note qu’Ulysse porte « son destin épique attaché
+              à son nom » (1995 : 101) ; il ajoute : « Le langage et l’être
+              épiques sont identiques, l’un reflète l’autre » (cf. XIX,
+              406-412). Sur le nom propre <hi rend="italic">Odusseus</hi>,
+              voir l’analyse de Jenny Strauss Clay (1983 : 55-68), qui pense
+              que le nom d’Ulysse doit être mis en relation avec la cicatrice
+              qu’il porte au pied et qui est une marque de son identité, cela
+              en accentuant l’aspect douloureux. Ulysse doit son nom à son
+              grand-père Autolykos : «Mon gendre et vous, ma fille, donnez-lui
+              donc ce nom : comme j’arrive ici fâché [<hi rend="italic">odussamenos</hi>] contre beaucoup de gens […], que
+              cet enfant se nomme Le Fâché [<hi rend="italic">Odusseus</hi>] »
+              (XIX, 407-409). Autolykos transmet également à son petit-fils un
+              esprit tourné vers la filouterie. Sur le nom d’Ulysse et le rôle
+              d’Autolykos, cf. entre autres Stanford (1954 : 8-24). Rappelons
+              que le talent roublard d’Autolykos lui a été conféré par Hermès,
+              le dieu <hi rend="italic">polutropos</hi>. Avec l’ascendance
+              d’Hermès et la protection d’Athéna, Ulysse est on ne peut mieux
+              pourvu en mètis.</p>
+            </note> ; <hi rend="italic">Odusseus</hi> souffre et cause de la
+            souffrance<note n="65" place="foot" type="standard" xml:id="ftn65">
+              <p>
+                <hi rend="italic">Odyssée (Odusseia)</hi>, le titre de
+              l’épopée, et les autres termes construits autour de la racine
+              (<hi rend="italic">od</hi>-) en portent aussi la trace : dans le
+              récit, il sera question de route (<hi rend="italic">hodos</hi>),
+              d’errance (<hi rend="italic">odoiplania</hi>), de douleur
+              (odunè), d’irritation et de fâcherie (verbe <hi rend="italic">odussomai</hi>) et même de rage (<hi rend="italic">ôdusa</hi>) (V, 339). Nous reprenons ici une idée
+              que développait déjà François Hartog (1996 : 23-48). Pourtant,
+              le mythe a la vie dure, ne retrouvons-nous pas la même image du
+              voyageur comblé sous la plume de Constantin Cavafy : « mais
+              n’écourte pas ton voyage, mieux vaut qu’il dure de longues
+              années, et que tu abordes enfin dans ton île aux jours de ta
+              vieillesse, riche de tout ce que tu as gagné en chemin » (1958 :
+              102-103).</p>
+            </note>.</p>
+          <p xml:id="d1e1074">
+            <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> n’aspire qu’à une
+          chose : retrouver la douce vie d’<placeName ref="261707" type="geonames" xml:base="https://www.geonames.org/">Ithaque</placeName> dont le
+            souvenir et le manque ne cessent de le faire souffrir (cf. <hi rend="italic">Odyssée</hi> VI, 182-186 ; IX, 2-10)<note n="66" place="foot" type="standard" xml:id="ftn66">
+              <p>Ajoutons à ces deux citations, la remarque d’Achille,
+              qu’Ulysse rencontre au chant XI dans le royaume des Morts :
+              « j’aimerais mieux, valets de bœufs, vivre en service chez un
+              pauvre fermier, qui n’aurait pas grand chair, que régner sur ces
+              morts » (487-490). Achille avoue qu’il envie le sort d’Ulysse,
+              car, lui, est sur le chemin du retour.</p>
+            </note>. À la différence du silence imposé par les allégories
+          morales, <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> sait et dit où se
+          trouvent les plaisirs. En Phéacie, à plusieurs reprises, il fait
+          allusion à la « douceur du retour » (<hi rend="italic">nostoio télos
+          glukeroio</hi>) (XXII, 323). <persName ref="029471249" type="idref" xml:base="https://www.idref.fr/">Pietro Pucci</persName> note que
+          l’emploi de l’épithète glukeros « montre que le retour d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, qui est le thème
+          du poème, se confond avec le thème du plaisir » (1995 : 195 ; voir
+          également <hi rend="italic">Odyssée</hi> XI, 100).</p>
+          <p xml:id="d1e1090">Les interprétations cyniques et stoïciennes sont
+          stratégiques, elles cherchent à se démarquer de la pensée archaïque
+          en opposant, par exemple, à l’attachement à l’<hi rend="italic">oikos</hi>, l’idéal d’une citoyenneté du monde. Sont
+          mis en perspective les bénéfices du voyage, en tant qu’abandon de ce
+          qui est futile et fini, comme l’attachement à une organisation
+          sociale<note n="67" place="foot" type="standard" xml:id="ftn67">
+              <p>Cf. Thémistius citant Antisthène (<hi rend="italic">De la
+              Vertu, in Les Cyniques grecs. Fragments et témoignages</hi>. Éd.
+              par Léonce Paquet. Paris, Librairie générale française, 1992 :
+              53).</p>
+          </note>. L’errance et le dénuement deviennent des vertus<note n="68" place="foot" type="standard" xml:id="ftn68">
+              <p>On retrouve là l’empreinte de Diogène de Sinope (cf. Diogène
+              Laërce, <hi rend="italic">Vies et doctrines des philosophes
+              illustres</hi> VI, 38).</p>
+            </note>. Ce recours à l’interprétation allégorique est, selon
+          nous, un moyen de couper le lien entre <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> et
+          son héros, ou plutôt de faire entrer le poète de force dans la
+          philosophie. Ulysse devenu apprenti philosophe est le héros d’une
+          poésie qui serait déjà philosophique. Or, tout cela est remis en
+          question, non seulement par la logique narrative odysséenne, mais
+          aussi par l’anthropologie homérique, pour laquelle l’homme aspire
+          essentiellement non pas à se déplacer, à se détacher, mais à occuper
+          une place dans un périmètre délimité : l’<hi rend="italic">oikos</hi>
+            <note n="69" place="foot" type="standard" xml:id="ftn69">
+              <p>William B. Stanford donne l’explication la plus simple et la
+              plus convaincante, selon nous, du désir d’Ulysse : « il veut
+              rentrer chez lui […] il insiste simplement sur le fait qu’il n’y
+              a rien de mieux qu’un chez soi […]. Pour Homère, Ulysse est
+              constamment habité et mû par le désir et l’amour de son
+              domaine » (1954 : 49-50).</p>
+            </note>. Le récit du retour d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> ne
+          légitime pas la connaissance ou la révélation d’un monde nouveau,
+          mais la reconnaissance du semblable (<hi rend="italic">homoios</hi>)
+            et du proche (<hi rend="italic">philos</hi>)<note n="70" place="foot" type="standard" xml:id="ftn70">
+              <p>Le fait qu’Ulysse, au chant XXIII, veuille s’assurer que
+              l’olivier qui lui servit à fabriquer son lit nuptial avant de
+              partir pour Troie n’a pas été coupé, puis que la couche
+              elle-même n’a pas été déplacée pendant son absence, est
+              révélateur de sa crainte du changement.</p>
+            </note>. Ainsi, plus l’interprétation du texte sera allégorique,
+          moins l’importance de cette reconnaissance et donc la subtilité
+          narrative de la fin de l’épopée seront perçues.</p>
+          <p xml:id="d1e1127">*</p>
+          <p xml:id="d1e1131">La mémoire est non seulement une réserve de
+          récits, mais aussi une ressource dans l’univers agonistique qui
+          caractérise l’<hi rend="italic">Odyssée</hi>. Parce qu’il a bonne
+          mémoire, <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> se sort de
+          nombreuses épreuves. La démesure des hommes qui sert de toile de
+          fond au récit épique n’est pas encore liée à l’ignorance, comme on
+          aura tendance à le penser à la période classique, mais à l’oubli.
+          Sur <placeName ref="261707" type="geonames" xml:base="https://www.geonames.org/">Ithaque</placeName>, les
+          prétendants de <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName> sont des
+          figures exemplaires de cette démesure, de l’orgueil s’emparant des
+          hommes qui oublient les dieux. <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> est
+          sauvé par le souvenir, les prétendants seront châtiés parce qu’ils
+          bafouent la mémoire : non seulement ils oublient ce qu’ils doivent à
+          <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> et aux dieux,
+          mais en plus ils font pression sur l’aède Phémios, afin que ce
+          dernier ne chante pas le passé glorieux d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>. La
+          mémoire triomphera et rétablira les liens de justice. Or, la lutte
+          pour la conservation de la mémoire ne sera plus au centre des
+          préoccupations de la philosophie grecque classique : le poète pensé
+          par Socrate n’est plus un manipulateur de mots, de sons et d’effets,
+          ni un maître de connaissances, il devient un être solitaire et
+          divinement inspiré<note n="71" place="foot" type="standard" xml:id="ftn71">
+              <p>Sur ces transformations, cf. Havelock (1963 : 155-156).</p>
+            </note>. Ce penchant pour l’ascèse se renforcera dans le
+          stoïcisme, où Ulysse incarne moins la mémoire que la retenue et le
+          détachement. Bien au contraire, nous avons essayé de montrer que
+          c’est dans l’espace de l’<hi rend="italic">oikos</hi>, et dans le
+          temps de la performance épique, que se dit une mémoire, dont la
+          richesse et le chatoiement sont sources de plaisirs : « Dans l’<hi rend="italic">Odyssée</hi>, la vie est désirable, car elle est une
+          source inépuisable de plaisirs dont le détail nous est raconté par
+          le poème », écrit <persName ref="029471249" type="idref" xml:base="https://www.idref.fr/">Pietro Pucci</persName> (1995 :
+          89). Sans la perspective de cette douce vie au sein de l’<hi rend="italic">oikos</hi> d’<placeName ref="261707" type="geonames" xml:base="https://www.geonames.org/">Ithaque</placeName>, on
+          comprend mal l’acharnement d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> à vouloir rentrer
+          chez lui. Plaisir, désir sont donc des termes qu’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> et <persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> associent à
+          l’art poétique. Selon <persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName>, <persName ref="078604400" type="idref" xml:base="https://www.idref.fr/">Mnémosyne</persName> enfante les
+          muses pour qu’elles soient la « trêve des soucis » (<hi rend="italic">Théogonie</hi>, 55).</p>
+          <p xml:id="d1e1154">Aux dieux joueurs, espiègles, complexes,
+          composites d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>, <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> préfère
+          l’ascétisme, la simplicité d’un dieu qui ne se laisse pas affecter
+          par l’extérieur, qui méprise ce qui est vain et futile (<hi rend="italic">République</hi> II). Le projet platonicien visant à
+          tourner la page des représentations archaïques et païennes n’a que
+          partiellement réussi. Il est tout de même parvenu à faire de la
+          poésie homérique un objet de réflexion essentiellement esthétique et
+          non plus anthropologique ou philosophique. Les ruses des dieux, les
+          pièges – tant décriés par <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> – qu’ils tendent
+          aux mortels sont, de notre point de vue, l’expression d’une forme de
+          sagesse. Ils sont pensés par les immortels comme le moyen –
+          pédagogique, pourrait-on dire – de rappeler à l’homme les limites de
+          sa nature et de sa condition. La spiritualité et l’intériorité sont
+          les outils que la philosophie et la théologie mettent en avant comme
+          promesse de dépassement de ces limites. Elles sont les deux voies
+          qui permettent à l’esprit, mû par la raison, de s’élever. À cet
+          égard, les thèses platoniciennes et stoïciennes ne sont pas si
+          éloignées, les unes et les autres tendent vers une condition humaine
+          tournée non plus vers la <hi rend="italic">poikilia</hi> homérique,
+          la tendance à la diversité, à la complexité, l’ambiguïté, mais vers
+          l’unicité, la simplicité, la pureté et l’authenticité. Alors que la
+          poésie est chez <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> la célébration
+          d’une mémoire <hi rend="italic">poikilè</hi>, bigarrée, composée,
+          mélangée, variée, la pratique de l’anamnèse prônée par Platon en
+          fait un exercice spirituel 72. Nous pensons que les philosophes
+          grecs, tout comme Homère et Hésiode, invitaient leurs contemporains
+          à la sagesse. Mais celle-ci, pour faire bon ménage avec un
+          enseignement reposant sur un savoir épistémique, ne devait plus
+          reposer sur des récits échappant au <hi rend="italic">logos</hi>
+          philosophique.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliography" xml:id="d1e1169">
+        <listBibl xml:id="d1e1170">
+          <bibl subtype="level1" type="head" xml:id="d1e1171">Références
+          bibliographiques</bibl>
+          <bibl xml:id="d1e1173">
+            <hi rend="bold">Assmann, Jan</hi> 2007 <hi rend="italic">Le Prix du monothéisme</hi>. Trad. de l’allemand par
+          Laure Bernardi. Paris, Aubier (« Collection historique »).<lb/>2010
+          <hi rend="italic">La Mémoire culturelle. Écriture, souvenir et
+          imaginaire politique dans les civilisations antiques</hi>. Trad. de
+          l’allemand par Diane Meur. Paris, Aubier.</bibl>
+          <bibl xml:id="d1e1186">
+            <hi rend="bold">Augé, Marc</hi> 1982 <hi rend="italic">Génie du paganisme</hi>. Paris, Gallimard
+          (« Bibliothèque des sciences humaines »).</bibl>
+          <bibl xml:id="d1e1194">
+            <hi rend="bold">Bidou, Patrice</hi> 1986 « Le
+          mythe : une machine à traiter l’histoire. Un exemple amazonien »,
+          <hi rend="italic">L’Homme</hi> 100 : 65-90.</bibl>
+          <bibl xml:id="d1e1202">
+            <hi rend="bold">Buffière, Félix</hi> 1973 <hi rend="italic">Les Mythes d’Homère et la pensée grecque</hi>. Paris,
+          Belles Lettres (« Collection d’études anciennes »).</bibl>
+          <bibl xml:id="d1e1210">
+            <hi rend="bold">Cantarella, Eva</hi> 2001
+          « Introduction », in Homère, <hi rend="italic">Odyssée (grec
+          ancien-français)</hi>. Texte établi et trad. par Victor Bérard.
+          Paris, Belles Lettres (« Classiques en poche ») : <hi rendition="#T10">xxx-xxxi</hi>.</bibl>
+          <bibl xml:id="d1e1222">
+            <hi rend="bold">Casajus, Dominique</hi> 2010
+          « Quelques jours dans la vie d’Homère », <hi rend="italic">L’Homme</hi> 195-196 : 333-358.</bibl>
+          <bibl xml:id="d1e1230">
+            <hi rend="bold">Cavafy, Constantin P.</hi>
+          1958 « Ithaque », in Marguerite Yourcenar &amp; Constantin Dimaras,
+          eds, Poèmes. <hi rend="italic">Présentation critique de Constantin
+          Cavafy</hi>, 1863-1933. Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e1238">
+            <hi rend="bold">Clay, Jenny Strauss</hi> 1983
+          <hi rend="italic">The Wrath of Athena. Gods and Men in the</hi>
+          Odyssey. Princeton, Princeton University Press.</bibl>
+          <bibl xml:id="d1e1246">
+            <hi rend="bold">Detienne, Marcel</hi> 1967
+          <hi rend="italic">Les Maîtres de vérité dans la Grèce
+          archaïque</hi>. Paris, Maspéro.<lb/>1981 <hi rend="italic">L’Invention de la mythologie</hi>. Paris, Gallimard
+          (« Bibliothèque des sciences humaines »).<lb/>1998 <hi rend="italic">Apollon, le couteau à la main. Une approche
+          expérimentale du polythéisme grec</hi>. Paris, Gallimard
+          (« Bibliothèque des sciences humaines »).</bibl>
+          <bibl xml:id="d1e1264">
+            <hi rend="bold">Detienne, Marcel &amp;
+          Jean-Pierre Vernant</hi> 1974 <hi rend="italic">Les Ruses de
+          l’intelligence. La mètis des Grecs</hi>. Paris, Flammarion
+          (« Nouvelle bibliothèque scientifique »).</bibl>
+          <bibl xml:id="d1e1272">
+            <hi rend="bold">Duhot, Jean-Joël</hi> 2003
+          <hi rend="italic">Épictète et la sagesse stoïcienne</hi>. Paris,
+          Albin Michel.</bibl>
+          <bibl xml:id="d1e1281">
+            <hi rend="bold">Dumézil, Georges</hi> 1995
+          <hi rend="italic">Mythe et Épopée</hi>. Préf. de Joël H. Grisward.
+          Paris, Gallimard (« Quarto »).</bibl>
+          <bibl xml:id="d1e1289">
+            <hi rend="bold">Foley, John Miles</hi> 1995
+          <hi rend="italic">The Singer of Tales in Performance. Voices in
+          Performance and Text</hi>. Bloomington, Indiana University
+          Press.</bibl>
+          <bibl xml:id="d1e1297">
+            <hi rend="bold">Ford, Andrew Laughlin</hi>
+          1992 <hi rend="italic">Homer. The Poetry of the Past</hi>. Ithaca,
+          Cornell University Press.</bibl>
+          <bibl xml:id="d1e1305">
+            <hi rend="bold">Hadot, Pierre</hi> 1995 <hi rend="italic">Qu’est-ce que la philosophie antique ?</hi> Paris,
+          Gallimard (« Folio/Essais » 280).</bibl>
+          <bibl xml:id="d1e1313">
+            <hi rend="bold">Hainsworth, John B., ed.</hi>
+          1988 <hi rend="italic">A Commentary on Homer’s Odyssey</hi>, 1.
+          Oxford, Clarendon Press / New York, Oxford University Press.</bibl>
+          <bibl xml:id="d1e1321">
+            <hi rend="bold">Hartog, François</hi> 1996
+          <hi rend="italic">Mémoire d’Ulysse. Récits sur la frontière en Grèce
+          ancienne</hi>. Paris, Gallimard (« NRF Essais »).</bibl>
+          <bibl xml:id="d1e1330">
+            <hi rend="bold">Havelock, Eric A.</hi> 1963
+          <hi rend="italic">Preface to Plato</hi>. Cambridge, Belknap Press of
+          Harvard University Press.<lb/>1986 <hi rend="italic">The Muse Learns
+          to Write. Reflections on Orality and Literacy from Antiquity to
+          Present</hi>. New Haven, Yale University Press.</bibl>
+          <bibl xml:id="d1e1343">
+            <hi rend="bold">Kirk, Geoffrey S.</hi> 1976
+          <hi rend="italic">Homer and the Oral Tradition</hi>. New York,
+          Cambridge University Press.</bibl>
+          <bibl xml:id="d1e1351">
+            <hi rend="bold">Koch, Renée</hi> 2005 <hi rend="italic">Comment peut-on être dieu ? La secte d’Épicure</hi>.
+          Paris, Belin (« L’Antiquité au présent »).</bibl>
+          <bibl xml:id="d1e1359">
+            <hi rend="bold">Lenclud, Gérard</hi> 1994
+          « Qu’est-ce que la tradition ? », in Marcel Detienne, ed., <hi rend="italic">Transcrire les mythologies. Tradition, écriture,
+          historicité</hi>. Paris, Albin Michel : 25-44.</bibl>
+          <bibl xml:id="d1e1367">
+            <hi rend="bold">Létoublon, Françoise</hi>
+          1985 « Nostalgie », <hi rend="italic">Peuples méditerranéens</hi>
+          30 : 159-176.<lb/>2002 « L’épopée homérique », in Jean Derive, ed.,
+          <hi rend="italic">L’Épopée. Unité et diversité d’un genre</hi>.
+          Paris, Karthala : 11-29.</bibl>
+          <bibl xml:id="d1e1380">
+            <hi rend="bold">Loraux, Nicole</hi> 1989 <hi rend="italic">Les Expériences de Tirésias. Le féminin et l’homme
+          grec</hi>. Paris, Gallimard (« NRF essais »).</bibl>
+          <bibl xml:id="d1e1389">
+            <hi rend="bold">Lord, Albert B.</hi> 1990
+          [1960] <hi rend="italic">The Singer of Tales</hi>. Cambridge,
+          Harvard Universiry Press.</bibl>
+          <bibl xml:id="d1e1397">
+            <hi rend="bold">Mezzadri, Bernard, ed.</hi>
+          2001 <hi rend="italic">Europe</hi> 865 : <hi rend="italic">Homère</hi>.</bibl>
+          <bibl xml:id="d1e1408">
+            <hi rend="bold">Murray, Oswyn</hi> 1992
+          « Cités de Raison », in Oswyn Murray &amp; Simon Price, eds, <hi rend="italic">La Cité grecque. D’Homère à Alexandre</hi>. Paris, La
+          Découverte : 13-39.</bibl>
+          <bibl xml:id="d1e1416">
+            <hi rend="bold">Nagy, Gregory</hi> 2000 <hi rend="italic">La Poésie en acte. Homère et autres chants</hi>. Trad.
+          de l’anglais par Jean Bouffartigue. Paris, Belin.</bibl>
+          <bibl xml:id="d1e1424">
+            <hi rend="bold">Onians, Richard Broxton</hi>
+          1999 <hi rend="italic">Les Origines de la pensée européenne. Sur le
+          corps, l’esprit, l’âme, le monde</hi>, le temps et le destin. Paris,
+          Le Seuil (« L’ordre philosophique »).</bibl>
+          <bibl xml:id="d1e1432">
+            <hi rend="bold">Pépin, Jean</hi> 1958 <hi rend="italic">Mythe et Allégorie. Les origines grecques et les
+          contestations judéo-chrétiennes</hi>. Paris, Montaigne.</bibl>
+          <bibl xml:id="d1e1441">
+            <hi rend="bold">Perceau, Sylvie</hi> 2002 <hi rend="italic">La Parole vive. Communiquer en catalogue dans l’épopée
+          homérique</hi>. Louvain, Peeters (« Bibliothèque d’études
+          classiques » 30).</bibl>
+          <bibl xml:id="d1e1449">
+            <hi rend="bold">Pouillon, Jean</hi> 1975 <hi rend="italic">Fétiches sans fétichisme</hi>. Paris, Maspéro
+          (« Bibliothèque d’anthropologie »).</bibl>
+          <bibl xml:id="d1e1457">
+            <hi rend="bold">Pucci, Pietro</hi> 1995 <hi rend="italic">Ulysse polutropos. Lectures intertextuelles de
+          l’Iliade et de l</hi>’Odyssée. Trad. par Jeannine Routier-Pucci.
+          Villeneuve d’Ascq, Presses universitaires du Septentrion.</bibl>
+          <bibl xml:id="d1e1465">
+            <hi rend="bold">Radin, Paul, Karl Kerényi
+          &amp; Carl Gustav Jung</hi> 1958 <hi rend="italic">Le Fripon divin.
+          Un mythe indien</hi>. Genève, Georg.</bibl>
+          <bibl xml:id="d1e1473">
+            <hi rend="bold">Segal, Charles</hi> 1994 <hi rend="italic">Singers, Heroes, and Gods in the</hi> Odyssey. Ithaca,
+          Cornell University Press.</bibl>
+          <bibl xml:id="d1e1481">
+            <hi rend="bold">Sissa, Giulia &amp; Marcel
+          Detienne</hi> 1989 <hi rend="italic">La Vie quotidienne des dieux
+          grecs</hi>. Paris, Hachette.</bibl>
+          <bibl xml:id="d1e1490">
+            <hi rend="bold">Stanford, William B.</hi>
+          1954 <hi rend="italic">The Ulysses Theme. A Study in the
+          Adaptability of a Traditional Hero</hi>. Oxford, Blackwell.</bibl>
+          <bibl xml:id="d1e1498">
+            <hi rend="bold">Vernant, Jean-Pierre</hi>
+          1974 <hi rend="italic">Mythe et société en Grèce ancienne</hi>.
+          Paris, Maspero (« Textes à l’appui »). 1979 <hi rend="italic">Religions, histoires, raisons</hi>. Paris, Maspero
+          (« Petite collection Maspero » 233).<lb/>1996 <hi rend="italic">Mythe et pensée chez les Grecs. Études de psychologie
+          historique</hi>. Paris, La Découverte (« La
+          Découverte-poche »).<lb/>2005 <hi rend="italic">Pandôra. La première
+          femme</hi>. Paris, Bayard.</bibl>
+          <bibl xml:id="d1e1520">
+            <hi rend="bold">Zumthor, Paul</hi> 1972 <hi rend="italic">Essai de poétique médiévale</hi>. Paris, Le Seuil
+          (« Poétique »).<lb/>1983 <hi rend="italic">Introduction à la poésie
+          orale</hi>. Paris, Le Seuil (« Poétique »).</bibl>
+          <bibl subtype="level1" type="head" xml:id="d1e1532">Références des
+          sources citées</bibl>
+          <bibl xml:id="d1e1534">
+            <hi rend="bold">Aristote</hi>
+            <hi rend="italic">Poétique</hi>. Trad. par Jean Hardy. Paris, Belles
+          Lettres, 1969 (« Collection des universités de France »).</bibl>
+          <bibl xml:id="d1e1542">
+            <hi rend="bold">Clément d’Alexandrie</hi>
+            <hi rend="italic">Les Stromates</hi>, 5. Trad. par Pierre Voulet. Paris,
+          Le Cerf, 1981 (« Sources chrétiennes »).</bibl>
+          <bibl xml:id="d1e1550">
+            <hi rend="bold">Dante Alighieri</hi>
+            <hi rend="italic">Œuvres complètes</hi>. Éd. et trad. par Christian Bec.
+          Paris, Librairie générale française, 2002 (« La pochothèque.
+          Classiques modernes »).</bibl>
+          <bibl xml:id="d1e1559">
+            <hi rend="bold">Diogène Laërce</hi>
+            <hi rend="italic">Vies et doctrines des philosophes illustres</hi>.
+          Trad. par Émile Bréhier. Paris, Gallimard, 1962.</bibl>
+          <bibl xml:id="d1e1567">
+            <hi rend="bold">Épictète</hi>
+            <hi rend="italic">Entretiens, in Les Stoïciens</hi>. Trad. par Émile
+          Bréhier et éd. de Pierre-Maxime Schuhl. Paris, Gallimard, 1962
+          (« Bibliothèque de la Pléiade » 156).</bibl>
+          <bibl xml:id="d1e1575">
+            <hi rend="bold">Eustathe</hi>
+            <hi rend="italic">Commentarii ad Homeri Odysseam ad fidem exempli romani
+          editi</hi>. Hildesheim, G. Olms, 1960.</bibl>
+          <bibl xml:id="d1e1583">
+            <hi rend="bold">Hésiode</hi>
+            <hi rend="italic">Théogonie. La naissance des dieux</hi>. Éd. et trad.
+          par Annie Bonnaffé. Paris, Rivages, 1993 (« Rivages poche. Petite
+          bibliothèque »).</bibl>
+          <bibl xml:id="d1e1591">
+            <hi rend="bold">Homère</hi>
+            <hi rend="italic">Hymnes</hi>. Texte établi et traduit par Jean Humbert.
+          Paris, Belles Lettres, 1936.<lb/>
+            <hi rend="italic">Odyssée</hi>.
+          Trad. du grec ancien par Victor Bérard. Introd. et notes de Jean
+          Bérard. Paris, Gallimard, 1955 (« Bibliothèque de la Pléiade »
+          115).</bibl>
+          <bibl xml:id="d1e1603">
+            <hi rend="bold">Nietzsche, Friedrich</hi>
+            <hi rend="italic">La Généalogie de la morale</hi>. Trad. par Henri
+          Albert. Paris, Gallimard, 1968.</bibl>
+          <bibl xml:id="d1e1612">
+            <hi rend="bold">Pindare</hi>
+            <hi rend="italic">Isthmiques et Fragments</hi>. Éd. et trad. par Aimé
+          Puech. Paris, Belles Lettres, 1961 (« Collection des universités de
+          France »).</bibl>
+          <bibl xml:id="d1e1620">
+            <hi rend="bold">Platon</hi>
+            <hi rend="italic">Œuvres complètes</hi> V, 1<hi rend="sup">re</hi>
+          partie : <hi rend="italic">Ion, Ménéxène, Euthydème</hi>. Éd. et
+          trad. par Louis Méridier. Paris, Belles Lettres, 1931 ; VI, VII :
+          <hi rend="italic">La République</hi>. Éd. et trad. par Émile
+          Chambly. Paris, Belles Lettres, 1932-1934.</bibl>
+          <bibl xml:id="d1e1637">
+            <hi rend="bold">Pseudo-Héraclite</hi>
+            <hi rend="italic">Allégories d’Homère</hi>. Texte établi et trad. par
+          Félix Buffière. Paris, Belles Lettres, 1962.</bibl>
+          <bibl xml:id="d1e1645">
+            <hi rend="bold">Sénèque</hi>
+            <hi rend="italic">De la Constance du sage, in Les Stoïciens</hi>. Trad.
+          par Émile Bréhier et éd. de Pierre-Maxime Schuhl. Paris, Gallimard,
+          1997.</bibl>
+          <bibl xml:id="d1e1653">
+            <hi rend="bold">Sextus Empiricus</hi>
+            <hi rend="italic">Esquisses pyrrhoniennes</hi>. Éd. et trad. par Pierre
+          Pellegrin. Paris, Le Seuil, 1997 (« Points. Essais »).</bibl>
+          <bibl xml:id="d1e1661">
+            <hi rend="bold">Xénophane de Colophon</hi>
+            <hi rend="italic">Fragments</hi>, in Luc Brisson, ed., <hi rend="italic">Introduction à la philosophie du mythe, 1 : Sauver les
+          mythes</hi>. Paris, Vrin, 1996 (« Essais d’art et de
+          philosophie »).</bibl>
+          <bibl xml:id="d1e1673">
+            <hi rend="bold">Xénophon</hi>
+            <hi rend="italic">Mémorables</hi>, Livre 1. Trad. par Louis-André
+          Dorion. Paris, Belles Lettres, 2000 (« Collection des universités de
+          France »).</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

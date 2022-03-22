@@ -1,0 +1,1455 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="MaR-10_Ratcliff">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Un modèle bifacial du fonctionnement cognitif :
+        matérialités et pratiques ordinaires dans un parcours de
+        recherche</title>
+        <author role="aut">
+          <forename>Marc J. Ratcliff</forename>
+          <surname/>
+          <affiliation>Université de Genève</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when=""/> dans le
+        cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/ERJFTGA5" type="conferencePaper" xml:lang="">
+          <analytic>
+            <title level="a">Un modèle bifacial du fonctionnement cognitif :
+            matérialités et pratiques ordinaires dans un parcours de
+            recherche</title>
+            <author>
+              <forename>Marc</forename>
+              <surname>J. Ratcliff</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title type="conferenceName">Matières à raisonner</title>
+            <imprint>
+              <pubPlace>Genève</pubPlace>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6458783" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName>
+          </term>
+          <term>
+            <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+          <term>
+            <placeName ref="2753919" type="geonames" xml:base="https://www.geonames.org/">Pays-Bas</placeName>
+          </term>
+          <term>
+            <placeName ref="2747373" type="geonames" xml:base="https://www.geonames.org/">La Haye</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1710">1710</date>
+          </term>
+          <term>
+            <date from="1744-08-25" to="1744-08-31" type="_temp">dernière
+            semaine d’août</date>
+          </term>
+          <term>
+            <date from="1743-11-01" to="1743-11-30" type="_temp">novembre
+            1743</date>
+          </term>
+          <term>
+            <date type="_temp" when="1744">1744</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2021-12-07T16:30:00" who="Elodie LACROIX">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Un modèle bifacial du fonctionnement
+          cognitif : matérialités et pratiques ordinaires dans un parcours de
+          recherche</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Marc J. Ratcliff</docAuthor>
+          <affiliation>Université de Genève</affiliation>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">Cet article explore les relations entre les
+        matérialités et les pratiques savantes ordinaires à l’aune d’un modèle
+        du fonctionnement cognitif bifacial inspiré de la théorie piagétienne
+        et appliqué à un parcours de recherche. On analyse le cas de
+        l’invention d’un instrument d’optique, appelé porte-loupe, par
+        <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Abraham Trembley</persName>
+        (1710-1784) aux <placeName ref="2753919" type="geonames" xml:base="https://www.geonames.org/">Pays-Bas</placeName> au cours de
+        l’été <date type="_temp" when="1744">1744</date>. Ce modèle du
+        fonctionnement cognitif du savant pose que pour innover, le chercheur
+        doit endosser une alternance entre deux modes du contrôle de l’action,
+        descendant et ascendant. Pour comprendre la place et le statut des
+        matérialités et des pratiques de science ordinaire dans un processus
+        aboutissant à l’invention d’un instrument scientifique, on reconstruit
+        le parcours de recherche de <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> aux prises avec
+        des organismes invisibles. Sa découverte du mode de reproduction d’un
+        organisme microscopique repose sur un nouvel instrument dont on
+        analyse le statut et l’importance des matérialités et des pratiques
+        ordinaires. Lors de ce parcours, la création de ce nouveau moyen
+        d’investigation résulte de la résolution d’un conflit entre
+        l’ordinarité propre aux objets de recherche – les organismes – et les
+        pratiques ordinaires du savant. Le modèle du fonctionnement cognitif
+        bifacial peut ainsi rendre compte de l’ordinarité des pratiques comme
+        de la matérialité des objets inclus ou découverts dans le parcours de
+        recherche.</p>
+        <p xml:lang="eng">This paper explores the relationships between
+        materialities and ordinary scholarly practices in the light of a
+        bifacial model of cognitive functioning inspired by the Piagetian
+        theory and applied to an investigative pathway. We analyze the case of
+        the invention of an optical instrument, the “porte-loupe” by Abraham
+        Trembley (1710-1784) in Holland during the summer of 1744. According
+        to the cognitive functioning model, in order to innovate, the
+        researcher must be able to alternate two modes of controlling action,
+        top-down and bottom-up. To understand the place and the status of the
+        materialities and practices of ordinary science in the research
+        process leading to the invention of a scientific instrument, we
+        reconstruct Trembley’s investigative pathway struggling with invisible
+        organisms. His discovery of the way of reproduction of a microscopic
+        organism is based on a new instrument about which we analyze the
+        status and importance of materialities and ordinary practices. During
+        this investigative pathway, the creation of a new means of
+        investigation came from the resolution of a conflict between the
+        ordinariness specific to the research objects - the organisms - and
+        the ordinary practices of the scholar. The model of bifacial cognitive
+        functioning can thus account for the ordinary nature of scholarly
+        practices as well as the materiality of the objects included or
+        discovered in the investigative pathway.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <div type="section1" xml:id="d1e58">
+          <head subtype="level1" xml:id="d1e59">Fonctionnement cognitif,
+          innovation et matérialité</head>
+          <p xml:id="d1e61">Cet article<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>Ce travail est soutenu par un subside du Fonds national
+              suisse, n° 100012_159508. Toutes les images sont © Bibliothèque
+              de Genève, que je remercie ici.</p>
+            </note> se propose d’évaluer la pertinence d’un modèle du
+          fonctionnement cognitif du savant développé dans de précédents
+          travaux, en cherchant à voir s’il est approprié pour comprendre les
+          questions de la matérialité et des pratiques de science
+          ordinaire<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>Ce modèle est tiré de <hi rend="small-caps">Ratcliff</hi>,
+              2016.</p>
+            </note>. À cette fin, on l’appliquera à une étude de cas relative
+          à l’invention d’un instrument scientifique au milieu du <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date>.
+          Contrairement aux théories contemporaines de l’agent conçu comme
+          simple transformateur du monde, ce modèle s’est inspiré de
+          l’approche piagétienne selon laquelle une activité de transformation
+          du monde est toujours doublée d’une activité de transformation du
+          sujet<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>
+                <hi rend="small-caps">Piaget (</hi>1937, 311) situe
+              l’intelligence comme interaction entre la connaissance du moi et
+              celle des choses, aussi est-ce « en s’orientant simultanément
+              vers les deux pôles de cette interaction qu’elle organise le
+              monde en s’organisant elle-même ».</p>
+            </note>, grâce aux mécanismes d’accommodation et
+          d’assimilation<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>
+                <hi rend="small-caps">Piaget,</hi> 1936, 12-13.</p>
+            </note>. Aussi l’agentivité du sujet ne reflète-t-elle qu’une
+          dimension dont la complémentaire est sa réceptivité, donnant lieu à
+          un sujet bifacial. Sur cette base, le modèle cognitif bifacial que
+          nous convoquons ici a permis de reconstruire l’histoire d’une
+          découverte à partir d’un cahier de laboratoire et des
+          correspondances et imprimés qui y sont rattachés<note n="5" place="end" type="standard" xml:id="ftn5">
+              <p>
+                <hi rend="small-caps">Ratcliff</hi>, 2016, p. 21-23.</p>
+            </note>. Il pose que la nouveauté scientifique ne peut apparaître
+          sans qu’il y ait, de la part du sujet, une alternance des modes de
+          contrôle de l’action, distribuée en deux fonctions complémentaires :
+          1. le contrôle descendant (pôle assimilateur) <hi rend="italic">généralise </hi>des pratiques et significations déjà
+          existantes à des objets nouveaux ; 2. le contrôle ascendant - pôle
+          accommodateur et posture d’écoute – peut aboutir à la <hi rend="italic">création</hi> de nouvelles pratiques, significations
+          et représentations scientifiques de l’objet. L’articulation de ces
+          deux modes du contrôle de l’action donne lieu à une double
+          construction, de l’objet et du sujet – ce qui est à considérer comme
+          le résultat global de l’enquête, contrairement à l’isolement du seul
+          fait scientifique naturalisé qui n’exprime que le volet focal de la
+          réalité construite.</p>
+          <p xml:id="d1e112">Ce modèle n’a toutefois pas été confronté
+          directement à la question de la matérialité et des pratiques
+          savantes ordinaires. Les anthropologues des sciences ont montré que
+          le travail du savant est constitué de nombreuses pratiques
+          ordinaires, corporelles et matérielles, tels que des gestes, des
+          postures, des modes d’écriture, de rapports au texte et aux objets.
+          Cette manière d’envisager le travail savant ouvre-t-elle un espace
+          radicalement différent du périmètre de pertinence de ce modèle ou,
+          au contraire, matérialités et ordinarités du travail savant
+          participent du parcours de recherche envisagé au point de vue d’un
+          sujet bifacial ? Pour trancher la question, nous allons interroger
+          les relations entre cognition et matérialité, entre processus
+          d’innovation et pratiques ordinaires, ouvrant nombre de questions :
+          quel est le statut de la matérialité ? Quelle influence la
+          matérialité prend-elle dans le processus d’innovation ? Quel est le
+          rôle des pratiques ordinaires ? La matérialité est-elle une étape
+          dans un processus ? Quel est son rapport avec l’organisation ?</p>
+          <p xml:id="d1e114">Pour aborder ces questions, nous allons étudier
+          le statut de la matérialité des objets dans un parcours expérimental
+          heuristique, c’est-à-dire qui a abouti à une découverte<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>La notion de parcours aboutissant à une découverte se trouve
+              au croisement des travaux des psychologues piagétiens (<hi rend="small-caps">Inhelder</hi> et <hi rend="small-caps">Cellerier</hi>, 1992) et des historiens des
+              sciences (<hi rend="small-caps">Holmes</hi>, <hi rend="small-caps">Renn</hi> et <hi rend="small-caps">Rheinberger</hi> 2003, <hi rend="small-caps">Holmes</hi>, 2004).</p>
+            </note>. Ici, la nouveauté porte autant sur l’objet scientifique
+          étudié – la reproduction d’un organisme quasi invisible, finalité
+          énoncée dans une publication – que sur le <hi rend="italic">moyen
+          </hi>inventé pour l’investigation. Et justement, une des formes que
+          prend l’alternance du contrôle de l’action dans un parcours de
+          recherche est l’inversion des fins et des moyens<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>
+                <hi rend="small-caps">Ratcliff</hi>, 2016, p. 20-21. Le terme
+              <hi rend="italic">fin </hi>est dans le présent texte, synonyme
+              de <hi rend="italic">but</hi>.</p>
+            </note>, décrite par <persName ref="027071170" type="idref" xml:base="https://www.idref.fr/">Piaget</persName> à plusieurs
+          reprises<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>
+                <hi rend="small-caps">Piaget</hi> (1936, p. 221) discute par
+              exemple de la « mobilité des schèmes [qui] se reconnaît au fait
+              que les schèmes connus, constituant habituellement des fins en
+              eux-mêmes, servent momentanément de moyens pour une fin
+              nouvelle ». Dans ses œuvres de maturité, il thématise la notion
+              de « réglage actif dans le cas où le sujet est conduit à changer
+              de moyens ou peut hésiter entre plusieurs » (<hi rend="small-caps">Piaget</hi> 1975, p. 27).</p>
+            </note> puis développée par ses collaborateurs<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>
+                <hi rend="small-caps">Inhelder</hi> et <hi rend="small-caps">de</hi>
+                <hi rend="small-caps"> Caprona</hi>,
+              1992, p. 87-89.</p>
+            </note>. Ce qui est conçu comme moyen utile pour résoudre un
+          problème devient transitoirement une fin en soi car, à l’usage, le
+          moyen s’est révélé inopérant et il faut bifurquer pour le
+          transformer en moyen adéquat. C’est là une circonstance souvent
+          présente face à un problème, qui « explique la recherche des moyens
+          : il s’agit, en effet, de surmonter l’obstacle intervenu »<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>
+                <hi rend="small-caps">Piaget</hi>, 1936, p. 199.</p>
+            </note>. À ce propos, les historiens des sciences ont relevé que,
+          lors de l’enquête, il arrive que l’instrument « devient lui-même un
+          objet d’investigation »<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>
+                <hi rend="small-caps">Loettgers</hi>, 2003, p. 161.</p>
+            </note>. Si c’est bien le cas, on doit pouvoir en repérer les
+          traces sous la forme d’un basculement fin-moyen pour évaluer le rôle
+          qu’y prend le renversement du contrôle de l’action.</p>
+          <p xml:id="d1e199">Le cas choisi est celui d’une découverte faite en
+          <date type="_temp" when="1744">1744</date> par le savant genevois
+          <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Abraham Trembley</persName>
+          (1710-1784), concernant le mode de reproduction d’organismes quasi
+          invisibles. Au double point de vue des matérialités et de
+          l’alternance fin-moyen, nous étudierons cette découverte de
+          physiologie animale et l’innovation instrumentale sur laquelle elle
+          repose – son célèbre porte-loupe (Fig. 1). On explorera les
+          contextes et processus qui mènent à l’invention de ce dispositif
+          afin de saisir le <hi rend="italic">modus operandi</hi> du
+          basculement fin-moyen dans ses dimensions fonctionnelles,
+          matérielles et cognitives. Des égo-documents tels que lettres,
+          brouillon d’articles et cahiers de laboratoire, analysés en
+          relations avec les imprimés vont permettre de reconstruire la
+          manière dont <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> aborde la
+          question de l’innovation instrumentale, son rapport aux matérialités
+          et aux pratiques ordinaires.</p>
+          <figure xml:id="d1e204">
+            <head xml:id="d1e205">Fig 1. Le porte-loupe de Trembley<note n="12" place="foot" type="standard" xml:id="ftn12">
+                <p>
+                  <hi rend="small-caps">Trembley</hi>, 1747a, pl. 7. Cet
+                article est l’original français, avec quelques ajouts, de <hi rend="small-caps">Trembley</hi> (1744-45).</p>
+              </note>
+            </head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e217">
+          <head subtype="level1" xml:id="d1e218">Du visible à
+          l’invisible</head>
+          <p xml:id="d1e220">Né à <placeName ref="6458783" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName> en <date type="_temp" when="1710">1710</date>, Trembley étudie la philosophie
+          et la théologie, puis émigre en <placeName ref="8285549" type="geonames" xml:base="https://www.geonames.org/">Hollande</placeName> en <date type="_temp" when="1732">1732</date> où il devient tuteur des deux
+          fils du <persName ref="122344537" type="idref" xml:base="https://www.idref.fr/">comte William
+          Bentinck</persName>
+            <note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Pour une biographie de Trembley, voir <hi rend="small-caps">Baker</hi>, 1952.</p>
+            </note>. Au début des <date from="1740" to="1749" type="_temp">années quarante</date>, il expérimente sur un petit
+          organisme tubulaire – l’hydre d’eau douce – dont il découvre la
+          propriété de régénération. Ces années de recherche aboutissent à la
+          publication d’un best-seller de l’époque (Trembley, 1744), ses <hi rend="italic">Mémoires </hi>sur le polype (Fig. 2). Dans ses
+          recherches, <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> dit se servir
+          de plusieurs instruments, allant des loupes jusqu’aux coûteux
+          microscopes de son employeur, le <persName ref="122344537" type="idref" xml:base="https://www.idref.fr/">comte William de
+          Bentinck</persName>
+            <note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Dans une réponse à Folkes de 1743, il écrit qu’« afin de
+              prévenir l’illusion que font quelques fois les verres, je revois
+              le même objet à différentes reprises et avec différens verres;
+              d’abord avec trois à quatre loupes de force différente, et puis
+              avec la plupart des Lentilles du microscope. » Archives de la
+              Royal Society, Londres, Ms Folkes 250 (abrégé ci-après ARS,
+              MsF), FOL 3, 52.</p>
+            </note>. C’est là une pratique ordinaire que d’utiliser plusieurs
+          loupes et microscopes de types différents<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Au <hi rend="small-caps">XVIII</hi>
+                <hi rend="sup">e</hi>
+              siècle, au point de vue optique, on peut classer les microscopes
+              en quatre types : microscope simple (une lentille) ; microscope
+              double ou composé (un objectif et un oculaire) ; microscope
+              solaire (projecteur d’images agrandies) ; et microscope
+              catoptrique (qui inclut un miroir concave dans le dispositif
+              optique).</p>
+            </note> pour mener une enquête sur les organismes microscopiques.
+          C’est même une marque de l’enquête des expérimentalistes
+          naturalistes, la quantité de microscopes employés – jusqu’à dix pour
+          certains savants – sert à contrôler l’image, en compensant les
+          défauts d’image de chaque dispositif optique dans un univers
+          instrumental marqué par l’absence de standardisation<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>
+                <hi rend="small-caps">Ratcliff</hi>, 2007.</p>
+            </note>.</p>
+          <figure xml:id="d1e256">
+            <head xml:id="d1e257">Fig. 2 Abraham Trembley, <hi rend="italic">Mémoires pour servir à l’histoire d’un genre de
+            polype d’eau douce à bras en forme de corne</hi> (1744).</head>
+          </figure>
+          <p xml:id="d1e262">Pour comprendre l’origine du porte-loupe, il faut
+          explorer la période qui précède, de la fin <date type="_temp" when="1743">1743</date> – époque où l’ouvrage est mis sous presse –
+          à l’hiver <date type="_temp" when="1744">1744</date>. Déjà, nulle
+          part, il n’en est fait mention avant <date from="1744-10-01" to="1744-10-31" type="_temp">octobre 1744</date>, c’est-à-dire <hi rend="italic">après</hi> la publication des <hi rend="italic">Mémoires</hi>. <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> a arrêté les
+          recherches sur l’hydre d’eau douce une année auparavant, vers <date from="1743-11-01" to="1743-11-30" type="_temp">novembre 1743</date>,
+          ceci pour deux raisons. D’une part, sous l’Ancien Régime, les
+          recherches sont menées uniquement du printemps à l’automne, lors des
+          saisons chaudes. Le cabinet de <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> se
+          trouve dans le château de <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Sorgvliet</placeName>, le
+          domaine de <persName ref="122344537" type="idref" xml:base="https://www.idref.fr/">Bentinck</persName> qui est mis en
+          activité au printemps, comme c’est le cas pour nombre d’aristocrates
+          qui passent l’hiver en ville et la belle saison dans leur
+          propriété<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Ainsi Réaumur, en janvier 1745 écrit qu’il se « réserve
+              forcément ce plaisir [de revoir les observations de Trembley] à
+              la belle saison ». Lettre de Réaumur à Abraham Trembley, 9
+              janvier 1745, dans <hi rend="small-caps">Trembley</hi> et <hi rend="small-caps">Guyénot,</hi> 1943 (abrégé ci-après TG), p.
+              223.</p>
+            </note>. Au milieu de l’automne, <persName ref="122344537" type="idref" xml:base="https://www.idref.fr/">Bentinck</persName>
+          revient à <placeName ref="2747373" type="geonames" xml:base="https://www.geonames.org/">La Haye</placeName> avec ses
+          gens, et le calendrier des recherches est certainement agendé en
+          fonction de cela. D’autre part, en <date from="1743-12-01" to="1743-12-31" type="_temp">décembre 1743</date>, l’ouvrage de
+          <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> est mis sous
+          les presses de Verbeek à <placeName ref="2759596" type="geonames" xml:base="https://www.geonames.org/">Leide</placeName>, mais il est
+          retardé par la gravure des cuivres<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Trembley à Martin Folkes, 6 décembre 1743, ARS, MsF 250, FOL
+              1, 66.</p>
+            </note> achevée à la fin de <date from="1744-03-01" to="1744-03-31" type="_temp">mars 1744</date>
+            <note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Trembley à Folkes, 31 mars 1744, ARS, MsF 790, f. 95.</p>
+            </note>. D’après les correspondances, le livre paraît au début du
+          mois de <date from="1744-05-01" to="1744-05-31" type="_temp">mai
+          1744</date> et, le mois d’après, <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName>
+          envoie les exemplaires reliés à ses protecteurs – l’académicien de
+          <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+            <persName ref="031601294" type="idref" xml:base="https://www.idref.fr/">Antoine Ferchault de
+          Réaumur</persName> et <persName ref="078668778" type="idref" xml:base="https://www.idref.fr/">Martin Folkes</persName>, président
+          de la <hi rend="italic">Royal Society –,</hi> à sa famille, ses
+          collègues et amis. Mais une fois ce chapitre refermé, le démon de la
+          recherche reprend vite le dessus. Il donnera lieu à un saut
+          d’échelle, du visible jusqu’à l’invisible.</p>
+          <p xml:id="d1e295">L’entrée dans le monde invisible ne se fait pas
+          avant <date type="_temp" when="1744">1744</date>, et même si de
+          petites idylles polypaires sont parfois permises ailleurs<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Trembley à Folkes, 23 avril 1743 ARS, MsF 250, FOL 3, 65.
+              « J’ai eu besoin de retenue et d’une sorte de tempérance, pour
+              m’abstenir de les étudier tous. Mais l’amour que j’avois pour
+              mes Polypes, et la grande occupation qu’ils m’ont donnés l’a
+              emporté. »</p>
+            </note>, le travail heuristique du suivi expérimental des hydres
+          lui prend le peu de temps libre que lui laisse son activité de
+          précepteur des enfants du comte. Ainsi, en <date from="1743-11-01" to="1743-11-30" type="_temp">novembre 1743</date>, il écrit à
+          <persName ref="078668778" type="idref" xml:base="https://www.idref.fr/">Folkes</persName> qu’il n’a jamais
+          vu de polypes – c’est le nom générique donné en <date type="_temp" when="1740">1740</date> par <persName ref="031601294" type="idref" xml:base="https://www.idref.fr/">Réaumur</persName> à l’hydre – si
+          petits qu’ils nécessitent le microscope pour les observer<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>Trembley à Folkes, 1<hi rend="sup">er</hi> novembre 1743,
+              ARS, MsF 250 FOL 1, 52v.</p>
+            </note>. Un mois plus tard, <persName ref="031601294" type="idref" xml:base="https://www.idref.fr/">Réaumur</persName> lui décrit de
+          petits polypes « à bouquet » dans une lettre<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Réaumur à Trembley, 17 décembre 1743, TG, p. 180-181.</p>
+            </note>. En <date from="1744-01-01" to="1744-01-30" type="_temp">janvier 1744</date>, <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName>
+          répond qu’il avait déjà vu cette espèce, beaucoup plus petite que
+          les principales espèces décrites dans son livre, mais qu’il s’était
+          refusé de les observer avant d’en avoir terminé avec les polypes à
+          bras en forme de corne<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>Trembley à Réaumur, 23 janvier 1744, TG, p. 183.</p>
+            </note>. De fait, il y a d’importantes différences. Le
+          polype-type, à bras en ombelle – celui dont l’image est restée
+          attachée au nom de <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> (fig. 3) –
+          mesure en moyenne un centimètre de long lorsqu’il est étendu et peut
+          donc être facilement vu sans microscope, dont l’usage permet d’en
+          distinguer certains détails.</p>
+          <figure xml:id="d1e320">
+            <head xml:id="d1e321">Fig. 3 Le polype à bras</head>
+          </figure>
+          <figure xml:id="d1e323">
+            <head xml:id="d1e324">Fig. 4 Le polype à bouquet – dessins de
+            Trembley<note n="24" place="foot" type="standard" xml:id="ftn24">
+                <p>Trembley, 1747a, pl. 7. Guyénot considérait que l’espèce
+                était <hi rend="italic">Vorticella anastatica</hi> ou <hi rend="italic">umbellaria </hi>(TG, p. 196). Pour <hi rend="small-caps">Baker</hi> (1952, p. 107), le polype à
+                bouquet est <hi rend="italic">Epistylis anastatica</hi>. Le
+                diamètre du bouquet est d’environ 30 microns.</p>
+              </note>
+            </head>
+          </figure>
+          <p xml:id="d1e342">En revanche, la nouvelle espèce, au sommet en
+          forme de clochette et qui donne des bouquets lorsqu’elle se
+          multiplie (Fig. 4), est presque invisible. C’est un véritable
+          animalcule microscopique, dont la longueur, écrit <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName>, est d’1/240<hi rend="sup">e</hi> de pouce<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>
+                <hi rend="small-caps">Trembley</hi>, 1744-45, p. 172.</p>
+            </note>, environ 0,1 mm.</p>
+          <p xml:id="d1e355">Le contexte est donc celui d’un changement massif
+          d’échelle, car le nouvel organisme-cible est environ <hi rend="italic">cent fois</hi> plus petit que les polypes précédemment
+          observés qui faisaient l’objet des <hi rend="italic">Mémoires</hi>.
+          On peut alors imaginer les obstacles et les résistances impliqués
+          par ce saut d’échelle et la nécessité de nouveaux outils permettant
+          aussi bien de <hi rend="italic">percevoir </hi>que de <hi rend="italic">concevoir </hi>la nouvelle espèce. Ceci a des
+          conséquences sur le plan de la matérialité de ces objets. Les
+          nouveaux polypes à bouquet ne font-ils pas preuve, du moins au début
+          de l’enquête, d’une <hi rend="italic">moindre matérialité </hi>que
+          d’autres objets naturels mieux connus – ceci, d’autant plus qu’ils
+          peuvent devenir transparents ? Ici, la matérialité doit être pensée
+          non pas comme une propriété naturelle de la matière, mais bien comme
+          une construction qui dépend à la fois des propriétés de la matière
+          et des catégories d’objet disponibles qui structurent les capacités
+          perceptives et cognitives de l’observateur. Selon sa place dans le
+          parcours de recherche, la matérialité de l’objet d’investigation est
+          <hi rend="italic">variable</hi>, faible tant qu’on n’a pas les
+          moyens de la produire et pleine lorsque ces moyens ont été
+          découverts. C’est ce qu’écrit <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> à son frère,
+          dans une lettre destinée à <persName ref="027932745" type="idref" xml:base="https://www.idref.fr/">Charles Bonnet</persName>,
+          indiquant qu’il a « trouvé le moien d’observer ces animaux pandens
+          qu’ils se separent &amp; de distinguer les differe etats parlesquels
+          ils passent pendant cette separation »<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Copie d’une lettre de Trembley à son frère le ministre,
+              Bibliothèque de Genève (abrégé BGE), Ms SHAG Jallabert 242, fol
+              7.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e381">
+          <head subtype="level1" xml:id="d1e382">Obstacles et contraintes dans
+          l’invention du porte-loupe</head>
+          <p xml:id="d1e384">Comment les choses se mettent-elles en place ?
+          Dès l’année <date type="_temp" when="1743">1743</date>, bien qu’il
+          ait peu observé les polypes à bouquet, <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> a
+          déjà déterminé certains problèmes qu’il se propose de résoudre et
+          dont il a différé l’étude. En particulier, il a vu de ces polypes
+          avec une ou plusieurs clochettes et identifié des bouquets. Mais il
+          ignore les relations entre ces différentes observations<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Trembley à Réaumur, 23 janvier 1744, TG, p. 183.</p>
+            </note>. La croyance qu’il y a une possible multiplication et
+          qu’elle peut être capturée par l’œil, implique qu’un processus de
+          transformation matérielle est à l’œuvre. Aussi la matérialité du
+          polype à bouquet est-elle le résultat d’une attribution. Il faut au
+          préalable doter ces organismes, presque transparents, d’une certaine
+          matérialité, démarche apodictique sans laquelle rien ne peut se
+          faire. Mais c’est également l’indice que, d’après notre modèle
+          cognitif, le savant devrait aussi se transformer. On peut ainsi
+          faire émerger dans les sources les conditions par lesquelles va
+          s’opérer le basculement fin-moyen, à partir d’une interrogation
+          initiale que <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> synthétise en
+          <date from="1744-08-01" to="1744-08-31" type="_temp">août
+          1744</date> : « Souvent, il se formait un bouquet à l’endroit où
+          d’abord il n’y avait qu’un polype. J’ai tâché de voir comment ce
+          bouquait se formait.[…] J’ai eu divers soupçons, que j’ai tâché de
+          vérifier par divers expédiens »<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>Trembley à Réaumur, 27 août 1744, TG, p. 198.</p>
+            </note>. <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> semble se
+          battre contre l’indéfini, le vague, le manque d’orientation, une
+          sorte d’obscurité conceptuelle remarquée dans l’historiographie<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>
+                <hi rend="small-caps">Gooding</hi> (1990, p. 177) a mentionné
+              les « buts peu définis » des chercheurs tandis que, selon <hi rend="small-caps">Hallyn</hi> (2004, p. 228), « la créativité
+              scientifique ne se manifesterait que devant des problèmes mal
+              définis ». Pour <hi rend="small-caps">Rheinberger</hi> (1997, p.
+              28), les scientifiques mettent en place des systèmes
+              expérimentaux « pour donner des réponses inconnues à des
+              questions que les expérimentateurs eux-mêmes ne sont pas
+              capables de poser clairement ».</p>
+            </note>. Certainement floue à l’origine, l’interrogation
+          scientifique porte toutefois sur un objet déjà doté par le savant de
+          diverses propriétés, dont la matérialité. Elle va contribuer à
+          orienter l’enquête, mais vers une finalité nouvelle, la création
+          d’un instrument dont, au final, le statut sera intermédiaire. Car
+          pour y répondre, il va falloir laisser l’indéfini de côté et
+          basculer vers d’autres questions qui vont se substituer
+          transitoirement à l’interrogation initiale.</p>
+          <p xml:id="d1e410">C’est ce qui se passe en été <date type="_temp" when="1744">1744</date>, une fois l’ouvrage publié, relié et
+          expédié, lorsque <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName>, qui se
+          retrouve en pleine saison d’expérimentation, s’est lancé dans la
+          nouvelle enquête. Après avoir semé ses questions çà et là, il ouvre
+          un parcours de recherche finalisé pour comprendre le mode de
+          reproduction de ces organismes situés aux frontières de l’invisible.
+          Il est lui-même intime de ce monde des polypes visibles qu’il a
+          construit<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>Cette intimité des naturalistes et biologistes avec leur
+              objet a été analysée par <hi rend="small-caps">Fox-Keller</hi>,
+              1983.</p>
+            </note>, monde devenu ordinaire et qui va exercer des résistances
+          considérables montrant qu’il repose sur un univers schématique
+          mental et matériel spécifique et déjà doté d’une forte inertie. Il
+          avoue d’ailleurs qu’« il ne [lui] a pas été si facile de voir
+          comment ils multipliaient »<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Trembley à Réaumur, 27 août 1744, TG, p. 198. L’absence du
+              pronom réfléchi (« ils multipliaient ») provient de la culture
+              calviniste de Trembley (« croissez et multipliez »), comme chez
+              d’autres genevois (Bonnet, Saussure). À la même époque, les
+              auteurs de culture catholique utilisent « se multiplier » (dans
+              les textes de Buffon, de Needham).</p>
+            </note>. De fait, au début de l’enquête, il a tenté d’apporter <hi rend="italic">directement </hi>une réponse à son interrogation
+          princeps en fonction de ce monde du visible bien connu et organisé
+          autour de ses pratiques ordinaires. Les loupes, les microscopes
+          simples et doubles, ceux de <persName ref="122344537" type="idref" xml:base="https://www.idref.fr/">Bentinck</persName>, son propre
+          microscope de poche fabriqué par <persName type="_temp">John
+          Cuff</persName> qu’il a reçu de <persName ref="078668778" type="idref" xml:base="https://www.idref.fr/">Folkes</persName> en
+          <date from="1743-05-01" to="1743-05-31" type="_temp">mai 1743</date>
+          disposent bien des grossissements adéquats, entre 10 et 200 fois,
+          ainsi que de la lumière nécessaire. Mais il voit bien que ces
+          instruments ont un périmètre d’action limité car « lorsqu’on ne se
+          propose que d’observer pendant quelques moments la figure et les
+          mouvements des petits Insectes aquatiques on peut <hi rend="italic">comme on le fait ordinairement</hi>, se contenter de
+          les exposer au Microscope dans quelques gouttes d’eau »<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>BGE, Fonds Trembley 25, enveloppe 16, fol 1v, mes italiques.
+              Il s’agit d’un brouillon d’article de la main de Trembley, sans
+              titre. Une autre main donne la référence du second mémoire
+              publié dans les <hi rend="italic">Philosophical
+              Transactions</hi> (<hi rend="small-caps">Trembley</hi>,
+              1747b).</p>
+            </note>.</p>
+          <p xml:id="d1e442">Ainsi, c’est bien, déclarée par <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName>, cette
+          ordinarité des pratiques qui va faire obstacle, ne permettant
+          justement <hi rend="italic">pas </hi>de les observer, comme il
+          l’explique dans une lettre à <persName ref="031601294" type="idref" xml:base="https://www.idref.fr/">Réaumur</persName> : « Si l’on
+          tiroit de l’eau ces petits objets, pour les exposer au microscope,
+          <hi rend="italic">comme on le fait ordinairement</hi>, on risqueroit
+          de les perdre, ou pour le moins de les déranger »<note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>Trembley à Réaumur, 22 octobre 1744, mes italiques, TG, p.
+              210. <hi rend="small-caps">Trembley</hi>, 1747a, p. 162.</p>
+            </note>. Il est impossible de demeurer sur la seule interrogation
+          d’origine dotée des moyens ordinaires car les polypes résistent, ne
+          coopèrent pas. Quelque chose doit donc être modifié pour s’adapter à
+          cette résistance. Voire, c’est jusqu’à l’identification même de ce
+          problème qui suppose chez <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> un premier
+          basculement vers une forme du contrôle de l’action ascendant. Il
+          s’agit d’écouter ce que dit le polype, d’entendre sa résistance, son
+          « refus » de se laisser surprendre dans cette situation, afin de
+          déplacer le questionnement vers la nouvelle zone de pertinence. Dans
+          la mesure où il est impossible de répondre directement à
+          l’interrogation scientifique au moyen des pratiques ordinaires, il
+          faut réorienter l’enquête pour définir la nouvelle question non
+          prévue. Trembley se met alors en devoir d’affronter ce problème afin
+          de trouver un moyen adapté à l’observation de ces organismes <hi rend="italic">dans la situation dont ils ont besoin pour se laisser
+          voir</hi>.</p>
+          <p xml:id="d1e461">Peu de choses filtrent avant la fin de <date type="_temp" when="1744">1744</date>, même si, depuis août il dit
+          avoir trouvé un « expédient ». Il écrit alors à <persName ref="031601294" type="idref" xml:base="https://www.idref.fr/">Réaumur</persName> pour lui
+          déclarer la découverte en mettant la solution en image. Sur celle-ci
+          les animalcules se sont divisés spontanément en deux à partir de la
+          clochette qui se déforme à cette occasion (Fig. 5).</p>
+          <figure xml:id="d1e463">
+            <head xml:id="d1e464">Fig. 5 Croquis des polypes en
+            division</head>
+          </figure>
+          <p xml:id="d1e466">Après avoir travaillé deux mois à consolider la
+          découverte, il envoie début novembre un mémoire à <persName ref="078668778" type="idref" xml:base="https://www.idref.fr/">Folkes</persName>. Le texte est en
+          bonne partie recopié sur les lettres à <persName ref="031601294" type="idref" xml:base="https://www.idref.fr/">Réaumur</persName>
+            <note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>Ainsi que l’attestent les nombreux recoupements entre les
+              lettres de Trembley et le « Mémoire sur les polypes à bouquet »
+              (<hi rend="small-caps">Trembley</hi>, 1747a), qui est l’original
+              français, légèrement remanié et publié trois ans après, de
+              l’article « On Several newly-discovered Species… »<hi rend="italic"/>(<hi rend="small-caps">Trembley</hi>,
+              1744-45).</p>
+            </note> dont la correspondance lui sert de laboratoire de la
+          communication. <persName ref="078668778" type="idref" xml:base="https://www.idref.fr/">Folkes</persName> le traduit et en
+          fait lecture à l’assemblée de la Royal Society du <date type="_temp" when="1744-11-22">22 novembre</date>
+            <note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>
+                <hi rend="small-caps">Trembley</hi>,<hi rend="italic"/>1744-45, p. 169.</p>
+            </note>. Mais, si l’article explique en détail<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>
+                <hi rend="small-caps">Trembley</hi>,<hi rend="italic"/>1744-45, p. 175-176. Texte en français : <hi rend="small-caps">Trembley</hi>, 1747a, p. 149-150.</p>
+            </note> la multiplication du polype par une division interne, il
+          s’étend peu sur le dispositif employé :</p>
+          <quote rend="quotation" xml:id="d1e507">Pour cet effet, je fais en
+          sorte qu’ils soient fort près des parois du Verre, afin que le foïer
+          de la lentille puisse y atteindre. Je fixe ensuite, sur le côté du
+          verre, un bras articulé que j’ai installé à cet effet, au bout
+          duquel je peux visser facilement les différentes lentilles de mon
+          microscope, et les maintenir fixées à la bonne distance ; par quoi
+          je peux, avec une grande facilité, voir l’Animalcule aussi longtemps
+          que j’en ai besoin<note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>
+                <hi rend="small-caps">Trembley</hi>, 1744-45, p. 183. La
+              traduction est tirée de l’original français (<hi rend="small-caps">Trembley</hi>, 1747a, p. 162) pour la première
+              phrase, et ma traduction pour la suite. Ceci, du fait que le
+              texte français qui paraît en 1747 est augmenté et modifié sur ce
+              point par rapport à la publication anglaise de 1744-45.</p>
+            </note>.</quote>
+          <p xml:id="d1e520">C’est là la seule mention du dispositif optique
+          de l’article de <date type="_temp" when="1744">1744</date> – paru en
+          anglais –, qui ne contient aucune gravure de l’instrument. <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> mentionne quand
+          même un des obstacles, relatif à l’environnement naturel des
+          polypes, provenant de la lettre à <persName ref="031601294" type="idref" xml:base="https://www.idref.fr/">Réaumur</persName> :</p>
+          <quote rend="quotation" xml:id="d1e522">Si l’on tiroit de l’eau ces
+          petits objets, pour les exposer au Microscope, comme on le fait
+          ordinairement, on risqueroit de les perdre, ou pour le moins de les
+          déranger. J’observe donc ces Polypes avec les lentilles d’un
+          Microscope, sans les tirer des poudriers<note n="xxxviii" place="end" type="standard" xml:id="ftn38">
+              <p>Le poudrier est un bocal de verre.</p>
+            </note> dans lesquels je les tiens<note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>
+                <hi rend="small-caps">Trembley</hi>, 1747a, p. 162 ; Version
+              anglaise : <hi rend="small-caps">Trembley</hi>, 1744, p.
+              183.</p>
+            </note>.</quote>
+          <p xml:id="d1e540">Dans les deux cas, tant dans la lettre privée à
+          <persName ref="031601294" type="idref" xml:base="https://www.idref.fr/">Réaumur</persName> que dans le
+          mémoire envoyé à <persName ref="078668778" type="idref" xml:base="https://www.idref.fr/">Folkes</persName> en <date from="1744-11-01" to="1744-11-30" type="_temp">novembre 1744</date>,
+          <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> est
+          manifestement <hi rend="italic">remonté </hi>vers les finalités
+          ouvertes par l’interrogation scientifique pour laquelle il dispose,
+          à présent, d’une réponse précise, développée dans l’article. Mais
+          qu’est donc devenu le travail sur le moyen inventé ? Les deux
+          versions, publique et privée, de son compte-rendu d’expérience
+          coïncident pour montrer que cette orientation de l’enquête (vers le
+          moyen) semble être <hi rend="italic">redescendue </hi>au niveau
+          d’une pratique ordinaire – bien que nouvelle –, au point qu’il n’est
+          plus nécessaire d’en faire mention. Elle est devenue tacite par
+          défaut, presque oubliée, récessive et quasi occultée par la
+          virtuosité des résultats scientifiques. Transformé pour <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> en chose
+          connue, le dispositif matériel employé va dorénavant de soi, ce qui
+          explique qu’il ne soit mentionné qu’en passant, à travers quelques
+          détails clairsemés sur le microscope employé : « J’ai observé avec
+          des lentilles assez fortes d’un bon microscope. Je fais pour cela en
+          sorte que le polype soit tout près des parois du poudrier »<note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>Trembley à Réaumur, 27 août 1744, TG, p. 199.</p>
+            </note>. L’ensemble de ce processus de normalisation atteste du
+          caractère <hi rend="italic">oublié </hi>d’éléments du parcours de
+          recherche qui tend à normaliser, voire occulter les investigations
+          sur les moyens qui y prennent place<note n="41" place="end" type="standard" xml:id="ftn41">
+              <p>
+                <hi rend="small-caps">Ratcliff</hi>, 2016, p. 241-242.</p>
+            </note>. Mais si ces éléments vont de soi pour <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName>, ce n’est pas
+          le cas pour son audience, comme on va le voir.</p>
+        </div>
+        <div type="section1" xml:id="d1e564">
+          <head subtype="level1" xml:id="d1e565">Un conflit
+          d’interprétations</head>
+          <p xml:id="d1e567">L’organisation rhétorique de l’article de <date type="_temp" when="1744">1744</date> et les premières indications
+          fournies à <persName ref="031601294" type="idref" xml:base="https://www.idref.fr/">Réaumur</persName> sur l’instrument
+          vont se révéler insuffisantes pour faire comprendre la manière
+          d’observer du Genevois – c’est-à-dire donner pleinement à autrui les
+          moyens de reproduire l’observation. La démarche met en jeu de
+          nombreuses connaissances tacites qui vont être rendues explicites
+          grâce à la correspondance, pour déboucher ensuite sur deux versions
+          nettement améliorées de la publication. Une sorte de malentendu va
+          forcer <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> à devenir plus
+          explicite et peut-être plus conscient de la nature du nouvel
+          instrument qu’il a récemment inventé. Dans une réponse de <date from="1744-11-01" to="1744-11-30" type="_temp">novembre 1744</date>,
+          <persName ref="031601294" type="idref" xml:base="https://www.idref.fr/">Réaumur</persName> avait fait
+          l’éloge du dispositif – le pot de verre côtoyé d’un porte-loupe – en
+          indiquant que « l’expédient de fixer une loupe d’un court foyer sur
+          les parois du poudrier [...] fournit une grande facilité pour
+          retrouver un très petit objet »<note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>Réaumur à Trembley, 21 novembre 1744, TG, p. 212.</p>
+            </note>. Pour <persName ref="031601294" type="idref" xml:base="https://www.idref.fr/">Réaumur</persName>, le porte-loupe,
+          placé devant une paroi de verre, a donc pour fonction de rechercher
+          des corps, ce à quoi <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> objecte : « Ce
+          n’est pas pour retrouver facilement un objet dans un verre que je me
+          sers de l’expédient du porte-loupe. [...] C’est pour pouvoir
+          observer avec les lentilles d’un microscope »<note n="43" place="foot" type="standard" xml:id="ftn43">
+              <p>Trembley à Réaumur, 17 décembre 1744, TG, p. 217-218.</p>
+            </note>. L’incompréhension est manifeste. <persName ref="031601294" type="idref" xml:base="https://www.idref.fr/">Réaumur</persName> n’a compris ni
+          l’intention ni l’invention de son ami – ce qui est dû tant au saut
+          d’échelle effectué par <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> qu’à sa
+          conception nouvelle de la relation entre milieu et organisme. Du
+          coup, ce dernier réalise qu’il lui faut décrire le nouvel instrument
+          dans ses fonctionnalités précises. Il va alors décrypter les
+          éléments de sa <hi rend="italic">descente vers l’ordinaire </hi>par
+          laquelle il avait négligé de donner une véritable explication de
+          l’instrument. Il y ajoute un croquis du dispositif (Fig. 6), la
+          seule figure d’un « microscope » existante de la main de <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> et la toute
+          première image de son « porte-loupe » – exactement illustré <hi rend="italic">sans </hi>dispositif optique.</p>
+          <figure xml:id="d1e585">
+            <head xml:id="d1e586">Fig. 6. Premier dessin du dispositif
+            (« porte-loupe ») de Trembley, Décembre 1744<note n="44" place="foot" type="standard" xml:id="ftn44">
+                <p>Minute d’une lettre de Trembley à Réaumur, 17 décembre
+                1744, BGE, Fonds Trembley 4, enveloppe 7, fol 58.</p>
+              </note>
+            </head>
+          </figure>
+          <p xml:id="d1e592">Une narration du cheminement effectué est
+          indispensable pour se faire comprendre lorsqu’on réalise qu’on parle
+          à partir d’un nouvel univers – ici, celui du monde aux frontières de
+          l’invisible. Aussi dans la lettre de <date from="1744-12-01" to="1744-12-31" type="_temp">décembre 1744</date>, <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> explique-t-il
+          l’ensemble du chemin parcouru, les obstacles rencontrés lors de
+          l’observation des animalcules et les procédures employées. Il
+          énumère les micro-découvertes procédurales provenant des résistances
+          et des obstacles à contourner lors de la recherche de solutions
+          relatives aux moyens – ce qui montre qu’elles relèvent de la
+          para-expérimentation, un type d’expérimentation qui ne concerne pas
+          directement les questions scientifiques<note n="45" place="end" type="standard" xml:id="ftn45">
+              <p>Voir, sur la para-expérimentation, <hi rend="small-caps">Ratcliff,</hi> 2004, p. 555-575.</p>
+            </note>. Ainsi, les polypes sont difficiles à observer lorsqu’ils
+          se collent au verre ; ils doivent être très proches du verre, sans
+          pour autant le toucher ; ils ne peuvent être touchés car ils se
+          rétractent aussitôt ; de plus, trouver une hydre prête pour la
+          division n’est pas facile, car le processus dure au moins une heure,
+          et il a « donc cherché un moyen pour faire tenir près de la surface
+          intérieure d’un poudrier, les corps sur lesquels sont fixés les
+          polypes qu’[il] veu[t] observer »<note n="46" place="foot" type="standard" xml:id="ftn46">
+              <p>Trembley à Réaumur, 17 décembre 1744, TG, p. 218.</p>
+            </note>. Le basculement de la fin aux moyens est rendu explicite
+          et le moyen trouvé est un support sur lequel les polypes vont
+          pouvoir s’accrocher tout en restant dans l’eau. La création de ce
+          dispositif répond à deux contraintes, mécanique et environnementale.
+          Il doit rester rigide lorsqu’il se trouve dans l’eau et constituer
+          un milieu approprié pour que les corps microscopiques y séjournent
+          longtemps. La solution matérielle imaginée par <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> combine deux
+          corps organiques. Il rabat une plume de paon taillée (abc) sur
+          laquelle il a laissé une barbe (bd). Sur celle-ci, il pose une lame
+          de prêle (efg) sur laquelle deux polypes (i) peuvent se diviser sans
+          être dérangés. Tout cela est expliqué en détail par <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> dans sa lettre
+          à <persName ref="031601294" type="idref" xml:base="https://www.idref.fr/">Réaumur</persName>, croquis légendé
+          à l’appui. L’effet de ressort créé par la torsion de la plume de
+          paon répond à la contrainte de la fermeté-souplesse, tandis que la
+          prêle, en tant que milieu naturel des polypes, vient répondre à la
+          contrainte environnementale. Le nouvel ensemble constitue
+          l’invention qui n’est autre qu’un <hi rend="italic">plateau
+          aquatique</hi>, qui n’a cependant pas été labellisé comme tel par
+          <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName>.</p>
+          <p xml:id="d1e610">On le voit, il est impossible de comprendre
+          comment reproduire la découverte sans connaître les fonctionnalités
+          de ce dispositif. La fonction du plateau aquatique est en effet de
+          stabiliser les corps de manière à pouvoir les observer sans qu’ils
+          se déplacent, <hi rend="italic">comme s’ils se sentaient chez
+          eux</hi>. De plus, dans le contexte de l’expérimentation sur les
+          petits organismes, voir de manière efficace ne pose pas seulement
+          des problèmes de gestion de l’espace (où les placer ?), mais bien
+          aussi de temporalité (durée de l’observation). Le langage
+          méthodologique du <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          dispose d’une terminologie à cet effet. Il s’agit de « suivre »
+          l’organisme, se donner les moyens de l’observer longtemps en le
+          mettant dans une situation spatio-temporelle stable et dans son
+          environnement naturel. Mais, là encore ce n’est qu’<hi rend="italic">après coup</hi> que <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName>,
+          en <date type="_temp" when="1747">1747</date>, sera explicite à ce
+          propos :</p>
+          <quote rend="quotation" xml:id="d1e623">Il convient même de tâcher
+          d’observer ces Insectes, lorsqu’ils sont dans une plus grande
+          quantité d’eau. C’est ce qui devient encore plus necessaire,
+          lorsqu’on veut suivre l’histoire de ces Insectes. Il faut pour cela
+          necessairement observer les mêmes Insectes pendant plusieurs jours
+          de suite ; et il faut qu’ils soient, à peu près, dans les
+          circonstancent [sic] où ils se trouvent dans les eaux, dans
+          lesquelles ils vivent naturellement<note n="47" place="foot" type="standard" xml:id="ftn47">
+              <p>BGE, Fonds Trembley 25, enveloppe 16, fol 1v, brouillon
+              français de <hi rend="small-caps">Trembley</hi>, 1747b, p.
+              630.</p>
+            </note>.</quote>
+        </div>
+        <div type="section1" xml:id="d1e633">
+          <head subtype="level1" xml:id="d1e634">Basculement fin-moyens et
+          conflit des ordinarités</head>
+          <p xml:id="d1e636">En tant que résultat passé dans la publication,
+          l’article des <hi rend="italic">Philosophical Transactions</hi> de
+          <date type="_temp" when="1744">1744</date> fournit les <hi rend="italic">réponses à l’interrogation scientifique</hi> initiale.
+          Et, bien que la prise de conscience date de <date from="1744-12-01" to="1744-12-31" type="_temp">décembre 1744</date> – en réponse à la
+          lettre de <persName ref="031601294" type="idref" xml:base="https://www.idref.fr/">Réaumur</persName> –, il faut
+          attendre trois ans pour que soient publiquement montrés le
+          dispositif instrumental et son processus de construction. Ceci
+          plaide en faveur d’une différence entre deux <hi rend="italic">systèmes de questions</hi>
+            <note n="48" place="foot" type="standard" xml:id="ftn48">
+              <p>Le fait qu’il s’agisse bien de systèmes de questions et non
+              de simples interrogations est étayé par une citation de 1747, à
+              propos d’un autre polype, tirée du brouillon de <hi rend="small-caps">Trembley</hi>, 1747b (BGE Fonds Trembley 25,
+              env 16, fol 7v et 8), où il développe six questions de recherche
+              sur ces polypes.</p>
+            </note>, le premier scientifique et le second instrumental, qui
+          coïncident avec la différence entre fin expérimentale et moyens
+          instrumentaux. Cette différence peut être justifiée aux yeux mêmes
+          de <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> du fait que les
+          deux apparaissent dans des textes différents. Le premier texte ne
+          comporte que les réponses scientifiques tandis que le second, de
+          trois ans postérieur, fait état des deux types de réponses,
+          scientifiques et instrumentales, exposées dans leur relation de fin
+          à moyen : « Lorsque j’eus tout preparé, je me mis à épier
+          continuellement le moment de la multiplication de quelques Polypes à
+          bouquets, et je trouvai ce moment tant desiré, dans la même matinée
+          que je commencai à me servir de cet expedient »<note n="49" place="foot" type="standard" xml:id="ftn49">
+              <p>
+                <hi rend="italic">Ibid</hi>., fol 3. <hi rend="small-caps">Trembley</hi>, 1747b, p. 634.</p>
+            </note>. La recherche du moyen est issue d’un basculement qui
+          prend place entre <date from="1744-07-01" to="1744-07-31" type="_temp">juillet</date> et <date from="1744-08-01" to="1744-08-31" type="_temp">août 1744</date>, et qui aboutit la
+          <date from="1744-08-25" to="1744-08-31" type="_temp">dernière
+          semaine d’août</date>. Elle n’est rendue publique que par le
+          décryptage de la descente vers l’ordinaire qui vient répondre à
+          l’incompréhension de <persName ref="031601294" type="idref" xml:base="https://www.idref.fr/">Réaumur</persName>.</p>
+          <p xml:id="d1e665">Mais d’où vient le basculement de la fin aux
+          moyens ? Il est une réaction aux obstacles et résistances rencontrés
+          lors de l’enquête et implique, sur un mode de contrôle ascendant, la
+          mise en forme catégorielle de ces réactions dans une solution
+          unique. La prise en compte du milieu y est fondamentale, <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> étant à
+          l’écoute des influences contextuelles, comportementales et surtout
+          de la relation entre l’organisme et son environnement. Il y a là une
+          pensée proto-écologique, une pensée en système d’adaptation
+          biologique, car dans son enquête, loin de ne cibler que le polype,
+          <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> cible le <hi rend="italic">système polype-environnement</hi>, ceci à travers un
+          double emboîtement : le polype est inclus dans sa « niche » et
+          l’ensemble doit se trouver dans son eau d’origine. Le geste est donc
+          négatif, il va consister à <hi rend="italic">ne pas prendre </hi>le
+          polype seul, à <hi rend="italic">ne pas l’isoler </hi>de son milieu,
+          et à changer de cible : « J’ai pris le brin de prêle sur lequel il
+          etoit »<note n="50" place="foot" type="standard" xml:id="ftn50">
+              <p>
+                <hi rend="italic">Ibid</hi>., fol 6v. <hi rend="small-caps">Trembley</hi>, 1747b, p. 646 “I then took out
+              the slip of the horsetail".</p>
+            </note>, nouveau geste qui passera de l’extraordinaire à
+          l’ordinaire. Si certainement d’autres acteurs ont procédé à un geste
+          similaire, ainsi <persName ref="028196511" type="idref" xml:base="https://www.idref.fr/">Ferdinando Marsili</persName> en
+          <date type="_temp" when="1725">1725</date> et <persName ref="178852783" type="idref" xml:base="https://www.idref.fr/">Giuseppe Ginanni</persName> en
+          <date type="_temp" when="1738">1738</date>, le premier en mettant du
+          corail dans un aquarium d’eau de mer et le second en simulant une
+          plage et ses marées dans une cassette pour y faire vivre des
+          mollusques<note n="51" place="foot" type="standard" xml:id="ftn51">
+              <p>
+                <hi rend="small-caps">Ratcliff, </hi>2012, p. 426-427,
+              433.</p>
+            </note>, ce n’est qu’avec <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> que le geste
+          recevra sa pleine mesure. Car il tire sa valeur du fait qu’il
+          prolonge la conception du système animal-milieu, colonne vertébrale
+          de ses innovations. Cette conception « systémique », on la retrouve
+          en effet à la base des envois de polypes aux savants de l’Europe,
+          souvent sceptiques, en vue des démonstrations de la
+          régénération<note n="52" place="foot" type="standard" xml:id="ftn52">
+              <p>
+                <hi rend="small-caps">Ratcliff, </hi>2004, p. 564-567.</p>
+            </note>. Elle est également à la source de la para-expérimentation
+          – forme d’expérimentation visant à maintenir en vie les animaux de
+          laboratoire, donc <hi rend="italic">en dehors </hi>de leur habitat
+          naturel – qui, couplée à l’expérimentation, crée le laboratoire
+          d’expérimentalisme naturaliste moderne<note n="53" place="foot" type="standard" xml:id="ftn53">
+              <p>
+                <hi rend="small-caps">Ratcliff, </hi>2004, p. 568-572.</p>
+            </note>.</p>
+          <p xml:id="d1e715">Quant aux procédures employées par <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName>, la même
+          conception appelle un accroissement de <hi rend="italic">la durée
+          d’observation </hi>des polypes qu’il n’a jusqu’à présent dévisagés
+          qu’à la loupe lors de brefs laps de temps, et sans les <hi rend="italic">suivre</hi>. Accroître la durée d’observation dans un
+          milieu naturel – l’eau – suppose la coordination d’un élément mobile
+          (le bras du porte-loupe et le vase) et fixe (le plateau aquatique)
+          sur lequel est disposé le système polype-environnement :</p>
+          <quote rend="quotation" xml:id="d1e723">J’avois aussi lieu de
+          soupçonner, en consequence des observations que j’avois faites à la
+          loupe, que ces bouquets de Polypes ne croissoient pas aussi
+          insensiblement que les Plantes ; mais au contraire, que le fait que
+          je cherchois s’executoit dans un espace de tems assés court. Pour
+          parvenir à le trouver, je resolus d’observer de suite quelques
+          Polypes au microscope placés dans des circonstances où il pussent
+          être autant à leur aise, que dans leur <hi rend="italic">sejour
+          ordinaire.</hi> C’est ce qui me fit venir l’idée de l’expedient que
+          je viens de decrire<note n="54" place="foot" type="standard" xml:id="ftn54">
+              <p>
+                <hi rend="italic">Ibid</hi>., fol 3. <hi rend="small-caps">Trembley</hi>, 1747b, p. 634, mes
+              italiques.</p>
+            </note>.</quote>
+          <p xml:id="d1e739">L’ordinarité de l’objet défie celle du sujet.
+          Celle du polype (son « séjour ordinaire »), s’il est écouté par le
+          savant, lui fait dépasser ses propres pratiques ordinaires qui se
+          sont montrées insuffisantes pour apporter une réponse au problème
+          qui se dessine. Il y a donc un net <hi rend="italic">conflit des
+          ordinarités</hi>, mais qui n’est perceptible que lorsque le savant
+          écoute l’objet, et qui n’est résolu que lorsque le savant accepte de
+          sacrifier ses propres pratiques ordinaires pour les dépasser.</p>
+          <p xml:id="d1e744">Tout ceci ne voit cependant pas le jour avant
+          <date type="_temp" when="1747">1747</date>, lorsque <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName>, qui l’a
+          compris depuis fin <date type="_temp" when="1744">1744</date>,
+          trouve l’occasion de publier à nouveau sur la question. C’est à ce
+          moment qu’il donne la première image publique du porte-loupe, dans
+          laquelle on distingue la plume de paon (Fig. 1). À partir de fin
+          <date from="1744-08-01" to="1744-08-31" type="_temp">août
+          1744</date>, il revoit la division à de nombreuses occasions<note n="55" place="foot" type="standard" xml:id="ftn55">
+              <p>Trembley à Réaumur, 22 octobre 1744, TG, p. 200.</p>
+            </note>, signe que l’utilisation de l’appareil est devenue une
+          routine ordinaire. Par la suite, en <date type="_temp" when="1745">1745</date> et <date type="_temp" when="1746">1746</date>, il généralise la technique employée pour
+          étudier la reproduction d’autres espèces quasi invisibles, nommées
+          polypes à entonnoir et polypes à bulbes qui se multiplient également
+          par bouquets. La redescente vers les pratiques ordinaires est
+          patente car la technique est devenue normalisée. Dans le même
+          article de <date type="_temp" when="1747">1747</date>, ayant trouvé
+          une nouvelle espèce de polypes (dit à bulbes) dans un fossé, il
+          écrit : « je commençois par tâcher d’avoir un de ces Polypes seul et
+          fixé sur un corps, que je pusse disposer dans un verre, de manière,
+          que le Polype fut à portée d’être observé avec une lentille d’un
+          court foier. Je suivis pour y parvenir ma méthode ordinaire »<note n="56" place="foot" type="standard" xml:id="ftn56">
+              <p>BGE Fonds Trembley 25, enveloppe 16, fol 6v.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e756">
+          <head subtype="level1" xml:id="d1e757">Comprendre la nouveauté : la
+          réception du microscope de Trembley</head>
+          <p xml:id="d1e759">
+            <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> considère le
+          porte-loupe comme un ensemble fonctionnel qui organise en une seule
+          totalité plusieurs artefacts. Il modifie également la relation
+          traditionnelle entre la forme et la fonction, l’environnement étant
+          changé afin que le microscope apporte une réponse appropriée à une
+          nouvelle contrainte qui consiste à observer longtemps des
+          animalcules dans leur environnement naturel. Les microscopes de
+          l’époque ne permettent pas une telle observation. Bien que le
+          porte-loupe dit de <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> ait été
+          fabriqué par le constructeur d’instrument de <persName type="_temp">Leyde Jan Van Musschenbroek</persName>
+            <note n="57" place="foot" type="standard" xml:id="ftn57">
+              <p>
+                <hi rend="small-caps">Allamand</hi>, 1747, s.p.</p>
+            </note> et que des acteurs des réseaux de <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> et <persName ref="031601294" type="idref" xml:base="https://www.idref.fr/">Réaumur</persName> l’utilisent
+          (<persName ref="122344537" type="idref" xml:base="https://www.idref.fr/">Bentinck</persName>, <persName ref="072307919" type="idref" xml:base="https://www.idref.fr/">Jean-Nicolas-Sébastien
+          Allamand</persName>, <persName ref="031601294" type="idref" xml:base="https://www.idref.fr/">Réaumur</persName>, <persName ref="031221947" type="idref" xml:base="https://www.idref.fr/">Joseph
+          Adrien Lelarge de Lignac</persName>, <persName ref="033120188" type="idref" xml:base="https://www.idref.fr/">Mathurin-Jacques
+          Brisson</persName>), ce dispositif n’est simple à reproduire avec
+          les mêmes fonctionnalités que si l’on suit exactement les
+          recommandations de <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> réparties entre
+          le texte et les légendes de la figure. Faute d’une lecture serrée
+          accordée avec l’image, certaines de ses caractéristiques
+          contextuelles vont en perturber la réception :</p>
+          <list type="ordered" xml:id="d1e769">
+            <item>L’apparente simplicité de l’image. En portant un regard <hi rend="italic">sans </hi>lecture des légendes, ce « microscope »
+            n’est que l’assemblage d’un bras mobile avec une loupe et d’un
+            bocal de verre. À la <date from="1747" to="1749" type="_temp">fin
+            des années 1740</date>, les bras articulés sont faciles à trouver
+            et même bon marché à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+              <note n="58" place="foot" type="standard" xml:id="ftn58">
+                <p>Réaumur à Trembley, 8 novembre 1749 et 10 janvier 1750, TG,
+                p. 328-329, 334.</p>
+              </note>.</item>
+            <item>Une certaine confusion provient du terme polype, nom
+            générique employé par <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> pour décrire
+            des organismes fort différents. En tant que découverte princeps,
+            la régénération du polype exerce une forte attractivité symbolique
+            sur d’autres espèces, les ramenant à elles. <persName ref="035768118" type="idref" xml:base="https://www.idref.fr/">Carl
+            Linné</persName>, dans l’édition de <date type="_temp" when="1767">1767</date> du <hi rend="italic">Systema Naturae
+            </hi>y mettra de l’ordre en les traitant comme des genres
+            spécifiques de la classe des vers et de l’ordre des zoophytes. Le
+            polype à bras y devient <hi rend="italic">Hydra viridis</hi>
+            (genre 349), tandis que le polype à bouquet est nommé <hi rend="italic">Vorticella anastatica</hi> (genre 348)<note n="59" place="foot" type="standard" xml:id="ftn59">
+                <p>
+                  <hi rend="small-caps">Linné</hi>, 1767, t. I, part. 2, p.
+                1720, 1717-1718.</p>
+              </note>.</item>
+            <item>Cette ambiguïté du polype se reporte sur les instruments
+            vendus sous le nom de <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName>. Dans son
+            catalogue d’instruments de <date type="_temp" when="1748">1748</date>, Musschenbroek vend ce microscope comme :
+            « Idem [un microscope] simple, inventé par <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">M.
+            Trembley</persName> pour observer les polypes, avec trois
+            lentilles »<note n="60" place="foot" type="standard" xml:id="ftn60">
+                <p>Cité d’après <hi rend="small-caps">Ratcliff</hi> et <hi rend="small-caps">Fournier</hi>, 2007, p. 92-93.</p>
+              </note>.</item>
+            <item>Le saut d’échelle – de facteur 100 – ne revient pas juste à
+            un passage d’une vision d’objets à l’œil nu à la vision d’un monde
+            invisible qui existerait déjà. Il s’agit, sur les plans
+            ontologique, matériel et cognitif, de construire le chemin qui
+            permet ce passage. L’enjeu du modèle bifacial est de comprendre
+            cette construction dans le cadre d’une double transformation du
+            sujet et de l’objet. Depuis la <date from="1670" to="1699" type="_temp">fin du <hi rend="small-caps">XVII</hi>
+                <hi rend="sup">e</hi> siècle</date>, des procédés iconographiques
+            d’agrandissement par zoom ont d’ailleurs été employés pour montrer
+            les organismes invisibles, en leur attribuant une nouvelle
+            réalité<note n="61" place="foot" type="standard" xml:id="ftn61">
+                <p>
+                  <hi rend="small-caps">Ratcliff</hi>, 2009, p. 151-154.</p>
+              </note>. Similairement, la construction retracée ici suppose une
+            attribution de réalité spatio-temporelle et de matérialité aux
+            corps visualisés. Mais l’analyse du parcours de recherche montre
+            aussi la nécessaire transposition, dans ce monde de l’invisible,
+            de l’architecture cognitive articulant les moyens aux fins,
+            utilisée par chacun au quotidien. Elle est rendue possible grâce
+            au dispositif de <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName>.</item>
+            <item>Il y a confusion sur ce qui tient lieu d’innovation. Le
+            terme microscope est ambigu, et laisse croire que l’invention est
+            le bras articulé, alors qu’il s’agit du <hi rend="italic">plateau
+            aquatique</hi> dont la fonction est de stabiliser les corps à
+            observer dans leur milieu naturel mais qui ne porte pas de nom.
+            Faute d’une lecture serrée, cette fonction du plateau aquatique
+            (la vision lente de corps presque invisibles dans leur
+            environnement), disparaît, avec le cadre ontologique qu’elle
+            implique, au profit de l’observation standard des hydres d’eau
+            douce.</item>
+          </list>
+          <p xml:id="d1e832">L’ensemble de ces obstacles à la réception aide à
+          comprendre que le dispositif ait pu facilement <hi rend="italic">régresser </hi>vers les hydres visibles à l’œil nu
+          auxquelles le nom de <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> est demeuré
+          lié. Un bon exemple de cette régression vers la précédente
+          découverte, dans ce cas l’hydre de 1 cm, est la façon dont l’amateur
+          de microscopie bavarois <persName ref="110753917" type="idref" xml:base="https://www.idref.fr/">Martin Frobenius
+          Ledermüller</persName> emploie le porte-loupe. Dans son ouvrage paru
+          en séries de planches commentées, <hi rend="italic">Microscopische
+          Gemüths- und Augen-Ergötzung</hi> de <date type="_temp" when="1763">1763</date>, il fait dessiner et graver le porte-loupe
+          enluminé. La plume de paon a disparu, faute d’avoir fait une lecture
+          serrée du texte et des légendes (Fig. 7).</p>
+          <figure xml:id="d1e840">
+            <head xml:id="d1e841">Fig. 7. Gravure du microscope de Trembley
+            dans l’ouvrage de Ledermüller, où le plateau aquatique est
+            absent<note n="62" place="foot" type="standard" xml:id="ftn62">
+                <p>
+                  <hi rend="small-caps">Ledermüller</hi>, 1762, Tab.
+                LXVII.</p>
+              </note>
+            </head>
+          </figure>
+          <p xml:id="d1e850">Au lieu des polypes à bouquet, la gravure
+          enluminée donne à voir des hydres d’un centimètre nageant dans le
+          bocal. La fonction du plateau aquatique, la stabilisation
+          spatio-temporelle des polypes à bouquet, n’est pas remplie. De fait,
+          les diverses fonctionnalités <hi rend="italic">remplies</hi> par les
+          objets <hi rend="italic">matériels</hi> devaient être <hi rend="italic">comprises</hi> pour pouvoir répliquer le dispositif.
+          Il fallait par exemple comprendre aussi le système
+          polype-environnement. Une telle illustration vient donc conforter
+          l’interprétation des matérialités en jeu, aussi bien de l’objet
+          finalisé (polypes à bouquet) que du moyen instrumental (plateau
+          aquatique). Etant tous deux absents de ce dispositif, leur
+          matérialité a également disparu et, partant, son statut dépend
+          entièrement de <hi rend="italic">la compréhension du parcours de
+          recherche </hi>que s’en fait le savant.</p>
+          <p xml:id="d1e864">Reproduire l’expérience signifie donc ici non pas
+          empiriquement <hi rend="italic">refaire la même chose</hi>, mais
+          bien reconstruire les moments du parcours de recherche et les
+          fonctions que les dispositifs instrumentaux endossent. Ainsi, il y a
+          double transformation, qui comprend la maîtrise des attributions de
+          significations créées lors du parcours de recherche, ici celui de
+          <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName>. Lequel est
+          explicite à ce propos non seulement sur le rapport du moyen
+          (« expédient ») à la fin, mais aussi sur le rôle de la
+          compréhension : « je crois devoir donner ici la description du
+          principal expédient, que j’ai emploié pour faire mes expériences.
+          Cette description servira à faire comprendre ce que je dirai dans la
+          suite »<note n="63" place="end" type="standard" xml:id="ftn63">
+              <p>BGE Fonds Trembley 25, enveloppe 16, fol 1-1v.</p>
+            </note>. L’élimination de la plume de paon chez <persName ref="110753917" type="idref" xml:base="https://www.idref.fr/">Ledermüller</persName> a alors fait
+          croire faussement que ce microscope avait servi à l’observation des
+          polypes d’eau douce et, par extension, que ce dispositif avait été
+          utilisé lors des observations rapportées dans ses <hi rend="italic">Mémoires</hi> de <date type="_temp" when="1744">1744</date>.</p>
+        </div>
+        <div type="section1" xml:id="d1e877">
+          <head subtype="level1" xml:id="d1e878">Conclusions</head>
+          <div type="section2" xml:id="d1e880">
+            <head subtype="level2" xml:id="d1e881">Parcours de recherche,
+            contrôle de l’action et ordinarité</head>
+            <p xml:id="d1e883">Un instrument inventé durant un parcours de
+            recherche apparaît donc comme une solution pour répondre à un
+            système de questions qui devient spécifique au cours de l’enquête.
+            Mais toutes les questions émergentes durant l’enquête n’ont pas le
+            même statut et ne se trouvent pas au même niveau. Au sein du
+            parcours, les questions concernant la théorie – ici, la
+            description d’un phénomène de reproduction animale – sont de
+            l’ordre d’un objectif à atteindre, d’une finalité à construire,
+            tandis que le dispositif demeure un moyen, hiérarchiquement
+            subordonné à cette finalité. Cette articulation entre moyen et fin
+            s’est retrouvée dans le cas de <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName>.
+            Lors de l’utilisation ordinaire d’un instrument, un problème
+            spécifique surgit sous forme d’obstacle – l’impossibilité
+            d’observer tel organisme – et cette résistance devient le point de
+            départ de nouvelles recherches. Dans son modèle de
+            l’équilibration, <persName ref="027071170" type="idref" xml:base="https://www.idref.fr/">Piaget</persName> (1975) a rendu
+            compte de problèmes similaires, en analysant les conditions
+            cognitives internes des formes de perturbations. Trois
+            sous-systèmes d’équilibration gèrent autant de lieux de
+            perturbations diverses à l’origine de rééquilibres et donc de
+            nouvelles significations<note n="64" place="foot" type="standard" xml:id="ftn64">
+                <p>Ces sous-systèmes sont les suivants : 1. relations
+                sujet-objet, 2. relations de schèmes de même niveau et 3.
+                relations schématiques entre la totalité et les parties (<hi rend="small-caps">Piaget</hi>, 1975, 14-15). Ces sous-systèmes
+                contrôlent les moyens et les fins, le premier gérant les
+                moyens, le troisième, les fins, tandis que le deuxième
+                coordonne les moyens et les fins (<hi rend="small-caps">Piaget,</hi> 1975, 46). La création de
+                nouveautés s’appuie sur une forme de hiérarchisation par
+                laquelle les deux premiers sous-systèmes sont subordonnés au
+                troisième (<hi rend="small-caps">Piaget,</hi> p. 171).</p>
+              </note>. Les sources des résistances sont indifféremment
+            sociales (dans le cas d’un point du vue opposé ou d’une
+            incompréhension), objectales, à savoir que les « objets donnent
+            des coups », et internes, le système cognitif opposant sa propre
+            inertie à des nouveautés. Le conflit des ordinarités est une autre
+            manière d’envisager la même dynamique. Face à une résistance,
+            nombre de pratiques ordinaires se révèlent insuffisantes, à l’égal
+            des composantes mentales et organisationnelles disponibles
+            convoquées par le savant pour répondre aux questions
+            scientifiques. C’est son armature schématique ordinaire qui est
+            mise à l’épreuve.</p>
+            <p xml:id="d1e899">Le système de questions, qui définit le
+            périmètre de l’interrogation scientifique, se transforme aussi, à
+            partir du terrain connu des questions dont l’objet est
+            l’organisme, où le savant n’apparaît que tacitement (« qu’est-ce
+            que cet organisme ? », « quelles en sont les structures et les
+            fonctions ? », « comment fait-il pour… ? », etc.). À en rester sur
+            ces questions scientifiques qui <hi rend="italic">excluent</hi> le
+            savant, non pas en tant que tel, mais en tant qu’agent
+            d’innovation, rien ne se passe, mais à vouloir les
+            opérationnaliser, on commence par appliquer des schèmes connus à
+            des situations relativement nouvelles – c’est ce que fait
+            <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName> en utilisant
+            loupes et microscopes ordinaires. Lorsqu’un obstacle ou une
+            résistance se profile, l’ouverture au basculement devient
+            possible, mais suppose de quitter le monde connu de
+            l’ordinarité.</p>
+            <p xml:id="d1e904">Modifiant la direction de son contrôle de
+            l’action, le savant peut alors basculer de la question
+            scientifique à une question instrumentale qui l’inclut dès lors
+            comme agent proactif. Il s’agit de la construction <hi rend="italic">par </hi>un agent d’un moyen d’action nouveau pour
+            réaliser sur un objet une opération jusqu’alors impossible. La
+            construction est à la fois matérielle et mentale et met
+            transitoirement en veilleuse l’objectif scientifique. La classe
+            des questions qui se posent alors est nouvelle et relie de manière
+            triadique le savant à l’objet et au moyen instrumental qui permet
+            de le saisir : « Comment (puis-je) créer un moyen pour observer de
+            telle manière telle chose ? » Avec le basculement, le moyen <hi rend="italic">devient transitoirement la nouvelle finalité de la
+            recherche</hi>, et inclut le savant à titre de sujet en
+            transformation. À partir de là, deux cas majeurs sont possibles :
+            1. Soit le nouveau moyen n’est pas trouvé et l’enquête se délite ;
+            2. soit le moyen est trouvé, et il se produit après coup une
+            remontée vers le questionnement scientifique d’origine – la
+            finalité de l’enquête –, <hi rend="italic">augmenté d’un nouveau
+            moyen</hi>. Le premier basculement, nécessaire durant le parcours
+            de recherche, procède d’une transformation du contrôle de l’action
+            passant d’une recherche sur l’objet à une recherche sur les moyens
+            d’attendre l’objet, devenue elle-même une nouvelle finalité. Ce
+            basculement est une propriété du sujet, Janus capable d’une part,
+            d’appliquer ce qu’il sait et, de l’autre, d’écouter les choses
+            lorsqu’il ne sait pas<note n="65" place="foot" type="standard" xml:id="ftn65">
+                <p>
+                  <hi rend="small-caps">Ratcliff</hi>, 2016, p. 20-23.</p>
+              </note>. Ces questions renvoient aussi à une notion absente dans
+            l’historiographie qui est la transformation du savant
+            lui-même<note n="66" place="foot" type="standard" xml:id="ftn66">
+                <p>
+                  <hi rend="small-caps">Ratcliff</hi>, 2016, p. 17-19.</p>
+              </note>, notion complémentaire à la transformation de l’objet et
+            du monde. Le processus d’innovation instrumentale, car c’est de
+            cela dont il s’agit, inclut donc une transformation du sujet qui
+            se mesure à l’effet du retour à l’enquête scientifique augmenté
+            d’un nouveau moyen, devenu ordinaire.</p>
+          </div>
+          <div type="section2" xml:id="d1e931">
+            <head subtype="level2" xml:id="d1e932">Matérialités et parcours de
+            recherche</head>
+            <p xml:id="d1e934">On l’a vu, dans un parcours de recherche, il y
+            a plusieurs matérialités ou niveaux de matérialité dont le statut
+            va dépendre de leur place dans l’ensemble du parcours. Il y a la
+            matérialité de l’objet, du polype à bouquet minuscule et presque
+            invisible, matérialité <hi rend="italic">variable</hi> à concevoir
+            comme un produit de l’attribution de propriétés cognitives par le
+            savant. Mais il y a aussi une matérialité du moyen technique et
+            si, pour <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName>, l’usage de
+            matériaux déterminés joue un rôle, c’est spécifiquement parce que
+            leur emploi vient répondre à certaines fonctions,
+            mécanique-visuelle et environnementale, du nouveau dispositif.
+            L’usage de ces matériaux est dépendant de l’organisation des
+            fonctions. Le dispositif repose sur une logique systémique
+            organisant les relations mécaniques (ressort de la plume),
+            visuelles (plume pressée contre la paroi pour être vue à un fort
+            grossissement) et environnementales (la branche de prêle est la
+            niche des polypes qui se trouvent dans leur milieu, l’eau). Par
+            conséquent, il apparaît que la matérialité du moyen demeure <hi rend="italic">secondaire</hi> par rapport à la logique systémique
+            et discursive<hi rend="italic"/>du dispositif, qui vient ainsi
+            répondre par une totalité organisée spécifiquement à une question
+            instrumentale. En revanche l’organisation des fonctions (mécanique
+            x environnementale) n’est pas contingente. Preuve en est qu’une
+            autre disposition, ou l’emploi de variation de ces mêmes matériaux
+            mettrait obstacle au fonctionnement du dispositif. Par exemple,
+            une plume de paon non ébarbée ne permettrait pas de fixer la prêle
+            et une grande branche de prêle n’ayant pas de ressort, ne serait
+            pas pressée contre la paroi du verre. Ce ne sont donc pas les
+            matériaux eux-mêmes qui font le dispositif, mais le fait que ces
+            matériaux ainsi organisés apportent une réponse efficace à la <hi rend="italic">question instrumentale </hi>apparue au cours de
+            l’enquête. Quant aux corps particuliers employés, ils sont
+            contingents du moment que les fonctions sont remplies et qu’une
+            réponse unique est apportée aux contraintes. De fait, la fonction
+            mécanique de pression sur la paroi pourrait être assumé par un
+            autre matériau souple, par exemple une branche de saule tandis que
+            la fonction environnementale peut être endossée par d’autres corps
+            sur lesquels les polypes viendraient nicher.</p>
+            <p xml:id="d1e948">En conclusion, les relations entre innovation,
+            matérialité et pratiques ordinaires peuvent être comprises dans le
+            cadre du modèle proposé dans <hi rend="italic">Genèse d’une
+            découverte</hi>, sous-tendu par les recherches de Piaget. Ce
+            modèle du travail scientifique peut articuler l’ordinarité avec
+            l’extraordinarité, l’innovation avec les pratiques ordinaires. Les
+            matérialités y deviennent une série de moments dans une quête dont
+            la nature ne se révèle qu’à la fin. Lorsqu’il est question de
+            moyens, la matérialité participe d’une forme nouvelle posée comme
+            <hi rend="italic">solution</hi>. En revanche, la matérialité de
+            l’objet de recherche est une attribution qui dépend des
+            constructions humaines, elle n’est pas une solution, mais une
+            condition d’existence de l’objet. Les matérialités y perdent de
+            toutes façons leur substantialité et deviennent dépendantes de
+            leur place dans le processus qui les constitue. Ainsi les
+            matérialités et l’ordinarité du travail savant participent-elles
+            du parcours de recherche lorsqu’on l’envisage à partir d’un modèle
+            bifacial du fonctionnement cognitif qui donne sa place à
+            l’alternance des contrôles de l’action et aux co-transformations
+            du sujet et de la réalité.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e957">
+        <head xml:id="d1e958">Références</head>
+        <listBibl xml:id="d1e960">
+          <bibl xml:id="d1e961">
+            <hi rend="small-caps">Allamand</hi>, 1747 :
+          [Jean Sébastien Nicolas <hi rend="small-caps">Allamand</hi>],
+          « Avertissement du traducteur », dans John <hi rend="small-caps">Turberville Needham</hi>, <hi rend="italic">Nouvelles découvertes faites avec le microscope</hi>,
+          Leide, Luzac, s.p.</bibl>
+          <bibl xml:id="d1e974">
+            <hi rend="small-caps">Baker</hi>, 1952 : John
+          R. <hi rend="small-caps">Baker</hi>, <hi rend="italic">Abraham
+          Trembley of Geneva, Scientist and Philosopher (1710-1784)</hi>,
+          London, Arnold.</bibl>
+          <bibl xml:id="d1e984">
+            <hi rend="small-caps">Fox-Keller</hi>, 1983 :
+          Evelyn <hi rend="small-caps">Fox-Keller</hi>, <hi rend="italic">A
+          Feeling for the Organisms. The Life and Work of Barbara Mc
+          Clintock</hi>, New York, Freeman.</bibl>
+          <bibl xml:id="d1e994">
+            <hi rend="small-caps">Gooding</hi>, 1990 :
+          David <hi rend="small-caps">Gooding</hi>, « Mapping experiment as a
+          learning Process : how the first electromagnetic Motor was invented
+          », <hi rend="italic">Science, Technology, &amp; Human Values</hi>,
+          15, p. 165-201.</bibl>
+          <bibl xml:id="d1e1004">
+            <hi rend="small-caps">Hallyn</hi>, 2004 :
+          Fernand <hi rend="small-caps">Hallyn</hi>, <hi rend="italic">Les
+          structures rhétoriques de la science de Kepler à Maxwell</hi>,
+          Paris, Seuil.</bibl>
+          <bibl xml:id="d1e1014">
+            <hi rend="small-caps">Holmes</hi>, 2004 :
+          Frederic L. <hi rend="small-caps">Holmes</hi>, <hi rend="italic">Investigative pathways : patterns and stages in the
+          careers of experimental scientists</hi>, New Haven, Yale University
+          Press.</bibl>
+          <bibl xml:id="d1e1024">
+            <hi rend="small-caps">Holmes</hi>, <hi rend="small-caps">Renn</hi> et <hi rend="small-caps">Rheinberger</hi>, 2003 : Frederic L. <hi rend="small-caps">Holmes</hi>, Jürgen <hi rend="small-caps">Renn</hi> et Hans-Jörg <hi rend="small-caps">Rheinberger</hi> (dir.), <hi rend="italic">Reworking the Bench : Research Notes in the History of
+          Science</hi>, Dordrecht, Kluwer.</bibl>
+          <bibl xml:id="d1e1047">
+            <hi rend="small-caps">Inhelder</hi> et <hi rend="small-caps">Cellerier</hi>, 1992 : Bärbel <hi rend="small-caps">Inhelder</hi> et Guy <hi rend="small-caps">Cellerier</hi> (dir.), <hi rend="italic">Le
+          cheminement des découvertes de l’enfant (recherche sur les
+          microgenèses cognitives)</hi>, Neuchâtel, Delachaux &amp;
+          Niestlé.</bibl>
+          <bibl xml:id="d1e1063">
+            <hi rend="small-caps">Inhelder</hi> et <hi rend="small-caps">de Caprona</hi>, 1992 : Bärbel <hi rend="small-caps">Inhelder</hi> et Denys <hi rend="small-caps">de
+          Caprona</hi>, « Un parcours de recherche », dans <hi rend="italic">Le cheminement des découvertes, op.cit.</hi>, p.
+          51-91.</bibl>
+          <bibl xml:id="d1e1079">
+            <hi rend="small-caps">Ledermüller</hi>,
+          1762 : Martin Frobenius <hi rend="small-caps">Ledermüller</hi>, <hi rend="italic">Nachlese seiner microscopischen Gemüths- und
+          Augen-Ergötzung</hi>, Nürnberg, De Launoy.</bibl>
+          <bibl xml:id="d1e1089">
+            <hi rend="small-caps">Linné</hi>, 1767 : Carl
+          von <hi rend="small-caps">Linné</hi>, <hi rend="italic">Systema
+          naturae</hi>, 12<hi rend="sup">e</hi> édition, Holmiae (Stockholm),
+          Salvius.</bibl>
+          <bibl xml:id="d1e1103">
+            <hi rend="small-caps">Loettgers</hi>, 2003 :
+          Andreas <hi rend="small-caps">Loettgers</hi>, « Exploring Contents
+          and Boundaries of Experimental Practice in Laboratory Notebooks »,
+          dans <hi rend="italic">Reworking the Bench, op. cit.,</hi> p.
+          159-182.</bibl>
+          <bibl xml:id="d1e1113">
+            <hi rend="small-caps">Piaget</hi>, 1936 :
+          Jean <hi rend="small-caps">Piaget</hi>, <hi rend="italic">La
+          naissance de l’intelligence chez l’enfant</hi>, Neuchâtel et Paris,
+          Delachaux et Niestlé.</bibl>
+          <bibl xml:id="d1e1123">
+            <hi rend="small-caps">Piaget</hi>, 1937 :
+          Jean <hi rend="small-caps">Piaget</hi>, <hi rend="italic">La
+          construction du réel chez l’enfant</hi>, Neuchâtel et Paris,
+          Delachaux et Niestlé.</bibl>
+          <bibl xml:id="d1e1133">
+            <hi rend="small-caps">Piaget</hi>, 1975 :
+          Jean <hi rend="small-caps">Piaget</hi>, <hi rend="italic">L’équilibration des structures cognitives : problème
+          central du développement</hi>, Paris, PUF.</bibl>
+          <bibl xml:id="d1e1143">
+            <hi rend="small-caps">Ratcliff</hi> et <hi rend="small-caps">Fournier</hi>, 2007 : Marc J. <hi rend="small-caps">Ratcliff</hi> et Marian <hi rend="small-caps">Fournier</hi>, « Abraham Trembley’s impact on the
+          construction of microscopes », dans Dario <hi rend="small-caps">Generali</hi> et Marc J. <hi rend="small-caps">Ratcliff</hi> (dir.), <hi rend="italic">From
+          Makers to Users : Microscopes, Markets, and Scientific Practices in
+          the Seventeenth and Eighteenth Centuries</hi>, Firenze, Olschki, p.
+          91-112.</bibl>
+          <bibl xml:id="d1e1166">
+            <hi rend="small-caps">Ratcliff</hi>, 2004 :
+          Marc J. <hi rend="small-caps">Ratcliff</hi>, « Abraham Trembley’s
+          Strategy of Generosity and The Scope of Celebrity in the
+          Mid-Eighteenth Century », <hi rend="italic">Isis</hi>, 95, 4, p.
+          555-575.</bibl>
+          <bibl xml:id="d1e1176">
+            <hi rend="small-caps">Ratcliff</hi>, 2007 :
+          Marc J. <hi rend="small-caps">Ratcliff</hi>, « Testing Microscopes
+          Between Market and Scientific Strategies in the 18<hi rend="sup">th</hi> Century », dans <hi rend="italic">From Makers to
+          Users,</hi>
+            <hi rend="italic">op. cit</hi>., p. 135-154.</bibl>
+          <bibl xml:id="d1e1192">
+            <hi rend="small-caps">Ratcliff</hi>, 2009 :
+          Marc J. <hi rend="small-caps">Ratcliff</hi>, <hi rend="italic">The
+          Quest for the Invisible, Microscopy in the Enlightenment</hi>,
+          Aldershot, Ashgate.</bibl>
+          <bibl xml:id="d1e1202">
+            <hi rend="small-caps">Ratcliff</hi>, 2012 :
+          Marc J. <hi rend="small-caps">Ratcliff</hi>, « The Trembley Effect
+          or the birth of marine zoology », <hi rend="italic">International
+          Journal of Developmental Biology</hi>, 56, p. 425-436.</bibl>
+          <bibl xml:id="d1e1212">
+            <hi rend="small-caps">Ratcliff</hi>, 2016 :
+          Marc J. <hi rend="small-caps">Ratcliff</hi>, <hi rend="italic">Genèse d’une découverte, la division des infusoires
+          1765-1766</hi>, Paris, Muséum d’Histoire Naturelle.</bibl>
+          <bibl xml:id="d1e1222">
+            <hi rend="small-caps">Rheinberger</hi>,
+          1997 : Hans-Jörg <hi rend="small-caps">Rheinberger</hi>, <hi rend="italic">Toward a History of Epistemic Things : Synthesizing
+          Proteins in the Test Tube</hi>, Stanford, Stanford University
+          Press.</bibl>
+          <bibl xml:id="d1e1233">
+            <hi rend="small-caps">Trembley</hi> et <hi rend="small-caps">Guyenot</hi>, 1943 : Maurice <hi rend="small-caps">Trembley</hi> et Émile <hi rend="small-caps">Guyénot</hi> (éds), <hi rend="italic">Correspondance inédite entre Réaumur et Abraham
+          Trembley</hi>, Genève, Georg.</bibl>
+          <bibl xml:id="d1e1249">
+            <hi rend="small-caps">Trembley</hi>, 1744 :
+          Abraham <hi rend="small-caps">Trembley</hi>, <hi rend="italic">Mémoires pour servir à l’histoire d’un genre de polype
+          d’eau douce à bras en forme de corne</hi>, Leide, Verbeek.</bibl>
+          <bibl xml:id="d1e1259">
+            <hi rend="small-caps">Trembley</hi>,
+          1744-45 : Abraham <hi rend="small-caps">Trembley</hi>, « On Several
+          newly-discovered Species of Freshwater <hi rend="italic">Polypi</hi> »,<hi rend="italic"> Philosophical
+          Transactions</hi>, 43, 474, p. 169-183.</bibl>
+          <bibl xml:id="d1e1272">
+            <hi rend="small-caps">Trembley</hi>, 1747a :
+          Abraham <hi rend="small-caps">Trembley</hi>, « Mémoire sur les
+          polypes à bouquet », dans John <hi rend="small-caps">Turberville
+          Needham</hi>, <hi rend="italic">Nouvelles découvertes, op.
+          cit.</hi>, p. 143-179.</bibl>
+          <bibl xml:id="d1e1285">Trembley, 1747b : Abraham Trembley, « On
+          Several Species of Water Insects of the Polypus Kind », <hi rend="italic">Philosophical Transactions</hi>, 44, 484, p.
+          627-655.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

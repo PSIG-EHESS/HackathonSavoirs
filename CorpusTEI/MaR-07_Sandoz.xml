@@ -1,0 +1,1467 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="MaR-07_Sandoz">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La classification des sciences au regard
+        des dispositifs schématiques : arbre, tableau, cercle</title>
+        <author role="aut">
+          <forename/>
+          <surname>Raphaël Sandoz</surname>
+          <affiliation>Université de Genève</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when=""/> dans le
+        cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/MTNUQCN6" type="conferencePaper" xml:lang="">
+          <analytic>
+            <title level="a">La classification des sciences au regard
+            des dispositifs schématiques : arbre, tableau, cercle</title>
+            <author>
+              <forename>Raphaël</forename>
+              <surname>Sandoz</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title type="conferenceName">Matières à raisonner</title>
+            <imprint>
+              <pubPlace>Genève</pubPlace>
+              <date/>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>divisions historiques des savoirs</item>
+            <item>disciplines</item>
+            <item>classification</item>
+            <item>classement</item>
+            <item>carte heuristique</item>
+            <item>diagramme</item>
+            <item>schéma</item>
+            <item>visualisation de l’information</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1780">1780</date>
+          </term>
+          <term>
+            <date type="_temp" when="1637">1637</date>
+          </term>
+          <term>
+            <date from="1840" to="1860" type="_temp">milieu du <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          </term>
+          <term>
+            <date type="_temp" when="1880">1880</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2021-12-20T12:50:00" who="Céline Barthonnat">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">La classification des sciences au regard
+          des dispositifs schématiques : arbre, tableau, cercle</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Raphaël  Sandoz</docAuthor>
+          <affiliation>Université de Genève</affiliation>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">Au cours de l’histoire, de nombreux systèmes
+        taxinomiques ont été proposés pour cartographier et organiser les
+        connaissances humaines en un tout ordonné et cohérent. En témoigne
+        l’abondante variété des « cartes du savoir » qui illustrent les
+        traités savants, matérialisant graphiquement cette démarche
+        classificatoire selon les lignes schématiques de l’arbre, du tableau,
+        ou encore du cercle. L’étude de ces dispositifs iconographiques et de
+        leur influence sur la pensée des disciplines présente un intérêt
+        renouvelé par l’actualité des recherches sur la « culture
+        matérielle ». À cette fin, nous examinerons trois diagrammes
+        représentatifs de ces types schématiques : l’arbre encyclopédique de
+        <persName ref="027476847" type="idref" xml:base="https://www.idref.fr/">Jeremy Bentham</persName>, le tableau
+        de « classification synoptique des connaissances humaines »
+        d’<persName ref="02680266X" type="idref" xml:base="https://www.idref.fr/">Antoine-Augustin Cournot</persName>
+        et les cercles qu’utilise <persName type="_temp">Charles Edward
+        Hooper</persName> pour agencer la structure du savoir. En mettant ces
+        dispositifs graphiques que sont l’arbre, le tableau et le cercle en
+        relation avec les discours des savants à propos de l’organisation de
+        la science, nous examinerons la façon dont les premiers ont contribué
+        à façonner les seconds. À travers une analyse des contraintes logiques
+        attachées à ces trois types schématiques, nous montrerons comment les
+        débats théoriques ont pu être orientés par les exigences graphiques
+        d’une symétrie ou d’une case vide à remplir.</p>
+        <p xml:lang="eng">Throughout history, many taxinomic systems have been
+        put forward to map and organize human knowledge into a coherent whole.
+        This is reflected in the abundant variety of "knowledge maps" in
+        scholarly treatises, which graphically materialise this classificatory
+        approach along the lines of various schematic devices, such as the
+        tree, the table, and the circle. Studying these iconographic devices
+        and their influence on the understanding of disciplines is especially
+        relevant due to the topicality of “material studies”. To this end, I
+        examine three diagrams representative of these schematic types: Jeremy
+        Bentham’s encyclopaedic tree, Antoine-Augustin Cournot’s “synoptic
+        table of human knowledge”, and Charles Edward Hooper’s circular
+        diagrams used to organise the sciences. By confronting these
+        diagrammatic devices with the discourses of scholars about the
+        organization of science, I examine how the former have influenced the
+        latter. Through an analysis of the logical constraints attached to
+        each type of diagrams, I show that theoretical debates may have been
+        guided —maybe unconsciously —by the graphical requirements of a
+        symmetry or an empty cell to be filled.</p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <div type="chapitre" xml:id="mainDiv">
+          <p xml:id="d1e78">Articuler l’ensemble des connaissances humaines en
+          un système cohérent a toujours constitué un important problème
+          philosophique, comme en témoignent les nombreuses tentatives de
+          classement du savoir apparues au cours des siècles : la
+          « Distribution des connaissances humaines » de <persName ref="026699982" type="idref" xml:base="https://www.idref.fr/">Francis Bacon</persName> (1623),
+          l’« Échelle encyclopédique » d’<persName ref="026796899" type="idref" xml:base="https://www.idref.fr/">Auguste
+          Comte</persName> (1830), ou encore la « Classification des
+          connaissances humaines » d’<persName ref="028694171" type="idref" xml:base="https://www.idref.fr/">André-Marie Ampère</persName>
+          (1834) n’en sont que quelques exemples bien connus parmi beaucoup
+          d’autres, que nous révèle la littérature historique consacrée à
+          l’organisation du savoir<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>À cet égard, voir en particulier l’étude fondatrice de <hi rend="small-caps">Flint</hi>, 1975 (1904), ainsi que le traité
+              de <hi rend="small-caps">Kedrov</hi>, 1977 (1965). Une base de
+              donnée récente compilant une vaste collection de
+              « classifications des sciences » historiques est disponible sur
+              le site : <ref target="https://atlas-disciplines.unige.ch/">https://atlas-disciplines.unige.ch</ref>.</p>
+            </note>. Allant bien au-delà du simple inventaire des disciplines
+          savantes, cette démarche de cartographie des connaissances visait à
+          articuler les sciences particulières les unes aux autres selon les
+          principes d’un système philosophique assurant l’unité et la
+          cohérence du savoir<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>
+                <hi rend="small-caps">Fabiani</hi>, 2006, p. 12.</p>
+            </note>. Si certaines de ces classifications des sciences<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Si la locution « classification des sciences » est la plus
+              communément adoptée pour désigner cette démarche conceptuelle
+              d’organisation des différentes branches du savoir, il convient
+              de noter que la terminologie utilisée à cette fin a varié au
+              cours du temps. En particulier, les sources historiques
+              n’opèrent pas toujours une distinction nette entre « science »
+              et « discipline », bien que ces notions convergent vers l’idée
+              d’un domaine de recherche ou d’étude présentant une certaine
+              autonomie (<hi rend="small-caps">Stichweh</hi>, 2001).</p>
+            </note> apparaissent dans les sources uniquement sous la forme
+          d’un texte, il en est d’autres qui sont illustrées par des
+          diagrammes. L’histoire des systèmes disciplinaires n’a accordé
+          jusqu’ici que très peu d’attention aux propriétés graphiques de ces
+          dispositifs schématiques, ainsi qu’à leur fonction taxinomique, que
+          nous nous proposons ici de réexaminer.</p>
+          <p xml:id="d1e107">Les travaux sur la « culture matérielle »
+          réalisés au cours des dernières décennies ont montré que l’évolution
+          des techniques et des supports de l’information au cours des siècles
+          – du manuscrit à l’imprimé, puis de celui-ci aux écrits d’écran – a
+          profondément modifié les contraintes graphiques et textuelles
+          imposées aux scripteurs, en conditionnant parfois, au moins
+          partiellement, leurs modes de pensée<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>
+                <hi rend="small-caps">Chartier</hi>, 2009 (1996), ainsi que
+              l’étude plus récente de <hi rend="small-caps">Vandendorpe</hi>,
+              2016.</p>
+            </note>. Dans ce cadre, l’analyse des rapports entre les textes et
+          les images apparaissant dans les ouvrages imprimés a récemment fait
+          l’objet de plusieurs monographies<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Par exemple <hi rend="small-caps">Beguin-Verbrugge</hi>, 2006
+              ou encore <hi rend="small-caps">Louvel</hi>, 2016.</p>
+            </note>. Ces études ont surtout fait ressortir les relations de
+          complémentarité pouvant exister entre les éléments graphiques et
+          textuels<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>
+                <hi rend="small-caps"> Beguin-Verbrugge</hi>, 2006,
+              p. 30.</p>
+            </note> : par exemple, lorsqu’un schéma renvoie aux différentes
+          parties d’un texte pour les organiser au sein d’une structure
+          articulatoire. C’est sans doute là une des fonctions des planches
+          synoptiques souvent utilisées dans les encyclopédies pour
+          systématiser l’organisation des matières qu’elles renferment, à
+          l’instar du « Système figuré des connaissances humaines » inséré par
+          <persName ref="026831406" type="idref" xml:base="https://www.idref.fr/">Diderot</persName> dans le <hi rend="italic">Prospectus de l’Encyclopédie</hi>, ou de la « View of
+          knowledge » servant de plan à la <hi rend="italic">Cyclopaedia</hi>
+          de <persName ref="072230371" type="idref" xml:base="https://www.idref.fr/">Chambers</persName>
+            <note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>
+                <hi rend="small-caps"> Chambers</hi>, 1741 (1728), p. ii:
+              « The <hi rend="italic">plan</hi> of the Work ».</p>
+            </note>. À l’évidence, ces dispositifs graphiques viennent ici
+          remédier à la fragmentation des savoirs induite tant par la mise en
+          ordre alphabétique des entrées encyclopédiques que par la linéarité
+          du texte. En d’autres termes, l’image supplée à un défaut d’unité
+          provoqué par une contrainte propre au mode d’expression textuel : ce
+          « vice abécédaire<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>
+                <hi rend="small-caps"> Doig</hi>, 1992, p. 60.</p>
+            </note> » dont <persName ref="030521971" type="idref" xml:base="https://www.idref.fr/">Panckoucke</persName> tentera
+          vainement de s’affranchir dans l’<hi rend="italic">Encyclopédie
+          méthodique</hi>. Parfois à l’inverse, c’est plutôt le texte qui
+          supplée aux limites de l’expression graphique, par exemple lorsque
+          <persName type="_temp">Goblot</persName> l’utilise pour exprimer la
+          dimension dynamique de l’organisation des connaissances qu’il ne
+          peut guère représenter sur les schémas, inévitablement statiques,
+          figurant dans son <hi rend="italic">Essai sur la classification
+          des sciences</hi>
+            <note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Les méthodes infographiques contemporaines nous ont permis de
+              restituer à l’image cette dynamique, à travers un schéma animé,
+              visible sur : <ref target="#Edmond%20Goblot">https://atlas-disciplines.unige.ch/#Edmond%20Goblot</ref>.</p>
+            </note>.</p>
+          <p xml:id="d1e169">Or, si les aspects matériels inhérents aux
+          dispositifs d’expression imposent certaines contraintes propres à
+          exercer une influence sur la pensée savante, cette dernière impose
+          également en retour des conditions, en particulier d’ordre logique,
+          à l’usage de ces instruments graphiques et textuels. En effet, c’est
+          souvent plutôt à la page de se plier – parfois même littéralement –
+          à des exigences théoriques : <persName type="_temp">Ellingham</persName>, par exemple, recommande à ses
+          lecteurs d’enrouler en cylindre sa carte des sciences<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>
+                <hi rend="small-caps"> Ellingham</hi>, 1948.</p>
+            </note> afin de rendre adjacentes les disciplines y figurant en
+          périphérie, adaptant de ce fait la topologie du support de
+          l’information à la structure logique du contenu qu’il véhicule. Par
+          ailleurs, le choix et l’agencement des dispositifs graphiques et
+          textuels sont en général subordonnés, dans les traités
+          scientifiques, à un impératif de cohérence logique entre textes et
+          images. Cela signifie que les éléments graphiques et textuels
+          doivent converger vers un contenu intentionnel commun, qu’ils ne
+          font qu’exprimer à travers des médias différents<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Sur la distinction entre « contenu intentionnel » et
+              « contenu représentatif », voir <hi rend="small-caps">Searle</hi>, 1983.</p>
+            </note>. En d’autres termes, les images et les textes doivent
+          rester en étroite correspondance, à l’instar des bandes visuelle et
+          sonore d’un film<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Certes, les artistes ont parfois dérogé à ce principe de
+              cohérence logique entre textes et images, mais le caractère
+              surprenant de leurs créations ne fait que confirmer la règle qui
+              prévaut dans le monde savant.</p>
+            </note>.</p>
+          <p xml:id="d1e188">C’est à ce principe de cohérence logique entre
+          textes et images que nous nous intéresserons plus particulièrement,
+          en l’étudiant sur plusieurs dispositifs graphiques et textuels
+          utilisés par les savants pour organiser les connaissances. À cette
+          fin, nous centrerons notre analyse sur un type de schéma bien
+          spécifique, le diagramme, qui permet de visualiser des structures de
+          données. La plupart des schémas figurant dans les traités
+          historiques dédiés à la classification des sciences entrent dans
+          cette catégorie : « Un usage bien connu des diagrammes est celui de
+          la représentation des divisions des sciences. […] Le diagramme se
+          présente comme une interprétation, comme une mise en forme des
+          données, voire comme une mise en ordre des savoirs<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>
+                <hi rend="small-caps"> Van Damme</hi>, 2020, p. 158.</p>
+            </note> ». Dans ce sens plus restreint de cadre visuel
+          d’organisation des données, les nombreuses déclinaisons du diagramme
+          (arborescences, tableaux, cercles, réseaux, histogrammes, etc)
+          relèvent d’autant de « paradigmes taxinomiques<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>
+                <hi rend="small-caps"> Cleveland</hi>, 1985, p. 9.</p>
+            </note> », que les « grammaires graphiques » développées pour les
+          besoins de l’infographie ont récemment permis de formaliser
+          mathématiquement<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>
+                <hi rend="small-caps"> Wilkinson</hi>, 2005.</p>
+            </note>. Ces dernières ont mis en œuvre de façon très stricte le
+          principe de correspondance entre éléments graphiques et textuels qui
+          nous intéresse : en effet, chaque image vectorisée sur l’écran de
+          l’ordinateur est générée par du code informatique – se présentant
+          sous forme d’un texte – qui la détermine entièrement. Mais les
+          savants n’ont pas attendu l’avènement de l’informatique pour
+          transcrire graphiquement, en particulier par des courbes, des
+          données encodées textuellement : pensons à la méthode cartésienne de
+          représentation des équations algébriques dans le plan affine,
+          employée dès <date type="_temp" when="1637">1637</date> dans la <hi rend="italic">Géométrie</hi> de <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">Descartes</persName>.
+          Notons que la courbe ne fait que transcrire l’équation sur un
+          support visuel, sans pour autant fournir davantage d’informations
+          que l’écriture algébrique (textuelle) n’en véhicule. Cette
+          redondance n’est cependant pas vaine, car en re-présentant ainsi les
+          mêmes données sur un mode visuel, la courbe affecte d’une autre
+          manière nos organes perceptifs, et produit de ce fait un effet
+          cognitif différent. L’usage de diagrammes à des fins
+          classificatoires est fondé sur un principe similaire : répliquer une
+          structure d’ordre abstraite sur un matériau accessible au champ
+          perceptif de la vue.</p>
+          <p xml:id="d1e211">Les fonctions taxinomiques des diagrammes ont été
+          rigoureusement formalisées par plusieurs logiciens et
+          mathématiciens<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Voir notamment <hi rend="small-caps">Allwein</hi> et <hi rend="small-caps">Barwise</hi>, 1996, ainsi que <hi rend="small-caps">Nilsson</hi>, 2013, p. 83-100.</p>
+            </note>. Il ressort de leurs travaux que le dispositif schématique
+          n’est autre que « l’ancrage matériel d’une cartographie
+          conceptuelle<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>
+                <hi rend="small-caps"> Johansen</hi>, 2014, p. 89.</p>
+            </note> ». À ce titre, il incarne – autant que le texte –  une
+          véritable infrastructure dans laquelle les données sont stockées et
+          organisées. Chaque type schématique impose dès lors certaines
+          contraintes, qui déterminent les modalités d’articulation des
+          éléments impliqués. De sorte que le choix d’un dispositif graphique
+          particulier pour agencer les connaissances n’est pas neutre sur plan
+          taxinomique : « Tout ce qui sera dit, ou tu, au sujet des
+          diagrammes, sera de quelque conséquence ; une classification du
+          savoir accorde, ne serait-ce que tacitement, un immense privilège à
+          tous ses moyens adéquats d’expression<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>
+                <hi rend="small-caps"> Coumet</hi>, 1977, p. 49.</p>
+            </note> ».</p>
+          <p xml:id="d1e238">Parmi les nombreux types de diagrammes utilisés
+          au cours du temps pour organiser le système des sciences<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Mentionnons à ce propos, de façon non exhaustive, les
+              diagrammes circulaires, arborescents, tabulaires, réticulaires
+              ou encore pyramidaux.</p>
+            </note>, nous en retiendrons trois, qui apparaissent de façon
+          récurrente : l’arbre, le tableau et le cercle. Ces types
+          schématiques seront examinés sur la base de trois « cartes du
+          savoir » propres à les exemplifier de façon emblématique : l’arbre
+          encyclopédique qui figure dans la <hi rend="italic">Chrestomathia</hi> (1816) de <persName ref="027476847" type="idref" xml:base="https://www.idref.fr/">Jeremy
+          Bentham</persName>, le « tableau synoptique des connaissances
+          humaines » illustrant l’<hi rend="italic">Essai sur les fondements
+          de nos connaissances</hi> (1851) d’<persName ref="02680266X" type="idref" xml:base="https://www.idref.fr/">Antoine-Augustin
+          Cournot</persName> et les diagrammes circulaires autour desquels
+          s’articule la pensée de <persName type="_temp">Charles Edward
+          Hooper</persName> dans <hi rend="italic">The Anatomy of
+          Knowledge</hi> (1906). Nous examinerons la façon dont ces savants
+          ont pu être influencés – parfois inconsciemment – par les
+          contraintes inhérentes aux schémas auxquels ils ont eu recours pour
+          visualiser l’organisation des connaissances.</p>
+          <div type="section1" xml:id="d1e253">
+            <head subtype="level1" xml:id="d1e254">Diagrammes
+            arborescents</head>
+            <p xml:id="d1e256">L’usage de l’arborescence pour schématiser
+            l’organisation des savoirs s’inscrit dans les lignes d’une
+            pratique iconographique fort ancienne, qui renvoie à la figure
+            traditionnelle de l’« arbre de la connaissance<note n="20" place="foot" type="standard" xml:id="ftn20">
+                <p>Voir <hi rend="small-caps">Schmitt</hi>, 2019.</p>
+              </note> ». De nombreux manuscrits médiévaux en contiennent déjà,
+            tel que la « Philosophia divitur » figurant dans les <hi rend="italic">Institutiones</hi> de <persName ref="030097703" type="idref" xml:base="https://www.idref.fr/">Cassiodore</persName> (~562),
+            l’arbre philosophique dessiné par <persName ref="028479289" type="idref" xml:base="https://www.idref.fr/">Alcuin</persName>
+            dans le <hi rend="italic">Dialogus de dialectica</hi> (~795), ou
+            encore le fameux « Arbor scientiae » de <persName ref="027400018" type="idref" xml:base="https://www.idref.fr/">Raymond
+            Lulle</persName> (1295). Une tradition iconographique qui
+            deviendra systématique entre la Renaissance et le <date from="1800" to="1830" type="_temp">début du <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi> siècle</date> :
+            pensons notamment aux arbres encyclopédiques figurant dans la <hi rend="italic">Margarita philosophica nova</hi> de <persName ref="06870500X" type="idref" xml:base="https://www.idref.fr/">Gregor Reisch</persName> (1503),
+            à la représentation ramifiée des arts libéraux de <persName ref="028906438" type="idref" xml:base="https://www.idref.fr/">Pierre de la Ramée</persName>
+            dans <hi rend="italic">Professio Regia</hi> (1576), au « De
+            divisione artium » présenté dans le <hi rend="italic">Paedagogus</hi> (1582) de <persName ref="03380897X" type="idref" xml:base="https://www.idref.fr/">Johannes Thomas
+            Freig</persName>, à l’arbre intitulé « Disciplinas partiales »
+            ouvrant l’<hi rend="italic">Encyclopaedia</hi> (1630) de Johann
+            Heinrich Alsted, ou encore à l’arbre de la connaissance inséré
+            dans le <hi rend="italic">Léviathan</hi> (1651) de <persName ref="026922932" type="idref" xml:base="https://www.idref.fr/">Thomas Hobbes</persName>. Sans
+            oublier de mentionner la célèbre « distribution of human
+            knowledge » (1623) de <persName ref="026699982" type="idref" xml:base="https://www.idref.fr/">Francis Bacon</persName>, qui
+            inspirera tour à tour <persName ref="072230371" type="idref" xml:base="https://www.idref.fr/">Ephraïm Chambers</persName> pour
+            la « view of knowledge » apparaissant dans la préface de sa <hi rend="italic">Cyclopædia</hi> (1728), <persName ref="026831406" type="idref" xml:base="https://www.idref.fr/">Denis
+            Diderot</persName> qui la reprendra presque inchangée dans le <hi rend="italic">Prospectus de l</hi>
+              <hi rend="italic">’</hi>
+              <hi rend="italic">Encyclopédie</hi>, et enfin <persName type="idref" xml:base="https://www.idref.fr/">Charles-Joseph
+            Panckoucke</persName>, qui fera réaliser à <persName ref="077152646" type="idref" xml:base="https://www.idref.fr/">Robert Benard</persName> en <date type="_temp" when="1780">1780</date> un « arbre généalogique des
+            sciences et des arts<note n="21" place="foot" type="standard" xml:id="ftn21">
+                <p>Ce renvoi à l’« arbre généalogique » nous rappelle que la
+                structure arborescente peut également exprimer les liens de
+                parenté historiques existant entre les disciplines. C’est ce
+                qui apparaît plus explicitement encore dans le <hi rend="italic">Discours préliminaire de l’Encyclopédie</hi>
+                (D’Alembert, 2000 [1751]), dans lequel D’Alembert affirme
+                avoir formé « l’arbre de nos connaissances [selon] l’ordre
+                généalogique » (p. 57), afin qu’il reflète « la généalogie et
+                la filiation de nos connaissances » (p. 5), de sorte que
+                « l’arbre encyclopédique [suit] l’historique de l’ordre dans
+                lequel nos connaissances se sont succédées » (p. 71).</p>
+              </note> » gravé sur les lignes de la division baconienne. Comme
+            nous le verrons, ces nombreux arbres du savoir possèdent une
+            fonction classificatoire commune<note n="22" place="foot" type="standard" xml:id="ftn22">
+                <p>
+                  <hi rend="small-caps"> Eco</hi>, 2010 (2003), p. 30.</p>
+              </note>.</p>
+            <p xml:id="d1e316">En tant que modèle schématique pour organiser
+            les savoirs, l’arborescence perdurera jusqu’au <date from="1840" to="1860" type="_temp">milieu du <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi> siècle</date>, avant de décliner rapidement au
+            profit de dispositions tabulaires, dont nous parlerons à la
+            section suivante. Supplantant les diagrammes de <persName type="_temp">Coleridge</persName>, de <persName ref="196274869" type="idref" xml:base="https://www.idref.fr/">Torombert</persName>, de
+            <persName type="_temp">Ramsay</persName> ou encore de <persName type="_temp">Spencer</persName> sur le plan de la symétrie et de
+            la rigueur de ses divisions, l’arbre apparaissant dans la <hi rend="italic">Chrestomathia</hi> (1816) de <persName ref="027476847" type="idref" xml:base="https://www.idref.fr/">Bentham</persName> peut être
+            considéré comme un exemple très représentatif de ce type
+            schématique. À ce titre, il mérite un examen plus approfondi.
+            Inversant la démarche à laquelle l’usage nous a habitués, notre
+            analyse débutera par une observation de l’image (Fig. 1), qui
+            précédera notre interprétation des différents éléments textuels
+            qui s’y rapportent.</p>
+            <figure xml:id="d1e326">
+              <head xml:id="d1e327">Fig. 1</head>
+            </figure>
+            <p xml:id="d1e329">En observant cette figure, on constate que
+            l’arbre de <persName ref="027476847" type="idref" xml:base="https://www.idref.fr/">Bentham</persName> se développe
+            de haut en bas sur un lacis de bifurcations successives :
+            provenant d’un tronc situé dans la partie supérieure de l’image,
+            chaque branche de l’arbre se divise en deux rameaux symétriques,
+            subdivisés à leur tour suivant un mode de progression binaire. À
+            chaque nœud est apposé, en majuscules, un terme technique forgé
+            suivant les principes d’une nomenclature rigoureuse, souvent
+            accompagné par le nom vernaculaire d’une discipline. Les éléments
+            de chaque paire sont numérotés au moyen des chiffres 1 (à gauche)
+            et 2 (à droite), et invariablement surmontés des mots <hi rend="italic">either</hi> (à gauche) et <hi rend="italic">or</hi>
+            (à droite). En outre, chaque nœud est repéré par une numérotation
+            supplémentaire incrémentée de haut en bas. En comptant le tronc,
+            le diagramme se déploie verticalement sur 11 niveaux de divisions
+            binaires et comporte 42 nœuds.</p>
+            <p xml:id="d1e337">Passons à présent au texte auquel ce schéma se
+            rapporte. Le bloc textuel véritablement transcrit par le diagramme
+            se trouve au § 8 de la <hi rend="italic">Chrestomathia</hi>
+            intitulé « Nouvel aperçu encyclopédique, avec un diagramme
+            correspondant<note n="23" place="foot" type="standard" xml:id="ftn23">
+                <p>
+                  <hi rend="small-caps"> Bentham</hi>, 1816, Appendix n°  5,
+                § 8, p. 172. La traduction des passages cités de Bentham est
+                la nôtre.</p>
+              </note> ». Ce texte expose une classification des sciences, qui
+            débute avec l’ontologie, laquelle est subdivisée en coenoscopique
+            et idioscopique, chacune de ces divisions se ramifiant à son tour
+            à travers des distinctions successives conformes à celles
+            reproduites sur la figure 1, qui respecte très fidèlement les
+            articulations du texte. À ce titre, il existe donc un rapport de
+            correspondance entre ce texte et le diagramme, comme le signale
+            l’intitulé du chapitre. <persName ref="027476847" type="idref" xml:base="https://www.idref.fr/">Bentham</persName> confirme
+            d’ailleurs le caractère intentionnel de cette homologie, en
+            affirmant que son diagramme « illustre le verbal par une <hi rend="italic">imitation</hi> graphique<note n="24" place="foot" type="standard" xml:id="ftn24">
+                <p>
+                  <hi rend="small-caps"/>
+                  <hi rend="italic">Ibid</hi>., p. 20.
+                Nous soulignons.</p>
+              </note> ».</p>
+            <p xml:id="d1e359">Or, si le diagramme ne faisait que recopier le
+            texte, il pourrait au premier abord sembler superflu et de peu
+            d’utilité. C’est pourquoi <persName ref="027476847" type="idref" xml:base="https://www.idref.fr/">Bentham</persName> s’est mis en
+            devoir d’expliquer l’intérêt du recours à un tel schéma. À cette
+            fin, la <hi rend="italic">Chrestomathia </hi>comporte des
+            commentaires explicatifs particulièrement détaillés visant à
+            rendre compte de la fonction de l’image et de ses rapports au
+            texte du § 8<note n="25" place="foot" type="standard" xml:id="ftn25">
+                <p>Notons bien que le diagramme (fig. 1) se rapporte
+                exclusivement au texte du § 8 de la <hi rend="italic">Chrestomathia</hi>, de sorte que ces
+                commentaires explicatifs (§ 9 et suivants) ne font pas partie
+                des données qu’il transcrit graphiquement.</p>
+              </note>. Intitulé « Explications relatives au schéma
+            ci-dessus », le § 9 expose ainsi les caractéristiques du diagramme
+            arborescent, tandis que le § 10 en indique la fonction, et que le
+            § 11 établit son mode de division. Il ressort de ces explications
+            que, si le diagramme se veut strictement homologue au texte du
+            point de vue logique et taxinomique, il ne lui est toutefois pas
+            équivalent au niveau de l’effet cognitif qu’il produit, car il
+            affecte différemment nos sens. À cet égard, tant le diagramme que
+            le texte comportent des avantages et des inconvénients :</p>
+            <quote rend="quotation" xml:id="d1e371">Dans le discours suivi,
+            les relations en question sont longuement exprimées par des mots,
+            et des mots seulement. Un diagramme y substitue une image, qui en
+            plus de présenter à l’œil ces objets, y fait voir en même temps
+            certaines relations qu’ils entretiennent entre eux […] L’avantage
+            du discours suivi est qu’il ne limite pas la quantité
+            d’explications pouvant être fournies. Mais lorsqu’il atteint une
+            certaine longueur, cet avantage est contrebalancé par un
+            inconvénient, à savoir que ce n’est que successivement que l’œil
+            prendra connaissance de ses différentes parties. Ceci induit une
+            surcharge mnémonique, qui rend malaisée la comparaison de partie à
+            partie. L’avantage du diagramme est que toutes les parties du
+            discours peuvent y être réunies et maintenues simultanément sous
+            les yeux<note n="26" place="foot" type="standard" xml:id="ftn26">
+                <p>
+                  <hi rend="small-caps"> Bentham</hi>, 1816, § 10,
+                p. 232-234</p>
+              </note>.</quote>
+            <p xml:id="d1e379">La principale fonction du diagramme est donc
+            éminemment perceptuelle et cognitive. Le schéma permet d’accroître
+            la lisibilité d’une structure taxinomique trop complexe pour être
+            transmise par un texte suivi. Néanmoins, <persName ref="027476847" type="idref" xml:base="https://www.idref.fr/">Bentham</persName>
+            reconnaît que le recours à l’arbre présente également certains
+            défauts. Par exemple, lorsque le nombre des éléments à articuler
+            devient trop élevé, l’arborescence requiert une surface de papier
+            pouvant excéder les limites pratiques de sa réalisabilité : « La
+            surface nécessaire à la présentation d’un tel diagramme rencontre
+            une limite d’impraticabilité bien avant que le nombre des branches
+            ait atteint un nombre aussi élevé<note n="27" place="foot" type="standard" xml:id="ftn27">
+                <p>
+                  <hi rend="small-caps"/>
+                  <hi rend="italic">Ibid</hi>., § 17,
+                p. 304.</p>
+              </note> ». Malgré cela, <persName ref="027476847" type="idref" xml:base="https://www.idref.fr/">Bentham</persName> assure que les
+            avantages cognitifs procurés par le diagramme l’emportent sur cet
+            inconvénient.</p>
+            <p xml:id="d1e389">Après avoir ainsi précisé la fonction du
+            diagramme, <persName ref="027476847" type="idref" xml:base="https://www.idref.fr/">Bentham</persName> nous explique
+            pourquoi il a choisi de recourir à l’arborescence pour illustrer
+            la classification des savoirs. Ce type schématique reflète
+            graphiquement une structure taxinomique bien définie, qui doit
+            être caractérisée rigoureusement. La parfaite symétrie des
+            divisions apparaissant sur son arbre encyclopédique provient à cet
+            égard de la mise en œuvre d’une logique classificatoire
+            disjonctive, visant à l’exhaustivité : « les ramifications sont
+            constamment bifurquées en paires dichotomiques. Pourquoi ne
+            sont-elles pas multi-furquées ? Réponse : pour garantir
+            l’exhaustivité de chaque division<note n="28" place="foot" type="standard" xml:id="ftn28">
+                <p>
+                  <hi rend="small-caps"/>
+                  <hi rend="italic">Ibid</hi>., § 9,
+                p. 221.</p>
+              </note> ». L’arborescence articule de cette façon une suite
+            d’alternatives opposant des paires de disciplines antagonistes :
+            chaque science présente un caractère que sa discipline appariée ne
+            possède pas. De sorte que l’arbre de <persName ref="027476847" type="idref" xml:base="https://www.idref.fr/">Bentham</persName>
+            reproduit dans sa configuration graphique un système articulatoire
+            de bissections dichotomiques, fondé sur ce qu’il appelle la
+            « formule contradictoire » :</p>
+            <quote rend="quotation" xml:id="d1e399">L’objet de ce travail
+            étant de diviser le champ entier des sciences et des arts, il faut
+            nécessairement que l’ensemble des dernières ramifications
+            comprenne toutes les parties de ce champ. Ainsi, chaque division
+            qu’on en fait devra être exhaustive, si l’on peut se servir de ce
+            mot, c’est-à-dire que la somme des parties devra être égale au
+            tout divisé, et pour ainsi dire épuiser le contenu de ce tout. Le
+            meilleur système de division sera donc celui qui, par sa forme
+            même, donnera la preuve de cette exhaustivité. [...] Cette preuve
+            ne peut être fournie qu’au moyen d’une division bifurquée où le
+            signe de négation serait employé dans une branche de chaque paire
+            et non dans l’autre ; ce qu’on peut appeler la formule
+            contradictoire<note n="29" place="foot" type="standard" xml:id="ftn29">
+                <p>
+                  <hi rend="small-caps"/>
+                  <hi rend="italic">Ibid</hi>., § 12,
+                p. 246-247.</p>
+              </note>.</quote>
+            <p xml:id="d1e410">Ce principe de division binaire, visant à
+            garantir l’exhaustivité taxinomique de la classification, repose
+            ainsi sur l’usage d’une « formule de contradiction » : chaque
+            paire oppose deux disciplines, dont la première présente un
+            caractère distinctif dont la seconde est dépourvue. La géométrie,
+            par exemple, se distingue de l’arithmétique par le fait qu’elle
+            porte sur des figures, ce qui n’est pas le cas de la discipline
+            qui lui est appariée : « La géométrie et l’arithmétique, en quoi
+            ces branches diffèrent-elles ? [...] Dans l’une d’elles, on
+            considère la figure ; dans l’autre, non<note n="30" place="foot" type="standard" xml:id="ftn30">
+                <p>
+                  <hi rend="small-caps"/>
+                  <hi rend="italic">Ibid</hi>., § 12,
+                p. 257.</p>
+              </note> ». Le principe de division dichotomique de <persName ref="027476847" type="idref" xml:base="https://www.idref.fr/">Bentham</persName> relève ainsi
+            d’une démarche classificatoire fondée sur la mise en œuvre du
+            foncteur disjonctif, en opérant « la division de son contenu, par
+            les mots <hi rend="italic">soit</hi> et <hi rend="italic">ou</hi>
+              <note n="31" place="foot" type="standard" xml:id="ftn31">
+                <p>
+                  <hi rend="small-caps"/>
+                  <hi rend="italic">Ibid</hi>., § 13,
+                p. 284.</p>
+              </note> ». Ce résultat s’avère particulièrement important, car
+            il caractérise la logique taxinomique propre au mode schématique
+            de l’arborescence : une itération de la « forme disjonctive »
+            articulatoire (A∨B) → C, pour utiliser le formalisme des logiciens
+            contemporains<note n="32" place="foot" type="standard" xml:id="ftn32">
+                <p>
+                  <hi rend="small-caps"> Howson</hi>, 2005, p. 49.</p>
+              </note>.</p>
+            <p xml:id="d1e439">Ces considérations nous permettent de
+            caractériser de façon plus précise la nature de l’homologie
+            structurelle existant entre le diagramme arborescent et le texte
+            auquel il se rapporte : chaque nœud de l’arbre exprime une
+            disjonction, schématisée par un embranchement, auquel correspond
+            dans le texte une articulation grammaticale disjonctive, comme un
+            connecteur « ou », « soit », ou une locution telle que « se divise
+            en ». L’arborescence n’est autre que la représentation graphique
+            d’une taxinomie opérant par disjonctions successives.</p>
+          </div>
+          <div type="section1" xml:id="d1e441">
+            <head subtype="level1" xml:id="d1e442">Diagrammes
+            tabulaires</head>
+            <p xml:id="d1e444">Un type schématique très différent ayant été
+            souvent utilisé pour classer les savoirs est la table ou le
+            tableau, et en particulier la « table à double entrée ». Appliqué
+            à la classification des sciences, ce type de diagramme n’apparaît
+            guère avant le <date from="1800" to="1899" type="_temp">
+                <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi> siècle</date>,
+            pour être ensuite utilisé de façon quasiment systématique,
+            notamment chez des savants tels que <persName ref="026886839" type="idref" xml:base="https://www.idref.fr/">Jean-Baptiste
+            Gence</persName>, <persName ref="031462065" type="idref" xml:base="https://www.idref.fr/">Marc-Antoine Jullien</persName>,
+            <persName ref="106036297" type="idref" xml:base="https://www.idref.fr/">Neil Arnott</persName>, <persName type="idref" xml:base="https://www.idref.fr/">Antoine-Augustin
+            Cournot</persName>, <persName ref="028744616" type="idref" xml:base="https://www.idref.fr/">Isidore Geoffroy
+            Saint-Hilaire</persName>, <persName ref="06104086X" type="idref" xml:base="https://www.idref.fr/">Louis Bourdeau</persName>,
+            <persName type="_temp">George Albert Cogswell</persName> ou encore
+            <persName ref="113122640" type="idref" xml:base="https://www.idref.fr/">Camillo Trivero</persName>, pour
+            n’en citer que quelques-uns. Tandis que les trames arborescentes
+            incarnent une taxinomie fondée sur la disjonction, les tableaux
+            permettent au contraire d’exprimer, au croisement des lignes et
+            des colonnes, des intersectionnalités que l’arbre n’autorise
+            guère. <persName ref="02680266X" type="idref" xml:base="https://www.idref.fr/">Cournot</persName> fait partie
+            des premiers savants à avoir eu recours à ce type schématique pour
+            organiser les savoirs. Son « tableau synoptique » se déploie sur
+            trois colonnes et compte cinq lignes (Fig. 2).</p>
+            <figure xml:id="d1e451">
+              <head xml:id="d1e452">Fig. 2</head>
+            </figure>
+            <p xml:id="d1e454">Indiquant précisément les motifs ayant orienté
+            son choix vers une disposition tabulaire, <persName ref="02680266X" type="idref" xml:base="https://www.idref.fr/">Cournot</persName> s’explique, à
+            l’instar de <persName ref="027476847" type="idref" xml:base="https://www.idref.fr/">Bentham</persName>, sur les
+            raisons l’ayant conduit à s’appuyer sur un tel diagramme pour
+            illustrer sa pensée. À cet égard, <persName ref="02680266X" type="idref" xml:base="https://www.idref.fr/">Cournot</persName>
+            affirme que l’ordre linéaire imposé par le texte pour exprimer nos
+            idées rend malaisée la perception d’un système de relations
+            complexes. Comme chez <persName ref="027476847" type="idref" xml:base="https://www.idref.fr/">Bentham</persName>, l’usage du
+            schéma répond donc surtout à un impératif cognitif :</p>
+            <quote rend="quotation" xml:id="d1e456">L’une des imperfections
+            radicales du discours parlé ou écrit, c’est qu’il constitue une
+            série essentiellement linéaire ; que son mode de construction nous
+            oblige à exprimer successivement, par une série linéaire de
+            signes, des rapports que l’esprit perçoit ou qu’il devrait
+            percevoir simultanément et dans un autre ordre ; à disloquer dans
+            l’expression ce qui tient dans la pensée ou dans l’objet de
+            la pensée<note n="33" place="foot" type="standard" xml:id="ftn33">
+                <p>
+                  <hi rend="small-caps"> Cournot</hi>, 1851, t. 2, chap. XVI,
+                § 242, p. 68.</p>
+              </note>.</quote>
+            <p xml:id="d1e464">Afin d’exprimer au mieux les rapports complexes
+            existant entre les sciences, il est avantageux de recourir à un
+            mode d’exposition plus flexible que le texte. C’est à cette fin
+            que la figure graphique est mobilisée pour « corriger les
+            imperfections inhérentes à la forme du discours<note n="34" place="foot" type="standard" xml:id="ftn34">
+                <p>
+                  <hi rend="small-caps"/>
+                  <hi rend="italic">Ibid</hi>., t. 2,
+                chap. XVI, § 242, p. 71.</p>
+              </note> ». Le tableau synoptique s’avère particulièrement
+            adéquat pour exprimer des rapports de coordination, tels que ceux
+            qui interviennent dans la classification des sciences de <persName ref="02680266X" type="idref" xml:base="https://www.idref.fr/">Cournot</persName>, qui vise à
+            une « coordination rationnelle du système de nos
+            connaissances<note n="35" place="foot" type="standard" xml:id="ftn35">
+                <p>
+                  <hi rend="small-caps"/>
+                  <hi rend="italic">Ibid</hi>., t. 1,
+                chap. II, § 26, p. 43.</p>
+              </note> ». Distinguant trois modalités d’enchaînement des
+            différentes sciences particulières, <persName ref="02680266X" type="idref" xml:base="https://www.idref.fr/">Cournot</persName>
+            les dispose en autant de colonnes : la série théorique, la série
+            cosmologique, et la série technique ou pratique. Bien que
+            distinctes, ces trois séries opèrent néanmoins sur des éléments
+            entretenant des rapports transversaux (en particulier de
+            dépendance), qu’il convient également d’exprimer. C’est ici
+            qu’intervient la nécessité d’introduire une dimension
+            supplémentaire, offerte par le jeu des lignes et des colonnes
+            d’une grille tabulaire :</p>
+            <quote rend="quotation" xml:id="d1e482">Cette analyse nous conduit
+            à disposer la table des connaissances humaines en trois séries
+            parallèles [...] Et en même temps le mode de subordination et
+            d’enchaînement des faits, des lois et des phénomènes, en allant
+            des plus simples aux plus complexes, nous donne lieu d’établir une
+            suite d’étages ou de groupes : la combinaison des divisions par
+            étages et des divisions par séries constituant une table à double
+            entrée, c’est-à-dire la disposition la plus commode et la moins
+            défectueuse pour représenter nettement et aussi fidèlement que
+            possible un système de rapports compliqués<note n="36" place="foot" type="standard" xml:id="ftn36">
+                <p>
+                  <hi rend="small-caps"/>
+                  <hi rend="italic">Ibid</hi>., t. 2,
+                chap. XXII, § 344, p. 268.</p>
+              </note>.</quote>
+            <p xml:id="d1e492">L’agencement en lignes et colonnes que
+            constitue la table à double entrée remplit une importante fonction
+            taxinomique, en articulant le système de classement selon
+            plusieurs caractères distincts. De ce fait, une dimension
+            supplémentaire de classification est introduite, se manifestant
+            graphiquement par une division du plan de la page selon deux axes
+            perpendiculaires, que repèrent les intitulés des lignes et des
+            colonnes du tableau. Ceci permet d’exprimer sur une figure unique
+            des rapports de coordination entre plusieurs séries
+            ordonnées :</p>
+            <quote rend="quotation" xml:id="d1e494">Quand il s’agit d’une
+            classification artificielle, on se contente souvent d’une
+            disposition en série linéaire, [...] que les géomètres nomment,
+            dans leur langage technique, une série à simple entrée. Mais, si
+            l’ordre linéaire ne peut pas être commodément employé, on pourra
+            disposer les objets par cases sur une surface plane. En supposant,
+            pour fixer les idées, que le plan des cases soit vertical, chaque
+            case se trouvera déterminée par le numéro d’ordre de la tranche
+            horizontale et par celui de la colonne verticale à laquelle il
+            appartient. Ceci permet évidemment de tenir compte, dans une
+            classification, de deux caractères distincts : de classer, par
+            exemple, des livres d’après la matière dont ils traitent, et
+            d’après la langue dans laquelle ils sont écrits. Une série
+            d’objets ainsi classés ou disposés suivant deux séries d’indices
+            ou de numéros de rappel, s’appelle une série à double entrée<note n="37" place="foot" type="standard" xml:id="ftn37">
+                <p>
+                  <hi rend="small-caps"/>
+                  <hi rend="italic">Ibid</hi>., t. 2,
+                chap. XVI, § 237, p. 60-61.</p>
+              </note>.</quote>
+            <p xml:id="d1e504">Appliqué à la classification des sciences, le
+            tableau synoptique offre ainsi un avantage indéniable sur l’arbre.
+            En effet, se réduisant à l’expression d’une série de distinctions
+            fondées sur un unique caractère disjonctif intervenant à chaque
+            bifurcation, l’arborescence échoue à rendre compte des rapports de
+            connexion, d’interdépendance et de coordination existant entre les
+            sciences, que le tableau à entrées multiples est capable
+            d’exprimer. Par ailleurs, il est à remarquer que les contraintes
+            logiques imposées par ce type schématique diffèrent fortement de
+            celles qu’implique une structure arborescente. En effet, là où les
+            modalités disjonctives de l’arbre appellent à symétriser chaque
+            discipline par une science complémentaire lui étant appariée, le
+            tableau laisse plutôt apparaître, aux intersections des lignes et
+            des colonnes, des cases parfois vides qu’il est très tentant de
+            chercher à combler. De sorte qu’il peut exercer une fonction
+            heuristique propre à l’identification de nouveaux territoires
+            intellectuels, à l’instar du tableau périodique de <persName ref="027783952" type="idref" xml:base="https://www.idref.fr/">Mendeleïev</persName> dont le
+            remplissage des cases vides a conduit à la découverte de plusieurs
+            éléments chimiques auparavant inconnus. À cette fin, <persName ref="02680266X" type="idref" xml:base="https://www.idref.fr/">Cournot</persName> préconise de
+            « faire bon inventaire et catalogue méthodique des cases vides
+            comme des cases pleines, des <hi rend="italic">desiderata</hi> de
+            la science comme de ses richesses, et de marquer le point précis
+            où chaque lacune commence<note n="38" place="foot" type="standard" xml:id="ftn38">
+                <p>
+                  <hi rend="small-caps"> Cournot</hi>, 1861, t. 1,
+                p. 303.</p>
+              </note> ».</p>
+            <p xml:id="d1e515">C’est ainsi que plusieurs cases vides sont
+            indiquées par des pointillés dans le tableau de <persName ref="02680266X" type="idref" xml:base="https://www.idref.fr/">Cournot</persName>, par exemple à
+            l’intersection de la première ligne et de la deuxième colonne :
+            « Dans la famille des sciences mathématiques, la colonne affectée
+            à la seconde série offre nécessairement un vide<note n="39" place="foot" type="standard" xml:id="ftn39">
+                <p>
+                  <hi rend="small-caps"> Cournot</hi>, 1851, t. 2,
+                chap. XXII, § 346, p. 273.</p>
+              </note> ». Ou encore dans la partie inférieure du tableau, à la
+            suite de l’histoire et au-dessous du droit. Cette case vide est
+            particulièrement intéressante, car elle se remplira
+            ultérieurement. Si <persName ref="02680266X" type="idref" xml:base="https://www.idref.fr/">Cournot</persName> ne se risque
+            pas à nommer la science, encore à construire, qui viendra combler
+            cette lacune, il y fait tout de même allusion lorsqu’il énumère
+            les différentes parties du savoir : « L’on conçoit aisément qu’on
+            puisse réduire à la forme scientifique certaines branches de la
+            connaissance qui portent sur les détails de l’organisation des
+            sociétés humaines<note n="40" place="foot" type="standard" xml:id="ftn40">
+                <p>
+                  <hi rend="small-caps"/>
+                  <hi rend="italic">Ibid</hi>., t. 2,
+                chap. XX, § 318, p. 211.</p>
+              </note> ». Rétrospectivement, il est facile de deviner que la
+            discipline ainsi esquissée n’est autre que la sociologie. Une
+            hypothèse que corrobore sa présence, à l’endroit idoine, dans la
+            « table mathésiologique » de <persName ref="028744616" type="idref" xml:base="https://www.idref.fr/">Saint-Hilaire</persName>, lequel
+            n’hésitera pas à remplir – trois ans plus tard – la case que son
+            prédécesseur avait laissée vide, en plaçant la « sociologie [dans]
+            la dernière des divisions principales admises par <persName ref="02680266X" type="idref" xml:base="https://www.idref.fr/">M. Cournot</persName>
+              <note n="41" place="foot" type="standard" xml:id="ftn41">
+                <p>
+                  <hi rend="small-caps"> Saint-Hilaire</hi>, 1854,
+                p. 253-254.</p>
+              </note> ».</p>
+            <p xml:id="d1e538">Ceci illustre une fonction importante de la
+            démarche de classification des connaissances : loin de se réduire
+            à un simple inventaire descriptif des disciplines existantes, elle
+            exerce également un rôle heuristique dans la découverte de
+            domaines du savoir encore inexplorés. En termes contemporains, on
+            parlera à cet égard d’une technique exploratoire d’analyse des
+            données<note n="42" place="foot" type="standard" xml:id="ftn42">
+                <p>Voir <hi rend="small-caps">Tukey</hi>, 1977.</p>
+              </note>. Si une telle démarche peut également s’appliquer à
+            l’arbre (à travers des considérations de symétrie), elle devient
+            encore plus méthodique dans le cas du tableau et de ses cases
+            vides.</p>
+          </div>
+          <div type="section1" xml:id="d1e547">
+            <head subtype="level1" xml:id="d1e548">Diagrammes
+            circulaires</head>
+            <p xml:id="d1e550">Si l’on se fie à l’étymologie du terme
+            « encyclopédie », on s’attend à ce que la figure du cercle ait été
+            utilisée depuis une époque reculée pour schématiser l’organisation
+            des savoirs et exprimer leur unité. Or, si la symbolique du cercle
+            apparaît effectivement dans les discours encyclopédistes dès
+            l’époque médiévale<note n="43" place="foot" type="standard" xml:id="ftn43">
+                <p>
+                  <hi rend="small-caps"> Letonturier</hi>, 2013, p. 47.</p>
+              </note>, et surtout durant la Renaissance – à travers l’usage de
+            termes renvoyant à la circularité, comme « cyclopædia »,
+            « encyclie », ou encore « cyclognomonica » – on constate en
+            revanche qu’il reste curieusement absent des schémas de
+            classification des connaissances avant le <date from="1900" to="1999" type="_temp">
+                <hi rend="small-caps">xx</hi>
+                <hi rend="sup">e</hi> siècle</date>. C’est ainsi, par exemple, que le
+            diagramme utilisé par <persName ref="072230371" type="idref" xml:base="https://www.idref.fr/">Chambers</persName> pour
+            organiser les différentes branches du savoir dans sa <hi rend="italic">Cyclopædia</hi> n’est pas un cercle, mais un arbre.
+            Idem pour <persName ref="030608546" type="idref" xml:base="https://www.idref.fr/">Alsted</persName>, qui a recours,
+            dans l’<hi rend="italic">Encyclopaedia</hi> (1630), à des trames
+            arborescentes pour schématiser la distribution des connaissances.
+            Et si ce sont bien les maillons d’une « chaîne des sciences » qui
+            circonscrivent le pourtour du premier « tableau accompli » (1587)
+            de <persName type="_temp">Savigny</persName>, ce n’est que pour y
+            enclore un arbre dichotomique semblable à celui de <persName ref="027476847" type="idref" xml:base="https://www.idref.fr/">Bentham</persName>.</p>
+            <p xml:id="d1e569">L’apparition tardive du cercle dans les
+            diagrammes utilisés pour classer les connaissances peut sembler
+            d’autant plus surprenante qu’il a été très présent dans la
+            « culture visuelle » tout au long des siècles, en particulier dans
+            les traités d’astronomie. Or, pour pouvoir opérer la fonction
+            taxinomique que requiert une classification des sciences, le
+            cercle doit être rapporté à la notion de classe, une pratique de
+            schématisation n’étant apparue qu’à la <date from="1870" to="1899" type="_temp">fin du <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi> siècle</date> avec la formalisation de la
+            théorie des ensembles, en particulier dans les « diagrammes de
+            Venn » conçus aux alentours de <date type="_temp" when="1880">1880</date>
+              <note n="44" place="foot" type="standard" xml:id="ftn44">
+                <p>Cette mise en correspondance des cercles avec des classes
+                constitue la principale innovation des diagrammes de Venn par
+                rapport à ceux d’Euler : « Tandis que les cercles eulériens
+                [...] représentent des propositions, nous trouvons préférable
+                de représenter des classes. » (<hi rend="small-caps">Venn</hi>, 1880, p. 5).</p>
+              </note>. Dès lors, on comprend qu’il ait fallu attendre aussi
+            longtemps avant que le cercle devienne opérant pour classer les
+            savoirs. Au <date from="1900" to="1999" type="_temp">
+                <hi rend="small-caps">xx</hi>
+                <hi rend="sup">e</hi> siècle</date>
+            toutefois, l’usage taxinomique des diagrammes circulaires se
+            généralise et sera souvent appliqué à la démarche de
+            classification des sciences. C’est à cette fin que <persName type="_temp">Charles Edward Hooper</persName> utilise, dans <hi rend="italic">The Anatomy of Knowledge</hi> (1906), non moins de
+            23 diagrammes circulaires pour illustrer les relations entre les
+            diverses branches du savoir (Fig. 3).</p>
+            <figure xml:id="d1e591">
+              <head xml:id="d1e592">Fig. 3</head>
+            </figure>
+            <p xml:id="d1e594">Le principe bien connu des diagrammes de Venn
+            consiste à exprimer graphiquement des rapports d’inclusion,
+            d’exclusion ou d’intersection entre des classes d’objets, par le
+            croisement de plusieurs disques circulaires. <persName type="_temp">Hooper</persName> entend appliquer ce dispositif
+            schématique au classement des sciences, en représentant leurs
+            objets d’étude respectifs par des cercles :</p>
+            <quote rend="quotation" xml:id="d1e596">On peut représenter tout
+            degré de différenciation entre deux domaines d’étude par des
+            cercles X et Y, lesquels ne coïncident pas totalement l’un avec
+            l’autre. Le premier degré de distinction est l’inclusion d’un
+            domaine d’étude restreint au sein d’un domaine d’étude plus vaste.
+            X est alors identique à une partie de Y, laissant une partie de Y
+            extérieure à X. Le deuxième degré de distinction se produit
+            lorsque deux domaines d’études se chevauchent : une partie de X
+            est exclue de Y, et une partie de Y est exclue de X, mais X et Y
+            ont également une partie commune. Le troisième degré de
+            distinction est l’exclusion mutuelle, qui caractérise deux
+            domaines d’étude dépourvus de parties communes<note n="45" place="foot" type="standard" xml:id="ftn45">
+                <p>
+                  <hi rend="small-caps"> Hooper</hi>, 1906, p. 46-47. La
+                traduction des passages cités de Hooper est la nôtre.</p>
+              </note>.</quote>
+            <p xml:id="d1e604">Le recours à un tel artifice schématique permet
+            d’exprimer graphiquement une large gamme de relations entre les
+            sciences, qui peuvent de plus être assorties d’un degré. Par
+            exemple, il devient possible d’illustrer sur un diagramme les
+            modalités relationnelles existant entre des classes d’objets
+            englobants et englobés, ou entre des affirmations universelles et
+            particulières. Par ailleurs, il permet d’exprimer un degré
+            d’abstraction ou un degré de spécialisation. Outre le cercle,
+            <persName type="_temp">Hooper</persName> fait aussi intervenir sur
+            ses diagrammes un autre élément graphique essentiel, qui lui est
+            complémentaire : le secteur. Tandis que les disques circulaires
+            servent à classer les sciences selon une logique extensive, les
+            secteurs expriment à l’inverse une logique intensive à travers une
+            caractérisation descriptive des attributs spécifiques aux
+            disciplines inscrites au sein d’un même cercle. Ces éléments
+            graphiques sont à la base d’un procédé de schématisation, intitulé
+            par <persName type="_temp">Hooper</persName>, au § 5 de son
+            ouvrage, « une méthode pour schématiser les sciences », qu’il
+            décrit de la façon suivante :</p>
+            <quote rend="quotation" xml:id="d1e606">La distinction entre les
+            objets respectifs des sciences concrètes et abstraites peut être
+            représentée schématiquement par un système de cercles
+            concentriques partagés en secteurs. [...] Un nom inscrit à la
+            circonférence d’un cercle désigne un domaine d’étude concret,
+            représenté par toute la surface du cercle, tandis qu’un nom
+            intercalé parallèlement entre deux circonférences indique une zone
+            incluse dans le cercle extérieur mais exclue du cercle intérieur.
+            Enfin, un nom écrit dans la direction du rayon du cercle renvoie à
+            une science abstraite délimitée par les secteurs
+            qui l’encadrent<note n="46" place="foot" type="standard" xml:id="ftn46">
+                <p>
+                  <hi rend="small-caps"/>
+                  <hi rend="italic">Ibid</hi>.,
+                p. 123-126.</p>
+              </note>.</quote>
+            <p xml:id="d1e616">Au moyen d’un tel système, les différentes
+            modalités d’intersection pouvant exister entre les sciences
+            peuvent être facilement exprimées, en jouant sur les positions
+            relatives des cercles et de leurs divisions sectorielles : « Une
+            science abstraite peut contribuer à plusieurs sciences concrètes ;
+            de sorte que le secteur qui la représente peut traverser plusieurs
+            cercles. [Par exemple,] le secteur délimité par la physiologie
+            traverse les cercles biologiques, zoologiques, et
+            anthropologiques<note n="47" place="foot" type="standard" xml:id="ftn47">
+                <p>
+                  <hi rend="small-caps"/>
+                  <hi rend="italic">Ibid</hi>.,
+                p. 155.</p>
+              </note> ». De plus, en orientant le diagramme, il devient
+            possible de l’utiliser pour établir une relation d’ordre cyclique
+            entre les sciences : « L’ordre dans lequel j’ai mentionné ces
+            grandes branches de la science abstraite correspond au trajet de
+            l’aiguille d’une horloge sur le cercle des sciences<note n="48" place="foot" type="standard" xml:id="ftn48">
+                <p>
+                  <hi rend="small-caps"/>
+                  <hi rend="italic">Ibid</hi>.,
+                p. 161-162.</p>
+              </note> ».</p>
+            <p xml:id="d1e634">Comme on le remarque, les diagrammes
+            circulaires offrent à la logique classificatoire un support
+            d’expression particulièrement flexible et modulaire, avec lequel
+            ne peuvent rivaliser ni l’arbre ni le tableau. Parmi les savants
+            qui contribueront à développer ce type de représentation
+            schématique, il convient de mentionner notamment <persName type="idref" xml:base="https://www.idref.fr/">Thomas
+            Whitakker</persName>, qui envisage de refermer sur elle-même en un
+            ordre cyclique la série comtienne des sciences, <persName type="_temp">William Malisoff</persName>, dont l’intéressant
+            diagramme circulaire s’échelonne sur cinq niveaux, et enfin
+            <persName ref="079442528" type="idref" xml:base="https://www.idref.fr/">Henry Evelyn Bliss</persName>,
+            qui propose, dans son célèbre ouvrage consacré à l’organisation
+            des connaissances, un ingénieux système schématique fondé sur
+            l’inscription de polygones dans des structures circulaires.</p>
+            <p rend="break" xml:id="d1e636">⁂</p>
+            <p xml:id="d1e639">Il ressort de notre analyse que chacun des
+            trois types schématiques étudiés plus haut – arbre, tableau,
+            cercle – opère une fonction taxinomique lui étant propre<note n="49" place="foot" type="standard" xml:id="ftn49">
+                <p>Pour une formulation plus technique de ces fonctions
+                taxinomiques, voir <hi rend="small-caps">Shin</hi>, 1994,
+                p. 153.</p>
+              </note>. Les structures arborescentes, comme celle de <persName ref="027476847" type="idref" xml:base="https://www.idref.fr/">Bentham</persName>, itèrent
+            graphiquement une série de « formes disjonctives<note n="50" place="foot" type="standard" xml:id="ftn50">
+                <p>
+                  <hi rend="small-caps"> Howson</hi>, 2005, p. 39.</p>
+              </note> ». C’est-à-dire que les embranchements successifs de
+            l’arbre incarnent autant de divisions logiques opposant des paires
+            d’éléments. De plus, l’arbre comporte des niveaux hiérarchiques
+            permettant d’exprimer un ordre, que repère la distance nodale au
+            tronc. À l’inverse, les structures tabulaires relèvent d’une
+            logique conjonctive<note n="51" place="foot" type="standard" xml:id="ftn51">
+                <p>
+                  <hi rend="small-caps"> Gefen</hi>, 2006.</p>
+              </note> : la « table à entrées multiples » agence les éléments
+            qu’elle articule selon des modalités intersectionnelles
+            intervenant au croisement des lignes et des colonnes, afin
+            d’exprimer des relations de coordination. Ce faisant, le tableau à
+            entrées multiples augmente ainsi le nombre de critères de
+            classement indépendants au prorata du nombre de dimensions qu’il
+            comporte. Enfin, les dispositifs circulaires permettent d’exprimer
+            aussi bien des degrés d’intersection que des relations d’inclusion
+            ou d’exclusion entre des classes d’objets<note n="52" place="foot" type="standard" xml:id="ftn52">
+                <p>
+                  <hi rend="small-caps"> Nilsson</hi>, 2013, p. 83-100.</p>
+              </note>. De plus, l’usage de secteurs y adjoint une dimension
+            intensive, tandis que le diagramme peut être orienté selon un
+            ordre cyclique.</p>
+            <p xml:id="d1e666">Dans la majorité des cas, les savants
+            choisissent d’exprimer leur classification des sciences soit par
+            un texte, soit par une image. En utilisant à cette fin les deux
+            supports simultanément, les trois cas analysés plus haut relèvent
+            donc d’une démarche assez rare, autorisant une mise en perspective
+            des diagrammes avec les textes auxquels ils se rapportent. Ce
+            faisant, nous avons pu identifier des homologies taxinomiques
+            entre les modes d’expression textuels et schématiques du
+            classement des savoirs, qui ne sont pas sans rappeler le fameux
+            principe de « correspondance entre l’algèbre et la géométrie<note n="53" place="foot" type="standard" xml:id="ftn53">
+                <p>Cournot s’y était d’ailleurs beaucoup intéressé : voir <hi rend="small-caps">Cournot</hi>, 1847.</p>
+              </note> ». L’analogie s’applique d’autant mieux que les règles
+            grammaticales auxquelles obéit le texte peuvent s’apparenter à des
+            règles algébriques, que le diagramme transcrit au moyen de
+            constructions géométriques<note n="54" place="foot" type="standard" xml:id="ftn54">
+                <p>Voir <hi rend="small-caps">Shimojima</hi>, 1999.</p>
+              </note>.</p>
+            <p xml:id="d1e682">La mise en évidence d’une telle correspondance
+            entre les diagrammes et les textes peut s’avérer utile : en
+            particulier, pour apprendre à retranscrire schématiquement une
+            classification des sciences exprimée dans les sources uniquement
+            par un texte dépourvu d’illustrations, ou inversement.
+            En examinant la structure du texte à la lumière des principes
+            dégagés plus haut, il devient possible de déterminer le type
+            schématique le plus approprié à sa représentation graphique :
+            arbre, tableau ou cercle. Par ailleurs, analyser le mode de
+            visualisation auquel un savant a recours pour exprimer sa
+            classification aide à comprendre sa démarche intellectuelle et ses
+            choix théoriques. À cet égard, il faut noter que chaque type
+            schématique présente des contraintes logiques lui étant
+            spécifiques : « la construction d’un diagramme est régie par un
+            ensemble de contraintes opérationnelles, qui peuvent intervenir ou
+            non dans le processus d’encodage de l’information<note n="55" place="foot" type="standard" xml:id="ftn55">
+                <p>
+                  <hi rend="small-caps"> Shimojima</hi>, 1996, p. 28.</p>
+              </note> ». De sorte que les conditions de systématique et de
+            complétude taxinomiques diffèrent selon le type de diagramme
+            utilisé, avec pour conséquence de diriger et de limiter ses
+            fonctions classificatoires.</p>
+            <p xml:id="d1e690">Le choix d’un dispositif schématique
+            particulier a donc d’importantes répercussions potentielles au
+            niveau théorique et argumentatif. Alors que dans certains cas, le
+            diagramme peut jouer un rôle heuristique essentiel, il peut
+            également mener à l’erreur lorsqu’il est utilisé aveuglément. En
+            effet, une confiance excessive dans l’adéquation d’un diagramme à
+            sa fonction logique ou classificatoire peut être trompeuse, car
+            les impératifs graphiques du schéma peuvent impliquer, dans
+            certains cas, des caractéristiques accidentelles pouvant conduire
+            à une surdétermination schématique<note n="56" place="foot" type="standard" xml:id="ftn56">
+                <p>
+                  <hi rend="small-caps"/>
+                  <hi rend="italic">Ibid</hi>.,
+                p. 29.</p>
+              </note>. Parmi les nombreuses « classifications des sciences »
+            apparues au cours des siècles, plusieurs d’entre elles ont
+            plausiblement souffert d’une telle sur-interprétation schématique,
+            en particulier celles qui présentent une régularité excessive et
+            artificielle les rendant peu conformes à l’usage. C’est le cas
+            notamment de la classification d’Ampère, dont la trop parfaite
+            symétrie a parfois été jugée douteuse :</p>
+            <quote rend="quotation" xml:id="d1e700">Un mot encore sur cette
+            classification que nous livrons à l’appréciation de ceux que ces
+            questions intéressent. [...] L’irrégularité de ses divisions et
+            sous-divisions, opposées à l’invariable et par trop régulière
+            dichotomie d’Ampère, prouverait encore pour elle ; il ne faut pas
+            étendre la nature sur le lit de Procuste ; il ne faut pas la
+            contraindre à une marche toujours égale, obstinément uniforme<note n="57" place="foot" type="standard" xml:id="ftn57">
+                <p>
+                  <hi rend="small-caps"> Charma</hi>, 1859, p. 23.</p>
+              </note>.</quote>
+            <p xml:id="d1e708">Au-delà de leurs fonctions taxinomiques, les
+            trois types de dispositifs schématiques analysés plus haut
+            reflètent des postures intellectuelles différentes à l’égard de
+            l’organisation des savoirs. L’usage de l’arborescence relève d’une
+            démarche visant surtout à ordonner et à hiérarchiser les
+            différentes branches de la connaissance. Les critères retenus pour
+            fixer le rang de chaque science au sein de ces structures
+            arborescentes varient selon les savants. Il s’agit souvent d’un
+            ordre de noblesse, comme chez <persName ref="030608546" type="idref" xml:base="https://www.idref.fr/">Alsted</persName>
+              <note n="58" place="foot" type="standard" xml:id="ftn58">
+                <p>
+                  <hi rend="small-caps"> Alsted</hi>, 1630.</p>
+              </note>, qui distingue les « arts libéraux » des « arts
+            non-libéraux », les premiers étant à leur tour subdivisés en arts
+            « supérieurs » (théologie, éthique et législation) et
+            « inférieurs » (philosophie et philologie), tandis que les seconds
+            comprennent les « arts mécaniques » et les « arts répugnants »
+            (sciences occultes). En outre, les niveaux successifs de
+            l’arborescence expriment fréquemment un ordre de généralité
+            décroissant, les sciences devenant plus particulières à mesure que
+            l’on s’éloigne du tronc, comme c’est le cas sur l’arbre de Bentham
+            que nous avons étudié. Enfin, lorsqu’il prend une forme
+            généalogique, l’arbre reflète volontiers l’ordre historique de
+            filiation des connaissances, comme l’explique <persName ref="02668120X" type="idref" xml:base="https://www.idref.fr/">D’Alembert</persName> dans le <hi rend="italic">Discours préliminaire de l’Encyclopédie</hi>
+              <note n="59" place="foot" type="standard" xml:id="ftn59">
+                <p>
+                  <hi rend="small-caps"> D’Alembert</hi>, 2000 (1751),
+                p. 71.</p>
+              </note>.</p>
+            <p xml:id="d1e724">L’usage du tableau répond à une préoccupation
+            assez différente : le besoin de coordonner et de systématiser les
+            savoirs, ainsi que cela apparaît dans l’intitulé du chapitre où
+            <persName ref="02680266X" type="idref" xml:base="https://www.idref.fr/">Cournot</persName> expose son
+            tableau des sciences : « De la coordination des connaissances
+            humaines<note n="60" place="foot" type="standard" xml:id="ftn60">
+                <p>
+                  <hi rend="small-caps"> Cournot</hi>, 1851, t. 2, § 338,
+                p. 256.</p>
+              </note> ». Si le tableau est moins bien adapté que l’arbre pour
+            hiérarchiser les disciplines, il lui est en revanche très
+            supérieur pour établir des liens entre les sciences. C’est ainsi
+            que la « table mathésiologique » de <persName ref="028744616" type="idref" xml:base="https://www.idref.fr/">Saint-Hilaire</persName> vise
+            « la coordination des sciences partielles, la détermination
+            rationnelle de leurs véritables rapports, de leurs affinités<note n="61" place="foot" type="standard" xml:id="ftn61">
+                <p>
+                  <hi rend="small-caps"> Saint-Hilaire</hi>, 1854, t. 1,
+                p. 181.</p>
+              </note> ». Une démarche rendue sans doute nécessaire par la
+            spécialisation croissante des savants au <date from="1800" to="1899" type="_temp">
+                <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi> siècle</date>, impliquant une étroite
+            coordination des activités scientifiques, ainsi qu’une
+            distribution méthodique des tâches. Ceci pourrait rendre compte de
+            l’intérêt marqué pour les dispositions tabulaires que l’on observe
+            durant cette période (voir Fig. 4).</p>
+            <figure xml:id="d1e743">
+              <head xml:id="d1e744">Fig. 4</head>
+            </figure>
+            <p xml:id="d1e746">Enfin, la démarche intellectuelle sous-tendant
+            l’usage taxinomique des diagrammes circulaires relève assez
+            clairement d’une approche réductionniste de l’unification des
+            sciences. Cette vision du monde se développera progressivement au
+            cours du <date from="1900" to="1999" type="_temp">
+                <hi rend="small-caps">xx</hi>
+                <hi rend="sup">e</hi> siècle</date>, et
+            sera prônée en particulier par les adeptes de l’école
+            philosophique du « positivisme logique ». L’une des formulations
+            les plus rigoureuses de cette conception de l’organisation des
+            sciences apparaît chez <persName type="_temp">Oppenheim</persName> :</p>
+            <quote rend="quotation" xml:id="d1e753">On peut distinguer six
+            disciplines fondamentales F<hi rend="sub">1</hi>, F<hi rend="sub">2</hi>,…, F<hi rend="sub">6</hi>. […] Il existe une
+            relation d’inclusion telle que chaque F<hi rend="sub">n</hi>
+            englobe les sciences des niveaux inférieurs. Cette relation
+            exprime l’idée que les objets d’une science de niveau <hi rend="italic">n</hi> peuvent être décomposés en ceux d’une science
+            du niveau suivant, ce qui constitue une condition nécessaire pour
+            opérer une micro-réduction<note n="62" place="foot" type="standard" xml:id="ftn62">
+                <p>
+                  <hi rend="small-caps"> Oppenheim</hi>, 1959,
+                p. 356-357.</p>
+              </note>.</quote>
+            <p xml:id="d1e777">Selon cette approche, la sociologie (se
+            rapportant à la classe des êtres humains) est incluse dans la
+            zoologie (classe des animaux), qui à son tour appartient à la
+            biologie (classe des êtres vivants), laquelle est englobée par la
+            physique (classe des êtres matériels), et ainsi de suite. Le
+            passage d’un niveau à l’autre implique que la science englobée
+            soit réductible à celle qui l’englobe (par exemple que les êtres
+            vivants soient réductibles, <hi rend="italic">in fine</hi>, à des
+            phénomènes physico-chimiques, nonobstant la survenance de
+            propriétés typiquement biologiques). Si cette conception du monde
+            a été largement débattue, elle conserve une certaine actualité
+            chez les philosophes analytiques<note n="63" place="foot" type="standard" xml:id="ftn63">
+                <p>
+                  <hi rend="small-caps"> Ricard</hi>, 2001. Voir aussi <hi rend="small-caps">Cat</hi>, 2017, § 1.4 : <ref target="#UnitReduLogiEmpi">https://plato.stanford.edu/entries/scientific-unity/#UnitReduLogiEmpi</ref>.</p>
+              </note>. Or, la façon la plus naturelle de schématiser une telle
+            organisation des sciences consiste à tracer une série de cercles
+            concentriques figurant les classes d’objets étudiés par chaque
+            discipline, comme sur le schéma de <persName type="_temp">Hooper</persName> apparaissant en bas à gauche de la
+            figure 3. S’il n’a pas encore recours au vocabulaire du
+            « réductionnisme », <persName type="_temp">Hooper</persName>
+            exprime néanmoins explicitement les relations successives
+            d’inclusion qu’il perçoit entre les sciences symbolisées par les
+            différents cercles de ses diagrammes, en insistant sur sa visée
+            unificatrice, de sorte qu’il peut être considéré comme un
+            précurseur de cette conception réductionniste de l’organisation
+            des savoirs.</p>
+            <p xml:id="d1e795">L’évolution de ces postures intellectuelles au
+            cours du temps se reflète, au niveau visuel, dans celle des types
+            schématiques utilisés par les savants pour organiser les
+            connaissances. Ceci apparaît très nettement sur la figure 4, qui
+            comporte 57 diagrammes<note n="64" place="foot" type="standard" xml:id="ftn64">
+                <p>
+                  <hi rend="small-caps">Sandoz</hi>, 2021. La figure 4
+                comporte l’intégralité des diagrammes de chaque type inclus
+                dans l’atlas pour l’intervalle englobé sur la frise
+                chronologique.</p>
+              </note> utilisés à cette fin depuis la Renaissance jusqu’à nos
+            jours, révélant une succession des trois types schématiques
+            examinés, selon l’ordre suivant : arbre → tableau → cercle.</p>
+            <bibl xml:id="d1e804">
+              <hi rend="small-caps">Allwein</hi> et <hi rend="small-caps">Barwise</hi>, 1996 : Gerard <hi rend="small-caps">Allwein</hi> et Jon <hi rend="small-caps">Barwise</hi>, <hi rend="italic">Logical
+            Reasoning with Diagrams</hi>, Oxford, Oxford University
+            Press.</bibl>
+            <bibl xml:id="d1e820">
+              <hi rend="small-caps">Alsted</hi>, 1630 :
+            Johann Heinrich <hi rend="small-caps">Alsted</hi>, <hi rend="italic">Encyclopaedia</hi>, Herborn, C. Corvini.</bibl>
+            <bibl xml:id="d1e830">
+              <hi rend="small-caps">Beguin-Verbrugge</hi>,
+            2006 : Annette <hi rend="small-caps">Beguin-Verbrugge</hi>, <hi rend="italic">Images en texte. Images du texte. Dispositifs
+            graphiques et communication écrite</hi>, Villeneuve-d’Ascq,
+            Presses universitaires du Septentrion.</bibl>
+            <bibl xml:id="d1e840">
+              <hi rend="small-caps">Bentham</hi>, 1816 :
+            Jeremy <hi rend="small-caps">Bentham</hi>, <hi rend="italic">Chrestomathia</hi>, Londres, Payne and Foss.</bibl>
+            <bibl xml:id="d1e850">
+              <hi rend="small-caps">Cat</hi>, 2017 : Jordi
+            <hi rend="small-caps">Cat</hi>, « The Unity of Science », dans
+            Edward N. Zalta (éd.), <hi rend="italic">The Stanford Encyclopedia
+            of Philosophy</hi>, <ref target="https://plato.stanford.edu/archives/fall2017/entries/scientific-unity/">https://plato.stanford.edu/archives/fall2017/entries/scientific-unity/</ref>.</bibl>
+            <bibl xml:id="d1e863">
+              <hi rend="small-caps">Chambers,</hi> 1741
+            (1728) : Ephraïm <hi rend="small-caps">Chambers</hi>, <hi rend="italic">Cyclopaedia, or an Universal Dictionary of Arts and
+            Sciences</hi>, Londres, .</bibl>
+            <bibl xml:id="d1e873">
+              <hi rend="small-caps">Charma</hi>, 1859 :
+            Antoine <hi rend="small-caps">Charma</hi>, <hi rend="italic">Une
+            nouvelle classification des sciences ; résumé de quelques leçons
+            professées à la Faculté des lettres de Caen</hi>, Paris,
+            Hachette.</bibl>
+            <bibl xml:id="d1e883">
+              <hi rend="small-caps">Chartier</hi>, 2009
+            (1996) : Roger <hi rend="small-caps">Chartier</hi>, <hi rend="italic">Culture écrite et société</hi>, Paris, Albin
+            Michel.</bibl>
+            <bibl xml:id="d1e893">
+              <hi rend="small-caps">Cleveland</hi>, 1985 :
+            William S. <hi rend="small-caps">Cleveland</hi>, <hi rend="italic">The Elements of Graphing Data</hi>, Summit, Hobart
+            Press.</bibl>
+            <bibl xml:id="d1e903">
+              <hi rend="small-caps">Coumet</hi>, 1977 :
+            Ernest <hi rend="small-caps">Coumet</hi>, « Sur l’histoire des
+            diagrammes logiques, figures géométriques », <hi rend="italic">Mathématiques et sciences humaines</hi>, 60,
+            p. 31-62.</bibl>
+            <bibl xml:id="d1e914">
+              <hi rend="small-caps">Cournot</hi>, 1847 :
+            Antoine-Augustin <hi rend="small-caps">Cournot</hi>, <hi rend="italic">De l’origine et des limites de la correspondance
+            entre l’algèbre et la géométrie</hi>, Paris, Hachette.</bibl>
+            <bibl xml:id="d1e924">
+              <hi rend="small-caps">Cournot</hi>, 1851 :
+            Antoine-Augustin <hi rend="small-caps">Cournot</hi>, <hi rend="italic">Essai sur les fondements de nos connaissances et sur
+            les caractères de la critique philosophique</hi>, Paris,
+            Hachette.</bibl>
+            <bibl xml:id="d1e934">
+              <hi rend="small-caps">Cournot</hi>, 1861 :
+            Antoine-Augustin <hi rend="small-caps">Cournot</hi>, <hi rend="italic">Traité de l’enchaînement des idées fondamentales
+            dans les sciences et dans l’histoire</hi>, Paris, Hachette.</bibl>
+            <bibl xml:id="d1e944">
+              <hi rend="small-caps">D’Alembert</hi>, 2000
+            (1751) : Jean Le Rond <hi rend="small-caps">D’Alembert</hi>, <hi rend="italic">Discours préliminaire de l’Encyclopédie</hi>, Paris,
+            Vrin.</bibl>
+            <bibl xml:id="d1e954">
+              <hi rend="small-caps">Doig</hi>, 1992 :
+            Kathleen <hi rend="small-caps">Doig</hi>, « L’Encyclopédie
+            méthodique et l’organisation des connaissances », <hi rend="italic">Recherches sur Diderot et sur l’Encyclopédie</hi>,
+            12, 1, p. 59-70.</bibl>
+            <bibl xml:id="d1e964">
+              <hi rend="small-caps">Eco</hi>, 2010
+            (2003) : Umberto <hi rend="small-caps">Eco</hi>, <hi rend="italic">De l’arbre au labyrinthe</hi>, Paris,
+            Grasset.</bibl>
+            <bibl xml:id="d1e974">
+              <hi rend="small-caps">Ellingham</hi>, 1948 :
+            Harold J.T. <hi rend="small-caps">Ellingham</hi>, « Divisions of
+            natural science and technology », <hi rend="italic">The Royal
+            Society Scientific Information Conference. 21 June-2 July 1948.
+            Report and Papers Submitted</hi>, 21, p. 477-481.</bibl>
+            <bibl xml:id="d1e984">
+              <hi rend="small-caps">Fabiani</hi>, 2006 :
+            Jean-Louis <hi rend="small-caps">Fabiani</hi>, « À quoi sert la
+            notion de discipline ? », dans Jean Boutier, Jean-Claude Passeron,
+            Jacques Revel (éd.), <hi rend="italic">Qu’est-ce qu’une
+            discipline ?</hi>, Paris, Éditions de l’EHESS, p. 11-34.</bibl>
+            <bibl xml:id="d1e994">
+              <hi rend="small-caps">Flint</hi>, 1975
+            (1904) : Robert <hi rend="small-caps">Flint</hi>, <hi rend="italic">Philosophy as Scientia Scientiarum, and a History of
+            Classifications of the Sciences</hi>, New York, Arno Press.</bibl>
+            <bibl xml:id="d1e1004">
+              <hi rend="small-caps">Gefen,</hi> 2006 :
+            Alexandre <hi rend="small-caps">Gefen</hi>, « Du bon usage des
+            tableaux à double entrée : stratégies taxinomiques et ambitions
+            épistémologiques de la théorie littéraire », <hi rend="italic">La
+            lecture littéraire</hi>, 8.</bibl>
+            <bibl xml:id="d1e1014">
+              <hi rend="small-caps">Hooper</hi>, 1906 :
+            Charles E. <hi rend="small-caps">Hooper</hi>, <hi rend="italic">The Anatomy of Knowledge : An Essay in Objective
+            Logic</hi>, Londres, Watts.</bibl>
+            <bibl xml:id="d1e1025">
+              <hi rend="small-caps">Howson</hi>, 2005 :
+            Colin <hi rend="small-caps">Howson</hi>, <hi rend="italic">Logic
+            with Trees : An Introduction to Symbolic Logic</hi>, Londres,
+            Routledge.</bibl>
+            <bibl xml:id="d1e1035">
+              <hi rend="small-caps">Johansen</hi>, 2014 :
+            Mikkel Willum <hi rend="small-caps">Johansen</hi>, « What’s in a
+            Diagram ? », dans Barbara Tversky et Lorenzo Magnani (éd.), <hi rend="italic">Model-Based Reasoning in Science and
+            Technology</hi>, Berlin, Springer, p. 89-108.</bibl>
+            <bibl xml:id="d1e1045">
+              <hi rend="small-caps">Kedrov</hi>, 1977
+            (1965) : Bonifatiĭ Mikhaĭlovich <hi rend="small-caps">Kedrov</hi>,
+            <hi rend="italic">La classification des sciences</hi>, trad.
+            Jacques Lemagnen, Moscou, Éditions du Progrès.</bibl>
+            <bibl xml:id="d1e1055">
+              <hi rend="small-caps">Letonturier</hi>,
+            2013 : Éric <hi rend="small-caps">Letonturier</hi>, « Petite
+            géométrie des savoirs encyclopédiques : cercle, arbre et réseau »,
+            dans <hi rend="italic">Classer, penser, contrôler</hi>, Paris,
+            CNRS Éditions, p. 46-⁠53.</bibl>
+            <bibl xml:id="d1e1065">
+              <hi rend="small-caps">Louvel</hi>, 2016 :
+            Liliane <hi rend="small-caps">Louvel</hi>, <hi rend="italic">Texte/Image. Images à lire, textes à voir</hi>,
+            Rennes, Presses universitaires de Rennes.</bibl>
+            <bibl xml:id="d1e1075">
+              <hi rend="small-caps">Nilsson</hi>, 2013 :
+            Jørgen Fischer <hi rend="small-caps">Nilsson</hi>, « Diagrammatic
+            reasoning with classes and relationships », dans <hi rend="italic">Visual Reasoning with Diagrams</hi>, Berlin,
+            Springer, p. 83-100.</bibl>
+            <bibl xml:id="d1e1085">
+              <hi rend="small-caps">Oppenheim</hi>,
+            1959 : Paul <hi rend="small-caps">Oppenheim</hi>, « A Natural
+            Order of Scientific Disciplines », <hi rend="italic">Revue
+            Internationale de Philosophie</hi>, 13, 49 (3), p. 354-360.</bibl>
+            <bibl xml:id="d1e1095">
+              <hi rend="small-caps">Sandoz</hi>, 2021 :
+            Raphaël <hi rend="small-caps">Sandoz</hi>, <hi rend="italic">Interactive Historical Atlas of the
+            Disciplines</hi>, <ref target="https://atlas-disciplines.unige.ch/">https://atlas-disciplines.unige.ch</ref>.</bibl>
+            <bibl xml:id="d1e1108">
+              <hi rend="small-caps">Ricard</hi>, 2001 :
+            Jacques <hi rend="small-caps">Ricard</hi>, « Complexity,
+            reductionism and the unity of science », dans Evandro Agazzi et
+            Jan Faye (éd.) <hi rend="italic">The Problem of the Unity of
+            Science</hi>, London, World Scientific, p. 97-105.</bibl>
+            <bibl xml:id="d1e1118">
+              <hi rend="small-caps">Saint-Hilaire</hi>,
+            1854 : Isidore Geoffroy <hi rend="small-caps">Saint-Hilaire</hi>,
+            <hi rend="italic">Histoire naturelle générale des règnes
+            organiques : principalement étudiée chez l’homme et les
+            animaux</hi>, Paris, Librairie Victor Masson.</bibl>
+            <bibl xml:id="d1e1128">
+              <hi rend="small-caps">Schmitt</hi>, 2019 :
+            Jean Claude <hi rend="small-caps">Schmitt</hi>, <hi rend="italic">Penser par figure : du compas divin aux diagrammes
+            magiques</hi>, Paris, Arkhê.</bibl>
+            <bibl xml:id="d1e1139">
+              <hi rend="small-caps">Searle</hi>, 1983 :
+            John R. <hi rend="small-caps">Searle</hi>, <hi rend="italic">Intentionality : An Essay in the Philosophy of
+            Mind</hi>, Cambridge, Cambridge University Press.</bibl>
+            <bibl xml:id="d1e1149">
+              <hi rend="small-caps">Shimojima</hi>,
+            1996 : Atsushi <hi rend="small-caps">Shimojima</hi>, « Operational
+            constraints in diagrammatic reasoning », dans Gerard Allwein et
+            Jon Barwise (éd.), <hi rend="italic">Logical Reasoning with
+            Diagrams</hi>, Oxford, Oxford University Press.</bibl>
+            <bibl xml:id="d1e1159">
+              <hi rend="small-caps">Shimojima</hi>,
+            1999 : Atsushi <hi rend="small-caps">Shimojima</hi>, « The
+            graphic-linguistic distinction - Exploring alternatives », <hi rend="italic">Artificial Intelligence Review</hi>, 13, 4,
+            p. 313-335.</bibl>
+            <bibl xml:id="d1e1169">
+              <hi rend="small-caps">Shin</hi>, 1994 :
+            Sun-Joo <hi rend="small-caps">Shin</hi>, <hi rend="italic">The
+            Logical Status of Diagrams</hi>, Cambridge, Cambridge University
+            Press.</bibl>
+            <bibl xml:id="d1e1179">
+              <hi rend="small-caps">Stichweh</hi>, 2001 :
+            Rudolf <hi rend="small-caps">Stichweh</hi>, « History of
+            Scientific Disciplines », dans Neil J. Smelser et Paul B. Baltes
+            (éd.) <hi rend="italic">International Encyclopedia of the Social
+            &amp; Behavioral Sciences</hi>, Oxford, Pergamon,
+            p. 13727-13731.</bibl>
+            <bibl xml:id="d1e1189">
+              <hi rend="small-caps">Tukey</hi>, 1977 :
+            John Wilder <hi rend="small-caps">Tukey</hi>, <hi rend="italic">Exploratory Data Analysis</hi>, Reading,
+            Addison-Wesley.</bibl>
+            <bibl xml:id="d1e1199">
+              <hi rend="small-caps">Van Damme</hi>,
+            2020 : Stéphane <hi rend="small-caps">Van Damme</hi>, <hi rend="italic">Seconde nature : rematérialiser les sciences de
+            Bacon à Tocqueville</hi>, Dijon, Les Presses du réel.</bibl>
+            <bibl xml:id="d1e1209">
+              <hi rend="small-caps">Vandendorpe</hi>,
+            2016 : Christian <hi rend="small-caps">Vandendorpe</hi>, <hi rend="italic">Du papyrus à l’hypertexte. Essai sur les mutations
+            du texte et de la lecture</hi>, Paris, La Découverte.</bibl>
+            <bibl xml:id="d1e1219">
+              <hi rend="small-caps">Venn</hi>, 1880 :
+            John <hi rend="small-caps">Venn</hi>, « On the diagrammatic and
+            mechanical representation of propositions and reasonings », <hi rend="italic">The London, Edinburgh, and Dublin Philosophical
+            Magazine and Journal of Science</hi>, 10, 59, p. 1-18.</bibl>
+            <bibl xml:id="d1e1229">
+              <hi rend="small-caps">Wilkinson</hi>,
+            2005 : Leland <hi rend="small-caps">Wilkinson</hi>, <hi rend="italic">The Grammar of Graphics</hi>, New York,
+            Springer.</bibl>
+          </div>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e1240">
+        <head xml:id="d1e1241">Bibliographie</head>
+      </div>
+    </back>
+  </text>
+</TEI>

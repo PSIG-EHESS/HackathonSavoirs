@@ -1,0 +1,667 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LHOM_214_Schmitt">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Refaire de l’anthropologie</title>
+        <title type="sub">Le singulier avant les relations</title>
+        <author>
+          <forename>Yann</forename>
+          <surname>Schmitt</surname>
+          <affiliation>
+            <s>Centre d’étude en sciences sociales du religieux (<hi rendition="#T10">Ceifr</hi>, <hi rendition="#T10">Ehess</hi>),
+            Paris</s>
+          </affiliation>
+          <email>
+            <s>
+              <ref target="mailto:yannschmitt@me.com">yannschmitt@me.com</ref>
+            </s>
+          </email>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification 3.0 non transposé - CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/ADEM68GS" type="journalArticle" xml:lang="fr">
+          <analytic>
+            <title level="a">Refaire de l’anthropologie. Le singulier avant
+            les relations</title>
+            <idno type="DOI">10.4000/lhomme.23849</idno>
+            <author>
+              <forename>Yann</forename>
+              <surname>Schmitt</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">L’Homme. Revue française d’anthropologie</title>
+            <idno type="ISSN">0439-4216</idno>
+            <imprint>
+              <biblScope unit="issue">214</biblScope>
+              <biblScope unit="page">137-146</biblScope>
+              <date>2015</date>
+              <note type="url">https://journals.openedition.org/lhomme/23849</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>Albert Piette</item>
+            <item>épistémologie</item>
+            <item>relationnisme</item>
+            <item>singulier (philosophie)</item>
+            <item>relations humaines</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>Albert Piette</item>
+            <item>Epistemology</item>
+            <item>Relationism</item>
+            <item>Singular (philosophy)</item>
+            <item>Human Relations</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Refaire de l’anthropologie</titlePart>
+          <titlePart type="sub">Le singulier avant les relations</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Yann Schmitt</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="ack" xml:id="d1e90">
+        <p xml:id="d1e91">À propos d’Albert Piette, <hi rend="italic">Contre
+        le relationnisme. Lettre aux anthropologues</hi>, Lormont, Le Bord de
+        l’eau, 2014 (« Perspectives anthropologiques »).</p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <p xml:id="d1e97">
+          <hi rendition="#T10">Depuis plus</hi> d’une dizaine
+        d’années, <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Albert Piette</persName> travaille à
+        renouveler les méthodes et les concepts de l’anthropologie. Cette
+        refondation s’appuie sur ses propres travaux empiriques, notamment sur
+        le religieux, sur l’usage de méthodes plus pointillistes comme la
+        photographie ou la description des détails, ainsi que sur des
+        hypothèses relatives à la différence entre Sapiens et Néandertal. Les
+        nouvelles propositions de travail qu’il avance empruntent souvent à la
+        philosophie comme moyen d’une réflexion épistémologique, mais aussi
+        parfois à la métaphysique, osons le terme. C’est pourquoi je me
+        propose de discuter en philosophe son ouvrage <hi rend="italic">Contre
+        le relationnisme. Lettre aux anthropologues</hi>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Je ne vais pas suivre l’ordre d’exposition de l’ouvrage qui est
+            parfaitement clair et rend inutile le fait de répéter chaque étape
+            suivie par l’auteur.</p>
+          </note>. Il ne s’agit pas de réactiver la pratique philosophique de
+        la science ultime couronnant les autres disciplines grâce à une
+        réflexivité plus radicale, mais de suivre la démarche de <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Piette</persName> dans ses
+        motivations profondes qui, comme il l’admet lui-même, l’oblige à
+        passer par la philosophie.</p>
+        <p xml:id="d1e108">L’idée d’un sujet autonome se fondant lui-même est
+        depuis longtemps déconstruite et les présupposés des métaphysiques
+        humanistes ont été mis au jour. Malgré la contre-révolution idéaliste
+        et moralisatrice<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>L’exemple le plus évident est l’ouvrage de Luc Ferry et Alain
+            Renaut (1988).</p>
+          </note> qu’elles ont suscitée, les discussions de <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Claude
+        Lévi-Strauss</persName> ou <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Michel Foucault</persName> sur
+        l’humanisme et le sujet restent des acquis constitutifs de notre
+        situation intellectuelle. L’illusion de l’autonomie absolue conduisant
+        à penser la vie sociale à partir d’atomes a été largement discréditée
+        par les différentes sciences sociales manifestant l’inclusion des
+        individus dans des collectifs linguistiques, épistémiques, politiques
+        et culturels. Un tel discrédit n’interdit pas de repenser la
+        subjectivité en tant que souci de soi comme chez le dernier <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> (1984) ou comme
+        agent capable d’un discours sur soi comme chez <persName type="idref" xml:base="https://www.idref.fr/">Vincent Descombes</persName> (2004).
+        <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Albert Piette</persName> nous propose
+        maintenant d’articuler inclusion et singularité.</p>
+        <p xml:id="d1e115">
+          <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Albert Piette</persName> s’oppose
+        radicalement à la réduction de l’anthropologie à la sociologie,
+        discipline qu’il juge trop généraliste et impuissante à retrouver les
+        présences singulières qui font la vie des individus humains et non
+        humains. La sociologie accorderait une place trop importante aux
+        relations qui font les individus et « contaminerait » l’anthropologie
+        qui se doit d’être un discours sur l’humain tel qu’il est, une
+        existence située, une existence singulière, qui bien que située ne se
+        réduit pas à ce que les différentes situations traversées font de lui.
+        Pour s’opposer à la sociologie et aux sciences sociales relationnistes
+        en général, <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Piette</persName> n’invoque pas, tel
+        <persName ref="027019330" type="idref" xml:base="https://www.idref.fr/">Mauss</persName> (1985 [1950] :
+          290)<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Albert Piette discute Mauss dans <hi rend="italic">L’Origine de
+            la croyance</hi> (2013 : 48).</p>
+          </note>, la psychologie en tant qu’étude de la conscience
+        irréductible au collectif. Comme il le montre dans sa <hi rend="italic">Méditation pessoanienne</hi> (2014a), dont le sous-titre
+        éclaire parfaitement le projet – <hi rend="italic">Science de
+        l’existence et destin de l’Anthropologue</hi> –, la prise de
+        conscience de la contingence sous la modalité de la solitude angoissée
+        dessine le destin de tout humain éprouvant son irréductibilité
+        fondamentale par rapport à tout collectif. Loin d’être une exploration
+        des différences et ressemblances entre les cultures, l’objectif de
+        l’anthropologie est alors de décrire des singularités humaines
+        irréductibles. L’enjeu du travail de refondation de l’anthropologie
+        est donc le suivant : revenir à l’individu singulier et à sa primauté
+        sans perdre les acquis de la critique des philosophies du sujet
+        remises en cause au nom de collectifs dépassant les individus.</p>
+        <div type="div1" xml:id="d1e130">
+          <head subtype="level1" xml:id="d1e131">La connaissance du
+          singulier</head>
+          <p xml:id="d1e133">Prendre les présences singulières comme objet
+          d’étude n’est pas nécessairement original en soi. <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Albert
+          Piette</persName> avait inscrit initialement ses recherches dans la
+          lignée des travaux de <persName ref="249627906" type="idref" xml:base="https://www.idref.fr/">Bruno Latour</persName> et dans la
+          proximité de la sociologie pragmatique. La critique du point de vue
+          des sujets n’est pas tenue pour massivement illusoire car il s’agit
+          de rendre compte en détail de ce qui est expérimenté et dit par les
+          acteurs, quitte à peupler l’anthropologie d’êtres aussi inattendus
+          que Dieu, si les acteurs disent qu’il est présent dans la
+          situation<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Cette démarche est exemplairement pratiquée dans <hi rend="italic">La Religion de près</hi> (1999).</p>
+            </note>. Mais une telle approche reste marquée par le nominalisme,
+          car elle ne se prononce pas sur la réalité indépendante ou sur
+          l’irréalité de ce dont parlent les acteurs. Le risque est alors de
+          confondre une présence et une illusion de présence, ou du moins de
+          ne pas se poser la question. Notre auteur a ainsi pris
+          progressivement ses distances par rapport à la méthodologie
+          nominaliste. L’anthropologue procède alors en deux temps quand il
+          étudie, par exemple, les croyances religieuses. Dieu est d’abord
+          mentionné parce qu’il est présent dans la vie de la communauté de
+          croyants étudiée et parce que le discours et les pratiques des
+          acteurs sont relatifs à un être divin. <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Piette</persName>
+          adopte, par provision, un théisme méthodologique qui décrit à
+          égalité les présences des paroissiens et de leur Dieu. Puis, sa
+          pensée progresse vers un réalisme reconnaissant que certains êtres
+          ne sont pas seulement des effets de présence mais qu’ils existent
+          bel et bien – tandis que d’autres non. Ce réalisme rapproche ainsi
+          l’anthropologie de l’ontologie philosophique. Elle passe par une
+          discussion des sources de la croyance religieuse, des besoins de
+          croire tels que l’on peut les reconstruire chez les premiers humains
+          (Piette 2013). La genèse de la croyance est introduite pour ne pas
+          en rester à la description du croyant présent. Est ainsi évitée la
+          validation de ses postulations ontologiques, qui ont été prises en
+          compte mais qui sont finalement interrogées à l’aune d’une
+          généalogie de la croyance en des entités surnaturelles.</p>
+          <p xml:id="d1e143">
+            <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Albert Piette</persName> n’est pas
+          le premier à attirer l’attention sur le danger d’une connaissance du
+          général au détriment du singulier, mais sa <hi rend="italic">Lettre
+          aux anthropologues</hi> met en cause le primat des relations et du
+          général avec une force nouvelle, dans un livre bref, clair et plutôt
+          convaincant. <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>, déjà,
+          considérait qu’il n’y avait de science que du général (in 2005 : I,
+          31, 87b). La généralité est donnée par des catégories qui permettent
+          de penser la nature des substances particulières et ce sont ces
+          catégories que toute science doit exposer. Pour <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>, dont le legs
+          reste profondément ancré dans nos habitudes de penser, penser ce qui
+          est, qui est toujours individuel, c’est répondre à la question
+          « qu’est-ce ? » en indiquant sous quelles catégories tombe le
+          particulier étudié. Le particulier n’est donc connu que sous une
+          catégorie qui idéalement indique l’essence générale du particulier,
+          sa nature. L’individu particulier qu’est Socrate est dit humain, il
+          tombe sous la catégorie d’humain. La singularité de Socrate qui
+          n’est pas qu’un cas particulier d’une catégorie générale <hi rend="italic">l’humain</hi> échapperait à la science en tant que
+          contingence dénuée de raison et donc d’intérêt ; toutes nos
+          catégories resteraient générales et incapables de saisir la
+          contingence du singulier. Le relationnisme est à inscrire dans la
+          lignée d’une telle approche des individus. Les relations sont le
+          propre de collectifs qui noient le singulier dans le général. Telle
+          est la thèse à contester.</p>
+          <p xml:id="d1e152">On pourrait penser que l’étude du singulier est
+          bien connue et que les méthodes ethnographiques ont suffisamment
+          d’influence sur la pratique anthropologique pour que le danger d’une
+          réduction du singulier au général soit déjà bien maîtrisé. Or, il
+          n’en est rien d’après notre auteur, car même pointer la focale sur
+          l’individu ne suffit pas si l’individu est pensé sans être isolé des
+          relations sociales :</p>
+          <q rend="quotation">« Serait ainsi relationniste une perspective qui
+          considère qu’il n’y a que des relations et que tout s’explique par
+          les relations. Seraient relationnistes aussi une théorie qui, tout
+          en partant des individus, se focalise sur le “entre” individus,
+          ainsi qu’une méthode qui valorise le jeu relationnel pour produire
+          des connaissances ».(p. 42)</q>
+          <p xml:id="d1e158">Selon <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Albert Piette</persName>, même
+          <persName ref="02689565X" type="idref" xml:base="https://www.idref.fr/">Erving Goffman</persName> (1974
+          [1967]) en définissant des rôles à jouer dans des situations ne
+          réussit pas à retrouver la singularité du jeu et de l’appropriation
+          du rôle général transcendant l’individu singulier (pp. 10-11). Les
+          rôles ainsi définis invitent à ne regarder que des fonctions
+          incarnées dans des individus et donc à ne regarder les individus que
+          comme des exemples d’une fonction générale l’inscrivant, au
+          détriment de sa singularité, dans des relations.</p>
+          <p xml:id="d1e162">Il commence par reprendre les définitions de
+          « relation » dans le dictionnaire <hi rend="italic">Le Robert</hi>.
+          Le concept de relation que l’on peut extraire de cet état de la
+          langue française est d’abord celui d’une relation constituant les
+          individus, l’individu étant réduit à un effet des relations.
+          S’appuyer sur le dictionnaire n’est pas qu’un travail linguistique
+          présentant l’usage courant d’un mot, cela permet à <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Piette</persName> d’interroger les
+          principaux courants relationnistes comme le structuralisme,
+          l’interactionnisme, ou bien encore la théorie de l’acteur-réseau de
+          Latour. On peut reconstruire trois arguments contre le primat des
+          relations et contre la réduction du singulier.</p>
+        </div>
+        <div type="div1" xml:id="d1e167">
+          <head subtype="level1" xml:id="d1e168">Les arguments empiriques pour
+          l’existence des singularités</head>
+          <p xml:id="d1e170">Le premier argument empirique a une portée
+          méthodologique. À partir de l’observation au plus près des humains,
+          un des modes d’être sinon le mode d’être spécifiquement humain se
+          manifeste : le mode mineur de l’existence qui est la capacité au
+          relâchement au sein d’une tâche, une attention flottante (voir, par
+          exemple, Piette 1996). Suivre l’individu singulier permet de repérer
+          qu’un humain est un être qui est rarement totalement absorbé par sa
+          tâche, sa fonction, son <hi rend="italic">habitus</hi>, son
+          interaction. Avant d’adopter tel rôle ou d’être l’instance de tel
+          nœud dans une structure, mais aussi après ces mises en relation,
+          l’individu continue d’être plus que ces relations. Dans <hi rend="italic">L’Origine de la croyance</hi> (2013), <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Albert
+          Piette</persName> voit dans cette capacité à être présent tout en
+          relâchant son attention une des singularités d’<hi rend="italic">Homo sapiens</hi> par laquelle il en est venu à croire
+            en l’incroyable, à croire que les morts sont encore vivants<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Cf. le dossier de la revue <hi rend="italic">ThéoRèmes</hi>
+              consacré à cet ouvrage (Feneuil &amp; Schmitt 2013).</p>
+            </note>. En effet, il faut un relâchement cognitif pour se
+          représenter un mort comme étant toujours vivant dans un autre monde
+          contrairement à ce qu’indique son cadavre. La croyance religieuse
+          dépend donc d’une capacité générale d’échappement.</p>
+          <p xml:id="d1e189">L’anthropologie suppose ainsi un travail
+          d’attention assez paradoxal. L’anthropologue doit apprendre à être
+          attentif aux détails sans chercher d’abord l’illustration par
+          l’individu des catégories générales qu’il utilise habituellement.
+          Cela suppose de détourner son attention de ce qui frappe normalement
+          pour mieux restituer la singularité de la présence d’un individu
+          dans son originalité. L’anthropologue doit lui aussi pratiquer
+          l’hypolucidité qui caractérise l’humain. On peut voir là une reprise
+          de la méthode compréhensive où la sympathie entre l’observant et
+          l’observé se gagne par une commune pratique de la distance. Pour
+          mieux retrouver la présence singulière qu’il étudie, l’anthropologue
+          doit savoir expérimenter son propre mode d’être mineur. Il ne sera
+          attentif aux détails et singularités de l’être présent étudié que
+          s’il a d’abord expérimenté en lui l’attention relâchée, au risque de
+          se voir submerger par l’angoisse de son expérience de désaffiliation
+          (comme disent les sociologues des religions) vis-à-vis des
+          collectifs et des relations. Le primat de la perception sur le
+          langage est la condition d’une telle anthropologie. En deçà des
+          médiations linguistiques et culturelles, le singulier se donne à
+          voir, et la photographie comme le film sont des outils
+          indispensables de l’anthropologue qui veut réexaminer ce qui n’a
+          d’abord pas été vu dans la situation. La méthode anthropologique
+          sera donc une phénoménographie, une écriture qui nous ramène au plus
+          près de ce qui apparaît. Et la phénoménographie permet une
+          ontographie, une description compréhensive de l’être singulier
+          présent (pp. 76-77).</p>
+          <p xml:id="d1e192">Un second argument empirique vient étayer
+          l’anthropologie du singulier sur une expérience subjective de notre
+          singularité. Non seulement le mode mineur doit être expérimenté pour
+          mieux rendre l’anthropologue attentif au singulier, mais ce dernier
+          doit aussi ressentir que comme tout être humain, il est irréductible
+          aux relations. Exister, c’est durer au-delà des relations dans
+          lesquelles nous entrons (pp. 50-51).</p>
+          <q rend="quotation">« L’évidence de l’existence que chacun est et
+          ressent de diverses manières à chaque instant, l’effet que cela fait
+          d’exister, de vivre ici-maintenant, c’est cela que je place au
+          centre d’une anthropologie des existences ».(p. 25)</q>
+          <p xml:id="d1e198">Nous en faisons l’épreuve au quotidien mais aussi
+          à l’occasion d’expériences métaphysiques, comme la conscience que
+          nous sommes seuls à pouvoir « mourir notre mort » (p. 70). La
+          tonalité existentielle de l’angoisse que l’on pressent déjà dans
+          l’élaboration du mode mineur est revendiquée comme condition de
+          l’anthropologie. Piette propose par ailleurs une relecture
+          d’<persName ref="026917548" type="idref" xml:base="https://www.idref.fr/">Heidegger</persName> (2014b), dont
+          on sait qu’il voulait destituer le sujet autonome en insistant sur
+          l’angoisse face à la mort qui rappelle la finitude de chaque
+          existence singulière, finitude qu’aucune relation intersubjective ou
+          appartenance à un monde ne suffit à rassurer. Cette expérience de la
+          singularité finie est le fondement d’un idéal régulateur
+          méthodologique et éthique. Comme on le verra plus bas,
+          l’anthropologie a aussi une dimension éthique puisque <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Piette</persName> nous enjoint à
+          apprendre à aimer le détail des gestes humains, la singularité des
+          présences vulnérables (pp. 79-80).</p>
+          <p xml:id="d1e202">La force d’un tel argument est d’en appeler à une
+          subjectivité irréductible qui n’est pas celle d’un moi autonome
+          transcendant l’empirique et les sciences de l’humain. <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Albert
+          Piette</persName> rejoint ainsi, à sa manière, les travaux de
+          philosophie de l’esprit qui refusent l’objectivation du point de vue
+          en première personne (voir, par exemple, Nagel 1993). Ce que cela
+          fait d’être tel individu ne peut se dire et s’analyser grâce à un
+          discours seulement impersonnel, en troisième personne. Mais une
+          telle philosophie de la subjectivité ne va pas assez loin puisque la
+          singularité subjective paraît s’y réduire à l’expérience de soi, à
+          la qualité singulière de l’expérience de soi. Or, l’anthropologie
+          selon notre auteur permet de retrouver la singularité des gestes,
+          des paroles, des attitudes et ne se cantonne pas à désigner une
+          intériorité.</p>
+        </div>
+        <div type="div1" xml:id="d1e204">
+          <head subtype="level1" xml:id="d1e205">La genèse des
+          relations</head>
+          <p xml:id="d1e207">Enfin, contre le relationnisme, <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Albert
+          Piette</persName> propose un troisième argument plus spéculatif sur
+          la nature des relations (pp. 59-68). Celui-ci est plutôt étonnant :
+          les relations sont elles aussi des individus perceptibles et non des
+          constructions théoriques à des fins d’explication. Ici aussi,
+          l’influence du tournant ontologique en sciences sociales est patente
+          (Houdart &amp; Thierry 2011). Les hiérarchies, les différences
+          sociales, les rapports amoureux (etc.) peuvent être reconnus comme
+          perceptibles car telle est la meilleure interprétation des discours
+          et attitudes des agents dont il s’agit, en première approche,
+          d’adopter le point de vue. Les relations sont expérimentées, elles
+          sont elles aussi présentes dans la situation :</p>
+          <q rend="quotation">« L’objet de la phénoménographie est non
+          seulement la présence d’un humain en situation, dans son interaction
+          et dans ses restes par rapport à celle-ci, quand il quitte la scène
+          vers d’autres situations, vers d’autres moments, mais aussi la
+          relation – et j’insiste – comme entité présente et perçue par un
+          individu dans ce lieu, éventuellement dans d’autres lieux
+          successifs. Cette relation-là n’est qu’une forme, une partie, un
+          élément de l’ensemble de la situation, mais elle est bien une forme,
+          une partie, un élément et non le “vide entre” ».(p. 59)</q>
+          <p xml:id="d1e213">Pour comprendre ce mode de présence des
+          relations, il ne faut pas substantiver les relations, ce que doit
+          montrer une théorie générique des relations à l’inverse d’une
+          théorie génétique des individus. Les relations sont d’abord
+          virtuelles dans les individus avant de devenir concrètes entre les
+          individus. Piette distingue ainsi entre exorelations et
+          endorelations, ces dernières étant des dispositions à entrer en
+          relations, à produire des exorelations qui sont les relations sous
+          leur forme perceptible et concrète.</p>
+          <p xml:id="d1e216">Ainsi, décrire un prêtre se préparant à dire la
+          messe permet de suivre comment il va entrer en relation avec Dieu,
+          posé lui aussi comme un agent présent dans la situation. On pourrait
+          penser que la catégorie de prêtre servant à comprendre le
+          comportement de tel individu implique par avance la relation à une
+          divinité. Pourtant, l’anthropologie peut suivre la mise en relation
+          du prêtre et de Dieu dans une situation de culte. Avant le culte, le
+          prêtre n’a pas forcément de relation à Dieu, il pense à autre chose,
+          à l’électricité à réparer par exemple. Mais il a la capacité à se
+          rendre présent (à) son Dieu, telle est son endorelation. On voit
+          ainsi que la virtualité de la relation permet de ne pas réduire le
+          prêtre à la relation instituée par son Église.</p>
+          <p xml:id="d1e219">
+            <persName ref="249627906" type="idref" xml:base="https://www.idref.fr/">Bruno Latour</persName> (2005)
+          s’est donné comme projet de montrer la naissance du social plutôt
+          que de le supposer agissant avant que les acteurs entrent en jeu.
+          Mais il fait naître les individus à l’occasion de la mise en
+          relation, tandis qu’<persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Albert Piette</persName> décrit la
+          naissance des relations à partir des êtres singuliers. Si l’on suit
+          bien cet argument, la sociologie et l’anthropologie focalisées sur
+          les relations oublieraient la genèse réelle des relations et donc
+          les singuliers qui les précèdent. Le nominalisme et le
+          constructivisme sont donc dépassés par cette généalogie qui montre
+          que les relations et les catégories qui sont le point de départ des
+          relationnistes sont en réalité, dans la réalité elle-même, des
+          entités secondes. Pour refonder l’anthropologie, les considérations
+          méthodologiques sur l’étude des détails, des restes et du mode
+          mineur sont complétées par des considérations sur la nature même de
+          l’être humain, comme je vais y revenir.</p>
+          <p xml:id="d1e223">Mais ce troisième argument s’appuie sur la
+          perception subjective et semble accepter que l’ordre de l’expérience
+          est légitime pour comprendre l’ordre de la réalité. L’anthropologie
+          du singulier comprenant l’origine des relations est plus pertinente
+          selon <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Piette</persName> pour saisir
+          l’humain que les sciences sociales focalisées sur les relations et
+          les catégories générales. Le risque d’une telle approche est de
+          tomber dans le problème de l’œuf et de la poule. Il est difficile de
+          croire que toute relation naît seulement des individus. Leur
+          capacité à se relier a sûrement une base naturelle, dans la
+          sociabilité naturelle de l’animal social qu’est l’être humain. À
+          cela s’ajoute que les mises en relation sont vraisemblablement
+          dépendantes de l’acquisition de dispositions <hi rend="italic">(habitus)</hi> à se relier, dispositions qui sont
+          héritées. L’expérience subjective risque de devenir une illusion si
+          l’on veut statuer non sur la méthode d’étude que l’on ne conteste
+          pas ici, mais sur les catégories fondamentales pour penser l’être
+          humain. <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Albert Piette</persName> risque le
+          piège de la phénoménologie qu’il mentionne régulièrement :
+          l’aveuglement à la puissance explicative des objectivations
+          scientifiques et généalogiques. Les phénoménologues en revenant au
+          vécu qui donne sens à toutes les situations humaines ont oublié les
+          conditions matérielles et culturelles qui rendent possible ce vécu.
+          Le danger de la focalisation sur le singulier comme source des
+          relations est peut-être assez similaire au danger de l’idéalisme
+          qui, adoptant le point de vue singulier de la conscience
+          personnelle, se rend aveugle aux conditions et même aux
+          déterminations qui œuvrent à produire cette conscience.</p>
+          <p xml:id="d1e229">Si toutes les relations supposent des individus,
+          si l’individu n’est jamais le simple effet de relations, peut-on le
+          décrire autrement que comme un sujet auto-fondé ? <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Albert
+          Piette</persName> mentionne <persName ref="027154920" type="idref" xml:base="https://www.idref.fr/">Gabriel Tarde</persName> pour
+          refuser à juste titre son annexion au courant relationniste.
+          <persName ref="027154920" type="idref" xml:base="https://www.idref.fr/">Tarde</persName> (1999) a bien posé
+          ce problème de l’articulation du singulier qu’il nomme monade et qui
+          est premier, avec la régularité et la généralité que l’on constate à
+          tous les niveaux de la réalité. Il propose, certes de manière très
+          spéculative, une théorie de l’évolution des singuliers constituant
+          naturellement et culturellement des mises en relation et des
+          régularités. <persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Piette</persName> n’a pas
+          l’intention de fonder l’anthropologie sur une métaphysique
+          spéculative reconnaissant des forces psychiques dans la diversité
+          des monades qui forment les éléments dynamiques ultimes de l’être.
+          Il privilégie l’étude de la présence en situation, ce qui est un
+          donné. Ce donné, il l’interroge en cherchant les trajectoires dans
+          la situation et entre les situations, et en proposant des hypothèses
+          sur l’émergence du mode mineur pendant les premiers temps de
+          Sapiens. Si l’anthropologue préfère ne pas explorer la métaphysique
+          des monades et de leur régularité, peut-il esquiver le problème de
+          l’acquisition des dispositions à se lier ? Mentionner l’existence
+          d’endorelations paraîtra une postulation non pas gratuite mais
+          insuffisamment étayée empiriquement. C’est parce que le singulier
+          est supposé premier dans l’ordre de l’être que les relations perçues
+          sont rapportées à des relations virtuelles dans les individus. La
+          genèse de l’individu singulier, si elle ne veut pas réduire
+          l’individu à des relations sociales qui le constitueraient, doit
+          s’interroger, comme le faisait Tarde, sur la dynamique vitale qui,
+          conjointement à la transformation sociale, produit l’individu
+          singulier étudié dans des situations présentes.</p>
+          <p xml:id="d1e232">Encore une fois, cette critique ne vise que la
+          genèse des relations et non la méthode de focalisation sur le
+          singulier. On peut ne pas renoncer au singulier qui reste toujours
+          plus qu’une mise en relation et penser les relations comme en partie
+          constitutives des manières d’être, ce qui légitime pleinement une
+          approche relationniste qui n’affirmerait pas que le singulier
+          n’existe pas réellement ou qui ne soutiendrait pas qu’il n’y a que
+          des cas particuliers de catégories et relations générales.</p>
+          <p xml:id="d1e235">❖</p>
+          <p xml:id="d1e238">Refonder l’anthropologie consiste donc, selon
+          notre auteur, en un ensemble de postulations ontologiques qui le
+          rapprochent de la philosophie et de modèles méthodologiques,
+          postulations et méthodes qui se soutiennent mutuellement. Ce n’est
+          pas réduire l’originalité et la pertinence du propos d’<persName ref="029217644" type="idref" xml:base="https://www.idref.fr/">Albert
+          Piette</persName> que d’affirmer que l’anthropologie des singuliers
+          proposée se veut la réaffirmation du primat de la compréhension sur
+          l’explication génétique. Pour lui, il faut comprendre le singulier
+          avant d’expliquer sa genèse et son acquisition de dispositions à se
+          relier, au risque de minorer plus que nécessaire l’étude des
+          dynamiques de constitutions des singularités.</p>
+          <p xml:id="d1e241">Plusieurs fois, j’ai insisté sur des devoirs pour
+          l’anthropologue car le propos se veut en partie normatif, ce qu’on
+          ne reprochera pas à un tel discours de la méthode. Finissons donc en
+          soulignant l’éthique que mentionne Piette et qui donne aussi sens au
+          programme qu’il défend. Il s’agit, grâce à l’attention portée aux
+          détails et aux restes, d’apprendre à respecter et aimer la
+          singularité de chacun. L’anthropologie devient un élément pour un
+          humanisme qui ne retombe pas sous les objections faites en leur
+          temps par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> (1966) ou
+          <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Lévi-Strauss</persName> (1962). Car
+          autant nous nous complaisons à aimer notre singularité, autant nous
+          peinons à nous soucier de celle des autres, de ces singularités
+          vulnérables et minuscules. L’attitude anthropologique devient alors
+          un modèle de vie exemplaire.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliography" xml:id="d1e244">
+        <listBibl xml:id="d1e245">
+          <bibl xml:id="d1e246">Aristote, 2005 <hi rend="italic">Organon</hi>,
+          4. <hi rend="italic">Seconds Analytiques</hi>. Trad. et éd. par
+          Pierre Pellegrin. Paris, Flammarion (« GF » 1186).</bibl>
+          <bibl xml:id="d1e255">Descombes, Vincent, 2004 <hi rend="italic">Le
+          Complément de sujet. Enquête sur le fait d’agir de soi-même</hi>.
+          Paris, Gallimard (« <hi rendition="#T10">Nrf</hi> essais »).</bibl>
+          <bibl xml:id="d1e264">Feneuil, Anthony &amp; Yann Schmitt, eds, 2013
+          <hi rend="italic">ThéoRèmes. Enjeux des approches empiriques des
+          religions</hi> 5 : <hi rend="italic">L’incroyance religieuse</hi>.
+          Genève, Institut romand de systématique et d’éthique [<ref target="http://theoremes.revues.org/507">http://theoremes.revues.org/507</ref>].</bibl>
+          <bibl xml:id="d1e276">Ferry, Luc &amp; Alain Renaut, 1988 <hi rend="italic">La Pensée 68. Essais sur l’anti-humanisme
+          contemporain</hi>. Paris, Gallimard (« Folio. Essais » 101).</bibl>
+          <bibl xml:id="d1e282">Foucault, Michel, 1966 <hi rend="italic">Les
+          Mots et les choses. Une archéologie des sciences humaines</hi>.
+          Paris, Gallimard (« Bibliothèque des sciences humaines »).</bibl>
+          <bibl xml:id="d1e288">Foucault, Michel, 1984 <hi rend="italic">Histoire de la sexualité</hi>, 2. <hi rend="italic">L’usage des plaisirs</hi> ; et 3. <hi rend="italic">Le
+          souci de soi</hi>. Paris, Gallimard (« Bibliothèque des
+          histoires »).</bibl>
+          <bibl xml:id="d1e301">Goffman, Erving, 1974 [1967] <hi rend="italic">Les Rites d’interaction</hi>. Trad. par Alain Kihm.
+          Paris, Minuit (« Le Sens commun »).</bibl>
+          <bibl xml:id="d1e307">Houdart, Sophie &amp; Olivier Thierry, eds,
+          2011 <hi rend="italic">Humains, non-humains. Comment repeupler les
+          sciences sociales</hi>. Paris, La Découverte.</bibl>
+          <bibl xml:id="d1e313">Latour, Bruno</bibl>
+          <bibl xml:id="d1e316">Houdart, Sophie &amp; Olivier Thierry, eds,
+          2005 <hi rend="italic">Changer de société, refaire de la
+          sociologie</hi>. Trad. de l’anglais par Nicolas Guilhot. Paris, La
+          Découverte (« Armillaire »).</bibl>
+          <bibl xml:id="d1e322">Lévi-Strauss, Claude, 1962 <hi rend="italic">La Pensée sauvage</hi>. Paris, Plon.</bibl>
+          <bibl xml:id="d1e328">Mauss, Marcel, 1985 [1950] <hi rend="italic">Sociologie et Anthropologie</hi>. Paris, Presses
+          universitaires de France (« Quadrige »).</bibl>
+          <bibl xml:id="d1e335">Nagel, Thomas, 1993 [1986] <hi rend="italic">Le Point de vue de nulle part</hi>. Trad. de l’anglais
+          américain par Sonia Kronlund. Combas, L’Éclat.</bibl>
+          <bibl xml:id="d1e341">Piette, Albert, 1996 <hi rend="italic">Ethnographie de l’action. L’observation des
+          détails</hi>. Paris, Métailié (« Leçons de choses »).</bibl>
+          <bibl xml:id="d1e347">Piette, Albert, 1999 <hi rend="italic">La
+          Religion de près. L’activité religieuse en train de se faire</hi>.
+          Paris, Métailié (« Leçons de choses »).</bibl>
+          <bibl xml:id="d1e353">Piette, Albert, 2013 <hi rend="italic">L’Origine de la croyance</hi>. Paris, Berg
+          International (« Dissonances »).</bibl>
+          <bibl xml:id="d1e359">Piette, Albert, 2014a <hi rend="italic">Méditation pessoanienne. Science de l’existence et
+          destin de l’Anthropologue</hi>. Paris, Éd. Matériologiques
+          (« Essais »).</bibl>
+          <bibl xml:id="d1e365">Piette, Albert, 2014b <hi rend="italic">Avec
+          Heidegger, contre Heidegger. Introduction à une anthropologie de
+          l’existence</hi>. Lausanne-Paris, L’Âge d’Homme (« Être et
+          devenir »).</bibl>
+          <bibl xml:id="d1e372">Tarde, Gabriel, 1999 <hi rend="italic">OEuvres
+          de Gabriel Tarde</hi>, 1. <hi rend="italic">Monadologie et
+          sociologie</hi>. Le Plessis-Robinson, Institut Synthélabo pour le
+          progrès de la connaissance (« Les Empêcheurs de penser en
+          rond »).</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

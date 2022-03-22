@@ -1,0 +1,947 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:examples="http://www.tei-c.org/ns/Examples" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:marcrel="http://www.loc.gov/loc.terms/relators" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="Metis-10-2012-M-Detienne">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" type="main">De l’efficacité en raison
+        pratique</title>
+        <title type="sub">Approches comparatives</title>
+        <author role="aut">
+          <persName>
+            <forename>Marcel</forename>
+            <surname>Detienne</surname>
+            <idno type="IDREF">02682891X</idno>
+          </persName>
+          <affiliation>EPHE, John Hopkins University</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Seconde édition numérique, Paris, <date when="2020">2020</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification 3.0 non transposé - CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/GLJE57JZ" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">De l’efficacité en raison pratique : Approches
+            comparatives</title>
+            <idno type="DOI">10.4000/books.editionsehess.2802</idno>
+            <author>
+              <forename>Marcel</forename>
+              <surname>Detienne</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Mètis</title>
+            <idno type="ISSN">978-2-7132-2608-3</idno>
+            <imprint>
+              <biblScope unit="volume">Dossier : Serments et paroles
+              efficaces</biblScope>
+              <biblScope unit="issue">N.S.10</biblScope>
+              <biblScope unit="page">349-361</biblScope>
+              <date>2012</date>
+              <note type="url">http://books.openedition.org/editionsehess/2802</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre"/>
+        <language ident="grc"/>
+        <language ident="lat"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l'auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>Greece</item>
+            <item>China</item>
+            <item>mêtis</item>
+            <item>efficacy</item>
+            <item>efficiency</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>Grèce</item>
+            <item>Chine</item>
+            <item>mêtis</item>
+            <item>efficacité</item>
+            <item>efficience</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l'annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName>
+          </term>
+          <term>
+            <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="-0799" to="-0400" type="_temp">
+              <hi rend="uppercase">VIII</hi>
+              <hi rend="sup">e</hi> et<hi rend="uppercase"> V</hi>
+              <hi rend="sup">e</hi> siècle av.
+            J.-C.</date>
+          </term>
+          <term>
+            <date from="1970" to="1989" type="_temp">années soixante-dix et
+            quatre-vingts</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-04-18T17:13:35.695+02:00" who="Métopes/PDN">Conversion en XML-TEI Métopes à partir d'un source
+      XML-TEI lodel</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">De l’efficacité en raison
+          pratique</titlePart>
+          <titlePart type="sub">Approches comparatives</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Marcel Detienne</docAuthor>
+          <affiliation>EPHE, John Hopkins University</affiliation>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">Hellénistes et Sinologues dialoguent depuis les
+        années soixante. D’abord, autour de ce qui s’appelait « mentalité ».
+        Ensuite dans les années quatre-vingt-dix, à propos de l’« intelligence
+        rusée » exhibée par les Hellénistes. Comment ce qui est dit<hi rend="italic" style="typo_Italique"> mêtis</hi> peut-il être analysé
+        en termes de raison pratique et d’efficacité, selon les suggestions
+        d’un philosophe sinologue ? L’objectif, c’est de mettre en perspective
+        pensée grecque et pensée chinoise. Il semble que l’occasion est bonne
+        pour poser une série de questions autour de « efficacité-efficience »
+        sur l’axe Grèce-Chine. J’entends ainsi comparer les pratiques des
+        comparatistes, à l’œuvre dans l’Anthropologie comparée. Une part
+        importante de mon travail actuel.</p>
+        <p xml:lang="eng">From the sixties, there is a dialogue between
+        Hellenists and Sinologists. First about the question of the so called
+        mentality. Second, later in the nineties, around the problem of the
+        «cunning intelligence», displayed by the Hellenists. How this Greek<hi rend="italic" style="typo_Italique"> mêtis</hi> has been confronted
+        with a «practical reason as the key to efficacy» discovered by a
+        philosopher sinologist? The issue at hand is «putting in perspective»
+        Greek thought and Chinese thought. It seems that it is a great
+        opportunity to discuss some issues around «efficacy-efficiency» on the
+        Greece-China axis. By the means of practical reason and efficacy, I
+        intend to put comparative processes face to face. Comparing
+        comparativisms is a crucial part of my current work.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <div type="section1" xml:id="d1e145">
+          <head subtype="level1" xml:id="d1e146">À propos d’un aller-retour :
+          Grèce-Chine</head>
+          <p xml:id="d1e148">Dans le champ de l’anthropologie comparée, les
+          questions doivent être insolites et improbables, si toutefois cette
+          anthropologie se veut expérimentale et constructive. Des
+          problématiques devenues familières retrouvent une singularité en
+          découvrant leur protohistoire. Ainsi l’« intelligence pratique »,
+          telle que je l’entendais naguère elle a d’abord été grecque,
+          marginale et rusée<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>
+                <hi rend="italic">Les ruses de l’intelligence. La</hi>
+              mêtis<hi rend="italic"> des Grecs</hi>, Paris, 1974 (dernière
+              impression Paris, 2009) enquête initiée en 1964-1965 dans une
+              série de séminaires menés avec Jean-Pierre <hi rend="small-caps">Vernant</hi> en collaboration constante, à la
+              VI<hi rend="sup">e</hi> section de l’EPHE.</p>
+            </note>. Un peu plus tard, elle a rencontré une anthropologie
+          comparée de la parole déployée à l’entour de la Déesse Parole, venue
+          du monde védique où elle semblait commander aussi souverainement les
+          registres de la voix et du chant que l’éventail complet des genres
+          littéraires<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>
+                <hi rend="italic">La déesse Parole. Quatre figures de la
+              langue des dieux</hi>, Marcel <hi rend="small-caps">Detienne</hi> et Gilbert <hi rend="small-caps">Harmonic</hi> (éd.), Paris, 1995.</p>
+            </note>.</p>
+          <p xml:id="d1e179">C’était au temps des réflexions plurielles entre
+          anthropologues et historiens sur les architectures polythéistes, en
+          attente d’expérimentation et de comparables à construire entre les
+          dizaines, les centaines de sociétés qui se plaisent à imaginer des
+          génies, à inventer des entités surnaturelles, à créer chaque jour de
+          minuscules petits riens divins.</p>
+          <p xml:id="d1e181">Aucun code de recherches n’interdit de mener une
+          investigation sur l’efficacité et la raison pratique sous le signe
+          d’une anthropologie comparée de la parole. « Parole » permet
+          d’éviter ce que le<hi rend="italic"> Logos</hi> ou le<hi rend="italic"> Verbe</hi>, par exemple, aurait suggéré, sinon
+          imposé, de la manière la plus fâcheuse, à des oreilles en Occident.
+          Il est donc recommandable, au départ, de prendre ses distances avec
+          le<hi rend="italic"> Logos</hi>, la Parole-Raison des Grecs, aussi
+          soigneusement qu’avec le Verbe chrétien, confit en révélation
+          univoque. L’entrée « parole efficace » m’a semblée adéquate pour
+          cerner ce que pourrait signifier la notion d’« efficacité », à
+          travers plusieurs cultures, mises en perspective et interrogées
+          expérimentalement en même temps que les pratiques comparatives des
+          contemporains qui savent combien il est utile de « décadrer » et de
+          « dé-contextualiser » une catégorie, ancienne et moderne, comme
+          l’efficacité.</p>
+          <p xml:id="d1e192">Sur ce double plan, celui des pratiques du
+          comparatisme et des comparables en expérimentation, l’entreprise
+          menée par <persName ref="029183707" type="idref" xml:base="https://www.idref.fr/">François Jullien</persName> me
+          paraît offrir une opportunité de choix<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>François <hi rend="small-caps">Jullien</hi>,<hi rend="italic"> Traité de l’efficacité</hi>, Paris, 1996 (Livre
+              de poche, 2002). Une version réduite a été publiée aux PUF, en
+              2005 :<hi rend="italic"> Conférence sur l’efficacité</hi>,
+              « Centre Marcel Granet ». Sur son entreprise, on lira François
+              <hi rend="small-caps">Jullien</hi>, Thierry <hi rend="small-caps">Marchaisse</hi>,<hi rend="italic"> Penser d’un
+              dehors (la Chine). Entretien d’Extrême-Occident</hi>, Paris,
+              2000.</p>
+            </note>.</p>
+          <p xml:id="d1e217">Dans les <date from="1970" to="1989" type="_temp">années soixante-dix et quatre-vingts</date>, en effet,
+          l’« Intelligence rusée », exhibée par deux hellénistes, s’est
+          trouvée confrontée à une « Raison pratique, en clé d’efficacité »,
+          découverte par un sinologue philosophe. Chacune de ces enquêtes me
+          semble aujourd’hui indissociable de son histoire singulière. En ce
+          qui concerne les « ruses de l’intelligence », expérimentation menée
+          en collaboration avec <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Jean-Pierre Vernant</persName>, je
+          crois qu’il est nécessaire de démonter la fabrique d’une recherche,
+          conduite à deux et parfois quatre mains. Il s’agit pour moi de faire
+          l’autopsie du modèle, issu de l’enquête sur la<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">mêtis</hi>
+            </foreign>, et d’analyser certains des effets qu’il a produits,
+          singulièrement dans la sinologie mise en œuvre par <persName ref="029183707" type="idref" xml:base="https://www.idref.fr/">François Jullien</persName>.</p>
+          <p xml:id="d1e222">Un lecteur éveillé de la<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">mêtis</hi>
+            </foreign> des Grecs a certainement noté l’écart, la distance
+          même, entre le dernier chapitre, noué autour du « Cercle et du
+          lien », mais ouvert sur le « renversement » avec ses petits
+          mécanismes<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Après la conclusion, une note (p. 307) indique l’auteur ou
+              les auteurs de chacun de chapitres.</p>
+            </note>, et l’introduction, rédigée à la fin de l’ouvrage, ainsi
+          qu’il est d’usage. Il allait de soi qu’en toute amitié et selon les
+          deux décennies qui nous unissaient, ce soit le philosophe, <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Jean-Pierre Vernant</persName>, qui
+          dégage les grandes lignes de nos tâtonnements et prennent la
+          responsabilité de poser, comme il aimait à dire, « les questions de
+          fonds ». C’est ainsi qu’a été formulé un partage tranché, dans et
+          pour « la pensée grecque », entre la raison philosophique, de type
+          géométrique, avec son formalisme idéel, d’une part, et, de l’autre,
+          une intelligence pratique, experte en ruses et tournemains conçus
+          pour s’adapter à des situations toujours mouvantes.</p>
+          <p xml:id="d1e231">En ce temps-là, il semblait bienvenu de faire
+          voir le contraste entre une raison de type géométrique arrimée à
+          l’intelligible de l’Être, et les petits éclats d’intelligence
+          pratique et technique, disséminés entre de multiples savoir-faire et
+          des connaissances souvent discrètes.</p>
+          <p xml:id="d1e233">Progressivement, le partage tranché est devenu
+          radical entre deux formes de pensée, deux types de rationalité :
+          l’une aurait exclu l’autre et préparé, vraisemblablement sans le
+          savoir, l’avènement de<hi rend="italic"> la</hi> pensée
+          scientifique, celle qui allait nous conduire, dira-t-on bientôt, de
+          <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> à <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> et <persName ref="02704694X" type="idref" xml:base="https://www.idref.fr/">Newton</persName>. Les effets d’un
+          modèle ne peuvent laisser le comparatiste indifférent tout comme les
+          usages publics des Grecs et ce qui est appréhendé en termes de
+          pensée.</p>
+          <p xml:id="d1e238">D’un pareil constat, dressé avec l’autorité de
+          qui parlait en chaire, ainsi qu’il est advenu si rapidement, un
+          lecteur-auditeur philosophe pouvait conclure que les Grecs avaient
+          laissé en friche tout un pan de pensée que d’autres avaient
+          peut-être exploité. Je choisis la date de <date type="_temp" when="1996">1996</date>. Vingt ans environ après les « Ruses de
+          l’intelligence », <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Jean-Pierre Vernant</persName>,
+          élu, consacré, « Président de l’Association pour l’encouragement des
+          études grecques » multipliait les déclarations sur les Grecs et la
+          pensée grecque. L’une d’elles, si bien frappée qu’elle semblait
+          définitive, attribuait à la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>, à la pensée
+          grecque en soi, l’option décisive de la raison géométrique et
+          formelle, laissant entendre que la raison « philosophique » avait
+          ainsi contribué à marginaliser la raison pratique et à laisser
+          s’atrophier tout ce que représentait l’intelligence rusée<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Jean-Pierre <hi rend="small-caps">Vernant</hi>, « L’avènement
+              de la pensée rationnelle »,<hi rend="italic"> Entre mythe et
+              politique, Paris</hi>, 1996, p. 253-264 (262-263).</p>
+            </note>. Au point que le mot et la notion de<hi rend="italic">
+              <foreign xml:lang="grc">mêtis</foreign>
+            </hi> s’étaient effacés du vocabulaire grec. Les hellénistes du
+          cru en avaient d’ailleurs tiré argument pour dénoncer
+          l’insignifiance d’une enquête vouée à des formes obsolètes d’une
+          figure, exhibée par deux marginaux.</p>
+          <p xml:id="d1e253">En <date type="_temp" when="1996">1996</date>
+          paraît le<hi rend="italic"> Traité de l’efficacité</hi>, rédigé par
+          un philosophe helléniste et sinologue, lecteur déclaré des<hi rend="italic"> Ruses de l’intelligence</hi>. <persName ref="029183707" type="idref" xml:base="https://www.idref.fr/">François Jullien</persName>
+          explique, en effet, le rôle que la<hi rend="italic">
+              <foreign xml:lang="grc">Mêtis</foreign>
+            </hi> a joué dans sa réflexion sur la raison pratique et l’esprit
+          d’efficacité entre la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> et la
+          <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName>
+            <note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>François <hi rend="small-caps">Jullien</hi>,<hi rend="italic"> Traité de l’efficacité</hi>,<hi rend="italic">
+              op. cit.</hi> (n. 3), p. 17-20 ; Livre de poche, 2002, p.
+              21-24.</p>
+            </note>. Animé par une volonté de « penser ailleurs », une volonté
+          philosophique, <persName ref="029183707" type="idref" xml:base="https://www.idref.fr/">Jullien</persName> situe
+          explicitement son entreprise dans l’axe qui va des Grecs à la pensée
+          chinoise. Son projet, parfaitement tracé, vise à montrer aux
+          philosophes « nés en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> », et donc de
+          tradition européenne, que la pensée de la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> permet de
+          « penser autrement », y invite même, c’est-à-dire de penser dans un
+          cadre différent, avec d’autres notions, avec des catégories
+          étrangères à ce qui semble relever du « sens commun ». En terre
+          d’Europe, les intellectuels comme les philosophes parlent et pensent
+          en grec, qu’il s’agisse de l’être en verbe, en forme ou en idée, ou
+          de la démocratie en politique. L’aller-retour entre la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> et la
+          <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> devrait ainsi
+          conduire à dé-catégoriser la pensée philosophique, davantage, à
+          déstabiliser le cadre de la pensée occidentale.</p>
+          <p xml:id="d1e278">Pourquoi la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName>, et elle
+          seule ? Non pas l’<placeName ref="1269750" type="geonames" xml:base="https://www.geonames.org/">Inde</placeName>, ni le monde
+          sémitique ? Helléniste et sinologue, <persName ref="029183707" type="idref" xml:base="https://www.idref.fr/">Jullien</persName> le
+          dit et le répète : parce que la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> est seule à
+          offrir une « pensée » explicite, travaillée, cultivée dans une
+          tradition sans rupture, une pensée-système, « comparable », analogue
+          à celle de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>. Chemin
+          faisant, le curieux d’efficacité en raison pratique qui ne se sent
+          pas vraiment grec commence à se demander, comme dit la chanson :
+          pourquoi la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> ?</p>
+          <p xml:id="d1e280">Pour l’heure, comme il s’agit de « mettre en
+          perspective » pensée grecque et pensée chinoise, rien ne semble plus
+          avenant que d’ouvrir notre intelligence « gréco-européenne » à
+          d’autres façons de penser, que ce soit la morale, l’éthique, le
+          temps, l’action, la stratégie ou l’universel. La <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> selon
+          <persName ref="029183707" type="idref" xml:base="https://www.idref.fr/">Jullien</persName> serait ainsi
+          l’occasion de découvrir l’impensé de la pensée traditionnelle, un
+          impensé parfois qualifié d’infra-philosophique ; non pas de
+          pré-philosophique.<hi rend="italic"> Infra</hi>, dans le sens que
+          nos choix gréco-occidentaux ont laissé en jachère, comme en attente
+          ou dans un en deçà, des orientations que la pensée en <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> a retenues,
+          cultivées et fait fructifier dans sa culture. En opérant la synthèse
+          de plusieurs de ses enquêtes, l’auteur du<hi rend="italic"> Traité
+          de l’efficacité</hi> met en regard, place en vis-à-vis, deux
+          conceptions de l’efficacité. La grecque : elle construit une forme,
+          un modèle idéal ; elle conçoit un plan pour agir en visant un but.
+          La chinoise : elle se donne en situation, en savoir tirer profit des
+          circonstances ; elle se laisse porter ; elle cultive la<hi rend="italic"> propension</hi> en évaluant les potentiels d’une
+          situation et d’un processus en cours ; elle est discrète ; elle est
+          indirecte. L’approche comparée entre deux systèmes de pensée, menée
+          par un seul, philologue-philosophe, ne se limite pas à mettre en
+          scène des voies parallèles, distinctes, en faisant le décompte de ce
+          que les uns et les autres ont ou n’ont pas, ce qui n’affinerait pas
+          les différences relevées. Entre l’efficacité, dite gréco-européenne
+          et l’efficience, détectée en <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> globalement,
+          le plus intéressant pour le comparatiste, c’est la découverte des
+          écarts et des manières dont l’analyste les fait travailler, à la
+          fois en décadrant à chaque niveau, et en dé-conceptualisant à chaque
+          occasion, autant qu’un seul, à l’œuvre, se montre habile à en
+          saisir.</p>
+          <p xml:id="d1e291">À ce point, pour débattre des problèmes posés
+          autour de l’efficacité sur l’axe <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>-<placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName>, deux
+          opérations me semblent pertinentes. La première consiste à reprendre
+          en profondeur l’analyse des composants de l’intelligence dite rusée
+          en l’ouvrant sur la diversité des savoir-faire, des faire-créer, des
+          faire-agir, de manière à mettre à l’épreuve le<hi rend="italic">
+          schéma</hi> d’une raison pratique « radicalement » opposée à la
+          raison philosophique.</p>
+          <p xml:id="d1e296">La seconde, en relation plus étroite avec
+          l’exigence de « penser ailleurs et autrement » conduirait à démonter
+          le savoir philosophique sur quoi repose la dite pensée
+          « philosophique ». Un démontage qui opérerait d’abord dans le champ
+          des présocratiques en dégageant les fines ligatures indigènes entre
+          ce qui se dit « sophie » et ce qui se veut « philosophie ».
+          Parallèlement, l’archéologue-anatomiste, cette fois dans le savoir
+          contemporain, ferait voir les pratiques constitutives d’un
+          savoir-philosopher sous la forme de l’Agrégation comme elle a été
+          façonnée, en <date type="_temp" when="1826">1826</date>, au temps de
+          la <date>Restauration</date> en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>
+            <note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Invité à débattre autour de l’œuvre de F. <hi rend="small-caps">Jullien</hi> à l’occasion de journées
+              d’études, en décembre 2010, j’ai présenté deux réflexions : 1.
+              « Pour une anthropologie comparée de la Parole, entre nous, nos
+              Grecs et d’autres ». 2. « Perturbations en comparables, pour
+              hellénistes, historiens nationaux, anthropologues, voire
+              philosophes » (à paraître).</p>
+            </note>. Deux parcours dont le premier, en l’abrégeant, me semble
+          le plus adéquat à des réflexions sur l’efficacité. En me retournant
+          sur la<hi rend="italic">
+              <foreign xml:lang="grc">mêtis</foreign>
+            </hi> d’autrefois — et le prisme chinois de <persName ref="029183707" type="idref" xml:base="https://www.idref.fr/">Jullien</persName> y a certainement
+          contribué —, il m’a semblé nécessaire de faire retour sur la
+          complexité d’une<hi rend="italic">
+              <foreign xml:lang="grc">mêtis</foreign>
+            </hi>, trop tôt, trop vite figée en « intelligence rusée ».</p>
+          <p xml:id="d1e311">Expérimenter dans le champ du et des polythéismes
+          permettait déjà d’entrevoir la richesse des savoir-faire, analysés à
+          l’aide de réactifs entre puissances divines, qui ne se laissent
+          jamais ranger en divins catégoriels : celles qui ont de la<hi rend="italic">
+              <foreign xml:lang="grc">mêtis</foreign>
+            </hi> et celles qui en sont dépourvues. Un seul regard ne permet
+          pas de découvrir les multiples facettes de puissances aussi
+          subtilement entrelacées que le sont, par exemple, <persName ref="02739560X" type="idref" xml:base="https://www.idref.fr/">Dionysos</persName> et <persName ref="027476537" type="idref" xml:base="https://www.idref.fr/">Apollon</persName> en leurs
+          multiples configurations, toujours plurielles, et dans les pratiques
+          disséminées de leurs savoir-faire. L’expérimentateur et micro
+          analyste a toute la liberté de manipuler pratiques et configurations
+          ainsi qu’il le ferait dans un laboratoire où l’on peut réitérer
+          l’expérience. Manipuler, expérimenter me semblent essentiels dans
+          l’art de construire des comparables, que ce soit dans l’épaisseur
+          d’une culture ou les entrecroisements de plusieurs d’entre elles.
+          Reprendre en profondeur et en extension l’analyse des composantes de
+          la dite<hi rend="italic"> mêtis</hi>, c’est une manière de l’ouvrir
+          sur la diversité des savoir-faire, des faire-créer, des faire-agir.
+          Autant de pratiques articulées autour du verbe<hi rend="italic">
+              <foreign xml:lang="grc">poiein</foreign>
+            </hi> : « faire » et « savoir-faire », un verbe sémantiquement
+          riche, dont le sujet immédiat s’appelle<hi rend="italic">
+              <foreign xml:lang="grc">Poiêtês</foreign>
+            </hi>
+            <note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Sur ce point, une enquête m’a grandement aidé, David <hi rend="small-caps">Bouvier</hi>, « Quand le poète était encore un
+              charpentier… Aux origines du concept de poésie », in Ute <hi rend="small-caps">Heidmann</hi> (éd.),<hi rend="italic">
+              Poétiques comparées des mythes. En hommage à Claude
+              Calame</hi>,<hi rend="italic"> Études de Lettres</hi> 3,
+              Lausanne, 2003, p. 85-105. Je reviendrai sur l’ensemble du
+              dossier à l’occasion d’une réécriture des chapitres de<hi rend="italic"> La</hi> Mêtis<hi rend="italic"> des Grecs</hi>
+              (Flammarion réservant leurs droits à chacun des complices de
+              naguère). Pour ce qui suit, en l’occurrence, je laisse en blanc
+              les références, souvent connues.</p>
+            </note>.</p>
+          <p xml:id="d1e347">Le « Poiète » d’un âge archaïque, entre le<hi rend="uppercase"/>
+            <date from="-0799" to="-0400" type="_temp">
+              <hi rend="uppercase">VIII</hi>
+              <hi rend="sup">e</hi> et<hi rend="uppercase"> V</hi>
+              <hi rend="sup">e</hi> siècle av.
+          J.-C.</date>, représente l’artisan du savoir-faire en ses multiples
+          pratiques. Il incarne l’intelligence qui forge ses propres outils.
+          L’homme du savoir-faire, si présent dans la tradition épique, semble
+          de bon secours pour desserrer l’étreinte du seul verbe « être » sur
+          la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> pensante.
+          Rendre à l’intelligence démiurgique la place qui lui revient permet
+          de reconnaître dans quel esprit et selon quelles nervures les hommes
+          et les dieux se la partagent, comme il advient dans un monde où les
+          dieux circulent parmi les mortels sans craindre de devoir produire
+          leurs papiers. Je ne fais qu’expérimenter deux ou trois traits de
+          cette « démiurgie » en<hi rend="italic"> poiétique</hi>. Dans le
+          domaine des savoir-faire, les puissances le plus souvent saluées
+          s’appellent, <persName ref="027591786" type="idref" xml:base="https://www.idref.fr/">Athéna</persName>, <persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName>, sœur et
+          frère. À leur côté, s’empresse <persName ref="027476537" type="idref" xml:base="https://www.idref.fr/">Apollon</persName>.
+          Modalités et pratiques en savoir-faire se disent avec les mots
+          d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> et de ses
+          créatures. La<hi rend="italic"> tectonique</hi>, pour commencer, le
+          savoir, la<hi rend="italic">
+              <foreign xml:lang="grc">technê</foreign>
+            </hi> du charpentier architecte, l’homme expert à « fabriquer »,
+          en menant droit le cordeau, l’instrument qui lui appartient et qui
+          sert à tailler la poutre et à agencer la quille. Avec lui, vient
+          l’éloge de la main et des prolongements qu’elle se donne de par son
+          intelligence « manuelle », appelée tantôt « sophia », tantôt
+          intelligence, du nom de<hi rend="italic">
+              <foreign xml:lang="grc">mêtis</foreign>
+            </hi>, celui-là même dont se pare <persName ref="027591786" type="idref" xml:base="https://www.idref.fr/">Athéna</persName>,
+          Athéna Métis, née de Métis, engloutie-épousée par un <persName ref="02747237X" type="idref" xml:base="https://www.idref.fr/">Zeus</persName> de la souveraineté
+          qui se veut totalisante. L’apprentissage n’a pas à se défier de
+          l’inspiration ; elle l’habite naturellement. Le savoir du connaître,
+          de l’<foreign xml:lang="grc">
+              <hi rend="italic">eidenai</hi>
+            </foreign>, et de son faire, le<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">poiein</hi>
+            </foreign>, s’énonce dans le multiple, dans la multiplicité, des
+          formes engendrées, créées et produites. C’est<hi rend="italic">
+          poiétiquement</hi> que se donne à voir et entendre le savoir-faire
+          d’<persName ref="027602656" type="idref" xml:base="https://www.idref.fr/">Héphaïstos</persName> : forgeron,
+          il « construit »,<hi rend="italic">
+              <foreign xml:lang="grc">poiein</foreign>
+            </hi>, il « fabrique-crée » une demeure indestructible de bronze,
+          semblable au ciel étoilé, de même qu’il crée et façonne (<foreign xml:lang="grc">
+              <hi rend="italic">poiein</hi>
+            </foreign>) le bouclier d’<persName ref="027276031" type="idref" xml:base="https://www.idref.fr/">Achille</persName> avec les deux
+          cités humaines, l’une en paix, l’autre en guerre. Forger (<hi rend="italic">
+              <foreign xml:lang="grc">teuchein</foreign>
+            </hi>) s’énonce comme tisser (<foreign xml:lang="grc">
+              <hi rend="italic">daidallein</hi>
+            </foreign>) et construire (<foreign xml:lang="grc">
+              <hi rend="italic">tektainesthai</hi>
+            </foreign>) : un savoir où excelle le faire-créer,<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">poiein</hi>
+            </foreign> d’<persName ref="027591786" type="idref" xml:base="https://www.idref.fr/">Athéna</persName>, quand elle se
+          donne à elle-même la tunique et la robe « aux mille broderies »,
+          nées de sa main créatrice, laquelle incarne sa<hi rend="italic">
+          mêtis</hi>, sa<hi rend="italic"> sophie</hi>, égale pour le
+          forgeron, le charpentier et le potier.</p>
+          <p xml:id="d1e407">Faire-créer-représenter sont inséparables : une
+          même technologie inventive fait naître et croître voiles, tissus,
+          carènes, armes, cuirasses, hautes colonnes et vastes demeures, pour
+          les hommes et pour les dieux. Mortels et Immortels à longue-vie
+          entrelacent des savoir-faire dont les arts et les techniques
+          témoignent de la même puissance créatrice. Les démiurges de ce
+          temps-là se partagent harmonieusement l’intelligence des
+          savoir-faire techniques autant qu’artistiques. Les plus actifs, pour
+          ne pas dire ceux qui sont présentés comme les plus « performants »,
+          conçoivent des créations dotées de l’intelligence dont elles sont
+          issues et qui leur confèrent jusqu’à la « capacité » de<hi rend="italic"> s’agir</hi> d’elles-mêmes. Ainsi, la nef parfaitement
+          ajustée sait naviguer seule et sans gouvernail, au plus sûr des
+          mouvements de la mer et des vents. Il n’a pas échappé à l’un ou
+          l’autre herméneute que, parmi les différents démiurges, chantés en
+          hexamètres, le plus qualifié pour « nous » en faire savoir, c’était
+          le poète, plus précisément l’aède-poiète qui se raconte et se chante
+          lui-même. <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, le<hi rend="italic"> polytrope</hi>, aux mille tours, habile en tout
+          savoir-faire. À travers le savoir-faire-créer du Poète, l’artisan
+          du<hi rend="italic">
+              <foreign xml:lang="grc">poiein</foreign>
+            </hi>, se découvre tout un plan de pratiques et de pensées
+          bellement grecques et fort indifférentes au petit « être », le verbe
+          d’un seul sage. Plus consistante en catégorie à la fois sociale et
+          politique, la démiurgie s’enrichit conceptuellement dans le commerce
+          des expériences politiques de ses commanditaires, promus Nomothètes,
+          Législateurs, Arbitres ici, Tyrans là-bas. Dans plusieurs parties du
+          monde grec, les magistrats de haut rang sont appelés « Démiurges ».
+          Une analyse moins hâtive de la « démiurgie » conduirait à remettre
+          en question l’opposition si raide entre<hi rend="italic">
+              <foreign xml:lang="grc">poiêsis</foreign>
+            </hi> et<hi rend="italic">
+              <foreign xml:lang="grc">praxis</foreign>,</hi> et le contraste radical entre
+          un producteur assujetti à la « valeur d’usage », et l’action, la<hi rend="italic">
+              <foreign xml:lang="grc">praxis</foreign>
+            </hi>, d’un agir noble et libre pour celui qui possède en lui-même
+          sa « fin propre ». Les savoir-faire des artisans et l’intelligence
+          des poètes-démiurges ne cessent d’interroger, en la traversant, la
+          pensée du philosophe qui devrait incarner en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> la raison
+          géométrique et autrement<hi rend="italic"> modélisante</hi>. On l’a
+          déjà montré, et sur des problèmes majeurs<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Par exemple, Anne <hi rend="small-caps">Balansard</hi> (éd.),
+              « Le travail et la pensée technique dans l’antiquité
+              classique »,<hi rend="italic"> Revue d’anthropologie des
+              connaissances</hi>, 2003, p. 143-162.</p>
+            </note>.</p>
+          <p xml:id="d1e441">J’ajouterais que le monde chinois, celui dit des
+          Royaumes Combattants avec ses maîtres-artisans, ses experts en
+          métallurgie, ses créateurs en de multiples savoir-faire, semble
+          exiger une confrontation avec une <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> archaïque,
+          moins schématique qu’elle n’est parfois appréhendée. Comment
+          traduire les faire-savoir ou les savoir-faire en chinois ancien ? Ce
+          premier parcours montre déjà qu’une approche comparative ne peut se
+          faire en parlant de « raison pratique » contrastant avec une
+          « raison philosophique ». La seconde opération proposée vise plus
+          directement l’efficacité. Il est temps d’en venir à l’<hi rend="italic">efficacité</hi>, l’<hi rend="italic">efficacité</hi>
+          entre <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> et <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName>. À comparer
+          donc, les approches comparatives sont multiples, du seul fait que
+          nous ne cessons de comparer, quotidiennement, sans y prêter
+          attention, ou alors nous comparons de manière explicite, voire même
+          en y réfléchissant, dans la mesure où les uns sont anthropologues et
+          les autres philologues-historiens. En général, la philosophie ne
+          s’en soucie guère. <persName ref="029183707" type="idref" xml:base="https://www.idref.fr/">François Jullien</persName> en
+          témoigne à sa manière. La pensée de la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> lui semble
+          « comparable » à celle de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> européenne,
+          au sens de « bonne à mettre en regard », pour deux raisons :
+          d’abord, qu’elles sont toutes deux de même ampleur, de même durée,
+          qu’elles offrent à l’interprète des massifs de grands textes
+          homologues, plus ou moins ; ensuite, que la pensée chinoise, celle
+          de l’<hi rend="italic">ailleurs</hi>, assure un retour profitable
+          pour le philosophe-philologue, convaincu comme il le dit, de « mieux
+          lire le grec », de son lieu d’envol. À chacun ses pratiques :
+          <persName ref="029183707" type="idref" xml:base="https://www.idref.fr/">Jullien</persName> y invite, il ne
+          compare pas, il ne veut pas que son projet se confonde avec une
+          approche anthropologique dont il sait combien elle est comparative.
+          Il en connaît les « méfaits » dont le premier serait de mettre sur
+          le même plan la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> et les Hopi
+          ou les Bororo. Davantage : la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName>, selon lui,
+          serait allergique à toute mise « sur pied d’égalité » entre les
+          cultures. D’ailleurs, la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> n’a jamais eu
+          le goût de faire de l’anthropologie dans toute sa longue histoire.
+          Ceci n’est pas un détour, je l’ai indiqué en commençant : par le
+          biais de l’efficacité, et de la raison pratique, j’entends mettre en
+          regard des procédures comparatives : comparer les comparatismes fait
+          partie du programme que je me suis donné.</p>
+          <p xml:id="d1e452">Expérimenter et construire me semblent exiger le
+          choix d’une « entrée » de nature à esquisser ce que pourraient être
+          de bons comparables. D’évidence, la « raison pratique » n’est pas
+          une catégorie locale ; elle semble d’autant plus large, sinon lâche,
+          que l’écart entre la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> et la
+          <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> tend à faire
+          figure de contraste entre deux absolus. Quant à « efficacité »,
+          l’autre entrée mise en avant, je ne connais pas encore la culture
+          qui en proposerait l’« incomparable », sous la forme brutale d’une
+          absence de tout ce qui pourrait être dit « efficace, agissant,
+          actif, doté d’une vertu active ». De la simple efficacité, il
+          convient peut-être d’explorer les valeurs sémantiques, en partant du
+          constat qu’aucun mot grec n’est « efficacité », pas davantage qu’un
+          terme « chinois » (la « propension » indigène se délimitant par
+          rapport à la constellation « efficacité »).</p>
+          <p xml:id="d1e454">Que mettons-nous donc dans
+          « efficace-efficacité » ?</p>
+          <p xml:id="d1e456">En appliquant naguère cette procédure à la
+          catégorie « fonder, fondation », j’avais suggéré que nous faisions
+          implicitement référence à un acte, à des gestes, à un rituel ou à un
+          cérémonial inséparable d’un individu qui était à l’origine d’un<hi rend="italic"> lieu</hi>, de l’enracinement dans ce lieu-là,
+          vraisemblablement senti comme unique. L’investigation avait alors
+          livré un petit gisement « conceptuel » assez riche pour conduire
+          jusqu’à l’idée opératoire de « faire son trou » avec « du
+          territoire », et mettre alors en perspective des pratiques de
+          l’autochtonie articulées à des représentations du national, de
+          l’étranger et de l’immigré, des représentations collectives
+          continûment travaillées depuis le<hi rend="uppercase"/>
+            <date from="1800" to="1899" type="_temp">
+              <hi rend="uppercase">XIX</hi>
+              <hi rend="sup">e</hi> siècle</date>, en Europe, principalement<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>J’y suis revenu dans<hi rend="italic"> Les Grecs et
+              nous</hi>, chap. V : « Faire son trou entre l’Œdipe de Thèbes et
+              nos identités nationales », Paris, 2009, p. 112-141.</p>
+            </note>.</p>
+          <p xml:id="d1e474">Emprunté au latin impérial,<hi rend="italic"/>
+            <foreign xml:lang="lat">
+              <hi rend="italic">efficacia</hi>
+            </foreign>, dérivé d’<foreign xml:lang="grc">
+              <hi rend="italic">efficax</hi>
+            </foreign>, signifie « la vertu active » de quelque chose, non de
+          quelqu’un. Actif, agissant, énergique, ce sont les qualités les plus
+          voisines de ce qui est efficace. Efficacité, en tant que force,
+          action, pouvoir, puissance, est rare jusqu’à la fin du <date from="1600" to="1699" type="_temp">dix-septième siècle</date>, en
+          français. Pour voir apparaître le sens de « capacité à produire le
+          maximum de résultats avec le minimum de dépense, d’effort » suivi de
+          près par « rendement » et « productivité », il suffit d’attendre le
+          début du <date from="1900" to="1999" type="_temp">vingtième
+          siècle</date>, et l’arrivée de l’Amérique, le pays de l’initiative
+          et de l’efficacité, annoncé en Europe par un bon connaisseur de
+          l’« âme des peuples », <persName ref="027417506" type="idref" xml:base="https://www.idref.fr/">André Siegfried</persName>. Les
+          innombrables sous-produits de l’efficacité énergique ont depuis lors
+          envahi le marché et ses supermarchés, avec les poudres à lessive,
+          les épilateurs et shampoing, tous plus efficaces à chaque
+          « génération ».</p>
+          <p xml:id="d1e482">Entre-temps, dans l’Occident très catholique,
+          l’efficacité en parole et en acte avait connu de grandes avancées
+          par la grâce de théologiens et de linguistiques médiévaux. Certes,
+          les apprentis philosophes du début du <date from="1900" to="1999" type="_temp">vingtième siècle</date> peuvent encore se prévaloir
+          du<hi rend="italic"> Lalande</hi> (1902,1960, etc.), enseignant
+          qu’une des figures majeures de la « vertu active » se loge dans la
+          cause<hi rend="italic"> efficiente</hi>. Celle qui produit
+          effectivement son effet, l’effet auquel elle tend. Tandis que la
+          cause<hi rend="italic"> efficace</hi> est celle qui produit son
+          effet sans rien perdre, ni dépenser d’elle-même. Distinction
+          heureusement éclairée par le même dictionnaire : l’efficace de Dieu
+          est à l’opposé extrême de l’effort de l’homme. Hommage est ainsi
+          rendu en Sorbonne à la peine et à l’intelligence des
+          philosophes-théologiens des <date from="1100" to="1299" type="_temp">douzième et treizième siècles de notre ère</date>.</p>
+          <p xml:id="d1e493">Un des hauts lieux de la parole efficace surgit,
+          je le crois, au <date>Moyen Age</date>, dans les débats sur le
+          « signe religieux » et sur la « vertu » de ce qui est baptisé
+          « sacrement ». En amont donc de la Grâce efficace et de la Parole
+          divine en action au temps de <persName ref="026998416" type="idref" xml:base="https://www.idref.fr/">Luther</persName> et de <persName ref="026763362" type="idref" xml:base="https://www.idref.fr/">Calvin</persName>, en des disputes
+          non moins fécondes pour réfléchir sur le même terrain. C’est entre
+          <placeName ref="2640729" type="geonames" xml:base="https://www.geonames.org/">Oxford</placeName> et
+          <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> que les
+          pensées autour de la<hi rend="italic"> Parole efficace</hi>
+          s’élaborent, en s’échangeant si activement que seule l’analyse,
+          experte d’<persName ref="035522682" type="idref" xml:base="https://www.idref.fr/">Irène Rosier-Catach</persName>
+          permet à un profane d’en bénéficier, surtout s’il est comparatiste,
+          friand donc d’anatomie conceptuelle<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Irène <hi rend="small-caps">Rosier-Catach</hi>,<hi rend="italic"> La parole efficace. Signe, rituel, sacré</hi>,
+              Paris, 2004.</p>
+            </note>. Qui, en ce lieu de culture chrétienne, dit « sacrement »,
+          évoque, avec la « messe » et l’« Eucharistie » de son mystère, la
+          parole sacramentelle du « Ceci (déictique) est mon corps, ceci
+          (autre déictique) est mon sang ». Afin de saisir les enjeux de
+          l’affaire, il convient de faire savoir aux infidèles et aux
+          mécréants que l’« Eucharistie » (voilà du grec où il y a de la
+          grâce-charis) se situe au cœur de ce que la théologie chrétienne a
+          appelé l’Incarnation. Sommes-nous vraiment dépaysés en débarquant
+          chez des indigènes, occupés à spéculer, à réfléchir sur des
+          rituels-sacrements, si puissants qu’ils<hi rend="italic">
+          effectuent</hi> ce qu’ils<hi rend="italic"> disent</hi> et
+          rendent<hi rend="italic"> effectifs</hi> ce qu’ils<hi rend="italic">
+          figurent</hi>. Quatre termes, quatre notions subtilement mises à
+          l’épreuve et qui s’impatientent certainement d’être confrontées à ce
+          que signifie la force<hi rend="italic"> obligatoire</hi> de la
+          parole, dans le droit romain, dans le droit anglo-saxon, et, très
+          bientôt dans le « non-droit » du monde chinois, affairé en pratiques
+          commerciales de tout genre. Laissons en suspens et la dette et
+          l’obligation, et le lien, et la loi qui ne sont point indifférent à
+          quelque chose comme l’efficacité, mais nous feraient dangereusement
+          dériver du cours, du long cours sacramentel en « efficacité ».</p>
+          <p xml:id="d1e524">Dans une culture du verbe, à la fois révélé et
+          incarné, l’Eucharistie permet d’observer comment un acte purement
+          linguistique opère une conversion, dite par certains
+          « transsubstantiation ». Une seule formule accomplit le mystère. Aux
+          théologiens de l’expliquer, de la justifier avec les paroles qui ont
+          été selon les « Évangiles », prononcées par le nommé <persName ref="027366588" type="idref" xml:base="https://www.idref.fr/">Jésus</persName>, avant le Christ
+          qui le suit, durant la Cène-repas-communion. De graves questions se
+          posent : la formule à la fois « significative » et « opérative »
+          s’énonce dans le temps ; c’est à la fin de la prononciation que se
+          réalise, réellement, la conversion, la transformation du pain en
+          corps et du vin en sang. Il est donc essentiel de déterminer avec
+          précision ce qui se produit au dernier instant de l’énonciation de
+          la formule. D’où une série de problèmes : un énoncé « opératif »
+          doit-il être « vrai » pour être « conversif » (opérer la
+          transformation) ? Dans le sacrement eucharistique, de quelle
+          présence divine s’agit-il ? Quel est le statut des énoncés en
+          actes ? La voix de l’énonciateur, quel est son rôle dans la
+          conversion et dans la « présence réelle » ? Quant au changement ou
+          non d’une substance en une autre, qu’en est-il de la vertu de la
+          formule et de sa relation essentielle avec<hi rend="italic">
+          l’intention</hi> de qui la prononce ? La prononciation des paroles
+          ne doit-elle pas être un « acte volontaire », assimilé à un choix de
+          moyens qui engage le locuteur-officiant du rituel eucharistique ?
+          Faut-il qu’il y ait intention du but ultime de l’acte effectué ou,
+          simplement, effectuation matérielle du rite ? Cas exemplaire, en ce
+          qu’il y est capital de déterminer de la façon la plus précise, ce
+          qui explique la « force », la<hi rend="italic">
+              <foreign xml:lang="lat">virtus</foreign>
+            </hi>, l’efficacité des parole sacramentelles. Pendant des
+          décennies, des théologiens philosophes et linguistiques, s’acharnent
+          à définir la valeur relative des paramètres du rituel et de son
+          mystère : l’institution originelle, la norme établie, fixée par
+          l’Église et son magistère, l’intention de signifier du locuteur, la
+          disposition de l’auditeur, l’association des paroles aux actions et
+          aux autres éléments du rite, de la<hi rend="italic">
+              <foreign xml:lang="lat">missa</foreign>
+            </hi> ou, plus généralement du contexte de la prononciation : un
+          autel, un officient ordonné prêtre, etc ?</p>
+          <p xml:id="d1e535">En bref, ainsi que <persName ref="035522682" type="idref" xml:base="https://www.idref.fr/">Rosier-Catach</persName> le
+          condense, les paroles sont-elles efficaces, non parce qu’elles sont
+          dites, mais, parce qu’on y croit, et si, oui, quel équilibre est
+          possible entre l’intention, l’engagement, de celui qui y croit et le
+          respect des normes instituées qui encadrent la prononciation de la
+          formule ?</p>
+          <p xml:id="d1e537">Vraisemblablement, il est peu de cultures qui
+          offrent à l’anthropologie de la parole et de son efficacité une
+          expérimentation, conceptuelle aussi profonde et aussi étendue sur le
+          même horizon. Il suffit d’évoquer le monde de la magie, si présent
+          au <date>Moyen Age</date> avec les formules et les pratiques
+          magiques. Les théologiens anciens et modernes, ainsi que les
+          historiens des religions et combien d’ethnologues ne cesseront de
+          s’enferrer dans le magico-religieux, la magie primitive et les dites
+          « efficacités symboliques » pour modernes guérisseurs, sans jamais
+          approcher qui que ce soit la richesse des expériences accomplies par
+          les théologiens dans leur laboratoire du <date>Moyen Age</date> si
+          « moderne » ?</p>
+          <p xml:id="d1e539">Pour les hellénistes comparatistes, La<hi rend="italic"> sophie</hi> des savoir-faire et le champ de la<hi rend="italic"> poiétique</hi> me semblent offrir un important
+          gisement, une masse de matériaux notionnels et sémantiques pour
+          expérimenter sur « l’efficacité », en l’abordant de biais et par
+          décapages intuitifs.</p>
+          <p xml:id="d1e547">Deux esquisses depuis le monde grec. D’abord,
+          dans le droit fil des pratiques de l’art, de la<hi rend="italic">
+          poiétique</hi> d’<persName ref="027832309" type="idref" xml:base="https://www.idref.fr/">Hermès</persName>, Rival obsédé
+          d’<persName ref="027476537" type="idref" xml:base="https://www.idref.fr/">Apollon</persName>, son aîné, à
+          l’affût du savoir oraculaire, <persName ref="027832309" type="idref" xml:base="https://www.idref.fr/">Hermès</persName> à peine langé,
+          surgit en démiurge nocturne, bricolant en un tournemain une
+          cithare-jouet. Se faisant fort de retourner à son profit la
+          supériorité d’un dieu en qui se pensent les pensées suprêmes de
+          <persName ref="02747237X" type="idref" xml:base="https://www.idref.fr/">Zeus</persName>, <persName ref="027832309" type="idref" xml:base="https://www.idref.fr/">Hermès</persName> improvise un
+          récital, il entend frapper de stupeur le Seigneur de <placeName ref="263219" type="geonames" xml:base="https://www.geonames.org/">Delphes</placeName>, il affirme
+          s’inspirer directement, et<hi rend="italic"> lui seul</hi>, de
+          <persName ref="078604400" type="idref" xml:base="https://www.idref.fr/">Mnémosyne</persName>, de la Mère
+          des Muses. C’est ainsi que <persName ref="027832309" type="idref" xml:base="https://www.idref.fr/">Hermès</persName> crée-réalise les
+          dieux immortels avec la terre ténébreuse. Le verbe
+          « créer-réaliser » est, cette fois, non pas<hi rend="italic">
+              <foreign xml:lang="grc">poieien</foreign>
+            </hi> mais<hi rend="italic">
+              <foreign xml:lang="grc">krainein</foreign>
+            </hi>, « faire du réel », depuis un savoir-faire poétique dont
+          l’instrument musical, la cithare, est né de ses doigts habiles et de
+          sa<hi rend="italic">
+              <foreign xml:lang="grc">mêtis</foreign>
+            </hi> « en paroles et en actes », toujours en mouvement.
+          L’exercice de « réalisation » se poursuit, dans la même joute, avec
+          la prestation d’<persName ref="027476537" type="idref" xml:base="https://www.idref.fr/">Apollon</persName> en Maître de
+          l’oracle, et le seul vrai citharède, réduisant <persName ref="027832309" type="idref" xml:base="https://www.idref.fr/">Hermès</persName> à la confusion et
+          ensuite au silence complet. Le dieu de l’oracle, implanté sur
+          l’ombilic du monde, développe depuis <placeName ref="263219" type="geonames" xml:base="https://www.geonames.org/">Delphes</placeName> une haute
+          théologie de la parole : une parole si « efficace », si<hi rend="italic"> réalisante</hi>, qu’elle institue et les savoirs et
+          les fondations, qu’il s’agisse d’autels ou de cités ; une parole à
+          la musicalité absolue qu’invente l’ensemble de la culture, à la
+          fois<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">paideia</hi>
+            </foreign> et jeux,<hi rend="italic">
+              <foreign xml:lang="grc">paidia</foreign>
+            </hi>, dans l’ordre des fêtes et des concours.</p>
+          <p xml:id="d1e574">En suivant les chemins de la parole apollinienne,
+          apparaissent des formes d’efficacité du verbe de nature à dépayser
+          le<hi rend="italic"> Logos</hi> de la tradition. Surgissent des
+          paroles d’oracle, ailées parmi les signes et les énigmes proposées à
+          ceux qui, venus interroger <placeName ref="263219" type="geonames" xml:base="https://www.geonames.org/">Delphes</placeName>, s’en vont
+          par des voies, plus ou moins sinueuses, « fonder-créer » quelque
+          chose « comme du<hi rend="italic"> politique</hi> ». De quel réel
+          s’agit-il alors, par exemple, dans la fondation de <placeName ref="347342" type="geonames" xml:base="https://www.geonames.org/">Thèbes</placeName> avec ses
+          meurtres et ses malédictions d’une « efficacité » effrayante sur
+          tant de générations<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Pour en savoir plus sans attendre, voir Marcel <hi rend="small-caps">Detienne</hi>,<hi rend="italic"> Apollon le
+              couteau à la main. Une approche expérimentale du Polythéisme
+              grec</hi> (1998), nouvelle édition, Paris, 2009.</p>
+            </note> ?</p>
+          <p xml:id="d1e592">Il revient aux comparatistes de faire travailler,
+          en des sociétés distinctes, les paroles « efficaces d’elles-mêmes »,
+          les paroles qui jaillissent spontanément comme le vin d’un vase ou
+          d’un sarment de <persName ref="02739560X" type="idref" xml:base="https://www.idref.fr/">Dionysos</persName>, tout ce qui
+          est plus ou moins de l’ordre de l’<hi rend="italic">automaton</hi>,
+          la diversité des paroles qui disent, qui « font la loi », ou sont
+          reconnues « impérieuses », que ce soit à <placeName ref="3169069" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> ou ailleurs,
+          du sacramentel de la Catholicité romaine à l’<hi rend="italic">automaton</hi> de <persName ref="02739560X" type="idref" xml:base="https://www.idref.fr/">Dionysos</persName> en
+          passant par les signes efficaces de la divination, autant de
+          constellations qui méritent mieux que la misère d’un « <foreign xml:lang="eng">Speech Act</foreign> » pour <foreign xml:lang="eng">Tenure Track</foreign> aux <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">USA</placeName>.</p>
+          <p xml:id="d1e600">Autre configuration de l’efficacité sur le mode
+          grec du<hi rend="italic"> réaliser-krainein</hi> : la décision
+          politique. <placeName ref="11054594" type="geonames" xml:base="https://www.geonames.org/">Argos</placeName>, la cité, les
+          Danaïdes en suppliantes, dans la version d’<persName ref="086453033" type="idref" xml:base="https://www.idref.fr/">Eschyle</persName>,
+          très détaillée<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Eschyle,<hi rend="italic"> Suppliantes</hi>, 600-624. Plus
+              succincte en est l’évocation dans Euripide.</p>
+            </note>. Procédure de proxénie et d’asylie : une assemblée des
+          citoyens d’<placeName ref="11054594" type="geonames" xml:base="https://www.geonames.org/">Argos</placeName>, un orateur à
+          la parole persuasive qui se fait efficace. Elle effectue (<foreign xml:lang="grc">
+              <hi rend="italic">krainein</hi>
+            </foreign>) le vote à main levée, scrutin majoritaire. Nombre
+          (<foreign xml:lang="grc">
+              <hi rend="italic">plêthos</hi>
+            </foreign>), le<hi rend="italic">
+              <foreign xml:lang="grc">dêmos</foreign>
+            </hi> exerce son autorité (<hi rend="italic">
+              <foreign xml:lang="grc">kurios</foreign>
+            </hi>), son pouvoir (<hi rend="italic">
+              <foreign xml:lang="grc">kratos</foreign>
+            </hi>) : « kratodémie » ou démocratie. Accomplissement de la
+          procédure, le<hi rend="italic">
+              <foreign xml:lang="grc">telos</foreign>
+            </hi>, non pas but visé d’un projet ou d’un agent, mais effet d’un
+          procès qui n’a rien d’automatique. À la fin du compte rendu
+          exemplaire, donné par <persName ref="078600618" type="idref" xml:base="https://www.idref.fr/">Danaos</persName>, l’Étranger, au
+          Chorège, il y a la formule : de ses droites levées, le peuple entier
+          (<foreign xml:lang="grc">
+              <hi rend="italic">pandêmos</hi>
+            </foreign>) a fait que ces choses soient ainsi (<foreign xml:lang="grc">
+              <hi rend="italic">ekran’hôs einai tade</hi>
+            </foreign>).</p>
+          <p xml:id="d1e638">Dans l’agora, que ces choses soient n’a pas la
+          même nervure que dans le<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">krainein</hi>
+            </foreign> d’<persName ref="027832309" type="idref" xml:base="https://www.idref.fr/">Hermès</persName> ou celui des
+          Femmes-Abeilles de <placeName ref="263219" type="geonames" xml:base="https://www.geonames.org/">Delphes</placeName>, et
+          d’autres cas qu’il convient d’analyser le plus finement possible.
+          Peut-être atteignons-nous là une part de ce<hi rend="italic">
+          comparable</hi> que l’on cherche à construire en allant jusqu’au
+          bout d’une pensée, d’une pensée autre, « pensée des autres ».</p>
+          <p xml:id="d1e646">Construire en
+          démontant-décomposant-reconceptualisant. « Propension », dit
+          <persName ref="029183707" type="idref" xml:base="https://www.idref.fr/">Jullien</persName>, pour traduire,
+          en regard de l’efficacité, comme de l’efficience, dans ce qu’il
+          appelle un système-pensée où il y a des dizaines, des centaines de
+          petits mécanismes de pensée, avec leurs agencements, avec des nœuds
+          d’enchaînement quasi consul, ou encore « comme une cohérence » avec
+          son orientation. Ces micro-cohérences, le champ de ces orientations
+          singulières, je dirais que ce sont là<hi rend="italic"> des
+          comparables</hi>, non par des thèmes, ni des gros mots comme
+          « dette » « lien » « identité », à monnayer toujours de plus en plus
+          menu, oui, au microscope conceptuel, si cela peut éveiller dans
+          l’esprit une série de manipulations et d’expériences, des facettes à
+          explorer en toute liberté.</p>
+          <p xml:id="d1e651">Oser comparer, c’est un premier pas, construire
+          le comparable, du point de vue choisi qui est « l’anthropologie
+          comparée », me semble plus riche, plus intéressant
+          intellectuellement que de mettre en vis-à-vis<hi rend="italic"> deux
+          grands systèmes-pensées</hi>. Penser autrement, penser ailleurs,
+          surtout si l’on se réclame de la « philosophie », devrait aller
+          au-delà d’un « nous avons l’efficacité, ils (chinois) ont
+          l’efficience ».</p>
+          <p xml:id="d1e656">Une confrontation globale risque de s’égarer en
+          faisant de la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> l’autre
+          absolu des Grecs. Elle me semble aussi paradoxalement confirmer à
+          nouveau l’élection de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> dans le sens
+          le plus académique de l’Occident ; laisser dire et redire que « les
+          Grecs ne sont pas comme les autres ». Ce que toute mon entreprise
+          continue de critiquer avec constance.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

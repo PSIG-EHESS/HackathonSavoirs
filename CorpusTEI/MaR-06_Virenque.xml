@@ -1,0 +1,2284 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="MaR-06_Virenque">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">De l’arbre à l’arborescence</title>
+        <title type="alt" xml:lang="en">"From tree to arborescence. Memory and
+        materiality of reasonnings in the Middle Ages and Early Modern
+        Times"</title>
+        <author role="aut">
+          <forename>Naïs</forename>
+          <surname>Virenque</surname>
+          <affiliation>Université Catholique de Louvain</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/44IZ44P5" type="conferencePaper" xml:lang="">
+          <analytic>
+            <title level="a">De l’arbre à l’arborescence. Mémoire et
+            matérialité des raisonnements du Moyen Âge à l’époque
+            moderne</title>
+            <author>
+              <forename>Naïs</forename>
+              <surname>Virenque</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title type="conferenceName">Colloque Matières à raisonner</title>
+            <imprint>
+              <pubPlace>Genève</pubPlace>
+              <date/>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>« Savoirs » est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque « intelligente » et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item/>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1533">1533</date>
+          </term>
+          <term>
+            <date from="0200" to="0299" type="_temp">
+              <hi rend="small-caps">iii</hi>
+              <hi rend="sup">e</hi> siècle après
+            Jésus-Christ</date>
+          </term>
+          <term>
+            <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps" style="typo_SC">xvii</hi>
+              <hi rend="sup" style="typo_Exposant">e</hi> siècle</date>
+          </term>
+          <term>
+            <date from="1100" to="1199" type="_temp">
+              <hi rend="small-caps">xii</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2021-10-18T12:00:00" who="Jeanne FLAMANT">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">De l’arbre à l’arborescence</titlePart>
+          <titlePart type="sub">Mémoire et matérialité des raisonnements du
+          Moyen Âge à l’époque moderne</titlePart>
+          <titlePart type="alt">"From tree to arborescence. Memory and
+          materiality of reasonnings in the Middle Ages and Early Modern
+          Times"</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Naïs Virenque</docAuthor>
+          <affiliation>Université Catholique de Louvain</affiliation>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">Au <date>Moyen Âge</date> et à l’époque moderne, la
+        matérialisation des fils conducteurs des raisonnements (<hi rend="italic" style="typo_Italique">ducti</hi>) se caractérise par une
+        grande pluralité formelle. Les modèles de structures selon lesquelles
+        ils se déploient sont en effet d’une grande variété : architectures,
+        paysages, tableaux, roues, animaux, corps humains, zodiaque ou encore
+        topographie biblique, ces structures se définissent par leur capacité
+        répartitrice et distributive. Mais force est de constater, du point de
+        vue quantitatif, que les structures les plus efficaces et les plus
+        répandues sont celles qui exploitent le modèle répartiteur de l’arbre
+        puis de l’arborescence. De l’<date>Antiquité</date> à l’époque
+        moderne, racines, troncs, branches, feuilles, fleurs ou encore fruits
+        constituent les outils mentaux d’une opérativité organisatrice,
+        cognitive, mnémotechnique et didactique redoutable, à tel point
+        qu’elles innervent encore aujourd’hui le lexique de la pensée et
+        constituent une métaphorologie à part entière de l’activité
+        intellectuelle.En particulier au <date>Moyen Âge</date> et à l’époque
+        moderne, les arbres et les arborescences répartiteurs ont fait l’objet
+        d’une matérialisation foisonnante d’une remarquable complexité. Le
+        présent article en explore les typologies, les champs d’effectivité et
+        les modes d’opérationnalité afin de comprendre en quoi, de
+        l’<date>Antiquité tardive</date> à la veille du <date from="1600" to="1699" type="_temp">
+            <hi rend="small-caps" style="typo_SC">xvii</hi>
+            <hi rend="sup" style="typo_Exposant">e</hi>
+        siècle</date>, le modèle de l’<hi rend="italic" style="typo_Italique">arbor</hi> constitue un pilier fondamental de
+        l’histoire occidentale de la matérialité des raisonnements.</p>
+        <p xml:lang="???">In the Middle Ages and the Early Modern Times, the
+        materialization of the guiding principles of reasoning (<hi rend="italic" style="typo_Italique">ducti</hi>) is characterized by a
+        great formal plurality. The models of structures according to which
+        they are deployed are indeed of great variety: architectures,
+        landscapes, paintings, wheels, animals, human bodies, zodiac or even
+        biblical topography, these structures are defined by their allocative
+        and distributive capacity. But from a quantitative point of view,
+        there is no denying that the most efficient and widespread structures
+        exploit the distributive model of the tree and then of the
+        arborescence. From Antiquity to the Modern Times, roots, trunks,
+        branches, leaves, flowers or even fruits constitute the mental tools
+        of a strong organizational, cognitive, mnemonic and didactic
+        operativity, to such an extent that they still today innervate the
+        lexicon of thought and constitute a full-fledged metaphorology of
+        intellectual activity.Particularly in the Middle Ages and in the Early
+        Modern Times, trees and arborescences have been materialized in an
+        abundant and remarkably complex way. This article explores their
+        typologies, fields of effectiveness and modes of operationality in
+        order to understand to what extent, from Late Antiquity to the eve of
+        the seventeenth century, the <hi rend="italic" style="typo_Italique">arbor</hi> model constitutes a fundamental
+        pillar of the Western history of the materiality of reasoning.</p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <div type="chapitre" xml:id="mainDiv">
+          <div type="section1" xml:id="d1e90">
+            <head subtype="level1" xml:id="d1e91">Introduction</head>
+            <p xml:id="d1e93">Chercher à définir la matérialité des
+            raisonnements et à caractériser leur évolution dans le temps pose
+            un triple problème qui semble relever d’une antinomie
+            fondamentale : celle de l’irréductibilité de la pensée à l’objet
+            matériel, et, réciproquement, celle de l’idiosyncrasie de l’objet,
+            qui paraît exclure par définition la singularité des raisonnements
+            ou, au contraire, leurs potentielles aspirations à
+            l’universalité.</p>
+            <p xml:id="d1e95">Le premier volet de ce problème concerne les
+            natures distinctes des raisonnements et de leurs matérialisations
+            – au sens d’un processus qui leur confère une existence en tant
+            qu’objets concrets, dont l’apparition dispose de coordonnées
+            propres dans le temps et dans l’espace. De fait, les raisonnements
+            consisteraient en une activité mentale et processuelle qui serait
+            par essence immatérielle, le résultat de leur matérialisation, en
+            un produit manufacturé identifiable par ses aspects
+            techniques.</p>
+            <p xml:id="d1e97">Le deuxième volet concerne la définition
+            contemporaine des raisonnements, communément admis comme des
+            processus en acte toujours susceptibles d’être approfondis.
+            Contrairement à l’action de matérialisation, qui présuppose le
+            début et la fin d’un acte créateur se déployant dans l’espace et
+            dans le temps, le raisonnement ne serait pas soumis à la
+            finitude : en échappant aux limites spatio-temporelles qui
+            définissent l’objet matériel dans son être-au-monde, le
+            raisonnement s’accomplit en propre dans sa capacité à être
+            prolongé, approfondi, reformulé.</p>
+            <p xml:id="d1e99">Le troisième volet du problème concerne la
+            nature des outils à l’œuvre dans la production d’un raisonnement,
+            et en particulier celle du texte qui, depuis le <date from="1800" to="1899" type="_temp">
+                <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi> siècle</date>, passe pour l’outil par excellence
+            d’une pensée construite, précise et perspicace. Ce qui se pense
+            clairement s’énonce clairement, répète-t-on à loisir dans les
+            considérations pédagogiques des <date from="1800" to="1899" type="_temp">
+                <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi>
+              </date> et <date from="1900" to="1999" type="_temp">
+                <hi rend="small-caps">xx</hi>
+                <hi rend="sup">e</hi> siècles</date> : un
+            lien étroit – et ontologique ? – serait alors censé relier la
+            formation de la pensée et son énonciation verbale, comme si la
+            première ne trouvait son accomplissement que dans la seconde, et
+            que la seconde était le seul médium par lequel communiquer
+            efficacement et universellement un raisonnement dans toute sa
+            complexité.</p>
+            <p xml:id="d1e116">Ces trois volets participent d’une même
+            problématique : celle de l’examen des liens entre les
+            raisonnements et leur matérialité à travers le prisme de
+            l’abstraction. Raisonner, en particulier depuis <persName ref="026917467" type="idref" xml:base="https://www.idref.fr/">Hegel</persName>, ce serait
+            abstraire et organiser mentalement des concepts, des théories, des
+            notions, qui n’auraient de valeur que dans leur tension vers des
+            universaux aptes à couvrir la totalité de la réalité soumise à
+            l’activité de la raison. Or, en plus d’être contestable du point
+            de vue philosophique – un raisonnement abstrait et universel
+            est-il possible ? –, une telle antinomie entre le raisonnement et
+            sa matérialité constitue un paradigme nettement déterminé dans le
+            temps, qui ne recouvre pas, loin s’en faut, l’intégralité de
+            l’histoire de la pensée.</p>
+            <p xml:id="d1e118">Du point de vue diachronique, les trois volets
+            du problème de la définition de la matérialité des raisonnements
+            paraissent même globalement insignifiants. De fait, le premier
+            s’estompe dès lors que l’on prend en compte le fait que les
+            considérations médicales et physiologiques ont, depuis
+            l’<date>Antiquité</date>, cherché à localiser le siège de la
+            pensée d’un point de vue anatomique, rendant par-là impossible
+            d’envisager une pensée détachée de son existence au moins
+            organique<note n="1" place="foot" type="standard" xml:id="ftn1">
+                <p>Sur la localisation anatomique de la mémoire dans
+                l’Antiquité, voir <hi rend="small-caps">Simondon</hi>, 1982,
+                p. 170-180 ; <hi rend="small-caps">Baroin</hi>, 2010,
+                p. 50-66 ; <hi rend="small-caps">Virenque</hi>, 2019. Pour le
+                Moyen Âge, voir <hi rend="small-caps">Carruthers</hi>, 1990
+                (2002), p. 75-123.</p>
+              </note>. Le deuxième omet le fait que, jusqu’au développement de
+            la pensée cartésienne, il est impossible de concevoir l’infinité
+            en acte, y compris celle des raisonnements, et que, depuis le
+            <date from="1900" to="1999" type="_temp">
+                <hi rend="small-caps">xx</hi>
+                <hi rend="sup">e</hi> siècle</date>, le
+            développement de l’informatique et des sciences de la matière ont
+            profondément bouleversé les paradigmes de la finitude des objets
+            et des corps, rendant leur perception bien moins incompatible avec
+            la non-finitude potentielle d’un raisonnement. Le troisième volet,
+            quant à lui, ne passe pas seulement sous silence l’opérativité des
+            schèmes mentaux à l’œuvre dans la production de raisonnements, qui
+            reposent sur des modèles formels longtemps matérialisés
+            figurativement, comme des architectures ou des tableaux. Il exclut
+            également le fait que le texte dispose lui-même d’une matérialité
+            graphique et que, du point de vue cognitif, l’énonciation verbale
+            demeure étroitement liée à l’existence d’un alphabet dont
+            l’assimilation repose fondamentalement sur la matérialité de
+            l’écriture. Par ailleurs, il omet de prendre pleinement en
+            considération le fait que, pour <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>,
+            « l’âme ne pense jamais sans image »<note n="2" place="foot" type="standard" xml:id="ftn2">
+                <p>
+                  <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>, <hi rend="italic">De l’âme</hi>, III, 15.</p>
+              </note>, ce qui présuppose, d’une part, que la pensée se fonde
+            nécessairement sur des objets dont l’existence mentale provient
+            des données de la perception ; d’autre part, que toute
+            matérialisation de la pensée est en fait susceptible de constituer
+            une ré-matérialisation – dans d’autres circonstances et par
+            d’autres <hi rend="italic">media</hi> –, d’objets perçus que la
+            pensée avait abstraits de leur matérialité. Il en résulte un
+            constat essentiel : dans une telle perspective, les objets
+            matériels servent de modèles à la pensée et interviennent donc,
+            lors de l’élaboration de cette dernière, sur le registre de la
+            modélisation.</p>
+            <p xml:id="d1e153">À ces considérations historiques et
+            philosophiques s’ajoute la nécessité de prendre en compte la force
+            qu’exercent la matérialité et sa perception sur l’activité de la
+            raison. Cette force se remarque en particulier dans la
+            terminologie occidentale sur laquelle repose la définition de
+            l’activité mentale depuis l’Antiquité : raisonner revient à
+            « produire » du sens, à « fabriquer » des « chemins », des
+            « passerelles », des « cases », des « liens » ou encore des
+            « sauts » – autant d’activités et d’objets indissociables de la
+            matière grâce auxquels il est pourtant possible, précisément,
+            d’exprimer un raisonnement. Ce mode d’expression relève de la
+            métaphore au sens où la définit <persName ref="028425685" type="idref" xml:base="https://www.idref.fr/">Hans
+            Blumenberg</persName> lorsqu’il pose les bases de la
+            métaphorologie<note n="3" place="foot" type="standard" xml:id="ftn3">
+                <p>Voir notamment <hi rend="small-caps">Blumenberg</hi>, 1960
+                (2006). Pour une réflexion monographique sur la métaphorologie
+                de Hans Blumenberg, voir <hi rend="small-caps">Guiderdoni</hi>, 2021.</p>
+              </note>, c’est-à-dire une science « au service de l’histoire des
+            concepts<note n="4" place="foot" type="standard" xml:id="ftn4">
+                <p>
+                  <hi rend="small-caps">Blumenberg</hi>, 1979 (1994),
+                p. 106.</p>
+              </note> », qui « a répertorié et décrit les difficultés qui
+            apparaissent dans la zone qui précède la formation des
+            concepts<note n="5" place="foot" type="standard" xml:id="ftn5">
+                <p>
+                  <hi rend="italic">Ibid</hi>., <hi rend="italic">loc</hi>. <hi rend="italic">cit</hi>..</p>
+              </note> » – autant de difficultés qui ne trouvent leur solution
+            énonciative que dans la métaphore. Pour Hans Blumenberg, certaines
+            métaphores doivent même « être appelées absolues<note n="6" place="foot" type="standard" xml:id="ftn6">
+                <p>
+                  <hi rend="small-caps">Blumenberg</hi>, 1960 (2006),
+                p. 11.</p>
+              </note> », ce qui « signifie seulement qu’elles s’avèrent
+            résistantes face à la prétention terminologique, qu’elles ne
+            peuvent pas être résolues en conceptualité<note n="7" place="foot" type="standard" xml:id="ftn7">
+                <p>
+                  <hi rend="italic">Ibid</hi>., <hi rend="italic">loc</hi>. <hi rend="italic">cit</hi>..</p>
+              </note> ». Il semblerait que ce soit le cas des métaphores qui
+            exploitent l’efficacité évocatrice d’activités et d’objets
+            intrinsèquement liés à la matière pour désigner des opérations de
+            la pensée. Ces métaphores constituent les conditions <hi rend="italic">sine qua non</hi> de l’expression des
+            raisonnements : « [d]ans un sens très large, leur vérité est
+            d’ordre <hi rend="italic">pragmatique</hi>. En tant que repère
+            pour des orientations, leur contenu détermine une attitude, elles
+            donnent une structure au monde, elles représentent la totalité de
+            la réalité dont on ne peut jamais faire l’expérience et que l’on
+            ne peut jamais entièrement appréhender<note n="8" place="foot" type="standard" xml:id="ftn8">
+                <p>
+                  <hi rend="italic">Ibid</hi>., p. 24-25</p>
+              </note> ». En outre, comme le soulignent <persName ref="026961504" type="idref" xml:base="https://www.idref.fr/">George Lakoff</persName> et
+            <persName type="_temp">Mark Johnson</persName> en détaillant
+            l’existence de métaphores conceptuelles, certains concepts
+            eux-mêmes ne peuvent s’exprimer que par métaphore, ce qui met à
+            nouveau en évidence, comme l’avait énoncé <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>, que des
+            objets matériels perçus par les sens modélisent activement la
+            pensée<note n="9" place="foot" type="standard" xml:id="ftn9">
+                <p>
+                  <hi rend="small-caps">Lakoff</hi> et <hi rend="small-caps">Johnson</hi>, 1980 (1986).</p>
+              </note>. Il en résulte que la binarité entre les raisonnements
+            d’une part, et la matérialité de l’autre, ne peut être que
+            contestable, et surtout largement insuffisante pour caractériser
+            l’imbrication étroite de la pensée et de la matière.</p>
+            <p xml:id="d1e236">D’un point de vue historique, prendre en compte
+            cette imbrication paraît d’autant plus nécessaire que, depuis
+            l’<date>Antiquité</date>, l’élaboration de la pensée est
+            intimement liée à la permanence mnésique de la sensation – la
+            mémoire étant, en particulier dans la philosophie
+            aristotélicienne, la faculté grâce à laquelle l’expérience
+            s’unifie et peut alors servir de fondement à l’expression des
+            raisonnements (<hi rend="italic">logismos</hi>)<note n="10" place="foot" type="standard" xml:id="ftn10">
+                <p>Aristote, <hi rend="italic">Métaphysique</hi>, A, 1,
+                980b30.</p>
+              </note>. Depuis l’<date>Antiquité</date>, la définition de la
+            pensée est donc indissociable de celle de la mémoire, que ce soit
+            d’un point de vue philosophique ou médical, mais également d’un
+            point de vue rhétorique<note n="11" place="foot" type="standard" xml:id="ftn11">
+                <p>Sur la mémoire dans l’Antiquité entre philosophie, médecine
+                et rhétorique, voir <hi rend="small-caps">Simondon</hi>,
+                1982 ; <hi rend="small-caps">Baroin</hi>, 2010 ; <hi rend="small-caps">Virenque</hi>, 2019.</p>
+              </note>. Les rhétoriciens grecs, puis, surtout, les orateurs
+            latins, n’ont en effet eu de cesse de souligner la puissance
+            extrêmement stimulante et créatrice des techniques de
+            mémorisation, qui préconisent d’élaborer mentalement des
+            structures propres à accueillir les souvenirs sous la forme
+            d’images et/ou de textes dans un ordre précis, dans le but de
+            produire et d’énoncer des discours rigoureux, percutants et
+            efficaces<note n="12" place="foot" type="standard" xml:id="ftn12">
+                <p>Voir, par exemple, Anonyme, <hi rend="italic">Rhétorique
+                à Hérennius</hi>, III, 28-40 et Cicéron, <hi rend="italic">De l’orateur</hi>, II, LXXXVII, 357 à LXXXVIII,
+                360.</p>
+              </note>.</p>
+            <p xml:id="d1e274">Or, de telles techniques qui, dès le <date from="0100" to="0199" type="_temp">
+                <hi rend="small-caps">i</hi>
+                <hi rend="sup">er</hi> siècle avant J.-C.</date>, constituent un art
+            de la mémoire (<hi rend="italic">ars memoriae</hi>)<note n="13" place="foot" type="standard" xml:id="ftn13">
+                <p>Sur l’art de la mémoire dans l’Antiquité, voir
+                principalement <hi rend="small-caps">Rossi</hi>, 1960 (1993) ;
+                <hi rend="small-caps">Yates</hi>, 1966 (1975) et <hi rend="small-caps">Baroin</hi>, 2007.</p>
+              </note>, reposent sur l’opérativité mentale d’un <hi rend="italic">ductus</hi>, c’est-à-dire un fil directeur dynamique
+            grâce auquel les idées s’enchaînent de manière ordonnée, cohérente
+            et convaincante. Du point de vue métaphorologique, le <hi rend="italic">ductus</hi> relève de ce que Blumenberg appelle les
+            « <hi rend="italic">éléments constitutifs fondamentaux</hi> du
+            discours philosophique, des "transferts" que l’on ne peut pas
+            ramener à l’authentique, à la logicité<note n="14" place="foot" type="standard" xml:id="ftn14">
+                <p>
+                  <hi rend="small-caps">Blumenberg</hi>, 1960 (2006),
+                p. 10.</p>
+              </note> » : il désigne à la fois le cheminement de la raison et
+            le moteur qui permet de l’effectuer. Du point de vue rhétorique et
+            cognitif, il constitue donc le fondement même de l’<hi rend="italic">enargeia</hi> (ou, en latin, de l’<hi rend="italic">evidentia</hi>) des discours et des raisonnements
+            qui les sous-tendent : il autorise l’intelligibilité du
+            raisonnement en produisant des liens sémiques entre les idées. Ce
+            faisant, il favorise la production des raisonnements, mais
+            autorise également leur compréhension et leur juste interprétation
+            dans le cadre d’une éthique de la transmission et de la
+            réception.</p>
+            <p xml:id="d1e322">L’efficacité informatrice du <hi rend="italic">ductus</hi> ne caractérise pas seulement les
+            pratiques rhétoriques de l’<date>Antiquité</date> – qui, du reste,
+            excèdent largement la sphère de la constitution de discours à
+            visée délibérative, et reflètent puis innervent progressivement
+            toute activité mentale en fournissant aux entreprises
+            intellectuelles et spéculatives des concepts et des processus
+            d’une grande fécondité. Elle se retrouve, par exemple, au cœur de
+            la discipline monastique, dont la méditation et l’élévation
+            spirituelles sont la visée principale<note n="15" place="foot" type="standard" xml:id="ftn15">
+                <p>Sur le rôle du <hi rend="italic">ductus</hi> dans la
+                discipline monastique, voir <hi rend="small-caps">Carruthers</hi>, 1998 (2002), <hi rend="italic">passim</hi>.</p>
+              </note>. Dans la culture monastique, l’activité mentale est un
+            métier, pour lequel l’apprenti doit apprendre à non seulement se
+            servir de ses outils, mais aussi à les fabriquer<note n="16" place="foot" type="standard" xml:id="ftn16">
+                <p>
+                  <hi rend="italic">Sur la fabrication de la pensée médiévale,
+                  voir</hi>
+                  <hi rend="italic">ibid</hi>
+                  <hi rend="italic">., p. 11.</hi>
+                </p>
+              </note> : les moines n’ont jamais rédigé de manuels de
+            rhétorique, mais ils témoignent d’une fabrication foisonnante de
+            représentations et de schèmes cognitifs qui caractérisent en
+            propre des savoir-faire mentaux. La pensée créatrice monastique
+            repose sur l’imitation d’exemples, de tropes de langage et
+            d’images matérielles comme immatérielles – une tâche ardue qui
+            relève en plein de la rhétorique et qui requiert une longue
+            éducation, une pratique intense ainsi qu’une discipline
+            rigoureuse. En somme, dans la culture monastique, penser est une
+            <hi rend="italic">praxis</hi>. L’homme n’y a pas d’idées, pas de
+            souvenirs, mais il les fabrique, ce qui met profondément à mal la
+            binarité entre raisonnement et matérialité en rendant floues les
+            frontières terminologiques entre les deux, mais surtout en
+            remettant en cause la nécessité d’une distinction ontologique
+            entre le matériel et l’immatériel lorsqu’il s’agit de mettre au
+            point l’outillage de la pensée.</p>
+            <p xml:id="d1e356">Reste que, malgré les emprunts à l’imaginaire
+            pratique et technique que l’appareil notionnel de la rhétorique
+            antique et médiévale applique à l’activité de l’esprit, il ne va
+            pas de soi que l’outillage mental conduisant à la production, à
+            l’énonciation et/ou à l’assimilation de raisonnements repose
+            concrètement sur des objets matériels propres à le former et/ou à
+            l’informer. Ces cinquante dernières années, l’historiographie des
+            habitudes mentales, des processus cognitifs, des techniques de
+            mémoire et des liens entre textes et images<note n="17" place="foot" type="standard" xml:id="ftn17">
+                <p>Voir notamment <hi rend="small-caps">Esmeijer</hi>, 1978 ;
+                <hi rend="small-caps">Bolzoni, Erlindo et Morelli</hi>, 1998 ;
+                <hi rend="small-caps">Wessel</hi> et <hi rend="small-caps">Stumpel</hi>, 1999 ; <hi rend="small-caps">Bolzoni</hi>, 2002 ; <hi rend="small-caps">Beecher</hi> et <hi rend="small-caps">Williams</hi>, 2009; <hi rend="small-caps">Busse Berger</hi> et <hi rend="small-caps">Rossi</hi>, 2009 ; <hi rend="small-caps">Wetzel</hi> et <hi rend="small-caps">Flückiger</hi>, 2009 ; <hi rend="small-caps">Carruthers</hi>, 2010; <hi rend="small-caps">Doležalová</hi>, 2010 ; <hi rend="small-caps">Karnes</hi>, 2011 ; <hi rend="small-caps">Schapiro</hi>, 2000 (2011).</p>
+              </note>, ainsi que la naissance récente de la science
+            diagrammatologique<note n="18" place="foot" type="standard" xml:id="ftn18">
+                <p>Le terme se déploie surtout à partir de 1981, où il se
+                retrouve sous la plume de William Mitchell. Voir <hi rend="small-caps">Mitchell</hi>, 1981. Sur le développement de
+                la diagrammatologie, voir notamment <hi rend="small-caps">Ferri</hi>, 2021 ; <hi rend="small-caps">Virenque</hi>, à paraître.</p>
+              </note> visant à comprendre l’efficacité visuelle et mentale de
+            toutes sortes de figures diagrammatiques<note n="19" place="foot" type="standard" xml:id="ftn19">
+                <p>Le terme même de « diagrammatologie » et ses dérivés
+                apparaissent eux-mêmes de plus en plus dans les intitulés de
+                communications scientifiques, parfois même lorsque ces
+                dernières ne visent pas à définir ce qu’est un diagramme. Une
+                telle pratique atteste l’actualité et l’existence factuelle
+                d’un champ d’investigation scientifique en tant que tel. Voir,
+                par exemple, <hi rend="small-caps">Ferri</hi>, 2020 ou <hi rend="small-caps">Nanni</hi>, 2021.</p>
+              </note>, s’efforcent de caractériser les liens qui existent ou
+            ont pu exister entre les objets matériels et les raisonnements. La
+            diversité des contextes, la difficulté de l’accès à certaines
+            sources figuratives de même que la complexité d’analyser des
+            pratiques mentales par essence immatérielles (qui échappent donc
+            aux sources textuelles et figuratives) rendent la tâche ardue.
+            Pour autant, il demeure possible d’établir de nombreux constats et
+            hypothèses, qui soulignent majoritairement le rôle essentiel que
+            la matérialisation concrète des <hi rend="italic">ducti</hi> a
+            joué dans la formation des raisonnements au fil de l’histoire.</p>
+            <p xml:id="d1e438">Au <date>Moyen Âge</date> et à l’<date>époque
+            moderne</date>, une telle matérialisation se caractérise par une
+            grande pluralité formelle. Les modèles de structures selon
+            lesquelles les <hi rend="italic">ducti</hi> se déploient sont en
+            effet d’une grande variété : architectures, paysages, tableaux,
+            roues, animaux, corps humains, zodiaque ou encore topographie
+            biblique, ces structures se définissent par leur capacité
+            répartitrice et distributive. Elles informent des raisonnements,
+            qui sont le plus souvent plaqués sur elles, en leur impulsant une
+            dynamique propre et en favorisant leur intelligibilité sur le
+            principe de l’hypotypose – c’est-à-dire, en en proposant une
+            formalisation parlante et souvent animée. Mais force est de
+            constater, du point de vue quantitatif, que les structures les
+            plus efficaces et les plus répandues sont celles qui exploitent le
+            modèle répartiteur de l’arbre<note n="20" place="foot" type="standard" xml:id="ftn20">
+                <p>Pour un panorama général sur le modèle organisationnel de
+                l’arbre au Moyen Âge, voir <hi rend="small-caps">Klapisch-Zuber</hi>, 2000.</p>
+              </note> [fig. 1 à 7 ; 10 et 11] puis de l’arborescence
+            [fig. 12]. De l’<date>Antiquité</date> à l’<date>époque
+            moderne</date>, racines, troncs, branches, feuilles, fleurs ou
+            encore fruits constituent les outils mentaux d’une opérativité
+            organisatrice, cognitive, mnémotechnique et didactique redoutable,
+            à tel point qu’elles innervent encore aujourd’hui le lexique de la
+            pensée et constituent une métaphorologie à part entière de
+            l’activité intellectuelle.</p>
+            <p xml:id="d1e451">En particulier au <date>Moyen Âge</date> et à
+            l’<date>époque moderne</date>, les arbres et les arborescences
+            répartiteurs ont fait l’objet d’une matérialisation foisonnante
+            d’une remarquable complexité. Nous nous proposons d’en explorer
+            les typologies, les champs d’effectivité et les modes
+            d’opérationnalité afin de comprendre en quoi, de l’<date>Antiquité
+            tardive</date> à la veille du <date from="1600" to="1699" type="_temp">
+                <hi rend="small-caps">xvii</hi>
+                <hi rend="sup">e</hi>
+            siècle</date>, le modèle de l’<hi rend="italic">arbor</hi>
+            constitue un pilier fondamental de l’histoire occidentale de la
+            matérialité des raisonnements.</p>
+          </div>
+          <div type="section1" xml:id="d1e461">
+            <head subtype="level1" xml:id="d1e462">
+              <hi rend="italic">Stemmata</hi> et <hi rend="italic">arbores</hi> :
+            aux origines formelles et figuratives des arbres répartiteurs
+            médiévaux</head>
+            <p xml:id="d1e469">Du point de vue formel et quantitatif, un
+            premier constat s’impose en observant les très nombreux arbres
+            répartiteurs [<hi rend="bold">fig. 1 à 7 ; 10 et 11</hi>] qui
+            jouent des rôles structurants dans les quatre principaux champs
+            d’effectivité de la pensée médiévale, c’est-à-dire la cognition,
+            la spiritualité, l’éthique et la mémoire des origines. Ce constat
+            concerne l’orientation de ces arbres : ils constituent les <hi rend="italic">ducti</hi> de processus de pensée en se déployant
+            majoritairement de façon verticale.</p>
+            <p xml:id="d1e477">Une telle verticalité doit toutefois s’examiner
+            avec précaution, en tenant compte de deux points essentiels. D’une
+            part, au <date>Moyen Âge</date>, la pluralité formelle et
+            l’évolution dans le temps des structures en arbre donne lieu à de
+            nombreux cas limites, qui exploitent parfois l’efficacité formelle
+            et figurative d’autres structures, telles que le cercle ou le
+            tableau. D’autre part, la définition d’un arbre répartiteur mérite
+            quelques précisions historiques et terminologiques.</p>
+            <p xml:id="d1e479">Par « arbre répartiteur », nous entendons un
+            objet figuratif clos, qui se définit par sa continuité graphique.
+            De ce point de vue, un arbre répartiteur est un diagramme : il
+            distribue des éléments qu’il localise précisément dans l’espace,
+            et sa parcourabilité visuelle favorise leur assimilation dans un
+            ordre précis et signifiant<note n="21" place="foot" type="standard" xml:id="ftn21">
+                <p>Il n’existe aucune définition précise et consensuelle d’un
+                diagramme. Nous avons longuement abordé ce point dans <hi rend="small-caps">Virenque</hi>, à paraître.</p>
+              </note>. La continuité graphique des arbres répartiteurs les
+            distingue d’un autre type de structure souvent dite « en arbre »,
+            qui se retrouve fréquemment dans les marges des manuscrits
+            médiévaux, en particulier à partir du <date from="1100" to="1199" type="_temp">
+                <hi rend="small-caps">xii</hi>
+                <hi rend="sup">e</hi>
+            siècle</date> : les graphes stemmatiques [fig. 8 et 9],
+            c’est-à-dire un ensemble de délinéations graphiques qui relient et
+            répartissent du texte (selon les cas, du simple mot à plusieurs
+            phrases) sans l’enclore dans un quelconque cadre localisant<note n="22" place="foot" type="standard" xml:id="ftn22">
+                <p>Le même problème se pose pour les graphes stemmatiques
+                (voir <hi rend="italic">ibid</hi>.).</p>
+              </note>. Ces graphes, qui rendent généralement compte de
+            distinctions (<hi rend="italic">distinctiones</hi>) entre, par
+            exemple, les composantes d’un domaine épistémique, d’un ouvrage ou
+            d’un raisonnement<note n="23" place="foot" type="standard" xml:id="ftn23">
+                <p>Sur les <hi rend="italic">distinctiones</hi> au Moyen Âge,
+                voir en particulier <hi rend="small-caps">Evans</hi>, 1980
+                (2012), § 2.4-3.3. Voir également <hi rend="small-caps">Even-Ezra</hi>, 2019. Dans cet article très
+                stimulant, Ayelet Even-Ezra n’établit pas la distinction que
+                nous proposons entre les figures répartitrices qui enclosent
+                leurs contenus et celles qui, comme les graphes stemmatiques,
+                ne les enclosent pas. Elle qualifie de façon générique les <hi rend="italic">distinctiones</hi> de diagrammes. Sur la pensée
+                délinéatrice au Moyen Âge, voir <hi rend="small-caps">Even-Ezra</hi>, 2021.</p>
+              </note>, possèdent en revanche, la plupart du temps, une
+            orientation horizontale. Contrairement aux arbres répartiteurs,
+            qui exploitent davantage l’efficacité visuelle et cognitive de
+            l’image, les graphes stemmatiques utilisent davantage le mode
+            d’opérationnalité de la lecture occidentale en se parcourant de
+            gauche à droite.</p>
+            <p xml:id="d1e525">Les arbres répartiteurs et les graphes
+            stemmatiques procèdent d’un même modèle, celui du <hi rend="italic">stemma</hi>. Sur les murs des <hi rend="italic">atria</hi> des maisons romaines, les <hi rend="italic">stemmata</hi> constituent des réseaux de
+            délinéations qui relient entre eux les portraits en médaillon des
+            ancêtres d’une famille<note n="24" place="foot" type="standard" xml:id="ftn24">
+                <p>Sur les <hi rend="italic">stemmata</hi> et la
+                représentation graphique des liens de parenté dans la culture
+                romaine, voir <hi rend="small-caps">Klapisch-Zuber</hi>, 2000,
+                p. 20-23. Sur le recours métaphorique au végétal dans la
+                culture romaine de la généalogie, voir Bretin-Chabrol,
+                2012.</p>
+              </note>, sans nécessairement faire appel à l’imaginaire de
+            l’arbre. Les arbres répartiteurs leur empruntent leur
+            verticalité ; les graphes stemmatiques, leur sobriété graphique.
+            C’est probablement sa plurilinéarité, sa capacité à modéliser des
+            distinctions ainsi que son usage en botanique qui conduit le <hi rend="italic">stemma</hi> à innerver en profondeur l’imaginaire
+            visuel et terminologique de la structuration en arbre de la pensée
+            et des discours. Dès l’<date>Antiquité</date>, il est
+            progressivement remplacé par le terme « <hi rend="italic">arbor</hi> », qui désigne alors tout type de
+            structure tracée possédant un appareil graphique plurilinéaire,
+            qu’elle soit ou non formellement et figurativement proche d’un
+            arbre véritable<note n="25" place="foot" type="standard" xml:id="ftn25">
+                <p>Pour une définition précise de l’<hi rend="italic">arbor</hi>, voir en particulier <hi rend="small-caps">Klapisch-Zuber</hi>, 2009, p. 433.</p>
+              </note>.</p>
+            <p xml:id="d1e565">Le modèle de l’<hi rend="italic">arbor</hi>
+            présuppose une structure qui impulse parcourabilité visuelle
+            ordonnée. La plupart du temps, l’ordre de cette structure
+            correspond à un déploiement du général au particulier que
+            matérialisent les divisions et les subdivisions du tronc en
+            branches puis en sous-branches. Dans le cas des arbres
+            répartiteurs diagrammatiques, le sens de cet ordre n’influe pas
+            sur leur symbolique d’<hi rend="italic">axes mundi</hi> inspiré
+            par leur verticalité. Qu’ils exploitent en effet le modèle
+            descendant de la dérivation néoplatonicienne ou celui, ascendant,
+            de l’élévation chrétienne, ces arbres permettent à leur
+            lecteur/spectateur de progresser visuellement et mentalement entre
+            les régions terrestres et les régions célestes. En symbolisant la
+            croissance de l’arbre de vie, ils soutiennent ainsi l’élévation
+            intellectuelle et/ou spirituelle de celui qui les lit et les
+            regarde<note n="26" place="foot" type="standard" xml:id="ftn26">
+                <p>Sur l’arbre de vie comme <hi rend="italic">axis mundi</hi>
+                au Moyen Âge, voir <hi rend="small-caps">Klapisch-Zuber</hi>,
+                2000, p. 220. Pour une étude plus transversale de l’arbre de
+                vie comme pilier cosmique, voir <hi rend="small-caps">Eliade</hi>, 1940, p. 240-244 ; <hi rend="small-caps">Eliade</hi>, 1949, p. 30-37 ; <hi rend="small-caps">Eliade</hi>, 1952, p. 219.</p>
+              </note>.</p>
+          </div>
+          <div type="section1" xml:id="d1e593">
+            <head subtype="level1" xml:id="d1e594">Diversité formelle et
+            pluralité des modes d’opérationnalité</head>
+            <p xml:id="d1e596">Du point de vue historique, il est fort
+            probable que des outils grapho-figuratifs existent depuis les
+            premiers moments de la pensée écrite. Il est en tout cas très
+            probable que de tels outils se trouvaient dans des copies de
+            textes, comme ceux de <persName type="_temp">Platon</persName> ou
+            d’<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>, qui
+            circulaient dès l’<date>Antiquité</date> – une époque durant
+            laquelle il n’est pas exclu que certains cours se soient déroulés
+            dans des salles ornées d’affiches où se trouvaient des images
+            pédagogiques<note n="27" place="fot" type="standard" xml:id="ftn27">
+                <p>Sur l’usage des diagrammes dans l’Antiquité, voir <hi rend="small-caps">Klapisch-Zuber</hi>, 2000, p. 29.</p>
+              </note>.</p>
+            <p xml:id="d1e606">Toutefois, la première tradition formelle qui
+            préside à la culture médiévale de l’arbre répartiteur est celle
+            qui donne lieu au dit arbre de <persName ref="027435873" type="idref" xml:base="https://www.idref.fr/">Porphyre</persName>
+            ou <hi rend="italic">arbor porphyriana</hi>
+              <note n="28" place="foot" type="standard" xml:id="ftn28">
+                <p>Sur le modèle formel et figuratif de l’arbre de Porphyre au
+                Moyen Âge, voir notamment <hi rend="small-caps">Verboon</hi>,
+                2008, p. 251-268 ; <hi rend="small-caps">Verboon</hi>, 2014,
+                p. 95-116. Sur ses caractéristiques sémiotiques,
+                philosophiques et théorétiques, voir <hi rend="small-caps">Eco</hi>, 2007 (2010), p. 18-45.</p>
+              </note>. Celui-ci constitue le résultat grapho-figuratif de la
+            matérialisation du deuxième chapitre de l’<hi rend="italic">Isagoge</hi>
+              <note n="29" place="foot" type="standard" xml:id="ftn29">
+                <p>
+                  <hi rend="small-caps">Porphyre de Tyr</hi>, <hi rend="italic">Isagoge</hi>, 2.</p>
+              </note>, l’ouvrage dans lequel, au <date from="0200" to="0299" type="_temp">
+                <hi rend="small-caps">iii</hi>
+                <hi rend="sup">e</hi>
+            siècle après Jésus-Christ</date>, le néoplatonicien <persName ref="027435873" type="idref" xml:base="https://www.idref.fr/">Porphyre de Tyr</persName>
+            interprète les <hi rend="italic">Catégories</hi> d’<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>. <persName ref="027435873" type="idref" xml:base="https://www.idref.fr/">Porphyre</persName> n’est pas
+            lui-même à l’origine de l’arbre, qui n’apparaît que dans la
+            traduction qu’en fait <persName ref="026650045" type="idref" xml:base="https://www.idref.fr/">Boèce</persName>, et dont on ne
+            possède aucun manuscrit antérieur au <date from="0400" to="0499" type="_temp">
+                <hi rend="small-caps">x</hi>
+                <hi rend="sup">e</hi>
+            siècle</date>. Des délinéations inspirées du modèle de l’<hi rend="italic">arbor</hi> y matérialisent la subordination des
+            espèces aux genres, sur laquelle repose la progression du
+            raisonnement conduisant à définir ce qu’est l’homme en partant de
+            la définition de la substance [<hi rend="bold">fig. 1 et
+            2</hi>]<note n="30" place="foot" type="standard" xml:id="ftn30">
+                <p>Sur l’<hi rend="italic">arbor porphyriana</hi> qui
+                accompagne la traduction et le commentaire de l’<hi rend="italic">Isagoge</hi> de Boèce, voir <hi rend="small-caps">Verboon</hi>, 2008, <hi rend="italic">passim</hi>.</p>
+              </note>. Ce diagramme, qui se regarde de haut en bas, exploite
+            un mode d’opérationnalité diaïrétique, c’est-à-dire qu’il procède
+            par dichotomie (<hi rend="italic">diairesis</hi>) : chaque étape
+            du raisonnement, matérialisée par un embranchement, donne à voir
+            les deux espèces qui constituent un genre, mais seule l’une des
+            deux fait ensuite l’objet d’une nouvelle distinction pour parvenir
+            à la définition de l’homme.</p>
+            <p xml:id="d1e677">La culture visuelle médiévale de l’arbre
+            répartiteur repose sur une deuxième tradition formelle et
+            figurative : celle de la division de la philosophie et/ou des
+            sciences (<hi rend="italic">divisio philosophiae</hi> ou <hi rend="italic">scientiae</hi>)<note n="31" place="foot" type="standard" xml:id="ftn31">
+                <p>Sur la <hi rend="italic">divisio philosophiae </hi>ou <hi rend="italic">scientiae </hi>dans l’Antiquité, voir <hi rend="small-caps">Hadot</hi>, 2014, p. 25-53. Sur sa mise en
+                arbre durant le haut Moyen Âge, <hi rend="small-caps">Harðarson</hi>, 2015, p. 5-11. Sur la
+                théorisation au Moyen Âge, voir <hi rend="small-caps">Dahan</hi>, 1990 et <hi rend="small-caps">Weijers</hi>, 1996, <hi rend="italic">passim</hi>.</p>
+              </note>. Ces <hi rend="italic">divisiones</hi> matérialisent sur
+            le modèle de l’<hi rend="italic">arbor</hi> la pluralité des
+            domaines du savoir – arts libéraux, vertus cardinales et/ou
+            théologales, autres domaines épistémiques comme les sciences de la
+            nature, mais aussi leurs composantes ou encore leurs champs
+            d’application [<hi rend="bold">fig. 3, 4 et 7</hi>]. Contrairement
+            aux <hi rend="italic">arbores porphyrianae</hi>, qui respectent
+            systématiquement le raisonnement logique fondé sur la progression
+            diaïrétique de la substance à l’homme, les <hi rend="italic">divisiones philosophiae</hi> ou <hi rend="italic">scientiae</hi> tendent à l’exhaustivité : elles
+            exploitent l’opérativité de l’embranchement pour matérialiser
+            toutes les distinctions et tous les niveaux hiérarchiques entre
+            les éléments qu’elles répartissent. Leur mode d’opérationnalité
+            n’est donc pas diaïrétique, mais encyclopédique.</p>
+            <p xml:id="d1e731">Une troisième tradition nourrit la culture
+            médiévale de l’arbre répartiteur : celle de la généalogie qui se
+            mesure à partir de figures qualifiées d’<hi rend="italic">arbores
+            juris</hi>
+              <note n="32" place="foot" type="standard" xml:id="ftn32">
+                <p>Sur la naissance des <hi rend="italic">arbores juris</hi>
+                ou <hi rend="italic">consanguinitatis</hi>, voir <hi rend="small-caps">Klapisch-Zuber</hi>, 2000, p. 23-26 et
+                36-43 ; <hi rend="small-caps">Schadt</hi>, 1982, <hi rend="italic">passim</hi>.</p>
+              </note>. Durant le haut <date>Moyen Âge</date>, la littérature
+            ecclésiastique s’empare du problème juridique et théologique qui
+            consiste à rendre compte graphiquement des liens qui unissent les
+            membres d’une même famille. Des <hi rend="italic">arbores
+            juris</hi> (<hi rend="italic">consanguinitatis</hi> et <hi rend="italic">affinitatis</hi>) sont alors produits dans le but de
+            donner à voir le degré auquel deux individus sont liés par le sang
+            afin de réguler les questions d’héritage et d’éviter l’inceste
+            [<hi rend="bold">fig. 5 et 6</hi>]. Du point de vue formel et
+            figuratif, ces arbres ne sont pas les héritiers des <hi rend="italic">stemmata</hi> des maisons romaines, ils
+            n’entretiennent aucun lien avec les tables de lois qui assuraient
+            les mêmes fonctions dans l’Antiquité (elles-mêmes appelées « <hi rend="italic">arbores</hi>
+              <hi rend="italic">juris </hi>» à partir
+            du <date from="0800" to="0899" type="_temp">
+                <hi rend="small-caps">ix</hi>
+                <hi rend="sup">e</hi> siècle</date>) et,
+            jusqu’à la demande contraire d’<persName ref="026931494" type="idref" xml:base="https://www.idref.fr/">Isidore de
+            Séville</persName>, ils ne font l’objet d’aucune
+            végétalisation<note n="33" place="foot" type="standard" xml:id="ftn33">
+                <p>Sur l’histoire de la végétalisation des <hi rend="italic">arbores juris</hi>, voir<hi rend="small-caps"/>
+                  <hi rend="small-caps">Klapisch-Zuber</hi>,
+                2009, p. 435.</p>
+              </note>. En revanche, ils donnent à voir les différents grades
+            des membres d’une famille dans des cadres localisants et
+            permettent à leur utilisateur de se déplacer de l’un à l’autre
+            afin d’examiner précisément le degré de parenté qui unit deux
+            personnes d’une même famille. De ce fait, contrairement à l’<hi rend="italic">arbor porphyriana</hi> [<hi rend="bold">fig. 1 et
+            2</hi>] et aux <hi rend="italic">divisiones philosophiae</hi> ou
+            <hi rend="italic">scientiae</hi> [<hi rend="bold">fig. 3, 4 et
+            7</hi>], les <hi rend="italic">arbores juris </hi>[<hi rend="bold">fig. 5 et 6</hi>]<hi rend="italic"/>ne matérialisent
+            pas un raisonnement ou une hiérarchie, mais constitue un socle
+            visuel à partir duquel il est possible de raisonner.</p>
+          </div>
+          <div type="section1" xml:id="d1e821">
+            <head subtype="level1" xml:id="d1e822">De l’époque carolingienne à
+            la fin du Moyen Âge : panorama chronologique des arbres
+            répartiteurs</head>
+            <p xml:id="d1e824">À partir du <date from="0800" to="0899" type="_temp">
+                <hi rend="small-caps">ix</hi>
+                <hi rend="sup">e</hi>
+            siècle</date>
+              <note n="34" place="foot" type="standard" xml:id="ftn34">
+                <p>Sur l’arbre dans le renouveau des études carolingiennes du
+                <hi rend="small-caps">ix</hi>
+                  <hi rend="sup">e</hi> au <hi rend="small-caps">xii</hi>
+                  <hi rend="sup">e</hi> siècle, voir
+                <hi rend="small-caps">Klapisch-Zuber</hi>, 2000, p. 34-36.</p>
+              </note>, la pensée carolingienne attribue aux <hi rend="italic">arbores</hi> une place croissante dans
+            l’organisation et la transmission des savoirs<note n="35" place="foot" type="standard" xml:id="ftn35">
+                <p>Aucune structure arborescente datant d’avant le <hi rend="small-caps">xi</hi>
+                  <hi rend="sup">e</hi> siècle ne nous
+                est parvenue.</p>
+              </note>. Mais c’est surtout au cours du dernier tiers du <date from="1000" to="1099" type="_temp">
+                <hi rend="small-caps">xi</hi>
+                <hi rend="sup">e</hi> siècle</date> que
+            les arbres répartiteurs matérialisent de plus en plus fréquemment
+            des raisonnements à vocation épistémique en organisant
+            visuellement des ordres ou des hiérarchies à des fins
+            mnémotechniques. Au <date from="1000" to="1099" type="_temp">
+                <hi rend="small-caps">xi</hi>
+                <hi rend="sup">e</hi> siècle</date>, le
+            théologien <persName ref="028685954" type="idref" xml:base="https://www.idref.fr/">Hugues de Saint-Victor</persName>
+            (1096-1141) décrit ce processus avec précision. « Je vais
+            maintenant te montrer combien [la] visualisation mentale (<hi rend="italic">consideratio</hi>) est utile à l’apprentissage<note n="36" place="foot" type="standard" xml:id="ftn36">
+                <p>Hugues de Saint-Victor, <hi rend="italic">De tribus maximis
+                circumstantiis gestorum</hi>, Diane Meur. Pour le texte latin,
+                voir Hugues de Saint-Victor, <hi rend="italic">De tribus
+                maximis circumstantiis gestorum</hi>, William Green : « <hi rend="italic">Et haec consideratio quomodo ad discendum sit
+                utilis audi</hi>
+                  <hi rend="italic"> </hi>».</p>
+              </note> » : « toute l’utilité de l’enseignement consiste en
+            effet dans la mémoire que l’on en garde<note n="37" place="foot" type="standard" xml:id="ftn37">
+                <p>Hugues de Saint-Victor, <hi rend="italic">De tribus maximis
+                circumstantiis gestorum</hi>, Diane Meur. Pour le texte latin,
+                voir Hugues de Saint-Victor, <hi rend="italic">De tribus
+                maximis circumstantiis gestorum</hi>, William Green : « <hi rend="italic">In sola enim memoria omnis utilitas doctrinae
+                consistit</hi> ».</p>
+              </note> », écrit-il à son lecteur étudiant dans le <hi rend="italic">De tribus maximis circumstantiis gestorum</hi>. Dans
+            cette perspective, mémoriser consiste en premier lieu à
+            appréhender un contenu dans le temps et dans l’espace : « c’est en
+            effet la séparation des choses qui rend celles-ci visibles (<hi rend="italic">discretio rerum evidentiam facit</hi>)<note n="38" place="foot" type="standard" xml:id="ftn38">
+                <p>Hugues de Saint-Victor, <hi rend="italic">De tribus maximis
+                circumstantiis gestorum</hi>, Diane Meur.</p>
+              </note> », énonce encore <persName ref="028685954" type="idref" xml:base="https://www.idref.fr/">Hugues de
+            Saint-Victor</persName>, de sorte que la temporalité et la
+            spatialité du souvenir correspondent à l’ordre dans lequel les
+            choses sont organisées<note n="39" place="foot" type="standard" xml:id="ftn39">
+                <p>Sur l’art de la mémoire chez Hugues de Saint-Victor, voir
+                en particulier <hi rend="small-caps">Carruthers</hi>, 1990
+                (2002), principalement p. 124-162 ; <hi rend="small-caps">Carruthers</hi>, 1998 (2002), <hi rend="italic">passim</hi> ; <hi rend="small-caps">Rivers</hi>,
+                2010, p. 45-71.</p>
+              </note>.</p>
+            <p xml:id="d1e938">À partir du <date from="1100" to="1199" type="_temp">
+                <hi rend="small-caps">xii</hi>
+                <hi rend="sup">e</hi>
+            siècle</date>, en raison de leurs vastes qualités heuristiques et
+            didactiques, les arbres répartiteurs deviennent de plus en plus
+            nombreux et innervent progressivement des champs de la pensée et
+            de la connaissance de plus en plus variés, sans toutefois que
+            cette diffusion n’implique un abandon des modèles traditionnels :
+            l’<hi rend="italic">arbor porphyriana</hi> se maintient dans les
+            ouvrages de logique dont il devient l’outil diagrammatique de
+            référence ; la reproduction de diagrammes encyclopédiques demeure
+            extrêmement fréquente, et les <hi rend="italic">arbores juris</hi>
+            continuent à alimenter les ouvrages de droit et à réguler les
+            pratiques matrimoniales.</p>
+            <p xml:id="d1e951">À partir du <date from="1100" to="1199" type="_temp">
+                <hi rend="small-caps">xii</hi>
+                <hi rend="sup">e</hi>
+            siècle</date>, la diffusion des arbres répartiteurs reflète
+            l’élargissement important des domaines dans lesquels intervient le
+            modèle flexible et adaptable de la <hi rend="italic">divisio</hi>,
+            qui ordonne des subdivisions de plus en plus nombreuses. Plus
+            largement, cette diffusion se caractérise par un recours de plus
+            en plus fréquent à l’<hi rend="italic">arbor</hi> pour
+            matérialiser des <hi rend="italic">ducti</hi> plurilinéaires. Elle
+            se fonde sur le renforcement de l’idée selon laquelle l’élévation
+            de l’âme vers la connaissance requiert une progression graduelle
+            initiatique, au sein de laquelle chaque étape constitue un
+            apprentissage. Dès lors, comme le requièrent les principes de
+            l’art de la mémoire, qui connaît également une grande résurgence à
+            partir du <date from="1100" to="1199" type="_temp">
+                <hi rend="small-caps">xii</hi>
+                <hi rend="sup">e</hi> siècle</date>
+              <note n="40" place="foot" type="standard" xml:id="ftn40">
+                <p>Sur la résurgence de l’art de la mémoire au <hi rend="small-caps">xii</hi>
+                  <hi rend="sup">e</hi> siècle, voir
+                <hi rend="small-caps">Carruthers</hi>, 1990 (2002), <hi rend="italic">passim</hi> ; <hi rend="small-caps">Rivers</hi>,
+                2010, p. 27-71.</p>
+              </note>, localiser le contenu d’une étape sous la forme d’une
+            image et/ou d’un texte devient un outil pour accéder à la sagesse.
+            Progresser visuellement et mentalement à l’aide de l’image d’un
+            arbre répartiteur devient ainsi une habitude propédeutique,
+            axiologique et spirituelle fondée sur l’activité de la mémoire :
+            dès lors que le lecteur/spectateur maîtrise suffisamment l’image
+            pour la visualiser mentalement, il en dispose comme d’un outil
+            cognitif acquis et peut se passer de sa matérialité.</p>
+            <p xml:id="d1e992">L’accroissement du recours aux arbres
+            répartiteurs se poursuit au <date from="1200" to="1299" type="_temp">
+                <hi rend="small-caps">xiii</hi>
+                <hi rend="sup">e</hi>
+            siècle</date>, conjointement à la traduction et à la diffusion
+            d’écrits d’art de la mémoire, au renforcement de la pensée
+            encyclopédique, à l’augmentation de la production d’écrits
+            archivistiques<note n="41" place="foot" type="standard" xml:id="ftn41">
+                <p>Sur l’augmentation de la production d’écrits
+                archivistiques, voir <hi rend="small-caps">Cammarosano</hi>,
+                1991.</p>
+              </note> – d’une telle ampleur qu’elle est parfois qualifiée de
+            « révolution<note n="42" place="foot" type="standard" xml:id="ftn42">
+                <p>
+                  <hi rend="small-caps">Maire Vigueur</hi>, 1995.</p>
+              </note> » – et, surtout, à la constitution de l’université.
+            Professeurs, prédicateurs, juristes, médecins, nombreux sont ceux
+            qui exploitent les potentialités mnémotechniques des arbres
+            répartiteurs, auxquels ils confèrent une variabilité formelle et
+            figurative considérable. Dans la littérature profane également, il
+            n’est pas rare que le modèle de l’arbre structure des trames
+            narratives à des fins initiatiques et exemplaires<note n="43" place="foot" type="standard" xml:id="ftn43">
+                <p>C’est le cas, par exemple, du <hi rend="italic">Roman de
+                Renart</hi>.</p>
+              </note>. Une telle profusion exprime, d’une part, un besoin
+            croissant de classification et d’ordonnancement de l’activité de
+            l’esprit, et, d’autre part, une association, caractéristique de la
+            culture médiévale, de tels outils classificatoires avec
+            l’accomplissement moral et la vie profane [<hi rend="bold">fig. 7</hi>]. Du point de vue matériel, elle est en
+            grande partie due au fait que les livres (qu’il s’agisse de copies
+            d’autorités ou manuels) sont plus accessibles au <date from="1200" to="1299" type="_temp">
+                <hi rend="small-caps">xiii</hi>
+                <hi rend="sup">e</hi> siècle</date> qu’au <date from="1100" to="1199" type="_temp">
+                <hi rend="small-caps">xii</hi>
+                <hi rend="sup">e</hi>
+              </date>, essentiellement parce que les ateliers de copistes
+            universitaires et les <hi rend="italic">scriptoria</hi>
+            monastiques et conventuels se multiplient. En d’autres termes, la
+            matérialisation des arbres répartiteurs augmente en même temps que
+            les <hi rend="italic">media</hi> s’organisent de façon à diffuser
+            le savoir facilement, rapidement et à moindres frais.</p>
+            <p xml:id="d1e1043">Cette augmentation en nombre se produit dès le
+            début du <date from="1200" to="1299" type="_temp">
+                <hi rend="small-caps">xiii</hi>
+                <hi rend="sup">e</hi> siècle</date> et
+            se poursuit jusqu’au <date from="1500" to="1599" type="_temp">
+                <hi rend="small-caps">xvi</hi>
+                <hi rend="sup">e</hi>
+              </date>, conjointement à l’intensification des préoccupations
+            des pédagogues concernant la fiabilité et l’organisation de la
+            mémoire<note n="44" place="foot" type="standard" xml:id="ftn44">
+                <p>Sur la prise en compte du fonctionnement de la mémoire dans
+                les méthodes et les programmes universitaires, voir <hi rend="small-caps">Weijers</hi>, 1996, p. 39-59.</p>
+              </note>. Au cours de ces trois siècles, les maîtres produisent,
+            à destination des étudiants, de nombreux outils heuristiques et
+            didactiques qui ont manifestement pour objectif de faciliter la
+            mémorisation – gloses, florilèges, index, répertoires,
+            concordances, liste de mots ou dictionnaires<note n="45" place="foot" type="standard" xml:id="ftn45">
+                <p>Sur les outils heuristiques produits à des fins
+                propédeutiques dans le cadre universitaire, voir notamment <hi rend="small-caps">Rouse</hi>, 1981 ; <hi rend="small-caps">Weijers</hi>, 1991 <hi rend="small-caps">;
+                Verger</hi>, 1999, p. 158-162.</p>
+              </note>. Ces outils, qui exploitent fréquemment les
+            potentialités heuristiques des <hi rend="italic">arbores</hi> [<hi rend="bold">fig. 8 et 9</hi>], deviennent progressivement les
+            marques symboliques de la validité épistémique d’un raisonnement
+            ou d’un discours.</p>
+          </div>
+          <div type="section1" xml:id="d1e1084">
+            <head subtype="level1" xml:id="d1e1085">Ordre et raisonnements,
+            matérialisation et modélisation</head>
+            <p xml:id="d1e1087">À ce point de la réflexion, une remarque
+            s’impose quant au rôle que les arbres répartiteurs jouent
+            effectivement dans la matérialité des raisonnements. De fait, ces
+            arbres exercent essentiellement une fonction heuristique : ils
+            matérialisent l’organisation des savoirs, des récits, des
+            histoires ou encore des généalogies afin d’en mettre au jour la
+            trame pour en faciliter l’assimilation. Dans la plupart des cas,
+            cette organisation reflète un ordre du monde dans lequel les
+            savoirs occupent une place précise les uns par rapport aux autres,
+            mais ne rend pas compte, <hi rend="italic">stricto sensu</hi>, du
+            déploiement d’un raisonnement d’ordre logique.</p>
+            <p xml:id="d1e1092">Dans les domaines épistémiques dans lesquels
+            des arbres répartiteurs interviennent (les arts libéraux, les
+            sciences naturelles, mais aussi d’autres champs organisés du
+            savoir, comme l’alchimie), seulement deux utilisent des arbres
+            répartiteurs pour matérialiser des raisonnements logiques. Le
+            premier est celui la logique, dans laquelle des arbres rendent
+            compte de procédés tels que l’induction ou la déduction, de
+            dichotomies, de parallélismes, bref de toutes sortes d’opérations
+            mentales qui permettent de définir les rapports qu’au moins deux
+            éléments entretiennent entre eux [<hi rend="bold">fig. 1 et
+            2].</hi> Le second, très peu étudié, est celui de la médecine, qui
+            use à plusieurs reprises d’arbres répartiteurs pour matérialiser
+            la démarche conduisant le médecin à établir un pronostic et/ou un
+            diagnostic, voire des protocoles prophylactiques ou thérapeutiques
+            en fonction de l’état de son patient [<hi rend="bold">fig. 10</hi>]. À ces deux domaines épistémiques (le
+            premier relevant du champ d’effectivité de la cognition, le second
+            de celui de l’éthique) s’en ajoute un troisième : celui de la
+            prédication (qui relève du champ d’effectivité de la
+            spiritualité), pour lequel certains arbres matérialisent à
+            destination des prédicateurs une trame narrative et argumentative
+            qu’ils peuvent réemployer pour élaborer leurs propres discours
+            parénétiques [<hi rend="bold">fig. 11</hi>].</p>
+            <p xml:id="d1e1103">Quoi qu’il en soit, les arbres répartiteurs
+            médiévaux donnent à voir des contenus finis, qui reflètent
+            l’éternité et l’immuabilité de l’ordre du monde. Au <date>Moyen
+            Âge</date>, selon le principe aristotélicien de l’« <hi rend="italic">anagkè stènai</hi>
+              <note n="46" place="foot" type="standard" xml:id="ftn46">
+                <p>Cette expression apparaît à de nombreuses reprises dans les
+                écrits d’Aristote. Voir, par exemple,<hi rend="small-caps">
+                Aristote, </hi>
+                  <hi rend="italic">Seconds analytiques</hi> (<hi rend="italic">Organon </hi>
+                  <hi rend="italic">
+                    <hi rend="small-caps">iv</hi>
+                  </hi>), 81b ; Aristote, <hi rend="italic">Traité du
+                ciel</hi>, 300b ; <hi rend="italic">Aristote</hi>, <hi rend="italic">La </hi>
+                  <hi rend="italic">Physique</hi>, 207b,
+                256a, 257a et 262b.</p>
+              </note> » (« il est nécessaire de s’arrêter »), l’infinité, y
+            compris celle des raisonnements, est impensable. Or, contrairement
+            à l’horizontalité, qui rend toujours possible l’ajout d’un niveau
+            de subdivisions, la verticalité l’interdit formellement : au moins
+            du point de vue métaphorique (mais la métaphorologie de Blumenberg
+            incite à prendre en compte la très grande puissance informatrice
+            des métaphores), l’arbre répartiteur vertical se heurte
+            nécessairement à la terre d’un côté (même si, dans certains cas,
+            les racines en occupent les entrailles) et aux régions célestes de
+            l’autre – des régions dont l’harmonie principielle ne requiert
+            aucun artifice organisateur, puisque tout y est déjà en ordre.</p>
+            <p xml:id="d1e1135">Ce constat ne doit pas éclipser le fait que
+            les manuscrits médiévaux, surtout à partir du <date from="1200" to="1299" type="_temp">
+                <hi rend="small-caps">xiii</hi>
+                <hi rend="sup">e</hi> siècle</date>, matérialisent souvent des <hi rend="italic">distinctiones</hi> par le biais de délinéations
+            graphiques, qui prennent la forme de graphes stemmatiques
+            horizontaux<note n="47" place="foot" type="standard" xml:id="ftn47">
+                <p>Sur cette différence d’orientation, voir <hi rend="small-caps">Katzenellenbogen</hi>, 1939, p. 65 et <hi rend="small-caps">Evans</hi>, 1980 (2012), § 3.2 à 3.4.</p>
+              </note>. En mettant en relation des phrases, des syntagmes ou
+            des vocables (jamais d’images) qu’aucune loge ne contient,
+            l’objectif de ces graphes est de matérialiser les liens de cause à
+            effet, de généalogie ou de hiérarchie, qui opèrent souvent au
+            cours de l’exposition d’un raisonnement (parfois en tant que prise
+            de notes lors de la lecture). Bien que les éditions modernes des
+            textes médiévaux ne les prennent quasiment jamais en compte, et
+            que les historiens ne leur aient que très rarement accordé
+            d’attention<note n="48" place="foot" type="standard" xml:id="ftn48">
+                <p>Voir <hi rend="small-caps">Evans</hi>, 1980 (2012), § 2.3 à
+                3.1.</p>
+              </note>, ces graphes constituent des éléments à part entière de
+            la matérialité des savoirs : en plus de matérialiser des
+            raisonnements et/ou des processus, ils constituent des modèles
+            mentaux qui encouragent l’activité intellectuelle.</p>
+            <p xml:id="d1e1164">Prises en considération parallèlement aux
+            arbres répartiteurs qui matérialisent des raisonnements en
+            logique, médecine et prédication, ces délinéations graphiques
+            encouragent à envisager les liens entre les raisonnements et la
+            matérialité sous l’angle de la stimulation réciproque. D’une part,
+            la matérialisation en arbre d’un raisonnement peut en augmenter le
+            pouvoir de diffusion et d’assimilation par son destinataire.
+            D’autre part, l’existence du modèle de l’arbre nourrit
+            incontestablement le déploiement des raisonnements. De ce point de
+            vue, une distinction terminologique et conceptuelle est
+            susceptible d’être d’une grande fécondité. En effet, dans le
+            premier cas, le passage du raisonnement immatériel à la
+            matérialité de l’image et/ou du texte relève bien d’un processus
+            de matérialisation. Mais, dans le second, c’est la matérialité
+            pré-existante d’images et/ou de textes dans l’environnement visuel
+            et cognitif des hommes du <date>Moyen Âge</date> qui les conduit à
+            réexploiter le modèle : prendre en compte cette considération – ce
+            qui relève en propre d’une éco-critique de la pensée –, conduit à
+            définir ce processus de reproduction matérielle (mais qui peut
+            également être d’ordre purement mental) non simplement comme une
+            matérialisation, mais également comme une modélisation.</p>
+          </div>
+          <div type="section1" xml:id="d1e1166">
+            <head subtype="level1" xml:id="d1e1167">Les arbres répartiteurs et
+            la matérialisation des raisonnements au prisme de la
+            modernité</head>
+            <p xml:id="d1e1169">Dès lors, qu’advient-il de la stimulation
+            réciproque entre raisonnement et matérialité au début de l’époque
+            moderne, alors que les humanistes sont nombreux à formuler leurs
+            réticences quant à l’efficacité didactique des arbres répartiteurs
+            tels qu’ils circulent au <date>Moyen Âge</date> ?</p>
+            <p xml:id="d1e1171">À partir du <date from="1400" to="1499" type="_temp">
+                <hi rend="small-caps">xv</hi>
+                <hi rend="sup">e</hi>
+            siècle</date>, les habitudes visuelles et les systèmes de pensée
+            médiévaux entrent en contact avec la réforme des institutions et
+            des modalités d’enseignement qui, d’une part, puise dans le visuel
+            une méthode supposément nouvelle d’accès au savoir et, d’autre
+            part, témoigne de la volonté de rendre compte visuellement d’un
+            raisonnement en cours pour constituer un savoir en science<note n="49" place="foot" type="standard" xml:id="ftn49">
+                <p>Sur la volonté de rendre visibles les savoirs à la
+                Renaissance, voir <hi rend="small-caps">Bolzoni</hi>, 1995
+                (2005), p. 8-55. Pour quelques exemples du recours à des
+                structures en arbre dans un tel processus, voir <hi rend="italic">ibid</hi>., p. 55-136.</p>
+              </note>. Pourtant, force est de constater qu’au début de
+            l’époque moderne, le nombre de structures en arbre qui circulent
+            afin d’être enseignées et apprises excède largement celui du
+            <date>Moyen Âge</date>. Bien que, du point de vue formel,
+            figuratif et théorétique, ces structures diffèrent des médiévales,
+            les humanistes ne mettent donc pas un terme à la matérialisation
+            en arbre de toute sorte d’activités mentales à des fins
+            mnémotechniques.</p>
+            <p xml:id="d1e1189">En revanche, à partir du deuxième tiers du
+            <date from="1400" to="1499" type="_temp">
+                <hi rend="small-caps">xv</hi>
+                <hi rend="sup">e</hi> siècle</date>, il
+            est indéniable que ce processus de matérialisation connaît un
+            changement épistémologique majeur. La majorité des structures en
+            arbre qui matérialisent les <hi rend="italic">divisiones</hi>
+              <hi rend="italic">scientiae</hi> change en effet d’orientation :
+            verticales au <date>Moyen Âge</date>, elles deviennent de plus en
+            plus horizontales<note n="50" place="foot" type="standard" xml:id="ftn50">
+                <p>On trouve quelques prémisses de ce changement d’orientation
+                à la fin du <hi rend="small-caps">xiv</hi>
+                  <hi rend="sup">e</hi> siècle. Voir, par exemple, <hi rend="small-caps">Evans</hi>, 1980 (2012), fig. 5.</p>
+              </note> [<hi rend="bold">fig. 12</hi>]. Ce changement
+            épistémologique s’accompagne d’un changement formel et figuratif
+            notable : alors qu’au <date>Moyen Âge</date>, la majorité des <hi rend="italic">divisiones scientiae</hi> prenaient la forme
+            d’arbres répartiteurs enclosant les images et/ou les textes qu’ils
+            répartissaient dans des cadres localisants [<hi rend="bold">fig. 3, 4 et 7</hi>], les <hi rend="italic">divisiones
+            scientiae</hi> modernes adoptent majoritairement la forme et la
+            figuration de graphes stemmatiques [<hi rend="bold">fig. 12</hi>].
+            En d’autres termes, lorsqu’il s’agit de matérialiser des <hi rend="italic">divisiones scientiae</hi>, les arbres répartiteurs
+            s’estompent quantitativement au profit des graphes stemmatiques.
+            En revanche, ce changement n’affecte pas les arbres répartiteurs
+            qui, au <date>Moyen Âge</date>, matérialisaient des raisonnements
+            systématiques et/ou protocolaires dans les domaines de la logique,
+            de la médecine et de la prédication. Pour en comprendre les
+            raisons et les effets, un bref panorama des réformes des
+            institutions pédagogiques et de l’environnement visuel épistémique
+            des premiers humanistes est nécessaire.</p>
+            <p xml:id="d1e1234">Au <date from="1400" to="1499" type="_temp">
+                <hi rend="small-caps">xv</hi>
+                <hi rend="sup">e</hi>
+              </date> puis surtout au <date from="1500" to="1599" type="_temp">
+                <hi rend="small-caps">xvi</hi>
+                <hi rend="sup">e</hi>
+            siècle</date>, accéder visuellement à la connaissance et favoriser
+            l’enseignement et l’apprentissage est au cœur des débats qui
+            animent les nouveaux pôles de savoir<note n="51" place="foot" type="standard" xml:id="ftn51">
+                <p>Sur les pôles de production et de diffusion du savoir au
+                début de l’époque moderne, voir <hi rend="small-caps">Frijhoff</hi>, 1994.</p>
+              </note>, tels les <hi rend="italic">studia humanitatis</hi>. De
+            leur côté, les universités accueillent un grand nombre d’étudiants
+            au <date from="1400" to="1499" type="_temp">
+                <hi rend="small-caps">xv</hi>
+                <hi rend="sup">e</hi> siècle</date> et,
+            tout en continuant à diffuser des arbres répartiteurs verticaux,
+            prennent activement part au développement de la pensée humaniste.
+            Du point de vue cognitif, cette dernière se fonde sur une
+            exigence : celle de transmettre des contenus avec les plus grandes
+            clartés et universalités afin de garantir aux élèves la plus
+            grande autonomie possible. Pour ce faire, les humanistes recourent
+            très fréquemment à toute sorte de figures répartitrices. Celles
+            qui s’inspirent du modèle de l’<hi rend="italic">arbor</hi>
+            s’apparentent beaucoup à des <hi rend="italic">distinctiones</hi>
+            médiévales en reliant des syntagmes ou des vocables par un réseau
+            de délinéations graphiques horizontal fondé sur un principe
+            dichotomique.</p>
+            <p xml:id="d1e1269">Pourtant, bien que leur usage ne soit pas
+            nouveau, de telles figures s’accompagnent souvent d’un discours
+            qui vante leur efficacité en arguant de leur nouveauté. C’est le
+            cas, par exemple, du lettré <persName ref="075545276" type="idref" xml:base="https://www.idref.fr/">Francesco Robortello</persName>
+            (1516-1567), qui donne à voir la totalité de son cours à travers
+            une figure structurée en arbre<note n="52" place="foot" type="standard" xml:id="ftn52">
+                <p>Cette figure sur trouve sur une affiche conservée au Musée
+                Correr de Venise (fonds Donà delle Rose, inv. 447/29). Pour
+                une reproduction, voir <hi rend="small-caps">Sgarbi</hi>,
+                2016, p. 249. Sur la façon dont cette figure matérialise une
+                <hi rend="italic">divisio scientiae</hi> de la rhétorique,
+                voir <hi rend="small-caps">Sgarbi</hi>, 2016, p. 248-252.</p>
+              </note> ayant pour objectif que « tout ce sur quoi on peut
+            discuter sur [la rhétorique] apparaîtra de manière adéquate à sa
+            place<note n="53" place="foot" type="standard" xml:id="ftn53">
+                <p>Cité par <hi rend="small-caps">Bolzoni</hi>, 1995 (2005),
+                p. 58. À la même page, Lina Bolzoni transcrit également le
+                texte latin.</p>
+              </note> ». Cette figure n’est pourtant rien de plus qu’une <hi rend="italic">divisio scientiae</hi> de la rhétorique, qui permet
+            au lecteur/spectateur d’identifier et de hiérarchiser ses
+            composantes, telle qu’il en existe sans interruption depuis
+            l’<date>Antiquité tardive</date>. Bien que, de manière tout à fait
+            topique dans les écrits modernes pourvus de figures répartitrices,
+            <persName ref="075545276" type="idref" xml:base="https://www.idref.fr/">Robortello</persName> revendique
+            la nouveauté de sa méthode, la seule véritable différence qui
+            singularise sa figure par rapport aux <hi rend="italic">divisiones</hi> de la rhétorique médiévale (qui,
+            dans de très rares cas, adoptaient aussi une orientation
+            horizontale) est d’ordre épistémologique. Avec une figure de ce
+            type, en effet, l’instruction ne se pense plus comme un
+            cheminement allant du bas vers le haut sur le modèle de
+            l’élévation spirituelle, mais comme un approfondissement linéaire
+            (ou plurilinéaire) allant de la gauche vers la droite, sur le
+            modèle traditionnel de la lecture occidentale.</p>
+            <p xml:id="d1e1299">De ce point de vue, le passage de la verticale
+            à l’horizontale participe d’un processus que l’on pourrait
+            qualifier de passage du <hi rend="italic">speculum</hi> au <hi rend="italic">theatron</hi>, autrement dit du passage d’un moment
+            (médiéval) où l’homme élabore un miroir mnémonique du monde (<hi rend="italic">speculum</hi>) sans qu’il lui soit possible d’y
+            prendre part activement, à un moment (moderne) où, s’étant
+            approprié un pouvoir organisationnel sur sa propre société,
+            l’homme élabore lui-même le dispositif heuristique (<hi rend="italic">theatron</hi>) qui permet de comprendre
+            universellement une matière donnée. Progressivement, durant le
+            deuxième tiers du <date from="1500" to="1599" type="_temp">
+                <hi rend="small-caps">xvi</hi>
+                <hi rend="sup">e</hi> siècle</date>,
+            alors que l’observation et l’expérience remplacent la lecture
+            inconditionnelle des autorités et constituent de nouvelles grilles
+            heuristiques à travers lesquelles percevoir le monde,
+            l’horizontalisation des <hi rend="italic">divisiones
+            scientiae</hi> s’accentue. Il est fort probable que cette
+            accentuation soit un épiphénomène du passage de l’<hi rend="italic">experientia</hi> médiévale – qui produit une
+            connaissance fondée sur des constats – à l’<hi rend="italic">experimentum</hi> moderne – qui consiste à mettre
+            les savoirs à l’épreuve de l’expérimentation afin de comprendre
+            leur nature et leur fonctionnement<note n="54" place="foot" type="standard" xml:id="ftn54">
+                <p>Sur le passage de l’<hi rend="italic">experientia</hi> à
+                l’<hi rend="italic">experimentum</hi>, voir <hi rend="small-caps">Brioist</hi>, 2007.</p>
+              </note> – un passage que l’historiographie a longtemps
+            considéré, à la suite de Thomas Kuhn, comme une « Révolution
+            scientifique<note n="55" place="foot" type="standard" xml:id="ftn55">
+                <p>
+                  <hi rend="small-caps">Kuhn</hi>, 1962.</p>
+              </note> ».</p>
+            <p xml:id="d1e1350">Du reste, au sein de la vaste réorganisation
+            des savoirs et des raisonnements qui caractérise la première
+            modernité, la multiplication des structures en arbre résulte de
+            l’accentuation de la vulgarisation des savoirs. De ce point de
+            vue, leur banalisation relève des mêmes présupposés de
+            transmission que l’augmentation du nombre des bibliothèques
+            publiques, des jardins botaniques, des observatoires ou encore des
+            librairies. Quant à leur réception, elle concorde avec le
+            phénomène de la <hi rend="italic">peregrinatio academica</hi>,
+            c’est-à-dire, à partir du <date from="1400" to="1499" type="_temp">
+                <hi rend="small-caps">xv</hi>
+                <hi rend="sup">e</hi>
+            siècle</date>, la venue dans les grandes universités de France et
+            surtout d’Italie d’étudiants du nord$<note n="56" place="foot" type="standard" xml:id="ftn56">
+                <p>Sur les mobilités étudiantes, voir <hi rend="small-caps">Riché</hi> et <hi rend="small-caps">Verger</hi>, 2006, p. 251-256.</p>
+              </note>. Les études universitaires se perçoivent de plus en plus
+            comme l’occasion d’un voyage, dont les découvertes et les
+            rencontres valent autant, sinon plus, que les connaissances
+            accumulées. Les structures en arbre modernes participent
+            assurément de cette nouvelle manière d’envisager l’instruction et
+            l’éducation : elles ne matérialisent plus la nécessité d’assimiler
+            des contenus figés, mais témoignent de l’attrait de la nouveauté,
+            de l’élaboration des savoirs et de la progression vers un inconnu
+            à explorer.</p>
+            <p xml:id="d1e1371">Du reste, un dispositif technique d’une aussi
+            grande ampleur et d’une aussi vaste incidence sur l’histoire des
+            savoirs<note n="57" place="foot" type="standard" xml:id="ftn57">
+                <p>Parmi les nombreuses études sur le rôle de l’imprimerie
+                dans la circulation des savoirs au début de l’époque moderne,
+                voir <hi rend="small-caps">Chartier</hi>, 1981 ; <hi rend="small-caps">Brioist</hi>, 2002, p. 4-5, 13 ; <hi rend="small-caps">Chartier</hi>, 2015.</p>
+              </note> que celui de l’imprimerie, est-il susceptible d’avoir
+            joué dans la matérialisation des raisonnements en arbre ? Sans
+            cristalliser l’ensemble des mutations culturelles et
+            intellectuelles de la <date>Renaissance</date> sur l’imprimerie en
+            tant que « révolution technologique<note n="58" place="foot" type="standard" xml:id="ftn58">
+                <p>Certains historiens du livre considèrent les rapports entre
+                les mutations culturelles et intellectuelles et les inventions
+                techniques à travers le prisme terminologique et conceptuel de
+                la « révolution » et/ou du « progrès ». Voir, par exemple, <hi rend="small-caps">Hébrard</hi>, 2001.</p>
+              </note> », la culture de l’imprimé induit assurément un rapport
+            renouvelé au mot et à l’image ainsi qu’à la conservation des
+            savoirs. Comme à l’époque carolingienne, au cours de laquelle les
+            diagrammes mnémotechniques connaissent un accroissement
+            considérable en même temps que des réformes administratives
+            renforcent le fondement écrit de la société, l’imprimerie a pour
+            conséquence de dynamiser l’apprentissage et l’assimilation de
+            connaissances en accroissant l’accès aux structures en arbre.</p>
+            <p xml:id="d1e1395">Le premier arbre imprimé apparaît en <date type="_temp" when="1543">1543</date>, à la fin des analyses
+            dialectiques du pleur de Pénélope dans les <hi rend="italic">Dialecticae institutiones</hi>
+              <note n="5ç" place="foot" type="standard" xml:id="ftn59">
+                <p>
+                  <hi rend="small-caps"/>
+                  <hi rend="small-caps">Pierre de la
+                Ramée</hi>, 1543.</p>
+              </note> de Pierre de la Ramée, mais leur nouveau support imprimé
+            ne paraît pas déterminant dans l’horizontalisation progressive des
+            structures en arbre. De fait, les premiers imprimés ne diffèrent
+            pas beaucoup des manuscrits médiévaux : les incunables sont conçus
+            comme des <hi rend="italic">unica</hi>, et conservent le
+            fonctionnement pratique d’un manuscrit. En revanche, les pratiques
+            de lecture induites par le livre imprimé sont, quant à elles,
+            susceptibles d’avoir accentué le changement d’orientation : au
+            <date>Moyen Âge</date>, les <hi rend="italic">codices</hi> se
+            parcourent de manière linéaire mais fractionnée en fonction de
+            renvois d’un folio à un autre, des allées et venues d’un écrit à
+            un autre – ce qui est très cohérent avec leurs contenus les plus
+            fréquents, à savoir des recueils d’autorités ou des textes
+            scripturaires qui ne requièrent pas d’être lus en continu du début
+            à la fin. Le livre imprimé, quant à lui, se diffuse alors que
+            l’apprentissage excède la seule lecture des autorités : les
+            ouvrages écrits au <date from="1400" to="1499" type="_temp">
+                <hi rend="small-caps">xv</hi>
+                <hi rend="sup">e</hi> siècle</date>, qui
+            requièrent une lecture suivie attentive, sont souvent eux-mêmes
+            imprimés. Le changement concerne donc moins la nature manuscrite
+            ou imprimée du support livresque que son contenu : l’accès au
+            savoir ne s’envisage plus comme une élévation intellectuelle, mais
+            comme la découverte progressive de ce que contient la page
+            suivante.</p>
+          </div>
+          <div type="section1" xml:id="d1e1419">
+            <head subtype="level1" xml:id="d1e1420">De l’arbre à
+            l’arborescence : « du monde clos à l’univers infini » ?</head>
+            <p xml:id="d1e1422">En <date type="_temp" when="1957">1957</date>,
+            lorsqu’il publie une version étoffée de ses <hi rend="italic">Noguchi Lectures</hi> sous le titre <hi rend="italic">From the closed World to the infinite
+            Universe</hi>
+              <note n="60" place="foot" type="standard" xml:id="ftn60">
+                <p>
+                  <hi rend="small-caps">Koyré</hi>, 1957.</p>
+              </note>, <persName ref="02695334X" type="idref" xml:base="https://www.idref.fr/">Alexandre Koyré</persName>
+            revient sur le constat d’une Révolution scientifique à la
+            charnière du <date from="1500" to="1599" type="_temp">
+                <hi rend="small-caps">xvi</hi>
+                <hi rend="sup">e</hi>
+              </date> et du <date from="1600" to="1699" type="_temp">
+                <hi rend="small-caps">xvii</hi>
+                <hi rend="sup">e</hi> siècle</date>. En
+            accord<note n="61" place="foot" type="standard" xml:id="ftn61">
+                <p>
+                  <hi rend="small-caps">Koyré</hi>, 1957 (1962), p. 10.</p>
+              </note> avec la tradition historiographique qui, comme le
+            souligne abondamment Michel Foucault<note n="62" place="foot" type="standard" xml:id="ftn62">
+                <p>
+                  <hi rend="small-caps">Foucault</hi>, 1969, p. 12-13.</p>
+              </note>, traque, surtout depuis les <date from="1920" to="1929" type="_temp">années 1920</date>, les évènements, les crises et les
+            ruptures dans l’histoire des savoirs et des sciences, <persName ref="02695334X" type="idref" xml:base="https://www.idref.fr/">Alexandre Koyré</persName> repère
+            les « conversion[s]<hi rend="sup">
+                <note n="63" place="foot" type="standard" xml:id="ftn63">
+                  <p>
+                    <hi rend="small-caps">Koyré</hi>, 1957 (1962), <hi rend="italic">loc</hi>. <hi rend="italic">cit</hi>..</p>
+                </note> », les « remplacement[s]<note n="64" place="foot" type="standard" xml:id="ftn64">
+                  <p>
+                    <hi rend="italic">Ibid</hi>., <hi rend="italic">loc</hi>. <hi rend="italic">cit</hi>.</p>
+                </note> », les « découverte[s]<note n="65" place="foot" type="standard" xml:id="ftn65">
+                  <p>
+                    <hi rend="italic">Ibid</hi>., <hi rend="italic">loc</hi>. <hi rend="italic">cit</hi>.</p>
+                </note> » qui, progressivement, auraient fait la modernité : le
+            passage d’une <hi rend="italic">theoria</hi> à une <hi rend="italic">praxis</hi>, d’une <hi rend="italic">scientia
+            contemplativa</hi> à une <hi rend="italic">scientia activa</hi>,
+            ou d’un schéma explicatif « téléologique et organismique<note n="66" place="foot" type="standard" xml:id="ftn66">
+                  <p>
+                    <hi rend="italic">Ibid</hi>., <hi rend="italic">loc</hi>. <hi rend="italic">cit</hi>.</p>
+                </note> » à un schéma « causal et mécaniste<note n="67" place="foot" type="standard" xml:id="ftn67">
+                  <p>
+                    <hi rend="italic">Ibid</hi>., <hi rend="italic">loc</hi>. <hi rend="italic">cit</hi>.</p>
+                </note> ». De tels changements, dont il avait déjà repéré les
+            prémices dans ses <hi rend="italic">Études galiléennes</hi>
+                <note n="68" place="foot" type="standard" xml:id="ftn68">
+                  <p>
+                    <hi rend="small-caps">Koyré</hi>, 1939 (1966).</p>
+                </note>, témoignent en fait, estime-t-il, « d’expressions et de
+            concomitants d’un processus plus profond et plus grave<note n="69" place="foot" type="standard" xml:id="ftn69">
+                  <p>
+                    <hi rend="small-caps">Koyré</hi>, 1957 (1962), <hi rend="italic">loc</hi>. <hi rend="italic">cit</hi>.</p>
+                </note> », qui relèverait surtout d’un passage « du monde
+            anthropocentrique du Moyen Âge<note n="70" place="foot" type="standard" xml:id="ftn70">
+                  <p>
+                    <hi rend="italic">Ibid</hi>., p. 9-10.</p>
+                </note>
+              </hi> » à l’« univers […] infini<note n="71" place="foot" type="standard" xml:id="ftn71">
+                <p>
+                  <hi rend="italic">Ibid</hi>., p. 11.</p>
+              </note> » qu’entrevoit l’astronomie moderne. En d’autres termes,
+            ces changements ne désigneraient rien de moins que « la
+            destruction du monde conçu comme un tout fini et bien ordonné,
+            dans lequel la structure spatiale incarnait une hiérarchie de
+            valeur et de perfection<note n="72" place="foot" type="standard" xml:id="ftn72">
+                <p>
+                  <hi rend="italic">Ibid</hi>., <hi rend="italic">loc</hi>. <hi rend="italic">cit</hi>.</p>
+              </note> », au profit d’un « Univers indéfini, et même infini, ne
+            comportant plus aucune hiérarchie naturelle et uni seulement par
+            l’identité des lois qui le régissent dans toutes ses parties<note n="73" place="foot" type="standard" xml:id="ftn73">
+                <p>
+                  <hi rend="italic">Ibid</hi>., <hi rend="italic">loc</hi>. <hi rend="italic">cit</hi>.</p>
+              </note> ». Ainsi l’homme de la première modernité aurait-il
+            connu – ou produit – un bouleversement essentiel dans sa
+            perception du monde, un bouleversement qui aurait eu comme
+            premières conséquences de lui ôter ses repères spatio-temporels,
+            qu’<persName ref="02695334X" type="idref" xml:base="https://www.idref.fr/">Alexandre Koyré</persName>
+            énumère brièvement : « valeur, […], perfection, […] harmonie, […]
+            sens ou […] fin<note n="74" place="foot" type="standard" xml:id="ftn74">
+                <p>
+                  <hi rend="italic">Ibid</hi>., p. 12.</p>
+              </note> ». En somme, la Révolution scientifique aurait opéré un
+            « divorce total entre le monde des valeurs et le monde des
+            faits<note n="75" place="foot" type="standard" xml:id="ftn75">
+                <p>
+                  <hi rend="italic">Ibid</hi>., <hi rend="italic">loc</hi>. <hi rend="italic">cit</hi>.</p>
+              </note> ».</p>
+            <p xml:id="d1e1639">S’il est probant de considérer que le <date from="1500" to="1599" type="_temp">
+                <hi rend="small-caps">xvi</hi>
+                <hi rend="sup">e</hi> siècle</date> est
+            à l’origine d’un changement paradigmatique aussi radical, il est
+            indispensable de constater que ce changement, loin de concerner
+            seulement les sciences appliquées au Cosmos, concerne aussi en
+            profondeur les schèmes de pensée et les structures mentales qui
+            président à l’élaboration des savoirs et des sciences. <persName ref="02695334X" type="idref" xml:base="https://www.idref.fr/">Alexandre Koyré</persName>,
+            d’ailleurs, le remarque bien : avec la Révolution scientifique,
+            l’homme aurait « perdu sa place dans le monde [voire] le monde
+            même qui formait le cadre de son existence et l’objet de son
+            savoir<note n="76" place="foot" type="standard" xml:id="ftn76">
+                <p>
+                  <hi rend="italic">Ibid</hi>., p. 11.</p>
+              </note>». Surtout, il aurait « dû transformer et remplacer non
+            seulement ses conceptions fondamentales mais jusqu’aux structures
+            mêmes de sa pensée<note n="77" place="foot" type="standard" xml:id="ftn77">
+                <p>
+                  <hi rend="italic">Ibid</hi>., <hi rend="italic">loc</hi>. <hi rend="italic">cit</hi>.</p>
+              </note> ».</p>
+            <p xml:id="d1e1668">Bien qu’elle confine dangereusement à la
+            téléologie, et qu’elle dessaisisse par ailleurs l’homme de son
+            pouvoir d’organiser sa propre société et ses propres schèmes de
+            pensée, cette affirmation d’<persName ref="02695334X" type="idref" xml:base="https://www.idref.fr/">Alexandre Koyré</persName>
+            recoupe toute réflexion sur la nature mnémotechnique des
+            structures en arbre et sur leur évolution dans le temps. De fait,
+            si les arts de la mémoire et les structures en arbre sont
+            étroitement imbriqués depuis l’<date>Antiquité</date> latine
+            jusqu’à la fin du <date from="1500" to="1599" type="_temp">
+                <hi rend="small-caps">xvi</hi>
+                <hi rend="sup">e</hi> siècle</date>,
+            seul le dernier tiers du <date from="1400" to="1499" type="_temp">
+                <hi rend="small-caps">xv</hi>
+                <hi rend="sup">e</hi>
+            siècle</date> modifie intimement, et sur le long terme, leur
+            orientation. Bien qu’elles aient connu de nombreuses modifications
+            au fil du temps, ni le passage de l’<date>Antiquité</date> au
+            <date>Moyen Âge</date>, ni l’époque carolingienne, ni la prétendue
+            renaissance du <date from="1100" to="1199" type="_temp">
+                <hi rend="small-caps">xii</hi>
+                <hi rend="sup">e</hi> siècle</date> (qui
+            constituent pourtant des pivots majeurs de leur histoire)
+            n’apportent à leur figuration, à leur efficacité et à leur
+            opérationnalité des changements aussi importants que ce qui, dans
+            le dernier tiers du <date from="1400" to="1499" type="_temp">
+                <hi rend="small-caps">xv</hi>
+                <hi rend="sup">e</hi> siècle</date>, est
+            en train de se définir comme une « modernité ». En outre, le
+            changement d’orientation des structures en arbre témoigne bien
+            d’un changement dans la perception du fonctionnement de la
+            pensée : ces structures ont désormais pour fonction, non plus de
+            donner à voir un ordre du monde, une « hiérarchie naturelle<note n="78" place="foot" type="standard" xml:id="ftn78">
+                <p>
+                  <hi rend="italic">Ibid</hi>., <hi rend="italic">loc</hi>. <hi rend="italic">cit</hi>.</p>
+              </note> », mais de figurer un processus en cours, dont les
+            « composants ultimes [sont] placés, tous, au même niveau
+            ontologique<note n="79" place="foot" type="standard" xml:id="ftn79">
+                <p>
+                  <hi rend="italic">Ibid</hi>., <hi rend="italic">loc</hi>. <hi rend="italic">cit</hi>.</p>
+              </note> » – ce qu’<persName ref="02695334X" type="idref" xml:base="https://www.idref.fr/">Alexandre Koyré</persName>
+            réserve à l’Univers infini.</p>
+            <p xml:id="d1e1719">C’est le passage, sinon du monde clos à
+            l’univers infini, du moins de l’arbre à l’arborescence. Il est
+            d’ailleurs significatif que la première occurrence du terme
+            « arborescence » apparaisse au sujet d’une plante, le tithymale
+            arborescent, dans un ouvrage de botanique écrit en français en
+            <date type="_temp" when="1533">1533</date>
+              <note n="80" place="foot" type="standard" xml:id="ftn80">
+                <p>
+                  <hi rend="small-caps">Bélon</hi>, 1553, <hi rend="small-caps">i</hi>, 17 : « Nous y avons veu [en Grèce]
+                le Tithymale arborescent, surnommé Dendroides » (dans la
+                marge, Pierre Bélon écrit les noms de cette plante en latin :
+                « <hi rend="italic">Tithymalus arborescens</hi> » et « <hi rend="italic">Dendroides</hi> »). Il est probable que Pierre
+                Bélon (1518-1564) élabore l’adjectif « arborescent » à partir
+                du verbe « <hi rend="italic">arborescere</hi> » que Pline
+                utilise à propos de la mauve royale (que les botanistes
+                appellent <hi rend="italic">lavatera arborea</hi> ou, en
+                français, « lavatère arborescente », avant de lui attribuer le
+                nom de <hi rend="italic">malva arborea</hi> ou <hi rend="italic">malva dendromorpha</hi>), <hi rend="italic">cf</hi>. <hi rend="small-caps">Pline
+                L’Ancien</hi>, <hi rend="italic">Histoire naturelle</hi>, XIX,
+                <hi rend="small-caps">xxii</hi>, 62 : « Des auteurs rapportent
+                que, en Arabie, les mauves deviennent des arbres au bout de
+                sept mois et qu’elles peuvent être utilisées comme des
+                bâtons » (« <hi rend="italic">Tradunt auctores in Arabia,
+                malvas septimo mense arborescere baculorumque usum
+                praebere</hi> », nous traduisons). Cet usage de la plante de
+                la mauve comme « bâton » explique peut-être le fait que la
+                botanique contemporaine applique généralement l’adjectif
+                « arborescent » aux « plantes herbacées dont les tiges ou
+                rameaux prennent la consistance de ceux des arbres », <hi rend="italic">cf</hi>. <hi rend="small-caps">Littré,
+                1872-1877</hi>, p. 184. Pierre Bélon lui-même a soin,
+                d’ailleurs, de préciser que le tithymale arborescent atteint
+                « la hauteur de deux hommes, ayant le tronc de la grosseur de
+                la cuisse », <hi rend="italic">cf</hi>. <hi rend="small-caps">Bélon</hi>, 1533, <hi rend="italic">loc</hi>. <hi rend="italic">cit</hi>.. Le terme
+                disparaît de la terminologie botanique moderne et réapparaît
+                au début du <hi rend="small-caps">xix</hi>
+                  <hi rend="sup">e</hi> siècle, <hi rend="italic">cf</hi>. <hi rend="small-caps">Mozin </hi>
+                  <hi rend="small-caps">
+                    <hi rend="italic">et</hi>
+                  </hi>
+                  <hi rend="small-caps"/>
+                  <hi rend="small-caps">
+                    <hi rend="italic">al</hi>
+                  </hi>
+                  <hi rend="small-caps">.</hi>, 1826, p. 91 : est
+                arborescent ce « qui a le caractère, le port ou la forme d’un
+                arbre ».</p>
+              </note>. Pour <persName ref="02695334X" type="idref" xml:base="https://www.idref.fr/">Alexandre Koyré</persName>, qui
+            étudie le début de la période moderne dans ses <hi rend="italic">Études galiléennes</hi>, il s’agit à ce moment-là
+            d’une « préhistoire [à] la grande révolution<note n="81" place="foot" type="standard" xml:id="ftn81">
+                <p>
+                  <hi rend="small-caps">Koyré</hi>, 1957 (1962), p. 14.</p>
+              </note> » – autrement dit, d’un moment vague et indéterminé, qui
+            ne disposerait même pas des outils pour écrire (comme le fait la
+            modernité postérieure à la Révolution scientifique) sa propre
+            histoire. Or, il est impossible de penser l’infinité de la matière
+            ou l’infinité d’un processus avant <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">Descartes</persName>
+            – et donc impossible de considérer que les structures en arbre du
+            dernier tiers du <date from="1400" to="1499" type="_temp">
+                <hi rend="small-caps">xv</hi>
+                <hi rend="sup">e</hi> siècle</date> se
+            détachent fermement d’une conception close et ordonnée du Cosmos
+            –, il est frappant de constater que le changement de paradigme
+            dont témoigne le changement d’orientation de ces structures
+            rejoint la définition qu’<persName ref="02695334X" type="idref" xml:base="https://www.idref.fr/">Alexandre Koyré</persName>
+            propose de la modernité. Toutefois, contrairement à la temporalité
+            qu’il attribue à la modernité – « un processus profond<note n="82" place="foot" type="standard" xml:id="ftn82">
+                <p>
+                  <hi rend="small-caps">
+                    <hi rend="italic">Ibid</hi>
+                  </hi>
+                  <hi rend="small-caps">.</hi>, <hi rend="italic">op</hi>. <hi rend="italic">cit</hi>., p. 10.</p>
+              </note> », mais minime à l’échelle de l’histoire des savoirs et
+            des sciences –, ce changement ne se révèle ni sur le temps court,
+            ni sur le temps long. Plus largement, il paraît surtout relever de
+            la saturation de l’effectivité d’un modèle qu’il faut, sinon
+            détruire, du moins reconfigurer. Parce qu’il semble vieilli et usé
+            jusqu’à l’épuisement de son opérativité théorétique et
+            épistémique, l’artefact de l’<hi rend="italic">arbor</hi> requiert
+            une autre figuration pour continuer à opérer avec efficacité. Du
+            point de vue épistémologique, il est dès lors inutile de recourir
+            à un <hi rend="italic">continuum</hi> historique, ou, à l’inverse,
+            de chercher à repérer une fracture dans le temps, pour désigner un
+            processus qui, tout en étant situé dans le temps et dans l’espace,
+            s’apparente plus à une littérale <hi rend="italic">reconfiguration</hi>.</p>
+          </div>
+          <div type="section1" xml:id="d1e1851">
+            <head subtype="level1" xml:id="d1e1852">Conclusion</head>
+            <p xml:id="d1e1854">S’interroger sur le rôle que les structures en
+            arbre jouent dans la matérialité des raisonnements conduit, en
+            somme, à s’interroger sur leur effectivité en tant que schèmes de
+            pensée, et donc sur la chronologie du rapport qu’ils entretiennent
+            avec leur contenu : adopte-t-on une structure en arbre parce
+            qu’elle convient particulièrement bien à l’objet que l’on veut
+            mémoriser, ou modélise-t-on l’objet en fonction d’une structure en
+            arbre – ce qui fait toujours courir le risque d’attribuer à
+            l’objet une signification supérieure et/ou différente ? Une telle
+            problématique appelle, selon nous, à examiner l’opérativité de la
+            notion d’appareil.</p>
+            <p xml:id="d1e1856">En <date type="_temp" when="2008">2008</date>,
+            dans la présentation du premier numéro de la revue <hi rend="italic">Appareil</hi>, qui paraît sous sa direction,
+            Jean-Louis Déotte remarque la nécessité de penser les appareils
+            comme des « dispositifs techniques […] qui, dans un premier temps,
+            constituent les conditions des arts, époque après époque<note n="83" place="foot" type="standard" xml:id="ftn83">
+                <p>
+                  <hi rend="small-caps">Déotte</hi>, 2008.</p>
+              </note> ». Il envisage surtout des dispositifs de l’époque
+            moderne, sans lesquels « il serait bien difficile de dire ce que
+            seraient les arts pris en eux-mêmes », car le fait que « les arts
+            soient appareillés de telle ou telle manière entraîne
+            nécessairement que la sensibilité commune prenne tel ou tel pli :
+            c’est une affaire d’accueil de l’évènement mais aussi d’apparat et
+            de posture<note n="84" place="foot" type="standard" xml:id="ftn84">
+                <p>
+                  <hi rend="italic">Ibid</hi>.</p>
+              </note> ».</p>
+            <p xml:id="d1e1877">Tout appareil suppose une technique. Envisager
+            l’appareillage de la mémoire par une structure en arbre implique
+            de prendre en compte la nécessité de maîtriser une <hi rend="italic">téchnè</hi>. Cette <hi rend="italic">téchnè</hi> est
+            à l’œuvre du point de vue pédagogique, didactique, anagogique et
+            axiologique : quel que soit son objectif, la structure en arbre
+            est un outil efficace pour transmettre et apprendre un savoir à
+            partir du moment où on la mémorise autant que l’on mémorise son
+            contenu. La question se pose différemment en ce qui concerne son
+            efficacité heuristique : il importe souvent plus de mémoriser la
+            structure que de mémoriser le contenu. C’est elle en effet qui
+            révèle, qui met au jour des relations, des trames, des liens
+            intrinsèques et invisibles entre au moins deux éléments – des
+            liens qui préexistent à l’élaboration de la structure elle-même
+            puisqu’ils s’inscrivent dans un <hi rend="italic">ordo</hi>
+            cosmique. Pour cette raison, une structure en arbre ne peut
+            s’envisager exclusivement comme un schème. Le schème présuppose en
+            effet d’avoir intégré, au préalable, un modèle structurel propre à
+            accueillir des contenus différents sur le même mode cognitif, par
+            la même opération de l’esprit. La structure en arbre, quant à
+            elle, est ce qui fabrique le schème. Dans la chronologie du
+            façonnage métacognitif de la mémoire, elle est ce qui précède
+            l’établissement du schème : elle constitue précisément ce qui
+            appareille la mémoire afin de la rendre réceptive aux contenus
+            qu’elle révèle (et, souvent, renouvelle), en instaurant entre eux
+            des liens spécifiques.</p>
+            <p xml:id="d1e1888">Dès lors, qu’en est-il de la nature de cet
+            appareil ? Son efficacité cognitive se double-t-elle d’une
+            sémiotique spécifique – l’appareil est-il signifiant en lui-même ?
+            Le fondement heuristique des structures en arbre conduit à
+            répondre à cette question par l’affirmative. Leur capacité à
+            rendre visibles des liens invisibles, ainsi qu’à les inscrire dans
+            la mémoire, présuppose en effet nécessairement que le spectateur
+            procède, d’une manière ou d’une autre, à une herméneutique
+            figurative : le sens de ces structures n’est pas donné, les
+            processus qu’elles matérialisent ne vont pas de soi, et les
+            rapports qu’elles révèlent entre les savoirs et la place que
+            chacun d’entre eux occupe ne peuvent s’entendre sans examiner
+            précisément la nature des liens qui les unissent. En somme, les
+            structures en arbre sont actives, et signifiantes en elles-mêmes :
+            leur forme s’adapte à la réalité qu’elles matérialisent,
+            symbolisant ainsi des liens invisibles et immatériels, qui ne
+            peuvent pas apparaître sous le régime figuratif de la <hi rend="italic">mimèsis</hi>. Les structures en arbre matérielles
+            constituent donc nécessairement un ajout formel et figuratif à
+            l’objet dont elles donnent à voir le maillage.</p>
+            <p xml:id="d1e1893">Dès lors, les structures en arbre rejoignent
+            la définition de l’appareil que propose <persName ref="029288800" type="idref" xml:base="https://www.idref.fr/">Jean-Louis
+            Déotte</persName>
+              <hi rend="sup">
+                <note n="lxxxv" place="end" type="standard" xml:id="ftn85">
+                  <p>
+                    <hi rend="italic">Ibid</hi>.</p>
+                </note>
+              </hi> : elles appareillent la mémoire d’un maillage
+            plurilinéaire signifiant, au sein duquel elles spatialisent un
+            contenu qui est rendu cohérent par la nature même des liens
+            logiques qui les sous-tendent. Jean-Louis Déotte envisage surtout
+            les productions techniques qui apparaissent sous le régime de la
+            projection – ce qu’il appelle des « appareils projectifs », « ces
+            dispositifs techniques de la modernité comme la perspective, la
+            <hi rend="italic">camera obscura</hi>, le musée, la photographie,
+            le cinéma, la cure psychanalytique, <hi rend="italic">etc</hi>.<hi rend="sup"/>
+              <hi rend="sup">
+                <note n="lxxxvi" place="end" type="standard" xml:id="ftn86">
+                  <p>
+                    <hi rend="italic">Ibid</hi>.</p>
+                </note>
+              </hi> ». D’une certaine façon, les structures en arbre
+            constituent des « appareils projectifs », mais dont l’objet se
+            trouve à l’intérieur, et non à l’extérieur, de celui qui les
+            regarde : elles n’appareillent pas le monde extérieur ; elles
+            appareillent la mémoire.</p>
+            <p xml:id="d1e1919">La notion d’appareil paraît d’autant plus
+            appropriée aux structures en arbre qu’elle présuppose
+            nécessairement une temporalité. Avec les appareils, écrit
+            <persName ref="029288800" type="idref" xml:base="https://www.idref.fr/">Jean-Louis Déotte</persName>,
+            « c’est notre rapport à la temporalité qui change et donc la
+            figure du passé, ou ce qu’on attend de l’avenir<hi rend="sup">
+                <note n="lxxxvii" place="end" type="standard" xml:id="ftn87">
+                  <p>
+                    <hi rend="italic">Ibid</hi>.</p>
+                </note>
+              </hi> » : l’appareil norme la perception et se superpose donc à
+            la perception du temps. Or, c’est exactement ce que font les
+            structures en arbre : en favorisant l’apprentissage de contenus
+            épistémiques, en guidant la lecture, en produisant des étapes
+            mentales afin de progresser vers la sagesse, en modélisant des
+            processus, elles projettent leur maillage sur la perception
+            spatio-temporelle du lecteur/spectateur, et présupposent
+            nécessairement d’accéder dans le temps et dans l’espace aux
+            souvenirs localisés dans l’ordre dans la mémoire. En d’autres
+            termes, elles accomplissent l’une des fonctions essentielles de
+            l’appareil : elles « rapproch[ent] selon un principe d’appariement
+            ce qui, jusqu’alors, était hétérogène dans la multiplicité<hi rend="sup">
+                <note n="lxxxviii" place="end" type="standard" xml:id="ftn88">
+                  <p>
+                    <hi rend="italic">Ibid</hi>.</p>
+                </note>
+              </hi> ».</p>
+            <figure n="Fig. 1" xml:id="d1e1937">
+              <head xml:id="d1e1938">
+                <hi>Fig. 1</hi>
+              </head>
+              <p xml:id="d1e1941">Anonyme, <hi rend="small-caps">xiv</hi>
+                <hi rend="sup">e</hi> siècle, probablement d’origine française,
+              provenance inconnue. Paris, Bibliothèque nationale de France,
+              ms. Lat. 6657, f. 4r.</p>
+            </figure>
+            <figure xml:id="d1e1948">
+              <head xml:id="d1e1949">
+                <hi rend="italic">Arbor porphyriana</hi>
+              (arbre dit « de Porphyre »)</head>
+              <p xml:id="d1e1953">Anonyme, <hi rend="small-caps">xiv</hi>
+                <hi rend="sup">e</hi> siècle, probablement d’origine française,
+              provenance inconnue. Paris, Bibliothèque nationale de France,
+              ms. Lat. 6657, f. 4r.</p>
+            </figure>
+            <figure n="Fig. 2" xml:id="d1e1960">
+              <head xml:id="d1e1961">
+                <hi>Fig. 2</hi>
+              </head>
+              <p xml:id="d1e1964">
+                <hi rend="italic">Arbor porphyriana
+              </hi>(arbre dit « de Porphyre »)</p>
+              <p xml:id="d1e1968">Anonyme, 1484, probablement d’origine
+              française, provenance inconnue. Paris, Bibliothèque Mazarine,
+              ms. 3795, f. 10r</p>
+            </figure>
+            <div type="section2" xml:id="d1e1970">
+              <div type="section3" xml:id="d1e1971">
+                <div type="section4" xml:id="d1e1972">
+                  <head subtype="level4" xml:id="d1e1973">
+                    <hi>Fig. 3</hi>
+                  </head>
+                  <figure xml:id="d1e1976">
+                    <head xml:id="d1e1977">Arbre de la philosophie et des arts
+                    libéraux</head>
+                    <p xml:id="d1e1979">Andrea Bartoli, 1339-1340, Florence ou
+                    Milan, possession de Bruzio Visconti.</p>
+                    <p xml:id="d1e1981">Chantilly, Musée Condé, ms. 599,
+                    f. 10v.</p>
+                  </figure>
+                </div>
+                <div type="section4" xml:id="d1e1983">
+                  <head subtype="level4" xml:id="d1e1984">
+                    <hi>Fig. 4</hi>
+                  </head>
+                  <figure xml:id="d1e1987">
+                    <head xml:id="d1e1988">Arbre de la grammaire</head>
+                    <p xml:id="d1e1990">Maître du Méliacin (attr.), entre
+                    1309 et 1316, origine italienne, probablement à
+                    destination de Francesco Caracciolo de Naples, chancelier
+                    de Paris.</p>
+                    <p xml:id="d1e1992">Londres, British Library, ms. Burn.
+                    275, f. 94r.</p>
+                  </figure>
+                </div>
+                <div type="section4" xml:id="d1e1994">
+                  <head subtype="level4" xml:id="d1e1995">
+                    <hi>Fig. 5</hi>
+                  </head>
+                  <figure xml:id="d1e1998">
+                    <head xml:id="d1e1999">
+                      <hi rend="italic">Arbor</hi>
+                      <hi rend="italic">consanguinitatis </hi>(arbre de
+                    consanguinité)</head>
+                    <p xml:id="d1e2006">Anonyme, milieu ou troisième quart du
+                    <hi rend="small-caps">xiii</hi>
+                      <hi rend="sup">e</hi>
+                    siècle, élaboré à Paris, provenance inconnue.</p>
+                    <p xml:id="d1e2013">Vendôme, Bibliothèque municipale,
+                    ms. 81, f. 308r.</p>
+                  </figure>
+                </div>
+                <div type="section4" xml:id="d1e2015">
+                  <head subtype="level4" xml:id="d1e2016">
+                    <hi>Fig. 6</hi>
+                  </head>
+                  <figure xml:id="d1e2019">
+                    <head xml:id="d1e2020">
+                      <hi rend="italic">Arbor</hi>
+                      <hi rend="italic">affinitatis</hi> (arbre d’affinité)</head>
+                    <p xml:id="d1e2027">Anonyme, milieu ou troisième quart du
+                    <hi rend="small-caps">xiii</hi>
+                      <hi rend="sup">e</hi>
+                    siècle, élaboré à Paris, provenance inconnue.</p>
+                    <p xml:id="d1e2034">Vendôme, Bibliothèque municipale,
+                    ms. 81, f. 309r.</p>
+                  </figure>
+                </div>
+                <div type="section4" xml:id="d1e2036">
+                  <head subtype="level4" xml:id="d1e2037">
+                    <hi>Fig. 7</hi>
+                  </head>
+                  <figure xml:id="d1e2040">
+                    <head xml:id="d1e2041">
+                      <hi rend="italic">Arbor</hi>
+                      <hi rend="italic">sapientiae</hi> (arbre des arts
+                    libéraux)</head>
+                    <p xml:id="d1e2048">Maître de Fauvel (?), première
+                    moitié du <hi rend="small-caps">xiv</hi>
+                      <hi rend="sup">e</hi> siècle, origine française, provenance
+                    inconnue.</p>
+                    <p xml:id="d1e2055">Paris, Bibliothèque nationale de
+                    France, ms. Ars. 1037, f. 5v.</p>
+                  </figure>
+                </div>
+                <div type="section4" xml:id="d1e2057">
+                  <head subtype="level4" xml:id="d1e2058">
+                    <hi>Fig. 8</hi>
+                  </head>
+                  <figure xml:id="d1e2061">
+                    <head xml:id="d1e2062">Figures astronomiques</head>
+                    <p xml:id="d1e2064">Anonyme, <hi rend="small-caps">xiv</hi>
+                      <hi rend="sup">e</hi>
+                    siècle,</p>
+                    <p xml:id="d1e2071">Paris, Bibliothèque Nationale de
+                    France, ms. NAL 1401, f. 40r-40v.</p>
+                  </figure>
+                </div>
+                <div type="section4" xml:id="d1e2073">
+                  <head subtype="level4" xml:id="d1e2074">
+                    <hi>Fig. 9</hi>
+                  </head>
+                  <figure xml:id="d1e2077">
+                    <head xml:id="d1e2078">Graphe stemmatique</head>
+                    <p xml:id="d1e2080">Anonyme, <hi rend="small-caps">xiii</hi>
+                      <hi rend="sup">e</hi> siècle,
+                    origine inconnue, provenance inconnue.</p>
+                    <p xml:id="d1e2087">Moulins, Bibliothèque municipale,
+                    ms. 42, f. 57r.</p>
+                  </figure>
+                </div>
+                <div type="section4" xml:id="d1e2089">
+                  <head subtype="level4" xml:id="d1e2090">
+                    <hi>Fig. 10</hi>
+                  </head>
+                  <figure xml:id="d1e2093">
+                    <head xml:id="d1e2094">Arbre-roue des urines</head>
+                    <p xml:id="d1e2096">Anonyme, <hi rend="small-caps">xv</hi>
+                      <hi rend="sup">e</hi> siècle,
+                    probablement d’origine française, provenance inconnue.</p>
+                    <p xml:id="d1e2103">Paris, Bibliothèque nationale de
+                    France, ms. Lat. 11229, f. 19v.</p>
+                  </figure>
+                </div>
+                <div type="section4" xml:id="d1e2105">
+                  <head subtype="level4" xml:id="d1e2106">
+                    <hi>Fig. 11</hi>
+                  </head>
+                </div>
+                <div type="section4" xml:id="d1e2109">
+                  <head subtype="level4" xml:id="d1e2110">
+                    <hi rend="italic">Arbor de arte sive modo praedicandi</hi>
+                  (arbre de prédication)</head>
+                  <p xml:id="d1e2114">Anonyme, 1448, probablement d’origine
+                  italienne, à destination des ducs de Milan.</p>
+                </div>
+                <div type="section4" xml:id="d1e2116">
+                  <head subtype="level4" xml:id="d1e2117">
+                    <hi>Fig. 12</hi>
+                  </head>
+                  <figure xml:id="d1e2120">
+                    <head xml:id="d1e2121">Graphe stemmatique des sciences
+                    mathématiques de la quantité</head>
+                    <p xml:id="d1e2123">Anonyme, <hi rend="small-caps">xv</hi>
+                      <hi rend="sup">e</hi> siècle,
+                    origine et provenance inconnues.</p>
+                    <p xml:id="d1e2130">Bâle, Öffentliche Bibliothek der
+                    Universität, ms. F II 8, f. 45r.</p>
+                  </figure>
+                  <bibl xml:id="d1e2132">Anonyme, Rhétorique à
+                  Hérennius.</bibl>
+                  <bibl xml:id="d1e2134">Aristote, De l’âme.</bibl>
+                  <bibl xml:id="d1e2136">Aristote, La Physique.</bibl>
+                  <bibl xml:id="d1e2138">Aristote, Métaphysique.</bibl>
+                  <bibl xml:id="d1e2140">Aristote, Seconds analytiques
+                  (Organon iv).</bibl>
+                  <bibl xml:id="d1e2142">Aristote, Traité du ciel.</bibl>
+                  <bibl xml:id="d1e2144">Bélon, 1553 : Pierre Bélon, Les
+                  observations de plusieurs singularitez et choses mémorables
+                  trouvées en Grèce, Asie, Judée, Égypte, Arabie et autres
+                  pays estranges, rédigées en trois livres, Paris, G.
+                  Corrozet.</bibl>
+                  <bibl xml:id="d1e2146">Cicéron, De l’orateur.</bibl>
+                  <bibl xml:id="d1e2148">Hugues de Saint-Victor, De tribus
+                  maximis circumstantiis gestorum, Diane Meur.</bibl>
+                  <bibl xml:id="d1e2151">Hugues de Saint-Victor, De tribus
+                  maximis circumstantiis gestorum, William Green.</bibl>
+                  <bibl xml:id="d1e2153">Pierre de la Ramée, 1543 : Pierre de
+                  la Ramée, Dialecticae institutiones: Aristotelicae
+                  animadversiones, Paris, Jacques Bogard.</bibl>
+                  <bibl xml:id="d1e2155">Pline L’Ancien, Histoire
+                  naturelle.</bibl>
+                  <bibl xml:id="d1e2157">Porphyre de Tyr, Isagoge.</bibl>
+                  <bibl xml:id="d1e2159"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e2161">
+        <head xml:id="d1e2162">LégendesBibliographieSourcesÉtudes</head>
+        <listBibl xml:id="d1e2164">
+          <bibl xml:id="d1e2165">Anonyme, Rhétorique à Hérennius.</bibl>
+          <bibl xml:id="d1e2167">Aristote, De l’âme.</bibl>
+          <bibl xml:id="d1e2169">Aristote, La Physique.</bibl>
+          <bibl xml:id="d1e2171">Aristote, Métaphysique.</bibl>
+          <bibl xml:id="d1e2173">Aristote, Seconds analytiques (Organon
+          iv).</bibl>
+          <bibl xml:id="d1e2175">Aristote, Traité du ciel.</bibl>
+          <bibl xml:id="d1e2177">Bélon, 1553 : Pierre Bélon, Les observations
+          de plusieurs singularitez et choses mémorables trouvées en Grèce,
+          Asie, Judée, Égypte, Arabie et autres pays estranges, rédigées en
+          trois livres, Paris, G. Corrozet.</bibl>
+          <bibl xml:id="d1e2179">Cicéron, De l’orateur.</bibl>
+          <bibl xml:id="d1e2181">Hugues de Saint-Victor, De tribus maximis
+          circumstantiis gestorum, Diane Meur.</bibl>
+          <bibl xml:id="d1e2183">Hugues de Saint-Victor, De tribus maximis
+          circumstantiis gestorum, William Green.</bibl>
+          <bibl xml:id="d1e2185">Pierre de la Ramée, 1543 : Pierre de la
+          Ramée, Dialecticae institutiones: Aristotelicae animadversiones,
+          Paris, Jacques Bogard.</bibl>
+          <bibl xml:id="d1e2188">Pline L’Ancien, Histoire naturelle.</bibl>
+          <bibl xml:id="d1e2190">Porphyre de Tyr, Isagoge.</bibl>
+          <bibl xml:id="d1e2192"/>
+          <bibl xml:id="d1e2193"/>
+          <bibl xml:id="d1e2194">
+            <hi rend="small-caps">Baroin</hi>, 2007 :
+          Catherine <hi rend="small-caps">Baroin</hi>, « Techniques, arts et
+          pratiques de la mémoire », in <hi rend="italic">Mètis</hi>, 5,
+          2007, p. 135-160, <ref target="https://books.openedition.org/editionsehess/2227?lang=fr">
+              <hi rend="underline">https://books.openedition.org/editionsehess/2227?lang=fr</hi>
+            </ref>.</bibl>
+          <bibl xml:id="d1e2208">
+            <hi rend="small-caps">Baroin</hi>, 2010 :
+          Catherine <hi rend="small-caps">Baroin</hi>, <hi rend="italic">Se
+          souvenir à Rome. Formes, représentations et pratiques de la
+          mémoire</hi>, Paris, Belin.</bibl>
+          <bibl xml:id="d1e2218">
+            <hi rend="small-caps">Beecher</hi> et <hi rend="small-caps">Williams</hi>, 2009 : Donald <hi rend="small-caps">Beecher</hi> et Grant <hi rend="small-caps">Williams</hi>, Ars Reminiscendi. <hi rend="italic">Mind and Memory in Renaissance Culture</hi>, Toronto,
+          Centre for Reformation and Renaissance Studies.</bibl>
+          <bibl xml:id="d1e2234">
+            <hi rend="small-caps">Blumenberg</hi>, 1960
+          (2006) : Hans <hi rend="small-caps">Blumenberg</hi>, <hi rend="italic">Paradigmes pour une métaphorologie</hi>, trad. fr.
+          Didier Gammelin, Paris, Vrin.</bibl>
+          <bibl xml:id="d1e2244">
+            <hi rend="small-caps">Blumenberg</hi>, 1979
+          (1994) : Hans <hi rend="small-caps">Blumenberg</hi>, <hi rend="italic">Naufrage avec spectateur : paradigme d'une métaphore
+          de l'existence</hi>, trad. fr. Laurent Cassagnau, Paris,
+          L’Arche.</bibl>
+          <bibl xml:id="d1e2254">
+            <hi rend="small-caps">Bolzoni</hi>, 1995
+          (2005) : Lina <hi rend="small-caps">Bolzoni</hi>, <hi rend="italic">La chambre de la mémoire. Modèles littéraires et
+          iconographiques à l’âge de l’imprimerie</hi>
+            <hi rend="italic">,
+          </hi>Genève, Droz.</bibl>
+          <bibl xml:id="d1e2266">
+            <hi rend="small-caps">Bolzoni</hi>, 2002 :
+          Lina <hi rend="small-caps">Bolzoni</hi>, <hi rend="italic">La rete
+          delle immagini. </hi>
+            <hi rend="italic">Predicazione in volgare dalle
+          origini a Bernardino da Siena</hi>, Turin, Einaudi.</bibl>
+          <bibl xml:id="d1e2279">
+            <hi rend="small-caps">Bolzoni</hi>, <hi rend="small-caps">Erlindo</hi> et <hi rend="small-caps">Morelli</hi>, 1998 : Lina <hi rend="small-caps">Bolzoni</hi>, Vittorio <hi rend="small-caps">Erlindo</hi> et Marcello <hi rend="small-caps">Morelli</hi> (éd.), <hi rend="italic">Memoria e
+          memorie. Convegno international di studi, Roma, 18-19 maggio 1995,
+          Accademia Nazionale dei Lincei</hi>, Florence, Leo S.
+          Olschki.</bibl>
+          <bibl xml:id="d1e2302">
+            <hi rend="small-caps">Bretin-Chabrol</hi>,
+          2012 : Marine <hi rend="small-caps">Bretin-Chabrol</hi>, <hi rend="italic">L’arbre et la lignée. Métaphores végétales de la
+          filiation et de l’alliance en latin classique</hi>, Grenoble, Jérôme
+          Million.</bibl>
+          <bibl xml:id="d1e2312">
+            <hi rend="small-caps">Brioist</hi>, 2002 :
+          Pascal <hi rend="small-caps">Brioist</hi>, « Les savoirs
+          scientifiques », <hi rend="italic">Revue d’histoire
+          moderne &amp; contemporaine</hi>, 49, 4bis, 5, p. 52-80.</bibl>
+          <bibl xml:id="d1e2322">
+            <hi rend="small-caps">Brioist</hi>, 2007 :
+          Pascal <hi rend="small-caps">Brioist</hi>, « Les sciences et
+          l’expérimentation à la Renaissance », <hi rend="italic">Atala</hi>,
+          10, p. 31-46.</bibl>
+          <bibl xml:id="d1e2332">
+            <hi rend="small-caps">Busse Berger </hi>et
+          <hi rend="small-caps">Rossi</hi>, 2009 : Anna Maria <hi rend="small-caps">Busse Berger </hi>et Massimiliano <hi rend="small-caps">Rossi</hi> (éd), <hi rend="italic">Memory and
+          Invention. Medieval and Renaissance Literature, Art and Music</hi>,
+          Florence, Leo S. Olschki.</bibl>
+          <bibl xml:id="d1e2348">
+            <hi rend="small-caps">Cammarosano</hi>,
+          1991 : Paolo <hi rend="small-caps">Cammarosano</hi>, <hi rend="italic">Italia medievale : struttura e geografia delle fonti
+          scritte</hi>, Roma, Carocci.</bibl>
+          <bibl xml:id="d1e2358">
+            <hi rend="small-caps">Carruthers</hi>, 1990
+          (2002) : Mary <hi rend="small-caps">Carruthers</hi>, <hi rend="italic">Le livre de la mémoire</hi>, <hi rend="italic">La
+          mémoire dans la culture médiévale</hi>, trad. fr. Diane Meur,
+          Paris, Macula.</bibl>
+          <bibl xml:id="d1e2371">
+            <hi rend="small-caps">Carruthers</hi>, 1998
+          (2002) : Mary <hi rend="small-caps">Carruthers</hi>, Machina
+          memorialis. <hi rend="italic">Méditation, rhétorique et
+          fabrication des images au Moyen Âge</hi>, trad. fr. Fabienne
+          Durand-Bogaert, Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e2381">
+            <hi rend="small-caps">Carruthers</hi>, 2010 :
+          Mary <hi rend="small-caps">Carruthers</hi>, « How to make a
+          Composition. Memory-Craft in Antiquity and in the Middle Ages »,
+          dans Susannah Radstone et Bill Schwarz (éd.) <hi rend="italic">Memory: Histories, Theories, Debates</hi>, New York,
+          Fordham University Press, p. 15-29.</bibl>
+          <bibl xml:id="d1e2391">
+            <hi rend="small-caps">Chartier</hi>, 1981 :
+          Roger <hi rend="small-caps">Chartier</hi>, « L’ancien régime
+          typographique : réflexions sur quelques travaux récents », <hi rend="italic">Annales. Économies, Sociétés, Civilisations</hi>, 36,
+          2, p. 191-209.</bibl>
+          <bibl xml:id="d1e2401">
+            <hi rend="small-caps">Chartier</hi>, 2015 :
+          Roger <hi rend="small-caps">Chartier</hi>, <hi rend="italic">La main
+          de l'auteur et l'esprit de l'imprimeur. xvi</hi>
+            <hi rend="italic">ᵉ</hi>
+            <hi rend="italic">-</hi>
+            <hi rend="small-caps italic">xviii</hi>
+            <hi rend="italic">ᵉ</hi>
+            <hi rend="italic"> siècle</hi>, Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e2422">
+            <hi rend="small-caps">Dahan</hi>, 1990 :
+          Gilbert <hi rend="small-caps">Dahan</hi>, « Les classifications du
+          savoir aux <hi rend="small-caps">xii</hi>
+            <hi rend="sup">e</hi> et
+          <hi rend="small-caps">xiii</hi>
+            <hi rend="sup">e</hi> siècles », <hi rend="italic">L’enseignement philosophique</hi>, 40, 2,
+          p. 5-27.</bibl>
+          <bibl xml:id="d1e2442">
+            <hi rend="small-caps">Déotte</hi>, 2008 :
+          Jean-Louis <hi rend="small-caps">Déotte</hi>, « Présentation », <hi rend="italic">Appareil</hi>, 1, <ref target="http://journals.openedition.org/appareil/140">
+              <hi rend="underline">http://journals.openedition.org/appareil/140</hi>
+            </ref>.</bibl>
+          <bibl xml:id="d1e2456">
+            <hi rend="small-caps">Doležalová</hi>,
+          2010 : Lucie <hi rend="small-caps">Doležalová </hi>(éd.), <hi rend="italic">The Making of Memory in the Middle Ages</hi>, Leyde,
+          Brill.</bibl>
+          <bibl xml:id="d1e2466">
+            <hi rend="small-caps">Eco</hi>, 2007 (2010) :
+          Umberto <hi rend="small-caps">Eco</hi>, <hi rend="italic">De l’arbre
+          au labyrinthe. Études historiques sur le signe et
+          l’interprétation</hi>, trad. fr. Hélène Sauvage, Paris,
+          Grasset.</bibl>
+          <bibl xml:id="d1e2476">
+            <hi rend="small-caps">Eliade</hi>, 1940 :
+          Mircea <hi rend="small-caps">Eliade</hi>, <hi rend="italic">Traité
+          d’histoire des religions</hi>, Paris, Payot.</bibl>
+          <bibl xml:id="d1e2486">
+            <hi rend="small-caps">Eliade</hi>, 1949 :
+          Mircea <hi rend="small-caps">Eliade</hi>, <hi rend="italic">Le Mythe
+          de l’éternel retour, </hi>Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e2496">
+            <hi rend="small-caps">Eliade</hi>, 1952 :
+          Mircea <hi rend="small-caps">Eliade</hi>,<hi rend="italic"> Images
+          et symboles. Essais sur le symbolisme magico-religieux</hi>, Paris,
+          Gallimard.</bibl>
+          <bibl xml:id="d1e2506">
+            <hi rend="small-caps">Esmeijer</hi>, 1978 :
+          Anna <hi rend="small-caps">Esmeijer</hi>, Divina Quaternitas<hi rend="italic">. A preliminary study in the method and application of
+          visual exegesis</hi>, Assen, Van Gorcum et comp.</bibl>
+          <bibl xml:id="d1e2516">
+            <hi rend="small-caps">Evans</hi>, 1980
+          (2012) : Michael <hi rend="small-caps">Evans</hi>, « The geometry of
+          the Mind », <hi rend="italic">Architectural Association
+          Quarterly</hi>, 12, 4, 1980, p. 32-55, réed. « The geometry of the
+          Mind : Blog post », <hi rend="italic">She Philosopher. Studies in
+          the history of science and culture</hi>, 21 août 2012, consulté le 6
+          avril 2021, <ref target="https://she-philosopher.com/library/evans_Pt2.html">
+              <hi rend="underline">https://she-philosopher.com/library/evans_Pt2.html</hi>
+            </ref>.</bibl>
+          <bibl xml:id="d1e2533">
+            <hi rend="small-caps">Even-Ezra</hi>, 2019 :
+          Ayelet <hi rend="small-caps">Even-Ezra</hi>, « <hi rend="italic">Listes et diagrammes scolastiques : Une première
+          approche de leurs mises en page, thèmes et fonctions</hi> », dans
+          Claire Angotti <hi rend="italic">et al</hi>. (éd.), <hi rend="italic">Le pouvoir des listes au Moyen Âge - </hi>
+            <hi rend="capitale">i</hi>
+            <hi rend="italic"> : Écritures de la
+          liste</hi>, Paris, Éditions de la Sorbonne, p. 91-116.</bibl>
+          <bibl xml:id="d1e2553">
+            <hi rend="small-caps">Even-Ezra</hi>, 2021 :
+          Ayelet <hi rend="small-caps">Even-Ezra</hi>, <hi rend="italic">Lines
+          of Thought. Branching diagrams and the Medieval Mind</hi>, Chicago,
+          The University of Chicago Press.</bibl>
+          <bibl xml:id="d1e2564">
+            <hi rend="small-caps">Ferri</hi>, 2020 :
+          Fabien <hi rend="small-caps">Ferri</hi>, « La diagrammatologie comme
+          phénoménologie de la connaissance pratique : introduction à
+          l’ingénierie sémiotique des systèmes diagrammatiques
+          (Communication) », Besançon, <ref target="https://hal.archives-ouvertes.fr/hal-02988809">
+              <hi rend="underline">https://hal.archives-ouvertes.fr/hal-02988809</hi>
+            </ref>.</bibl>
+          <bibl xml:id="d1e2575">
+            <hi rend="small-caps">Ferri</hi>, 2021 :
+          Fabien <hi rend="small-caps">Ferri</hi>, « Le langage diagrammatique
+          au-delà de la différence phénoménologique », dans Luciano Boi et
+          Carlos Lobo (éd.), <hi rend="italic">Quand la forme devient
+          substance</hi>, Bâle, Birkhäuser.</bibl>
+          <bibl xml:id="d1e2585">
+            <hi rend="small-caps">Foucault</hi>, 1969 :
+          Michel <hi rend="small-caps">Foucault</hi>, <hi rend="italic">L’archéologie du savoir</hi>, Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e2595">
+            <hi rend="small-caps">Frijhoff</hi>, 1994 :
+          Willem <hi rend="small-caps">Frijhoff</hi>, « La circulation des
+          hommes de savoir. Pôles, institutions, flux, volumes », dans Hans
+          Bots et Françoise Waquet (éd.), <hi rend="italic">Commercium
+          Litterarium, la communication dans la République des lettres,
+          1600-1750</hi>, Amsterdam, Holland University Press, 1994,
+          p. 228-258.</bibl>
+          <bibl xml:id="d1e2605">
+            <hi rend="small-caps">Guiderdoni</hi>, à
+          paraitre : Agnès <hi rend="small-caps">Guiderdoni</hi>, « Autour de
+          la métaphorologie de Hans Blumenberg », <hi rend="italic">GEMCA :
+          Papers in Progress</hi>, 5, <ref target="https://uclouvain.be/fr/instituts-recherche/incal/gemca/papers-in-progress.html">
+              <hi rend="underline">https://uclouvain.be/fr/instituts-recherche/incal/gemca/papers-in-progress.html</hi>
+            </ref>.</bibl>
+          <bibl xml:id="d1e2619">
+            <hi rend="small-caps">Hadot</hi>, 2014 :
+          Pierre Hadot, <hi rend="italic">Discours et mode de vie
+          philosophique</hi>, Paris, Les Belles Lettres.</bibl>
+          <bibl xml:id="d1e2626">
+            <hi rend="small-caps">Harðarson</hi>, 2015 :
+          Gunnar <hi rend="small-caps">Harðarson</hi>, « <hi rend="italic">Divisio philosophiae </hi>in the Medieval Icelandic
+          Manuscript GKS 1812 4o », <hi rend="italic">Cahiers de l’Institut du
+          Moyen Âge grec et latin</hi>, 84, p. 1-21.</bibl>
+          <bibl xml:id="d1e2639">
+            <hi rend="small-caps">Hébrard</hi>, 2001 :
+          Jean <hi rend="small-caps">Hébrard</hi>, « Du <hi rend="italic">codex</hi> au multimédia : révolutions technologiques,
+          révolutions intellectuelles », <hi rend="italic">Essaim</hi>, 7, 1,
+          p. 103-114.</bibl>
+          <bibl xml:id="d1e2652">
+            <hi rend="small-caps">Karnes</hi>, 2011 :
+          Michelle <hi rend="small-caps">Karnes</hi>, <hi rend="italic">Imagination, Meditation, and Cognition in the Middle
+          Ages</hi>, Chicago, University of Chicago Press.</bibl>
+          <bibl xml:id="d1e2662">
+            <hi rend="small-caps">Katzenellenbogen</hi>,
+          1939 : Adolf <hi rend="small-caps">Katzenellenbogen</hi>, <hi rend="italic">Allegories of the Virtues and Vices in Medieval Art
+          from Early Christian Times to the Thirteenth Century</hi>, Londres,
+          Warburg Institute.</bibl>
+          <bibl xml:id="d1e2672">
+            <hi rend="small-caps">Klapisch-Zuber</hi>,
+          2000 : Christiane <hi rend="small-caps">Klapisch-Zuber</hi>, <hi rend="italic">L’ombre des ancêtres. Essai sur l’imaginaire médiéval
+          de la parenté</hi>, Paris, Fayard.</bibl>
+          <bibl xml:id="d1e2683">
+            <hi rend="small-caps">Klapisch-Zuber</hi>,
+          2009 : Christiane <hi rend="small-caps">Klapisch-Zuber</hi>, « De la
+          nature végétale de l’arbre généalogique », dans Agostino Paravicini
+          Bagliani (éd.), <hi rend="italic">Le Monde végétal : médecine,
+          botanique, symbolique</hi>, Florence, Edizioni del Galluzzo.</bibl>
+          <bibl xml:id="d1e2693">
+            <hi rend="small-caps">Koyré</hi>, 1939
+          (1966) : Alexandre <hi rend="small-caps">Koyré</hi>, <hi rend="italic">Études galiléennes</hi>, Paris, Hermann.</bibl>
+          <bibl xml:id="d1e2703">
+            <hi rend="small-caps">Koyré</hi>, 1957 :
+          Alexandre <hi rend="small-caps">Koyré</hi>, <hi rend="italic">From
+          the closed World to the infinite Universe</hi>, Baltimore, The John
+          Hopkins Press.</bibl>
+          <bibl xml:id="d1e2713">
+            <hi rend="small-caps">Koyré</hi>, 1957
+          (1962) : Alexandre <hi rend="small-caps">Koyré</hi>, <hi rend="italic">Du monde clos à l’univers infini</hi>, trad. fr.
+          Raïssa Tarr, Paris, Presses universitaires de France.</bibl>
+          <bibl xml:id="d1e2723">
+            <hi rend="small-caps">Kuhn</hi>, 1962 :
+          Thomas <hi rend="small-caps">Kuhn</hi>, <hi rend="italic">The
+          Structures of Scientific Revolutions</hi>, Chicago, University of
+          Chicago Press.</bibl>
+          <bibl xml:id="d1e2733">
+            <hi rend="small-caps">Lakoff</hi> et <hi rend="small-caps">Johnson</hi>, 1980 (1986) : George <hi rend="small-caps">Lakoff</hi> et Mark <hi rend="small-caps">Johnson</hi>, Les métaphores dans la vie
+          quotidienne, trad. fr. Michel de Fornel, Paris, Les Éditions de
+          Minuit.</bibl>
+          <bibl xml:id="d1e2746">
+            <hi rend="small-caps">Littré</hi>,
+          1872-1877 : Émile <hi rend="small-caps">Littré</hi>, <hi rend="italic">Dictionnaire de la langue française (1872-1877)</hi>,
+          Paris, Hachette.</bibl>
+          <bibl xml:id="d1e2756">
+            <hi rend="small-caps">Maire Vigueur</hi>,
+          1995 : Jean-Claude <hi rend="small-caps">Maire Vigueur</hi>,
+          « Révolution documentaire et révolution scripturaire : le cas de
+          l’Italie Médiévale. Note critique », Bibliothèque de l’<hi rend="italic">École des Chartes</hi>, 153, 1, p. 177-185.</bibl>
+          <bibl xml:id="d1e2766">
+            <hi rend="small-caps">Mitchell</hi>, 1981 :
+          William <hi rend="small-caps">Mitchell</hi>, « Diagrammatology »,
+          <hi rend="italic">Critical Inquiry</hi>, 7, 3, 1981,
+          p. 622-633.</bibl>
+          <bibl xml:id="d1e2776">
+            <hi rend="small-caps">Mozin</hi> et al.,
+          1826 : Dominique-Joseph <hi rend="small-caps">Mozin</hi>
+            <hi rend="italic">et al</hi>., <hi rend="italic">Nouveau dictionnaire
+          complet à l’usage des Allemands et des Français composé d’après les
+          meilleurs dictionnaires de langues, d’arts ou de sciences qui ont
+          paru jusqu’à ce jour</hi>, Stuttgart-Tübingen-Paris, Johann
+          Friedrich Cotta.</bibl>
+          <bibl xml:id="d1e2789">
+            <hi rend="small-caps">Nanni</hi>, 2021 :
+          Matteo <hi rend="small-caps">Nanni</hi>, « Notation practices in the
+          9<hi rend="sup">th</hi> and the 10<hi rend="sup">th</hi> centuries:
+          Diagrammatological observations (Communication) »,
+          Louvain-la-Neuve.</bibl>
+          <bibl xml:id="d1e2803">
+            <hi rend="small-caps">Riché</hi> et <hi rend="small-caps">Verger</hi>, 2006 : Pierre <hi rend="small-caps">Riché</hi> et Jacques <hi rend="small-caps">Verger</hi>, <hi rend="italic">Maîtres et élèves
+          au Moyen Âge</hi>, Paris, Tallandier.</bibl>
+          <bibl xml:id="d1e2819">
+            <hi rend="small-caps">Rivers</hi>, 2010 :
+          Kimberly <hi rend="small-caps">Rivers</hi>, <hi rend="italic">Preaching the Memory of Virtue and Vice. Memory,
+          Images, and Preaching in the Late Middle Ages</hi>, Turnhout,
+          Brepols.</bibl>
+          <bibl xml:id="d1e2829">
+            <hi rend="small-caps">Rossi</hi>, 1960
+          (1993) : Paolo <hi rend="small-caps">Rossi</hi>, Clavis
+          universalis<hi rend="italic">. Arts de la mémoire, logique
+          combinatoire et langue universelle de Lulle à Leibniz</hi>,
+          trad. fr. Patrick Vighetti, Grenoble, Éditions Jérôme
+          Million.</bibl>
+          <bibl xml:id="d1e2839">
+            <hi rend="small-caps">Rouse</hi>, 1981 :
+          Richard <hi rend="small-caps">Rouse</hi>, « L’évolution des
+          attitudes envers l’autorité écrite : le développement des
+          instruments de travail au <hi rend="small-caps">xiii</hi>
+            <hi rend="sup">e</hi> siècle », dans Geneviève Hasenorh et Jean Longère
+          (éd.), <hi rend="italic">Culture et travail intellectuel dans
+          l’Occident médiéval</hi>, Paris, CNRS, p. 115-144.</bibl>
+          <bibl xml:id="d1e2854">
+            <hi rend="small-caps">Schadt</hi>, 1982 :
+          Hermann <hi rend="small-caps">Schadt</hi>, <hi rend="italic">Die
+          Darstellungen der </hi>Arbores Consanguinitatis<hi rend="italic"/>
+            <hi rend="italic">und der </hi>Arbores Affinitati<hi rend="italic">s</hi>, Tübingen, Wasmuth.</bibl>
+          <bibl xml:id="d1e2872">
+            <hi rend="small-caps">Schapiro</hi>, 2000
+          (2011) : Meyer <hi rend="small-caps">Schapiro</hi>, <hi rend="italic">Les Mots et les Images. Littéralité et symbolisme
+          dans l’illustration d’un texte</hi>, Paris, Macula.</bibl>
+          <bibl xml:id="d1e2882">
+            <hi rend="small-caps">Sgarbi</hi>, 2016 :
+          Marco <hi rend="small-caps">Sgarbi</hi>, « Francesco Robortello’s
+          Rhetoric. On the Orator and his Arguments », <hi rend="italic">Rhetorica: A Journal of the History of Rhetoric</hi>,
+          34, 3, p. 243-267.</bibl>
+          <bibl xml:id="d1e2892">
+            <hi rend="small-caps">Simondon</hi>, 1982 :
+          Michèle <hi rend="small-caps">Simondon</hi>, <hi rend="italic">La
+          mémoire et l’oubli dans la pensée grecque jusqu’à la fin du
+          </hi>
+            <hi rend="small-caps italic">v</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic">siècle avant
+          Jésus-Christ</hi>, Paris, Les Belles Lettres.</bibl>
+          <bibl xml:id="d1e2909">
+            <hi rend="small-caps">Verboon</hi>, 2008 :
+          Annemieke <hi rend="small-caps">Verboon</hi>, « Einen alten Baum
+          verpflantzt man nicht: Die Metapher des Porphyrianischen Baums im
+          Mittelalter » in Ingeborg Reichele, Steffen Siegel et Achim Spelten
+          (éd.),<hi rend="italic"> Visuelle Modelle</hi>, Munich, Fink.</bibl>
+          <bibl xml:id="d1e2919">
+            <hi rend="small-caps">Verboon</hi>, 2014 :
+          Annemieke <hi rend="small-caps">Verboon</hi>, « The Medieval Tree of
+          Porphyry: An Organic Structure of Logic » in Pippa Salonius et
+          Andrea Worm (éd.), <hi rend="italic">The Tree. Symbol, Allegory, and
+          Mnemonic Device in Medieval Art and Thought</hi>, Turnhout,
+          Brepols.</bibl>
+          <bibl xml:id="d1e2929">
+            <hi rend="small-caps">Verger</hi>, 1999 :
+          Jacques <hi rend="small-caps">Verger</hi>, <hi rend="italic">Culture, enseignement et société en Occident </hi>
+            <hi rend="italic">aux </hi>
+            <hi rend="small-caps italic">xii</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> et </hi>
+            <hi rend="small-caps italic">xiii</hi>
+            <hi rend="sup italic">e </hi>
+            <hi rend="italic">siècles</hi>, Rennes, Presses universitaires de
+          Rennes.</bibl>
+          <bibl xml:id="d1e2955">
+            <hi rend="small-caps">Virenque</hi>, 2019 :
+          Naïs <hi rend="small-caps">Virenque</hi>, « D’une pensée à un art de
+          la mémoire », dans Sylvie Lopez-Jacob et Éric Delassus (éd.), <hi rend="italic">Il pleut sur la ville et je me souviens. Réflexions
+          sur la mémoire</hi>, Paris, L’Harmattan, p. 67-102.</bibl>
+          <bibl xml:id="d1e2965">
+            <hi rend="small-caps">Virenque</hi>, à
+          paraître : Naïs <hi rend="small-caps">Virenque</hi>, « Vers une
+          science diagrammatologique ? Quelques réflexions iconologiques,
+          sémiotiques et terminologiques sur les diagrammes », actes du
+          séminaire « Qu'est-ce qu'un diagramme ? Pour une théorie
+          iconologique, esthétique et sémiotique des figures
+          diagrammatiques », Université Catholique de Louvain,
+          2020-2022.</bibl>
+          <bibl xml:id="d1e2972">
+            <hi rend="small-caps">Weijers</hi>, 1991 :
+          Olga <hi rend="small-caps">Weijers</hi>, <hi rend="italic">Dictionnaires et répertoires au Moyen Âge. Une
+          étude du vocabulaire</hi>, Turnhout, Brepols.</bibl>
+          <bibl xml:id="d1e2982">
+            <hi rend="small-caps">Weijers</hi>, 1996 :
+          Olga <hi rend="small-caps">Weijers</hi>, <hi rend="italic">Le
+          maniement du savoir. Pratiques intellectuelles à l’époque des
+          premières universités (</hi>
+            <hi rend="small-caps italic">xiii</hi>
+            <hi rend="sup">e</hi>-<hi rend="small-caps italic">xiv</hi>
+            <hi rend="sup">e</hi>
+            <hi rend="italic">siècles)</hi>, Turnhout, Brepols.</bibl>
+          <bibl xml:id="d1e3005">
+            <hi rend="small-caps">Wessel</hi> et <hi rend="small-caps">Stumpel</hi>, 1999 : Adriaan <hi rend="small-caps">Wessel</hi> et Jeroen <hi rend="small-caps">Stumpel</hi> (éd.), <hi rend="italic">Memory &amp;
+          oblivion: proceedings of the </hi>
+            <hi rend="small-caps italic">XXIX</hi>
+            <hi rend="italic">th International
+          Congress of the History of Art, held in Amsterdam, 1-7 September
+          1996</hi>, Boston, Kluwer Academic Publishers.</bibl>
+          <bibl xml:id="d1e3025">
+            <hi rend="small-caps">Wetzel</hi> et <hi rend="small-caps">Flückiger</hi>, 2009 : René <hi rend="small-caps">Wetzel</hi> et Fabrice <hi rend="small-caps">Flückiger</hi> (éd.), <hi rend="italic">Au-delà
+          de l’illustration. Texte et image au Moyen Âge, approches
+          méthodologiques et pratiques</hi>, Zürich, Chronos.</bibl>
+          <bibl xml:id="d1e3041">
+            <hi rend="small-caps">Yates</hi>, 1966
+          (1975) : Frances Yates, <hi rend="italic">L’art de la mémoire</hi>,
+          trad. fr. Daniel Arasse, Paris, Gallimard.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>
