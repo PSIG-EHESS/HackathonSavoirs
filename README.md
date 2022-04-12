@@ -8,7 +8,7 @@ Savoirs (http://savoirs.app) est une bibliothèque numérique en accès ouvert c
 
 Le projet est porté par l’EHESS, avec le soutien d’un ensemble de partenaires: LabEx Hastec, FMSH, Enssib, BNU, Laboratoire d’histoire des sciences et des techniques de l’EPFL, OpenEdition, le Pôle Documents numériques de Caen, l’Infrastructure de recherche Métopes, Huma-Num.
 
- À l'occasion du colloque « Lieux de Savoirs », organisé les 12-13 mai <del>21-22 janvier</del> 2022 au Campus Condorcet, l'équipe organise un hackathon pour échanger, expérimenter et pratiquer les humanités numériques, et imaginer ensemble de nouveaux dispositifs pour l’évolution de cette bibliothèque numérique.
+ À l'occasion du colloque « Savoirs », organisé les 12-13 mai <del>21-22 janvier</del> 2022 au Campus Condorcet, l'équipe organise un hackathon pour échanger, expérimenter et pratiquer les humanités numériques, et imaginer ensemble de nouveaux dispositifs pour l’évolution de cette bibliothèque numérique.
 
 Nous encourageons la participation de toutes et tous, étudiants et chercheurs issus des disciplines en sciences humaines et sociales, designers, développeurs informatiques ou encore passionnés du numérique. Nous mettrons à disposition les ressources numériques savantes créées pour l’application Savoirs, comme le thésaurus conceptuel et le corpus de textes taggués en entités nommées et concepts ainsi que les codes sources de l'application.
 
